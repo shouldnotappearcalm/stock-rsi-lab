@@ -1,0 +1,8 @@
+{
+  "trend_window": 10,
+  "pullback_window": 3,
+  "min_pullback": 0.01,
+  "max_pullback": 0.08,
+  "target_weight": 0.10,
+  "max_holding_sessions": 5
+}
