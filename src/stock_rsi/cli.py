@@ -18,6 +18,16 @@ def main(argv=None):
     replay_parser = commands.add_parser("replay", help="verify fixed-response replay and ledger")
     replay_parser.add_argument("--run-dir", required=True)
     replay_parser.add_argument("--output", required=True)
+    compare = commands.add_parser("compare", help="bounded development-only skill-search comparison")
+    compare.add_argument("--dataset", required=True)
+    compare.add_argument("--splits", required=True)
+    compare.add_argument("--split", default="development")
+    compare.add_argument("--budget", type=int, default=2)
+    compare.add_argument("--output", required=True)
+    compare.add_argument("--arms", default="fixed,grid,random,evidence,shuffled")
+    compare.add_argument("--codex-bin", default="codex")
+    compare.add_argument("--model", default="gpt-6.1-sol")
+    compare.add_argument("--agent-timeout", type=float, default=60)
     runner = commands.add_parser("run", help="run an explicit historical range")
     runner.add_argument("--dataset", required=True)
     runner.add_argument("--start", required=True)
@@ -37,6 +47,18 @@ def main(argv=None):
             snapshot = Dataset.load(args.dataset).snapshot(parse_time(args.as_of))
             print(json.dumps({"snapshot_hash": snapshot.sha256, "snapshot": snapshot.to_dict()}, ensure_ascii=False, indent=2))
             return 0
+        if args.command == "compare":
+            from .campaign import CodexProposer, run_campaign
+            arms = tuple(args.arms.split(","))
+            proposer = None
+            if "codex" in arms:
+                from .agents import CodexClient
+                proposer = CodexProposer(CodexClient([args.codex_bin], args.agent_timeout, args.budget, args.model))
+            report = run_campaign(args.dataset, args.splits, args.split, args.budget, args.output, arms, proposer)
+            print(json.dumps({"status": report["status"], "evidence_level": report["evidence_level"],
+                              "arms": {key: {"valid_evaluations": value["valid_evaluations"], "best_metrics": value["best_metrics"]}
+                                       for key, value in report["arms"].items()}}, ensure_ascii=False, indent=2))
+            return 0 if all(value["valid_evaluations"] == args.budget for value in report["arms"].values()) else 2
         if args.command == "replay":
             report = replay(args.run_dir, args.output)
         else:

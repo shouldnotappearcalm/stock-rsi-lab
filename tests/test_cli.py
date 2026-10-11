@@ -32,6 +32,16 @@ class CLITests(unittest.TestCase):
             self.assertEqual(again.returncode, 0, again.stderr)
             self.assertEqual(json.loads(again.stdout)["account"], json.loads(result.stdout)["account"])
 
+    def test_compare_cli_emits_equal_budget_report_and_denies_sealed(self):
+        with tempfile.TemporaryDirectory() as directory:
+            args=['compare','--dataset',str(DATA),'--splits',str(DATA.parent/'synthetic_cn_splits.json'),'--budget','1']
+            result=self.command(*args,'--output',str(Path(directory)/'ok'))
+            self.assertEqual(result.returncode,0,result.stderr)
+            self.assertEqual(len(json.loads(result.stdout)['arms']),5)
+            denied=self.command(*args,'--split','sealed','--output',str(Path(directory)/'denied'))
+            self.assertEqual(denied.returncode,2)
+            self.assertFalse((Path(directory)/'denied').exists())
+
     def test_cli_rejects_naive_time_before_running(self):
         result = self.command("snapshot", "--dataset", str(DATA), "--as-of", "2024-09-27T16:05:00")
         self.assertNotEqual(result.returncode, 0)

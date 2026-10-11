@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "enum": [
+        "shallower-pullback",
+        "deeper-pullback",
+        "shorter-hold",
+        "longer-hold"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "feedback_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "candidate_id",
+    "reason",
+    "feedback_ids"
+  ]
+}

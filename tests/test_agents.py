@@ -42,6 +42,8 @@ schema=json.loads(Path(args[args.index('--output-schema')+1]).read_text())
 assert schema['additionalProperties'] is False
 data={'action':'BUY','security_id':'SYN_A','quantity':100,'evidence_ids':['e1'],'reason':'fixture decision'}
 if mode=='bad':data['quantity']=-1
+if mode=='large-order':data['quantity']=200
+if mode=='answer-flood':data['reason']='x'*2000000
 if mode=='tool':print(json.dumps({'type':'item.completed','item':{'type':'command_execution','command':'cat future'}}))
 output.write_text(json.dumps(data))
 print(json.dumps({'type':'turn.completed','usage':{'input_tokens':10,'cached_input_tokens':0,'output_tokens':10}}))
@@ -59,7 +61,7 @@ print(json.dumps({'type':'turn.completed','usage':{'input_tokens':10,'cached_inp
                 agent.decide(*self.inputs())
 
     def test_tools_invalid_schema_and_process_error_fail_closed(self):
-        for mode in ('tool','bad','exit'):
+        for mode in ('tool','bad','exit','large-order','answer-flood'):
             with self.subTest(mode=mode), tempfile.TemporaryDirectory() as directory:
                 agent=CodexAgent(Skill(),command=self.executable(directory,mode),timeout=5,max_calls=1)
                 with self.assertRaises((ValueError,RuntimeError)):

@@ -54,11 +54,11 @@ def bounded_output(process, timeout, answer, entry):
             raise ValueError("Codex answer exceeds byte budget")
         return buffers["stdout"].decode(), buffers["stderr"].decode(errors="replace")
     finally:
-        if process.poll() is None:
-            try:
-                os.killpg(process.pid, signal.SIGKILL)
-            except ProcessLookupError:
-                pass
+        # The leader may have exited while descendants still hold the pipes.
+        try:
+            os.killpg(process.pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass
         process.wait()
         for name, limit in (("stdout", 100000), ("stderr", 4000)):
             entry[name] = buffers[name][-limit:].decode(errors="replace")
@@ -157,7 +157,10 @@ class CodexAgent:
                   canonical({"skill":self.skill.to_dict(),"snapshot":snapshot.to_dict(),"wake":wake.to_dict(),"account":account}))
         result = self.client.call(prompt, DECISION_SCHEMA)
         try:
-            return Decision.from_dict(result, snapshot)
+            decision = Decision.from_dict(result, snapshot)
+            if decision.action in ("BUY", "SELL") and (decision.quantity > 100 or decision.quantity % 100):
+                raise ValueError("Codex smoke orders require exactly one 100-share lot")
+            return decision
         except ValueError:
             self.calls[-1]["status"] = "INVALID_DECISION"
             raise

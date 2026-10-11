@@ -42,10 +42,10 @@ Interfaces: `parse_time(str)->datetime`; `TradingCalendar(sessions)` with
 `next_open(after)` and `is_trading(at)`; `Dataset.load(path)`;
 `Dataset.snapshot(as_of)->Snapshot` with payload and SHA256.
 
-- [ ] Write literal cutoff/holiday/lunch/revision/future-perturbation tests.
-- [ ] Run tests and observe missing implementation failures.
-- [ ] Implement validation, temporal filtering, revision and immutable snapshots.
-- [ ] Run all unittest tests, record evidence, commit.
+- [x] Write literal cutoff/holiday/lunch/revision/future-perturbation tests.
+- [x] Run tests and observe missing implementation failures.
+- [x] Implement validation, temporal filtering, revision and immutable snapshots.
+- [x] Run all unittest tests, record evidence, commit.
 
 ## Task 2: Wake scheduling, decisions and account execution
 
@@ -55,9 +55,9 @@ Interfaces: `schedule(dataset,calendar,start,end,holding)->list[Wake]`;
 `Decision.from_dict(payload,snapshot)`; `Broker.submit(decision,at)`;
 `Broker.on_open(bar)`; `Broker.snapshot()`.
 
-- [ ] Test exact wake timestamps/reasons/dedup, schema and T+1/limit/holiday fills.
-- [ ] Observe RED; implement minimal rules and explicit errors.
-- [ ] Verify real ledger results with Decimal and full suite; commit.
+- [x] Test exact wake timestamps/reasons/dedup, schema and T+1/limit/holiday fills.
+- [x] Observe RED; implement minimal rules and explicit errors.
+- [x] Verify real ledger results with Decimal and full suite; commit.
 
 ## Task 3: Backtest runner, replay, CLI and regression provenance
 
@@ -67,9 +67,9 @@ Files: `runner.py`, `skill.py`, `cli.py`, `__main__.py`,
 Interfaces: `run(dataset_path,config,agent,out_dir)->RunReport`;
 `replay(run_dir,out_dir)->RunReport`; CLI `run`, `snapshot`, `replay`, `compare`.
 
-- [ ] Test hand-derived end-to-end fills, immutable records and request mismatch.
-- [ ] Observe RED, implement and run the complete fixture backtest/replay.
-- [ ] Add schema/provenance docs; full tests and commit.
+- [x] Test hand-derived end-to-end fills, immutable records and request mismatch.
+- [x] Observe RED, implement and run the complete fixture backtest/replay.
+- [x] Add schema/provenance docs; full tests and commit.
 
 ## Task 4: Codex CLI adapter and real-price engineering sample
 
@@ -79,11 +79,11 @@ Files: `agents.py`, `scripts/fetch_real_price_smoke.py`,
 Interfaces: `CodexAgent.decide(snapshot,wake,account)->Decision` with timeout,
 raw events, tool rejection and schema checks; explicit optional live smoke command.
 
-- [ ] Test process/schema/error handling through a local executable fixture.
-- [ ] Observe RED and implement adapter; preserve bounded stdout/errors.
-- [ ] Run actual installed Codex CLI on a historical snapshot, record outcome.
-- [ ] Fetch real-price sample if available, run engineering backtest, label gaps.
-- [ ] Full tests and commit.
+- [x] Test process/schema/error handling through a local executable fixture.
+- [x] Observe RED and implement adapter; preserve bounded stdout/errors.
+- [x] Run actual installed Codex CLI on a historical snapshot, record outcome.
+- [x] Fetch real-price sample if available, run engineering backtest, label gaps.
+- [x] Full tests and commit.
 
 ## Task 5: Bounded improvement campaign and independent review
 
@@ -93,9 +93,9 @@ Files: `campaign.py`, `tests/test_campaign.py`,
 Interfaces: `run_campaign(dataset,split,arms,budget,out_dir)`; restricted skill
 patch validation; complete candidate ledger; sealed data refuses access.
 
-- [ ] Test equal candidate counts, invalid patches, shuffled feedback and test denial.
-- [ ] Observe RED, implement fixed/grid/random/evidence/shuffled controls.
-- [ ] Run offline regression comparison and one Codex proposal smoke.
-- [ ] Full suite, independent code review, fix important findings with RED→GREEN.
-- [ ] Publish repository and final validation/status; no claims of financial efficacy.
+- [x] Test equal candidate counts, invalid patches, shuffled feedback and test denial.
+- [x] Observe RED, implement fixed/grid/random/evidence/shuffled controls.
+- [x] Run offline regression comparison and one Codex proposal smoke.
+- [x] Full suite, independent code review, fix important findings with RED→GREEN.
+- [x] Publish repository and final validation/status; no claims of financial efficacy.
 
