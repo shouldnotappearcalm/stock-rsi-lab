@@ -1,0 +1,79 @@
+{
+  "experiment_id": "a-share-2025-2026-priority",
+  "status": "BLOCKED_DATA_ACCEPTANCE",
+  "as_of": "2026-10-11",
+  "latest_observed_session": "2026-10-09",
+  "month_status": "October 2026 partial month; no future dates included",
+  "price_probe_securities": [
+    "600519",
+    "000001",
+    "601899",
+    "600900",
+    "002594",
+    "600030"
+  ],
+  "universe_status": "ENGINEERING_PROBES_ONLY; historical tradable universe not verified",
+  "data_inventory": "docs/data-inventory-2026-10-11.json",
+  "data_directory": "data/local/coverage-20261011",
+  "warmup": {
+    "history_start": "2024-01-02",
+    "required_prior_sessions": 120,
+    "orders_before_test_start": false
+  },
+  "runs": [
+    {
+      "id": "2025_to_2026_10",
+      "start": "2025-01-01T00:00:00+08:00",
+      "end": "2026-10-09T17:00:00+08:00",
+      "first_session": "2025-01-02",
+      "sessions": 426,
+      "initial_cash": "100000",
+      "initial_positions": {},
+      "independent_account": true
+    },
+    {
+      "id": "2026_01_to_10",
+      "start": "2026-01-01T00:00:00+08:00",
+      "end": "2026-10-09T17:00:00+08:00",
+      "first_session": "2026-01-05",
+      "sessions": 183,
+      "initial_cash": "100000",
+      "initial_positions": {},
+      "independent_account": true
+    }
+  ],
+  "attribution_reports": [
+    {
+      "id": "2025_segment",
+      "source_run": "2025_to_2026_10",
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    {
+      "id": "2026_carryover_segment",
+      "source_run": "2025_to_2026_10",
+      "start": "2026-01-01",
+      "end": "2026-10-09",
+      "initial_positions": "inherited from long run; distinct from independent 2026 account"
+    }
+  ],
+  "comparison_rules": {
+    "frozen_strategy": "Same frozen version for both runs; any development observations must precede 2025-01-01",
+    "online_evolution": "Separate prequential arm; proposals can use only records and realized feedback available before that checkpoint",
+    "search_budget": "To be registered before strategy evaluations; failed proposals consume attempts",
+    "overlapping_windows": "Dependent results; do not count as two independent efficacy tests"
+  },
+  "required_before_formal_backtest": [
+    "Verified historical universe and security identities, including exits",
+    "Corporate-action ledger and signal/execution price-basis separation",
+    "Historical suspension and valid daily price limits",
+    "Historical fee and explicit slippage assumptions",
+    "Missing-data policy and end-of-period valuation",
+    "PIT fields verified individually; no invented financial/news snapshots"
+  ],
+  "current_blockers": [
+    "BYD raw price discontinuity 2025-07-29 unresolved; do not interpret as a normal -66.94% market return",
+    "Corporate actions are not implemented in current broker",
+    "Price-only six-stock probes do not provide full PIT investment universe or financial/news histories"
+  ]
+}

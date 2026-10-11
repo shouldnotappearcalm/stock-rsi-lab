@@ -1,0 +1,249 @@
+{
+  "as_of": "2026-10-11",
+  "latest_observed_session": "2026-10-09",
+  "evidence_level": "REAL_PRICE_ENGINEERING_ONLY",
+  "calendar_source": "existing a-share-data trade-dates adapter, Sina-first route; raw output saved",
+  "calendar_rows": 668,
+  "periods": {
+    "2025_to_2026_10": {
+      "requested_start": "2025-01-01",
+      "actual_end": "2026-10-09",
+      "sessions": 426,
+      "first_session": "2025-01-02",
+      "last_session": "2026-10-09",
+      "independent_initial_account": true
+    },
+    "2026_ytd": {
+      "requested_start": "2026-01-01",
+      "actual_end": "2026-10-09",
+      "sessions": 183,
+      "first_session": "2026-01-05",
+      "last_session": "2026-10-09",
+      "independent_initial_account": true
+    },
+    "2025_only": {
+      "requested_start": "2025-01-01",
+      "actual_end": "2025-12-31",
+      "sessions": 243,
+      "first_session": "2025-01-02",
+      "last_session": "2025-12-31",
+      "independent_initial_account": false
+    }
+  },
+  "securities": [
+    {
+      "security_id": "600519",
+      "source": "腾讯",
+      "adjustment": "raw",
+      "rows": 668,
+      "start": "2024-01-02",
+      "end": "2026-10-09",
+      "duplicates": 0,
+      "invalid_ohlc_dates": [],
+      "raw_discontinuities": [],
+      "period_coverage": {
+        "2025_to_2026_10": {
+          "rows": 426,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2026_ytd": {
+          "rows": 183,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2025_only": {
+          "rows": 243,
+          "missing_dates": [],
+          "unexpected_dates": []
+        }
+      },
+      "normalized_file_sha256": "891ccd60b745e2d305bc897b9a9f7853cb06fb1cc061412dfd4f55cecae7d670"
+    },
+    {
+      "security_id": "000001",
+      "source": "腾讯",
+      "adjustment": "raw",
+      "rows": 668,
+      "start": "2024-01-02",
+      "end": "2026-10-09",
+      "duplicates": 0,
+      "invalid_ohlc_dates": [],
+      "raw_discontinuities": [],
+      "period_coverage": {
+        "2025_to_2026_10": {
+          "rows": 426,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2026_ytd": {
+          "rows": 183,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2025_only": {
+          "rows": 243,
+          "missing_dates": [],
+          "unexpected_dates": []
+        }
+      },
+      "normalized_file_sha256": "d57d7dfba633ccf4e862d5f3011a98aa6337bfd50581e39a209fdd457833c625"
+    },
+    {
+      "security_id": "601899",
+      "source": "腾讯",
+      "adjustment": "raw",
+      "rows": 668,
+      "start": "2024-01-02",
+      "end": "2026-10-09",
+      "duplicates": 0,
+      "invalid_ohlc_dates": [],
+      "raw_discontinuities": [],
+      "period_coverage": {
+        "2025_to_2026_10": {
+          "rows": 426,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2026_ytd": {
+          "rows": 183,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2025_only": {
+          "rows": 243,
+          "missing_dates": [],
+          "unexpected_dates": []
+        }
+      },
+      "normalized_file_sha256": "3b4956516811c4dd0b4b70078538836973cf27a0a8d42ab56f41ee32ab0abc0b"
+    },
+    {
+      "security_id": "600900",
+      "source": "腾讯",
+      "adjustment": "raw",
+      "rows": 668,
+      "start": "2024-01-02",
+      "end": "2026-10-09",
+      "duplicates": 0,
+      "invalid_ohlc_dates": [],
+      "raw_discontinuities": [],
+      "period_coverage": {
+        "2025_to_2026_10": {
+          "rows": 426,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2026_ytd": {
+          "rows": 183,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2025_only": {
+          "rows": 243,
+          "missing_dates": [],
+          "unexpected_dates": []
+        }
+      },
+      "normalized_file_sha256": "94fae56185c09270680d4aab46555c7dcb8dca8f046324cd2a019fa3abe8e1a5"
+    },
+    {
+      "security_id": "002594",
+      "source": "腾讯",
+      "adjustment": "raw",
+      "rows": 668,
+      "start": "2024-01-02",
+      "end": "2026-10-09",
+      "duplicates": 0,
+      "invalid_ohlc_dates": [],
+      "raw_discontinuities": [
+        {
+          "date": "2025-07-29",
+          "previous_close": 337.0,
+          "close": 111.42,
+          "raw_close_return": -0.6693768545994065,
+          "interpretation": "UNRESOLVED_ACTION_OR_PRICE_ANOMALY; not a verified market return"
+        }
+      ],
+      "period_coverage": {
+        "2025_to_2026_10": {
+          "rows": 426,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2026_ytd": {
+          "rows": 183,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2025_only": {
+          "rows": 243,
+          "missing_dates": [],
+          "unexpected_dates": []
+        }
+      },
+      "normalized_file_sha256": "ed883b682a888bd51a7b7d5776754e2dfce0a9daa87cdf2034e531d3b4a7000e"
+    },
+    {
+      "security_id": "600030",
+      "source": "腾讯",
+      "adjustment": "raw",
+      "rows": 668,
+      "start": "2024-01-02",
+      "end": "2026-10-09",
+      "duplicates": 0,
+      "invalid_ohlc_dates": [],
+      "raw_discontinuities": [],
+      "period_coverage": {
+        "2025_to_2026_10": {
+          "rows": 426,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2026_ytd": {
+          "rows": 183,
+          "missing_dates": [],
+          "unexpected_dates": []
+        },
+        "2025_only": {
+          "rows": 243,
+          "missing_dates": [],
+          "unexpected_dates": []
+        }
+      },
+      "normalized_file_sha256": "8c20f66b7246513a278267d236140cc851f8e596bd8dbf8a17ce193a8fc1f397"
+    }
+  ],
+  "limitations": [
+    "Six surviving large mainboard securities are engineering probes, not a point-in-time universe",
+    "Suspension and legal daily price limits not independently verified",
+    "Corporate actions and total-return accounting incomplete",
+    "Historical arrival times and complete filing/news revisions unavailable",
+    "Volume units unverified"
+  ],
+  "cross_source_check": [
+    {
+      "security_id": "sh600519",
+      "source": "Sina daily Kline",
+      "rows": 1000,
+      "overlap": 668,
+      "close_mismatch_count": 0,
+      "mismatch_examples": [],
+      "first": "2022-08-19",
+      "last": "2026-10-09"
+    },
+    {
+      "security_id": "sz002594",
+      "source": "Sina daily Kline",
+      "rows": 1000,
+      "overlap": 668,
+      "close_mismatch_count": 0,
+      "mismatch_examples": [],
+      "first": "2022-08-19",
+      "last": "2026-10-09"
+    }
+  ],
+  "calendar_provenance_status": "Adapter output verified for coverage; actual successful route not recorded by CLI, not exchange-authoritative certification",
+  "research_ready": false,
+  "acceptance_status": "BLOCKED_CORPORATE_ACTIONS_EXECUTION_RULES_AND_PIT_UNIVERSE"
+}
