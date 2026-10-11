@@ -107,3 +107,5 @@ PYTHONPATH=src python3 -m stock_rsi.priority \
   --plan experiments/a-share-2025-2026.json \
   --engineering --output artifacts/priority-new
 ```
+
+初始投资内核的局限、现金闲置与市场参考见[诊断报告](docs/seed-diagnosis-2026-10-11.md)。

@@ -1,0 +1,22 @@
+{
+  "2025_to_2026_10": {
+    "counts": {
+      "weekly_wakes": 91,
+      "affordable_entry_candidates": 45,
+      "unchosen_entry_candidates": 11,
+      "weekly_signal_stock_wakes": 66,
+      "weekly_signal_blocked_by_lot_budget": 21
+    },
+    "deferred_exit_examples": []
+  },
+  "2026_01_to_10": {
+    "counts": {
+      "weekly_signal_stock_wakes": 26,
+      "weekly_wakes": 39,
+      "affordable_entry_candidates": 20,
+      "unchosen_entry_candidates": 6,
+      "weekly_signal_blocked_by_lot_budget": 6
+    },
+    "deferred_exit_examples": []
+  }
+}
