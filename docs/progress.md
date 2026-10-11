@@ -8,3 +8,6 @@
   runner report→campaign. Stable serialized contracts will be verified per task.
 - Baseline: empty new project; no existing production tests. Standard library chosen.
 
+- Task 1 complete: six time/data behaviors observed RED then GREEN; commit be8d53d.
+- Task 2 complete: six scheduler/decision/account behaviors observed RED then GREEN;
+  full suite 12/12. Execution is next-day morning open, separate from lunch wake.
