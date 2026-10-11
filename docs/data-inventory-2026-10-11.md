@@ -33,3 +33,7 @@
 原始取数与交叉核验代码、标准化输出、source-responses及摘要在
 `data/local/coverage-20261011/`；该目录按现有约定只在本机保留。可核验盘点摘要为
 `docs/data-inventory-2026-10-11.json`，实验范围为`experiments/a-share-2025-2026.json`。
+
+后续执行更新：已按用户要求允许披露假设的工程探索，两个区间已实际跑完，
+见[回测结果](priority-backtest-results-2026-10-11.md)。上面的待准入状态是首次盘点时
+对正式研究的判断，不再作为探索回测的启动阻断。

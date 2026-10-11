@@ -8,6 +8,7 @@ from .data import Dataset, canonical, digest
 from .models import Decision
 from .scheduler import schedule
 from .time import iso, parse_time
+from .verification import verify_run
 
 
 def code_hash():
@@ -43,13 +44,14 @@ def account_view(broker, snapshot, calendar, at):
 
 def run(dataset_path, config, agent, out_dir):
     config = dict(config)
-    allowed = {"start", "end", "initial_cash", "cost_bps"}
+    allowed = {"start", "end", "initial_cash", "cost_bps", "snapshot_bar_limit"}
     if not set(config) <= allowed or not {"start", "end"} <= set(config):
         raise ValueError("invalid run configuration")
     start, end = parse_time(config["start"]), parse_time(config["end"])
     if start > end:
         raise ValueError("start after end")
     data = Dataset.load(dataset_path)
+    data.snapshot(start,bar_limit=config.get('snapshot_bar_limit'))
     if start.astimezone(SHANGHAI).date().isoformat() < data.sessions[0] or end.astimezone(SHANGHAI).date().isoformat() > data.sessions[-1]:
         raise ValueError("run range outside declared exchange calendar")
     out = Path(out_dir)
@@ -101,7 +103,7 @@ def run(dataset_path, config, agent, out_dir):
         wake = item
         if wake.reasons == ("POSITION_CHECK",) and not broker.positions:
             continue
-        snapshot = data.snapshot(at)
+        snapshot = data.snapshot(at,bar_limit=config.get('snapshot_bar_limit'))
         account = account_view(broker, snapshot, calendar, at)
         request = {"snapshot": snapshot.to_dict(), "wake": wake.to_dict(), "account": account, "agent_version": agent.version}
         request_hash = digest(request)
@@ -123,7 +125,7 @@ def run(dataset_path, config, agent, out_dir):
             cassette.append({"request_hash": request_hash, "error": str(exc), "response_hash": digest({"error": str(exc)})})
             entry["error"] = str(exc)
         wake_rows.append(entry)
-    final_snapshot = data.snapshot(end)
+    final_snapshot = data.snapshot(end,bar_limit=config.get('snapshot_bar_limit'))
     final_account = account_view(broker, final_snapshot, calendar, end)
     if any(position["mark_source"] != "VISIBLE_PRICE" for position in final_account["positions"].values()):
         errors.append({"at": iso(end), "stage": "valuation", "error": "unmarked holding"})
@@ -132,6 +134,10 @@ def run(dataset_path, config, agent, out_dir):
               "manifest": manifest, "wakes": wake_rows, "fills": broker.fills, "orders": broker.orders,
               "account": final_account, "errors": errors,
               "agent_calls": getattr(agent, "calls", [])}
+    report['verify_gate']=verify_run(report)
+    if report['status']=='COMPLETED_ENGINEERING' and not report['verify_gate']['exploratory_backtest_allowed']:
+        report['status']='INVALID_VERIFICATION'
+        errors.append({'at':iso(end),'stage':'verification','error':'; '.join(report['verify_gate']['hard_checks']['failures'])})
     manifest["agent_calls_hash"] = digest(report["agent_calls"])
     (out/"cassette.json").write_text(canonical(cassette))
     (out/"report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2, allow_nan=False))
@@ -177,7 +183,7 @@ def replay(run_dir, out_dir):
         raise ValueError("replay agent calls integrity mismatch")
     agent = ReplayAgent(manifest["agent_version"], rows)
     result = run(source/"dataset.json", manifest["config"], agent, out_dir)
-    if agent.index != len(rows) or any(result[key] != report[key] for key in ("status", "wakes", "fills", "orders", "account", "errors")):
+    if agent.index != len(rows) or any(result[key] != report[key] for key in ("status", "wakes", "fills", "orders", "account", "errors", "verify_gate")):
         raise ValueError("replay incomplete or ledger mismatch")
     if any("replay" in error["error"] for error in result["errors"]):
         raise ValueError("replay mismatch")

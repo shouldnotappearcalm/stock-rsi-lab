@@ -1,6 +1,6 @@
 {
   "experiment_id": "a-share-2025-2026-priority",
-  "status": "BLOCKED_DATA_ACCEPTANCE",
+  "status": "EXPLORATORY_COMPLETED",
   "as_of": "2026-10-11",
   "latest_observed_session": "2026-10-09",
   "month_status": "October 2026 partial month; no future dates included",
@@ -63,7 +63,13 @@
     "search_budget": "To be registered before strategy evaluations; failed proposals consume attempts",
     "overlapping_windows": "Dependent results; do not count as two independent efficacy tests"
   },
-  "required_before_formal_backtest": [
+  "results": "artifacts/priority-2025-2026/summary.json",
+  "verify_gate": {
+    "hard_checks": "time/schema/evidence/execution coverage/account conservation/replay",
+    "exploratory_policy": "permit disclosed data assumptions; preserve quality flags and discontinuity exposure",
+    "research_promotion": "not established by these runs"
+  },
+  "required_before_research_promotion": [
     "Verified historical universe and security identities, including exits",
     "Corporate-action ledger and signal/execution price-basis separation",
     "Historical suspension and valid daily price limits",
@@ -71,7 +77,7 @@
     "Missing-data policy and end-of-period valuation",
     "PIT fields verified individually; no invented financial/news snapshots"
   ],
-  "current_blockers": [
+  "research_limitations": [
     "BYD raw price discontinuity 2025-07-29 unresolved; do not interpret as a normal -66.94% market return",
     "Corporate actions are not implemented in current broker",
     "Price-only six-stock probes do not provide full PIT investment universe or financial/news histories"

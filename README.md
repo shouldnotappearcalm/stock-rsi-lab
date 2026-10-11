@@ -94,5 +94,16 @@ read-only、临时cwd和拒绝工具事件只构成工程约束，不等于强OS
 运行结果见[首版验收记录](docs/validation.md)，后续工作见[路线图](docs/roadmap.md)。
 
 重点真实回测范围已登记为2025-01至2026-10、2026-01至2026-10，当前数据截止10-09。
-新取得6只主板原价样本；公司行动、历史交易状态和投资域仍待验收，尚未生成正式收益。
+新取得6只主板原价样本；已完成两个重点区间的冻结规则探索回测；公司行动、历史交易状态和投资域限制随结果标注。
 详见[实际数据盘点](docs/data-inventory-2026-10-11.md)和[实验声明](experiments/a-share-2025-2026.json)。
+
+[2025—2026与2026单独回测结果](docs/priority-backtest-results-2026-10-11.md)：
+两个独立10万元账户，6只股票诊断样本；目前为冻结seed基线，未做RSI效果声明。
+
+复现（输出目录须不存在）：
+```bash
+PYTHONPATH=src python3 -m stock_rsi.priority \
+  --capture-dir data/local/coverage-20261011 \
+  --plan experiments/a-share-2025-2026.json \
+  --engineering --output artifacts/priority-new
+```

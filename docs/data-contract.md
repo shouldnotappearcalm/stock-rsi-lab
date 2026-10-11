@@ -34,3 +34,7 @@ split registry按development→validation→sealed排序，区间不可重叠。
 2026-10-11后续盘点：已新增6只主板2024-01-02至2026-10-09原价工程样本，
 重点2025—2026与2026单独区间已登记；仍非完整PIT。覆盖、双源抽查和断点见
 [data-inventory-2026-10-11.md](data-inventory-2026-10-11.md)。
+
+VerifyGate采用两层协议：结构/时间/账本硬错误拒绝执行；未验收的数据假设明确
+记录到report.verify_gate.warnings，允许工程探索。正式研究晋级另行验证，
+不会用数据不足阻止所有试跑，也不会把工程完成自动转为投资有效。

@@ -92,12 +92,27 @@ class Dataset:
     def calendar(self):
         return TradingCalendar(list(self.sessions))
 
-    def snapshot(self, as_of: datetime) -> Snapshot:
+    def snapshot(self, as_of: datetime, bar_limit=None) -> Snapshot:
         as_of = parse_time(as_of)
+        if bar_limit is not None and (type(bar_limit) is not int or bar_limit<1):
+            raise ValueError('positive snapshot bar limit required')
         latest = {}
         for record in sorted(self.records, key=lambda row: (row.available_at, row.record_id)):
             if record.available_at <= as_of:
                 latest[record.fact_key] = record
-        rows = [record.to_dict() for record in sorted(latest.values(), key=lambda row: (row.available_at, row.record_id))]
+        selected=list(latest.values())
+        if bar_limit is not None:
+            groups={}
+            for record in selected:
+                if record.kind=='bar':
+                    groups.setdefault(record.security_id,[]).append(record)
+            kept={record.record_id for record in selected if record.kind!='bar'}
+            for records in groups.values():
+                records.sort(key=lambda row: json.loads(row.payload_json)['trade_date'])
+                active=[row for row in records if not json.loads(row.payload_json).get('suspended',False)]
+                cutoff=json.loads((active[-bar_limit] if len(active)>=bar_limit else records[0]).payload_json)['trade_date']
+                kept.update(row.record_id for row in records if json.loads(row.payload_json)['trade_date']>=cutoff)
+            selected=[row for row in selected if row.record_id in kept]
+        rows = [record.to_dict() for record in sorted(selected, key=lambda row: (row.available_at, row.record_id))]
         return Snapshot(canonical({"dataset_id": self.dataset_id, "evidence_level": self.evidence_level,
                                    "as_of": iso(as_of), "records": rows}))

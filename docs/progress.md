@@ -35,3 +35,12 @@
   Cost if mistaken for efficacy: tiny synthetic windows can encourage false investment claims.
 - Final runs and review evidence: docs/validation.md. Publish as independent local Git repo;
   retain data/local and artifacts locally, no remote push or broker connection.
+
+- User priority update: run exploratory 2025—2026.10 and 2026 independently first.
+- Two-level gate implemented: correctness errors fail; research data assumptions annotate
+  exploratory results and cannot establish efficacy. Negative return alone is not failure.
+- Added causality-preserving compact snapshots; recent active bars retained per security.
+- 50 regressions pass; independent review accounting-conservation finding fixed/rechecked.
+- Actual frozen-seed runs: 426/183 sessions, 68/28 fills, final equities 100285.47/100186.26.
+- 621/263 wake snapshots; both fixed-response replays completed with matching ledgers.
+- No holding/fill exposure at known BYD raw discontinuity; other actions remain unmodeled.

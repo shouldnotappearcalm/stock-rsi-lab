@@ -72,7 +72,7 @@ def main(argv=None):
                          "initial_cash": args.initial_cash, "cost_bps": args.cost_bps}, agent, args.output)
         summary = {"status": report["status"], "dataset": report["manifest"]["dataset_id"],
                    "evidence_level": report["manifest"]["evidence_level"], "wakes": len(report["wakes"]),
-                   "fills": len(report["fills"]), "account": report["account"], "errors": report["errors"]}
+                   "fills": len(report["fills"]), "account": report["account"], "errors": report["errors"], "verify_gate": report["verify_gate"]}
         print(json.dumps(summary, ensure_ascii=False, indent=2))
         return 0 if report["status"] == "COMPLETED_ENGINEERING" else 2
     except (ValueError, OSError, RuntimeError) as exc:
