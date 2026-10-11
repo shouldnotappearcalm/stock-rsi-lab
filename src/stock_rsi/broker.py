@@ -49,6 +49,10 @@ class Broker:
                  "security_id": decision.security_id, "action": decision.action,
                  "quantity": decision.quantity, "submitted_at": iso(at),
                  "eligible_at": iso(eligible) if eligible else None, "status": status}
+        if status == "PENDING":
+            for previous in self.orders:
+                if previous["status"] == "PENDING" and previous["security_id"] == decision.security_id:
+                    previous["status"] = "SUPERSEDED_BY_NEW_INTENT"
         self.orders.append(order)
         return order.copy()
 

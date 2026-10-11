@@ -25,6 +25,7 @@ def visible_prices(snapshot):
 
 def account_view(broker, snapshot, calendar, at):
     view = broker.snapshot(visible_prices(snapshot))
+    view["pending_orders"] = [order.copy() for order in broker.orders if order["status"] == "PENDING"]
     today = at.astimezone(SHANGHAI).date()
     for security, position in view["positions"].items():
         first = min(lot["bought_on"] for lot in broker.positions[security])

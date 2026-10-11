@@ -29,6 +29,7 @@ def main(argv=None):
     runner.add_argument("--agent", choices=("rule", "codex"), default="rule")
     runner.add_argument("--max-agent-calls", type=int, default=3)
     runner.add_argument("--agent-timeout", type=float, default=90)
+    runner.add_argument("--model", default="gpt-6.1-sol")
     args = parser.parse_args(argv)
     try:
         if args.command == "snapshot":
@@ -43,7 +44,7 @@ def main(argv=None):
                 agent = RuleAgent(skill)
             else:
                 from .agents import CodexAgent
-                agent = CodexAgent(skill, max_calls=args.max_agent_calls, timeout=args.agent_timeout)
+                agent = CodexAgent(skill, max_calls=args.max_agent_calls, timeout=args.agent_timeout, model=args.model)
             report = run(args.dataset, {"start": args.start, "end": args.end,
                          "initial_cash": args.initial_cash, "cost_bps": args.cost_bps}, agent, args.output)
         summary = {"status": report["status"], "dataset": report["manifest"]["dataset_id"],

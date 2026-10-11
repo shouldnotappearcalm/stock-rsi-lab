@@ -89,6 +89,14 @@ class ScheduleBrokerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             broker.on_open({"security_id": "SYN_A", "trade_date": "2024-09-30", "suspended": False})
 
+    def test_repeated_nontrading_wakes_replace_unfilled_intent(self):
+        broker = Broker(self.calendar, initial_cash="5000", cost_bps="20")
+        broker.submit(decision("BUY"), parse_time("2024-09-27T17:00:00+08:00"))
+        broker.submit(decision("BUY"), parse_time("2024-09-28T11:00:00+08:00"))
+        fills = broker.on_open(bar("2024-09-30"))
+        self.assertEqual(len(fills), 1)
+        self.assertEqual(broker.snapshot()["positions"]["SYN_A"]["quantity"], 100)
+
 
 if __name__ == '__main__':
     unittest.main()

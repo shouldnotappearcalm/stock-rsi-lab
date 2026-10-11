@@ -17,3 +17,10 @@
 - Task 3 complete: 9 runner/CLI behaviors RED→GREEN; full suite 21/21.
 - Real source probe: Tencent raw day returned 58 rows for 600519 2024Q1;
   volume unit and PIT/corporate actions remain unverified, engineering-only.
+- Task 4 runtime finding: CLI 0.139 ignores user config then falls back to unsupported
+  gpt-5.4 under ChatGPT auth. Local config/model cache and official docs identify
+  gpt-6.1-sol; adapter now passes model explicitly and includes it in run identity.
+- Task 4 tests: subprocess schema, tool rejection, errors, timeout, call budget,
+  explicit model, raw-only import all RED→GREEN; full suite 28/28.
+- Task 4 additional regression: repeated holiday wakes supersede unfilled same-symbol
+  intents; previously they accumulated two fills. Reproduced then fixed.
