@@ -24,3 +24,14 @@
   explicit model, raw-only import all RED→GREEN; full suite 28/28.
 - Task 4 additional regression: repeated holiday wakes supersede unfilled same-symbol
   intents; previously they accumulated two fills. Reproduced then fixed.
+
+- Task 4 actual success: bundled CLI 0.159.0-alpha.12.1 supports this account/model;
+  snapshot decision and bounded skill proposal each completed, with usage and raw events.
+- Task 5 complete: fixed/grid/random/evidence/shuffled equal attempts; optional Codex;
+  invalid proposals consume slots; development export/registry guards; 43/43 tests.
+- Independent review: all material temporal, missingness, replay, subprocess and feedback
+  findings reproduced or checked, fixed and re-reviewed; no outstanding important findings.
+- Ruling: seed-relative four-patch catalog is a first engineering search, not recursive RSI.
+  Cost if mistaken for efficacy: tiny synthetic windows can encourage false investment claims.
+- Final runs and review evidence: docs/validation.md. Publish as independent local Git repo;
+  retain data/local and artifacts locally, no remote push or broker connection.

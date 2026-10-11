@@ -1,0 +1,3062 @@
+{
+  "date": "2026-10-11",
+  "objective": "从多个工程提炼组件，组合新的美股/A股模块化RSI项目",
+  "clone_root": "/private/tmp/rsi-finance-audit-20261011",
+  "repositories": [
+    {
+      "name": "ModularRSI",
+      "origin": "https://github.com/IQuestLab/ModularRSI",
+      "path": "/private/tmp/rsi-finance-audit-20261011/ModularRSI",
+      "sha": "b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9",
+      "tracked_clean": true,
+      "tracked_files": 3252
+    },
+    {
+      "name": "TraderHarness",
+      "origin": "https://github.com/HephaestLab/TraderHarness",
+      "path": "/private/tmp/rsi-finance-audit-20261011/TraderHarness",
+      "sha": "3e18369da5a2060f9c65b27c2a63f99edd93e167",
+      "tracked_clean": true,
+      "tracked_files": 617
+    },
+    {
+      "name": "TradingAgents",
+      "origin": "https://github.com/TauricResearch/TradingAgents",
+      "path": "/private/tmp/rsi-finance-audit-20261011/TradingAgents",
+      "sha": "1394a3f72aa4393e1a98f51b382434c4b4c2d972",
+      "tracked_clean": true,
+      "tracked_files": 208
+    },
+    {
+      "name": "RD-Agent",
+      "origin": "https://github.com/microsoft/RD-Agent",
+      "path": "/private/tmp/rsi-finance-audit-20261011/RD-Agent",
+      "sha": "484776c211e4fbbeef03e0ec00d6bbee7362a4f4",
+      "tracked_clean": true,
+      "tracked_files": 920
+    },
+    {
+      "name": "qlib",
+      "origin": "https://github.com/microsoft/qlib",
+      "path": "/private/tmp/rsi-finance-audit-20261011/qlib",
+      "sha": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+      "tracked_clean": true,
+      "tracked_files": 643
+    },
+    {
+      "name": "AgentQuant",
+      "origin": "https://github.com/OnePunchMonk/AgentQuant",
+      "path": "/private/tmp/rsi-finance-audit-20261011/AgentQuant",
+      "sha": "1d2331002c3e98af33142b081c72e4071526a00e",
+      "tracked_clean": true,
+      "tracked_files": 209
+    },
+    {
+      "name": "QuantaAlpha",
+      "origin": "https://github.com/QuantaAlpha/QuantaAlpha",
+      "path": "/private/tmp/rsi-finance-audit-20261011/QuantaAlpha",
+      "sha": "b7ceb27b1001261d7a95b209a963664ae1f8ab23",
+      "tracked_clean": true,
+      "tracked_files": 237
+    },
+    {
+      "name": "rrsi",
+      "origin": "https://github.com/google-research/rrsi",
+      "path": "/private/tmp/rsi-finance-audit-20261011/rrsi",
+      "sha": "be50316e1db05914068a973f322770ef08ed7ba1",
+      "tracked_clean": true,
+      "tracked_files": 128
+    },
+    {
+      "name": "gepa",
+      "origin": "https://github.com/gepa-ai/gepa",
+      "path": "/private/tmp/rsi-finance-audit-20261011/gepa",
+      "sha": "462e437a09be67d2acb59564cc0ea59132f5777c",
+      "tracked_clean": true,
+      "tracked_files": 608
+    }
+  ],
+  "components": [
+    {
+      "seam": "模块契约与组合",
+      "source": "ModularRSI",
+      "extract": "ModuleSpec / ModuleBundle / Composer；模块变体与父子谱系",
+      "adaptation": "借接口和设计，金融模块重新定义；运行内核、评分器与策略进程隔离",
+      "reference": {
+        "repo": "ModularRSI",
+        "file": "src/harbor/agents/terminus_2_modular/protocols.py",
+        "line": 355,
+        "label": "src/harbor/agents/terminus_2_modular/protocols.py",
+        "local_path": "/private/tmp/rsi-finance-audit-20261011/ModularRSI/src/harbor/agents/terminus_2_modular/protocols.py",
+        "url": "https://github.com/IQuestLab/ModularRSI/blob/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/src/harbor/agents/terminus_2_modular/protocols.py#L355"
+      }
+    },
+    {
+      "seam": "定向反思与修改",
+      "source": "GEPA",
+      "extract": "GEPAAdapter.evaluate / make_reflective_dataset / ProposalFn；逐组件反馈",
+      "adaptation": "作为可替换 proposer 接口；不能将默认 minibatch 分数提升视为金融晋级证据",
+      "reference": {
+        "repo": "gepa",
+        "file": "src/gepa/core/adapter.py",
+        "line": 83,
+        "label": "src/gepa/core/adapter.py",
+        "local_path": "/private/tmp/rsi-finance-audit-20261011/gepa/src/gepa/core/adapter.py",
+        "url": "https://github.com/gepa-ai/gepa/blob/462e437a09be67d2acb59564cc0ea59132f5777c/src/gepa/core/adapter.py#L83"
+      }
+    },
+    {
+      "seam": "候选验收与成本控制",
+      "source": "RRSI",
+      "extract": "Domain.guards / select_round / edit_budget；不可补偿的约束与编辑预算",
+      "adaptation": "保留非补偿闸门；加完整性、有限数值、时间序列配对与多轮检验预算",
+      "reference": {
+        "repo": "rrsi",
+        "file": "rrsi/selection.py",
+        "line": 97,
+        "label": "rrsi/selection.py",
+        "local_path": "/private/tmp/rsi-finance-audit-20261011/rrsi/rrsi/selection.py",
+        "url": "https://github.com/google-research/rrsi/blob/be50316e1db05914068a973f322770ef08ed7ba1/rrsi/selection.py#L97"
+      }
+    },
+    {
+      "seam": "分支、合并和回滚",
+      "source": "ModularRSI",
+      "extract": "staging、promotions、rebase 后重跑 tree-wide gates、paired_delta",
+      "adaptation": "晋级前补真实金融 OOS 验收；不能直接搬 binary reward>=1 的确认统计",
+      "reference": {
+        "repo": "ModularRSI",
+        "file": "src/harbor/agents/terminus_2_modular/self_evo/promotion.py",
+        "line": 77,
+        "label": "src/harbor/agents/terminus_2_modular/self_evo/promotion.py",
+        "local_path": "/private/tmp/rsi-finance-audit-20261011/ModularRSI/src/harbor/agents/terminus_2_modular/self_evo/promotion.py",
+        "url": "https://github.com/IQuestLab/ModularRSI/blob/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/src/harbor/agents/terminus_2_modular/self_evo/promotion.py#L77"
+      }
+    },
+    {
+      "seam": "历史环境与回测适配",
+      "source": "Qlib + TraderHarness",
+      "extract": "Qlib DatasetH/Exchange/Recorder；TraderHarness 时点 getter 和缺数据拒绝撮合",
+      "adaptation": "只作为 evaluator 后端组件；重写隔离与 CN/US 规则贯通，不暴露原始对象",
+      "reference": {
+        "repo": "TraderHarness",
+        "file": "traderharness/core/engine.py",
+        "line": 694,
+        "label": "traderharness/core/engine.py",
+        "local_path": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+        "url": "https://github.com/HephaestLab/TraderHarness/blob/3e18369da5a2060f9c65b27c2a63f99edd93e167/traderharness/core/engine.py#L694"
+      }
+    },
+    {
+      "seam": "轨迹与回归回放",
+      "source": "TraderHarness",
+      "extract": "请求指纹、scoped cassette、完整 LLM/tool 交互记录",
+      "adaptation": "加入源码、数据、规则、模型及输出摘要；固定响应回归和历史环境重跑分开",
+      "reference": {
+        "repo": "TraderHarness",
+        "file": "traderharness/trajectory/replay.py",
+        "line": 23,
+        "label": "traderharness/trajectory/replay.py",
+        "local_path": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/replay.py",
+        "url": "https://github.com/HephaestLab/TraderHarness/blob/3e18369da5a2060f9c65b27c2a63f99edd93e167/traderharness/trajectory/replay.py#L23"
+      }
+    },
+    {
+      "seam": "研究实验协议",
+      "source": "RD-Agent",
+      "extract": "Task / Workspace / Experiment / Developer / Feedback",
+      "adaptation": "提炼轻量协议，避免全局 settings、latest-recorder 和默认 test 反馈接线",
+      "reference": {
+        "repo": "RD-Agent",
+        "file": "rdagent/core/experiment.py",
+        "line": 58,
+        "label": "rdagent/core/experiment.py",
+        "local_path": "/private/tmp/rsi-finance-audit-20261011/RD-Agent/rdagent/core/experiment.py",
+        "url": "https://github.com/microsoft/RD-Agent/blob/484776c211e4fbbeef03e0ec00d6bbee7362a4f4/rdagent/core/experiment.py#L58"
+      }
+    },
+    {
+      "seam": "轨迹谱系与经验复用",
+      "source": "QuantaAlpha",
+      "extract": "StrategyTrajectory、定向 mutation/crossover、因子表达式复杂度接口",
+      "adaptation": "提炼 lineage 思路；保留原始结果；质量检查异常不能通过；复制源码前核对许可",
+      "reference": {
+        "repo": "QuantaAlpha",
+        "file": "quantaalpha/pipeline/evolution/controller.py",
+        "line": 762,
+        "label": "quantaalpha/pipeline/evolution/controller.py",
+        "local_path": "/private/tmp/rsi-finance-audit-20261011/QuantaAlpha/quantaalpha/pipeline/evolution/controller.py",
+        "url": "https://github.com/QuantaAlpha/QuantaAlpha/blob/b7ceb27b1001261d7a95b209a963664ae1f8ab23/quantaalpha/pipeline/evolution/controller.py#L762"
+      }
+    },
+    {
+      "seam": "金融角色与时点记忆",
+      "source": "TradingAgents",
+      "extract": "角色工厂、typed proposals、checkpoint signature、resolved<=as_of 过滤",
+      "adaptation": "角色只是可替换 seed；增加 evidence_ref、数量/价格/仓位约束、端到端决策链",
+      "reference": {
+        "repo": "TradingAgents",
+        "file": "tradingagents/agents/schemas.py",
+        "line": 1,
+        "label": "tradingagents/agents/schemas.py",
+        "local_path": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/agents/schemas.py",
+        "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/agents/schemas.py#L1"
+      }
+    },
+    {
+      "seam": "实验可观测性",
+      "source": "AgentQuant",
+      "extract": "requested/effective config、PolicyMutationRecord、RunManifest、失败记录",
+      "adaptation": "借数据契约；重写 knob wiring、统一 memory schema、finite metric/split checks",
+      "reference": {
+        "repo": "AgentQuant",
+        "file": "src/agent/harness_config.py",
+        "line": 232,
+        "label": "src/agent/harness_config.py",
+        "local_path": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/harness_config.py",
+        "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/harness_config.py#L232"
+      }
+    }
+  ],
+  "findings": [
+    {
+      "title": "TraderHarness 本地代码工具越过评估边界",
+      "evidence_level": "完整实际函数调用 + 自建合成 fixture",
+      "finding": "本地 handle_execute_code 可经 market._ctx 读取未来数据、修改环境现金；PortfolioView 的 Position 也可被浅引用修改。只证明本地路径，未测其他后端。",
+      "decision": "时点快照和订单意图必须跨进程序列化；未来数据、账本、评分器不进入可编辑模块对象图。",
+      "refs": [
+        {
+          "repo": "TraderHarness",
+          "file": "traderharness/agents/sandbox/api.py",
+          "line": 108,
+          "label": "traderharness/agents/sandbox/api.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/sandbox/api.py",
+          "url": "https://github.com/HephaestLab/TraderHarness/blob/3e18369da5a2060f9c65b27c2a63f99edd93e167/traderharness/agents/sandbox/api.py#L108"
+        },
+        {
+          "repo": "TraderHarness",
+          "file": "traderharness/tools/sandbox.py",
+          "line": 197,
+          "label": "traderharness/tools/sandbox.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/tools/sandbox.py",
+          "url": "https://github.com/HephaestLab/TraderHarness/blob/3e18369da5a2060f9c65b27c2a63f99edd93e167/traderharness/tools/sandbox.py#L197"
+        },
+        {
+          "repo": "TraderHarness",
+          "file": "traderharness/core/portfolio.py",
+          "line": 176,
+          "label": "traderharness/core/portfolio.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/portfolio.py",
+          "url": "https://github.com/HephaestLab/TraderHarness/blob/3e18369da5a2060f9c65b27c2a63f99edd93e167/traderharness/core/portfolio.py#L176"
+        }
+      ]
+    },
+    {
+      "title": "ModularRSI promotion 不是金融绩效验收",
+      "evidence_level": "源码调用链 + 纯函数探针",
+      "finding": "当前 sanity 检查代码崩溃与激活，不比较 parent/candidate reward；routing probe 不阻断。后续 confirm 用任务通过率与宽松退化门槛，连续 reward 0.2 与 0.9 都变成0。",
+      "decision": "保留候选树和调用证据；将金融验收作为独立外部 gate，再考虑后续回滚。",
+      "refs": [
+        {
+          "repo": "ModularRSI",
+          "file": "src/harbor/agents/terminus_2_modular/self_evo/online_evo.py",
+          "line": 1746,
+          "label": "src/harbor/agents/terminus_2_modular/self_evo/online_evo.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/ModularRSI/src/harbor/agents/terminus_2_modular/self_evo/online_evo.py",
+          "url": "https://github.com/IQuestLab/ModularRSI/blob/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/src/harbor/agents/terminus_2_modular/self_evo/online_evo.py#L1746"
+        },
+        {
+          "repo": "ModularRSI",
+          "file": "src/harbor/agents/terminus_2_modular/self_evo/confirm.py",
+          "line": 28,
+          "label": "src/harbor/agents/terminus_2_modular/self_evo/confirm.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/ModularRSI/src/harbor/agents/terminus_2_modular/self_evo/confirm.py",
+          "url": "https://github.com/IQuestLab/ModularRSI/blob/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/src/harbor/agents/terminus_2_modular/self_evo/confirm.py#L28"
+        }
+      ]
+    },
+    {
+      "title": "RD-Agent / QuantaAlpha 研究反馈复用名为 test 的区间",
+      "evidence_level": "配置→SignalRecord→指标→LLM反馈的源码链；反馈函数 sentinel 探针",
+      "finding": "模型训练的 train/valid 与 agent 搜索层的开发/最终测试不是同一分层。固定 test 结果用于多轮反馈后，它就是自适应开发区间。QuantaAlpha 独立 backtest 配置另有 2022–2025 区间，不能把本发现泛化成所有实验都泄漏。",
+      "decision": "DatasetRegistry 显式区分拟合、研究、晋级和封存测试；记录每次查询及 feedback exposure。",
+      "refs": [
+        {
+          "repo": "RD-Agent",
+          "file": "rdagent/scenarios/qlib/experiment/factor_template/conf_combined_factors.yaml",
+          "line": 43,
+          "label": "rdagent/scenarios/qlib/experiment/factor_template/conf_combined_factors.yaml",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/RD-Agent/rdagent/scenarios/qlib/experiment/factor_template/conf_combined_factors.yaml",
+          "url": "https://github.com/microsoft/RD-Agent/blob/484776c211e4fbbeef03e0ec00d6bbee7362a4f4/rdagent/scenarios/qlib/experiment/factor_template/conf_combined_factors.yaml#L43"
+        },
+        {
+          "repo": "qlib",
+          "file": "qlib/workflow/record_temp.py",
+          "line": 178,
+          "label": "qlib/workflow/record_temp.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/qlib/qlib/workflow/record_temp.py",
+          "url": "https://github.com/microsoft/qlib/blob/54355232463878d2eebb91fe0ee5fa7fa1f5976c/qlib/workflow/record_temp.py#L178"
+        },
+        {
+          "repo": "RD-Agent",
+          "file": "rdagent/scenarios/qlib/developer/feedback.py",
+          "line": 70,
+          "label": "rdagent/scenarios/qlib/developer/feedback.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/RD-Agent/rdagent/scenarios/qlib/developer/feedback.py",
+          "url": "https://github.com/microsoft/RD-Agent/blob/484776c211e4fbbeef03e0ec00d6bbee7362a4f4/rdagent/scenarios/qlib/developer/feedback.py#L70"
+        },
+        {
+          "repo": "QuantaAlpha",
+          "file": "quantaalpha/factors/factor_template/conf_combined_factors.yaml",
+          "line": 106,
+          "label": "quantaalpha/factors/factor_template/conf_combined_factors.yaml",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/QuantaAlpha/quantaalpha/factors/factor_template/conf_combined_factors.yaml",
+          "url": "https://github.com/QuantaAlpha/QuantaAlpha/blob/b7ceb27b1001261d7a95b209a963664ae1f8ab23/quantaalpha/factors/factor_template/conf_combined_factors.yaml#L106"
+        }
+      ]
+    },
+    {
+      "title": "AgentQuant knob、记忆与验收存在接线缺口",
+      "evidence_level": "真实 resolver/memory/promotion + 隔离原 reflect 函数探针",
+      "finding": "v2–v6预设被resolver拒绝；若干字段未投影；旧 strategy_runs 播种不进入当前 mem_trials recall；promotion 接受无限 Sharpe 和重叠 split。隔离 reflect 函数接受高 Sharpe/99%回撤，范围不是完整 run_agent。",
+      "decision": "每个模块变更需要实际激活证据；同一 memory schema；环境强制约束与有限数值检查，不依赖 prompt。",
+      "refs": [
+        {
+          "repo": "AgentQuant",
+          "file": "src/agent/harness_config.py",
+          "line": 232,
+          "label": "src/agent/harness_config.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/harness_config.py",
+          "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/harness_config.py#L232"
+        },
+        {
+          "repo": "AgentQuant",
+          "file": "src/agent/agent_graph.py",
+          "line": 396,
+          "label": "src/agent/agent_graph.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+          "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L396"
+        }
+      ]
+    },
+    {
+      "title": "RRSI 通用选择器依赖 domain adapter 的完整性",
+      "evidence_level": "8项原有测试 + 4项纯函数探针",
+      "finding": "Domain.guards 能阻断高分但违规候选；aggregate 不自动补齐缺 trial，选择器不拒绝无限 reward；缺 token cost 被视为相对成本变化0。",
+      "decision": "金融 adapter 先验证 trials 覆盖、finite values、指标量纲和缺失状态；再进入选择器。",
+      "refs": [
+        {
+          "repo": "rrsi",
+          "file": "rrsi/domain.py",
+          "line": 78,
+          "label": "rrsi/domain.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/rrsi/rrsi/domain.py",
+          "url": "https://github.com/google-research/rrsi/blob/be50316e1db05914068a973f322770ef08ed7ba1/rrsi/domain.py#L78"
+        },
+        {
+          "repo": "rrsi",
+          "file": "rrsi/selection.py",
+          "line": 97,
+          "label": "rrsi/selection.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/rrsi/rrsi/selection.py",
+          "url": "https://github.com/google-research/rrsi/blob/be50316e1db05914068a973f322770ef08ed7ba1/rrsi/selection.py#L97"
+        },
+        {
+          "repo": "rrsi",
+          "file": "rrsi/evaluate.py",
+          "line": 104,
+          "label": "rrsi/evaluate.py",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/rrsi/rrsi/evaluate.py",
+          "url": "https://github.com/google-research/rrsi/blob/be50316e1db05914068a973f322770ef08ed7ba1/rrsi/evaluate.py#L104"
+        }
+      ]
+    },
+    {
+      "title": "整仓拼接有依赖和许可障碍",
+      "evidence_level": "依赖与许可文件静态检查",
+      "finding": "AgentQuant 与 TradingAgents 的 pandas 要求冲突；QuantaAlpha pin 的 RD-Agent=0.8.0 不等于本次 RD HEAD。ModularRSI 原创部分标注 CC BY-NC 4.0；QuantaAlpha 未找到 tracked LICENSE，不能仅凭 badge 判断可复制范围。",
+      "decision": "统一自建协议，选择性适配或独立进程；记录每段直接复用代码的来源和许可。",
+      "refs": [
+        {
+          "repo": "ModularRSI",
+          "file": "LICENSE-MODULARRSI.md",
+          "line": 1,
+          "label": "LICENSE-MODULARRSI.md",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/ModularRSI/LICENSE-MODULARRSI.md",
+          "url": "https://github.com/IQuestLab/ModularRSI/blob/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/LICENSE-MODULARRSI.md#L1"
+        },
+        {
+          "repo": "AgentQuant",
+          "file": "pyproject.toml",
+          "line": 1,
+          "label": "pyproject.toml",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/pyproject.toml",
+          "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/pyproject.toml#L1"
+        },
+        {
+          "repo": "TradingAgents",
+          "file": "pyproject.toml",
+          "line": 1,
+          "label": "pyproject.toml",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/pyproject.toml",
+          "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/pyproject.toml#L1"
+        },
+        {
+          "repo": "QuantaAlpha",
+          "file": "pyproject.toml",
+          "line": 1,
+          "label": "pyproject.toml",
+          "local_path": "/private/tmp/rsi-finance-audit-20261011/QuantaAlpha/pyproject.toml",
+          "url": "https://github.com/QuantaAlpha/QuantaAlpha/blob/b7ceb27b1001261d7a95b209a963664ae1f8ab23/pyproject.toml#L1"
+        }
+      ]
+    }
+  ],
+  "proposed_design": {
+    "status": "基于审查提出的组合设计；尚未实现新项目",
+    "core": "自建薄编排层与协议；策略/研究/改进器作为可替换模块，历史环境与测量账本在独立进程。",
+    "module_package": [
+      "模块ID与版本/源码hash",
+      "输入输出schema与依赖",
+      "只允许的能力与状态所有权",
+      "父版本与patch范围",
+      "失败证据/因果假设/预期影响",
+      "实际激活trace",
+      "局部与组合EvaluationReport"
+    ],
+    "runtime_modules": [
+      "信息获取",
+      "观察与特征构造",
+      "证据融合与决策",
+      "组合构建",
+      "执行意图规划",
+      "记忆检索与失效",
+      "工具/上下文/预算编排"
+    ],
+    "improvement_modules": [
+      "失败聚类与归因",
+      "模块选择",
+      "变更提案/实现",
+      "候选调度与经验复用"
+    ],
+    "external_contracts": [
+      "WorldService：时钟、PIT数据、账户、撮合；只传序列化快照/订单意图",
+      "TraceStore：版本化span、输入输出摘要、工具证据、结算日期",
+      "ExperimentRunner：父子版本固定环境配对，重置状态，完整coverage",
+      "PromotionGate：有限指标、非补偿约束、时间窗口配对、成本及多轮选择预算",
+      "VersionRegistry：模块树、bundle、来源、许可、晋级/拒绝/回滚",
+      "DatasetRegistry：历史投资域、发布时间、标签跨度、split和查询账本"
+    ],
+    "replay_modes": [
+      "exact regression：原请求→原响应，仅检查复现与集成",
+      "historical branch rerun：同初始市场快照和信息边界，重新运行新策略并重算后续状态",
+      "local counterfactual：固定模块输入替换模块；只有依赖未改变的工具结果才可复用"
+    ],
+    "experiment_controls": [
+      "固定seed agent",
+      "仅记忆更新",
+      "按失败证据修改模块",
+      "随机/打乱证据修改、相同预算",
+      "完整新系统集成回归"
+    ],
+    "promotion": "先contract/激活/完整性，再金融表现；开发反馈、滚动晋级验证、封存最终测试分开。无有效改进就保留父版本。评估目标变更开启新实验版本，不混算进化收益。",
+    "cn_us": "共享协议，独立市场规则、日历、公司行动、历史投资域和发布时间数据；按持有期purge/embargo，时间配对统计，不把股票-日期当独立样本。"
+  },
+  "verification": {
+    "existing_checks": 17,
+    "targeted_probe_groups": 33,
+    "passed_meaning": "预期观察成立，包括缺陷复现；不表示缺陷已修复。",
+    "commands": [
+      "python3.12 -B probe_modular.py",
+      "python3.12 -B probe_rrsi.py",
+      "python3.12 -B replay_probe.py",
+      "python3.12 -B agent_probe.py",
+      "python3.12 -B quant_probe.py",
+      "python3.12 -B rrsi/tests/test_core.py"
+    ],
+    "limits": [
+      "未安装依赖；无API key、真实行情下载、真实交易或云服务",
+      "未运行全部pytest、端到端LLM进化或真实股票收益回测",
+      "部分探针使用AST提取原函数并mock依赖；各JSON写明范围",
+      "GEPA仅静态源码审查，没有运行其优化器",
+      "只有克隆与必要公开检索联网；运行探针全部离线"
+    ]
+  },
+  "sub_audits": {
+    "replay-audit.json": {
+      "repository": {
+        "name": "TraderHarness",
+        "path": "/private/tmp/rsi-finance-audit-20261011/TraderHarness",
+        "git_sha": "3e18369da5a2060f9c65b27c2a63f99edd93e167",
+        "version": "1.1.0",
+        "instructions_read": [
+          "/private/tmp/rsi-finance-audit-20261011/TraderHarness/AGENTS.md"
+        ],
+        "license": {
+          "spdx": "Apache-2.0",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/pyproject.toml",
+              "line_start": 6,
+              "line_end": 13,
+              "detail": "project license = Apache-2.0"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/LICENSE",
+              "line_start": 1,
+              "line_end": 17,
+              "detail": "仓库提供 Apache-2.0 简版许可声明，提取时保留许可和来源；市场数据许可需另审"
+            }
+          ]
+        }
+      },
+      "scope": "源码级组件审查：市场环境、时点数据、撮合、LLM cassette、轨迹、扩展接缝、模型先验、跨市场和可编辑模块评估隔离。不联网、不交易、不启动服务、不安装依赖、不修改上游源码或主工作区。",
+      "verdict": "有价值的 LLM 回归与轨迹设计参考；不应整仓用作允许自修改策略的可信评估器。沙箱对象图能读取未来行情并改资金，已离线合成探针复现。跨市场接口未贯穿组合执行层。",
+      "components": [
+        {
+          "id": "request_fingerprint",
+          "extract": "traderharness.trajectory.replay.request_fingerprint + ReplayRecorder/ReplayPlayer",
+          "value": "完整 messages/tools 的稳定 JSON SHA-256；逐调用 mismatch/exhaustion/unused 响应检查。小而独立，适合模块回归测试。",
+          "changes": "要求所有条目有摘要；加入 model/temperature/seed/tool version；对输出和整个 artifact 建完整性摘要；不要把固定回复 replay 等同策略重新评估。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/replay.py",
+              "line_start": 23,
+              "line_end": 32,
+              "detail": "稳定请求摘要"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/replay.py",
+              "line_start": 110,
+              "line_end": 158,
+              "detail": "匹配、耗尽和消费完整性检查"
+            }
+          ]
+        },
+        {
+          "id": "scoped_cassette",
+          "extract": "ReplayBundleManifest, ScopedReplayRecorder, ScopedReplayPlayer; executor_scope_id/advisor_scope_id",
+          "value": "独立 agent、executor、advisor cassette 防调用顺序互相踩踏。",
+          "changes": "run manifest 添加 dataset immutable digest、源码 SHA、模块 hash、依赖锁、市场规则/日历版本、全 scope 期望清单；当前 assert_all_consumed 只检查实际打开过的 player。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/bundle.py",
+              "line_start": 40,
+              "line_end": 56,
+              "detail": "scope 命名"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/bundle.py",
+              "line_start": 106,
+              "line_end": 142,
+              "detail": "manifest 字段"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/bundle.py",
+              "line_start": 258,
+              "line_end": 270,
+              "detail": "按需 player 与消费检查"
+            }
+          ]
+        },
+        {
+          "id": "trajectory",
+          "extract": "StepRecord, DayRecord, TrajectoryCollector, AgentLoop llm_exchange/tool_call schema",
+          "value": "日级 observation/actions/reward + 步级完整请求/工具schema/输出/阶段，JSONL 追加持久化避免全日志反复重写。",
+          "changes": "日志和 checkpoint 分离；写入不可变 append-only evaluator 日志；记录数据和代码 provenance、参数、成本、错误与订单生命周期。collector 的 list 是浅复制，不当安全边界。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/collector.py",
+              "line_start": 13,
+              "line_end": 33,
+              "detail": "两级结构"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/collector.py",
+              "line_start": 59,
+              "line_end": 84,
+              "detail": "追加步骤与 JSONL"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/loop.py",
+              "line_start": 925,
+              "line_end": 942,
+              "detail": "llm_exchange 有完整 messages/tools/response"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/loop.py",
+              "line_start": 1116,
+              "line_end": 1127,
+              "detail": "tool 参数、结果和 phase/subwindow"
+            }
+          ]
+        },
+        {
+          "id": "pit_accessors",
+          "extract": "TradingBus.get_daily_bars、MarketAPI.get_kline/get_kline_5min、NewsDataManager 时间窗查询；DateMasker",
+          "value": "日线严格 < 当前日，分钟 cap 逐窗口，新闻按发布时间窗口，日历相对偏移支持明/盲实验。",
+          "changes": "仅把序列化且复制的可见快照交给策略进程；基本面使用 available_at timestamp 而不止 pub_date；排序/重复键和晚报修订版本在入库验证。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 250,
+              "line_end": 256,
+              "detail": "日线时点过滤"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/sandbox/api.py",
+              "line_start": 111,
+              "line_end": 144,
+              "detail": "日线与分钟线访问器"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/data/news_data_manager.py",
+              "line_start": 123,
+              "line_end": 138,
+              "detail": "公告发布时间窗"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/tools/fundamentals.py",
+              "line_start": 22,
+              "line_end": 30,
+              "detail": "财务数据日期粒度过滤"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/masking.py",
+              "line_start": 43,
+              "line_end": 85,
+              "detail": "相对日期/保留时刻"
+            }
+          ]
+        },
+        {
+          "id": "order_gateway",
+          "extract": "TradingBus.place_order 与子窗口 get_execution_price 的设计",
+          "value": "单入口下单、缺分钟数据拒绝撮合、无日线 open/close 回退，减少未来信息挑价。",
+          "changes": "重写为独立 evaluator 的订单 RPC；加入下一可执行事件/延迟、量能参与率、滑点、部分成交及盘口/涨跌停状态模型；不要直接复制当前同一已见 bar close 成交假设。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 289,
+              "line_end": 322,
+              "detail": "固定 A股窗口最后已见5分钟bar close"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 649,
+              "line_end": 669,
+              "detail": "唯一下单入口与拒绝缺分钟行情"
+            }
+          ]
+        },
+        {
+          "id": "protocols",
+          "extract": "DataProvider、AgentProtocol、MarketProfile、ToolDefinition、EventBus",
+          "value": "可作为新项目边界草图，异步数据加载/agent on_day、结构化工具注册与事件订阅简洁。",
+          "changes": "新项目策略协议只收 Observation 并返回 Intent；禁止传 TradingBus/Portfolio/可变 dataframe。市场协议扩展 session/timezone/tick/settlement/fees/corporate actions，再贯穿所有层。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 33,
+              "line_end": 49,
+              "detail": "数据和引擎配置注入"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/protocol.py",
+              "line_start": 12,
+              "line_end": 21,
+              "detail": "on_day 接收整个 TradingBus"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/market_profile.py",
+              "line_start": 12,
+              "line_end": 30,
+              "detail": "当前市场规则协议"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/tools/registry.py",
+              "line_start": 72,
+              "line_end": 85,
+              "detail": "工具定义"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/events.py",
+              "line_start": 12,
+              "line_end": 41,
+              "detail": "事件接口"
+            }
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "id": "F1",
+          "severity": "critical",
+          "title": "execute_code 可沿公开 API 对象读取未来行情并直接改账户",
+          "status": "离线合成探针已复现",
+          "finding": "MarketAPI 保存 ctx 在可读 _ctx，ctx 包含未截断 preloaded_daily、可变 portfolio、_bus；Python exec 无禁止属性访问。实际 handle_execute_code 读到下一日 close=999，并将环境现金从100000改为9999999。这违反 AGENTS 的时点安全、环境独占状态与唯一下单路径承诺。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/sandbox/api.py",
+              "line_start": 105,
+              "line_end": 119,
+              "detail": "self._ctx=ctx，过滤仅在普通 getter 里"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/tools/registry.py",
+              "line_start": 31,
+              "line_end": 68,
+              "detail": "原始DataFrame、portfolio、_bus均在ctx"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/tool_agent.py",
+              "line_start": 606,
+              "line_end": 642,
+              "detail": "真实portfolio和全量market传给ctx"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/tools/sandbox.py",
+              "line_start": 156,
+              "line_end": 165,
+              "detail": "API实例直接暴露给agent"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/tools/sandbox.py",
+              "line_start": 184,
+              "line_end": 197,
+              "detail": "进程内exec，未隔断对象图"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/AGENTS.md",
+              "line_start": 20,
+              "line_end": 28,
+              "detail": "不变量3/5/8"
+            }
+          ],
+          "recommendation": "策略/可编辑模块独立进程或容器执行，只传不可变时点快照；评估器和账户状态绝不能进入策略对象图；白名单代码审查不能代替隔离。"
+        },
+        {
+          "id": "F2",
+          "severity": "critical",
+          "title": "pandas代理暴露真实模块，能绕过工作目录读取限制",
+          "status": "离线合成探针已复现",
+          "finding": "_GuardedModule 直接保存 _real。实际 execute_code 内 pd._real.read_csv 可读工作目录外的合成哨兵文件，普通 pd.read_csv 虽被包装仍不是边界。没有读取任何真实用户数据。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/sandbox/guard.py",
+              "line_start": 114,
+              "line_end": 135,
+              "detail": "_real直接可达，仅拦截命名reader"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/sandbox/guard.py",
+              "line_start": 142,
+              "line_end": 170,
+              "detail": "保留多数builtins与非黑名单import"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/tools/sandbox.py",
+              "line_start": 184,
+              "line_end": 197,
+              "detail": "guard结果直接exec"
+            }
+          ],
+          "recommendation": "禁止把任意Python留在 evaluator 进程；用OS文件系统/网络隔离而非Python代理。"
+        },
+        {
+          "id": "F3",
+          "severity": "high",
+          "title": "只读组合视图是浅复制，Position依然可变",
+          "status": "离线合成探针已复现",
+          "finding": "PortfolioView.positions 返回 dict(self._portfolio.positions)，内部 Position 引用未复制/冻结。view.positions[code].quantity=999 即改变实际持仓，无须place_order。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/portfolio.py",
+              "line_start": 13,
+              "line_end": 20,
+              "detail": "Position为可变dataclass"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/portfolio.py",
+              "line_start": 165,
+              "line_end": 177,
+              "detail": "声称只读但仅复制dict"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 237,
+              "line_end": 243,
+              "detail": "bus公开portfolio视图与raw market"
+            }
+          ],
+          "recommendation": "返回冻结DTO/深复制快照；隔离执行后只通过受验证订单消息改变账户。"
+        },
+        {
+          "id": "F4",
+          "severity": "high",
+          "title": "多Agent只有组合隔离，市场dataframe共享且可变",
+          "status": "离线合成探针已复现",
+          "finding": "MarketData.get/get_5min 返回内部frame；TradingBus.market公开该对象；AgentProtocol 接收bus。一个策略改行情另一bus即可见，原始接口也可读未来日或完整当日分钟。顺序执行避免race但不防污染。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 184,
+              "line_end": 196,
+              "detail": "返回内部frame"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 241,
+              "line_end": 266,
+              "detail": "public market和全当日分钟查询"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 886,
+              "line_end": 941,
+              "detail": "独立portfolio/bus共享market"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 979,
+              "line_end": 988,
+              "detail": "顺序执行说明"
+            }
+          ],
+          "recommendation": "冻结数据快照，策略仅得可见窗口拷贝；每个变体全新runner/agent/memory/workspace；评估器数据源只读挂载。"
+        },
+        {
+          "id": "F5",
+          "severity": "high",
+          "title": "MarketProfile未贯穿撮合/组合，不能仅换Profile就适配美股",
+          "status": "离线合成探针已复现",
+          "finding": "自定义 min_lot=1、settlement_days=0、fee=0 profile 仍因 Portfolio.buy 的100整股要求拒绝1股；买100股仍收5元，same-day sellable仍0。Bus只调用round_lot/price_limits；没有调用profile.buy_commission/sell_fees/settlement_days。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/market_profile.py",
+              "line_start": 12,
+              "line_end": 30,
+              "detail": "承诺市场参数接口"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 689,
+              "line_end": 706,
+              "detail": "buy/sell直接调用portfolio默认规则"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/portfolio.py",
+              "line_start": 26,
+              "line_end": 29,
+              "detail": "硬编码当日不可售"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/portfolio.py",
+              "line_start": 43,
+              "line_end": 61,
+              "detail": "100股和默认费用"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/portfolio.py",
+              "line_start": 99,
+              "line_end": 129,
+              "detail": "默认卖税/费用"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 308,
+              "line_end": 331,
+              "detail": "硬编码9:35-15:00窗口"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/calendar.py",
+              "line_start": 163,
+              "line_end": 185,
+              "detail": "中国假期日历，非strict未知年份退回周一至周五"
+            }
+          ],
+          "recommendation": "把lot、费用、settlement、交易时段、时区、日历、symbol/tick、企业行动规则统一注入 evaluator；US和CN分profile且effective-dated。"
+        },
+        {
+          "id": "F6",
+          "severity": "medium",
+          "title": "cassette是固定LLM回复重放，非数据快照或新策略重推演",
+          "status": "源码与离线探针已核对",
+          "finding": "ReplayRecorder记录 request_sha256/output；LLMClient直接返回output，工具和撮合重新执行。改prompt/tools/工具结果使后续请求变化会失配；旧回复即使无失配仍不是修改策略后的模型决策。manifest没有dataset hash/源码SHA/依赖锁，只有版本、日期、mask等。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/replay.py",
+              "line_start": 57,
+              "line_end": 72,
+              "detail": "仅请求摘要和LLM output"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/llm_client.py",
+              "line_start": 88,
+              "line_end": 90,
+              "detail": "重放直接固定返回"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/replay.py",
+              "line_start": 118,
+              "line_end": 138,
+              "detail": "请求匹配"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/bundle.py",
+              "line_start": 106,
+              "line_end": 142,
+              "detail": "无数据/代码不可变摘要"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/runner.py",
+              "line_start": 118,
+              "line_end": 130,
+              "detail": "重新run engine后检查消费"
+            }
+          ],
+          "recommendation": "分开三种模式：immutable market-data replay用于策略评测；action replay用于环境回归；LLM cassette用于原请求回归。模块变更后同一冻结数据/成本/种子独立重跑，并新录LLM。"
+        },
+        {
+          "id": "F7",
+          "severity": "medium",
+          "title": "回放的请求校验不等于防篡改完整性",
+          "status": "离线合成探针已复现",
+          "finding": "请求fingerprint不包含model/temperature/max_tokens；无request_sha256的旧entry仍接收；输出没有摘要校验。修改cassette output后，同一请求正常返回改后输出。CLI bundle provenance只hash manifest文件，不覆盖所有cassette。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/replay.py",
+              "line_start": 23,
+              "line_end": 32,
+              "detail": "只hash messages/tools"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/replay.py",
+              "line_start": 118,
+              "line_end": 125,
+              "detail": "expected不存在跳过校验"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/trajectory/replay.py",
+              "line_start": 136,
+              "line_end": 138,
+              "detail": "不验证output摘要"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/cli.py",
+              "line_start": 17,
+              "line_end": 34,
+              "detail": "目录只hash manifest"
+            }
+          ],
+          "recommendation": "受信runner记录artifact树哈希，评估数据/代码/回复/工具产物摘要写入签名或只读run manifest；回放默认拒绝无摘要旧格式。"
+        },
+        {
+          "id": "F8",
+          "severity": "medium",
+          "title": "日期/实体遮罩只能降低模型先验风险，不能证明无历史记忆泄漏",
+          "status": "静态源码；未调用模型",
+          "finding": "DateMasker是presentation-only；默认engine.mask_entities=False（CLI/Runner默认开启）；实体置换保留board，singleton bucket保持原码。实体特征/新闻语义和价量形态仍可能识别历史。knowledge-cutoff函数对硬编码多个模型遍历，在 end_date > cutoff 时警告，没有检测实际模型或阻断训练先验覆盖历史区间；prompt audit 缺client/异常均leak_found=False。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/masking.py",
+              "line_start": 1,
+              "line_end": 12,
+              "detail": "presentation-only/bright对照"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 40,
+              "line_end": 48,
+              "detail": "底层默认不mask"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/entity_masking.py",
+              "line_start": 108,
+              "line_end": 136,
+              "detail": "board和单成员保持"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 1090,
+              "line_end": 1105,
+              "detail": "cutoff仅硬编码warning"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/prompt_audit.py",
+              "line_start": 57,
+              "line_end": 75,
+              "detail": "审核失效时返回无泄漏"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/scripts/test_knowledge_leakage.py",
+              "line_start": 35,
+              "line_end": 50,
+              "detail": "先验探针需要真实API，未执行"
+            }
+          ],
+          "recommendation": "优先post-cutoff、滚动walk-forward/holdout和多市场区间；明/盲对照衡量敏感性。将prior contamination与PIT数据lookahead分开报告。"
+        },
+        {
+          "id": "F9",
+          "severity": "medium",
+          "title": "基本面只按发布日期过滤，不能证明同日盘前发布时间安全",
+          "status": "静态源码；未用真实财务数据验证",
+          "finding": "pub_date<=str(current_date)可能让当日晚间发布财务数据在盘前可见，取决于上游pub_date含义；latest用iloc[-1]也依赖输入排序。新闻公告有timestamp窗较完整。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/tools/fundamentals.py",
+              "line_start": 22,
+              "line_end": 30,
+              "detail": "day-granularity <= 与最后一行"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/tools/business.py",
+              "line_start": 26,
+              "line_end": 33,
+              "detail": "同日pub_date过滤"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/sandbox/api.py",
+              "line_start": 281,
+              "line_end": 293,
+              "detail": "沙箱同样使用pub_date"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/data/news_data_manager.py",
+              "line_start": 133,
+              "line_end": 138,
+              "detail": "公告有timestamp窗"
+            }
+          ],
+          "recommendation": "统一 available_at 带时区；report_period != first_published_at != ingested_at；修订保留版本；as_of使用当前phase的实际timestamp。"
+        },
+        {
+          "id": "F10",
+          "severity": "medium",
+          "title": "撮合简化足以回归，不足以可信微观交易仿真",
+          "status": "9条现有价格测试直接执行通过；模型限制静态",
+          "finding": "按当前子窗口最后已见5分钟close同价成交；检查涨跌停、现金、lot、T+1，且每代码每天只能成交一次。无订单簿、volume参与率、延迟、slippage、部分成交；看过bar后同bar成交对RSI入场信号可能乐观。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 289,
+              "line_end": 322,
+              "detail": "已见bar close"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 650,
+              "line_end": 653,
+              "detail": "每天每code仅一次"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/engine.py",
+              "line_start": 671,
+              "line_end": 727,
+              "detail": "price-limit + 全量portfolio记账"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/tests/unit/core/test_execution_price.py",
+              "line_start": 68,
+              "line_end": 153,
+              "detail": "9条现有测试"
+            }
+          ],
+          "recommendation": "v1选择明确保守的next-bar-open或事件后下一个tick执行，固定滑点/费用；更精细模拟独立扩展，不混淆5分钟bar与逐分钟/逐笔撮合。"
+        },
+        {
+          "id": "F11",
+          "severity": "medium",
+          "title": "运行状态隔离取决于入口，非所有API都提供全新workspace",
+          "status": "静态源码",
+          "finding": "CLI单backtest把workspace放run文件名目录；ToolAgent默认workspace_root=agent_id，BacktestRunner只构建agent未传独立workspace。重用agent对象还会保留watchlist/memory/trajectory/day_results。",
+          "evidence": [
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/cli.py",
+              "line_start": 309,
+              "line_end": 314,
+              "detail": "单次CLI干净workspace"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/tool_agent.py",
+              "line_start": 453,
+              "line_end": 453,
+              "detail": "默认agent_id路径"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/core/runner.py",
+              "line_start": 212,
+              "line_end": 237,
+              "detail": "runner未传workspace_root"
+            },
+            {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TraderHarness/traderharness/agents/tool_agent.py",
+              "line_start": 584,
+              "line_end": 589,
+              "detail": "跨天可变状态"
+            }
+          ],
+          "recommendation": "每个实验run id新建agent、memory、workspace、event bus；不复用实例；运行完验证评估器和data digest未变。"
+        }
+      ],
+      "fair_rerun_design": {
+        "data": "冻结原始/企业行动/证券主表/可用时点数据，manifest校验完整hash和数据schema版本；US/CN分别规则日历。",
+        "editable_modules": "允许RSI指标、信号、过滤、仓位、退出等策略模块编辑；evaluator、交易成本、数据切片、评分和holdout不可编辑/不可导入；OS隔离后仅Observation→Intent接口。",
+        "comparison": "每个变体全新状态；相同训练/验证/隐藏测试区间、成本、资金和随机种子；报告walk-forward与多seed。固定LLM cassette只用于相同代码路径的回归，不能评价新prompt或新逻辑的增益。",
+        "provenance": "持久化源码commit/module hash、dataset manifest hash、参数、规则版本、模型配置、seed、完整轨迹、全部订单拒绝/成交、失败原因。"
+      },
+      "verification": {
+        "pre_read": [
+          "tests/unit/core/test_execution_price.py",
+          "tests/unit/trajectory/test_replay.py",
+          "tests/unit/trajectory/test_replay_bundle.py",
+          "tests/unit/tools/test_sandbox_isolation.py",
+          "tests/integration/test_replay_mode.py"
+        ],
+        "runtime": "/Users/calm/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "dependencies_observed": {
+          "python": "3.12 bundled",
+          "pandas": true,
+          "numpy": true,
+          "pytest": false,
+          "pyarrow": false,
+          "yaml": false
+        },
+        "command": "PYTHONDONTWRITEBYTECODE=1 /Users/calm/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /private/tmp/rsi-finance-audit-20261011/replay_probe.py",
+        "result_file": "/private/tmp/rsi-finance-audit-20261011/replay-probe-results.json",
+        "exit_code": 0,
+        "summary": "现有 execution_price 的9条无fixture测试方法直接调用全部通过（不是完整pytest运行）。5组最小合成探针全部通过，确认回放合同及多个风险。探针只用临时合成数据，不是收益/真实数据验收。",
+        "not_run": [
+          "pytest suite：pytest未安装",
+          "真实数据backtest/cassette端到端：无生产数据/pyarrow，不下载大型数据",
+          "LLM knowledge leakage empirical test：需凭证与联网",
+          "服务器、实盘/模拟交易服务均未启动"
+        ],
+        "repository_status_after": "git status --short 空；没有改上游源码",
+        "security_scope": "只验证当前本地进程内 handle_execute_code / build_sandbox_globals 路径；未审查或测试任何容器/其他沙箱后端。所有越界读取哨兵均为探针 TemporaryDirectory 内自建合成CSV；未读取真实用户文件。临时哨兵自动删除，脚本重跑会重新创建。"
+      }
+    },
+    "agent-audit.json": {
+      "audit_scope": "只审实际clone源码，未用README作运行能力证据；没有修改上游clone或主工作区。未安装依赖，未使用API key/网络/大数据。",
+      "created_date": "2026-10-11",
+      "instructions": {
+        "AGENTS": "两个仓库及 /、/private、/private/tmp、审计根目录未发现AGENTS.md；沿用用户提供的全局AGENTS说明。",
+        "skills": "被派发子agent，using-superpowers的SUBAGENT-STOP要求忽略该流程skill。"
+      },
+      "repositories": [
+        {
+          "name": "AgentQuant",
+          "origin": "https://github.com/OnePunchMonk/AgentQuant.git",
+          "sha": "1d2331002c3e98af33142b081c72e4071526a00e",
+          "license": "MIT",
+          "license_ref": {
+            "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/LICENSE",
+            "line": 1,
+            "end_line": 21,
+            "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/LICENSE#L1-L21"
+          },
+          "dependencies": {
+            "python": ">=3.10",
+            "core": "pandas>=2,<3; numpy>=1.26,<2; pydantic>=2,<3; YAML/global config; scipy/statsmodels; yfinance/pyarrow/rich",
+            "optional": "LLM clients/LangChain/LangGraph/Tavily; vectorbt; UI; regime libs",
+            "coupling": "主agent_graph依赖全局config与多个Memory/Research子模块；_run_agent_offline会修改process全局config、random seed和os.environ且API key删除未恢复，不能直接并发放入新项目。",
+            "ref": {
+              "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/search_arms.py",
+              "line": 289,
+              "end_line": 357,
+              "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/search_arms.py#L289-L357"
+            }
+          },
+          "findings": [
+            {
+              "id": "AQ01",
+              "verdict": "借接口思路，重写投影和校验",
+              "title": "requested/effective harness分离有价值，但并非所有knob真接通",
+              "detail": "真接线：use_tools进入hypothesize；use_web_search控制tool admission；prompt_template/context进入LLM prompt prefix；min_acceptable_sharpe进入reflect。max_acceptable_drawdown仅投影/序列化，reflect不用；temperature/max_retries/grid_params/track_falsifiable_claims未投影也没拒绝。run_agent迭代数来自参数或全局config，resolver错误文案所说max_retries-as-max_iterations未实现。use_ensemble/grid_adaptation_strategy/grid_focus_regions/claim_weighting/tool_weight/required_win_rate非默认会被拒绝。v2–v6预设全被resolver拒绝。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/harness_config.py",
+                  "line": 232,
+                  "end_line": 316,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/harness_config.py#L232-L316"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+                  "line": 252,
+                  "end_line": 299,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L252-L299"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+                  "line": 396,
+                  "end_line": 449,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L396-L449"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+                  "line": 650,
+                  "end_line": 686,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L650-L686"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+                  "line": 754,
+                  "end_line": 761,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L754-L761"
+                }
+              ],
+              "verification": "direct preset/resolver probes + isolated original reflect_node"
+            },
+            {
+              "id": "AQ02",
+              "verdict": "不能作为RSI成果证据",
+              "title": "GA/DE与预设epoch演进benchmark只评分mock fitness",
+              "detail": "HarnessGenome/GeneticAlgorithm/DifferentialEvolution确实实现优化器，但rg发现唯一外部消费者scripts/benchmark_harness_evolution.py，fitness按工具/ensemble加分与tool_weight/temperature人为最优位置加噪声；不是实际回测。v1–v6是手写顺序预设，expected_improvement是文字，不是学习出的提升。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/harness_evolution_algo.py",
+                  "line": 24,
+                  "end_line": 81,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/harness_evolution_algo.py#L24-L81"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/scripts/benchmark_harness_evolution.py",
+                  "line": 81,
+                  "end_line": 115,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/scripts/benchmark_harness_evolution.py#L81-L115"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/harness_config.py",
+                  "line": 104,
+                  "end_line": 228,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/harness_config.py#L104-L228"
+                }
+              ],
+              "verification": "source_read"
+            },
+            {
+              "id": "AQ03",
+              "verdict": "借MutationRecord，重写候选搜索器",
+              "title": "实际外层mutation是4模板的确定性映射",
+              "detail": "StructuredFailure(tag,evidence)→固定FAILURE_TAG_TO_PATCH；只改prompt_template/context。PolicyMutationRecord保存parent/hash/patch/diagnosis/预算/rollback。每次n_mutations均用同一incumbent同一failures，产生不同uuid但相同patch；evaluation_budget是记录字段，run_bounded中并未据此截断调用。默认offline FallbackPlanner不读prompt，mutation arms因此可能完全等价，源码明确承认，必须live+真实LLM或可影响离线行为的knob才能检验RSI。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/policy_mutation.py",
+                  "line": 48,
+                  "end_line": 105,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/policy_mutation.py#L48-L105"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/policy_mutation.py",
+                  "line": 125,
+                  "end_line": 194,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/policy_mutation.py#L125-L194"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/policy_mutation.py",
+                  "line": 354,
+                  "end_line": 373,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/policy_mutation.py#L354-L373"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/search_arms.py",
+                  "line": 289,
+                  "end_line": 315,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/search_arms.py#L289-L315"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/search_arms.py",
+                  "line": 460,
+                  "end_line": 464,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/search_arms.py#L460-L464"
+                }
+              ],
+              "verification": "direct mutation outer-loop probe with deterministic fake eval; no live LLM run"
+            },
+            {
+              "id": "AQ04",
+              "verdict": "借门禁结构，补齐强校验",
+              "title": "promotion确实拒绝退化，但不是完整promotion系统",
+              "detail": "evaluate_promotion要求val均值Sharpe增量>0.10；protected单episode只允许绝对Sharpe下降≤0.25（注释写fraction，实际是绝对差）；tie/loss/missing protected/coverage mismatch拒绝。selected_policy保留incumbent即rollback。未检验float有限性：candidate inf被promote。未验各split身份/日期不相交；同一Episode同时作为dev/val/final/protected亦允许promote。protected只用seeds[0]，不是全seed回归评估。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/policy_mutation.py",
+                  "line": 230,
+                  "end_line": 295,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/policy_mutation.py#L230-L295"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/policy_mutation.py",
+                  "line": 327,
+                  "end_line": 410,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/policy_mutation.py#L327-L410"
+                }
+              ],
+              "verification": "direct probes: tie/loss/missing/mismatch reject; inf and overlapping splits accepted"
+            },
+            {
+              "id": "AQ05",
+              "verdict": "借时间切分，重写封存实现",
+              "title": "有独立holdout路径，普通agent并不因OOS退化自动拒绝",
+              "detail": "build_episodes默认连续不重叠dev/holdout；make_p2_eval_fn先只给dev到inner agent，再用episode holdout评分winner；run_bounded另分dev/validation/final角色，final仅评selected。FinalHoldoutGuard能拒绝同一路径再次使用，但只写本地used布尔，可换路径/删除/并发race，没有dataset fingerprint。普通agent _split_search_and_holdout对短数据或错误fraction静默退回in-sample；holdout_eval_node只附加holdout_sharpe/return，不回滚passed_quality_gate，holdout异常仍报IS。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/episode_splits.py",
+                  "line": 71,
+                  "end_line": 103,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/episode_splits.py#L71-L103"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/policy_eval.py",
+                  "line": 135,
+                  "end_line": 154,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/policy_eval.py#L135-L154"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/policy_mutation.py",
+                  "line": 298,
+                  "end_line": 321,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/policy_mutation.py#L298-L321"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+                  "line": 70,
+                  "end_line": 112,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L70-L112"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+                  "line": 482,
+                  "end_line": 554,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L482-L554"
+                }
+              ],
+              "verification": "direct chronological split + final guard probe; ordinary full graph unverified"
+            },
+            {
+              "id": "AQ06",
+              "verdict": "优先借统一memory API，修P2评估接线",
+              "title": "真正失败记忆是Trial/Belief/MemoryPack；P2播种仍写旧表",
+              "detail": "_record_trials会写每个成功/失败/异常proposal到mem_trials，包含params、IS metrics、outcome/failure_mode/run/iteration/market window；MemoryService.visible_trials按data_end<=as_of并屏蔽未来OOS，recall产worked/avoid/seeds/gaps并记录served_ids/snapshot。可取精华。然而policy_eval canonical只从StrategyMemory.list_runs抓旧winner，_seed_memory_db→StrategyMemory.store仅写strategy_runs；当前agent _recall_memory只读MemoryService(mem_trials)，没有自动backfill调用。normal/shuffled P2记忆快照可能未进入实际recall。真实同库探针旧表1条、unified visible_trials=0。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+                  "line": 158,
+                  "end_line": 185,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L158-L185"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+                  "line": 201,
+                  "end_line": 249,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L201-L249"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/memory/service.py",
+                  "line": 143,
+                  "end_line": 230,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/memory/service.py#L143-L230"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/memory/pack.py",
+                  "line": 18,
+                  "end_line": 59,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/memory/pack.py#L18-L59"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/policy_eval.py",
+                  "line": 41,
+                  "end_line": 99,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/policy_eval.py#L41-L99"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/strategy_memory.py",
+                  "line": 81,
+                  "end_line": 104,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/strategy_memory.py#L81-L104"
+                }
+              ],
+              "verification": "real StrategyMemory + MemoryService probe with config stub only"
+            },
+            {
+              "id": "AQ07",
+              "verdict": "借TraceEvent/RunManifest；补全trajectory",
+              "title": "原生state/dict易移植，但provenance仍不完整",
+              "detail": "AgentState TypedDict把ohlcv/context/proposals/results/best/iteration/harness/memory_snapshot分开，run_agent纯Python节点调用，非LangGraph硬依赖。TraceRecorder保留stage/message/payload并给诊断；RunManifest含data/config/memory hash、candidates/fallback/failure/status。manifest默认seeds为空、parent_policy=None；attempted仅all_results而非完整失败proposal；cost只数tool_call不含tokens/费用。不能当不可变完整轨迹重放。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+                  "line": 43,
+                  "end_line": 67,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L43-L67"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/agent_graph.py",
+                  "line": 730,
+                  "end_line": 742,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/agent_graph.py#L730-L742"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/trace.py",
+                  "line": 9,
+                  "end_line": 81,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/trace.py#L9-L81"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/run_manifest.py",
+                  "line": 43,
+                  "end_line": 119,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/run_manifest.py#L43-L119"
+                }
+              ],
+              "verification": "source_read"
+            },
+            {
+              "id": "AQ08",
+              "verdict": "不能直接借策略安全门",
+              "title": "Swarm critic的拒绝会被数量兜底覆盖",
+              "detail": "Swarm角色为regime→memory→specialists→critic→multiwindow coordinator→memory；SwarmOrchestrator在approved不足min_approved_proposals时按confidence把all_proposals重放进approved，可能重新接受critic拒绝者。此逻辑应重写为缺候选返回不足，不应绕过硬风险约束。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/swarm/state.py",
+                  "line": 12,
+                  "end_line": 58,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/swarm/state.py#L12-L58"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/swarm/orchestrator.py",
+                  "line": 38,
+                  "end_line": 76,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/swarm/orchestrator.py#L38-L76"
+                }
+              ],
+              "verification": "source_read"
+            },
+            {
+              "id": "AQ09",
+              "verdict": "仅借研究级收益评估；账户回测重写",
+              "title": "回测为上一日signal×close收益减线性turnover cost",
+              "detail": "runner支持策略registry、多资产权重与warmup；每资产用signal.shift(1)×close.pct_change - cost、cumprod equity，无订单/现金/库存撮合。search_arms _evaluate_params另外硬编码SMA momentum，参数不是通用RSI。没有A股T+1、涨跌停、停牌、手数、真实成交/部分成交模型。holdout只取holdout df在min_periods=1滚动，从零开始窗口，与正式runner使用全历史warmup+eval_start口径不一致。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/backtest/runner.py",
+                  "line": 42,
+                  "end_line": 105,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/backtest/runner.py#L42-L105"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/search_arms.py",
+                  "line": 103,
+                  "end_line": 127,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/search_arms.py#L103-L127"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/AgentQuant/src/agent/policy_eval.py",
+                  "line": 150,
+                  "end_line": 154,
+                  "url": "https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/policy_eval.py#L150-L154"
+                }
+              ],
+              "verification": "source_read"
+            }
+          ]
+        },
+        {
+          "name": "TradingAgents",
+          "origin": "https://github.com/TauricResearch/TradingAgents.git",
+          "sha": "1394a3f72aa4393e1a98f51b382434c4b4c2d972",
+          "license": "Apache-2.0",
+          "license_ref": {
+            "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/LICENSE",
+            "line": 1,
+            "end_line": 4,
+            "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/LICENSE#L1-L4"
+          },
+          "dependencies": {
+            "python": ">=3.11",
+            "core": "LangGraph>=1.2.12 + checkpoint-sqlite>=3.1.1; LangChain core>=1.6.5 + provider SDKs; pandas>=3.0.6; stockstats; yfinance>=1.7.0; rich/typer",
+            "coupling": "agents/__init__ eager-imports所有LLM/graph agent，单纯import schemas会拖入LangChain；提取Pydantic schema文件后可独立用。Graph constructor建立两个LLM及全局dataflow config。",
+            "ref": {
+              "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/pyproject.toml",
+              "line": 10,
+              "end_line": 30,
+              "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/pyproject.toml#L10-L30"
+            }
+          },
+          "findings": [
+            {
+              "id": "TA01",
+              "verdict": "借角色工厂和state分区，改成明确模块契约",
+              "title": "graph是可抽离的节点工厂(state)→partial dict，但大量串接prose",
+              "detail": "GraphSetup先并发analyst subgraph+Memory Log，等待全部结束后bull/bear→research manager→trader→risk三方→portfolio manager。AgentState是MessagesState+report str+debate nested TypedDict+final_rating+past_context等。各角色create_*闭包绑定LLM返回node，接口清晰，但报告与大部分辩论内容是string而非Evidence对象。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/graph/setup.py",
+                  "line": 109,
+                  "end_line": 187,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/graph/setup.py#L109-L187"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/agents/state.py",
+                  "line": 8,
+                  "end_line": 73,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/agents/state.py#L8-L73"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/agents/managers/portfolio_manager.py",
+                  "line": 23,
+                  "end_line": 104,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/agents/managers/portfolio_manager.py#L23-L104"
+                }
+              ],
+              "verification": "source_read"
+            },
+            {
+              "id": "TA02",
+              "verdict": "可借checkpoint生命周期，接到自己的storage层",
+              "title": "有实际SQLite恢复和配置指纹失效策略",
+              "detail": "begin_checkpoint按ticker SQLiteSaver重新compile，thread_id含ticker/date/signature；signature包括analysts/debate/risk/asset/portfolio fingerprint及绝大多数config digest，避免不同模型/仓位复用旧状态。恢复调用None，避免messages reducer重复初态；finally end_checkpoint回到plain graph；成功后clear_checkpoint，之后同ticker/date重新分析，不是长期session续聊。失败保留checkpoint。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/graph/trading_graph.py",
+                  "line": 140,
+                  "end_line": 165,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/graph/trading_graph.py#L140-L165"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/graph/trading_graph.py",
+                  "line": 192,
+                  "end_line": 253,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/graph/trading_graph.py#L192-L253"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/graph/trading_graph.py",
+                  "line": 372,
+                  "end_line": 404,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/graph/trading_graph.py#L372-L404"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/graph/checkpointer.py",
+                  "line": 19,
+                  "end_line": 66,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/graph/checkpointer.py#L19-L66"
+                }
+              ],
+              "verification": "isolated original signature/checkpoint_input methods passed; actual LangGraph/SqliteSaver crash/resume NOT run"
+            },
+            {
+              "id": "TA03",
+              "verdict": "借PIT lesson过滤，重写为结构化event store",
+              "title": "复用的是已settled决策反思，非自动修改agent/harness",
+              "detail": "TradingMemoryLog保存ticker/date/rating/pending，settlement以holding_days后的真实close相对regional benchmark算raw/alpha，LLM反思成功才resolved；同ticker/date idempotent防重复。get_past_context按resolved<=as_of排除未来和无resolved legacy，取同ticker5个+跨ticker3个，只注入Portfolio Manager，不写prompt/config/graph。仍是Markdown解析+round到0.1%结果，需改成数据表保存raw精度及结构化失败tags。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/memory/log.py",
+                  "line": 32,
+                  "end_line": 130,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/memory/log.py#L32-L130"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/memory/settlement.py",
+                  "line": 52,
+                  "end_line": 98,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/memory/settlement.py#L52-L98"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/graph/trading_graph.py",
+                  "line": 130,
+                  "end_line": 138,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/graph/trading_graph.py#L130-L138"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/graph/trading_graph.py",
+                  "line": 308,
+                  "end_line": 335,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/graph/trading_graph.py#L308-L335"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/agents/managers/portfolio_manager.py",
+                  "line": 35,
+                  "end_line": 60,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/agents/managers/portfolio_manager.py#L35-L60"
+                }
+              ],
+              "verification": "real memory_log duplicate/PIT filter probe passed; fetching prices + LLM reflection not run"
+            },
+            {
+              "id": "TA04",
+              "verdict": "可借决策schema；Evidence和交易意图需重写",
+              "title": "ResearchPlan/TraderProposal/PortfolioDecision是有用的类型起点，不足以执行",
+              "detail": "Pydantic schema含枚举recommendation/rating/action、reasoning、optional target/entry/stop/time horizon；Trader sizing仍string。没有evidence_ids/claim IDs、采样时间/来源、订单数量/方向/有效期/limit policy、数值positive或仓位上限验证。实测负entry/target、500% sizing都通过。invoke_structured失败就free-text，manager把typed result渲染Markdown后仅保留final_rating与text，丢掉typed object。需保留validated object并设schema_error状态，而非让free text接入执行。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/agents/schemas.py",
+                  "line": 95,
+                  "end_line": 127,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/agents/schemas.py#L95-L127"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/agents/schemas.py",
+                  "line": 146,
+                  "end_line": 188,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/agents/schemas.py#L146-L188"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/agents/schemas.py",
+                  "line": 221,
+                  "end_line": 265,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/agents/schemas.py#L221-L265"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/agents/structured.py",
+                  "line": 59,
+                  "end_line": 95,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/agents/structured.py#L59-L95"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/agents/managers/portfolio_manager.py",
+                  "line": 78,
+                  "end_line": 104,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/agents/managers/portfolio_manager.py#L78-L104"
+                }
+              ],
+              "verification": "real Pydantic schema invalid economic-value probe passed"
+            },
+            {
+              "id": "TA05",
+              "verdict": "只能借决策评分器，账户回测需另建",
+              "title": "backtest是独立cell评分，明确无成交/现金账本/权益曲线",
+              "detail": "run_backtest跑ticker×date且portfolio是每cell同一standing book，通过已记录cell跳过恢复，最后settle；summarize用5-tier rating方向与settled alpha计算hit_rate/mean_alpha，Hold无方向不计hit。它不提供fees/slippage/quantity/fill/positions carry，无账户PnL、换手或回撤。run_id复用只按ticker/date是否存在跳过，不验证config fingerprint，换模型同run_id可混结果。日期grid按calendar days可能含休市日。源码自身提示text feeds未archive，单次模型sampling不可完全复现。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/backtest.py",
+                  "line": 1,
+                  "end_line": 14,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/backtest.py#L1-L14"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/backtest.py",
+                  "line": 34,
+                  "end_line": 51,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/backtest.py#L34-L51"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/backtest.py",
+                  "line": 129,
+                  "end_line": 181,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/backtest.py#L129-L181"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/backtest.py",
+                  "line": 184,
+                  "end_line": 214,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/backtest.py#L184-L214"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/backtest.py",
+                  "line": 121,
+                  "end_line": 124,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/backtest.py#L121-L124"
+                }
+              ],
+              "verification": "source_read"
+            },
+            {
+              "id": "TA06",
+              "verdict": "借streaming pattern；补齐完整trajectory",
+              "title": "stream_run提供agent messages+finished state，final JSON不是完整不可变轨迹",
+              "detail": "stream_run以values+tasks/subgraphs收流；_log_state保存report/debate/plan/final_rating/run_settings到ticker/date JSON，会覆盖同日路径，不保留消息/tool IO/evidence snapshot/content hash/token cost，也不保存Pydantic对象。需要额外append-only event artifact和run ID。没有外层mutation/candidate promotion gate实现；risk debate是推理步骤，不是离线晋级检验。",
+              "references": [
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/graph/trading_graph.py",
+                  "line": 406,
+                  "end_line": 475,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/graph/trading_graph.py#L406-L475"
+                },
+                {
+                  "file": "/private/tmp/rsi-finance-audit-20261011/TradingAgents/tradingagents/graph/setup.py",
+                  "line": 175,
+                  "end_line": 185,
+                  "url": "https://github.com/TauricResearch/TradingAgents/blob/1394a3f72aa4393e1a98f51b382434c4b4c2d972/tradingagents/graph/setup.py#L175-L185"
+                }
+              ],
+              "verification": "source_read"
+            }
+          ]
+        }
+      ],
+      "cross_repo_warning": {
+        "dependency_conflict": "AgentQuant pandas>=2,<3 与 TradingAgents pandas>=3.0.6不能满足同一环境；建议抽取小模块/契约，或进程边界适配，而不是直接合并requirements。",
+        "must_rewrite_for_target": "可执行Evidence(内容hash、source、available_at、as_of、claim refs)、typed Decision→OrderIntent、账户级模拟器(美股/A股市场规则)、holdout registry(dataset fingerprint+locked usage)、有限数/coverage/分区校验、mutation预算与去重、可重放trajectory。"
+      },
+      "validation": {
+        "runtime": "/Users/calm/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 (bundled Python3.12)",
+        "command": "PYTHONDONTWRITEBYTECODE=1 <python> /private/tmp/rsi-finance-audit-20261011/agent_probe.py",
+        "probe_script": "/private/tmp/rsi-finance-audit-20261011/agent_probe.py",
+        "results_path": "/private/tmp/rsi-finance-audit-20261011/agent-probe-results.json",
+        "results": [
+          {
+            "probe": "AgentQuant actual preset resolution",
+            "status": "pass",
+            "result": {
+              "v1_base": "resolved",
+              "v2_tool_aware": "harness_config.tool_weight=0.6 has no effect in this runtime (supported knobs: use_tools, use_web_search, prompt_template, prompt_context, min_acceptable_sharpe, max_acceptable_drawdown, max_retries-as-max_iterations). Refusing to silently ignore it.",
+              "v3_prompt_tuned": "harness_config.tool_weight=0.6 has no effect in this runtime (supported knobs: use_tools, use_web_search, prompt_template, prompt_context, min_acceptable_sharpe, max_acceptable_drawdown, max_retries-as-max_iterations). Refusing to silently ignore it.",
+              "v4_grid_evolved": "harness_config.grid_adaptation_strategy='shrink_to_winners' has no effect in this runtime (supported knobs: use_tools, use_web_search, prompt_template, prompt_context, min_acceptable_sharpe, max_acceptable_drawdown, max_retries-as-max_iterations). Refusing to silently ignore it.",
+              "v5_multi_agent": "harness_config.use_ensemble=True has no effect in this runtime (supported knobs: use_tools, use_web_search, prompt_template, prompt_context, min_acceptable_sharpe, max_acceptable_drawdown, max_retries-as-max_iterations). Refusing to silently ignore it.",
+              "v6_research": "harness_config.use_ensemble=True has no effect in this runtime (supported knobs: use_tools, use_web_search, prompt_template, prompt_context, min_acceptable_sharpe, max_acceptable_drawdown, max_retries-as-max_iterations). Refusing to silently ignore it."
+            }
+          },
+          {
+            "probe": "AgentQuant silent unprojected knobs",
+            "status": "pass",
+            "result": {
+              "effective": {
+                "use_tools": false,
+                "use_web_search": false,
+                "prompt_template": "grid_search_default",
+                "prompt_context": {},
+                "min_acceptable_sharpe": 0.3,
+                "max_acceptable_drawdown": 0.2,
+                "max_iterations": null,
+                "config_hash": "d0ce837791048b1f",
+                "requested": {
+                  "version": "v1_base",
+                  "epoch": 1,
+                  "created": "2026-10-11T15:36:14.185494",
+                  "use_tools": false,
+                  "use_web_search": false,
+                  "use_ensemble": false,
+                  "tool_weight": 0.5,
+                  "prompt_template": "grid_search_default",
+                  "prompt_context": {},
+                  "temperature": 0.99,
+                  "max_retries": 99,
+                  "grid_adaptation_strategy": null,
+                  "grid_params": {
+                    "fast_window": [
+                      9
+                    ]
+                  },
+                  "grid_focus_regions": [],
+                  "track_falsifiable_claims": true,
+                  "claim_weighting": 0.5,
+                  "min_acceptable_sharpe": 0.3,
+                  "max_acceptable_drawdown": 0.2,
+                  "required_win_rate": 0.0,
+                  "description": "Baseline grid search (no tools)",
+                  "reasoning": "Establish baseline performance with grid sampling",
+                  "expected_improvement": "Reference point (0%)"
+                }
+              },
+              "observation": "values only retained in requested; no effect fields"
+            }
+          },
+          {
+            "probe": "AgentQuant promotion + nonfinite hole",
+            "status": "pass",
+            "result": {
+              "tie": false,
+              "gain": true,
+              "protected_loss": false,
+              "missing_protected": false,
+              "coverage_mismatch": false,
+              "infinite_gain": true
+            }
+          },
+          {
+            "probe": "AgentQuant final holdout repeat guard",
+            "status": "pass",
+            "result": "second access rejected"
+          },
+          {
+            "probe": "AgentQuant no split-disjointness check and deterministic duplicate mutations",
+            "status": "pass",
+            "result": {
+              "all_split_roles_same_episode_accepted": true,
+              "identical_patches": 3,
+              "calls": 8,
+              "promotion": {
+                "promote": true,
+                "reason": "candidate beats incumbent by 1.000 > epsilon=0.1; promoting",
+                "candidate_mean": 2.0,
+                "incumbent_mean": 1.0,
+                "protected_delta": 1.0
+              }
+            }
+          },
+          {
+            "probe": "AgentQuant generated episode chronological separation",
+            "status": "pass",
+            "result": [
+              {
+                "episode_id": "ep00",
+                "asset": "SIM",
+                "dev_start": "2015-01-01",
+                "dev_end": "2015-11-04",
+                "holdout_start": "2015-11-05",
+                "holdout_end": "2016-01-27"
+              },
+              {
+                "episode_id": "ep01",
+                "asset": "SIM",
+                "dev_start": "2016-01-28",
+                "dev_end": "2016-11-30",
+                "holdout_start": "2016-12-01",
+                "holdout_end": "2017-02-22"
+              }
+            ]
+          },
+          {
+            "probe": "TradingAgents schemas permit invalid economic values",
+            "status": "pass",
+            "result": {
+              "trader": {
+                "action": "Buy",
+                "reasoning": "fixture",
+                "entry_price": -10.0,
+                "stop_loss": 100.0,
+                "position_sizing": "500%"
+              },
+              "portfolio": {
+                "rating": "Buy",
+                "executive_summary": "fixture",
+                "investment_thesis": "fixture",
+                "price_target": -1.0,
+                "time_horizon": null
+              },
+              "meaning": "schemas validate vocabulary/type, not tradability/risk/evidence IDs"
+            }
+          },
+          {
+            "probe": "TradingAgents real memory log idempotency and point-in-time cutoff",
+            "status": "pass",
+            "result": {
+              "duplicate_blocked": true,
+              "future_lesson_excluded": true,
+              "resolved_lesson_included": true
+            }
+          },
+          {
+            "probe": "TradingAgents checkpoint signature and resume input isolated methods",
+            "status": "pass",
+            "result": {
+              "model_change_invalidates": true,
+              "results_dir_change_ignored": true,
+              "resume_input_is_none": true,
+              "scope": "isolated original methods; no LangGraph/Sqlite integration executed"
+            }
+          },
+          {
+            "probe": "AgentQuant reflect ignores effective drawdown threshold",
+            "status": "pass",
+            "result": {
+              "99_percent_drawdown_accepted_with_1_percent_harness_cap": true,
+              "scope": "isolated original reflect_node; claim scoring stubbed"
+            }
+          },
+          {
+            "probe": "AgentQuant P2 legacy memory seeding invisible to unified recall",
+            "status": "pass",
+            "result": {
+              "strategy_runs": 1,
+              "unified_visible_trials": 0,
+              "scope": "real StrategyMemory and MemoryService; config stub only; same legacy store path used by policy_eval._seed_memory_db"
+            }
+          }
+        ],
+        "limitations": [
+          "没有pytest，未运行上游完整test suite",
+          "没安装任何依赖/API key；未运行live LLM/行情下载/大数据 backtest",
+          "TradingAgents checkpoint探针只运行隔离原方法，没有SqliteSaver/LangGraph集成",
+          "AgentQuant reflect探针隔离原函数并stub claim评分；没有完整agent_graph执行",
+          "统一memory错接探针用真实StrategyMemory/MemoryService并stub config，无端到端P2跑分",
+          "上游两个git status --short为空；仅审计目录新增脚本/JSON"
+        ]
+      }
+    },
+    "quant-audit.json": {
+      "audit_scope": "源码级组件提炼：研究候选、迭代、实验运行/记录、评估划分、时点数据及 CN/US 边界；不推荐整仓，不安装依赖，不修改上游/主工作区。",
+      "applicable_instructions": "在三个仓库根和目标子目录未发现适用 AGENTS.md；RD-Agent 的 RL/autorl_bench/agents/*/AGENTS.md 不适用于本审计路径。遵循用户给出的全局 AGENTS.md。",
+      "repositories": [
+        {
+          "repo": "RD-Agent",
+          "sha": "484776c211e4fbbeef03e0ec00d6bbee7362a4f4",
+          "license": {
+            "status": "MIT",
+            "evidence": {
+              "file": "LICENSE",
+              "line": 1
+            }
+          },
+          "extractable_components": [
+            {
+              "interface": "Task / Workspace.execute / FBWorkspace.run / Experiment",
+              "purpose": "候选任务、实现工作区、运行结果的分离接口；在新项目定义轻量协议，不继承全套全局 settings",
+              "evidence": [
+                {
+                  "file": "rdagent/core/experiment.py",
+                  "line": 58
+                },
+                {
+                  "file": "rdagent/core/experiment.py",
+                  "line": 87,
+                  "end_line": 123
+                },
+                {
+                  "file": "rdagent/core/experiment.py",
+                  "line": 329,
+                  "end_line": 344
+                },
+                {
+                  "file": "rdagent/core/experiment.py",
+                  "line": 418,
+                  "end_line": 487
+                }
+              ],
+              "coupling": "FBWorkspace 依赖 Env、RD settings、logger 和文件系统 checkpoint；提炼协议比搬实现稳妥。"
+            },
+            {
+              "interface": "Developer.develop(exp) -> exp; ExperimentFeedback / HypothesisFeedback; Trace",
+              "purpose": "候选→开发→执行→反馈的 typed contracts 与 lineage/history",
+              "evidence": [
+                {
+                  "file": "rdagent/core/developer.py",
+                  "line": 12,
+                  "end_line": 18
+                },
+                {
+                  "file": "rdagent/core/proposal.py",
+                  "line": 58,
+                  "end_line": 119
+                },
+                {
+                  "file": "rdagent/core/proposal.py",
+                  "line": 141,
+                  "end_line": 185
+                }
+              ],
+              "coupling": "Trace 强引用 Scenario/KnowledgeBase/Experiment；建议新的不可变 CandidateSpec/EvaluationReport/RunLedger。"
+            },
+            {
+              "interface": "QlibQuantHypothesisGen.prepare_context(trace); QuantTrace.controller",
+              "purpose": "因子/模型二选一的研究调度接口，bandit/LLM/random 分支可拆为 proposal scheduler",
+              "evidence": [
+                {
+                  "file": "rdagent/scenarios/qlib/proposal/quant_proposal.py",
+                  "line": 16,
+                  "end_line": 20
+                },
+                {
+                  "file": "rdagent/scenarios/qlib/proposal/quant_proposal.py",
+                  "line": 46,
+                  "end_line": 88
+                }
+              ],
+              "coupling": "实际是 factor/model 候选调度，非 harness 源码自动改写；高度依赖 prompt 和 APIBackend。"
+            },
+            {
+              "interface": "QlibFactorRunner.develop; QlibFBWorkspace.execute(qlib_config_name, run_env)",
+              "purpose": "将研究候选接入固定 Qlib evaluator 的适配器形态",
+              "evidence": [
+                {
+                  "file": "rdagent/scenarios/qlib/developer/factor_runner.py",
+                  "line": 63,
+                  "end_line": 85
+                },
+                {
+                  "file": "rdagent/scenarios/qlib/experiment/workspace.py",
+                  "line": 13,
+                  "end_line": 56
+                }
+              ],
+              "coupling": "qrun 子进程、conda/docker、模板、MLflow、parquet/csv 文件约定；不宜作为核心运行内核。"
+            }
+          ],
+          "critical_findings": [
+            {
+              "summary": "默认 train=2008–2014、valid=2015–2016、test/backtest=2017–2020-08-01。模型 fit/early stop 使用 train/valid，但研究反馈使用 test 指标，因此多轮自适应研究使名为 test 的段成为开发集；不能报告为 untouched final test。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "rdagent/app/qlib_rd_loop/conf.py",
+                  "line": 33,
+                  "end_line": 49
+                },
+                {
+                  "file": "rdagent/app/qlib_rd_loop/conf.py",
+                  "line": 77,
+                  "end_line": 93
+                },
+                {
+                  "file": "rdagent/scenarios/qlib/experiment/factor_template/conf_combined_factors.yaml",
+                  "line": 43,
+                  "end_line": 45
+                },
+                {
+                  "file": "rdagent/scenarios/qlib/experiment/factor_template/conf_combined_factors.yaml",
+                  "line": 78,
+                  "end_line": 80
+                }
+              ]
+            },
+            {
+              "summary": "完整结果反馈链：runner 把指定 test 日期注入配置并 execute；workspace qrun 后运行 read_exp_res.py；脚本列所有实验、选 end_time 最新 recorder、将所有 metrics 写 csv；workspace 返回 Series；feedback.process_results 取 IC、with_cost 年化和回撤，发 LLM，再以 Replace Best Result 决定是否替换。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "rdagent/scenarios/qlib/developer/factor_runner.py",
+                  "line": 73,
+                  "end_line": 85
+                },
+                {
+                  "file": "rdagent/scenarios/qlib/experiment/workspace.py",
+                  "line": 28,
+                  "end_line": 56
+                },
+                {
+                  "file": "rdagent/scenarios/qlib/experiment/factor_template/read_exp_res.py",
+                  "line": 18,
+                  "end_line": 50
+                },
+                {
+                  "file": "rdagent/scenarios/qlib/developer/feedback.py",
+                  "line": 17,
+                  "end_line": 20
+                },
+                {
+                  "file": "rdagent/scenarios/qlib/developer/feedback.py",
+                  "line": 70,
+                  "end_line": 110
+                }
+              ]
+            },
+            {
+              "summary": "latest-recorder 扫描法不绑定本次 run ID，存在并发/失败后的串结果风险；应改为 runner 接收明确 recorder ID 和状态并验 artifact。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "rdagent/scenarios/qlib/experiment/factor_template/read_exp_res.py",
+                  "line": 18,
+                  "end_line": 38
+                }
+              ]
+            },
+            {
+              "summary": "量化路径演化的是因子、模型及其参数；action 分支由固定 QuantRDLoop / fixed runner / fixed evaluator 执行，没有在该路径证据证明会自动改写 harness。该结论限定量化场景，不覆盖 RD-Agent 其他 RL 场景。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "rdagent/app/qlib_rd_loop/quant.py",
+                  "line": 74,
+                  "end_line": 125
+                },
+                {
+                  "file": "rdagent/scenarios/qlib/proposal/quant_proposal.py",
+                  "line": 85,
+                  "end_line": 97
+                }
+              ]
+            }
+          ],
+          "do_not_copy": [
+            "反复反馈 test 的评估协议",
+            "从所有实验中选 latest recorder",
+            "LLM 决定 Replace Best 而无固定数值门槛、访问分区和多重试验校正",
+            "模板硬编码 A 股 csi300 与费用、日线回测假设"
+          ]
+        },
+        {
+          "repo": "QuantaAlpha",
+          "sha": "b7ceb27b1001261d7a95b209a963664ae1f8ab23",
+          "license": {
+            "status": "declares MIT, no tracked root LICENSE found",
+            "evidence": [
+              {
+                "file": "pyproject.toml",
+                "line": 14
+              },
+              {
+                "file": "README.md",
+                "line": 17
+              }
+            ],
+            "limitation": "有 MIT 分类/badge 不等于已找到授权全文；复制源码前应核对作者授权与 RD-Agent 继承代码版权。"
+          },
+          "extractable_components": [
+            {
+              "interface": "StrategyTrajectory dataclass; TrajectoryPool.add/get/get_by_direction/_save/_load",
+              "purpose": "候选假设、表达式、实现、指标、反馈、父候选 lineage 的记录格式；最易抽离",
+              "evidence": [
+                {
+                  "file": "quantaalpha/pipeline/evolution/trajectory.py",
+                  "line": 28,
+                  "end_line": 81
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/trajectory.py",
+                  "line": 148,
+                  "end_line": 205
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/trajectory.py",
+                  "line": 341,
+                  "end_line": 378
+                }
+              ],
+              "coupling": "除 logger 外近乎 stdlib；但 to_dict 主动丢弃 raw backtest_result；需新增 artifact URI、dataset/code/evaluator hash、seed、费用/分区和数据快照。"
+            },
+            {
+              "interface": "EvolutionConfig; EvolutionController.get_next_task / report_task_complete; MutationOperator.generate_mutation; CrossoverOperator.generate_crossover / select_crossover_pairs",
+              "purpose": "original→mutation→crossover 候选搜索策略和 lineage 选择，作为研究 proposal 插件",
+              "evidence": [
+                {
+                  "file": "quantaalpha/pipeline/evolution/controller.py",
+                  "line": 24,
+                  "end_line": 66
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/controller.py",
+                  "line": 134,
+                  "end_line": 165
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/controller.py",
+                  "line": 681
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/mutation.py",
+                  "line": 76,
+                  "end_line": 140
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/crossover.py",
+                  "line": 126
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/crossover.py",
+                  "line": 303,
+                  "end_line": 408
+                }
+              ],
+              "coupling": "controller 依赖 logger、YAML prompts、APIBackend；Mutation/Crossover 产物是新 hypothesis/prompt suffix，并非 runner/evaluator 代码。"
+            },
+            {
+              "interface": "FactorQualityGate.evaluate; ComplexityChecker.check; RedundancyChecker.check; factor_ast.parse_expression / compare_expressions / calculate_symbol_length / count_base_features",
+              "purpose": "表达式 AST、复杂度、重复子树与假设一致性门禁，可提炼独立 preflight",
+              "evidence": [
+                {
+                  "file": "quantaalpha/factors/regulator/consistency_checker.py",
+                  "line": 239,
+                  "end_line": 361
+                },
+                {
+                  "file": "quantaalpha/factors/regulator/consistency_checker.py",
+                  "line": 364,
+                  "end_line": 454
+                },
+                {
+                  "file": "quantaalpha/factors/coder/factor_ast.py",
+                  "line": 239
+                },
+                {
+                  "file": "quantaalpha/factors/coder/factor_ast.py",
+                  "line": 362
+                },
+                {
+                  "file": "quantaalpha/factors/coder/factor_ast.py",
+                  "line": 482,
+                  "end_line": 513
+                }
+              ],
+              "coupling": "AST 依赖 pyparsing/pandas；一致性检查会调 LLM，重复库路径与格式耦合。错误分支 fail-open 必须重写。"
+            }
+          ],
+          "critical_findings": [
+            {
+              "summary": "研究 loop 的真实配置不是 README 顶部注释声称的 2022–2025 OOS：workspace 用自身 factor_template 覆盖 RD-Agent 模板；两个 small 模板实际 train=2016–2019、valid=2020、test=2021，组合模板 backtest 同为 2021。runner.run_env={} 不覆盖这些日期。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "quantaalpha/factors/workspace.py",
+                  "line": 23,
+                  "end_line": 27
+                },
+                {
+                  "file": "quantaalpha/factors/runner.py",
+                  "line": 164,
+                  "end_line": 187
+                },
+                {
+                  "file": "quantaalpha/factors/factor_template/conf_combined_factors.yaml",
+                  "line": 6
+                },
+                {
+                  "file": "quantaalpha/factors/factor_template/conf_combined_factors.yaml",
+                  "line": 68,
+                  "end_line": 70
+                },
+                {
+                  "file": "quantaalpha/factors/factor_template/conf_combined_factors.yaml",
+                  "line": 106,
+                  "end_line": 109
+                },
+                {
+                  "file": "quantaalpha/factors/factor_template/conf_baseline.yaml",
+                  "line": 100,
+                  "end_line": 102
+                }
+              ]
+            },
+            {
+              "summary": "研究反馈 process_results 明确传 IC 与 without_cost 年化/IR/回撤；AlphaAgent feedback 每轮追加 trace，下一轮使用 prior result；controller 从同一 experiment.result 取 RankIC，crossover 及 get_best 根据 RankIC 筛选。由固定 test=2021 得出这是反复适应性使用的 2021 开发评估集。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "quantaalpha/factors/feedback.py",
+                  "line": 87,
+                  "end_line": 120
+                },
+                {
+                  "file": "quantaalpha/factors/feedback.py",
+                  "line": 228,
+                  "end_line": 275
+                },
+                {
+                  "file": "quantaalpha/pipeline/loop.py",
+                  "line": 186,
+                  "end_line": 194
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/controller.py",
+                  "line": 762,
+                  "end_line": 766
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/controller.py",
+                  "line": 795,
+                  "end_line": 875
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/crossover.py",
+                  "line": 351,
+                  "end_line": 408
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/trajectory.py",
+                  "line": 90,
+                  "end_line": 97
+                }
+              ]
+            },
+            {
+              "summary": "独立 backtest.yaml 配 train=2016–2020、valid=2021、test=2022–2025-12-26；这与 small-loop 研究配置分离，理论上可作为外层 holdout，但源码不证明用户从未查看/据此再挑候选或重跑；不可宣称自动强制防测试集过拟合。",
+              "kind": "source_plus_explicit_limitation",
+              "evidence": [
+                {
+                  "file": "configs/backtest.yaml",
+                  "line": 83,
+                  "end_line": 85
+                }
+              ]
+            },
+            {
+              "summary": "Mutation/Crossover 实际把父候选假设、因子、指标、反馈发给 LLM，生成 hypothesis/prompt suffix；factor_mining 为每个任务创建同一 AlphaAgentLoop 类运行固定五步。这是研究候选/策略进化，不是 harness 自我改写。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "quantaalpha/pipeline/evolution/mutation.py",
+                  "line": 96,
+                  "end_line": 140
+                },
+                {
+                  "file": "quantaalpha/pipeline/evolution/crossover.py",
+                  "line": 242,
+                  "end_line": 299
+                },
+                {
+                  "file": "quantaalpha/pipeline/factor_mining.py",
+                  "line": 145,
+                  "end_line": 183
+                }
+              ]
+            },
+            {
+              "summary": "质量门禁 ComplexityChecker 异常返回 True；RedundancyChecker 异常同样返回 True；生产中缺依赖、坏库、解析错误可能被当作通过。应三态 PASS/FAIL/ERROR，ERROR 不得晋级。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "quantaalpha/factors/regulator/consistency_checker.py",
+                  "line": 303,
+                  "end_line": 305
+                },
+                {
+                  "file": "quantaalpha/factors/regulator/consistency_checker.py",
+                  "line": 359,
+                  "end_line": 361
+                }
+              ]
+            },
+            {
+              "summary": "依赖 rdagent==0.8.0 且大量继承/导入该包；本次 clone 的 RD-Agent HEAD 与其 pinned 版本不等同。QuantaAlpha 自己的模板/runner 源码已直接核验，但 pinned rdagent 0.8.0 的实际包运行未安装/未验证。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "requirements.txt",
+                  "line": 57,
+                  "end_line": 59
+                },
+                {
+                  "file": "quantaalpha/factors/experiment.py",
+                  "line": 9,
+                  "end_line": 32
+                },
+                {
+                  "file": "quantaalpha/factors/workspace.py",
+                  "line": 11
+                }
+              ]
+            }
+          ],
+          "do_not_copy": [
+            "without_cost 为主的候选奖励，需用可成交/with_cost/换手/稳健性联合评价",
+            "丢弃原始回测 artifacts 的 JSON ledger",
+            "异常自动放行 quality gate",
+            "RankIC>0 即 successful 的门槛",
+            "把候选进化包装为 harness evolution",
+            "误读配置注释代替真实日期"
+          ]
+        },
+        {
+          "repo": "qlib",
+          "sha": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+          "license": {
+            "status": "MIT",
+            "evidence": {
+              "file": "LICENSE",
+              "line": 1
+            }
+          },
+          "extractable_components": [
+            {
+              "interface": "DatasetH.prepare(segments,col_set,data_key); DataHandlerLP DK_R/DK_I/DK_L; Model.fit / predict(dataset,segment)",
+              "purpose": "显式 segment 与 raw/infer/learn 数据契约，训练预处理和推理预处理分离",
+              "evidence": [
+                {
+                  "file": "qlib/data/dataset/__init__.py",
+                  "line": 185
+                },
+                {
+                  "file": "qlib/data/dataset/handler.py",
+                  "line": 382
+                },
+                {
+                  "file": "qlib/data/dataset/handler.py",
+                  "line": 513,
+                  "end_line": 607
+                },
+                {
+                  "file": "qlib/model/base.py",
+                  "line": 25,
+                  "end_line": 77
+                }
+              ],
+              "coupling": "Qlib global C/provider/calendar/Serializable；建议保留 pyqlib 作为 evaluator backend，通过自家 DatasetSnapshot 接口包裹。"
+            },
+            {
+              "interface": "RollingGen; trunc_segments; MultiHorizonGenBase",
+              "purpose": "walk-forward 与按标签 horizon 截断 train/valid 边界，可提炼评估 task generator",
+              "evidence": [
+                {
+                  "file": "qlib/workflow/task/gen.py",
+                  "line": 128,
+                  "end_line": 181
+                },
+                {
+                  "file": "qlib/workflow/task/gen.py",
+                  "line": 286,
+                  "end_line": 302
+                },
+                {
+                  "file": "qlib/workflow/task/gen.py",
+                  "line": 306,
+                  "end_line": 349
+                }
+              ],
+              "coupling": "TimeAdjuster 依赖交易日历；trunc_days 默认 None，并非自动 embargo；这些工具也不阻止研究 agent 读最终 test。"
+            },
+            {
+              "interface": "Recorder.log_params/log_metrics/save_objects; task_train; SignalRecord/SigAnaRecord/PortAnaRecord",
+              "purpose": "实验 config/model/dataset/prediction/metric/artifact 的运行与记录协议",
+              "evidence": [
+                {
+                  "file": "qlib/workflow/recorder.py",
+                  "line": 34,
+                  "end_line": 154
+                },
+                {
+                  "file": "qlib/model/trainer.py",
+                  "line": 44,
+                  "end_line": 78
+                },
+                {
+                  "file": "qlib/model/trainer.py",
+                  "line": 119,
+                  "end_line": 139
+                },
+                {
+                  "file": "qlib/workflow/record_temp.py",
+                  "line": 173,
+                  "end_line": 213
+                },
+                {
+                  "file": "qlib/workflow/record_temp.py",
+                  "line": 302,
+                  "end_line": 330
+                }
+              ],
+              "coupling": "MLflow backend 和全局 R；宜将 RunLedger 作为抽象，MLflow 可选适配器。"
+            },
+            {
+              "interface": "P / PRef; PITProvider.period_feature / LocalPITProvider",
+              "purpose": "财报 period 与可见/披露时间分开、按观察时间取当时已知修订版本的语义",
+              "evidence": [
+                {
+                  "file": "qlib/data/pit.py",
+                  "line": 24,
+                  "end_line": 52
+                },
+                {
+                  "file": "qlib/data/pit.py",
+                  "line": 63,
+                  "end_line": 72
+                },
+                {
+                  "file": "qlib/data/data.py",
+                  "line": 337,
+                  "end_line": 379
+                },
+                {
+                  "file": "qlib/data/data.py",
+                  "line": 781,
+                  "end_line": 822
+                }
+              ],
+              "coupling": "本地 financial/*.index/*.data、季度/年度、Qlib calendar；不要将它等同于全市场新闻/财报/成分股 PIT 数据完整性。"
+            },
+            {
+              "interface": "Exchange(limit_threshold,deal_price,volume_threshold,open_cost,close_cost,trade_unit); Position",
+              "purpose": "交易约束与研究信号分离的回测 broker adapter",
+              "evidence": [
+                {
+                  "file": "qlib/backtest/exchange.py",
+                  "line": 28,
+                  "end_line": 109
+                },
+                {
+                  "file": "qlib/backtest/exchange.py",
+                  "line": 273,
+                  "end_line": 291
+                },
+                {
+                  "file": "qlib/backtest/exchange.py",
+                  "line": 761,
+                  "end_line": 783
+                },
+                {
+                  "file": "qlib/backtest/position.py",
+                  "line": 352,
+                  "end_line": 380
+                }
+              ],
+              "coupling": "Quote/Order/Position/Account/calendar；只复用 Qlib adapter，不建议裁碎其内部账本。"
+            }
+          ],
+          "critical_findings": [
+            {
+              "summary": "SignalRecord.generate 调 model.predict(dataset)，默认 segment=test；generate_label 显式 prepare(segments=test)；SigAnaRecord 用 pred.pkl/label.pkl 计算 IC。证实 RD/Quanta 反馈中 IC 的 test 段来源。LGBModel 训练仅 prepare train/valid，valid 用于 early stopping。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "qlib/workflow/record_temp.py",
+                  "line": 178,
+                  "end_line": 213
+                },
+                {
+                  "file": "qlib/workflow/record_temp.py",
+                  "line": 324,
+                  "end_line": 330
+                },
+                {
+                  "file": "qlib/model/base.py",
+                  "line": 63,
+                  "end_line": 72
+                },
+                {
+                  "file": "qlib/contrib/model/gbdt.py",
+                  "line": 28,
+                  "end_line": 37
+                },
+                {
+                  "file": "qlib/contrib/model/gbdt.py",
+                  "line": 69,
+                  "end_line": 91
+                }
+              ]
+            },
+            {
+              "summary": "CN/US 确有代码支持：region CN=100股/0.095涨跌阈值、US=1股/无涨跌阈值，YahooCollectorCN/US 分别有交易时区/代码规范化。但 region 切换仅是默认参数；不是完整市场规则或可用、合法、无幸存偏差的数据保证。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "qlib/config.py",
+                  "line": 316,
+                  "end_line": 330
+                },
+                {
+                  "file": "scripts/data_collector/yahoo/collector.py",
+                  "line": 205,
+                  "end_line": 219
+                },
+                {
+                  "file": "scripts/data_collector/yahoo/collector.py",
+                  "line": 264,
+                  "end_line": 291
+                }
+              ]
+            },
+            {
+              "summary": "PIT 引擎拒绝未来财务 period；LocalPITProvider 只取 date <= cur_time 的 revisions；自带 PitCollector 是 baostock/A股例程并明确映射 pubDate/statDate，不能据此声称美股 SEC filing PIT 已实现。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "qlib/data/pit.py",
+                  "line": 29,
+                  "end_line": 40
+                },
+                {
+                  "file": "qlib/data/data.py",
+                  "line": 797,
+                  "end_line": 818
+                },
+                {
+                  "file": "scripts/data_collector/pit/collector.py",
+                  "line": 12
+                },
+                {
+                  "file": "scripts/data_collector/pit/collector.py",
+                  "line": 81,
+                  "end_line": 93
+                },
+                {
+                  "file": "scripts/data_collector/pit/collector.py",
+                  "line": 118,
+                  "end_line": 140
+                }
+              ]
+            },
+            {
+              "summary": "Yahoo US symbols 来自当前 Eastmoney/Nasdaq/NYSE 符号列表，不能自行保证历史退市股票与时点投资域；必须另供 historical universe/delist/corporate-action 快照。",
+              "kind": "source_plus_inference",
+              "evidence": [
+                {
+                  "file": "scripts/data_collector/utils.py",
+                  "line": 289,
+                  "end_line": 337
+                }
+              ]
+            },
+            {
+              "summary": "普通表达式 Ref 允许 N<0 的未来数据，PIT P 对未来财务 period 的防护并不等于所有因子可用性审计。需给 feature expressions 禁未来引用并做 time-travel probes；label 与 feature 分开。",
+              "kind": "verified_source",
+              "evidence": [
+                {
+                  "file": "qlib/data/ops.py",
+                  "line": 781,
+                  "end_line": 789
+                },
+                {
+                  "file": "qlib/data/data.py",
+                  "line": 854,
+                  "end_line": 856
+                }
+              ]
+            },
+            {
+              "summary": "默认 Position 卖出未持有标的抛错、卖出超额抛错，不能直接当作通用可卖空/保证金美股 broker。CN 全局0.095也不覆盖所有板块/ST/IPO差异，需每标的每日期 limit expressions；T+1、borrow、settlement、corporate actions 需额外市场规则测试。",
+              "kind": "source_plus_boundary_inference",
+              "evidence": [
+                {
+                  "file": "qlib/backtest/position.py",
+                  "line": 352,
+                  "end_line": 374
+                },
+                {
+                  "file": "qlib/backtest/exchange.py",
+                  "line": 273,
+                  "end_line": 291
+                },
+                {
+                  "file": "qlib/config.py",
+                  "line": 316,
+                  "end_line": 330
+                }
+              ]
+            }
+          ],
+          "do_not_copy": [
+            "硬编码一个市场规则集",
+            "将 region=us 等同美股完整数据/执行支持",
+            "仅凭 train/valid/test 字段命名声称防泄漏",
+            "test 默认 SignalRecord 直接接入自适应奖励",
+            "未经 cutoff 防护的 Ref 负数表达式",
+            "MLflow 所有 artifacts 无版本 hash 的记录协议"
+          ]
+        }
+      ],
+      "recommended_new_project_seams": [
+        "CandidateSpec 包含研究对象类型：factor/model/strategy/harness；HarnessVersion 包含 tools/prompts/memory/context/evaluator/git SHA，演化 harness 才晋升 HarnessVersion。",
+        "EvaluatorAdapter.evaluate(candidate,snapshot,split_id,market_rules,budget)->EvaluationReport；隐藏 final_holdout 凭证/数据和返回值，研究 loop 仅收到 train/inner_valid / walk-forward selection 指标。",
+        "PromotionPolicy 先执行数据可用性、表达式无未来、交易可实现、费用/换手、分段稳健性，再做 paired baseline 比较；不接受 LLM 自由改 final evaluator 或读取 final_holdout。",
+        "RunLedger 记录候选 lineage、code/data/evaluator/market_rules hashes、split boundaries、embargo horizon、seed、LLM成本、artifact URI、失败状态；原始结果永不丢弃。",
+        "CN/US 分成 DataAdapter/UniverseSnapshot/Calendar/CorporateAction/ExecutionRules；不要继承硬编码 CSI300 模板。"
+      ],
+      "executed_tests": [
+        {
+          "name": "QuantaAlpha trajectory selection and serialization",
+          "method": "original module AST; only logger stubbed",
+          "result": "pass",
+          "observed": {
+            "mutation": "latest not best",
+            "best_crossover": [
+              "best",
+              "other"
+            ],
+            "raw_result_serialization": null
+          }
+        },
+        {
+          "name": "RD-Agent feedback metrics visibility",
+          "method": "original process_results extracted via AST; pandas sentinel metrics",
+          "result": "pass",
+          "observed": "IC of Current Result is 123.456000, of SOTA Result is 0.000000; 1day.excess_return_with_cost.annualized_return of Current Result is 123.456000, of SOTA Result is 0.000000; 1day.excess_return_with_cost.max_drawdown of Current Result is 123.456000, of SOTA Result is 0.000000"
+        },
+        {
+          "name": "QuantaAlpha feedback metrics visibility",
+          "method": "original process_results extracted via AST; pandas sentinel metrics",
+          "result": "pass",
+          "observed": "                                                   Current Result  SOTA Result Bigger columns name (Didn't consider the direction of the metric, you should judge it by yourself that bigger is better or smaller is better)\nmetric                                                                                                                                                                                                                      \n1day.excess_return_without_cost.annualized_return         123.456          0.0                                                                                                                                Current Result\nIC                                                        123.456          0.0                                                                                                                                Current Result"
+        },
+        {
+          "name": "QuantaAlpha complexity gate exception behavior",
+          "method": "original class extracted via AST; unavailable quantaalpha import triggers existing except path",
+          "result": "pass",
+          "observed": {
+            "passed": true,
+            "message": "Complexity check skipped due to error: No module named 'quantaalpha'"
+          },
+          "scope": "proves fail-open exception branch only, not full parser behavior"
+        },
+        {
+          "name": "Qlib trunc_segments dispatch",
+          "method": "original function AST; TimeAdjuster mocked to observe calls",
+          "result": "pass",
+          "scope": "dispatch only, no real trading calendar tested"
+        }
+      ],
+      "probe_script": "/private/tmp/rsi-finance-audit-20261011/quant_probe.py",
+      "validation_limits": "5 个离线最小探针通过；使用原函数/类 AST 执行，仅隔离 logger/模块 import 和 TimeAdjuster 日历，未安装依赖、没有实际 LLM/conda/docker/大数据/联网 backtest。没有声称端到端能跑或盈利。TrajPool 选择探针是池 API，不冒充 controller 当前 crossover_op 调用测试；controller 实际调用链已源码核对。"
+    }
+  },
+  "probe_results": {
+    "modular-probes.json": {
+      "repo": "/private/tmp/rsi-finance-audit-20261011/ModularRSI",
+      "sha": "b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9",
+      "scope": "pure-function probes only; no API calls, no Docker tasks, no end-to-end evolution",
+      "results": [
+        {
+          "probe": "rebase invalidates tree-wide gates",
+          "passed": true,
+          "detail": {
+            "reused": [
+              "review"
+            ],
+            "rerun": [
+              "smoke",
+              "activation",
+              "routing"
+            ]
+          }
+        },
+        {
+          "probe": "a failed candidate cannot block a passing sibling",
+          "passed": true,
+          "detail": [
+            "good"
+          ]
+        },
+        {
+          "probe": "duplicate search lanes refused",
+          "passed": true,
+          "detail": "ValueError"
+        },
+        {
+          "probe": "novelty must account for active variants",
+          "passed": true,
+          "detail": "missing incumbent dismissal rejected"
+        },
+        {
+          "probe": "baseline modification refused by router",
+          "passed": true,
+          "detail": "replace must be used instead"
+        },
+        {
+          "probe": "pairing excludes unmatched tasks",
+          "passed": true,
+          "detail": {
+            "shared_tasks": 1,
+            "variant_rate": 1.0,
+            "baseline_rate": 0.0,
+            "delta": 1.0
+          }
+        },
+        {
+          "probe": "confirmation binarizes continuous rewards",
+          "passed": true,
+          "detail": {
+            "input_rewards": [
+              0.9,
+              0.2
+            ],
+            "computed_delta": {
+              "shared_tasks": 1,
+              "variant_rate": 0.0,
+              "baseline_rate": 0.0,
+              "delta": 0.0
+            },
+            "implication": "not directly suitable for continuous portfolio objectives"
+          }
+        },
+        {
+          "probe": "staging preserves parent snapshot",
+          "passed": true,
+          "detail": "candidate directory renamed; parent unchanged"
+        }
+      ]
+    },
+    "rrsi-probes.json": [
+      {
+        "name": "domain risk guard cannot be compensated by higher score",
+        "passed": true,
+        "observed": "domain guard violated: drawdown constraint"
+      },
+      {
+        "name": "aggregate trusts adapter to fill missing trials",
+        "passed": true,
+        "observed": {
+          "provided_trials": 1,
+          "expected_trials": 2,
+          "score": 1.0
+        },
+        "implication": "new adapter needs completeness checks before selection"
+      },
+      {
+        "name": "selection trusts adapter to validate finite normalized rewards",
+        "passed": true,
+        "observed": "infinite reward admitted without domain guard"
+      },
+      {
+        "name": "missing token costs are treated as zero relative change",
+        "passed": true,
+        "observed": 0.0,
+        "implication": "missing cost must be explicitly marked unavailable in new experiment contract"
+      }
+    ],
+    "replay-probe-results.json": [
+      {
+        "name": "existing_execution_price_tests",
+        "status": "pass",
+        "detail": {
+          "passed": 9,
+          "tests": [
+            "TestGetExecutionPriceWith5MinData.test_ignores_bars_outside_requested_sub_window",
+            "TestGetExecutionPriceWith5MinData.test_uses_last_bar_close_in_close_2_sub_window",
+            "TestGetExecutionPriceWith5MinData.test_uses_last_bar_close_in_open_1_sub_window",
+            "TestGetExecutionPriceWithout5MinData.test_does_not_fall_back_to_daily_open_or_close",
+            "TestGetExecutionPriceWithout5MinData.test_returns_none_for_unknown_stock_code",
+            "TestGetExecutionPriceWithout5MinData.test_returns_none_when_5min_data_entirely_missing",
+            "TestGetExecutionPriceWithout5MinData.test_returns_none_when_5min_data_only_covers_other_dates",
+            "TestPlaceOrderErrorMessage.test_place_order_reports_missing_5min_price_as_correctable_error",
+            "TestPlaceOrderErrorMessage.test_place_order_succeeds_when_5min_price_available"
+          ],
+          "runner": "direct method invocation; pytest unavailable"
+        }
+      },
+      {
+        "name": "replay_contract",
+        "status": "pass",
+        "detail": {
+          "changed_prompt_rejected": true,
+          "same_prompt_fixed_response": true,
+          "exhaustion_rejected": true,
+          "edited_output_not_integrity_checked": true
+        }
+      },
+      {
+        "name": "portfolio_view_shallow_copy",
+        "status": "pass",
+        "detail": {
+          "position_quantity_after_mutating_view": 999,
+          "read_only_claim_bypassed": true
+        }
+      },
+      {
+        "name": "raw_bus_visibility_and_shared_market",
+        "status": "pass",
+        "detail": {
+          "daily_accessor_filters_today": true,
+          "raw_market_exposes_future_close": 999,
+          "raw_5min_exposes_same_day_1500": 11,
+          "other_bus_sees_mutated_market": 123
+        }
+      },
+      {
+        "name": "custom_market_profile_not_fully_applied",
+        "status": "pass",
+        "detail": {
+          "one_share_rejected": {
+            "success": false,
+            "error": "买入数量必须是 100 的整数倍，当前: 1"
+          },
+          "zero_fee_profile_charged_commission": "5.00",
+          "settlement_zero_ignored_sellable_same_day": 0
+        }
+      },
+      {
+        "name": "sandbox_object_graph_bypasses",
+        "status": "pass",
+        "detail": {
+          "actual_execute_code_future_close": 999.0,
+          "actual_portfolio_cash_mutated": "9999999",
+          "guard_proxy_real_reader_reads_synthetic_file_outside_workspace": "SYNTHETIC_FUTURE_SENTINEL",
+          "used_only_synthetic_data": true
+        }
+      }
+    ],
+    "agent-probe-results.json": [
+      {
+        "probe": "AgentQuant actual preset resolution",
+        "status": "pass",
+        "result": {
+          "v1_base": "resolved",
+          "v2_tool_aware": "harness_config.tool_weight=0.6 has no effect in this runtime (supported knobs: use_tools, use_web_search, prompt_template, prompt_context, min_acceptable_sharpe, max_acceptable_drawdown, max_retries-as-max_iterations). Refusing to silently ignore it.",
+          "v3_prompt_tuned": "harness_config.tool_weight=0.6 has no effect in this runtime (supported knobs: use_tools, use_web_search, prompt_template, prompt_context, min_acceptable_sharpe, max_acceptable_drawdown, max_retries-as-max_iterations). Refusing to silently ignore it.",
+          "v4_grid_evolved": "harness_config.grid_adaptation_strategy='shrink_to_winners' has no effect in this runtime (supported knobs: use_tools, use_web_search, prompt_template, prompt_context, min_acceptable_sharpe, max_acceptable_drawdown, max_retries-as-max_iterations). Refusing to silently ignore it.",
+          "v5_multi_agent": "harness_config.use_ensemble=True has no effect in this runtime (supported knobs: use_tools, use_web_search, prompt_template, prompt_context, min_acceptable_sharpe, max_acceptable_drawdown, max_retries-as-max_iterations). Refusing to silently ignore it.",
+          "v6_research": "harness_config.use_ensemble=True has no effect in this runtime (supported knobs: use_tools, use_web_search, prompt_template, prompt_context, min_acceptable_sharpe, max_acceptable_drawdown, max_retries-as-max_iterations). Refusing to silently ignore it."
+        }
+      },
+      {
+        "probe": "AgentQuant silent unprojected knobs",
+        "status": "pass",
+        "result": {
+          "effective": {
+            "use_tools": false,
+            "use_web_search": false,
+            "prompt_template": "grid_search_default",
+            "prompt_context": {},
+            "min_acceptable_sharpe": 0.3,
+            "max_acceptable_drawdown": 0.2,
+            "max_iterations": null,
+            "config_hash": "d0ce837791048b1f",
+            "requested": {
+              "version": "v1_base",
+              "epoch": 1,
+              "created": "2026-10-11T15:36:14.185494",
+              "use_tools": false,
+              "use_web_search": false,
+              "use_ensemble": false,
+              "tool_weight": 0.5,
+              "prompt_template": "grid_search_default",
+              "prompt_context": {},
+              "temperature": 0.99,
+              "max_retries": 99,
+              "grid_adaptation_strategy": null,
+              "grid_params": {
+                "fast_window": [
+                  9
+                ]
+              },
+              "grid_focus_regions": [],
+              "track_falsifiable_claims": true,
+              "claim_weighting": 0.5,
+              "min_acceptable_sharpe": 0.3,
+              "max_acceptable_drawdown": 0.2,
+              "required_win_rate": 0.0,
+              "description": "Baseline grid search (no tools)",
+              "reasoning": "Establish baseline performance with grid sampling",
+              "expected_improvement": "Reference point (0%)"
+            }
+          },
+          "observation": "values only retained in requested; no effect fields"
+        }
+      },
+      {
+        "probe": "AgentQuant promotion + nonfinite hole",
+        "status": "pass",
+        "result": {
+          "tie": false,
+          "gain": true,
+          "protected_loss": false,
+          "missing_protected": false,
+          "coverage_mismatch": false,
+          "infinite_gain": true
+        }
+      },
+      {
+        "probe": "AgentQuant final holdout repeat guard",
+        "status": "pass",
+        "result": "second access rejected"
+      },
+      {
+        "probe": "AgentQuant no split-disjointness check and deterministic duplicate mutations",
+        "status": "pass",
+        "result": {
+          "all_split_roles_same_episode_accepted": true,
+          "identical_patches": 3,
+          "calls": 8,
+          "promotion": {
+            "promote": true,
+            "reason": "candidate beats incumbent by 1.000 > epsilon=0.1; promoting",
+            "candidate_mean": 2.0,
+            "incumbent_mean": 1.0,
+            "protected_delta": 1.0
+          }
+        }
+      },
+      {
+        "probe": "AgentQuant generated episode chronological separation",
+        "status": "pass",
+        "result": [
+          {
+            "episode_id": "ep00",
+            "asset": "SIM",
+            "dev_start": "2015-01-01",
+            "dev_end": "2015-11-04",
+            "holdout_start": "2015-11-05",
+            "holdout_end": "2016-01-27"
+          },
+          {
+            "episode_id": "ep01",
+            "asset": "SIM",
+            "dev_start": "2016-01-28",
+            "dev_end": "2016-11-30",
+            "holdout_start": "2016-12-01",
+            "holdout_end": "2017-02-22"
+          }
+        ]
+      },
+      {
+        "probe": "TradingAgents schemas permit invalid economic values",
+        "status": "pass",
+        "result": {
+          "trader": {
+            "action": "Buy",
+            "reasoning": "fixture",
+            "entry_price": -10.0,
+            "stop_loss": 100.0,
+            "position_sizing": "500%"
+          },
+          "portfolio": {
+            "rating": "Buy",
+            "executive_summary": "fixture",
+            "investment_thesis": "fixture",
+            "price_target": -1.0,
+            "time_horizon": null
+          },
+          "meaning": "schemas validate vocabulary/type, not tradability/risk/evidence IDs"
+        }
+      },
+      {
+        "probe": "TradingAgents real memory log idempotency and point-in-time cutoff",
+        "status": "pass",
+        "result": {
+          "duplicate_blocked": true,
+          "future_lesson_excluded": true,
+          "resolved_lesson_included": true
+        }
+      },
+      {
+        "probe": "TradingAgents checkpoint signature and resume input isolated methods",
+        "status": "pass",
+        "result": {
+          "model_change_invalidates": true,
+          "results_dir_change_ignored": true,
+          "resume_input_is_none": true,
+          "scope": "isolated original methods; no LangGraph/Sqlite integration executed"
+        }
+      },
+      {
+        "probe": "AgentQuant reflect ignores effective drawdown threshold",
+        "status": "pass",
+        "result": {
+          "99_percent_drawdown_accepted_with_1_percent_harness_cap": true,
+          "scope": "isolated original reflect_node; claim scoring stubbed"
+        }
+      },
+      {
+        "probe": "AgentQuant P2 legacy memory seeding invisible to unified recall",
+        "status": "pass",
+        "result": {
+          "strategy_runs": 1,
+          "unified_visible_trials": 0,
+          "scope": "real StrategyMemory and MemoryService; config stub only; same legacy store path used by policy_eval._seed_memory_db"
+        }
+      }
+    ],
+    "quant-probe-results.json": [
+      {
+        "name": "QuantaAlpha trajectory selection and serialization",
+        "method": "original module AST; only logger stubbed",
+        "result": "pass",
+        "observed": {
+          "mutation": "latest not best",
+          "best_crossover": [
+            "best",
+            "other"
+          ],
+          "raw_result_serialization": null
+        }
+      },
+      {
+        "name": "RD-Agent feedback metrics visibility",
+        "method": "original process_results extracted via AST; pandas sentinel metrics",
+        "result": "pass",
+        "observed": "IC of Current Result is 123.456000, of SOTA Result is 0.000000; 1day.excess_return_with_cost.annualized_return of Current Result is 123.456000, of SOTA Result is 0.000000; 1day.excess_return_with_cost.max_drawdown of Current Result is 123.456000, of SOTA Result is 0.000000"
+      },
+      {
+        "name": "QuantaAlpha feedback metrics visibility",
+        "method": "original process_results extracted via AST; pandas sentinel metrics",
+        "result": "pass",
+        "observed": "                                                   Current Result  SOTA Result Bigger columns name (Didn't consider the direction of the metric, you should judge it by yourself that bigger is better or smaller is better)\nmetric                                                                                                                                                                                                                      \n1day.excess_return_without_cost.annualized_return         123.456          0.0                                                                                                                                Current Result\nIC                                                        123.456          0.0                                                                                                                                Current Result"
+      },
+      {
+        "name": "QuantaAlpha complexity gate exception behavior",
+        "method": "original class extracted via AST; unavailable quantaalpha import triggers existing except path",
+        "result": "pass",
+        "observed": {
+          "passed": true,
+          "message": "Complexity check skipped due to error: No module named 'quantaalpha'"
+        },
+        "scope": "proves fail-open exception branch only, not full parser behavior"
+      },
+      {
+        "name": "Qlib trunc_segments dispatch",
+        "method": "original function AST; TimeAdjuster mocked to observe calls",
+        "result": "pass",
+        "scope": "dispatch only, no real trading calendar tested"
+      }
+    ]
+  }
+}
