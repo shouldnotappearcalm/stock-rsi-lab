@@ -1,0 +1,596 @@
+{
+  "dataset_id": "synthetic_cn_v1",
+  "evidence_level": "SYNTHETIC_REGRESSION",
+  "provenance": {
+    "source": "hand-authored regression fixture",
+    "real_market_prices": false,
+    "calendar_note": "explicit selected 2024 Shanghai sessions around Mid-Autumn/National Day; no weekday-generated holidays",
+    "price_note": "synthetic prices and mainboard price boundaries; not financial evidence"
+  },
+  "sessions": [
+    "2024-09-02",
+    "2024-09-03",
+    "2024-09-04",
+    "2024-09-05",
+    "2024-09-06",
+    "2024-09-09",
+    "2024-09-10",
+    "2024-09-11",
+    "2024-09-12",
+    "2024-09-13",
+    "2024-09-18",
+    "2024-09-19",
+    "2024-09-20",
+    "2024-09-23",
+    "2024-09-24",
+    "2024-09-25",
+    "2024-09-26",
+    "2024-09-27",
+    "2024-09-30",
+    "2024-10-08",
+    "2024-10-09",
+    "2024-10-10",
+    "2024-10-11",
+    "2024-10-14",
+    "2024-10-15",
+    "2024-10-16",
+    "2024-10-17",
+    "2024-10-18"
+  ],
+  "records": [
+    {
+      "record_id": "SYN_A:2024-09-02:bar",
+      "fact_key": "SYN_A:2024-09-02:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-02T15:00:00+08:00",
+      "public_at": "2024-09-02T15:01:00+08:00",
+      "available_at": "2024-09-02T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-02",
+        "open": 10,
+        "close": 10,
+        "volume": 1000000,
+        "limit_up": 11.0,
+        "limit_down": 9.0,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-03:bar",
+      "fact_key": "SYN_A:2024-09-03:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-03T15:00:00+08:00",
+      "public_at": "2024-09-03T15:01:00+08:00",
+      "available_at": "2024-09-03T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-03",
+        "open": 10,
+        "close": 10.1,
+        "volume": 1000000,
+        "limit_up": 11.0,
+        "limit_down": 9.0,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-04:bar",
+      "fact_key": "SYN_A:2024-09-04:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-04T15:00:00+08:00",
+      "public_at": "2024-09-04T15:01:00+08:00",
+      "available_at": "2024-09-04T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-04",
+        "open": 10.1,
+        "close": 10.2,
+        "volume": 1000000,
+        "limit_up": 11.11,
+        "limit_down": 9.09,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-05:bar",
+      "fact_key": "SYN_A:2024-09-05:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-05T15:00:00+08:00",
+      "public_at": "2024-09-05T15:01:00+08:00",
+      "available_at": "2024-09-05T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-05",
+        "open": 10.2,
+        "close": 10.3,
+        "volume": 1000000,
+        "limit_up": 11.22,
+        "limit_down": 9.18,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-06:bar",
+      "fact_key": "SYN_A:2024-09-06:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-06T15:00:00+08:00",
+      "public_at": "2024-09-06T15:01:00+08:00",
+      "available_at": "2024-09-06T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-06",
+        "open": 10.3,
+        "close": 10.4,
+        "volume": 1000000,
+        "limit_up": 11.33,
+        "limit_down": 9.27,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-09:bar",
+      "fact_key": "SYN_A:2024-09-09:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-09T15:00:00+08:00",
+      "public_at": "2024-09-09T15:01:00+08:00",
+      "available_at": "2024-09-09T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-09",
+        "open": 10.4,
+        "close": 10.5,
+        "volume": 1000000,
+        "limit_up": 11.44,
+        "limit_down": 9.36,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-10:bar",
+      "fact_key": "SYN_A:2024-09-10:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-10T15:00:00+08:00",
+      "public_at": "2024-09-10T15:01:00+08:00",
+      "available_at": "2024-09-10T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-10",
+        "open": 10.5,
+        "close": 10.6,
+        "volume": 1000000,
+        "limit_up": 11.55,
+        "limit_down": 9.45,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-11:bar",
+      "fact_key": "SYN_A:2024-09-11:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-11T15:00:00+08:00",
+      "public_at": "2024-09-11T15:01:00+08:00",
+      "available_at": "2024-09-11T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-11",
+        "open": 10.6,
+        "close": 10.7,
+        "volume": 1000000,
+        "limit_up": 11.66,
+        "limit_down": 9.54,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-12:bar",
+      "fact_key": "SYN_A:2024-09-12:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-12T15:00:00+08:00",
+      "public_at": "2024-09-12T15:01:00+08:00",
+      "available_at": "2024-09-12T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-12",
+        "open": 10.7,
+        "close": 10.8,
+        "volume": 1000000,
+        "limit_up": 11.77,
+        "limit_down": 9.63,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-13:bar",
+      "fact_key": "SYN_A:2024-09-13:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-13T15:00:00+08:00",
+      "public_at": "2024-09-13T15:01:00+08:00",
+      "available_at": "2024-09-13T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-13",
+        "open": 10.8,
+        "close": 10.9,
+        "volume": 1000000,
+        "limit_up": 11.88,
+        "limit_down": 9.72,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-18:bar",
+      "fact_key": "SYN_A:2024-09-18:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-18T15:00:00+08:00",
+      "public_at": "2024-09-18T15:01:00+08:00",
+      "available_at": "2024-09-18T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-18",
+        "open": 10.9,
+        "close": 11,
+        "volume": 1000000,
+        "limit_up": 11.99,
+        "limit_down": 9.81,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-19:bar",
+      "fact_key": "SYN_A:2024-09-19:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-19T15:00:00+08:00",
+      "public_at": "2024-09-19T15:01:00+08:00",
+      "available_at": "2024-09-19T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-19",
+        "open": 11,
+        "close": 11.2,
+        "volume": 1000000,
+        "limit_up": 12.1,
+        "limit_down": 9.9,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-20:bar",
+      "fact_key": "SYN_A:2024-09-20:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-20T15:00:00+08:00",
+      "public_at": "2024-09-20T15:01:00+08:00",
+      "available_at": "2024-09-20T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-20",
+        "open": 11.2,
+        "close": 11.4,
+        "volume": 1000000,
+        "limit_up": 12.32,
+        "limit_down": 10.08,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-23:bar",
+      "fact_key": "SYN_A:2024-09-23:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-23T15:00:00+08:00",
+      "public_at": "2024-09-23T15:01:00+08:00",
+      "available_at": "2024-09-23T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-23",
+        "open": 11.4,
+        "close": 11.6,
+        "volume": 1000000,
+        "limit_up": 12.54,
+        "limit_down": 10.26,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-24:bar",
+      "fact_key": "SYN_A:2024-09-24:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-24T15:00:00+08:00",
+      "public_at": "2024-09-24T15:01:00+08:00",
+      "available_at": "2024-09-24T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-24",
+        "open": 11.6,
+        "close": 11.8,
+        "volume": 1000000,
+        "limit_up": 12.76,
+        "limit_down": 10.44,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-25:bar",
+      "fact_key": "SYN_A:2024-09-25:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-25T15:00:00+08:00",
+      "public_at": "2024-09-25T15:01:00+08:00",
+      "available_at": "2024-09-25T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-25",
+        "open": 11.8,
+        "close": 11.5,
+        "volume": 1000000,
+        "limit_up": 12.98,
+        "limit_down": 10.62,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-26:bar",
+      "fact_key": "SYN_A:2024-09-26:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-26T15:00:00+08:00",
+      "public_at": "2024-09-26T15:01:00+08:00",
+      "available_at": "2024-09-26T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-26",
+        "open": 11.5,
+        "close": 11.3,
+        "volume": 1000000,
+        "limit_up": 12.65,
+        "limit_down": 10.35,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-27:bar",
+      "fact_key": "SYN_A:2024-09-27:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-27T15:00:00+08:00",
+      "public_at": "2024-09-27T15:01:00+08:00",
+      "available_at": "2024-09-30T16:00:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-27",
+        "open": 11.3,
+        "close": 11.4,
+        "volume": 1000000,
+        "limit_up": 12.43,
+        "limit_down": 10.17,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-09-30:bar",
+      "fact_key": "SYN_A:2024-09-30:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-09-30T15:00:00+08:00",
+      "public_at": "2024-09-30T15:01:00+08:00",
+      "available_at": "2024-09-30T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-09-30",
+        "open": 11.4,
+        "close": 11.2,
+        "volume": 1000000,
+        "limit_up": 12.54,
+        "limit_down": 10.26,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-10-08:bar",
+      "fact_key": "SYN_A:2024-10-08:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-10-08T15:00:00+08:00",
+      "public_at": "2024-10-08T15:01:00+08:00",
+      "available_at": "2024-10-08T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-10-08",
+        "open": 11.7,
+        "close": 11.8,
+        "volume": 1000000,
+        "limit_up": 12.32,
+        "limit_down": 10.08,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-10-09:bar",
+      "fact_key": "SYN_A:2024-10-09:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-10-09T15:00:00+08:00",
+      "public_at": "2024-10-09T15:01:00+08:00",
+      "available_at": "2024-10-09T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-10-09",
+        "open": 12.98,
+        "close": 12.98,
+        "volume": 1000000,
+        "limit_up": 12.98,
+        "limit_down": 10.62,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-10-10:bar",
+      "fact_key": "SYN_A:2024-10-10:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-10-10T15:00:00+08:00",
+      "public_at": "2024-10-10T15:01:00+08:00",
+      "available_at": "2024-10-10T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-10-10",
+        "open": 12.98,
+        "close": 12.98,
+        "volume": 1000000,
+        "limit_up": 14.28,
+        "limit_down": 11.68,
+        "suspended": true
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-10-11:bar",
+      "fact_key": "SYN_A:2024-10-11:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-10-11T15:00:00+08:00",
+      "public_at": "2024-10-11T15:01:00+08:00",
+      "available_at": "2024-10-11T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-10-11",
+        "open": 12.98,
+        "close": 12.4,
+        "volume": 1000000,
+        "limit_up": 14.28,
+        "limit_down": 11.68,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-10-14:bar",
+      "fact_key": "SYN_A:2024-10-14:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-10-14T15:00:00+08:00",
+      "public_at": "2024-10-14T15:01:00+08:00",
+      "available_at": "2024-10-14T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-10-14",
+        "open": 12.4,
+        "close": 12.7,
+        "volume": 1000000,
+        "limit_up": 13.64,
+        "limit_down": 11.16,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-10-15:bar",
+      "fact_key": "SYN_A:2024-10-15:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-10-15T15:00:00+08:00",
+      "public_at": "2024-10-15T15:01:00+08:00",
+      "available_at": "2024-10-15T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-10-15",
+        "open": 12.7,
+        "close": 12.5,
+        "volume": 1000000,
+        "limit_up": 13.97,
+        "limit_down": 11.43,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-10-16:bar",
+      "fact_key": "SYN_A:2024-10-16:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-10-16T15:00:00+08:00",
+      "public_at": "2024-10-16T15:01:00+08:00",
+      "available_at": "2024-10-16T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-10-16",
+        "open": 12.5,
+        "close": 12.2,
+        "volume": 1000000,
+        "limit_up": 13.75,
+        "limit_down": 11.25,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-10-17:bar",
+      "fact_key": "SYN_A:2024-10-17:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-10-17T15:00:00+08:00",
+      "public_at": "2024-10-17T15:01:00+08:00",
+      "available_at": "2024-10-17T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-10-17",
+        "open": 12.2,
+        "close": 12.8,
+        "volume": 1000000,
+        "limit_up": 13.42,
+        "limit_down": 10.98,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "SYN_A:2024-10-18:bar",
+      "fact_key": "SYN_A:2024-10-18:bar",
+      "security_id": "SYN_A",
+      "kind": "bar",
+      "event_at": "2024-10-18T15:00:00+08:00",
+      "public_at": "2024-10-18T15:01:00+08:00",
+      "available_at": "2024-10-18T15:05:00+08:00",
+      "payload": {
+        "trade_date": "2024-10-18",
+        "open": 12.8,
+        "close": 12.9,
+        "volume": 1000000,
+        "limit_up": 14.08,
+        "limit_down": 11.52,
+        "suspended": false
+      }
+    },
+    {
+      "record_id": "holiday-notice",
+      "fact_key": "SYN_A:notice:holiday",
+      "security_id": "SYN_A",
+      "kind": "announcement",
+      "event_at": "2024-10-01T11:00:00+08:00",
+      "public_at": "2024-10-01T11:00:00+08:00",
+      "available_at": "2024-10-01T11:05:00+08:00",
+      "payload": {
+        "text": "SYNTHETIC holiday disclosure, not a real company announcement"
+      }
+    },
+    {
+      "record_id": "filing-v1",
+      "fact_key": "SYN_A:earnings:q2",
+      "security_id": "SYN_A",
+      "kind": "filing",
+      "event_at": "2024-09-27T16:00:00+08:00",
+      "public_at": "2024-09-27T16:00:00+08:00",
+      "available_at": "2024-09-27T16:05:00+08:00",
+      "payload": {
+        "period_end": "2024-06-30",
+        "profit": 100
+      }
+    },
+    {
+      "record_id": "filing-v2",
+      "fact_key": "SYN_A:earnings:q2",
+      "security_id": "SYN_A",
+      "kind": "filing",
+      "event_at": "2024-09-27T16:00:00+08:00",
+      "public_at": "2024-10-08T16:00:00+08:00",
+      "available_at": "2024-10-08T16:05:00+08:00",
+      "payload": {
+        "period_end": "2024-06-30",
+        "profit": 90
+      }
+    },
+    {
+      "record_id": "lunch-news",
+      "fact_key": "SYN_A:notice:lunch",
+      "security_id": "SYN_A",
+      "kind": "announcement",
+      "event_at": "2024-09-30T11:45:00+08:00",
+      "public_at": "2024-09-30T11:45:00+08:00",
+      "available_at": "2024-09-30T13:05:00+08:00",
+      "payload": {
+        "text": "SYNTHETIC late arrival"
+      }
+    }
+  ]
+}
