@@ -59,6 +59,26 @@ class RunnerTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 replay(first, Path(directory)/"again")
 
+    def test_missing_eligible_day_bar_invalidates_run_instead_of_silent_skip(self):
+        with tempfile.TemporaryDirectory() as directory:
+            payload=json.loads(DATA.read_text())
+            payload['records']=[r for r in payload['records'] if not (r['kind']=='bar' and r['payload']['trade_date']=='2024-10-08')]
+            path=Path(directory)/'missing.json';path.write_text(json.dumps(payload))
+            result=run(path,self.config(),ScriptedAgent(),Path(directory)/'run')
+            self.assertEqual(result['status'],'INVALID_DATA')
+            self.assertTrue(any('missing execution bar' in e['error'] for e in result['errors']))
+
+    def test_replay_checks_order_status_errors_and_wake_history(self):
+        with tempfile.TemporaryDirectory() as directory:
+            first=Path(directory)/'first';run(DATA,self.config(),ScriptedAgent(),first)
+            path=first/'report.json';payload=json.loads(path.read_text());payload['orders']=[];path.write_text(json.dumps(payload))
+            with self.assertRaises(ValueError):replay(first,Path(directory)/'again')
+
+    def test_run_rejects_range_outside_declared_calendar(self):
+        with tempfile.TemporaryDirectory() as directory:
+            config=self.config()|{'end':'2025-01-01T00:00:00+08:00'}
+            with self.assertRaises(ValueError):run(DATA,config,ScriptedAgent(),Path(directory)/'run')
+
     def test_errors_are_recorded_and_not_silently_counted_as_valid(self):
         class Broken:
             version = "broken"

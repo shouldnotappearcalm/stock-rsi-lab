@@ -27,7 +27,15 @@ def account_view(broker, snapshot, calendar, at):
     view = broker.snapshot(visible_prices(snapshot))
     view["pending_orders"] = [order.copy() for order in broker.orders if order["status"] == "PENDING"]
     today = at.astimezone(SHANGHAI).date()
+    completed = [day for day in calendar.days if calendar.at(day, "15:00:00") <= at]
+    dates = {}
+    for row in snapshot.to_dict()["records"]:
+        if row["kind"] == "bar":
+            dates[row["security_id"]] = max(dates.get(row["security_id"], ""), row["payload"]["trade_date"])
     for security, position in view["positions"].items():
+        position["mark_trade_date"] = dates.get(security)
+        if completed and position["mark_trade_date"] != completed[-1].isoformat():
+            position["mark_source"] = "STALE_VISIBLE_PRICE"
         first = min(lot["bought_on"] for lot in broker.positions[security])
         position["holding_sessions"] = sum(first <= day <= today for day in calendar.days)
     return view
@@ -41,9 +49,11 @@ def run(dataset_path, config, agent, out_dir):
     start, end = parse_time(config["start"]), parse_time(config["end"])
     if start > end:
         raise ValueError("start after end")
+    data = Dataset.load(dataset_path)
+    if start.astimezone(SHANGHAI).date().isoformat() < data.sessions[0] or end.astimezone(SHANGHAI).date().isoformat() > data.sessions[-1]:
+        raise ValueError("run range outside declared exchange calendar")
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=False)
-    data = Dataset.load(dataset_path)
     (out/"dataset.json").write_text(Path(dataset_path).read_text())
     calendar = data.calendar
     broker = Broker(calendar, config.get("initial_cash", "100000"), config.get("cost_bps", "20"))
@@ -64,11 +74,24 @@ def run(dataset_path, config, agent, out_dir):
         at = calendar.at(__import__('datetime').date.fromisoformat(day), "09:30:00")
         if start <= at <= end:
             events.append((at, 0, "open", bar))
+    for day in calendar.days:
+        at = calendar.at(day, "09:30:00")
+        if start <= at <= end:
+            events.append((at, -1, "session_check", day))
     events.sort(key=lambda item: (item[0], item[1], item[3].get("security_id", "") if item[2] == "open" else ""))
     cassette, wake_rows, errors = [], [], []
     snapshots = out/"snapshots"
     snapshots.mkdir()
     for at, _, kind, item in events:
+        if kind == "session_check":
+            needed = set(broker.positions) | {order["security_id"] for order in broker.orders if order["status"] == "PENDING" and parse_time(order["eligible_at"]) <= at}
+            for security in sorted(needed):
+                if (security, item.isoformat()) not in execution_bars:
+                    errors.append({"at": iso(at), "stage": "execution", "error": f"missing execution bar: {security} {item}"})
+                    for order in broker.orders:
+                        if order["status"] == "PENDING" and order["security_id"] == security and parse_time(order["eligible_at"]) <= at:
+                            order["status"] = "INVALID_MISSING_DATA"
+            continue
         if kind == "open":
             try:
                 broker.on_open(item)
@@ -82,7 +105,7 @@ def run(dataset_path, config, agent, out_dir):
         account = account_view(broker, snapshot, calendar, at)
         request = {"snapshot": snapshot.to_dict(), "wake": wake.to_dict(), "account": account, "agent_version": agent.version}
         request_hash = digest(request)
-        entry = wake.to_dict() | {"snapshot_hash": snapshot.sha256, "request_hash": request_hash}
+        entry = wake.to_dict() | {"snapshot_hash": snapshot.sha256, "request_hash": request_hash, "account": account}
         (snapshots/f"{wake.wake_id}.json").write_text(snapshot.serialized)
         try:
             decision = agent.decide(snapshot, wake, account)
@@ -109,6 +132,7 @@ def run(dataset_path, config, agent, out_dir):
               "manifest": manifest, "wakes": wake_rows, "fills": broker.fills, "orders": broker.orders,
               "account": final_account, "errors": errors,
               "agent_calls": getattr(agent, "calls", [])}
+    manifest["agent_calls_hash"] = digest(report["agent_calls"])
     (out/"cassette.json").write_text(canonical(cassette))
     (out/"report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2, allow_nan=False))
     return report
@@ -144,9 +168,16 @@ def replay(run_dir, out_dir):
         response = row["decision"] if "decision" in row else {"error": row["error"]}
         if digest(response) != row["response_hash"]:
             raise ValueError("replay response integrity mismatch")
+    for wake in report["wakes"]:
+        saved = (source/"snapshots"/f"{wake['wake_id']}.json").read_text()
+        import hashlib
+        if hashlib.sha256(saved.encode()).hexdigest() != wake["snapshot_hash"]:
+            raise ValueError("replay saved snapshot integrity mismatch")
+    if digest(report["agent_calls"]) != manifest["agent_calls_hash"]:
+        raise ValueError("replay agent calls integrity mismatch")
     agent = ReplayAgent(manifest["agent_version"], rows)
     result = run(source/"dataset.json", manifest["config"], agent, out_dir)
-    if agent.index != len(rows) or result["fills"] != report["fills"] or result["account"] != report["account"]:
+    if agent.index != len(rows) or any(result[key] != report[key] for key in ("status", "wakes", "fills", "orders", "account", "errors")):
         raise ValueError("replay incomplete or ledger mismatch")
     if any("replay" in error["error"] for error in result["errors"]):
         raise ValueError("replay mismatch")

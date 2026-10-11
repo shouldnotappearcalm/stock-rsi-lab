@@ -34,6 +34,9 @@ assert '--sandbox' in args and args[args.index('--sandbox')+1]=='read-only'
 mode="""+repr(mode)+"""
 if mode=='timeout':time.sleep(10)
 if mode=='exit':sys.stderr.write('fixture exit');sys.exit(7)
+if mode=='stderr':sys.stderr.write('x'*2000000)
+if mode=='flood':
+ while True:sys.stdout.write('x'*65536);sys.stdout.flush()
 output=Path(args[args.index('--output-last-message')+1])
 schema=json.loads(Path(args[args.index('--output-schema')+1]).read_text())
 assert schema['additionalProperties'] is False
@@ -70,6 +73,23 @@ print(json.dumps({'type':'turn.completed','usage':{'input_tokens':10,'cached_inp
             with self.assertRaises(RuntimeError):
                 agent.decide(*self.inputs())
             self.assertEqual(agent.calls[0]['status'],'TIMEOUT')
+
+    def test_output_flood_stops_before_timeout_and_records_budget(self):
+        import time
+        with tempfile.TemporaryDirectory() as directory:
+            agent=CodexAgent(Skill(),command=self.executable(directory,'flood'),timeout=5,max_calls=1)
+            started=time.monotonic()
+            with self.assertRaises((ValueError,RuntimeError)):agent.decide(*self.inputs())
+            self.assertLess(time.monotonic()-started,3)
+            self.assertEqual(agent.calls[0]['status'],'OUTPUT_BUDGET_EXCEEDED')
+
+    def test_nonfinite_timeouts_and_oversized_stderr_are_rejected(self):
+        for value in (float('nan'),float('inf')):
+            with self.assertRaises(ValueError):CodexAgent(Skill(),timeout=value)
+        with tempfile.TemporaryDirectory() as directory:
+            agent=CodexAgent(Skill(),command=self.executable(directory,'stderr'),timeout=5,max_calls=1)
+            with self.assertRaises(ValueError):agent.decide(*self.inputs())
+            self.assertEqual(agent.calls[0]['status'],'OUTPUT_BUDGET_EXCEEDED')
 
     def test_selected_model_is_passed_explicitly_and_part_of_runtime_identity(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -89,6 +89,9 @@ class ScheduleBrokerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             broker.on_open({"security_id": "SYN_A", "trade_date": "2024-09-30", "suspended": False})
 
+    def test_fractional_cent_cash_is_rejected_before_account_mutation(self):
+        with self.assertRaises(ValueError):Broker(self.calendar,initial_cash='1000.995',cost_bps='9.95')
+
     def test_repeated_nontrading_wakes_replace_unfilled_intent(self):
         broker = Broker(self.calendar, initial_cash="5000", cost_bps="20")
         broker.submit(decision("BUY"), parse_time("2024-09-27T17:00:00+08:00"))

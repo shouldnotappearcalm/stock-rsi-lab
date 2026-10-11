@@ -24,7 +24,7 @@ class Broker:
         self.calendar = calendar
         self.initial_cash = self.cash = money(initial_cash)
         self.rate = money(cost_bps) / 10000
-        if self.cash <= 0 or not 0 <= self.rate <= 1:
+        if self.cash <= 0 or self.cash != self.cash.quantize(Decimal("0.01")) or not 0 <= self.rate <= 1:
             raise ValueError("invalid account configuration")
         self.positions = {}
         self.orders = []
@@ -92,6 +92,8 @@ class Broker:
             if action == "BUY":
                 affordable = int((self.cash / (price * (1 + self.rate))).to_integral_value(rounding=ROUND_DOWN)) // 100 * 100
                 quantity = min(quantity, affordable)
+                while quantity > 0 and price * quantity + (price * quantity * self.rate).quantize(Decimal("0.01")) > self.cash:
+                    quantity -= 100
             else:
                 quantity = min(quantity, sum(lot["quantity"] for lot in lots if lot["bought_on"] < day))
             if quantity <= 0:

@@ -1,10 +1,10 @@
 import hashlib
 import json
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
-from .calendar import TradingCalendar
+from .calendar import SHANGHAI, TradingCalendar
 from .time import iso, parse_time
 
 
@@ -76,8 +76,13 @@ class Dataset:
         data = json.loads(Path(path).read_text())
         if data.get("evidence_level") not in ("SYNTHETIC_REGRESSION", "REAL_PRICE_ENGINEERING_ONLY", "PIT_RESEARCH_VERIFIED"):
             raise ValueError("explicit dataset evidence level required")
-        TradingCalendar(data["sessions"])
+        calendar = TradingCalendar(data["sessions"])
         records = tuple(Record.from_dict(row) for row in data["records"])
+        for row in records:
+            if row.kind == "bar":
+                day = date.fromisoformat(row.to_dict()["payload"]["trade_date"])
+                if day not in calendar.days or row.event_at.astimezone(SHANGHAI).date() != day or row.event_at < calendar.at(day, "15:00:00"):
+                    raise ValueError("daily bar date/session/close time inconsistent")
         ids = [row.record_id for row in records]
         if len(ids) != len(set(ids)):
             raise ValueError("duplicate record ID")

@@ -70,6 +70,16 @@ class TimeDataTests(unittest.TestCase):
         at = parse_time("2024-09-30T17:00:00+08:00")
         self.assertEqual(self.load(original).snapshot(at).sha256, self.load(changed).snapshot(at).sha256)
 
+    def test_daily_bar_cannot_publish_future_close_or_use_non_session(self):
+        base=fixture()
+        row={"record_id":"bar", "security_id":"SYN_A", "kind":"bar", "event_at":"2024-09-27T15:00:00+08:00", "public_at":"2024-09-27T15:00:00+08:00", "available_at":"2024-09-27T17:00:00+08:00", "payload":{"trade_date":"2024-09-30","open":10,"close":11}}
+        for day,event in (("2024-09-30","2024-09-27T15:00:00+08:00"),("2024-09-27","2024-09-27T10:00:00+08:00"),("2024-10-01","2024-10-01T15:00:00+08:00")):
+            bad=json.loads(json.dumps(base)); changed=json.loads(json.dumps(row))
+            changed['payload']['trade_date']=day
+            changed['event_at']=changed['public_at']=changed['available_at']=event
+            bad['records'].append(changed)
+            with self.subTest(day=day,event=event),self.assertRaises(ValueError):self.load(bad)
+
     def test_invalid_arrival_and_duplicate_ids_fail_loading(self):
         bad = fixture()
         bad["records"][0]["available_at"] = "2024-09-27T15:00:00+08:00"

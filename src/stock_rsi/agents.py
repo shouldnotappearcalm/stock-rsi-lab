@@ -1,5 +1,7 @@
 import json
 import os
+import math
+import selectors
 import signal
 import subprocess
 import tempfile
@@ -18,11 +20,56 @@ DECISION_SCHEMA = {
 }
 
 
+def bounded_output(process, timeout, answer, entry):
+    buffers = {"stdout": bytearray(), "stderr": bytearray()}
+    ceilings = {"stdout": 1000000, "stderr": 100000}
+    deadline = time.monotonic() + timeout
+    try:
+        with selectors.DefaultSelector() as selector:
+            for name in buffers:
+                stream = getattr(process, name)
+                os.set_blocking(stream.fileno(), False)
+                selector.register(stream, selectors.EVENT_READ, name)
+            while selector.get_map() or process.poll() is None:
+                remaining = deadline - time.monotonic()
+                if remaining <= 0:
+                    entry["status"] = "TIMEOUT"
+                    raise RuntimeError("Codex process timed out")
+                if answer.exists() and answer.stat().st_size > 100000:
+                    entry["status"] = "OUTPUT_BUDGET_EXCEEDED"
+                    raise ValueError("Codex answer exceeds byte budget")
+                for key, _ in selector.select(min(.05, remaining)):
+                    chunk = os.read(key.fileobj.fileno(), 65536)
+                    if not chunk:
+                        selector.unregister(key.fileobj)
+                        continue
+                    name = key.data
+                    if len(buffers[name]) + len(chunk) > ceilings[name]:
+                        entry["status"] = "OUTPUT_BUDGET_EXCEEDED"
+                        raise ValueError("Codex stream exceeds byte budget")
+                    buffers[name].extend(chunk)
+        process.wait()
+        if answer.exists() and answer.stat().st_size > 100000:
+            entry["status"] = "OUTPUT_BUDGET_EXCEEDED"
+            raise ValueError("Codex answer exceeds byte budget")
+        return buffers["stdout"].decode(), buffers["stderr"].decode(errors="replace")
+    finally:
+        if process.poll() is None:
+            try:
+                os.killpg(process.pid, signal.SIGKILL)
+            except ProcessLookupError:
+                pass
+        process.wait()
+        for name, limit in (("stdout", 100000), ("stderr", 4000)):
+            entry[name] = buffers[name][-limit:].decode(errors="replace")
+            getattr(process, name).close()
+
+
 class CodexClient:
     """Opt-in CLI bridge. It is engineering-only, not a strong isolation claim."""
 
     def __init__(self, command=None, timeout=90, max_calls=3, model="gpt-6.1-sol"):
-        if timeout <= 0 or type(max_calls) is not int or max_calls < 1:
+        if isinstance(timeout, bool) or not isinstance(timeout, (int, float)) or not math.isfinite(timeout) or timeout <= 0 or type(max_calls) is not int or max_calls < 1:
             raise ValueError("positive timeout/call budget required")
         self.command = list(command or ["codex"])
         if not isinstance(model, str) or not model or model.startswith("-"):
@@ -35,7 +82,7 @@ class CodexClient:
         if len(self.calls) >= self.max_calls:
             raise RuntimeError("agent call budget exhausted")
         entry = {"request_hash": digest({"prompt": prompt, "schema": schema, "model": self.model}), "model": self.model,
-                 "reasoning_effort": "low", "status": "STARTED", "usage": None}
+                 "command": self.command, "reasoning_effort": "low", "status": "STARTED", "usage": None}
         self.calls.append(entry)
         started = time.monotonic()
         with tempfile.TemporaryDirectory(prefix="stock-rsi-snapshot-agent-") as directory:
@@ -47,21 +94,18 @@ class CodexClient:
                        "--sandbox", "read-only", "--skip-git-repo-check", "--cd", str(root),
                        "--output-schema", str(root/"schema.json"), "--output-last-message", str(answer), "-"]
             try:
-                process = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-                                           text=True, cwd=root, start_new_session=True)
-                try:
-                    stdout, stderr = process.communicate(prompt, timeout=self.timeout)
-                except subprocess.TimeoutExpired:
-                    os.killpg(process.pid, signal.SIGKILL)
-                    stdout, stderr = process.communicate()
-                    entry.update(status="TIMEOUT", stdout=stdout[-100000:], stderr=stderr[-4000:])
-                    raise RuntimeError("Codex process timed out")
-                entry.update(exit_code=process.returncode, stdout=stdout[-100000:], stderr=stderr[-4000:])
+                if len(prompt.encode()) > 60000:
+                    raise ValueError("snapshot prompt exceeds byte budget")
+                prompt_path = root/"prompt.txt"
+                prompt_path.write_text(prompt)
+                with prompt_path.open("rb") as input_file:
+                    process = subprocess.Popen(command, stdin=input_file, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                                               cwd=root, start_new_session=True)
+                    stdout, stderr = bounded_output(process, self.timeout, answer, entry)
+                entry["exit_code"] = process.returncode
                 if process.returncode:
                     entry["status"] = "PROCESS_ERROR"
                     raise RuntimeError(f"Codex exited with code {process.returncode}")
-                if len(stdout) > 1000000:
-                    raise ValueError("Codex event output exceeds budget")
                 events = [json.loads(line) for line in stdout.splitlines() if line.strip()]
                 for event in events:
                     if not isinstance(event, dict):
