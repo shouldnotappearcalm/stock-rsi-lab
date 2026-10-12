@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-12",
+  "repository": "https://github.com/Gen-Verse/RSI-Anything",
+  "commit": "99dbf000a424b9033651b1096c5da2b6d5fa3865",
+  "tracked_files": 570,
+  "shared_tests": {
+    "run": 22,
+    "passed": 22
+  },
+  "gui_release_verification": {
+    "passed": true,
+    "files": 443,
+    "full_gpu_rerun": false
+  },
+  "root_repository_verification": {
+    "passed": false,
+    "mismatched_files": [
+      "README.md",
+      "README.zh-CN.md"
+    ]
+  },
+  "focused_ast_assertions": {
+    "passed": 6,
+    "scope": "pure candidate selection only; not full module/GPU execution"
+  },
+  "included_gui_endpoint_counts": {
+    "rsi_g1/new_new_selected_test.jsonl": {
+      "n": 100,
+      "successes": 79
+    },
+    "rsi_g1/new_policy_test.jsonl": {
+      "n": 100,
+      "successes": 79
+    },
+    "rsi_g1/old_old_selected_test.jsonl": {
+      "n": 100,
+      "successes": 51
+    },
+    "rsi_g1/old_policy_test.jsonl": {
+      "n": 100,
+      "successes": 51
+    },
+    "rsi_g2/new_new_selected_test.jsonl": {
+      "n": 100,
+      "successes": 99
+    },
+    "rsi_g2/new_policy_test.jsonl": {
+      "n": 100,
+      "successes": 99
+    },
+    "rsi_g2/old_old_selected_test.jsonl": {
+      "n": 100,
+      "successes": 79
+    },
+    "rsi_g2/old_policy_test.jsonl": {
+      "n": 100,
+      "successes": 79
+    }
+  },
+  "code_reference": {
+    "records": 600,
+    "successes": 188,
+    "per_seed_successes": [
+      69,
+      62,
+      57
+    ],
+    "world_identity": "eff58c578aa1515fbc360ecc90f99abbb89b47f32446dd5d9b3479be3da96a70",
+    "generation_protocol_sha256": "ba4959a82ed0d79682e8adc8ca23275d7af92a613ae1944894fc133c61018844",
+    "executor_source_sha256": "4a80b60ff5e802df7f6829eb9b251ac43c25d1079eec245055d405245af6f208",
+    "computed_rate_percent": 31.333333333333332
+  },
+  "paper_readme_code_rate_percent": 31.2,
+  "full_training_or_browser_reproduction": false,
+  "weights_downloaded": false,
+  "clone_tracked_clean": true
+}

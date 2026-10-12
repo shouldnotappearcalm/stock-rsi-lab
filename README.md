@@ -109,3 +109,6 @@ PYTHONPATH=src python3 -m stock_rsi.priority \
 ```
 
 初始投资内核的局限、现金闲置与市场参考见[诊断报告](docs/seed-diagnosis-2026-10-11.md)。
+
+[RSI-Anything源码分析（2026-10-12）](docs/research/rsi-anything-2026-10-12/analysis.md)：
+固定commit，含真实验证结果、各领域发布边界及股市项目迁移建议。

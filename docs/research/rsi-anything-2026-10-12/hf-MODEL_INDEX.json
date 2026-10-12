@@ -1,0 +1,60 @@
+{
+  "backbone_directory": {
+    "environment_variable": "RSI_BASE_MODELS_DIR",
+    "default": "~/.cache/rsi_anything/base_models"
+  },
+  "backbones": {
+    "ReasonFlux-Coder-7B": {
+      "repo_id": "Gen-Verse/ReasonFlux-Coder-7B",
+      "download_url": "https://huggingface.co/Gen-Verse/ReasonFlux-Coder-7B",
+      "revision": "6860a2fd222bd2e18e8a5b62a9c0887d2ba70c36"
+    },
+    "Qwen2.5-Coder-3B-Instruct": {
+      "repo_id": "Qwen/Qwen2.5-Coder-3B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct",
+      "revision": "488639f1ff808d1d3d0ba301aef8c11461451ec5"
+    }
+  },
+  "code_repair": {
+    "policy": "ReasonFlux-Coder-7B",
+    "encoder": "Qwen2.5-Coder-3B-Instruct",
+    "models": [
+      "code_repair/checkpoints/codecontests_final",
+      "code_repair/checkpoints/transfer_final"
+    ],
+    "entry": "code_repair/infer.py"
+  },
+  "gui_interaction": {
+    "policy": "ReasonFlux-Coder-7B",
+    "encoder": "Qwen2.5-Coder-3B-Instruct",
+    "models": [
+      "gui_interaction/checkpoints/final/policy",
+      "gui_interaction/checkpoints/final/world"
+    ],
+    "entry": "gui_interaction/infer.py"
+  },
+  "laboratory_planning": {
+    "model_type": "opf_jepa_laboratory_outcome_ensemble",
+    "world_models": [
+      "laboratory_planning/checkpoints/seed1401",
+      "laboratory_planning/checkpoints/seed1402",
+      "laboratory_planning/checkpoints/seed1403"
+    ],
+    "entry": "laboratory_planning/infer.py",
+    "input": "task_and_four_candidate_plans",
+    "device": "cpu"
+  },
+  "reaction_optimization": {
+    "model_type": "reactiont5_jepa_reaction_yield",
+    "world_model": "reaction_optimization/checkpoints/reactiont5_jepa_yield",
+    "entry": "reaction_optimization/infer.py",
+    "input": "reaction_smiles_csv_or_json",
+    "devices": [
+      "cpu",
+      "cuda"
+    ]
+  },
+  "immune_science": {
+    "status": "planned"
+  }
+}
