@@ -3,6 +3,7 @@ import os
 import subprocess
 import sys
 import tempfile
+import tomllib
 import unittest
 from pathlib import Path
 
@@ -46,6 +47,15 @@ class CLITests(unittest.TestCase):
         result = self.command("snapshot", "--dataset", str(DATA), "--as-of", "2024-09-27T16:05:00")
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("timezone-aware", result.stderr)
+
+    def test_public_package_declares_license_and_private_inputs_stay_ignored(self):
+        license_text = (ROOT / "LICENSE").read_text()
+        self.assertIn("Apache License", license_text)
+        self.assertIn("Version 2.0, January 2004", license_text)
+        package = tomllib.loads((ROOT / "pyproject.toml").read_text())
+        self.assertEqual(package["project"]["license"], {"file": "LICENSE"})
+        ignored = {line.strip() for line in (ROOT / ".gitignore").read_text().splitlines() if line.strip()}
+        self.assertTrue({"data/local/", "artifacts/", ".env"} <= ignored)
 
 
 if __name__ == '__main__':

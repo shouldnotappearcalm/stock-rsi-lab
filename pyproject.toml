@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "stock-rsi-lab"
 version = "0.1.0"
 description = "Point-in-time A-share agent research and regression harness"
+license = {file = "LICENSE"}
 requires-python = ">=3.11"
 dependencies = []
 
@@ -15,3 +16,5 @@ stock-rsi = "stock_rsi.cli:main"
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools]
+license-files = ["LICENSE"]

@@ -123,3 +123,10 @@ PYTHONPATH=src python3 -m stock_rsi.priority \
 `CONTRACT_ONLY_NOT_AN_INVESTMENT_STRATEGY`。它不是可回测投资策略。当前公开CLI仍以
 前述合成单决策流程作为演示；真正的价格/风险/流动性因子、投资policy和Outcome Model
 将按[v0.2设计](docs/superpowers/specs/2026-10-14-policy-outcome-rsi-design.md)分阶段接入。
+
+## 许可证
+
+Copyright 2026 stock-rsi-lab contributors。
+
+项目自有代码采用[Apache License 2.0](LICENSE)。外部数据、模型和引用源码继续适用
+各自许可或使用条款；仓库中的来源说明不将这些第三方内容重新授权。
