@@ -56,25 +56,33 @@ class Broker:
         self.orders.append(order)
         return order.copy()
 
-    def on_open(self, bar):
+    def _validate_bar(self, bar):
+        if not isinstance(bar, dict):
+            raise ValueError("execution bar must be an object")
         security = bar["security_id"]
+        if not isinstance(security, str) or not security:
+            raise ValueError("execution security required")
         day = date.fromisoformat(bar["trade_date"])
         at = self.calendar.at(day, "09:30:00")
         if day not in self.calendar.days:
             raise ValueError("execution day absent from exchange calendar")
-        key = (security, day)
-        if key in self._processed:
-            return []
         if type(bar.get("suspended")) is not bool:
             raise ValueError("explicit suspension status required")
         price = money(bar.get("open"))
         upper, lower = money(bar.get("limit_up")), money(bar.get("limit_down"))
         if price <= 0 or not lower < upper or lower <= 0:
             raise ValueError("invalid execution price/limits")
-        self._processed.add(key)
+        return {"security": security, "day": day, "at": at, "bar": bar,
+                "price": price, "upper": upper, "lower": lower}
+
+    def _process_security(self, validated, action):
+        security, day, at = validated["security"], validated["day"], validated["at"]
+        bar, price = validated["bar"], validated["price"]
+        upper, lower = validated["upper"], validated["lower"]
         new_fills = []
         for order in self.orders:
-            if order["status"] != "PENDING" or order["security_id"] != security:
+            if (order["status"] != "PENDING" or order["security_id"] != security or
+                    order["action"] != action):
                 continue
             eligible = parse_time(order["eligible_at"])
             if eligible > at:
@@ -82,7 +90,6 @@ class Broker:
             if eligible < at:
                 order["status"] = "EXPIRED"
                 continue
-            action = order["action"]
             blocked = bar["suspended"] or (action == "BUY" and price >= upper) or (action == "SELL" and price <= lower)
             if blocked:
                 order["status"] = "UNFILLED_MARKET_CONSTRAINT"
@@ -125,6 +132,42 @@ class Broker:
             self.fills.append(fill)
             new_fills.append(fill.copy())
         return new_fills
+
+    def _open_batch(self, bars, require_complete):
+        if not isinstance(bars, list) or not bars:
+            raise ValueError("nonempty execution bar batch required")
+        validated = [self._validate_bar(bar) for bar in bars]
+        securities = [row["security"] for row in validated]
+        days = {row["day"] for row in validated}
+        if len(securities) != len(set(securities)):
+            raise ValueError("duplicate security in execution batch")
+        if len(days) != 1:
+            raise ValueError("execution batch must share one session date")
+        day = validated[0]["day"]
+        at = validated[0]["at"]
+        rows = {row["security"]: row for row in validated}
+        if require_complete:
+            for order in self.orders:
+                if order["status"] != "PENDING":
+                    continue
+                eligible = parse_time(order["eligible_at"])
+                if eligible < at:
+                    order["status"] = "EXPIRED"
+                elif eligible == at and order["security_id"] not in rows:
+                    order["status"] = "INVALID_MISSING_DATA"
+        fills = []
+        for action in ("SELL", "BUY"):
+            for security in sorted(rows):
+                if (security, day) not in self._processed:
+                    fills.extend(self._process_security(rows[security], action))
+        self._processed.update((security, day) for security in rows)
+        return fills
+
+    def on_market_open(self, bars):
+        return self._open_batch(bars, require_complete=True)
+
+    def on_open(self, bar):
+        return self._open_batch([bar], require_complete=False)
 
     def snapshot(self, prices=None):
         prices = prices or {}

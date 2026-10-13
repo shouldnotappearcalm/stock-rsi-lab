@@ -100,6 +100,16 @@ class ScheduleBrokerTests(unittest.TestCase):
         self.assertEqual(len(fills), 1)
         self.assertEqual(broker.snapshot()["positions"]["SYN_A"]["quantity"], 100)
 
+    def test_single_open_wrapper_matches_one_bar_batch(self):
+        first = Broker(self.calendar, initial_cash="2000", cost_bps="20")
+        second = Broker(self.calendar, initial_cash="2000", cost_bps="20")
+        at = parse_time("2024-09-27T17:00:00+08:00")
+        first.submit(decision("BUY"), at)
+        second.submit(decision("BUY"), at)
+        payload = bar("2024-09-30")
+        self.assertEqual(first.on_open(payload), second.on_market_open([payload]))
+        self.assertEqual(first.snapshot(), second.snapshot())
+
 
 if __name__ == '__main__':
     unittest.main()
