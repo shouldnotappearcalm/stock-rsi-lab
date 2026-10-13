@@ -1,0 +1,143 @@
+import json
+import re
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Protocol, runtime_checkable
+
+from .data import Snapshot, canonical, digest
+from .factors import FactorFrame
+from .portfolio import PortfolioProposal, account_hash
+
+
+MODULE_NAMES = frozenset({
+    "universe_filter", "regime_policy", "candidate_ranker", "entry_policy",
+    "exit_policy", "portfolio_constructor", "execution_policy",
+})
+HASH_PATTERN = re.compile(r"^[0-9a-f]{64}$")
+
+
+@dataclass(frozen=True)
+class PolicyBundle:
+    root: Path
+    manifest_json: str
+    modules_json: tuple[tuple[str, str], ...]
+    bundle_id: str
+
+    @classmethod
+    def load(cls, path: str | Path):
+        root = Path(path)
+        manifest_path = root / "manifest.json"
+        if root.is_symlink() or manifest_path.is_symlink() or not manifest_path.is_file():
+            raise ValueError("policy bundle requires a regular manifest")
+        manifest = json.loads(manifest_path.read_text())
+        fields = {"schema_version", "name", "parent_bundle_id", "factor_schema_ids", "modules", "description"}
+        if not isinstance(manifest, dict) or set(manifest) != fields:
+            raise ValueError("policy bundle manifest fields do not match schema")
+        if manifest["schema_version"] != "policy-bundle-v1":
+            raise ValueError("unsupported policy bundle schema")
+        for name in ("name", "description"):
+            if not isinstance(manifest[name], str) or not manifest[name].strip():
+                raise ValueError(f"nonempty {name} required")
+        parent = manifest["parent_bundle_id"]
+        if parent is not None and (not isinstance(parent, str) or not HASH_PATTERN.fullmatch(parent)):
+            raise ValueError("parent_bundle_id must be null or a SHA-256")
+        factors = manifest["factor_schema_ids"]
+        if (not isinstance(factors, list) or
+                not all(isinstance(item, str) and item for item in factors) or
+                len(factors) != len(set(factors))):
+            raise ValueError("factor_schema_ids must be unique strings")
+        modules = manifest["modules"]
+        if not isinstance(modules, dict) or set(modules) != MODULE_NAMES:
+            raise ValueError("policy bundle requires the exact module set")
+        loaded = {}
+        for name, filename in modules.items():
+            if (not isinstance(filename, str) or not filename or
+                    Path(filename).name != filename or Path(filename).suffix != ".json"):
+                raise ValueError("module paths must be simple JSON basenames")
+            module_path = root / filename
+            if module_path.is_symlink() or not module_path.is_file():
+                raise ValueError("policy modules must be regular files")
+            value = json.loads(module_path.read_text())
+            if not isinstance(value, dict) or set(value) != {"schema_version", "module", "mode", "parameters"}:
+                raise ValueError("policy module fields do not match schema")
+            if value["schema_version"] != "policy-module-v1" or value["module"] != name:
+                raise ValueError("policy module identity mismatch")
+            if not isinstance(value["mode"], str) or not value["mode"] or not isinstance(value["parameters"], dict):
+                raise ValueError("invalid policy module mode or parameters")
+            loaded[name] = value
+        identity = digest({"manifest": manifest, "modules": loaded})
+        return cls(root.resolve(), canonical(manifest), tuple((name, canonical(loaded[name])) for name in sorted(loaded)), identity)
+
+    def module(self, name: str):
+        for key, payload in self.modules_json:
+            if key == name:
+                return json.loads(payload)
+        raise KeyError(name)
+
+    def to_dict(self):
+        return {
+            "bundle_id": self.bundle_id,
+            "manifest": json.loads(self.manifest_json),
+            "modules": {name: json.loads(payload) for name, payload in self.modules_json},
+        }
+
+
+@runtime_checkable
+class FactorProvider(Protocol):
+    version: str
+
+    def build(self, snapshot, wake, account) -> FactorFrame: ...
+
+
+@runtime_checkable
+class PortfolioPolicy(Protocol):
+    bundle_id: str
+
+    def propose(self, snapshot, wake, account, factors) -> tuple[PortfolioProposal, ...]: ...
+
+
+@runtime_checkable
+class ProposalSelector(Protocol):
+    version: str
+
+    def select(self, snapshot, account, proposals) -> str: ...
+
+
+def validate_candidate_set(
+    policy: PortfolioPolicy,
+    snapshot: Snapshot,
+    account: dict,
+    proposals,
+):
+    if not isinstance(policy, PortfolioPolicy):
+        raise ValueError("policy does not satisfy PortfolioPolicy")
+    if not isinstance(proposals, (tuple, list)) or len(proposals) < 2:
+        raise ValueError("policy must produce at least two proposals")
+    if not all(isinstance(row, PortfolioProposal) for row in proposals):
+        raise ValueError("candidate set contains a non-proposal")
+    ordered = tuple(sorted(proposals, key=lambda row: row.proposal_id))
+    ids = [row.proposal_id for row in ordered]
+    if len(ids) != len(set(ids)) or ids.count("keep-current") != 1:
+        raise ValueError("candidate IDs must be unique and include keep-current exactly once")
+    expected_account = account_hash(account)
+    for row in ordered:
+        if row.snapshot_hash != snapshot.sha256 or row.account_hash != expected_account or row.policy_bundle_id != policy.bundle_id:
+            raise ValueError("candidate set mixes snapshot, account or policy identities")
+    return ordered
+
+
+def select_proposal(
+    selector: ProposalSelector,
+    snapshot: Snapshot,
+    account: dict,
+    proposals,
+):
+    if not isinstance(selector, ProposalSelector):
+        raise ValueError("selector does not satisfy ProposalSelector")
+    selected = selector.select(snapshot, account, proposals)
+    if not isinstance(selected, str) or not selected:
+        raise ValueError("selector must return a proposal ID")
+    matches = [row for row in proposals if row.proposal_id == selected]
+    if len(matches) != 1:
+        raise ValueError("selector returned an unknown proposal ID")
+    return matches[0]

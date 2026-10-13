@@ -1,0 +1,16 @@
+{
+  "schema_version": "policy-bundle-v1",
+  "name": "v0.2-contract-fixture",
+  "parent_bundle_id": null,
+  "factor_schema_ids": [],
+  "modules": {
+    "universe_filter": "universe_filter.json",
+    "regime_policy": "regime_policy.json",
+    "candidate_ranker": "candidate_ranker.json",
+    "entry_policy": "entry_policy.json",
+    "exit_policy": "exit_policy.json",
+    "portfolio_constructor": "portfolio_constructor.json",
+    "execution_policy": "execution_policy.json"
+  },
+  "description": "CONTRACT_ONLY_NOT_AN_INVESTMENT_STRATEGY"
+}
