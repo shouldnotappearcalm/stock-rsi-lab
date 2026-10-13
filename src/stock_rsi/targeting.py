@@ -2,7 +2,8 @@ from decimal import Decimal, ROUND_DOWN
 
 from .data import Snapshot
 from .models import Decision
-from .portfolio import PortfolioProposal, account_hash
+from .portfolio import PortfolioProposal, account_hash, keep_current_proposal
+from .time import parse_time
 
 
 def _visible_closes(snapshot: Snapshot):
@@ -25,6 +26,14 @@ def plan_target_orders(
         raise ValueError("validated PortfolioProposal required")
     if proposal.snapshot_hash != snapshot.sha256 or proposal.account_hash != account_hash(account):
         raise ValueError("proposal does not match snapshot/account")
+    if proposal.proposal_id == "keep-current":
+        expected = keep_current_proposal(
+            snapshot, account, proposal.policy_bundle_id,
+            list(proposal.evidence_ids), parse_time(proposal.expires_at),
+        )
+        if proposal.targets != expected.targets:
+            raise ValueError("keep-current proposal does not preserve current quantities")
+        return ()
     if not isinstance(account.get("positions"), dict):
         raise ValueError("account positions required")
     equity = Decimal(str(account.get("equity")))

@@ -24,11 +24,26 @@ def _policy_artifact(policy):
     else:
         artifact = getattr(policy, "bundle_artifact", None)
         if not isinstance(artifact, dict):
-            artifact = {"bundle_id": policy.bundle_id}
+            raise ValueError("portfolio policy must expose a complete PolicyBundle artifact")
         artifact = json.loads(canonical(artifact))
-    if artifact.get("bundle_id") != policy.bundle_id:
+    validated = PolicyBundle.from_artifact(artifact)
+    if validated.bundle_id != policy.bundle_id:
         raise ValueError("policy bundle artifact identity mismatch")
-    return artifact
+    return validated.to_dict()
+
+
+def _validated_factor_frame(snapshot, frame):
+    if not isinstance(frame, FactorFrame) or frame.snapshot_hash != snapshot.sha256:
+        raise ValueError("factor provider returned a frame for another snapshot")
+    evidence = []
+    for item in frame.to_dict()["evidence"]:
+        payload = dict(item)
+        payload.pop("snapshot_hash", None)
+        evidence.append(FactorEvidence.from_dict(payload, snapshot))
+    validated = FactorFrame.from_evidence(snapshot, evidence)
+    if validated.to_dict() != frame.to_dict():
+        raise ValueError("factor provider returned a noncanonical frame")
+    return validated
 
 
 def _config(config):
@@ -64,10 +79,10 @@ def run_portfolio(dataset_path, config, policy, selector, factor_provider, out_d
     for component, name in ((selector, "selector"), (factor_provider, "factor provider")):
         if not isinstance(getattr(component, "version", None), str) or not component.version:
             raise ValueError(f"{name} version required")
+    bundle_artifact = _policy_artifact(policy)
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=False)
     (out / "dataset.json").write_text(Path(dataset_path).read_text())
-    bundle_artifact = _policy_artifact(policy)
     (out / "policy_bundle.json").write_text(canonical(bundle_artifact))
     calendar = data.calendar
     broker = Broker(calendar, config.get("initial_cash", "100000"), config.get("cost_bps", "20"))
@@ -126,10 +141,9 @@ def run_portfolio(dataset_path, config, policy, selector, factor_provider, out_d
         account = account_view(broker, snapshot, calendar, at)
         entry = wake.to_dict() | {"snapshot_hash": snapshot.sha256, "account": account}
         (snapshots / f"{wake.wake_id}.json").write_text(snapshot.serialized)
+        failure_row = None
         try:
-            factors = factor_provider.build(snapshot, wake, account)
-            if not isinstance(factors, FactorFrame) or factors.snapshot_hash != snapshot.sha256:
-                raise ValueError("factor provider returned a frame for another snapshot")
+            factors = _validated_factor_frame(snapshot, factor_provider.build(snapshot, wake, account))
             request = {
                 "snapshot": snapshot.to_dict(), "wake": wake.to_dict(), "account": account,
                 "factors": factors.to_dict(), "policy_bundle_id": policy.bundle_id,
@@ -139,24 +153,32 @@ def run_portfolio(dataset_path, config, policy, selector, factor_provider, out_d
             proposals = validate_candidate_set(policy, snapshot, account, policy.propose(snapshot, wake, account, factors))
             candidate_payloads = [row.to_dict() for row in proposals]
             candidate_set_hash = digest({"request_hash": request_hash, "candidates": candidate_payloads})
-            selected = select_proposal(selector, snapshot, account, proposals)
-            selection_hash = digest({"candidate_set_hash": candidate_set_hash, "selected_id": selected.proposal_id,
-                                     "selector_version": selector.version})
-            decisions = plan_target_orders(selected, snapshot, account)
-            for decision in decisions:
-                broker.submit(decision, at)
-            row = {
+            candidate_record = {"wake_id": wake.wake_id, "request_hash": request_hash,
+                                "candidate_set_hash": candidate_set_hash, "candidates": candidate_payloads}
+            candidate_sets.append(candidate_record)
+            cassette_base = {
                 "request_hash": request_hash,
                 "factors": factors.to_dict(),
                 "candidates": candidate_payloads,
                 "candidate_set_hash": candidate_set_hash,
-                "selected_id": selected.proposal_id,
-                "selection_hash": selection_hash,
+            }
+            stage = "selector"
+            try:
+                selected = select_proposal(selector, snapshot, account, proposals)
+                selection_hash = digest({"candidate_set_hash": candidate_set_hash, "selected_id": selected.proposal_id,
+                                         "selector_version": selector.version})
+                stage = "intent"
+                decisions = plan_target_orders(selected, snapshot, account)
+                broker.replace_pending_intent(decisions, at, selected.expires_at)
+            except Exception as exc:
+                failure_row = cassette_base | {"error_stage": stage, "error": str(exc)}
+                cassette.append(failure_row)
+                raise
+            row = cassette_base | {
+                "selected_id": selected.proposal_id, "selection_hash": selection_hash,
                 "decisions": [decision.to_dict() for decision in decisions],
             }
             cassette.append(row)
-            candidate_sets.append({"wake_id": wake.wake_id, "request_hash": request_hash,
-                                   "candidate_set_hash": candidate_set_hash, "candidates": candidate_payloads})
             selections.append({"wake_id": wake.wake_id, "candidate_set_hash": candidate_set_hash,
                                "selected_id": selected.proposal_id, "selected_proposal_hash": selected.sha256,
                                "selection_hash": selection_hash})
@@ -219,6 +241,10 @@ class _RecordedComponents:
         return tuple(proposals)
 
     def select(self, snapshot, account, proposals):
+        if self.current.get("error_stage") == "selector":
+            message = self.current["error"]
+            self.index += 1
+            raise ValueError(message)
         selected = self.current["selected_id"]
         self.index += 1
         return selected
@@ -249,20 +275,33 @@ def replay_portfolio(run_dir, out_dir):
         raise ValueError("portfolio replay dataset integrity mismatch")
     if digest(rows) != manifest["cassette_hash"]:
         raise ValueError("portfolio replay cassette integrity mismatch")
-    if digest(bundle_artifact) != manifest["policy_bundle_artifact_hash"] or bundle_artifact.get("bundle_id") != manifest["policy_bundle_id"]:
+    bundle = PolicyBundle.from_artifact(bundle_artifact)
+    if digest(bundle_artifact) != manifest["policy_bundle_artifact_hash"] or bundle.bundle_id != manifest["policy_bundle_id"]:
         raise ValueError("portfolio replay policy bundle integrity mismatch")
+    for wake in report["wakes"]:
+        saved = (source / "snapshots" / f"{wake['wake_id']}.json").read_text()
+        if hashlib.sha256(saved.encode()).hexdigest() != wake["snapshot_hash"]:
+            raise ValueError("portfolio replay saved snapshot integrity mismatch")
     for row in rows:
         candidate_hash = digest({"request_hash": row["request_hash"], "candidates": row["candidates"]})
-        selection_hash = digest({"candidate_set_hash": candidate_hash, "selected_id": row["selected_id"],
-                                 "selector_version": manifest["selector_version"]})
-        if candidate_hash != row["candidate_set_hash"] or selection_hash != row["selection_hash"]:
-            raise ValueError("portfolio replay candidate/selection integrity mismatch")
+        if candidate_hash != row["candidate_set_hash"]:
+            raise ValueError("portfolio replay candidate integrity mismatch")
+        if "error_stage" not in row:
+            selection_hash = digest({"candidate_set_hash": candidate_hash, "selected_id": row["selected_id"],
+                                     "selector_version": manifest["selector_version"]})
+            if selection_hash != row["selection_hash"]:
+                raise ValueError("portfolio replay selection integrity mismatch")
+        elif row["error_stage"] != "selector" or not isinstance(row.get("error"), str):
+            raise ValueError("unsupported portfolio replay failure record")
     components = _RecordedComponents(rows, manifest, bundle_artifact)
     selector = _RecordedSelector(components)
     result = run_portfolio(source / "dataset.json", manifest["config"], components, selector, components, out_dir)
     if components.index != len(rows):
         raise ValueError("portfolio replay did not consume every record")
     compared = ("status", "wakes", "candidate_sets", "selections", "orders", "fills", "account", "errors", "verify_gate")
+    regenerated_rows = json.loads((Path(out_dir) / "cassette.json").read_text())
+    if regenerated_rows != rows or result["manifest"]["cassette_hash"] != manifest["cassette_hash"]:
+        raise ValueError("portfolio replay cassette/request/decision mismatch")
     if any(result[key] != report[key] for key in compared):
         raise ValueError("portfolio replay ledger mismatch")
     return result

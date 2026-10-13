@@ -31,30 +31,50 @@ class Broker:
         self.fills = []
         self._processed = set()
 
-    def submit(self, decision: Decision, at):
+    def submit(self, decision: Decision, at, expires_at=None):
         at = parse_time(at)
         if decision.action in ("HOLD", "ABSTAIN"):
             return None
         if decision.action == "BUY" and decision.quantity % 100:
             raise ValueError("A-share buys require 100-share lots")
-        order_id = digest({"decision_id": decision.decision_id, "at": iso(at)})
+        expiry = parse_time(expires_at) if expires_at is not None else None
+        if expiry is not None and expiry <= at:
+            raise ValueError("order expiry must follow submission")
+        order_id = digest({"decision_id": decision.decision_id, "at": iso(at),
+                           "expires_at": iso(expiry) if expiry else None})
         if any(order["order_id"] == order_id for order in self.orders):
             return next(order for order in self.orders if order["order_id"] == order_id).copy()
         try:
             eligible = self.calendar.next_day_open(at)
-            status = "PENDING"
+            status = "EXPIRED_BEFORE_EXECUTION" if expiry is not None and eligible > expiry else "PENDING"
         except ValueError:
             eligible, status = None, "UNFILLED_CALENDAR_END"
         order = {"order_id": order_id, "decision_id": decision.decision_id,
                  "security_id": decision.security_id, "action": decision.action,
                  "quantity": decision.quantity, "submitted_at": iso(at),
-                 "eligible_at": iso(eligible) if eligible else None, "status": status}
+                 "eligible_at": iso(eligible) if eligible else None,
+                 "expires_at": iso(expiry) if expiry else None, "status": status}
         if status == "PENDING":
             for previous in self.orders:
                 if previous["status"] == "PENDING" and previous["security_id"] == decision.security_id:
                     previous["status"] = "SUPERSEDED_BY_NEW_INTENT"
         self.orders.append(order)
         return order.copy()
+
+    def replace_pending_intent(self, decisions, at, expires_at):
+        if not isinstance(decisions, (tuple, list)) or not all(isinstance(row, Decision) for row in decisions):
+            raise ValueError("portfolio intent requires Decision objects")
+        securities = [row.security_id for row in decisions]
+        if len(securities) != len(set(securities)):
+            raise ValueError("portfolio intent has duplicate securities")
+        at = parse_time(at)
+        expiry = parse_time(expires_at)
+        if expiry <= at:
+            raise ValueError("portfolio intent expiry must follow submission")
+        for order in self.orders:
+            if order["status"] == "PENDING":
+                order["status"] = "CANCELLED_BY_PORTFOLIO_REPLACEMENT"
+        return [self.submit(row, at, expiry) for row in decisions]
 
     def _validate_bar(self, bar):
         if not isinstance(bar, dict):
@@ -85,6 +105,9 @@ class Broker:
                     order["action"] != action):
                 continue
             eligible = parse_time(order["eligible_at"])
+            if order.get("expires_at") and at > parse_time(order["expires_at"]):
+                order["status"] = "EXPIRED"
+                continue
             if eligible > at:
                 continue
             if eligible < at:
@@ -151,7 +174,9 @@ class Broker:
                 if order["status"] != "PENDING":
                     continue
                 eligible = parse_time(order["eligible_at"])
-                if eligible < at:
+                if order.get("expires_at") and at > parse_time(order["expires_at"]):
+                    order["status"] = "EXPIRED"
+                elif eligible < at:
                     order["status"] = "EXPIRED"
                 elif eligible == at and order["security_id"] not in rows:
                     order["status"] = "INVALID_MISSING_DATA"

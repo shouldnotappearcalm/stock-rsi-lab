@@ -5,7 +5,7 @@ from stock_rsi.data import Snapshot, canonical
 from stock_rsi.broker import Broker
 from stock_rsi.calendar import TradingCalendar
 from stock_rsi.models import Decision
-from stock_rsi.portfolio import PortfolioProposal, account_hash
+from stock_rsi.portfolio import PortfolioProposal, account_hash, keep_current_proposal
 from stock_rsi.targeting import plan_target_orders
 from stock_rsi.time import parse_time
 
@@ -82,6 +82,19 @@ class TargetPlannerTests(unittest.TestCase):
         missing_target = Snapshot(canonical(payload))
         with self.assertRaises(ValueError):
             plan_target_orders(proposal(missing_target, current, ("a-close",)), missing_target, current)
+
+    def test_keep_current_never_creates_rounding_turnover(self):
+        snapshot = decision_snapshot()
+        current = {
+            "cash": "8",
+            "positions": {"SYN_A": {"quantity": 100, "mark_price": "10", "mark_source": "VISIBLE_PRICE"}},
+            "market_value": "1000",
+            "equity": "1008",
+            "pending_orders": [],
+        }
+        expiry = parse_time(snapshot.to_dict()["as_of"]) + timedelta(days=1)
+        keep = keep_current_proposal(snapshot, current, POLICY_ID, ["a-close"], expiry)
+        self.assertEqual(plan_target_orders(keep, snapshot, current), ())
 
     def test_market_open_sells_before_buys_and_marks_missing_bars(self):
         calendar = TradingCalendar(["2024-09-27", "2024-09-30", "2024-10-08", "2024-10-09"])

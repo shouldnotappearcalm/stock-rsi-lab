@@ -6,7 +6,8 @@ from typing import Protocol, runtime_checkable
 
 from .data import Snapshot, canonical, digest
 from .factors import FactorFrame
-from .portfolio import PortfolioProposal, account_hash
+from .portfolio import PortfolioProposal, account_hash, keep_current_proposal
+from .time import parse_time
 
 
 MODULE_NAMES = frozenset({
@@ -65,8 +66,53 @@ class PolicyBundle:
             if not isinstance(value["mode"], str) or not value["mode"] or not isinstance(value["parameters"], dict):
                 raise ValueError("invalid policy module mode or parameters")
             loaded[name] = value
+        return cls._validated(root.resolve(), manifest, loaded)
+
+    @classmethod
+    def from_artifact(cls, artifact: dict):
+        if not isinstance(artifact, dict) or set(artifact) != {"bundle_id", "manifest", "modules"}:
+            raise ValueError("complete policy bundle artifact required")
+        manifest, modules = artifact["manifest"], artifact["modules"]
+        if not isinstance(manifest, dict) or not isinstance(modules, dict):
+            raise ValueError("invalid policy bundle artifact")
+        result = cls._validated(Path("<artifact>"), manifest, modules)
+        if artifact["bundle_id"] != result.bundle_id:
+            raise ValueError("policy bundle artifact content hash mismatch")
+        return result
+
+    @classmethod
+    def _validated(cls, root, manifest, loaded):
+        fields = {"schema_version", "name", "parent_bundle_id", "factor_schema_ids", "modules", "description"}
+        if not isinstance(manifest, dict) or set(manifest) != fields:
+            raise ValueError("policy bundle manifest fields do not match schema")
+        if manifest["schema_version"] != "policy-bundle-v1":
+            raise ValueError("unsupported policy bundle schema")
+        for field in ("name", "description"):
+            if not isinstance(manifest[field], str) or not manifest[field].strip():
+                raise ValueError(f"nonempty {field} required")
+        parent = manifest["parent_bundle_id"]
+        if parent is not None and (not isinstance(parent, str) or not HASH_PATTERN.fullmatch(parent)):
+            raise ValueError("parent_bundle_id must be null or a SHA-256")
+        factors = manifest["factor_schema_ids"]
+        if (not isinstance(factors, list) or
+                not all(isinstance(item, str) and item for item in factors) or
+                len(factors) != len(set(factors))):
+            raise ValueError("factor_schema_ids must be unique strings")
+        modules = manifest["modules"]
+        if (not isinstance(modules, dict) or set(modules) != MODULE_NAMES or
+                not all(isinstance(value, str) and value for value in modules.values())):
+            raise ValueError("policy bundle manifest requires the exact module set")
+        if not isinstance(loaded, dict) or set(loaded) != MODULE_NAMES:
+            raise ValueError("policy bundle artifact requires the exact module set")
+        for name, value in loaded.items():
+            if (not isinstance(value, dict) or
+                    set(value) != {"schema_version", "module", "mode", "parameters"} or
+                    value["schema_version"] != "policy-module-v1" or value["module"] != name or
+                    not isinstance(value["mode"], str) or not value["mode"] or
+                    not isinstance(value["parameters"], dict)):
+                raise ValueError("invalid policy module artifact")
         identity = digest({"manifest": manifest, "modules": loaded})
-        return cls(root.resolve(), canonical(manifest), tuple((name, canonical(loaded[name])) for name in sorted(loaded)), identity)
+        return cls(root, canonical(manifest), tuple((name, canonical(loaded[name])) for name in sorted(loaded)), identity)
 
     def module(self, name: str):
         for key, payload in self.modules_json:
@@ -115,7 +161,11 @@ def validate_candidate_set(
         raise ValueError("policy must produce at least two proposals")
     if not all(isinstance(row, PortfolioProposal) for row in proposals):
         raise ValueError("candidate set contains a non-proposal")
-    ordered = tuple(sorted(proposals, key=lambda row: row.proposal_id))
+    visible = {row["security_id"] for row in snapshot.to_dict()["records"]}
+    eligible = visible | set(account.get("positions", {}))
+    revalidated = [PortfolioProposal.from_dict(row.to_dict(), snapshot, account, eligible, policy.bundle_id)
+                   for row in proposals]
+    ordered = tuple(sorted(revalidated, key=lambda row: row.proposal_id))
     ids = [row.proposal_id for row in ordered]
     if len(ids) != len(set(ids)) or ids.count("keep-current") != 1:
         raise ValueError("candidate IDs must be unique and include keep-current exactly once")
@@ -123,6 +173,12 @@ def validate_candidate_set(
     for row in ordered:
         if row.snapshot_hash != snapshot.sha256 or row.account_hash != expected_account or row.policy_bundle_id != policy.bundle_id:
             raise ValueError("candidate set mixes snapshot, account or policy identities")
+    keep = next(row for row in ordered if row.proposal_id == "keep-current")
+    expected = keep_current_proposal(
+        snapshot, account, policy.bundle_id, list(keep.evidence_ids), parse_time(keep.expires_at),
+    )
+    if keep.targets != expected.targets:
+        raise ValueError("keep-current candidate does not preserve the current account")
     return ordered
 
 
