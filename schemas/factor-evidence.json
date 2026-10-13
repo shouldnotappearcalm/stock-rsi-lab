@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FactorEvidence",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "factor_id": {"type": "string", "minLength": 1},
+    "security_id": {"type": "string", "minLength": 1},
+    "value": {"type": ["string", "null"]},
+    "unit": {"type": "string", "minLength": 1},
+    "as_of": {"type": "string", "format": "date-time"},
+    "lookback_sessions": {"type": "integer", "minimum": 0},
+    "evidence_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "quality_flags": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "missing_reason": {"type": ["string", "null"]},
+    "snapshot_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "required": ["factor_id", "security_id", "value", "unit", "as_of", "lookback_sessions", "evidence_ids", "quality_flags", "missing_reason", "snapshot_hash"]
+}
