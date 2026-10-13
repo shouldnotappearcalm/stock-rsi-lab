@@ -112,3 +112,14 @@ PYTHONPATH=src python3 -m stock_rsi.priority \
 
 [RSI-Anything源码分析（2026-10-12）](docs/research/rsi-anything-2026-10-12/analysis.md)：
 固定commit，含真实验证结果、各领域发布边界及股市项目迁移建议。
+
+## v0.2组合候选基础
+
+`stock_rsi.portfolio_runner`提供程序化的多候选组合运行与回放接口：policy必须同时
+输出完整目标组合和`keep-current`，selector只能从已记录候选中选择；选中目标转换为
+确定性订单，同一开盘先卖后买。候选、选择、bundle内容、订单和账户均纳入回放校验。
+
+`policies/v0.2-contract-fixture`只验证七类投资skill的模块边界与内容寻址，明确标记为
+`CONTRACT_ONLY_NOT_AN_INVESTMENT_STRATEGY`。它不是可回测投资策略。当前公开CLI仍以
+前述合成单决策流程作为演示；真正的价格/风险/流动性因子、投资policy和Outcome Model
+将按[v0.2设计](docs/superpowers/specs/2026-10-14-policy-outcome-rsi-design.md)分阶段接入。

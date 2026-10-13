@@ -38,3 +38,20 @@ split registry按development→validation→sealed排序，区间不可重叠。
 VerifyGate采用两层协议：结构/时间/账本硬错误拒绝执行；未验收的数据假设明确
 记录到report.verify_gate.warnings，允许工程探索。正式研究晋级另行验证，
 不会用数据不足阻止所有试跑，也不会把工程完成自动转为投资有效。
+
+## v0.2组合候选契约
+
+因子证据绑定一个`snapshot_hash`，记录factor/security、有限Decimal值或明确缺失原因、
+单位、lookback、as-of、源记录ID和质量标志。同一FactorFrame不允许重复键或混入其他
+快照证据。
+
+PortfolioProposal绑定同一个snapshot、account和PolicyBundle，包含全组合目标和且仅一个
+`CASH`目标；六位小数权重合计必须严格为1。每次policy至少给出两个候选并且恰有一个
+`keep-current`。候选先完整持久化，selector随后返回候选ID；未选候选不标记为真实观察。
+
+运行时保存PolicyBundle的规范化内容副本与摘要，而非依赖运行结束后仍可变的源目录。
+同一开盘的行情先整批验证，订单按SELL后BUY、同动作证券代码排序执行。缺少实际需要的
+成交行情会令订单和运行失效，不能解释成停牌或零成交。
+
+`portfolio_runner`目前是程序化基础接口，没有公开为投资CLI。其contract fixture没有经济
+假设，不产生收益结论；Outcome Model和成熟反馈账本属于后续实施片。
