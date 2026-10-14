@@ -1,0 +1,81 @@
+{
+  "source_id": "chenditc-investment-data-qlib-2026-10-13",
+  "release_url": "https://github.com/chenditc/investment_data/releases/tag/2026-10-13",
+  "archive_name": "qlib_bin.tar.gz",
+  "archive_size_bytes": 567791316,
+  "archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+  "manifest_sha256": "af7fbc22f178144da2d1600be12152d5b29eee9493801c4d20cd44985920e2d2",
+  "target_trade_date": "2026-10-13",
+  "future_calendar_start": "2026-10-14",
+  "future_calendar_end": "2026-12-31",
+  "provenance": {
+    "dolt_commit": "iihn7nmpenoflr97vkt1rl3ijmh8umna",
+    "investment_data_commit": "b8c129b4d9b838f050eac8b1135111b3b79fc894",
+    "qlib_commit": "b87a2c294d364a33fb739359886acffe8ec907d1",
+    "image_digest": "sha256:499bf932b7b967b6e5a06d120577a3fbed9d4fcf851dc0f6a1564d052e129f4e"
+  },
+  "local_validation": {
+    "validated_at": "2026-10-14T09:49:00+08:00",
+    "validator": "investment_data/qlib/validate_archive.py --require-publishable",
+    "result": "PASS",
+    "calendar_sessions": 6486,
+    "calendar_start": "2000-01-04",
+    "calendar_end": "2026-10-13",
+    "instrument_rows": 6166,
+    "active_2025_01_02": {
+      "all_instruments": 5388,
+      "a_share_equities": 5382,
+      "SH": 2274,
+      "SZ": 2847,
+      "BJ": 261
+    },
+    "active_2026_01_05": {
+      "all_instruments": 5475,
+      "a_share_equities": 5468,
+      "SH": 2299,
+      "SZ": 2882,
+      "BJ": 287
+    },
+    "active_2026_10_13": {
+      "all_instruments": 5566,
+      "a_share_equities": 5560,
+      "SH": 2315,
+      "SZ": 2896,
+      "BJ": 349
+    },
+    "mainboard_sh_sz": {
+      "2025-01-02": 3175,
+      "2026-01-05": 3189,
+      "2026-10-13": 3187
+    },
+    "raw_bar_spot_checks": [
+      {
+        "symbol": "SH600519",
+        "trade_date": "2026-10-13",
+        "open": 1286.99990576783,
+        "close": 1274.8900038538384
+      },
+      {
+        "symbol": "SZ000001",
+        "trade_date": "2026-10-13",
+        "open": 11.73,
+        "close": 11.57
+      },
+      {
+        "symbol": "SH600555",
+        "observed_start": "2001-03-28",
+        "observed_end": "2022-07-06"
+      }
+    ]
+  },
+  "classification": "REAL_PRICE_ENGINEERING_ONLY",
+  "blocking_gaps": [
+    "instrument intervals describe observed bars rather than authoritative historical security status",
+    "the bundled Qlib data omits daily suspension and legal price-limit tables",
+    "the Dolt final_a_stock_limit table ends on 2023-06-12 and has zero rows for 2025-01-02",
+    "missing bars cannot distinguish suspension from source failure",
+    "financial publication and revision history is absent",
+    "upstream source units need an explicit unit contract",
+    "repository software license does not grant redistribution rights for every upstream data source"
+  ]
+}

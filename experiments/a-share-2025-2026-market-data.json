@@ -1,0 +1,51 @@
+{
+  "experiment_id": "a-share-2025-2026-market-data-v2",
+  "status": "PRICE_SNAPSHOT_VERIFIED_STATE_LAYER_PENDING",
+  "registered_at": "2026-10-14",
+  "price_snapshot": "docs/data-sources/qlib-investment-data-2026-10-13.json",
+  "evidence_level": "REAL_PRICE_ENGINEERING_ONLY",
+  "windows": [
+    {
+      "id": "2025_to_2026_10",
+      "first_session": "2025-01-02",
+      "last_session": "2026-10-13",
+      "independent_account": true
+    },
+    {
+      "id": "2026_01_to_10",
+      "first_session": "2026-01-05",
+      "last_session": "2026-10-13",
+      "independent_account": true
+    }
+  ],
+  "universe_rule": {
+    "name": "sh_sz_mainboard_v1",
+    "source": "Qlib all.txt observed intervals joined to CNEquity historical status; full coverage receipt pending",
+    "included_symbol_families": {
+      "SH": ["600", "601", "603", "605"],
+      "SZ": ["000", "001", "002", "003"]
+    },
+    "observed_counts": {
+      "2025-01-02": 3175,
+      "2026-01-05": 3189,
+      "2026-10-13": 3187
+    },
+    "excluded": ["indices", "B shares", "funds", "bonds", "Beijing Stock Exchange", "STAR Market", "ChiNext"],
+    "scope_reason": "historical Beijing ST evidence needs a Tushare token and the current broker lacks 20/30 percent board rules",
+    "promotion_blocker": "observed intervals are not authoritative listing/delisting state"
+  },
+  "required_state_tables": [
+    "security_master_history",
+    "daily_suspension_state",
+    "daily_legal_price_limits",
+    "corporate_action_ledger"
+  ],
+  "state_probe": "docs/data-sources/cnequity-demo-2026-10-14.json",
+  "required_pit_tables_before_fundamental_factors": [
+    "financial_statement_versions",
+    "announcement_actual_publication_time",
+    "revision_lineage"
+  ],
+  "execution_policy": "fail closed when any order-day state or price boundary is unknown",
+  "data_redistribution": "forbidden until every upstream source license is confirmed; keep downloaded data under ignored local storage"
+}

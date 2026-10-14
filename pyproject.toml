@@ -12,6 +12,7 @@ dependencies = []
 
 [project.scripts]
 stock-rsi = "stock_rsi.cli:main"
+stock-rsi-qlib-audit = "stock_rsi.qlib_snapshot:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

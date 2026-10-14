@@ -1,0 +1,49 @@
+{
+  "source_id": "cnequity-c118038-demo-and-status-probe",
+  "repository": "https://github.com/rootSunc/CNEquity",
+  "commit": "c118038ea82b5bb78783c0c17a1d9251b36de71d",
+  "version": "0.16.0",
+  "tested_at": "2026-10-14T13:54:00+08:00",
+  "python": "3.14.3",
+  "price_probe": {
+    "trade_date": "2026-10-13",
+    "symbols": [
+      "600519.SH",
+      "000001.SZ",
+      "000858.SZ",
+      "300750.SZ",
+      "601318.SH"
+    ],
+    "sessions": 30,
+    "rows": 150,
+    "source": "tdx_protocol",
+    "result": "PASS",
+    "cross_check": "600519.SH OHLCV exactly matched the validated Qlib snapshot"
+  },
+  "status_probe": {
+    "window_start": "2025-01-02",
+    "window_end": "2026-10-13",
+    "symbols": [
+      "600053.SH",
+      "600289.SH",
+      "600519.SH"
+    ],
+    "rows": 1284,
+    "sessions_per_symbol": 428,
+    "source": "baostock",
+    "coverage_status": "complete",
+    "content_digest": "15b19f1088de05b10ea624f1a151342e5b641324e81233a7211d4995786e907e",
+    "observed_edges": [
+      "600053.SH changed from non-risk-warning to risk-warning after a 2026-04-29 suspension",
+      "600289.SH had 12 suspended risk-warning sessions and otherwise traded as risk-warning",
+      "600519.SH was normal and trading for all 428 sessions"
+    ]
+  },
+  "decision": "Use CNEquity as the candidate SH/SZ security-state and corporate-action lake; require a full-market coverage receipt before research backtests.",
+  "limitations": [
+    "historical Beijing ST evidence is unavailable without an optional Tushare token",
+    "the demo instrument records do not include listing dates",
+    "daily exact legal price limits are not a curated dataset",
+    "code is Apache-2.0 but downloaded data remains governed by upstream sources"
+  ]
+}

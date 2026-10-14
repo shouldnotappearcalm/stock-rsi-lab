@@ -16,3 +16,7 @@
 | 实验可观测性 | [AgentQuant](https://github.com/OnePunchMonk/AgentQuant/blob/1d2331002c3e98af33142b081c72e4071526a00e/src/agent/harness_config.py#L232) | 借数据契约；重写 knob wiring、统一 memory schema、finite metric/split checks |
 
 完整仓库SHA及审计事实保留在source-audit.json。AgentQuant等金融agent项目作为角色/管线参考，并不直接成为投资内核。当前实现范围和未完成部分见../roadmap.md。
+
+数据层另见[A股数据源审计（2026-10-14）](a-share-data-source-audit-2026-10-14.md)：
+已实际下载并校验 2026-10-13 全市场 Qlib 快照，同时核对 Tushare、BaoStock、
+AKShare、JQData 的字段、权限与许可边界。

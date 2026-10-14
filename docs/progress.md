@@ -44,3 +44,21 @@
 - Actual frozen-seed runs: 426/183 sessions, 68/28 fills, final equities 100285.47/100186.26.
 - 621/263 wake snapshots; both fixed-response replays completed with matching ledgers.
 - No holding/fill exposure at known BYD raw discontinuity; other actions remain unmodeled.
+
+- 2026-10-14 data search: cloned and inspected BaoStock downloader, Tushare SDK,
+  AKShare, Qlib and `chenditc/investment_data`; downloaded the 2026-10-13
+  `qlib_bin.tar.gz` release (567,791,316 bytes) and its manifest.
+- Archive validator and SHA-256 passed. Extracted calendar/instruments plus three symbol
+  samples; 6,166 observed intervals, 5,560 filtered A-share equities on 2026-10-13.
+- Added dependency-free Qlib audit reader. It reconstructs raw OHLCV, excludes known
+  indices/B shares and refuses to infer tradability from missing bars.
+- Data ruling: frozen price layer is usable for engineering replay. Security master,
+  suspension, legal limits, corporate-action ledger and PIT financial revisions still
+  block research promotion; third-party data is not committed to the public repository.
+- Cloned CNEquity at `c118038e` and SimTradeData at `b925da2f`. CNEquity's real
+  TDX demo wrote 150 bars and exactly matched Qlib for 600519 on 2026-10-13.
+- CNEquity/BaoStock historical status probes wrote 2,140 rows for five normal names and
+  1,284 rows for three edge names across 428 sessions. Coverage receipts were complete;
+  observed both ST+suspension and a later ST transition.
+- Ruling: first research universe is SH/SZ mainboard. Qlib/Dolt's limit table stops in
+  2023, so 2025–2026 exact daily price limits remain the immediate data blocker.
