@@ -67,3 +67,8 @@
   The 2026-01-05—2026-10-13 window is permanently marked contaminated and cannot
   validate future versions. Registered the 20% net-return / 90% exposure target for a
   new prospective sealed window that starts only after complete method freeze.
+- 2026-10-15 external-method search: reviewed Qlib Alpha158/DoubleEnsemble and listwise
+  ranking evidence, then ran Qlib strictly through 2025-12-30. The retained development
+  portfolio is DoubleEnsemble CSI500 Top-100/Drop-2: 27.13% net compound annualized,
+  99.58% average exposure, -20.12% drawdown, 2.23% initial-capital cost. It passes the
+  two-year development target but not the 20%-per-calendar-year robustness target.

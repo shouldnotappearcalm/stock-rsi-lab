@@ -1,0 +1,290 @@
+{
+  "experiment_id": "qlib-alpha158-pre2026-development-v1",
+  "status": "DEVELOPMENT_PASS_SEALED_NOT_RUN",
+  "executed_at": "2026-10-15",
+  "red_line": "No data, metric, prediction or backtest date from 2026 was used.",
+  "sources": {
+    "qlib": "https://github.com/microsoft/qlib",
+    "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+    "data_manifest": "docs/data-sources/qlib-investment-data-2026-10-13.json",
+    "data_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444"
+  },
+  "splits": {
+    "train": [
+      "2016-01-04",
+      "2021-12-31"
+    ],
+    "validation": [
+      "2022-01-04",
+      "2023-12-29"
+    ],
+    "development_inference": [
+      "2024-01-02",
+      "2025-12-30"
+    ],
+    "latest_permitted_date": "2025-12-30",
+    "2026_accessed": false
+  },
+  "target": {
+    "net_compound_annualized_pct_min": 20.0,
+    "average_exposure_pct_min": 90.0
+  },
+  "lightgbm_official_top50_drop5": {
+    "recorder_id": "f80dbc3840004df5a560e9f755367a68",
+    "params_sha256": "e198815fa8764b942bb62440f58aca55050e9ab3737db82617bc904d4b1cc208",
+    "pred_sha256": "53b41f5f34ec3c47994799d841446c413dd7ea62f030ed5e0601caaf4e5ca8ee",
+    "net_compound_return_pct": 52.2226555581639,
+    "net_compound_annualized_pct": 23.432222523317094,
+    "benchmark_compound_return_pct": 37.384952545166016,
+    "compound_excess_pct": 14.83770444350936,
+    "max_drawdown_pct": -21.391758974590104,
+    "average_exposure_pct": 99.09797875055415,
+    "cost_pct_initial": 10.514520215649432,
+    "turnover_x_initial": 105.58895643932415,
+    "2024_return_pct": 2.847454152781337,
+    "2025_return_pct": 48.00819019986162,
+    "ic": 0.012614910994099367,
+    "rank_ic": 0.00763760334526544
+  },
+  "doubleensemble_official_top50_drop5": {
+    "recorder_id": "e21672ba26294f92af57332dae36a843",
+    "params_sha256": "0ac63a71bc6777257ce18cef62340c2666065397d059a319af39653b93ba280f",
+    "pred_sha256": "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e",
+    "net_compound_return_pct": 55.17443031532401,
+    "net_compound_annualized_pct": 24.625701591114634,
+    "benchmark_compound_return_pct": 37.384952545166016,
+    "compound_excess_pct": 17.78947920066947,
+    "max_drawdown_pct": -23.00443678901114,
+    "average_exposure_pct": 98.72928421512245,
+    "cost_pct_initial": 10.664779994790784,
+    "turnover_x_initial": 107.09131513189466,
+    "2024_return_pct": 3.0789568007500323,
+    "2025_return_pct": 50.539387602916676,
+    "ic": 0.01888693394653169,
+    "rank_ic": 0.014027890516817024
+  },
+  "portfolio_search": {
+    "signal": "fixed DoubleEnsemble predictions",
+    "candidate_budget": 15,
+    "selection_rule": "maximize worst calendar-year return, then annualized return net of turnover-cost penalty",
+    "result_sha256": "24e851279de9b677643577a196d5c50c9e4c02b585bfa1a71f85af61e4b6941d",
+    "candidates": [
+      {
+        "topk": 100,
+        "n_drop": 2,
+        "net_compound_return_pct": 61.47107094609936,
+        "net_annualized_pct": 27.134313367415185,
+        "compound_excess_pct": 24.08611983144482,
+        "max_drawdown_pct": -20.123258451490976,
+        "average_exposure_pct": 99.58336519188784,
+        "cost_pct_initial": 2.2347124418388136,
+        "turnover_x_initial": 22.835622428825566,
+        "2024_return_pct": 11.47273050374018,
+        "2025_return_pct": 44.85253049460505
+      },
+      {
+        "topk": 50,
+        "n_drop": 1,
+        "net_compound_return_pct": 53.956573510541325,
+        "net_annualized_pct": 24.134675253912576,
+        "compound_excess_pct": 16.571622395886788,
+        "max_drawdown_pct": -21.01396214182033,
+        "average_exposure_pct": 99.260679422541,
+        "cost_pct_initial": 2.2288822286540726,
+        "turnover_x_initial": 22.777663990723184,
+        "2024_return_pct": 11.230585321027986,
+        "2025_return_pct": 38.412086087832556
+      },
+      {
+        "topk": 30,
+        "n_drop": 1,
+        "net_compound_return_pct": 61.54164376723903,
+        "net_annualized_pct": 27.162150623367598,
+        "compound_excess_pct": 24.15669265258449,
+        "max_drawdown_pct": -22.551998582523858,
+        "average_exposure_pct": 98.78817083709941,
+        "cost_pct_initial": 3.6203474663485085,
+        "turnover_x_initial": 36.6853130636486,
+        "2024_return_pct": 10.235920550117704,
+        "2025_return_pct": 46.541746974204834
+      },
+      {
+        "topk": 150,
+        "n_drop": 2,
+        "net_compound_return_pct": 50.191443920084986,
+        "net_annualized_pct": 22.604231313376122,
+        "compound_excess_pct": 12.806492805430448,
+        "max_drawdown_pct": -20.435151087360037,
+        "average_exposure_pct": 99.70893717615837,
+        "cost_pct_initial": 1.454788006746168,
+        "turnover_x_initial": 15.040236977147998,
+        "2024_return_pct": 9.09765836955605,
+        "2025_return_pct": 37.66697302643129
+      },
+      {
+        "topk": 50,
+        "n_drop": 2,
+        "net_compound_return_pct": 64.73611171181358,
+        "net_annualized_pct": 28.41590731185173,
+        "compound_excess_pct": 27.35116059715903,
+        "max_drawdown_pct": -22.736242792503113,
+        "average_exposure_pct": 99.14869305194809,
+        "cost_pct_initial": 4.336434905469091,
+        "turnover_x_initial": 43.84164122888021,
+        "2024_return_pct": 9.093474918054545,
+        "2025_return_pct": 51.00455076305423
+      },
+      {
+        "topk": 200,
+        "n_drop": 2,
+        "net_compound_return_pct": 45.320770869235936,
+        "net_annualized_pct": 20.595718003661425,
+        "compound_excess_pct": 7.935819754581397,
+        "max_drawdown_pct": -18.752352803004857,
+        "average_exposure_pct": 99.82100834141765,
+        "cost_pct_initial": 0.8305409023438586,
+        "turnover_x_initial": 8.801250857683323,
+        "2024_return_pct": 8.469724873917173,
+        "2025_return_pct": 33.97357745504899
+      },
+      {
+        "topk": 150,
+        "n_drop": 5,
+        "net_compound_return_pct": 52.02897042130103,
+        "net_annualized_pct": 23.35350857238121,
+        "compound_excess_pct": 14.644019306646495,
+        "max_drawdown_pct": -21.047437988890238,
+        "average_exposure_pct": 99.59253703407221,
+        "cost_pct_initial": 3.1854817894290504,
+        "turnover_x_initial": 32.33790810459287,
+        "2024_return_pct": 7.16058975054783,
+        "2025_return_pct": 41.870225588716295
+      },
+      {
+        "topk": 200,
+        "n_drop": 5,
+        "net_compound_return_pct": 48.703042582275756,
+        "net_annualized_pct": 21.99395529438317,
+        "compound_excess_pct": 11.318091467621215,
+        "max_drawdown_pct": -20.65243696293505,
+        "average_exposure_pct": 99.70318494545147,
+        "cost_pct_initial": 2.378701187196387,
+        "turnover_x_initial": 24.27443778344938,
+        "2024_return_pct": 6.899039701681131,
+        "2025_return_pct": 39.10606025765553
+      },
+      {
+        "topk": 100,
+        "n_drop": 1,
+        "net_compound_return_pct": 40.237762775726125,
+        "net_annualized_pct": 18.463489587921742,
+        "compound_excess_pct": 2.852811661071586,
+        "max_drawdown_pct": -21.452805559621858,
+        "average_exposure_pct": 99.62190505335197,
+        "cost_pct_initial": 1.0360893790847288,
+        "turnover_x_initial": 10.855684974540422,
+        "2024_return_pct": 6.220515874080612,
+        "2025_return_pct": 32.02511927354183
+      },
+      {
+        "topk": 100,
+        "n_drop": 5,
+        "net_compound_return_pct": 52.579841150312866,
+        "net_annualized_pct": 23.577252377005653,
+        "compound_excess_pct": 15.194890035658325,
+        "max_drawdown_pct": -22.0138547520631,
+        "average_exposure_pct": 99.39013623919989,
+        "cost_pct_initial": 4.729911101757285,
+        "turnover_x_initial": 47.77432565851363,
+        "2024_return_pct": 6.000923065783015,
+        "2025_return_pct": 43.941992897197224
+      },
+      {
+        "topk": 30,
+        "n_drop": 3,
+        "net_compound_return_pct": 63.67189613319333,
+        "net_annualized_pct": 27.999585170172956,
+        "compound_excess_pct": 26.286945018538788,
+        "max_drawdown_pct": -24.12135071701065,
+        "average_exposure_pct": 98.33529729111812,
+        "cost_pct_initial": 10.5971409995221,
+        "turnover_x_initial": 106.41662315463994,
+        "2024_return_pct": 4.7647024169582775,
+        "2025_return_pct": 56.22809243688533
+      },
+      {
+        "topk": 50,
+        "n_drop": 5,
+        "net_compound_return_pct": 55.174430315323654,
+        "net_annualized_pct": 24.625701591114503,
+        "compound_excess_pct": 17.789479200669113,
+        "max_drawdown_pct": -23.004436789011105,
+        "average_exposure_pct": 98.72928421512243,
+        "cost_pct_initial": 10.664779994790784,
+        "turnover_x_initial": 107.09131513189469,
+        "2024_return_pct": 3.0789568007499435,
+        "2025_return_pct": 50.539387602916406
+      },
+      {
+        "topk": 100,
+        "n_drop": 10,
+        "net_compound_return_pct": 47.018175211335844,
+        "net_annualized_pct": 21.299434428481412,
+        "compound_excess_pct": 9.633224096681303,
+        "max_drawdown_pct": -20.939093668529797,
+        "average_exposure_pct": 98.97587209406197,
+        "cost_pct_initial": 10.388498495661626,
+        "turnover_x_initial": 104.32951049928259,
+        "2024_return_pct": 3.053858527362152,
+        "2025_return_pct": 42.66149498157863
+      },
+      {
+        "topk": 30,
+        "n_drop": 5,
+        "net_compound_return_pct": 37.125423937361866,
+        "net_annualized_pct": 17.138844508778163,
+        "compound_excess_pct": -0.2595271772926733,
+        "max_drawdown_pct": -24.15940201113592,
+        "average_exposure_pct": 97.89613061878528,
+        "cost_pct_initial": 16.58522425092216,
+        "turnover_x_initial": 166.26477923485785,
+        "2024_return_pct": -2.207824115299606,
+        "2025_return_pct": 40.22126279206268
+      },
+      {
+        "topk": 50,
+        "n_drop": 10,
+        "net_compound_return_pct": 29.530491830837093,
+        "net_annualized_pct": 13.841952160193527,
+        "compound_excess_pct": -7.85445928381745,
+        "max_drawdown_pct": -25.10004941924331,
+        "average_exposure_pct": 97.9956049440705,
+        "cost_pct_initial": 19.383905517344026,
+        "turnover_x_initial": 194.2362129210906,
+        "2024_return_pct": -5.681420052110209,
+        "2025_return_pct": 37.332953806557924
+      }
+    ]
+  },
+  "retained_development_candidate": {
+    "topk": 100,
+    "n_drop": 2,
+    "net_compound_return_pct": 61.47107094609936,
+    "net_annualized_pct": 27.134313367415185,
+    "compound_excess_pct": 24.08611983144482,
+    "max_drawdown_pct": -20.123258451490976,
+    "average_exposure_pct": 99.58336519188784,
+    "cost_pct_initial": 2.2347124418388136,
+    "turnover_x_initial": 22.835622428825566,
+    "2024_return_pct": 11.47273050374018,
+    "2025_return_pct": 44.85253049460505
+  },
+  "development_target_status": "PASS",
+  "sealed_target_status": "NOT_RUN",
+  "limitations": [
+    "The development window has been inspected and can no longer validate later changes.",
+    "The retained candidate has only 11.47% in 2024 and therefore does not deliver 20% in every calendar year.",
+    "Qlib limit_threshold is a simplified 9.5% rule and is not the accepted 2025-2026 legal-limit state layer.",
+    "The result is dominated by a strong 2025 and requires a new unseen prospective interval."
+  ]
+}
