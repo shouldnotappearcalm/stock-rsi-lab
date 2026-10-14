@@ -77,3 +77,11 @@
   was -2.00%, CSI500 -5.10%, excess +3.10%, exposure 99.42%, drawdown -16.30%. The +20%
   absolute target failed. The consumed interval remains diagnostic-only and cannot select a
   revised method.
+- Continued evolution without reading or rerunning 2026: froze the DoubleEnsemble predictions and
+  mutated only portfolio construction to weekly CSI500 enhanced indexing. Built 727 capped index-
+  weight sessions and 484 trailing risk snapshots, then exhausted a fixed six-candidate budget.
+  The retained development candidate returned 21.43% in 2024 and 49.17% in 2025 (34.67% net
+  annualized), with 97.74% average exposure and -18.88% drawdown. A clean process reproduced the
+  metrics within 1e-12. The audited CLARABEL path never relaxed constraints; one infeasible
+  candidate consumed its slot. The result remains development-only and the next valid outcome
+  test must use a newly registered future interval.

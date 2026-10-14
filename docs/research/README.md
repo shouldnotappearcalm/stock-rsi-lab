@@ -20,3 +20,7 @@
 数据层另见[A股数据源审计（2026-10-14）](a-share-data-source-audit-2026-10-14.md)：
 已实际下载并校验 2026-10-13 全市场 Qlib 快照，同时核对 Tushare、BaoStock、
 AKShare、JQData 的字段、权限与许可边界。
+
+投资模块实验另见[Qlib pre-2026 基线](qlib-pre2026-development-2026-10-15.md)和
+[EnhancedIndexing 组合模块进化](qlib-enhanced-indexing-pre2026-2026-10-15.md)。两者都只
+是 2024—2025 开发证据；后者没有读取或复跑已经暴露的 2026 区间。

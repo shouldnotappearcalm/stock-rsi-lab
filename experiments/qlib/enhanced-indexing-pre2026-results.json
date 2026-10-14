@@ -1,0 +1,261 @@
+{
+  "experiment_id": "qlib-enhanced-indexing-pre2026-development-v2",
+  "status": "DEVELOPMENT_PASS_NEW_FUTURE_EVALUATION_REQUIRED",
+  "executed_at": "2026-10-15",
+  "red_line": "No data, metric, prediction or backtest date from 2026 was used; the consumed 2026 replay was not rerun.",
+  "method": "weekly_cached_enhanced_indexing",
+  "sources": {
+    "qlib": "https://github.com/microsoft/qlib",
+    "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+    "provider_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+    "investment_data_commit": "b8c129b4d9b838f050eac8b1135111b3b79fc894",
+    "dolt_commit": "iihn7nmpenoflr97vkt1rl3ijmh8umna",
+    "prediction_sha256": "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e",
+    "csi500_weight_source_sha256": "2c3382c09c4b04e9e85c6fa9474e84523f25bb20887d02c3ca8b9ab59c13c085",
+    "risk_model_tree_sha256": "675cd1c4fe57e0f24bee9604778455979babaf6f329fea75bf4b83385849a2fe"
+  },
+  "data_contract": {
+    "prediction_max_date": "2025-12-30",
+    "weight_feature_start": "2022-12-30",
+    "weight_feature_end": "2025-12-30",
+    "weight_feature_sessions": 727,
+    "weight_symbol_files": 1747,
+    "weight_source_rows_used": 387014,
+    "weight_source_max_date_used": "2025-11-28",
+    "risk_snapshot_start": "2023-12-29",
+    "risk_snapshot_end": "2025-12-29",
+    "risk_snapshot_count": 484,
+    "risk_lookback_sessions": 240,
+    "2026_accessed": false
+  },
+  "portfolio_contract": {
+    "signal": "frozen DoubleEnsemble Alpha158 predictions",
+    "benchmark": "SH000905",
+    "risk_degree": 0.99,
+    "wake_rule": "first available trading session of each ISO week",
+    "snapshot_rule": "use previous trading session risk model, benchmark weights and volume",
+    "optimizer": "AuditedEnhancedIndexingOptimizer / CLARABEL",
+    "constraint_tolerance": 0.0001,
+    "constraint_relaxation_allowed": false,
+    "account": 100000000,
+    "deal_price": "close",
+    "limit_threshold": 0.095,
+    "open_cost": 0.0005,
+    "close_cost": 0.0015,
+    "minimum_cost": 5
+  },
+  "search": {
+    "candidate_budget": 6,
+    "eligibility": {
+      "net_annualized_pct_min": 20,
+      "average_exposure_pct_min": 95
+    },
+    "selection_rule": "maximize worst calendar-year net return, then annualized net return, shallower drawdown, lower turnover",
+    "development_start": "2024-01-02",
+    "development_end": "2025-12-30",
+    "candidates": [
+      {
+        "optimizer": {
+          "lamb": 1.0,
+          "delta": 0.2,
+          "b_dev": 0.01
+        },
+        "net_compound_return_pct": 77.90723082743112,
+        "net_annualized_pct": 33.46143787335036,
+        "benchmark_pct": 37.384952545166016,
+        "excess_pct": 40.52227971277658,
+        "max_drawdown_pct": -19.86619570155026,
+        "average_exposure_pct": 98.1878627923041,
+        "cost_pct_initial": 2.382337829661911,
+        "turnover_x_initial": 24.29338496631822,
+        "2024_return_pct": 18.99497323556487,
+        "2025_return_pct": 49.50819012769727,
+        "optimizer_audit": {
+          "solver": "CLARABEL",
+          "solve_count": 103,
+          "statuses": [
+            "optimal"
+          ],
+          "max_constraint_violation": 7.410112904476795e-05,
+          "max_realized_target_turnover": 0.20007410112904478,
+          "constraint_relaxations": 0
+        },
+        "candidate_number": 1,
+        "status": "COMPLETED"
+      },
+      {
+        "optimizer": {
+          "lamb": 0.25,
+          "delta": 0.2,
+          "b_dev": 0.01
+        },
+        "net_compound_return_pct": 81.06898398710314,
+        "net_annualized_pct": 34.6446034728699,
+        "benchmark_pct": 37.384952545166016,
+        "excess_pct": 43.6840328724486,
+        "max_drawdown_pct": -19.261533507296534,
+        "average_exposure_pct": 98.3907104525613,
+        "cost_pct_initial": 2.4127061414384294,
+        "turnover_x_initial": 24.60019189826206,
+        "2024_return_pct": 20.170177578606065,
+        "2025_return_pct": 50.67713773549336,
+        "optimizer_audit": {
+          "solver": "CLARABEL",
+          "solve_count": 103,
+          "statuses": [
+            "optimal"
+          ],
+          "max_constraint_violation": 8.174158355739314e-05,
+          "max_realized_target_turnover": 0.2000817415835574,
+          "constraint_relaxations": 0
+        },
+        "candidate_number": 2,
+        "status": "COMPLETED"
+      },
+      {
+        "optimizer": {
+          "lamb": 4.0,
+          "delta": 0.2,
+          "b_dev": 0.01
+        },
+        "net_compound_return_pct": 73.69593835653907,
+        "net_annualized_pct": 31.869105737164126,
+        "benchmark_pct": 37.384952545166016,
+        "excess_pct": 36.31098724188453,
+        "max_drawdown_pct": -18.71513501528963,
+        "average_exposure_pct": 98.21707514793687,
+        "cost_pct_initial": 2.3731075854901875,
+        "turnover_x_initial": 24.200542591860405,
+        "2024_return_pct": 18.714739690292113,
+        "2025_return_pct": 46.31370865124609,
+        "optimizer_audit": {
+          "solver": "CLARABEL",
+          "solve_count": 103,
+          "statuses": [
+            "optimal"
+          ],
+          "max_constraint_violation": 7.206068136494936e-05,
+          "max_realized_target_turnover": 0.20007206068136496,
+          "constraint_relaxations": 0
+        },
+        "candidate_number": 3,
+        "status": "COMPLETED"
+      },
+      {
+        "optimizer": {
+          "lamb": 1.0,
+          "delta": 0.1,
+          "b_dev": 0.01
+        },
+        "candidate_number": 4,
+        "status": "FAILED_CONSTRAINTS",
+        "error": "constrained optimizer failed: infeasible",
+        "optimizer_audit": {
+          "solver": "CLARABEL",
+          "constraint_relaxations": 0,
+          "completed_solve_count": 24
+        }
+      },
+      {
+        "optimizer": {
+          "lamb": 1.0,
+          "delta": 0.3,
+          "b_dev": 0.01
+        },
+        "net_compound_return_pct": 77.3209603179382,
+        "net_annualized_pct": 33.240898581639925,
+        "benchmark_pct": 37.384952545166016,
+        "excess_pct": 39.93600920328366,
+        "max_drawdown_pct": -18.19929404174585,
+        "average_exposure_pct": 97.94497511638137,
+        "cost_pct_initial": 3.6030829996155984,
+        "turnover_x_initial": 36.497982653879326,
+        "2024_return_pct": 19.527195422552523,
+        "2025_return_pct": 48.35197938935396,
+        "optimizer_audit": {
+          "solver": "CLARABEL",
+          "solve_count": 103,
+          "statuses": [
+            "optimal"
+          ],
+          "max_constraint_violation": 5.662598291023002e-05,
+          "max_realized_target_turnover": 0.3000566259829102,
+          "constraint_relaxations": 0
+        },
+        "candidate_number": 5,
+        "status": "COMPLETED"
+      },
+      {
+        "optimizer": {
+          "lamb": 1.0,
+          "delta": 0.2,
+          "b_dev": 0.02
+        },
+        "net_compound_return_pct": 81.14333388622077,
+        "net_annualized_pct": 34.67230151189482,
+        "benchmark_pct": 37.384952545166016,
+        "excess_pct": 43.75838277156623,
+        "max_drawdown_pct": -18.879156080644055,
+        "average_exposure_pct": 97.74228687955473,
+        "cost_pct_initial": 2.3774890546460967,
+        "turnover_x_initial": 24.23344726026711,
+        "2024_return_pct": 21.43284939488732,
+        "2025_return_pct": 49.17160783830492,
+        "optimizer_audit": {
+          "solver": "CLARABEL",
+          "solve_count": 103,
+          "statuses": [
+            "optimal"
+          ],
+          "max_constraint_violation": 7.264031073941912e-05,
+          "max_realized_target_turnover": 0.20007264031073943,
+          "constraint_relaxations": 0
+        },
+        "candidate_number": 6,
+        "status": "COMPLETED"
+      }
+    ]
+  },
+  "retained_development_candidate": {
+    "optimizer": {
+      "lamb": 1.0,
+      "delta": 0.2,
+      "b_dev": 0.02
+    },
+    "net_compound_return_pct": 81.14333388622077,
+    "net_annualized_pct": 34.67230151189482,
+    "benchmark_pct": 37.384952545166016,
+    "excess_pct": 43.75838277156623,
+    "max_drawdown_pct": -18.879156080644055,
+    "average_exposure_pct": 97.74228687955473,
+    "cost_pct_initial": 2.3774890546460967,
+    "turnover_x_initial": 24.23344726026711,
+    "2024_return_pct": 21.43284939488732,
+    "2025_return_pct": 49.17160783830492,
+    "optimizer_audit": {
+      "solver": "CLARABEL",
+      "solve_count": 103,
+      "statuses": [
+        "optimal"
+      ],
+      "max_constraint_violation": 7.264031073941912e-05,
+      "max_realized_target_turnover": 0.20007264031073943,
+      "constraint_relaxations": 0
+    },
+    "candidate_number": 6,
+    "status": "COMPLETED"
+  },
+  "reproduction": {
+    "independent_second_process_matches": true,
+    "metric_absolute_tolerance": 1e-12,
+    "raw_search_output_sha256": "e2dd041cd135ba7a83992a8214d0045b1433ca0a5638e257575a45241031322f",
+    "independent_winner_summary_sha256": "c7c02e222a9dff11720f714fc9ef3f9ab309010d0699d4f0355b711715141f89"
+  },
+  "limitations": [
+    "This is adaptive development evidence from 2024-2025, not a sealed or prospective result.",
+    "One registered delta=0.1 candidate became infeasible under the full constraints; it consumed its budget slot and was not replaced.",
+    "CSI500 weights are forward-filled from the last source observation; the last source observation before the cap is 2025-11-28.",
+    "Execution uses daily close and a simplified 9.5% limit rule rather than the project next-open broker and exact historical board/ST limits.",
+    "The already-consumed 2026 replay is prohibited from evaluating or tuning this mutation; a newly registered future interval is required."
+  ]
+}

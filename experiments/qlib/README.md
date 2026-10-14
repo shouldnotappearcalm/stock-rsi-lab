@@ -34,6 +34,41 @@ PYTHONPATH=src /tmp/stock-rsi-qlib-env/bin/python scripts/run_qlib_topk_search.p
 
 The development result is not a sealed test and cannot be used to claim future returns.
 
+## Enhanced-indexing module evolution
+
+The next development-only mutation keeps the frozen DoubleEnsemble prediction unchanged and
+replaces only portfolio construction. It uses Qlib's structured covariance model, prior-session
+CSI500 weights and a 99% risk budget. The strategy solves target weights on the first trading
+session of each ISO week and holds those targets between wakes.
+
+The raw CSI500 constituent-weight CSV is not committed. Make a separate copy/hardlink overlay of
+the validated Qlib provider, then build weight features and trailing risk snapshots with an explicit
+pre-2026 cap:
+
+```bash
+PYTHONPATH=src /tmp/stock-rsi-qlib-env/bin/python scripts/prepare_qlib_csi500_weights.py \
+  --provider-uri /path/to/qlib-overlay \
+  --source-csv /path/to/ts_index_weight.csv \
+  --output /tmp/csi500-weight-manifest.json
+
+PYTHONPATH=src /tmp/stock-rsi-qlib-env/bin/python scripts/prepare_qlib_riskdata.py \
+  --provider-uri /path/to/qlib-overlay \
+  --output-dir /path/to/pre2026-riskdata \
+  --manifest /tmp/csi500-risk-manifest.json
+
+PYTHONPATH=src /tmp/stock-rsi-qlib-env/bin/python scripts/run_qlib_enhanced_search.py \
+  --provider-uri /path/to/qlib-overlay \
+  --risk-model-root /path/to/pre2026-riskdata \
+  --pred /path/to/doubleensemble/pred.pkl \
+  --output /tmp/enhanced-search.json
+```
+
+The search budget is exactly six portfolio candidates. Its audited CLARABEL optimizer checks every
+solution within `1e-4` numerical tolerance and never removes constraints. An infeasible candidate
+consumes its registered slot without replacement. The script rejects prediction artifacts, risk
+snapshots, cache dates or run intervals that reach 2026. This module has no permission to run against
+the already-consumed 2026 replay; its next valid evaluation is a newly registered future interval.
+
 ## Fixed 2026 replay
 
 The user explicitly requested a 2026 run after the 2024-2025 method was fixed. Reproduce it with
