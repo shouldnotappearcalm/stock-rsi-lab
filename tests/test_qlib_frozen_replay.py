@@ -1,4 +1,5 @@
 import hashlib
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -37,6 +38,18 @@ class QlibFrozenReplayTests(unittest.TestCase):
             (risk / "20261013").mkdir()
             with self.assertRaises(ValueError):
                 verify_enhanced_inputs(prediction, risk, identity)
+
+    def test_recorded_enhanced_diagnostic_is_failed_and_non_interfering(self):
+        root = Path(__file__).resolve().parents[1]
+        result = json.loads(
+            (root / "experiments/qlib/enhanced-indexing-frozen-2026-diagnostic-results.json").read_text()
+        )
+        self.assertEqual(result["claim_status"], "DIAGNOSTIC_ONLY_NOT_SEALED")
+        self.assertEqual(result["target_status"], "FAIL")
+        self.assertFalse(result["method_changed_after_open"])
+        self.assertEqual(result["optimizer_audit"]["constraint_relaxations"], 0)
+        self.assertEqual(result["optimizer_audit"]["statuses"], ["optimal"])
+        self.assertLess(result["net_compound_return_pct"], 0)
 
 
 if __name__ == "__main__":

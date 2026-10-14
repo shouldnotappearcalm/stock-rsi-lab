@@ -86,3 +86,19 @@ PYTHONPATH=src /tmp/stock-rsi-qlib-env/bin/python scripts/run_qlib_frozen_2026.p
 The script verifies the model hash and refuses any interval other than the registered
 2026-01-05—2026-10-13 replay. Because that interval had already been consumed, its result is
 diagnostic and cannot be relabeled as sealed evidence.
+
+The frozen enhanced-indexing diagnostic uses the same consumed interval and the already-persisted
+prediction artifact:
+
+```bash
+PYTHONPATH=src /tmp/stock-rsi-qlib-env/bin/python scripts/run_qlib_enhanced_frozen_2026.py \
+  --provider-uri /path/to/2026-diagnostic-overlay \
+  --risk-model-root /path/to/2026-diagnostic-riskdata \
+  --prediction /path/to/qlib_frozen_2026_pred.pkl \
+  --report-output /tmp/enhanced-2026-report.pkl \
+  --output /tmp/enhanced-2026-summary.json
+```
+
+Its economic method is frozen at `feb2d59`; the diagnostic harness was frozen at `a584217` before
+the result was opened. The run failed the absolute-return target and is prohibited from selecting a
+later mutation.

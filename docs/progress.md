@@ -85,3 +85,9 @@
   metrics within 1e-12. The audited CLARABEL path never relaxed constraints; one infeasible
   candidate consumed its slot. The result remains development-only and the next valid outcome
   test must use a newly registered future interval.
+- User-requested enhanced-indexing diagnostic on the already-consumed 2026 interval: froze the
+  economic method at `feb2d59` and the diagnostic harness at `a584217` before opening the result.
+  Net return was -3.79% versus CSI500 -5.10% (+1.30 percentage points excess), exposure 94.92%
+  and drawdown -15.54%. It underperformed frozen Top100/Drop2 by 1.80 percentage points and failed
+  the +20% target. All 39 solves were audited optimal with zero constraint relaxations. The result
+  is diagnostic-only and cannot feed another mutation.

@@ -24,3 +24,7 @@ AKShare、JQData 的字段、权限与许可边界。
 投资模块实验另见[Qlib pre-2026 基线](qlib-pre2026-development-2026-10-15.md)和
 [EnhancedIndexing 组合模块进化](qlib-enhanced-indexing-pre2026-2026-10-15.md)。两者都只
 是 2024—2025 开发证据；后者没有读取或复跑已经暴露的 2026 区间。
+
+用户随后明确要求运行 2026，结果单独记录在
+[EnhancedIndexing 2026 污染区间诊断](qlib-enhanced-indexing-frozen-2026-diagnostic-2026-10-15.md)。
+它是失败迁移记录，不是新的验证集，也不向后续方法提供反馈。

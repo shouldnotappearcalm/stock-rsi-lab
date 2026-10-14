@@ -1,0 +1,69 @@
+{
+  "sessions": 185,
+  "start": "2026-01-05",
+  "end": "2026-10-13",
+  "net_compound_return_pct": -3.7946410798606944,
+  "net_annualized_pct": -4.960666920136925,
+  "benchmark_compound_return_pct": -5.096471309661865,
+  "compound_excess_pct": 1.3018302298011708,
+  "max_drawdown_pct": -15.544903326180147,
+  "average_exposure_pct": 94.91664031680618,
+  "cost_pct_initial": 0.7247450145946274,
+  "turnover_x_initial": 7.739299409992081,
+  "final_account": 96205358.92013927,
+  "status": "DIAGNOSTIC_ON_CONSUMED_2026_NOT_VALIDATION",
+  "method_changed_after_open": false,
+  "frozen_economic_method_commit": "feb2d5925d7dd19a1d6b333cb077b527806a5a4d",
+  "prediction_sha256": "551e80261ff20d426f7dcfb866e054a1a93c624737eb29efe7eb373f1eeb812d",
+  "risk_snapshot_start": "20251231",
+  "risk_snapshot_end": "20261012",
+  "optimizer": {
+    "lamb": 1.0,
+    "delta": 0.2,
+    "b_dev": 0.02
+  },
+  "risk_degree": 0.99,
+  "optimizer_audit": {
+    "solver": "CLARABEL",
+    "solve_count": 39,
+    "statuses": [
+      "optimal"
+    ],
+    "max_constraint_violation": 1.4462399611225862e-09,
+    "constraint_relaxations": 0
+  },
+  "report_sha256": "f2c862862a8e106bd3d30e12b451197d6c7e649570c0c792c4f722d22f02bc52",
+  "target_net_return_pct": 20.0,
+  "target_status": "FAIL",
+  "claim_status": "DIAGNOSTIC_ONLY_NOT_SEALED",
+  "diagnostic_harness_commit": "a5842173f615b6dfac04e83375649fa1fe3e69be",
+  "data_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+  "weight_source_sha256": "2c3382c09c4b04e9e85c6fa9474e84523f25bb20887d02c3ca8b9ab59c13c085",
+  "weight_manifest_sha256": "075f3d53583a99e9bb440e6bc0b4309c370bbd6fc288aa21fcb9398c8269ea4d",
+  "risk_manifest_sha256": "1f82dd2dd7eda5bbaf834c47189582367335872142473a9bf00829617bcf00de",
+  "risk_tree_sha256": "5540d7ecad5d0d3b8b361436d330756f7e51a2fa8c7cb55dbc7488f96696013b",
+  "data_receipts": {
+    "weight_sessions": 913,
+    "weight_symbol_files": 1803,
+    "weight_source_max_date": "2026-09-30",
+    "risk_snapshot_count": 185,
+    "risk_lookback_sessions": 240
+  },
+  "reproduction": {
+    "independent_second_run": true,
+    "max_percentage_metric_absolute_difference": 2.3e-13,
+    "max_report_numeric_absolute_difference": 1.1e-07,
+    "report_pickle_sha_is_not_stable_across_equivalent_runs": true
+  },
+  "comparison_to_frozen_top100_drop2": {
+    "enhanced_minus_top100_net_return_pct_points": -1.7979608206577735,
+    "enhanced_minus_top100_excess_pct_points": -1.7979608206577735,
+    "enhanced_minus_top100_max_drawdown_pct_points": 0.7597398795386923,
+    "enhanced_minus_top100_average_exposure_pct_points": -4.505544442572841,
+    "enhanced_minus_top100_cost_pct_initial_points": -0.056617046650551006,
+    "enhanced_minus_top100_turnover_x_initial": -0.5696282378701989
+  },
+  "exposure_95_status": "FAIL",
+  "exposure_90_status": "PASS",
+  "non_interference": "No method parameter will be changed from this diagnostic outcome."
+}
