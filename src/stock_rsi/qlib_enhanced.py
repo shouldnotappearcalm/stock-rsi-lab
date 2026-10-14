@@ -149,14 +149,16 @@ class WeeklyCachedEnhancedIndexingStrategy(EnhancedIndexingStrategy):
 
     _shared_market_caches = {}
 
-    def __init__(self, *, cache_start, cache_end, optimizer_kwargs=None, **kwargs):
+    def __init__(self, *, cache_start, cache_end, optimizer_kwargs=None,
+                 latest_permitted_date="2025-12-30", **kwargs):
         optimizer_kwargs = dict(optimizer_kwargs or {})
         super().__init__(optimizer_kwargs=optimizer_kwargs, **kwargs)
         self.optimizer = AuditedEnhancedIndexingOptimizer(**optimizer_kwargs)
         self.cache_start = pd.Timestamp(cache_start)
         self.cache_end = pd.Timestamp(cache_end)
-        if self.cache_end >= pd.Timestamp("2026-01-01"):
-            raise ValueError("development cache must end before 2026-01-01")
+        self.latest_permitted_date = pd.Timestamp(latest_permitted_date)
+        if self.cache_end > self.latest_permitted_date:
+            raise ValueError("cache exceeds explicit permitted date")
         if self.cache_start > self.cache_end:
             raise ValueError("cache_start must not follow cache_end")
         self._last_rebalance_week = None
@@ -194,7 +196,7 @@ class WeeklyCachedEnhancedIndexingStrategy(EnhancedIndexingStrategy):
     def generate_target_weight_position(self, score, current, trade_start_time, trade_end_time):
         self._ensure_market_cache()
         pre_date = get_pre_trading_date(trade_start_time, future=True)
-        if pre_date > self.cache_end:
+        if pre_date > self.cache_end or pre_date > self.latest_permitted_date:
             raise ValueError(f"market snapshot exceeds registered cache end: {pre_date:%Y-%m-%d}")
         outs = self.get_risk_data(pre_date)
         if outs is None:

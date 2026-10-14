@@ -13,8 +13,11 @@ def main(argv=None):
     parser.add_argument("--risk-end", default="2025-12-29")
     parser.add_argument("--lookback", type=int, default=240)
     parser.add_argument("--manifest", required=True)
+    parser.add_argument("--allow-consumed-2026-diagnostic", action="store_true")
     args = parser.parse_args(argv)
-    if args.risk_end >= "2026-01-01" or args.price_start > args.risk_start or args.risk_start > args.risk_end:
+    diagnostic = args.allow_consumed_2026_diagnostic and args.risk_end == "2026-10-12"
+    if ((args.risk_end >= "2026-01-01" and not diagnostic)
+            or args.price_start > args.risk_start or args.risk_start > args.risk_end):
         raise ValueError("risk snapshots must use a valid interval capped before 2026")
     if args.lookback < 60:
         raise ValueError("risk lookback is implausibly short")
@@ -60,6 +63,7 @@ def main(argv=None):
         "price_start": args.price_start, "risk_start": written[0], "risk_end": written[-1],
         "lookback_sessions": args.lookback, "snapshot_count": len(written),
         "estimator": "qlib.model.riskmodel.StructuredCovEstimator",
+        "classification": "CONSUMED_2026_DIAGNOSTIC" if diagnostic else "PRE2026_DEVELOPMENT",
     }
     manifest = Path(args.manifest)
     manifest.parent.mkdir(parents=True, exist_ok=True)

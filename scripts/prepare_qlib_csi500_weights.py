@@ -12,8 +12,10 @@ def main(argv=None):
     parser.add_argument("--start", default="2022-12-30")
     parser.add_argument("--end", default="2025-12-30")
     parser.add_argument("--output", required=True)
+    parser.add_argument("--allow-consumed-2026-diagnostic", action="store_true")
     args = parser.parse_args(argv)
-    if args.end >= "2026-01-01" or args.start > args.end:
+    diagnostic = args.allow_consumed_2026_diagnostic and args.end == "2026-10-13"
+    if (args.end >= "2026-01-01" and not diagnostic) or args.start > args.end:
         raise ValueError("weight features must be capped before 2026")
 
     import numpy as np
@@ -56,6 +58,7 @@ def main(argv=None):
         "source_rows_used": len(frame),
         "source_max_date_used": str(frame.trade_date.max().date()),
         "source_sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
+        "classification": "CONSUMED_2026_DIAGNOSTIC" if diagnostic else "PRE2026_DEVELOPMENT",
     }
     manifest = Path(args.output)
     manifest.parent.mkdir(parents=True, exist_ok=True)
