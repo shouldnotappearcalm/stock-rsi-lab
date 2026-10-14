@@ -294,6 +294,15 @@ Candidate count, attempts and external-feedback observations are matched. Failed
 - Sealed evaluation is opened once after all versions, thresholds and analysis code are frozen.
 - The already inspected 2025–2026 data is development/diagnostic material. Future untouched history or prospective paper data supplies clean evidence.
 
+### Test-interval non-interference
+
+- Once a window is designated validation or sealed, any observation from that window is test evidence: aggregate metrics, monthly paths, candidate ranks, failures and diagnostics all count.
+- Test evidence must never be used to propose, select, tune or justify a method that is then evaluated on the same window.
+- Opening a sealed window consumes it. Renaming it, deleting outputs, resetting code or assigning a new experiment ID does not restore its unseen status.
+- A failure ends that experiment. A revised method requires a newly registered unseen window.
+- Intermediate test monitoring is prohibited unless the registration explicitly defines a safety-only stop that cannot select or modify the method.
+- The 2026-01-05—2026-10-13 window is now contaminated by method feedback and is permanently ineligible as validation or sealed evidence.
+
 ### Metrics
 
 Portfolio outcomes include net return, maximum drawdown, volatility, downside risk, turnover, exposure, hit rate, tail loss, cost and fill diagnostics. They are always accompanied by the active-universe definition, capital base, benchmark, time range and data-quality grade.

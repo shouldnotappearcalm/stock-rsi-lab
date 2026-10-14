@@ -1,0 +1,43 @@
+{
+  "experiment_id": "prospective-sealed-after-freeze-v1",
+  "status": "PRE_REGISTERED_WAITING_FOR_METHOD_FREEZE",
+  "registered_at": "2026-10-14",
+  "contaminated_history_end": "2026-10-13",
+  "contamination_record": "docs/research/2026-test-contamination-2026-10-14.md",
+  "method_freeze": {
+    "status": "NOT_FROZEN",
+    "required_artifacts": [
+      "policy_bundle_id",
+      "outcome_model_bundle_id",
+      "factor_catalog_hash",
+      "universe_rule_hash",
+      "data_contract_hash",
+      "broker_and_cost_model_hash",
+      "evaluation_script_hash",
+      "promotion_threshold_hash"
+    ]
+  },
+  "sealed_window": {
+    "start": "FIRST_COMPLETE_SESSION_AFTER_METHOD_FREEZE",
+    "minimum_sessions": 252,
+    "interim_queries_allowed": false,
+    "feedback_to_evolution_allowed": false,
+    "open_count": 1
+  },
+  "performance_target": {
+    "net_return_pct_min": 20.0,
+    "average_exposure_pct_min": 90.0,
+    "return_is_not_a_correctness_gate": true,
+    "must_report": [
+      "maximum_drawdown",
+      "volatility",
+      "turnover",
+      "cost",
+      "concentration",
+      "capacity",
+      "cash_and_market_benchmarks"
+    ]
+  },
+  "failure_rule": "A failed or opened sealed window ends this experiment identity. It cannot be reused to modify and revalidate the method.",
+  "claim_status": "NO_INVESTMENT_CLAIM"
+}

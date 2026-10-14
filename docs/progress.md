@@ -62,3 +62,8 @@
   observed both ST+suspension and a later ST transition.
 - Ruling: first research universe is SH/SZ mainboard. Qlib/Dolt's limit table stops in
   2023, so 2025–2026 exact daily price limits remain the immediate data blocker.
+- 2026-10-14 methodology correction: 2026 test facts were used to suggest later
+  high-exposure methods. Those methods/results were removed before commit and push.
+  The 2026-01-05—2026-10-13 window is permanently marked contaminated and cannot
+  validate future versions. Registered the 20% net-return / 90% exposure target for a
+  new prospective sealed window that starts only after complete method freeze.

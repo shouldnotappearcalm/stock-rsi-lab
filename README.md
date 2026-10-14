@@ -107,6 +107,11 @@ session 状态回填完整。首个研究 universe 固定为沪深主板，三�
 只；全市场状态收据与精确价格边界完成前不计算正式策略收益。
 详见[数据源审计](docs/research/a-share-data-source-audit-2026-10-14.md)。
 
+2026-01-05—2026-10-13 的结果曾被用于提出后续方法，该区间因此永久失去测试资格。
+同一区间不得用测试事实反推方法后再次声称验证通过。污染记录与新封存登记见
+[方法论记录](docs/research/2026-test-contamination-2026-10-14.md)和
+[`prospective-sealed-after-freeze.json`](experiments/prospective-sealed-after-freeze.json)。
+
 [2025—2026与2026单独回测结果](docs/priority-backtest-results-2026-10-11.md)：
 两个独立10万元账户，6只股票诊断样本；目前为冻结seed基线，未做RSI效果声明。
 
