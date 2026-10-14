@@ -33,3 +33,21 @@ PYTHONPATH=src /tmp/stock-rsi-qlib-env/bin/python scripts/run_qlib_topk_search.p
 ```
 
 The development result is not a sealed test and cannot be used to claim future returns.
+
+## Fixed 2026 replay
+
+The user explicitly requested a 2026 run after the 2024-2025 method was fixed. Reproduce it with
+the ignored local frozen model artifact:
+
+```bash
+PYTHONPATH=src /tmp/stock-rsi-qlib-env/bin/python scripts/run_qlib_frozen_2026.py \
+  --provider-uri ~/.qlib/qlib_data/cn_data \
+  --model /path/to/frozen/params.pkl \
+  --pred-output /tmp/frozen-2026-pred.pkl \
+  --report-output /tmp/frozen-2026-report.pkl \
+  --output /tmp/frozen-2026-summary.json
+```
+
+The script verifies the model hash and refuses any interval other than the registered
+2026-01-05—2026-10-13 replay. Because that interval had already been consumed, its result is
+diagnostic and cannot be relabeled as sealed evidence.

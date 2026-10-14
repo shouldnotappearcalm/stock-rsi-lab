@@ -72,3 +72,8 @@
   portfolio is DoubleEnsemble CSI500 Top-100/Drop-2: 27.13% net compound annualized,
   99.58% average exposure, -20.12% drawdown, 2.23% initial-capital cost. It passes the
   two-year development target but not the 20%-per-calendar-year robustness target.
+- User-directed frozen replay: loaded the unchanged pre-2026 DoubleEnsemble model and retained
+  Top-100/Drop-2 portfolio, then ran 2026-01-05—2026-10-13 once without retraining. Net return
+  was -2.00%, CSI500 -5.10%, excess +3.10%, exposure 99.42%, drawdown -16.30%. The +20%
+  absolute target failed. The consumed interval remains diagnostic-only and cannot select a
+  revised method.
