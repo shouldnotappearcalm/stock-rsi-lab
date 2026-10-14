@@ -48,6 +48,16 @@
       "2026-01-05": 3189,
       "2026-10-13": 3187
     },
+    "historical_limit_regression_corpus": {
+      "table": "final_a_stock_limit",
+      "dolt_commit": "iihn7nmpenoflr97vkt1rl3ijmh8umna",
+      "size_bytes": 509537052,
+      "sha256": "2869dfa878b36d0d925b4cd3de929e129753f1937d6cfbda277f6d7410b2b3ff",
+      "rows": 14057413,
+      "start": "1996-12-16",
+      "end": "2023-06-12",
+      "use": "rule-engine regression only; not target-window truth"
+    },
     "raw_bar_spot_checks": [
       {
         "symbol": "SH600519",
