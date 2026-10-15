@@ -12,7 +12,9 @@ The source cannot be treated as a ready 2024–2025 replay:
 - The published Qlib workflow targets 2020-07 through 2022-12, uses CSI800 and a five-session label. Its data and portfolio are not the current CSI500/Top100 protocol.
 - The authors explicitly [document](https://github.com/SJTU-DMTai/MASTER#about-validation) an error in their released validation data processing. They say their original checkpoints/results are unaffected under their training-loss stopping rule, but those checkpoints cannot be substituted for a locally trained model with a known preprocessing fit and data lineage.
 
-A valid local probe would rebuild all 63 market fields with strict as-of dates from the already validated Qlib provider, train one fresh checkpoint with declared splits, check the processor's training-only fit state, and replay the same fixed portfolio. That is a separate, bounded experiment; published IC or old checkpoint results are not evidence of our net portfolio return.
+A data-readiness probe now reconstructs all 63 raw fields from the three index histories, using only current and trailing price/amount formulas. It covers 2,429 common trading days from 2016-01-04 through 2025-12-30 with zero missing cells. The median/MAD normalization uses only 1,459 training days through 2021-12-29, clips at ±3, and has a separate output hash. The [script](../../scripts/prepare_qlib_master_market_pre2026.py) and [manifest](../../experiments/qlib/master-market-pre2026-manifest.json) allow that part to be repeated without the original CSV or 2026 data.
+
+This resolves the market-index feature availability question. It does not resolve the stock-level Alpha158 sequence construction, label maturity, fresh training cost or portfolio replay. A valid investment probe must build and verify those components before freezing one checkpoint and testing. Published IC or old checkpoints are not evidence of our net portfolio return.
 
 ## MASS: heterogeneous investor signals and disagreement
 
