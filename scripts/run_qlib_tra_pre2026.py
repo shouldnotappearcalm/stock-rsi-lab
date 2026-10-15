@@ -35,6 +35,24 @@ def validate_window(train_end=TRAIN_END, valid_end=VALID_END, test_end=TEST_END)
         raise ValueError("TRA experiment must use disjoint pre-2026 windows")
 
 
+def first_pass_score(saved_predictions):
+    """Use the first chronological test pass saved by ``TRAModel.fit``.
+
+    Calling ``predict(test)`` again would reuse test-label errors that the
+    first pass wrote into the shared routing memory, including future dates.
+    """
+    import pandas as pd
+
+    if not isinstance(saved_predictions, pd.DataFrame) or "score" not in saved_predictions:
+        raise ValueError("TRA first-pass prediction must contain score")
+    if list(saved_predictions.index.names) != ["datetime", "instrument"]:
+        raise ValueError("TRA first-pass prediction index is invalid")
+    dates = saved_predictions.index.get_level_values("datetime")
+    if dates.min() < pd.Timestamp(TEST_START) or dates.max() > pd.Timestamp(TEST_END):
+        raise ValueError("TRA first-pass prediction crossed the development interval")
+    return saved_predictions[["score"]].dropna()
+
+
 def summarize(report):
     net = (1 + report["return"] - report["cost"]).prod() - 1
     bench = (1 + report["bench"]).prod() - 1
@@ -114,12 +132,7 @@ def main(argv=None):
         },
     )
     model.fit(dataset)
-    predictions = model.predict(dataset, segment="test")
-    if isinstance(predictions, pd.DataFrame):
-        predictions = predictions["score"]
-    if predictions.index.get_level_values("datetime").max() >= pd.Timestamp("2026-01-01"):
-        raise ValueError("TRA prediction artifact crossed pre-2026 boundary")
-    predictions = predictions.to_frame("score")
+    predictions = first_pass_score(pd.read_pickle(output / "model/test_pred.pkl"))
     pred_path = output / "pred.pkl"
     predictions.to_pickle(pred_path)
 
