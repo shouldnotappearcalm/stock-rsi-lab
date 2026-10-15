@@ -1,4 +1,6 @@
 import unittest
+import json
+from pathlib import Path
 
 import pandas as pd
 
@@ -23,3 +25,12 @@ class QlibRollingResearchTests(unittest.TestCase):
                 dates[dates.get_loc(earlier["test"][1]) + 1].strftime("%Y-%m-%d"),
                 later["test"][0],
             )
+
+    def test_recorded_run_consumed_all_windows_and_failed_target(self):
+        root = Path(__file__).resolve().parents[1]
+        result = json.loads((root / "experiments/qlib/rolling20-pre2026-results.json").read_text())
+        self.assertEqual(result["fit_count"], len(result["windows"]))
+        self.assertEqual(result["fit_count"], 24)
+        self.assertFalse(result["2026_market_data_accessed"])
+        self.assertEqual(result["target_status"], "FAIL")
+        self.assertLess(result["comparison_to_fixed_horizon20"]["net_annualized_pct_points"], 0)

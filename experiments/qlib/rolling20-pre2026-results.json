@@ -1,0 +1,436 @@
+{
+  "status": "PRE2026_DEVELOPMENT_ONLY",
+  "model": "Alpha158 LightGBM 20-session rolling refit",
+  "label": "Ref($close, -21) / Ref($close, -1) - 1",
+  "seed": 0,
+  "candidate_budget": 1,
+  "fit_count": 24,
+  "rolling_step_sessions": 20,
+  "train_sessions": 968,
+  "valid_sessions": 242,
+  "label_lookahead_sessions": 21,
+  "portfolio": {
+    "topk": 100,
+    "n_drop": 5,
+    "risk_degree": 0.95
+  },
+  "windows": [
+    {
+      "train": [
+        "2018-11-07",
+        "2022-11-02"
+      ],
+      "valid": [
+        "2022-12-02",
+        "2023-11-30"
+      ],
+      "test": [
+        "2024-01-02",
+        "2024-01-29"
+      ],
+      "valid_label_matures": "2023-12-29",
+      "test_label_matures": "2024-03-06"
+    },
+    {
+      "train": [
+        "2018-12-05",
+        "2022-11-30"
+      ],
+      "valid": [
+        "2022-12-30",
+        "2023-12-28"
+      ],
+      "test": [
+        "2024-01-30",
+        "2024-03-05"
+      ],
+      "valid_label_matures": "2024-01-29",
+      "test_label_matures": "2024-04-03"
+    },
+    {
+      "train": [
+        "2019-01-04",
+        "2022-12-28"
+      ],
+      "valid": [
+        "2023-02-06",
+        "2024-01-26"
+      ],
+      "test": [
+        "2024-03-06",
+        "2024-04-02"
+      ],
+      "valid_label_matures": "2024-03-05",
+      "test_label_matures": "2024-05-08"
+    },
+    {
+      "train": [
+        "2019-02-01",
+        "2023-02-02"
+      ],
+      "valid": [
+        "2023-03-06",
+        "2024-03-04"
+      ],
+      "test": [
+        "2024-04-03",
+        "2024-05-07"
+      ],
+      "valid_label_matures": "2024-04-02",
+      "test_label_matures": "2024-06-05"
+    },
+    {
+      "train": [
+        "2019-03-08",
+        "2023-03-02"
+      ],
+      "valid": [
+        "2023-04-03",
+        "2024-04-01"
+      ],
+      "test": [
+        "2024-05-08",
+        "2024-06-04"
+      ],
+      "valid_label_matures": "2024-05-07",
+      "test_label_matures": "2024-07-04"
+    },
+    {
+      "train": [
+        "2019-04-08",
+        "2023-03-30"
+      ],
+      "valid": [
+        "2023-05-05",
+        "2024-05-06"
+      ],
+      "test": [
+        "2024-06-05",
+        "2024-07-03"
+      ],
+      "valid_label_matures": "2024-06-04",
+      "test_label_matures": "2024-08-01"
+    },
+    {
+      "train": [
+        "2019-05-09",
+        "2023-04-28"
+      ],
+      "valid": [
+        "2023-06-02",
+        "2024-06-03"
+      ],
+      "test": [
+        "2024-07-04",
+        "2024-07-31"
+      ],
+      "valid_label_matures": "2024-07-03",
+      "test_label_matures": "2024-08-29"
+    },
+    {
+      "train": [
+        "2019-06-06",
+        "2023-05-31"
+      ],
+      "valid": [
+        "2023-07-04",
+        "2024-07-02"
+      ],
+      "test": [
+        "2024-08-01",
+        "2024-08-28"
+      ],
+      "valid_label_matures": "2024-07-31",
+      "test_label_matures": "2024-09-30"
+    },
+    {
+      "train": [
+        "2019-07-05",
+        "2023-06-30"
+      ],
+      "valid": [
+        "2023-08-01",
+        "2024-07-30"
+      ],
+      "test": [
+        "2024-08-29",
+        "2024-09-27"
+      ],
+      "valid_label_matures": "2024-08-28",
+      "test_label_matures": "2024-11-04"
+    },
+    {
+      "train": [
+        "2019-08-02",
+        "2023-07-28"
+      ],
+      "valid": [
+        "2023-08-29",
+        "2024-08-27"
+      ],
+      "test": [
+        "2024-09-30",
+        "2024-11-01"
+      ],
+      "valid_label_matures": "2024-09-27",
+      "test_label_matures": "2024-12-02"
+    },
+    {
+      "train": [
+        "2019-08-30",
+        "2023-08-25"
+      ],
+      "valid": [
+        "2023-09-26",
+        "2024-09-26"
+      ],
+      "test": [
+        "2024-11-04",
+        "2024-11-29"
+      ],
+      "valid_label_matures": "2024-11-01",
+      "test_label_matures": "2024-12-30"
+    },
+    {
+      "train": [
+        "2019-09-30",
+        "2023-09-22"
+      ],
+      "valid": [
+        "2023-11-01",
+        "2024-10-31"
+      ],
+      "test": [
+        "2024-12-02",
+        "2024-12-27"
+      ],
+      "valid_label_matures": "2024-11-29",
+      "test_label_matures": "2025-02-05"
+    },
+    {
+      "train": [
+        "2019-11-04",
+        "2023-10-30"
+      ],
+      "valid": [
+        "2023-11-29",
+        "2024-11-28"
+      ],
+      "test": [
+        "2024-12-30",
+        "2025-01-27"
+      ],
+      "valid_label_matures": "2024-12-27",
+      "test_label_matures": "2025-03-05"
+    },
+    {
+      "train": [
+        "2019-12-02",
+        "2023-11-27"
+      ],
+      "valid": [
+        "2023-12-27",
+        "2024-12-26"
+      ],
+      "test": [
+        "2025-02-05",
+        "2025-03-04"
+      ],
+      "valid_label_matures": "2025-01-27",
+      "test_label_matures": "2025-04-02"
+    },
+    {
+      "train": [
+        "2019-12-30",
+        "2023-12-25"
+      ],
+      "valid": [
+        "2024-01-25",
+        "2025-01-24"
+      ],
+      "test": [
+        "2025-03-05",
+        "2025-04-01"
+      ],
+      "valid_label_matures": "2025-03-04",
+      "test_label_matures": "2025-05-06"
+    },
+    {
+      "train": [
+        "2020-02-05",
+        "2024-01-23"
+      ],
+      "valid": [
+        "2024-03-01",
+        "2025-03-03"
+      ],
+      "test": [
+        "2025-04-02",
+        "2025-04-30"
+      ],
+      "valid_label_matures": "2025-04-01",
+      "test_label_matures": "2025-06-04"
+    },
+    {
+      "train": [
+        "2020-03-04",
+        "2024-02-28"
+      ],
+      "valid": [
+        "2024-03-29",
+        "2025-03-31"
+      ],
+      "test": [
+        "2025-05-06",
+        "2025-06-03"
+      ],
+      "valid_label_matures": "2025-04-30",
+      "test_label_matures": "2025-07-02"
+    },
+    {
+      "train": [
+        "2020-04-01",
+        "2024-03-27"
+      ],
+      "valid": [
+        "2024-04-30",
+        "2025-04-29"
+      ],
+      "test": [
+        "2025-06-04",
+        "2025-07-01"
+      ],
+      "valid_label_matures": "2025-06-03",
+      "test_label_matures": "2025-07-30"
+    },
+    {
+      "train": [
+        "2020-04-30",
+        "2024-04-26"
+      ],
+      "valid": [
+        "2024-05-31",
+        "2025-05-30"
+      ],
+      "test": [
+        "2025-07-02",
+        "2025-07-29"
+      ],
+      "valid_label_matures": "2025-07-01",
+      "test_label_matures": "2025-08-27"
+    },
+    {
+      "train": [
+        "2020-06-02",
+        "2024-05-29"
+      ],
+      "valid": [
+        "2024-07-01",
+        "2025-06-30"
+      ],
+      "test": [
+        "2025-07-30",
+        "2025-08-26"
+      ],
+      "valid_label_matures": "2025-07-29",
+      "test_label_matures": "2025-09-24"
+    },
+    {
+      "train": [
+        "2020-07-02",
+        "2024-06-27"
+      ],
+      "valid": [
+        "2024-07-29",
+        "2025-07-28"
+      ],
+      "test": [
+        "2025-08-27",
+        "2025-09-23"
+      ],
+      "valid_label_matures": "2025-08-26",
+      "test_label_matures": "2025-10-30"
+    },
+    {
+      "train": [
+        "2020-07-30",
+        "2024-07-25"
+      ],
+      "valid": [
+        "2024-08-26",
+        "2025-08-25"
+      ],
+      "test": [
+        "2025-09-24",
+        "2025-10-29"
+      ],
+      "valid_label_matures": "2025-09-23",
+      "test_label_matures": "2025-11-27"
+    },
+    {
+      "train": [
+        "2020-08-27",
+        "2024-08-22"
+      ],
+      "valid": [
+        "2024-09-25",
+        "2025-09-22"
+      ],
+      "test": [
+        "2025-10-30",
+        "2025-11-26"
+      ],
+      "valid_label_matures": "2025-10-29",
+      "test_label_matures": "2025-12-25"
+    },
+    {
+      "train": [
+        "2020-09-24",
+        "2024-09-23"
+      ],
+      "valid": [
+        "2024-10-30",
+        "2025-10-28"
+      ],
+      "test": [
+        "2025-11-27",
+        "2025-11-28"
+      ],
+      "valid_label_matures": "2025-11-26",
+      "test_label_matures": "2025-12-29"
+    }
+  ],
+  "metrics": {
+    "sessions": 462,
+    "net_compound_return_pct": 24.662405017730293,
+    "net_annualized_pct": 12.267989764710974,
+    "benchmark_compound_return_pct": 29.512954711914062,
+    "compound_excess_pct": -4.850548740509453,
+    "max_drawdown_pct": -21.646667895931348,
+    "average_exposure_pct": 99.57689159436732,
+    "cost_pct_initial": 4.685651907315919,
+    "turnover_x_initial": 47.324972622346124,
+    "2024_return_pct": 1.0565778519606273,
+    "2025_return_pct": 23.35902092424915
+  },
+  "prediction_sha256": "a4a974597fe629a54ee96617e353081dbd30971f050c14a58043e6a0c2d5878e",
+  "report_sha256": "94187192c3a0ec809cb1a64ba88b4637d529f9f84c63d6490c0270c88e1e0373",
+  "2026_market_data_accessed": false,
+  "freeze_commit": "bc29320",
+  "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+  "data_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+  "target_net_annualized_pct": 20.0,
+  "target_status": "FAIL",
+  "claim_status": "DEVELOPMENT_ONLY_NOT_SEALED",
+  "comparison_to_fixed_horizon20": {
+    "net_annualized_pct_points": -1.3515785532811844,
+    "2024_return_pct_points": 0.8365546668159363,
+    "2025_return_pct_points": -3.8979060682592603,
+    "compound_excess_pct_points": -2.8745167188643617
+  },
+  "limitations": [
+    "2025 comparison ends on November 28 to keep all labels within 2025.",
+    "Qlib close execution and simplified 9.5% price-limit rule remain.",
+    "The same 2024-2025 development window has been inspected repeatedly and cannot validate future edits."
+  ]
+}
