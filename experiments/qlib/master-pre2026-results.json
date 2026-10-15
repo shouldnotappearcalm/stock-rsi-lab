@@ -1,0 +1,126 @@
+{
+  "status": "PRE2026_DEVELOPMENT_ONLY",
+  "candidate_budget": 1,
+  "source_commit": "de8f58557096abde4216a701b35fc4368158d111",
+  "seed": 0,
+  "architecture": "official MASTER d_model256 t_heads4 s_heads2 beta2 dropout0.5",
+  "training": {
+    "epochs_max": 10,
+    "steps_per_epoch": 480,
+    "train_loss_stop": 0.95,
+    "lr": 8e-06,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.1316561343769231,
+        "steps": 480
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.0658548978467783,
+        "steps": 480
+      },
+      {
+        "epoch": 3,
+        "train_loss": 1.0400976936022441,
+        "steps": 480
+      },
+      {
+        "epoch": 4,
+        "train_loss": 1.026020807524522,
+        "steps": 480
+      },
+      {
+        "epoch": 5,
+        "train_loss": 1.019549555083116,
+        "steps": 480
+      },
+      {
+        "epoch": 6,
+        "train_loss": 1.0130500649412473,
+        "steps": 480
+      },
+      {
+        "epoch": 7,
+        "train_loss": 1.00637226998806,
+        "steps": 480
+      },
+      {
+        "epoch": 8,
+        "train_loss": 1.0034254860132932,
+        "steps": 480
+      },
+      {
+        "epoch": 9,
+        "train_loss": 1.0023234530041616,
+        "steps": 480
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.9997164096683264,
+        "steps": 480
+      }
+    ]
+  },
+  "start": "2024-01-02",
+  "end": "2025-12-23",
+  "portfolio": {
+    "topk": 100,
+    "n_drop": 2,
+    "risk_degree": 0.95
+  },
+  "market_features_sha256": "b1b9c3fa8d634aa33ed24b610d3d1edee882dbc0981c9f3c296f1aca50bebccc",
+  "stock_panel_sha256": "e9fe81ac31184a9aa1726dd22c0c102be6bda21fd34dfba5ab192c3e6e62aaf0",
+  "fast_prediction_sha256": "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e",
+  "model_sha256": "33d83fb1925cc2446428c7e65b1e8cce57ecd3a9109814248968ad19123ac7b1",
+  "prediction_sha256": "1cc7962e7d12a3a5bd69ad58d7623d5a2df57640cfc76be10171ee2e194c81ab",
+  "results": {
+    "master": {
+      "net_compound_return_pct": 25.760229967330428,
+      "net_annualized_pct": 12.304306492943628,
+      "benchmark_compound_return_pct": 33.661590576171875,
+      "compound_excess_pct": -7.901362039352922,
+      "max_drawdown_pct": -20.159010137297585,
+      "average_exposure_pct": 99.75491952118125,
+      "cost_pct_initial": 2.015805015506981,
+      "turnover_x_initial": 20.647428091331726,
+      "2024_return_pct": 4.7870614127047295,
+      "2025_return_pct": 20.015036467167025,
+      "report_sha256": "08bb05297e65d1c94185a94640e408d817b1d12a419ecc9d5c8bc664006d374f"
+    },
+    "fast_control": {
+      "net_compound_return_pct": 58.167772017624976,
+      "net_annualized_pct": 26.12718214326506,
+      "benchmark_compound_return_pct": 33.661590576171875,
+      "compound_excess_pct": 24.506180010941627,
+      "max_drawdown_pct": -20.123258451491033,
+      "average_exposure_pct": 99.57968950696956,
+      "cost_pct_initial": 2.215434655895521,
+      "turnover_x_initial": 22.64173669651635,
+      "2024_return_pct": 11.47273050374018,
+      "2025_return_pct": 41.88920581999933,
+      "report_sha256": "f47dfe7bae230d1280ccd6b12b5df4e415e1397e357c084ce54fe380651317e6"
+    }
+  },
+  "2026_market_data_accessed": false,
+  "freeze_commit": "6f5c70d",
+  "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+  "data_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+  "target_net_annualized_pct": 20.0,
+  "target_each_year_net_pct": 20.0,
+  "target_status": "FAIL",
+  "claim_status": "DEVELOPMENT_ONLY_NOT_SEALED",
+  "master_minus_fast_control": {
+    "net_annualized_pct_points": -13.822875650321432,
+    "2024_return_pct_points": -6.685669091035451,
+    "2025_return_pct_points": -21.874169352832308,
+    "compound_excess_pct_points": -32.40754205029455
+  },
+  "limitations": [
+    "The 10x480-step budget ended before the source training-loss threshold of 0.95; no extra epochs or parameter changes were made after seeing the result.",
+    "This adaptation uses CSI500, the existing Top100/Drop2 portfolio and a bounded training budget, not the original paper evaluation protocol.",
+    "The Qlib historical archive does not by itself prove complete point-in-time security status or corporate-action reconstruction.",
+    "Close-price execution and a simplified 9.5% limit remain.",
+    "2024-2025 has been repeatedly inspected and is development evidence only; 2026 remains ineligible for new-method selection."
+  ]
+}
