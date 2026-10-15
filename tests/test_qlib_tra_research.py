@@ -1,6 +1,7 @@
 import unittest
 
 from scripts.run_qlib_tra_pre2026 import FEATURES, first_pass_score, validate_window
+from scripts.replay_qlib_tra_first_pass import main as replay_first_pass
 
 
 class QlibTraResearchTests(unittest.TestCase):
@@ -29,3 +30,15 @@ class QlibTraResearchTests(unittest.TestCase):
         )
         with self.assertRaises(ValueError):
             first_pass_score(future)
+
+    def test_first_pass_replay_refuses_to_overwrite_existing_output(self):
+        import tempfile
+        from pathlib import Path
+
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            with self.assertRaisesRegex(ValueError, "already exists"):
+                replay_first_pass([
+                    "--provider-uri", "/nonexistent", "--fit-dir", "/nonexistent",
+                    "--output-dir", str(output),
+                ])
