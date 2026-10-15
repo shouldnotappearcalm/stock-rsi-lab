@@ -1,0 +1,59 @@
+{
+  "status": "PRE2026_DEVELOPMENT_ONLY",
+  "hypothesis": "match next-session 20-session return target to roughly 20-session portfolio replacement",
+  "qlib_dynamic_benchmark_label_horizon": 20,
+  "label": "Ref($close, -21) / Ref($close, -1) - 1",
+  "splits": {
+    "train": [
+      "2016-01-04",
+      "2021-11-30"
+    ],
+    "valid": [
+      "2022-01-04",
+      "2023-11-30"
+    ],
+    "test": [
+      "2024-01-02",
+      "2025-11-28"
+    ]
+  },
+  "latest_label_input_dates": {
+    "train": "2021-12-29",
+    "valid": "2023-12-29",
+    "test": "2025-12-29"
+  },
+  "seed": 0,
+  "candidate_budget": 1,
+  "portfolio": {
+    "topk": 100,
+    "n_drop": 5,
+    "risk_degree": 0.95
+  },
+  "metrics": {
+    "sessions": 462,
+    "net_compound_return_pct": 27.536921736594657,
+    "net_annualized_pct": 13.619568317992158,
+    "benchmark_compound_return_pct": 29.512954711914062,
+    "compound_excess_pct": -1.976032021645091,
+    "max_drawdown_pct": -22.897985258660427,
+    "average_exposure_pct": 99.66799662996249,
+    "cost_pct_initial": 4.713543629071447,
+    "turnover_x_initial": 47.61010545896858,
+    "2024_return_pct": 0.220023185144691,
+    "2025_return_pct": 27.25692699250841
+  },
+  "prediction_sha256": "3ded3345e723cfcfbb218ee2e8efb1651fa94a6fb8a4170b775c116eb448f024",
+  "report_sha256": "c33b61d9c2904b90fa6b2db4e3094440217550dba69d9c269729cbb39e552125",
+  "2026_market_data_accessed": false,
+  "freeze_commit": "b89e5507bacdeddbb0b4e1edeeda3627ff847aa9",
+  "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+  "data_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+  "target_net_annualized_pct": 20.0,
+  "target_status": "FAIL",
+  "claim_status": "DEVELOPMENT_ONLY_NOT_SEALED",
+  "limitations": [
+    "Test interval ends 2025-11-28 to keep the complete 20-session label in 2025.",
+    "Execution uses same-day close and simplified 9.5% limit threshold.",
+    "No 2026 diagnostic outcome was used to choose the label or portfolio."
+  ]
+}
