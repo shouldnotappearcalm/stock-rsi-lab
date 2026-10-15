@@ -1,0 +1,47 @@
+{
+  "status": "PRE2026_DATA_READINESS_ONLY",
+  "source_method": "MASTER stock Alpha158 CSI500 with five-session target",
+  "start": "2016-01-04",
+  "end": "2025-12-23",
+  "normalization_fit_end": "2021-12-29",
+  "label": "Ref($close,-5)/Ref($close,-1)-1",
+  "rows": 1211745,
+  "feature_columns": 158,
+  "label_columns": 1,
+  "feature_nonfinite_cells": 0,
+  "segments": {
+    "train": {
+      "start": "2016-01-04",
+      "end": "2021-12-23",
+      "last_label_maturity": "2021-12-30",
+      "rows": 727278,
+      "sessions": 1455,
+      "labeled_rows": 704201
+    },
+    "valid": {
+      "start": "2022-01-04",
+      "end": "2023-12-22",
+      "last_label_maturity": "2023-12-29",
+      "rows": 239472,
+      "sessions": 479,
+      "labeled_rows": 238708
+    },
+    "development": {
+      "start": "2024-01-02",
+      "end": "2025-12-23",
+      "last_label_maturity": "2025-12-30",
+      "rows": 239500,
+      "sessions": 479,
+      "labeled_rows": 238854
+    }
+  },
+  "panel_sha256": "e9fe81ac31184a9aa1726dd22c0c102be6bda21fd34dfba5ab192c3e6e62aaf0",
+  "2026_market_data_accessed": false,
+  "preparation_freeze_commit": "5051854",
+  "index_repair_commit": "b6a43e2",
+  "master_source_commit": "de8f58557096abde4216a701b35fc4368158d111",
+  "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+  "data_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+  "investment_result": null,
+  "claim_status": "DATA_READY_MODEL_NOT_FIT"
+}

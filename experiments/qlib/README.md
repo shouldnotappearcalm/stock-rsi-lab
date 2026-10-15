@@ -4,6 +4,18 @@ This directory contains development-only Qlib workflows. Every configured data s
 2025-12-30. Do not add a 2026 segment: that interval has been consumed and is ineligible for
 validation or sealed evidence.
 
+The independent MASTER candidate uses the official
+[source](https://github.com/SJTU-DMTai/MASTER) at commit
+`de8f58557096abde4216a701b35fc4368158d111`. Its market and stock
+preparation scripts are `scripts/prepare_qlib_master_market_pre2026.py` and
+`scripts/prepare_qlib_master_stock_pre2026.py`. Their committed manifests
+contain the normalized 63-market-feature and 158-stock-feature artifact hashes.
+The raw panels stay in ignored local storage. The one-candidate training and
+replay script is `scripts/run_qlib_master_pre2026.py`; it refuses mismatched
+source/data hashes and any output directory that already exists. Its registered
+development signal dates end 2025-12-23 so the five-session label matures by
+2025-12-30. The registered 2026 interval is never a candidate-selection input.
+
 The source method is Microsoft's official Alpha158 benchmark workflow. The local result used Qlib
 commit `54355232463878d2eebb91fe0ee5fa7fa1f5976c` and the fixed data archive recorded in
 `docs/data-sources/qlib-investment-data-2026-10-13.json`.

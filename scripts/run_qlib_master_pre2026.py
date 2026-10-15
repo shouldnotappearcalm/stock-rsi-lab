@@ -18,7 +18,7 @@ from scripts.run_qlib_tra_pre2026 import summarize
 
 SOURCE_COMMIT = "de8f58557096abde4216a701b35fc4368158d111"
 MARKET_SHA256 = "b1b9c3fa8d634aa33ed24b610d3d1edee882dbc0981c9f3c296f1aca50bebccc"
-STOCK_SHA256 = "TO_BE_FROZEN_BEFORE_TRAINING"
+STOCK_SHA256 = "e9fe81ac31184a9aa1726dd22c0c102be6bda21fd34dfba5ab192c3e6e62aaf0"
 FAST_SHA256 = "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e"
 EPOCHS_MAX = 10
 STEPS_PER_EPOCH = 480
@@ -107,6 +107,11 @@ def import_official_master(root):
     commit = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=source, text=True).strip()
     if commit != SOURCE_COMMIT:
         raise ValueError("official MASTER source commit mismatch")
+    dirty = subprocess.check_output(
+        ["git", "status", "--porcelain", "--untracked-files=no"], cwd=source, text=True
+    ).strip()
+    if dirty:
+        raise ValueError("official MASTER source checkout is modified")
     sys.path.insert(0, str(source))
     return importlib.import_module("master").MASTER
 
@@ -171,6 +176,8 @@ def main(argv=None):
             optimizer.step()
             losses.append(float(loss.detach()))
         train_loss = float(np.mean(losses))
+        if len(losses) != STEPS_PER_EPOCH or not np.isfinite(train_loss):
+            raise ValueError("incomplete or nonfinite MASTER training epoch")
         history.append({"epoch": epoch + 1, "train_loss": train_loss, "steps": len(losses)})
         print(json.dumps(history[-1]), flush=True)
         if train_loss <= TRAIN_LOSS_STOP:
@@ -186,6 +193,8 @@ def main(argv=None):
             scores = model(torch.from_numpy(features)).detach().numpy()
         prediction.append(pd.Series(scores, index=sequences.index[rows]))
     scores = pd.concat(prediction).swaplevel().sort_index()
+    if not np.isfinite(scores.to_numpy()).all():
+        raise ValueError("nonfinite MASTER prediction")
     if scores.index.get_level_values("datetime").min() != pd.Timestamp(TEST_START) or scores.index.get_level_values("datetime").max() != pd.Timestamp(TEST_END):
         raise ValueError("incomplete or post-2025 MASTER predictions")
     scores = scores.to_frame("score")
