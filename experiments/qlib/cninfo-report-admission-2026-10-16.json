@@ -1,0 +1,442 @@
+{
+  "status": "DATA_ADMISSION_PILOT_ONLY",
+  "historical_sample_asof": "2024-01-02",
+  "fixed_sample": [
+    "SH600166",
+    "SH601108",
+    "SH600901",
+    "SH603517",
+    "SH600418",
+    "SH600655",
+    "SZ000825",
+    "SZ000783",
+    "SZ000750",
+    "SZ000933",
+    "SZ002372",
+    "SZ002925"
+  ],
+  "source": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "window": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "report_categories": {
+    "annual": "category_ndbg_szsh",
+    "q1": "category_yjdbg_szsh",
+    "h1": "category_bndbg_szsh",
+    "q3": "category_sjdbg_szsh"
+  },
+  "counts": {
+    "600166": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "601108": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 3,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "600901": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "603517": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "600418": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "600655": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "000825": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "000783": {
+      "annual": {
+        "category_rows": 5,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "000750": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "000933": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "002372": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    },
+    "002925": {
+      "annual": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q1": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "h1": {
+        "category_rows": 4,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      },
+      "q3": {
+        "category_rows": 2,
+        "original_reports_by_publication_year": {
+          "2024": 1,
+          "2025": 1
+        }
+      }
+    }
+  },
+  "category_rows_before_fallback": {
+    "annual": 49,
+    "q1": 23,
+    "h1": 47,
+    "q3": 24
+  },
+  "report_rows_after_fallback": {
+    "annual": 49,
+    "q1": 24,
+    "h1": 47,
+    "q3": 24
+  },
+  "stocks_with_all_report_types_both_years_before_fallback": 11,
+  "stocks_with_all_report_types_both_years": 12,
+  "fallback_recoveries": [
+    {
+      "code": "000750",
+      "kind": "q1",
+      "year": "2024",
+      "announcement_id": "1219912916"
+    }
+  ],
+  "report_timestamps_all_midnight": true,
+  "correction_example_rows": 1,
+  "availability_rule": "date-only; treat as available after announcement-day close, never at 00:00",
+  "current_organization_lookup_used": true,
+  "current_lookup_is_historical_security_master": false,
+  "2026_price_or_return_accessed": false,
+  "raw_sha256": "a41a899bca6a0762c34df5e5f8f6a9e439dd775b9e5c8e38e15b176f16669d6f",
+  "source_method": "published A-share post-earnings-announcement drift using overnight response as earnings-surprise proxy",
+  "source_paper": "https://www.sciencedirect.com/science/article/abs/pii/S1057521924003922",
+  "akshare_reference": "https://github.com/akfamily/akshare/blob/main/akshare/stock_feature/stock_disclosure_cninfo.py",
+  "qlib_data_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+  "csi500_2024_01_02_current_org_lookup_coverage": {
+    "covered": 501,
+    "historical_intervals": 501
+  },
+  "original_report_event_count": 96,
+  "qlib_overnight_open_close_pair_coverage": {
+    "covered": 96,
+    "events": 96,
+    "returns_inspected": false
+  },
+  "claim_status": "DATA_PILOT_ONLY_NO_STRATEGY_RETURN",
+  "limitations": [
+    "The API reports midnight for all 143 category rows and must be treated as date-only; no same-day midnight trading signal is allowed.",
+    "A 2024 Q1 report for 000750 was absent from the Q1 category but recovered by full-text query.",
+    "Current CNINFO organization lookup covered this sampled historical universe but is not a verified point-in-time security master.",
+    "The 12-name fixed sample proves neither full-universe completeness nor publication-time accuracy.",
+    "No strategy return or 2026 price/return was queried."
+  ]
+}
