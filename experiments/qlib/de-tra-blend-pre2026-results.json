@@ -1,0 +1,66 @@
+{
+  "status": "PRE2026_DEVELOPMENT_ONLY",
+  "candidate_budget": 1,
+  "method": "daily rank percentile, equal 50/50 DoubleEnsemble and first-pass TRA",
+  "start": "2024-01-02",
+  "end": "2025-12-26",
+  "portfolio": {
+    "topk": 100,
+    "n_drop": 2,
+    "risk_degree": 0.95
+  },
+  "coverage": {
+    "sessions": 482,
+    "min_daily_shared_names": 500,
+    "median_daily_shared_names": 500.0
+  },
+  "fast_prediction_sha256": "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e",
+  "tra_prediction_sha256": "240ca8a2abd99022fcf73793017517547d58639a5a49937cfbb451a1bb1c5ef6",
+  "blend_prediction_sha256": "547f918b69042633546ee58b301f687ecce6b78f49628e97ceaf2fd28b672773",
+  "results": {
+    "fast_only": {
+      "net_compound_return_pct": 61.753675084348544,
+      "net_annualized_pct": 27.373297068754574,
+      "benchmark_compound_return_pct": 37.383113861083984,
+      "compound_excess_pct": 24.370559792753088,
+      "max_drawdown_pct": -20.123258451490976,
+      "average_exposure_pct": 99.58187487814799,
+      "cost_pct_initial": 2.227719301827395,
+      "turnover_x_initial": 22.765339875407367,
+      "2024_return_pct": 11.472730503740202,
+      "2025_return_pct": 45.106049123755284,
+      "report_sha256": "bd6d8b6f8358bfef2ac56ce249f1b77612a68debb95d427498fac04c40423d2c"
+    },
+    "equal_rank_blend": {
+      "net_compound_return_pct": 34.592972567006555,
+      "net_annualized_pct": 16.121743838889692,
+      "benchmark_compound_return_pct": 37.383113861083984,
+      "compound_excess_pct": -2.7901427245889066,
+      "max_drawdown_pct": -18.558752799281343,
+      "average_exposure_pct": 99.81220475554186,
+      "cost_pct_initial": 2.159695305723714,
+      "turnover_x_initial": 22.085450892744344,
+      "2024_return_pct": 9.028900773037464,
+      "2025_return_pct": 23.44706001134973,
+      "report_sha256": "8432851d1be0e43d39858874eef506a2dbf6b66c53dddf24fe725235a1e153de"
+    }
+  },
+  "2026_market_data_accessed": false,
+  "freeze_commit": "4251808",
+  "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+  "data_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+  "target_net_annualized_pct": 20.0,
+  "target_each_year_net_pct": 20.0,
+  "target_status": "FAIL",
+  "claim_status": "DEVELOPMENT_ONLY_NOT_SEALED",
+  "blend_minus_fast_only": {
+    "net_annualized_pct_points": -11.251553229864882,
+    "2024_return_pct_points": -2.4438297307027383,
+    "2025_return_pct_points": -21.658989112405553
+  },
+  "limitations": [
+    "The equal 50/50 weight was fixed before reading the blend result; no weight search followed.",
+    "The 2024-2025 development window has been inspected repeatedly and cannot validate future edits.",
+    "Qlib close execution and simplified 9.5% price-limit rule remain."
+  ]
+}

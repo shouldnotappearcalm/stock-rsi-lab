@@ -138,6 +138,12 @@ Top100/Drop2 低 1.80 个百分点。该结果只记录迁移失败，不得用�
 [方法论记录](docs/research/2026-test-contamination-2026-10-14.md)和
 [`prospective-sealed-after-freeze.json`](experiments/prospective-sealed-after-freeze.json)。
 
+后续只在 2024—2025 开发期寻找独立信号：20-session LGB 与滚动 Ridge 均未过
+20% 年化门槛；TRA 首次因果推断为 19.03% 年化，2024/2025 分别 +18.13%/+19.69%；
+预先固定的 DE＋TRA 等权组合为 16.12% 年化，2024/2025 为 +9.03%/+23.45%，
+也失败。没有因此重试 2026。各次实验与哈希见
+[研究索引](docs/research/README.md)。
+
 [2025—2026与2026单独回测结果](docs/priority-backtest-results-2026-10-11.md)：
 两个独立10万元账户，6只股票诊断样本；目前为冻结seed基线，未做RSI效果声明。
 

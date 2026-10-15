@@ -1,0 +1,48 @@
+{
+  "status": "PRE2026_DEVELOPMENT_ONLY",
+  "signal": "TRA saved first chronological test pass",
+  "start": "2024-01-02",
+  "end": "2025-12-26",
+  "training_budget": {
+    "n_epochs": 10,
+    "early_stop": 4,
+    "max_steps_per_epoch": 40,
+    "seed": 0,
+    "pretrain": true
+  },
+  "portfolio": {
+    "topk": 100,
+    "n_drop": 2,
+    "risk_degree": 0.95
+  },
+  "metrics": {
+    "net_compound_return_pct": 41.3849775312275,
+    "net_annualized_pct": 19.033901008010435,
+    "benchmark_compound_return_pct": 37.383113861083984,
+    "compound_excess_pct": 4.001862239632037,
+    "max_drawdown_pct": -15.509755979724249,
+    "average_exposure_pct": 99.82573052871766,
+    "cost_pct_initial": 2.3312601280245904,
+    "turnover_x_initial": 23.800102559347888,
+    "2024_return_pct": 18.128708181205553,
+    "2025_return_pct": 19.6872290471066
+  },
+  "first_pass_raw_sha256": "0229cf0ac4a3693ad00e78a19a1d2932763a501f5a34fd61b5969273a478bbb4",
+  "model_sha256": "ddcdef1e2bdf24442851060e13694ba4a3dcdee89cd9ed6a85e6c5d0804ffc3c",
+  "prediction_sha256": "240ca8a2abd99022fcf73793017517547d58639a5a49937cfbb451a1bb1c5ef6",
+  "report_sha256": "245bb9e6e29ba9189bc2538549133123f71810198fd8e8dfe198feb92928f59b",
+  "2026_market_data_accessed": false,
+  "fit_freeze_commit": "b8ef28b",
+  "causal_replay_freeze_commit": "e874ee5",
+  "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+  "data_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+  "target_net_annualized_pct": 20.0,
+  "target_each_year_net_pct": 20.0,
+  "target_status": "FAIL",
+  "claim_status": "DEVELOPMENT_ONLY_NOT_SEALED",
+  "limitations": [
+    "The 2024-2025 window is a repeatedly inspected development interval; it cannot validate generalization.",
+    "Qlib close execution and simplified 9.5% price-limit rule remain.",
+    "The model uses a saved chronological first-pass score; a second predict call would reuse label-error memory and is forbidden."
+  ]
+}

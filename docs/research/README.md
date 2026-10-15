@@ -32,3 +32,16 @@ AKShare、JQData 的字段、权限与许可边界。
 后续独立检索见[RSI 金融搜索第二轮](rsi-finance-search-round2-2026-10-15.md)：固定源码审计
 FactorMiner、QuantaAlpha 和 MOSAIC，并在不读取 2026 的前提下实跑 MSE、top-weighted
 MSE、LambdaRank 三种组合目标。三者均未通过 20% 开发门槛，因此没有晋级或追加 seed。
+
+后续预测模块探针包括[20-session 静态 LGB](qlib-horizon20-pre2026-2026-10-15.md)、
+[滚动 LGB](qlib-rolling20-pre2026-2026-10-15.md)、
+[滚动 Ridge](qlib-rolling-ridge20-pre2026-2026-10-15.md)、
+[快慢信号等权组合](qlib-multihorizon-blend-pre2026-2026-10-15.md)、
+[TRA 首轮因果回放](qlib-tra-first-pass-pre2026-2026-10-16.md)及
+[DE＋TRA 固定组合](qlib-de-tra-blend-pre2026-2026-10-16.md)。这些均只使用
+2026 年之前的数据；最后的固定组合未通过 20% 开发门槛。
+
+组合失败后又独立克隆和审阅了
+[MASTER 与 MASS](master-mass-source-audit-2026-10-16.md)：前者需要重建 2024—2025
+市场特征并重新训练；后者完整数据未随仓库提供，默认资源和并发正确性也需处理。
+两者目前都不能转成收益声明。
