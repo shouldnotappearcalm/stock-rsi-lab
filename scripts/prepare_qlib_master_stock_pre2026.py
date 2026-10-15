@@ -19,6 +19,15 @@ SEGMENTS = {
 }
 
 
+def canonical_stock_index(panel):
+    names = list(panel.index.names)
+    if names == ["datetime", "instrument"]:
+        return panel.swaplevel().sort_index()
+    if names == ["instrument", "datetime"]:
+        return panel.sort_index()
+    raise ValueError("unexpected stock panel index")
+
+
 def assert_registered_windows(calendar):
     for name, (start, end, maturity) in SEGMENTS.items():
         days = calendar(start, maturity)
@@ -58,9 +67,9 @@ def main(argv=None):
         ],
         learn_processors=[], label=[LABEL],
     )
-    panel = handler.fetch(slice(START, END), col_set=["feature", "label"], data_key=DataHandlerLP.DK_I)
-    if list(panel.index.names) != ["instrument", "datetime"]:
-        raise ValueError("unexpected stock panel index")
+    panel = canonical_stock_index(
+        handler.fetch(slice(START, END), col_set=["feature", "label"], data_key=DataHandlerLP.DK_I)
+    )
     if panel["feature"].shape[1] != 158 or panel["label"].shape[1] != 1:
         raise ValueError("MASTER stock panel requires 158 features and one label")
     if panel.index.has_duplicates or panel.index.get_level_values("datetime").max() > pd.Timestamp(END):

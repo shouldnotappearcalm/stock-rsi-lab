@@ -21,6 +21,7 @@ MARKET_SHA256 = "b1b9c3fa8d634aa33ed24b610d3d1edee882dbc0981c9f3c296f1aca50bebcc
 STOCK_SHA256 = "TO_BE_FROZEN_BEFORE_TRAINING"
 FAST_SHA256 = "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e"
 EPOCHS_MAX = 10
+STEPS_PER_EPOCH = 480
 TRAIN_LOSS_STOP = 0.95
 TEST_START = SEGMENTS["development"][0]
 TEST_END = SEGMENTS["development"][1]
@@ -155,7 +156,7 @@ def main(argv=None):
     for epoch in range(EPOCHS_MAX):
         model.train()
         losses = []
-        for date in rng.permutation(train_dates):
+        for date in rng.permutation(train_dates)[:STEPS_PER_EPOCH]:
             _, features, labels = sequences.batch(date)
             if len(labels) < 100:
                 continue
@@ -210,7 +211,8 @@ def main(argv=None):
         "status": "PRE2026_DEVELOPMENT_ONLY", "candidate_budget": 1,
         "source_commit": SOURCE_COMMIT, "seed": 0,
         "architecture": "official MASTER d_model256 t_heads4 s_heads2 beta2 dropout0.5",
-        "training": {"epochs_max": EPOCHS_MAX, "train_loss_stop": TRAIN_LOSS_STOP,
+        "training": {"epochs_max": EPOCHS_MAX, "steps_per_epoch": STEPS_PER_EPOCH,
+                      "train_loss_stop": TRAIN_LOSS_STOP,
                       "lr": 8e-6, "history": history},
         "start": TEST_START, "end": TEST_END,
         "portfolio": {"topk": 100, "n_drop": 2, "risk_degree": 0.95},
