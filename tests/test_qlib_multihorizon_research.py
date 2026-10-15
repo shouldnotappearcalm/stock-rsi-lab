@@ -1,4 +1,6 @@
 import unittest
+import json
+from pathlib import Path
 
 try:
     import pandas as pd
@@ -26,3 +28,11 @@ class QlibMultihorizonResearchTests(unittest.TestCase):
         )
         with self.assertRaises(ValueError):
             blend_scores(fast, future)
+
+    def test_recorded_blend_has_full_shared_universe_and_no_lift(self):
+        root = Path(__file__).resolve().parents[1]
+        result = json.loads((root / "experiments/qlib/multihorizon-blend-pre2026-results.json").read_text())
+        self.assertEqual(result["coverage"]["min_daily_shared_names"], 500)
+        self.assertEqual(result["target_status"], "FAIL")
+        self.assertFalse(result["2026_market_data_accessed"])
+        self.assertLess(result["blend_minus_fast_only"]["net_annualized_pct_points"], 0)

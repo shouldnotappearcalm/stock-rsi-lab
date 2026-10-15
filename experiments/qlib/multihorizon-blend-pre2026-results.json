@@ -1,0 +1,66 @@
+{
+  "status": "PRE2026_DEVELOPMENT_ONLY",
+  "candidate_budget": 1,
+  "method": "daily rank percentile, equal 50/50 fast DoubleEnsemble and slow rolling Ridge",
+  "start": "2024-01-02",
+  "end": "2025-11-28",
+  "portfolio": {
+    "topk": 100,
+    "n_drop": 5,
+    "risk_degree": 0.95
+  },
+  "coverage": {
+    "min_daily_shared_names": 500,
+    "median_daily_shared_names": 500.0
+  },
+  "fast_prediction_sha256": "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e",
+  "slow_prediction_sha256": "3c00b8bcc1b50f5bfdb559af9fbcf3ccc4ef8759f9f39a283e2756b1c11f6b14",
+  "blend_prediction_sha256": "258f8922e172999e795093a0dd5366544fe0de532b6fc85cfbf7568d77a0b89c",
+  "results": {
+    "fast_only": {
+      "sessions": 462,
+      "net_compound_return_pct": 41.51423651050463,
+      "net_annualized_pct": 19.994652328954942,
+      "benchmark_compound_return_pct": 29.512954711914062,
+      "compound_excess_pct": 12.001282752264885,
+      "max_drawdown_pct": -22.01385475206308,
+      "average_exposure_pct": 99.40018157811228,
+      "cost_pct_initial": 4.485663653213853,
+      "turnover_x_initial": 45.318683385910596,
+      "2024_return_pct": 6.000923065783059,
+      "2025_return_pct": 33.50283414294639,
+      "report_sha256": "1f29416d7990a843244cd7833153f176b8d293c334c4b48b0bff451237036424"
+    },
+    "equal_rank_blend": {
+      "sessions": 462,
+      "net_compound_return_pct": 27.848076058918547,
+      "net_annualized_pct": 13.764998999212308,
+      "benchmark_compound_return_pct": 29.512954711914062,
+      "compound_excess_pct": -1.664877699321199,
+      "max_drawdown_pct": -17.77537463485459,
+      "average_exposure_pct": 99.56730613107504,
+      "cost_pct_initial": 4.905923113604986,
+      "turnover_x_initial": 49.526409876113455,
+      "2024_return_pct": 8.805050455446906,
+      "2025_return_pct": 17.50196845069174,
+      "report_sha256": "102e7f2908c1d62d2f11af5bbfccbd79b1e0e7926efeda6cba45b34f3ec4891b"
+    }
+  },
+  "2026_market_data_accessed": false,
+  "freeze_commit": "089bb96",
+  "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+  "data_archive_sha256": "3b8a2153beada4d2004035f52447ba3c56af68499f058553548b9b69fbe8d444",
+  "target_net_annualized_pct": 20.0,
+  "target_status": "FAIL",
+  "claim_status": "DEVELOPMENT_ONLY_NOT_SEALED",
+  "blend_minus_fast_only": {
+    "net_annualized_pct_points": -6.229653329742634,
+    "2024_return_pct_points": 2.8041273896638472,
+    "2025_return_pct_points": -16.00086569225465
+  },
+  "limitations": [
+    "2025 comparison ends on November 28 so all slow-signal labels mature inside 2025.",
+    "Qlib close execution and simplified 9.5% price-limit rule remain.",
+    "Repeated use of 2024-2025 development metrics cannot establish generalization."
+  ]
+}
