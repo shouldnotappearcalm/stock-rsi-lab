@@ -74,6 +74,22 @@
       "sha": "462e437a09be67d2acb59564cc0ea59132f5777c",
       "tracked_clean": true,
       "tracked_files": 608
+    },
+    {
+      "name": "FactorMiner",
+      "origin": "https://github.com/minihellboy/factorminer",
+      "path": "/private/tmp/factorminer-audit",
+      "sha": "e0d6adf83a266d89148d8a646a8542c1e098234d",
+      "tracked_clean": true,
+      "tracked_files": 489
+    },
+    {
+      "name": "MOSAIC-Agents",
+      "origin": "https://github.com/haphap/MOSAIC-Agents",
+      "path": "/private/tmp/mosaic-agents-audit",
+      "sha": "558f07a99a28aea437718c0227f856fa556821ca",
+      "tracked_clean": true,
+      "tracked_files": 406
     }
   ],
   "components": [
@@ -2667,6 +2683,16 @@
       ],
       "probe_script": "/private/tmp/rsi-finance-audit-20261011/quant_probe.py",
       "validation_limits": "5 个离线最小探针通过；使用原函数/类 AST 执行，仅隔离 logger/模块 import 和 TimeAdjuster 日历，未安装依赖、没有实际 LLM/conda/docker/大数据/联网 backtest。没有声称端到端能跑或盈利。TrajPool 选择探针是池 API，不冒充 controller 当前 crossover_op 调用测试；controller 实际调用链已源码核对。"
+    },
+    "rsi-finance-search-round2-2026-10-15.md": {
+      "date": "2026-10-15",
+      "report": "docs/research/rsi-finance-search-round2-2026-10-15.md",
+      "repositories": [
+        "FactorMiner",
+        "QuantaAlpha",
+        "MOSAIC-Agents"
+      ],
+      "finding": "Factor mining and RankIC lift do not establish top-of-book portfolio lift; three portfolio-aware LightGBM objectives were tested pre-2026 and rejected."
     }
   },
   "probe_results": {

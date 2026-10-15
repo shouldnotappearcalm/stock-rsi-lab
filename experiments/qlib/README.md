@@ -102,3 +102,12 @@ PYTHONPATH=src /tmp/stock-rsi-qlib-env/bin/python scripts/run_qlib_enhanced_froz
 Its economic method is frozen at `feb2d59`; the diagnostic harness was frozen at `a584217` before
 the result was opened. The run failed the absolute-return target and is prohibited from selecting a
 later mutation.
+
+## Portfolio-aware objective probe
+
+The next independent search used FactorMiner commit `e0d6adf` as an external executable reference
+and compared MSE, top-sextile-weighted MSE and LambdaRank on the `wf2024` split. It did not access
+2026. Seed 0 was an admission probe; only MSE and top-weighted MSE received the same existing
+15-candidate TopK/Dropout search. None met the 20% annualized target, so no objective was retained and
+no additional seed was run. See `topbook-objectives-pre2026-results.json` and the round-2 research
+report.

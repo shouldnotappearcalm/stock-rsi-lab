@@ -28,3 +28,7 @@ AKShare、JQData 的字段、权限与许可边界。
 用户随后明确要求运行 2026，结果单独记录在
 [EnhancedIndexing 2026 污染区间诊断](qlib-enhanced-indexing-frozen-2026-diagnostic-2026-10-15.md)。
 它是失败迁移记录，不是新的验证集，也不向后续方法提供反馈。
+
+后续独立检索见[RSI 金融搜索第二轮](rsi-finance-search-round2-2026-10-15.md)：固定源码审计
+FactorMiner、QuantaAlpha 和 MOSAIC，并在不读取 2026 的前提下实跑 MSE、top-weighted
+MSE、LambdaRank 三种组合目标。三者均未通过 20% 开发门槛，因此没有晋级或追加 seed。

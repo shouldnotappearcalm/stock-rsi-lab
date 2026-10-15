@@ -77,6 +77,22 @@ class QlibResearchTests(unittest.TestCase):
         self.assertGreaterEqual(winner["average_exposure_pct"], 95)
         self.assertGreaterEqual(min(winner["2024_return_pct"], winner["2025_return_pct"]), 20)
 
+    def test_topbook_objective_probe_rejects_all_candidates_without_2026(self):
+        root = Path(__file__).resolve().parents[1]
+        result = json.loads((root / "experiments/qlib/topbook-objectives-pre2026-results.json").read_text())
+        self.assertEqual(result["status"], "REJECTED_NO_DEVELOPMENT_IMPROVEMENT")
+        self.assertEqual(result["objective_candidate_budget"], 3)
+        self.assertIsNone(result["selection"]["retained_objective"])
+        self.assertEqual(result["selection"]["additional_seed_budget_used"], 0)
+        self.assertEqual(result["target"]["status"], "FAIL")
+        self.assertLess(result["splits"]["test"][1], "2026-01-01")
+        self.assertEqual(len(result["objectives"]["mse"]["topk_search"]["candidates"]), 15)
+        self.assertEqual(len(result["objectives"]["topmse"]["topk_search"]["candidates"]), 15)
+        self.assertLess(
+            result["selection"]["topmse_winner"]["2024_return_pct"],
+            result["selection"]["mse_winner"]["2024_return_pct"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

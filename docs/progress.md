@@ -91,3 +91,10 @@
   and drawdown -15.54%. It underperformed frozen Top100/Drop2 by 1.80 percentage points and failed
   the +20% target. All 39 solves were audited optimal with zero constraint relaxations. The result
   is diagnostic-only and cannot feed another mutation.
+- Independent post-diagnostic search without 2026 feedback: cloned FactorMiner (`e0d6adf`) and
+  MOSAIC-Agents (`558f07a`) and re-audited QuantaAlpha (`b7ceb27`). FactorMiner's 35,711-formula
+  CN study shows RankIC lift does not reach the top-50 book; QuantaAlpha still selects trajectories
+  by RankIC; MOSAIC's PRISM training remains a stub. Tested MSE, top-weighted MSE and LambdaRank on
+  CSI500 with train/valid/test ending 2021/2023/2025. Same-budget portfolio search retained MSE at
+  19.78% net annualized (2024 6.38%), while top-weighted MSE fell to 16.77% (2024 -1.02%) and
+  LambdaRank had -9.07% after-cost annualized excess. All objectives were rejected; no extra seeds.
