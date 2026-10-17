@@ -1,0 +1,47 @@
+{
+  "status": "ALL_ACTIVE_FULL_PREFIX_TAPES_ADMITTED",
+  "requested": 3394,
+  "active_admitted": 3386,
+  "halted_sessions": [
+    [
+      "SH600535",
+      "2024-08-01"
+    ],
+    [
+      "SZ000958",
+      "2024-10-08"
+    ],
+    [
+      "SH600482",
+      "2024-11-01"
+    ],
+    [
+      "SH603160",
+      "2024-12-02"
+    ],
+    [
+      "SH600208",
+      "2025-08-01"
+    ],
+    [
+      "SZ002185",
+      "2025-10-09"
+    ],
+    [
+      "SH601198",
+      "2025-12-01"
+    ],
+    [
+      "SH601198",
+      "2026-10-08"
+    ]
+  ],
+  "errors": [],
+  "raw_manifest_sha256": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc",
+  "extra_manifest_sha256": "395f3ed98b8bb129d16d700d6dadc0b90d944f0c79967b5b10f6d67940a37954",
+  "old_manifest_sha256": "def299b792b608f862b3bbc1258195e0b12154c753156625e1a8ec95c4784205",
+  "development_minute_prefix_preserved": true,
+  "queue_and_impact_calibrated": false,
+  "historical_arrival_verified": false,
+  "2026_strategy_returns_queried": false
+}

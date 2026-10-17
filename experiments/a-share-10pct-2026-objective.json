@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "2026_TARGETS_FROZEN_RAW_EXTENSION_PENDING",
+    "status": "FROZEN_2026_REPLAY_REGISTERED",
     "result_file": "experiments/qlib/return-families-pre2026-results.json",
     "candidate_budget": 3,
     "selected": "contrarian60_12",
@@ -401,6 +401,10 @@
     "target_2026_receipt_file": "experiments/qlib/reversal-frozen-2026-target-receipt.json",
     "target_2026_file": "experiments/qlib/reversal-frozen-2026-targets.json",
     "raw_2026_extension_request_file": "experiments/qlib/reversal-raw-2026-extension-request.json",
-    "development_target_and_formation_prefix_reproduced": true
+    "development_target_and_formation_prefix_reproduced": true,
+    "raw_2026_extension_manifest_file": "experiments/qlib/reversal-raw-full-capture-manifest.json",
+    "full_primary_corporate_file": "experiments/qlib/reversal-full-corporate-reviewed-manifest.json",
+    "minute_admission_file": "experiments/qlib/reversal-full-minute-admission.json",
+    "full_replay_plan_file": "experiments/qlib/reversal-frozen-2026-replay-plan.json"
   }
 }
