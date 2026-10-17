@@ -22,14 +22,12 @@
     "Honest labeling of consumed 2026 diagnostics and point-in-time data limitations"
   ],
   "remaining_completion_evidence": [
-    "User horizon clarification or complete requested October coverage",
-    "User capital amount; 100000 CNY fails numeric 2026 target, 100m CNY rejected by order maximum",
-    "Execution model beyond daily-open proxy: 1m/20bp max size is 79.25% of observed opening print; 10m/40bp has42 fills beyond observed print and max7.94x, benchmark only not a proof of counterfactual impossibility",
-    "Explain09:26 historical records on two2024-10-08 days without relabeling them09:25 or treating no exact match as zero",
-    "Old BaoStock minute discrepancies remain; alternative TDX series preserve documented hand precision; no arbitrary renormalization or exact-share certification",
-    "Actual daily limits/special historical status, arrival times, queue and calibrated impact remain unverified",
-    "Cash dividends still20% reserve stress, not actual FIFO holding-period tax",
-    "Consumed2026 diagnostic cannot be sealed evidence; original relative research gate remains REJECTED"
+    "Complete requested October or explicit acceptance of an interim cutoff; latest available session remains 2026-10-16",
+    "User capital remains unspecified; no deployment participation/cost profile selected, all 60 scenarios retained",
+    "Nested execution now records explicit legal-sized children, capacity and residuals; counterfactual queue/impact and precise historical available volume are not calibrated",
+    "Historical official price limits/special status and real information arrival times remain unverified",
+    "Cash dividends still use a flat 20% stress reserve, not actual FIFO holding-period tax",
+    "Consumed 2026 diagnostics cannot become sealed evidence; original relative research gate remains REJECTED"
   ],
   "prior_normalized_diagnostic": {
     "candidate": "36-month low volatility, historical CSI500 main-board decile, 95% monthly target",
@@ -326,5 +324,57 @@
     "broker_0930_clock_equals_0925_print_clock": false,
     "old_baostock_minute_files_replaced": false,
     "counterfactual_queue_and_impact_verified": false
+  },
+  "latest_intraday_execution": {
+    "result_file": "experiments/qlib/low-risk-intraday-full-results.json",
+    "independent_audit_file": "experiments/qlib/low-risk-intraday-full-independent-audit.json",
+    "freeze_commit": "f6daa86",
+    "summary_sha256": "cfeea9c0a0176a423acbb61d318944c32dce7b74b0f8549767034b145337760e",
+    "profiles": 60,
+    "development_positive_2024_and_2025": 60,
+    "2026_numeric_threshold_profiles": 11,
+    "profiles_by_capital_CNY": {
+      "100000": {
+        "numeric_pass_profiles": 0,
+        "total_profiles": 15,
+        "range_2026_pct": [
+          5.744331222301191,
+          7.042811591997509
+        ]
+      },
+      "1000000": {
+        "numeric_pass_profiles": 0,
+        "total_profiles": 15,
+        "range_2026_pct": [
+          8.597225476806445,
+          9.48597177559382
+        ]
+      },
+      "10000000": {
+        "numeric_pass_profiles": 2,
+        "total_profiles": 15,
+        "range_2026_pct": [
+          8.773906946988129,
+          10.146924832344896
+        ]
+      },
+      "100000000": {
+        "numeric_pass_profiles": 9,
+        "total_profiles": 15,
+        "range_2026_pct": [
+          9.236673515900252,
+          10.685838246223335
+        ]
+      }
+    },
+    "capital_or_participation_selected_from_2026_results": false,
+    "new_alpha_candidates": 0,
+    "development_prefix_reproduced": true,
+    "complete_requested_October": false,
+    "strict_execution_verified": false,
+    "original_research_gate_status": "REJECTED",
+    "independent_audit_sha256": "a0a62e3121398188ca2097423127b152ca2aeabfc4bc1de9d90a5f19978e514b",
+    "independent_valid_profiles": 60,
+    "all_scenario_fills_reconstructed": 234209
   }
 }
