@@ -23,12 +23,13 @@
   ],
   "remaining_completion_evidence": [
     "User horizon clarification or complete requested October coverage",
-    "User capital amount; 100000 CNY fails 2026 target at every registered cost; 100m CNY rejected for single-order maximum",
-    "Calibrated execution costs/actual auction liquidity: 1m CNY falls to 9.845% at extra 40bp; 10m CNY is only 10.057% under this proxy",
-    "Resolve 900 older minute/daily volume discrepancies; new profile requests are fully captured but source consistency is incomplete",
-    "Actual exchange daily limit and special historical status, historical arrival timestamps and actual impact remain unverified",
-    "Cash dividends use 20% reserve stress, not actual FIFO holding-period tax",
-    "Consumed-2026 diagnostic cannot become sealed evidence; original relative research gate remains REJECTED"
+    "User capital amount; 100000 CNY fails numeric 2026 target, 100m CNY rejected by order maximum",
+    "Execution model beyond daily-open proxy: 1m/20bp max size is 79.25% of observed opening print; 10m/40bp has42 fills beyond observed print and max7.94x, benchmark only not a proof of counterfactual impossibility",
+    "Explain09:26 historical records on two2024-10-08 days without relabeling them09:25 or treating no exact match as zero",
+    "Old BaoStock minute discrepancies remain; alternative TDX series preserve documented hand precision; no arbitrary renormalization or exact-share certification",
+    "Actual daily limits/special historical status, arrival times, queue and calibrated impact remain unverified",
+    "Cash dividends still20% reserve stress, not actual FIFO holding-period tax",
+    "Consumed2026 diagnostic cannot be sealed evidence; original relative research gate remains REJECTED"
   ],
   "prior_normalized_diagnostic": {
     "candidate": "36-month low volatility, historical CSI500 main-board decile, 95% monthly target",
@@ -309,5 +310,21 @@
     "account_feedback_cost_resimulated": true,
     "actual_opening_liquidity_and_impact_verified": false,
     "new_alpha_candidates": 0
+  },
+  "latest_source_validation": {
+    "sina_daily_file": "experiments/qlib/sina-daily-crosscheck-results.json",
+    "tdx_history_file": "experiments/qlib/tdx-fixed-order-history-audit-results.json",
+    "tick_context_file": "experiments/qlib/tdx-opening-context-probe-manifest.json",
+    "fixed_universe_securities": 101,
+    "exact_daily_ohlcv_active_sessions": 68003,
+    "replay_unique_fill_open_prices_matched": 1277,
+    "replay_unique_held_close_prices_matched": 23920,
+    "tdx_requested_sessions": 1299,
+    "tdx_active_complete_minute_series": 1298,
+    "tdx_opening_price_print_matches": 1296,
+    "tdx_source_volume_unit": "hands; not certified exact shares",
+    "broker_0930_clock_equals_0925_print_clock": false,
+    "old_baostock_minute_files_replaced": false,
+    "counterfactual_queue_and_impact_verified": false
   }
 }

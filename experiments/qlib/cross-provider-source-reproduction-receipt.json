@@ -1,0 +1,15 @@
+{
+  "status": "BOTH_SOURCE_AUDITS_BYTE_EXACT_REPRODUCTION_PASSED",
+  "method_freeze_commit": "8a42f95",
+  "method_plan_sha256": "58cd519b4c1ba092291aa57e10c99d34386991451e87119dc7ffc101609943a6",
+  "sina_audit_sha256": "a66be08827b8c16f393041a2239ff89862ba5c65501ce579b35374dd514156df",
+  "tdx_compact_audit_sha256": "5878db7ea2af0298ddd0c10ae0c59996a8bed501abc845cb64218487bbfcc474",
+  "context_probe_sha256": "dfe11590b89835180c45a875aaba4dbc958ebd95005577071712f457a7d5855c",
+  "full_regression_tests": 183,
+  "new_alpha_candidates": 0,
+  "original_prices_or_policy_changed": false,
+  "auction_record_is_actual_broker_fill": false,
+  "queue_and_market_impact_verified": false,
+  "full_requested_October_covered": false,
+  "objective_achieved": false
+}

@@ -1,0 +1,544 @@
+{
+  "status": "HISTORICAL_SOURCE_AND_AUCTION_PRINT_DIAGNOSTIC_NOT_EXECUTION_CERTIFICATION",
+  "capture_manifest_sha256": "def299b792b608f862b3bbc1258195e0b12154c753156625e1a8ec95c4784205",
+  "raw_manifest_sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+  "feedback_summary_sha256": "1c1ebd67e9d87ca4004b2d39b6c74aa8eb8f1ae20fdcfd4c23ece9f2eeb71006",
+  "audit_code_sha256": "dc92bc6ff8b1b9a5b54129c6d37b9878c43fde661749d1188284df77a5908884",
+  "source_check_code_sha256": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+  "requested_code_sessions": 1299,
+  "captured_code_sessions": 1299,
+  "missing_capture_sessions": [],
+  "original_known_halt_sessions": 1,
+  "active_requested_sessions": 1298,
+  "complete_minute_series": 1298,
+  "last_close_matches": 1298,
+  "nearest_hand_daily_total_matches_diagnostic_only": 1298,
+  "opening_price_matches": 1296,
+  "usable_source_print_comparisons": 1296,
+  "profiles": {
+    "0/100000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 467,
+      "comparable_fills": 466,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "fb3bba5ac1d18d1e4e05a8cc7b4decb08d7029830017a250ab64a3f38d51ba16"
+        }
+      ],
+      "over_1pct_of_observed_match": 31,
+      "over_10pct_of_observed_match": 0,
+      "over_100pct_of_observed_match": 0,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 400,
+        "matched_source_shares": 5300,
+        "fraction": 0.07547169811320754,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "0/1000000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 1091,
+      "comparable_fills": 1090,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "391000fdc1d851ab9b26d33e8204b29e94b8cf353f5940530d758686c5252b13"
+        }
+      ],
+      "over_1pct_of_observed_match": 219,
+      "over_10pct_of_observed_match": 42,
+      "over_100pct_of_observed_match": 0,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 4200,
+        "matched_source_shares": 5300,
+        "fraction": 0.7924528301886793,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "0/10000000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 1261,
+      "comparable_fills": 1260,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "d6d49f008fefc2b955cc6e671a41a6dedcf3800278a27fded3ac4cb175a918a2"
+        }
+      ],
+      "over_1pct_of_observed_match": 739,
+      "over_10pct_of_observed_match": 217,
+      "over_100pct_of_observed_match": 43,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 43100,
+        "matched_source_shares": 5300,
+        "fraction": 8.132075471698114,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "5/100000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 469,
+      "comparable_fills": 468,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "eed8ce8745fe2b2e7d336623860bcfa98f39f0ab296305fa8945a28b6bfec4b3"
+        }
+      ],
+      "over_1pct_of_observed_match": 31,
+      "over_10pct_of_observed_match": 0,
+      "over_100pct_of_observed_match": 0,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 400,
+        "matched_source_shares": 5300,
+        "fraction": 0.07547169811320754,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "5/1000000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 1101,
+      "comparable_fills": 1100,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "34c31918da5c1dae9d1cabd87ca4e83367b1a157a8365c9da8af21301d43e721"
+        }
+      ],
+      "over_1pct_of_observed_match": 215,
+      "over_10pct_of_observed_match": 42,
+      "over_100pct_of_observed_match": 0,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 4200,
+        "matched_source_shares": 5300,
+        "fraction": 0.7924528301886793,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "5/10000000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 1267,
+      "comparable_fills": 1266,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "97ed5d1291634629309ab004daac38e7ca15dab0486a27b3b5e305539c44117f"
+        }
+      ],
+      "over_1pct_of_observed_match": 738,
+      "over_10pct_of_observed_match": 218,
+      "over_100pct_of_observed_match": 43,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 43000,
+        "matched_source_shares": 5300,
+        "fraction": 8.11320754716981,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "10/100000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 466,
+      "comparable_fills": 465,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "eeba4532234f36f6446eafeeaa29c51140c3c150edfde378979db333107fa565"
+        }
+      ],
+      "over_1pct_of_observed_match": 31,
+      "over_10pct_of_observed_match": 0,
+      "over_100pct_of_observed_match": 0,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 400,
+        "matched_source_shares": 5300,
+        "fraction": 0.07547169811320754,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "10/1000000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 1108,
+      "comparable_fills": 1107,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "50ffe0a7e1f13e49859d70ff181c69a0b87700a6cddc19e721c58afcc5db26c2"
+        }
+      ],
+      "over_1pct_of_observed_match": 217,
+      "over_10pct_of_observed_match": 42,
+      "over_100pct_of_observed_match": 0,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 4200,
+        "matched_source_shares": 5300,
+        "fraction": 0.7924528301886793,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "10/10000000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 1262,
+      "comparable_fills": 1261,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "4081e4a1a69d457b25d5a78e6310d39a7a8e663205db261a2d4077bf5f720913"
+        }
+      ],
+      "over_1pct_of_observed_match": 741,
+      "over_10pct_of_observed_match": 217,
+      "over_100pct_of_observed_match": 43,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 42900,
+        "matched_source_shares": 5300,
+        "fraction": 8.09433962264151,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "20/100000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 460,
+      "comparable_fills": 459,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "433d548b71b2d9855c3de2ff2679353ef8d0f04662cb5d08d4db30c58ab81df3"
+        }
+      ],
+      "over_1pct_of_observed_match": 31,
+      "over_10pct_of_observed_match": 0,
+      "over_100pct_of_observed_match": 0,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 400,
+        "matched_source_shares": 5300,
+        "fraction": 0.07547169811320754,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "20/1000000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 1101,
+      "comparable_fills": 1100,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "b77aef89af258e29f35171b0c9e5e8383df2aa42f3d0d95f397fe74ed6799b7f"
+        }
+      ],
+      "over_1pct_of_observed_match": 221,
+      "over_10pct_of_observed_match": 42,
+      "over_100pct_of_observed_match": 0,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 4200,
+        "matched_source_shares": 5300,
+        "fraction": 0.7924528301886793,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "20/10000000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 1261,
+      "comparable_fills": 1260,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "6af75d10adc74d97018bb75f4c98b6bcd57283a75c6d9ca49ba854b3b34a07f5"
+        }
+      ],
+      "over_1pct_of_observed_match": 741,
+      "over_10pct_of_observed_match": 218,
+      "over_100pct_of_observed_match": 42,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 42600,
+        "matched_source_shares": 5300,
+        "fraction": 8.037735849056604,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "40/100000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 468,
+      "comparable_fills": 467,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "c751b5b618324095f22e4dbc47703c607bf9196fe8be9de6e12ca774eeb3971c"
+        }
+      ],
+      "over_1pct_of_observed_match": 31,
+      "over_10pct_of_observed_match": 0,
+      "over_100pct_of_observed_match": 0,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 400,
+        "matched_source_shares": 5300,
+        "fraction": 0.07547169811320754,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "40/1000000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 1085,
+      "comparable_fills": 1084,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "fff93321bcf9aba08c73200a6e663238895dbd383b0afb2ea1fb96d7b3715d06"
+        }
+      ],
+      "over_1pct_of_observed_match": 224,
+      "over_10pct_of_observed_match": 42,
+      "over_100pct_of_observed_match": 0,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 4100,
+        "matched_source_shares": 5300,
+        "fraction": 0.7735849056603774,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    },
+    "40/10000000": {
+      "status": "INCOMPLETE_SOURCE_PRINT_COMPARISON",
+      "fills": 1255,
+      "comparable_fills": 1254,
+      "unknown_source_fills": [
+        {
+          "security_id": "SZ000898",
+          "day": "2024-10-08",
+          "order_id": "3ccdd473781bf5c779798642534820620441fb556f25749e272836025bb0d493"
+        }
+      ],
+      "over_1pct_of_observed_match": 737,
+      "over_10pct_of_observed_match": 217,
+      "over_100pct_of_observed_match": 42,
+      "max_comparison": {
+        "security_id": "SH601928",
+        "day": "2026-07-01",
+        "action": "BUY",
+        "quantity": 42100,
+        "matched_source_shares": 5300,
+        "fraction": 7.943396226415095,
+        "fill_clock": "2026-07-01T01:30:00+00:00",
+        "print_clock": "2026-07-01T09:25:00+08:00"
+      },
+      "counterfactual_queue_and_impact_verified": false,
+      "broker_fill_clock_equals_auction_clock": false
+    }
+  },
+  "interpretation": "Observed 09:25 prints are benchmarks for 09:30-timestamp daily-open proxy fills. Adding orders may change price and matched volume; these ratios neither prove impossibility nor prove queue/impact feasibility.",
+  "source_hand_precision_is_exact_share_precision": false,
+  "historical_date_echo_authenticated": false,
+  "old_baostock_minute_responses_replaced": false,
+  "policy_changed": false,
+  "objective_achieved": false,
+  "full_local_detail_sha256": "50bd31ac4af36ff91c0f627dba6977acb46235143b6003a868a1fd00b2850ffa",
+  "selected_source_sessions": {
+    "SH601928/2026-07-01": {
+      "instrument": "SH601928",
+      "day": "2026-07-01",
+      "original_tradestatus": "1",
+      "minute": {
+        "points": 240,
+        "minute_volume_hands": 67429,
+        "minute_volume_shares_at_documented_multiplier": 6742900,
+        "daily_volume_shares": "6742884",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "opening": {
+        "status": "OPENING_PRICE_AGREES_WITH_DAILY",
+        "opening_price_CNY": "8.73",
+        "matched_volume_hands": 53,
+        "matched_volume_shares_at_documented_multiplier": 5300,
+        "usable_matched_volume": true,
+        "exchange_time_interpreted": "2026-07-01T09:25:00+08:00",
+        "timestamp_interpretation": "exchange-local 09:25 minute, date may be attached from request by SDK",
+        "historical_date_echo_authenticated": false,
+        "counterfactual_queue_and_impact_verified": false
+      },
+      "price_signature_compatible": true,
+      "usable_print_comparison": true
+    },
+    "SZ000027/2024-10-08": {
+      "instrument": "SZ000027",
+      "day": "2024-10-08",
+      "original_tradestatus": "1",
+      "minute": {
+        "points": 240,
+        "minute_volume_hands": 1204958,
+        "minute_volume_shares_at_documented_multiplier": 120495800,
+        "daily_volume_shares": "120495839",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "opening": {
+        "status": "NO_MATCH_WITHIN_BOUNDED_SCAN",
+        "usable_matched_volume": false
+      },
+      "price_signature_compatible": true,
+      "usable_print_comparison": false
+    },
+    "SZ000898/2024-10-08": {
+      "instrument": "SZ000898",
+      "day": "2024-10-08",
+      "original_tradestatus": "1",
+      "minute": {
+        "points": 240,
+        "minute_volume_hands": 1556038,
+        "minute_volume_shares_at_documented_multiplier": 155603800,
+        "daily_volume_shares": "155603753",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "opening": {
+        "status": "NO_MATCH_WITHIN_BOUNDED_SCAN",
+        "usable_matched_volume": false
+      },
+      "price_signature_compatible": true,
+      "usable_print_comparison": false
+    },
+    "SZ001213/2026-07-01": {
+      "instrument": "SZ001213",
+      "day": "2026-07-01",
+      "original_tradestatus": "1",
+      "minute": {
+        "points": 240,
+        "minute_volume_hands": 100832,
+        "minute_volume_shares_at_documented_multiplier": 10083200,
+        "daily_volume_shares": "10083200",
+        "exact_total_shares_match": true,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "opening": {
+        "status": "OPENING_PRICE_AGREES_WITH_DAILY",
+        "opening_price_CNY": "3.35",
+        "matched_volume_hands": 300,
+        "matched_volume_shares_at_documented_multiplier": 30000,
+        "usable_matched_volume": true,
+        "exchange_time_interpreted": "2026-07-01T09:25:00+08:00",
+        "timestamp_interpretation": "exchange-local 09:25 minute, date may be attached from request by SDK",
+        "historical_date_echo_authenticated": false,
+        "counterfactual_queue_and_impact_verified": false
+      },
+      "price_signature_compatible": true,
+      "usable_print_comparison": true
+    }
+  }
+}
