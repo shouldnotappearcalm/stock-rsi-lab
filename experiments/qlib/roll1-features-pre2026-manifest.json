@@ -1,0 +1,19 @@
+{
+  "status": "PRE2026_FEATURES_ONLY",
+  "start": "2016-01-04",
+  "end": "2025-12-30",
+  "normalization_fit_end": "2021-12-29",
+  "temporary_label": "$close/$close-1",
+  "feature_columns": 158,
+  "rows": 1214245,
+  "sessions": 2429,
+  "feature_sha256": "5a47abbc3be7ce8bde51ced20fb52d04c51e4b2b97af84653300afb4fc42277f",
+  "normalizer_sha256": "b3694091e592e8eba33baa2e90f3328ab7c0f3aee5b1508a8c191580171a1e0e",
+  "forward_return_labels_loaded": false,
+  "2026_market_values_queried": false,
+  "overlap_check": {
+    "sample_rows": 1000,
+    "maximum_difference_from_prior_master_panel": 0.0
+  },
+  "preparation_commit": "d301b75"
+}

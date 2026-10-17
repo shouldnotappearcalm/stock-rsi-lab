@@ -1,0 +1,80 @@
+{
+  "experiment_id": "daily-target-rolling-campaign-pre2026-v1",
+  "status": "FROZEN_BEFORE_MODEL_FIT",
+  "candidate_budget": 3,
+  "source": "https://github.com/microsoft/qlib/tree/54355232463878d2eebb91fe0ee5fa7fa1f5976c/examples/benchmarks_dynamic",
+  "adaptation": "Qlib RR baselines adapted to the standard one-session trading target; this is not a reproduction of the published 20-session benchmark.",
+  "feature_query": {
+    "start": "2016-01-04",
+    "end": "2025-12-30",
+    "fit_normalizer_end": "2021-12-29",
+    "label_expression": "$close/$close-1",
+    "forward_labels_loaded_with_features": false
+  },
+  "prediction_window": [
+    "2024-01-02",
+    "2025-12-30"
+  ],
+  "account_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "online_rule": {
+    "history_sessions": 1210,
+    "refit_step_sessions": 20,
+    "anchor": "2024-01-02",
+    "reset_at_year_boundary": false,
+    "target": "close(t+2)/close(t+1)-1",
+    "maturity_rule": "label at t can train only after t+2 close; each block is fitted by the preceding session close",
+    "target_transform": "daily cross-sectional rank, subtract 0.5, multiply 3.46"
+  },
+  "arms": {
+    "rolling_ridge": {
+      "alpha": 0.05,
+      "solver": "cholesky",
+      "threads": 4
+    },
+    "rolling_lgb": {
+      "trees": 100,
+      "learning_rate": 0.05,
+      "seed": 0,
+      "threads": 4,
+      "tuning": false
+    },
+    "de_ridge_equal_rank": {
+      "static_DE_weight": 0.5,
+      "rolling_Ridge_weight": 0.5,
+      "weight_search": false
+    }
+  },
+  "control": "unchanged frozen DE scores; same full account dates",
+  "portfolio": {
+    "topk": 100,
+    "n_drop": 2,
+    "risk_degree": 0.95
+  },
+  "costs": {
+    "buy": 0.0005,
+    "sell": 0.0015,
+    "minimum_fee": 5,
+    "price_limit_proxy": 0.095
+  },
+  "selection": "Require positive net returns in each full calendar year and average exposure >=90%; include DE control, then maximize worst-year return, annualized net return, and negative cost in that order.",
+  "selection_before_2026_diagnostic": true,
+  "maximum_new_2026_diagnostics": 1,
+  "2026_feedback_to_new_variants": false,
+  "user_final_target": {
+    "2024_net_pct": ">0",
+    "2025_net_pct": ">0",
+    "2026_Jan_Oct_net_pct": ">=10"
+  },
+  "requested_2026_horizon_complete": false,
+  "claim_boundary": "Repeatedly inspected development data and consumed 2026 diagnostics cannot establish sealed out-of-sample performance. Historical simulation does not establish realized account profit.",
+  "input_hashes_status": "FROZEN",
+  "input_sha256": {
+    "features": "5a47abbc3be7ce8bde51ced20fb52d04c51e4b2b97af84653300afb4fc42277f",
+    "normalizer": "b3694091e592e8eba33baa2e90f3328ab7c0f3aee5b1508a8c191580171a1e0e",
+    "raw_label_prices": "f2095c539f181aa0297dda84434e7e0fce8a87d4133c97f3fc2e7e327abc4eb8",
+    "DE_prediction": "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e"
+  }
+}
