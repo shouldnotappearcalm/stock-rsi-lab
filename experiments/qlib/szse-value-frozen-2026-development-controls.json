@@ -1,0 +1,722 @@
+{
+  "100/0/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0f49e8c2d3d49b994dff8f6a1accbe1a8337ce725dd384229a41039aeef51aef",
+      "daily.csv": "5ad0d9e2c319329b5035e5760525aaf53974f1ab7ad8bfe5cc5a64554f1a47e5",
+      "fills.json": "9a135e7590b192813d4bb84455cb8ec1547bfc4abc8114faa1d92c0fa6afb3c5",
+      "intents.json": "2387e362da14275e980c6724ad724a82bee34abd8f695549533eabd9d924e5c6",
+      "orders.json": "f95fd6a015fa0d86bc46d97f045303c6d7dc182051739b27c0b9b2de3e39c311",
+      "ownership.json": "8f47fea6eb8fa252311cca3bab8207eee529dd0f8fab6f24db77201f8458dbf8",
+      "parent_instructions.json": "72a660ac39bf59d37c82aa3e649111082171199ff6b7badfdd5f3ca39a34db14"
+    }
+  },
+  "100/0/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "3e24aed1f50b6cb3cfec53c966b966cca5797bd9b59b0526a945d943d14c11d3",
+      "daily.csv": "694283f88ec1b43527c09b08448bedc21ffbaa9317dc4b46dd5ed9ed0343787b",
+      "fills.json": "487e588ab1f2f1abc0b78217bf408aaddbe5444c34208bd05c5646e5ed61761a",
+      "intents.json": "c9609185b92c1eac9272e27238829fa7aea0419ba69f934ba6836a1887fcb47c",
+      "orders.json": "ec82075744485965142f01b65b84a0a9efd43b47b60bcd392728a3113f4aa1e6",
+      "ownership.json": "9346716e9359414edad48ba788a45342a43544c0110de67b4db00ad7cd6e9d57",
+      "parent_instructions.json": "7d8f4684c12f3142e6f6e64325375a855f4dc5542b5efa0ee0de171b33dbd8c6"
+    }
+  },
+  "100/0/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "a0c14fa2d374f2944f5117eb4b188d2867c4b3d61b2876c3eb96e01c20e56e40",
+      "daily.csv": "4220bbb23bb86f4ef3a5f06c53cc7babca7e84122d7c9f2e13d63bccdb361116",
+      "fills.json": "048ae09a8f9556f8774143f8e10e58afea64c15b0b5a0f82d222c9be9f80132d",
+      "intents.json": "04fdbbe91037c5bf023a77a9fa370d8dd639bec715b231d251b5020d1e53dc3c",
+      "orders.json": "61bd5a3d004bd673a582183c0a306fe740046b661a79b604ffd709650e080826",
+      "ownership.json": "0bb51437ce7b710db854bcc38e89b51dcade77a428713fe50868fd7448ff051b",
+      "parent_instructions.json": "f5417a2769b0e4412e922235d511de1dd3141bba7909495a167e7e478d37066f"
+    }
+  },
+  "100/0/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "8317506fd501b959f62025f05a3eaafba376d7264f86807fa399dfa73b3e64e8",
+      "daily.csv": "9909e0b4b195544901ebf9274f4406faa2febb5c2cafb2f255281b3f4c83ea16",
+      "fills.json": "501fc63e2c32cbfddbacb340208e9c607026f7fc8cb1f481fa64ab352dac4d03",
+      "intents.json": "69f9306c98b58fc67d66032065f23f4a988b40ded04224dc44845199579a068a",
+      "orders.json": "50fc5a127e0de00ff073b60d1e192ff7e718e7d723580c6d4d994b43206d7a07",
+      "ownership.json": "ef725a61becc1aeccf10072d6393edf2e5caefc0c93802fe9131cbe77e31f7da",
+      "parent_instructions.json": "90465d1593ba6e7f6bc8059c6ca631962a7b7bf5732315f4dadf845fa30fb952"
+    }
+  },
+  "100/5/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0f49e8c2d3d49b994dff8f6a1accbe1a8337ce725dd384229a41039aeef51aef",
+      "daily.csv": "b8d811d0d8d7cc668796edeb2a347978bf279044448eb90dd68f2bf7a7948b6d",
+      "fills.json": "a5dce3107a40162272e4650b947181e49690104ff874e5a94d5edcc57e666355",
+      "intents.json": "f30763b287a62fb9528590a296541dbf73afceaa0fcf443eac04524d7abd446e",
+      "orders.json": "be69bb73585e44f1e35c83574df733142bb8ec88807ab05e00074e00cbaad9cd",
+      "ownership.json": "1d159b7109151b2e42a508d8caf41f1accd9ce791b409af1d0204fccaa2173f7",
+      "parent_instructions.json": "b82f13d45b083d7f9ad489c7459c00aa1bf9afc644d56ee89e6044333546b3e8"
+    }
+  },
+  "100/5/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "22665231a69322e09a9c974000346e1c9cb89a479cd05ab32f08205e320f4fc3",
+      "daily.csv": "b189c39ecda6a8ab8fcb2669126df330303f7a2214bfd632fe09b6bbb2d277d4",
+      "fills.json": "f9042716f8a64e1b9ccf99b469874dcb6ff2a76f538f3a8cff0d08eb2e19ba24",
+      "intents.json": "5fb86ef0ec09d7cb8455e543e1d9563d1182c8e56f3f3df9b4de1c4fe2643709",
+      "orders.json": "7ab77c9e29ac394944f02e384b855700fc84abaddbf49ae2238d7b328c23df01",
+      "ownership.json": "b9be6859c2c54aecbc4304ba25e86530e3bf8d34604a9a92b19a2fbeb0afa7bc",
+      "parent_instructions.json": "7a79ef8d4f833ab15fa9b267efd829ea53f238e3b4f56660252340bda4fdddcc"
+    }
+  },
+  "100/5/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "ba34e8ececb53f71974296ea59dc8e41d9dae314b749ee8732acffe153bc67eb",
+      "daily.csv": "380fa402efacaa7d762b7667742f316f35832e5b7de64b03aab6aa47c7457917",
+      "fills.json": "c009998065700e7e4b903f1299a30f6b3061d7b76aa32bf1507c308f70ea2876",
+      "intents.json": "b831b663aca1ac0475164b49046e189d386e6e1d430affdc87a71acb03b78f38",
+      "orders.json": "9eee440018b4573d54b1f95822037ab6950cba483d42c7b1083687b7575435c8",
+      "ownership.json": "354a44019581c96d53deabfa505a0abde4a4f69490500a1af5e5a777ef667af6",
+      "parent_instructions.json": "5e9be42fd190f2fd82cd9c7d0bbf388297d5177ce1bfc2cdf140782a312c7a6d"
+    }
+  },
+  "100/5/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "a9c25d2a36d7cd31f2367ccd7005ee9d180368b02a79cfa9c16c8080ed8d9547",
+      "daily.csv": "885636ec7ee10b94f7d4669642c5afcd6669a2083ce37c3aeb15adcccb0757b4",
+      "fills.json": "c42cf998d746402bd0b2b07cc24789b1ad4da66e85a1564f8283ad163bb8fed4",
+      "intents.json": "37b2d8049a08ce5c7b73bc50a243b468006df604392cd0cd9f553ea5b57a28d3",
+      "orders.json": "7ea0e332e2d9f1bb5a679c8f0b58c9a4c75442e3a9bfeece3902382304bf7862",
+      "ownership.json": "6d4be94d9876da3b5de82ce0320766fe983c4819857812fab9e14625968d93b7",
+      "parent_instructions.json": "3d7719e32a0f197866e7a5c925333eaba1b5be2d2d9b65f03694dcec6a6eb96b"
+    }
+  },
+  "100/10/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0f49e8c2d3d49b994dff8f6a1accbe1a8337ce725dd384229a41039aeef51aef",
+      "daily.csv": "54c518defa35beca6cfb872d419e2c115b3563e5ab5822202396c038725069cf",
+      "fills.json": "d29de92bbefc6e0e43bfc3cef3bc9db4514d047376b8fc5256b08be63d6adb85",
+      "intents.json": "c96a2625bf50dee3f81594091d71cfd5e410c2bb8d9cc2ace71a36f0929ed976",
+      "orders.json": "6bba32a47929bf51bbd00814315f2c49dd90d2b2909e355528bfd687a546c696",
+      "ownership.json": "f6c0a0a2f72b6c3ec5ae5b91333ec9a73c52b237c338a2456e9bdab56f0f2ec4",
+      "parent_instructions.json": "c1eb1a52f2cb82dbcc9fd4332d14e984049325358a7be4f968ed441edc1bc844"
+    }
+  },
+  "100/10/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "e8347fb7d33c75e6f11b6905e47728f18fef1ed91a95bbac9517247ca385b9cb",
+      "daily.csv": "8803952d3e200e8b135e71a202bc716ab8c3647ba9abe9423a6c8abaf7c3b4f8",
+      "fills.json": "8c259e038b9ade2fde3c844d5c907732f251e0caba8ec0c6883a51f945047569",
+      "intents.json": "9d175b9939ff21c6d0f99595ac1e74a3d8f0e7eb5337074d4459bb8d935e77d5",
+      "orders.json": "21ce8292868c01e6c47ca3650052cbb40cc7f5a030186c66b08af9ebd02ea394",
+      "ownership.json": "153f6e4921392122206dabee83c64be2622e2fef432ed65f36566f0318f24579",
+      "parent_instructions.json": "f50f0516c24a67e8ee10399b790d6a56573e0a0163fe859c035c85e9bcee10bc"
+    }
+  },
+  "100/10/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "a47d41f311e9e8c552b2d5b3744dbc9a361d18b717f41a780cd808254acef7ac",
+      "daily.csv": "6544832049a8e9490d4eb350a603ba9493f9ce3314243b80235fd340edb68762",
+      "fills.json": "e3844ce8f1e6b3609b4e7fe661b3563acbab1cf8bf30b6d75a993faef40fbb88",
+      "intents.json": "913a24bbc98c2cf70cce5e307e661ae9e891f307b8bcdcecf96000624bf699a5",
+      "orders.json": "19cd9602fc2e12de308be7f200d87ed18c739e0800663d8fc9ea6f7b76ddcfb0",
+      "ownership.json": "15295e09cecf26e6140b5e6c2a921e2e7da75868440f1cec3f9347872888a450",
+      "parent_instructions.json": "fabd1dc54d531c57d0c1e36edcea4eed0a70b34ffa6be15ce3bfe49cdfa282cb"
+    }
+  },
+  "100/10/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0edb44876af824e12561b3bee38af27a270b395f0dbf5c76f56b1570cc4e151d",
+      "daily.csv": "b8854834a12fe7d21289d5d15b45e2413a19a4d8415c3dd5c023599d79d384d2",
+      "fills.json": "fffd0bde7fed5b7b39db0de8f5724e8a8f571f6f4a583d15c2fdc5453bc9844d",
+      "intents.json": "c0821e187ab5f429c1ac8158ebe0136145dd8d0e6dbad66a693345497416686b",
+      "orders.json": "d1770ea06514acd29765c402cfe5be556c8822455564b01c3ad6e40d5550c050",
+      "ownership.json": "3a4c4d54bc9cf0af729bf6964fe3d92e6ed8d8fc899cb77cf4cc5b456b4b3a55",
+      "parent_instructions.json": "7a0eefd1d85f11560e7b21e2f14a9ecd5069d11df0a33752e56ffeafdbc19179"
+    }
+  },
+  "100/20/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "14189a45b83a9c78e90cb0ca12dddaf8e880eb6e6a7a6499abf8718110b00581",
+      "daily.csv": "d423d74f0d4665afd9f267cb3fd254b3fb57ce6ad25c3686cf084ce1b17146f4",
+      "fills.json": "7543fdfd5362bf2129318edb34c84228268937308b116c5e24a5bb61eb605773",
+      "intents.json": "0fb90819872cd48d658adda0d4cbd5581cf99ed055112d9f85f4059852aa7cfd",
+      "orders.json": "8c8dce4ed3f6ff9b69c6054510aeda440072626d3562e164ff36f6e30d039799",
+      "ownership.json": "f26575bf99f12c6962cc5ec603303ba13d7e58960b4bc685903fa6fb7cdbf241",
+      "parent_instructions.json": "3b6b6c4409fdc7896536b4e62f71dadae4fc9de7cefe8e3533fc8dff34be7e61"
+    }
+  },
+  "100/20/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "6c2b4ef5de3e7418f9151b57f215c3ec04fedca3d0000a303e9081c95d45c987",
+      "daily.csv": "baa69be7951b8d963bc16ccc852cafaa21222b1534760632033f3278a353c8e2",
+      "fills.json": "20345bac80f76d77fac2a451d28bd26096bd1dbe461a6411b59025e0254db1d5",
+      "intents.json": "069cf7c6cb764ea57e25d638adfa8fc9552eef8adfce25a75fcc47471e59f139",
+      "orders.json": "9e5575ae90f1b5cf3b62dad006054e772bfb78bde7be52e9fa16468156df70cf",
+      "ownership.json": "72d66582300c5a8533685c926a3ffae1c7e8bee6bbcbffd19c2d6a5ef0553ad4",
+      "parent_instructions.json": "416275811e683778d6fe80fab1074d849a532d45a13b88816bf520a57c1f1531"
+    }
+  },
+  "100/20/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "019111193daa3c3f981da14b432ddda0706c02845a9e9bf33b8476362aaf8b11",
+      "daily.csv": "2030c8f580df24715a2baa6d56dd0b37629d957cc5f44d80dd1f70e2f5831409",
+      "fills.json": "a1cd1060959dcf6ce53f6df973e29c5bdad9ca25aa147adeb34d7de8a88567c0",
+      "intents.json": "01bad9dbd958bbffe6d427dee4bc379427bce706b6ca5373b6c96d805f7791eb",
+      "orders.json": "763ccb205f32d3bfc6de71de65fcb9591c9ec6051fbfa82462885862ec949780",
+      "ownership.json": "b2483e974c392584932e0ecc30250ca1c397362bbee3a9314b149bed246ac242",
+      "parent_instructions.json": "641b95fcb0594ad9140fdfa8a036157f3024c3388adcdd2716829c5719f44426"
+    }
+  },
+  "100/20/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "1610598eb1a0ebabef41b12e4f77fdab8d9b307420b323bf8791f0b59b82be7a",
+      "daily.csv": "a5f7790d33272bf1030f1d6bc0e99eef7c71aaab5dd3f0198eeff254f1f6b5c0",
+      "fills.json": "fbd360cc3b9b05070fb042e7079bd5d76ac081cfd2916351ff638d8415603521",
+      "intents.json": "3576c2489a707585c799101e264aa6bb830e171fd82cc1621d7275c1a7a7c416",
+      "orders.json": "9e2d593b7c82b6290fe48cd951e7ed33c503e2f88f4c6700bfe549e1dca4fc49",
+      "ownership.json": "ce2be0fdff952dcaee0d52e21b5566d10dd49dca60f17f72dffed065ebb56e11",
+      "parent_instructions.json": "dc3ceec42a32b7efeeab20e77a4f751cbbfa1ca1a7fd228f36b5bd075a7c0c33"
+    }
+  },
+  "100/40/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "54effb1fc9a2dfe666b564fd63d335b164dd96181b031866ffbafcfc5f0505c2",
+      "daily.csv": "334363d81fd9c7a2f7f7c28b2344a6b3ed5b6bbe428913010f60d9362dc17aa9",
+      "fills.json": "209a6a48929de52dad43bb2d340c8053b59cf35f23ccf38c65dcdaf6ad4a4cd3",
+      "intents.json": "303bd9ac5cfa2fab1d68b959a6a947b215227f231629b143cdae32c581e9990a",
+      "orders.json": "79473be28705f0e5fcbb9c26ee81405f1283ea0eb8d49bc973218f67461d8241",
+      "ownership.json": "0d8d93d22e7ffc57bafbcf96c10eed1aafafb4b9971bbe8e079092bba6442541",
+      "parent_instructions.json": "c4ea0053ed15bc79b8d0197064b6a1bf88d9669fc721edf38837c03606e95459"
+    }
+  },
+  "100/40/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "c448d54cc830fa4ca26aebbfa1b49b55617e80c8adce97582be7b110999991ee",
+      "daily.csv": "59a1a2d7d8d2d9fa04410248c2c9e0ac241b8924fc5e8e868da4b75ab79f6f61",
+      "fills.json": "34e43686752a839104d1e7098d4fb2fdf92ede00657dbe5e8c56659c1a12f74d",
+      "intents.json": "b02cffa1763a9dbda02bc15103ed40115ccf36e9e38ecbb00175e92a1396a475",
+      "orders.json": "143a678e38709a21ff18c3d8bd2aa0aadd06f7ed222f95d1901d1cc9d4845765",
+      "ownership.json": "16c9a2890b9d389f71a62d4a69ee0387eb418d4e624dfa9e8cdaafbac561737f",
+      "parent_instructions.json": "311e9f1015373c9aff4d8004f81b9978d780c99bee56805e93f65b285739d26e"
+    }
+  },
+  "100/40/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "135969cd3ba1955b3466e87296f0a0b30301e137b034ab568d77274073910758",
+      "daily.csv": "fb609cc07a375d8aa693d3a1ce9a5e2b94d2b49c786a95a74b0cd24465df2f2e",
+      "fills.json": "a4eee62c10f12cc7e2d3b9cd002382fa9c673973f42507d3650e045cf9acbe02",
+      "intents.json": "e9b852958aa58d2d3bece640e2ecb94940c2037feba7dfc9dab6d0d465e3221d",
+      "orders.json": "ec871a76621baa8ab473011e0d4e3b1e90650ef399db701d58d0ee2a7bdf2263",
+      "ownership.json": "4b82548a738187e4d62a5a7d4f82aab4ef84c991bc03e331a29f047cfb5d6848",
+      "parent_instructions.json": "5f1f7af4553926cd52bcf261fd0c17f39396db83d416d0b912252eed89cbd1fa"
+    }
+  },
+  "100/40/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0eea1d47737d7cd6cdd3c4e39cfa17ced2987607f0c51f46f24907a776654dfb",
+      "daily.csv": "fe64e0f6609de27316a3c36c16265d46ac2491a07271558e98a859a89ad8eff2",
+      "fills.json": "ffab93c2cedb977e92e16c60ee37ac6119b32169d402676fe7dc6641a43749f0",
+      "intents.json": "d7c88194ae2437f03fb6cab6542732b86b1d16c7bfdb3d56be92f9e7bace11a2",
+      "orders.json": "136b9c5d0cb9c336a535f2a65ac6905e702eab4ea0ae076050eb00745d5ee553",
+      "ownership.json": "5957062e5e397b9986103b61d89a71aa4dc178e7723027f485a885c90d445693",
+      "parent_instructions.json": "7f8463138d82110bf886d850e341f841d6141baa669e217a795aabfeb0da9728"
+    }
+  },
+  "500/0/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0f49e8c2d3d49b994dff8f6a1accbe1a8337ce725dd384229a41039aeef51aef",
+      "daily.csv": "5ad0d9e2c319329b5035e5760525aaf53974f1ab7ad8bfe5cc5a64554f1a47e5",
+      "fills.json": "c5a5e69784a88456afd81d5ac08fdecd4ff23cb0c50cdd142d9d209cdcc49943",
+      "intents.json": "2387e362da14275e980c6724ad724a82bee34abd8f695549533eabd9d924e5c6",
+      "orders.json": "395adc7cd5526bb42e3c1f748b20424fc948adca95a1473e14cea8ae87a0b972",
+      "ownership.json": "8f47fea6eb8fa252311cca3bab8207eee529dd0f8fab6f24db77201f8458dbf8",
+      "parent_instructions.json": "4bde99cc65041f6314e3d6f589008163cc955830ff235abc0bc7cd416a1c1fcb"
+    }
+  },
+  "500/0/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0228eb14ab06939ae169ed808cfe68dd2e6f4e9d23ba13a8532eed625765e2a1",
+      "daily.csv": "fb3dfd70382996d84109aaf6c80035e43060d67758e6bfa954f91f4cb6c71ae5",
+      "fills.json": "4f33b99ce20a35db1674d5c09a4a5e3695f91bf0f59d23351f069ecf672a5a20",
+      "intents.json": "b78984ee5da3d6b9a53af73e4565d8ca751da4c4078393b0950d739a22b4922c",
+      "orders.json": "e35745138e908ef6a3057f272e8eb59b56eb4335b4c700fb23d9d4df37d224a3",
+      "ownership.json": "c9652bab10a413a8d5b82e86185507987794a7c74a9bc360370a096a9be4a7d5",
+      "parent_instructions.json": "e9db8c3023c23f31b70c08f4692180af4cbf5e65adb0f691cc8ccda098bfd5ca"
+    }
+  },
+  "500/0/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "1cda3356b74196b331fd5a58a888245c84a9b406c429b3c681c5284dea1bf444",
+      "daily.csv": "8a15308898f27e0a4d0701c0d4e18c4f1915481d62fa3f6c517565893da928f7",
+      "fills.json": "b6c493b8e0541c9bfd33e83eaab7d9460191420f843f8a80895960e7ea44a6aa",
+      "intents.json": "a0b5b0983f860b29d630193030d0bc5eff651b057df61a3565e5bc017e6bd07d",
+      "orders.json": "a7a4a7f0a99783755258823321b7a17c8936a379aef8ba95937a91f2512829a4",
+      "ownership.json": "4e19b6234c544cee7950d7fbc4168671b4ca13162c5692b0da547ed69b782f01",
+      "parent_instructions.json": "eafc2a2732c2694cedfebaa89e8aea63f0ac05797126a53699cce33169bb78db"
+    }
+  },
+  "500/0/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "cee598c14ce7a3c65e790746ddfd9b8bcac7ea7d2c516e92d2a3a90da976e2cf",
+      "daily.csv": "1d2b5b3f4f85266b69f00b7779bec182a95a0e36b14a32b4ae8dda45ca3f3e83",
+      "fills.json": "0afc859f48b00958b99b4c0bfaf7b29882dfab024a92214154c981c57c522add",
+      "intents.json": "dc414a065162ea7484b2c253c9cad193bb0e5c0b6e43a14644ac403cd4ac9bca",
+      "orders.json": "12f548245789867685c7c88f7c441035271e570ea6ca88cbacf6f783bac0bc2c",
+      "ownership.json": "6f12096ebea1eb751b8b2f0d1a887499398382556b3f62ce3fd8b947c9f3ede7",
+      "parent_instructions.json": "844533c75e091563c83f1c24eaa0f64f57d0f5476168335008b729e5110c2ce3"
+    }
+  },
+  "500/5/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0f49e8c2d3d49b994dff8f6a1accbe1a8337ce725dd384229a41039aeef51aef",
+      "daily.csv": "b8d811d0d8d7cc668796edeb2a347978bf279044448eb90dd68f2bf7a7948b6d",
+      "fills.json": "16c324e2967734fc06e5390f33a62095d124dfda83c81c2fcf0e11a6f061bf93",
+      "intents.json": "f30763b287a62fb9528590a296541dbf73afceaa0fcf443eac04524d7abd446e",
+      "orders.json": "37d34530a818bd6e42b356ac947483184124ab9c440c3586315cf54dbfab2c22",
+      "ownership.json": "1d159b7109151b2e42a508d8caf41f1accd9ce791b409af1d0204fccaa2173f7",
+      "parent_instructions.json": "03e76010511326de98a1f3e9bc23c5c55ebc3a73fd8707bd185d775159849fc7"
+    }
+  },
+  "500/5/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "be7f57142a74049ed2be82068f2e41f73f923f4a2c8bbaf3d51b1a947ae54776",
+      "daily.csv": "e844289610e1f15e5a9fca0f805ccd097fd71312420be018d1f98d2b135434ab",
+      "fills.json": "dadaf16d60cfa751d84e46102c158a4f0c848815e41f24026eb10faf0b6a4d24",
+      "intents.json": "c474dbf77d95ca3264e8a8a1e6f9adfd979d16ecf37a4651d30b7b010b5d3cb8",
+      "orders.json": "e2882e7eb41cb304efbbe8028b5bfee0c5aab9852a8f97e895871126078fa3e9",
+      "ownership.json": "a7922248a69fb3e8bc729d6a9427bb2e789a13de23ecf6d833c785dffee4ba9b",
+      "parent_instructions.json": "f6fbe9154545b9823eab2df9c6023f2357b4daf0310b8a3a7766decaad4a0625"
+    }
+  },
+  "500/5/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "e6d8dd5e6dd056616e7628b166f749c2cd93c89fdf5cb7b1b62da60f8e7a376a",
+      "daily.csv": "c90e470e84358429797586584bac9f149a214fa9b4db6dc1278c288f104dcd24",
+      "fills.json": "c5aea086e33019ba91b2df8134b6419ed044fe1ef950fb122cd72897043b3ac9",
+      "intents.json": "82c62c3baf23422348e9ac31c9183829ee133f43187aa559be5334c77c4096b4",
+      "orders.json": "e936f9dfe453e69f9710c40dd7cd9e3b44ab9b0260e3de9c28aafe553207268e",
+      "ownership.json": "4200bf6a7715e7a9c4bbf2c03b813974a8671dc52683a0e7082526dca02b6cbc",
+      "parent_instructions.json": "b9847f4cabf4349ff2fa69d23d8494f4f082d3258eb4a5bc534d24705a66b761"
+    }
+  },
+  "500/5/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "e6beee4e2238b59058318d9211bb95355156529d81b9ad9a45f237a7cdfde5d9",
+      "daily.csv": "a41c5655c240c47b4684f44e37673f07335b1b60184c26545f53c2f83e821a5e",
+      "fills.json": "0542ad70bb15191fe689a6bf2271d21a9cf1e6d23ed2e9eed49ff3c8b78e5f50",
+      "intents.json": "69fb957d282f3968cb01bd8e0ead0e082c5c0b96e6910f4f5a16dda9238ca0c7",
+      "orders.json": "5017eb276888d1ae995eb7723ee214387dd1cad7eb3b01b86e2b69bfa6dd5d5c",
+      "ownership.json": "7fb9b6a327a74b6752208c3766c07e4e2476fd880c606cfa33b8fa1818d24e01",
+      "parent_instructions.json": "0d0a0b5aa5a239aba1b7724bc642ab30fbca91bd9a299f7e403b5b66d5cbbfe4"
+    }
+  },
+  "500/10/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0f49e8c2d3d49b994dff8f6a1accbe1a8337ce725dd384229a41039aeef51aef",
+      "daily.csv": "54c518defa35beca6cfb872d419e2c115b3563e5ab5822202396c038725069cf",
+      "fills.json": "e0f552919d5c3e3d2d0cf437542db4b0cf5bc5ef2128d4c4871390104f060fce",
+      "intents.json": "c96a2625bf50dee3f81594091d71cfd5e410c2bb8d9cc2ace71a36f0929ed976",
+      "orders.json": "481bd8a07e4f281e464b393ca06af2fe64e0e04acec7404ce2632c03e79f9f86",
+      "ownership.json": "f6c0a0a2f72b6c3ec5ae5b91333ec9a73c52b237c338a2456e9bdab56f0f2ec4",
+      "parent_instructions.json": "2b33b15c8ea166bcff60eadb9508832135e138937cbdb82468dd7a735fbafc1a"
+    }
+  },
+  "500/10/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "b95bb20c6d07c8a641d5f7f452dcde3361245a38ed9b09889cd90d3ebd3d34cb",
+      "daily.csv": "59cb7b0c6f2549305f5da3349dc3abbd0929736dbc71f7d710051f4cb051552d",
+      "fills.json": "9b6babfb54e113e09a033251dcd3fea09c3c442470582457bdd09175af63c0da",
+      "intents.json": "f2daa74b482f83abecfde1063462fc294992b558c43410ec9635d3457335c544",
+      "orders.json": "e1191c253bd6c00d96d172e6f764b8b9527724289f9ec8da9b238a5339cbde40",
+      "ownership.json": "77543cd06440f9695ae98f836fc12eb956b78d213f2fcd95794b073527564e34",
+      "parent_instructions.json": "9e65083e1f171fea37d36974f45a67bbcc2cf6b7289fb7b1bd30d7530b20c321"
+    }
+  },
+  "500/10/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "f8fdd8b7abb0f6688524ae8785f33305490b315784aafa56ba946b8f4042aa4a",
+      "daily.csv": "8b71c0345126f544b7e7ba7216917607ac3606ab8982ce8fa254a1f33ed29b6c",
+      "fills.json": "d2546e4c0926631047f21e58ae1edcdd3f0d24461462551033cd8fd98ac547e7",
+      "intents.json": "3faf381e15415808cedb250318036516aff8b66b3ab94da4010d24429dabe9b4",
+      "orders.json": "0ad2499f9414cffbfe702dc25f50a6eae61f1462b8b73af383b64b7be93624a0",
+      "ownership.json": "08c5f20d0a17077bf36482e59585e81ee198be92fd1028b4aa06da77b0c4a538",
+      "parent_instructions.json": "282afb9f498a6310fb41538085882be2aac0b05e059dfbe87a0ea773914359a0"
+    }
+  },
+  "500/10/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "877feb9170c8584832503fe82b44df42bc6f741b0856967346d6d95fb7e5d048",
+      "daily.csv": "2f5d581f9d1945e6514d2cfa697b79052ab51916c7ef78e4ec08569da1fc98ba",
+      "fills.json": "b0559251510164ca74e3bbae80b55b1cba9228bb9a6b6c40785e39c6c1fd2ba8",
+      "intents.json": "e950a2ce1f2f56e4525259f7d07e148cc9abe7b019e0030b6e14150068eae58f",
+      "orders.json": "c212deacf7289b17168e5fca7ee6d408cb700c4ffbd758d0438ec98fd065e791",
+      "ownership.json": "efbd666097af54d3453c9ddf9a767265628d942c6574b5c5d92258bcd2a07cc0",
+      "parent_instructions.json": "2ceec1d94dcb74504678d84f60b5974f1e557a68e7a9494dfe236fc8d05ca08a"
+    }
+  },
+  "500/20/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "14189a45b83a9c78e90cb0ca12dddaf8e880eb6e6a7a6499abf8718110b00581",
+      "daily.csv": "d423d74f0d4665afd9f267cb3fd254b3fb57ce6ad25c3686cf084ce1b17146f4",
+      "fills.json": "9ce5cee49f5efac6b8b28f93601fd84dbd2126544be62798c6c6cd874e9e6f71",
+      "intents.json": "0fb90819872cd48d658adda0d4cbd5581cf99ed055112d9f85f4059852aa7cfd",
+      "orders.json": "47a2245b4f4de4097b422aafed890386be9bdb2f213329a3c184ec68ced22b53",
+      "ownership.json": "f26575bf99f12c6962cc5ec603303ba13d7e58960b4bc685903fa6fb7cdbf241",
+      "parent_instructions.json": "98d9d27142e5ec9d41529aed22351cc806ce78e2f7768836e46d1e121795a1d7"
+    }
+  },
+  "500/20/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "8755eb5163178986723602c448305f9bec3adafce3f4b515aca4cddcc7654224",
+      "daily.csv": "4d8b28313dcc5b363bcfa75673b2864a763822b2ec46f8450ed3fb2fbd8acffd",
+      "fills.json": "9e6a6289722a33b5a4c1f8bfb85ce5a32a26d06e58aa675d3770443a07cea12d",
+      "intents.json": "11b531b09aebc52931b29172321c105995f17d4015c5aa68ad5051a13deadbb7",
+      "orders.json": "73812a728300ddc03159e82668af099350a41ff6a2cda3bc9059cc15d0f57b57",
+      "ownership.json": "ebb7f1cb543c45dcd3985e353e6b662754d68bcd4fc85625cec2ab64ca901f62",
+      "parent_instructions.json": "e28a40e4a466a385406b3d9e5cf11210254c6cde39e779298b81741849179791"
+    }
+  },
+  "500/20/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "61b0fbd2ce3bcc76c03901e1e5a1eb4dab8b4a8097e7327a7b61b470b688564a",
+      "daily.csv": "15e2081c4e7fc90c6758a283ac3e1e4bc9a4e8dc76652a46bc5dbb760e32539a",
+      "fills.json": "ec5052bb848469dbbecd9e4f16f2402106bb4d3b99acdffe8108827991274ef9",
+      "intents.json": "6fca7c382c7ae3bead8dd1f95b5a27c03702d2f8d527a2d1d99c2bae8d8a7bf4",
+      "orders.json": "3ea58094b6771255f5b049a7ae92533da04f548a230530f94f51417dff78c25e",
+      "ownership.json": "8f6caae22b0d98767c3cf0a81776ba2dfda3c83381ceef244053a7b8a030a0b8",
+      "parent_instructions.json": "64fc952d18f1362ab5de3db6abb373258ed59ed4c30e8b8be03ffe87263314f4"
+    }
+  },
+  "500/20/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "99de906ea635d9c630805bbaa25cd3b0bacf7481749215c88942fb5193e19ba2",
+      "daily.csv": "207488376f051b1064adf58470f6fc6a27ddf19b420b54c37b1e7e05360c3bb7",
+      "fills.json": "808917416a51700fcd06c14c45c595fc79ad1da32be32ab6f3db414e73f96462",
+      "intents.json": "bd4282c2adabfc5bd17d805de32add4130e27b314b5d6441f295458ac9256b7a",
+      "orders.json": "c7de10b889df4d375a922d0b38ae29f0ff8416a4d9f4bdeacda3cbfb1798e087",
+      "ownership.json": "83fb9e18d507a89f116b1d9edc51486eba7c7cb40394d41451caf976ff6fd8e3",
+      "parent_instructions.json": "b3753eba4a155adefcecb1405b7d126bcbe643c7c01837176b632fa172c5bacb"
+    }
+  },
+  "500/40/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "54effb1fc9a2dfe666b564fd63d335b164dd96181b031866ffbafcfc5f0505c2",
+      "daily.csv": "334363d81fd9c7a2f7f7c28b2344a6b3ed5b6bbe428913010f60d9362dc17aa9",
+      "fills.json": "6ffc320077b196996db0784270a83c7ca5533e12a7299410a53cb808176516f7",
+      "intents.json": "303bd9ac5cfa2fab1d68b959a6a947b215227f231629b143cdae32c581e9990a",
+      "orders.json": "a2350f5eefabd161e3ac63e9bde51cd01bd8c34a4ef7b84f80c6c69914ca6c32",
+      "ownership.json": "0d8d93d22e7ffc57bafbcf96c10eed1aafafb4b9971bbe8e079092bba6442541",
+      "parent_instructions.json": "bdfa08f0aafa3e13fefba8278732175ae1a8a548bbc3c05cc59b01c2ec240cd1"
+    }
+  },
+  "500/40/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "4c8db78027569fc1a37d9f3f66fc95eaf34301f2aa804934818fb2588c779553",
+      "daily.csv": "1470f9a64856145972af04b3e1755732e2dc0606f9642c40b47fe0f36af53191",
+      "fills.json": "8fb0fcb0388e29a75a68247dd4aa177626870e212e5c2ef5c0d636faa1adb500",
+      "intents.json": "a013bd983a0d855993f00493a8ffaeb95f5d2e0987979a41f927608713f07ef2",
+      "orders.json": "641dbfd7cbcd34ad7ccbd5f63dacf02da00dd93d1a2e0b2125a7dbd0665336d8",
+      "ownership.json": "87351720afcbcbdbe28607dbe2c40dadcd504eade19218f86f01471f95845f3b",
+      "parent_instructions.json": "4b0a7794fa64c5a11a4ac2e47eea4477eca6d162c612e46e22d95fb2e1e716b0"
+    }
+  },
+  "500/40/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "dd41ee82bade72e441eb5e5d61b50c2a2f5e4824ce5effa1ef9ef3a823a20f5d",
+      "daily.csv": "896f16dcdb1c891350ed98b227f27ce7f041cdaf3a8ae66c8e56515946e3ec20",
+      "fills.json": "e75bbcdf25484d3db34194c8b172f448847e40f96152c3ab22ccc6f32ac27b3d",
+      "intents.json": "23309820fecb85fb2c5564da115ffd0c1e74c03f244f566b61482609ef078e64",
+      "orders.json": "7f3ef1e83b49488f0b7d452026ca3e0e3b264102f46725b3f92bce1c23f8b48d",
+      "ownership.json": "0b10251c6e00a7648d9c20a622caefc2d427244cf37f58aba00c1278ebdca247",
+      "parent_instructions.json": "e9319c45ba1edc5e3a5ce38934c0c4911bedcb1e350f6bf24c2c0f099a2f5a03"
+    }
+  },
+  "500/40/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "f29678935ab60238b1807310b72192694141c111f21d3df5e16b871869512dee",
+      "daily.csv": "537adde6a91a00e4d32ba31a65d785a81067ac39b870341350e5a877c1c63d23",
+      "fills.json": "d8cef79eaac821caaaef8dbf5a27e12fceac767be684c6ad9a239b54cc369e5a",
+      "intents.json": "fcd559097da2a778c6ce892224e15f1412d14451d9eb6114b2e4a3caa0774b29",
+      "orders.json": "a7286c19afc0b8b775357ad5a9f423f71bf68c010027ec99bc81014df843662e",
+      "ownership.json": "4d1f1f07c752392083e4cefc743944ca0210577a9472317baf290231d6f1d7a4",
+      "parent_instructions.json": "70f7ca377a53c23a77456df65bd92da86dc928f0a7f8aca18ccadef71e195699"
+    }
+  },
+  "1000/0/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0f49e8c2d3d49b994dff8f6a1accbe1a8337ce725dd384229a41039aeef51aef",
+      "daily.csv": "5ad0d9e2c319329b5035e5760525aaf53974f1ab7ad8bfe5cc5a64554f1a47e5",
+      "fills.json": "c058e6886577ca1b8f4b4384f24e83d6f63a9d40019a4cf5f8538f27c3986a37",
+      "intents.json": "2387e362da14275e980c6724ad724a82bee34abd8f695549533eabd9d924e5c6",
+      "orders.json": "0be81fddfdd0d7a1424af4c66d05012a5b4ec1e33dfda6dcd46caee10aa01229",
+      "ownership.json": "8f47fea6eb8fa252311cca3bab8207eee529dd0f8fab6f24db77201f8458dbf8",
+      "parent_instructions.json": "05b6b37424fda12a94f16bfe25ef043e0c0808b76e298c409ee201d55a00f66c"
+    }
+  },
+  "1000/0/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0228eb14ab06939ae169ed808cfe68dd2e6f4e9d23ba13a8532eed625765e2a1",
+      "daily.csv": "3e679f8cb41d04385b2327e00193514212ad808d72b8c2987caf8fc72c9f34d9",
+      "fills.json": "d194d85489c688148cab5bd6e3402abab4eba9383d53bb332bcd7f2d4d7da60d",
+      "intents.json": "c9935bc0800855902cf056f15e0368b11a259b59eab5d83bea6943b092a125b4",
+      "orders.json": "076c1958f22c70d76c24454566c5ed55600ea954aedc4237164cea3a18091243",
+      "ownership.json": "c9652bab10a413a8d5b82e86185507987794a7c74a9bc360370a096a9be4a7d5",
+      "parent_instructions.json": "84af9b3f2955f62171522d408c031d42416f7923d3b1ae465d61c81a21a801e8"
+    }
+  },
+  "1000/0/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "d6dc00c868726d8f533ea262b5c30c520106f6a39ea50fff57861e42e65a66bb",
+      "daily.csv": "d7125fd8287903498ec65fe3280f8f756538068dfe6fa7289b29fa5bd73ee873",
+      "fills.json": "8c76cf1dc161948f32f0978df0b8b4854d3ea78e9712f455c31f142fa55fada8",
+      "intents.json": "072d920f0cef2c9edc37f621838e5e9646988751be8c3da67c9465f3eb22c893",
+      "orders.json": "4fc8a8a595f3de56bb685b40a157e13df62d7a642141584b2165be3ec1b06e3e",
+      "ownership.json": "0d3341f7b86181d6d907122e623dbe6665fd5cf03fb3f49adc545ced4f3acf02",
+      "parent_instructions.json": "f3ce3d86a5cc5636e1e0c7b15681b660783c8074011c10a78544639e80527301"
+    }
+  },
+  "1000/0/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "f3def7a7258c115b8a717ed015524d8e9de7f49b97b2aaf6d6b653deb70be137",
+      "daily.csv": "9bee23f56bb2ed86ac5060c2923cec3efc42c90b291fe334ac547237beb06234",
+      "fills.json": "6ee751b7de47f894c814b5e81c334c4c9796eddd3dcfd58dd34d843d5062c7bb",
+      "intents.json": "8acf48c3b799bf2863642712dafe6a7bd14cb86a0cc4cfe839585e9f7e5fdb93",
+      "orders.json": "d95131d3479a1c12110f1a53cab1b6a4f3b73abfc5a23609eb30a5cf740ce328",
+      "ownership.json": "1bc146f55a82034b46a407711367bf30593283297d78365d491875303d6f024d",
+      "parent_instructions.json": "aea52da92af5248dc56285f1d584ba88119edf1797da97555a591a6016aeabc1"
+    }
+  },
+  "1000/5/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0f49e8c2d3d49b994dff8f6a1accbe1a8337ce725dd384229a41039aeef51aef",
+      "daily.csv": "b8d811d0d8d7cc668796edeb2a347978bf279044448eb90dd68f2bf7a7948b6d",
+      "fills.json": "903fd95f471d3ac62904c94848111cc089ef7568c89b5635aae8c9e27e6df86a",
+      "intents.json": "f30763b287a62fb9528590a296541dbf73afceaa0fcf443eac04524d7abd446e",
+      "orders.json": "807be681641e634cd9590311f1b00bc07359329fce6f0696b34714dc1c51b551",
+      "ownership.json": "1d159b7109151b2e42a508d8caf41f1accd9ce791b409af1d0204fccaa2173f7",
+      "parent_instructions.json": "2c739824a2d37adba43e33035999fa5d2a4b6eacb35fe2f13c862d7d4c71f7c0"
+    }
+  },
+  "1000/5/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "be7f57142a74049ed2be82068f2e41f73f923f4a2c8bbaf3d51b1a947ae54776",
+      "daily.csv": "f9ff51d830b0e895f09df8a1fb669500bbea3555a4298810faf725fe49670d49",
+      "fills.json": "7832a0100b428d65c09d362971888c6ed072e3d0dde9254e69b18a2002538d6e",
+      "intents.json": "0dfd488f082ee81e4b650f6c170cda900d5600b737de0793f330646a2e6af41a",
+      "orders.json": "c58a53dcef9c7800579deb2bc431255d9d44a7e3b53b27eb8ba42e9ed980ad81",
+      "ownership.json": "a7922248a69fb3e8bc729d6a9427bb2e789a13de23ecf6d833c785dffee4ba9b",
+      "parent_instructions.json": "15802c8a818d6506d568602769127386aa2224ee6aa4c9ec30abacf153849705"
+    }
+  },
+  "1000/5/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "533dd52589b214c479b3e3423cc53357e52b4284945df16bf7851d0b2dfce41c",
+      "daily.csv": "c847373271d73079e613ced068f2850410e73c1941a2024fa3d3f496c048524e",
+      "fills.json": "38a2dce13fc3da166a53972a6cd6a6383bb06277d27e15d58a282dadd9f26a9f",
+      "intents.json": "688600f7d12cf97d61792de6da72e2076197d1b73c2e3f663d589cb8f40cd2d0",
+      "orders.json": "1a18d1cc33bdabb21b26d7495f18748c66fbfc9bb92d04836d1c1effde06e909",
+      "ownership.json": "0363c98c030558212faacf824304fdc44bd9c7d51d866fb76d9e92d1869f89d8",
+      "parent_instructions.json": "e2f5b34376b897aa4447d6bf00497f8da883ee72380c3f0a2c65184f5ae89503"
+    }
+  },
+  "1000/5/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "f6f2475b29a5f18a5b34c6e3aaf56a865939643e7a5b9e278b8142b1bf8926d1",
+      "daily.csv": "b2de61d0bee8e614e254ed52a829047c4bbd3bc85aec5200a73f8542bc809a18",
+      "fills.json": "793017c894c2c1af019bc10538c5f377030cb72e6f088dcbcf04b9ab0ef65bbe",
+      "intents.json": "4c5a47e056b478426ecac314d1c8fc7579e7c536b31f69a432def57c80a5074c",
+      "orders.json": "13ff42d164c943e5c8ea2f835d6fd6d3b7d991e648d7a2203db27917e5afe4f6",
+      "ownership.json": "43dd4ca06aeca64c6ffd350b35b8901b6ec73a78244d287240e90ce806db5e71",
+      "parent_instructions.json": "8935ffefc539afe9b0cb786cdb72c48cab9fb0bfc5d3ac8c99c236a2df125bdd"
+    }
+  },
+  "1000/10/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "0f49e8c2d3d49b994dff8f6a1accbe1a8337ce725dd384229a41039aeef51aef",
+      "daily.csv": "54c518defa35beca6cfb872d419e2c115b3563e5ab5822202396c038725069cf",
+      "fills.json": "44aec7ecdd9f49780794146f4a5eb66c6b748b735ea2b10c0c2212d952451c84",
+      "intents.json": "c96a2625bf50dee3f81594091d71cfd5e410c2bb8d9cc2ace71a36f0929ed976",
+      "orders.json": "2763ef0cc94fb86ebdc9bc4c728a0edb1ad1c026d521a934ca5686eeb81434e2",
+      "ownership.json": "f6c0a0a2f72b6c3ec5ae5b91333ec9a73c52b237c338a2456e9bdab56f0f2ec4",
+      "parent_instructions.json": "740ae34fa44ccb725b209a83048b859ce1f61c7f92815d0f68557c5af898cd6e"
+    }
+  },
+  "1000/10/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "b95bb20c6d07c8a641d5f7f452dcde3361245a38ed9b09889cd90d3ebd3d34cb",
+      "daily.csv": "0e8dae34d8e368f51fa2d764d7518876e9a3ab84b9cbdc2c2c08ac41334361ba",
+      "fills.json": "04b7fae74b55fd241e61a5f0320be1c5a3435179f0ac895b736d7f70eed331f8",
+      "intents.json": "8e9c3b287e2dd3caed82087c040883af8619911b04dd22bda505194064270f71",
+      "orders.json": "e52a2146b1f30e34263cb24998af021d064e7759b20044a09647d3345e95485f",
+      "ownership.json": "77543cd06440f9695ae98f836fc12eb956b78d213f2fcd95794b073527564e34",
+      "parent_instructions.json": "66031dad92060cf16b07414ba18dd73bc1353d7243c32d1db1668a38c73a1e30"
+    }
+  },
+  "1000/10/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "dd2aa23e3deb47461e9c89dc21583a10c4a1001cdc506b5f39b0edfb253bb8c1",
+      "daily.csv": "235aa5e4c11f055a19a9c58c6753cb101e6fce6723cb3365f704f71545edb6fe",
+      "fills.json": "b4fa69656db95d905dd15e3a468eca5962e75d7000d139e368b307a8955ede6a",
+      "intents.json": "ad2b16c9ec1b85c3e0e613f20eb100d9ecdecd291c64a4c6aee14cdc37949f96",
+      "orders.json": "5b9e6694168469a2e1d622d65775970acfc9d4a1f3e2b803733d1203102e5780",
+      "ownership.json": "38940825ba8ad23b47edb64eb7531f8157234caa2290136b4a58c9d2a97a7291",
+      "parent_instructions.json": "1d9877a8a49a3f94202ae318b4add10b9a2859bbb08cc3b4baec0b43e60fc3f7"
+    }
+  },
+  "1000/10/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "897aa80a56048460c3fee06c287c65e50fbbf0c3e574037d265ffd9cb388c5dc",
+      "daily.csv": "56606badd57cfdab2356597f58915cebb888002cfbe34bb073c0c60f1888f2b5",
+      "fills.json": "90ac901e99fb74f118c9bc19c6885578a30ab7b5e227561e320d19284c94e025",
+      "intents.json": "cacf96f27671fe6059c07351468181848bd1dfd13ad339e903709774edf3c86d",
+      "orders.json": "0271e52f19e21f7588f42f9762f80adbd77446db66a54747ed971192feb3f2f1",
+      "ownership.json": "e7a450005e1e4aa0f5e6039b0f39272de3d2b07dca55329f0b20d2f9fee6d12f",
+      "parent_instructions.json": "78b7b1685bb124314923b7990d31e1e35b24a8a8af27d99280ecddec38b73764"
+    }
+  },
+  "1000/20/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "14189a45b83a9c78e90cb0ca12dddaf8e880eb6e6a7a6499abf8718110b00581",
+      "daily.csv": "d423d74f0d4665afd9f267cb3fd254b3fb57ce6ad25c3686cf084ce1b17146f4",
+      "fills.json": "e61853e7ccc7225b00f2d1dea545052a4000478f8f86f7b8ca90a29b231fed7a",
+      "intents.json": "0fb90819872cd48d658adda0d4cbd5581cf99ed055112d9f85f4059852aa7cfd",
+      "orders.json": "e11f8a807c1e9dca47345fc329797f20abe5f2d73c78e42a5233bb2e7dff6810",
+      "ownership.json": "f26575bf99f12c6962cc5ec603303ba13d7e58960b4bc685903fa6fb7cdbf241",
+      "parent_instructions.json": "6a1ae422394b001ae1ea782b7f6bab9b8c99a7810588fae1b5baffa66bea1466"
+    }
+  },
+  "1000/20/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "8755eb5163178986723602c448305f9bec3adafce3f4b515aca4cddcc7654224",
+      "daily.csv": "aeb7223cc65420053746fcd894203f9c78677f76e34e4b318a9817de5b1b7a14",
+      "fills.json": "6c2880a4ff1b8b9ad47ee6c7791cd2ed464b344a62a20c89584fbb0336689dac",
+      "intents.json": "b506112f5a25ecfcd4993e0d949c2915bdf4e2a57157319f20a2418a7922961a",
+      "orders.json": "e5a814c4ff79251127859b9bb32ef632100e5edc5e4c22168b1e3387e545977b",
+      "ownership.json": "ebb7f1cb543c45dcd3985e353e6b662754d68bcd4fc85625cec2ab64ca901f62",
+      "parent_instructions.json": "fbcd59a5dbdeda7281bafafb02966c346ad0cc0665562ad384932a2b73d2f040"
+    }
+  },
+  "1000/20/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "97ca533e39ca7ff08bd82fe70c140913927cc26c6a95019522809226bca84547",
+      "daily.csv": "c763d4988a0133f3d1c4366b486d707ca02c94dff62d18e2dcab828760985dc2",
+      "fills.json": "0512a33226c1c320ef57dc959c148eaacb1a111d06c6d3afee803308ca305980",
+      "intents.json": "6b1733e855039235db056959ec721e30a9923616290beb0187ddb337972b0f05",
+      "orders.json": "ed0571146bfcbcb9f9848a0bb3f570e4ab87dcee035161281b677863fb4e62d3",
+      "ownership.json": "25ae64fc9cd82a8e63fcf9b8f42a6f50d7fdb7b539b60106af0d26d6fa6eff1a",
+      "parent_instructions.json": "d6c54a3b9955f3fb09c4c13338ff4e6ce789092e862b42fbfd343f6d18ac94d4"
+    }
+  },
+  "1000/20/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "75c95ba4bf5f507aae2b0d2b6b87bef788db160ef5588c5d0d9065994331614b",
+      "daily.csv": "c06e232dc3527701e29176de3f61a6ae84be4914d150eecc8401bea7509d43d5",
+      "fills.json": "7450e9535a85fa0a96cbfab2b214cec99768c23ddcd5ecc88f55b5476dedd4a4",
+      "intents.json": "b7570277c8855a1ea302116542e108e0d0bf09148e971409e4c7743a96138b48",
+      "orders.json": "b999453150c14118401e555ec218f31e97e68d0aa505bd42630402e44b857338",
+      "ownership.json": "f79216de5ba3143dc14ba2d6d07e9699883cf51c8275bfee817a37ce12f821e3",
+      "parent_instructions.json": "cd6c77b255d543a8af0122181d57389c956f5276b41fd7f1b61cf76eed7f2da5"
+    }
+  },
+  "1000/40/100000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "54effb1fc9a2dfe666b564fd63d335b164dd96181b031866ffbafcfc5f0505c2",
+      "daily.csv": "334363d81fd9c7a2f7f7c28b2344a6b3ed5b6bbe428913010f60d9362dc17aa9",
+      "fills.json": "3834272d398d120b34edb7b2a6672e35c7263fb2399502e20f106016e0089a1b",
+      "intents.json": "303bd9ac5cfa2fab1d68b959a6a947b215227f231629b143cdae32c581e9990a",
+      "orders.json": "c7a30b41436aace60e2769a6540f0a4e27b600690b14bd5e0b827841f0706256",
+      "ownership.json": "0d8d93d22e7ffc57bafbcf96c10eed1aafafb4b9971bbe8e079092bba6442541",
+      "parent_instructions.json": "8522ff51f917341a7b1731f3115a6ac4a5588e7ac74687500fdf5b19d95acd6d"
+    }
+  },
+  "1000/40/1000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "4c8db78027569fc1a37d9f3f66fc95eaf34301f2aa804934818fb2588c779553",
+      "daily.csv": "5011b088ae19fb346f2a18c653e44f06ae4789eccd6ad86cdd92d1dd3d9bcf86",
+      "fills.json": "15ddbe0b12738c5472ab412e7e6af0cb29fec98a381dbaaa450c58e27584dc5e",
+      "intents.json": "738c1c0cd158da7d7dc2572e37af94b33993e7b06f91acb67cf21354e2dd72d7",
+      "orders.json": "e7e01e61d4da1e7fa0924d55c213731b91905de39a53a212b71c66b0a564656a",
+      "ownership.json": "87351720afcbcbdbe28607dbe2c40dadcd504eade19218f86f01471f95845f3b",
+      "parent_instructions.json": "b0cb116ddbb7b6b60e2c9a2de8f5d11c6837094687a62e340b08c38a0b55a8f6"
+    }
+  },
+  "1000/40/10000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "120c733d1c101bde463703aa39e3bb5f329f4685b7ccf49a4b20690be3c46fdf",
+      "daily.csv": "ef4ce8b24560aaa1332d666c19e980c432d3fe2be84597e9f04540b7bb720144",
+      "fills.json": "3f356186dc071c360f8c68dadc9772217564afd4199e10a797c0b7685242bf1f",
+      "intents.json": "0e66baaf92f222e9b1eb988a59ade110880705cd14c2c3a9cb6dd3bb6a71d9ad",
+      "orders.json": "f959d1755deb6f78d4af53a3f022e01eca60c3ea7eb57ee843c2ec87b8a57961",
+      "ownership.json": "70f51b0f6ac255bceb001a0aef6aab2f51754b14908927deccdd7eb26243576c",
+      "parent_instructions.json": "5223195fb05e849e166dfd0af140c9043ec10c1e9ef0fc92b5770329888367f1"
+    }
+  },
+  "1000/40/100000000": {
+    "status": "DEVELOPMENT_CONTROL_MATCHED",
+    "artifact_sha256": {
+      "corporate_ledger.json": "3ecd65815d6e1ffca4aad85f518f6da217b89cf05fb65d17bfd14173a0c03ca9",
+      "daily.csv": "a493ac3ec5252fd4b385f76ccb0121ef13700a4d6c8e7a3efb351528baf3e5da",
+      "fills.json": "52e13b74af33985050fb1106e91422fa385d1cabe837c3d980a0fa051bc7c475",
+      "intents.json": "af4017dfbda6dad5e51d10a0769511e25cab9f29600b7d91b0944e6743494f29",
+      "orders.json": "ef83cc273fbd089c2b3ee2622aab7dacb17c70e8727948b3b533f70d79137dee",
+      "ownership.json": "e1fb0b7c93199f00ac06da920d2350fe3696a97b728827914f3fbbad2232cc8a",
+      "parent_instructions.json": "26e8ef2929625816ad48b0cd8327167d4969027047e78201fd2042ea15638c7b"
+    }
+  }
+}

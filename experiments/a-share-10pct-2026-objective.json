@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "SZSE_VALUE_PRE2026_RAW_INTRADAY_CONFIRMED_2026_EXTENSION_FROZEN",
+    "status": "SZSE_VALUE_FROZEN_2026_REPLAY_FAILED_NUMERIC_OBJECTIVE",
     "candidate": "szse_monthly_low_pe",
     "candidate_budget": 1,
     "selection_uses_2026": false,
@@ -396,7 +396,7 @@
     "independent_development_gate_passes": true,
     "outperforms_control": false,
     "raw_share_confirmation_run": true,
-    "new_2026_outcomes_queried": false,
+    "new_2026_outcomes_queried": true,
     "raw_input_manifest_file": "experiments/qlib/szse-value-raw-dev-capture-manifest.json",
     "raw_input_names": 41,
     "raw_daily_records": 19926,
@@ -493,7 +493,42 @@
           "parent_instructions.json": "b0cb116ddbb7b6b60e2c9a2de8f5d11c6837094687a62e340b08c38a0b55a8f6"
         }
       }
-    }
+    },
+    "target_2026_receipt_file": "experiments/qlib/szse-value-frozen-2026-target-receipt.json",
+    "target_2026_file": "experiments/qlib/szse-value-frozen-2026-targets.json",
+    "development_target_and_formation_prefix_reproduced": true,
+    "raw_2026_extension_manifest_file": "experiments/qlib/szse-value-raw-full-capture-manifest.json",
+    "full_primary_corporate_file": "experiments/qlib/szse-value-full-corporate-reviewed-manifest.json",
+    "minute_full_admission_file": "experiments/qlib/szse-value-full-minute-admission.json",
+    "full_replay_plan_file": "experiments/qlib/szse-value-frozen-2026-replay-plan.json",
+    "full_replay_results_file": "experiments/qlib/szse-value-frozen-2026-results.json",
+    "full_development_controls_file": "experiments/qlib/szse-value-frozen-2026-development-controls.json",
+    "full_replay_freeze_commit": "388a8ac",
+    "profiles": 60,
+    "positive_2024_and_2025_profiles": 50,
+    "positive_2026_profiles": 36,
+    "2026_numeric_threshold_profiles": 0,
+    "reference_5pct_40bp_CNY_1000000": {
+      "2024_return_pct": 0.16654,
+      "2025_return_pct": 18.826554256541158,
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -0.48211439720350563,
+        "max_drawdown_pct": -10.659695014333609,
+        "average_exposure_pct": 94.33028064627118,
+        "ending_equity": "1184506.1400",
+        "sessions": 188
+      }
+    },
+    "capital_or_participation_selected_from_2026": false,
+    "2026_used_to_change_investment_rule": false,
+    "complete_requested_October": false,
+    "sealed_evidence": false,
+    "independent_full_audit_file": "experiments/qlib/szse-value-frozen-2026-independent-audit.json",
+    "independent_full_audit_sha256": "c10d7648addaf6600023cf57fa863465f012c72e9a9d7bdb22718aea567353db",
+    "independent_full_valid_profiles": 60,
+    "independent_full_development_controls_verified": 60,
+    "all_full_fills_reconstructed": 188413,
+    "full_replay_summary_sha256": "3a878ccbe318617b94d1a7786416303d506e138cf259b38cb5ad0bd4297a561d"
   },
   "strategy_research_history": [
     {
@@ -587,7 +622,10 @@
     "historical_publication_or_arrival_verified": false,
     "underlying_financial_revision_history_verified": false,
     "admitted_as_current_vintage_ttm_financial_panel": false,
-    "new_2026_outcomes_queried": false
+    "new_2026_outcomes_queried": false,
+    "extension_periods": 10,
+    "extension_manifest_file": "experiments/qlib/szse-monthly-2026-extension-capture-manifest.json",
+    "new_2026_market_values_queried": true
   },
   "data_admission_history": [
     {
