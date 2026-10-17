@@ -76,5 +76,17 @@
     "normalizer": "b3694091e592e8eba33baa2e90f3328ab7c0f3aee5b1508a8c191580171a1e0e",
     "raw_label_prices": "f2095c539f181aa0297dda84434e7e0fce8a87d4133c97f3fc2e7e327abc4eb8",
     "DE_prediction": "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e"
+  },
+  "2026_replay_protocol": {
+    "freeze_stage": "Before any candidate development portfolio result is read",
+    "eligibility": "Only the single new arm selected by the registered pre-2026 rule; no replay if the DE control wins",
+    "account": "Continue the same 2024-01-02 account through 2026-10-13; preserve 2025-12-31 signal and positions",
+    "2026_metric": "Compounded daily net returns within calendar 2026, including configured costs; do not substitute annualized return",
+    "training": "Continue anchored 1210-session/20-session rule, reuse the last development model until its scheduled next fit, matured labels only",
+    "feature_normalizer": "Reuse the 2021-12-29 frozen center/scale without refitting",
+    "clock": "One daily close signal; prior explicit exchange session score used for next close trades; no full news stream or intraday decisions",
+    "evidence": "Full daily account/holdings/order ledger; reconcile cash flows, costs and turnover",
+    "interpretation": "Consumed 2026 diagnostic, incomplete October, real-price engineering evidence only",
+    "feedback_to_new_variants": false
   }
 }
