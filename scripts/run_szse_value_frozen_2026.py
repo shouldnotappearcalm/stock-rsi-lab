@@ -112,6 +112,12 @@ def main(argv=None):
     for path,key in ((raw/'manifest.json','raw_manifest_sha256'),(proofdir/'reviewed-manifest.json','proof_manifest_sha256'),
                      (old/'manifest.json','old_tape_manifest_sha256'),(extra/'manifest.json','extra_tape_manifest_sha256')):
         if sha256_file(path)!=plan[key]:raise ValueError('diagnostic source identity changed')
+    admission_file=root/'experiments/qlib/szse-value-full-minute-admission.json'
+    if sha256_file(admission_file)!=plan['minute_admission_sha256']:raise ValueError('minute admission changed')
+    admission=json.loads(admission_file.read_text())
+    if (admission['admitted_for_reconstructed_execution'] is not True
+            or any(admission[k]!=plan[k] for k in ('raw_manifest_sha256','old_tape_manifest_sha256','extra_tape_manifest_sha256'))):
+        raise ValueError('minute source admission does not match replay')
     m=json.loads((raw/'manifest.json').read_text());proof=json.loads((proofdir/'reviewed-manifest.json').read_text())
     if (proof['raw_manifest_sha256']!=plan['raw_manifest_sha256'] or proof['target_sha256']!=plan['target_sha256']
             or sha256_file(proofdir/'manifest.json')!=proof['capture_manifest_sha256']
