@@ -1,0 +1,376 @@
+{
+  "status": "SZSE_MONTHLY_2026_EXTENSION_ORIGINAL_TABLES_CAPTURED",
+  "request_sha256": "618f47e0a4de0ddeac0b677358e17a965b484aa2c80eb69a1961c5740cad2256",
+  "source_reader_sha256": "c3ad059f06694401f4027c592cc71387808c129523a54992f086d0205588a8ef",
+  "months": {
+    "2025-11": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20251203_617676.html",
+      "table_url": "https://docs.static.szse.cn/www/market/periodical/month/W020251203531511344795.html",
+      "article_file": "original/2025-11-article.html",
+      "article_sha256": "4c3267ef13d496e4f4489cf2ac427835d609a983dd7967f9e47ab2afc6c84e41",
+      "table_file": "original/2025-11-transactions.html",
+      "table_sha256": "a93b3ac2217a154d92c62ab40ee6bf340c38baa756447a933e588df0a9a33f5e",
+      "normalized_file": "months/2025-11.json",
+      "normalized_sha256": "692495d21676f9bb94a112c9855b305bde37adcecedc4170a22c6886a0780638",
+      "mainboard_rows": 1487,
+      "all_security_rows": 4023,
+      "query_receipts": [
+        {
+          "request_file": "queries/53ac3d7a5c473ead849bab0af2bb064b258e950e41fe1578d53089b15a970627/request.json",
+          "request_sha256": "235599b3b88b7441dc4ef05f02a7efae5d18e2ca4544ace5a94ef77b18116ca5",
+          "reserved_file": "queries/53ac3d7a5c473ead849bab0af2bb064b258e950e41fe1578d53089b15a970627/reserved-1.json",
+          "reserved_sha256": "aec95ddde4b15dbd519dd0e2ca8bad9e9a6f58d53b5a9eff24a7d57f89185d61",
+          "response_file": "queries/53ac3d7a5c473ead849bab0af2bb064b258e950e41fe1578d53089b15a970627/response-1.json",
+          "response_sha256": "7f3d141e7fc7b56da9458f20eeab98ee98571e21e376c01109465ad4d749c5d4"
+        },
+        {
+          "request_file": "queries/ddf1fcd05e2f7faa0eec86237485fcd3f1fa08f946394cb95d054bd939499477/request.json",
+          "request_sha256": "4b6197a781f367d43b3d392c8bc0cee51c068a49a4cb4a621335003bda8c5619",
+          "reserved_file": "queries/ddf1fcd05e2f7faa0eec86237485fcd3f1fa08f946394cb95d054bd939499477/reserved-1.json",
+          "reserved_sha256": "3bac8f349f3cc64b3160852eb795812b812550215261f40cc99364624eac5533",
+          "response_file": "queries/ddf1fcd05e2f7faa0eec86237485fcd3f1fa08f946394cb95d054bd939499477/response-1.json",
+          "response_sha256": "cec1a36c6d1d671273366d44e8a620f2db5b7c17b8423f74cd1db75687e45631"
+        }
+      ]
+    },
+    "2025-12": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20260107_618297.html",
+      "table_url": "https://docs.static.szse.cn/www/market/periodical/month/W020260107516673721048.html",
+      "article_file": "original/2025-12-article.html",
+      "article_sha256": "202304c774008d6d9a46c5413a596ae96a2926e225019debee9363b711bfd259",
+      "table_file": "original/2025-12-transactions.html",
+      "table_sha256": "643681cf9939ae7787dc37fcffd72ceb29e15f4b1fb61d605dbce705deaded7e",
+      "normalized_file": "months/2025-12.json",
+      "normalized_sha256": "2d33bb4cd4442f1ed51ca2c2c6277cecf39591f14393976312a8d73628c8e734",
+      "mainboard_rows": 1490,
+      "all_security_rows": 4032,
+      "query_receipts": [
+        {
+          "request_file": "queries/3bc5870324a9642c642883786d10244d481ffafd610e8cfb22aecb3f73a9032d/request.json",
+          "request_sha256": "c1fac0113dfca6e980b29253121bf98121c2a02bd241c0d1efb1097fb86bb0b2",
+          "reserved_file": "queries/3bc5870324a9642c642883786d10244d481ffafd610e8cfb22aecb3f73a9032d/reserved-1.json",
+          "reserved_sha256": "a55f22ab0ad5d4489a1430e6af8c080516335ee4aabc0cf9e46205ed7a7f00fb",
+          "response_file": "queries/3bc5870324a9642c642883786d10244d481ffafd610e8cfb22aecb3f73a9032d/response-1.json",
+          "response_sha256": "8af3cc09b36c904316c8679dff022241878447602366e84675a0830378290342"
+        },
+        {
+          "request_file": "queries/c4ace8ada5aabd4576068ec0675e6347873972f062f5335b7dc3e0934059ed01/request.json",
+          "request_sha256": "3b6404c92bb5fc8691c044ce97f850cf46733de1b5e86306284ff542622d95f6",
+          "reserved_file": "queries/c4ace8ada5aabd4576068ec0675e6347873972f062f5335b7dc3e0934059ed01/reserved-1.json",
+          "reserved_sha256": "7977d4c684090c7867d8cfc991839d5ab2401dfb3a0e6e1372eb9293c8169347",
+          "response_file": "queries/c4ace8ada5aabd4576068ec0675e6347873972f062f5335b7dc3e0934059ed01/response-1.json",
+          "response_sha256": "0d2510188593d1eff03a29540d799705ddf1e6a054d59b95cf5ac03e91f25014"
+        }
+      ]
+    },
+    "2026-01": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20260204_618927.html",
+      "table_url": "https://docs.static.szse.cn/www/market/periodical/month/W020260204330568625238.html",
+      "article_file": "original/2026-01-article.html",
+      "article_sha256": "055cf4954737cacf8fc8746b23e8961931145247d17d1ad114627f626c856154",
+      "table_file": "original/2026-01-transactions.html",
+      "table_sha256": "b541751cff0af002de19ac15f4786cdf1ad3746aa1621a49330d0d9ee0fb4b1e",
+      "normalized_file": "months/2026-01.json",
+      "normalized_sha256": "842111a48b97612db6ffdae0b0868a25c38e523565af3c53cac2a456f09912f2",
+      "mainboard_rows": 1490,
+      "all_security_rows": 4034,
+      "query_receipts": [
+        {
+          "request_file": "queries/53dfe9189903f32a55482a7853f583f4996af9b8b09582c4b1ffb66b01e05e5e/request.json",
+          "request_sha256": "2cb863be1a4c16007a81fa6a69a7ff1caab65be6e6636696391dff772737c6bc",
+          "reserved_file": "queries/53dfe9189903f32a55482a7853f583f4996af9b8b09582c4b1ffb66b01e05e5e/reserved-1.json",
+          "reserved_sha256": "7f56286cee00872ad439843393952fcdf66483e0cacfac8aa1d4faa8d0aa4771",
+          "response_file": "queries/53dfe9189903f32a55482a7853f583f4996af9b8b09582c4b1ffb66b01e05e5e/response-1.json",
+          "response_sha256": "30b3b9f64e3f84c6d28a6c353df81fba9c6698280374d106f8fc902dbfbb1b48"
+        },
+        {
+          "request_file": "queries/2951074235b4240b1ffbb7ac101d6a59c9ea154329f6fbcef614e3404cf707dd/request.json",
+          "request_sha256": "252c45e712e7dfabd1c48ed80ec03befa0795a849467a2dcbc071d5b1fbc64fe",
+          "reserved_file": "queries/2951074235b4240b1ffbb7ac101d6a59c9ea154329f6fbcef614e3404cf707dd/reserved-1.json",
+          "reserved_sha256": "11970208221a5c2019d42e02b8bab18a6c9a195d20be7ebc36eaff166f63167a",
+          "response_file": "queries/2951074235b4240b1ffbb7ac101d6a59c9ea154329f6fbcef614e3404cf707dd/response-1.json",
+          "response_sha256": "b93321fb5958d2bea96a15b783821e31caf508dcf8cbcb3d5b4719dc0afdc0f8"
+        }
+      ]
+    },
+    "2026-02": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20260304_619294.html",
+      "table_url": "https://docs.static.szse.cn/www/market/periodical/month/W020260304555325395161.html",
+      "article_file": "original/2026-02-article.html",
+      "article_sha256": "85932e9e4985908ddae137fea973ab45dafe14047ec48db83bdde47facf6de1c",
+      "table_file": "original/2026-02-transactions.html",
+      "table_sha256": "97f946d41a51d3ca20c416c85d573ce49795076d7d3b8d92c49deaf39cd80e00",
+      "normalized_file": "months/2026-02.json",
+      "normalized_sha256": "58f64b371f44dd92f328c7479fc1da52db0bd0bce25c31255bd4f13c7112eed3",
+      "mainboard_rows": 1491,
+      "all_security_rows": 4041,
+      "query_receipts": [
+        {
+          "request_file": "queries/fff863d5848ad22cfc1c14d59cf03fc156d28dfe9b9e05da730d1551e114691a/request.json",
+          "request_sha256": "e66df1ca38bf89902a1ca67d1cff785a161e28b32cdf3375c37aa8d177cea396",
+          "reserved_file": "queries/fff863d5848ad22cfc1c14d59cf03fc156d28dfe9b9e05da730d1551e114691a/reserved-1.json",
+          "reserved_sha256": "47e3b6794cd3612fe9659392fc15cd0679b4d1057f7dc7c6bb74e7e3d338e401",
+          "response_file": "queries/fff863d5848ad22cfc1c14d59cf03fc156d28dfe9b9e05da730d1551e114691a/response-1.json",
+          "response_sha256": "219faeb438531b9a4d6741499e936a1e88d1a1ba53ae91674cb2928258349ffd"
+        },
+        {
+          "request_file": "queries/802630783bccbf2c7750f62df32cc33e8ac2d2074ba7a314e14968d905c13665/request.json",
+          "request_sha256": "3be57ce905dcd14970f510ea3e1ddf558a4388b0f79fc47ebbb28ac448001917",
+          "reserved_file": "queries/802630783bccbf2c7750f62df32cc33e8ac2d2074ba7a314e14968d905c13665/reserved-1.json",
+          "reserved_sha256": "830d655be66c2738b2a6410aeea5ec332ccef76a4ce53d67738ded492f49f4ce",
+          "response_file": "queries/802630783bccbf2c7750f62df32cc33e8ac2d2074ba7a314e14968d905c13665/response-1.json",
+          "response_sha256": "0fef9ce55324b8cadff412ca1923f5ffb69bcfc25a26266ce3781841649e813a"
+        }
+      ]
+    },
+    "2026-03": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20260403_619833.html",
+      "table_url": "https://docs.static.szse.cn/www/market/periodical/month/W020260403534498852413.html",
+      "article_file": "original/2026-03-article.html",
+      "article_sha256": "efe639693609fc1ff733391dca977288aa63b044e73f916f7105e3d9c69e6439",
+      "table_file": "original/2026-03-transactions.html",
+      "table_sha256": "6f0849b4a26909b41c57a712205639ef96e381bd348b21fe693a22e35a21d3aa",
+      "normalized_file": "months/2026-03.json",
+      "normalized_sha256": "304d5138300171b1452595c5b375505b36f93c39926a90bf0726aa811f6d29c1",
+      "mainboard_rows": 1492,
+      "all_security_rows": 4055,
+      "query_receipts": [
+        {
+          "request_file": "queries/44a364f6c07c97e544317ff685b8ca7d739c839ad6dcd76e6b14c0d589f3208e/request.json",
+          "request_sha256": "c11fe5c63edca1709e0a2d30f8b8a4f3826c2add61428e44b8b5a0755560acc5",
+          "reserved_file": "queries/44a364f6c07c97e544317ff685b8ca7d739c839ad6dcd76e6b14c0d589f3208e/reserved-1.json",
+          "reserved_sha256": "db8fdfcc899e33f7042db31bd56a9ae68cf288b72c87241360116a35be45df1c",
+          "response_file": "queries/44a364f6c07c97e544317ff685b8ca7d739c839ad6dcd76e6b14c0d589f3208e/response-1.json",
+          "response_sha256": "157b07feca6bab243e1fa32d9c3b766d0a98415f5d33b9619e4038b2777dc935"
+        },
+        {
+          "request_file": "queries/303980c4d3c166161a06d8960d0992ebca3a2a7b10cb0a3f28b394333dc28ba9/request.json",
+          "request_sha256": "000ee4a68ea42de7f24407b20ee9e1b292527cf76d8882f096068e3f9511915f",
+          "reserved_file": "queries/303980c4d3c166161a06d8960d0992ebca3a2a7b10cb0a3f28b394333dc28ba9/reserved-1.json",
+          "reserved_sha256": "c9d335376ca6a8e1af30f4e3fc05761addbaa9908ef5c9545a73ff904f4f78d5",
+          "response_file": "queries/303980c4d3c166161a06d8960d0992ebca3a2a7b10cb0a3f28b394333dc28ba9/response-1.json",
+          "response_sha256": "0f8abe41cf46dc1e65c7a6b1f052ddfb2da4229f4fad85190f047a023c42b9ac"
+        }
+      ]
+    },
+    "2026-04": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20260511_620438.html",
+      "table_url": "https://docs.static.szse.cn/www/market/periodical/month/W020260511542158758559.html",
+      "article_file": "original/2026-04-article.html",
+      "article_sha256": "2478bffbab06a0e23943d42621df34bbfd986b92777b8a3d85375a84dfdb215d",
+      "table_file": "original/2026-04-transactions.html",
+      "table_sha256": "62d5131b36758bca3b7a18f874d54709401d6980f07f8b9c205e76d19cc412d6",
+      "normalized_file": "months/2026-04.json",
+      "normalized_sha256": "825c91ad3c9e1f608620506fb29c3bea2872d5c53766a9541786ab932a707b5a",
+      "mainboard_rows": 1492,
+      "all_security_rows": 4076,
+      "query_receipts": [
+        {
+          "request_file": "queries/1895ef288c7e352e9356a6da9a8613ca650616353b226883f451195f96e2bc72/request.json",
+          "request_sha256": "a2f4c5f99a90114ae9a2d61fda439d7d84f1b3eb1298706a22720414e8d29706",
+          "reserved_file": "queries/1895ef288c7e352e9356a6da9a8613ca650616353b226883f451195f96e2bc72/reserved-1.json",
+          "reserved_sha256": "b37fd32566c268bc73a135e20da73e4860a3c0b233baa5be606265e84120f789",
+          "response_file": "queries/1895ef288c7e352e9356a6da9a8613ca650616353b226883f451195f96e2bc72/response-1.json",
+          "response_sha256": "388cfb369c95189287b55d4e0635b54c2f07e9f4f1ae65542ab52581192e0fc2"
+        },
+        {
+          "request_file": "queries/45f83462d559c3efbebb925800ad09a60cb35972adc4693f41b9cf74e4d7fd1b/request.json",
+          "request_sha256": "6f9707217c290920cdc5538182cb51597084aea47bd20b1a60c646a532321ae3",
+          "reserved_file": "queries/45f83462d559c3efbebb925800ad09a60cb35972adc4693f41b9cf74e4d7fd1b/reserved-1.json",
+          "reserved_sha256": "b5312a144095eda06ae81da19cbc7422aae7f67d499df72381d59deea80fd623",
+          "response_file": "queries/45f83462d559c3efbebb925800ad09a60cb35972adc4693f41b9cf74e4d7fd1b/response-1.json",
+          "response_sha256": "90bedf282cd329dfcf45d2d8865dbd8cc3ead407930046b8339d9d918d401443"
+        }
+      ]
+    },
+    "2026-05": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20260605_620906.html",
+      "table_url": "https://docs.static.szse.cn/www/market/periodical/month/W020260605534754276075.html",
+      "article_file": "original/2026-05-article.html",
+      "article_sha256": "fbacf9d40f7584f0937631cb9275cf9bc6af6ff5c8525ecab02c08ad0503b7c5",
+      "table_file": "original/2026-05-transactions.html",
+      "table_sha256": "e122b755ef75abb7461e006c2a56b4acf09df3b50dd26ffc4b5eb3e59f3e8752",
+      "normalized_file": "months/2026-05.json",
+      "normalized_sha256": "68b0b36ed68769fcfd7fa01430c5a906c536d3cdf77316af7cd6fba06609f337",
+      "mainboard_rows": 1495,
+      "all_security_rows": 4086,
+      "query_receipts": [
+        {
+          "request_file": "queries/ac039a978f11cac311f935b46db3eaa34225d0de17f7030ef6d78203fa6d5a25/request.json",
+          "request_sha256": "0af909833a0fd14fccce72c5f2e18064baf6929f5828663145af70d4ac7251d8",
+          "reserved_file": "queries/ac039a978f11cac311f935b46db3eaa34225d0de17f7030ef6d78203fa6d5a25/reserved-1.json",
+          "reserved_sha256": "530f221d19232587eca895e0d21ea568b7da884db0e8ed3f1d5cfa30607249cb",
+          "response_file": "queries/ac039a978f11cac311f935b46db3eaa34225d0de17f7030ef6d78203fa6d5a25/response-1.json",
+          "response_sha256": "ce677e95f036716bef32eadcb4338afb9f93819fd757734e08551828916d2280"
+        },
+        {
+          "request_file": "queries/1ad0bf10f789d7c607af7aaeae0589bdcfdc651f6c5b6fcdd224425da5fbacd6/request.json",
+          "request_sha256": "4efc6299699feb1151584654ffcb1cad47e9ece3acd2a2698f6d54fca4761042",
+          "reserved_file": "queries/1ad0bf10f789d7c607af7aaeae0589bdcfdc651f6c5b6fcdd224425da5fbacd6/reserved-1.json",
+          "reserved_sha256": "2f5452a1ee49ad7f22a37d5e1b24f0dc9f31e29abd35a4a1c51055224931dc4a",
+          "response_file": "queries/1ad0bf10f789d7c607af7aaeae0589bdcfdc651f6c5b6fcdd224425da5fbacd6/response-1.json",
+          "response_sha256": "5046f4ebe758de7eeb29d6c178e73d3d01f2406225befb456c62c4befe6308bd"
+        }
+      ]
+    },
+    "2026-06": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20260706_621517.html",
+      "table_url": "https://docs.static.szse.cn/www/market/periodical/month/W020260706503109228652.html",
+      "article_file": "original/2026-06-article.html",
+      "article_sha256": "ba9f8ef6c43969adea7102af610500a41c177513f485c39902f791d1601996c3",
+      "table_file": "original/2026-06-transactions.html",
+      "table_sha256": "ae9d263e8b1931e0c05146f59dfe93010fff06531eb4314bf275ea02c9f716ed",
+      "normalized_file": "months/2026-06.json",
+      "normalized_sha256": "b9a1ece225c04d4395bd0adf9042e7c1f36500470b3e3bc7f578574cf50fbe84",
+      "mainboard_rows": 1496,
+      "all_security_rows": 4112,
+      "query_receipts": [
+        {
+          "request_file": "queries/09ed78229031a3e92e8fca01e3c160b1bd20c7e275bb5c863f83bea7af5c166e/request.json",
+          "request_sha256": "71d4ed72641e53ea881e65e35bdd70ffd8c0f9d4b6dfcb5b597a6f2b51c6fd37",
+          "reserved_file": "queries/09ed78229031a3e92e8fca01e3c160b1bd20c7e275bb5c863f83bea7af5c166e/reserved-1.json",
+          "reserved_sha256": "f6708290f53a9f2b95d419dfa3fa1c52fee7e85aec386aa2169e64f6c3bf7ac5",
+          "response_file": "queries/09ed78229031a3e92e8fca01e3c160b1bd20c7e275bb5c863f83bea7af5c166e/response-1.json",
+          "response_sha256": "ad5a22a4f62d3bd0a8b00cbade7ba118c4b99f95e7e09b25a327f10dd0215bf4"
+        },
+        {
+          "request_file": "queries/c57d7816b14c478b030aa7e9af32d04bdd6c4fe35e795741f6316d2eb4379f78/request.json",
+          "request_sha256": "7a56d19b002eebd74ca1c3884b807c37e54568faedf180e955f811bf2f55a5ac",
+          "reserved_file": "queries/c57d7816b14c478b030aa7e9af32d04bdd6c4fe35e795741f6316d2eb4379f78/reserved-1.json",
+          "reserved_sha256": "82e46f0445ac5a8590bb5cb4450f0edfb6778ad974b480b637f666ec6e165b74",
+          "response_file": "queries/c57d7816b14c478b030aa7e9af32d04bdd6c4fe35e795741f6316d2eb4379f78/response-1.json",
+          "response_sha256": "9666348d901d09113948e00a0e722ec0da6715f3f6b7b32b711acb02e8d15346"
+        }
+      ]
+    },
+    "2026-07": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20260806_622028.html",
+      "table_url": "https://docs.static.szse.cn/www/market/periodical/month/W020260806351615299787.html",
+      "article_file": "original/2026-07-article.html",
+      "article_sha256": "8b7dcc3b00597abce973fd8c82e561ffa58b217a82a433aa6d9ccca2c1583418",
+      "table_file": "original/2026-07-transactions.html",
+      "table_sha256": "c70ea7ceb4fedcf8e06593bef14d15998c8c80c0b7bf952d9449bd19a37bf6dc",
+      "normalized_file": "months/2026-07.json",
+      "normalized_sha256": "76c5228b45b6d42994b98d7bb260090d092b1c09b0c6fbb96e37eb8ef10afd72",
+      "mainboard_rows": 1496,
+      "all_security_rows": 4122,
+      "query_receipts": [
+        {
+          "request_file": "queries/46031e55d0a865885222b1ec1e7b44a9e23f0c44cd7b63568510ba484613585f/request.json",
+          "request_sha256": "e7d1f9634a5b7238634b24a7cb91c8dd9457365415c754cfd78689021d0a41f1",
+          "reserved_file": "queries/46031e55d0a865885222b1ec1e7b44a9e23f0c44cd7b63568510ba484613585f/reserved-1.json",
+          "reserved_sha256": "d4ef5b8cae3a3d5a36a17013c9642b5cda272ef4f91a04e5674c6fafb030ef0a",
+          "response_file": "queries/46031e55d0a865885222b1ec1e7b44a9e23f0c44cd7b63568510ba484613585f/response-1.json",
+          "response_sha256": "bcb1477b1e2979617abb1293fd8de7f269948ebb3925ce0733243fc0e502efc6"
+        },
+        {
+          "request_file": "queries/0014f403ad19fd4223c0e1bcc09c5a52c88baf65fbda5458f4b2aed6957ea344/request.json",
+          "request_sha256": "0d409171f90d50ab614fab99bd30e8a4d61fa2ca284d7174029858885b489356",
+          "reserved_file": "queries/0014f403ad19fd4223c0e1bcc09c5a52c88baf65fbda5458f4b2aed6957ea344/reserved-1.json",
+          "reserved_sha256": "c6912c438b3d975c13ca74f643ef3ef8cbf1200f259d10ff02fefe712ab33c3e",
+          "response_file": "queries/0014f403ad19fd4223c0e1bcc09c5a52c88baf65fbda5458f4b2aed6957ea344/response-1.json",
+          "response_sha256": "64cfdb495647459606359c2ef1c0e520dd7434b5d632994517f7d0230e1acae9"
+        }
+      ]
+    },
+    "2026-08": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20260903_622679.html",
+      "table_url": "https://docs.static.szse.cn/www/market/periodical/month/W020260903544742092263.html",
+      "article_file": "original/2026-08-article.html",
+      "article_sha256": "dc81a5095bf98fa696a183450ebc8e9f721e29b49f6868a1078992e968a8620c",
+      "table_file": "original/2026-08-transactions.html",
+      "table_sha256": "e510a9c79be549e6cf5e96bcfae2bb17225f588b11ad4c38164cbb4fe31a1711",
+      "normalized_file": "months/2026-08.json",
+      "normalized_sha256": "76406524d8ef3d9d4c293c07b3bffbe73bb5b889dacaae8b78654726bff2f4b5",
+      "mainboard_rows": 1494,
+      "all_security_rows": 4143,
+      "query_receipts": [
+        {
+          "request_file": "queries/d86cec7998dc048c2c743af2030cfacc323b94c9dff9313d977789017c158cff/request.json",
+          "request_sha256": "e17d430b561040001b3aa2a4c829687eadf4ed94b728549c29387915cb55ecc9",
+          "reserved_file": "queries/d86cec7998dc048c2c743af2030cfacc323b94c9dff9313d977789017c158cff/reserved-1.json",
+          "reserved_sha256": "afb4c8431724aed73f9a8d882545c955c5f70ade18554e84474476e458bbb2f9",
+          "response_file": "queries/d86cec7998dc048c2c743af2030cfacc323b94c9dff9313d977789017c158cff/response-1.json",
+          "response_sha256": "2cea05785df83f9b58184f8dce26df728bdf6a3a5218fb63dc316533d61e58ee"
+        },
+        {
+          "request_file": "queries/7dda6a5cdf19ad8ff6439ad2e78b29647e111b4f5eb1f3be6d55400e97fdbac2/request.json",
+          "request_sha256": "762e21ec273eef6b9214eae3719db3c2909496b1d007d6bb124cae3e8af4eeb4",
+          "reserved_file": "queries/7dda6a5cdf19ad8ff6439ad2e78b29647e111b4f5eb1f3be6d55400e97fdbac2/reserved-1.json",
+          "reserved_sha256": "50c8b7a9713ae12c70694ce2f5b4a26e55c14d9b23f0065fda7fe9afb995fb35",
+          "response_file": "queries/7dda6a5cdf19ad8ff6439ad2e78b29647e111b4f5eb1f3be6d55400e97fdbac2/response-1.json",
+          "response_sha256": "af2d54d02f87aafd4465f492f4336b4954293f42b63529719883ee48fa19f0a1"
+        }
+      ]
+    }
+  },
+  "journal_artifact_sha256": {
+    "queries/0014f403ad19fd4223c0e1bcc09c5a52c88baf65fbda5458f4b2aed6957ea344/request.json": "0d409171f90d50ab614fab99bd30e8a4d61fa2ca284d7174029858885b489356",
+    "queries/0014f403ad19fd4223c0e1bcc09c5a52c88baf65fbda5458f4b2aed6957ea344/reserved-1.json": "c6912c438b3d975c13ca74f643ef3ef8cbf1200f259d10ff02fefe712ab33c3e",
+    "queries/0014f403ad19fd4223c0e1bcc09c5a52c88baf65fbda5458f4b2aed6957ea344/response-1.json": "64cfdb495647459606359c2ef1c0e520dd7434b5d632994517f7d0230e1acae9",
+    "queries/09ed78229031a3e92e8fca01e3c160b1bd20c7e275bb5c863f83bea7af5c166e/request.json": "71d4ed72641e53ea881e65e35bdd70ffd8c0f9d4b6dfcb5b597a6f2b51c6fd37",
+    "queries/09ed78229031a3e92e8fca01e3c160b1bd20c7e275bb5c863f83bea7af5c166e/reserved-1.json": "f6708290f53a9f2b95d419dfa3fa1c52fee7e85aec386aa2169e64f6c3bf7ac5",
+    "queries/09ed78229031a3e92e8fca01e3c160b1bd20c7e275bb5c863f83bea7af5c166e/response-1.json": "ad5a22a4f62d3bd0a8b00cbade7ba118c4b99f95e7e09b25a327f10dd0215bf4",
+    "queries/1895ef288c7e352e9356a6da9a8613ca650616353b226883f451195f96e2bc72/request.json": "a2f4c5f99a90114ae9a2d61fda439d7d84f1b3eb1298706a22720414e8d29706",
+    "queries/1895ef288c7e352e9356a6da9a8613ca650616353b226883f451195f96e2bc72/reserved-1.json": "b37fd32566c268bc73a135e20da73e4860a3c0b233baa5be606265e84120f789",
+    "queries/1895ef288c7e352e9356a6da9a8613ca650616353b226883f451195f96e2bc72/response-1.json": "388cfb369c95189287b55d4e0635b54c2f07e9f4f1ae65542ab52581192e0fc2",
+    "queries/1ad0bf10f789d7c607af7aaeae0589bdcfdc651f6c5b6fcdd224425da5fbacd6/request.json": "4efc6299699feb1151584654ffcb1cad47e9ece3acd2a2698f6d54fca4761042",
+    "queries/1ad0bf10f789d7c607af7aaeae0589bdcfdc651f6c5b6fcdd224425da5fbacd6/reserved-1.json": "2f5452a1ee49ad7f22a37d5e1b24f0dc9f31e29abd35a4a1c51055224931dc4a",
+    "queries/1ad0bf10f789d7c607af7aaeae0589bdcfdc651f6c5b6fcdd224425da5fbacd6/response-1.json": "5046f4ebe758de7eeb29d6c178e73d3d01f2406225befb456c62c4befe6308bd",
+    "queries/2951074235b4240b1ffbb7ac101d6a59c9ea154329f6fbcef614e3404cf707dd/request.json": "252c45e712e7dfabd1c48ed80ec03befa0795a849467a2dcbc071d5b1fbc64fe",
+    "queries/2951074235b4240b1ffbb7ac101d6a59c9ea154329f6fbcef614e3404cf707dd/reserved-1.json": "11970208221a5c2019d42e02b8bab18a6c9a195d20be7ebc36eaff166f63167a",
+    "queries/2951074235b4240b1ffbb7ac101d6a59c9ea154329f6fbcef614e3404cf707dd/response-1.json": "b93321fb5958d2bea96a15b783821e31caf508dcf8cbcb3d5b4719dc0afdc0f8",
+    "queries/303980c4d3c166161a06d8960d0992ebca3a2a7b10cb0a3f28b394333dc28ba9/request.json": "000ee4a68ea42de7f24407b20ee9e1b292527cf76d8882f096068e3f9511915f",
+    "queries/303980c4d3c166161a06d8960d0992ebca3a2a7b10cb0a3f28b394333dc28ba9/reserved-1.json": "c9d335376ca6a8e1af30f4e3fc05761addbaa9908ef5c9545a73ff904f4f78d5",
+    "queries/303980c4d3c166161a06d8960d0992ebca3a2a7b10cb0a3f28b394333dc28ba9/response-1.json": "0f8abe41cf46dc1e65c7a6b1f052ddfb2da4229f4fad85190f047a023c42b9ac",
+    "queries/3bc5870324a9642c642883786d10244d481ffafd610e8cfb22aecb3f73a9032d/request.json": "c1fac0113dfca6e980b29253121bf98121c2a02bd241c0d1efb1097fb86bb0b2",
+    "queries/3bc5870324a9642c642883786d10244d481ffafd610e8cfb22aecb3f73a9032d/reserved-1.json": "a55f22ab0ad5d4489a1430e6af8c080516335ee4aabc0cf9e46205ed7a7f00fb",
+    "queries/3bc5870324a9642c642883786d10244d481ffafd610e8cfb22aecb3f73a9032d/response-1.json": "8af3cc09b36c904316c8679dff022241878447602366e84675a0830378290342",
+    "queries/44a364f6c07c97e544317ff685b8ca7d739c839ad6dcd76e6b14c0d589f3208e/request.json": "c11fe5c63edca1709e0a2d30f8b8a4f3826c2add61428e44b8b5a0755560acc5",
+    "queries/44a364f6c07c97e544317ff685b8ca7d739c839ad6dcd76e6b14c0d589f3208e/reserved-1.json": "db8fdfcc899e33f7042db31bd56a9ae68cf288b72c87241360116a35be45df1c",
+    "queries/44a364f6c07c97e544317ff685b8ca7d739c839ad6dcd76e6b14c0d589f3208e/response-1.json": "157b07feca6bab243e1fa32d9c3b766d0a98415f5d33b9619e4038b2777dc935",
+    "queries/45f83462d559c3efbebb925800ad09a60cb35972adc4693f41b9cf74e4d7fd1b/request.json": "6f9707217c290920cdc5538182cb51597084aea47bd20b1a60c646a532321ae3",
+    "queries/45f83462d559c3efbebb925800ad09a60cb35972adc4693f41b9cf74e4d7fd1b/reserved-1.json": "b5312a144095eda06ae81da19cbc7422aae7f67d499df72381d59deea80fd623",
+    "queries/45f83462d559c3efbebb925800ad09a60cb35972adc4693f41b9cf74e4d7fd1b/response-1.json": "90bedf282cd329dfcf45d2d8865dbd8cc3ead407930046b8339d9d918d401443",
+    "queries/46031e55d0a865885222b1ec1e7b44a9e23f0c44cd7b63568510ba484613585f/request.json": "e7d1f9634a5b7238634b24a7cb91c8dd9457365415c754cfd78689021d0a41f1",
+    "queries/46031e55d0a865885222b1ec1e7b44a9e23f0c44cd7b63568510ba484613585f/reserved-1.json": "d4ef5b8cae3a3d5a36a17013c9642b5cda272ef4f91a04e5674c6fafb030ef0a",
+    "queries/46031e55d0a865885222b1ec1e7b44a9e23f0c44cd7b63568510ba484613585f/response-1.json": "bcb1477b1e2979617abb1293fd8de7f269948ebb3925ce0733243fc0e502efc6",
+    "queries/53ac3d7a5c473ead849bab0af2bb064b258e950e41fe1578d53089b15a970627/request.json": "235599b3b88b7441dc4ef05f02a7efae5d18e2ca4544ace5a94ef77b18116ca5",
+    "queries/53ac3d7a5c473ead849bab0af2bb064b258e950e41fe1578d53089b15a970627/reserved-1.json": "aec95ddde4b15dbd519dd0e2ca8bad9e9a6f58d53b5a9eff24a7d57f89185d61",
+    "queries/53ac3d7a5c473ead849bab0af2bb064b258e950e41fe1578d53089b15a970627/response-1.json": "7f3d141e7fc7b56da9458f20eeab98ee98571e21e376c01109465ad4d749c5d4",
+    "queries/53dfe9189903f32a55482a7853f583f4996af9b8b09582c4b1ffb66b01e05e5e/request.json": "2cb863be1a4c16007a81fa6a69a7ff1caab65be6e6636696391dff772737c6bc",
+    "queries/53dfe9189903f32a55482a7853f583f4996af9b8b09582c4b1ffb66b01e05e5e/reserved-1.json": "7f56286cee00872ad439843393952fcdf66483e0cacfac8aa1d4faa8d0aa4771",
+    "queries/53dfe9189903f32a55482a7853f583f4996af9b8b09582c4b1ffb66b01e05e5e/response-1.json": "30b3b9f64e3f84c6d28a6c353df81fba9c6698280374d106f8fc902dbfbb1b48",
+    "queries/7dda6a5cdf19ad8ff6439ad2e78b29647e111b4f5eb1f3be6d55400e97fdbac2/request.json": "762e21ec273eef6b9214eae3719db3c2909496b1d007d6bb124cae3e8af4eeb4",
+    "queries/7dda6a5cdf19ad8ff6439ad2e78b29647e111b4f5eb1f3be6d55400e97fdbac2/reserved-1.json": "50c8b7a9713ae12c70694ce2f5b4a26e55c14d9b23f0065fda7fe9afb995fb35",
+    "queries/7dda6a5cdf19ad8ff6439ad2e78b29647e111b4f5eb1f3be6d55400e97fdbac2/response-1.json": "af2d54d02f87aafd4465f492f4336b4954293f42b63529719883ee48fa19f0a1",
+    "queries/802630783bccbf2c7750f62df32cc33e8ac2d2074ba7a314e14968d905c13665/request.json": "3be57ce905dcd14970f510ea3e1ddf558a4388b0f79fc47ebbb28ac448001917",
+    "queries/802630783bccbf2c7750f62df32cc33e8ac2d2074ba7a314e14968d905c13665/reserved-1.json": "830d655be66c2738b2a6410aeea5ec332ccef76a4ce53d67738ded492f49f4ce",
+    "queries/802630783bccbf2c7750f62df32cc33e8ac2d2074ba7a314e14968d905c13665/response-1.json": "0fef9ce55324b8cadff412ca1923f5ffb69bcfc25a26266ce3781841649e813a",
+    "queries/ac039a978f11cac311f935b46db3eaa34225d0de17f7030ef6d78203fa6d5a25/request.json": "0af909833a0fd14fccce72c5f2e18064baf6929f5828663145af70d4ac7251d8",
+    "queries/ac039a978f11cac311f935b46db3eaa34225d0de17f7030ef6d78203fa6d5a25/reserved-1.json": "530f221d19232587eca895e0d21ea568b7da884db0e8ed3f1d5cfa30607249cb",
+    "queries/ac039a978f11cac311f935b46db3eaa34225d0de17f7030ef6d78203fa6d5a25/response-1.json": "ce677e95f036716bef32eadcb4338afb9f93819fd757734e08551828916d2280",
+    "queries/c4ace8ada5aabd4576068ec0675e6347873972f062f5335b7dc3e0934059ed01/request.json": "3b6404c92bb5fc8691c044ce97f850cf46733de1b5e86306284ff542622d95f6",
+    "queries/c4ace8ada5aabd4576068ec0675e6347873972f062f5335b7dc3e0934059ed01/reserved-1.json": "7977d4c684090c7867d8cfc991839d5ab2401dfb3a0e6e1372eb9293c8169347",
+    "queries/c4ace8ada5aabd4576068ec0675e6347873972f062f5335b7dc3e0934059ed01/response-1.json": "0d2510188593d1eff03a29540d799705ddf1e6a054d59b95cf5ac03e91f25014",
+    "queries/c57d7816b14c478b030aa7e9af32d04bdd6c4fe35e795741f6316d2eb4379f78/request.json": "7a56d19b002eebd74ca1c3884b807c37e54568faedf180e955f811bf2f55a5ac",
+    "queries/c57d7816b14c478b030aa7e9af32d04bdd6c4fe35e795741f6316d2eb4379f78/reserved-1.json": "82e46f0445ac5a8590bb5cb4450f0edfb6778ad974b480b637f666ec6e165b74",
+    "queries/c57d7816b14c478b030aa7e9af32d04bdd6c4fe35e795741f6316d2eb4379f78/response-1.json": "9666348d901d09113948e00a0e722ec0da6715f3f6b7b32b711acb02e8d15346",
+    "queries/d86cec7998dc048c2c743af2030cfacc323b94c9dff9313d977789017c158cff/request.json": "e17d430b561040001b3aa2a4c829687eadf4ed94b728549c29387915cb55ecc9",
+    "queries/d86cec7998dc048c2c743af2030cfacc323b94c9dff9313d977789017c158cff/reserved-1.json": "afb4c8431724aed73f9a8d882545c955c5f70ade18554e84474476e458bbb2f9",
+    "queries/d86cec7998dc048c2c743af2030cfacc323b94c9dff9313d977789017c158cff/response-1.json": "2cea05785df83f9b58184f8dce26df728bdf6a3a5218fb63dc316533d61e58ee",
+    "queries/ddf1fcd05e2f7faa0eec86237485fcd3f1fa08f946394cb95d054bd939499477/request.json": "4b6197a781f367d43b3d392c8bc0cee51c068a49a4cb4a621335003bda8c5619",
+    "queries/ddf1fcd05e2f7faa0eec86237485fcd3f1fa08f946394cb95d054bd939499477/reserved-1.json": "3bac8f349f3cc64b3160852eb795812b812550215261f40cc99364624eac5533",
+    "queries/ddf1fcd05e2f7faa0eec86237485fcd3f1fa08f946394cb95d054bd939499477/response-1.json": "cec1a36c6d1d671273366d44e8a620f2db5b7c17b8423f74cd1db75687e45631",
+    "queries/fff863d5848ad22cfc1c14d59cf03fc156d28dfe9b9e05da730d1551e114691a/request.json": "e66df1ca38bf89902a1ca67d1cff785a161e28b32cdf3375c37aa8d177cea396",
+    "queries/fff863d5848ad22cfc1c14d59cf03fc156d28dfe9b9e05da730d1551e114691a/reserved-1.json": "47e3b6794cd3612fe9659392fc15cd0679b4d1057f7dc7c6bb74e7e3d338e401",
+    "queries/fff863d5848ad22cfc1c14d59cf03fc156d28dfe9b9e05da730d1551e114691a/response-1.json": "219faeb438531b9a4d6741499e936a1e88d1a1ba53ae91674cb2928258349ffd"
+  },
+  "query_attempt_reservations": 20,
+  "historical_arrival_verified": false,
+  "filename_date_is_measured_publication": false,
+  "2026_market_values_queried": true,
+  "strategy_returns_computed": false,
+  "claim_status": "ORIGINAL_MONTHLY_TABLES_WITH_DECLARED_AVAILABILITY_CONVENTION_NOT_VERIFIED_PIT",
+  "objective_achieved": false
+}

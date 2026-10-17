@@ -1,0 +1,42 @@
+{
+  "status": "FROZEN_BEFORE_SZSE_VALUE_2026_TARGETS",
+  "strategy": "szse_monthly_low_pe",
+  "parent_commit": "18a9b4d",
+  "target_end": "2026-10-13",
+  "planned_account_end": "2026-10-16",
+  "raw_development_plan_sha256": "df1e0b6dcaf3fe7741cd1683376b690f99265ebb1bc039709893f637105cd889",
+  "original_screen_plan_sha256": "5285108092a38d9ddcbf26703dd3e14ceab291dce696861c220623c09d402f5d",
+  "raw_development_summary_sha256": "bf1920d527a663eb2966365b243a9d2784c23d7f5364dda97fa49978e18d3444",
+  "raw_development_audit_sha256": "1897db163ead99130941c8490f3ed1e81d4070bb58ea1ac201c4573d1e6e6d87",
+  "initial_family_targets_sha256": "365958745fd932b4f7036d10721bb1a435d82d21969cd813b384cc6eea916102",
+  "initial_formation_receipts_sha256": "8e7a24110017864ebb65cb46c71a6bb099bd7c2556f1478848d526abd44b6247",
+  "input_sha256": {
+    "price_files": "1d4c466105a98ba27261db43628a86edaf14fb3072db6ffcbd50ef556975001a",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "development_monthly_manifest_sha256": "d88866cb365d9bf19dd5eaa9c5bde140a396d9ad6ee3f779ba1937a0307aea28",
+  "extension_monthly_manifest_sha256": "baa3f83d9cefc9fbb91247ec908c6954946a6520b19fc1e5c2424b063cc1ca40",
+  "method_code_sha256": {
+    "scripts/prepare_szse_value_frozen_2026_targets.py": "1c51a0e3bc8340f04954b4be86c8b2170381c28583c1e3ef69aa666b860e72b9",
+    "src/stock_rsi/exchange_value.py": "6c77c661930a138a0cef47bb254bf23a4cd9b6748c7c330361c1870b1cb369e0",
+    "src/stock_rsi/exchange_value_extended.py": "3463f2865966a1bcf8f6aea923b57366ff5d315637759046c6de8d798ba70a74",
+    "src/stock_rsi/szse_monthly.py": "c3ad059f06694401f4027c592cc71387808c129523a54992f086d0205588a8ef",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "scripts/run_low_risk_intraday_replay.py": "801e6abf71eba6ec50d37dcb2782c00a1308406fb1bb6a5e762d72f20dacdfd4",
+    "scripts/run_qlib_low_risk_goal_diagnostic_2026.py": "2f50584bb898da8b49a5f28196d36397c0262d3b1064b902647d5c622eec64a4",
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab"
+  },
+  "change_scope": "Separate extended module, AST date-cap permission only. All originally tested dependencies unchanged; full24-month dual target and formation prefix must reproduce.",
+  "new_alpha_variants": 0,
+  "2026_strategy_returns_read": false,
+  "capital_or_participation_selection_from_2026": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}
