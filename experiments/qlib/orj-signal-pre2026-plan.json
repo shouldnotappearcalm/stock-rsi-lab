@@ -1,0 +1,34 @@
+{
+  "experiment_id": "cninfo-orj-signal-pre2026-v1",
+  "status": "PRE_REGISTERED_BEFORE_FORWARD_RETURN_READ",
+  "candidate_budget": 1,
+  "source_hypothesis": "Lan et al. (2024), A-share post-earnings-announcement drift; local adaptation, not paper replication",
+  "source_paper": "https://doi.org/10.1016/j.irfa.2024.103460",
+  "development_window": ["2024-01-01", "2025-12-31"],
+  "historical_universe": "point-in-time CSI500 main-board constituent on the signal day",
+  "event": "one unambiguous original annual, Q1, half-year, or Q3 report per company and fiscal year",
+  "availability": "announcement timestamp treated as date-only; visible after announcement-day close",
+  "signal": "next trading session opening price / previous trading session close - 1",
+  "same_stock_same_signal_day": "count once",
+  "entry": "close of the trading session after the opening-response observation",
+  "exit_horizons_sessions": {"primary": 60, "secondary": 20},
+  "comparison": "event stock adjusted-close return minus CSI500 adjusted-close return minus 0.002 round-trip cost",
+  "buckets": ["positive overnight response", "nonpositive overnight response"],
+  "development_lead_gate": {
+    "minimum_positive_events": 100,
+    "minimum_positive_distinct_signal_days": 40,
+    "primary_60_session_date_balanced_cost_adjusted_excess_pct": "> 0",
+    "primary_60_session_positive_minus_nonpositive_excess_points": "> 0",
+    "secondary_20_session_date_balanced_cost_adjusted_excess_pct": "> 0"
+  },
+  "claim_boundary": "signal diagnostic only; no investable portfolio, annual return, or 2026 validation claim",
+  "input_sha256": {
+    "cninfo_capture_manifest": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+    "baostock_adjustment_manifest": "bdd17e0567e8c22197cbc4e17765f2cb7ab7378cb8d1465a0d48cb120ec6e225",
+    "event_price_admission": "56e1b313f39eab862f00849ac00b1200969881f7442a76b66a71dbd451f6fd79",
+    "csi500_instruments": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "qlib_calendar": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "qlib_price_inputs_digest": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4"
+  },
+  "2026_price_or_return_accessed": false
+}
