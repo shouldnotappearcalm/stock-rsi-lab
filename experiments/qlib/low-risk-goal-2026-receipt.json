@@ -1,0 +1,55 @@
+{
+  "status": "FROZEN_BEFORE_GOAL_2026_DIAGNOSTIC",
+  "candidate": "low_vol36",
+  "end": "2026-10-13",
+  "maximum_2026_diagnostics": 1,
+  "user_requirement": "2024-2025都得赚钱，今年1-10也得10%+",
+  "scope": "Single user-goal diagnostic of the exact candidate; not preregistered research promotion",
+  "original_research_gate_status": "REJECTED",
+  "original_research_promotion_allowed": false,
+  "protocol_exception_disclosed": true,
+  "protocol_exception_reason": "The additional relative-control worst-year hurdle was set by the agent, not required by the user. Preserve that failed gate; separately diagnose the explicit user objective after both development years are profitable. Do not change the factor, weights, transactions or the failed research record.",
+  "parent_development_summary_sha256": "a48df406a146eee1aac2d7f49d1744f4e1dc88cda7cc4fa9334ba2c9607bcb42",
+  "parent_source_commit": "e76b799",
+  "pre_development_plan_sha256": "f9e722968259e30da79d52c4456fb238fa98d23ba7f2ec7bc17a7dda6a08b432",
+  "economic_core_sha256": {
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f"
+  },
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_qlib_low_risk_goal_diagnostic_2026.py": "2f50584bb898da8b49a5f28196d36397c0262d3b1064b902647d5c622eec64a4",
+    "scripts/run_qlib_roll1_frozen_2026.py": "97b48e7ff66e6154b566bb11bd12bf5c1d7bf5bc62bdc4564001c1e0f9f423c1"
+  },
+  "input_sha256": {
+    "price_files": "1d4c466105a98ba27261db43628a86edaf14fb3072db6ffcbd50ef556975001a",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "runtime_versions": {
+    "pyqlib": "0.9.8",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "baostock": "0.9.4"
+  },
+  "account": "Continuous initial 100m CNY account from 2024-01-02, no 2026 reset",
+  "2026_interval": [
+    "2026-01-05",
+    "2026-10-13"
+  ],
+  "target_2026_net_compound_pct": 10,
+  "2026_data_previously_consumed_by_other_experiments": true,
+  "this_candidate_2026_returns_read_before_registration": false,
+  "2026_feedback_to_new_variants": false,
+  "complete_October_available": false,
+  "claim_limit": "Consumed diagnostic, not sealed evidence; original research gate remains rejected; legal limits/arrival/auction/impact are not fully verified"
+}

@@ -1,0 +1,101 @@
+{
+  "status": "PRE2026_DEVELOPMENT_ONLY",
+  "candidate_budget": 1,
+  "start": "2024-01-02",
+  "end": "2025-12-31",
+  "strategy": "monthly lowest decile of 36 monthly-return volatility",
+  "universe": "historical CSI500 main-board constituents, 36 complete monthly returns, equal-weight CNY",
+  "exposure_target": 0.95,
+  "decision_clock": "one daily step; first session of month uses prior-close fixed quantities",
+  "execution": "next-session open proxy; direction-specific 9.5% opening price-limit proxy",
+  "development_gate_status": "REJECTED",
+  "development_gate": "Both full 2024/2025 net >0; mean exposure >=90%; worst-year net > eligible EW control; lower annualized daily net volatility than that control; no unexplained held marks after independent suspension verification.",
+  "results": {
+    "eligible_equal_weight": {
+      "sessions": 485,
+      "net_compound_return_pct": 34.024921274969834,
+      "net_annualized_pct": 15.734185952280688,
+      "net_daily_volatility_annualized_pct": 20.327383272184598,
+      "max_drawdown_pct": -17.90708235376347,
+      "average_exposure_pct": 94.63660178051349,
+      "cost_pct_initial": 0.250540156338146,
+      "turnover_x_initial": 2.9220561564962804,
+      "final_account": 134024921.27497004,
+      "2024_return_pct": 9.085135696836488,
+      "2025_return_pct": 22.862680069853525,
+      "unverified_held_marks": 0,
+      "missing_original_close_rows": 145,
+      "verified_suspension_marks": 145,
+      "orders": 8627,
+      "all_monthly_decisions_match_prior_close_inventory_and_equity": true,
+      "unfilled_orders": 418,
+      "artifact_sha256": {
+        "days.csv": "50dbd44ed0758bf050fc71c0df29077b99b75dd4465666d77fba807e88279260",
+        "decision_intents.json": "71b0ae724cdd2c0aff83599594aeb65af0e67160e69cf373ba6768a7c02c289d",
+        "holdings.csv": "2ed495341db9a45427d06e85612b3387a439f6e5c644feea4334bff4144a670a",
+        "orders.csv": "c9844ad8147c51d8a16be90de2bbba95d392b2d949267c0f79c30b1c43fa47bc",
+        "positions.pkl": "cdbe81485fa28e8cfef4b7a23886286af0b969b70777045d7fe3b40ec2157e46",
+        "report.pkl": "f4b92d409e69e039de5cbf35837c746030169faa4c090a9c839032059b0b0cda",
+        "suspension_mark_audit.json": "71b08af49063184aaff55d30a05880858e35c990e6fb150100f71bd89b481524"
+      }
+    },
+    "low_vol36": {
+      "sessions": 485,
+      "net_compound_return_pct": 31.710582074517134,
+      "net_annualized_pct": 14.732647245573016,
+      "net_daily_volatility_annualized_pct": 16.687855461197255,
+      "max_drawdown_pct": -13.8164513368077,
+      "average_exposure_pct": 94.54883267148479,
+      "cost_pct_initial": 0.4844031249340611,
+      "turnover_x_initial": 5.3078570045461175,
+      "final_account": 131710582.0745171,
+      "2024_return_pct": 21.100987603582677,
+      "2025_return_pct": 8.76094793352522,
+      "unverified_held_marks": 0,
+      "missing_original_close_rows": 10,
+      "verified_suspension_marks": 10,
+      "orders": 922,
+      "all_monthly_decisions_match_prior_close_inventory_and_equity": true,
+      "unfilled_orders": 23,
+      "artifact_sha256": {
+        "days.csv": "045f185adf7ab2588efd952aef39fa82c1434649ce57356cc777a87370e101ee",
+        "decision_intents.json": "71a1e77b3c6c1abed0dee901bbf2842c1a010b7720ba117e721dbfbfddb0af98",
+        "holdings.csv": "4bfeff5018a74ad6012ad89a15620fb636edfb7e9e2e56e0ea8832cf55b3da96",
+        "orders.csv": "53c2ac04bc852ffd98af06afcea9892a3aeec38ad8d3547cd83b476109f7ba35",
+        "positions.pkl": "7ec6a6a8c45703b3f942775b417d3fe9bfe8a379925ac23a55b7b93d630e867f",
+        "report.pkl": "8889dd99e1e0999aeffc33b83d23a08217e336523d9a33ccac7e0296326d20a8",
+        "suspension_mark_audit.json": "50ad1e51c0b1bd089f735ee7e34950e686fb1fbd99272fae8c85285dac0a03c0"
+      }
+    }
+  },
+  "input_sha256": {
+    "price_files": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "plan_sha256": "f9e722968259e30da79d52c4456fb238fa98d23ba7f2ec7bc17a7dda6a08b432",
+  "gap_state_manifest_sha256": "257f3266d366bcc0c3452329efaae23086940394a3d9368b3fa943df2d311fc7",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345"
+  },
+  "formation_receipts_sha256": "65f98ab2188874d443879c6e017f0c6d730d37e76481007e70be6f28eefaac64",
+  "targets_sha256": "f0e8c10d476f67abdcd2da5b5a1832fd9b9cb927591f5e28cbd7e9cd02363977",
+  "formation_months": 24,
+  "decision_boundary": "no execution-session quote or tradability query during order generation",
+  "2026_market_values_queried": false,
+  "2026_target_status": "NOT_EVALUATED",
+  "claim_status": "REAL_PRICE_ENGINEERING_ONLY_NOT_SEALED_NOT_FULL_PIT",
+  "remaining_execution_limits": [
+    "unverified legal ST limits and historical membership versions",
+    "daily-bar suspension/first-trade price is not verified 09:30 auction data",
+    "no queue, opening liquidity or market-impact model"
+  ]
+}
