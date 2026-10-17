@@ -1,0 +1,60 @@
+{
+  "status": "FROZEN_BEFORE_REVERSAL_INTRADAY_DEV_OUTCOMES",
+  "strategy": "contrarian60_12",
+  "parent_commit": "d264969",
+  "start": "2024-01-02",
+  "end": "2025-12-31",
+  "participation_bps": [
+    100,
+    500,
+    1000
+  ],
+  "extra_bps": [
+    0,
+    5,
+    10,
+    20,
+    40
+  ],
+  "capitals": [
+    "100000",
+    "1000000",
+    "10000000",
+    "100000000"
+  ],
+  "reference_CNY": "1000000",
+  "user_selected_capital_CNY": null,
+  "confirmation_rule": "At1m/40bp all three participation levels must have2024>0,2025>0, average2024/25 exposure>=90% and verified zero share entitlements. No participation level selected from outcomes.",
+  "target_sha256": "171022a2b368b0a2520b2c66fdbaf5843fe3e842d2770515c16a362447dee925",
+  "raw_manifest_sha256": "53250d4b726f8b54f5e2eafa516b7587e5acd01a6605c4be6457fdc5073263d7",
+  "proof_manifest_sha256": "a77d0caf8788616fee773c1c4e5a0b9614956cbd0f79732644fee0b0b85b1bd8",
+  "old_tape_manifest_sha256": "def299b792b608f862b3bbc1258195e0b12154c753156625e1a8ec95c4784205",
+  "extra_tape_manifest_sha256": "f0db11d9c96bebd1f3ba2aebb095f9d95e454fa3fe3c5f1231a0855cddb7dc6c",
+  "minute_admission_sha256": "3e108299c65960874d8b978e5c25dd96c45c25867224d377a4b382b62e46834e",
+  "method_code_sha256": {
+    "scripts/run_low_risk_intraday_replay.py": "801e6abf71eba6ec50d37dcb2782c00a1308406fb1bb6a5e762d72f20dacdfd4",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_broker.py": "0e268152b9bec87e865d09e2cb9acc25cb7c2cccb484044145381bca247e00c3",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/run_reversal_intraday_development.py": "496cfaf5aac3cfeea94d49936a7566b68cf88765066a1aa01490073c5b39d71b",
+    "scripts/return_family_development_inputs.py": "87418d4b1c395d765a19f87ee67ad5b0d1e46d59d2a52fbbc3c326d65d32c69b",
+    "scripts/capture_frozen_target_development_data.py": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d",
+    "src/stock_rsi/return_families.py": "0b20702c7c2dd659a80400046a81bff3d735ea18176de360d702b713d849bf62",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac"
+  },
+  "screen_summary_sha256": "a885414df5865b090c298c87bd9b78ad21c1524ecdbc9e753e69e03a2548437a",
+  "new_alpha_variants": 0,
+  "new_2026_strategy_returns_queried": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}

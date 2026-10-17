@@ -1,0 +1,43 @@
+{
+  "status": "ALL_ACTIVE_PREFIX_TAPES_ADMITTED",
+  "requests": 1965,
+  "active_admitted": 1958,
+  "halted_sessions": [
+    [
+      "SH600535",
+      "2024-08-01"
+    ],
+    [
+      "SZ000958",
+      "2024-10-08"
+    ],
+    [
+      "SH600482",
+      "2024-11-01"
+    ],
+    [
+      "SH603160",
+      "2024-12-02"
+    ],
+    [
+      "SH600208",
+      "2025-08-01"
+    ],
+    [
+      "SZ002185",
+      "2025-10-09"
+    ],
+    [
+      "SH601198",
+      "2025-12-01"
+    ]
+  ],
+  "errors": [],
+  "old_manifest_sha256": "def299b792b608f862b3bbc1258195e0b12154c753156625e1a8ec95c4784205",
+  "extra_manifest_sha256": "f0db11d9c96bebd1f3ba2aebb095f9d95e454fa3fe3c5f1231a0855cddb7dc6c",
+  "raw_manifest_sha256": "53250d4b726f8b54f5e2eafa516b7587e5acd01a6605c4be6457fdc5073263d7",
+  "volume_precision": "hands*100 less100 per minute engineering stress, not certified exact-share lower bound",
+  "price_checks": "all240 labels; last sampled close and traded price range vs raw day",
+  "2026_strategy_returns_queried": false,
+  "historical_arrival_verified": false
+}

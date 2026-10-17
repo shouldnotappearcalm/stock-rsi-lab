@@ -28,6 +28,9 @@ def prepare_events(packets,targets,proofs):
         if not supplement.get('source_file') or not supplement.get('source_sha256'):
             raise ValueError('primary notice evidence reference required')
         merged[code]['distributions'].append(row)
+    for packet in merged.values():
+        dates=[r['dividOperateDate'] for r in packet['distributions']]
+        if len(set(dates))!=len(dates):raise ValueError('same-date corporate components need primary resolution')
     # The shared canonicalizer intentionally does not support held stock dividends.
     # Keep these source rows in merged coverage evidence; build zero-only events
     # with the true share ratio and exemption=False, which fails if ever held.
