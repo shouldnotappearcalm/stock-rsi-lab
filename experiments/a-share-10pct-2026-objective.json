@@ -22,19 +22,28 @@
     "Honest labeling of consumed 2026 diagnostics and point-in-time data limitations"
   ],
   "latest_completed_campaign": {
-    "candidate": "daily-target rolling LightGBM, fixed Top100/Drop2",
-    "2024_net_pct": 14.271671508446904,
-    "2025_net_pct": 15.721972150100406,
-    "2026_available_period_net_pct": -3.0442701430702046,
+    "candidate": "36-month low volatility, historical CSI500 main-board decile, 95% monthly target",
+    "2024_net_pct": 21.100987603582677,
+    "2025_net_pct": 8.76094793352522,
+    "2026_available_period_net_pct": 12.332916588905185,
     "2026_period": [
       "2026-01-05",
       "2026-10-13"
     ],
-    "result": "FAIL_2026_NET_10PCT",
+    "result": "NUMERIC_CONDITIONS_MET_AT_AVAILABLE_CUTOFF_NOT_FULLY_VERIFIED",
     "full_requested_October_complete": false,
-    "result_file": "experiments/qlib/roll1-selected-2026-results.json",
+    "initial_capital_CNY": 100000000,
+    "result_file": "experiments/qlib/low-risk-goal-2026-results.json",
     "ledger_reconciled": true,
-    "2026_feedback_to_other_campaign_arms": false,
-    "claim_scope": "Consumed diagnostic; Qlib execution-session sizing is not a strict prior-close decision boundary"
-  }
+    "strict_investment_claim_verified": false,
+    "original_research_gate_status": "REJECTED",
+    "research_promoted": false,
+    "claim_scope": "Fixed separate user-goal diagnostic; partial October; daily open proxy and normalized inventory are not a fully verified physical-share execution account"
+  },
+  "remaining_completion_evidence": [
+    "User horizon clarification or complete requested October coverage",
+    "User capital amount for share-lot and capacity verification",
+    "Raw share/cash corporate-action accounting, legal limits, opening liquidity and execution impact verification",
+    "Consumed-2026 diagnostic cannot become sealed evidence"
+  ]
 }

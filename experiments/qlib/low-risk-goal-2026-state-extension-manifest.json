@@ -1,0 +1,11 @@
+{
+  "source": "BaoStock historical state extension, adjustflag=3",
+  "diagnostic_end": "2026-10-13",
+  "gap_names": 2,
+  "original_price_provider_modified": false,
+  "files_sha256": {
+    "SH601198.json": "f7ee6d6121f72eafbca7ff73d3d68a3f50e9195466c596277e59510c57f97e18",
+    "SZ000582.json": "965f032b1da1b5387b245eea0657cb98e08123415ce166896c9e242b4f8bdd8f",
+    "identified_gaps.json": "de5392b02fe005ee50176e05c14aadbb9f39c6aad8b709d760b13373c3ee9d4e"
+  }
+}

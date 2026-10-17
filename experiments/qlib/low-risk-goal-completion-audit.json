@@ -1,0 +1,50 @@
+{
+  "status": "NUMERIC_CANDIDATE_FOUND_COMPLETION_NOT_PROVEN",
+  "requirements": [
+    {
+      "requirement": "2024 full-year net >0",
+      "status": "PROVEN_UNDER_CURRENT_SIMULATION",
+      "value_pct": 21.100987603582677
+    },
+    {
+      "requirement": "2025 full-year net >0",
+      "status": "PROVEN_UNDER_CURRENT_SIMULATION",
+      "value_pct": 8.76094793352522
+    },
+    {
+      "requirement": "2026 January-October net >=10%",
+      "status": "PROVEN_ONLY_THROUGH_2026_10_13",
+      "value_pct": 12.332916588905185
+    },
+    {
+      "requirement": "Same frozen economic policy before this candidate 2026 replay",
+      "status": "PROVEN_BY_RECEIPT_AND_REPRODUCED_DEVELOPMENT_PREFIX"
+    },
+    {
+      "requirement": "Cash, fees, holdings and net return reconcile",
+      "status": "PROVEN_IN_NORMALIZED_UNITS_WITH_INDEPENDENT_DECIMAL_CROSSCHECK"
+    },
+    {
+      "requirement": "Real integer-share execution and corporate-action cash accounting",
+      "status": "NOT_PROVEN_NORMALIZED_FILL_MAPPING_REQUIRES_RECONCILIATION",
+      "raw_noninteger_equivalent_fills": 86
+    },
+    {
+      "requirement": "Capital-specific lot sizing and execution capacity",
+      "status": "MISSING_USER_CAPITAL_AMOUNT",
+      "current_research_capital_CNY": 100000000
+    },
+    {
+      "requirement": "Complete requested October or explicit acceptance of interim cutoff",
+      "status": "NOT_PROVEN_HORIZON_QUESTION_PENDING"
+    },
+    {
+      "requirement": "Honest consumed-2026 and research-gate labeling",
+      "status": "PROVEN_ORIGINAL_RESEARCH_GATE_REJECTED_NOT_RELABELLED"
+    }
+  ],
+  "objective_complete": false,
+  "candidate_rules_to_remain_frozen_during_validation": true,
+  "result_file": "experiments/qlib/low-risk-goal-2026-results.json",
+  "independent_ledger_file": "experiments/qlib/low-risk-independent-ledger-audit.json"
+}

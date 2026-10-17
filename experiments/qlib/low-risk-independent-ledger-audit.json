@@ -1,0 +1,50 @@
+{
+  "status": "INDEPENDENT_DECIMAL_CASH_EQUITY_RECONCILIATION_PASSED",
+  "account_sessions": 670,
+  "returns_pct_from_equity_only": {
+    "2024": 21.10098760358262,
+    "2025": 8.76094793352505,
+    "2026": 12.332916588905594
+  },
+  "original_report_hashes_verified": true,
+  "prior_session_order_dates_verified": true,
+  "arithmetic_tolerance_CNY": ".01",
+  "normalized_fill_to_raw_equivalent_audit": {
+    "noninteger_raw_equivalent_fills": 86,
+    "buy_lot_equivalent_violations": 0,
+    "sample": [
+      {
+        "session": "2024-02-01",
+        "instrument": "SZ000050",
+        "side": "SELL",
+        "raw_equivalent_units": 247681.30416027145
+      },
+      {
+        "session": "2024-03-01",
+        "instrument": "SZ002673",
+        "side": "SELL",
+        "raw_equivalent_units": 438057.6751382759
+      },
+      {
+        "session": "2024-04-01",
+        "instrument": "SZ000156",
+        "side": "SELL",
+        "raw_equivalent_units": 379756.01648197864
+      },
+      {
+        "session": "2024-05-06",
+        "instrument": "SZ000783",
+        "side": "SELL",
+        "raw_equivalent_units": 508636.4811486357
+      },
+      {
+        "session": "2024-06-03",
+        "instrument": "SH600998",
+        "side": "SELL",
+        "raw_equivalent_units": 347360.05989636626
+      }
+    ],
+    "requires_corporate_action_and_physical_share_reconciliation": true
+  },
+  "strict_investment_claim_verified": false
+}
