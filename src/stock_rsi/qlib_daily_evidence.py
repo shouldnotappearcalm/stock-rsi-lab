@@ -47,7 +47,12 @@ def reconcile_daily_evidence(report, positions, order_history, calendar, *, init
             if signal_date not in signal_days:
                 raise ValueError("order has no prior-session signal")
             values = {key: _number(order[key]) for key in (
-                "amount", "deal_amount", "trade_price", "trade_value", "trade_cost", "trade_dir")}
+                "amount", "deal_amount", "trade_value", "trade_cost", "trade_dir")}
+            unfilled = values["deal_amount"] == 0 and values["trade_value"] == 0 and values["trade_cost"] == 0
+            raw_price = order["trade_price"]
+            price = None if unfilled and pd.isna(raw_price) else _number(raw_price)
+            if price is not None and price <= 0:
+                raise ValueError("positive finite trade price required when reported")
             if values["trade_dir"] not in (0., 1.) or values["trade_cost"] < 0:
                 raise ValueError("invalid simulated order direction or cost")
             side = "BUY" if values["trade_dir"] == 1 else "SELL"
@@ -58,7 +63,8 @@ def reconcile_daily_evidence(report, positions, order_history, calendar, *, init
                                "instrument": str(symbol), "side": side,
                                "requested_normalized_units": values["amount"],
                                "filled_normalized_units": values["deal_amount"],
-                               "normalized_price": values["trade_price"],
+                               "normalized_price": price,
+                               "fill_status": "UNFILLED" if unfilled else "FILLED_OR_PARTIAL",
                                "signed_trade_value": signed_value, "cost": values["trade_cost"]})
         cost = sum(item["cost"] for item in day_orders)
         turnover = sum(abs(item["signed_trade_value"]) for item in day_orders)

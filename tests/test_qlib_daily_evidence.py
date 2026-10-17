@@ -65,3 +65,22 @@ class DailyEvidenceTests(unittest.TestCase):
         evidence = reconcile_daily_evidence(report, positions, native, calendar, initial_cash=1000.,
                                             signal_days=set(calendar))
         self.assertEqual(evidence["total_cost"], 2.)
+
+    def test_unfilled_order_may_have_unknown_price_but_filled_order_must_not(self):
+        report, positions, history, calendar = self.fixture()
+        import pandas as pd
+        day = report.index[0]
+        report = report.iloc[:1].copy()
+        report.loc[day] = [1000., 0., 0., 0.]
+        positions = {day: SimpleNamespace(get_cash=lambda include_settle:1000., get_stock_list=lambda:[])}
+        fields = {"amount":100., "deal_amount":0., "trade_price":float("nan"),
+                  "trade_value":0., "trade_cost":0., "trade_dir":1.}
+        indicator = SimpleNamespace(get_index_data=lambda key:pd.Series({"A":fields[key]}))
+        result = reconcile_daily_evidence(report, positions, {day:indicator}, calendar,
+                                          initial_cash=1000., signal_days=set(calendar))
+        self.assertIsNone(result["orders"][0]["normalized_price"])
+        self.assertEqual(result["orders"][0]["fill_status"], "UNFILLED")
+        fields["deal_amount"] = 1.
+        with self.assertRaisesRegex(ValueError, "finite"):
+            reconcile_daily_evidence(report, positions, {day:indicator}, calendar,
+                                     initial_cash=1000., signal_days=set(calendar))

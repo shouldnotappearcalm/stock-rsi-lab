@@ -1,0 +1,86 @@
+{
+  "experiment_id": "low-volatility36-monthly-prior-close-v1",
+  "status": "FROZEN_BEFORE_RESULTS",
+  "candidate_budget": 1,
+  "source": {
+    "url": "https://link.springer.com/article/10.1057/s41260-021-00218-0",
+    "title": "The Volatility Effect in China",
+    "published": "2021-04-20",
+    "pdf_sha256": "a4bcf93229408898cf45f426d72e935e38a40d8be175f54e3a686f005b176c33"
+  },
+  "economic_hypothesis": "A published low-volatility effect has a positive long leg; test whether it improves the worst profitable development year while lowering realized volatility.",
+  "account_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "candidate": {
+    "factor": "sample standard deviation of 36 complete monthly simple returns, annualized by sqrt(12)",
+    "history": "37 consecutive explicit month-end prices including formation month",
+    "selection": "lowest floor(eligible/10) volatility; instrument-code ascending breaks ties",
+    "formation": "last explicit exchange session of prior month; no skipped recent month",
+    "target_gross": 0.95,
+    "weighting": "equal target weights at each month start"
+  },
+  "universe": "historical CSI500 mainland ordinary-board SH60/SZ00 memberships as of formation; no current-roster survivor filter",
+  "admission": {
+    "historical_members_minimum": 200,
+    "minimum_complete_factor_coverage": 0.8,
+    "current_formation_volume_and_factor": "positive; no missing monthly prices or zero-variance histories"
+  },
+  "control": "equal-weight the exact same historically eligible names, same execution/fees/risk budget",
+  "adaptation_limits": [
+    "CSI500 main-board subset instead of MSCI universe",
+    "CNY instead of USD",
+    "equal weights instead of value weights",
+    "long only, no full-sample beta leverage",
+    "next-session open proxy after formation close"
+  ],
+  "decision": {
+    "wake": "one per exchange session; rebalance only first session of month",
+    "quantity": "previous marked equity and previous normalized close/factor; buy in visible 100-share lot equivalents",
+    "trade_ordering": "deterministic sells before buys, sorted by instrument",
+    "execution_session_market_data_in_decision": false,
+    "unfilled": "keep original intent and zero fill; no reselection based on execution-session status"
+  },
+  "execution": {
+    "buy_fee": 0.0005,
+    "sell_fee": 0.0015,
+    "minimum_fee": 5,
+    "price": "open",
+    "limit_proxy": "direction-specific 9.5% opening return versus previous adjusted close",
+    "impact_and_open_queue_verified": false,
+    "historical_ST_and_legal_limits_verified": false
+  },
+  "development_gate": "Both full 2024/2025 net >0; mean exposure >=90%; worst-year net > eligible EW control; lower annualized daily net volatility than that control; no missing held close marks.",
+  "maximum_selected_2026_diagnostics": 1,
+  "2026_allowed_only_after_development_pass": true,
+  "2026_feedback_to_new_variants": false,
+  "user_target": {
+    "2024_net_pct": ">0",
+    "2025_net_pct": ">0",
+    "2026_Jan_Oct_net_pct": ">=10"
+  },
+  "2026_data_investment_outcomes_already_consumed": true,
+  "sealed_claim_allowed": false,
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "7a28d8ff0b8d46fe3568180320d05be861802045de222dbeb0f40ec3ea7a07fd",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "32d5b2727e201da8f3f26ba51dba4692139c0f3d6273108491a9a76d5c6f063f",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde"
+  },
+  "input_sha256": {
+    "price_files": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "runtime_versions": {
+    "pyqlib": "0.9.8",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3"
+  },
+  "source_qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+  "data_evidence": "REAL_PRICE_ENGINEERING_ONLY_NOT_FULL_PIT"
+}
