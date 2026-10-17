@@ -1,0 +1,62 @@
+{
+  "status": "FIXED_DIAGNOSTIC_ON_CONSUMED_2026",
+  "selected": "rolling_lgb",
+  "2024_return_pct": 14.271671508446904,
+  "2025_return_pct": 15.721972150100406,
+  "2026": {
+    "sessions": 185,
+    "start": "2026-01-05",
+    "end": "2026-10-13",
+    "starting_equity": 132237431.8784591,
+    "final_equity": 128211767.22182038,
+    "net_compound_return_pct": -3.0442701430702046,
+    "benchmark_compound_return_pct": -5.096471309661865,
+    "compound_excess_pct": 2.0522011665916606,
+    "max_drawdown_pct": -13.905454142257923,
+    "average_exposure_pct": 99.78422547966525,
+    "cost_pct_starting_equity": 0.6941193578788665,
+    "turnover_x_starting_equity": 6.938039942341157
+  },
+  "target_net_compound_return_pct": 10,
+  "interim_threshold_met": false,
+  "requested_full_October_complete": false,
+  "objective_achieved": false,
+  "selection_receipt_sha256": "de6789a3c73dd8e1a5bcdc4d39f1acccd1e329ad09cd481d3275bb856bae0566",
+  "features_extension_sha256": "3111d85d8e50f997f4bbe3d8f7cede094eeab7308218cf3d01a10828cde70cc0",
+  "provider_price_inputs_sha256": "1c88dbea45185e38b8a4e5cbdf6b5710e3c140ddced4fac52e1438b78caf064e",
+  "provider_metadata_sha256": {
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "prediction_sha256": "9d3f19afd85e97f8b99d5f6a44b7f501981653e63f9da54db1a920bd136d6670",
+  "fit_receipts_sha256": "10637037f7937ca78bb4f105789cbd330126278930baac595da76d38b39ac372",
+  "ledger": {
+    "status": "RECONCILED_DAILY_ENGINEERING_REPLAY",
+    "start": "2024-01-02",
+    "end": "2026-10-13",
+    "sessions": 670,
+    "order_rows": 2637,
+    "holdings_rows": 66926,
+    "total_cost": 3139044.883674026,
+    "total_turnover": 3187436761.4531674,
+    "initial_cash": 100000000,
+    "continuous_account": true,
+    "signal_clock": "One daily close signal, previous explicit session's score used at next session close",
+    "wake_frequency": "one daily decision step; training every 20 sessions when scheduled",
+    "units": "Qlib normalized prices and amounts; monetary values in CNY",
+    "asof_limit": "15:00+08:00 is a close-bar convention; historical observed arrival times are not verified",
+    "execution_limit": "Daily price/limit proxies; no intraday queue, announcement stream or complete PIT proof",
+    "decision_boundary_limit": "Qlib TopkDropout order generation queries execution-session tradability and deal price for sizing; this is not a strict prior-close decision boundary",
+    "artifact_sha256": {
+      "report.pkl": "277b9f895fcb0ccf6abe72e647fa2c0cc02b8325c0240acfaf3d6718c35a39d5",
+      "positions.pkl": "f1ca706662e0e3fb6b7895a05221b35386450a2f5e5dad3f478e97d36cf169ec",
+      "days.csv": "5f21075aaab4ac915a62103618b56d3779e8cf8e018b070fd598416ce452877f",
+      "orders.csv": "25c48de5d29a185479308d22da83cb0ede24dbcb13eed28945284bb91f90c1a4",
+      "holdings.csv": "37c95928e91f3355a56dc8319658cad9dc803252f3573c8d567f5b0a945bd359"
+    }
+  },
+  "rule_changed_after_2026_open": false,
+  "2026_feedback_to_new_variants": false,
+  "claim_status": "INCOMPLETE_OCTOBER_CONSUMED_DIAGNOSTIC_NOT_SEALED_NOT_FULL_PIT"
+}

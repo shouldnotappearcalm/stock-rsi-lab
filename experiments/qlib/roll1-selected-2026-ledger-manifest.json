@@ -1,0 +1,25 @@
+{
+  "status": "RECONCILED_DAILY_ENGINEERING_REPLAY",
+  "start": "2024-01-02",
+  "end": "2026-10-13",
+  "sessions": 670,
+  "order_rows": 2637,
+  "holdings_rows": 66926,
+  "total_cost": 3139044.883674026,
+  "total_turnover": 3187436761.4531674,
+  "initial_cash": 100000000,
+  "continuous_account": true,
+  "signal_clock": "One daily close signal, previous explicit session's score used at next session close",
+  "wake_frequency": "one daily decision step; training every 20 sessions when scheduled",
+  "units": "Qlib normalized prices and amounts; monetary values in CNY",
+  "asof_limit": "15:00+08:00 is a close-bar convention; historical observed arrival times are not verified",
+  "execution_limit": "Daily price/limit proxies; no intraday queue, announcement stream or complete PIT proof",
+  "decision_boundary_limit": "Qlib TopkDropout order generation queries execution-session tradability and deal price for sizing; this is not a strict prior-close decision boundary",
+  "artifact_sha256": {
+    "report.pkl": "277b9f895fcb0ccf6abe72e647fa2c0cc02b8325c0240acfaf3d6718c35a39d5",
+    "positions.pkl": "f1ca706662e0e3fb6b7895a05221b35386450a2f5e5dad3f478e97d36cf169ec",
+    "days.csv": "5f21075aaab4ac915a62103618b56d3779e8cf8e018b070fd598416ce452877f",
+    "orders.csv": "25c48de5d29a185479308d22da83cb0ede24dbcb13eed28945284bb91f90c1a4",
+    "holdings.csv": "37c95928e91f3355a56dc8319658cad9dc803252f3573c8d567f5b0a945bd359"
+  }
+}

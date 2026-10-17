@@ -20,5 +20,21 @@
     "Complete requested date coverage or explicit user acceptance of an interim cutoff",
     "Price/data/source/policy/evaluator hashes and reproducible decision/execution ledger",
     "Honest labeling of consumed 2026 diagnostics and point-in-time data limitations"
-  ]
+  ],
+  "latest_completed_campaign": {
+    "candidate": "daily-target rolling LightGBM, fixed Top100/Drop2",
+    "2024_net_pct": 14.271671508446904,
+    "2025_net_pct": 15.721972150100406,
+    "2026_available_period_net_pct": -3.0442701430702046,
+    "2026_period": [
+      "2026-01-05",
+      "2026-10-13"
+    ],
+    "result": "FAIL_2026_NET_10PCT",
+    "full_requested_October_complete": false,
+    "result_file": "experiments/qlib/roll1-selected-2026-results.json",
+    "ledger_reconciled": true,
+    "2026_feedback_to_other_campaign_arms": false,
+    "claim_scope": "Consumed diagnostic; Qlib execution-session sizing is not a strict prior-close decision boundary"
+  }
 }
