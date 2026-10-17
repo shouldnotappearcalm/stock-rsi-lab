@@ -1,0 +1,66 @@
+{
+  "status": "PRE2026_DEVELOPMENT_ONLY",
+  "candidate_budget": 1,
+  "start": "2024-01-02",
+  "end": "2025-12-30",
+  "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+  "module": "monthly bottom-decile adjusted overnight trend rank demotion; 12-2 convention",
+  "portfolio": {
+    "topk": 100,
+    "n_drop": 2,
+    "risk_degree": 0.95
+  },
+  "development_gate": "positive 2024/2025, >=90% average exposure, improve worst year and annualized vs DE",
+  "development_gate_status": "REJECTED",
+  "user_target": {
+    "2024_net_pct": ">0",
+    "2025_net_pct": ">0",
+    "2026_Jan_Oct_net_pct": ">=10"
+  },
+  "results": {
+    "de_control": {
+      "net_compound_return_pct": 61.47107094609932,
+      "net_annualized_pct": 27.134313367415185,
+      "benchmark_compound_return_pct": 37.384952545166016,
+      "compound_excess_pct": 24.086119831444776,
+      "max_drawdown_pct": -20.123258451491076,
+      "average_exposure_pct": 99.58336519188784,
+      "cost_pct_initial": 2.2347124418388136,
+      "turnover_x_initial": 22.835622428825566,
+      "2024_return_pct": 11.47273050374007,
+      "2025_return_pct": 44.852530494605205,
+      "report_sha256": "45eab13bdffef872826464a8aa43008d9b38e30d329bce17c2280031aea6b5fa"
+    },
+    "weak_ovnt_avoidance": {
+      "net_compound_return_pct": 54.37628906909748,
+      "net_annualized_pct": 24.30411804665713,
+      "benchmark_compound_return_pct": 37.384952545166016,
+      "compound_excess_pct": 16.99133795444294,
+      "max_drawdown_pct": -21.882909293488538,
+      "average_exposure_pct": 99.60214377465617,
+      "cost_pct_initial": 2.1740533859310354,
+      "turnover_x_initial": 22.229139906296155,
+      "2024_return_pct": 6.959477962596128,
+      "2025_return_pct": 44.331565570171215,
+      "report_sha256": "b7378b827b47fa876f2d6a529cc388cda4e8f35fb1e096937960f5eced24dd62"
+    }
+  },
+  "prediction_sha256": "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e",
+  "price_inputs_sha256": "edfe02cf1b394d8b694ec0d3825231c57d1cfc1a194b292c3ae594d3a182f491",
+  "filtered_prediction_sha256": "e6db689698e9531007ed160a769f83cc10e38903a068f6df401e5cb1fb8506b6",
+  "formation_receipts_sha256": "0dbacf42386ad8f9b03a00c4d8dffeb5551823a87857be3df54d334906d2cc08",
+  "formation_months": 24,
+  "2026_market_values_queried": false,
+  "2026_target_status": "NOT_EVALUATED",
+  "claim_status": "DEVELOPMENT_ONLY_NOT_SEALED",
+  "freeze_commit": "e08cbfc",
+  "source_paper": "https://doi.org/10.1016/j.jedc.2024.104997",
+  "limitations": [
+    "This is an avoidance-module adaptation, not the paper long-short portfolio.",
+    "Development ends 2025-12-30 and does not cover the final 2025 session.",
+    "The 2024-2025 window was repeatedly inspected; it cannot establish generalization.",
+    "Qlib daily close execution, simplified price limits and historical data versions remain incomplete.",
+    "No 2026 market values were queried or used to tune this rejected module."
+  ],
+  "environment_sha256": "74625bacc93144d238a9b93ee860d8ac13347b8d80eb2ee292552e3ea707653d"
+}

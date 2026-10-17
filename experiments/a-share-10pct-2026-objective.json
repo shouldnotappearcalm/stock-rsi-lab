@@ -1,0 +1,24 @@
+{
+  "objective_id": "a-share-positive-2024-2025-and-10pct-2026-v1",
+  "status": "ACTIVE_NOT_ACHIEVED",
+  "clarified_by_user": "2024-2025都得赚钱，今年1-10也得10%+",
+  "registered_on": "2026-10-17",
+  "required_net_compound_returns": {
+    "2024_full_calendar_year_pct": ">0",
+    "2025_full_calendar_year_pct": ">0",
+    "2026_January_through_October_pct": ">=10"
+  },
+  "net_definition": "One fixed account policy, executable orders, all configured costs and held-position valuation; no annualization substitute for the 2026 interval.",
+  "latest_available_2026_session": "2026-10-13",
+  "requested_2026_end": "last actual exchange session on or before 2026-10-31",
+  "requested_2026_horizon_complete": false,
+  "selection_rule": "Economic hypothesis and rule choices use independent sources and pre-2026 development only; fixed 2026 diagnostics must not tune later variants.",
+  "no_lookahead_red_line": "不要测试区间的事实去反推方法",
+  "claim_boundary": "Historical simulation is not realized account profit. No broker orders are authorized or submitted by this project.",
+  "completion_requires": [
+    "Same frozen method satisfies all three specified net-return conditions",
+    "Complete requested date coverage or explicit user acceptance of an interim cutoff",
+    "Price/data/source/policy/evaluator hashes and reproducible decision/execution ledger",
+    "Honest labeling of consumed 2026 diagnostics and point-in-time data limitations"
+  ]
+}
