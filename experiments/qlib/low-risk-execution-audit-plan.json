@@ -1,0 +1,45 @@
+{
+  "status": "FIXED_SIGNAL_POST_REPLAY_EXECUTION_AUDIT_REGISTERED",
+  "parent_commit": "62c52ab",
+  "replay_summary_sha256": "bbae8bdd56c20bf43e702cc45561e79131e650b4b4b2e60a1f25a98494bc7f83",
+  "raw_data_manifest_sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+  "tape_manifest_sha256": "13ce6f1b1a68f3207e25d3e66c2bff0b59407ccca78f118399884850129469f8",
+  "rule_source_manifest_sha256": "70bec543092120e168e0e1e0e3e5ec768b044a6e2e3a0a48e3eaf59503744166",
+  "target_sha256": "2900729ad58c851764216093b26ca777eed9d4c6d1e75f528ae9bb26b9eecafb",
+  "captured_minute_rows": 62352,
+  "requested_code_sessions": 1299,
+  "all_four_original_capitals_reported": true,
+  "signal_targets_orders_changed": false,
+  "new_alpha_candidates": 0,
+  "2026_already_consumed": true,
+  "sealed_evidence": false,
+  "audit_tape_results_or_new_cost_sensitivities_read": false,
+  "first_label_volume": "09:35-labeled five-minute bar; auction-volume inclusion not certified; report fractions only",
+  "price_limit_check": "10% rounded common non-ST main-board arithmetic screen, not actual exchange daily limit/status data",
+  "single_order_limit": "1,000,000 shares; no retroactive splitting or removing invalid orders",
+  "known_original_100m_oversized_orders": 39,
+  "additional_cost_bps_per_fill": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "cost_scope": "Fixed original fills, share inventory and dividend entitlements; cumulative extra cash charge rounded per fill. Report negative cash. Never represent as same feedback policy resimulation or calibrated impact.",
+  "remaining_claims_unverified": [
+    "Actual historical auction volume and queuing",
+    "Daily exchange limit feed and special relisting status",
+    "Historical source arrival times",
+    "Complete October horizon",
+    "User capital amount"
+  ],
+  "code_sha256": {
+    "scripts/capture_low_risk_execution_tape.py": "c87bf498fc380bb608dd12626393e717ff3dc95433724ebc4c84f50ac71c602d",
+    "scripts/audit_low_risk_execution_tape.py": "4d580dad7df4ace517a8f334a8eee564e5a59f348bcaa95348d3835d06291256",
+    "tests/test_execution_tape.py": "08876c6cfc994d13ff5c9efd69c55b44d340b30e6f5230f9e28ed2cf1130306b"
+  },
+  "frozen_source_dependency_sha256": {
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab"
+  }
+}

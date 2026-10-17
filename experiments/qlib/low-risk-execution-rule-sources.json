@@ -1,0 +1,39 @@
+{
+  "status": "PRIMARY_EXECUTION_RULE_SOURCES_CAPTURED",
+  "files": [
+    {
+      "file": "sse-2023.docx",
+      "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/repeal/rules/c/10824490/files/dcbe58edb194451d93f19b1f7dd8fb4c.docx",
+      "sha256": "7aa2319f6dcf597be1e86b3b69d7c2ad0e6acb2a5d0cc6be48a01af602fded40"
+    },
+    {
+      "file": "sse-2026.docx",
+      "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/universal/c/10816492/files/58bd5ce4dfc94b57a5391f60eb2719ab.docx",
+      "sha256": "fc922c433438b2636cb631eab25cca405209712acbb6aaded768c45456ff8888"
+    },
+    {
+      "file": "sse-2026-page.txt",
+      "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/universal/c/c_20260424_10816492.shtml",
+      "sha256": "c8922e2a3a606e3071bd3af59377232c61bb386779ccce546a1e1f88d0066bc0"
+    },
+    {
+      "file": "szse-2026-english.pdf",
+      "url": "https://www.szse.cn/English/rules/siteRule/P020260708406221548360.pdf",
+      "sha256": "9361881e506748a78fde5bffd2a8aa04ad6939b32c6af0101693708efa8e47c8"
+    },
+    {
+      "file": "szse-2023-qa.html",
+      "url": "https://investor.szse.cn/column/qa/t20230306_599093.html",
+      "sha256": "22b0dbdcddf0a23bcc55ab813f3711b9193f40c12854f321853e9f72742618b2"
+    },
+    {
+      "file": "baostock-docs.txt",
+      "url": "https://raw.githubusercontent.com/zxygithub/baostock/master/docs/pythonAPI.md",
+      "sha256": "06369ec88c16977b2efe295f5a0d576c48d80066144b2f22df10cd909795e8fb"
+    }
+  ],
+  "sse_2026_effective": "2026-07-06",
+  "szse_2026_effective": "2026-07-06",
+  "scope": "Ordinary non-ST main-board 10% rounded limits and 1 million share single-order arithmetic checks. Not a certified historical daily limit/status feed. SZSE English translation says Chinese original is binding.",
+  "auction_inclusion_in_minute_volume_documented": false
+}

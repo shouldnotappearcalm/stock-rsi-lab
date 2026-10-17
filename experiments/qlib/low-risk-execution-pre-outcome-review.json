@@ -1,0 +1,14 @@
+{
+  "status": "PRE_EXECUTION_OUTCOME_REVIEW_PASSED",
+  "base_commit": "62c52ab",
+  "real_execution_audit_results_inspected": false,
+  "important_findings_fixed": [
+    "Exact all-order session union must include unfilled orders and bind capture plan/counts/files"
+  ],
+  "independent_followup": "No remaining Critical/Important findings; six existing synthetic tests plus missing/extra-session and wrong-plan/count synthetic checks passed",
+  "full_regression_tests": 171,
+  "new_alpha_candidates": 0,
+  "source_capture_complete_sessions": 1299,
+  "minute_rows": 62352,
+  "audit_plan_sha256": "70a99774a72f0bb171678e9f740f1bd2df00f6c4c8e9ab00b6107c733a8061a3"
+}
