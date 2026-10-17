@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN_REVERSAL_RAW_EXTENSION_CAPTURE",
+  "input_spec_sha256": "c05e8d1824c31c663bbe7fe29254901881ca29d6c3815d4e3310b55583053d48",
+  "parent_commit": "2ccb43e",
+  "method_code_sha256": {
+    "scripts/capture_reversal_raw_extension.py": "3056f5aa010f87c7af9845d6fca77644527d66d2a9ad3d5cc1688c1e26d63bff",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab"
+  },
+  "scope": "Preserve124 developmental prefixes;30 immutable full reuse,96 append2026,31 bounded full queries; no portfolio outcomes computed",
+  "complete_requested_October": false,
+  "2026_strategy_returns_queried": false,
+  "objective_achieved": false
+}
