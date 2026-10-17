@@ -1,0 +1,32 @@
+{
+  "status": "SZSE_VALUE_PRE2026_MINUTE_SOURCE_ADMISSION_COMPLETE",
+  "audit_code_sha256": "6243a475dc187773bc2ef0e780d642ba0e79e444651d88ad8d17afc8663f169a",
+  "request_sha256": "5e9340753e6b0a2d12ec047559f5e269a2934ca55d5d09f49114767efbed7791",
+  "raw_manifest_sha256": "0d41978c2c9ebcb1b89c6e4174cacda8852240f0c228879bbae2ad66ac18766e",
+  "old_tape_manifest_sha256": "def299b792b608f862b3bbc1258195e0b12154c753156625e1a8ec95c4784205",
+  "extra_tape_manifest_sha256": "39bf11c2e72383d6e199037018ff3d60973572cd0f34b5add2058ecee2bef57c",
+  "required_sessions": 724,
+  "status_counts": {
+    "ADMITTED_RECONSTRUCTED_ACTIVE_TAPE": 723,
+    "RAW_HALT_NO_EXECUTABLE_TAPE_REQUIRED": 1
+  },
+  "admitted_for_reconstructed_execution": true,
+  "full_series_labels_prices_ranges_and_stressed_volume_checked": true,
+  "source_volume_unit": "hands; whole-day stressed lower shares cap only; exact share precision not certified",
+  "historical_arrival_verified": false,
+  "sdk_date_echo_authenticated": false,
+  "queue_and_impact_calibrated": false,
+  "2026_strategy_returns_queried": false,
+  "objective_achieved": false,
+  "exceptions": [
+    {
+      "instrument": "SZ002128",
+      "day": "2025-05-06",
+      "source_sha256": "068b7c4518563bd34e3ca93c504e8e59ace46c67158cf7fccc45afd09b26bbd3",
+      "raw_tradestatus": "0",
+      "captured_status": "RESPONSE_CAPTURED",
+      "status": "RAW_HALT_NO_EXECUTABLE_TAPE_REQUIRED"
+    }
+  ],
+  "local_detail_sha256": "fde511bb15e5a61238b1214e4b9c74104f35217eaeb73e1537e4c3a0befaa8eb"
+}
