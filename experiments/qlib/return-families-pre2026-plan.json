@@ -1,0 +1,71 @@
+{
+  "experiment_id": "three-return-families-pre2026-v1",
+  "status": "FROZEN_BEFORE_RETURN_FAMILY_OUTCOMES",
+  "parent_commit": "72f117c",
+  "families": [
+    "contrarian20",
+    "contrarian60_12",
+    "seasonal5"
+  ],
+  "candidate_budget": 3,
+  "capital_CNY": 1000000,
+  "user_selected_capital_CNY": null,
+  "extra_bps": [
+    20,
+    40
+  ],
+  "account_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "source": {
+    "title": "Anomalies in the China A-share market",
+    "authors": [
+      "Maarten Jansen",
+      "Laurens Swinkels",
+      "Weili Zhou"
+    ],
+    "publication_year": 2021,
+    "doi": "10.1016/j.pacfin.2021.101607",
+    "pdf_url": "https://pure.eur.nl/ws/portalfiles/portal/58642799/Anomalies_in_the_China_A_share_market.pdf",
+    "definitions": "Appendix B, past-return factors; 20-session reversal, 60-month skip12 reversal and same-calendar-month seasonality",
+    "local_pdf_download": "HTTP403; definitions read through web PDF tool, no byte hash claimed"
+  },
+  "design_file": "docs/research/return-families-pre2026-plan-2026-10-17.md",
+  "design_sha256": "d712169d7d12a455aee61446e900df20361b731a68e0d2b1236222f1c23f4372",
+  "common_eligibility": "61 consecutive month-end prices; latest21 trading-session closes; positive formation volume/factor; >=100 names and >=50% historical mainboard CSI500 members",
+  "exposure_target": 0.95,
+  "portfolio_selection": "top floor(N/10) factor scores; code-ascending ties; monthly equal-weight",
+  "control": "same eligible names equal-weight; same account and execution",
+  "selection_rule": "Use only40bp profile, each2024/2025 positive, exposure>=90%, no unverified held marks; maximize worse-year net, lower turnover then name for ties",
+  "maximum_selected_followup_leads": 1,
+  "following_stage": "raw-share intraday replay on2024/25 before freezing any2026 diagnostic; no2026 queries in this screen",
+  "cost_screening": "Qlib max(5,notional*(base+extra)); not identical to separately rounded extra/per-child fees in confirmation",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_return_families_pre2026.py": "12830aee20926aad0ad54e3793ec7e1efdfa1db1a8822df9e4a255d2a8a45fce",
+    "src/stock_rsi/return_families.py": "0b20702c7c2dd659a80400046a81bff3d735ea18176de360d702b713d849bf62"
+  },
+  "input_sha256": {
+    "price_files": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "gap_state_manifest_sha256": "257f3266d366bcc0c3452329efaae23086940394a3d9368b3fa943df2d311fc7",
+  "initial_targets_sha256": "c9790ccdb4bd867da7e068ce799894a77e09f6c4fa16c5ebb1058483b220e191",
+  "initial_receipts_sha256": "ac3fa52344e44a3f59f58e308f1ffbd7d45444af83a68fd0baee856fe63a9dc6",
+  "2026_feedback_to_new_variants": false,
+  "2026_outcomes_already_consumed_in_other_experiments": true,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}
