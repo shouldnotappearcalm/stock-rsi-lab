@@ -1,0 +1,15 @@
+{
+  "status": "PRE_SOURCE_CAPTURE_CODE_REVIEW_PASSED",
+  "base_commit": "48f79b5",
+  "capture_code_sha256": "526fa9e3e5c557ab87f50586ec1ab2d3726b1e8203594833ce9d713d5185fc40",
+  "focused_tests": 3,
+  "full_regression_tests": 179,
+  "important_findings_fixed": [
+    "OHLC bounds apply to zero-volume rows too; a zero-volume response cannot hide contradictory prices"
+  ],
+  "real_source_capture_started": false,
+  "policy_changed": false,
+  "raw_prices_replaced": false,
+  "historical_arrival_verified": false,
+  "response_security_identity_certified": false
+}
