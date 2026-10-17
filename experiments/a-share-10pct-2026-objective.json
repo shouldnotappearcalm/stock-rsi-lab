@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "PRE2026_LEAD_SELECTED_RAW_CONFIRMATION_PENDING",
+    "status": "RAW_INTRADAY_DEVELOPMENT_CONFIRMED_PENDING_2026_DIAGNOSTIC",
     "result_file": "experiments/qlib/return-families-pre2026-results.json",
     "candidate_budget": 3,
     "selected": "contrarian60_12",
@@ -394,6 +394,9 @@
     "primary_cash_supplements": 2,
     "zero_share_entitlement_proofs": 6,
     "original_source_packets_modified": false,
-    "intraday_development_confirmation": "PENDING_MINUTE_CAPTURE"
+    "intraday_development_confirmation": "PASS_PREDECLARED_REFERENCE_RULE",
+    "intraday_development_results_file": "experiments/qlib/reversal-intraday-development-results.json",
+    "independent_development_audit_file": "experiments/qlib/reversal-intraday-development-independent-audit.json",
+    "all_raw_profiles_reconstructed": 60
   }
 }

@@ -55,6 +55,12 @@ class ReturnFamilyTests(unittest.TestCase):
         self.assertEqual(build_targets(source,members)[0],targets)
         self.assertLessEqual(max(source.reads),'2025-12-31')
         with self.assertRaises(ValueError):build_targets(source,members,end='2026-01-05')
+        extended,extended_receipts=build_targets(source,members,end='2026-01-05',permitted_end='2026-01-05')
+        for name in targets:
+            self.assertEqual({d:v for d,v in extended[name].items() if d<'2026-01-01'},targets[name])
+        self.assertEqual(len(extended_receipts),25)
+        self.assertEqual(extended['contrarian60_12']['2026-01-05']['as_of'],'2025-12-31')
+        self.assertLessEqual(max(source.reads),'2025-12-31')
 
     def test_lead_selection_uses_worst_development_year_and_rejects_unverified_marks(self):
         def metrics(a,b,turn=1):return {'2024_return_pct':a,'2025_return_pct':b,'average_exposure_pct':95.,

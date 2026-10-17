@@ -35,8 +35,8 @@ def highest_decile(scores):
     return tuple(sorted(scores,key=lambda code:(-scores[code],code))[:max(1,len(scores)//10)])
 
 
-def build_targets(snapshot,memberships,start=START,end=END):
-    if start> end or start<START or end>END:raise ValueError('target generation exceeds pre-2026 research cap')
+def build_targets(snapshot,memberships,start=START,end=END,*,permitted_end=END):
+    if start> end or start<START or end>permitted_end:raise ValueError('target generation exceeds explicit research cap')
     targets={name:{} for name in (*FAMILIES,'eligible_equal_weight')};receipts=[]
     for index,day in enumerate(snapshot.calendar):
         if not start<=day.isoformat()<=end or index<21:continue
