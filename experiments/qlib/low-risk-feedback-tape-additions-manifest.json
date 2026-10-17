@@ -1,0 +1,27 @@
+{
+  "status": "ADDITIONAL_EVALUATION_TAPE_CAPTURED",
+  "script_sha256": "8344002f2411a167ba0ce0866427e478008bedd0ee5a03bcf6d6b595015b46dd",
+  "feedback_summary_sha256": "1c1ebd67e9d87ca4004b2d39b6c74aa8eb8f1ae20fdcfd4c23ece9f2eeb71006",
+  "parent_tape_manifest_sha256": "13ce6f1b1a68f3207e25d3e66c2bff0b59407ccca78f118399884850129469f8",
+  "all_valid_profile_code_sessions": 1299,
+  "new_requests": [
+    [
+      "SH600008",
+      "2025-02-05"
+    ],
+    [
+      "SZ002608",
+      "2025-09-01"
+    ]
+  ],
+  "source": "BaoStock raw five-minute API",
+  "used_for_decision": false,
+  "historical_arrival_verified": false,
+  "auction_volume_verified": false,
+  "plan_sha256": "7ce681ed2a029dd2fb40e562adaa37ce6fcc7c46ad744b037829c13fa7f955de",
+  "per_session_sha256": {
+    "SH600008-2025-02-05.json": "e197d3d24a3d5e27a0ae402fc56fd3371283efaada72546702a3cf5acf562c41",
+    "SZ002608-2025-09-01.json": "8c7af9f0a310fcb55a0d993fe7b00c5f5e827921eee6a630702ad68e49442175"
+  },
+  "new_code_sessions": 2
+}

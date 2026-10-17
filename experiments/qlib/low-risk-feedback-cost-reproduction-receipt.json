@@ -1,0 +1,14 @@
+{
+  "status": "FULL_FEEDBACK_CAMPAIGN_BYTE_EXACT_REPRODUCTION_PASSED",
+  "freeze_commit": "7b81260",
+  "plan_sha256": "832e9fa9066303c144cd71e955311f83cfff5c5a66757b1f09de47c7cfc7dad7",
+  "summary_sha256": "1c1ebd67e9d87ca4004b2d39b6c74aa8eb8f1ae20fdcfd4c23ece9f2eeb71006",
+  "all_20_scenario_files_reproduced_byte_for_byte": true,
+  "reconciled_independent_account_cases": 15,
+  "preserved_rejected_capital_cases": 5,
+  "independent_audit_sha256": "85b0b393e155503edf01472ff6ac834d54d5045bbb34c3727ebfd45c7dc33059",
+  "source_coverage_sha256": "1167542956fb9bd0362181501717ae102d9dcca7e844f9ba268609e72d5259bd",
+  "full_regression_tests": 176,
+  "new_alpha_candidates": 0,
+  "objective_achieved": false
+}

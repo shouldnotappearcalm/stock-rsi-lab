@@ -1,0 +1,464 @@
+{
+  "status": "ALL_NEW_ORDER_SESSIONS_COVERED_OLDER_SOURCE_DISCREPANCIES_UNRESOLVED",
+  "summary_sha256": "1c1ebd67e9d87ca4004b2d39b6c74aa8eb8f1ae20fdcfd4c23ece9f2eeb71006",
+  "script_sha256": "84589cae6ebace27a5860d25ff9c0e48452bfd0ddfec95709aa8abedb2542166",
+  "parent_tape_manifest_sha256": "13ce6f1b1a68f3207e25d3e66c2bff0b59407ccca78f118399884850129469f8",
+  "additional_tape_manifest_sha256": "046a2d77da79729aa53b7beef741428d3c7509b12db6463dc07276275c3ab1e9",
+  "additional_code_sessions": 2,
+  "all_valid_profile_code_sessions": 1299,
+  "uncovered_code_sessions": 0,
+  "by_year": {
+    "2025": {
+      "requested_code_sessions": 463,
+      "exact_volume_matches": 20,
+      "volume_mismatches": 443,
+      "first_open_matches": 463,
+      "last_close_matches": 408
+    },
+    "2026": {
+      "requested_code_sessions": 378,
+      "exact_volume_matches": 378,
+      "volume_mismatches": 0,
+      "first_open_matches": 378,
+      "last_close_matches": 378
+    },
+    "2024": {
+      "requested_code_sessions": 458,
+      "exact_volume_matches": 0,
+      "volume_mismatches": 457,
+      "first_open_matches": 457,
+      "last_close_matches": 425,
+      "daily_volume_unknown": 1
+    }
+  },
+  "results_by_profile": {
+    "0/100000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 467,
+      "first_label_capacity": {
+        "max_fraction": 0.0021903139449987834,
+        "max_example": {
+          "order_id": "ce59aea9c7818f824c7c095b076f0d4c4dd406ec65911be25a5187001aae6fc2",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 900,
+          "first_label_volume": "410900",
+          "fraction": 0.0021903139449987834
+        },
+        "over_1pct": 0,
+        "over_5pct": 0,
+        "over_10pct": 0,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 475,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 328
+    },
+    "0/1000000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 1091,
+      "first_label_capacity": {
+        "max_fraction": 0.025310294475541496,
+        "max_example": {
+          "order_id": "3448c36f3e5bc07addcc64050cdec7c7d8950db406736537ff17ba76fda5b264",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 10400,
+          "first_label_volume": "410900",
+          "fraction": 0.025310294475541496
+        },
+        "over_1pct": 22,
+        "over_5pct": 0,
+        "over_10pct": 0,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 1108,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 749
+    },
+    "0/10000000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 1261,
+      "first_label_capacity": {
+        "max_fraction": 0.2567534679970796,
+        "max_example": {
+          "order_id": "8377daa0ef11624fde5962c9c8bf1567d3f49a0057ede4c181f86cf5a1ed6910",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 105500,
+          "first_label_volume": "410900",
+          "fraction": 0.2567534679970796
+        },
+        "over_1pct": 171,
+        "over_5pct": 55,
+        "over_10pct": 22,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 1283,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 868
+    },
+    "0/100000000": {
+      "status": "INVALID_SINGLE_ORDER_LIMIT",
+      "source_claim_made": false
+    },
+    "5/100000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 469,
+      "first_label_capacity": {
+        "max_fraction": 0.0021903139449987834,
+        "max_example": {
+          "order_id": "461f09b9888c5f216a7dd1a9541d144347602b83389874c17a7c618e463970b0",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 900,
+          "first_label_volume": "410900",
+          "fraction": 0.0021903139449987834
+        },
+        "over_1pct": 0,
+        "over_5pct": 0,
+        "over_10pct": 0,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 477,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 330
+    },
+    "5/1000000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 1101,
+      "first_label_capacity": {
+        "max_fraction": 0.025310294475541496,
+        "max_example": {
+          "order_id": "ed3a9b8d796618b70d81fb4bd59e2330ccb4f66023c26fd10d21d0639dc387b1",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 10400,
+          "first_label_volume": "410900",
+          "fraction": 0.025310294475541496
+        },
+        "over_1pct": 22,
+        "over_5pct": 0,
+        "over_10pct": 0,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 1118,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 759
+    },
+    "5/10000000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 1267,
+      "first_label_capacity": {
+        "max_fraction": 0.25577999513263566,
+        "max_example": {
+          "order_id": "d3af3c926f1214719cfb48a5526912e02fdab39dbab8df2923ab72caf06f1869",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 105100,
+          "first_label_volume": "410900",
+          "fraction": 0.25577999513263566
+        },
+        "over_1pct": 172,
+        "over_5pct": 55,
+        "over_10pct": 22,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 1289,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 873
+    },
+    "5/100000000": {
+      "status": "INVALID_SINGLE_ORDER_LIMIT",
+      "source_claim_made": false
+    },
+    "10/100000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 466,
+      "first_label_capacity": {
+        "max_fraction": 0.0021903139449987834,
+        "max_example": {
+          "order_id": "3cdebdaa2e2f023d7e7c85196332a1b0a616daef62ff42eddadea70851205612",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 900,
+          "first_label_volume": "410900",
+          "fraction": 0.0021903139449987834
+        },
+        "over_1pct": 0,
+        "over_5pct": 0,
+        "over_10pct": 0,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 474,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 329
+    },
+    "10/1000000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 1108,
+      "first_label_capacity": {
+        "max_fraction": 0.025310294475541496,
+        "max_example": {
+          "order_id": "281f4b4f0e8e549ef236dbaef36779b0aeb0fa371500b588e474ac2bacd3431f",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 10400,
+          "first_label_volume": "410900",
+          "fraction": 0.025310294475541496
+        },
+        "over_1pct": 22,
+        "over_5pct": 0,
+        "over_10pct": 0,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 1125,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 760
+    },
+    "10/10000000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 1262,
+      "first_label_capacity": {
+        "max_fraction": 0.25504989048430277,
+        "max_example": {
+          "order_id": "ff5bc747a3f44d62a39c87bf41dd19ebf67fc63ffbfd2f172424288bfcca7f0c",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 104800,
+          "first_label_volume": "410900",
+          "fraction": 0.25504989048430277
+        },
+        "over_1pct": 172,
+        "over_5pct": 55,
+        "over_10pct": 22,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 1283,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 868
+    },
+    "10/100000000": {
+      "status": "INVALID_SINGLE_ORDER_LIMIT",
+      "source_claim_made": false
+    },
+    "20/100000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 460,
+      "first_label_capacity": {
+        "max_fraction": 0.0021903139449987834,
+        "max_example": {
+          "order_id": "689669eb9d96dfc0371f677e8a7a18ee70c709923a2f234b7dc4ba0f1c7b7bb5",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 900,
+          "first_label_volume": "410900",
+          "fraction": 0.0021903139449987834
+        },
+        "over_1pct": 0,
+        "over_5pct": 0,
+        "over_10pct": 0,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 468,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 324
+    },
+    "20/1000000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 1101,
+      "first_label_capacity": {
+        "max_fraction": 0.02506692625943052,
+        "max_example": {
+          "order_id": "8515b2f02f0a7f08bb9c4568dfb62bb81c61ae6cacd0855a6d95b94c94df9099",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 10300,
+          "first_label_volume": "410900",
+          "fraction": 0.02506692625943052
+        },
+        "over_1pct": 21,
+        "over_5pct": 0,
+        "over_10pct": 0,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 1118,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 757
+    },
+    "20/10000000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 1261,
+      "first_label_capacity": {
+        "max_fraction": 0.25383304940374785,
+        "max_example": {
+          "order_id": "b975dcf5504cd117acd113b1435a0e6e62d28a6369a7605b9073d65c22f998a3",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 104300,
+          "first_label_volume": "410900",
+          "fraction": 0.25383304940374785
+        },
+        "over_1pct": 171,
+        "over_5pct": 55,
+        "over_10pct": 22,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 1283,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 870
+    },
+    "20/100000000": {
+      "status": "INVALID_SINGLE_ORDER_LIMIT",
+      "source_claim_made": false
+    },
+    "40/100000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 468,
+      "first_label_capacity": {
+        "max_fraction": 0.0021903139449987834,
+        "max_example": {
+          "order_id": "d29bcf1ae2feab32f5823acdd26d0f4194a2d8f1fdb9edc3c9d24d3d413d0592",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 900,
+          "first_label_volume": "410900",
+          "fraction": 0.0021903139449987834
+        },
+        "over_1pct": 0,
+        "over_5pct": 0,
+        "over_10pct": 0,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 476,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 326
+    },
+    "40/1000000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 1085,
+      "first_label_capacity": {
+        "max_fraction": 0.02482355804331954,
+        "max_example": {
+          "order_id": "32f06dcd39ee88c493f064514c4d6c3f9e37dd53b44127c947ae70b92ff27abc",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 10200,
+          "first_label_volume": "410900",
+          "fraction": 0.02482355804331954
+        },
+        "over_1pct": 21,
+        "over_5pct": 0,
+        "over_10pct": 0,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 1101,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 748
+    },
+    "40/10000000": {
+      "status": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "orders_over_one_million_shares": 0,
+      "filled_orders_over_one_million_shares": 0,
+      "fills_checked": 1255,
+      "first_label_capacity": {
+        "max_fraction": 0.25091263081041615,
+        "max_example": {
+          "order_id": "fcda1e65c800ccf6a1bc5a682d2ed84ddc5f6f252029e31c45b8961f150d4388",
+          "instrument": "SZ001213",
+          "day": "2026-07-01",
+          "quantity": 103100,
+          "first_label_volume": "410900",
+          "fraction": 0.25091263081041615
+        },
+        "over_1pct": 171,
+        "over_5pct": 54,
+        "over_10pct": 21,
+        "over_100pct": 0
+      },
+      "opening_fill_verified": false,
+      "requested_code_sessions": 1277,
+      "all_order_tape_present": true,
+      "regular_board_price_violations": 0,
+      "unknown_regular_board_limit_checks": 0,
+      "daily_minute_mismatch_fills": 866
+    },
+    "40/100000000": {
+      "status": "INVALID_SINGLE_ORDER_LIMIT",
+      "source_claim_made": false
+    }
+  },
+  "full_local_detail_sha256": "28870f6c1203763fcb4013726bc384d630e89b5ba26ac083d8f1d78095fbcf19",
+  "auction_volume_verified": false,
+  "objective_achieved": false
+}

@@ -23,13 +23,12 @@
   ],
   "remaining_completion_evidence": [
     "User horizon clarification or complete requested October coverage",
-    "User capital amount; 100000 CNY scenario fails current numeric goal",
-    "Original 100m CNY trace has 39 orders over 1 million shares with no child-order ledger; not executable evidence",
-    "Resolve 900 older 2024/2025 minute-to-daily volume mismatches without arbitrary tolerance or renormalization",
-    "Actual exchange daily limit/special status, historical opening auction liquidity and execution impact verification",
-    "Fixed-fill cost sensitivity is not feedback-policy resimulation; 1000000 CNY falls below 10% at extra 40bp",
-    "Cash dividend flat 20% reserve is a stress profile; actual FIFO tax not implemented",
-    "Consumed-2026 diagnostic cannot become sealed evidence; original research gate remains REJECTED"
+    "User capital amount; 100000 CNY fails 2026 target at every registered cost; 100m CNY rejected for single-order maximum",
+    "Calibrated execution costs/actual auction liquidity: 1m CNY falls to 9.845% at extra 40bp; 10m CNY is only 10.057% under this proxy",
+    "Resolve 900 older minute/daily volume discrepancies; new profile requests are fully captured but source consistency is incomplete",
+    "Actual exchange daily limit and special historical status, historical arrival timestamps and actual impact remain unverified",
+    "Cash dividends use 20% reserve stress, not actual FIFO holding-period tax",
+    "Consumed-2026 diagnostic cannot become sealed evidence; original relative research gate remains REJECTED"
   ],
   "prior_normalized_diagnostic": {
     "candidate": "36-month low volatility, historical CSI500 main-board decile, 95% monthly target",
@@ -50,7 +49,7 @@
     "research_promoted": false,
     "claim_scope": "Fixed separate user-goal diagnostic; partial October; daily open proxy and normalized inventory are not a fully verified physical-share execution account"
   },
-  "latest_completed_campaign": {
+  "prior_raw_share_diagnostic": {
     "candidate": "Same frozen 36-month low-volatility monthly targets, independently timed raw-share/cash execution account",
     "result_file": "experiments/qlib/low-risk-raw-share-results.json",
     "result": "CAPITAL_DEPENDENT_NUMERIC_SUCCESS_AT_INTERIM_CUTOFF_EXECUTION_NOT_FULLY_VERIFIED",
@@ -96,7 +95,174 @@
     "independent_audit_file": "experiments/qlib/low-risk-raw-independent-ledger-audit.json",
     "policy_changed": false
   },
-  "latest_execution_audit": {
+  "latest_completed_campaign": {
+    "candidate": "Same frozen 36-month low-volatility monthly weights; full account replay across predeclared cash cost profiles",
+    "result_file": "experiments/qlib/low-risk-feedback-cost-results.json",
+    "result": "15_ACCOUNT_SCENARIOS_RECONCILED_5_INVALID_CAPITAL_SCENARIOS_PRESERVED_EXECUTION_UNVERIFIED",
+    "profiles_by_extra_bps_and_initial_CNY": {
+      "0": {
+        "100000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 17.70386,
+          "2025_net_pct": 6.601576192998259,
+          "2026_through_2026_10_16_net_pct": 8.453668193222557,
+          "numeric_conditions_met_at_available_cutoff": false,
+          "strict_execution_verified": false
+        },
+        "1000000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 19.952098,
+          "2025_net_pct": 7.948210293078826,
+          "2026_through_2026_10_16_net_pct": 10.68907659099862,
+          "numeric_conditions_met_at_available_cutoff": true,
+          "strict_execution_verified": false
+        },
+        "10000000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 20.3534774,
+          "2025_net_pct": 8.135770242397665,
+          "2026_through_2026_10_16_net_pct": 10.983139920044879,
+          "numeric_conditions_met_at_available_cutoff": true,
+          "strict_execution_verified": false
+        },
+        "100000000": {
+          "status": "INVALID_SINGLE_ORDER_LIMIT",
+          "error": "single order exceeds 1000000 shares: BUY SH600208 1216000"
+        }
+      },
+      "5": {
+        "100000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 17.53855,
+          "2025_net_pct": 6.5028622524269695,
+          "2026_through_2026_10_16_net_pct": 8.094883031031957,
+          "numeric_conditions_met_at_available_cutoff": false,
+          "strict_execution_verified": false
+        },
+        "1000000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 19.788141,
+          "2025_net_pct": 7.871985424667372,
+          "2026_through_2026_10_16_net_pct": 10.582939139846054,
+          "numeric_conditions_met_at_available_cutoff": true,
+          "strict_execution_verified": false
+        },
+        "10000000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 20.1822134,
+          "2025_net_pct": 8.022859312724224,
+          "2026_through_2026_10_16_net_pct": 10.872763180933067,
+          "numeric_conditions_met_at_available_cutoff": true,
+          "strict_execution_verified": false
+        },
+        "100000000": {
+          "status": "INVALID_SINGLE_ORDER_LIMIT",
+          "error": "single order exceeds 1000000 shares: BUY SH600208 1216000"
+        }
+      },
+      "10": {
+        "100000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 17.43574,
+          "2025_net_pct": 6.449084409907921,
+          "2026_through_2026_10_16_net_pct": 7.954866067132461,
+          "numeric_conditions_met_at_available_cutoff": false,
+          "strict_execution_verified": false
+        },
+        "1000000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 19.654078,
+          "2025_net_pct": 7.760250344330094,
+          "2026_through_2026_10_16_net_pct": 10.4603650886469,
+          "numeric_conditions_met_at_available_cutoff": true,
+          "strict_execution_verified": false
+        },
+        "10000000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 20.0099774,
+          "2025_net_pct": 7.920599775065035,
+          "2026_through_2026_10_16_net_pct": 10.762573943724355,
+          "numeric_conditions_met_at_available_cutoff": true,
+          "strict_execution_verified": false
+        },
+        "100000000": {
+          "status": "INVALID_SINGLE_ORDER_LIMIT",
+          "error": "single order exceeds 1000000 shares: BUY SH600208 1216000"
+        }
+      },
+      "20": {
+        "100000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 17.05812,
+          "2025_net_pct": 6.323260616179382,
+          "2026_through_2026_10_16_net_pct": 7.976779047342195,
+          "numeric_conditions_met_at_available_cutoff": false,
+          "strict_execution_verified": false
+        },
+        "1000000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 19.387938,
+          "2025_net_pct": 7.531357145979018,
+          "2026_through_2026_10_16_net_pct": 10.299130382762915,
+          "numeric_conditions_met_at_available_cutoff": true,
+          "strict_execution_verified": false
+        },
+        "10000000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 19.7050059,
+          "2025_net_pct": 7.709745578818771,
+          "2026_through_2026_10_16_net_pct": 10.53959234988904,
+          "numeric_conditions_met_at_available_cutoff": true,
+          "strict_execution_verified": false
+        },
+        "100000000": {
+          "status": "INVALID_SINGLE_ORDER_LIMIT",
+          "error": "single order exceeds 1000000 shares: BUY SH600208 1216000"
+        }
+      },
+      "40": {
+        "100000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 16.53132,
+          "2025_net_pct": 5.978341273401863,
+          "2026_through_2026_10_16_net_pct": 7.642296277606529,
+          "numeric_conditions_met_at_available_cutoff": false,
+          "strict_execution_verified": false
+        },
+        "1000000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 18.751695,
+          "2025_net_pct": 7.117158201405041,
+          "2026_through_2026_10_16_net_pct": 9.845248604556224,
+          "numeric_conditions_met_at_available_cutoff": false,
+          "strict_execution_verified": false
+        },
+        "10000000": {
+          "status": "DAILY_PROXY_ACCOUNT_RECONCILED",
+          "2024_net_pct": 19.0653339,
+          "2025_net_pct": 7.297844062065827,
+          "2026_through_2026_10_16_net_pct": 10.057051805838695,
+          "numeric_conditions_met_at_available_cutoff": true,
+          "strict_execution_verified": false
+        },
+        "100000000": {
+          "status": "INVALID_SINGLE_ORDER_LIMIT",
+          "error": "single order exceeds 1000000 shares: BUY SH600208 1216000"
+        }
+      }
+    },
+    "target_policy_account_feedback_resimulated": true,
+    "user_selected_capital_CNY": null,
+    "selected_extra_cost_bps": null,
+    "full_requested_October_complete": false,
+    "original_research_gate_status": "REJECTED",
+    "research_promoted": false,
+    "strict_investment_claim_verified": false,
+    "independent_audit_file": "experiments/qlib/low-risk-feedback-cost-independent-audit.json",
+    "order_tape_coverage_file": "experiments/qlib/low-risk-feedback-cost-tape-coverage.json",
+    "new_alpha_candidates": 0
+  },
+  "prior_fixed_order_execution_audit": {
     "result_file": "experiments/qlib/low-risk-execution-audit-results.json",
     "source_quality_file": "experiments/qlib/low-risk-minute-source-quality.json",
     "all_original_orders_preserved": true,
@@ -110,6 +276,38 @@
     "2026_requested_code_sessions_minute_daily_exact_matches": 378,
     "older_code_sessions_volume_mismatches": 900,
     "cost_sensitivity_is_feedback_policy_resimulation": false,
+    "new_alpha_candidates": 0
+  },
+  "latest_execution_audit": {
+    "result_file": "experiments/qlib/low-risk-feedback-cost-tape-coverage.json",
+    "all_valid_profile_order_data_present": true,
+    "additional_code_sessions_captured": 2,
+    "source_status_by_profile": {
+      "0/100000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "0/1000000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "0/10000000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "0/100000000": "INVALID_SINGLE_ORDER_LIMIT",
+      "5/100000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "5/1000000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "5/10000000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "5/100000000": "INVALID_SINGLE_ORDER_LIMIT",
+      "10/100000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "10/1000000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "10/10000000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "10/100000000": "INVALID_SINGLE_ORDER_LIMIT",
+      "20/100000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "20/1000000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "20/10000000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "20/100000000": "INVALID_SINGLE_ORDER_LIMIT",
+      "40/100000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "40/1000000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "40/10000000": "INCOMPLETE_EXECUTION_SOURCE_CHECK",
+      "40/100000000": "INVALID_SINGLE_ORDER_LIMIT"
+    },
+    "older_code_sessions_volume_mismatches": 900,
+    "2026_requested_code_sessions_minute_daily_exact_matches": 378,
+    "account_feedback_cost_resimulated": true,
+    "actual_opening_liquidity_and_impact_verified": false,
     "new_alpha_candidates": 0
   }
 }
