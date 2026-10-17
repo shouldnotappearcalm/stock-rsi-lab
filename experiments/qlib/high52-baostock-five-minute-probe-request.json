@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN_SINGLE_PRE2026_RAW_FIVE_MINUTE_SOURCE_PROBE",
+  "pair": [
+    "SH603056",
+    "2025-06-03"
+  ],
+  "maximum_history_queries": 1,
+  "frequency": "5",
+  "adjustflag": "3",
+  "package_version": "0.9.4",
+  "capture_code_sha256": "7b74c6f215088380ace6c59f16ec60d7380943ecb86430f24054c9a16a4a0948",
+  "source_validator_sha256": "c87bf498fc380bb608dd12626393e717ff3dc95433724ebc4c84f50ac71c602d",
+  "reference_daily_packet_sha256": "d7bfecbe25b925dc80eee3d8ca5a397e7648fd0d39959ffaa984b0799b3736d8",
+  "acceptance": "All48 explicit five-minute labels, original raw OHLC extrema and volume sum must match. Preserve failures. No interpolation to one-minute points or trade/ROI claims.",
+  "source_five_minutes_is_not_a_240_point_minute_tape": true,
+  "2026_values_queried": false,
+  "objective_achieved": false
+}
