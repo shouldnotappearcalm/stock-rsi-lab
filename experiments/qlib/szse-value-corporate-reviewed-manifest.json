@@ -1,0 +1,39 @@
+{
+  "status": "REVIEWED_SZSE_VALUE_DEVELOPMENT_CORPORATE_INPUTS",
+  "raw_manifest_sha256": "0d41978c2c9ebcb1b89c6e4174cacda8852240f0c228879bbae2ad66ac18766e",
+  "target_sha256": "fd61c901ae6de2ba8ad1c95c1841181cc697594df8e1c420dfa39dcf5f832caa",
+  "capture_manifest_sha256": "ec26c5c53a3eec54e4708b6b9cbe597c3a4c03773bdc5bc5140af67ac3b155bc",
+  "documents": [
+    {
+      "instrument": "SZ002508",
+      "day": "2024-01-03",
+      "title": "特别分红权益分派实施公告",
+      "announcement_id": "1218790856",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-01-03/1218790856.PDF",
+      "file": "SZ002508-1218790856.pdf",
+      "sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0"
+    }
+  ],
+  "supplementary_distributions": [
+    {
+      "instrument": "SZ002508",
+      "record": {
+        "code": "sz.002508",
+        "dividPlanDate": "2024-01-03",
+        "dividRegistDate": "2024-01-09",
+        "dividOperateDate": "2024-01-10",
+        "dividPayDate": "2024-01-10",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.5",
+        "dividStocksPs": "0",
+        "dividReserveToStockPs": "0",
+        "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+      },
+      "source_file": "SZ002508-1218790856.pdf",
+      "source_sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0",
+      "record_origin": "issuer implementation notice, not vendor response"
+    }
+  ],
+  "capital_tax": {},
+  "cash_overrides": {}
+}
