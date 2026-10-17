@@ -99,10 +99,14 @@ class Broker:
             raise ValueError("execution day absent from exchange calendar")
         if type(bar.get("suspended")) is not bool:
             raise ValueError("explicit suspension status required")
-        price = money(bar.get("open"))
-        upper, lower = money(bar.get("limit_up")), money(bar.get("limit_down"))
-        if price <= 0 or not lower < upper or lower <= 0:
-            raise ValueError("invalid execution price/limits")
+        # Explicit suspension is sufficient to reject fills. It need not invent
+        # a tradable price or limits for a session with no opening auction.
+        price = upper = lower = None
+        if not bar["suspended"]:
+            price = money(bar.get("open"))
+            upper, lower = money(bar.get("limit_up")), money(bar.get("limit_down"))
+            if price <= 0 or not lower < upper or lower <= 0:
+                raise ValueError("invalid execution price/limits")
         return {"security": security, "day": day, "at": at, "bar": bar,
                 "price": price, "upper": upper, "lower": lower}
 
@@ -131,7 +135,7 @@ class Broker:
             quantity = order["quantity"]
             lots = self.positions.setdefault(security, [])
             if action == "BUY":
-                affordable = int((self.cash / (price * (1 + self.buy_rate))).to_integral_value(rounding=ROUND_DOWN)) // 100 * 100
+                affordable = int((self.cash / price).to_integral_value(rounding=ROUND_DOWN)) // 100 * 100
                 quantity = min(quantity, affordable)
                 while quantity > 0 and price * quantity + self._cost(price*quantity,action) > self.cash:
                     quantity -= 100

@@ -5,10 +5,10 @@
   "data_manifest_sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
   "proof_manifest_sha256": "ef97c73712072ed58a05dceea01cc041063a013f8229defbe22d25089a4d1c25",
   "method_code_sha256": {
-    "scripts/run_low_risk_raw_share_validation.py": "c2b8533b617ca169d811b3130c1243570a324749d0f73b351fa8dd5c7a65e0da",
+    "scripts/run_low_risk_raw_share_validation.py": "3e4595a243b47f53a8f4990c57b6d59ec44db4464c10aa6b29e4066f47277d07",
     "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
     "src/stock_rsi/raw_share_account.py": "9ea95187d96d02f4c73390550edc7f75ba1b62417882f65aae095082162a816f",
-    "src/stock_rsi/broker.py": "cafdcad97dabd3c9f02d86d42a6f515ed75bf37c41de1000d100cce7c904ea0e",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
     "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
     "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
     "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
@@ -39,7 +39,7 @@
   "capital_credit": "integer entitlement, credited no earlier than listing; no fractional-credit inference",
   "price_clock": "prior raw close sizes integer orders; next session open proxy executes; equity and inventory are prior-close inputs",
   "limit_proxy": "original direction-specific +/-9.5% relative to published reference; source isST must be 0 for execution validation",
-  "liquidity": "Whole-day volume is a necessary feasibility check, not opening-auction fill proof",
+  "liquidity": "Whole-day volume necessary condition: any order quantity above observed daily volume invalidates capital case; preserve diagnostic ledger, do not resize orders using future volume. Opening auction remains unverified.",
   "dates": {
     "start": "2024-01-02",
     "end": "2026-10-16",
@@ -54,5 +54,13 @@
   "2026_data_previously_consumed": true,
   "original_qlib_2026_pct_known": 12.332916588905185,
   "rule_changes_from_2026_results_allowed": false,
-  "strict_investment_claim_verified": false
+  "strict_investment_claim_verified": false,
+  "method_freeze_amendment": {
+    "parent_plan_sha256": "c3000b633981ee4c241798db6d0f560b3a1e761e56a70d1fd5b31344d002ea54",
+    "parent_commit": "ae6a6af",
+    "reason": "Independent pre-outcome review: source admission, impossible tape capacity, explicit suspension and rounded-fee affordability",
+    "real_raw_account_outcomes_read_before_amendment": false,
+    "policy_or_targets_changed": false
+  },
+  "source_admission": "No unresolved in-window/undated quarantine; each adjustment must match separately dated distribution on same or prior explicit session; reference changes over half-cent require distribution evidence. No factor-derived cash or shares."
 }

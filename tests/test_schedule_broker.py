@@ -132,6 +132,20 @@ class ScheduleBrokerTests(unittest.TestCase):
         self.assertEqual(broker.positions["SYN_A"][0]["quantity"],1)
         self.assertEqual(broker.orders[0]["status"],"UNFILLED_FEES_CASH")
 
+    def test_rounded_fee_affordability_includes_exactly_affordable_lot(self):
+        broker=Broker(self.calendar,initial_cash="10006.00",buy_cost_bps="5",min_cost="5")
+        broker.submit(decision("BUY"),parse_time("2024-09-27T17:00:00+08:00"))
+        fills=broker.on_open(bar("2024-09-30",op="100.01",limit_up="110",limit_down="90"))
+        self.assertEqual(fills[0]["quantity"],100)
+        self.assertEqual(fills[0]["cost"],"5.00")
+        self.assertEqual(broker.cash,Decimal("0.00"))
+
+    def test_explicit_suspension_needs_no_executable_price(self):
+        broker=Broker(self.calendar,initial_cash="2000")
+        broker.submit(decision("BUY"),parse_time("2024-09-27T17:00:00+08:00"))
+        self.assertEqual(broker.on_open({"security_id":"SYN_A","trade_date":"2024-09-30","suspended":True}),[])
+        self.assertEqual(broker.orders[0]["status"],"UNFILLED_MARKET_CONSTRAINT")
+
 
 if __name__ == '__main__':
     unittest.main()

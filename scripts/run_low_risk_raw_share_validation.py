@@ -9,6 +9,7 @@ from pathlib import Path
 
 from scripts.capture_low_risk_raw_account_data import END, EXPECTED_TARGET_SHA256, START
 from scripts.prepare_qlib_master_market_pre2026 import sha256_file
+from stock_rsi.broker import money
 from stock_rsi.calendar import TradingCalendar
 from stock_rsi.data import Snapshot, canonical, digest
 from stock_rsi.models import Decision
@@ -37,16 +38,28 @@ def canonical_distributions(packets, proofs):
             key=code+"|"+row["dividOperateDate"]
             if key in seen:raise ValueError("same-date distributions require primary resolution")
             seen.add(key)
-            cash=Decimal(row["dividCashPsBeforeTax"] or "0")
+            if not row["dividCashPsBeforeTax"] or not row["dividStocksPs"]:
+                raise ValueError("missing distribution cash or stock ratio")
+            cash=money(row["dividCashPsBeforeTax"])
+            stock=money(row["dividStocksPs"])
+            if cash < 0 or stock < 0:raise ValueError("negative distribution amount")
             override=proofs.get("cash_overrides",{}).get(key)
             if override:
                 if (cash!=Decimal(override["expected_source_cash_per_share"])
                         or override["publication_day"]!=row["dividPlanDate"]):
                     raise ValueError("primary cash override no longer matches source event")
                 cash=Decimal(override["cash_per_share"])
-            if Decimal(row["dividStocksPs"] or "0")!=0:
+            if stock!=0:
                 raise ValueError("stock dividend taxation requires a separate supported event")
-            capital=Decimal(row["dividReserveToStockPs"] or "0")
+            capital_text=row["dividReserveToStockPs"]
+            if not capital_text:
+                display=row.get("dividCashStock","")
+                if not (cash>0 and display.startswith("10派") and "转" not in display
+                        and "送" not in display and not row["dividStockMarketDate"]):
+                    raise ValueError("missing capital ratio without explicit cash-only distribution")
+                capital_text="0"
+            capital=money(capital_text)
+            if capital<0:raise ValueError("negative capital ratio")
             taxproof=proofs.get("capital_tax",{}).get(key,{})
             event_id=digest({"instrument":code,"source_distribution":row,"effective_cash":str(cash)})
             events.append(Distribution(event_id,code,date.fromisoformat(row["dividPlanDate"]),
@@ -55,6 +68,37 @@ def canonical_distributions(packets, proofs):
                 date.fromisoformat(row["dividStockMarketDate"]) if row["dividStockMarketDate"] else None,
                 cash,capital,taxproof.get("verified_exempt") is True))
     return tuple(events)
+
+
+
+def validate_source_coverage(packets):
+    """Admission checks, never a way to synthesize cash or stock entitlements.
+
+    Some vendor adjustment entries are recorded the next exchange session.
+    They are accepted only beside a separately dated distribution; factors
+    never determine inventory or the size of a payment.
+    """
+    for code,packet in packets.items():
+        for item in packet["quarantine"]:
+            at=item["record"].get("dividOperateDate","")
+            if not (item["reason"]=="AFTER_CAPTURE_CUTOFF" and at>END
+                    or item["reason"]=="BEFORE_CAPTURE_WINDOW" and at and at<START):
+                raise ValueError("unresolved quarantined distribution: "+code)
+        ex_dates={row["dividOperateDate"] for row in packet["distributions"]}
+        rows=packet["bars"];previous_close=None
+        indices={row["date"]:i for i,row in enumerate(rows)}
+        for row in rows:
+            reference=money(row["preclose"]) if row["preclose"] else None
+            if (previous_close is not None and reference is not None and reference>0
+                    and abs(reference-previous_close)>Decimal(".005") and row["date"] not in ex_dates):
+                raise ValueError("unexplained raw reference change: "+code+" "+row["date"])
+            if row["close"] and money(row["close"])>0:previous_close=money(row["close"])
+        for adjustment in packet["adjustments"]:
+            at=adjustment["dividOperateDate"]
+            if at not in indices:raise ValueError("adjustment outside observed sessions: "+code)
+            index=indices[at]
+            if at not in ex_dates and not (index>0 and rows[index-1]["date"] in ex_dates):
+                raise ValueError("unresolved adjustment event: "+code+" "+at)
 
 
 def simulate_fixed_targets(calendar,bars,events,targets,initial_cash):
@@ -70,14 +114,14 @@ def simulate_fixed_targets(calendar,bars,events,targets,initial_cash):
             row=bars[code][day.isoformat()]
             if row["date"]!=day.isoformat() or row["tradestatus"] not in ("0","1") or row["isST"]!="0":
                 raise ValueError("execution data or supported ordinary-board state unknown")
-            reference=Decimal(row["preclose"])
-            price=Decimal(row["open"])
-            if row["tradestatus"]=="1" and price!=price.quantize(CENT):
-                raise ValueError("actual stock execution price must lie on the cent tick")
-            execution.append({"security_id":code,"trade_date":day.isoformat(),"open":str(price),
-                              "close":row["close"],"suspended":row["tradestatus"]=="0",
-                              "limit_up":str(reference*Decimal("1.095")),
-                              "limit_down":str(reference*Decimal(".905"))})
+            item={"security_id":code,"trade_date":day.isoformat(),"suspended":row["tradestatus"]=="0"}
+            if row["tradestatus"]=="1":
+                reference=money(row["preclose"]);price=money(row["open"])
+                if price!=price.quantize(CENT):
+                    raise ValueError("actual stock execution price must lie on the cent tick")
+                item.update(open=str(price),limit_up=str(reference*Decimal("1.095")),
+                            limit_down=str(reference*Decimal(".905")))
+            execution.append(item)
         if execution:account.broker.on_market_open(execution)
         new_fills=account.broker.fills[before_fills:]
         for fill in new_fills:
@@ -98,8 +142,8 @@ def simulate_fixed_targets(calendar,bars,events,targets,initial_cash):
                 marks[code]=price
             elif code in ex_codes:
                 marks[code]=Decimal(source["preclose"])
-            elif code not in marks:
-                marks[code]=Decimal(source["close"])
+            elif code not in marks and source["close"] and money(source["close"])>0:
+                marks[code]=money(source["close"])
         account.end_day(day)
         wealth=account.wealth(marks);owned=account.owned_quantities()
         corporate=account.corporate_ledger[before_corp:]
@@ -161,7 +205,9 @@ def simulate_fixed_targets(calendar,bars,events,targets,initial_cash):
     return {"days":rows,"intents":intents,"fills":account.broker.fills,"orders":account.broker.orders,
             "corporate_ledger":account.corporate_ledger,"ownership":ownership,
             "max_daily_volume_fraction":max(capacity,default=Decimal(0)),
-            "whole_day_volume_violations":sum(value>1 for value in capacity)}
+            "whole_day_volume_violations":sum(value>1 for value in capacity),
+            "execution_status":"INVALID_OBSERVED_TAPE_CAPACITY" if any(value>1 for value in capacity)
+                               else "DAILY_PROXY_NECESSARY_CHECKS_PASSED"}
 
 
 def summarize_case(case,initial_cash):
@@ -224,6 +270,7 @@ def main(argv=None):
         if [row["date"] for row in packet["bars"]]!=[day.isoformat() for day in calendar.days]:
             raise ValueError("complete raw historical session rows required")
         packets[code]=packet
+    validate_source_coverage(packets)
     events=canonical_distributions(packets,proofs)
     bars={code:{row["date"]:row for row in packet["bars"]} for code,packet in packets.items()}
     targets=json.loads(Path(args.targets).read_text())
@@ -238,7 +285,9 @@ def main(argv=None):
                 writer=csv.DictWriter(stream,fieldnames=list(case["days"][0]));writer.writeheader();writer.writerows(case["days"])
             for key in ("intents","fills","orders","corporate_ledger","ownership"):
                 (folder/(key+".json")).write_text(json.dumps(clean(case[key]),indent=2)+"\n")
-            results[capital]={"status":"RAW_SHARE_ACCOUNT_RECONCILED",**summarize_case(case,capital),
+            results[capital]={"status":("INVALID_OBSERVED_TAPE_CAPACITY" if case["whole_day_volume_violations"]
+                                        else "RAW_SHARE_ACCOUNT_RECONCILED"),
+                              "execution_status":case["execution_status"],**summarize_case(case,capital),
                               "artifact_sha256":{p.name:sha256_file(p) for p in sorted(folder.iterdir())}}
         except (ValueError,KeyError) as exc:
             results[capital]={"status":"INVALID_ACCOUNT_OR_SOURCE","error":str(exc)}
