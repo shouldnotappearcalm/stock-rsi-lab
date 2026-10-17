@@ -1,0 +1,88 @@
+{
+  "status": "PRE2026_DEVELOPMENT_SIGNAL_DIAGNOSTIC_ONLY",
+  "candidate_budget": 1,
+  "window": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "rule": "date-only report; after next open ORJ=(next open/previous close)-1; entry following close",
+  "primary_horizon_sessions": 60,
+  "secondary_horizon_sessions": 20,
+  "round_trip_cost_assumption": 0.002,
+  "benchmark": "SH000905",
+  "deduplicated_signal_events": 2741,
+  "excluded": {
+    "ambiguous_original_rows": 38,
+    "generic_yearless_annual_rows": 2,
+    "same_stock_signal_day_deduplicated": 305,
+    "outside_csi500_on_signal_day": 894,
+    "missing_or_suspended_price": 4,
+    "listed_adjustment_on_open": 3
+  },
+  "results": {
+    "20": {
+      "positive": {
+        "events": 1373,
+        "distinct_signal_days": 101,
+        "mean_gross_return_pct": 1.7837470458315952,
+        "mean_benchmark_return_pct": 1.958159351754823,
+        "mean_cost_adjusted_excess_pct": -0.3744123059232208,
+        "date_balanced_cost_adjusted_excess_pct": -0.8853377966160864
+      },
+      "nonpositive": {
+        "events": 1364,
+        "distinct_signal_days": 116,
+        "mean_gross_return_pct": 3.369845796430925,
+        "mean_benchmark_return_pct": 3.11846635337166,
+        "mean_cost_adjusted_excess_pct": 0.05137944305927151,
+        "date_balanced_cost_adjusted_excess_pct": -0.7293228107449811
+      },
+      "positive_minus_nonpositive_excess_points": -0.4257917489824923,
+      "skipped": {
+        "missing_adjusted_price": 4
+      }
+    },
+    "60": {
+      "positive": {
+        "events": 1187,
+        "distinct_signal_days": 91,
+        "mean_gross_return_pct": 2.7610676317572,
+        "mean_benchmark_return_pct": 2.406716175566535,
+        "mean_cost_adjusted_excess_pct": 0.15435145619065593,
+        "date_balanced_cost_adjusted_excess_pct": -1.0589385282543498
+      },
+      "nonpositive": {
+        "events": 1175,
+        "distinct_signal_days": 106,
+        "mean_gross_return_pct": 5.319462103551503,
+        "mean_benchmark_return_pct": 4.3647291830479125,
+        "mean_cost_adjusted_excess_pct": 0.7547329205036055,
+        "date_balanced_cost_adjusted_excess_pct": 0.32600735010157883
+      },
+      "positive_minus_nonpositive_excess_points": -0.6003814643129496,
+      "skipped": {
+        "censored_at_2025": 372,
+        "missing_adjusted_price": 7
+      }
+    }
+  },
+  "diagnostic_status": "REJECTED_DEVELOPMENT_SIGNAL",
+  "capture_manifest_sha256": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+  "adjustment_manifest_sha256": "bdd17e0567e8c22197cbc4e17765f2cb7ab7378cb8d1465a0d48cb120ec6e225",
+  "price_admission_sha256": "56e1b313f39eab862f00849ac00b1200969881f7442a76b66a71dbd451f6fd79",
+  "membership_sha256": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+  "qlib_calendar_sha256": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+  "price_input_digest_sha256": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+  "2026_price_or_return_accessed": false,
+  "investable_portfolio_return": null,
+  "freeze_commit": "fd6794f",
+  "development_gate_status": "REJECTED_DEVELOPMENT_SIGNAL",
+  "claim_status": "DEVELOPMENT_SIGNAL_DIAGNOSTIC_ONLY_NO_PORTFOLIO",
+  "limitations": [
+    "The 2024-2025 period has been inspected repeatedly and does not validate future performance.",
+    "This is an adapted CSI500 main-board, delayed-entry sign test, not the paper portfolio.",
+    "Forward event returns overlap and do not form an investable account curve.",
+    "Adjustment-date coverage and historical tradability remain incomplete.",
+    "No 2026 price or return was queried; no sign inversion or horizon search followed the failed result."
+  ]
+}

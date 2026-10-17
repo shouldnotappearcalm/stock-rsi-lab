@@ -1,0 +1,44 @@
+{
+  "status": "PRE2026_EVENT_DATA_ADMISSION_ONLY",
+  "window": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "historical_csi500_mainboard_names": 501,
+  "cninfo_report_rows": 6141,
+  "cninfo_report_rows_by_category": {
+    "annual": 2085,
+    "q1": 1019,
+    "h1": 2025,
+    "q3": 1012
+  },
+  "cninfo_fulltext_recoveries": 4,
+  "cninfo_missing_report_cells_initial_parser": 44,
+  "cninfo_midnight_timestamp_rows": 6139,
+  "baostock_adjustment_rows": 1173,
+  "baostock_codes_without_rows": 44,
+  "price_admission_original_events_after_title_suffix_fix": 3985,
+  "price_admission_status_counts": {
+    "price_pair_observed_no_listed_adjustment": 3046,
+    "outside_csi500_on_signal_day": 894,
+    "ambiguous_report_version": 38,
+    "missing_or_suspended_price": 4,
+    "listed_adjustment_on_open": 3
+  },
+  "price_admission_ambiguous_report_groups": 19,
+  "generic_yearless_annual_rows": 2,
+  "capture_manifest_sha256": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+  "adjustment_manifest_sha256": "bdd17e0567e8c22197cbc4e17765f2cb7ab7378cb8d1465a0d48cb120ec6e225",
+  "price_admission_sha256": "56e1b313f39eab862f00849ac00b1200969881f7442a76b66a71dbd451f6fd79",
+  "membership_sha256": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+  "qlib_calendar_sha256": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+  "claim_status": "DATA_ONLY_NOT_PIT_COMPLETE",
+  "limitations": [
+    "CNINFO current org mapping is not a historical security master.",
+    "Announcement time is mostly midnight placeholder; all original reports are treated as date-only and visible after day close.",
+    "Generic yearless report titles and duplicate report versions remain excluded until independently resolved.",
+    "BaoStock adjustment dates are an independent filter but have no completeness guarantee.",
+    "Qlib raw prices and constituent intervals lack complete historical tradability and corporate-action proof.",
+    "No strategy return or 2026 price/return was used for this admission."
+  ]
+}
