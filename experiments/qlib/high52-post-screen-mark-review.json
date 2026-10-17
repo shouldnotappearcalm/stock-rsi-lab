@@ -1,0 +1,90 @@
+{
+  "status": "POST_SCREEN_SOURCE_CLASSIFICATION_ONLY_ORIGINAL_RESULTS_UNCHANGED",
+  "source_packet_sha256": "0c582cf60e6a79b9e3383227805b3418a6371b29d306ccf6c4135e35c5d519de",
+  "source_manifest_sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+  "source_manifest_public_reference": "experiments/qlib/low-risk-raw-data-manifest.json",
+  "facts": {
+    "20": [
+      {
+        "instrument": "SH601298",
+        "session": "2024-07-10",
+        "marked_normalized_price": 1.8328313827514648,
+        "verified": true,
+        "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+        "last_visible_close_date": "2024-07-09",
+        "last_visible_normalized_close": 1.8328313827514648,
+        "source_tradestatus": "0",
+        "actual_quote_on_suspended_day_created": false
+      },
+      {
+        "instrument": "SH601298",
+        "session": "2024-07-11",
+        "marked_normalized_price": 1.8328313827514648,
+        "verified": true,
+        "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+        "last_visible_close_date": "2024-07-09",
+        "last_visible_normalized_close": 1.8328313827514648,
+        "source_tradestatus": "0",
+        "actual_quote_on_suspended_day_created": false
+      },
+      {
+        "instrument": "SH601298",
+        "session": "2024-07-12",
+        "marked_normalized_price": 1.8328313827514648,
+        "verified": true,
+        "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+        "last_visible_close_date": "2024-07-09",
+        "last_visible_normalized_close": 1.8328313827514648,
+        "source_tradestatus": "0",
+        "actual_quote_on_suspended_day_created": false
+      }
+    ],
+    "40": [
+      {
+        "instrument": "SH601298",
+        "session": "2024-07-10",
+        "marked_normalized_price": 1.8328313827514648,
+        "verified": true,
+        "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+        "last_visible_close_date": "2024-07-09",
+        "last_visible_normalized_close": 1.8328313827514648,
+        "source_tradestatus": "0",
+        "actual_quote_on_suspended_day_created": false
+      },
+      {
+        "instrument": "SH601298",
+        "session": "2024-07-11",
+        "marked_normalized_price": 1.8328313827514648,
+        "verified": true,
+        "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+        "last_visible_close_date": "2024-07-09",
+        "last_visible_normalized_close": 1.8328313827514648,
+        "source_tradestatus": "0",
+        "actual_quote_on_suspended_day_created": false
+      },
+      {
+        "instrument": "SH601298",
+        "session": "2024-07-12",
+        "marked_normalized_price": 1.8328313827514648,
+        "verified": true,
+        "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+        "last_visible_close_date": "2024-07-09",
+        "last_visible_normalized_close": 1.8328313827514648,
+        "source_tradestatus": "0",
+        "actual_quote_on_suspended_day_created": false
+      }
+    ]
+  },
+  "original_unverified_mark_counts_retained": 3,
+  "original_screen_selected_lead": null,
+  "original_exposure_gate_still_failed": true,
+  "source_packet_changed": false,
+  "quote_created_on_halt": false,
+  "2026_source_rows_excluded_from_view": true,
+  "new_2026_queries": false,
+  "new_2026_strategy_returns_queried": false,
+  "historical_arrival_verified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "classification_code_sha256": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5"
+}

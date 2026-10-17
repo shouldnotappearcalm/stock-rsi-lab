@@ -1,0 +1,156 @@
+{
+  "status": "PRE2026_FORMATION_TARGET_QUANTIZATION_ONLY",
+  "reference_CNY": 1000000,
+  "profile": "40/near_52w_high",
+  "formation_targets": [
+    {
+      "formation_day": "2023-12-29",
+      "theoretical_weighted_market_CNY": 950000.0,
+      "independent_floored_target_market_CNY": 919517.0035410628,
+      "floored_target_exposure_pct": 91.95170035410628
+    },
+    {
+      "formation_day": "2024-01-31",
+      "theoretical_weighted_market_CNY": 894745.8480641947,
+      "independent_floored_target_market_CNY": 869032.9923041537,
+      "floored_target_exposure_pct": 92.26992720615716
+    },
+    {
+      "formation_day": "2024-02-29",
+      "theoretical_weighted_market_CNY": 973218.2002020659,
+      "independent_floored_target_market_CNY": 937044.9983211518,
+      "floored_target_exposure_pct": 91.4689787162084
+    },
+    {
+      "formation_day": "2024-03-29",
+      "theoretical_weighted_market_CNY": 999553.3556205817,
+      "independent_floored_target_market_CNY": 973179.0037899828,
+      "floored_target_exposure_pct": 92.49331698021133
+    },
+    {
+      "formation_day": "2024-04-30",
+      "theoretical_weighted_market_CNY": 1034943.9876958063,
+      "independent_floored_target_market_CNY": 992992.0040590488,
+      "floored_target_exposure_pct": 91.14912643304966
+    },
+    {
+      "formation_day": "2024-05-31",
+      "theoretical_weighted_market_CNY": 1038356.7204694197,
+      "independent_floored_target_market_CNY": 1014532.0082596712,
+      "floored_target_exposure_pct": 92.82026001728683
+    },
+    {
+      "formation_day": "2024-06-28",
+      "theoretical_weighted_market_CNY": 1006415.0850046071,
+      "independent_floored_target_market_CNY": 974031.998682313,
+      "floored_target_exposure_pct": 91.94321632648833
+    },
+    {
+      "formation_day": "2024-07-31",
+      "theoretical_weighted_market_CNY": 968398.5101951082,
+      "independent_floored_target_market_CNY": 944668.9987430549,
+      "floored_target_exposure_pct": 92.67213232547118
+    },
+    {
+      "formation_day": "2024-08-30",
+      "theoretical_weighted_market_CNY": 915702.9490517323,
+      "independent_floored_target_market_CNY": 891332.9905799697,
+      "floored_target_exposure_pct": 92.4717280781776
+    },
+    {
+      "formation_day": "2024-09-30",
+      "theoretical_weighted_market_CNY": 1039714.8995105933,
+      "independent_floored_target_market_CNY": 1013855.9968218494,
+      "floored_target_exposure_pct": 92.63724098155463
+    },
+    {
+      "formation_day": "2024-10-31",
+      "theoretical_weighted_market_CNY": 1115023.292831162,
+      "independent_floored_target_market_CNY": 1075380.006231151,
+      "floored_target_exposure_pct": 91.62239143234532
+    },
+    {
+      "formation_day": "2024-11-29",
+      "theoretical_weighted_market_CNY": 1057523.1537000395,
+      "independent_floored_target_market_CNY": 1022168.0012221572,
+      "floored_target_exposure_pct": 91.82395655012627
+    },
+    {
+      "formation_day": "2024-12-31",
+      "theoretical_weighted_market_CNY": 1035223.645882668,
+      "independent_floored_target_market_CNY": 998315.0006260605,
+      "floored_target_exposure_pct": 91.61298182926637
+    },
+    {
+      "formation_day": "2025-01-27",
+      "theoretical_weighted_market_CNY": 1002535.5744185352,
+      "independent_floored_target_market_CNY": 948912.009759101,
+      "floored_target_exposure_pct": 89.91864550981057
+    },
+    {
+      "formation_day": "2025-02-28",
+      "theoretical_weighted_market_CNY": 1001111.7971840097,
+      "independent_floored_target_market_CNY": 958343.9917891793,
+      "floored_target_exposure_pct": 90.94157063782747
+    },
+    {
+      "formation_day": "2025-03-31",
+      "theoretical_weighted_market_CNY": 1005165.0682286859,
+      "independent_floored_target_market_CNY": 972395.0058423672,
+      "floored_target_exposure_pct": 91.90284111028019
+    },
+    {
+      "formation_day": "2025-04-30",
+      "theoretical_weighted_market_CNY": 977626.3023200866,
+      "independent_floored_target_market_CNY": 939108.9934653486,
+      "floored_target_exposure_pct": 91.257113446604
+    },
+    {
+      "formation_day": "2025-05-30",
+      "theoretical_weighted_market_CNY": 1003159.3988258179,
+      "independent_floored_target_market_CNY": 958855.9969221409,
+      "floored_target_exposure_pct": 90.80443229084463
+    },
+    {
+      "formation_day": "2025-06-30",
+      "theoretical_weighted_market_CNY": 1010924.7054231666,
+      "independent_floored_target_market_CNY": 969828.9897856041,
+      "floored_target_exposure_pct": 91.13809716527382
+    },
+    {
+      "formation_day": "2025-07-31",
+      "theoretical_weighted_market_CNY": 1047868.2117026403,
+      "independent_floored_target_market_CNY": 997059.0032915232,
+      "floored_target_exposure_pct": 90.39362417415724
+    },
+    {
+      "formation_day": "2025-08-29",
+      "theoretical_weighted_market_CNY": 1171972.4599413725,
+      "independent_floored_target_market_CNY": 1111579.0055400718,
+      "floored_target_exposure_pct": 90.10451110053337
+    },
+    {
+      "formation_day": "2025-09-30",
+      "theoretical_weighted_market_CNY": 1229147.1051317756,
+      "independent_floored_target_market_CNY": 1162834.9998709422,
+      "floored_target_exposure_pct": 89.87477945196494
+    },
+    {
+      "formation_day": "2025-10-31",
+      "theoretical_weighted_market_CNY": 1199303.9675423019,
+      "independent_floored_target_market_CNY": 1166362.9987570082,
+      "floored_target_exposure_pct": 92.39065981661356
+    },
+    {
+      "formation_day": "2025-11-28",
+      "theoretical_weighted_market_CNY": 1184567.400038244,
+      "independent_floored_target_market_CNY": 1148139.9984640197,
+      "floored_target_exposure_pct": 92.07859329115458
+    }
+  ],
+  "periods": 24,
+  "definition": "Independent floor of each95% equalweight prior-close raw-share target to100-share lots. Ignores costs and trading; cannot explain all daily cash drag or certify executions.",
+  "source_summary_sha256": "f359ce0c02b7d013a52894dfe615605af980d088dbf9b532aaf74152c7e44eca",
+  "2026_market_values_queried": false,
+  "objective_achieved": false
+}

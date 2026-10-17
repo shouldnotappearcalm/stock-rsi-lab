@@ -1,0 +1,17 @@
+{
+  "status": "PRE2026_RECORDED_UNFILLED_BUY_COUNTS_ONLY",
+  "orders_csv_sha256": "4f64cae62bf3facfd5df309b1d396b228c31f081c74a5711f861b0a787a4435c",
+  "profile": "40/near_52w_high",
+  "unfilled_buy_orders": 35,
+  "by_session": {
+    "2024-10-08": 27,
+    "2024-11-01": 3,
+    "2025-06-03": 2,
+    "2025-10-09": 2,
+    "2025-12-01": 1
+  },
+  "actual_intraday_fill_feasibility_inferred": false,
+  "new_policy_variant_tested": false,
+  "2026_values_queried": false,
+  "objective_achieved": false
+}
