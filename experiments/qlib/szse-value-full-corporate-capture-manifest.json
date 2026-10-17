@@ -1,0 +1,31 @@
+{
+  "status": "SZSE_VALUE_FULL_CORPORATE_ORIGINAL_DOCUMENTS_CAPTURED",
+  "development_capture_manifest_sha256": "ec26c5c53a3eec54e4708b6b9cbe597c3a4c03773bdc5bc5140af67ac3b155bc",
+  "documents": [
+    {
+      "instrument": "SZ002508",
+      "day": "2024-01-03",
+      "title": "\u7279\u522b\u5206\u7ea2\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+      "announcement_id": "1218790856",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-01-03/1218790856.PDF",
+      "file": "SZ002508-1218790856.pdf",
+      "sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0"
+    },
+    {
+      "instrument": "SZ000728",
+      "day": "2025-01-14",
+      "file": "SZ000728-2025-01-14.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-14/1222321918.PDF",
+      "sha256": "712c5aa18b185c5dc7fe317b3f4cdadbef0bdd09b3b83d665e0d66707ae7ebf2",
+      "verified_pages": [
+        1,
+        2
+      ],
+      "verified_facts": "cash0.06/share; no stock or capital transfer; record2025-01-20; ex/payment2025-01-21"
+    }
+  ],
+  "reused_documents": 1,
+  "new_documents": 1,
+  "source_provider_packets_modified": false,
+  "strategy_returns_computed": false
+}

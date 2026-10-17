@@ -1,0 +1,75 @@
+{
+  "status": "SZSE_VALUE_FULL_CORPORATE_SOURCE_REVIEW_RECORDED",
+  "raw_manifest_sha256": "3c02e2f9ed433f93e8419a26eaa1610d8c397fb79a5cc12ec871bfda75ecc897",
+  "target_sha256": "82a8bf4cc8973c6b1b91346d3d677c21e02591cbf330db1b801066f030969434",
+  "capture_manifest_sha256": "4db4f616056c618419f053b57497ee39bb97aa1c347b085ce05b4bed99b77e7a",
+  "documents": [
+    {
+      "instrument": "SZ002508",
+      "day": "2024-01-03",
+      "title": "\u7279\u522b\u5206\u7ea2\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+      "announcement_id": "1218790856",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-01-03/1218790856.PDF",
+      "file": "SZ002508-1218790856.pdf",
+      "sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0"
+    },
+    {
+      "instrument": "SZ000728",
+      "day": "2025-01-14",
+      "file": "SZ000728-2025-01-14.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-14/1222321918.PDF",
+      "sha256": "712c5aa18b185c5dc7fe317b3f4cdadbef0bdd09b3b83d665e0d66707ae7ebf2",
+      "verified_pages": [
+        1,
+        2
+      ],
+      "verified_facts": "cash0.06/share; no stock or capital transfer; record2025-01-20; ex/payment2025-01-21"
+    }
+  ],
+  "supplementary_distributions": [
+    {
+      "instrument": "SZ002508",
+      "record": {
+        "code": "sz.002508",
+        "dividPlanDate": "2024-01-03",
+        "dividRegistDate": "2024-01-09",
+        "dividOperateDate": "2024-01-10",
+        "dividPayDate": "2024-01-10",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.5",
+        "dividStocksPs": "0",
+        "dividReserveToStockPs": "0",
+        "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+      },
+      "source_file": "SZ002508-1218790856.pdf",
+      "source_sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0",
+      "record_origin": "issuer implementation notice, not vendor response"
+    },
+    {
+      "instrument": "SZ000728",
+      "source_file": "SZ000728-2025-01-14.pdf",
+      "source_sha256": "712c5aa18b185c5dc7fe317b3f4cdadbef0bdd09b3b83d665e0d66707ae7ebf2",
+      "record": {
+        "code": "sz.000728",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "",
+        "dividPlanAnnounceDate": "",
+        "dividPlanDate": "2025-01-14",
+        "dividRegistDate": "2025-01-20",
+        "dividOperateDate": "2025-01-21",
+        "dividPayDate": "2025-01-21",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.06",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0",
+        "dividCashStock": "10\u6d3e0.60\u5143",
+        "dividReserveToStockPs": "0"
+      }
+    }
+  ],
+  "capital_tax": {},
+  "cash_overrides": {},
+  "development_reviewed_manifest_sha256": "fe5d1b9b29cee2b674c65caaafdd0910ec463945b32f8f4b7a8a60f727aecda6",
+  "development_capture_manifest_sha256": "ec26c5c53a3eec54e4708b6b9cbe597c3a4c03773bdc5bc5140af67ac3b155bc",
+  "resolved_cash_components": []
+}
