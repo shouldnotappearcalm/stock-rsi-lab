@@ -1,0 +1,82 @@
+{
+  "status": "FROZEN_FUNDAMENTAL_PILOT_BEFORE_SOURCE_QUERY",
+  "parent_commit": "4c5d187",
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "quarters": [
+    [
+      2023,
+      3
+    ],
+    [
+      2023,
+      4
+    ],
+    [
+      2024,
+      1
+    ],
+    [
+      2024,
+      2
+    ],
+    [
+      2024,
+      3
+    ],
+    [
+      2024,
+      4
+    ],
+    [
+      2025,
+      1
+    ],
+    [
+      2025,
+      2
+    ],
+    [
+      2025,
+      3
+    ]
+  ],
+  "codes": [
+    "SH600166",
+    "SH601108",
+    "SH600901",
+    "SH603517",
+    "SH600418",
+    "SH600655",
+    "SZ000825",
+    "SZ000783",
+    "SZ000750",
+    "SZ000933",
+    "SZ002372",
+    "SZ002925"
+  ],
+  "original_sample_manifest_sha256": "e0cea489afbfc432e26cf5e8e581873ccba48dc251f3c881d0d71e158ee77cee",
+  "membership_sha256": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+  "calendar_sha256": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+  "cninfo_manifest_sha256": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+  "design_file": "docs/research/fundamental-value-data-plan-2026-10-17.md",
+  "design_sha256": "76cbd734a2a928a0e2d03e10811e3c443664161df4647a883a500517cdd7225b",
+  "method_sha256": {
+    "scripts/capture_fundamental_pilot_pre2026.py": "dcf0cc455bd2e4508e0db6f368cb90ad050db55e6f72177ba579ed6d38990a5e",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "capture_is_data_only": true,
+  "financial_version_history_complete": false,
+  "investment_factor_admitted": false,
+  "2026_market_or_return_values_queried": false,
+  "strategy_return_computed": false,
+  "objective_achieved": false,
+  "unique_data_query_keys": 120,
+  "max_query_attempt_reservations": 240,
+  "per_query_max_attempts": 2
+}
