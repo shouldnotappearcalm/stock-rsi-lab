@@ -1,0 +1,28 @@
+{
+  "experiment_id": "weak-ovnt-avoidance-pre2026-v1",
+  "status": "PRE_REGISTERED_BEFORE_OUTCOME",
+  "candidate_budget": 1,
+  "source": "https://doi.org/10.1016/j.jedc.2024.104997",
+  "source_admission": "Paper finds most risk-adjusted alpha in the short leg; test only avoidance of weak stocks, not a top-decile long-only alpha claim.",
+  "local_adaptation": "Full historical CSI500 universe from the existing frozen DE predictions; no historical market-cap bottom-30% filter is available.",
+  "development_window": ["2024-01-02", "2025-12-30"],
+  "forecast": "existing frozen DoubleEnsemble prediction, unchanged",
+  "factor": "daily adjusted total-return gross divided by close/open intraday gross; compound eleven complete months under the 12-2 convention",
+  "example": "For January 2024 executions use January-November 2023 prices; skip December 2023.",
+  "factor_data_quality": ">=80% valid sessions in each formation month; >=80% of first-signal-day universe has a factor",
+  "monthly_universe": "freeze at first available decision whose next execution session belongs to that month",
+  "mutation": "deprioritize weakest 10% of scorable names below every normal DE score; existing excluded holdings exit under unchanged Drop2 cap",
+  "missing_factor_rule": "keep original DE score; factor expresses no opinion",
+  "portfolio": {"topk": 100, "n_drop": 2, "risk_degree": 0.95},
+  "costs": {"buy": 0.0005, "sell": 0.0015, "minimum_fee": 5, "limit_threshold": 0.095, "deal_price": "next-session close via Qlib shift=1"},
+  "development_gate": "2024 and 2025 net positive; average exposure >=90%; improve both worst-year return and net annualized return versus same-date DE control",
+  "user_final_target": {"2024_net_return_pct": ">0", "2025_net_return_pct": ">0", "2026_Jan_Oct_net_return_pct": ">=10"},
+  "2026_latest_available": "2026-10-13; incomplete October, consumed diagnostic interval",
+  "no_feedback_rule": "No 2026 values are used in development. Any later exact frozen diagnostic cannot select new variants or be claimed as sealed validation.",
+  "input_sha256": {
+    "prediction": "98e3eb14736a41cc9369251b7c1e86532bc010d32a61ec22c76c0b710c9a108e",
+    "price_inputs": "edfe02cf1b394d8b694ec0d3825231c57d1cfc1a194b292c3ae594d3a182f491"
+  },
+  "qlib_commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+  "claim_status": "NOT_YET_TESTED"
+}
