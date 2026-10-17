@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "RAW_INTRADAY_DEVELOPMENT_CONFIRMED_PENDING_2026_DIAGNOSTIC",
+    "status": "2026_TARGETS_FROZEN_RAW_EXTENSION_PENDING",
     "result_file": "experiments/qlib/return-families-pre2026-results.json",
     "candidate_budget": 3,
     "selected": "contrarian60_12",
@@ -397,6 +397,10 @@
     "intraday_development_confirmation": "PASS_PREDECLARED_REFERENCE_RULE",
     "intraday_development_results_file": "experiments/qlib/reversal-intraday-development-results.json",
     "independent_development_audit_file": "experiments/qlib/reversal-intraday-development-independent-audit.json",
-    "all_raw_profiles_reconstructed": 60
+    "all_raw_profiles_reconstructed": 60,
+    "target_2026_receipt_file": "experiments/qlib/reversal-frozen-2026-target-receipt.json",
+    "target_2026_file": "experiments/qlib/reversal-frozen-2026-targets.json",
+    "raw_2026_extension_request_file": "experiments/qlib/reversal-raw-2026-extension-request.json",
+    "development_target_and_formation_prefix_reproduced": true
   }
 }

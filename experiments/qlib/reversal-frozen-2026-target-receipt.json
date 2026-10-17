@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_REVERSAL_2026_TARGETS_PREPARED",
+  "strategy": "contrarian60_12",
+  "months": 34,
+  "target_end": "2026-10-13",
+  "planned_account_end": "2026-10-16",
+  "development_prefix_reproduced": true,
+  "archived_source_sha256": "0b20702c7c2dd659a80400046a81bff3d735ea18176de360d702b713d849bf62",
+  "permission_only_source_change_verified": true,
+  "targets_sha256": "a6855994aeac5ae76a0e89500216da7535152248e2e47fb5cbd818e54503221b",
+  "formation_receipts_sha256": "4c569e0b03e012b3fdd4e848a7a73fe3ea63eaf8da16f04cb778ad7132f968a7",
+  "input_sha256": {
+    "price_files": "1d4c466105a98ba27261db43628a86edaf14fb3072db6ffcbd50ef556975001a",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "plan_sha256": "3e0b39a3d334ccfd448ca95cec52eeba82d5f81848344effad504d907b68a955",
+  "2026_features_read_within_each_formation_asof": true,
+  "2026_strategy_returns_queried": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}
