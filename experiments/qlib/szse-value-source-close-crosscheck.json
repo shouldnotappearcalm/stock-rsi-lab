@@ -1,0 +1,46 @@
+{
+  "status": "SOURCE_CLOSE_FIELD_DIAGNOSTIC_ONLY",
+  "tolerance_CNY": 0.001,
+  "scope": "Historical target-universe members, source month last session; not an investment-return check",
+  "counts": {
+    "MATCH_WITHIN_0_001_CNY": 3878,
+    "NO_OBSERVED_PROVIDER_CLOSE": 4
+  },
+  "source_manifest_sha256": "d88866cb365d9bf19dd5eaa9c5bde140a396d9ad6ee3f779ba1937a0307aea28",
+  "strategy_returns_computed": false,
+  "full_check_sha256": "4fbc32c5775325081417080a790115bafa53f61b3d9e29f5a894eeeacb850bf1",
+  "exceptions": [
+    {
+      "instrument": "SZ000559",
+      "source_month": "2024-04",
+      "source_close_day": "2024-04-30",
+      "reported_close": "5.080",
+      "provider_raw_close": null,
+      "status": "NO_OBSERVED_PROVIDER_CLOSE"
+    },
+    {
+      "instrument": "SZ000958",
+      "source_month": "2024-09",
+      "source_close_day": "2024-09-30",
+      "reported_close": "4.090",
+      "provider_raw_close": null,
+      "status": "NO_OBSERVED_PROVIDER_CLOSE"
+    },
+    {
+      "instrument": "SZ002064",
+      "source_month": "2024-10",
+      "source_close_day": "2024-10-31",
+      "reported_close": "8.110",
+      "provider_raw_close": null,
+      "status": "NO_OBSERVED_PROVIDER_CLOSE"
+    },
+    {
+      "instrument": "SZ002185",
+      "source_month": "2025-09",
+      "source_close_day": "2025-09-30",
+      "reported_close": "11.780",
+      "provider_raw_close": null,
+      "status": "NO_OBSERVED_PROVIDER_CLOSE"
+    }
+  ]
+}
