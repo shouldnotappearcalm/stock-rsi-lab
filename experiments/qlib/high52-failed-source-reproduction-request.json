@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN_SINGLE_PRE2026_PROTOCOL_ERROR_REPRODUCTION",
+  "pair": [
+    "SH603056",
+    "2025-06-03"
+  ],
+  "hosts": [
+    "116.205.183.150:7709",
+    "116.205.171.132:7709"
+  ],
+  "maximum_new_history_requests": 2,
+  "package_version": "3.2.3",
+  "original_failure_sha256": "ee7ab7db3ac2106cec62298805f9f54fefc06b6ebf0de9698dc9d2a1a14b281a",
+  "capture_code_sha256": "a776dae4fd6744d421798c481f563647c8c4a45624d94d5825c85b171c8a7c7d",
+  "old_failure_is_immutable": true,
+  "2026_values_queried": false,
+  "objective_achieved": false
+}
