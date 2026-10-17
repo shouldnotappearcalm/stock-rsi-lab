@@ -1,0 +1,69 @@
+{
+  "status": "REVERSAL_FULL_ORIGINAL_NOTICES_CAPTURED",
+  "documents": [
+    {
+      "instrument": "SH601966",
+      "day": "2024-06-07",
+      "title": "山东玲珑轮胎股份有限公司2023年年度及2024年一季度权益分派实施公告",
+      "announcement_id": "1220288229",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-07/1220288229.PDF",
+      "file": "SH601966-1220288229.pdf",
+      "sha256": "f7659034cb64362e870f2f16f25f89ca683b10a779bb18e6e14ac6ea4d5b97a5"
+    },
+    {
+      "instrument": "SH601966",
+      "day": "2025-10-16",
+      "title": "山东玲珑轮胎股份有限公司2025年第二季度权益分派实施公告",
+      "announcement_id": "1224713535",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-10-16/1224713535.PDF",
+      "file": "SH601966-1224713535.pdf",
+      "sha256": "d33cd20903dce8ae630bdaef3e4cd6ee38172b9605f569d15126aa56df8ff01d"
+    },
+    {
+      "instrument": "SH601966",
+      "day": "2026-06-16",
+      "title": "山东玲珑轮胎股份有限公司2025年第四季度权益分派实施公告",
+      "announcement_id": "1225371939",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-16/1225371939.PDF",
+      "file": "SH601966-1225371939.pdf",
+      "sha256": "a4b3740ee871fdbcf1e5d0e1c0f53994f9ecf459d1e3c545932c9cf1035dd9b7"
+    },
+    {
+      "instrument": "SH600895",
+      "day": "2026-10-12",
+      "title": "2026年半年度权益分派实施公告",
+      "announcement_id": "1225600364",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600364.PDF",
+      "file": "SH600895-1225600364.pdf",
+      "sha256": "1e7d86767a17c1e2a9bccb488bca2f8ae64d353c802ec6085f0a213adabe3c7a"
+    },
+    {
+      "instrument": "SZ002508",
+      "day": "2024-01-03",
+      "title": "特别分红权益分派实施公告",
+      "announcement_id": "1218790856",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-01-03/1218790856.PDF",
+      "file": "SZ002508-1218790856.pdf",
+      "sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0"
+    },
+    {
+      "instrument": "SH603737",
+      "day": "2026-05-26",
+      "title": "2025年年度权益分派实施公告",
+      "announcement_id": "1225328631",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-26/1225328631.PDF",
+      "file": "SH603737-1225328631.pdf",
+      "sha256": "f6b3f28129ccf65adf1d3a1be7fba7c1c6a7eb062550b84e6605072cdb6ea0e0"
+    }
+  ],
+  "plan_sha256": "29a4be24a2526043e0c2d3248ab70ad814657b7abb189c3cc98b4a3bde7b762e",
+  "query_sha256": {
+    "SH600895-2026-10-01-query.json": "ad1c9b278cbb3939e23af5eb35382f6a33fcfea0965ceeb6d7891632fedbbc8b",
+    "SH603737-2026-05-01-query.json": "2a366b9dd7609a1db0e58b258aabe55e326a7dbf3f16d39d6bfa9ddb26892017",
+    "SH601966-2024-06-01-query.json": "6cef0943820e2afca4b08b0b94ea0e3cc11df035f0f7c4ebe3a91518000d7f7e",
+    "SZ002508-2024-01-01-query.json": "44aee0a0409bcc06dd7158a8e98f054df6b08d6a6184c9fa15683c2bce096d97",
+    "SH601966-2025-10-01-query.json": "efb778c6e7fbc0b1a8e074f03f65e961d2964fccc531a3d94608b1fa2bc94454",
+    "SH601966-2026-06-01-query.json": "06265b3a9fce4a5a0565eee51fde8d29567fd33288600622d416ea1b500d96ba"
+  },
+  "2026_strategy_returns_queried": false
+}

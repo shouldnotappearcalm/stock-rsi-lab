@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_REVERSAL_FULL_MINUTE_CAPTURE",
+  "parent_commit": "dc9e820",
+  "request_sha256": "3f1244b7fdf263e563b6674ab66eec87913b3f71ef0b1dd987dcdd7f556e6191",
+  "capture_code_sha256": "b39314698d2541654ecbc7e8341a32bfb534269010e2f955f7cc1fc1898f0e96",
+  "raw_manifest_sha256": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc",
+  "package_version": "3.2.3",
+  "host": "116.205.183.150:7709",
+  "heartbeat_interval": null,
+  "fresh_pre2026_queries_allowed": false,
+  "2026_strategy_returns_queried": false
+}
