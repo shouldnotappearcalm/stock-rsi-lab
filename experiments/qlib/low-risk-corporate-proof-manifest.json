@@ -1,0 +1,97 @@
+{
+  "status": "MANUALLY_REVIEWED_PRIMARY_CORPORATE_SOURCES",
+  "documents": [
+    {
+      "instrument": "SH601128",
+      "publication_day": "2024-05-22",
+      "title": "江苏常熟农村商业银行股份有限公司2023年年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-05-22/1220122344.PDF",
+      "sha256": "a7433696703e9b8ce37f0bdde75b17f3946623272c697f746c17640b84fe5f5d",
+      "file": "SH601128-20240522-1220122344.pdf"
+    },
+    {
+      "instrument": "SH601128",
+      "publication_day": "2025-05-28",
+      "title": "江苏常熟农村商业银行股份有限公司2024年年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-28/1223695580.PDF",
+      "sha256": "feced976f31029e64a8d45887f8b0bf1ea17b77541cd35d6e890c24dd4c3500f",
+      "file": "SH601128-20250528-1223695580.pdf"
+    },
+    {
+      "instrument": "SH601128",
+      "publication_day": "2026-06-03",
+      "title": "江苏常熟农村商业银行股份有限公司2025年年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-03/1225346607.PDF",
+      "sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+      "file": "SH601128-20260603-1225346607.pdf"
+    },
+    {
+      "instrument": "SH600161",
+      "publication_day": "2024-06-14",
+      "title": "天坛生物2023年年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-14/1220346849.PDF",
+      "sha256": "2c1ebb870d47ccc044aafe91bfb67773c189d6c170274a9928543ff5ad4278e9",
+      "file": "SH600161-20240614-1220346849.pdf"
+    },
+    {
+      "instrument": "SH600998",
+      "publication_day": "2024-06-01",
+      "title": "九州通2023年年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-01/1220224086.PDF",
+      "sha256": "ec4723683ff0f75c293129695b99588a3231ba3fd73e77752a1c8502076826f3",
+      "file": "SH600998-20240601-1220224086.pdf"
+    },
+    {
+      "instrument": "SH600720",
+      "publication_day": "2024-06-04",
+      "title": "中交设计咨询集团股份有限公司2022年、2023年年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-04/1220246448.PDF",
+      "sha256": "dcc50f953cdd16cd763444f0ac60c62b2b7bc48a98edef17110510d23a2cafb8",
+      "file": "SH600720-20240604-1220246448.pdf"
+    }
+  ],
+  "cash_overrides": {
+    "SH600720|2024-06-13": {
+      "expected_source_cash_per_share": "0.257",
+      "cash_per_share": "0.3674",
+      "reason": "Combined 2022 and 2023 distribution in the original implementation notice",
+      "source_file": "SH600720-20240604-1220246448.pdf",
+      "source_sha256": "dcc50f953cdd16cd763444f0ac60c62b2b7bc48a98edef17110510d23a2cafb8",
+      "publication_day": "2024-06-04"
+    }
+  },
+  "capital_tax": {
+    "SH601128|2024-05-29": {
+      "verified_exempt": true,
+      "source_file": "SH601128-20240522-1220122344.pdf",
+      "source_sha256": "a7433696703e9b8ce37f0bdde75b17f3946623272c697f746c17640b84fe5f5d",
+      "basis": "Issuer explicitly identifies premium capital reserve and no tax"
+    },
+    "SH601128|2025-06-05": {
+      "verified_exempt": true,
+      "source_file": "SH601128-20250528-1223695580.pdf",
+      "source_sha256": "feced976f31029e64a8d45887f8b0bf1ea17b77541cd35d6e890c24dd4c3500f",
+      "basis": "Issuer explicitly identifies premium capital reserve and no tax"
+    },
+    "SH601128|2026-06-09": {
+      "verified_exempt": true,
+      "source_file": "SH601128-20260603-1225346607.pdf",
+      "source_sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+      "basis": "Issuer explicitly identifies premium capital reserve and no tax"
+    },
+    "SH600161|2024-06-20": {
+      "verified_exempt": false,
+      "source_file": "SH600161-20240614-1220346849.pdf",
+      "source_sha256": "2c1ebb870d47ccc044aafe91bfb67773c189d6c170274a9928543ff5ad4278e9",
+      "basis": "Capital ratio and listing date verified; notice does not explicitly state capital-transfer tax exemption"
+    },
+    "SH600998|2024-06-07": {
+      "verified_exempt": true,
+      "source_file": "SH600998-20240601-1220224086.pdf",
+      "source_sha256": "ec4723683ff0f75c293129695b99588a3231ba3fd73e77752a1c8502076826f3",
+      "basis": "Issuer explicitly identifies premium capital reserve and no tax"
+    }
+  },
+  "original_market_capture_modified": false,
+  "policy_changed": false
+}

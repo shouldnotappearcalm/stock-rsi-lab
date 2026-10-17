@@ -110,6 +110,28 @@ class ScheduleBrokerTests(unittest.TestCase):
         self.assertEqual(first.on_open(payload), second.on_market_open([payload]))
         self.assertEqual(first.snapshot(), second.snapshot())
 
+    def test_side_specific_fees_and_minimum_commission_are_paid_from_cash(self):
+        broker = Broker(self.calendar,initial_cash="20000",buy_cost_bps="5",sell_cost_bps="15",min_cost="5")
+        broker.submit(decision("BUY",1000),parse_time("2024-09-27T17:00:00+08:00"))
+        self.assertEqual(broker.on_open(bar("2024-09-30"))[0]["cost"],"5.00")
+        broker.submit(decision("SELL",1000),parse_time("2024-09-30T17:00:00+08:00"))
+        self.assertEqual(broker.on_open(bar("2024-10-08",op=11))[0]["cost"],"16.50")
+        self.assertEqual(broker.cash,Decimal("20978.50"))
+        poor = Broker(self.calendar,initial_cash="100.10",buy_cost_bps="5",sell_cost_bps="15",min_cost="5")
+        poor.submit(decision("BUY"),parse_time("2024-09-27T17:00:00+08:00"))
+        self.assertEqual(poor.on_open(bar("2024-09-30",op=1,limit_up="1.1",limit_down="0.9")),[])
+        self.assertEqual(poor.cash,Decimal("100.10"))
+
+    def test_sell_cannot_make_cash_negative_to_pay_minimum_commission(self):
+        broker = Broker(self.calendar,initial_cash="10",min_cost="5")
+        broker.cash = Decimal("0")
+        broker.positions = {"SYN_A":[{"quantity":1,"price":Decimal("1"),"bought_on":self.calendar.days[0]}]}
+        broker.submit(decision("SELL",1),parse_time("2024-09-27T17:00:00+08:00"))
+        self.assertEqual(broker.on_open(bar("2024-09-30",op=1,limit_up="1.1",limit_down="0.9")),[])
+        self.assertEqual(broker.cash,Decimal("0"))
+        self.assertEqual(broker.positions["SYN_A"][0]["quantity"],1)
+        self.assertEqual(broker.orders[0]["status"],"UNFILLED_FEES_CASH")
+
 
 if __name__ == '__main__':
     unittest.main()

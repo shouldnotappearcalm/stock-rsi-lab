@@ -1,5 +1,5 @@
 from datetime import date
-from decimal import Decimal, ROUND_DOWN
+from decimal import Decimal, ROUND_DOWN, ROUND_HALF_UP
 
 from .calendar import SHANGHAI, TradingCalendar
 from .data import digest
@@ -20,16 +20,27 @@ def money(value):
 
 
 class Broker:
-    def __init__(self, calendar: TradingCalendar, initial_cash="100000", cost_bps="20"):
+    def __init__(self, calendar: TradingCalendar, initial_cash="100000", cost_bps="20", *,
+                 buy_cost_bps=None, sell_cost_bps=None, min_cost="0"):
         self.calendar = calendar
         self.initial_cash = self.cash = money(initial_cash)
         self.rate = money(cost_bps) / 10000
+        self.buy_rate = self.rate if buy_cost_bps is None else money(buy_cost_bps)/10000
+        self.sell_rate = self.rate if sell_cost_bps is None else money(sell_cost_bps)/10000
+        self.min_cost = money(min_cost)
         if self.cash <= 0 or self.cash != self.cash.quantize(Decimal("0.01")) or not 0 <= self.rate <= 1:
             raise ValueError("invalid account configuration")
+        if (not 0 <= self.buy_rate <= 1 or not 0 <= self.sell_rate <= 1 or self.min_cost < 0
+                or self.min_cost != self.min_cost.quantize(Decimal("0.01"))):
+            raise ValueError("invalid side-specific cost configuration")
         self.positions = {}
         self.orders = []
         self.fills = []
         self._processed = set()
+
+    def _cost(self, gross, action):
+        rate = self.buy_rate if action == "BUY" else self.sell_rate
+        return max(self.min_cost,gross*rate).quantize(Decimal("0.01"),rounding=ROUND_HALF_UP)
 
     def submit(self, decision: Decision, at, expires_at=None):
         at = parse_time(at)
@@ -120,9 +131,9 @@ class Broker:
             quantity = order["quantity"]
             lots = self.positions.setdefault(security, [])
             if action == "BUY":
-                affordable = int((self.cash / (price * (1 + self.rate))).to_integral_value(rounding=ROUND_DOWN)) // 100 * 100
+                affordable = int((self.cash / (price * (1 + self.buy_rate))).to_integral_value(rounding=ROUND_DOWN)) // 100 * 100
                 quantity = min(quantity, affordable)
-                while quantity > 0 and price * quantity + (price * quantity * self.rate).quantize(Decimal("0.01")) > self.cash:
+                while quantity > 0 and price * quantity + self._cost(price*quantity,action) > self.cash:
                     quantity -= 100
             else:
                 quantity = min(quantity, sum(lot["quantity"] for lot in lots if lot["bought_on"] < day))
@@ -132,7 +143,10 @@ class Broker:
                     self.positions.pop(security, None)
                 continue
             gross = price * quantity
-            cost = (gross * self.rate).quantize(Decimal("0.01"))
+            cost = self._cost(gross,action)
+            if action == "SELL" and self.cash+gross < cost:
+                order["status"] = "UNFILLED_FEES_CASH"
+                continue
             if action == "BUY":
                 self.cash -= gross + cost
                 lots.append({"quantity": quantity, "bought_on": day, "price": price})

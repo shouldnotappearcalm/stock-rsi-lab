@@ -1,0 +1,58 @@
+{
+  "status": "FROZEN_BEFORE_RAW_ACCOUNT_OUTCOMES",
+  "purpose": "Validate the same frozen investment targets in actual integer shares and independent dividend cash; not alpha selection",
+  "target_sha256": "2900729ad58c851764216093b26ca777eed9d4c6d1e75f528ae9bb26b9eecafb",
+  "data_manifest_sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+  "proof_manifest_sha256": "ef97c73712072ed58a05dceea01cc041063a013f8229defbe22d25089a4d1c25",
+  "method_code_sha256": {
+    "scripts/run_low_risk_raw_share_validation.py": "c2b8533b617ca169d811b3130c1243570a324749d0f73b351fa8dd5c7a65e0da",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "src/stock_rsi/raw_share_account.py": "9ea95187d96d02f4c73390550edc7f75ba1b62417882f65aae095082162a816f",
+    "src/stock_rsi/broker.py": "cafdcad97dabd3c9f02d86d42a6f515ed75bf37c41de1000d100cce7c904ea0e",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46"
+  },
+  "frozen_economic_core_sha256": {
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f"
+  },
+  "capitals": [
+    "100000",
+    "1000000",
+    "10000000",
+    "100000000"
+  ],
+  "user_selected_capital": null,
+  "capital_choice_status": "QUESTION_PENDING_ALL_PREDECLARED_SCENARIOS_REPORTED",
+  "cash_tax_reserve_rate": ".2",
+  "tax_scope": "Cash distributions flat 20% stress reserve, not actual FIFO withholding; capital credits require applicable exemption proof",
+  "fees": {
+    "buy_bps": 5,
+    "sell_bps": 15,
+    "minimum_CNY": 5,
+    "rounding": "ROUND_HALF_UP to cents"
+  },
+  "cash_credit": "next explicit exchange session after announced payment date; receivable recognized at ex date",
+  "capital_credit": "integer entitlement, credited no earlier than listing; no fractional-credit inference",
+  "price_clock": "prior raw close sizes integer orders; next session open proxy executes; equity and inventory are prior-close inputs",
+  "limit_proxy": "original direction-specific +/-9.5% relative to published reference; source isST must be 0 for execution validation",
+  "liquidity": "Whole-day volume is a necessary feasibility check, not opening-auction fill proof",
+  "dates": {
+    "start": "2024-01-02",
+    "end": "2026-10-16",
+    "also_report_comparable_cutoff": "2026-10-13",
+    "complete_requested_October": false
+  },
+  "case_failure_policy": "Keep and publish invalid capital cases; never select only favorable outcomes",
+  "source_correction": "Issuer combined 2022/2023 SH600720 cash distribution is 0.3674 rather than vendor 0.257; original source files retained",
+  "new_alpha_candidates": 0,
+  "original_research_gate_status": "REJECTED",
+  "research_promoted": false,
+  "2026_data_previously_consumed": true,
+  "original_qlib_2026_pct_known": 12.332916588905185,
+  "rule_changes_from_2026_results_allowed": false,
+  "strict_investment_claim_verified": false
+}

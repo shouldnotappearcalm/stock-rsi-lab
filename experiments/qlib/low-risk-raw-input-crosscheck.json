@@ -1,0 +1,105 @@
+{
+  "status": "RAW_ACCOUNT_INPUT_CROSSCHECK",
+  "distribution_reference_mismatches": [
+    {
+      "instrument": "SH600157",
+      "ex_date": "2024-08-26",
+      "declared_cash": "0.00555",
+      "stock_ratio": "0.000000",
+      "computed_reference": "1.07445",
+      "source_reference": "1.0800"
+    },
+    {
+      "instrument": "SH600720",
+      "ex_date": "2024-06-13",
+      "declared_cash": "0.257",
+      "stock_ratio": "0.000000",
+      "computed_reference": "9.313",
+      "source_reference": "9.2000"
+    },
+    {
+      "instrument": "SH600873",
+      "ex_date": "2024-11-22",
+      "declared_cash": "0.17596",
+      "stock_ratio": "0.000000",
+      "computed_reference": "10.56404",
+      "source_reference": "10.5700"
+    },
+    {
+      "instrument": "SH600873",
+      "ex_date": "2025-05-23",
+      "declared_cash": "0.42597",
+      "stock_ratio": "0.000000",
+      "computed_reference": "10.61403",
+      "source_reference": "10.6200"
+    },
+    {
+      "instrument": "SH603858",
+      "ex_date": "2024-08-20",
+      "declared_cash": "0.126",
+      "stock_ratio": "0.000000",
+      "computed_reference": "15.334",
+      "source_reference": "15.3400"
+    },
+    {
+      "instrument": "SZ000513",
+      "ex_date": "2025-06-13",
+      "declared_cash": "1.1",
+      "stock_ratio": "0.000000",
+      "computed_reference": "38.01",
+      "source_reference": "38.0300"
+    },
+    {
+      "instrument": "SZ002032",
+      "ex_date": "2024-05-28",
+      "declared_cash": "2.73",
+      "stock_ratio": "0.000000",
+      "computed_reference": "54.56",
+      "source_reference": "54.5800"
+    },
+    {
+      "instrument": "SZ002032",
+      "ex_date": "2025-05-27",
+      "declared_cash": "2.81",
+      "stock_ratio": "0.000000",
+      "computed_reference": "55.96",
+      "source_reference": "55.9800"
+    },
+    {
+      "instrument": "SZ002032",
+      "ex_date": "2026-05-28",
+      "declared_cash": "2.63",
+      "stock_ratio": "0.000000",
+      "computed_reference": "47.41",
+      "source_reference": "47.4200"
+    },
+    {
+      "instrument": "SZ002432",
+      "ex_date": "2024-06-04",
+      "declared_cash": "0.3",
+      "stock_ratio": "0.000000",
+      "computed_reference": "41.37",
+      "source_reference": "41.4100"
+    },
+    {
+      "instrument": "SZ002432",
+      "ex_date": "2025-06-11",
+      "declared_cash": "0.2",
+      "stock_ratio": "0.000000",
+      "computed_reference": "37.44",
+      "source_reference": "37.4600"
+    },
+    {
+      "instrument": "SZ002432",
+      "ex_date": "2026-06-03",
+      "declared_cash": "1.65",
+      "stock_ratio": "0.000000",
+      "computed_reference": "76.14",
+      "source_reference": "76.3000"
+    }
+  ],
+  "source_close_rows_compared": 67703,
+  "source_close_max_abs_difference_CNY": "0.00000734553905",
+  "source_close_errors_over_half_tick": [],
+  "source_close_error_count": 0
+}
