@@ -25,11 +25,16 @@ def plan_prior_close_orders(equity, positions, weights, view):
         raise ValueError("finite long-only weights totaling at most one required")
     orders = []
     for symbol in sorted(set(positions) | set(weights)):
+        held = positions.get(symbol, 0.)
+        if held > 0 and weights.get(symbol, 0.) == 0:
+            orders.append({"instrument":symbol, "side":"SELL", "normalized_units":held,
+                           "known_normalized_close":None, "known_factor":None,
+                           "as_of":view.as_of.isoformat(), "quantity_basis":"KNOWN_INVENTORY_FULL_EXIT"})
+            continue
         price = view.value(symbol, "close", view.as_of.isoformat())
         factor = view.value(symbol, "factor", view.as_of.isoformat())
         if any(value is None or not math.isfinite(value) or value <= 0 for value in (price, factor)):
             raise ValueError("positive visible close and factor required for order sizing")
-        held = positions.get(symbol, 0.)
         target_shares = math.floor(equity * weights.get(symbol, 0.) / price * factor / 100 + 1e-10) * 100
         desired = target_shares / factor
         difference = desired - held
@@ -43,5 +48,5 @@ def plan_prior_close_orders(equity, positions, weights, view):
         if units > 0:
             orders.append({"instrument": symbol, "side": side, "normalized_units": units,
                            "known_normalized_close": price, "known_factor": factor,
-                           "as_of": view.as_of.isoformat()})
+                           "as_of": view.as_of.isoformat(), "quantity_basis":"PRIOR_CLOSE_TARGET"})
     return tuple(sorted(orders, key=lambda row: (row["side"] != "SELL", row["instrument"])))

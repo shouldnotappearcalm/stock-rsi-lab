@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_BEFORE_COMPLETED_PORTFOLIO_RESULTS",
+  "source_commit": "0c878fb",
+  "execution_session": "2024-05-06",
+  "as_of": "2024-04-30",
+  "error": "held full-exit order incorrectly required missing current close; original provider gaps require independent suspension evidence",
+  "first_missing_security": "SH601456",
+  "other_missing_held_candidate": "SZ000559",
+  "2026_market_values_queried": false
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PRE2026_INDEPENDENT_GAP_STATE_CAPTURE",
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "source": "BaoStock query_history_k_data_plus, adjustflag=3",
+  "provider_version": "00.9.40",
+  "names": 25,
+  "plan_sha256": "1b0544a0c6fa64882b0ba9432fac93a558f99331fcaa06c6c2d6248386c8c2d0",
+  "price_audit_sha256": "fe0a698cd33b24fa466674a12f1104209a71bc9cb358e8a3ab203b6fae88f480",
+  "capture_code_sha256": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+  "per_code_sha256": {
+    "SH600079": "b5e2e41504fc544e5bfadc05c706e7b4bbc6f98ebee7f0ae3ae295cf72555883",
+    "SH600095": "9712d94ea11cbe5c9a3e4cc274d10923fad645aa04e8bd7fab981ea52ebbf257",
+    "SH600157": "6cc63dc23c6cd1bca744f7da1f8425ff86cbd1d8091ab898923c4513daa609a6",
+    "SH600208": "3cdddf772787a37f3e109a9ebabe3218e71b0c543173c330ba26dae75ddc01ce",
+    "SH600282": "3c55a47a8dbc277a7252cad56cd5e69b304d5695ab3d5943ad2bd82529c4e140",
+    "SH600399": "11786cbe1c6affb2f74ffbaab0ec0f47de719512dfd0a0d82b4169fba2597d91",
+    "SH600482": "d60f679d9d4c6682914ada3c70066da0b55ca4fcb532d6635830b38861fc5b10",
+    "SH600500": "f291f2700b03e6ca297b122a1b65b9882281d4b377f32e97931efb3ba4ef5d40",
+    "SH600535": "3631b588a8dbca67c8c96786d23a4bac7a82689b8a7bd3cbcea7a39fe0eaa042",
+    "SH600566": "a9a5c5790446b905fbeeb6c249921b3a431973553937759e266e927f753fd0de",
+    "SH600863": "7b168922accd56c5a9ec044f751c57d86d852b038bdb65c8c7b2321eef3c73ab",
+    "SH601198": "c6cdea436c2df4bea163637c6e3114091fc508f6fce0f9fdb898df260e0f024c",
+    "SH601456": "eb5f5ceacfef96389c821f16cc7abcf4bf8852f80accf33e67f4463214dd8796",
+    "SH603160": "8e6902d5aa35c91da6fca164a017ece953a4c18b89047d500ee15d602bc27108",
+    "SH603305": "d9bfba5dd3ddf116cbb46ba612ead707a3329ec92648a269e80907531d3b323a",
+    "SH603517": "89139237de6f7e2db4961106cb8df310229fa329d42bc5a7c2e18f620a11694e",
+    "SZ000403": "753cbdb041c261a49dd93cdc42df220dca46f8b5e72b96cec89c7a06c4127876",
+    "SZ000559": "bcc7a3608c0ea7e44b5d36e3decaaef86e8f7a2e9b697f733ef6fa224e8f7420",
+    "SZ000878": "8a87b181e0e588cdad668d12d5b1fc267fc36c173ad0acd6662424acba1ad85c",
+    "SZ000958": "eb1a09e250d6cb0cba6ebd07eec9e9f686f09cf54f683a2e9352e9e296a9b339",
+    "SZ002064": "40a794349667afe6d1e17515db724b53b41eac1f9a13491d64220589a5555c78",
+    "SZ002128": "2f382ca889d6b3163181b09bbe59f5363e2fdae18f52666697f679eba598aec4",
+    "SZ002153": "b9b2f9cb43365760bd05a9623ba62e40cff976c0be84c8334b3cbfcfc2f8c16e",
+    "SZ002185": "da36ec0c9e895e6e6bb112503c131f45c3e4102d24f2902a7a4a33cec63f9315",
+    "SZ002505": "ad8e68068377e523da977da47013c577bfa709f7dc3db52fdef91c13076d994f"
+  },
+  "gap_state_coverage": {
+    "suspended": 211,
+    "trading": 0,
+    "missing": 323
+  },
+  "2026_market_values_queried": false,
+  "original_price_provider_modified": false,
+  "historical_observed_arrival_verified": false
+}

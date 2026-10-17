@@ -52,3 +52,15 @@ class LowRiskMonthlyTests(unittest.TestCase):
                 return None
         with self.assertRaisesRegex(ValueError, "visible"):
             plan_prior_close_orders(100000., {}, {"B":0.95}, AsOfPrices(Prices(), date(2023, 12, 29)))
+
+    def test_full_exit_uses_known_inventory_without_inventing_a_missing_price(self):
+        class Prices:
+            def value(self, symbol, field, day):
+                if symbol == "A":
+                    raise AssertionError("a full inventory exit does not need a price")
+                return 10. if field == "close" else 1.
+        orders = plan_prior_close_orders(100000., {"A":1000.}, {"B":.95},
+                                         AsOfPrices(Prices(), date(2023, 12, 29)))
+        self.assertEqual(orders[0]["normalized_units"], 1000.)
+        self.assertEqual(orders[0]["quantity_basis"], "KNOWN_INVENTORY_FULL_EXIT")
+        self.assertIsNone(orders[0]["known_normalized_close"])

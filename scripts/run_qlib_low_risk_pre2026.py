@@ -11,10 +11,12 @@ from pathlib import Path
 
 from scripts.prepare_qlib_master_market_pre2026 import sha256_file
 from scripts.run_cninfo_orj_signal_pre2026 import price_input_digest
+from scripts.capture_baostock_gap_states_pre2026 import FIELDS, validate_rows
 from stock_rsi.low_risk_monthly import complete_month_ends, lowest_decile, monthly_volatility
 from stock_rsi.prior_close_orders import AsOfPrices
 from stock_rsi.qlib_daily_evidence import reconcile_daily_evidence
 from stock_rsi.qlib_snapshot import QlibSnapshot
+from stock_rsi.suspension_evidence import verify_suspension_mark
 
 
 START, END = "2024-01-02", "2025-12-31"
@@ -24,6 +26,7 @@ METHOD_FILES = (
     "scripts/run_qlib_low_risk_pre2026.py", "src/stock_rsi/low_risk_monthly.py",
     "src/stock_rsi/prior_close_orders.py", "src/stock_rsi/qlib_prior_close.py",
     "src/stock_rsi/qlib_daily_evidence.py", "src/stock_rsi/qlib_snapshot.py",
+    "src/stock_rsi/suspension_evidence.py", "scripts/capture_baostock_gap_states_pre2026.py",
 )
 
 
@@ -102,6 +105,28 @@ def input_hashes(provider, memberships):
                 "calendars/day.txt", "instruments/csi500.txt", "features/sh000905/close.day.bin")}}
 
 
+def load_state_capture(directory, expected_manifest_sha):
+    directory = Path(directory)
+    if sha256_file(directory/"manifest.json") != expected_manifest_sha:
+        raise ValueError("independent historical state manifest changed")
+    manifest = json.loads((directory/"manifest.json").read_text())
+    if (manifest["status"] != "PRE2026_INDEPENDENT_GAP_STATE_CAPTURE"
+            or manifest["2026_market_values_queried"] is not False
+            or manifest["window"] != ["2023-12-29",END]):
+        raise ValueError("historical status capture crossed the pre-2026 boundary")
+    records = {}
+    for instrument, digest in manifest["per_code_sha256"].items():
+        path = directory/"codes"/(instrument+".json")
+        if sha256_file(path) != digest:
+            raise ValueError("independent historical state file changed")
+        saved = json.loads(path.read_text())
+        if saved["instrument"] != instrument:
+            raise ValueError("historical state security identity changed")
+        rows = validate_rows(instrument,saved["fields"],[[row[key] for key in FIELDS] for row in saved["rows"]])
+        records[instrument] = {row["date"]:row for row in rows}
+    return records
+
+
 def summarize(report):
     import pandas as pd
     net = report["return"] - report["cost"]
@@ -129,7 +154,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser()
     parser.add_argument("--provider-uri", required=True)
     parser.add_argument("--output-dir", required=True)
-    parser.add_argument("--plan", default=str(Path(__file__).resolve().parents[1]/"experiments/qlib/low-risk-pre2026-plan.json"))
+    parser.add_argument("--gap-states")
+    parser.add_argument("--plan", default=str(Path(__file__).resolve().parents[1]/"experiments/qlib/low-risk-pre2026-data-repair-plan.json"))
     args = parser.parse_args(argv)
     output = Path(args.output_dir)
     if output.exists():
@@ -143,6 +169,9 @@ def main(argv=None):
     identities = input_hashes(args.provider_uri, memberships)
     if identities != plan["input_sha256"]:
         raise ValueError("frozen input snapshot changed")
+    if not args.gap_states:
+        raise ValueError("independent historical gap state capture required")
+    states = load_state_capture(args.gap_states,plan["gap_state_manifest_sha256"])
     snapshot = QlibSnapshot(args.provider_uri)
     targets, receipts = build_targets(snapshot, memberships)
     if len(receipts) != 24:
@@ -150,6 +179,10 @@ def main(argv=None):
     output.mkdir(parents=True)
     (output/"targets.json").write_text(json.dumps(targets,indent=2)+"\n")
     (output/"formation_receipts.json").write_text(json.dumps(receipts,indent=2)+"\n")
+    if (sha256_file(output/"targets.json") != plan["candidate_and_control_targets_must_reproduce_sha256"]
+            or sha256_file(output/"formation_receipts.json") != plan["initial_formation_receipts_sha256"]):
+        raise ValueError("data repair changed frozen formation evidence or target selection")
+    print("frozen formation and target identities reproduced",flush=True)
 
     import pandas as pd
     import qlib
@@ -179,12 +212,29 @@ def main(argv=None):
             raise ValueError("account and decision calendar coverage incomplete")
         if len(strategy.intents) != 24:
             raise ValueError("monthly target decision count incomplete")
+        for intention in strategy.intents:
+            prior = date.fromisoformat(intention["as_of_close_convention"][:10])
+            expected_equity = (float(report.loc[pd.Timestamp(prior),"account"])
+                               if prior.isoformat() >= START else float(INITIAL_CASH))
+            expected_holdings = (positions[pd.Timestamp(prior)].get_stock_amount_dict()
+                                 if prior.isoformat() >= START else {})
+            actual = intention["holdings_at_decision"]
+            if (not math.isclose(intention["equity_at_decision"],expected_equity,rel_tol=1e-10,abs_tol=.01)
+                    or set(actual) != set(expected_holdings)
+                    or any(not math.isclose(actual[code],float(amount),rel_tol=1e-10,abs_tol=1e-8)
+                           for code,amount in expected_holdings.items())):
+                raise ValueError("decision inventory or equity crossed the prior-close boundary")
         evidence = reconcile_daily_evidence(report, positions, indicators["1day"][1].order_indicator_his,
                                              calendar, initial_cash=INITIAL_CASH,
                                              signal_days={date.fromisoformat(row["as_of"]) for row in targets[name].values()})
-        missing = [row for row in evidence["holdings"]
-                   if snapshot.value(row["instrument"],"close",row["session"]) is None]
-        missing_total += len(missing)
+        mark_audit = []
+        for row in evidence["holdings"]:
+            quote = snapshot.value(row["instrument"],"close",row["session"])
+            if quote is None or quote <= 0:
+                mark_audit.append(verify_suspension_mark(snapshot,row["instrument"],row["session"],
+                                                       row["normalized_price"],states.get(row["instrument"],{})))
+        unexplained = sum(not row["verified"] for row in mark_audit)
+        missing_total += unexplained
         branch = output/name
         branch.mkdir()
         report.to_pickle(branch/"report.pkl")
@@ -192,9 +242,12 @@ def main(argv=None):
         for key in ("days", "orders", "holdings"):
             pd.DataFrame(evidence[key]).to_csv(branch/(key+".csv"),index=False)
         (branch/"decision_intents.json").write_text(json.dumps(strategy.intents,indent=2)+"\n")
-        (branch/"missing_held_marks.json").write_text(json.dumps(missing,indent=2)+"\n")
+        (branch/"suspension_mark_audit.json").write_text(json.dumps(mark_audit,indent=2)+"\n")
         results[name] = summarize(report) | {
-            "missing_held_marks":len(missing), "orders":len(evidence["orders"]),
+            "unverified_held_marks":unexplained,
+            "missing_original_close_rows":len(mark_audit),
+            "verified_suspension_marks":len(mark_audit)-unexplained, "orders":len(evidence["orders"]),
+            "all_monthly_decisions_match_prior_close_inventory_and_equity":True,
             "unfilled_orders":sum(row["fill_status"] == "UNFILLED" for row in evidence["orders"]),
             "artifact_sha256":{p.name:sha256_file(p) for p in sorted(branch.iterdir())},
         }
@@ -208,6 +261,7 @@ def main(argv=None):
         "development_gate_status":"PASS_LEAD_ONLY" if passed else "REJECTED",
         "development_gate":plan["development_gate"], "results":results,
         "input_sha256":identities, "plan_sha256":sha256_file(args.plan),
+        "gap_state_manifest_sha256":plan["gap_state_manifest_sha256"],
         "method_code_sha256":plan["method_code_sha256"],
         "formation_receipts_sha256":sha256_file(output/"formation_receipts.json"),
         "targets_sha256":sha256_file(output/"targets.json"), "formation_months":len(receipts),
