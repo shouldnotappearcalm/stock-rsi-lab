@@ -6,7 +6,7 @@
   "method_code_sha256": {
     "scripts/run_qlib_roll1_campaign_pre2026.py": "b9c5a1796e9934b014016646fb5808cc50767aa36e91e9236ae5e8424660fb33",
     "scripts/run_qlib_roll1_frozen_2026.py": "97b48e7ff66e6154b566bb11bd12bf5c1d7bf5bc62bdc4564001c1e0f9f423c1",
-    "scripts/replay_qlib_daily_evidence.py": "c0cc62e748ad52b2032e690b10eb6c2bef150af2d5499206c0ffcc6607436df2",
+    "scripts/replay_qlib_daily_evidence.py": "880feac33394ed87c8550a6e03ec6dd43a55e33799883624d6df0d34a98576d8",
     "src/stock_rsi/rolling_daily.py": "158d21b41681a7874d35e598500bcd6bc2aef0f49d501f99f7a607f87d6cbe42",
     "src/stock_rsi/roll1_continuation.py": "078edd99bf2a038fdc357e21242cc90d1f9315629366acc75be5cb5138553024",
     "src/stock_rsi/qlib_daily_evidence.py": "0408ccba6bc63727eb17a88f0be21bc1b9cf5db29f9d2b1e8f8666524bbf3c92",
@@ -38,5 +38,15 @@
   "2026_diagnostic_status_at_registration": "NOT_OPENED_FOR_THIS_CANDIDATE",
   "2026_data_already_consumed_by_other_experiments": true,
   "2026_feedback_to_new_variants": false,
-  "requested_complete_October_available": false
+  "requested_complete_October_available": false,
+  "previous_receipt_sha256": "f71b6203448e818b74b2e503341d18da9b6678ec1026ad1352a4fa670cfae9a7",
+  "pre_open_amendment": "Evidence labels only: record Qlib execution-session sizing/tradability limitation, native pandas export fix and verified normalization numerical precision; winner, model and portfolio parameters unchanged. No 2026 query for this candidate yet.",
+  "runtime_versions": {
+    "pyqlib": "0.9.8",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0"
+  },
+  "normalizer_check_sha256": "50ef7367677b38dadbc0cdd6be8241c9b034c2df2b6b3a749e3afa1b5c7b422d"
 }

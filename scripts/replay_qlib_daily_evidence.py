@@ -55,6 +55,7 @@ def replay_with_evidence(signal, provider_uri, output, start, end):
         "units": "Qlib normalized prices and amounts; monetary values in CNY",
         "asof_limit": "15:00+08:00 is a close-bar convention; historical observed arrival times are not verified",
         "execution_limit": "Daily price/limit proxies; no intraday queue, announcement stream or complete PIT proof",
+        "decision_boundary_limit": "Qlib TopkDropout order generation queries execution-session tradability and deal price for sizing; this is not a strict prior-close decision boundary",
         "artifact_sha256": {name: sha256_file(output / name) for name in (
             "report.pkl", "positions.pkl", "days.csv", "orders.csv", "holdings.csv")},
     }

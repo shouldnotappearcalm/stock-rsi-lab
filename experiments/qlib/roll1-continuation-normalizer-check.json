@@ -1,0 +1,17 @@
+{
+  "status": "CANONICAL_NORMALIZER_EXACT_SHORT_QUERY_NOT_BIT_IDENTICAL",
+  "period": [
+    "2024-01-02",
+    "2024-01-05"
+  ],
+  "rows": 2000,
+  "columns": 158,
+  "canonical_normalizer_max_difference": 0.0,
+  "stored_long_query_max_difference": 3.5762786865234375e-07,
+  "different_cells": 6,
+  "columns_with_difference": {
+    "RSQR30": 3.5762786865234375e-07,
+    "RSQR60": 2.384185791015625e-07
+  },
+  "2026_market_values_queried": false
+}
