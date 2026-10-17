@@ -1,0 +1,71 @@
+{
+  "experiment_id": "single-trailing-year-price-to-high-pre2026-v1",
+  "status": "FROZEN_BEFORE_HIGH52_OUTCOMES",
+  "parent_commit": "001de68",
+  "families": [
+    "near_52w_high"
+  ],
+  "candidate_budget": 1,
+  "capital_CNY": 1000000,
+  "user_selected_capital_CNY": null,
+  "extra_bps": [
+    20,
+    40
+  ],
+  "account_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "source": [
+    {
+      "title": "The 52-Week High and Momentum Investing",
+      "publication_year": 2004,
+      "doi": "10.1111/j.1540-6261.2004.00695.x",
+      "author_pdf_url": "https://www.bauer.uh.edu/tgeorge/papers/gh4-paper.pdf"
+    },
+    {
+      "title": "February, share turnover, and momentum in China",
+      "publication_year": 2023,
+      "doi": "10.1016/j.pacfin.2023.102173"
+    }
+  ],
+  "design_file": "docs/research/high52-pre2026-plan-2026-10-17.md",
+  "design_sha256": "76ccb157e13c1a5300733a467e3becf3a96424abaae0d6192b0fd4e908981ce5",
+  "signal": "formation close / maximum adjusted daily high over the preceding12 complete calendar months; no fixed252-day replacement",
+  "common_eligibility": "complete finite positive paired highs/closes with high>=close; positive formation volume/factor; >=100 and >=80% historical mainboard CSI500 names",
+  "exposure_target": 0.95,
+  "portfolio_selection": "top floor(N/10) PTH; code-ascending tie; monthly equal-weight",
+  "control": "same eligible names95% equal-weight; descriptive, not risk-matched",
+  "selection_rule": "At40bp only: both2024/2025 net positive, average exposure>=90%, zero unverified held marks; no replacement variants",
+  "maximum_selected_followup_leads": 1,
+  "following_stage": "same2024/25 raw-share intraday confirmation, then only frozen2026 diagnostic",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_high52_pre2026.py": "7dd974ef8e5039bb0cbd53b78ecdd6e9a273095c43cf6ce0d67f4827aad5fee0",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/high52.py": "03489623d4d6ec25300819a375d0950b583bccc9670f0dae4297bc7249205950"
+  },
+  "input_sha256": {
+    "price_files": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "gap_state_manifest_sha256": "257f3266d366bcc0c3452329efaae23086940394a3d9368b3fa943df2d311fc7",
+  "initial_targets_sha256": "d8f47217f0bf1b816c86fbb17a1353f50ee7399fb10ca2541e9decdf4f8f1250",
+  "initial_receipts_sha256": "73c06a1a520aa3cd4dca2012ef7c4a7b96d09fd726dd196b534671c010c35167",
+  "independent_csv_audit_code_sha256": "febf7db57fe2c396ec5443db41a6668fa6a8f55d7e216145dd5754801a45fe09",
+  "2026_values_queried_for_new_candidate": false,
+  "2026_feedback_to_new_variants": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}
