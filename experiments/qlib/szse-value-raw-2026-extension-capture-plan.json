@@ -1,0 +1,13 @@
+{
+  "status": "FROZEN_SZSE_VALUE_RAW_EXTENSION_CAPTURE",
+  "input_spec_sha256": "8164b35b4cd3799ef19dae4c1ed564f9f2dc44e49e5406113e4b5cbbf78494bf",
+  "method_code_sha256": {
+    "scripts/capture_szse_value_raw_extension.py": "5fdb10f627466f05e58e73a5de1a54df3dffd009a77ab526fae5b80c164f46eb",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab"
+  },
+  "route_scope": "Read-only immutable full reuse, append2026 to frozen development, otherwise bounded full capture. No outcome computation or selection.",
+  "cross_restart_global_request_budget_enforced": false,
+  "2026_strategy_returns_computed": false,
+  "objective_achieved": false
+}

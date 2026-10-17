@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_SZSE_VALUE_2026_TARGETS_PREPARED",
+  "strategy": "szse_monthly_low_pe",
+  "months": 34,
+  "target_end": "2026-10-13",
+  "planned_account_end": "2026-10-16",
+  "development_prefix_reproduced": true,
+  "permission_only_source_change_verified": true,
+  "targets_sha256": "82a8bf4cc8973c6b1b91346d3d677c21e02591cbf330db1b801066f030969434",
+  "formation_receipts_sha256": "65ba50bf327a682caac73ff8036ec36ae243408827c5e3a2f48527a545d89349",
+  "input_sha256": {
+    "price_files": "1d4c466105a98ba27261db43628a86edaf14fb3072db6ffcbd50ef556975001a",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "plan_sha256": "1f0ea2b2e2adff0b53c70666632c4ac0fcb04be73e99d1a5706f7e0a485ee214",
+  "2026_features_read_within_each_formation_asof": true,
+  "2026_strategy_returns_queried": false,
+  "historical_arrival_verified": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}
