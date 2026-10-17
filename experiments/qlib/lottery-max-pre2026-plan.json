@@ -1,0 +1,69 @@
+{
+  "experiment_id": "single-calendar-max-pre2026-v1",
+  "status": "FROZEN_BEFORE_LOTTERY_MAX_OUTCOMES",
+  "parent_commit": "5827e05",
+  "families": [
+    "low_max_calendar"
+  ],
+  "candidate_budget": 1,
+  "capital_CNY": 1000000,
+  "user_selected_capital_CNY": null,
+  "extra_bps": [
+    20,
+    40
+  ],
+  "account_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "source": {
+    "title": "Maxing out: Stocks as lotteries and the cross-section of expected returns",
+    "authors": [
+      "Turan G. Bali",
+      "Nusret Cakici",
+      "Robert F. Whitelaw"
+    ],
+    "publication_year": 2011,
+    "doi": "10.1016/j.jfineco.2010.08.014",
+    "author_pdf_url": "https://pages.stern.nyu.edu/~rwhitela/papers/max%20jfe11.pdf",
+    "definition": "negative single maximum daily adjusted-close return over complete preceding calendar month; inactive-volume days excluded",
+    "China_adjustment_boundary": "No upper-limit continuation aggregation; not a replication of Jansen et al2021 Appendix B MAX20"
+  },
+  "design_file": "docs/research/lottery-max-pre2026-plan-2026-10-17.md",
+  "design_sha256": "d3adfd5da45dba394509f147efcbb3b208c8148a94e8029d17e6004a02e74bb3",
+  "common_eligibility": "complete month closes plus preceding month-end close; finite nonnegative daily volume; positive formation volume/factor; >=100 and >=80% of historical mainboard CSI500 members",
+  "exposure_target": 0.95,
+  "portfolio_selection": "top floor(N/10) negative-MAX scores; code-ascending ties; monthly equal-weight",
+  "control": "same month-eligible names equal-weight; descriptive, not risk-matched",
+  "selection_rule": "At40bp only: each2024/2025 net positive, exposure>=90%, no unverified held marks; no additional candidates",
+  "maximum_selected_followup_leads": 1,
+  "following_stage": "fixed2024/25 raw-share intraday confirmation before any2026 diagnostic",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_lottery_max_pre2026.py": "15cb06eed64e038eca76808fbe473899bcfa4e8605e1ade7ce3aa44f9af75bea",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/lottery_max.py": "5826ea87e4b3fcc3beebf3edafe08ad2c81a0d026aff8981148b882c72b6ef85"
+  },
+  "input_sha256": {
+    "price_files": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "gap_state_manifest_sha256": "257f3266d366bcc0c3452329efaae23086940394a3d9368b3fa943df2d311fc7",
+  "initial_targets_sha256": "4db4b014d8c59045c8da446e4550dd2299567a619718f8402d0731fb4db85ec9",
+  "initial_receipts_sha256": "8c278fbdcdf0309679b0c878ecf92611974a4c4496f535e3f9356932360d886c",
+  "2026_values_queried_for_new_candidate": false,
+  "2026_feedback_to_new_variants": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}
