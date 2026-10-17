@@ -1,0 +1,120 @@
+{
+  "status": "PRE2026_DEVELOPMENT_ONLY",
+  "candidate_budget": 3,
+  "start": "2024-01-02",
+  "last_signal": "2025-12-30",
+  "account_end": "2025-12-31",
+  "label": "close(t+2)/close(t+1)-1, daily cross-sectional rank normalized",
+  "rolling": {
+    "history_sessions": 1210,
+    "step_sessions": 20,
+    "label_maturity_sessions": 2,
+    "anchor": "2024-01-02",
+    "reset_at_year_boundary": false
+  },
+  "models": {
+    "ridge_alpha": 0.05,
+    "lgb_params": {
+      "objective": "regression",
+      "learning_rate": 0.05,
+      "colsample_bytree": 0.8879,
+      "subsample": 0.8789,
+      "lambda_l1": 205.6999,
+      "lambda_l2": 580.9768,
+      "max_depth": 8,
+      "num_leaves": 210,
+      "num_threads": 4,
+      "seed": 0,
+      "deterministic": true,
+      "force_col_wise": true,
+      "verbosity": -1
+    },
+    "lgb_trees": 100,
+    "blend": "fixed 50/50 daily percentile rank DE + rolling Ridge"
+  },
+  "portfolio": {
+    "topk": 100,
+    "n_drop": 2,
+    "risk_degree": 0.95
+  },
+  "selection": "positive full 2024/2025, >=90% exposure, then maximize worst calendar year, annualized return, negative cost",
+  "ranked_eligible": [
+    "rolling_lgb",
+    "rolling_ridge",
+    "de_control",
+    "de_ridge_equal_rank"
+  ],
+  "selected": "rolling_lgb",
+  "development_status": "NEW_LEAD_ONLY",
+  "results": {
+    "de_control": {
+      "sessions": 485,
+      "net_compound_return_pct": 61.31474467479477,
+      "net_annualized_pct": 27.009741624331628,
+      "benchmark_compound_return_pct": 37.507080078125,
+      "compound_excess_pct": 23.807663642995447,
+      "max_drawdown_pct": -20.12325845149101,
+      "average_exposure_pct": 99.58397651401224,
+      "cost_pct_initial": 2.2423828464935562,
+      "turnover_x_initial": 22.911642573410678,
+      "2024_return_pct": 11.47273050374016,
+      "2025_return_pct": 44.71229326295367,
+      "report_sha256": "e1d5f5cda26b57897d65c4541fa23ec0ce09df5783ffae676a8babd8a122b975"
+    },
+    "rolling_ridge": {
+      "sessions": 485,
+      "net_compound_return_pct": 30.167044410528064,
+      "net_annualized_pct": 14.09077281293525,
+      "benchmark_compound_return_pct": 37.507080078125,
+      "compound_excess_pct": -7.340036621271251,
+      "max_drawdown_pct": -14.06331110842366,
+      "average_exposure_pct": 99.44956194354636,
+      "cost_pct_initial": 2.15146301701139,
+      "turnover_x_initial": 22.003142763853226,
+      "2024_return_pct": 13.392759814235443,
+      "2025_return_pct": 14.793082577558557,
+      "report_sha256": "63f7c30dd4e44b38515483bd1829ba6fd646d02571e1aea9e03a8025c7563a30"
+    },
+    "rolling_lgb": {
+      "sessions": 485,
+      "net_compound_return_pct": 32.23743187845933,
+      "net_annualized_pct": 14.994535469499294,
+      "benchmark_compound_return_pct": 37.507080078125,
+      "compound_excess_pct": -5.269649153339984,
+      "max_drawdown_pct": -15.892042250036276,
+      "average_exposure_pct": 99.83099482959447,
+      "cost_pct_initial": 2.221159270643762,
+      "turnover_x_initial": 22.699681772077998,
+      "2024_return_pct": 14.271671508446904,
+      "2025_return_pct": 15.721972150100406,
+      "report_sha256": "735b9ae06c697e95863621e80d5bc09e6f5f0541f5b03a5bb2fa58bbbf2017f6"
+    },
+    "de_ridge_equal_rank": {
+      "sessions": 485,
+      "net_compound_return_pct": 30.413821319495725,
+      "net_annualized_pct": 14.198870974933776,
+      "benchmark_compound_return_pct": 37.507080078125,
+      "compound_excess_pct": -7.09325971230359,
+      "max_drawdown_pct": -16.355102152261438,
+      "average_exposure_pct": 99.7132764920151,
+      "cost_pct_initial": 2.118171468711678,
+      "turnover_x_initial": 21.67046939535455,
+      "2024_return_pct": 9.930224116159048,
+      "2025_return_pct": 18.633271575697563,
+      "report_sha256": "cef222a18a2a52a86b358baebff1b54f6a105bb64df34de90f1f1352bdf76c56"
+    }
+  },
+  "prediction_sha256": {
+    "de_control": "f6db584b8be6af50369a5b71073f19fcf6f0c1169ccf4c34f9261ad7385641fb",
+    "rolling_ridge": "0ad2f763b2298047d62f5120d355868df34a02b86bbb696579b6c4010c10982a",
+    "rolling_lgb": "8b225a0e5012a40f0c2bbf73ca4429ea340d6011d2b4e2fcf33bd4988cb89ef2",
+    "de_ridge_equal_rank": "8fc490f9eca3153fe6818f3e1e336a40f4cd399a21063cbab158c6ef090ae6d8"
+  },
+  "features_sha256": "5a47abbc3be7ce8bde51ced20fb52d04c51e4b2b97af84653300afb4fc42277f",
+  "raw_price_inputs_sha256": "f2095c539f181aa0297dda84434e7e0fce8a87d4133c97f3fc2e7e327abc4eb8",
+  "fit_receipts_sha256": "5cdcc8e2c161a1f334a93dee9150711cc33f2ce2b223c2b5771b554c6c093a80",
+  "fit_count": 25,
+  "2026_market_values_queried": false,
+  "2026_target_status": "NOT_EVALUATED",
+  "claim_status": "DEVELOPMENT_ONLY_NOT_SEALED"
+}

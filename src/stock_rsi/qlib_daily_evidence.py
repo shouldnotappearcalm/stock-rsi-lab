@@ -38,7 +38,10 @@ def reconcile_daily_evidence(report, positions, order_history, calendar, *, init
         if number < 1:
             raise ValueError("prior exchange session required")
         signal_date = calendar[number - 1]
-        frame = pd.DataFrame(order_history[at].to_series())
+        # Qlib SingleData.to_series passes its custom Index to pandas 2.x,
+        # which rejects it. Its public to_dict preserves the same entries.
+        fields = ("amount", "deal_amount", "trade_price", "trade_value", "trade_cost", "trade_dir")
+        frame = pd.DataFrame({key: order_history[at].get_index_data(key).to_dict() for key in fields})
         day_orders = []
         for symbol, order in frame.iterrows():
             if signal_date not in signal_days:

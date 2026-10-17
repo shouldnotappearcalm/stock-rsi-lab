@@ -1,0 +1,42 @@
+{
+  "status": "FROZEN_BEFORE_2026_REPLAY",
+  "selected": "rolling_lgb",
+  "development_summary_sha256": "43c8cb8f13e7327c09d5ac6509fc9590f184939a3c500811d2c3ccad1b566a2d",
+  "replay_script_sha256": "97b48e7ff66e6154b566bb11bd12bf5c1d7bf5bc62bdc4564001c1e0f9f423c1",
+  "method_code_sha256": {
+    "scripts/run_qlib_roll1_campaign_pre2026.py": "b9c5a1796e9934b014016646fb5808cc50767aa36e91e9236ae5e8424660fb33",
+    "scripts/run_qlib_roll1_frozen_2026.py": "97b48e7ff66e6154b566bb11bd12bf5c1d7bf5bc62bdc4564001c1e0f9f423c1",
+    "scripts/replay_qlib_daily_evidence.py": "c0cc62e748ad52b2032e690b10eb6c2bef150af2d5499206c0ffcc6607436df2",
+    "src/stock_rsi/rolling_daily.py": "158d21b41681a7874d35e598500bcd6bc2aef0f49d501f99f7a607f87d6cbe42",
+    "src/stock_rsi/roll1_continuation.py": "078edd99bf2a038fdc357e21242cc90d1f9315629366acc75be5cb5138553024",
+    "src/stock_rsi/qlib_daily_evidence.py": "0408ccba6bc63727eb17a88f0be21bc1b9cf5db29f9d2b1e8f8666524bbf3c92",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde"
+  },
+  "maximum_2026_diagnostics": 1,
+  "start": "2026-01-05",
+  "end": "2026-10-13",
+  "account_start": "2024-01-02",
+  "account_reset_at_2026": false,
+  "selection_rule": "positive full 2024/2025, >=90% exposure, then maximize worst calendar year, annualized return, negative cost",
+  "selected_development_metrics": {
+    "sessions": 485,
+    "net_compound_return_pct": 32.23743187845933,
+    "net_annualized_pct": 14.994535469499294,
+    "benchmark_compound_return_pct": 37.507080078125,
+    "compound_excess_pct": -5.269649153339984,
+    "max_drawdown_pct": -15.892042250036276,
+    "average_exposure_pct": 99.83099482959447,
+    "cost_pct_initial": 2.221159270643762,
+    "turnover_x_initial": 22.699681772077998,
+    "2024_return_pct": 14.271671508446904,
+    "2025_return_pct": 15.721972150100406,
+    "report_sha256": "735b9ae06c697e95863621e80d5bc09e6f5f0541f5b03a5bb2fa58bbbf2017f6"
+  },
+  "protocol_plan_sha256": "dc721feb53183c0b7d9bc64333d8883d4a171fae61e635587ff08b0cdd7d1121",
+  "frozen_features_sha256": "5a47abbc3be7ce8bde51ced20fb52d04c51e4b2b97af84653300afb4fc42277f",
+  "frozen_fit_receipts_sha256": "5cdcc8e2c161a1f334a93dee9150711cc33f2ce2b223c2b5771b554c6c093a80",
+  "2026_diagnostic_status_at_registration": "NOT_OPENED_FOR_THIS_CANDIDATE",
+  "2026_data_already_consumed_by_other_experiments": true,
+  "2026_feedback_to_new_variants": false,
+  "requested_complete_October_available": false
+}

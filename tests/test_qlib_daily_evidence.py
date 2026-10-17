@@ -24,7 +24,8 @@ class DailyEvidenceTests(unittest.TestCase):
         def orders(direction, price, value):
             fields = {"amount": 10., "deal_amount": 10., "trade_price": price,
                       "trade_value": value, "trade_cost": 1., "trade_dir": direction}
-            return SimpleNamespace(to_series=lambda: {key: pd.Series({"A": val}) for key, val in fields.items()})
+            return SimpleNamespace(to_series=lambda: {key: pd.Series({"A": val}) for key, val in fields.items()},
+                                   get_index_data=lambda key: pd.Series({"A": fields[key]}))
         history = {first: orders(1, 10., 100.), second: orders(0, 11., -110.)}
         calendar = (date(2023, 12, 29), first.date(), second.date())
         return report, positions, history, calendar
@@ -48,3 +49,19 @@ class DailyEvidenceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "prior-session signal"):
             reconcile_daily_evidence(report, positions, history, calendar, initial_cash=1000.,
                                      signal_days={date(2024, 1, 2)})
+
+    def test_native_qlib_order_indicator_supports_current_pandas(self):
+        try:
+            from qlib.backtest.high_performance_ds import NumpyOrderIndicator
+        except ImportError:
+            self.skipTest("optional Qlib research dependency unavailable")
+        report, positions, history, calendar = self.fixture()
+        native = {}
+        for day, original in history.items():
+            indicator = NumpyOrderIndicator()
+            for field, values in original.to_series().items():
+                indicator.assign(field, values.to_dict())
+            native[day] = indicator
+        evidence = reconcile_daily_evidence(report, positions, native, calendar, initial_cash=1000.,
+                                            signal_days=set(calendar))
+        self.assertEqual(evidence["total_cost"], 2.)

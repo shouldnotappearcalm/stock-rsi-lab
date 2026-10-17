@@ -21,6 +21,12 @@ from stock_rsi.rolling_daily import MatureDailyLabels
 
 END = "2026-10-13"
 NORMALIZER_SHA256 = "b3694091e592e8eba33baa2e90f3328ab7c0f3aee5b1508a8c191580171a1e0e"
+METHOD_CODE_PATHS = (
+    "scripts/run_qlib_roll1_campaign_pre2026.py", "scripts/run_qlib_roll1_frozen_2026.py",
+    "scripts/replay_qlib_daily_evidence.py", "src/stock_rsi/rolling_daily.py",
+    "src/stock_rsi/roll1_continuation.py", "src/stock_rsi/qlib_daily_evidence.py",
+    "src/stock_rsi/qlib_snapshot.py",
+)
 
 
 def verify_development_selection(summary):
@@ -90,6 +96,11 @@ def main(argv=None):
             or registration["replay_script_sha256"] != sha256_file(__file__)
             or registration["development_summary_sha256"] != sha256_file(development / "summary.json")):
         raise ValueError("registered diagnostic identity changed")
+    code_hashes = registration["method_code_sha256"]
+    repo = Path(__file__).resolve().parents[1]
+    if (set(code_hashes) != set(METHOD_CODE_PATHS)
+            or any(sha256_file(repo / name) != code_hashes[name] for name in METHOD_CODE_PATHS)):
+        raise ValueError("registered method source changed")
     summary = json.loads((development / "summary.json").read_text())
     selected = verify_development_selection(summary)
     if selected != registration["selected"]:
@@ -220,6 +231,8 @@ def main(argv=None):
         "features_extension_sha256": sha256_file(output / "features_extension.pkl"),
         "provider_price_inputs_sha256": price_input_digest(
             args.provider_uri, sorted(features.index.get_level_values("instrument").unique())),
+        "provider_metadata_sha256": {name: sha256_file(Path(args.provider_uri) / name) for name in (
+            "calendars/day.txt", "instruments/csi500.txt", "features/sh000905/close.day.bin")},
         "prediction_sha256": sha256_file(output / "prediction.pkl"),
         "fit_receipts_sha256": sha256_file(output / "fit_receipts.json"),
         "ledger": ledger, "rule_changed_after_2026_open": False,

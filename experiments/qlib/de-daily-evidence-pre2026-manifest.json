@@ -1,0 +1,24 @@
+{
+  "status": "RECONCILED_DAILY_ENGINEERING_REPLAY",
+  "start": "2024-01-02",
+  "end": "2025-12-31",
+  "sessions": 485,
+  "order_rows": 1892,
+  "holdings_rows": 48343,
+  "total_cost": 2242382.846493556,
+  "total_turnover": 2291164257.3410683,
+  "initial_cash": 100000000,
+  "continuous_account": true,
+  "signal_clock": "One daily close signal, previous explicit session's score used at next session close",
+  "wake_frequency": "one daily decision step; training every 20 sessions when scheduled",
+  "units": "Qlib normalized prices and amounts; monetary values in CNY",
+  "asof_limit": "15:00+08:00 is a close-bar convention; historical observed arrival times are not verified",
+  "execution_limit": "Daily price/limit proxies; no intraday queue, announcement stream or complete PIT proof",
+  "artifact_sha256": {
+    "report.pkl": "df65a16c22ada0b11de7bc17627612ed2d90cfd057152d6f0e68414bcc815616",
+    "positions.pkl": "0cd1ed45b6fd5a1b51d8f1faba7853597cf326675b6d6aeaa7bffaa8518bcb17",
+    "days.csv": "dda21bb6c67557696fc28f128ffbdad6100ceff0baf469e44090d381704ce8c3",
+    "orders.csv": "1ff4ceb84c1e974ab6f669a5d83092f91ba0bee5db7809e6bb5cfa85b1e00143",
+    "holdings.csv": "85841120e1b630b512e772da74d7bc014b1906a27ae2b1b2bb179feddd2863af"
+  }
+}
