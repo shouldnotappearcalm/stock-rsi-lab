@@ -1,0 +1,33 @@
+{
+  "status": "HIGH52_ALTERNATE_MINUTE_ENDPOINT_PROBE_COMPLETE",
+  "request_sha256": "aa16631102cd51a5571be03a201e363540284cce1cbbff22b5578a71b7993e4f",
+  "results": [
+    {
+      "file": "1.json",
+      "sha256": "ae7f968598c08f6f23935d728e43e281eb122bcc0118070cc0f8d4f729e43273",
+      "host": "116.205.183.150:7709",
+      "status": "REQUEST_FAILED",
+      "error_type": "ProtocolError",
+      "error": "invalid recent intraday payload",
+      "method": "minutes.recent"
+    },
+    {
+      "file": "2.json",
+      "sha256": "6f5333fb7472779f4df2ad44f27f2bdf0152948a7741077bb4332af50d7e3418",
+      "host": "116.205.171.132:7709",
+      "status": "REQUEST_FAILED",
+      "error_type": "ProtocolError",
+      "error": "invalid recent intraday payload",
+      "method": "minutes.recent"
+    }
+  ],
+  "original_failure_sha256": "ee7ab7db3ac2106cec62298805f9f54fefc06b6ebf0de9698dc9d2a1a14b281a",
+  "old_source_overwritten": false,
+  "2026_market_values_queried": false,
+  "new_portfolio_account_run": false,
+  "objective_achieved": false,
+  "source_sdk_commit": "59d4615d3dafed4ecbdc480a34f96807cb132b92",
+  "source_gap_resolved": false,
+  "library_modified": false,
+  "interpretation": "Both fixed-date0x0feb alternative command probes failed. No response was admitted or substituted into original data."
+}

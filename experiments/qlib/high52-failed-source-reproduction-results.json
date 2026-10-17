@@ -1,0 +1,33 @@
+{
+  "status": "HIGH52_SINGLE_SOURCE_ERROR_REPRODUCTION_COMPLETE",
+  "request_sha256": "825ca24bb4c4d7f3a183ca110bc67529d4fe8ff84418a3b7ad56f8949258d481",
+  "results": [
+    {
+      "file": "1.json",
+      "sha256": "e91fbe505b5ed2d0b62fa21297f36671cf3be8f67a654891b00dfbe3671b788d",
+      "host": "116.205.183.150:7709",
+      "status": "REQUEST_FAILED",
+      "error_type": "ProtocolError",
+      "error": "invalid historical intraday payload"
+    },
+    {
+      "file": "2.json",
+      "sha256": "b2d9b14b07e57e4e19365e323ef4bf3d5079118b95c178dddd6857b1b2abe502",
+      "host": "116.205.171.132:7709",
+      "status": "REQUEST_FAILED",
+      "error_type": "ProtocolError",
+      "error": "invalid historical intraday payload"
+    }
+  ],
+  "original_failure_sha256": "ee7ab7db3ac2106cec62298805f9f54fefc06b6ebf0de9698dc9d2a1a14b281a",
+  "old_source_overwritten": false,
+  "2026_market_values_queried": false,
+  "new_portfolio_account_run": false,
+  "objective_achieved": false,
+  "source_sdk_commit": "59d4615d3dafed4ecbdc480a34f96807cb132b92",
+  "source_sdk_error_file": "crates/eltdx-protocol/src/commands/minutes.rs",
+  "source_sdk_error_file_sha256": "e5c1bd1a75212784c963d603655082c96d1dab77e61caf9128b17cb4d4fd43b5",
+  "inference": "In the cloned v3.2.3 source this message is raised when payload length is below6. Wire payload bytes were not captured on error, so the exact upstream reason is not verified.",
+  "library_modified": false,
+  "source_gap_resolved": false
+}

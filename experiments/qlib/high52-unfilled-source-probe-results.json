@@ -1,0 +1,3267 @@
+{
+  "status": "HIGH52_UNFILLED_SOURCE_PROBE_COMPLETE",
+  "pairs": 35,
+  "request_sha256": "4f86d0f7aa6e68dd04020306ddd85fe00e7092ff10234037ee10055dad9463b7",
+  "capture_manifest_sha256": "8422206fa9cf003cf180c551679deac1bffbf1ebb4ef06bd32ae5aa5206ad52e",
+  "analysis_code_sha256": {
+    "scripts/analyze_high52_unfilled_sources.py": "6430ca007449daaeadc31dbe697d607ef7778178b18db779f32bdbc6e82a0c47",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/execution_diagnostics.py": "103f3d8434f6eebe8bbffd3d12280ab3a041d6c4e1582ae0b8f572b1d991098d"
+  },
+  "status_counts": {
+    "SOURCE_WINDOW_EVIDENCE_COMPLETE": 34,
+    "SOURCE_REJECTED": 1
+  },
+  "all_source_pairs_admitted": false,
+  "source_open_guard_blocked_buy_pairs": 34,
+  "pairs_with_candidate_windows_by_participation_bps": {
+    "100": 21,
+    "500": 21,
+    "1000": 21
+  },
+  "results": [
+    {
+      "instrument": "SH600208",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "6c18a882aceaa53bc42d9eb377a706a6d7c30b05002d1779be687e0979461a24",
+      "source_minute_sha256": "e6e9d45b24db46cfa3b90807c0271fe32341998f882828ea108f1511a19cb7d7",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "2.9200",
+        "high": "2.9200",
+        "low": "2.7300",
+        "close": "2.9200"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 5759124,
+        "minute_volume_shares_at_documented_multiplier": 575912400,
+        "daily_volume_shares": "575912381",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.177707888907994,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "2.90",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "6a53f56f16a74b5601124a26c83050b46f708ce8586aeeaf6808e05a2cefcb3e",
+            "current_evidence_id": "cf4d9edfdf4f5b95739d45c1ae1e172b1add542c5d91679971d8492c361b69f9",
+            "sampled_adverse_buy_CNY": "2.82",
+            "two_bucket_volume_cap_shares": 286900
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T05:50:00+00:00",
+            "end": "2024-10-08T05:55:00+00:00",
+            "previous_available_at": "2024-10-08T05:50:00+00:00",
+            "previous_evidence_id": "321141eecba4d7c9771947d03b733c5f682257476be9b9fe2ee6786581dce3ce",
+            "current_evidence_id": "778fbe052b974543bb6dc4fca9fcb235613076529bc2e03a12962c9428a304da",
+            "sampled_adverse_buy_CNY": "2.87",
+            "two_bucket_volume_cap_shares": 79900
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "2.90",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "6a53f56f16a74b5601124a26c83050b46f708ce8586aeeaf6808e05a2cefcb3e",
+            "current_evidence_id": "cf4d9edfdf4f5b95739d45c1ae1e172b1add542c5d91679971d8492c361b69f9",
+            "sampled_adverse_buy_CNY": "2.82",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T05:50:00+00:00",
+            "end": "2024-10-08T05:55:00+00:00",
+            "previous_available_at": "2024-10-08T05:50:00+00:00",
+            "previous_evidence_id": "321141eecba4d7c9771947d03b733c5f682257476be9b9fe2ee6786581dce3ce",
+            "current_evidence_id": "778fbe052b974543bb6dc4fca9fcb235613076529bc2e03a12962c9428a304da",
+            "sampled_adverse_buy_CNY": "2.87",
+            "two_bucket_volume_cap_shares": 399500
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "2.90",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "6a53f56f16a74b5601124a26c83050b46f708ce8586aeeaf6808e05a2cefcb3e",
+            "current_evidence_id": "cf4d9edfdf4f5b95739d45c1ae1e172b1add542c5d91679971d8492c361b69f9",
+            "sampled_adverse_buy_CNY": "2.82",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T05:50:00+00:00",
+            "end": "2024-10-08T05:55:00+00:00",
+            "previous_available_at": "2024-10-08T05:50:00+00:00",
+            "previous_evidence_id": "321141eecba4d7c9771947d03b733c5f682257476be9b9fe2ee6786581dce3ce",
+            "current_evidence_id": "778fbe052b974543bb6dc4fca9fcb235613076529bc2e03a12962c9428a304da",
+            "sampled_adverse_buy_CNY": "2.87",
+            "two_bucket_volume_cap_shares": 799000
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SH600369",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "cbcfd5b1a097d314fcf962ae53fe8f02c45b9f3b76ea84a697aab27756de199e",
+      "source_minute_sha256": "359aae6757804331176ecb99b3a7395f19953d00fc1c91a1e930e15125790e04",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "5.3600",
+        "high": "5.3600",
+        "low": "5.1200",
+        "close": "5.3600"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 2598777,
+        "minute_volume_shares_at_documented_multiplier": 259877700,
+        "daily_volume_shares": "259877706",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.06519939251913,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "5.33",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "5.33",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "5.33",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SH600390",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "63c447c9189029d47d059655c3d5f4995ad48ff6f3411739ea74b27a7a421321",
+      "source_minute_sha256": "4e1eac94ca546759ee07181d4f14f95e3707de019206af8cf9ae59a8df504a6a",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "7.3400",
+        "high": "7.3400",
+        "low": "7.3400",
+        "close": "7.3400"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 261787,
+        "minute_volume_shares_at_documented_multiplier": 26178700,
+        "daily_volume_shares": "26178682",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.022330971753558,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "7.30",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "7.30",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "7.30",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SH600517",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "2375004cf7afaa9fc790cecc47b42bc2d7cf2f56ec0cd7230683b42e42e53aab",
+      "source_minute_sha256": "86c1ba5d60824402004024a38a009b9c26afc273ac6db8eb1a0925d17b74d47f",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "6.0600",
+        "high": "6.0600",
+        "low": "5.7400",
+        "close": "6.0600"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1022790,
+        "minute_volume_shares_at_documented_multiplier": 102279000,
+        "daily_volume_shares": "102278992",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.980342185832347,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "6.03",
+          "candidate_windows": 6,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "db7b605fd142a3c7b7621a2716704c3d4dc2b5b7aff4439fc7d8e962dd781980",
+            "current_evidence_id": "7055c945102f9801dcb8e0aadb1145d8ce302a2e2a10caecd153e607a0c0acc2",
+            "sampled_adverse_buy_CNY": "5.89",
+            "two_bucket_volume_cap_shares": 12800
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T03:00:00+00:00",
+            "end": "2024-10-08T03:05:00+00:00",
+            "previous_available_at": "2024-10-08T03:00:00+00:00",
+            "previous_evidence_id": "bc81cca99d7055c1f89f0ee4eda8ce782261dc01cc2918dfd9c56235b6322c72",
+            "current_evidence_id": "65c227e546b12f35ac20ae09562ea716d9a99fa3505ae1683f36f925af65bbe7",
+            "sampled_adverse_buy_CNY": "5.99",
+            "two_bucket_volume_cap_shares": 22600
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "6.03",
+          "candidate_windows": 6,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "db7b605fd142a3c7b7621a2716704c3d4dc2b5b7aff4439fc7d8e962dd781980",
+            "current_evidence_id": "7055c945102f9801dcb8e0aadb1145d8ce302a2e2a10caecd153e607a0c0acc2",
+            "sampled_adverse_buy_CNY": "5.89",
+            "two_bucket_volume_cap_shares": 64100
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T03:00:00+00:00",
+            "end": "2024-10-08T03:05:00+00:00",
+            "previous_available_at": "2024-10-08T03:00:00+00:00",
+            "previous_evidence_id": "bc81cca99d7055c1f89f0ee4eda8ce782261dc01cc2918dfd9c56235b6322c72",
+            "current_evidence_id": "65c227e546b12f35ac20ae09562ea716d9a99fa3505ae1683f36f925af65bbe7",
+            "sampled_adverse_buy_CNY": "5.99",
+            "two_bucket_volume_cap_shares": 113400
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "6.03",
+          "candidate_windows": 6,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "db7b605fd142a3c7b7621a2716704c3d4dc2b5b7aff4439fc7d8e962dd781980",
+            "current_evidence_id": "7055c945102f9801dcb8e0aadb1145d8ce302a2e2a10caecd153e607a0c0acc2",
+            "sampled_adverse_buy_CNY": "5.89",
+            "two_bucket_volume_cap_shares": 128300
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T03:00:00+00:00",
+            "end": "2024-10-08T03:05:00+00:00",
+            "previous_available_at": "2024-10-08T03:00:00+00:00",
+            "previous_evidence_id": "bc81cca99d7055c1f89f0ee4eda8ce782261dc01cc2918dfd9c56235b6322c72",
+            "current_evidence_id": "65c227e546b12f35ac20ae09562ea716d9a99fa3505ae1683f36f925af65bbe7",
+            "sampled_adverse_buy_CNY": "5.99",
+            "two_bucket_volume_cap_shares": 226900
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SH600536",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "c3f80fba6534751fafee774f9c3fac4c14bea1c0a5c54f618be1dcebe8deefdd",
+      "source_minute_sha256": "1246f0b2510b82c8a4df92c463c2dd9080f4fc31e3a81fccbe6e98b808fe50c7",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "46.1000",
+        "high": "46.1000",
+        "low": "43.1000",
+        "close": "46.1000"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 626711,
+        "minute_volume_shares_at_documented_multiplier": 62671100,
+        "daily_volume_shares": "62671123",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.997070116613394,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "45.89",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "dfddfe9aecb7645cc49f13fd66e301f9de5c0ad8ab8d13cf618b1e70514e22d3",
+            "current_evidence_id": "108d59f17f1f2d073d5d709e1dfdd12a814a7b715cfc3630f88e3ab24d9c748a",
+            "sampled_adverse_buy_CNY": "44.02",
+            "two_bucket_volume_cap_shares": 78100
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T03:00:00+00:00",
+            "end": "2024-10-08T03:05:00+00:00",
+            "previous_available_at": "2024-10-08T03:00:00+00:00",
+            "previous_evidence_id": "be4a05bb85e989f792072568712763b72d76e18c12b6799ba6759d569b734133",
+            "current_evidence_id": "aedecb9d3fc0cc8c3717c12cf0affd1623f54ad9ee812dfa3353dfbd837ed0e5",
+            "sampled_adverse_buy_CNY": "45.5",
+            "two_bucket_volume_cap_shares": 16200
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "45.89",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "dfddfe9aecb7645cc49f13fd66e301f9de5c0ad8ab8d13cf618b1e70514e22d3",
+            "current_evidence_id": "108d59f17f1f2d073d5d709e1dfdd12a814a7b715cfc3630f88e3ab24d9c748a",
+            "sampled_adverse_buy_CNY": "44.02",
+            "two_bucket_volume_cap_shares": 390500
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T03:00:00+00:00",
+            "end": "2024-10-08T03:05:00+00:00",
+            "previous_available_at": "2024-10-08T03:00:00+00:00",
+            "previous_evidence_id": "be4a05bb85e989f792072568712763b72d76e18c12b6799ba6759d569b734133",
+            "current_evidence_id": "aedecb9d3fc0cc8c3717c12cf0affd1623f54ad9ee812dfa3353dfbd837ed0e5",
+            "sampled_adverse_buy_CNY": "45.5",
+            "two_bucket_volume_cap_shares": 81400
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "45.89",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "dfddfe9aecb7645cc49f13fd66e301f9de5c0ad8ab8d13cf618b1e70514e22d3",
+            "current_evidence_id": "108d59f17f1f2d073d5d709e1dfdd12a814a7b715cfc3630f88e3ab24d9c748a",
+            "sampled_adverse_buy_CNY": "44.02",
+            "two_bucket_volume_cap_shares": 781100
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T03:00:00+00:00",
+            "end": "2024-10-08T03:05:00+00:00",
+            "previous_available_at": "2024-10-08T03:00:00+00:00",
+            "previous_evidence_id": "be4a05bb85e989f792072568712763b72d76e18c12b6799ba6759d569b734133",
+            "current_evidence_id": "aedecb9d3fc0cc8c3717c12cf0affd1623f54ad9ee812dfa3353dfbd837ed0e5",
+            "sampled_adverse_buy_CNY": "45.5",
+            "two_bucket_volume_cap_shares": 162900
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SH600663",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "a6aac6a142025251108f29015a3b9f0499140c32060ae2d830a79dcf966a735b",
+      "source_minute_sha256": "3869d92d4c6105f9bf63f93bbe25e7864cd2548a9c7117ef493954ea22d55672",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "12.1000",
+        "high": "12.1000",
+        "low": "11.2000",
+        "close": "11.6000"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 359173,
+        "minute_volume_shares_at_documented_multiplier": 35917300,
+        "daily_volume_shares": "35917347",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.998069348075344,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "12.04",
+          "candidate_windows": 45,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:40:00+00:00",
+            "end": "2024-10-08T01:45:00+00:00",
+            "previous_available_at": "2024-10-08T01:40:00+00:00",
+            "previous_evidence_id": "112bdff7627560317671a35648c6c1fac48688d05b2a84b8486148f517c21307",
+            "current_evidence_id": "4888b80597287ade28221f7e41a1c2222968dd574b5217e4026756c74a7ccd2c",
+            "sampled_adverse_buy_CNY": "11.88",
+            "two_bucket_volume_cap_shares": 19100
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "3a8dc16a926df5c9e08870f771c0a60ed5b4f442e63a070ae12a9bd1aab3c353",
+            "current_evidence_id": "e79594d20d8c44d66b38481c0486fb3e5434cbd386d5e6448adb66f828831ff8",
+            "sampled_adverse_buy_CNY": "11.58",
+            "two_bucket_volume_cap_shares": 5400
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "12.04",
+          "candidate_windows": 45,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:40:00+00:00",
+            "end": "2024-10-08T01:45:00+00:00",
+            "previous_available_at": "2024-10-08T01:40:00+00:00",
+            "previous_evidence_id": "112bdff7627560317671a35648c6c1fac48688d05b2a84b8486148f517c21307",
+            "current_evidence_id": "4888b80597287ade28221f7e41a1c2222968dd574b5217e4026756c74a7ccd2c",
+            "sampled_adverse_buy_CNY": "11.88",
+            "two_bucket_volume_cap_shares": 95600
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "3a8dc16a926df5c9e08870f771c0a60ed5b4f442e63a070ae12a9bd1aab3c353",
+            "current_evidence_id": "e79594d20d8c44d66b38481c0486fb3e5434cbd386d5e6448adb66f828831ff8",
+            "sampled_adverse_buy_CNY": "11.58",
+            "two_bucket_volume_cap_shares": 27200
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "12.04",
+          "candidate_windows": 45,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:40:00+00:00",
+            "end": "2024-10-08T01:45:00+00:00",
+            "previous_available_at": "2024-10-08T01:40:00+00:00",
+            "previous_evidence_id": "112bdff7627560317671a35648c6c1fac48688d05b2a84b8486148f517c21307",
+            "current_evidence_id": "4888b80597287ade28221f7e41a1c2222968dd574b5217e4026756c74a7ccd2c",
+            "sampled_adverse_buy_CNY": "11.88",
+            "two_bucket_volume_cap_shares": 191300
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "3a8dc16a926df5c9e08870f771c0a60ed5b4f442e63a070ae12a9bd1aab3c353",
+            "current_evidence_id": "e79594d20d8c44d66b38481c0486fb3e5434cbd386d5e6448adb66f828831ff8",
+            "sampled_adverse_buy_CNY": "11.58",
+            "two_bucket_volume_cap_shares": 54400
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SH601108",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "74e6393699a8612a38d5af2b38a54b01da341cbfcb428cb9241e374ec0f274bd",
+      "source_minute_sha256": "9c5b4c0f39bbdc77d2b1b1bd5f43a09f56844719b8567d772aefb10cad9dd9a9",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "9.5900",
+        "high": "9.5900",
+        "low": "9.1300",
+        "close": "9.5900"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 2506046,
+        "minute_volume_shares_at_documented_multiplier": 250604600,
+        "daily_volume_shares": "250604585",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.980433876798521,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "9.54",
+          "candidate_windows": 4,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "76f9076a6e5dc824dbf714d228b0c61df89ce62b5258392dad0eaafdb5e28526",
+            "current_evidence_id": "bf2d6779178ea09644bf42034117953fd9fcb4ad49cf8d4f0ade431973c3f077",
+            "sampled_adverse_buy_CNY": "9.29",
+            "two_bucket_volume_cap_shares": 339200
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "2de40936da179c2df95fdfa145c1fdc6394015488a61060f6f19129987eeb257",
+            "current_evidence_id": "ed10efa46c93514de5f7dc1566a54c0a259e722f77cf78b4a14e9dc6b7e55f5f",
+            "sampled_adverse_buy_CNY": "9.51",
+            "two_bucket_volume_cap_shares": 93400
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "9.54",
+          "candidate_windows": 4,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "76f9076a6e5dc824dbf714d228b0c61df89ce62b5258392dad0eaafdb5e28526",
+            "current_evidence_id": "bf2d6779178ea09644bf42034117953fd9fcb4ad49cf8d4f0ade431973c3f077",
+            "sampled_adverse_buy_CNY": "9.29",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "2de40936da179c2df95fdfa145c1fdc6394015488a61060f6f19129987eeb257",
+            "current_evidence_id": "ed10efa46c93514de5f7dc1566a54c0a259e722f77cf78b4a14e9dc6b7e55f5f",
+            "sampled_adverse_buy_CNY": "9.51",
+            "two_bucket_volume_cap_shares": 467400
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "9.54",
+          "candidate_windows": 4,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "76f9076a6e5dc824dbf714d228b0c61df89ce62b5258392dad0eaafdb5e28526",
+            "current_evidence_id": "bf2d6779178ea09644bf42034117953fd9fcb4ad49cf8d4f0ade431973c3f077",
+            "sampled_adverse_buy_CNY": "9.29",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "2de40936da179c2df95fdfa145c1fdc6394015488a61060f6f19129987eeb257",
+            "current_evidence_id": "ed10efa46c93514de5f7dc1566a54c0a259e722f77cf78b4a14e9dc6b7e55f5f",
+            "sampled_adverse_buy_CNY": "9.51",
+            "two_bucket_volume_cap_shares": 934900
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SH601118",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "01a89eee733c4cd959e550729090285b2fb136d4dabb880ce752d864ccf6c520",
+      "source_minute_sha256": "40cdf8548e822f751dcc414227966cb71c9f3fb2def1f99f813de3061ffe2ce2",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "6.5000",
+        "high": "6.5000",
+        "low": "5.9300",
+        "close": "6.1100"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1195381,
+        "minute_volume_shares_at_documented_multiplier": 119538100,
+        "daily_volume_shares": "119538111",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.83136895276786,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "6.48",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:35:00+00:00",
+            "end": "2024-10-08T01:40:00+00:00",
+            "previous_available_at": "2024-10-08T01:35:00+00:00",
+            "previous_evidence_id": "42e4fdf48323c4ca0955f887cf721372b745ab97a113d2e456e73bc5d426ef7f",
+            "current_evidence_id": "75ea2fcd4423d7c10d0e1338e20d794d46fa9f42d3dd6b2193d3f66c201ac25f",
+            "sampled_adverse_buy_CNY": "6.29",
+            "two_bucket_volume_cap_shares": 93100
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "e60eb934517cebe36ede085b825362bcf57879ee5979a56e2c66dce100df51b5",
+            "current_evidence_id": "475fa51612ae2477329e609d5edffb0d857bdd05eb93d64bc257f8f35f62e3bd",
+            "sampled_adverse_buy_CNY": "6.1",
+            "two_bucket_volume_cap_shares": 17600
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "6.48",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:35:00+00:00",
+            "end": "2024-10-08T01:40:00+00:00",
+            "previous_available_at": "2024-10-08T01:35:00+00:00",
+            "previous_evidence_id": "42e4fdf48323c4ca0955f887cf721372b745ab97a113d2e456e73bc5d426ef7f",
+            "current_evidence_id": "75ea2fcd4423d7c10d0e1338e20d794d46fa9f42d3dd6b2193d3f66c201ac25f",
+            "sampled_adverse_buy_CNY": "6.29",
+            "two_bucket_volume_cap_shares": 465800
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "e60eb934517cebe36ede085b825362bcf57879ee5979a56e2c66dce100df51b5",
+            "current_evidence_id": "475fa51612ae2477329e609d5edffb0d857bdd05eb93d64bc257f8f35f62e3bd",
+            "sampled_adverse_buy_CNY": "6.1",
+            "two_bucket_volume_cap_shares": 88000
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "6.48",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:35:00+00:00",
+            "end": "2024-10-08T01:40:00+00:00",
+            "previous_available_at": "2024-10-08T01:35:00+00:00",
+            "previous_evidence_id": "42e4fdf48323c4ca0955f887cf721372b745ab97a113d2e456e73bc5d426ef7f",
+            "current_evidence_id": "75ea2fcd4423d7c10d0e1338e20d794d46fa9f42d3dd6b2193d3f66c201ac25f",
+            "sampled_adverse_buy_CNY": "6.29",
+            "two_bucket_volume_cap_shares": 931700
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "e60eb934517cebe36ede085b825362bcf57879ee5979a56e2c66dce100df51b5",
+            "current_evidence_id": "475fa51612ae2477329e609d5edffb0d857bdd05eb93d64bc257f8f35f62e3bd",
+            "sampled_adverse_buy_CNY": "6.1",
+            "two_bucket_volume_cap_shares": 176100
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SH601155",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "17002aa2e83319f0ea7b027c1aa2360bc947a37c47d291c35b2d99b62763df13",
+      "source_minute_sha256": "cae82b95587fc192e31abddf5747e636337ffbed374f29a349cdd613d7069fe2",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "15.8000",
+        "high": "15.8000",
+        "low": "13.8600",
+        "close": "14.6400"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1203591,
+        "minute_volume_shares_at_documented_multiplier": 120359100,
+        "daily_volume_shares": "120359087",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.016331297587966,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "15.72",
+          "candidate_windows": 44,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:45:00+00:00",
+            "end": "2024-10-08T01:50:00+00:00",
+            "previous_available_at": "2024-10-08T01:45:00+00:00",
+            "previous_evidence_id": "c3f19c845b6e4f6dab46c54ff45a9d3365d599a25f55925db70137c7f972b575",
+            "current_evidence_id": "7629150349c7666e27718e805d7f78c0abd5179405d7d1250768cc341913e507",
+            "sampled_adverse_buy_CNY": "15.71",
+            "two_bucket_volume_cap_shares": 61200
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "4c4c25635b60c895bd28ad958f06a2e05bad68b271594df7cd787c8d76f89d0f",
+            "current_evidence_id": "2f4e5c51be30feb5e63d17954e875e9dddbd1bbcf9985dc2e87a7b5bcd5eacdb",
+            "sampled_adverse_buy_CNY": "14.51",
+            "two_bucket_volume_cap_shares": 18700
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "15.72",
+          "candidate_windows": 44,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:45:00+00:00",
+            "end": "2024-10-08T01:50:00+00:00",
+            "previous_available_at": "2024-10-08T01:45:00+00:00",
+            "previous_evidence_id": "c3f19c845b6e4f6dab46c54ff45a9d3365d599a25f55925db70137c7f972b575",
+            "current_evidence_id": "7629150349c7666e27718e805d7f78c0abd5179405d7d1250768cc341913e507",
+            "sampled_adverse_buy_CNY": "15.71",
+            "two_bucket_volume_cap_shares": 306100
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "4c4c25635b60c895bd28ad958f06a2e05bad68b271594df7cd787c8d76f89d0f",
+            "current_evidence_id": "2f4e5c51be30feb5e63d17954e875e9dddbd1bbcf9985dc2e87a7b5bcd5eacdb",
+            "sampled_adverse_buy_CNY": "14.51",
+            "two_bucket_volume_cap_shares": 93900
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "15.72",
+          "candidate_windows": 44,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:45:00+00:00",
+            "end": "2024-10-08T01:50:00+00:00",
+            "previous_available_at": "2024-10-08T01:45:00+00:00",
+            "previous_evidence_id": "c3f19c845b6e4f6dab46c54ff45a9d3365d599a25f55925db70137c7f972b575",
+            "current_evidence_id": "7629150349c7666e27718e805d7f78c0abd5179405d7d1250768cc341913e507",
+            "sampled_adverse_buy_CNY": "15.71",
+            "two_bucket_volume_cap_shares": 612200
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "4c4c25635b60c895bd28ad958f06a2e05bad68b271594df7cd787c8d76f89d0f",
+            "current_evidence_id": "2f4e5c51be30feb5e63d17954e875e9dddbd1bbcf9985dc2e87a7b5bcd5eacdb",
+            "sampled_adverse_buy_CNY": "14.51",
+            "two_bucket_volume_cap_shares": 187900
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SH601162",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "8a2577ca9d9e20d5d12b40c68db64eb3d805178875414d474a3c0028035d6e12",
+      "source_minute_sha256": "9496bc4eb8eac654e8f1adb41dce0ccb534c4e8f8d4294f9aff0250e1beb0c9f",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "4.8300",
+        "high": "4.8300",
+        "low": "4.8300",
+        "close": "4.8300"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 330253,
+        "minute_volume_shares_at_documented_multiplier": 33025300,
+        "daily_volume_shares": "33025288",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.020045020862911,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "4.80",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "4.80",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "4.80",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SH601696",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "8b84fffbdaa58463cd603573f2a6999a02b0c165833c9cfd972b26cc3294eac3",
+      "source_minute_sha256": "37669443fdb27bf7a802b9c28e12180f43d5540905e12b8d5d4ebbb3f92f07ae",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "13.8600",
+        "high": "13.8600",
+        "low": "13.6000",
+        "close": "13.8600"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 927137,
+        "minute_volume_shares_at_documented_multiplier": 92713700,
+        "daily_volume_shares": "92713666",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.992189522902395,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "13.79",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "13.79",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "13.79",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SH601933",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "febcc7e2fbc8902c0a87eb158e3ed4d36dfa8d0030cda1185a8b1fbb106cee8c",
+      "source_minute_sha256": "d497a5c502e2382012034b1f5e5546343e1052826e32fab630b53f8d3f369b9d",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "3.9900",
+        "high": "3.9900",
+        "low": "3.7000",
+        "close": "3.9900"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 5334853,
+        "minute_volume_shares_at_documented_multiplier": 533485300,
+        "daily_volume_shares": "533485298",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.915866663582307,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "3.97",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "3.97",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "3.97",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SH601990",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "2da9521030121f02afb64375335a27098d89caf6ed1954cea1142f1bc927f81c",
+      "source_minute_sha256": "52cfbc4cf0c9dfb14cfc0fad3d090a456142cd5f96ab967729bbe4731f7375a8",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "10.6500",
+        "high": "10.6500",
+        "low": "9.9900",
+        "close": "10.6500"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1457986,
+        "minute_volume_shares_at_documented_multiplier": 145798600,
+        "daily_volume_shares": "145798595",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.943414771722757,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "10.59",
+          "candidate_windows": 4,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "dff9ace1701b2f170096650eb3267c0decfcd30d10be652392b3e6eea5407f7c",
+            "current_evidence_id": "f851af9866656616e372dc10bde6bc78da6414c8d4b7c4dc3e7808fcf1b9815d",
+            "sampled_adverse_buy_CNY": "10.28",
+            "two_bucket_volume_cap_shares": 127900
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "953b3dfb599438f935ad02528c3738ad7133a7f2df8613a0c3f09629b7aa6b60",
+            "current_evidence_id": "85c878580b71360a325283f6e805f6ffdfc55b3243ed0123aeb2ec197d72d2aa",
+            "sampled_adverse_buy_CNY": "10.47",
+            "two_bucket_volume_cap_shares": 44800
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "10.59",
+          "candidate_windows": 4,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "dff9ace1701b2f170096650eb3267c0decfcd30d10be652392b3e6eea5407f7c",
+            "current_evidence_id": "f851af9866656616e372dc10bde6bc78da6414c8d4b7c4dc3e7808fcf1b9815d",
+            "sampled_adverse_buy_CNY": "10.28",
+            "two_bucket_volume_cap_shares": 639600
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "953b3dfb599438f935ad02528c3738ad7133a7f2df8613a0c3f09629b7aa6b60",
+            "current_evidence_id": "85c878580b71360a325283f6e805f6ffdfc55b3243ed0123aeb2ec197d72d2aa",
+            "sampled_adverse_buy_CNY": "10.47",
+            "two_bucket_volume_cap_shares": 224300
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "10.59",
+          "candidate_windows": 4,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "dff9ace1701b2f170096650eb3267c0decfcd30d10be652392b3e6eea5407f7c",
+            "current_evidence_id": "f851af9866656616e372dc10bde6bc78da6414c8d4b7c4dc3e7808fcf1b9815d",
+            "sampled_adverse_buy_CNY": "10.28",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "953b3dfb599438f935ad02528c3738ad7133a7f2df8613a0c3f09629b7aa6b60",
+            "current_evidence_id": "85c878580b71360a325283f6e805f6ffdfc55b3243ed0123aeb2ec197d72d2aa",
+            "sampled_adverse_buy_CNY": "10.47",
+            "two_bucket_volume_cap_shares": 448600
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ000623",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "0fc80a736f861a0c3ca332380e7c9cea6764e168d4cf4668982189a4751238b1",
+      "source_minute_sha256": "eedddff0a9286ea99d3a2a74217accb86f85823717348cd79668ca08cb6569f5",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "19.0600",
+        "high": "19.0600",
+        "low": "18.3900",
+        "close": "19.0600"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 925692,
+        "minute_volume_shares_at_documented_multiplier": 92569200,
+        "daily_volume_shares": "92569240",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.981660919799552,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "18.97",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "18.97",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "18.97",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SZ000750",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "65183f847cf724f4d2672192ef769a5b1968c6cea16a1a78e3b9206f8b0a2480",
+      "source_minute_sha256": "6e3ca1e96a41cf4cad65faa1b84589ef92e2e42f70542ec3fb5a2f9596b0d54e",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "5.3100",
+        "high": "5.3100",
+        "low": "5.3100",
+        "close": "5.3100"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 518433,
+        "minute_volume_shares_at_documented_multiplier": 51843300,
+        "daily_volume_shares": "51843281",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.935001186149005,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "5.28",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "5.28",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "5.28",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SZ000783",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "de650f4d3605561ac7e4a05c96094dacf62ba20d2267dc34e4199c55b5f0f0cb",
+      "source_minute_sha256": "7e286fab4829797ce7dae1842bbd8217a58cb84522a969eaf2014f3276f5292c",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "7.9400",
+        "high": "7.9400",
+        "low": "7.4300",
+        "close": "7.9400"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 2093890,
+        "minute_volume_shares_at_documented_multiplier": 209389000,
+        "daily_volume_shares": "209388983",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.964409453573776,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "7.90",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "7.90",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "7.90",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SZ000987",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "690968e02f11140f66dc991ab7cf208a4760e0f6f3e8602b4523bf68f3fc46a8",
+      "source_minute_sha256": "1acc83bfbb808a1748c3239c24af2e0770104853c8cab2ecc6f82310b3552787",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "7.5800",
+        "high": "7.5800",
+        "low": "7.2600",
+        "close": "7.5800"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1033799,
+        "minute_volume_shares_at_documented_multiplier": 103379900,
+        "daily_volume_shares": "103379940",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.012140014526683,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "7.54",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "7.54",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "7.54",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SZ002008",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "cd249b02b0739ebb99bcac1570cae54c31b5e5dca9b3a3859f6ac473141f867d",
+      "source_minute_sha256": "365fe0bfb266ca25df4c8310c942851ecafcff9cf60d927fa680c93fc25de17f",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "25.8800",
+        "high": "25.8800",
+        "low": "24.5100",
+        "close": "25.8800"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1019096,
+        "minute_volume_shares_at_documented_multiplier": 101909600,
+        "daily_volume_shares": "101909551",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.987253556074837,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "25.76",
+          "candidate_windows": 26,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:25:00+00:00",
+            "end": "2024-10-08T02:30:00+00:00",
+            "previous_available_at": "2024-10-08T02:25:00+00:00",
+            "previous_evidence_id": "d92d77f37ba119e94b3412555c0fcdba73bd68d994bd5067bea73a736514fbc8",
+            "current_evidence_id": "8f91d4159332f78f0e398c25c00b020c5bda657da0f11fd9d17709d31fc4b259",
+            "sampled_adverse_buy_CNY": "25.68",
+            "two_bucket_volume_cap_shares": 20800
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:15:00+00:00",
+            "end": "2024-10-08T06:20:00+00:00",
+            "previous_available_at": "2024-10-08T06:15:00+00:00",
+            "previous_evidence_id": "45748692fb033224b68a6d79d769e006c76fd053cad2245d7ff534efccb9eac5",
+            "current_evidence_id": "3d2d34f9563b64e02bac6ec83c0d97fc35581157cf4f4da4914c0429c45bf3df",
+            "sampled_adverse_buy_CNY": "25.51",
+            "two_bucket_volume_cap_shares": 7900
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "25.76",
+          "candidate_windows": 26,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:25:00+00:00",
+            "end": "2024-10-08T02:30:00+00:00",
+            "previous_available_at": "2024-10-08T02:25:00+00:00",
+            "previous_evidence_id": "d92d77f37ba119e94b3412555c0fcdba73bd68d994bd5067bea73a736514fbc8",
+            "current_evidence_id": "8f91d4159332f78f0e398c25c00b020c5bda657da0f11fd9d17709d31fc4b259",
+            "sampled_adverse_buy_CNY": "25.68",
+            "two_bucket_volume_cap_shares": 104300
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:15:00+00:00",
+            "end": "2024-10-08T06:20:00+00:00",
+            "previous_available_at": "2024-10-08T06:15:00+00:00",
+            "previous_evidence_id": "45748692fb033224b68a6d79d769e006c76fd053cad2245d7ff534efccb9eac5",
+            "current_evidence_id": "3d2d34f9563b64e02bac6ec83c0d97fc35581157cf4f4da4914c0429c45bf3df",
+            "sampled_adverse_buy_CNY": "25.51",
+            "two_bucket_volume_cap_shares": 39900
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "25.76",
+          "candidate_windows": 26,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:25:00+00:00",
+            "end": "2024-10-08T02:30:00+00:00",
+            "previous_available_at": "2024-10-08T02:25:00+00:00",
+            "previous_evidence_id": "d92d77f37ba119e94b3412555c0fcdba73bd68d994bd5067bea73a736514fbc8",
+            "current_evidence_id": "8f91d4159332f78f0e398c25c00b020c5bda657da0f11fd9d17709d31fc4b259",
+            "sampled_adverse_buy_CNY": "25.68",
+            "two_bucket_volume_cap_shares": 208700
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:15:00+00:00",
+            "end": "2024-10-08T06:20:00+00:00",
+            "previous_available_at": "2024-10-08T06:15:00+00:00",
+            "previous_evidence_id": "45748692fb033224b68a6d79d769e006c76fd053cad2245d7ff534efccb9eac5",
+            "current_evidence_id": "3d2d34f9563b64e02bac6ec83c0d97fc35581157cf4f4da4914c0429c45bf3df",
+            "sampled_adverse_buy_CNY": "25.51",
+            "two_bucket_volume_cap_shares": 79900
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ002244",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "ef8a921420f49743ce62135fa340b5ab8ef3d5adbc43b45f7eae7aeecad655ea",
+      "source_minute_sha256": "b251e8292c9494e50e909dcaa1b68ec6421a007c00ae4b26c4d822babaed5a91",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "12.4400",
+        "high": "12.4400",
+        "low": "10.3500",
+        "close": "10.8700"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1966556,
+        "minute_volume_shares_at_documented_multiplier": 196655600,
+        "daily_volume_shares": "196655577",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.702801774931281,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "12.41",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:35:00+00:00",
+            "end": "2024-10-08T01:40:00+00:00",
+            "previous_available_at": "2024-10-08T01:35:00+00:00",
+            "previous_evidence_id": "04930b4e715f1297c1b84c78dc90de890c7b12177005291f7e19b8e6bd749e90",
+            "current_evidence_id": "c917dcf66f85010850235edb7ae729ab75a3e3320146b23c4ad20a6e49bb8735",
+            "sampled_adverse_buy_CNY": "11.98",
+            "two_bucket_volume_cap_shares": 118900
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "f3eaec6b87e636a41a439684bc6e0547fafecfa859cde36c416cb22141a8ec98",
+            "current_evidence_id": "d2f3cc3ced9ed1fb3a0ab0a79b70941a2983af09f0cb6c5cc4a74b0259b5bf7e",
+            "sampled_adverse_buy_CNY": "10.82",
+            "two_bucket_volume_cap_shares": 19500
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "12.41",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:35:00+00:00",
+            "end": "2024-10-08T01:40:00+00:00",
+            "previous_available_at": "2024-10-08T01:35:00+00:00",
+            "previous_evidence_id": "04930b4e715f1297c1b84c78dc90de890c7b12177005291f7e19b8e6bd749e90",
+            "current_evidence_id": "c917dcf66f85010850235edb7ae729ab75a3e3320146b23c4ad20a6e49bb8735",
+            "sampled_adverse_buy_CNY": "11.98",
+            "two_bucket_volume_cap_shares": 594500
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "f3eaec6b87e636a41a439684bc6e0547fafecfa859cde36c416cb22141a8ec98",
+            "current_evidence_id": "d2f3cc3ced9ed1fb3a0ab0a79b70941a2983af09f0cb6c5cc4a74b0259b5bf7e",
+            "sampled_adverse_buy_CNY": "10.82",
+            "two_bucket_volume_cap_shares": 97900
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "12.41",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:35:00+00:00",
+            "end": "2024-10-08T01:40:00+00:00",
+            "previous_available_at": "2024-10-08T01:35:00+00:00",
+            "previous_evidence_id": "04930b4e715f1297c1b84c78dc90de890c7b12177005291f7e19b8e6bd749e90",
+            "current_evidence_id": "c917dcf66f85010850235edb7ae729ab75a3e3320146b23c4ad20a6e49bb8735",
+            "sampled_adverse_buy_CNY": "11.98",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "f3eaec6b87e636a41a439684bc6e0547fafecfa859cde36c416cb22141a8ec98",
+            "current_evidence_id": "d2f3cc3ced9ed1fb3a0ab0a79b70941a2983af09f0cb6c5cc4a74b0259b5bf7e",
+            "sampled_adverse_buy_CNY": "10.82",
+            "two_bucket_volume_cap_shares": 195900
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ002423",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "5a6a4b34db7df2cbb8034d1b1606e56f6da9c3334e64be5fab57a25e495f1563",
+      "source_minute_sha256": "efe63d867ce09eb356306fa86e9327682bbaeb31dd31a836e305430c63df1047",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "13.0700",
+        "high": "13.0700",
+        "low": "10.6900",
+        "close": "13.0700"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 2552245,
+        "minute_volume_shares_at_documented_multiplier": 255224500,
+        "daily_volume_shares": "255224494",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.015524082812366,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "13.00",
+          "candidate_windows": 4,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:40:00+00:00",
+            "end": "2024-10-08T02:45:00+00:00",
+            "previous_available_at": "2024-10-08T02:40:00+00:00",
+            "previous_evidence_id": "0f4a0e8d0cae6a2c04d2d3a3a1c146e6f2eb0479883bb4832be2717cb8e543f8",
+            "current_evidence_id": "45ddb3be8237fdb2b9c80f80620539bbbcf31f4bcee2b547833fc57ed3c6ea70",
+            "sampled_adverse_buy_CNY": "12.33",
+            "two_bucket_volume_cap_shares": 424100
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "c4f7503659b1001e4b812fead973570d77e18c88bb15a081cb759add9c2a36d0",
+            "current_evidence_id": "b0e6e28de63fe4cbe177deaabb77b88fc17701c9bef27edcd8afeb8dfde0427f",
+            "sampled_adverse_buy_CNY": "12.82",
+            "two_bucket_volume_cap_shares": 156500
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "13.00",
+          "candidate_windows": 4,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:40:00+00:00",
+            "end": "2024-10-08T02:45:00+00:00",
+            "previous_available_at": "2024-10-08T02:40:00+00:00",
+            "previous_evidence_id": "0f4a0e8d0cae6a2c04d2d3a3a1c146e6f2eb0479883bb4832be2717cb8e543f8",
+            "current_evidence_id": "45ddb3be8237fdb2b9c80f80620539bbbcf31f4bcee2b547833fc57ed3c6ea70",
+            "sampled_adverse_buy_CNY": "12.33",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "c4f7503659b1001e4b812fead973570d77e18c88bb15a081cb759add9c2a36d0",
+            "current_evidence_id": "b0e6e28de63fe4cbe177deaabb77b88fc17701c9bef27edcd8afeb8dfde0427f",
+            "sampled_adverse_buy_CNY": "12.82",
+            "two_bucket_volume_cap_shares": 782700
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "13.00",
+          "candidate_windows": 4,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:40:00+00:00",
+            "end": "2024-10-08T02:45:00+00:00",
+            "previous_available_at": "2024-10-08T02:40:00+00:00",
+            "previous_evidence_id": "0f4a0e8d0cae6a2c04d2d3a3a1c146e6f2eb0479883bb4832be2717cb8e543f8",
+            "current_evidence_id": "45ddb3be8237fdb2b9c80f80620539bbbcf31f4bcee2b547833fc57ed3c6ea70",
+            "sampled_adverse_buy_CNY": "12.33",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "c4f7503659b1001e4b812fead973570d77e18c88bb15a081cb759add9c2a36d0",
+            "current_evidence_id": "b0e6e28de63fe4cbe177deaabb77b88fc17701c9bef27edcd8afeb8dfde0427f",
+            "sampled_adverse_buy_CNY": "12.82",
+            "two_bucket_volume_cap_shares": 1000000
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ002500",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "7bf82528c04132e3676d062c9833e5e1d6ac3c2c96ac9985357861c6edafe310",
+      "source_minute_sha256": "c4c4d31ef9fc6f695a847ff419398c3ddff348d4335f9ead1d077fe32ce4c424",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "7.2600",
+        "high": "7.2600",
+        "low": "6.8800",
+        "close": "7.2600"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1870804,
+        "minute_volume_shares_at_documented_multiplier": 187080400,
+        "daily_volume_shares": "187080387",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.98781777237201,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "7.22",
+          "candidate_windows": 1,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "e90d8ab109b2b09e0db7ce8658c73bed5b8345f332875eedb9f7b9a103a461d3",
+            "current_evidence_id": "7f0b793598b5d9792abb6838ae4447f8fd6b355314428545b48d759b4638eae6",
+            "sampled_adverse_buy_CNY": "7.17",
+            "two_bucket_volume_cap_shares": 17300
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "e90d8ab109b2b09e0db7ce8658c73bed5b8345f332875eedb9f7b9a103a461d3",
+            "current_evidence_id": "7f0b793598b5d9792abb6838ae4447f8fd6b355314428545b48d759b4638eae6",
+            "sampled_adverse_buy_CNY": "7.17",
+            "two_bucket_volume_cap_shares": 17300
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "7.22",
+          "candidate_windows": 1,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "e90d8ab109b2b09e0db7ce8658c73bed5b8345f332875eedb9f7b9a103a461d3",
+            "current_evidence_id": "7f0b793598b5d9792abb6838ae4447f8fd6b355314428545b48d759b4638eae6",
+            "sampled_adverse_buy_CNY": "7.17",
+            "two_bucket_volume_cap_shares": 86900
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "e90d8ab109b2b09e0db7ce8658c73bed5b8345f332875eedb9f7b9a103a461d3",
+            "current_evidence_id": "7f0b793598b5d9792abb6838ae4447f8fd6b355314428545b48d759b4638eae6",
+            "sampled_adverse_buy_CNY": "7.17",
+            "two_bucket_volume_cap_shares": 86900
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "7.22",
+          "candidate_windows": 1,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "e90d8ab109b2b09e0db7ce8658c73bed5b8345f332875eedb9f7b9a103a461d3",
+            "current_evidence_id": "7f0b793598b5d9792abb6838ae4447f8fd6b355314428545b48d759b4638eae6",
+            "sampled_adverse_buy_CNY": "7.17",
+            "two_bucket_volume_cap_shares": 173900
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "e90d8ab109b2b09e0db7ce8658c73bed5b8345f332875eedb9f7b9a103a461d3",
+            "current_evidence_id": "7f0b793598b5d9792abb6838ae4447f8fd6b355314428545b48d759b4638eae6",
+            "sampled_adverse_buy_CNY": "7.17",
+            "two_bucket_volume_cap_shares": 173900
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ002625",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "9f6c185292f3f7327bfbd30bad1c8d19705808abdd0e776c7483374354a7973e",
+      "source_minute_sha256": "6899dc2022d1c29c2d36e44dd73d63b8aa28c916ff5d323ba1114f10a64527fa",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "27.4800",
+        "high": "27.4800",
+        "low": "27.4800",
+        "close": "27.4800"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 85985,
+        "minute_volume_shares_at_documented_multiplier": 8598500,
+        "daily_volume_shares": "8598526",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.00478231469737,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "27.35",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "27.35",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "27.35",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SZ002673",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "b6fd03702faf5b784055ec5164e0ac26db7fb233c6c7e65a5e3cd9c98c26b252",
+      "source_minute_sha256": "7365cd0825b90d99a2e1405527eee40005392ea6d3d1bd8ac6a50f852b95da10",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "9.5600",
+        "high": "9.5600",
+        "low": "9.1300",
+        "close": "9.5600"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 2354570,
+        "minute_volume_shares_at_documented_multiplier": 235457000,
+        "daily_volume_shares": "235456982",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.000003774093337,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "9.51",
+          "candidate_windows": 3,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "2c18f9ecd941974bb8073a6df2c158368a6c9d0fb02c5ce570633ebc7c3dfa94",
+            "current_evidence_id": "069b43a68ae01f32e89a992ed119116b5d34dd6ed529f6fe8ad5c740486c2bd8",
+            "sampled_adverse_buy_CNY": "9.29",
+            "two_bucket_volume_cap_shares": 103300
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "678ba3bac02a49a2a32e9bd66863dd44fdc244cd26e1a48fb3328f3a98ff8939",
+            "current_evidence_id": "a441524b38eb52c4ac72bcc9f046cc948c9e5c1c5ba2e05e1f558b534c591d05",
+            "sampled_adverse_buy_CNY": "9.5",
+            "two_bucket_volume_cap_shares": 83000
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "9.51",
+          "candidate_windows": 3,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "2c18f9ecd941974bb8073a6df2c158368a6c9d0fb02c5ce570633ebc7c3dfa94",
+            "current_evidence_id": "069b43a68ae01f32e89a992ed119116b5d34dd6ed529f6fe8ad5c740486c2bd8",
+            "sampled_adverse_buy_CNY": "9.29",
+            "two_bucket_volume_cap_shares": 516900
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "678ba3bac02a49a2a32e9bd66863dd44fdc244cd26e1a48fb3328f3a98ff8939",
+            "current_evidence_id": "a441524b38eb52c4ac72bcc9f046cc948c9e5c1c5ba2e05e1f558b534c591d05",
+            "sampled_adverse_buy_CNY": "9.5",
+            "two_bucket_volume_cap_shares": 415100
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "9.51",
+          "candidate_windows": 3,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "2c18f9ecd941974bb8073a6df2c158368a6c9d0fb02c5ce570633ebc7c3dfa94",
+            "current_evidence_id": "069b43a68ae01f32e89a992ed119116b5d34dd6ed529f6fe8ad5c740486c2bd8",
+            "sampled_adverse_buy_CNY": "9.29",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "678ba3bac02a49a2a32e9bd66863dd44fdc244cd26e1a48fb3328f3a98ff8939",
+            "current_evidence_id": "a441524b38eb52c4ac72bcc9f046cc948c9e5c1c5ba2e05e1f558b534c591d05",
+            "sampled_adverse_buy_CNY": "9.5",
+            "two_bucket_volume_cap_shares": 830300
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ002683",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "6e6492e86e97e2ce7041ce243eb4c1edace3eda8825ee560b6b11c52bf26f478",
+      "source_minute_sha256": "662fca680f5099f0365246d3e10a6221fa8050ac59b8bd16b80200241602e56c",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "26.5100",
+        "high": "26.5100",
+        "low": "24.1100",
+        "close": "25.3100"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 190802,
+        "minute_volume_shares_at_documented_multiplier": 19080200,
+        "daily_volume_shares": "19080184",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.00473112156428,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "26.38",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:35:00+00:00",
+            "end": "2024-10-08T01:40:00+00:00",
+            "previous_available_at": "2024-10-08T01:35:00+00:00",
+            "previous_evidence_id": "ca4548006174f2bb0af0373eca2de2253993b882cb4db42c042fbd9d02ef0b70",
+            "current_evidence_id": "9ae8a9f9d04b1ffdbeb39ea321d4fe9e6665db7009b8a4d8f99d35fecb0afd3b",
+            "sampled_adverse_buy_CNY": "26.28",
+            "two_bucket_volume_cap_shares": 7600
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "4709adfacb29ba809362691d68f853135a21fc21d5c609f6b737f4379b62ffed",
+            "current_evidence_id": "692515c126cf74451ee3f675d9c356cb268bec43b22dbdd02ef711e32c653ac7",
+            "sampled_adverse_buy_CNY": "25.33",
+            "two_bucket_volume_cap_shares": 4500
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "26.38",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:35:00+00:00",
+            "end": "2024-10-08T01:40:00+00:00",
+            "previous_available_at": "2024-10-08T01:35:00+00:00",
+            "previous_evidence_id": "ca4548006174f2bb0af0373eca2de2253993b882cb4db42c042fbd9d02ef0b70",
+            "current_evidence_id": "9ae8a9f9d04b1ffdbeb39ea321d4fe9e6665db7009b8a4d8f99d35fecb0afd3b",
+            "sampled_adverse_buy_CNY": "26.28",
+            "two_bucket_volume_cap_shares": 38100
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "4709adfacb29ba809362691d68f853135a21fc21d5c609f6b737f4379b62ffed",
+            "current_evidence_id": "692515c126cf74451ee3f675d9c356cb268bec43b22dbdd02ef711e32c653ac7",
+            "sampled_adverse_buy_CNY": "25.33",
+            "two_bucket_volume_cap_shares": 22800
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "26.38",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T01:35:00+00:00",
+            "end": "2024-10-08T01:40:00+00:00",
+            "previous_available_at": "2024-10-08T01:35:00+00:00",
+            "previous_evidence_id": "ca4548006174f2bb0af0373eca2de2253993b882cb4db42c042fbd9d02ef0b70",
+            "current_evidence_id": "9ae8a9f9d04b1ffdbeb39ea321d4fe9e6665db7009b8a4d8f99d35fecb0afd3b",
+            "sampled_adverse_buy_CNY": "26.28",
+            "two_bucket_volume_cap_shares": 76300
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T06:50:00+00:00",
+            "end": "2024-10-08T06:55:00+00:00",
+            "previous_available_at": "2024-10-08T06:50:00+00:00",
+            "previous_evidence_id": "4709adfacb29ba809362691d68f853135a21fc21d5c609f6b737f4379b62ffed",
+            "current_evidence_id": "692515c126cf74451ee3f675d9c356cb268bec43b22dbdd02ef711e32c653ac7",
+            "sampled_adverse_buy_CNY": "25.33",
+            "two_bucket_volume_cap_shares": 45600
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ002797",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "8ff5f543929536a10013a6e7a2acb54888ab20eac053c993a46d66f0ac5da19b",
+      "source_minute_sha256": "8be24c07fdac80068de0c3de72ce3dd4eabe023f0e1c649be431e8058c307f6f",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "7.8100",
+        "high": "7.8100",
+        "low": "7.2100",
+        "close": "7.8100"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 3441711,
+        "minute_volume_shares_at_documented_multiplier": 344171100,
+        "daily_volume_shares": "344171085",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.974641944440755,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "7.77",
+          "candidate_windows": 3,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "6c80b2f223c5e88884461e3508460266ffe75b21459da0171c1d3c7fdaeb9977",
+            "current_evidence_id": "0926e8b19b7bdec4fcb287727b9dbe26e87b9bf9b0e717c4d8b6693cf0466868",
+            "sampled_adverse_buy_CNY": "7.56",
+            "two_bucket_volume_cap_shares": 81700
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "f3378b3a6a8b5d964de4c8b619f338f254f66866018d2ae962725ea3281c7ab6",
+            "current_evidence_id": "c620f6d9f16da21117cd2548d70af46cbdc631a7aabe78d701324f366c56e989",
+            "sampled_adverse_buy_CNY": "7.7",
+            "two_bucket_volume_cap_shares": 124700
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "7.77",
+          "candidate_windows": 3,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "6c80b2f223c5e88884461e3508460266ffe75b21459da0171c1d3c7fdaeb9977",
+            "current_evidence_id": "0926e8b19b7bdec4fcb287727b9dbe26e87b9bf9b0e717c4d8b6693cf0466868",
+            "sampled_adverse_buy_CNY": "7.56",
+            "two_bucket_volume_cap_shares": 408600
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "f3378b3a6a8b5d964de4c8b619f338f254f66866018d2ae962725ea3281c7ab6",
+            "current_evidence_id": "c620f6d9f16da21117cd2548d70af46cbdc631a7aabe78d701324f366c56e989",
+            "sampled_adverse_buy_CNY": "7.7",
+            "two_bucket_volume_cap_shares": 623700
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "7.77",
+          "candidate_windows": 3,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "6c80b2f223c5e88884461e3508460266ffe75b21459da0171c1d3c7fdaeb9977",
+            "current_evidence_id": "0926e8b19b7bdec4fcb287727b9dbe26e87b9bf9b0e717c4d8b6693cf0466868",
+            "sampled_adverse_buy_CNY": "7.56",
+            "two_bucket_volume_cap_shares": 817300
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "f3378b3a6a8b5d964de4c8b619f338f254f66866018d2ae962725ea3281c7ab6",
+            "current_evidence_id": "c620f6d9f16da21117cd2548d70af46cbdc631a7aabe78d701324f366c56e989",
+            "sampled_adverse_buy_CNY": "7.7",
+            "two_bucket_volume_cap_shares": 1000000
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ002926",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "a5c3c89b286b64fe05218bdaec20812c6016680a79acf414dfa2e32e41f8e4c8",
+      "source_minute_sha256": "7dc45b0c75de0064a6f96eb4780b8c3b3155ea25e8957a5427beeb81b0a1ea47",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "9.6700",
+        "high": "9.6700",
+        "low": "9.1000",
+        "close": "9.6700"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1166423,
+        "minute_volume_shares_at_documented_multiplier": 116642300,
+        "daily_volume_shares": "116642335",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 10.01076594640271,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "9.62",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "ef566749c58c91ce82805fd4d63f659d925995767a2b6a9f7a3a5f701c5f53b6",
+            "current_evidence_id": "6325e30afe9b2af4f17c8d66d8a590e87c5229af56ba5a85c047476789e0974b",
+            "sampled_adverse_buy_CNY": "9.37",
+            "two_bucket_volume_cap_shares": 89500
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T03:00:00+00:00",
+            "end": "2024-10-08T03:05:00+00:00",
+            "previous_available_at": "2024-10-08T03:00:00+00:00",
+            "previous_evidence_id": "ee85fb8d88d22d6cc8f63311dabdc1b74e622e0f263a96c470d7c97f8cb4d2b6",
+            "current_evidence_id": "35c8c0a478b869ccc7a84d8527ddb9690340bfd1ef7994e3aebc4dd98680c738",
+            "sampled_adverse_buy_CNY": "9.59",
+            "two_bucket_volume_cap_shares": 25600
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "9.62",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "ef566749c58c91ce82805fd4d63f659d925995767a2b6a9f7a3a5f701c5f53b6",
+            "current_evidence_id": "6325e30afe9b2af4f17c8d66d8a590e87c5229af56ba5a85c047476789e0974b",
+            "sampled_adverse_buy_CNY": "9.37",
+            "two_bucket_volume_cap_shares": 447900
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T03:00:00+00:00",
+            "end": "2024-10-08T03:05:00+00:00",
+            "previous_available_at": "2024-10-08T03:00:00+00:00",
+            "previous_evidence_id": "ee85fb8d88d22d6cc8f63311dabdc1b74e622e0f263a96c470d7c97f8cb4d2b6",
+            "current_evidence_id": "35c8c0a478b869ccc7a84d8527ddb9690340bfd1ef7994e3aebc4dd98680c738",
+            "sampled_adverse_buy_CNY": "9.59",
+            "two_bucket_volume_cap_shares": 128000
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "9.62",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "ef566749c58c91ce82805fd4d63f659d925995767a2b6a9f7a3a5f701c5f53b6",
+            "current_evidence_id": "6325e30afe9b2af4f17c8d66d8a590e87c5229af56ba5a85c047476789e0974b",
+            "sampled_adverse_buy_CNY": "9.37",
+            "two_bucket_volume_cap_shares": 895900
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T03:00:00+00:00",
+            "end": "2024-10-08T03:05:00+00:00",
+            "previous_available_at": "2024-10-08T03:00:00+00:00",
+            "previous_evidence_id": "ee85fb8d88d22d6cc8f63311dabdc1b74e622e0f263a96c470d7c97f8cb4d2b6",
+            "current_evidence_id": "35c8c0a478b869ccc7a84d8527ddb9690340bfd1ef7994e3aebc4dd98680c738",
+            "sampled_adverse_buy_CNY": "9.59",
+            "two_bucket_volume_cap_shares": 256100
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ002939",
+      "day": "2024-10-08",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "4679ba2fc8223a0f83ef14d04f52a6c775c148bca3c6c5b814fd182fec9355df",
+      "source_minute_sha256": "e5e2850c041cc5a4ada0d3ed7efb33f8fdf3365f863aa5642472bf40f7f45ce3",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "10.1100",
+        "high": "10.1100",
+        "low": "9.4100",
+        "close": "10.1100"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1528265,
+        "minute_volume_shares_at_documented_multiplier": 152826500,
+        "daily_volume_shares": "152826466",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-09-30",
+      "qlib_open_change_pct": 9.959761347979047,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "10.06",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "460f5ba88b8e7b0b66872433bb5a0b1fbfff9f7b0ba96b5e0e5755772a751b50",
+            "current_evidence_id": "be9f7704916c5cf1f6c7b7c9bf1ccc38a7ce55414985d5abf38d89cdfff5d2e4",
+            "sampled_adverse_buy_CNY": "9.73",
+            "two_bucket_volume_cap_shares": 159300
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "d122ba99ecc02163431d4b4281367677f5a8d6b84f45ffaac5e49e2ec43b6627",
+            "current_evidence_id": "1289d634e19a583e2f4cb53a598632e748e07967d16024cfa653821ea66c0015",
+            "sampled_adverse_buy_CNY": "9.95",
+            "two_bucket_volume_cap_shares": 66500
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "10.06",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "460f5ba88b8e7b0b66872433bb5a0b1fbfff9f7b0ba96b5e0e5755772a751b50",
+            "current_evidence_id": "be9f7704916c5cf1f6c7b7c9bf1ccc38a7ce55414985d5abf38d89cdfff5d2e4",
+            "sampled_adverse_buy_CNY": "9.73",
+            "two_bucket_volume_cap_shares": 796500
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "d122ba99ecc02163431d4b4281367677f5a8d6b84f45ffaac5e49e2ec43b6627",
+            "current_evidence_id": "1289d634e19a583e2f4cb53a598632e748e07967d16024cfa653821ea66c0015",
+            "sampled_adverse_buy_CNY": "9.95",
+            "two_bucket_volume_cap_shares": 332900
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "10.06",
+          "candidate_windows": 5,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-10-08T02:35:00+00:00",
+            "end": "2024-10-08T02:40:00+00:00",
+            "previous_available_at": "2024-10-08T02:35:00+00:00",
+            "previous_evidence_id": "460f5ba88b8e7b0b66872433bb5a0b1fbfff9f7b0ba96b5e0e5755772a751b50",
+            "current_evidence_id": "be9f7704916c5cf1f6c7b7c9bf1ccc38a7ce55414985d5abf38d89cdfff5d2e4",
+            "sampled_adverse_buy_CNY": "9.73",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-10-08T02:55:00+00:00",
+            "end": "2024-10-08T03:00:00+00:00",
+            "previous_available_at": "2024-10-08T02:55:00+00:00",
+            "previous_evidence_id": "d122ba99ecc02163431d4b4281367677f5a8d6b84f45ffaac5e49e2ec43b6627",
+            "current_evidence_id": "1289d634e19a583e2f4cb53a598632e748e07967d16024cfa653821ea66c0015",
+            "sampled_adverse_buy_CNY": "9.95",
+            "two_bucket_volume_cap_shares": 665800
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SH600895",
+      "day": "2024-11-01",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "f1f4613399dea8a4b9400d42ee3f627544ef51a49d417c53a2b23530a7ce847e",
+      "source_minute_sha256": "465d76a9d663ce31ace31807addd3d094471dac23775456491c482028c7bf3e3",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "31.5500",
+        "high": "31.5500",
+        "low": "30.3800",
+        "close": "31.5500"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 2964662,
+        "minute_volume_shares_at_documented_multiplier": 296466200,
+        "daily_volume_shares": "296466191",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-10-31",
+      "qlib_open_change_pct": 10.007642331145217,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "31.40",
+          "candidate_windows": 15,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-11-01T02:10:00+00:00",
+            "end": "2024-11-01T02:15:00+00:00",
+            "previous_available_at": "2024-11-01T02:10:00+00:00",
+            "previous_evidence_id": "5972c08b6c76eb7f2df6645125fa027efc3afbd188f86180cca6693def1e6338",
+            "current_evidence_id": "5db19bc91dd88f845fcddbb4e57455e57e07fb6d87ee241179f95119d994db19",
+            "sampled_adverse_buy_CNY": "31.1",
+            "two_bucket_volume_cap_shares": 405200
+          },
+          "last_candidate_window": {
+            "start": "2024-11-01T06:15:00+00:00",
+            "end": "2024-11-01T06:20:00+00:00",
+            "previous_available_at": "2024-11-01T06:15:00+00:00",
+            "previous_evidence_id": "120a75bd02d9d2359570a4626400ac47d989f167936756d05e57d31e59a1a459",
+            "current_evidence_id": "99a191d58a3dd874d280cd9e72b76ac8c8d8f0a803f6a7adf1271d5e174d57b3",
+            "sampled_adverse_buy_CNY": "31.13",
+            "two_bucket_volume_cap_shares": 11500
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "31.40",
+          "candidate_windows": 15,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-11-01T02:10:00+00:00",
+            "end": "2024-11-01T02:15:00+00:00",
+            "previous_available_at": "2024-11-01T02:10:00+00:00",
+            "previous_evidence_id": "5972c08b6c76eb7f2df6645125fa027efc3afbd188f86180cca6693def1e6338",
+            "current_evidence_id": "5db19bc91dd88f845fcddbb4e57455e57e07fb6d87ee241179f95119d994db19",
+            "sampled_adverse_buy_CNY": "31.1",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-11-01T06:15:00+00:00",
+            "end": "2024-11-01T06:20:00+00:00",
+            "previous_available_at": "2024-11-01T06:15:00+00:00",
+            "previous_evidence_id": "120a75bd02d9d2359570a4626400ac47d989f167936756d05e57d31e59a1a459",
+            "current_evidence_id": "99a191d58a3dd874d280cd9e72b76ac8c8d8f0a803f6a7adf1271d5e174d57b3",
+            "sampled_adverse_buy_CNY": "31.13",
+            "two_bucket_volume_cap_shares": 57800
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "31.40",
+          "candidate_windows": 15,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-11-01T02:10:00+00:00",
+            "end": "2024-11-01T02:15:00+00:00",
+            "previous_available_at": "2024-11-01T02:10:00+00:00",
+            "previous_evidence_id": "5972c08b6c76eb7f2df6645125fa027efc3afbd188f86180cca6693def1e6338",
+            "current_evidence_id": "5db19bc91dd88f845fcddbb4e57455e57e07fb6d87ee241179f95119d994db19",
+            "sampled_adverse_buy_CNY": "31.1",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-11-01T06:15:00+00:00",
+            "end": "2024-11-01T06:20:00+00:00",
+            "previous_available_at": "2024-11-01T06:15:00+00:00",
+            "previous_evidence_id": "120a75bd02d9d2359570a4626400ac47d989f167936756d05e57d31e59a1a459",
+            "current_evidence_id": "99a191d58a3dd874d280cd9e72b76ac8c8d8f0a803f6a7adf1271d5e174d57b3",
+            "sampled_adverse_buy_CNY": "31.13",
+            "two_bucket_volume_cap_shares": 115700
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ002156",
+      "day": "2024-11-01",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "af8d546c72ed77c736f41fd96782d6627501385fedb37b345b572891558377e1",
+      "source_minute_sha256": "1d50ec45f1cc2c0d4f372b1267236727a36d75c201c218d4e21b5775fb555a44",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "29.7200",
+        "high": "29.7200",
+        "low": "28.2500",
+        "close": "29.7200"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 3363935,
+        "minute_volume_shares_at_documented_multiplier": 336393500,
+        "daily_volume_shares": "336393481",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-10-31",
+      "qlib_open_change_pct": 9.989470051029903,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "29.58",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "29.58",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "29.58",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SZ002797",
+      "day": "2024-11-01",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "edd278e768d3504ce9201aaed442dff032c30ff391ce147ede9c96f0dccb364b",
+      "source_minute_sha256": "bf90f20b72978c5dd4f0d0fa504173cb5243ecde7f0c59ace1add410191a6cd4",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "9.4500",
+        "high": "9.4500",
+        "low": "8.5100",
+        "close": "8.5600"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 12795714,
+        "minute_volume_shares_at_documented_multiplier": 1279571400,
+        "daily_volume_shares": "1279571350",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2024-10-31",
+      "qlib_open_change_pct": 10.011469486660385,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "9.40",
+          "candidate_windows": 10,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-11-01T06:05:00+00:00",
+            "end": "2024-11-01T06:10:00+00:00",
+            "previous_available_at": "2024-11-01T06:05:00+00:00",
+            "previous_evidence_id": "48e2fda6ca6035d5bf8c58cf4988ccfaeb82097d27acc9d28f93798dc81a3dd4",
+            "current_evidence_id": "efe8147cccaf50d35c06be2586bda99fa360ca25de6130f5968e886b23c7017e",
+            "sampled_adverse_buy_CNY": "9.35",
+            "two_bucket_volume_cap_shares": 192900
+          },
+          "last_candidate_window": {
+            "start": "2024-11-01T06:50:00+00:00",
+            "end": "2024-11-01T06:55:00+00:00",
+            "previous_available_at": "2024-11-01T06:50:00+00:00",
+            "previous_evidence_id": "eb5d1664240f1841e2119a140de670555c500ef811121d69eacc75fbbe8153bc",
+            "current_evidence_id": "0ef2893a5c34c6235aea7f81ca6aceb99789e33638c580b073bdba1ccba5344b",
+            "sampled_adverse_buy_CNY": "8.73",
+            "two_bucket_volume_cap_shares": 386300
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "9.40",
+          "candidate_windows": 10,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-11-01T06:05:00+00:00",
+            "end": "2024-11-01T06:10:00+00:00",
+            "previous_available_at": "2024-11-01T06:05:00+00:00",
+            "previous_evidence_id": "48e2fda6ca6035d5bf8c58cf4988ccfaeb82097d27acc9d28f93798dc81a3dd4",
+            "current_evidence_id": "efe8147cccaf50d35c06be2586bda99fa360ca25de6130f5968e886b23c7017e",
+            "sampled_adverse_buy_CNY": "9.35",
+            "two_bucket_volume_cap_shares": 964900
+          },
+          "last_candidate_window": {
+            "start": "2024-11-01T06:50:00+00:00",
+            "end": "2024-11-01T06:55:00+00:00",
+            "previous_available_at": "2024-11-01T06:50:00+00:00",
+            "previous_evidence_id": "eb5d1664240f1841e2119a140de670555c500ef811121d69eacc75fbbe8153bc",
+            "current_evidence_id": "0ef2893a5c34c6235aea7f81ca6aceb99789e33638c580b073bdba1ccba5344b",
+            "sampled_adverse_buy_CNY": "8.73",
+            "two_bucket_volume_cap_shares": 1000000
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "9.40",
+          "candidate_windows": 10,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2024-11-01T06:05:00+00:00",
+            "end": "2024-11-01T06:10:00+00:00",
+            "previous_available_at": "2024-11-01T06:05:00+00:00",
+            "previous_evidence_id": "48e2fda6ca6035d5bf8c58cf4988ccfaeb82097d27acc9d28f93798dc81a3dd4",
+            "current_evidence_id": "efe8147cccaf50d35c06be2586bda99fa360ca25de6130f5968e886b23c7017e",
+            "sampled_adverse_buy_CNY": "9.35",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2024-11-01T06:50:00+00:00",
+            "end": "2024-11-01T06:55:00+00:00",
+            "previous_available_at": "2024-11-01T06:50:00+00:00",
+            "previous_evidence_id": "eb5d1664240f1841e2119a140de670555c500ef811121d69eacc75fbbe8153bc",
+            "current_evidence_id": "0ef2893a5c34c6235aea7f81ca6aceb99789e33638c580b073bdba1ccba5344b",
+            "sampled_adverse_buy_CNY": "8.73",
+            "two_bucket_volume_cap_shares": 1000000
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SH603056",
+      "day": "2025-06-03",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "d7bfecbe25b925dc80eee3d8ca5a397e7648fd0d39959ffaa984b0799b3736d8",
+      "source_minute_sha256": "ee7ab7db3ac2106cec62298805f9f54fefc06b6ebf0de9698dc9d2a1a14b281a",
+      "status": "SOURCE_REJECTED",
+      "error": "minute source unavailable"
+    },
+    {
+      "instrument": "SZ003035",
+      "day": "2025-06-03",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "ae594ba5315229e82e5904a391084a2db2b3e28e7876a01b7c44bccd4b8f66d2",
+      "source_minute_sha256": "49559c33c0d5b9fafe73e538e7d6066dac528b49f412223fd4f993af07a94342",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "5.4600",
+        "high": "5.4600",
+        "low": "5.0700",
+        "close": "5.0900"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1703177,
+        "minute_volume_shares_at_documented_multiplier": 170317700,
+        "daily_volume_shares": "170317672",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2025-05-30",
+      "qlib_open_change_pct": 10.058148086181573,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "5.43",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2025-06-03T01:35:00+00:00",
+            "end": "2025-06-03T01:40:00+00:00",
+            "previous_available_at": "2025-06-03T01:35:00+00:00",
+            "previous_evidence_id": "4cb24faa3769fbeb5c80a87abb9a882f0616e4d1a99a924d0101a85d0ae59660",
+            "current_evidence_id": "a89655cbaaf01b0b927a910bb4244db5f3e7150e07bc8306e8ce6d54457bbe64",
+            "sampled_adverse_buy_CNY": "5.19",
+            "two_bucket_volume_cap_shares": 129100
+          },
+          "last_candidate_window": {
+            "start": "2025-06-03T06:50:00+00:00",
+            "end": "2025-06-03T06:55:00+00:00",
+            "previous_available_at": "2025-06-03T06:50:00+00:00",
+            "previous_evidence_id": "38487d2624aab599909b04a5d860613152b6613621fa7396a49943855bd91759",
+            "current_evidence_id": "e051be526ebf9964e7451d4de91b34ab5cedf85d5f3cc0b821206f0f18f4556b",
+            "sampled_adverse_buy_CNY": "5.08",
+            "two_bucket_volume_cap_shares": 30300
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "5.43",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2025-06-03T01:35:00+00:00",
+            "end": "2025-06-03T01:40:00+00:00",
+            "previous_available_at": "2025-06-03T01:35:00+00:00",
+            "previous_evidence_id": "4cb24faa3769fbeb5c80a87abb9a882f0616e4d1a99a924d0101a85d0ae59660",
+            "current_evidence_id": "a89655cbaaf01b0b927a910bb4244db5f3e7150e07bc8306e8ce6d54457bbe64",
+            "sampled_adverse_buy_CNY": "5.19",
+            "two_bucket_volume_cap_shares": 645800
+          },
+          "last_candidate_window": {
+            "start": "2025-06-03T06:50:00+00:00",
+            "end": "2025-06-03T06:55:00+00:00",
+            "previous_available_at": "2025-06-03T06:50:00+00:00",
+            "previous_evidence_id": "38487d2624aab599909b04a5d860613152b6613621fa7396a49943855bd91759",
+            "current_evidence_id": "e051be526ebf9964e7451d4de91b34ab5cedf85d5f3cc0b821206f0f18f4556b",
+            "sampled_adverse_buy_CNY": "5.08",
+            "two_bucket_volume_cap_shares": 151700
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "5.43",
+          "candidate_windows": 46,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2025-06-03T01:35:00+00:00",
+            "end": "2025-06-03T01:40:00+00:00",
+            "previous_available_at": "2025-06-03T01:35:00+00:00",
+            "previous_evidence_id": "4cb24faa3769fbeb5c80a87abb9a882f0616e4d1a99a924d0101a85d0ae59660",
+            "current_evidence_id": "a89655cbaaf01b0b927a910bb4244db5f3e7150e07bc8306e8ce6d54457bbe64",
+            "sampled_adverse_buy_CNY": "5.19",
+            "two_bucket_volume_cap_shares": 1000000
+          },
+          "last_candidate_window": {
+            "start": "2025-06-03T06:50:00+00:00",
+            "end": "2025-06-03T06:55:00+00:00",
+            "previous_available_at": "2025-06-03T06:50:00+00:00",
+            "previous_evidence_id": "38487d2624aab599909b04a5d860613152b6613621fa7396a49943855bd91759",
+            "current_evidence_id": "e051be526ebf9964e7451d4de91b34ab5cedf85d5f3cc0b821206f0f18f4556b",
+            "sampled_adverse_buy_CNY": "5.08",
+            "two_bucket_volume_cap_shares": 303400
+          }
+        }
+      }
+    },
+    {
+      "instrument": "SZ000021",
+      "day": "2025-10-09",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "46daa2d86536acade7598b851b5cc5913296029632aaa0a3f5133da33fe47622",
+      "source_minute_sha256": "784f2ba91012454a9e841df17c22e9a4de5ba5343d2d1c11f87847c4e69ad54a",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "30.6600",
+        "high": "30.6600",
+        "low": "29.8000",
+        "close": "30.6600"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 1763509,
+        "minute_volume_shares_at_documented_multiplier": 176350900,
+        "daily_volume_shares": "176350941",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2025-09-30",
+      "qlib_open_change_pct": 10.010954491974267,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "30.51",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "30.51",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "30.51",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SZ002156",
+      "day": "2025-10-09",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "10baa4d71245b40eb2cf9df3b26d0f10a7a8bc723eb2861b48787b89b09b5df5",
+      "source_minute_sha256": "4bd31a78a51e6f7b04b2a9deb6cbadfbc8caacd90b41e60727f21606c433fe0c",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "44.1900",
+        "high": "44.1900",
+        "low": "44.1900",
+        "close": "44.1900"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 130800,
+        "minute_volume_shares_at_documented_multiplier": 13080000,
+        "daily_volume_shares": "13079998",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2025-09-30",
+      "qlib_open_change_pct": 10.004414395268867,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "43.98",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "500": {
+          "protective_buy_limit_CNY": "43.98",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "43.98",
+          "candidate_windows": 0,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": null,
+          "last_candidate_window": null
+        }
+      }
+    },
+    {
+      "instrument": "SZ002353",
+      "day": "2025-12-01",
+      "raw_state": {
+        "tradestatus": "1",
+        "isST": "0"
+      },
+      "source_daily_sha256": "6be6afb23fb8afe410c538474184b694bccc5da60d6c6590f50374725f0a11de",
+      "source_minute_sha256": "809bcb15269b7b0ae367523d30abb2a5310598368c2f35bf03035435a957854a",
+      "status": "SOURCE_WINDOW_EVIDENCE_COMPLETE",
+      "cross_source_daily_prices": {
+        "open": "62.0700",
+        "high": "62.0700",
+        "low": "59.3000",
+        "close": "62.0700"
+      },
+      "minute_source_diagnostics": {
+        "points": 240,
+        "minute_volume_hands": 572379,
+        "minute_volume_shares_at_documented_multiplier": 57237900,
+        "daily_volume_shares": "57237886",
+        "exact_total_shares_match": false,
+        "nearest_hand_daily_total_match_diagnostic_only": true,
+        "last_close_matches": true,
+        "traded_points_outside_daily_range": [],
+        "positive_volume_on_original_halt": false,
+        "historical_date_echo_authenticated": false,
+        "exact_share_precision_certified": false
+      },
+      "qlib_prior_session": "2025-11-28",
+      "qlib_open_change_pct": 9.995731081145177,
+      "qlib_open_guard_blocks_buy": true,
+      "evidence_by_participation_bps": {
+        "100": {
+          "protective_buy_limit_CNY": "61.79",
+          "candidate_windows": 26,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2025-12-01T02:30:00+00:00",
+            "end": "2025-12-01T02:35:00+00:00",
+            "previous_available_at": "2025-12-01T02:30:00+00:00",
+            "previous_evidence_id": "d72f87066c3265b1cc418aebfff515e1ddb4117e263efc0c18bedd80807a5e5d",
+            "current_evidence_id": "17cd3c1e07c231d91bd77e6ca1e734ce833239f40d612dcd94ac6b2e26b8922a",
+            "sampled_adverse_buy_CNY": "61.52",
+            "two_bucket_volume_cap_shares": 19000
+          },
+          "last_candidate_window": {
+            "start": "2025-12-01T06:10:00+00:00",
+            "end": "2025-12-01T06:15:00+00:00",
+            "previous_available_at": "2025-12-01T06:10:00+00:00",
+            "previous_evidence_id": "42a52488239f74e56c37cf9f3a09cc721786584499d07dd9e5f71fd8e359b39b",
+            "current_evidence_id": "d4e372713f42791f12e0f5da96ee9dba57f66078a10cb6995a551bafc6ab7c23",
+            "sampled_adverse_buy_CNY": "61.78",
+            "two_bucket_volume_cap_shares": 3100
+          }
+        },
+        "500": {
+          "protective_buy_limit_CNY": "61.79",
+          "candidate_windows": 26,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2025-12-01T02:30:00+00:00",
+            "end": "2025-12-01T02:35:00+00:00",
+            "previous_available_at": "2025-12-01T02:30:00+00:00",
+            "previous_evidence_id": "d72f87066c3265b1cc418aebfff515e1ddb4117e263efc0c18bedd80807a5e5d",
+            "current_evidence_id": "17cd3c1e07c231d91bd77e6ca1e734ce833239f40d612dcd94ac6b2e26b8922a",
+            "sampled_adverse_buy_CNY": "61.52",
+            "two_bucket_volume_cap_shares": 95300
+          },
+          "last_candidate_window": {
+            "start": "2025-12-01T06:10:00+00:00",
+            "end": "2025-12-01T06:15:00+00:00",
+            "previous_available_at": "2025-12-01T06:10:00+00:00",
+            "previous_evidence_id": "42a52488239f74e56c37cf9f3a09cc721786584499d07dd9e5f71fd8e359b39b",
+            "current_evidence_id": "d4e372713f42791f12e0f5da96ee9dba57f66078a10cb6995a551bafc6ab7c23",
+            "sampled_adverse_buy_CNY": "61.78",
+            "two_bucket_volume_cap_shares": 15800
+          }
+        },
+        "1000": {
+          "protective_buy_limit_CNY": "61.79",
+          "candidate_windows": 26,
+          "actual_fill_verified": false,
+          "cash_and_parent_quantity_simulated": false,
+          "queue_and_impact_calibrated": false,
+          "status": "SAMPLED_SOURCE_WINDOWS_CLASSIFIED",
+          "first_candidate_window": {
+            "start": "2025-12-01T02:30:00+00:00",
+            "end": "2025-12-01T02:35:00+00:00",
+            "previous_available_at": "2025-12-01T02:30:00+00:00",
+            "previous_evidence_id": "d72f87066c3265b1cc418aebfff515e1ddb4117e263efc0c18bedd80807a5e5d",
+            "current_evidence_id": "17cd3c1e07c231d91bd77e6ca1e734ce833239f40d612dcd94ac6b2e26b8922a",
+            "sampled_adverse_buy_CNY": "61.52",
+            "two_bucket_volume_cap_shares": 190600
+          },
+          "last_candidate_window": {
+            "start": "2025-12-01T06:10:00+00:00",
+            "end": "2025-12-01T06:15:00+00:00",
+            "previous_available_at": "2025-12-01T06:10:00+00:00",
+            "previous_evidence_id": "42a52488239f74e56c37cf9f3a09cc721786584499d07dd9e5f71fd8e359b39b",
+            "current_evidence_id": "d4e372713f42791f12e0f5da96ee9dba57f66078a10cb6995a551bafc6ab7c23",
+            "sampled_adverse_buy_CNY": "61.78",
+            "two_bucket_volume_cap_shares": 31600
+          }
+        }
+      }
+    }
+  ],
+  "original_high52_screen_gate_unchanged": "REJECTED",
+  "new_portfolio_account_run": false,
+  "actual_fills_verified": false,
+  "portfolio_cash_and_parent_quantities_not_simulated": true,
+  "no_day_closing_price_substituted_for_a_trade": true,
+  "historical_arrival_verified": false,
+  "queue_and_impact_calibrated": false,
+  "2026_strategy_returns_queried": false,
+  "objective_achieved": false,
+  "local_full_analysis_sha256": "4c938ebf252ac7cd095236f6bec0eee18adf9367b9e1c797d20deeef8011cf01",
+  "public_detail_scope": "All35 per-pair statuses retained; each participation keeps total candidate count plus first/last window. Full per-window source evidence remains local with authenticated SHA."
+}

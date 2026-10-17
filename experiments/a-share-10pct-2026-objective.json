@@ -404,7 +404,32 @@
     "raw_share_confirmation_run": false,
     "new_2026_outcomes_queried": false,
     "candidate_promoted": false,
-    "objective_achieved": false
+    "objective_achieved": false,
+    "execution_source_probe_status": "34_OF35_SOURCE_VALID_21_HAVE_CANDIDATE_WINDOWS_ONE_PROTOCOL_GAP_UNRESOLVED",
+    "execution_source_probe_freeze_commit": "59d5d9b",
+    "execution_source_probe_results_file": "experiments/qlib/high52-unfilled-source-probe-results.json",
+    "execution_source_probe_manifest_file": "experiments/qlib/high52-unfilled-source-probe-capture-manifest.json",
+    "protocol_error_reproduction_file": "experiments/qlib/high52-failed-source-reproduction-results.json",
+    "original_screen_gate_unchanged": "REJECTED",
+    "new_portfolio_account_run": false,
+    "2026_used_to_change_investment_rule": false,
+    "execution_probe_independent_window_audit_file": "experiments/qlib/high52-unfilled-source-independent-window-audit.json",
+    "execution_probe_independent_verified_pairs": 34,
+    "execution_probe_independent_candidate_window_pairs_by_participation": {
+      "100": 21,
+      "500": 21,
+      "1000": 21
+    },
+    "execution_probe_unresolved_source_pairs": [
+      [
+        "SH603056",
+        "2025-06-03"
+      ]
+    ],
+    "execution_source_alternate_endpoint_probe_results_file": "experiments/qlib/high52-alternate-minute-endpoint-results.json",
+    "execution_source_alternate_endpoint_gap_resolved": false,
+    "execution_source_original_requests": 30,
+    "execution_source_additional_bounded_requests": 4
   },
   "strategy_research_history": [
     {

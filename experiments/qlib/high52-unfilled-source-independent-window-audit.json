@@ -1,0 +1,23 @@
+{
+  "status": "INDEPENDENT_SOURCE_WINDOW_COUNTS_RECONSTRUCTED",
+  "analysis_sha256": "4c938ebf252ac7cd095236f6bec0eee18adf9367b9e1c797d20deeef8011cf01",
+  "audit_code_sha256": "5a28b1105ebf650eb8ec416bfeeb92a60c1eaecf687bb80f06c59dad4044427e",
+  "valid_pairs": 34,
+  "failed_pairs_preserved": [
+    [
+      "SH603056",
+      "2025-06-03"
+    ]
+  ],
+  "candidate_window_pair_counts": {
+    "100": 21,
+    "500": 21,
+    "1000": 21
+  },
+  "imports_project_code": false,
+  "scope": "Raw minute blocks, prior/current stressed capacities, protective threshold and eligible interval counts only.",
+  "actual_fills_verified": false,
+  "new_portfolio_account_run": false,
+  "2026_market_values_queried": false,
+  "objective_achieved": false
+}
