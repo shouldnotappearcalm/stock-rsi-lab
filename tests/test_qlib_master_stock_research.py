@@ -7,7 +7,10 @@ from scripts.prepare_qlib_master_stock_pre2026 import (
 
 class QlibMasterStockResearchTests(unittest.TestCase):
     def test_registered_five_session_labels_mature_inside_each_split(self):
-        import pandas as pd
+        try:
+            import pandas as pd
+        except ImportError:
+            self.skipTest("optional pandas research dependency unavailable")
 
         def calendar(start, end):
             return pd.bdate_range(start, end)
@@ -24,7 +27,10 @@ class QlibMasterStockResearchTests(unittest.TestCase):
             assert_registered_windows(lambda start, end: [start, end])
 
     def test_qlib_datetime_first_index_is_canonicalized_without_losing_rows(self):
-        import pandas as pd
+        try:
+            import pandas as pd
+        except ImportError:
+            self.skipTest("optional pandas research dependency unavailable")
 
         index = pd.MultiIndex.from_tuples(
             [(pd.Timestamp("2024-01-02"), "SH600000"),

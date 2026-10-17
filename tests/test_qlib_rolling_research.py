@@ -2,13 +2,15 @@ import unittest
 import json
 from pathlib import Path
 
-import pandas as pd
-
 from scripts.run_qlib_rolling20_pre2026 import LABEL_LOOKAHEAD, STEP, windows
 
 
 class QlibRollingResearchTests(unittest.TestCase):
     def test_windows_purge_labels_and_cover_each_development_session_once(self):
+        try:
+            import pandas as pd
+        except ImportError:
+            self.skipTest("optional pandas research dependency unavailable")
         dates = pd.bdate_range("2016-01-04", "2025-12-31")
         receipts = list(windows(dates))
         self.assertEqual(LABEL_LOOKAHEAD, 21)
