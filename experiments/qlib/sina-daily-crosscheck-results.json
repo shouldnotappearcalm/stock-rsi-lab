@@ -1,0 +1,739 @@
+{
+  "status": "ALL_FIXED_UNIVERSE_ACTIVE_OHLCV_AGREE",
+  "raw_manifest_sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+  "sina_manifest_sha256": "0425dda36753925c06fbb794e2063884ce3f2ef3d18fbc83d2a536592ac106f5",
+  "feedback_summary_sha256": "1c1ebd67e9d87ca4004b2d39b6c74aa8eb8f1ae20fdcfd4c23ece9f2eeb71006",
+  "audit_code_sha256": "bfcc0cc2aeb1c65832ce98685aef6ca5eb71e432767c42afd5d70ab624ca4591",
+  "securities": 101,
+  "active_sessions_compared": 68003,
+  "per_security": {
+    "SH600004": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600008": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600021": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600022": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600038": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600056": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600062": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600098": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600157": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 664,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600161": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600170": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600177": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600208": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 664,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600332": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600350": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600352": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600377": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600398": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600483": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600497": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600511": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600528": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600529": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600578": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600582": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600597": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600598": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600642": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600663": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600688": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600704": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600720": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600737": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600820": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600848": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600863": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 666,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600867": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600871": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600873": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600901": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600928": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600956": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600959": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH600998": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601016": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601077": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601098": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601106": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601118": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601128": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601139": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601158": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601187": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601198": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 636,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601212": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601228": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601298": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 671,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601568": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601577": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601611": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601665": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601696": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601866": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601880": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601921": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601928": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601990": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601991": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601992": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH601997": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SH603858": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000027": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000050": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000088": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000089": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000156": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000513": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000537": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000563": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000582": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 672,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000591": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000598": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000709": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000778": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000783": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000883": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000898": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ000967": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ001213": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ001227": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ001872": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ002032": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ002078": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ002266": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ002432": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ002461": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ002608": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ002673": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ002936": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ002958": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    },
+    "SZ002966": {
+      "status": "OHLCV_AGREE_ON_ACTIVE_SESSIONS",
+      "active_sessions_compared": 674,
+      "missing_active_sessions": [],
+      "differences": [],
+      "positive_volume_on_original_halts": []
+    }
+  },
+  "required_execution_and_valuation_prices": {
+    "open": {
+      "unique_required_security_days": 1277,
+      "missing": [],
+      "different": [],
+      "exact_matches": 1277
+    },
+    "close": {
+      "unique_required_security_days": 23920,
+      "missing": [],
+      "different": [],
+      "exact_matches": 23920
+    }
+  },
+  "known_halt_carry_security_days_not_certified_as_traded_closes": 10,
+  "provider_upstream_independence_verified": false,
+  "response_security_identity_certified": false,
+  "original_prices_replaced": false,
+  "historical_arrival_verified": false,
+  "auction_execution_verified": false,
+  "objective_achieved": false
+}

@@ -1,5 +1,6 @@
 import unittest
 from scripts.capture_sina_daily_crosscheck import validate_sina_daily
+from scripts.audit_sina_daily_crosscheck import compare_security
 
 
 class SinaDailyCrosscheckTests(unittest.TestCase):
@@ -21,3 +22,15 @@ class SinaDailyCrosscheckTests(unittest.TestCase):
         for payload in ([self.row(),self.row()],[self.row("2024-01-02 09:35:00")],
                         [self.row("2024-01-03"),self.row()]):
             with self.subTest(payload=payload),self.assertRaises(ValueError):validate_sina_daily(payload)
+
+    def test_missing_active_quote_and_positive_volume_on_halt_are_not_passes(self):
+        raw=[self.row()|{"date":"2024-01-02","tradestatus":"1"},
+             self.row()|{"date":"2024-01-03","tradestatus":"0"}]
+        missing=compare_security(raw,[])
+        self.assertEqual(missing["missing_active_sessions"],["2024-01-02"])
+        self.assertNotEqual(missing["status"],"OHLCV_AGREE_ON_ACTIVE_SESSIONS")
+        conflict=compare_security(raw,[self.row(),self.row("2024-01-03")])
+        self.assertEqual(conflict["positive_volume_on_original_halts"],["2024-01-03"])
+        self.assertNotEqual(conflict["status"],"OHLCV_AGREE_ON_ACTIVE_SESSIONS")
+        matching=compare_security(raw,[self.row()])
+        self.assertEqual(matching["status"],"OHLCV_AGREE_ON_ACTIVE_SESSIONS")

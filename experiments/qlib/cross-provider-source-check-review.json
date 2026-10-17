@@ -1,0 +1,12 @@
+{
+  "status": "SOURCE_DIAGNOSTICS_CODE_REVIEW_PASSED",
+  "full_regression_tests": 183,
+  "focused_tests": 7,
+  "important_findings_fixed": [
+    "Zero-volume rows cannot bypass OHLC bounds",
+    "SDK page-limit exception needs bounded supplement; current V1 capture has zero affected request failures"
+  ],
+  "legacy_capture_source_retained": true,
+  "full_auction_ratio_outputs_read": false,
+  "source_check_plan_sha256": "58cd519b4c1ba092291aa57e10c99d34386991451e87119dc7ffc101609943a6"
+}

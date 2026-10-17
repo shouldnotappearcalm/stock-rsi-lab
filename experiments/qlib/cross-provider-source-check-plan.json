@@ -1,0 +1,43 @@
+{
+  "status": "SOURCE_CHECK_METHOD_FROZEN_BEFORE_FULL_AUCTION_RATIO_OUTPUTS",
+  "parent_commit": "48f79b5",
+  "feedback_summary_sha256": "1c1ebd67e9d87ca4004b2d39b6c74aa8eb8f1ae20fdcfd4c23ece9f2eeb71006",
+  "raw_manifest_sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+  "sina_capture_manifest_sha256": "0425dda36753925c06fbb794e2063884ce3f2ef3d18fbc83d2a536592ac106f5",
+  "tdx_capture_manifest_sha256": "def299b792b608f862b3bbc1258195e0b12154c753156625e1a8ec95c4784205",
+  "tdx_v1_source_sha256": "edd99d340212d5ed6eeb76210aec461a9980c6ed3f7326834b2eeb6527dbceff",
+  "source_code_sha256": {
+    "scripts/capture_sina_daily_crosscheck.py": "526fa9e3e5c557ab87f50586ec1ab2d3726b1e8203594833ce9d713d5185fc40",
+    "scripts/audit_sina_daily_crosscheck.py": "bfcc0cc2aeb1c65832ce98685aef6ca5eb71e432767c42afd5d70ab624ca4591",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "scripts/audit_tdx_fixed_order_history.py": "dc92bc6ff8b1b9a5b54129c6d37b9878c43fde661749d1188284df77a5908884",
+    "experiments/qlib/audit_sources/2026-10-17-tdx-fixed-order-history-v1.py": "edd99d340212d5ed6eeb76210aec461a9980c6ed3f7326834b2eeb6527dbceff",
+    "experiments/qlib/audit_sources/2026-10-17-tdx-fixed-order-history.py": "ac802495647caaf85f5dfde8ca82b31414b4574857e9ba9ec06e81ee4de652c6",
+    "tests/test_sina_daily_crosscheck.py": "595e04df8511875679a690f1863e2d3336fde65a5cc1de75d26ddc7a550b7bae",
+    "tests/test_tdx_history_checks.py": "fccc03f83172ed933bf428b16f1b509f6ca28a6e2d777b13cddd8272c769c6d7"
+  },
+  "frozen_economic_core_sha256": {
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f"
+  },
+  "known_pilot_sessions_examined": 3,
+  "full_auction_ratio_outputs_read": false,
+  "price_comparison": "exact OHLCV numeric equality; no quote replacement",
+  "tdx_volume_unit": "SDK-documented hands of 100 shares, not certified exact share volume",
+  "nearest_hand_rounding": "diagnostic only; never loosens old BaoStock-minute equality gate",
+  "opening_clock": "09:25 exchange time vs original broker 09:30 proxy fill clock; clocks not equated",
+  "ratios_over": [
+    0.01,
+    0.1,
+    1
+  ],
+  "ratio_scope": "Benchmark only. Counterfactual additional orders can change price and volume; observed ratio neither proves physical impossibility nor proves queue/impact feasibility.",
+  "v1_page_limit_failure_records_in_current_capture": 0,
+  "v2_pagination_fix": "exact SDK max_pages RuntimeError triggers bounded4-to16; other errors and final limit preserved; V1 raw capture immutable",
+  "price_identity_echo_authenticated": false,
+  "historical_arrival_verified": false,
+  "queue_impact_verified": false,
+  "new_alpha_candidates": 0,
+  "objective_achieved": false
+}
