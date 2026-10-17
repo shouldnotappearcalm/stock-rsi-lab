@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "FROZEN_2026_REPLAY_REGISTERED",
+    "status": "FROZEN_2026_REPLAY_FAILED_NUMERIC_OBJECTIVE",
     "result_file": "experiments/qlib/return-families-pre2026-results.json",
     "candidate_budget": 3,
     "selected": "contrarian60_12",
@@ -387,7 +387,7 @@
     "2024_screen_40bp_net_pct": 10.556621727117953,
     "2025_screen_40bp_net_pct": 8.438597010596727,
     "claim_status": "NORMALIZED_DAILY_OPEN_ENGINEERING_SCREEN_REQUIRES_RAW_SHARE_INTRADAY_CONFIRMATION",
-    "new_2026_outcomes_queried": false,
+    "new_2026_outcomes_queried": true,
     "raw_input_manifest_file": "experiments/qlib/return-families-raw-dev-capture-manifest.json",
     "raw_input_names": 124,
     "raw_daily_records": 60264,
@@ -405,6 +405,29 @@
     "raw_2026_extension_manifest_file": "experiments/qlib/reversal-raw-full-capture-manifest.json",
     "full_primary_corporate_file": "experiments/qlib/reversal-full-corporate-reviewed-manifest.json",
     "minute_admission_file": "experiments/qlib/reversal-full-minute-admission.json",
-    "full_replay_plan_file": "experiments/qlib/reversal-frozen-2026-replay-plan.json"
+    "full_replay_plan_file": "experiments/qlib/reversal-frozen-2026-replay-plan.json",
+    "full_replay_results_file": "experiments/qlib/reversal-frozen-2026-results.json",
+    "full_development_controls_file": "experiments/qlib/reversal-frozen-2026-development-controls.json",
+    "full_replay_freeze_commit": "dd9a88f",
+    "profiles": 60,
+    "positive_2024_and_2025_profiles": 60,
+    "2026_positive_profiles": 0,
+    "2026_numeric_threshold_profiles": 0,
+    "reference_5pct_20bp_CNY_1000000": {
+      "2024_net_pct": 9.207221,
+      "2025_net_pct": 7.495161881282558,
+      "2026_through_2026_10_16_net_pct": -18.596990357448707
+    },
+    "2026_used_to_change_investment_rule": false,
+    "complete_requested_October": false,
+    "sealed_evidence": false,
+    "candidate_promoted": false,
+    "independent_full_audit_file": "experiments/qlib/reversal-frozen-2026-independent-audit.json",
+    "independent_full_audit_sha256": "0a8205a12e975b9b501e0b68d56c3e55d7836e868a38bd6b3181464e596a79df",
+    "independent_full_audit_status": "INDEPENDENT_REVERSAL_FULL_LEDGER_AUDIT_COMPLETE",
+    "independent_full_valid_profiles": 60,
+    "all_full_fills_reconstructed": 294643,
+    "independent_full_development_controls_verified": 60,
+    "full_replay_summary_sha256": "ccedfad73110ba14c64e710e3c7c283533ad61596ef13243c457d6819a4ac571"
   }
 }

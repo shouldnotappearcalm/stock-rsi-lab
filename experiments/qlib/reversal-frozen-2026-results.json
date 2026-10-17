@@ -1,0 +1,2868 @@
+{
+  "status": "FROZEN_REVERSAL_2026_DIAGNOSTIC_COMPLETE",
+  "strategy": "contrarian60_12",
+  "phase": "full",
+  "end": "2026-10-16",
+  "results_by_profile": {
+    "100/0/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.06934,
+      "2025_return_pct": 5.069243107183008,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -8.74654107088646,
+        "max_drawdown_pct": -15.651611904726067,
+        "average_exposure_pct": 53.38941093133647,
+        "ending_equity": "104574.9400",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.242897954970198,
+        "max_drawdown_pct": -16.142425981562713,
+        "average_exposure_pct": 53.380581155710296,
+        "ending_equity": "102860.1400",
+        "sessions": 188
+      },
+      "fills": 609,
+      "orders": 726,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -5.692892246345306,
+        "max_drawdown_pct": -16.142425981562713,
+        "average_exposure_pct": 61.852857766472226,
+        "sessions": 431,
+        "ending_equity": "102860.1400"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "5e00b7d01e457458154857450ef008d49335b39d475f6f01aba0a0e1cc7721c2",
+        "daily.csv": "ebc645fcb00e974ff460ae7f9359701789b23eadcf802c76854a91cbf8f5b5f5",
+        "fills.json": "70050f96de427b4c4012ecc4fb0fb6933eeffde6dc0c40e7e823288f4f96f73a",
+        "intents.json": "22ac5430976ce0619d76ba57b2096985e09146e46c7d70891e9584ba62e5ea7f",
+        "orders.json": "d5a419d31e24dd7b4b05321dd10fdacbfba04c38cab13b9fb57635553ac659a6",
+        "ownership.json": "d4c7b18711192a678d4d9e9ed4ea9c876078a72228d18297f279d285a27476bc",
+        "parent_instructions.json": "ca8489fc3fdf7cc0e7ea46c2d7b0b462f8e82b2b67f0d4ac4b9fd5b7c7c41cff"
+      }
+    },
+    "100/0/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.508465,
+      "2025_return_pct": 8.713561445270278,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.05398549038167,
+        "max_drawdown_pct": -23.841009836778646,
+        "average_exposure_pct": 90.25733023582987,
+        "ending_equity": "1008508.0100",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.185689573117138,
+        "max_drawdown_pct": -25.970937476873072,
+        "average_exposure_pct": 90.24880193250709,
+        "ending_equity": "982898.2100",
+        "sessions": 188
+      },
+      "fills": 1218,
+      "orders": 1374,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0005205050055231364,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.056749363046531,
+        "max_drawdown_pct": -25.970937476873072,
+        "average_exposure_pct": 91.56298117784554,
+        "sessions": 431,
+        "ending_equity": "982898.2100"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "e1ea140b5a7958981197c2f37a3b1ef2874a6dc4012c4812fd783df00757261d",
+        "daily.csv": "031cb063670415d47a671d00dd8879b35776327c81571c817b6f945dd2e01d30",
+        "fills.json": "4a18a545c5c3d8d97e93df94cee5a555dcbfc7181d303569693df44125325270",
+        "intents.json": "441ae04afbddff3bab19095003e4e0437e18d15bcbbe2c77cf92182fce7ecc89",
+        "orders.json": "cf30bb9a7e3f95acb219d71e6abb9ad86d1f81d78c83c13c28cad5485b8a69c7",
+        "ownership.json": "05d837db7d7066fc66aad4e434615879ed9408acc72635e6a22432c70a4ac5d1",
+        "parent_instructions.json": "2c2b33c0c5af36ae4fc0dca685c23b6cf46b286d64c337f6749d52cca164a046"
+      }
+    },
+    "100/0/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 11.0056347,
+      "2025_return_pct": 9.256112653892155,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.054823012917254,
+        "max_drawdown_pct": -24.1742903026747,
+        "average_exposure_pct": 94.71446861611781,
+        "ending_equity": "10180908.1100",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.36419125892478,
+        "max_drawdown_pct": -26.41658871652283,
+        "average_exposure_pct": 94.71229828426765,
+        "ending_equity": "9900826.9100",
+        "sessions": 188
+      },
+      "fills": 4613,
+      "orders": 4768,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0015568837955473123,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -10.80788883593492,
+        "max_drawdown_pct": -26.41658871652283,
+        "average_exposure_pct": 94.78422405703284,
+        "sessions": 431,
+        "ending_equity": "9900826.9100"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 14,
+      "artifact_sha256": {
+        "corporate_ledger.json": "26d2554df8418ba08cb28f62c4848613e68d07889612d21a36aacc47f3cda473",
+        "daily.csv": "dd22fdb0599944080102980cf21c67e1cb69060d54a03dba66b77767c59b8dbf",
+        "fills.json": "1b1fd76cfa1cb5a9ac7804c9388a782d3a2c9ff4ed680bf180072458eda1fac2",
+        "intents.json": "d56054cda5ce83141f3bc1d548665a1d63f4d337111a14268262e4906284cb60",
+        "orders.json": "44a59523032a317b27f173a32cd1637bf64f94f22933552523ed47d230c6f2ed",
+        "ownership.json": "23b448be0e2ad2c5ba868cb41b3b33559530ad555223a5f81f658b19c2cc4763",
+        "parent_instructions.json": "82115e1c6cffb72c205956247bcadee80c80ecc820672bd8a7f5cc56142dd5ef"
+      }
+    },
+    "100/0/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 17.42708622,
+      "2025_return_pct": 7.839378474190672,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -14.725084053238605,
+        "max_drawdown_pct": -23.142922348754848,
+        "average_exposure_pct": 93.03064882064571,
+        "ending_equity": "107985877.2700",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -16.982439977709905,
+        "max_drawdown_pct": -25.26759627732493,
+        "average_exposure_pct": 93.01240507247118,
+        "ending_equity": "105127327.8700",
+        "sessions": 188
+      },
+      "fills": 32558,
+      "orders": 32860,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.002043647495484004,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -10.474379247524174,
+        "max_drawdown_pct": -25.26759627732493,
+        "average_exposure_pct": 93.31177019718177,
+        "sessions": 431,
+        "ending_equity": "105127327.8700"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 567,
+      "artifact_sha256": {
+        "corporate_ledger.json": "4dfe39e2ca1b03d1e90709bdbbfc686e24ee9cbe4d24effa9e38b89a067047e9",
+        "daily.csv": "15cda9c698e853a06bc283fdd96cc4ee6c35678e524cad7240d20698bae66f32",
+        "fills.json": "871103b670b8eb07de5c258033ac89faeca7b10825214c2d392606901cdb1a95",
+        "intents.json": "bb8a23bcd51920f046980e698f3be09d013895a76e9df149b72f9d29bcf96634",
+        "orders.json": "1113b1390c6c0b6cea0768442e8eaa676a67deb52bb4b3029b8d9cdd22c4578d",
+        "ownership.json": "1ad642d2aad7ff36e493cd707330ef691558c93bbb450b8794df456cbcaf120b",
+        "parent_instructions.json": "e75c5e5ede43e5d6797f65c89ace120265d648c21818acd04a1af642a8f1d73c"
+      }
+    },
+    "100/5/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.89216,
+      "2025_return_pct": 4.98190136002445,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -8.86941983987342,
+        "max_drawdown_pct": -15.738633572645243,
+        "average_exposure_pct": 52.75958019220083,
+        "ending_equity": "104177.8000",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.369458416792734,
+        "max_drawdown_pct": -16.258189196611816,
+        "average_exposure_pct": 52.764057663048,
+        "ending_equity": "102463.0000",
+        "sessions": 188
+      },
+      "fills": 611,
+      "orders": 728,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -5.904153246661651,
+        "max_drawdown_pct": -16.258189196611816,
+        "average_exposure_pct": 61.49871514973141,
+        "sessions": 431,
+        "ending_equity": "102463.0000"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "a12a9644845765d15985735e412f334f971a17260aa5501d2179a58a942ce434",
+        "daily.csv": "c67a9d84df2688ecec90f29a9334a6c5cc1978c50c4cb8e4cb4bbcb636f9d4c7",
+        "fills.json": "65c98ff5f517ee9565c49ba3716f339570b31cc504196a39c177418ed95d25c1",
+        "intents.json": "25b3589e4aec8c85739d388f59353599a6a6cce22a2bac0623be94f0225f96ca",
+        "orders.json": "2008c62033adf6c57c95024b78406f9008f28b2746aca6cf8fc090eaf6ba559e",
+        "ownership.json": "b542b6524afa1fc962a5a9d34b537a0c7cb0aa0a5ecdac872bfd642bf966e2b6",
+        "parent_instructions.json": "34a5b7e2ce19b363d8be68a68e551d119183b572b16842de248422961ddc23ac"
+      }
+    },
+    "100/5/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.184468,
+      "2025_return_pct": 8.293218786517171,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.353948805230527,
+        "max_drawdown_pct": -24.130679730923134,
+        "average_exposure_pct": 90.49824533037383,
+        "ending_equity": "998083.9800",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.46808828461555,
+        "max_drawdown_pct": -26.24362214477429,
+        "average_exposure_pct": 90.47372517571866,
+        "ending_equity": "972857.5800",
+        "sessions": 188
+      },
+      "fills": 1222,
+      "orders": 1377,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0005205050055231364,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.706468465228692,
+        "max_drawdown_pct": -26.24362214477429,
+        "average_exposure_pct": 91.59467431043366,
+        "sessions": 431,
+        "ending_equity": "972857.5800"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "528c49d50ce4cd297878d1bd7a335ef669016831bdfde578de2720f4ccacea61",
+        "daily.csv": "cc8a147855c3e43a8416fa5aac6421c840c71c91945e6d3e963734e73c2e8c8d",
+        "fills.json": "37434cfd92cd23305b234692eee508681ed690f2ce2d0fae858ee73bff2990cc",
+        "intents.json": "1b13bfc6025e05626778a266503b5a32ae8e2e8de5744ee0cc112bd1e5ae14a1",
+        "orders.json": "5882b47198688ae95b606b3ac8deb8da542656762180b18b5f0e176260716d00",
+        "ownership.json": "52c5f681e6a83975a0ab86a3216792d7086cbb4de00b9eda559c283c9953a781",
+        "parent_instructions.json": "1fe633aeac4ba80fb7210eaf0b9045ba349c747db49de02a48613f5b99ef9700"
+      }
+    },
+    "100/5/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.6988881,
+      "2025_return_pct": 8.98714979956515,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.23383399795651,
+        "max_drawdown_pct": -24.32134118559998,
+        "average_exposure_pct": 94.69581417730333,
+        "ending_equity": "10106183.7900",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.53727712676633,
+        "max_drawdown_pct": -26.55798304613057,
+        "average_exposure_pct": 94.69134539161084,
+        "ending_equity": "9828278.9900",
+        "sessions": 188
+      },
+      "fills": 4591,
+      "orders": 4747,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0015568837955473123,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.216100191344198,
+        "max_drawdown_pct": -26.55798304613057,
+        "average_exposure_pct": 94.79179902350594,
+        "sessions": 431,
+        "ending_equity": "9828278.9900"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 14,
+      "artifact_sha256": {
+        "corporate_ledger.json": "ebe73205a10654ae9c11dae72ce019621fb658b10a7c374899a6f7f1dbf89fa7",
+        "daily.csv": "8f2a8308888754a975da8ef5855ffd6924b08bffcebb26ca543b11fbae339c46",
+        "fills.json": "52295479c19378c30e079b018f607185e7c24bb46641d3b4f8ccf4f3697c4267",
+        "intents.json": "9b7d5e1956c5bdc0200972944a705d99abac078edb22bc7100bdeeb91a1f415d",
+        "orders.json": "6d4f8b43fe022577c1989fe94f1a962d89173eb18f489727a33f096b680a19ac",
+        "ownership.json": "7f54f70f3d883916e2f876e18a1bbb1c0e3d7fde436e43391f154e53c60811b4",
+        "parent_instructions.json": "4fe6440b65158804e78dfb928f08fcb28e447d40e654f447c7befd9a2105a0a1"
+      }
+    },
+    "100/5/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 17.19498569,
+      "2025_return_pct": 7.6374294150058875,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -14.882265931125499,
+        "max_drawdown_pct": -23.27166164772444,
+        "average_exposure_pct": 93.05081129450508,
+        "ending_equity": "107372335.9300",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -17.13728047106175,
+        "max_drawdown_pct": -25.394762399834224,
+        "average_exposure_pct": 93.03307466241417,
+        "ending_equity": "104527732.7300",
+        "sessions": 188
+      },
+      "fills": 32529,
+      "orders": 32831,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.002043647495484004,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -10.808698755684793,
+        "max_drawdown_pct": -25.394762399834224,
+        "average_exposure_pct": 93.33414091812912,
+        "sessions": 431,
+        "ending_equity": "104527732.7300"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 565,
+      "artifact_sha256": {
+        "corporate_ledger.json": "e7a8d7b638ab596706fe855d519f6c94ced6c570d446afdc8a0fce60f5382fc3",
+        "daily.csv": "6c9c65379f829fd9c40015f09af89905576a5a13d0364488e8c86b6f7d7079b0",
+        "fills.json": "c263cf57984241a5e838633383f9f9f5ddc9c47151ce705d3d2901cb30b16839",
+        "intents.json": "5ace5d074a44980af7eea096900c694175bd60f5e7e7c403f36d4fbe13e85294",
+        "orders.json": "45913da453e60d286c118e12b8fd8758be69bbbd30fa87e729eecb5a428afcfe",
+        "ownership.json": "bb23e34ffaca76402ba2276aa364ef7a3c4f145f0d622fded64f851515109b1c",
+        "parent_instructions.json": "19965148133236ff9cb5cd873281d3ecde28fc30ab888576107f27fd23a17609"
+      }
+    },
+    "100/10/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.56506,
+      "2025_return_pct": 4.346766814295502,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -8.590232365292472,
+        "max_drawdown_pct": -15.47196386029458,
+        "average_exposure_pct": 52.33649482659027,
+        "ending_equity": "103552.7600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.103948364170693,
+        "max_drawdown_pct": -16.022017709753072,
+        "average_exposure_pct": 52.35290058883536,
+        "ending_equity": "101837.9600",
+        "sessions": 188
+      },
+      "fills": 609,
+      "orders": 726,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -6.196376624302515,
+        "max_drawdown_pct": -16.022017709753072,
+        "average_exposure_pct": 61.038401545091986,
+        "sessions": 431,
+        "ending_equity": "101837.9600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "a12a9644845765d15985735e412f334f971a17260aa5501d2179a58a942ce434",
+        "daily.csv": "4e1dfb8c75958d78ff0cd0597d7101c56da082d83bd1480fcefdaaac183c3fcc",
+        "fills.json": "4f4033116e594bfdec74a0f08eda0db537e5457a5ed28b317225634690030292",
+        "intents.json": "ff5e2fa01ccb777f007dd1bd314d5c8a54b05d2ac2dc0a01cc757553d703f7be",
+        "orders.json": "950657695e9a3a43a5b7eeefef8adb6e9e0fe7ff42f5e45e8c31f7e1af39dba7",
+        "ownership.json": "18c1a7ea314311a14a2eeaddbc769e64fe1eadd92b568e541e513d1d2b94df8d",
+        "parent_instructions.json": "0219e6703597f085b267bea498a7f7be3afe342e170e55ea3d830faaab3a2c99"
+      }
+    },
+    "100/10/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.777332,
+      "2025_return_pct": 8.044692687557756,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.10977708265475,
+        "max_drawdown_pct": -23.83293035746055,
+        "average_exposure_pct": 90.33297282993635,
+        "ending_equity": "995010.0300",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.235205090262397,
+        "max_drawdown_pct": -25.959187309080455,
+        "average_exposure_pct": 90.31481366880736,
+        "ending_equity": "969800.6300",
+        "sessions": 188
+      },
+      "fills": 1211,
+      "orders": 1366,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0005205050055231364,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.65747861316214,
+        "max_drawdown_pct": -25.959187309080455,
+        "average_exposure_pct": 91.48872546354822,
+        "sessions": 431,
+        "ending_equity": "969800.6300"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "28a0a4e5a38c0c5fc26a524f5c2fbb4b3d6cb04afc4b67f7ffc7811f3338c96b",
+        "daily.csv": "0b4bc24fbf29b8b31f1dd7dd73b328acc3028830e2a7416658e737357b71d552",
+        "fills.json": "d8ecbb480857ba1ca5b413fcd3642ad9f78d562f001e7bff4593f3246daafe35",
+        "intents.json": "917d01ec0984b85b8006a08c6ac78c6f8286aa67b26bc7f5d65fd62a4d056b4d",
+        "orders.json": "41fd074a6919ad0903517aaba78546900b181f0444d7e12fb3cc3d4c8a3534ea",
+        "ownership.json": "6539712ddafde52cff95bd6c41be632c974597f48d50a502d815d0a06103f82f",
+        "parent_instructions.json": "4fc4632fa4d820a9451d6c6fab10c90ecc13def2161b0afb9f80c49e38909f17"
+      }
+    },
+    "100/10/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.3698812,
+      "2025_return_pct": 8.663526404158166,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.4309634129162,
+        "max_drawdown_pct": -24.48017578481211,
+        "average_exposure_pct": 94.73538782062418,
+        "ending_equity": "10022585.4000",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.734005545901688,
+        "max_drawdown_pct": -26.715543534397256,
+        "average_exposure_pct": 94.7330950530365,
+        "ending_equity": "9746377.4000",
+        "sessions": 188
+      },
+      "fills": 4582,
+      "orders": 4737,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0015568837955473123,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.693504658769172,
+        "max_drawdown_pct": -26.715543534397256,
+        "average_exposure_pct": 94.81230016569428,
+        "sessions": 431,
+        "ending_equity": "9746377.4000"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 14,
+      "artifact_sha256": {
+        "corporate_ledger.json": "df4180c837e1829011839969cbd92ddcd8954b8e4ca53883a9f17bfaf82623cc",
+        "daily.csv": "572696d69c4c714a12acc9363d69655983dc05e0fc2fcbff3e392d468e9eb475",
+        "fills.json": "de207c64f9d4afa200d3f3eec58455a34e25c64746f6ec464e38e6e3d475905c",
+        "intents.json": "e6b1008659fd3540d84abe406a611e36eda01580cac001ed90e103cc23d271d8",
+        "orders.json": "34adbf07d612bcf16f6f1ef9149b7d8933fc636317bb115faff71ca510f4f45e",
+        "ownership.json": "db058ad92bb06699d0dd53c75374ecfb97fb3ee993b8a346647487ffef9b202f",
+        "parent_instructions.json": "b2867258e00370f84655d4779a44a0d79e6ad4705a9cfda70ee3aaf7ea65d4a7"
+      }
+    },
+    "100/10/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 16.96051971,
+      "2025_return_pct": 7.429780870969422,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -15.037584539494791,
+        "max_drawdown_pct": -23.39980139824091,
+        "average_exposure_pct": 93.06936132114701,
+        "ending_equity": "106755640.3900",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -17.290547461566852,
+        "max_drawdown_pct": -25.52147145502657,
+        "average_exposure_pct": 93.05211604417414,
+        "ending_equity": "103924782.7900",
+        "sessions": 188
+      },
+      "fills": 32488,
+      "orders": 32789,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.002043647495484004,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.145416378382814,
+        "max_drawdown_pct": -25.52147145502657,
+        "average_exposure_pct": 93.35622690186823,
+        "sessions": 431,
+        "ending_equity": "103924782.7900"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 562,
+      "artifact_sha256": {
+        "corporate_ledger.json": "56c6d4dd86b7dd1003b2fab61813c8aafc290e5b016d44f562c00db48572be7e",
+        "daily.csv": "f72c72cb0e220b3e0c757aa8e805db67e19c2c2e7768ed34ad59231f5c9159a9",
+        "fills.json": "a5e71d6545b40a08384eaae3f017e8eea444e70b413e73d885469431edff8248",
+        "intents.json": "ca18ed1a3153583c79fa54183bc9b0f8d5c691127c1f65d3e48d25dd4f64bb5c",
+        "orders.json": "6aa945cbb4b4337fcc95e18fd0144d4649d5299a5da1108a5eb27d7eb5b0aeae",
+        "ownership.json": "72a22930f1ad7e6802f6023027a0eed94ed7e4568f6dfdf56b856df05a1f79ac",
+        "parent_instructions.json": "7a95360cccbe13697d9e00857aab34fb58859d411391c43b376e9930f3c660a0"
+      }
+    },
+    "100/20/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.05485,
+      "2025_return_pct": 3.978812612298291,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -9.431596429682394,
+        "max_drawdown_pct": -15.661213315058994,
+        "average_exposure_pct": 51.85964902953691,
+        "ending_equity": "101757.3600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.924910205809041,
+        "max_drawdown_pct": -16.705254117655706,
+        "average_exposure_pct": 51.885112689916554,
+        "ending_equity": "100079.5600",
+        "sessions": 188
+      },
+      "fills": 597,
+      "orders": 714,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -7.380779298661745,
+        "max_drawdown_pct": -16.705254117655706,
+        "average_exposure_pct": 60.60042426434921,
+        "sessions": 431,
+        "ending_equity": "100079.5600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "e880db07f79842a52770456f3b71376b1c3e602e2ae08d301f473f56fd40b57b",
+        "daily.csv": "f2ccacc414dbfb2aacae0c599ba6555ff6d656420dd1eb05b74e94f735f9fec9",
+        "fills.json": "4d8a5aa7dac2189820776af56b7c370208efea796d9d1b9cd9135d5976d495f5",
+        "intents.json": "c6c3eb2bf514bb2cca9f7b204e8a46cfd8b830c94eb2655d0a3f09fe6b9beda9",
+        "orders.json": "ed961595d29f946cfbe293e16d6c158cfcbe14931df89d955339f32762028de4",
+        "ownership.json": "1675c13171d4d60862ad3dbf6ee627c668fa9b2513a0ebbefdb44da21a15c6c5",
+        "parent_instructions.json": "f14769db693336264bd094e8ce423956b01cbb2375cc8ae6cb30c90dd1066ae9"
+      }
+    },
+    "100/20/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.19336,
+      "2025_return_pct": 7.4821866457813915,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.454572030119337,
+        "max_drawdown_pct": -24.118038787250853,
+        "average_exposure_pct": 90.55901575369296,
+        "ending_equity": "980517.6400",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.58039640650867,
+        "max_drawdown_pct": -26.247292424779346,
+        "average_exposure_pct": 90.5477648623017,
+        "ending_equity": "955568.2400",
+        "sessions": 188
+      },
+      "fills": 1223,
+      "orders": 1378,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0005205050055231364,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -12.488429699388314,
+        "max_drawdown_pct": -26.247292424779346,
+        "average_exposure_pct": 91.6478415680392,
+        "sessions": 431,
+        "ending_equity": "955568.2400"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "ce1c207dbf0fe3d6e12c5f92838e763bc18153fb1e5d27dd3cbd93b6f1acd8b6",
+        "daily.csv": "6b4db058bd2ad6da010222fb17b0ff689fce4cde2edc1bb3ec8b35f36118bcd3",
+        "fills.json": "63787d1be31d7191c4afd5e49b74329be09fc6feef3f5e9841942e36a0d23a30",
+        "intents.json": "322241cc8cfa2f8170b7c48bc3d81121235f5294021c50d27fe373a1b097a0f8",
+        "orders.json": "a67c7e1b4c5094238aca95181810129f583b3d2646288a0cd43fb3485e27736c",
+        "ownership.json": "f3e374c761e7885e38e6bacb79370bf2b4c875fcff5ec351fc83586f04cf58aa",
+        "parent_instructions.json": "1f1a65ad2283a93f1c2911709d6b7353c73bc09952b52bca68fb841f8581b97d"
+      }
+    },
+    "100/20/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.7702559,
+      "2025_return_pct": 8.158010315798125,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.77256225688806,
+        "max_drawdown_pct": -24.744888702652656,
+        "average_exposure_pct": 94.6943625014153,
+        "ending_equity": "9881204.5700",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.054500004243828,
+        "max_drawdown_pct": -26.96791720387925,
+        "average_exposure_pct": 94.69069747348802,
+        "ending_equity": "9610280.7700",
+        "sessions": 188
+      },
+      "fills": 4539,
+      "orders": 4693,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0015568837955473123,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -12.45095776441567,
+        "max_drawdown_pct": -26.96791720387925,
+        "average_exposure_pct": 94.81648514393639,
+        "sessions": 431,
+        "ending_equity": "9610280.7700"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 14,
+      "artifact_sha256": {
+        "corporate_ledger.json": "69b4a1b9a1209264d1ad4a937e32c1f373721c5db360fc456ac0a5099de26924",
+        "daily.csv": "f554f3add5f9a8a1c8e0148a780dbeb9a581c9cf4a221c3a38ebab4db60b3744",
+        "fills.json": "575a58da4092d8028578b4de28c91dbdd8800cff93f0a51b2c800c12df8ad178",
+        "intents.json": "9fc16622e909f3bff597d0ab7993d26490bfcf76e7acd75b996af237afaf55ba",
+        "orders.json": "00bc393e81f1635f75a05359c1e7bcc7feac43d6173c3f5512c025325f873d38",
+        "ownership.json": "e2f3236440437ca50ec29269a839d30fcc146cb935718d8e5ad2ddd728fd53a3",
+        "parent_instructions.json": "903e16390c211c523b1df6b2b2facdc919cb8aee2d4589b46661702ea52d2dc4"
+      }
+    },
+    "100/20/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 16.48348663,
+      "2025_return_pct": 7.020946871188277,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -15.352518473633758,
+        "max_drawdown_pct": -23.658029614840608,
+        "average_exposure_pct": 93.10629392733513,
+        "ending_equity": "105523015.1600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -17.600073671494652,
+        "max_drawdown_pct": -25.775819364026066,
+        "average_exposure_pct": 93.08961997392916,
+        "ending_equity": "102721173.9600",
+        "sessions": 188
+      },
+      "fills": 32372,
+      "orders": 32673,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.002043647495484004,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.81481862207201,
+        "max_drawdown_pct": -25.775819364026066,
+        "average_exposure_pct": 93.39652315445626,
+        "sessions": 431,
+        "ending_equity": "102721173.9600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 561,
+      "artifact_sha256": {
+        "corporate_ledger.json": "6229389bdc671ecc613fab971b092c7072542c9a771a9118650694834666cc24",
+        "daily.csv": "acc3320f4507200de8876ac17bd72b6325abfd55b175d4a7026885abc8d132a0",
+        "fills.json": "d200d0c339de4a0bf0795a2437e7e2ff01507df19d243a9303832d39a7822918",
+        "intents.json": "a2501ce1a39bfb0316f3b679abd6465e46509fac07ae27ae31e87ea5b6d220ce",
+        "orders.json": "7335b024eb193d355cd68a3b176c79297287f6feb871ec53c2800a7806fb0049",
+        "ownership.json": "a68c9316a93b5f83d4501e58a9511bfc33fbfd8777270ede8290da7b39232baa",
+        "parent_instructions.json": "e23a9050644ec00171fb66cc9c4d6077dda24bc5c2c89d301681455ae21721b6"
+      }
+    },
+    "100/40/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 7.06069,
+      "2025_return_pct": 3.6143238008273624,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -11.266615289018203,
+        "max_drawdown_pct": -17.103467394729975,
+        "average_exposure_pct": 50.897576798693045,
+        "ending_equity": "98432.1300",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -12.77819630919296,
+        "max_drawdown_pct": -18.355935438234262,
+        "average_exposure_pct": 50.96204604561523,
+        "ending_equity": "96755.3300",
+        "sessions": 188
+      },
+      "fills": 605,
+      "orders": 722,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -9.625717898885203,
+        "max_drawdown_pct": -18.355935438234262,
+        "average_exposure_pct": 59.57098281143769,
+        "sessions": 431,
+        "ending_equity": "96755.3300"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "ee33b1d302b25b255c24479ce33d20079a324c94e58d84d7ea9b5e01000cc082",
+        "daily.csv": "5af980afd48fd0c657a8e17917217ef0c38293dbd5e6c267b768a6625a6410d6",
+        "fills.json": "c4b052451dd1a3f1ac8e3063296b16efca278b0862b2938e103f473c91a3e7cb",
+        "intents.json": "cc4f75cdd921f858717fb120372e44d4bb59402928735da226754fa8efe3b97c",
+        "orders.json": "3f24dc43e611edc4275e9f1ebbfeb1e862b3189fb3bfbc7ead1d616b29c7730c",
+        "ownership.json": "9d6cd05addaba829db263bd0dfb2dcffb94ef8fd43c17c22c4a86ba07406d54a",
+        "parent_instructions.json": "c39caf590aad13414a315e56e12d560438a4c5059d152b0b63912445906faf5e"
+      }
+    },
+    "100/40/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 7.948435,
+      "2025_return_pct": 6.7470482550302835,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -17.188679253797442,
+        "max_drawdown_pct": -24.724718127345934,
+        "average_exposure_pct": 90.375551076106,
+        "ending_equity": "954249.4900",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.32168479789358,
+        "max_drawdown_pct": -26.85112272008956,
+        "average_exposure_pct": 90.37993210093578,
+        "ending_equity": "929670.4900",
+        "sessions": 188
+      },
+      "fills": 1189,
+      "orders": 1334,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0005205050055231364,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -13.878279939862027,
+        "max_drawdown_pct": -26.85112272008956,
+        "average_exposure_pct": 91.54729873593814,
+        "sessions": 431,
+        "ending_equity": "929670.4900"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "a5f8e8d8fe9de126c4275785c500c2cc2ab3c0cb2120dbf52036d60227abb73e",
+        "daily.csv": "2dd9a37eedf2b25e5dfb28cc906f5c9c8f4b744e56d9ec96fb58e8dfd4a0380f",
+        "fills.json": "d94b6bcd4921ad36b6de185dec021ef670deb6c49dfd3d9eebef23217b9e8f3b",
+        "intents.json": "4ffa3856e6f291803bc2d6a568cd42ade50e5ff99d1c798e36dc70a5c8110fac",
+        "orders.json": "ef81c7a56e4e368d8b5cdeeddf6e6c47117a391b67a2fcd101fdf9646cb30da2",
+        "ownership.json": "fa62eefd9156bec692662790249d1158757df527caf8dea3121c37f75db0f6e8",
+        "parent_instructions.json": "957a60b5bd536894174999fb598141dff920654888a0eb141d750fb38db0ccfd"
+      }
+    },
+    "100/40/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.5132952,
+      "2025_return_pct": 7.035735285642676,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -17.56555550054337,
+        "max_drawdown_pct": -25.390283234303958,
+        "average_exposure_pct": 94.81010610235927,
+        "ending_equity": "9574596.1400",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.838159353155095,
+        "max_drawdown_pct": -27.601227200279332,
+        "average_exposure_pct": 94.80709341017709,
+        "ending_equity": "9310637.7400",
+        "sessions": 188
+      },
+      "fills": 4474,
+      "orders": 4629,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0015568837955473123,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -14.198184445144378,
+        "max_drawdown_pct": -27.601227200279332,
+        "average_exposure_pct": 94.9222573319988,
+        "sessions": 431,
+        "ending_equity": "9310637.7400"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 14,
+      "artifact_sha256": {
+        "corporate_ledger.json": "76f51cc0f58cfc98ec5bc8cab9838a731603dcb8f3a2cd6900b3663a252f3c77",
+        "daily.csv": "7a7550df75e384a4db498c022241dc81a01fd21cf79d09393a0f72b49f8ce588",
+        "fills.json": "7e7172d0a4e5fb69e4367a417da4c2d3a597ddb88ef3f90eabb72cca14a38e32",
+        "intents.json": "9556a944da0a7ab520fe2eb4e30df33b6a9a4faa4ba1c62ddc494db9302accf2",
+        "orders.json": "e46e0b442a05f82ba86d1dd0792d3cf2e32d5368676bd017a2dcdaa7b2d84531",
+        "ownership.json": "6431c84b6d3f5429baf11be7cde99bf1e49ba6d0237b6cfb144a018dc7fdbda2",
+        "parent_instructions.json": "a0619071c989004372117b7ef3991b8bad86e2c77e121c4bc5899646ec4497b7"
+      }
+    },
+    "100/40/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 15.5170858,
+      "2025_return_pct": 6.191968790126802,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -15.977966233675167,
+        "max_drawdown_pct": -24.171582951277713,
+        "average_exposure_pct": 93.20217809948775,
+        "ending_equity": "103069717.6600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.215017150458703,
+        "max_drawdown_pct": -26.281937941249776,
+        "average_exposure_pct": 93.18654743276994,
+        "ending_equity": "100325530.2600",
+        "sessions": 188
+      },
+      "fills": 32186,
+      "orders": 32487,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.002043647495484004,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -13.150916537404548,
+        "max_drawdown_pct": -26.281937941249776,
+        "average_exposure_pct": 93.48597047807398,
+        "sessions": 431,
+        "ending_equity": "100325530.2600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 554,
+      "artifact_sha256": {
+        "corporate_ledger.json": "5ea6155123989a0ea0027f3c79d4bbe5a69ae6e7b53147e7b290b261f677c7f6",
+        "daily.csv": "e7e75b58bda5b4f1bb97d5a590943fe87b0f66839742335c205482943ac13266",
+        "fills.json": "55b40a15bc5e8bc3b62e66f39be2a14e0a27c0bf5bcba80aee9a40f48085cbdc",
+        "intents.json": "95d92ae4a4aeb1b8c97c48aaccf27fb9a14c1060581fb84eb0b40f81f002d0e1",
+        "orders.json": "304a6ff3911ca7321ba43eb5daee7b793a1a990abb0e2c3a9d0582dcc355e2af",
+        "ownership.json": "43660d47ec8fb1305a3f1b267bc9f6ae32bda302112147924586a19bfdd215d7",
+        "parent_instructions.json": "1e198e53f4bc02127703acf9820b0c56397e02a8af63a1ea1282a3a9a1d5f93a"
+      }
+    },
+    "500/0/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.06934,
+      "2025_return_pct": 5.069243107183008,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -8.74654107088646,
+        "max_drawdown_pct": -15.651611904726067,
+        "average_exposure_pct": 53.38941093133647,
+        "ending_equity": "104574.9400",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.242897954970198,
+        "max_drawdown_pct": -16.142425981562713,
+        "average_exposure_pct": 53.380581155710296,
+        "ending_equity": "102860.1400",
+        "sessions": 188
+      },
+      "fills": 609,
+      "orders": 727,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -5.692892246345306,
+        "max_drawdown_pct": -16.142425981562713,
+        "average_exposure_pct": 61.852857766472226,
+        "sessions": 431,
+        "ending_equity": "102860.1400"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "5e00b7d01e457458154857450ef008d49335b39d475f6f01aba0a0e1cc7721c2",
+        "daily.csv": "ebc645fcb00e974ff460ae7f9359701789b23eadcf802c76854a91cbf8f5b5f5",
+        "fills.json": "356194cc4ee8812a874d05482ee472440e0e35c4799c3da4eb32c45d66557467",
+        "intents.json": "22ac5430976ce0619d76ba57b2096985e09146e46c7d70891e9584ba62e5ea7f",
+        "orders.json": "a9fad92f19158eefba00fea1afd714195e6d357a7a393d7250d8774e7c130dec",
+        "ownership.json": "d4c7b18711192a678d4d9e9ed4ea9c876078a72228d18297f279d285a27476bc",
+        "parent_instructions.json": "c34af48339219a09b9ec94d3efe33d59098ed6364a23625fbd9623ca7fa70205"
+      }
+    },
+    "500/0/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.534595,
+      "2025_return_pct": 8.704569822687638,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.077349378586977,
+        "max_drawdown_pct": -23.8748428522791,
+        "average_exposure_pct": 90.28675519944989,
+        "ending_equity": "1008382.3100",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.208725818425815,
+        "max_drawdown_pct": -26.004089677642426,
+        "average_exposure_pct": 90.27793933197852,
+        "ending_equity": "982772.5100",
+        "sessions": 188
+      },
+      "fills": 1178,
+      "orders": 1348,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0008617151450585743,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.089147248424803,
+        "max_drawdown_pct": -26.004089677642426,
+        "average_exposure_pct": 91.59095799423041,
+        "sessions": 431,
+        "ending_equity": "982772.5100"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "50e5b9ede4c77fe850706f3e74c5e430298e26669281e0fb9ed28725278c7182",
+        "daily.csv": "f092106b8980cf33f6b816bcbd606a74e20149acdfb23e4a1f53c8509d1707ec",
+        "fills.json": "f1c820eb11b2d22db77b603d5ad9c0335e2981cab95bd3dac0d4d312a08d598f",
+        "intents.json": "bc3afe5235face8d3aaaf965faaf87f2c9ea433d6769259212d0f7f0e418ea87",
+        "orders.json": "2053abc922acdc979d5a4238bb11dd3b96a9ab267a7baa92267d8ebb4a902915",
+        "ownership.json": "36ff7ba3e2aca5624c64e956599ca92cab77b1eb3c9e56f31fa938aa738ff55f",
+        "parent_instructions.json": "08ec4a69e71b0108ed6186bf4edaedbb9a44da6faf3a4577cee60de6d6c7e2ef"
+      }
+    },
+    "500/0/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.872937,
+      "2025_return_pct": 9.338548504401935,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.321491375756164,
+        "max_drawdown_pct": -24.342351203169756,
+        "average_exposure_pct": 94.61270505960401,
+        "ending_equity": "10144082.8500",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.62907568504208,
+        "max_drawdown_pct": -26.585176436943215,
+        "average_exposure_pct": 94.61194790178462,
+        "ending_equity": "9864341.6500",
+        "sessions": 188
+      },
+      "fills": 1601,
+      "orders": 1769,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.004092254126367707,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.030212449409543,
+        "max_drawdown_pct": -26.585176436943215,
+        "average_exposure_pct": 94.76476601912329,
+        "sessions": 431,
+        "ending_equity": "9864341.6500"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "04122a64fadf87d52767b4408990f8d51f11cf1e35f3786f9e44221fa1164567",
+        "daily.csv": "bb4d206a6292e0b12b4f8aa8ad005819c8428e3d90b41d3ad1745b32d2939ce9",
+        "fills.json": "4258995533753a1b598071673f0648008a943685490e50c7110522148df5d11d",
+        "intents.json": "7f51fbafdfde26fc044c4ae852f4fdd527c6cf011e72425594d085b63b331ec4",
+        "orders.json": "01990ab88a218c87af28a4a7bd64fba979d1fb183b092b50d109b69390dcbd7c",
+        "ownership.json": "13b0a63eb7e87159c2b2e142b03696712761a01f5cf39696b110c287a222eff3",
+        "parent_instructions.json": "9213a55c4838caf2a94b409dcfb62096e6009077522841ab8dd3196b2df72b30"
+      }
+    },
+    "500/0/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 12.04408042,
+      "2025_return_pct": 9.559713596514161,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -15.764592587748611,
+        "max_drawdown_pct": -24.008121657359386,
+        "average_exposure_pct": 94.75984340119356,
+        "ending_equity": "103403320.6100",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.09839776739981,
+        "max_drawdown_pct": -26.256062377652512,
+        "average_exposure_pct": 94.75785748757201,
+        "ending_equity": "100538454.0100",
+        "sessions": 188
+      },
+      "fills": 9135,
+      "orders": 9305,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.008159233669957454,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -10.268839163006984,
+        "max_drawdown_pct": -26.256062377652512,
+        "average_exposure_pct": 94.77823427351993,
+        "sessions": 431,
+        "ending_equity": "100538454.0100"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 57,
+      "artifact_sha256": {
+        "corporate_ledger.json": "a865db7b91f6986859596acd3fe0992bc3b989ba0b54d5fa92577c95ab79a77d",
+        "daily.csv": "dc34083a624525cc21ba5fdf5ec378667b0c4ca1f97c326b32bcc4cfcf4cef28",
+        "fills.json": "de3c2161c4b479adb539930b337f6f8ba9b4969297eaec4a4308023f76109701",
+        "intents.json": "fe583da88041cdee0271b6d2844cda99cf8e84659f663ec1204f16aa2c7b427e",
+        "orders.json": "53acfe0097491ae448f2fffc2115b89b03d6865d738b5f9308260167ddf41e6b",
+        "ownership.json": "a8205cff7b1ac845e09d2924d98eda7302bb2582e1162968d68fe64ddad9e211",
+        "parent_instructions.json": "d1ac6db10a72eed989c797ca6ba83877f8cadd8ec4283481e56dcadc1c4b0a1f"
+      }
+    },
+    "500/5/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.89216,
+      "2025_return_pct": 4.98190136002445,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -8.86941983987342,
+        "max_drawdown_pct": -15.738633572645243,
+        "average_exposure_pct": 52.75958019220083,
+        "ending_equity": "104177.8000",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.369458416792734,
+        "max_drawdown_pct": -16.258189196611816,
+        "average_exposure_pct": 52.764057663048,
+        "ending_equity": "102463.0000",
+        "sessions": 188
+      },
+      "fills": 611,
+      "orders": 729,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -5.904153246661651,
+        "max_drawdown_pct": -16.258189196611816,
+        "average_exposure_pct": 61.49871514973141,
+        "sessions": 431,
+        "ending_equity": "102463.0000"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "a12a9644845765d15985735e412f334f971a17260aa5501d2179a58a942ce434",
+        "daily.csv": "c67a9d84df2688ecec90f29a9334a6c5cc1978c50c4cb8e4cb4bbcb636f9d4c7",
+        "fills.json": "04a78df5ad3b135359157483f1fa7c379b8d6a87eaf2c85f5d3c0d9896ce7717",
+        "intents.json": "25b3589e4aec8c85739d388f59353599a6a6cce22a2bac0623be94f0225f96ca",
+        "orders.json": "37464d490854afd6c2ae74d2def80e761092889c29e7eb31922a3716f95724df",
+        "ownership.json": "b542b6524afa1fc962a5a9d34b537a0c7cb0aa0a5ecdac872bfd642bf966e2b6",
+        "parent_instructions.json": "0ec708a50a08e1682d62d6f86b3e0eaaa2810bf36b95ec30e02b22efc92ae37e"
+      }
+    },
+    "500/5/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.216169,
+      "2025_return_pct": 8.26292374578906,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.376397300016485,
+        "max_drawdown_pct": -24.150985594270992,
+        "average_exposure_pct": 90.50461024105093,
+        "ending_equity": "997823.9800",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.49052012471635,
+        "max_drawdown_pct": -26.263912910396837,
+        "average_exposure_pct": 90.48036566490751,
+        "ending_equity": "972597.5800",
+        "sessions": 188
+      },
+      "fills": 1180,
+      "orders": 1351,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0008617151450585743,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.755453957032385,
+        "max_drawdown_pct": -26.263912910396837,
+        "average_exposure_pct": 91.60533203031314,
+        "sessions": 431,
+        "ending_equity": "972597.5800"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "1d04de8ec6310d793e209a1bdccba47ed45ed1b5bd77cdb0fda86d9a1ab77660",
+        "daily.csv": "48a914365bc86eafbf9b93c3052560d662748ee541e1bc5a41b6045c3214822f",
+        "fills.json": "96c02ad039172b1f5fee8c8fae1cf37bb31e1202a24df23122115b9d2902a788",
+        "intents.json": "a4f08f788d020fabdb7db3df8139dee148312536cc5e8c1754ae6c2772f08795",
+        "orders.json": "10986111c62de533ff2371879a5c8e978df7ed0b299cf23bc6b8ad2b5699b727",
+        "ownership.json": "c9c33c89c7f5c3548a4dd92dddc2f97bfe3376694e79baed5f33673a7bc9629c",
+        "parent_instructions.json": "3fb3cb8e699d3cb90531d59ed8922422274c2cf3fd9044ae8b3a1c88f66b1572"
+      }
+    },
+    "500/5/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.5486439,
+      "2025_return_pct": 9.045242390350118,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.51121705908297,
+        "max_drawdown_pct": -24.50122106549674,
+        "average_exposure_pct": 94.65143288335874,
+        "ending_equity": "10064408.8700",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.811091927140446,
+        "max_drawdown_pct": -26.73523399653938,
+        "average_exposure_pct": 94.6494676892311,
+        "ending_equity": "9787163.4700",
+        "sessions": 188
+      },
+      "fills": 1601,
+      "orders": 1770,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.004092254126367707,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.467358397871763,
+        "max_drawdown_pct": -26.73523399653938,
+        "average_exposure_pct": 94.80034291366461,
+        "sessions": 431,
+        "ending_equity": "9787163.4700"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "39c9c07d659ebbffdd790d4a4436920b41c7c5494a658771e3bc92d3b3ef0a7c",
+        "daily.csv": "a1c8b98bdc01c872198b120938ded26c90a0da5697506213c81ff0deac10beda",
+        "fills.json": "f56a5bb18cf8490f452314ae06d3a8d448ff842d6e55e39195c0364faa674e6f",
+        "intents.json": "1a6ff44f15623130757ea2ed9f0ede6bb0a83ba5a7ef91d2958233e6da91646a",
+        "orders.json": "ee4788fca2fbe032c362ec9b3d530973382344c9816ed052a0d5ae686ab945d9",
+        "ownership.json": "87e3e1e87dbb0804fa9eb7f6d0f0bc4737045188d0aa7b6168f94f8fb19a306d",
+        "parent_instructions.json": "6dc00827ecd45cb2dd17651c015c196fb777a26a98bbe3aa91b123eabb0a016b"
+      }
+    },
+    "500/5/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 11.73077821,
+      "2025_return_pct": 9.285315341222127,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -15.945600584180216,
+        "max_drawdown_pct": -24.153211470265063,
+        "average_exposure_pct": 94.78291628742403,
+        "ending_equity": "102634904.5600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.27238576482392,
+        "max_drawdown_pct": -26.396105702255817,
+        "average_exposure_pct": 94.78001668491133,
+        "ending_equity": "99793775.7600",
+        "sessions": 188
+      },
+      "fills": 9105,
+      "orders": 9276,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.008159233669957454,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -10.683719062230274,
+        "max_drawdown_pct": -26.396105702255817,
+        "average_exposure_pct": 94.80019379166941,
+        "sessions": 431,
+        "ending_equity": "99793775.7600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 57,
+      "artifact_sha256": {
+        "corporate_ledger.json": "1bcd6c3bcfe78fdfbc7c0d0a4081c9243a25ddaf5bbe7e56c4d7cb0d27bc5787",
+        "daily.csv": "a332d2c8b6fc8589dfe730fcbcc87139a3ddf56209cc8192d1a40a50694f618a",
+        "fills.json": "3a00978d681fcac7ff8bf41d8f688b83a140586b6c47f5b213668f1e3ab9608a",
+        "intents.json": "6ed38c6b015bc1132f0faaf0c6911c3b45d8f7c6f0d157c4bd7488e9cf1b710e",
+        "orders.json": "200dd2e3da99de29647f58663bd7610c28bcf3863c62a3da511165cb98214a90",
+        "ownership.json": "faaa50e8d6f42dfb14d7140a041443cc70f3faa19a200c04951cc3d84544d31d",
+        "parent_instructions.json": "1e8a3c48fb42aa369b867a6b04bafbb00812dd597c263f2c39cb1f2290da0059"
+      }
+    },
+    "500/10/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.56506,
+      "2025_return_pct": 4.346766814295502,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -8.590232365292472,
+        "max_drawdown_pct": -15.47196386029458,
+        "average_exposure_pct": 52.33649482659027,
+        "ending_equity": "103552.7600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.103948364170693,
+        "max_drawdown_pct": -16.022017709753072,
+        "average_exposure_pct": 52.35290058883536,
+        "ending_equity": "101837.9600",
+        "sessions": 188
+      },
+      "fills": 609,
+      "orders": 727,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -6.196376624302515,
+        "max_drawdown_pct": -16.022017709753072,
+        "average_exposure_pct": 61.038401545091986,
+        "sessions": 431,
+        "ending_equity": "101837.9600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "a12a9644845765d15985735e412f334f971a17260aa5501d2179a58a942ce434",
+        "daily.csv": "4e1dfb8c75958d78ff0cd0597d7101c56da082d83bd1480fcefdaaac183c3fcc",
+        "fills.json": "c4ae940c11d2dad88fae127d464004221e7c017cb6b6eca41a02be1cc7296966",
+        "intents.json": "ff5e2fa01ccb777f007dd1bd314d5c8a54b05d2ac2dc0a01cc757553d703f7be",
+        "orders.json": "862fe1e01c19711d257daee35f20429359b70f203da1788c955a2aeef0bae332",
+        "ownership.json": "18c1a7ea314311a14a2eeaddbc769e64fe1eadd92b568e541e513d1d2b94df8d",
+        "parent_instructions.json": "8180e0152c110ec9ac509c75da5e406ba384855cc421ee1f726801d9c876494f"
+      }
+    },
+    "500/10/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.796916,
+      "2025_return_pct": 8.04181694866548,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.1306264718086,
+        "max_drawdown_pct": -23.850922905055572,
+        "average_exposure_pct": 90.32815763881148,
+        "ending_equity": "994913.7200",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.2557319382621,
+        "max_drawdown_pct": -25.976883360219478,
+        "average_exposure_pct": 90.31021580183238,
+        "ending_equity": "969704.3200",
+        "sessions": 188
+      },
+      "fills": 1166,
+      "orders": 1335,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0008617151450585743,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.68200753471072,
+        "max_drawdown_pct": -25.976883360219478,
+        "average_exposure_pct": 91.49595522405491,
+        "sessions": 431,
+        "ending_equity": "969704.3200"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "28a0a4e5a38c0c5fc26a524f5c2fbb4b3d6cb04afc4b67f7ffc7811f3338c96b",
+        "daily.csv": "186c5ec452a50811266c9faca2e9bb960acc937717fd4d95c61ea523d41f4a75",
+        "fills.json": "90f66d6099e68093decfb5825a15276333b02bf5756283e0dd41b7a052fac06c",
+        "intents.json": "4729f6f4697b3848451697369541ca7d9e2d40e98550feee529c13066da4da00",
+        "orders.json": "833a40f48a96dc06dd4bf57e8dec803254404c2bdb303924cadc3d69cfa802d6",
+        "ownership.json": "1ae006d37b89229940cd02d991c340afc83c21d6c3882404b98414bc7d1defec",
+        "parent_instructions.json": "a1a46a0b33647d6d2ca87107b3d44a52da08d0699d4b64a70a9eea720c8cc118"
+      }
+    },
+    "500/10/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.235303,
+      "2025_return_pct": 8.753882955263434,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.655847424881376,
+        "max_drawdown_pct": -24.611146679131256,
+        "average_exposure_pct": 94.68055422424088,
+        "ending_equity": "9991728.1000",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.955619736006653,
+        "max_drawdown_pct": -26.84527073325504,
+        "average_exposure_pct": 94.67895496562421,
+        "ending_equity": "9716019.5000",
+        "sessions": 188
+      },
+      "fills": 1606,
+      "orders": 1773,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.004092254126367707,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.861089545878057,
+        "max_drawdown_pct": -26.84527073325504,
+        "average_exposure_pct": 94.82154138283931,
+        "sessions": 431,
+        "ending_equity": "9716019.5000"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "bb6054e53e9ad19714177a403a740157d5788c5f3101c3a985e595a57c6ba9aa",
+        "daily.csv": "a488ca16cf326b3bf1a204a432ebeb0e02296f9ecca7386c6b224a19b725a7b7",
+        "fills.json": "d300368454dac76d8ea5eeb934098449eae7069922b93e5480d853dfb1c8d14e",
+        "intents.json": "63fc1bed1cd8bdee6e6e943b87c096f77d7559e7689f7015d97251566b6f474d",
+        "orders.json": "9af2fe2f3b47ae3ebb7149471ca4b7e5394d1a5a7d6721ea28c47e8ad850658d",
+        "ownership.json": "6678174dd16177f0cb8840c79e500c21a77f197ef9c45e3aff9ed933ffeaa246",
+        "parent_instructions.json": "ed2ca7f6f69964d7ba554f33e0c3e66945a744103c5e9ea9ffd739cff8c62929"
+      }
+    },
+    "500/10/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 11.41680267,
+      "2025_return_pct": 9.009798135863164,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.125536264754505,
+        "max_drawdown_pct": -24.29633472173493,
+        "average_exposure_pct": 94.81084976335455,
+        "ending_equity": "101869924.2500",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.446948328278054,
+        "max_drawdown_pct": -26.53501304264246,
+        "average_exposure_pct": 94.80688968696766,
+        "ending_equity": "99050447.8500",
+        "sessions": 188
+      },
+      "fills": 9075,
+      "orders": 9245,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.008159233669957454,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.09918299901973,
+        "max_drawdown_pct": -26.53501304264246,
+        "average_exposure_pct": 94.82522761430718,
+        "sessions": 431,
+        "ending_equity": "99050447.8500"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 56,
+      "artifact_sha256": {
+        "corporate_ledger.json": "43bc3bc36818613f4186d73f31ff2306fa9791d18c44ac68efa1cd67f78f8eae",
+        "daily.csv": "4d1785f146c02fe15e1fca9e8ee57652aeff200284150b181101a0a2892e74a7",
+        "fills.json": "1e5c5f66294f0b8ca22ada6c05924cabfaed7f476411595ba221c0dfe7b76b32",
+        "intents.json": "4e2e484c899b0db7b66bc21cb9328adb7234353137e18f8756a48e170bcb64f4",
+        "orders.json": "30955a58e645d7046b6f6576e92dd3fc5cc7da44afc20ca6989d3e1d4bcb6b07",
+        "ownership.json": "9988745c6366f89ec6c31ba557e16fce65d44e06a7420ed25de2e2650f842c80",
+        "parent_instructions.json": "9d65fb5387cfeafaf4fd5e72c7a08ee50141c9cb327eb20327deb90689af3383"
+      }
+    },
+    "500/20/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.05485,
+      "2025_return_pct": 3.978812612298291,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -9.431596429682394,
+        "max_drawdown_pct": -15.661213315058994,
+        "average_exposure_pct": 51.85964902953691,
+        "ending_equity": "101757.3600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.924910205809041,
+        "max_drawdown_pct": -16.705254117655706,
+        "average_exposure_pct": 51.885112689916554,
+        "ending_equity": "100079.5600",
+        "sessions": 188
+      },
+      "fills": 597,
+      "orders": 715,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -7.380779298661745,
+        "max_drawdown_pct": -16.705254117655706,
+        "average_exposure_pct": 60.60042426434921,
+        "sessions": 431,
+        "ending_equity": "100079.5600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "e880db07f79842a52770456f3b71376b1c3e602e2ae08d301f473f56fd40b57b",
+        "daily.csv": "f2ccacc414dbfb2aacae0c599ba6555ff6d656420dd1eb05b74e94f735f9fec9",
+        "fills.json": "85b6ff528b7a2e6cf43359995cf2dbc7a3da7e091112b49e49df7c386a19e1dc",
+        "intents.json": "c6c3eb2bf514bb2cca9f7b204e8a46cfd8b830c94eb2655d0a3f09fe6b9beda9",
+        "orders.json": "15f6cec341190e4e66bd9e6bbd0a69a4389245e7e404f590b002c450442a247a",
+        "ownership.json": "1675c13171d4d60862ad3dbf6ee627c668fa9b2513a0ebbefdb44da21a15c6c5",
+        "parent_instructions.json": "0bacf428651b461e94ed760668f5c42c9082c5d3a95ce39837eeecb9472a4ace"
+      }
+    },
+    "500/20/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.207221,
+      "2025_return_pct": 7.495161881282558,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.471692364550883,
+        "max_drawdown_pct": -24.147890399278367,
+        "average_exposure_pct": 90.56118391606361,
+        "ending_equity": "980559.5100",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.596990357448707,
+        "max_drawdown_pct": -26.276215514689767,
+        "average_exposure_pct": 90.54983599371629,
+        "ending_equity": "955610.1100",
+        "sessions": 188
+      },
+      "fills": 1175,
+      "orders": 1344,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0008617151450585743,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -12.49570300850344,
+        "max_drawdown_pct": -26.276215514689767,
+        "average_exposure_pct": 91.66580147991111,
+        "sessions": 431,
+        "ending_equity": "955610.1100"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "ce1c207dbf0fe3d6e12c5f92838e763bc18153fb1e5d27dd3cbd93b6f1acd8b6",
+        "daily.csv": "28e98bb26ab1b90619f0eb23ceeed5e9a3bc794156a618dc04f4dfb259fcd426",
+        "fills.json": "0741efc9b989d63166c41eee163429cb5359292e1b852a56a2791b0febdf52ec",
+        "intents.json": "4d5f1578c0c02b5be1b94e18be1da288c3499df7c7749b759bffd10f7f5c2c8b",
+        "orders.json": "715fc5b1fdc4507dfdd0c3e85512c23d40dbe49e0f3d21c0b0363024f632ff71",
+        "ownership.json": "0ceb5ad3e7afe4f3412b908ddd5f26121a235132d817774aa43833b45d0e4eb2",
+        "parent_instructions.json": "835a476cb706c20be246e9c2fa95cbc5484557046aec005ffba2b0d59ae2b133"
+      }
+    },
+    "500/20/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.6295113,
+      "2025_return_pct": 8.225761652191183,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -17.018137433090217,
+        "max_drawdown_pct": -24.89745870879566,
+        "average_exposure_pct": 94.65087731347924,
+        "ending_equity": "9845580.0500",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.295957765726726,
+        "max_drawdown_pct": -27.11687236740053,
+        "average_exposure_pct": 94.6494740098859,
+        "ending_equity": "9575322.6500",
+        "sessions": 188
+      },
+      "fills": 1601,
+      "orders": 1769,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.004092254126367707,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -12.657435607851697,
+        "max_drawdown_pct": -27.11687236740053,
+        "average_exposure_pct": 94.83349425680807,
+        "sessions": 431,
+        "ending_equity": "9575322.6500"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "374f795bc2f3db4b174cac967847498383d4c10df06a8769feedf6f7926befe1",
+        "daily.csv": "8b085d0c2feafe686e2815de1db93975a070560a4e1c6b934ce29f397b516c36",
+        "fills.json": "9ff11de5032bf243b2e21550ddd8c276e1a73fef1fa98fea0030e9d31125b6e9",
+        "intents.json": "f511cd55eb72d94980a25c8922afebc758464d61da1b10cccf793378a738fdec",
+        "orders.json": "26f576406cf496577662c2feb2baf5bc3ff6ac8822d69d4d686a38c1ef1ee151",
+        "ownership.json": "217a576ef549afe20f0ef53d2831f746671ebdd840006bf73e00291dce701949",
+        "parent_instructions.json": "9d5f437ecc7116f136e4961ea8e6ab8d928e13a7a0231072e1e1442b20913b9a"
+      }
+    },
+    "500/20/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.79961494,
+      "2025_return_pct": 8.462261484462159,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.498622764616826,
+        "max_drawdown_pct": -24.59628292773152,
+        "average_exposure_pct": 94.8574349545889,
+        "ending_equity": "100348421.4500",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.81029977270606,
+        "max_drawdown_pct": -26.82737357393102,
+        "average_exposure_pct": 94.85234309650123,
+        "ending_equity": "97570345.8500",
+        "sessions": 188
+      },
+      "fills": 9025,
+      "orders": 9195,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.008159233669957454,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.939815041021477,
+        "max_drawdown_pct": -26.82737357393102,
+        "average_exposure_pct": 94.86944214055764,
+        "sessions": 431,
+        "ending_equity": "97570345.8500"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 55,
+      "artifact_sha256": {
+        "corporate_ledger.json": "97eb8ff487f105e39ffb075f76270e9083874ed53277649d2c2b3c125ca0b554",
+        "daily.csv": "c7c56230baa79981dca4f406759eb6f0f34d5c7d1cc1cefe72e788ef14cc5461",
+        "fills.json": "c85608ad4bd466ad0adccaf698462f184371ff6f176cdd39fcb5ef293a56b34f",
+        "intents.json": "eacc34a8fc3fe78c1b3bf529d4785a19f8b0371b6dc0b015b52247a6f5acd2ac",
+        "orders.json": "de3fc5503255b801d16a7e492094040d329c3b1f167ea495ab3ac9d6c95fb918",
+        "ownership.json": "1853fd9a6a31d72aab61d1bcdb99eb9a6432489d8f22874494a5cdc4c9b37108",
+        "parent_instructions.json": "74609e0fd4d14bce0630b7bfea23d551fcdd2977ef23ac72987fe98a736359d6"
+      }
+    },
+    "500/40/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 7.06069,
+      "2025_return_pct": 3.6143238008273624,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -11.266615289018203,
+        "max_drawdown_pct": -17.103467394729975,
+        "average_exposure_pct": 50.897576798693045,
+        "ending_equity": "98432.1300",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -12.77819630919296,
+        "max_drawdown_pct": -18.355935438234262,
+        "average_exposure_pct": 50.96204604561523,
+        "ending_equity": "96755.3300",
+        "sessions": 188
+      },
+      "fills": 605,
+      "orders": 723,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -9.625717898885203,
+        "max_drawdown_pct": -18.355935438234262,
+        "average_exposure_pct": 59.57098281143769,
+        "sessions": 431,
+        "ending_equity": "96755.3300"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "ee33b1d302b25b255c24479ce33d20079a324c94e58d84d7ea9b5e01000cc082",
+        "daily.csv": "5af980afd48fd0c657a8e17917217ef0c38293dbd5e6c267b768a6625a6410d6",
+        "fills.json": "d8fe5ded40b6d12b3596c4453809062d7335fc641e84f6ba527b8db0d784e810",
+        "intents.json": "cc4f75cdd921f858717fb120372e44d4bb59402928735da226754fa8efe3b97c",
+        "orders.json": "cab301b1cd004bfe48742456122e8e5421b51fc93db7274255bc41b4d0e19f50",
+        "ownership.json": "9d6cd05addaba829db263bd0dfb2dcffb94ef8fd43c17c22c4a86ba07406d54a",
+        "parent_instructions.json": "41d085067a8ad641fc8a3de67613895613f04dc3edc57b3c78fd99332409b491"
+      }
+    },
+    "500/40/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 7.984299,
+      "2025_return_pct": 6.747658749907706,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -17.208375681833,
+        "max_drawdown_pct": -24.740135026384742,
+        "average_exposure_pct": 90.36096613863248,
+        "ending_equity": "954344.9400",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.347461993185764,
+        "max_drawdown_pct": -26.871916407142894,
+        "average_exposure_pct": 90.36800261129605,
+        "ending_equity": "929687.5400",
+        "sessions": 188
+      },
+      "fills": 1155,
+      "orders": 1315,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0008617151450585743,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -13.905303955346323,
+        "max_drawdown_pct": -26.871916407142894,
+        "average_exposure_pct": 91.5659738877716,
+        "sessions": 431,
+        "ending_equity": "929687.5400"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "14a307c03b15823a1821638c1bb58e2696ab7b44bbe1004955d021388ff65d19",
+        "daily.csv": "f3d0caa7b78a3d17ed0bb5c7029c72ade12012ec566f825e4aec78e415607f1d",
+        "fills.json": "def55bc86a0fe053838870f57ad67b9c56acf7a3a5a53e6264a69f9b10a3757a",
+        "intents.json": "ed3fc222d9cb92a0dff92280876dc709031751e8a46f00ecfa8f271d35e83dc3",
+        "orders.json": "a71a847ff32435d73403e516fc01d6c9310bea013daebd8ead218f57d5cf3916",
+        "ownership.json": "813d5008b3121a9042ef3c16972f960762e803aace4c3c5c88a232ba11a06522",
+        "parent_instructions.json": "269472e6e1977c9a616e083259efe9722910300f11d6b8306ad3f1b4f96cb3b8"
+      }
+    },
+    "500/40/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.3486205,
+      "2025_return_pct": 7.117136853625192,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -17.792042010540378,
+        "max_drawdown_pct": -25.518533879417102,
+        "average_exposure_pct": 94.75375865081496,
+        "ending_equity": "9541050.6800",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -20.056820018986034,
+        "max_drawdown_pct": -27.72340307475564,
+        "average_exposure_pct": 94.75228402633502,
+        "ending_equity": "9278200.6800",
+        "sessions": 188
+      },
+      "fills": 1587,
+      "orders": 1755,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.004092254126367707,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -14.367154494597372,
+        "max_drawdown_pct": -27.72340307475564,
+        "average_exposure_pct": 94.93023500966876,
+        "sessions": 431,
+        "ending_equity": "9278200.6800"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "b6beae561e9bf3157d59b5c1f4e7b247b7fa32a89af6c47841fa429aa5e49730",
+        "daily.csv": "711857b06601d88995d831e5cd560e1f52278a7161dfaa2d1dea8bc709c00bc7",
+        "fills.json": "d43483734985457f63f61b8e3347b25f60372c19d257195f17f22c8ad7d7a533",
+        "intents.json": "84b95b428f3998c487eaaecd667bd2ad7651abccc74f0da035ec23221f3de117",
+        "orders.json": "e3e1777e1722ad342b6943348c07a7579177d1ce4b9541088e196decba88dd27",
+        "ownership.json": "11a30fefca5b7ad2b80b62147486a1754a1f6cad284bda8a98cff577c1976b6c",
+        "parent_instructions.json": "7a51c8511c64d66faca315e99b7459f897ca8ecfa039b3b998e53ebd472aeb58"
+      }
+    },
+    "500/40/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.57124258,
+      "2025_return_pct": 7.371583199946586,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -17.238539692372463,
+        "max_drawdown_pct": -25.19097389841709,
+        "average_exposure_pct": 94.9475033740861,
+        "ending_equity": "97367515.5700",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.527320930408454,
+        "max_drawdown_pct": -27.404402579234837,
+        "average_exposure_pct": 94.93947130951379,
+        "ending_equity": "94674801.5700",
+        "sessions": 188
+      },
+      "fills": 8920,
+      "orders": 9090,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.008159233669957454,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -13.59521043956751,
+        "max_drawdown_pct": -27.404402579234837,
+        "average_exposure_pct": 94.95697053987226,
+        "sessions": 431,
+        "ending_equity": "94674801.5700"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 54,
+      "artifact_sha256": {
+        "corporate_ledger.json": "eba2b01b80ca45a2ff0b3536792abfe74f0a060d2902c1b77a29e38ccb9e819a",
+        "daily.csv": "a1a98c7749df499929ba503fc535e3863f44f8880db62c0aec33f399cfdefae9",
+        "fills.json": "675535166958efe68c27156fe37bde38b2f8865291b81c8155f3e23bfa11d8fb",
+        "intents.json": "38d02b6dd03f6865da92c7b6e513f1983dd3afb5ae460487e865b129663c420f",
+        "orders.json": "946bac60317610d6d8f874345a966d7ca879cef46b3cdcfaf63ca6418fa5fc04",
+        "ownership.json": "e7759658da29018aa1ac077d366916428e37530bdaca84a6d7ec9d64a55ab379",
+        "parent_instructions.json": "835fa2c6273fdfd4a7e629917f77ed2cb7a367e14d60ada1a18b811b268ae7df"
+      }
+    },
+    "1000/0/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.06934,
+      "2025_return_pct": 5.069243107183008,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -8.74654107088646,
+        "max_drawdown_pct": -15.651611904726067,
+        "average_exposure_pct": 53.38941093133647,
+        "ending_equity": "104574.9400",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.242897954970198,
+        "max_drawdown_pct": -16.142425981562713,
+        "average_exposure_pct": 53.380581155710296,
+        "ending_equity": "102860.1400",
+        "sessions": 188
+      },
+      "fills": 609,
+      "orders": 727,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -5.692892246345306,
+        "max_drawdown_pct": -16.142425981562713,
+        "average_exposure_pct": 61.852857766472226,
+        "sessions": 431,
+        "ending_equity": "102860.1400"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "5e00b7d01e457458154857450ef008d49335b39d475f6f01aba0a0e1cc7721c2",
+        "daily.csv": "ebc645fcb00e974ff460ae7f9359701789b23eadcf802c76854a91cbf8f5b5f5",
+        "fills.json": "8d38c945174eb1e2f2f5f3f31ee3f59d824bc92ea023fd8d48d51b1bcf9f6759",
+        "intents.json": "22ac5430976ce0619d76ba57b2096985e09146e46c7d70891e9584ba62e5ea7f",
+        "orders.json": "5dc352bd7cb1db55edde764ea6352b8f018479b2e64eff7ac1aa73914b028237",
+        "ownership.json": "d4c7b18711192a678d4d9e9ed4ea9c876078a72228d18297f279d285a27476bc",
+        "parent_instructions.json": "d074815ebf9801d050f87f37d326b89f666b0861b3cbac51209d2a6b0e44cba1"
+      }
+    },
+    "1000/0/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.534595,
+      "2025_return_pct": 8.704569822687638,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.077349378586977,
+        "max_drawdown_pct": -23.8748428522791,
+        "average_exposure_pct": 90.28675519944989,
+        "ending_equity": "1008382.3100",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.208725818425815,
+        "max_drawdown_pct": -26.004089677642426,
+        "average_exposure_pct": 90.27793933197852,
+        "ending_equity": "982772.5100",
+        "sessions": 188
+      },
+      "fills": 1178,
+      "orders": 1349,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0008617151450585743,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.089147248424803,
+        "max_drawdown_pct": -26.004089677642426,
+        "average_exposure_pct": 91.59095799423041,
+        "sessions": 431,
+        "ending_equity": "982772.5100"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "50e5b9ede4c77fe850706f3e74c5e430298e26669281e0fb9ed28725278c7182",
+        "daily.csv": "f092106b8980cf33f6b816bcbd606a74e20149acdfb23e4a1f53c8509d1707ec",
+        "fills.json": "8f949330726a128fb26eed5c5b1ef3bb5c2a3b6596533e92cfd88b7cbd9d2e4e",
+        "intents.json": "bc3afe5235face8d3aaaf965faaf87f2c9ea433d6769259212d0f7f0e418ea87",
+        "orders.json": "f9edf836cb539d1e45ad925682cb341b9b5820ba51fc0cfb29f0414658a3e7c7",
+        "ownership.json": "36ff7ba3e2aca5624c64e956599ca92cab77b1eb3c9e56f31fa938aa738ff55f",
+        "parent_instructions.json": "00e444a900a2accad25fb8037d1e953309504fc30555a240dc1cbef5d204321c"
+      }
+    },
+    "1000/0/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.8826356,
+      "2025_return_pct": 9.388806140535138,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.356511101212984,
+        "max_drawdown_pct": -24.371891418537746,
+        "average_exposure_pct": 94.6106082629791,
+        "ending_equity": "10145385.7000",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.663023090892985,
+        "max_drawdown_pct": -26.6137394047026,
+        "average_exposure_pct": 94.60982706748865,
+        "ending_equity": "9865621.5000",
+        "sessions": 188
+      },
+      "fills": 1414,
+      "orders": 1582,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.005290492575141027,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.026452008325098,
+        "max_drawdown_pct": -26.6137394047026,
+        "average_exposure_pct": 94.76576872483022,
+        "sessions": 431,
+        "ending_equity": "9865621.5000"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "45562ece62f828b32ae3b97ac186771e736f9ed1c5c9c75722a516c9c60f87fe",
+        "daily.csv": "db1f265233e7a4e543916fc27a6dc1c0c06827f716d8b71c82087b53755a41d4",
+        "fills.json": "70c1c1bdeeffcf127b7cbebd6fe5a3af8239128d0abcf66296d45f650197fd5f",
+        "intents.json": "c059053dfea0995f8ba4ec59ac52fe001156da844924abb449718e67b18781c8",
+        "orders.json": "7f9236073778890f82dfe14e8a7e2e2acbee3a8ad34d8f6ddcd0a1359582214f",
+        "ownership.json": "7e8c2a5c5536cec9453956d7241e94e4bcdd901da89614122160ce1d675ad4c3",
+        "parent_instructions.json": "447ff34d16b8e860ca1ae28beae30bce256eeda6f1bc47badaa916730c40e898"
+      }
+    },
+    "1000/0/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.93876548,
+      "2025_return_pct": 9.328622087349371,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.063440452700096,
+        "max_drawdown_pct": -24.202168962808326,
+        "average_exposure_pct": 95.04799763867817,
+        "ending_equity": "101804826.3300",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.385627062211235,
+        "max_drawdown_pct": -26.452658167631764,
+        "average_exposure_pct": 95.0450941524075,
+        "ending_equity": "98988296.7300",
+        "sessions": 188
+      },
+      "fills": 4549,
+      "orders": 4717,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.01568165562181713,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -10.772130641884983,
+        "max_drawdown_pct": -26.452658167631764,
+        "average_exposure_pct": 95.07322878158,
+        "sessions": 431,
+        "ending_equity": "98988296.7300"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 14,
+      "artifact_sha256": {
+        "corporate_ledger.json": "b8734fecb3a455edab7d37160c9f64b3b5fc4aca11ff56e96c8464a7f86637fc",
+        "daily.csv": "de5a3897036097e380c57d8af159c52136d5c2902336533406c0f245ff65256d",
+        "fills.json": "38d17240c2b489116492bbf22ec8f76452940354b5be3d3bae29f881f30e1da7",
+        "intents.json": "e4a835f3f5e3d89ada4b5874652459cf77bc06b982c1079c537d0c620a82fd83",
+        "orders.json": "b3efdd47f3d360d57e09b923f0b8724c3df3f470b54d1adf390907da9767cccc",
+        "ownership.json": "9ed3aeb9f7eef20ee816fa669008febad013c75d2d3986ba8a4e888aa5b148fc",
+        "parent_instructions.json": "85738b5984a4c0ca282fa9e6c7e2f480f024d89b4662c808fa59f6521b3880ff"
+      }
+    },
+    "1000/5/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.89216,
+      "2025_return_pct": 4.98190136002445,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -8.86941983987342,
+        "max_drawdown_pct": -15.738633572645243,
+        "average_exposure_pct": 52.75958019220083,
+        "ending_equity": "104177.8000",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.369458416792734,
+        "max_drawdown_pct": -16.258189196611816,
+        "average_exposure_pct": 52.764057663048,
+        "ending_equity": "102463.0000",
+        "sessions": 188
+      },
+      "fills": 611,
+      "orders": 729,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -5.904153246661651,
+        "max_drawdown_pct": -16.258189196611816,
+        "average_exposure_pct": 61.49871514973141,
+        "sessions": 431,
+        "ending_equity": "102463.0000"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "a12a9644845765d15985735e412f334f971a17260aa5501d2179a58a942ce434",
+        "daily.csv": "c67a9d84df2688ecec90f29a9334a6c5cc1978c50c4cb8e4cb4bbcb636f9d4c7",
+        "fills.json": "5185d0c26e1e5142bb83d7907cfe0d09ff3cc46a80b86eac1f2514f414a7bb8c",
+        "intents.json": "25b3589e4aec8c85739d388f59353599a6a6cce22a2bac0623be94f0225f96ca",
+        "orders.json": "d4b96d104efa858bf5fd2ea70e4162c4d2216d4e5b848d877c653f03daacc9e4",
+        "ownership.json": "b542b6524afa1fc962a5a9d34b537a0c7cb0aa0a5ecdac872bfd642bf966e2b6",
+        "parent_instructions.json": "831ffb51dbf7fccd345c92883a524d16c54128c0e0dd0c99f6d1d08ff9b53628"
+      }
+    },
+    "1000/5/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.216169,
+      "2025_return_pct": 8.26292374578906,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.376397300016485,
+        "max_drawdown_pct": -24.150985594270992,
+        "average_exposure_pct": 90.50461024105093,
+        "ending_equity": "997823.9800",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.49052012471635,
+        "max_drawdown_pct": -26.263912910396837,
+        "average_exposure_pct": 90.48036566490751,
+        "ending_equity": "972597.5800",
+        "sessions": 188
+      },
+      "fills": 1180,
+      "orders": 1352,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0008617151450585743,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.755453957032385,
+        "max_drawdown_pct": -26.263912910396837,
+        "average_exposure_pct": 91.60533203031314,
+        "sessions": 431,
+        "ending_equity": "972597.5800"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "1d04de8ec6310d793e209a1bdccba47ed45ed1b5bd77cdb0fda86d9a1ab77660",
+        "daily.csv": "48a914365bc86eafbf9b93c3052560d662748ee541e1bc5a41b6045c3214822f",
+        "fills.json": "53a0a1b97ab7f17069c6b8d1477f8dc07da3d98693163b563eeb8ef0311089a5",
+        "intents.json": "a4f08f788d020fabdb7db3df8139dee148312536cc5e8c1754ae6c2772f08795",
+        "orders.json": "2eafd4f73d0f6a2265615e8aa2391b27e67db26a7641550f6ef802519d728971",
+        "ownership.json": "c9c33c89c7f5c3548a4dd92dddc2f97bfe3376694e79baed5f33673a7bc9629c",
+        "parent_instructions.json": "69fdcb8093101c961d65d0d3033071dd4650ddcb5a85c4dfc1c38fa2326997d4"
+      }
+    },
+    "1000/5/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.5733498,
+      "2025_return_pct": 9.10638722460048,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.538630398337478,
+        "max_drawdown_pct": -24.523741506837997,
+        "average_exposure_pct": 94.63734958600374,
+        "ending_equity": "10068995.5600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.837341048004316,
+        "max_drawdown_pct": -26.75685777950619,
+        "average_exposure_pct": 94.63532747315122,
+        "ending_equity": "9791673.1600",
+        "sessions": 188
+      },
+      "fills": 1416,
+      "orders": 1585,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.005290492575141027,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.446355042053723,
+        "max_drawdown_pct": -26.75685777950619,
+        "average_exposure_pct": 94.79253274786842,
+        "sessions": 431,
+        "ending_equity": "9791673.1600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "da8d0ff6a9af396c7b80795ea01f52d40f9258bd1c6c0f914f9de83fe65e08b7",
+        "daily.csv": "94942fec4d0d8604ba537605522be5eeeace03c654304b8891993b4a8745c00d",
+        "fills.json": "81e494cd1f801aa2e3f1b5eb472bbaacbb61077f19cf0273d03904103acb0b1b",
+        "intents.json": "029b61d3ff8f5ddaff625e2429e6ef6fd3ab5881809cf3471210644017427611",
+        "orders.json": "fc606556362f8eeb73535cd5b66aeafd068621eb3baf78f3c261117a2ceb9d1e",
+        "ownership.json": "6fc8041af91a568c66aeacf4e73e92547fdd88edfde73f48307e9a69890ecea8",
+        "parent_instructions.json": "e049022bb1d21a079c0b8a3bbd2b72237e8a1a3bc64f6fc45cf12336789a916b"
+      }
+    },
+    "1000/5/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.62482736,
+      "2025_return_pct": 9.04586379821854,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.24847841311598,
+        "max_drawdown_pct": -24.349827470766087,
+        "average_exposure_pct": 95.06305070604145,
+        "ending_equity": "101030966.8200",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.566219533735666,
+        "max_drawdown_pct": -26.596478168292162,
+        "average_exposure_pct": 95.06032589411194,
+        "ending_equity": "98235034.0200",
+        "sessions": 188
+      },
+      "fills": 4539,
+      "orders": 4707,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.01568165562181713,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.199830667017096,
+        "max_drawdown_pct": -26.596478168292162,
+        "average_exposure_pct": 95.09228211530848,
+        "sessions": 431,
+        "ending_equity": "98235034.0200"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 14,
+      "artifact_sha256": {
+        "corporate_ledger.json": "55adcf0fd304193d2d256b41770dbcb009e943c808a5aecb9a81dcd62778b7a0",
+        "daily.csv": "5de8f5236a6949b8e1b4f58218b2148e562b3a2d9b30d93fe0f48496d09d4479",
+        "fills.json": "0f46f108d2a0905c717fb1ef20272c1f42be31696a18f1f97c10735cd39e237a",
+        "intents.json": "f7ab71e7ec1e9efac1481ace90b71d14b4258ca879811d40238e834d1630ce06",
+        "orders.json": "3367c6b0e78b6fab50f641b10165529f7c699e623181449445ef1c24135c629c",
+        "ownership.json": "ac52272030108269919b121278f3737b12837848326489c6624d47c6a9fed3bd",
+        "parent_instructions.json": "c720067302b79e932e1e903ac1cce04821afe211c81321d111b70e8f4b055b88"
+      }
+    },
+    "1000/10/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.56506,
+      "2025_return_pct": 4.346766814295502,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -8.590232365292472,
+        "max_drawdown_pct": -15.47196386029458,
+        "average_exposure_pct": 52.33649482659027,
+        "ending_equity": "103552.7600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.103948364170693,
+        "max_drawdown_pct": -16.022017709753072,
+        "average_exposure_pct": 52.35290058883536,
+        "ending_equity": "101837.9600",
+        "sessions": 188
+      },
+      "fills": 609,
+      "orders": 727,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -6.196376624302515,
+        "max_drawdown_pct": -16.022017709753072,
+        "average_exposure_pct": 61.038401545091986,
+        "sessions": 431,
+        "ending_equity": "101837.9600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "a12a9644845765d15985735e412f334f971a17260aa5501d2179a58a942ce434",
+        "daily.csv": "4e1dfb8c75958d78ff0cd0597d7101c56da082d83bd1480fcefdaaac183c3fcc",
+        "fills.json": "7a2c3ffa755bc2b2f4646f716885171252166aed42e9a8628aa1eb18adebf9f4",
+        "intents.json": "ff5e2fa01ccb777f007dd1bd314d5c8a54b05d2ac2dc0a01cc757553d703f7be",
+        "orders.json": "16aa1ac8631f01a2f0912628269af0d0ddd9d78721a94a91d11696a916ae7292",
+        "ownership.json": "18c1a7ea314311a14a2eeaddbc769e64fe1eadd92b568e541e513d1d2b94df8d",
+        "parent_instructions.json": "807f433873e37beb0ca87a67a13b06965e046fc41f0830a3d1fede88f485c040"
+      }
+    },
+    "1000/10/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.796916,
+      "2025_return_pct": 8.04181694866548,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.1306264718086,
+        "max_drawdown_pct": -23.850922905055572,
+        "average_exposure_pct": 90.32815763881148,
+        "ending_equity": "994913.7200",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.2557319382621,
+        "max_drawdown_pct": -25.976883360219478,
+        "average_exposure_pct": 90.31021580183238,
+        "ending_equity": "969704.3200",
+        "sessions": 188
+      },
+      "fills": 1166,
+      "orders": 1336,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0008617151450585743,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.68200753471072,
+        "max_drawdown_pct": -25.976883360219478,
+        "average_exposure_pct": 91.49595522405491,
+        "sessions": 431,
+        "ending_equity": "969704.3200"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "28a0a4e5a38c0c5fc26a524f5c2fbb4b3d6cb04afc4b67f7ffc7811f3338c96b",
+        "daily.csv": "186c5ec452a50811266c9faca2e9bb960acc937717fd4d95c61ea523d41f4a75",
+        "fills.json": "261850537a881d22908008edf453ed01acfb0f988c70c788bb74cbda70ce3600",
+        "intents.json": "4729f6f4697b3848451697369541ca7d9e2d40e98550feee529c13066da4da00",
+        "orders.json": "dea6b76ebfc83503cbc281da9f2ba8f3fc7eb0d2b59da64910bf056ca91546a9",
+        "ownership.json": "1ae006d37b89229940cd02d991c340afc83c21d6c3882404b98414bc7d1defec",
+        "parent_instructions.json": "a2c66f3c64677efa5f6535cc4a4195e6ca8fbc3e118c24fb2fe1ebaadacc17fd"
+      }
+    },
+    "1000/10/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.266208,
+      "2025_return_pct": 8.78624746032801,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.70648064778785,
+        "max_drawdown_pct": -24.657694844741037,
+        "average_exposure_pct": 94.70854298368073,
+        "ending_equity": "9991429.9600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.004924384230886,
+        "max_drawdown_pct": -26.89050608331979,
+        "average_exposure_pct": 94.70654308778785,
+        "ending_equity": "9715721.3600",
+        "sessions": 188
+      },
+      "fills": 1416,
+      "orders": 1584,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.005290492575141027,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.888496609949623,
+        "max_drawdown_pct": -26.89050608331979,
+        "average_exposure_pct": 94.83253989818732,
+        "sessions": 431,
+        "ending_equity": "9715721.3600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "2fa906c34816dd10c8e1ac8b28026c44f946ff3f27b4653b7f1a8db1a0ecf248",
+        "daily.csv": "66e101309f8d340835aa5cf91281e056e9a73a8772a5f48da0ec7d4fc22185b2",
+        "fills.json": "0b8b05206a592694d3d7cf2fbbc52e29fe4dfb8eb31c3ca0539b5f4dd3ce7fe2",
+        "intents.json": "6f5d0d0980e29a29b2c4ea5a66111b1db0699f1cb474d7e698aaa576b9e8976d",
+        "orders.json": "8fb2940b62ff2c993749d91863abc5276931524e2414e33bb586bd9e104da790",
+        "ownership.json": "c9fcae5d58222b730a0c8542159cc2812fc53219d13d12211d3bf1ef8bfa8a8b",
+        "parent_instructions.json": "4322e6de932bcd0e5c5379fe63167018ef6c7ffe98c26acd8804f6247e477c2b"
+      }
+    },
+    "1000/10/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 10.31057433,
+      "2025_return_pct": 8.766490944984639,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.44271548621072,
+        "max_drawdown_pct": -24.50549474405135,
+        "average_exposure_pct": 95.08222030692534,
+        "ending_equity": "100252816.1000",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.756034068785688,
+        "max_drawdown_pct": -26.748264224723318,
+        "average_exposure_pct": 95.07965921103316,
+        "ending_equity": "97477274.7000",
+        "sessions": 188
+      },
+      "fills": 4517,
+      "orders": 4685,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.01568165562181713,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -11.633789152079379,
+        "max_drawdown_pct": -26.748264224723318,
+        "average_exposure_pct": 95.11148920530802,
+        "sessions": 431,
+        "ending_equity": "97477274.7000"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 14,
+      "artifact_sha256": {
+        "corporate_ledger.json": "c67c722a2b6ed7343bdddc8a21a7670c047b89218d68a8f356760eb110389e7a",
+        "daily.csv": "2122a5ea7e98db22c5af7de8363403ada7727a4caee98ccc65ed0a7af02fa6f1",
+        "fills.json": "02a961e23045075e364378a586041202558e30a33ad6d8df1d1a66a1f76851c7",
+        "intents.json": "c8df23686703c592ee8f8e81fc4a12afa0eac345ea2a7dc2516e4619d333dd30",
+        "orders.json": "82c75e7eefa64b62020fa1f3bff34effbfe8f01950b5d821d58bd25e5d3aa303",
+        "ownership.json": "cf93d927a23d433c5e811a608c8f1bf0595418c9038b7406a60af140f9e93bd9",
+        "parent_instructions.json": "8a051436d035cea23624dee225d9a2486355eb9bf3c1fb33eb1bb7c3fdc80c49"
+      }
+    },
+    "1000/20/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.05485,
+      "2025_return_pct": 3.978812612298291,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -9.431596429682394,
+        "max_drawdown_pct": -15.661213315058994,
+        "average_exposure_pct": 51.85964902953691,
+        "ending_equity": "101757.3600",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -10.924910205809041,
+        "max_drawdown_pct": -16.705254117655706,
+        "average_exposure_pct": 51.885112689916554,
+        "ending_equity": "100079.5600",
+        "sessions": 188
+      },
+      "fills": 597,
+      "orders": 715,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -7.380779298661745,
+        "max_drawdown_pct": -16.705254117655706,
+        "average_exposure_pct": 60.60042426434921,
+        "sessions": 431,
+        "ending_equity": "100079.5600"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "e880db07f79842a52770456f3b71376b1c3e602e2ae08d301f473f56fd40b57b",
+        "daily.csv": "f2ccacc414dbfb2aacae0c599ba6555ff6d656420dd1eb05b74e94f735f9fec9",
+        "fills.json": "fd38460b3463ab9237d051d8b488e715b9a3abbb9c04d82989596d624cd1746f",
+        "intents.json": "c6c3eb2bf514bb2cca9f7b204e8a46cfd8b830c94eb2655d0a3f09fe6b9beda9",
+        "orders.json": "b2f712653f95aa20670c81a1223a99942e5d09044a3c7acd0dac4257f9234e1d",
+        "ownership.json": "1675c13171d4d60862ad3dbf6ee627c668fa9b2513a0ebbefdb44da21a15c6c5",
+        "parent_instructions.json": "85e70e1a27f11e35a1166252fdc0e7e71db8a032ccbd4d7df93182583427c492"
+      }
+    },
+    "1000/20/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.207221,
+      "2025_return_pct": 7.495161881282558,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.471692364550883,
+        "max_drawdown_pct": -24.147890399278367,
+        "average_exposure_pct": 90.56118391606361,
+        "ending_equity": "980559.5100",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -18.596990357448707,
+        "max_drawdown_pct": -26.276215514689767,
+        "average_exposure_pct": 90.54983599371629,
+        "ending_equity": "955610.1100",
+        "sessions": 188
+      },
+      "fills": 1175,
+      "orders": 1345,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0008617151450585743,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -12.49570300850344,
+        "max_drawdown_pct": -26.276215514689767,
+        "average_exposure_pct": 91.66580147991111,
+        "sessions": 431,
+        "ending_equity": "955610.1100"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "ce1c207dbf0fe3d6e12c5f92838e763bc18153fb1e5d27dd3cbd93b6f1acd8b6",
+        "daily.csv": "28e98bb26ab1b90619f0eb23ceeed5e9a3bc794156a618dc04f4dfb259fcd426",
+        "fills.json": "f1831bfa0814c02481ac57e03a0d46e52b8288e02f4a6522f654b705ca807bc8",
+        "intents.json": "4d5f1578c0c02b5be1b94e18be1da288c3499df7c7749b759bffd10f7f5c2c8b",
+        "orders.json": "c942751949c5b57ff6e54892433df6f32f20ab2d2ecb25c3b141a4e4aa18344b",
+        "ownership.json": "0ceb5ad3e7afe4f3412b908ddd5f26121a235132d817774aa43833b45d0e4eb2",
+        "parent_instructions.json": "5ba4d6044f5a72a9c41d5b4c19f152c58cc8ace6d380744b5ec12b37cef58481"
+      }
+    },
+    "1000/20/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.6557336,
+      "2025_return_pct": 8.272102426571154,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -17.05438505212349,
+        "max_drawdown_pct": -24.928538726744577,
+        "average_exposure_pct": 94.6506275299136,
+        "ending_equity": "9847848.2100",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.331435623858958,
+        "max_drawdown_pct": -27.147391988138256,
+        "average_exposure_pct": 94.64932931442911,
+        "ending_equity": "9577501.8100",
+        "sessions": 188
+      },
+      "fills": 1412,
+      "orders": 1581,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.005290492575141027,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -12.65844935262008,
+        "max_drawdown_pct": -27.147391988138256,
+        "average_exposure_pct": 94.82391428787061,
+        "sessions": 431,
+        "ending_equity": "9577501.8100"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "529b2af7c1a10e4c303115d4933a3d0cb5dc3f4366f0d5b4b392c3ffdda0fed7",
+        "daily.csv": "cc501c53152d0e0278f7792c763cce45364f2f253fecaeb96df715f6de43e206",
+        "fills.json": "e3a6dce2f3311a6eb82acf1d592e0ccd6d7074d14ac567ecd2dbc5d1aced5dea",
+        "intents.json": "e83146781b4dc82544aa952945422c293a1bfbb5fd87a4accac295d3be2b5032",
+        "orders.json": "9bb72ea18bdf1363e6db8a7d7eea0201d8fd2d0462535926c190530ce8df28df",
+        "ownership.json": "9ef2fa02f84c55bbee7f69916eff7a6ca3d91b6dca913809b2c052cb15085ebe",
+        "parent_instructions.json": "545b0d24ade346c9f1bdbd44c73480477c855729479ed23536478acb70c57ff7"
+      }
+    },
+    "1000/20/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 9.684135,
+      "2025_return_pct": 8.209884428591245,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -16.81394549493253,
+        "max_drawdown_pct": -24.801695308020005,
+        "average_exposure_pct": 95.12401976518062,
+        "ending_equity": "98732759.2200",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.117215769316633,
+        "max_drawdown_pct": -27.036258827885543,
+        "average_exposure_pct": 95.1215184459976,
+        "ending_equity": "95999029.0200",
+        "sessions": 188
+      },
+      "fills": 4486,
+      "orders": 4654,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.01568165562181713,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -12.476832661350706,
+        "max_drawdown_pct": -27.036258827885543,
+        "average_exposure_pct": 95.15428698503486,
+        "sessions": 431,
+        "ending_equity": "95999029.0200"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 14,
+      "artifact_sha256": {
+        "corporate_ledger.json": "68b7cdb29ba36cf4fcdd4bf7b0e9470f3f635c68ab614909cca9a56a64616592",
+        "daily.csv": "ed32096c43addfff44269d563f70f1b9c4f85d40c61a1c13ead786b0b2d81c82",
+        "fills.json": "2c18c899efd809c353d014596197edd40e4ab22fa9cf2e4f4dbf38dac5b42e29",
+        "intents.json": "5323ca60d57a073c9876080fd2d44b991e3a261c6b949b457e170ce66cfea64b",
+        "orders.json": "52545634c0c3e1949f7e0e3faa7798799a421021b3e4fab729e8722eb4bf53e6",
+        "ownership.json": "677258c5882908f541ce5ae11ec8e176532b83f4c7ad1782ed0138fac1719a99",
+        "parent_instructions.json": "e7c9adf6afb60b3c5e91d53d1c00fd13e8baf102e8262aef82e93225019434fe"
+      }
+    },
+    "1000/40/100000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 7.06069,
+      "2025_return_pct": 3.6143238008273624,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -11.266615289018203,
+        "max_drawdown_pct": -17.103467394729975,
+        "average_exposure_pct": 50.897576798693045,
+        "ending_equity": "98432.1300",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -12.77819630919296,
+        "max_drawdown_pct": -18.355935438234262,
+        "average_exposure_pct": 50.96204604561523,
+        "ending_equity": "96755.3300",
+        "sessions": 188
+      },
+      "fills": 605,
+      "orders": 723,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 7.324913380283238e-05,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -9.625717898885203,
+        "max_drawdown_pct": -18.355935438234262,
+        "average_exposure_pct": 59.57098281143769,
+        "sessions": 431,
+        "ending_equity": "96755.3300"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 2,
+      "artifact_sha256": {
+        "corporate_ledger.json": "ee33b1d302b25b255c24479ce33d20079a324c94e58d84d7ea9b5e01000cc082",
+        "daily.csv": "5af980afd48fd0c657a8e17917217ef0c38293dbd5e6c267b768a6625a6410d6",
+        "fills.json": "ad4cd02c7fc2f6cb7d3ebf75477d395db953f5b2dacd8776b871f821cb41c8b8",
+        "intents.json": "cc4f75cdd921f858717fb120372e44d4bb59402928735da226754fa8efe3b97c",
+        "orders.json": "0e41264b37f0c4db774199ecdea7355b2d808c953dbd4ff680c3ccf04917718f",
+        "ownership.json": "9d6cd05addaba829db263bd0dfb2dcffb94ef8fd43c17c22c4a86ba07406d54a",
+        "parent_instructions.json": "8193b97058020fa0c8b47208b6e83a8de36226a24f4a456ac7a1f8af829e6489"
+      }
+    },
+    "1000/40/1000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 7.984299,
+      "2025_return_pct": 6.747658749907706,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -17.208375681833,
+        "max_drawdown_pct": -24.740135026384742,
+        "average_exposure_pct": 90.36096613863248,
+        "ending_equity": "954344.9400",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.347461993185764,
+        "max_drawdown_pct": -26.871916407142894,
+        "average_exposure_pct": 90.36800261129605,
+        "ending_equity": "929687.5400",
+        "sessions": 188
+      },
+      "fills": 1155,
+      "orders": 1316,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0008617151450585743,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -13.905303955346323,
+        "max_drawdown_pct": -26.871916407142894,
+        "average_exposure_pct": 91.5659738877716,
+        "sessions": 431,
+        "ending_equity": "929687.5400"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "14a307c03b15823a1821638c1bb58e2696ab7b44bbe1004955d021388ff65d19",
+        "daily.csv": "f3d0caa7b78a3d17ed0bb5c7029c72ade12012ec566f825e4aec78e415607f1d",
+        "fills.json": "a28501a36d5bba86df1b55b8b29f7432ff26f9211b8d5adf0323307d4fbb47fe",
+        "intents.json": "ed3fc222d9cb92a0dff92280876dc709031751e8a46f00ecfa8f271d35e83dc3",
+        "orders.json": "57fadf150d81893f030a6607b67d9f5d6cdb5204622fd01eb1487c5fedd2601b",
+        "ownership.json": "813d5008b3121a9042ef3c16972f960762e803aace4c3c5c88a232ba11a06522",
+        "parent_instructions.json": "8c06300d3dcb280dea1b6ba3c2c5b80aea042eb79e4b8171cb3ce5e6eaf02821"
+      }
+    },
+    "1000/40/10000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.3710368,
+      "2025_return_pct": 7.157606892988588,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -17.82081533379753,
+        "max_drawdown_pct": -25.55201361688382,
+        "average_exposure_pct": 94.75246435173808,
+        "ending_equity": "9543288.7100",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -20.085010283359377,
+        "max_drawdown_pct": -27.756108176727277,
+        "average_exposure_pct": 94.75109665487578,
+        "ending_equity": "9280352.7100",
+        "sessions": 188
+      },
+      "fills": 1405,
+      "orders": 1573,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.005290492575141027,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -14.365009470869987,
+        "max_drawdown_pct": -27.756108176727277,
+        "average_exposure_pct": 94.92873031551322,
+        "sessions": 431,
+        "ending_equity": "9280352.7100"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 4,
+      "artifact_sha256": {
+        "corporate_ledger.json": "da404c3a15462edf7b5c37596dfd3c1d74e926ea44ae094d39c6043b779615a2",
+        "daily.csv": "f429c7a5a59e7e63ab19b70df4427b8269a018026c5cfb46c992200ce8f35f45",
+        "fills.json": "0623f9906b82c901193c91eede66f320311d34da5deaf7c0f1b0b94165bc28cd",
+        "intents.json": "92c1cfca30c2562bebfea76da3cebf326d587bdfd165bdb6aa1df8e2796b7ae1",
+        "orders.json": "22ed4dfea6524c01841c276efc66c7fd11f8dc047758ab9d1cd28912a493592a",
+        "ownership.json": "e0610ccc3029e77f9948a794b2f83899a742dc979993f1adb0d6e446e74a95fc",
+        "parent_instructions.json": "14fafd96e2a3344e93f428da15243a763a9993c664f0f907e6ff772d229d302f"
+      }
+    },
+    "1000/40/100000000": {
+      "status": "NESTED_EXECUTION_ACCOUNT_RECONCILED",
+      "2024_return_pct": 8.44425272,
+      "2025_return_pct": 7.095061422818019,
+      "2026_through_2026-10-13": {
+        "net_compound_return_pct": -17.5622442794006,
+        "max_drawdown_pct": -25.401218756449467,
+        "average_exposure_pct": 95.20316563288293,
+        "ending_equity": "95741922.6900",
+        "sessions": 185
+      },
+      "2026_through_2026-10-16": {
+        "net_compound_return_pct": -19.848322016874196,
+        "max_drawdown_pct": -27.6208650461618,
+        "average_exposure_pct": 95.20114536653023,
+        "ending_equity": "93086907.6900",
+        "sessions": 188
+      },
+      "fills": 4437,
+      "orders": 4606,
+      "monthly_decisions": 34,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.01568165562181713,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "2025_through_2026-10-16": {
+        "net_compound_return_pct": -14.161511232552114,
+        "max_drawdown_pct": -27.6208650461618,
+        "average_exposure_pct": 95.23496850988136,
+        "sessions": 431,
+        "ending_equity": "93086907.6900"
+      },
+      "development_prefix_reproduced": true,
+      "zero_entitlements_verified": true,
+      "unfilled_parents": 14,
+      "artifact_sha256": {
+        "corporate_ledger.json": "6e8d2f31ae4df4655b6f755f0769186e9b380f48fe7ae2244c3564b5959dac54",
+        "daily.csv": "90b8191d0c0c04f3fb964e5df188b5145c6294db79f3286a0eccc66459755e75",
+        "fills.json": "049ae09681ba2ab092337d02388ee42acda63f2adad90f76eb268acb699df1e2",
+        "intents.json": "dcb031592e13bcf6b6cb05788289a2888d0a8cfc228c0381ec9db686f0910327",
+        "orders.json": "d55b04b6da0e3ada82c5c915c56b90e0822ccc8a6b845f1b960eeeca5b2e1f67",
+        "ownership.json": "b80fc4ee0b562e8ca7ab4273cb9de77560ac048e24a5d473a38d39b2ed51f21e",
+        "parent_instructions.json": "b678e5250b55b68b72b12f860e526bf9f22a94542983fce362036a77b19afc3e"
+      }
+    }
+  },
+  "numeric_threshold_profiles_at_interim_cutoff": [],
+  "development_controls_reproduced": 60,
+  "development_control_tape_sessions": 1082,
+  "full_tape_sessions": 1508,
+  "method_code_sha256": {
+    "scripts/run_low_risk_intraday_replay.py": "801e6abf71eba6ec50d37dcb2782c00a1308406fb1bb6a5e762d72f20dacdfd4",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_broker.py": "0e268152b9bec87e865d09e2cb9acc25cb7c2cccb484044145381bca247e00c3",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/run_reversal_intraday_development.py": "496cfaf5aac3cfeea94d49936a7566b68cf88765066a1aa01490073c5b39d71b",
+    "scripts/return_family_development_inputs.py": "87418d4b1c395d765a19f87ee67ad5b0d1e46d59d2a52fbbc3c326d65d32c69b",
+    "scripts/capture_frozen_target_development_data.py": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "scripts/run_reversal_frozen_2026.py": "f3d9c6122ea273ae0e6078766aab2d83c09616fc550adf326bee911dd6135340",
+    "scripts/reversal_full_inputs.py": "f96d69602c4cdeb75ec1c6ccd9024c5ddffa3e7dc6f447e29be6fe335c0d1398",
+    "scripts/capture_reversal_raw_extension.py": "3056f5aa010f87c7af9845d6fca77644527d66d2a9ad3d5cc1688c1e26d63bff",
+    "scripts/prepare_reversal_frozen_2026_targets.py": "42d478cac0470a524cbd1dc38291472ed65262790f2ddd00fd2b26db6aa51ff8"
+  },
+  "plan_sha256": "26629c4fbc1c022307c6ff4314b6324993bbd27a151a51ba4b50d8e15315b4f5",
+  "derived_events_sha256": "f81fdb0690b61c659ca0ae93e751a84e33d0d31cf0db884a5aae702feaf724a7",
+  "zero_entitlement_proofs_sha256": "43c05d9182a2321caeba9b4b812a151238d38a55474209ccb7c20748566a6f0d",
+  "resolution_receipts_sha256": "9ac2f4cdb331ef826ffadae686546dc822e3c7eed536f2121ff0540309c5c1f9",
+  "development_controls_sha256": "68453e333d21e8dd68de9c83048bd2c1b90cb0a5c7f88266faca07af4cc527ae",
+  "complete_requested_October": false,
+  "queue_and_impact_calibrated": false,
+  "historical_arrival_verified": false,
+  "2026_returns_used_to_change_investment_rule": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}
