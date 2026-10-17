@@ -24,8 +24,11 @@ class CninfoReportAdmissionTests(unittest.TestCase):
         self.assertFalse(original_report("annual", "2023年年度报告补充公告"))
         self.assertTrue(original_report("q1", "2025年第一季度报告"))
         self.assertTrue(original_report("q1", "2024年一季度报告"))
+        self.assertTrue(original_report("q1", "东吴证券2024年第一季度报告.docx"))
         self.assertTrue(original_report("h1", "2024年半年度报告"))
+        self.assertTrue(original_report("h1", "上海电力股份有限公司2025年半年度报告（全文）"))
         self.assertTrue(original_report("q3", "2025年三季度报告"))
+        self.assertFalse(original_report("annual", "锦江酒店年报"))
         self.assertEqual(publication_date(1710432000000), "2024-03-15")
 
     def test_query_rejects_2026_before_network_access(self):

@@ -55,7 +55,8 @@ def original_report(kind, title):
         "h1": r"半年度报告",
         "q3": r"(?:第三季度|三季度)报告",
     }
-    return bool(re.search(r"20\d{2}年?" + endings[kind] + r"(?:全文)?$", title))
+    return bool(re.search(r"20\d{2}年?" + endings[kind]
+                          + r"(?:全文|（全文）|\(全文\)|\.docx)?$", title))
 
 
 def publication_date(ms):
