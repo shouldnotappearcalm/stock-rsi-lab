@@ -1,0 +1,10 @@
+{
+  "status": "TAMPERED_CASH_REJECTED_AT_INDEPENDENT_ACCOUNT_RECONSTRUCTION",
+  "case": "20/eligible_equal_weight",
+  "tamper": "first daily cash +1 CNY; corresponding per-artifact digest rebound in copied summary to bypass simple hash mismatch",
+  "original_artifacts_modified": false,
+  "audit_script_sha256": "8d0a9937bc50579b993b39e2172b84f3ce0184ab7534d8ce82775062d1ca40b8",
+  "returncode": 1,
+  "rejection_location": "close(cash, float(day[cash]), money=True)",
+  "invalid_audit_output_written": false
+}
