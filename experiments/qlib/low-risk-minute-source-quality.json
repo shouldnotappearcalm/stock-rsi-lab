@@ -1,0 +1,87 @@
+{
+  "status": "OLDER_MINUTE_VOLUME_UNRESOLVED_NO_TOLERANCE_RELAXATION",
+  "by_year": {
+    "2024": {
+      "requested_sessions": 459,
+      "daily_volume_unknown": 1,
+      "known_daily_volume_sessions": 458,
+      "exact_volume_matches": 0,
+      "volume_mismatches": 458,
+      "first_open_matches": 458,
+      "last_close_matches": 426
+    },
+    "2025": {
+      "requested_sessions": 462,
+      "daily_volume_unknown": 0,
+      "known_daily_volume_sessions": 462,
+      "exact_volume_matches": 20,
+      "volume_mismatches": 442,
+      "first_open_matches": 462,
+      "last_close_matches": 406
+    },
+    "2026": {
+      "requested_sessions": 378,
+      "daily_volume_unknown": 0,
+      "known_daily_volume_sessions": 378,
+      "exact_volume_matches": 378,
+      "volume_mismatches": 0,
+      "first_open_matches": 378,
+      "last_close_matches": 378
+    }
+  },
+  "mismatch_examples": [
+    {
+      "instrument": "SH600004",
+      "day": "2025-07-01",
+      "minute_total_volume": "11561300",
+      "daily_volume": "11561341"
+    },
+    {
+      "instrument": "SH600004",
+      "day": "2025-08-01",
+      "minute_total_volume": "10677800",
+      "daily_volume": "10677837"
+    },
+    {
+      "instrument": "SH600004",
+      "day": "2025-09-01",
+      "minute_total_volume": "25277000",
+      "daily_volume": "25276992"
+    },
+    {
+      "instrument": "SH600004",
+      "day": "2025-10-09",
+      "minute_total_volume": "20103400",
+      "daily_volume": "20103405"
+    },
+    {
+      "instrument": "SH600004",
+      "day": "2025-11-03",
+      "minute_total_volume": "21435300",
+      "daily_volume": "21435271"
+    }
+  ],
+  "independent_daily_sample": {
+    "instrument": "SH600008",
+    "selection": "first chronological shared frozen-order example, not a sampled policy winner",
+    "sessions_compared": 674,
+    "fields": [
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume"
+    ],
+    "missing_sessions": [],
+    "differences": [],
+    "response_sha256": "94e70968188eae5e2fafa73f31f69d8a0ef225372bcef24fbd1c03e7d9a476ca",
+    "source_url": "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=sh600008&scale=240&ma=no&datalen=1023",
+    "scope": "One-security daily sample only, not validation of all securities or minute/auction volumes"
+  },
+  "audit_script_sha256": "c7270bef0e66538051100a9f21eceebdfa9f04398e91dba9dccf848ad0c16b20",
+  "tape_manifest_sha256": "13ce6f1b1a68f3207e25d3e66c2bff0b59407ccca78f118399884850129469f8",
+  "raw_manifest_sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+  "source_values_renormalized": false,
+  "auction_volume_verified": false,
+  "objective_achieved": false
+}

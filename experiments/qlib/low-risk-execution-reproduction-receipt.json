@@ -1,0 +1,12 @@
+{
+  "status": "EXECUTION_AUDIT_BYTE_EXACT_REPRODUCTION_PASSED",
+  "execution_freeze_commit": "1bb21f8",
+  "execution_plan_sha256": "70a99774a72f0bb171678e9f740f1bd2df00f6c4c8e9ab00b6107c733a8061a3",
+  "execution_results_sha256": "cabeb18e586167310cbcfa73357051c046c369d5b1e505e4294c8f2d7ee4c72a",
+  "source_quality_sha256": "59cdd6f197d417a384e9107bfacbc94cb51dfbba4263ce503b9a57c3109869e1",
+  "full_regression_tests": 171,
+  "all_frozen_economic_core_unchanged": true,
+  "new_alpha_candidates": 0,
+  "results_interpretation": "Original 100m single-order trace invalid; other capital cases still have unresolved older minute/daily source crosschecks. Fixed-fill cost sensitivity is diagnostic only.",
+  "objective_achieved": false
+}
