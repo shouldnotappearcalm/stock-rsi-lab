@@ -9,7 +9,7 @@
     "2026_January_through_October_pct": ">=10"
   },
   "net_definition": "One fixed account policy, executable orders, all configured costs and held-position valuation; no annualization substitute for the 2026 interval.",
-  "latest_available_2026_session": "2026-10-13",
+  "latest_available_2026_session": "2026-10-16",
   "requested_2026_end": "last actual exchange session on or before 2026-10-31",
   "requested_2026_horizon_complete": false,
   "selection_rule": "Economic hypothesis and rule choices use independent sources and pre-2026 development only; fixed 2026 diagnostics must not tune later variants.",
@@ -21,7 +21,14 @@
     "Price/data/source/policy/evaluator hashes and reproducible decision/execution ledger",
     "Honest labeling of consumed 2026 diagnostics and point-in-time data limitations"
   ],
-  "latest_completed_campaign": {
+  "remaining_completion_evidence": [
+    "User horizon clarification or complete requested October coverage",
+    "User capital amount; 100000 CNY scenario fails current numeric goal",
+    "Legal price limits, actual opening auction liquidity and impact verification; daily-volume feasibility is necessary only",
+    "Cash dividend flat 20% reserve is a stress profile; actual FIFO tax not implemented",
+    "Consumed-2026 diagnostic cannot become sealed evidence; original research gate remains REJECTED"
+  ],
+  "prior_normalized_diagnostic": {
     "candidate": "36-month low volatility, historical CSI500 main-board decile, 95% monthly target",
     "2024_net_pct": 21.100987603582677,
     "2025_net_pct": 8.76094793352522,
@@ -40,10 +47,46 @@
     "research_promoted": false,
     "claim_scope": "Fixed separate user-goal diagnostic; partial October; daily open proxy and normalized inventory are not a fully verified physical-share execution account"
   },
-  "remaining_completion_evidence": [
-    "User horizon clarification or complete requested October coverage",
-    "User capital amount for share-lot and capacity verification",
-    "Raw share/cash corporate-action accounting, legal limits, opening liquidity and execution impact verification",
-    "Consumed-2026 diagnostic cannot become sealed evidence"
-  ]
+  "latest_completed_campaign": {
+    "candidate": "Same frozen 36-month low-volatility monthly targets, independently timed raw-share/cash execution account",
+    "result_file": "experiments/qlib/low-risk-raw-share-results.json",
+    "result": "CAPITAL_DEPENDENT_NUMERIC_SUCCESS_AT_INTERIM_CUTOFF_EXECUTION_NOT_FULLY_VERIFIED",
+    "scenario_results_by_initial_CNY": {
+      "100000": {
+        "2024_net_pct": 17.70386,
+        "2025_net_pct": 6.601576192998259,
+        "2026_through_2026_10_16_net_pct": 8.453668193222557,
+        "numeric_conditions_met_at_available_cutoff": false,
+        "account_status": "RAW_SHARE_ACCOUNT_RECONCILED"
+      },
+      "1000000": {
+        "2024_net_pct": 19.952098,
+        "2025_net_pct": 7.948210293078826,
+        "2026_through_2026_10_16_net_pct": 10.68907659099862,
+        "numeric_conditions_met_at_available_cutoff": true,
+        "account_status": "RAW_SHARE_ACCOUNT_RECONCILED"
+      },
+      "10000000": {
+        "2024_net_pct": 20.3534774,
+        "2025_net_pct": 8.135770242397665,
+        "2026_through_2026_10_16_net_pct": 10.983139920044879,
+        "numeric_conditions_met_at_available_cutoff": true,
+        "account_status": "RAW_SHARE_ACCOUNT_RECONCILED"
+      },
+      "100000000": {
+        "2024_net_pct": 20.36620914,
+        "2025_net_pct": 8.14546633980667,
+        "2026_through_2026_10_16_net_pct": 11.010158768019718,
+        "numeric_conditions_met_at_available_cutoff": true,
+        "account_status": "RAW_SHARE_ACCOUNT_RECONCILED"
+      }
+    },
+    "user_selected_capital_CNY": null,
+    "full_requested_October_complete": false,
+    "original_research_gate_status": "REJECTED",
+    "research_promoted": false,
+    "strict_investment_claim_verified": false,
+    "independent_audit_file": "experiments/qlib/low-risk-raw-independent-ledger-audit.json",
+    "policy_changed": false
+  }
 }
