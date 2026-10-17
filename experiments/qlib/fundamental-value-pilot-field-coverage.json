@@ -1,0 +1,17 @@
+{
+  "status": "SCHEMA_FIELD_NONEMPTY_COUNTS_ONLY",
+  "source_manifest_sha256": "12886f2f96547599c7dceb553fa16c5e19764cde995c28a6358560b17d58d409",
+  "financial_rows": 108,
+  "nonempty_by_field": {
+    "roeAvg": 108,
+    "npMargin": 108,
+    "gpMargin": 72,
+    "netProfit": 108,
+    "epsTTM": 108,
+    "MBRevenue": 48,
+    "totalShare": 108,
+    "liqaShare": 108
+  },
+  "empty_values_replaced_with_zero": false,
+  "numeric_vintage_certified_by_nonempty_count": false
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PRIMARY_NUMERIC_AUDIT_SOURCE_REQUEST_ONLY",
+  "selection": "original fixed pilot sample first instrument, both annual fiscal periods2023/2024; no selection by returns",
+  "source_pubdate_matrix_sha256": "8dfaa3dcba79b63c63e61df2a7711f21065f3a1d969ec3b79a52564174937103",
+  "documents": [
+    {
+      "instrument": "SH600166",
+      "statDate": "2023-12-31",
+      "code": "600166",
+      "title": "2023年年度报告",
+      "day": "2024-04-27",
+      "timestamp_ms": 1714147200000,
+      "announcement_id": "1219874919",
+      "pdf_path": "finalpage/2024-04-27/1219874919.PDF"
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2024-12-31",
+      "code": "600166",
+      "title": "2024年年度报告",
+      "day": "2025-04-26",
+      "timestamp_ms": 1745596800000,
+      "announcement_id": "1223327299",
+      "pdf_path": "finalpage/2025-04-26/1223327299.PDF"
+    }
+  ],
+  "maximum_pdf_bytes_per_document": 20971520,
+  "strategy_return_computed": false
+}

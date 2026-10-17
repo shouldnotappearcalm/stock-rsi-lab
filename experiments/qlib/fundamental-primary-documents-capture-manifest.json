@@ -1,0 +1,40 @@
+{
+  "status": "ORIGINAL_ANNUAL_REPORTS_CAPTURED_NUMERIC_AUDIT_PENDING",
+  "request_sha256": "9fc6bba9b13b406e1d89c2c952d5cebd056b3d58b3bc89be6bd690ef7f18b09c",
+  "capture_code_sha256": "cc40d6497e793b5d3e3d91aaf5a8551c3c7bc36f58d6f74e8c8fea8b8e5b5509",
+  "documents": [
+    {
+      "instrument": "SH600166",
+      "statDate": "2023-12-31",
+      "code": "600166",
+      "title": "2023年年度报告",
+      "day": "2024-04-27",
+      "timestamp_ms": 1714147200000,
+      "announcement_id": "1219874919",
+      "pdf_path": "finalpage/2024-04-27/1219874919.PDF",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219874919.PDF",
+      "file": "SH600166-2023-12-31-1219874919.pdf",
+      "sha256": "e7588a7d935897aed750034c6847b0f57ab923c4837484f18e3bf62387b67eef",
+      "bytes": 5163547,
+      "captured_at_utc": "2026-10-17T12:52:40.656061+00:00"
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2024-12-31",
+      "code": "600166",
+      "title": "2024年年度报告",
+      "day": "2025-04-26",
+      "timestamp_ms": 1745596800000,
+      "announcement_id": "1223327299",
+      "pdf_path": "finalpage/2025-04-26/1223327299.PDF",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223327299.PDF",
+      "file": "SH600166-2024-12-31-1223327299.pdf",
+      "sha256": "bce69ed22306f3a0cc5b6a62eef9f2fab05d8a3c148f9715fd86faf937540410",
+      "bytes": 1905003,
+      "captured_at_utc": "2026-10-17T12:52:40.844587+00:00"
+    }
+  ],
+  "financial_values_verified": false,
+  "financial_version_history_complete": false,
+  "strategy_return_computed": false
+}

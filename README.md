@@ -37,6 +37,9 @@ A股模块化投资skill研究项目。首个闭环是**明确时间范围、按
 独立的[日历月 MAX 候选](docs/research/lottery-max-pre2026-results-2026-10-17.md)也完成一次冻结开发检验：
 40bp 费用压力下，2024/2025 为 +16.55%/−1.12%，候选被拒绝，未查询其 2026 收益。
 
+[盈利收益率数据准入](docs/research/fundamental-value-data-results-2026-10-17.md)已取得固定 12 股的日估值与财务小样，
+并核对两份原年报的利润/股本口径；完整历史版本尚未认证，尚无新的策略收益结果。
+
 独立项目，不修改已有a-share-skill。实现取舍来自多个已clone项目的
 [源码审计](docs/research/README.md)，不按现有skill仓库目录直接堆模块。
 

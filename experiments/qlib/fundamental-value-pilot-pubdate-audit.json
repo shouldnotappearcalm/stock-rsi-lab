@@ -1,0 +1,1872 @@
+{
+  "status": "FUNDAMENTAL_PILOT_PUBLICATION_DATE_AUDIT_ONLY",
+  "source_manifest_sha256": "12886f2f96547599c7dceb553fa16c5e19764cde995c28a6358560b17d58d409",
+  "request_sha256": "d72e8e0e98b0d2711d4995c7e7c9200e38c1a33e593f0fafa8dc8fa01c8fc801",
+  "audit_script_sha256": "d71303c49bcaffcd50994fb9b33d4219657ef8e6d9fbf90b5aa7d512851889f3",
+  "codes": [
+    "SH600166",
+    "SH601108",
+    "SH600901",
+    "SH603517",
+    "SH600418",
+    "SH600655",
+    "SZ000825",
+    "SZ000783",
+    "SZ000750",
+    "SZ000933",
+    "SZ002372",
+    "SZ002925"
+  ],
+  "daily_rows": 5832,
+  "schema_valid_pre2026_financial_rows": 108,
+  "captured_unique_query_keys": 120,
+  "query_attempt_reservations": 120,
+  "publication_match_counts": {
+    "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW": 12,
+    "MATCHES_A_PRIMARY_REPORT_DATE": 96
+  },
+  "publication_matrix": [
+    {
+      "instrument": "SH600166",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-31",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600166",
+          "title": "2023年年度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219874919",
+          "pdf_path": "finalpage/2024-04-27/1219874919.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600166",
+          "title": "2024年第一季度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219874911",
+          "pdf_path": "finalpage/2024-04-27/1219874911.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-24",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600166",
+          "title": "2024年半年度报告",
+          "day": "2024-08-24",
+          "timestamp_ms": 1724428800000,
+          "announcement_id": "1220964472",
+          "pdf_path": "finalpage/2024-08-24/1220964472.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600166",
+          "title": "2024年第三季度报告",
+          "day": "2024-10-31",
+          "timestamp_ms": 1730304000000,
+          "announcement_id": "1221574416",
+          "pdf_path": "finalpage/2024-10-31/1221574416.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-04-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600166",
+          "title": "2024年年度报告",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223327299",
+          "pdf_path": "finalpage/2025-04-26/1223327299.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600166",
+          "title": "2025年第一季度报告",
+          "day": "2025-04-29",
+          "timestamp_ms": 1745856000000,
+          "announcement_id": "1223374044",
+          "pdf_path": "finalpage/2025-04-29/1223374044.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-28",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600166",
+          "title": "2025年半年度报告",
+          "day": "2025-08-28",
+          "timestamp_ms": 1756310400000,
+          "announcement_id": "1224600835",
+          "pdf_path": "finalpage/2025-08-28/1224600835.pdf"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600166",
+          "title": "2025年第三季度报告",
+          "day": "2025-10-31",
+          "timestamp_ms": 1761840000000,
+          "announcement_id": "1224776720",
+          "pdf_path": "finalpage/2025-10-31/1224776720.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH601108",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-28",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH601108",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-04-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "601108",
+          "title": "2023年年度报告",
+          "day": "2024-04-26",
+          "timestamp_ms": 1714060800000,
+          "announcement_id": "1219833882",
+          "pdf_path": "finalpage/2024-04-26/1219833882.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH601108",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "601108",
+          "title": "2024年一季度报告",
+          "day": "2024-04-26",
+          "timestamp_ms": 1714060800000,
+          "announcement_id": "1219833863",
+          "pdf_path": "finalpage/2024-04-26/1219833863.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH601108",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "601108",
+          "title": "2024年半年度报告",
+          "day": "2024-08-29",
+          "timestamp_ms": 1724860800000,
+          "announcement_id": "1221026365",
+          "pdf_path": "finalpage/2024-08-29/1221026365.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH601108",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "601108",
+          "title": "2024年第三季度报告",
+          "day": "2024-10-30",
+          "timestamp_ms": 1730217600000,
+          "announcement_id": "1221555936",
+          "pdf_path": "finalpage/2024-10-30/1221555936.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH601108",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-04-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "601108",
+          "title": "2024年年度报告",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223320210",
+          "pdf_path": "finalpage/2025-04-26/1223320210.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH601108",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "601108",
+          "title": "2025年第一季度报告",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223320194",
+          "pdf_path": "finalpage/2025-04-26/1223320194.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH601108",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "601108",
+          "title": "2025年半年度报告",
+          "day": "2025-08-29",
+          "timestamp_ms": 1756396800000,
+          "announcement_id": "1224603007",
+          "pdf_path": "finalpage/2025-08-29/1224603007.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH601108",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "601108",
+          "title": "2025年第三季度报告",
+          "day": "2025-10-30",
+          "timestamp_ms": 1761753600000,
+          "announcement_id": "1224759627",
+          "pdf_path": "finalpage/2025-10-30/1224759627.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600901",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-28",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600901",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600901",
+          "title": "江苏金租：2023年年度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219877383",
+          "pdf_path": "finalpage/2024-04-27/1219877383.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600901",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600901",
+          "title": "江苏金租：2024年一季度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219877373",
+          "pdf_path": "finalpage/2024-04-27/1219877373.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600901",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-17",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600901",
+          "title": "江苏金租：2024年半年度报告",
+          "day": "2024-08-17",
+          "timestamp_ms": 1723824000000,
+          "announcement_id": "1220894347",
+          "pdf_path": "finalpage/2024-08-17/1220894347.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600901",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600901",
+          "title": "江苏金租：2024年第三季度报告",
+          "day": "2024-10-29",
+          "timestamp_ms": 1730131200000,
+          "announcement_id": "1221542087",
+          "pdf_path": "finalpage/2024-10-29/1221542087.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600901",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-04-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600901",
+          "title": "江苏金租：2024年年度报告",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223316139",
+          "pdf_path": "finalpage/2025-04-26/1223316139.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600901",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600901",
+          "title": "江苏金租：2025年第一季度报告",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223316136",
+          "pdf_path": "finalpage/2025-04-26/1223316136.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600901",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-16",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600901",
+          "title": "江苏金租：2025年半年度报告",
+          "day": "2025-08-16",
+          "timestamp_ms": 1755273600000,
+          "announcement_id": "1224499278",
+          "pdf_path": "finalpage/2025-08-16/1224499278.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600901",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-25",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600901",
+          "title": "江苏金租：2025年第三季度报告",
+          "day": "2025-10-25",
+          "timestamp_ms": 1761321600000,
+          "announcement_id": "1224737700",
+          "pdf_path": "finalpage/2025-10-25/1224737700.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH603517",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-26",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH603517",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-04-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "603517",
+          "title": "绝味食品2023年度报告全文",
+          "day": "2024-04-30",
+          "timestamp_ms": 1714406400000,
+          "announcement_id": "1219907586",
+          "pdf_path": "finalpage/2024-04-30/1219907586.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH603517",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "603517",
+          "title": "绝味食品2024年第一季度报告",
+          "day": "2024-04-30",
+          "timestamp_ms": 1714406400000,
+          "announcement_id": "1219907566",
+          "pdf_path": "finalpage/2024-04-30/1219907566.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH603517",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "603517",
+          "title": "绝味食品股份有限公司2024年半年度报告全文",
+          "day": "2024-08-31",
+          "timestamp_ms": 1725033600000,
+          "announcement_id": "1221079626",
+          "pdf_path": "finalpage/2024-08-31/1221079626.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH603517",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-25",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "603517",
+          "title": "绝味食品2024年第三季度报告",
+          "day": "2024-10-25",
+          "timestamp_ms": 1729785600000,
+          "announcement_id": "1221504057",
+          "pdf_path": "finalpage/2024-10-25/1221504057.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH603517",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-04-10",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "603517",
+          "title": "绝味食品2024年年度报告全文",
+          "day": "2025-04-10",
+          "timestamp_ms": 1744214400000,
+          "announcement_id": "1223045873",
+          "pdf_path": "finalpage/2025-04-10/1223045873.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH603517",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-10",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "603517",
+          "title": "绝味食品2025年第一季度报告",
+          "day": "2025-04-10",
+          "timestamp_ms": 1744214400000,
+          "announcement_id": "1223045897",
+          "pdf_path": "finalpage/2025-04-10/1223045897.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH603517",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "603517",
+          "title": "2025年半年度报告",
+          "day": "2025-08-29",
+          "timestamp_ms": 1756396800000,
+          "announcement_id": "1224606772",
+          "pdf_path": "finalpage/2025-08-29/1224606772.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH603517",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "603517",
+          "title": "2025年第三季度报告",
+          "day": "2025-10-29",
+          "timestamp_ms": 1761667200000,
+          "announcement_id": "1224749983",
+          "pdf_path": "finalpage/2025-10-29/1224749983.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600418",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-28",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600418",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-04-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600418",
+          "title": "江淮汽车2023年年度报告",
+          "day": "2024-04-30",
+          "timestamp_ms": 1714406400000,
+          "announcement_id": "1219915147",
+          "pdf_path": "finalpage/2024-04-30/1219915147.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600418",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600418",
+          "title": "江淮汽车2024年第一季度报告",
+          "day": "2024-04-30",
+          "timestamp_ms": 1714406400000,
+          "announcement_id": "1219915156",
+          "pdf_path": "finalpage/2024-04-30/1219915156.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600418",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-28",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600418",
+          "title": "江淮汽车2024年半年度报告",
+          "day": "2024-08-28",
+          "timestamp_ms": 1724774400000,
+          "announcement_id": "1221002359",
+          "pdf_path": "finalpage/2024-08-28/1221002359.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600418",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600418",
+          "title": "江淮汽车2024年第三季度报告",
+          "day": "2024-10-30",
+          "timestamp_ms": 1730217600000,
+          "announcement_id": "1221558375",
+          "pdf_path": "finalpage/2024-10-30/1221558375.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600418",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-03-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600418",
+          "title": "江淮汽车2024年年度报告",
+          "day": "2025-03-29",
+          "timestamp_ms": 1743177600000,
+          "announcement_id": "1222952026",
+          "pdf_path": "finalpage/2025-03-29/1222952026.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600418",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600418",
+          "title": "江淮汽车2025年第一季度报告",
+          "day": "2025-04-30",
+          "timestamp_ms": 1745942400000,
+          "announcement_id": "1223420135",
+          "pdf_path": "finalpage/2025-04-30/1223420135.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600418",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600418",
+          "title": "江淮汽车2025年半年度报告",
+          "day": "2025-08-26",
+          "timestamp_ms": 1756137600000,
+          "announcement_id": "1224572068",
+          "pdf_path": "finalpage/2025-08-26/1224572068.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600418",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600418",
+          "title": "江淮汽车2025年第三季度报告",
+          "day": "2025-10-31",
+          "timestamp_ms": 1761840000000,
+          "announcement_id": "1224776734",
+          "pdf_path": "finalpage/2025-10-31/1224776734.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600655",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-28",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600655",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-03-22",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600655",
+          "title": "上海豫园旅游商城（集团）股份有限公司2023年年度报告",
+          "day": "2024-03-22",
+          "timestamp_ms": 1711036800000,
+          "announcement_id": "1219374764",
+          "pdf_path": "finalpage/2024-03-22/1219374764.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600655",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600655",
+          "title": "上海豫园旅游商城（集团）股份有限公司2024年第一季度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219876354",
+          "pdf_path": "finalpage/2024-04-27/1219876354.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600655",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-24",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600655",
+          "title": "上海豫园旅游商城（集团）股份有限公司2024年半年度报告",
+          "day": "2024-08-24",
+          "timestamp_ms": 1724428800000,
+          "announcement_id": "1220962984",
+          "pdf_path": "finalpage/2024-08-24/1220962984.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600655",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600655",
+          "title": "上海豫园旅游商城（集团）股份有限公司2024年第三季度报告",
+          "day": "2024-10-30",
+          "timestamp_ms": 1730217600000,
+          "announcement_id": "1221560277",
+          "pdf_path": "finalpage/2024-10-30/1221560277.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600655",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-03-25",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600655",
+          "title": "上海豫园旅游商城（集团）股份有限公司2024年年度报告",
+          "day": "2025-03-25",
+          "timestamp_ms": 1742832000000,
+          "announcement_id": "1222881098",
+          "pdf_path": "finalpage/2025-03-25/1222881098.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600655",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600655",
+          "title": "上海豫园旅游商城（集团）股份有限公司2025年第一季度报告",
+          "day": "2025-04-29",
+          "timestamp_ms": 1745856000000,
+          "announcement_id": "1223383799",
+          "pdf_path": "finalpage/2025-04-29/1223383799.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600655",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600655",
+          "title": "豫园股份2025年半年度报告",
+          "day": "2025-08-26",
+          "timestamp_ms": 1756137600000,
+          "announcement_id": "1224564047",
+          "pdf_path": "finalpage/2025-08-26/1224564047.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SH600655",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "600655",
+          "title": "上海豫园旅游商城（集团）股份有限公司2025年第三季度报告",
+          "day": "2025-10-31",
+          "timestamp_ms": 1761840000000,
+          "announcement_id": "1224775518",
+          "pdf_path": "finalpage/2025-10-31/1224775518.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000825",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-31",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000825",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000825",
+          "title": "2023年年度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219865113",
+          "pdf_path": "finalpage/2024-04-27/1219865113.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000825",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000825",
+          "title": "2024年一季度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219865030",
+          "pdf_path": "finalpage/2024-04-27/1219865030.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000825",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000825",
+          "title": "2024年半年度报告",
+          "day": "2024-08-31",
+          "timestamp_ms": 1725033600000,
+          "announcement_id": "1221090371",
+          "pdf_path": "finalpage/2024-08-31/1221090371.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000825",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000825",
+          "title": "2024年三季度报告",
+          "day": "2024-10-31",
+          "timestamp_ms": 1730304000000,
+          "announcement_id": "1221572302",
+          "pdf_path": "finalpage/2024-10-31/1221572302.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000825",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-04-28",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000825",
+          "title": "2024年年度报告",
+          "day": "2025-04-28",
+          "timestamp_ms": 1745769600000,
+          "announcement_id": "1223315831",
+          "pdf_path": "finalpage/2025-04-28/1223315831.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000825",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-28",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000825",
+          "title": "2025年一季度报告",
+          "day": "2025-04-28",
+          "timestamp_ms": 1745769600000,
+          "announcement_id": "1223315796",
+          "pdf_path": "finalpage/2025-04-28/1223315796.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000825",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000825",
+          "title": "2025年半年度报告",
+          "day": "2025-08-30",
+          "timestamp_ms": 1756483200000,
+          "announcement_id": "1224621494",
+          "pdf_path": "finalpage/2025-08-30/1224621494.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000825",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000825",
+          "title": "2025年三季度报告",
+          "day": "2025-10-31",
+          "timestamp_ms": 1761840000000,
+          "announcement_id": "1224772609",
+          "pdf_path": "finalpage/2025-10-31/1224772609.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000783",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-31",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000783",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000783",
+          "title": "2023年年度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219860033",
+          "pdf_path": "finalpage/2024-04-27/1219860033.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000783",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000783",
+          "title": "2024年一季度报告",
+          "day": "2024-04-30",
+          "timestamp_ms": 1714406400000,
+          "announcement_id": "1219903237",
+          "pdf_path": "finalpage/2024-04-30/1219903237.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000783",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-28",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000783",
+          "title": "2024年半年度报告",
+          "day": "2024-08-28",
+          "timestamp_ms": 1724774400000,
+          "announcement_id": "1221004372",
+          "pdf_path": "finalpage/2024-08-28/1221004372.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000783",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000783",
+          "title": "2024年三季度报告",
+          "day": "2024-10-31",
+          "timestamp_ms": 1730304000000,
+          "announcement_id": "1221574305",
+          "pdf_path": "finalpage/2024-10-31/1221574305.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000783",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-04-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000783",
+          "title": "2024年年度报告",
+          "day": "2025-04-29",
+          "timestamp_ms": 1745856000000,
+          "announcement_id": "1223376019",
+          "pdf_path": "finalpage/2025-04-29/1223376019.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000783",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000783",
+          "title": "2025年一季度报告",
+          "day": "2025-04-29",
+          "timestamp_ms": 1745856000000,
+          "announcement_id": "1223376061",
+          "pdf_path": "finalpage/2025-04-29/1223376061.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000783",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000783",
+          "title": "2025年半年度报告",
+          "day": "2025-08-30",
+          "timestamp_ms": 1756483200000,
+          "announcement_id": "1224621279",
+          "pdf_path": "finalpage/2025-08-30/1224621279.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000783",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000783",
+          "title": "2025年三季度报告",
+          "day": "2025-10-31",
+          "timestamp_ms": 1761840000000,
+          "announcement_id": "1224770101",
+          "pdf_path": "finalpage/2025-10-31/1224770101.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000750",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-31",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000750",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-03-09",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000750",
+          "title": "2023年年度报告",
+          "day": "2024-03-09",
+          "timestamp_ms": 1709913600000,
+          "announcement_id": "1219266576",
+          "pdf_path": "finalpage/2024-03-09/1219266576.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000750",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000750",
+          "title": "2024年一季度报告",
+          "day": "2024-04-30",
+          "timestamp_ms": 1714406400000,
+          "announcement_id": "1219912916",
+          "pdf_path": "finalpage/2024-04-30/1219912916.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000750",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-24",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000750",
+          "title": "2024年半年度报告",
+          "day": "2024-08-24",
+          "timestamp_ms": 1724428800000,
+          "announcement_id": "1220965081",
+          "pdf_path": "finalpage/2024-08-24/1220965081.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000750",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000750",
+          "title": "2024年三季度报告",
+          "day": "2024-10-31",
+          "timestamp_ms": 1730304000000,
+          "announcement_id": "1221575773",
+          "pdf_path": "finalpage/2024-10-31/1221575773.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000750",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-03-29",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000750",
+          "title": "2024年年度报告",
+          "day": "2025-03-29",
+          "timestamp_ms": 1743177600000,
+          "announcement_id": "1222948083",
+          "pdf_path": "finalpage/2025-03-29/1222948083.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000750",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000750",
+          "title": "2025年一季度报告",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223322032",
+          "pdf_path": "finalpage/2025-04-26/1223322032.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000750",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000750",
+          "title": "2025年半年度报告",
+          "day": "2025-08-30",
+          "timestamp_ms": 1756483200000,
+          "announcement_id": "1224627276",
+          "pdf_path": "finalpage/2025-08-30/1224627276.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000750",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000750",
+          "title": "2025年三季度报告",
+          "day": "2025-10-31",
+          "timestamp_ms": 1761840000000,
+          "announcement_id": "1224777736",
+          "pdf_path": "finalpage/2025-10-31/1224777736.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000933",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-24",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000933",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-03-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000933",
+          "title": "2023年年度报告",
+          "day": "2024-03-26",
+          "timestamp_ms": 1711382400000,
+          "announcement_id": "1219401996",
+          "pdf_path": "finalpage/2024-03-26/1219401996.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000933",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-23",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000933",
+          "title": "2024年一季度报告",
+          "day": "2024-04-23",
+          "timestamp_ms": 1713801600000,
+          "announcement_id": "1219734880",
+          "pdf_path": "finalpage/2024-04-23/1219734880.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000933",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-20",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000933",
+          "title": "2024年半年度报告",
+          "day": "2024-08-20",
+          "timestamp_ms": 1724083200000,
+          "announcement_id": "1220908357",
+          "pdf_path": "finalpage/2024-08-20/1220908357.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000933",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-22",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000933",
+          "title": "2024年三季度报告",
+          "day": "2024-10-22",
+          "timestamp_ms": 1729526400000,
+          "announcement_id": "1221450558",
+          "pdf_path": "finalpage/2024-10-22/1221450558.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000933",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-03-25",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000933",
+          "title": "2024年年度报告",
+          "day": "2025-03-25",
+          "timestamp_ms": 1742832000000,
+          "announcement_id": "1222881387",
+          "pdf_path": "finalpage/2025-03-25/1222881387.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000933",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-22",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000933",
+          "title": "2025年一季度报告",
+          "day": "2025-04-22",
+          "timestamp_ms": 1745251200000,
+          "announcement_id": "1223185634",
+          "pdf_path": "finalpage/2025-04-22/1223185634.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000933",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-19",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000933",
+          "title": "2025年半年度报告",
+          "day": "2025-08-19",
+          "timestamp_ms": 1755532800000,
+          "announcement_id": "1224503921",
+          "pdf_path": "finalpage/2025-08-19/1224503921.pdf"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ000933",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-21",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "000933",
+          "title": "2025年三季度报告",
+          "day": "2025-10-21",
+          "timestamp_ms": 1760976000000,
+          "announcement_id": "1224721050",
+          "pdf_path": "finalpage/2025-10-21/1224721050.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002372",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-28",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002372",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-04-09",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002372",
+          "title": "2023年年度报告",
+          "day": "2024-04-09",
+          "timestamp_ms": 1712592000000,
+          "announcement_id": "1219540563",
+          "pdf_path": "finalpage/2024-04-09/1219540563.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002372",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002372",
+          "title": "2024年一季度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219857318",
+          "pdf_path": "finalpage/2024-04-27/1219857318.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002372",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-24",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002372",
+          "title": "2024年半年度报告",
+          "day": "2024-08-24",
+          "timestamp_ms": 1724428800000,
+          "announcement_id": "1220961821",
+          "pdf_path": "finalpage/2024-08-24/1220961821.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002372",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002372",
+          "title": "2024年三季度报告",
+          "day": "2024-10-30",
+          "timestamp_ms": 1730217600000,
+          "announcement_id": "1221556226",
+          "pdf_path": "finalpage/2024-10-30/1221556226.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002372",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-04-16",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002372",
+          "title": "2024年年度报告",
+          "day": "2025-04-16",
+          "timestamp_ms": 1744732800000,
+          "announcement_id": "1223102793",
+          "pdf_path": "finalpage/2025-04-16/1223102793.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002372",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-26",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002372",
+          "title": "2025年一季度报告",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223308387",
+          "pdf_path": "finalpage/2025-04-26/1223308387.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002372",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-13",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002372",
+          "title": "2025年半年度报告",
+          "day": "2025-08-13",
+          "timestamp_ms": 1755014400000,
+          "announcement_id": "1224462829",
+          "pdf_path": "finalpage/2025-08-13/1224462829.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002372",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-28",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002372",
+          "title": "2025年三季度报告",
+          "day": "2025-10-28",
+          "timestamp_ms": 1761580800000,
+          "announcement_id": "1224743551",
+          "pdf_path": "finalpage/2025-10-28/1224743551.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002925",
+      "statDate": "2023-09-30",
+      "vendor_pubDate": "2023-10-28",
+      "status": "NO_PRIMARY_IN_EXISTING_METADATA_WINDOW",
+      "primary_report_count": 0,
+      "primary_reports": [],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002925",
+      "statDate": "2023-12-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002925",
+          "title": "2023年年度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219867746",
+          "pdf_path": "finalpage/2024-04-27/1219867746.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002925",
+      "statDate": "2024-03-31",
+      "vendor_pubDate": "2024-04-27",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002925",
+          "title": "2024年一季度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219867705",
+          "pdf_path": "finalpage/2024-04-27/1219867705.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002925",
+      "statDate": "2024-06-30",
+      "vendor_pubDate": "2024-08-22",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002925",
+          "title": "2024年半年度报告",
+          "day": "2024-08-22",
+          "timestamp_ms": 1724256000000,
+          "announcement_id": "1220938768",
+          "pdf_path": "finalpage/2024-08-22/1220938768.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002925",
+      "statDate": "2024-09-30",
+      "vendor_pubDate": "2024-10-30",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002925",
+          "title": "2024年三季度报告",
+          "day": "2024-10-30",
+          "timestamp_ms": 1730217600000,
+          "announcement_id": "1221557628",
+          "pdf_path": "finalpage/2024-10-30/1221557628.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002925",
+      "statDate": "2024-12-31",
+      "vendor_pubDate": "2025-04-25",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002925",
+          "title": "2024年年度报告",
+          "day": "2025-04-25",
+          "timestamp_ms": 1745510400000,
+          "announcement_id": "1223270418",
+          "pdf_path": "finalpage/2025-04-25/1223270418.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002925",
+      "statDate": "2025-03-31",
+      "vendor_pubDate": "2025-04-25",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002925",
+          "title": "2025年一季度报告",
+          "day": "2025-04-25",
+          "timestamp_ms": 1745510400000,
+          "announcement_id": "1223270392",
+          "pdf_path": "finalpage/2025-04-25/1223270392.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002925",
+      "statDate": "2025-06-30",
+      "vendor_pubDate": "2025-08-16",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002925",
+          "title": "2025年半年度报告",
+          "day": "2025-08-16",
+          "timestamp_ms": 1755273600000,
+          "announcement_id": "1224498046",
+          "pdf_path": "finalpage/2025-08-16/1224498046.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    },
+    {
+      "instrument": "SZ002925",
+      "statDate": "2025-09-30",
+      "vendor_pubDate": "2025-10-31",
+      "status": "MATCHES_A_PRIMARY_REPORT_DATE",
+      "primary_report_count": 1,
+      "primary_reports": [
+        {
+          "code": "002925",
+          "title": "2025年三季度报告",
+          "day": "2025-10-31",
+          "timestamp_ms": 1761840000000,
+          "announcement_id": "1224777030",
+          "pdf_path": "finalpage/2025-10-31/1224777030.PDF"
+        }
+      ],
+      "date_match_does_not_certify_numeric_vintage": true
+    }
+  ],
+  "financial_version_history_complete": false,
+  "financial_values_verified_against_original_reports": false,
+  "investment_factor_admitted": false,
+  "strategy_return_computed": false,
+  "2026_market_or_return_values_queried": false,
+  "objective_achieved": false
+}

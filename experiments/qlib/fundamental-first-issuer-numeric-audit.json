@@ -1,0 +1,66 @@
+{
+  "status": "TWO_ORIGINAL_ANNUAL_REPORT_NUMERIC_MAPPING_CHECKS_COMPLETE",
+  "selection": "first instrument in original fixed hash pilot; both annual periods2023/2024",
+  "pilot_manifest_sha256": "12886f2f96547599c7dceb553fa16c5e19764cde995c28a6358560b17d58d409",
+  "primary_capture_manifest_sha256": "7edf73e0346f1580e242adc2c60d913c3568074e0397ae5e2eb76b80f502e647",
+  "cases": [
+    {
+      "instrument": "SH600166",
+      "statDate": "2023-12-31",
+      "publication_day": "2024-04-27",
+      "primary_pdf_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219874919.PDF",
+      "primary_pdf_sha256": "e7588a7d935897aed750034c6847b0f57ab923c4837484f18e3bf62387b67eef",
+      "primary_parent_net_profit_CNY": "909480896.06",
+      "primary_total_net_profit_CNY": "858396742.86",
+      "primary_year_end_total_shares": "8003763475",
+      "vendor_netProfit_CNY": "858396742.860000",
+      "vendor_totalShare": "8003763475.00",
+      "vendor_epsTTM": "0.113632",
+      "parent_income_divided_by_ending_shares": "0.1136316557705373721079382596",
+      "rounded_six_decimal_eps_matches": true,
+      "using_total_net_profit_as_parent_earnings_would_be_wrong": true,
+      "reviewed_source_pages": {
+        "summary": 5,
+        "consolidated_income": 109,
+        "share_capital": 95
+      },
+      "inspection": "pypdf text and rendered original pages; verified row, year column, currency unit and share count",
+      "individual_annual_numeric_mapping_verified": true,
+      "all_historical_versions_certified": false
+    },
+    {
+      "instrument": "SH600166",
+      "statDate": "2024-12-31",
+      "publication_day": "2025-04-26",
+      "primary_pdf_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223327299.PDF",
+      "primary_pdf_sha256": "bce69ed22306f3a0cc5b6a62eef9f2fab05d8a3c148f9715fd86faf937540410",
+      "primary_parent_net_profit_CNY": "80542788.99",
+      "primary_total_net_profit_CNY": "41913726.65",
+      "primary_year_end_total_shares": "7917400367",
+      "vendor_netProfit_CNY": "41913726.650000",
+      "vendor_totalShare": "7917400367.00",
+      "vendor_epsTTM": "0.010173",
+      "parent_income_divided_by_ending_shares": "0.01017288317585973608248627804",
+      "rounded_six_decimal_eps_matches": true,
+      "using_total_net_profit_as_parent_earnings_would_be_wrong": true,
+      "reviewed_source_pages": {
+        "summary": 5,
+        "consolidated_income": 103,
+        "share_capital": 88
+      },
+      "inspection": "pypdf text and rendered original pages; verified row, year column, currency unit and share count",
+      "individual_annual_numeric_mapping_verified": true,
+      "all_historical_versions_certified": false
+    }
+  ],
+  "mapping": {
+    "netProfit": "total consolidated net income; must not be relabeled attributable-parent income",
+    "epsTTM": "for these annual cases, parent annual net income / year-end total shares, rounded to six decimals"
+  },
+  "scope": "Only these2 annual observations; no claim about all108 records, historical correction completeness, every-day capital, all constituents or strategy profitability",
+  "financial_version_history_complete": false,
+  "investment_factor_admitted": false,
+  "strategy_return_computed": false,
+  "2026_market_or_return_values_queried": false,
+  "objective_achieved": false
+}
