@@ -69,16 +69,18 @@ def request_json(url, payload=None):
         return json.load(response)
 
 
-def query(org, code, category, start=START, end=END, max_pages=1):
+def query(org, code, category, start=START, end=END, max_pages=1, fetch=None):
     if not START <= start <= end <= END:
         raise ValueError("CNINFO query crossed pre-2026 pilot window")
+    if fetch is None:
+        fetch = request_json
     payload = {
         "pageNum": "1", "pageSize": "30", "column": "szse", "tabName": "fulltext",
         "plate": "", "stock": f"{code},{org}", "searchkey": "", "secid": "",
         "category": category, "trade": "", "seDate": start + "~" + end,
         "sortName": "", "sortType": "", "isHLtitle": "true",
     }
-    data = request_json(CNINFO + "/new/hisAnnouncement/query", payload)
+    data = fetch(CNINFO + "/new/hisAnnouncement/query", payload)
     total = int(data.get("totalAnnouncement", 0))
     pages = (total + 29) // 30
     if pages > max_pages:
@@ -86,7 +88,7 @@ def query(org, code, category, start=START, end=END, max_pages=1):
     rows = data.get("announcements") or []
     for page in range(2, pages + 1):
         payload["pageNum"] = str(page)
-        rows.extend(request_json(CNINFO + "/new/hisAnnouncement/query", payload).get("announcements") or [])
+        rows.extend(fetch(CNINFO + "/new/hisAnnouncement/query", payload).get("announcements") or [])
     records = []
     for row in rows:
         day = publication_date(row["announcementTime"])
