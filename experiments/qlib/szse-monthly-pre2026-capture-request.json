@@ -1,0 +1,94 @@
+{
+  "status": "FROZEN_SZSE_ORIGINAL_MONTHLY_CAPTURE_BEFORE_STRATEGY_RETURNS",
+  "parent_commit": "21c32de",
+  "months": {
+    "2023-11": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20231207_604888.html"
+    },
+    "2023-12": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20240115_605628.html"
+    },
+    "2024-01": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20240207_606015.html"
+    },
+    "2024-02": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20240312_606257.html"
+    },
+    "2024-03": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20240411_606807.html"
+    },
+    "2024-04": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20240513_607186.html"
+    },
+    "2024-05": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20240607_607623.html"
+    },
+    "2024-06": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20240705_608038.html"
+    },
+    "2024-07": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20240807_608544.html"
+    },
+    "2024-08": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20240909_609280.html"
+    },
+    "2024-09": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20241014_609963.html"
+    },
+    "2024-10": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20241105_610380.html"
+    },
+    "2024-11": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20241204_610800.html"
+    },
+    "2024-12": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20250106_611421.html"
+    },
+    "2025-01": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20250205_611796.html"
+    },
+    "2025-02": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20250306_612208.html"
+    },
+    "2025-03": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20250402_612753.html"
+    },
+    "2025-04": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20250513_613468.html"
+    },
+    "2025-05": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20250609_613960.html"
+    },
+    "2025-06": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20250704_614727.html"
+    },
+    "2025-07": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20250805_615341.html"
+    },
+    "2025-08": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20250905_615827.html"
+    },
+    "2025-09": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20251013_616459.html"
+    },
+    "2025-10": {
+      "article_url": "https://www.szse.cn/market/periodical/month/t20251106_617088.html"
+    }
+  },
+  "discovery_index_sha256": "7b362a54f891546b1cec476a5562e425c2f7459c79a37c2d62717b94552600a2",
+  "discovery_index_is_historical_visibility_proof": false,
+  "unique_query_keys": 48,
+  "max_query_attempt_reservations": 96,
+  "per_query_max_attempts": 2,
+  "method_sha256": {
+    "scripts/capture_szse_monthly_pre2026.py": "2aabcb49513c78a455074c84ff4530a3514aaad61e592d84fcab4238076df570",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "src/stock_rsi/szse_monthly.py": "c3ad059f06694401f4027c592cc71387808c129523a54992f086d0205588a8ef"
+  },
+  "design_file": "docs/research/szse-monthly-value-pre2026-plan-2026-10-17.md",
+  "design_sha256": "3905682eec128ada845dc09a7e9e3446d940d9515a88ed004f9a4051dce800e3",
+  "strategy_returns_computed": false,
+  "2026_market_values_queried": false,
+  "objective_achieved": false
+}
