@@ -376,5 +376,17 @@
     "independent_audit_sha256": "a0a62e3121398188ca2097423127b152ca2aeabfc4bc1de9d90a5f19978e514b",
     "independent_valid_profiles": 60,
     "all_scenario_fills_reconstructed": 234209
+  },
+  "latest_strategy_research": {
+    "status": "PRE2026_LEAD_SELECTED_RAW_CONFIRMATION_PENDING",
+    "result_file": "experiments/qlib/return-families-pre2026-results.json",
+    "candidate_budget": 3,
+    "selected": "contrarian60_12",
+    "selection_uses_2026": false,
+    "reference_CNY": 1000000,
+    "2024_screen_40bp_net_pct": 10.556621727117953,
+    "2025_screen_40bp_net_pct": 8.438597010596727,
+    "claim_status": "NORMALIZED_DAILY_OPEN_ENGINEERING_SCREEN_REQUIRES_RAW_SHARE_INTRADAY_CONFIRMATION",
+    "new_2026_outcomes_queried": false
   }
 }
