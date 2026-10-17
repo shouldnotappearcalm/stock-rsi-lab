@@ -1,0 +1,22 @@
+{
+  "status": "PRE_FEEDBACK_COST_OUTCOME_REVIEW_PASSED",
+  "parent_commit": "7553fb7",
+  "important_findings_fixed": [
+    "Require all three small-capital zero-cost byte-exact controls before any positive cost; only known 100m rejection allowed",
+    "Validate action, integer quantity, 100-share BUY lots and maximum quantity for all decisions before cancelling prior portfolio intent"
+  ],
+  "full_regression_tests": 176,
+  "focused_tests": 5,
+  "plan_sha256": "832e9fa9066303c144cd71e955311f83cfff5c5a66757b1f09de47c7cfc7dad7",
+  "plan_and_all_method_core_source_hashes_independently_checked": true,
+  "new_real_feedback_cost_outcomes_read": false,
+  "new_alpha_candidates": 0,
+  "date_scope": "2023-12-29 formation warmup, invested dates 2024-01-02 through 2026-10-16",
+  "not_claimed": [
+    "Calibrated market impact",
+    "Verified opening auction liquidity",
+    "Resolved older minute tape",
+    "Complete requested October",
+    "Formal research promotion"
+  ]
+}

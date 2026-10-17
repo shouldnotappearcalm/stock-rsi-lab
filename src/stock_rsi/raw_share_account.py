@@ -51,9 +51,9 @@ def plan_integer_targets(equity, positions, weights, prices):
 
 
 class RawShareAccount:
-    def __init__(self, calendar, initial_cash, distributions=(), *, tax_reserve_rate=".2"):
+    def __init__(self, calendar, initial_cash, distributions=(), *, tax_reserve_rate=".2", broker_factory=Broker):
         self.calendar = calendar
-        self.broker = Broker(calendar,initial_cash,buy_cost_bps="5",sell_cost_bps="15",min_cost="5")
+        self.broker = broker_factory(calendar,initial_cash,buy_cost_bps="5",sell_cost_bps="15",min_cost="5")
         self.tax_reserve_rate = money(tax_reserve_rate)
         if not 0 <= self.tax_reserve_rate <= 1:
             raise ValueError("invalid dividend stress reserve")

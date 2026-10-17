@@ -101,8 +101,8 @@ def validate_source_coverage(packets):
                 raise ValueError("unresolved adjustment event: "+code+" "+at)
 
 
-def simulate_fixed_targets(calendar,bars,events,targets,initial_cash):
-    account=RawShareAccount(calendar,initial_cash,events,tax_reserve_rate=".2")
+def simulate_fixed_targets(calendar,bars,events,targets,initial_cash,*,account_factory=RawShareAccount):
+    account=account_factory(calendar,initial_cash,events,tax_reserve_rate=".2")
     initial=Decimal(initial_cash);previous_equity=initial;previous_cash=initial;previous_owned={}
     marks={};rows=[];intents=[];ownership={};capacity=[]
     for number,day in enumerate(calendar.days):
