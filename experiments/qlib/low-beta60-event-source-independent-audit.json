@@ -1,0 +1,38 @@
+{
+  "status": "INDEPENDENT_179_EVENT_ECONOMICS_IDENTITIES_AND_SOURCE_RECEIPTS_RECONSTRUCTED",
+  "audit_code_sha256": "c9fb9620c4e5b7f36e04a499985e03221d0c1c3420cd0c659d2e7efd80dcbc5d",
+  "plan_sha256": "401943c5843e66b437e0c5dd0e645623947eb2bec416494cadc2c55371a43bd6",
+  "summary_sha256": "5e4d59c00b7bb26fed21e5285d0f44930966c13b50d0b6034470be1567a06050",
+  "source_names": 69,
+  "source_sessions": 486,
+  "monthly_targets": 24,
+  "events_reconstructed": 179,
+  "source_kind_counts": {
+    "VENDOR_DISTRIBUTION": 177,
+    "PRIMARY_CASH_PRECISION_CORRECTION": 1,
+    "PRIMARY_NOTICE_SUPPLEMENT": 1
+  },
+  "capital_exemption_proofs_bound": 3,
+  "stock_tax_basis_proofs_bound": 1,
+  "cash_precision_proofs_bound": 1,
+  "negative_controls_rejected": {
+    "vendor_cash_instead_of_primary": true,
+    "wrong_record_date": true,
+    "missing_supplement": true,
+    "duplicate_factor_entitlement": true,
+    "erased_source_receipt": true
+  },
+  "negative_controls_use_hash_gate": false,
+  "effective_primary_cash_per_share": "0.2400974",
+  "original_vendor_cash_per_share": "0.240097",
+  "imports_project_code": false,
+  "input_sources_modified": false,
+  "unexplained_later_factor_date_labels": 5,
+  "raw_account_replay_admitted": false,
+  "full_corporate_actions_certified": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "historical_arrival_certified": false,
+  "portfolio_returns_computed": false,
+  "new_2026_queries": false,
+  "objective_achieved": false
+}
