@@ -1,0 +1,30 @@
+{
+  "status": "RAW_COORDINATE_ADAPTER_SYNTHETIC_VERIFIED_BEFORE_REAL_OUTCOMES",
+  "plan_sha256": "db9ab472409450ecfff462779d0e24e62c10cd31f22100b47fa39f86a8bf9a7a",
+  "full_tests": 319,
+  "full_log_sha256": "89fbef24a6dadccfd2583fb0be1f71c9254e039257fbb4001d15b9fadf4be1b5",
+  "focused_tests": 10,
+  "coordinate_invariance_cases": 300,
+  "preserves_odd_share_balances": true,
+  "actually_filled_extra_lot_and_cash_checked": true,
+  "future_open_does_not_change_prior_intent": true,
+  "unknown_capital_tax_with_ownership_still_rejects": true,
+  "lot_algorithm_hash_matches_original_frozen_development_plan": true,
+  "tolerance_mismatch_regression": {
+    "equity": "20000000200",
+    "held_shares": 10000000000,
+    "weight": ".5",
+    "raw_price": "1.00",
+    "old_bridge_orders": [],
+    "old_bridge_claimed_post_shares": 10000000100,
+    "new_behavior": "REJECT_ALLOCATION_RECEIPT_DIFFERS_FROM_EMITTED_PHYSICAL_ORDERS",
+    "red_log_sha256": "651b5c20b7f73644e7177e0cd9ea1e65df1a6323647ac39857dcdf7159636101",
+    "investment_algorithm_modified": false
+  },
+  "missing_price_rejection_red_log_sha256": "7a53ba7d9d8d7a259bb059f2ee25af84217153ad1765227cdaf9c9d69addce23",
+  "original_absent_adapter_red_log_sha256": "8312e47db4417e28fcf423e620d67830840498c63dcbc8ad492a13a20b46009e",
+  "original_absent_replay_red_log_sha256": "84e6eabf87aaae7289fcfb7c3e715e25a7799a7aea1a624f895440e0ecc51e6e",
+  "real_portfolio_replays_run": 0,
+  "new_2026_queries": false,
+  "objective_achieved": false
+}

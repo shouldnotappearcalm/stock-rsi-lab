@@ -1,0 +1,64 @@
+{
+  "status": "ALL210_AUTHENTICATED_510_EVENTS_COMPILED_THREE_TAX_CASES_REQUIRE_ZERO_ENTITLEMENT_OR_PROOF",
+  "audit_code_sha256": "db5848c32bf4d496b5e9380a10b9220fdbbe4c225291dbd6df31b57397e51ed4",
+  "method_code_sha256": {
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20"
+  },
+  "raw_manifest_sha256": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+  "reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+  "target_sha256": "df77b351b783f8ef1668f52b94d389999a89ed0cf61ad5ded7e6c21321f10cfc",
+  "compiled_events": 510,
+  "cash_and_capital_events": 13,
+  "verified_capital_tax_exemptions": 10,
+  "unverified_capital_tax_events": [
+    {
+      "event_id": "3ef06d52d6050910459596334bacd175c1f067904610243fcdb82d23ec38db0d",
+      "instrument": "SH600161",
+      "ex_date": "2024-06-20",
+      "source_kind": "VENDOR_DISTRIBUTION",
+      "source_row_sha256": "26616a87525edeb30e057e8446ecf8049057116cbd765e6ce66ea1322daed537",
+      "primary_source_sha256": [],
+      "blank_capital_resolved_as_zero": false,
+      "requires_zero_record_ownership_if_tax_unverified": true
+    },
+    {
+      "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+      "instrument": "SH600580",
+      "ex_date": "2025-06-27",
+      "source_kind": "VENDOR_DISTRIBUTION",
+      "source_row_sha256": "717979dca871c1f86078f74c974c7f621cc876b9444b701d0d45bc831563188a",
+      "primary_source_sha256": [],
+      "blank_capital_resolved_as_zero": false,
+      "requires_zero_record_ownership_if_tax_unverified": true
+    },
+    {
+      "event_id": "e36dbcab01391ecdbae9dc3dbca42c938bfbe992f502ba1f5ae5faf5a0623ed2",
+      "instrument": "SH603596",
+      "ex_date": "2024-05-20",
+      "source_kind": "VENDOR_DISTRIBUTION",
+      "source_row_sha256": "0d5156797dd0f0719a13c1a4dfe28af6d6f69ea53453f8893ae8daeaad285b52",
+      "primary_source_sha256": [],
+      "blank_capital_resolved_as_zero": false,
+      "requires_zero_record_ownership_if_tax_unverified": true
+    }
+  ],
+  "verified_stock_dividend_events": 0,
+  "source_distribution_rows_modified": false,
+  "adjustment_factors_used_to_infer_income": false,
+  "artifact_sha256": {
+    "event_source_receipts.json": "47ccaed98c4067fed768b35b04668a033b6f65a1d2c01f38c5a772edf2f85718",
+    "derived_events.json": "328b68a22dd0a09c5fcc9158708ed35091125ca7e918999adf56e7b95eb0dc38"
+  },
+  "portfolio_returns_computed": false,
+  "actual_record_date_entitlements_verified": false,
+  "raw_account_replay_admitted": false,
+  "new_2026_queries": false,
+  "objective_achieved": false
+}
