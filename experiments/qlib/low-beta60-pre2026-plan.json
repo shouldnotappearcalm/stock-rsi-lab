@@ -1,0 +1,77 @@
+{
+  "experiment_id": "single-low-beta60-pre2026-v1",
+  "status": "FROZEN_BEFORE_LOW_BETA60_OUTCOMES",
+  "parent_commit": "805fc06",
+  "families": [
+    "low_beta60"
+  ],
+  "descriptive_controls": [
+    "eligible_equal_weight",
+    "low_vol60_control"
+  ],
+  "candidate_budget": 1,
+  "capital_CNY": 1000000,
+  "user_selected_capital_CNY": null,
+  "extra_bps": [
+    20,
+    40
+  ],
+  "account_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "source": {
+    "doi": "10.2469/faj.v67.n1.4",
+    "title": "Benchmarks as Limits to Arbitrage: Understanding the Low-Volatility Anomaly",
+    "publication_year": 2011,
+    "actual_read_version": "2010-03-22 authorworkingpaper",
+    "primary_pdf_url": "https://pages.stern.nyu.edu/~jwurgler/papers/wurgler_bradley_baker.pdf",
+    "primary_pdf_sha256": "37d1d5196bfa91d0b5abfa68349db4a810a4d212b206107d17917893188f0a95",
+    "read_scope": "PDF1/20/22,60monthly beta/quintile methodology;Ashareadaptation notpaperreplication"
+  },
+  "design_file": "docs/research/low-beta60-pre2026-plan-2026-10-21.md",
+  "design_sha256": "815c6d2e303f812b14c8fff615f1d5357e27cffbab020eafe261efd3856996f5",
+  "signal": "Signed OLS beta withintercept over60complete monthlyadjusted stockreturns againstCSI500priceindex returns; noRF; betaascending/codeascendingties",
+  "exposure_target": 0.95,
+  "portfolio_selection": "lowest floor(N/10),codeascending ties,monthly95percent equalweight",
+  "common_eligibility": "HistoricalmainboardCSI500;positive formation close/factor/volume;61positivefinite consecutive monthlycloses;nondegenerate stock/marketvariance;>=100and>=50percent eligible",
+  "selection_rule": "Only low_beta60 at40bp: both2024/2025netpositive,averageexposure>=90percent,zero unverifiedheldmarks; neithercontrol selectable",
+  "maximum_selected_followup_leads": 1,
+  "following_stage": "same2024/25raw-shareintradayconfirmation, thenonlyfrozen2026diagnostic",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_low_beta60_pre2026.py": "5461b1b2a66bdf083d50fcafcd4a68cee29de6a9f0b72b513a84066d84edca37",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/low_beta60.py": "ec675a9a1f00de768701ee7441c9033f8236d0f7acfa6999a144109b5c8d2def"
+  },
+  "input_sha256": {
+    "price_files": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "market_close_sha256": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4",
+  "gap_state_manifest_sha256": "257f3266d366bcc0c3452329efaae23086940394a3d9368b3fa943df2d311fc7",
+  "initial_targets_sha256": "ee19a560df3b5b669d093191757ea25bf7b1cffef4497af9ee4c5a1873eb995b",
+  "initial_receipts_sha256": "878eaa5f39816e1608ba6396e5bae96052b2fbd312f06c7caf75fa8e1674b327",
+  "independent_csv_audit_code_sha256": "cf16d01041e95415c90469ab7ecd12846b8f3f3f50e2b12c1f31769685df7ba5",
+  "2026_values_queried_for_new_candidate": false,
+  "2026_feedback_to_new_variants": false,
+  "sealed_evidence": false,
+  "objective_achieved": false,
+  "formation_request_sha256": "07a91056c263e112f7d0bc6fa52b6f6bb73ddbd34b526ef2138e0e62dd543656",
+  "formation_summary_sha256": "827b031cc3e3bca7385497aff30eba2ddcadd15ff2ff651edb4199de2715dabd",
+  "formation_independent_audit_sha256": "955f6a405926bb1df4f91c817691d97c3f29e2b2025ea6d82c28dd339a3c89a9",
+  "physical_source_files_extend_into_2026": true,
+  "date_indexed_2026_values_used_in_formations": false,
+  "primary_literature_capture_manifest_sha256": "68d0f1794e910ee69e2b1259330823d3aef8c584b3804d241aabd61e85ca2556"
+}

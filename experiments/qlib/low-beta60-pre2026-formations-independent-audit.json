@@ -1,0 +1,22 @@
+{
+  "status": "INDEPENDENT_LOW_BETA60_FORMATIONS_AUDIT_PASSED",
+  "audit_script_sha256": "cf16d01041e95415c90469ab7ecd12846b8f3f3f50e2b12c1f31769685df7ba5",
+  "request_sha256": "07a91056c263e112f7d0bc6fa52b6f6bb73ddbd34b526ef2138e0e62dd543656",
+  "summary_sha256": "827b031cc3e3bca7385497aff30eba2ddcadd15ff2ff651edb4199de2715dabd",
+  "targets_sha256": "ee19a560df3b5b669d093191757ea25bf7b1cffef4497af9ee4c5a1873eb995b",
+  "receipts_sha256": "878eaa5f39816e1608ba6396e5bae96052b2fbd312f06c7caf75fa8e1674b327",
+  "formations": 24,
+  "eligible_range": [
+    326,
+    338
+  ],
+  "independent_equations": "60 monthly normal-equation OLS with intercept; annualized sample variance; signed ascending beta; code ties",
+  "source_method_design_bindings_verified": true,
+  "all_exclusions_ranks_controls_weights_match": true,
+  "date_indexed_2026_values_read": false,
+  "physical_full_source_bytes_hashed": true,
+  "portfolio_returns_computed": false,
+  "imports_project_code": false,
+  "network_queries": 0,
+  "discrepancies": []
+}

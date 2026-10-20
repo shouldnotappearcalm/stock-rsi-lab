@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "LOW_BETA60_FROZEN_FORMATIONS_PENDING_NO_ROI",
+    "status": "LOW_BETA60_FORMATIONS_FROZEN_ACCOUNT_REQUEST_PENDING_NO_ROI",
     "candidate": "low_beta60",
     "candidate_budget": 1,
     "adaptive_development_not_sealed": true,
@@ -396,7 +396,14 @@
     "raw_share_execution_verified": false,
     "candidate_promoted": false,
     "objective_achieved": false,
-    "next_action": "Freeze/push then generate only24 monthlyformation receipts andtargets,authenticate andfreeze separateaccount request before anydevelopmentROI."
+    "next_action": "Independently verify formations; freeze/push accountrequest andCSV auditor identity before20/40cost development runs.",
+    "formation_summary_file": "experiments/qlib/low-beta60-pre2026-formations-summary.json",
+    "eligible_range": [
+      326,
+      338
+    ],
+    "initial_targets_sha256": "ee19a560df3b5b669d093191757ea25bf7b1cffef4497af9ee4c5a1873eb995b",
+    "initial_receipts_sha256": "878eaa5f39816e1608ba6396e5bae96052b2fbd312f06c7caf75fa8e1674b327"
   },
   "strategy_research_history": [
     {
