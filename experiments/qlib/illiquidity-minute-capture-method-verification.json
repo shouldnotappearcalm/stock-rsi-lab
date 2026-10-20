@@ -1,0 +1,20 @@
+{
+  "status": "MINUTE_SOURCE_CAPTURE_METHOD_FROZEN_BEFORE_NEW_CALLS",
+  "request_sha256": "421cbea0abfa7be3b026ba011018db93cd877b52337322f7899fdda062dfdf03",
+  "plan_sha256": "2cea2c6748e94c1ff9e8adfde8960e386ca03af6cd32ffd0c28ee34c88382dde",
+  "test_command": "PYTHONPATH=src python -m unittest discover -s tests -v",
+  "tests": 281,
+  "exit_code": 0,
+  "test_log_sha256": "06a9ac3925c29a0cd372d6d21e7e406d57ab0ccb7931b1458e54cf71d9abb2f9",
+  "new_behavior_tests": 5,
+  "new_tests_red_before_green": true,
+  "independent_focused_tests": 5,
+  "independent_focused_exit_code": 0,
+  "integrity_findings_fixed_before_new_queries": 2,
+  "primary_packets_authenticated_upfront": true,
+  "new_query_reservations_before_freeze": 0,
+  "admitted_for_reconstructed_execution": false,
+  "portfolio_returns_computed": false,
+  "2026_market_values_queried": false,
+  "objective_achieved": false
+}
