@@ -1,0 +1,90 @@
+{
+  "frozen_file_bindings": 67,
+  "raw_packets": 69,
+  "minute_packets": 1332,
+  "events": 179,
+  "results": {
+    "100/20": {
+      "returns": [
+        10.933862,
+        1.063642767615897
+      ],
+      "exposure": 93.48516423392957,
+      "days": 486,
+      "intents": 24,
+      "parents": 691,
+      "children": 756,
+      "fills": 739,
+      "corporate_entries": 451
+    },
+    "100/40": {
+      "returns": [
+        10.330647,
+        0.7899944609225396
+      ],
+      "exposure": 93.49448407560178,
+      "days": 486,
+      "intents": 24,
+      "parents": 685,
+      "children": 750,
+      "fills": 733,
+      "corporate_entries": 451
+    },
+    "500/20": {
+      "returns": [
+        10.617843,
+        1.0337147868630923
+      ],
+      "exposure": 93.58453428703392,
+      "days": 486,
+      "intents": 24,
+      "parents": 699,
+      "children": 724,
+      "fills": 717,
+      "corporate_entries": 451
+    },
+    "500/40": {
+      "returns": [
+        9.893811,
+        0.7561272035601714
+      ],
+      "exposure": 93.55637601846449,
+      "days": 486,
+      "intents": 24,
+      "parents": 683,
+      "children": 705,
+      "fills": 698,
+      "corporate_entries": 451
+    },
+    "1000/20": {
+      "returns": [
+        10.614878,
+        1.033742495290733
+      ],
+      "exposure": 93.58618166482746,
+      "days": 486,
+      "intents": 24,
+      "parents": 699,
+      "children": 724,
+      "fills": 717,
+      "corporate_entries": 451
+    },
+    "1000/40": {
+      "returns": [
+        9.892806,
+        0.7703852789053361
+      ],
+      "exposure": 93.5534133579458,
+      "days": 486,
+      "intents": 24,
+      "parents": 682,
+      "children": 704,
+      "fills": 697,
+      "corporate_entries": 451
+    }
+  },
+  "limitations": [
+    "event economic projection reused after hash/equality check; independent primary PDF extraction is parent auditor scope",
+    "snapshot hash semantics not independently reconstructed here; parent quantities and record identity links checked"
+  ]
+}
