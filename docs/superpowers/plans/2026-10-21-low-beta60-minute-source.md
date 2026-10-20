@@ -1,6 +1,6 @@
 # Low-beta60 minute source Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Capture and admit the complete frozen pre2026 prefix without changing investment rules or querying2026.
 
@@ -31,11 +31,11 @@
 
 **Interfaces:** Consumes existing gap identities, raw/calendar/targets hashes and all reusable manifest SHA. Produces `capture_prefix(base,out,reused,fresh,plan,fetch)` manifest and immutable sessions/queries; CLI flags --source-root --request --plan --expected-plan-sha256 --output-dir. `fetch(code,day)` returns decoded source response; production callback owns one bounded client.
 
-- [ ] Write tests for unchanged reused bytes, one fresh call per identity, restart success/failure reuse, reserved interrupted attempt, stop3 across restart, future/duplicate/overlap rejection and corrupted reuse prefetch rejection.
-- [ ] Run `PYTHONPATH=src python -m unittest discover -s tests -p test_low_beta60_minute_capture.py -v`; observe missing interface failure.
-- [ ] Implement bounded capture and CLI evidence authentication with existing helpers; preserve partial manifest on abnormal exit.
-- [ ] Run full `PYTHONPATH=src python -m unittest discover -s tests -v`; all pass.
-- [ ] Freeze code/request/spec/SDK/budget hashes, commit+push before first live source call, then execute foreground with logs; retain all failures.
+- [x] Write tests for unchanged reused bytes, one fresh call per identity, restart success/failure reuse, reserved interrupted attempt, stop3 across restart, future/duplicate/overlap rejection and corrupted reuse prefetch rejection.
+- [x] Run `PYTHONPATH=src python -m unittest discover -s tests -p test_low_beta60_minute_capture.py -v`; observe missing interface failure.
+- [x] Implement bounded capture and CLI evidence authentication with existing helpers; preserve partial manifest on abnormal exit.
+- [x] Run full `PYTHONPATH=src python -m unittest discover -s tests -v`; all pass.
+- [x] Freeze code/request/spec/SDK/budget hashes, commit+push before first live source call, then execute foreground with logs; retain all failures.
 
 ### Task 2: Complete source admission and publication
 
