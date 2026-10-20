@@ -1,0 +1,78 @@
+{
+  "experiment_id": "single-illiquidity22-pre2026-v1",
+  "status": "FROZEN_BEFORE_ILLIQUIDITY_OUTCOMES",
+  "parent_commit": "b08ba42",
+  "families": [
+    "amihud22"
+  ],
+  "candidate_budget": 1,
+  "capital_CNY": 1000000,
+  "user_selected_capital_CNY": null,
+  "extra_bps": [
+    20,
+    40
+  ],
+  "account_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "source": [
+    {
+      "title": "Illiquidity and stock returns: cross-section and time-series effects",
+      "publication_year": 2002,
+      "doi": "10.1016/S1386-4181(01)00024-6"
+    },
+    {
+      "title": "Historical ILLIQ:22 trading days moving average",
+      "url": "https://vlab.stern.nyu.edu/docs/liquidity/ILLIQ-HIST"
+    },
+    {
+      "title": "China's illiquidity premium: Due to risk-taking or mispricing?",
+      "publication_year": 2022,
+      "doi": "10.1016/j.pacfin.2022.101861",
+      "read_scope": "publisher abstract only"
+    }
+  ],
+  "design_file": "docs/research/illiquidity-pre2026-plan-2026-10-20.md",
+  "design_sha256": "cb09ec107a76d39daaa166dd707b00b7d8a0403e5099d1600f13860579158372",
+  "signal": "Mean22 explicit daily abs(adjusted close return)/(1000*source amount);23 closing prices with one prior baseline; source amount units thousandCNY",
+  "common_eligibility": "23 positive finite prices;22 positive finite amount/volume values;positive currentfactor; >=100 and >=80% historical mainboardCSI500 names",
+  "exposure_target": 0.95,
+  "portfolio_selection": "top floor(N/10) Amihud22;code-ascending ties;monthly95% equalweight",
+  "control": "same eligible names95% equal-weight; descriptive, not risk-matched",
+  "selection_rule": "At40bp only: both2024/2025 net positive, average exposure>=90%, zero unverified held marks; no replacement variants",
+  "maximum_selected_followup_leads": 1,
+  "following_stage": "same2024/25 raw-share intraday confirmation, then only frozen2026 diagnostic",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_illiquidity_pre2026.py": "877604b0b9e65ac2ecd4c2ab35e61b3bca2f6e2b06d7f2249d0afdd315c866ec",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/illiquidity.py": "43927a97e91a62a43cc67969972e4b4e2319373768d07e6d5ae959ea580c66e8",
+    "experiments/qlib/audit_sources/2026-10-20-illiquidity-amount-unit-audit.py": "57421fab81d43a2bf1c5d0da658cc48e687cdd21e2d3788fd011c22bc75fcf8a"
+  },
+  "input_sha256": {
+    "price_files": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "gap_state_manifest_sha256": "257f3266d366bcc0c3452329efaae23086940394a3d9368b3fa943df2d311fc7",
+  "initial_targets_sha256": "5b7055881d1f428e3f15a02a60700326890b2a1db0eea510cca04960469b19fc",
+  "initial_receipts_sha256": "1c3a4f8037af815d595732bc2127f2030f47645bba639fb40f6f19166ebf3dcf",
+  "independent_csv_audit_code_sha256": "5d0ba43e37a4454db6863f47e26792a2192b911cf10aff1191866035b8047574",
+  "2026_values_queried_for_new_candidate": false,
+  "2026_feedback_to_new_variants": false,
+  "sealed_evidence": false,
+  "objective_achieved": false,
+  "amount_unit_audit_file": "experiments/qlib/illiquidity-amount-unit-audit.json",
+  "amount_unit_audit_sha256": "727977c579eef2781766714f9fb16ae97f3bb19d0e4036d02e37fad71691d5dc"
+}
