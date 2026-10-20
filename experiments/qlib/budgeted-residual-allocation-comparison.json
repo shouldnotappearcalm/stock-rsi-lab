@@ -1,0 +1,110 @@
+{
+  "status": "SAME_SIGNAL_ALLOCATION_MODULE_DEVELOPMENT_COMPARISON_COMPLETE",
+  "old_summary_sha256": "734b4b22f18530623dee5d7efeb54ea5d37f67183ac2e14a0a912b53415437c9",
+  "new_summary_sha256": "6bc4c15aeb6ee4e174d6d5276432e9b5c474fc1e4819cb19438ecfe0d65e7c17",
+  "independent_audit_sha256": "80320de4ded684b94c375e9b153702ceee17b6078a77971f41859266ca02e2e4",
+  "profiles": {
+    "20/eligible_equal_weight": {
+      "2024_return_pct_delta": 0.6883226708825916,
+      "2025_return_pct_delta": 12.342550198682044,
+      "average_exposure_pct_delta": 34.63489716570285,
+      "max_drawdown_pct_delta": -6.298196819936697,
+      "allocation_intents": 24,
+      "allocation_steps": 4235,
+      "allocation_step_actions": {
+        "ONE_BUY_LOT": 885,
+        "CANCEL_REMAINING_SELL": 737,
+        "REDUCE_SELL_ONE_LOT": 2613
+      },
+      "mean_initial_planned_exposure_pct": 65.56954716052287,
+      "mean_final_planned_exposure_pct": 94.49029289933485,
+      "all_priorclose_notional_budgets_respected": true
+    },
+    "20/total_mom12_2_control": {
+      "2024_return_pct_delta": 0.058896484036652375,
+      "2025_return_pct_delta": 1.9692657035210956,
+      "average_exposure_pct_delta": 5.6053394887586165,
+      "max_drawdown_pct_delta": -0.80459142399123,
+      "allocation_intents": 24,
+      "allocation_steps": 368,
+      "allocation_step_actions": {
+        "ONE_BUY_LOT": 254,
+        "CANCEL_REMAINING_SELL": 23,
+        "REDUCE_SELL_ONE_LOT": 91
+      },
+      "mean_initial_planned_exposure_pct": 90.4950236888496,
+      "mean_final_planned_exposure_pct": 94.75981497266037,
+      "all_priorclose_notional_budgets_respected": true
+    },
+    "20/market_residual_mom36_12_2": {
+      "2024_return_pct_delta": 0.03128617525021138,
+      "2025_return_pct_delta": 1.3506243478595543,
+      "average_exposure_pct_delta": 4.847981221824227,
+      "max_drawdown_pct_delta": -0.7872562002845491,
+      "allocation_intents": 24,
+      "allocation_steps": 367,
+      "allocation_step_actions": {
+        "ONE_BUY_LOT": 250,
+        "CANCEL_REMAINING_SELL": 36,
+        "REDUCE_SELL_ONE_LOT": 81
+      },
+      "mean_initial_planned_exposure_pct": 90.82852072592364,
+      "mean_final_planned_exposure_pct": 94.80300678464961,
+      "all_priorclose_notional_budgets_respected": true
+    },
+    "40/eligible_equal_weight": {
+      "2024_return_pct_delta": 0.6383669069488951,
+      "2025_return_pct_delta": 12.528056855418003,
+      "average_exposure_pct_delta": 34.663216303821464,
+      "max_drawdown_pct_delta": -6.30463512290177,
+      "allocation_intents": 24,
+      "allocation_steps": 4243,
+      "allocation_step_actions": {
+        "ONE_BUY_LOT": 874,
+        "REDUCE_SELL_ONE_LOT": 2619,
+        "CANCEL_REMAINING_SELL": 750
+      },
+      "mean_initial_planned_exposure_pct": 65.50494759585837,
+      "mean_final_planned_exposure_pct": 94.42467089154952,
+      "all_priorclose_notional_budgets_respected": true
+    },
+    "40/total_mom12_2_control": {
+      "2024_return_pct_delta": 0.36155615578856715,
+      "2025_return_pct_delta": 1.8731316339888764,
+      "average_exposure_pct_delta": 5.542924267777693,
+      "max_drawdown_pct_delta": -0.6705674580002174,
+      "allocation_intents": 24,
+      "allocation_steps": 368,
+      "allocation_step_actions": {
+        "ONE_BUY_LOT": 238,
+        "CANCEL_REMAINING_SELL": 33,
+        "REDUCE_SELL_ONE_LOT": 97
+      },
+      "mean_initial_planned_exposure_pct": 90.4098430866019,
+      "mean_final_planned_exposure_pct": 94.78750600114063,
+      "all_priorclose_notional_budgets_respected": true
+    },
+    "40/market_residual_mom36_12_2": {
+      "2024_return_pct_delta": 0.22924499448182534,
+      "2025_return_pct_delta": 1.7680665198658074,
+      "average_exposure_pct_delta": 5.003763598670858,
+      "max_drawdown_pct_delta": -0.861633318047005,
+      "allocation_intents": 24,
+      "allocation_steps": 387,
+      "allocation_step_actions": {
+        "ONE_BUY_LOT": 268,
+        "CANCEL_REMAINING_SELL": 31,
+        "REDUCE_SELL_ONE_LOT": 88
+      },
+      "mean_initial_planned_exposure_pct": 90.74436930677052,
+      "mean_final_planned_exposure_pct": 94.76490259618079,
+      "all_priorclose_notional_budgets_respected": true
+    }
+  },
+  "signal_and_target_hashes_unchanged": true,
+  "old_rejection_preserved": true,
+  "new2026_outcomes_queried": false,
+  "raw_share_execution_verified": false,
+  "objective_achieved": false,
+  "claim_scope": "One deterministic module intervention in engineering daily-open replay; not evidence that agent-guided RSI beats equal-budget search"
+}

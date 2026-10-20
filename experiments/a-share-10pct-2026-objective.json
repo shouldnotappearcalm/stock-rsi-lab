@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "BUDGETED_RESIDUAL_FROZEN_PENDING_DEVELOPMENT",
+    "status": "BUDGETED_RESIDUAL_DAILY_DEVELOPMENT_PASSED_RAW_INTRADAY_PENDING",
     "candidate": "market_residual_mom36_12_2",
     "candidate_budget": 1,
     "editable_module": "priorclose_integer_lot_allocation_only",
@@ -395,7 +395,21 @@
     "new_2026_outcomes_queried": false,
     "raw_share_confirmation_run": false,
     "candidate_promoted": false,
-    "objective_achieved": false
+    "objective_achieved": false,
+    "freeze_commit": "feab53b73e8081ebcb43cfe37562286e25be4218",
+    "result_file": "experiments/qlib/budgeted-residual-pre2026-results.json",
+    "independent_csv_audit_file": "experiments/qlib/budgeted-residual-pre2026-independent-csv-audit.json",
+    "module_comparison_file": "experiments/qlib/budgeted-residual-allocation-comparison.json",
+    "independent_development_gate_passes": true,
+    "independently_reconstructed_binary_formations": 24,
+    "independently_reconstructed_csv_profiles": 6,
+    "independently_reconstructed_allocation_intents": 144,
+    "target_universe_names": 210,
+    "2024_reference_net_pct": 4.966851603678379,
+    "2025_reference_net_pct": 7.96089954924355,
+    "average_reference_exposure_pct": 94.63247083163103,
+    "reference_max_drawdown_pct": -20.946105729505582,
+    "candidate_unverified_held_marks": 0
   },
   "strategy_research_history": [
     {
