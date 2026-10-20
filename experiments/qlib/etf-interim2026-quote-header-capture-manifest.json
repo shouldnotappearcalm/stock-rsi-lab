@@ -1,0 +1,43 @@
+{
+  "status": "ETF_ACTION_AND_RULE_ORIGINALS_CAPTURE_FINISHED_REVIEW_SEPARATE",
+  "request_sha256": "af564c873d846d880669ce931349a2389c5202d4161c980c44cd46370f9732d8",
+  "documents": {},
+  "actions": {},
+  "errors": {
+    "SH510300": {
+      "error_type": "ValueError",
+      "error": "source query attempts exhausted: 9272c7ce5b0137588964f1783d4c6b7140c3b39248bd347121b587ed97fdcfe6"
+    },
+    "SH510500": {
+      "error_type": "ValueError",
+      "error": "source query attempts exhausted: 5e1f581d7efea2eb4107965de753583c7da7df73eca969a76a21623d972a3bdb"
+    },
+    "SZ159915": {
+      "error_type": "ValueError",
+      "error": "source query attempts exhausted: 10c40097067caab481c3503a23fcb7c36f5c3aabba44791e369be21ebe189426"
+    }
+  },
+  "captured_documents": 0,
+  "extracted_fund_pages": 0,
+  "HTTP_query_reservations": 3,
+  "artifact_sha256": {
+    "errors.json": "a28735c3ee120df3f8f745b2d4e2482a4488fedd798ab75346e90314a340ab8b",
+    "queries/10c40097067caab481c3503a23fcb7c36f5c3aabba44791e369be21ebe189426/request.json": "bf2efa6eacbcc10ca66b6bdb20e25e4bcc29a42479e79bb404a7e0d21d0befa9",
+    "queries/10c40097067caab481c3503a23fcb7c36f5c3aabba44791e369be21ebe189426/reserved-1.json": "d6f273956ae03fce52fdea5ae4c806d2dcf0e4064903b1fa17ed809f3c280138",
+    "queries/10c40097067caab481c3503a23fcb7c36f5c3aabba44791e369be21ebe189426/response-1.json": "4afb24843995c890f3694758b423a845518bea8ca1e38a6a6cda2fcb5ddeb37d",
+    "queries/5e1f581d7efea2eb4107965de753583c7da7df73eca969a76a21623d972a3bdb/request.json": "a0936f7946642b191e6b90ee3c0691f35a60885fda90d4d68ea6ae5ceb224874",
+    "queries/5e1f581d7efea2eb4107965de753583c7da7df73eca969a76a21623d972a3bdb/reserved-1.json": "6cfbfe138a8d304cddb9a82229b7dc9a56dcbad879609bcb527432f75dff5345",
+    "queries/5e1f581d7efea2eb4107965de753583c7da7df73eca969a76a21623d972a3bdb/response-1.json": "2dfa7011f9479e0cec787afd6573488b17491a3dfa8ef20b495cb4764e2bf2ad",
+    "queries/9272c7ce5b0137588964f1783d4c6b7140c3b39248bd347121b587ed97fdcfe6/request.json": "460c91af3171b993e605c117f4151e591165851bce041b31af8b7fb1019c01fd",
+    "queries/9272c7ce5b0137588964f1783d4c6b7140c3b39248bd347121b587ed97fdcfe6/reserved-1.json": "edec7e9a384fd48103ea230d40f815443d846a387cb0862f577cf25122b5f942",
+    "queries/9272c7ce5b0137588964f1783d4c6b7140c3b39248bd347121b587ed97fdcfe6/response-1.json": "32eb92d925efe49fe95bcd46e23699ca53671ef56f0b85c00d5eebee4a0038fa",
+    "request.json": "af564c873d846d880669ce931349a2389c5202d4161c980c44cd46370f9732d8"
+  },
+  "full_pages_may_contain_current_or_2026_auxiliary_content": true,
+  "auxiliary_content_admitted_into_decisions": false,
+  "primary_event_truth_certified": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

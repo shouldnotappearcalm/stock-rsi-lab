@@ -1,0 +1,72 @@
+{
+  "status": "FROZEN_THREE_TENCENT_RAW_ETF_OVERLAP_IDENTITIES",
+  "parent_commit": "dfa9fe6d0783cf728360db5907dcfb9c1d9102ad",
+  "sources": [
+    {
+      "id": "SH510300",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_day2025&param=sh510300%2Cday%2C2025-01-01%2C2026-10-20%2C640%2C&r=0.8205512681390605",
+      "kind": "price_jsonp",
+      "role": "raw_ETF_history_with2025_cross_provider_overlap",
+      "file": "SH510300-tencent-raw-wire.txt"
+    },
+    {
+      "id": "SH510500",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_day2025&param=sh510500%2Cday%2C2025-01-01%2C2026-10-20%2C640%2C&r=0.8205512681390605",
+      "kind": "price_jsonp",
+      "role": "raw_ETF_history_with2025_cross_provider_overlap",
+      "file": "SH510500-tencent-raw-wire.txt"
+    },
+    {
+      "id": "SZ159915",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_day2025&param=sz159915%2Cday%2C2025-01-01%2C2026-10-20%2C640%2C&r=0.8205512681390605",
+      "kind": "price_jsonp",
+      "role": "raw_ETF_history_with2025_cross_provider_overlap",
+      "file": "SZ159915-tencent-raw-wire.txt"
+    }
+  ],
+  "window": [
+    "2025-01-01",
+    "2026-10-20"
+  ],
+  "maximum_http_queries": 3,
+  "max_attempts_per_identity": 1,
+  "minimum_interval_seconds": 0.3,
+  "maximum_body_bytes": 10485760,
+  "method_code_sha256": {
+    "scripts/capture_etf_tencent_interim2026.py": "6730b02b7550c8371247017550bd7925c49b7109eeeab421e67e1911faa146ef",
+    "scripts/capture_etf_action_sources.py": "051c86c386e96301400e9e00dbf4ff785acd78cbc22f952cf2194391cad59a3f",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "local_source_sha256": {
+    "etf-interim2026-originals-20261021/manifest.json": "19d829e93ddd31bac957c23385df810575ff1683ebd733e9c8cf505b3badbb32",
+    "etf-interim2026-quote-header-originals-20261021/manifest.json": "df095df832c65657e7ae0abf5231ff64fd4977aba06adca509d31a5d047eab36",
+    "etf-prior2-12-physical-development-20261021/summary.json": "948c10412f05ef37cc568414601de866cf814614d0c4e18f242065e5b5d58cea",
+    "etf-prior2-12-independent-audit-20261021.json": "6efbb96bced0ee314b358a25a8dfa08b4232df3c59358de66e5f9538af98503a",
+    "etf-relative-eastmoney-development-20261021/manifest.json": "517ef1a4ebb7b2e0d562516c05c44dd598d15d6c63a0e078835d9a466d98e85c",
+    "low-risk-raw-account-data-20261017/calendar.json": "4bd04e2784a52654c2d066558e77d799d6b08e1139e332cf56817909db22d0d7",
+    "etf-interim2026-actions-derived-20261021/summary.json": "73113b38ed293c49ade6304654d796c6f59ca5bad0c9b71e24a1bc675bdd28aa"
+  },
+  "public_evidence_sha256": {
+    "docs/research/etf-tencent-interim2026-source-plan-2026-10-21.md": "46eff631096bcf9496039398891bc824ada550a82b3fd81d6928daf55f92dc0d",
+    "docs/research/etf-prior2-12-interim2026-source-plan-2026-10-21.md": "80a223a727ea784e119888a955577fc8d683eb055e983056054b00c5ccefdb97",
+    "experiments/qlib/etf-prior2-12-pre2026-replay-request.json": "c7933685469539c70d4fddeeba643efb8b2ba5b8936e8df920fc3f8d922298c7",
+    "tests/test_etf_tencent_scope.py": "9984180cf4fe8afcff5b4d5810be274fdaecee8603aa8b367bba6baa9618b7d7",
+    "src/stock_rsi/etf_prior2_12.py": "7124203e1ea6cfb0285fb62d18ea73c84b3493e93879313e80f7f811c0bfeb48",
+    "src/stock_rsi/etf_replay_v2.py": "fb1f42a19dfd14175489293d0982ff57e61eb5c95809fe93c9e9d99cc34ec196"
+  },
+  "previous_Eastmoney_price_attempts": 6,
+  "previous_successful_Eastmoney_2026_price_responses": 0,
+  "old_failed_manifests_unchanged": true,
+  "overlap_2025_required_against_frozen_raw_OHLC": true,
+  "expected_2025_overlap_sessions": 243,
+  "expected_2026_sessions_if_complete_through_cutoff": 190,
+  "adjustment_mode": "empty_RAW_day_node_only",
+  "candidate_method_changed": false,
+  "portfolio_returns_authorized_in_this_capture": false,
+  "historical_arrival_certified": false,
+  "opening_execution_certified": false,
+  "primary_action_completeness_certified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
