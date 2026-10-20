@@ -1,0 +1,71 @@
+{
+  "status": "FROZEN_THREE_2026_CASH_NOTICE_PDFS_AND_ONE_SSE_RULE_DOCX",
+  "parent_commit": "dba19cd74b397fea8e90c039bc683252a8c971dd",
+  "sources": [
+    {
+      "id": "SH510300-2026-01-19",
+      "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-01-12/510300_20260112_VTCZ.pdf",
+      "kind": "rule_pdf",
+      "role": "cash_distribution_notice",
+      "file": "SH510300-2026-01-19.pdf",
+      "publication_day": "2026-01-12",
+      "host_role": "SSE_hosted_manager_original"
+    },
+    {
+      "id": "SH510500-2026-01-16",
+      "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-01-09/510500_20260109_5K7U.pdf",
+      "kind": "rule_pdf",
+      "role": "cash_distribution_notice",
+      "file": "SH510500-2026-01-16.pdf",
+      "publication_day": "2026-01-09",
+      "host_role": "SSE_hosted_manager_original"
+    },
+    {
+      "id": "SH510500-2026-07-15",
+      "url": "https://static.howbuy.com/gkxx/ggfile//2026/2026-7/2026-07-08/5355354.pdf",
+      "kind": "rule_pdf",
+      "role": "cash_distribution_notice",
+      "file": "SH510500-2026-07-15.pdf",
+      "publication_day": "2026-07-08",
+      "host_role": "manager_notice_original_document_via_distributor_mirror_not_issuer_host"
+    },
+    {
+      "id": "sse2026rule",
+      "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/fund/trading/c/10817739/files/7ffa42ba08bf4605a9e680bd38d452b4.docx",
+      "kind": "rule_docx",
+      "role": "SSE_2026_rule_effective_July6",
+      "file": "sse-2026-trading-rule.docx",
+      "publication_day": "2026-04-24",
+      "host_role": "SSE_original_rule_attachment"
+    }
+  ],
+  "maximum_http_queries": 4,
+  "max_attempts_per_identity": 1,
+  "minimum_interval_seconds": 0.3,
+  "maximum_body_bytes": 10485760,
+  "method_code_sha256": {
+    "scripts/capture_etf_2026_notices_rules.py": "aed9d02660684acb1ed3dd126ec96547fa2096f3d4e59680df6d8a9e53d9a2a9",
+    "scripts/capture_etf_action_sources.py": "051c86c386e96301400e9e00dbf4ff785acd78cbc22f952cf2194391cad59a3f",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "local_source_sha256": {
+    "etf-interim2026-actions-derived-20261021/summary.json": "73113b38ed293c49ade6304654d796c6f59ca5bad0c9b71e24a1bc675bdd28aa",
+    "etf-interim2026-originals-20261021/manifest.json": "19d829e93ddd31bac957c23385df810575ff1683ebd733e9c8cf505b3badbb32",
+    "etf-prior2-12-physical-development-20261021/summary.json": "948c10412f05ef37cc568414601de866cf814614d0c4e18f242065e5b5d58cea",
+    "etf-prior2-12-independent-audit-20261021.json": "6efbb96bced0ee314b358a25a8dfa08b4232df3c59358de66e5f9538af98503a"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/etf-prior2-12-pre2026-replay-request.json": "c7933685469539c70d4fddeeba643efb8b2ba5b8936e8df920fc3f8d922298c7",
+    "docs/research/etf-2026-cash-notices-rules-plan-2026-10-21.md": "51f1f9561a8eb5395d103da4d7aca5f2c0a29a89c1b388f75fa46c97cd65c89a",
+    "docs/research/etf-prior2-12-interim2026-source-plan-2026-10-21.md": "80a223a727ea784e119888a955577fc8d683eb055e983056054b00c5ccefdb97"
+  },
+  "original_captured_2026_price_response_count": 0,
+  "investment_method_changed": false,
+  "investment_2026_returns_computed": false,
+  "historical_arrival_certified": false,
+  "opening_execution_certified": false,
+  "primary_event_completeness_certified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
