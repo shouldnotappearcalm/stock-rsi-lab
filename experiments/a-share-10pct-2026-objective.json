@@ -790,6 +790,15 @@
       "admitted_for_reconstructed_execution": true,
       "intraday_account_replay_run": false,
       "portfolio_returns_computed": false
+    },
+    "extension_primary_discovery": {
+      "artifact": "experiments/qlib/low-beta60-2026-primary-discovery.json",
+      "sha256": "07909d5ef4d905149ac7f40fe41a9f7c8659132240953b7772515952c4d59a20",
+      "one_cached_original_visually_reviewed": true,
+      "four_missing_local_original_PDFs": 4,
+      "sz000937_explicit_premium_tax_basis_pending": true,
+      "event_compilation_run": false,
+      "portfolio_returns_computed": false
     }
   },
   "strategy_research_history": [

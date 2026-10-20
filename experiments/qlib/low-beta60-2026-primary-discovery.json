@@ -1,0 +1,75 @@
+{
+  "status": "PRIMARY_DISCOVERY_AND_ONE_CACHED_PDF_REVIEW_ONLY_NO_EVENT_COMPILATION",
+  "question_inventory_sha256": "0ed5c7b09fadd20117afec461beb986fbf009abfd59971524bb35ff1e4a274a1",
+  "selection_basis": "All five vendor-source questions; no holdings or ROI filter",
+  "web_search_route": "agent-reach Exa mcporter unavailable (four command-not-found failures, no Exa requests); built-in web search fallback",
+  "primary_documents": [
+    {
+      "instrument": "SH601128",
+      "event_day": "2026-06-09",
+      "publication_day": "2026-06-03",
+      "notice_title": "2025年年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-03/1225346607.PDF",
+      "cached_relative_path": "low-risk-corporate-proofs-20261017/SH601128-20260603-1225346607.pdf",
+      "cached_sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+      "original_cached_hash_rechecked": true,
+      "all_four_pages_text_read": true,
+      "relevant_pages_1_2_3_rendered_and_visually_reviewed": true,
+      "findings": {
+        "cash_per_original_share": "0.12",
+        "capital_per_original_share": "0.10",
+        "record_date": "2026-06-08",
+        "ex_date": "2026-06-09",
+        "pay_date": "2026-06-09",
+        "listing_date": "2026-06-09",
+        "capital_premium_tax_exemption_explicit_page": 3
+      },
+      "formal_combined_review_manifest_written": false
+    },
+    {
+      "instrument": "SZ000937",
+      "event_day": "2026-06-17",
+      "publication_day": "2026-06-11",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+      "finding": "Implementation notice found; record June16, ex/pay/list June17, cash0.1 and capital0.1. Notice cash-tax examples do not explicitly identify premium capital source; do not infer exemption from generic capital wording.",
+      "local_journaled_pdf_captured": false,
+      "capital_premium_tax_exemption_explicitly_verified": false
+    },
+    {
+      "instrument": "SH601918",
+      "event_day": "2026-02-06",
+      "publication_day": "2026-01-30",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-01-30/1224955681.PDF",
+      "finding": "Original temporary distribution notice locates cash0.05, recordFeb5 and ex/payFeb6; do not use inconsistent later annual-report OCR dates.",
+      "local_journaled_pdf_captured": false
+    },
+    {
+      "instrument": "SH603826",
+      "event_day": "2026-07-14",
+      "publication_day": "2026-07-08",
+      "issuer_pdf_mirror_url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-08/12435199.PDF",
+      "mirror_listing_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12435199&stockid=603826",
+      "finding": "Issuer PDF mirror locates cash0.15 and bonus0.3, recordJul13, ex/pay/listJul14. Page3 issuer10percent example separates cash tax0.015 and bonus tax0.03, supporting bonus income0.3 per original share; primary local capture and visual review remain pending.",
+      "local_journaled_pdf_captured": false,
+      "canonical_cninfo_pdf_url_confirmed": false
+    },
+    {
+      "instrument": "SZ000975",
+      "event_day": "2026-04-24",
+      "publication_day": "2026-04-17",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+      "finding": "Original implementation notice locates cash0.4804021 per original share; ex-reference0.4796827 is different and must not substitute. RecordApr23, ex/payApr24. Preserve declared truncation convention.",
+      "local_journaled_pdf_captured": false
+    }
+  ],
+  "captured_source_queries_in_this_discovery": 0,
+  "new_local_original_pdf_files": 0,
+  "web_fetches_are_discovery_not_immutable_capture": true,
+  "event_compilation_run": false,
+  "old179_event_bytes_modified": false,
+  "account_replay_run": false,
+  "portfolio_returns_computed": false,
+  "investment_rule_changed": false,
+  "objective_achieved": false,
+  "next_action": "Freeze journaled capture of four missing original PDFs and necessary explicit SZ000937 premium-source proof, reuse SH601128 exact bytes. Complete visual review and immutable proof chain before compiling old179 unchanged plus2026 events."
+}
