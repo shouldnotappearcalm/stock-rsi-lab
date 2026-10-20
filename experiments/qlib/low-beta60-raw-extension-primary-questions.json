@@ -1,0 +1,133 @@
+{
+  "status": "SOURCE_QUESTIONS_ONLY_NO_HOLDING_OR_RETURN_FILTER",
+  "raw_manifest_sha256": "10f645719228d50c439e166bbfe65959b5ff517668c2ecc8ffc4fca4e1680ea7",
+  "primary_cache_manifest_sha256": "ef97c73712072ed58a05dceea01cc041063a013f8229defbe22d25089a4d1c25",
+  "questions": [
+    {
+      "instrument": "SH601128",
+      "day": "2026-06-09",
+      "kind": "NONCASH_TAX_BASIS",
+      "vendor_row": {
+        "code": "sh.601128",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-05-23",
+        "dividPlanAnnounceDate": "2026-04-24",
+        "dividPlanDate": "2026-06-03",
+        "dividRegistDate": "2026-06-08",
+        "dividOperateDate": "2026-06-09",
+        "dividPayDate": "2026-06-09",
+        "dividStockMarketDate": "2026-06-09",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "0.108\u62160.12",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c1\u6d3e1.2\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e1.08\u62161.2\u5143\uff09",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "packet_sha256": "fb27b3e1e51e8140875c8d9331711311e8cae12d30a5c3e428ca499d062d0f74",
+      "existing_primary_capital_proof": {
+        "verified_exempt": true,
+        "source_file": "SH601128-20260603-1225346607.pdf",
+        "source_sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+        "basis": "Issuer explicitly identifies premium capital reserve and no tax"
+      },
+      "existing_primary_source_directory": "low-risk-corporate-proofs-20261017",
+      "reviewed_for_this_candidate": false
+    },
+    {
+      "instrument": "SZ000937",
+      "day": "2026-06-17",
+      "kind": "NONCASH_TAX_BASIS",
+      "vendor_row": {
+        "code": "sz.000937",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-05-29",
+        "dividPlanAnnounceDate": "2026-04-29",
+        "dividPlanDate": "2026-06-11",
+        "dividRegistDate": "2026-06-16",
+        "dividOperateDate": "2026-06-17",
+        "dividPayDate": "2026-06-17",
+        "dividStockMarketDate": "2026-06-17",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "0.09\u62160.1",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c1\u6d3e1\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e0.9\u62161\u5143\uff09",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "packet_sha256": "9f835ed767f4afee4f81fbb3a3a429d4a71f98766e77b5eec29617050206e3f1",
+      "existing_primary_capital_proof": null,
+      "existing_primary_source_directory": null,
+      "reviewed_for_this_candidate": false
+    },
+    {
+      "instrument": "SH601918",
+      "day": "2026-02-06",
+      "kind": "ADJUSTMENT_WITHOUT_VENDOR_DISTRIBUTION",
+      "adjustment_row": {
+        "code": "sh.601918",
+        "dividOperateDate": "2026-02-06",
+        "foreAdjustFactor": "0.987780",
+        "backAdjustFactor": "1.673508",
+        "adjustFactor": "1.673508"
+      },
+      "packet_sha256": "50bc2c9d909924665d939ead3c24966db32f0f84d2adedddbd649f96e2d82f7c",
+      "reviewed_for_this_candidate": false
+    },
+    {
+      "instrument": "SH603826",
+      "day": "2026-07-14",
+      "kind": "NONCASH_TAX_BASIS",
+      "vendor_row": {
+        "code": "sh.603826",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-05-21",
+        "dividPlanAnnounceDate": "2026-04-23",
+        "dividPlanDate": "2026-07-08",
+        "dividRegistDate": "2026-07-13",
+        "dividOperateDate": "2026-07-14",
+        "dividPayDate": "2026-07-14",
+        "dividStockMarketDate": "2026-07-14",
+        "dividCashPsBeforeTax": "0.15",
+        "dividCashPsAfterTax": "0.105\u62160.15",
+        "dividStocksPs": "0.300000",
+        "dividCashStock": "10\u90013\u6d3e1.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e1.05\u62161.5\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "packet_sha256": "b145f97ef803202de1335dd68bb93c148e693cba04cce1afa2edafe00eacad40",
+      "existing_primary_capital_proof": null,
+      "existing_primary_source_directory": null,
+      "reviewed_for_this_candidate": false
+    },
+    {
+      "instrument": "SZ000975",
+      "day": "2026-04-24",
+      "kind": "CASH_PRECISION_REQUIRES_PRIMARY_CONFIRMATION",
+      "vendor_row": {
+        "code": "sz.000975",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-03-27",
+        "dividPlanAnnounceDate": "2026-03-06",
+        "dividPlanDate": "2026-04-17",
+        "dividRegistDate": "2026-04-23",
+        "dividOperateDate": "2026-04-24",
+        "dividPayDate": "2026-04-24",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.480402",
+        "dividCashPsAfterTax": "0.4323619\u62160.4804021",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e4.804021\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e4.323619\u62164.804021\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "packet_sha256": "c5195879790f2b892977c1f43e2a11530f15b673c85c92f9c4e750d2a60c2307",
+      "existing_primary_capital_proof": null,
+      "existing_primary_source_directory": null,
+      "reviewed_for_this_candidate": false
+    }
+  ],
+  "question_count": 5,
+  "existing_bound_primary_documents": 1,
+  "new_source_requests": 0,
+  "primary_review_completed": false,
+  "account_admitted": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

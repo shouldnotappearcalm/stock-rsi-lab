@@ -1,0 +1,88 @@
+{
+  "status": "PASS_SOURCE_ARTIFACT_CROSSCHECK_ONLY",
+  "reviewed_capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-extension-20261021",
+  "reviewed_commit_containing_v2_request": "b94eca0",
+  "request_sha256": "2b1f1b7e5b797cf71a0a28880d4ee4e11885825576d1fab6012b6072a4c81c5f",
+  "manifest_sha256": "10f645719228d50c439e166bbfe65959b5ff517668c2ecc8ffc4fca4e1680ea7",
+  "root_independent_audit_sha256": "8e13fb42e914d36ce220b785d563125a6b2529de8c62bf3c1bbaf3f62a53277c",
+  "audit_rerun_sha256": "8e13fb42e914d36ce220b785d563125a6b2529de8c62bf3c1bbaf3f62a53277c",
+  "audit_rerun_byte_identical": true,
+  "audit_rerun_output": "/tmp/lowbeta-raw-extension-independent-audit-review-rerun-20261021.json",
+  "names": 79,
+  "sessions": 671,
+  "original_packets_sha_unchanged": 69,
+  "all_original_bars_distributions_adjustments_prefixes_identical": true,
+  "all_original_quarantine_prefixes_identical": true,
+  "cached_packet_sha_and_copied_receipt_bindings_verified": 55,
+  "fresh_codes": 24,
+  "logical_query_reservations": 76,
+  "query_attempts_each": 1,
+  "all_query_and_login_request_bindings_v2": true,
+  "code_packet_hashes_and_progress_verified": true,
+  "errors": 0,
+  "pending": 0,
+  "totals": {
+    "bars": 53009,
+    "distributions": 289,
+    "adjustments": 296,
+    "quarantine": 1
+  },
+  "quarantine": [
+    {
+      "instrument": "SH600312",
+      "reason": "AFTER_EXTENSION_CUTOFF",
+      "record": {
+        "code": "sh.600312",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "",
+        "dividPlanAnnounceDate": "2026-08-20",
+        "dividPlanDate": "2026-10-09",
+        "dividRegistDate": "2026-10-14",
+        "dividOperateDate": "2026-10-15",
+        "dividPayDate": "2026-10-15",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.242",
+        "dividCashPsAfterTax": "0.2178\u62160.242",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e2.42\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.178\u62162.42\u5143\uff09",
+        "dividReserveToStockPs": ""
+      }
+    }
+  ],
+  "noncash2026_requiring_primary_review": [
+    {
+      "instrument": "SH601128",
+      "date": "2026-06-09",
+      "stock_ratio": "0.000000",
+      "capitalization_ratio": "0.100000"
+    },
+    {
+      "instrument": "SH603826",
+      "date": "2026-07-14",
+      "stock_ratio": "0.300000",
+      "capitalization_ratio": ""
+    },
+    {
+      "instrument": "SZ000937",
+      "date": "2026-06-17",
+      "stock_ratio": "0.000000",
+      "capitalization_ratio": "0.100000"
+    }
+  ],
+  "negative_controls_rejected": {
+    "changed_original_pre2026_price": true,
+    "missing2026_bar": true,
+    "changed_distribution": true
+  },
+  "network_calls_by_reviewer": 0,
+  "source_files_modified_by_reviewer": false,
+  "remote_push_time_independently_verified": false,
+  "admitted_for_account_replay": false,
+  "historical_arrival_verified": false,
+  "full_corporate_actions_certified": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false,
+  "critical_findings": [],
+  "important_findings": [],
+  "minor_findings": []
+}

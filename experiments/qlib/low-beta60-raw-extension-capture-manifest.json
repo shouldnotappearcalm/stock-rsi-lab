@@ -1,0 +1,577 @@
+{
+  "status": "LOW_BETA60_RAW_EXTENSION_CAPTURED_ADMISSION_SEPARATE",
+  "window": [
+    "2023-12-29",
+    "2026-10-13"
+  ],
+  "requested_names": 79,
+  "names": 79,
+  "per_code_sha256": {
+    "SH600004": "68ce613bd3715cbdd23a584442cdcc08dcbb24a5b151b1c9eca9e9a5c0bb7188",
+    "SH600021": "19490cdad0fc6ae20c5d57782b40d4142f9f6ababf8189ee4d8287ec1deae497",
+    "SH600056": "7f10f7be2b633bed5142d78fd1976341b1a3ff8405f714f31fd4c4ce62af0095",
+    "SH600062": "7df14faf348e574c86bf077d5d6b09d78def934d411dd714e2fe7d762a361706",
+    "SH600161": "f2973454a5bed43bca4226df722aaa0922f35bff5acd0f28b1d9504d1e7a7dff",
+    "SH600167": "5bf1ff84dd0f28c959e5b41b5bb0e9c7df1932b54070047738799f67bd92fd92",
+    "SH600170": "c2a9731468dc1233fcc9054ef113770a5e89dfad639713e885bac5b7e93668d5",
+    "SH600177": "2f8f111ff821fb0b62539d6c505e16cad12591a019dfe2cabd2f9579c58f0397",
+    "SH600332": "1f6ed55b8f4c22bbe39b89d629ae9a04fb5eef6aa91acdadc1e7619b78d1d2a2",
+    "SH600350": "9042961117973034d11b836602cfcea5725930618f006c2d0cf37145a2b5aca8",
+    "SH600377": "08f686c68c65497772b6bc44d71347091f7f9fd1640a3cccac5a2c4bf3766af6",
+    "SH600398": "5da2f32ae5c4c1512a56a5ca5469af45407b80d5376b065dfee230d2235ea937",
+    "SH600483": "3ab36ce4c7950dad23f882570da05f5332dd08274046f9ded7433afe77e64063",
+    "SH600511": "03dbd0986ac19f9a3ba3e9f82f22b06796d351d4bd08c78c6b32fed3ca0ccdfb",
+    "SH600528": "2333c668534685edb6cd8ec90fc53bd85554e10a2f73e9178da57409c8b57a18",
+    "SH600578": "c6c4d0ef605b1b5771315dbb88910f2768c984b9574b3dcef54d0b0d1d7d0281",
+    "SH600598": "49a478deea9dd28196a0dab2feab9389b7a45bbde73e929e7dd918cf4f99694d",
+    "SH600642": "fe1b5e9ae828f677d2fa68adb837b3de95495a5411740a4aec3238f4981cff86",
+    "SH600663": "9d645df0f837450a360a1232696e37ab564c4060426ebaa8d7d3a3acb0b28a1c",
+    "SH600820": "a7c7337fb5e57d7cbb1daf1bb2a2ca9573e240c03213692663ad8af4a0240b53",
+    "SH600863": "8b471a843f265105fbcc0f2fc37be7568bd9d6335df489245b336d2a523c8abc",
+    "SH600867": "4fc4ff83780cef2954b5a523abfcec1c891d04852cecf3f852afc6c05a70ae9b",
+    "SH600873": "119041a566de7d7dcc74341f3e84d4f9dbd36fd8da1ef3c0cbd1c1761a1d9c4e",
+    "SH600901": "0999cfd1ff653e601f025127b27ed568f6133abe9d83f74ff705d7b59b8168ab",
+    "SH600928": "333cc2427d2088128e76ce038880ee039bcc18cebb9110c08cb627cd165c6fdd",
+    "SH600998": "45619f3b83228898057700f047bb2f1448cafbe1c87166d4f0d1687dc76c5a1c",
+    "SH601077": "ea8590f81528d16e00dfb76a04521e98a6d3b6dcd7729486f3d40f7f817f091d",
+    "SH601098": "393a030a25407a688e280ca64b2749965bc8375bc8fda645c9cf758c4f2e5ab9",
+    "SH601118": "f430ca29284c6e1625b3c45197b4f0ed3020b04b7654b6e819ebb950a075b685",
+    "SH601128": "fb27b3e1e51e8140875c8d9331711311e8cae12d30a5c3e428ca499d062d0f74",
+    "SH601158": "93fb83ba820bcbee643dc0738bb8ccc442963c1a320dc996abe475c72be5afc9",
+    "SH601228": "29356cd99694e204ddde0da58ac159a8d0595e7315aec5e76551fc6d37df596c",
+    "SH601577": "4240016601caafc440bd3f76ca80666208c38f692c127b30a282947e99995ca4",
+    "SH601665": "ddc0876e6e27e7cfdf532fc94e17854f740c877d177de87c53676d2dac38cff1",
+    "SH601928": "bdf2d8dd4ec283ca500a2cba5a91e8be9e835ae40ebc8a4702b7c18c76873854",
+    "SH601933": "14effd20962d4b586c1cfaf9d581569d56ebe925fadca2a86e8429dd63b2d2e0",
+    "SH601991": "6e15cc4732ae2e0cc0195e2db9d610f519eb1e044d00f4b757c7deb4d5121826",
+    "SH601997": "2b2ffb7d5d53fa3db032071febc25cefde4414b86323eaf3e78c481f292ca2cf",
+    "SH603658": "90d5128a0e82c0faae553022db130ea2f0b4202ce517c84cc5cf6d67cb48ca73",
+    "SZ000543": "e79e18af2b078c5e982219fe57a2fedd19844bbf5ae3ba09a9dcbc23f087fc27",
+    "SZ000582": "e60b5d1e7f2a3681821bfcd4d7b1b3e61371c9a304845a4a80b3f09335fb18f3",
+    "SZ000598": "6369314cda282a60561ed6f97bb52d4a4a5626990c59d3672b05df1f2e00385d",
+    "SZ000883": "9cfd0a4e3cc185d18fd2df5dc5fd66b5dc5be491d3b2eb32c96f42e21ba4cf52",
+    "SZ000932": "90e77cd92359f089f6511073f565db27e52cadb15f1b0fd66e40d84f2d0fbb04",
+    "SZ000937": "9f835ed767f4afee4f81fbb3a3a429d4a71f98766e77b5eec29617050206e3f1",
+    "SZ002032": "512fe015963a8ed5b1346eae9a0aeaf79f4feee849967fdc7d12eadcc373da20",
+    "SZ002120": "236ff4ccc1364f53856aa46835e4be4da64acbf9cde0a692d48a1acb5d6bf3d9",
+    "SZ002244": "f9778c89f8422449495795c6ed2bdf874e3afe926f45aad43a1ea1f2ae451886",
+    "SZ002423": "631024353054ef6e433f425ba6f5e6e511f28ac348304124a97d5c67ee6004cd",
+    "SZ002432": "e6bb65d6c3d4d9cbdba64810741c25c588134aab033e76fc860b30b66dfd65b5",
+    "SZ002461": "a9818cafc3b97d82a91f452156abfe23bd1f22fdcbcfefb710f7abf360fed622",
+    "SZ002468": "0455ce7dc402068350a77a440645a18709e6ba6f05f8df1069e937912fdd7fe4",
+    "SZ002936": "559b904f672b90f727b9679d58b63e3bd656d875cfe331b4c73ab383c7636a56",
+    "SZ002958": "ddf8937cc6b2b493ed3e3f5d04ac223dc5fe30474e3f8c723a651998f8990b1e",
+    "SZ002966": "aa536d685ace8005a9e363a29c13741bb8087df6044b16d16821c742a5ecca6b",
+    "SH600153": "7dc42cbe71ed2dedbc727efa0829647215774ecc8a347c2e24259c678228513c",
+    "SH600312": "f89519a79af5cb68efa513da892556772c33882d5feb989280c39ca1e442ebad",
+    "SH600325": "065de295ad9307fb1ae9c3a89b38c7bc2e1bfd1314f44531e898cef7f03e4744",
+    "SH600339": "cea8b79e2ba6d7fcfbeb67b3ad159ea9cdc78efc63b8fc8f5f4747df20e3c0ee",
+    "SH600373": "e8c4a4f187bc259afc8fe1c5421d0c98f30bd983fdfafbc62677094bc49c2861",
+    "SH600968": "eff68378f0e81faa5652398902544d29076b8660a8b304452524e60f05fb3d31",
+    "SH600985": "728d539baceacda1109e740d12a0ad50c2314f84178908417c5b1ef4c5d424ae",
+    "SH600988": "72867c534810da94080e43009b6ac8bd7a1009db86512735105fd22f1a1e74f1",
+    "SH601000": "0e435c54f005f65d1ad86bc431c5cb59b3424b726505a1e583fde06340675890",
+    "SH601019": "0a40e1cd0c4528b570bbe1771022c6f8ad5630eb5a94b66ac8501307fde250c0",
+    "SH601179": "c5f5217c5737ff300f04708d6aab0b50a137b4a4643ede7a50f985b8d37beef9",
+    "SH601333": "3cb15e80214c83c7d357498311f408411dfe64c6268aa8c670e28bc9a89dda51",
+    "SH601598": "d683616036f4f9e80c3411c0540f92904dd5c8475ad4c81fc03ed2b2e9ad1e51",
+    "SH601808": "865c1d7d7d41b0340d231cda21663614a74ca4f17f3805162e04dba49e98dac6",
+    "SH601918": "50bc2c9d909924665d939ead3c24966db32f0f84d2adedddbd649f96e2d82f7c",
+    "SH603826": "b145f97ef803202de1335dd68bb93c148e693cba04cce1afa2edafe00eacad40",
+    "SZ000062": "478b8e430626a0c162f4e2fadd1b63d5478bd8993fe3bf2cc7216b51733a5a1d",
+    "SZ000429": "9da7edcf376682f32d38c0fc30a2174af0ca5c2462e6bc1d6f96ab9e86ab53bc",
+    "SZ000553": "5d579bf94c2bd9fcff0dcf3ffe14c66f7cd870d5dc36af2d85bc330ac6922dbe",
+    "SZ000975": "c5195879790f2b892977c1f43e2a11530f15b673c85c92f9c4e750d2a60c2307",
+    "SZ001914": "85cca5518fe3d6c3b9673372643276ca84d8e2b1eb15e813c5aeb06bc90d5eae",
+    "SZ002262": "231a83657b3442da75c4ef6e841783b36463314715cb013f1f91142d1ddbbe2a",
+    "SZ002294": "560aee7f1acbe466a27f1f4ad4eaeaab61851d52b92c5b8417fbc56a1b27534c",
+    "SZ002422": "32772547a165f1726afbd32a9db94ab02a2f45ae8deaa3f0c30385d60746b618"
+  },
+  "errors_sha256": {},
+  "pending_codes": [],
+  "request_sha256": "2b1f1b7e5b797cf71a0a28880d4ee4e11885825576d1fab6012b6072a4c81c5f",
+  "calendar_sha256": "13e7ab462fe5022d85b8acef00d92669fed5b764457d88dda108272257ec6c9f",
+  "fresh_codes": [
+    "SH600153",
+    "SH600312",
+    "SH600325",
+    "SH600339",
+    "SH600373",
+    "SH600968",
+    "SH600985",
+    "SH600988",
+    "SH601000",
+    "SH601019",
+    "SH601179",
+    "SH601333",
+    "SH601598",
+    "SH601808",
+    "SH601918",
+    "SH603826",
+    "SZ000062",
+    "SZ000429",
+    "SZ000553",
+    "SZ000975",
+    "SZ001914",
+    "SZ002262",
+    "SZ002294",
+    "SZ002422"
+  ],
+  "reused_codes": [
+    "SH600004",
+    "SH600021",
+    "SH600056",
+    "SH600062",
+    "SH600161",
+    "SH600167",
+    "SH600170",
+    "SH600177",
+    "SH600332",
+    "SH600350",
+    "SH600377",
+    "SH600398",
+    "SH600483",
+    "SH600511",
+    "SH600528",
+    "SH600578",
+    "SH600598",
+    "SH600642",
+    "SH600663",
+    "SH600820",
+    "SH600863",
+    "SH600867",
+    "SH600873",
+    "SH600901",
+    "SH600928",
+    "SH600998",
+    "SH601077",
+    "SH601098",
+    "SH601118",
+    "SH601128",
+    "SH601158",
+    "SH601228",
+    "SH601577",
+    "SH601665",
+    "SH601928",
+    "SH601933",
+    "SH601991",
+    "SH601997",
+    "SH603658",
+    "SZ000543",
+    "SZ000582",
+    "SZ000598",
+    "SZ000883",
+    "SZ000932",
+    "SZ000937",
+    "SZ002032",
+    "SZ002120",
+    "SZ002244",
+    "SZ002423",
+    "SZ002432",
+    "SZ002461",
+    "SZ002468",
+    "SZ002936",
+    "SZ002958",
+    "SZ002966"
+  ],
+  "original_pre2026_prefix_codes": [
+    "SH600004",
+    "SH600021",
+    "SH600056",
+    "SH600062",
+    "SH600153",
+    "SH600167",
+    "SH600170",
+    "SH600177",
+    "SH600312",
+    "SH600325",
+    "SH600339",
+    "SH600350",
+    "SH600373",
+    "SH600377",
+    "SH600398",
+    "SH600483",
+    "SH600511",
+    "SH600578",
+    "SH600598",
+    "SH600642",
+    "SH600663",
+    "SH600820",
+    "SH600863",
+    "SH600867",
+    "SH600901",
+    "SH600928",
+    "SH600968",
+    "SH600985",
+    "SH600988",
+    "SH600998",
+    "SH601000",
+    "SH601019",
+    "SH601077",
+    "SH601098",
+    "SH601118",
+    "SH601128",
+    "SH601158",
+    "SH601179",
+    "SH601228",
+    "SH601333",
+    "SH601577",
+    "SH601598",
+    "SH601918",
+    "SH601928",
+    "SH601933",
+    "SH601991",
+    "SH601997",
+    "SH603658",
+    "SH603826",
+    "SZ000062",
+    "SZ000429",
+    "SZ000543",
+    "SZ000553",
+    "SZ000582",
+    "SZ000598",
+    "SZ000883",
+    "SZ000932",
+    "SZ000937",
+    "SZ000975",
+    "SZ001914",
+    "SZ002120",
+    "SZ002244",
+    "SZ002262",
+    "SZ002422",
+    "SZ002423",
+    "SZ002461",
+    "SZ002468",
+    "SZ002936",
+    "SZ002966"
+  ],
+  "maximum_source_reservations": 76,
+  "query_reservations_consumed": 76,
+  "totals": {
+    "bars": 53009,
+    "distributions": 289,
+    "adjustments": 296,
+    "quarantine": 1
+  },
+  "admitted_for_account_replay": false,
+  "historical_arrival_verified": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false,
+  "method_code_sha256": {
+    "scripts/capture_low_beta60_raw_extension.py": "38709cf2d2a35024a222b1d10ae2d9b811a4f9583f9e8af873003b0cf9cdf915",
+    "scripts/low_beta60_extension_sources.py": "c38ae84fae352b85b3f56a69991cc98d4615fdbd8352a95459cc7086843b7a0e",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/capture_illiquidity_raw_development.py": "4a6c1b9597b4e0d797720687f43ba951b9aeabaca3bf8c83149a4657598ce8f1",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/inventory_low_beta60_sources.py": "691c38a508034f98fc7428931e22def58e6d57e43c08054dd963be2eb67604f0",
+    "scripts/capture_frozen_target_development_data.py": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d"
+  },
+  "target_sha256": "defeeb81106bc436a3123c174b60fcfd6ccd98acb4f0ece97e183eb98b7c77a5",
+  "original_packet_sha256": {
+    "SH600004": "2ed44a4c855a8c1d73490fe5062f069ef67fd867c46fdaf4d4afb49f179d80d2",
+    "SH600021": "aa0b94b8fd58081930be747c393260b5c03f1f1a0065dd07ac73ee07fdb1e82e",
+    "SH600056": "1d3f88a7b3731cd2538e5f27354c26d89369df5376f2ce0f5976c1313578c84c",
+    "SH600062": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+    "SH600167": "4c023ee8df557e2d6ca074e219d1d3235bff93cc375d458c5ee992f3feb4a9f1",
+    "SH600170": "c603a2c960696edf096951b7a43b11df7f8ad2a87ddce4031c5999bf24783d8d",
+    "SH600177": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+    "SH600350": "8a4dd0c64fae9f00c523fa4f2f1a6dc465a9da1a1c8511828ea83e4258a5209c",
+    "SH600373": "c3709c53264f223884335b2db81666cb04ab5544ce3f78844e517170bc1cb1be",
+    "SH600377": "c738cc5fd417a8521e4ccbd9fb918a60d775e9d2a8c3465a2feabe8c82eff990",
+    "SH600398": "f638f28c3b3ddf9ed0279b0981a884f3ebb652d59599d1171b5c544fc4757ec3",
+    "SH600483": "9c9a95d58574176a1b60d21a2207108b0fee84bc0ab068d76780e640a7c6d70b",
+    "SH600511": "e52857e070648e7ea7605a1ed78616d49a566afc67d78b911e85bc1b809cee8f",
+    "SH600578": "acd6335db5be8c430873d841272f2d976c136882074a10867dc5fce710c30c5f",
+    "SH600598": "a5a8dee4621f4ee721f0fa007d3f2ba66d9220976365210279a5c54c7aeb5965",
+    "SH600642": "c6e461f4120b81bae3656155419ab14e6c182b10079c5f880279795b937bb9a7",
+    "SH600663": "cdce8e9d271bb0b2e0bab3e3a8b97a2854424f3bef7f4cb0edf2b74fe0a904dd",
+    "SH600820": "1d2a6414d85be8785d39ad8b3d6e5859c1746a7412a2d38e1904d8f585549947",
+    "SH600863": "fb0b3b9a62336da9bd0de8b2e90c72268ebf4280dbf85376719ef56735d5c5cd",
+    "SH600867": "4654a94f7255610e7e8143e6de75f77a7b87d4ad78a2b1f5b687cfb6726a2e36",
+    "SH600901": "bc3b0b8f49d58ca278742d62d54faa2981a4e0f26ff9c23026273a177a827c69",
+    "SH600928": "0eb1bfda13546ac2f4f51efd323202cb1adad3476b532f44d19d252a2cb5ba77",
+    "SH600968": "de0cbfce1fe35276ecc0207d6c93274d1239d24a259b74b745f4645dfea6e8db",
+    "SH600985": "83ed984587fc63a726e3e7ed5f56ead29bf63ca7012412e79d8834b8753d1497",
+    "SH600988": "1b61d83c2fcced376d8a81e879cc27259b3937bc009981adc32ccf6b45eebc00",
+    "SH600998": "1d56b6343dfb83c3616525ecda456f54e4976756e48407b1a1f580c9a7b4b252",
+    "SH601000": "109611679570a0ab063594b2c37fe4dabb6dcbf1006880ba3b0ceb12ea97b575",
+    "SH601019": "b21d2a0b6ae38ece39b0f59a5c497de081206730fc84e2a709fdffd52b71eaa2",
+    "SH601077": "111c1d94a17d131342a0f62ef3ad41f489debc846299d983403941e1dc7ff71d",
+    "SH601098": "d2e9de86eca3e2767e686743be4ac4520544abe4f206a7855ec446320762adf0",
+    "SH601118": "df981d773959658183d9164ace25817f43e79967525399a9ef0ced7603a811d2",
+    "SH601128": "da99a9958bfddd73a5cc1d2de2797758864cbec7698e97de5152e2a0f1bf8613",
+    "SH601158": "1fed273cd931f98962ed8206901880569bffaaf2db5c8c27a8c39063232049eb",
+    "SH601179": "591ff8bfab778f80823a1495c97aca72573241ea6126b1bc2f289a1aa091d277",
+    "SH601228": "478fd24370817e597de4bdb537a02500265a8de69e618cf75244ca654a2a8838",
+    "SH601577": "d58e194b10074a37edebca373d889fe8831a4763ed666b00109ca45f9f42bd9c",
+    "SH601598": "dee3a98a47dfcf1e803760922913d9cc53c4e0bca29501e2e25fea94006af47e",
+    "SH601928": "ce3956a6ef810aa566700bc02c56fc523b06677cb2f8a81829d58dc55342e77b",
+    "SH601933": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+    "SH601991": "a10ea43bb4746d7b8e6416a56f458065c51240737178ff3de491a13c2ddc9015",
+    "SH601997": "ccc6328a2674366f29ff14cbda9644e4af27ae89dd19fa4ccbdb275e9a532ce3",
+    "SH603658": "4d1129642dbe96019cabf3de5dff3d4d935cc31b6e7577c42006e7b6d6f10646",
+    "SH603826": "f71bd92e5d12274e0fbab5beb527f02764551d132e51f2bd12984bcccaf84a5d",
+    "SZ000062": "fc2a982fed90776b8acd911d3ae2d3455caf80fe537c81ffbd85de5f222e9dc4",
+    "SZ000429": "f3348f2352b28ed1d26108f9a3d7e70d7fd4473e43b762f336b0ead0f08b5113",
+    "SZ000543": "3600a1b12a1604745367addd4b2df9cb57b43679a7e40a7dac1a5421cbe208f8",
+    "SZ000553": "a961c28e2c0f225f8112a594578537cce3e6fc98335346f2f95e85d18be0abf2",
+    "SZ000582": "81bc30f49077d0c7c608704782309676bb4539527fb27f447341e4ce981a7770",
+    "SZ000598": "80703e5f968fc3eafdac3e7e3358d46f5ca219a1dba83632425d963c8ab00a4d",
+    "SZ000883": "7006cb2d3f3bcf844e2ba4c46930cd1909a8fdb5d3ab620e615574cddc2454db",
+    "SZ000932": "fa26a206e15211264f0e8e023f5a65274de891a9c45889eb574626804f4efbad",
+    "SZ000937": "56ecc19ba1911b0cc4d06368a8d49596b9f32521a95c089f8e0494289840754c",
+    "SZ000975": "b3bee77d5d5f3e5a5c2ffb0619f7dff092e34ca235b0c95066ce8a3165b77aa8",
+    "SZ001914": "2cc466a35fe69cdd36eed6c347bddda53b8d21dbe840eed9808b85f8372a6d44",
+    "SZ002120": "bde60d51ab0695877d90c6d4aae1459072b4d06e98538c84fc67369b6eac45ef",
+    "SZ002244": "1ea943d0e82fba7417a61cb659198713bdefe75ffa1e9a74dbb658dd86768b21",
+    "SZ002423": "cb2add739e2d872820940d88e2a538e83d50c3b5e3035c9eac4edfbfc57fc214",
+    "SZ002461": "6122ff9d28e39e12479384164c6d6ba4c3bbb0d93d66be9f8ec1374d9323f39e",
+    "SZ002468": "36582bf048ace1f52e66d2b47b9af1a2ca83aa960021e3e5504f4a1d35f69537",
+    "SZ002936": "960877db335338d0699bd3cb364fe924a7ab6f99ccc82b25135f85f0cde81968",
+    "SZ002966": "bd531f52a365a7a785fd385e877629eb44484ebe5abf91dfa86d8329acd3d61f",
+    "SH600153": "7bc6f6ab945edeb8c6270c0f30cad18a38b7aea8142c925d73bfa3d066430414",
+    "SH600312": "6a683a91d03c882e41af9e542fbf5613b0703f0761385dc871e012327c85017f",
+    "SH600325": "74478565fa33e1c5ae5721134c10915a31860f4b92d0a25d0f3a9c2a9a94e247",
+    "SH600339": "dd58b99ec08f996fdc61e6cf458a7278b63119a0e28d0b643d3cfd34bb024c63",
+    "SH601333": "22ebfefe25462a1339e1c7f5a01bd2bba93d8af0a9626a9ead5cd0722c06bd66",
+    "SH601918": "79d34a681bf2499ddb3669a298fc503a83c94b0365fcfe46c14601ec197e90c0",
+    "SZ002262": "ed41adab9f045bea65e2f77a9b6fe529e6bac516b9f772bd41250c81bfed64e9",
+    "SZ002422": "76f3ba7c0ab571eb8f5964fba1056ed07613a80775a063025c5e76805e490ad4"
+  },
+  "reuse_routes": {
+    "SH600004": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "0b416668b7ce501771f26dcd0cd95fee0ec95868a0a8fe410481682bb44edffd"
+    },
+    "SH600021": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "5c6e1808af636a81ac304d5cb06334d4d05ab1862e1f5efb177861ad5cbb1da1"
+    },
+    "SH600056": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "9cd2bffb018952ac54a0850e19407415394fe069528019ae1223bee2c7ec26d3"
+    },
+    "SH600062": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "aa1dca7405efe36c859cd67f494fbbfb783fd145896959da5a1b74a3d6702f02"
+    },
+    "SH600161": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "b609ab92bb732826f5ad05a018cf12d60f66d054b1716f5fbf0e49abc763db8a"
+    },
+    "SH600167": {
+      "source_directory": "reversal-raw-full-20261017",
+      "packet_sha256": "61d6e2942c842cf395484b945dbd49c9758d557c41a5bee3dadb569c5844bcd6"
+    },
+    "SH600170": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "de92416b838ecefd58d0aa4e05651f383064a80dc9a39fa08df05b4f06d5bfc5"
+    },
+    "SH600177": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "e4c78a1a7313b535803860bcac82ceae6ff63de14f5ef415159a896a14624e40"
+    },
+    "SH600332": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "7c697f06dede385c9868d815a8ce34a0dab5d2cf493907c724920a517a8dca59"
+    },
+    "SH600350": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "d6b2bd1b76db70b780e8bda4f61075483c5ca94315266d1d813d370a84d83244"
+    },
+    "SH600377": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "01b909cc3548c46072e9258e39b0251957dc5636035ecf06a48858ee8236607e"
+    },
+    "SH600398": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "7da57cd5a775d199e32c087da880ba8406bc5ea5da0b247cd45dedc6562df91d"
+    },
+    "SH600483": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "b7a74a2035e9408b1ac390ec8adeee9fd7a9c4577f0e3c63f7a20865304b86e1"
+    },
+    "SH600511": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "4b31d4ce87c5ea1dd15ac7fe3ae345f89f8054195ab92a04f594272109f9418b"
+    },
+    "SH600528": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "87d917d7994463c3a0466a267992da76ab852c03482f335eed6262a81a80fb50"
+    },
+    "SH600578": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "b6aee2c9f77090171f5b1c646baad9ca262ec043be967c6824df01edc18f7097"
+    },
+    "SH600598": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "98d7d1701fc24150cf380fe07dd64576871ef4b512a805192ecdb1e39da21994"
+    },
+    "SH600642": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "2b79fbf4e8b21a7e5c3cfd557a2913b118f4bcec8ff0b1e8421e4172969aa932"
+    },
+    "SH600663": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "943c0021dc970b038affba90e07d582aa9d6c4f62ccfd6ea8189beecbb2a09d8"
+    },
+    "SH600820": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "a51fe0257040e609cf28572aff2e6acb680d2afbfb6931cb831a68a6768c16db"
+    },
+    "SH600863": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "fece7e278c7f1f9b6f4ee7cfa3c9b84720b36c5b9be08f75ab2c88c9a156e437"
+    },
+    "SH600867": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "71ce02e484d02765875e3d84a1e41b32ace5fd4defc92c8233bb2c7bbd3215cb"
+    },
+    "SH600873": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "784f5d3987064d9ab3dc911cd8f07d1e842ff2ea1180802f9e639787cc78f453"
+    },
+    "SH600901": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "e9dc0576254a73cb02085f24b12ae6f9d1e2a2fa0f13bbdedf9a5282eab1c8f8"
+    },
+    "SH600928": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "9046f944e797f0d581cbe713d7f67e91c34b25afeaa087b4cefba98f9b193de5"
+    },
+    "SH600998": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "1cb3700403326d2c3a452ee9fdd202a5bf15d9f7eb85b9a3de397bcdde4fecb2"
+    },
+    "SH601077": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "97eee7ddcc321f6f7f882899302cb0c81b222e4a01a2d42523bc6bce53d28d09"
+    },
+    "SH601098": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "f37cacd7b5090e89add70e49d3a97e6aee420a633dcfa53b767311f29fc9f2a2"
+    },
+    "SH601118": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "6874eb05e923220146c482c191e1c1fbb6ce76cce1b45803730978ed563484d9"
+    },
+    "SH601128": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "dac0e30c61fd102f4ac869fffb340b4059d1cfe5b00646cd14d8c774d92884f4"
+    },
+    "SH601158": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "593632ef36816162da9ae0a07ad87a91167ff09a9d4d453269647ca4a193427a"
+    },
+    "SH601228": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "4bdbf40d6a4a9ae4e4349cd887d41191b6e9d4720651006344b4602e180b20c1"
+    },
+    "SH601577": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "3cc845ad2dc815d30de820904c1729779560873ca06b9e5c71f35b57bfa8b687"
+    },
+    "SH601665": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "5c7aa667652b2e57d160fcc6b8d21df53dddbad12ee87b1fce0ccf92bcbb8139"
+    },
+    "SH601928": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "51a13369bb3144941e803a9463234442398e99a46707b706e37794663ad3c870"
+    },
+    "SH601933": {
+      "source_directory": "reversal-raw-full-20261017",
+      "packet_sha256": "4c7259e76e077ab9364ea11479fa8c0affb2b04a6bac868f12efa0d1b662e6ee"
+    },
+    "SH601991": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "e4af3643f6ffc5279bde3556abac03280cdca937439bfd017d7e567288379e74"
+    },
+    "SH601997": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "beff0a6d08612c15599d66f187599a0e7a24ee3234465898f10b8b63cbf4bc5a"
+    },
+    "SH603658": {
+      "source_directory": "reversal-raw-full-20261017",
+      "packet_sha256": "ab954bf5127c28924e578d7f32d10dc43bd3feba5e3bc966bc183befad005623"
+    },
+    "SZ000543": {
+      "source_directory": "szse-value-raw-full-20261017",
+      "packet_sha256": "2a46f54e976221b5ca4f7f8a31a982bffedf6cd457f07c38ff69c8bd7fd4222d"
+    },
+    "SZ000582": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "d3a5cb9fb21a6705870c1ea347017aeffbd5246d971198d1974f688aaa8b116e"
+    },
+    "SZ000598": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "c3fb7f7bff2bdac18390f382a4c3053b1702b885f487241cbaff6594e1bcbd76"
+    },
+    "SZ000883": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "0a05c01b887f0029195418bd646a5eff79ad3eb31828c8a5e98a9cafd3df1035"
+    },
+    "SZ000932": {
+      "source_directory": "szse-value-raw-full-20261017",
+      "packet_sha256": "4c5f69d499a1433082c23ffd22be6bdd503c21db625979e88612bec8704fa14f"
+    },
+    "SZ000937": {
+      "source_directory": "szse-value-raw-full-20261017",
+      "packet_sha256": "f392bbc5c4178c96c1631678292fc622f4dfcfd951f87b83ee2d715d39ccc05c"
+    },
+    "SZ002032": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "17acde68aad3fbab39351454112be8aae7e14d9ccdd32e4e5c4de9d45b8bf84e"
+    },
+    "SZ002120": {
+      "source_directory": "szse-value-raw-full-20261017",
+      "packet_sha256": "b11c889e0ec8c55680d85efe8c25fb1665719ba43af31492243eb153da606963"
+    },
+    "SZ002244": {
+      "source_directory": "szse-value-raw-full-20261017",
+      "packet_sha256": "d3be25ad85df6a9841112ebb81368a1f43817766531745f3eb6069b5258acba9"
+    },
+    "SZ002423": {
+      "source_directory": "reversal-raw-full-20261017",
+      "packet_sha256": "80f89e4e94f3fdb1eeaba1340f7e78d0819e66f768ae371034ad4b0f275bcfd9"
+    },
+    "SZ002432": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "162f085938d29df7046e3ad26ca8ab90614eb57f5a6653b0ac4089d7a55a6578"
+    },
+    "SZ002461": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "cb0fdc1b162bcc641a3acd6305071821a27715f3289f11de3d33d2dacd469ebf"
+    },
+    "SZ002468": {
+      "source_directory": "reversal-raw-full-20261017",
+      "packet_sha256": "a75a65a6874cb6d85b6d18f9c1b7104afcdaeb96210dfc4af6e24252599f3df5"
+    },
+    "SZ002936": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "58a5d92457e1bcc6e43d0a20ec25aa4a4e7287b490d2816da85bafc27c3f2de1"
+    },
+    "SZ002958": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "b79b2a00eed5e0345be90308810dc54805f501b79ecb5d0a08a29bb33b6cf346"
+    },
+    "SZ002966": {
+      "source_directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "dbf0d10e63046305f6adf1c7dcbd4c0ed09b98e959a183619f3eb01c0bf5fafe"
+    }
+  },
+  "source_manifest_sha256": {
+    "low-risk-raw-account-data-20261017": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+    "szse-value-raw-full-20261017": "3c02e2f9ed433f93e8419a26eaa1610d8c397fb79a5cc12ec871bfda75ecc897",
+    "reversal-raw-full-20261017": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc"
+  },
+  "SDK_decoded_responses_not_TCP_wire": true,
+  "source_units": {
+    "price": "CNY/share",
+    "volume": "shares",
+    "amount": "CNY"
+  },
+  "original_source_files_changed": false,
+  "raw_full_October_complete": false
+}
