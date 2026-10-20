@@ -1,0 +1,26 @@
+{
+  "status": "INDEPENDENT_34_FORMATIONS_REGRESSIONS_AND_FROZEN24_PREFIX_VERIFIED",
+  "audit_code_sha256": "6f5d634c39d562e7cdee7ec28e2a4f964b0ef6b607e2e8fa385cf1abb40e474c",
+  "request_sha256": "70874ee1f91dc3521c4ddf474f3aed4754067c7d2b54d3d045972b18e5d8054c",
+  "summary_sha256": "d70ef4466c69666314de6a2c4cb4c4f9a4e848ba8ed70f5ee95b2e8faa25ea90",
+  "formations_reconstructed": 34,
+  "extension_formations": 10,
+  "all3family_targets_reconstructed": true,
+  "all_eligible_beta_alpha_volatility_and_exclusions_recomputed": true,
+  "old24_targets_and_receipts_byte_identical": true,
+  "semantic_negative_controls_rejected": {
+    "changed_2026_beta": true,
+    "future_formation_clock": true,
+    "changed_target_weight": true
+  },
+  "negative_controls_use_hash_gate": false,
+  "imports_project_code": false,
+  "source_calendar_end": "2026-10-13",
+  "latest_formation_asof": "2026-09-30",
+  "portfolio_returns_computed": false,
+  "historical_arrival_verified": false,
+  "OS_future_isolation": false,
+  "requested_full_october_complete": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

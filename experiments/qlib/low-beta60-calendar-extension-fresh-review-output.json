@@ -1,0 +1,33 @@
+{
+  "formation_count": 34,
+  "extension_count": 10,
+  "old_target_prefix_exact": true,
+  "old_receipt_prefix_exact": true,
+  "saved_pre2026_targets_exact": true,
+  "saved_pre2026_receipts_exact": true,
+  "summary_sha256": "d70ef4466c69666314de6a2c4cb4c4f9a4e848ba8ed70f5ee95b2e8faa25ea90",
+  "audit_report_sha256": "4e1b309a7a1d7c26fb8a80e0a863221ea9869dda307dd5e1e759ecfa79e8e2eb",
+  "all_artifact_hashes_match": true,
+  "latest_formation_asof": "2026-09-30",
+  "all_read_limits_equal_asof": true,
+  "portfolio_roi_computed": false,
+  "scope": "Output bytes and hashes, frozen 24-formation prefix, bounded receipt metadata, standalone stdlib OLS/selection/weights audit rerun. No portfolio ROI, network, or source mutation.",
+  "arithmetic_rebuild_terminal_exit": 0,
+  "independent_audit_rerun_path": "/tmp/lowbeta-extension-review-rebuilt-20261021.json",
+  "independent_audit_rerun_byte_identical": true,
+  "independent_audit_rerun_sha256": "4e1b309a7a1d7c26fb8a80e0a863221ea9869dda307dd5e1e759ecfa79e8e2eb",
+  "all_34_ols_alpha_beta_volatility_exclusions_rebuilt": true,
+  "all_three_family_targets_rebuilt": true,
+  "all_three_semantic_negatives_rejected": true,
+  "findings": {
+    "critical": [],
+    "important": [],
+    "minor": []
+  },
+  "boundaries": [
+    "Raw source hashes establish fixed bytes, not historical availability or PIT.",
+    "Physical binary reads/cache include future dates; no OS future isolation.",
+    "Calendar ends 2026-10-13; October incomplete.",
+    "Formation audit does not establish account returns, investment success, or promotion."
+  ]
+}

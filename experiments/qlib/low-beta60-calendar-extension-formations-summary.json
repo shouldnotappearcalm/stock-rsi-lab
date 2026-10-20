@@ -1,0 +1,58 @@
+{
+  "status": "LOW_BETA60_CALENDAR_EXTENSION_FORMATIONS_ONLY_NO_PORTFOLIO_ROI",
+  "request_sha256": "70874ee1f91dc3521c4ddf474f3aed4754067c7d2b54d3d045972b18e5d8054c",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_low_beta60_pre2026.py": "5461b1b2a66bdf083d50fcafcd4a68cee29de6a9f0b72b513a84066d84edca37",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/low_beta60.py": "ec675a9a1f00de768701ee7441c9033f8236d0f7acfa6999a144109b5c8d2def",
+    "scripts/prepare_low_beta60_pre2026.py": "df54e709edf84a096add20e4b1ec8176adb8fb6df75c29ca088c6e2b05c438e3",
+    "src/stock_rsi/low_beta60_extension.py": "c0355869ed77c51fa76af3085675a670e6d2dc23dafcb7d00d09f34cd7a324f0",
+    "scripts/prepare_low_beta60_extension.py": "d0fa73b01b78634a50bf9b7ad7eb213af15fe5e7cb54e2788d475a79c0b8ec92"
+  },
+  "input_sha256": {
+    "price_files": "1d4c466105a98ba27261db43628a86edaf14fb3072db6ffcbd50ef556975001a",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "formations": 34,
+  "extension_formations": 10,
+  "window": [
+    "2024-01-02",
+    "2026-10-13"
+  ],
+  "candidate_budget": 1,
+  "selected_family": "low_beta60",
+  "pre2026_target_and_receipt_bytes_identical": true,
+  "prefix_checked_before_any_additional_formation_query": true,
+  "eligible_range": [
+    321,
+    338
+  ],
+  "latest_formation_price_read": "2026-09-30",
+  "artifact_sha256": {
+    "formation_receipts.json": "e2513389e29d9fd003626c7c457d774bfe26d036f1f8c502666437a5806e68fd",
+    "pre2026_formation_receipts.json": "878eaa5f39816e1608ba6396e5bae96052b2fbd312f06c7caf75fa8e1674b327",
+    "pre2026_targets.json": "ee19a560df3b5b669d093191757ea25bf7b1cffef4497af9ee4c5a1873eb995b",
+    "targets.json": "defeeb81106bc436a3123c174b60fcfd6ccd98acb4f0ece97e183eb98b7c77a5"
+  },
+  "network_queries": 0,
+  "portfolio_returns_computed": false,
+  "2026_factor_values_queried": true,
+  "2026_execution_returns_queried": false,
+  "requested_full_october_complete": false,
+  "sealed_evidence": false,
+  "historical_arrival_verified": false,
+  "objective_achieved": false,
+  "evidence_level": "REAL_PRICE_ENGINEERING_ONLY_NOT_OS_FUTURE_ISOLATED"
+}

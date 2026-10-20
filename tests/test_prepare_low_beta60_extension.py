@@ -1,4 +1,5 @@
 """Exercise a real binary snapshot and the frozen formation-only CLI."""
+import copy
 import hashlib
 import json
 import struct
@@ -108,6 +109,37 @@ class PrepareLowBeta60ExtensionTests(unittest.TestCase):
                              (base / 'original/formation_receipts.json').read_bytes())
             with self.assertRaisesRegex(ValueError, 'preserve'):
                 main(args)
+            # All seven authentication failures must precede provider parsing.
+            # A nonexistent provider would otherwise produce FileNotFoundError.
+            for kind in ('external_sha', 'missing_method', 'missing_confirmation', 'missing_reference',
+                         'changed_method_binding', 'changed_public_binding', 'changed_local_binding'):
+                with self.subTest(authentication_failure=kind):
+                    bad = copy.deepcopy(request)
+                    message = 'frozen'
+                    if kind == 'missing_method':
+                        bad['method_code_sha256'].pop(next(iter(bad['method_code_sha256'])))
+                        message = 'protocol'
+                    elif kind == 'missing_confirmation':
+                        bad['public_evidence_sha256'].clear()
+                        message = 'confirmation binding'
+                    elif kind == 'missing_reference':
+                        bad['local_source_sha256'].pop('original/targets.json')
+                        message = 'reference target'
+                    elif kind == 'changed_method_binding':
+                        bad['method_code_sha256'][next(iter(bad['method_code_sha256']))] = '0' * 64
+                    elif kind == 'changed_public_binding':
+                        bad['public_evidence_sha256'][next(iter(bad['public_evidence_sha256']))] = '0' * 64
+                    elif kind == 'changed_local_binding':
+                        bad['local_source_sha256']['original/targets.json'] = '0' * 64
+                    bad_path = base / (kind + '.json')
+                    write_json(bad_path, bad)
+                    bad_args = ['--request', str(bad_path), '--sha256',
+                                '0' * 64 if kind == 'external_sha' else digest(bad_path),
+                                '--source-root', str(base), '--provider-uri', str(base / 'no-provider'),
+                                '--output-dir', str(base / ('bad-' + kind))]
+                    with self.assertRaisesRegex(ValueError, message):
+                        main(bad_args)
+                    self.assertFalse((base / ('bad-' + kind)).exists())
             (provider / 'features/sh600199/close.day.bin').write_bytes(b'changed source')
             args[-1] = str(base / 'changed-attempt')
             with self.assertRaisesRegex(ValueError, 'snapshot changed'):
