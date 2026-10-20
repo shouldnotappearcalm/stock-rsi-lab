@@ -1,0 +1,104 @@
+{
+  "status": "FROZEN_SIX_PRE2026_MISSING_SOURCE_PROBES",
+  "frozen_on": "2026-10-21",
+  "parent_commit": "81daee3",
+  "prior_capture_manifest_sha256": "d8b1759fafd47914f82303b2e2fb2099c1c962bfdf34f8b3c6c1f9a0123fdcb2",
+  "prior_admission_summary_sha256": "54032820d96eda7c06cd745cb41492aae752edfb327892168287d6b72ab1e7ff",
+  "missing_pairs": [
+    [
+      "SH603056",
+      "2024-01-02"
+    ],
+    [
+      "SZ002505",
+      "2024-03-01"
+    ]
+  ],
+  "missing_pair_selection": "Earliest rejected session of each distinct failed code",
+  "control_pairs": [
+    [
+      "SH600378",
+      "2024-01-02"
+    ],
+    [
+      "SH603233",
+      "2025-07-01"
+    ]
+  ],
+  "control_selection": "One per development year; minimum SHA256(instrument|day) among source-admitted active prefix pairs; no investment return used",
+  "queries": [
+    {
+      "method": "minutes.history",
+      "instrument": "SH603056",
+      "day": "2024-01-02",
+      "role": "MISSING_SOURCE_PROBE",
+      "host": "116.205.171.132:7709"
+    },
+    {
+      "method": "minutes.history",
+      "instrument": "SZ002505",
+      "day": "2024-03-01",
+      "role": "MISSING_SOURCE_PROBE",
+      "host": "116.205.171.132:7709"
+    },
+    {
+      "method": "query_history_k_data_plus",
+      "instrument": "SH603056",
+      "day": "2024-01-02",
+      "role": "MISSING_SOURCE_PROBE"
+    },
+    {
+      "method": "query_history_k_data_plus",
+      "instrument": "SZ002505",
+      "day": "2024-03-01",
+      "role": "MISSING_SOURCE_PROBE"
+    },
+    {
+      "method": "query_history_k_data_plus",
+      "instrument": "SH600378",
+      "day": "2024-01-02",
+      "role": "FIXED_HASH_CHOSEN_CONTROL"
+    },
+    {
+      "method": "query_history_k_data_plus",
+      "instrument": "SH603233",
+      "day": "2025-07-01",
+      "role": "FIXED_HASH_CHOSEN_CONTROL"
+    }
+  ],
+  "maximum_logical_query_reservations": 6,
+  "max_attempts_per_identity": 1,
+  "package_versions": {
+    "eltdx": "3.2.3",
+    "baostock": "0.9.4"
+  },
+  "method_code_sha256": {
+    "scripts/probe_illiquidity_missing_minutes_pre2026.py": "76100a599d313e2967d25e74d8a5ab29766cee75827837ef1d7ea0084fd1d153",
+    "scripts/capture_illiquidity_raw_development.py": "4a6c1b9597b4e0d797720687f43ba951b9aeabaca3bf8c83149a4657598ce8f1",
+    "scripts/capture_low_risk_execution_tape.py": "c87bf498fc380bb608dd12626393e717ff3dc95433724ebc4c84f50ac71c602d",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/illiquidity_minute_sources.py": "6823f1a6f14a0b81732f589b4faa83442c434f8fd70b09f128bd0525bddd0fc6",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab"
+  },
+  "raw_packet_sha256": {
+    "SH603056": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+    "SZ002505": "ebc810bdc9c11cb88b3f39040f17df4fd7c3b6a2e090e09bbba626a8162754ce",
+    "SH600378": "34cec96d9d54a205b74fd184b1438a37b20671b8ec8c2594aea9ba853ea8b40b",
+    "SH603233": "8b1c8585fb0f9277e6561fe4b0d8473e543ff8dbd0e0c822240ee3fa5100f478"
+  },
+  "original_failure_sha256": {
+    "SH603056|2024-01-02": "9f77b098217145e5d24838be8c11f24863ad30577b179f2bd4c8e348073e6f8b",
+    "SZ002505|2024-03-01": "058a57ce927318f25a30cfc68a736714fcce800e481b6cbbf655ece6a7cf7e16"
+  },
+  "five_minute_criteria": "Unchanged existing48labels plus exact daily open/high/low/close and total volume comparison; failure retained; source probe not interchangeable with240minute points",
+  "interpolate_or_create_1min_points": false,
+  "new_2026_market_queries_allowed": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "ILLIQUIDITY_SOURCE_EVENTS_COMPILED_SYNTHETIC_ACCOUNT_ADAPTER_VERIFIED_REAL_REPLAY_PENDING",
+    "status": "ILLIQUIDITY_MINUTE_CAPTURE_COMPLETE_SOURCE_ADMISSION_REJECTED_MISSING29",
     "candidate": "amihud22",
     "candidate_budget": 1,
     "selection_uses_2026": false,
@@ -425,7 +425,21 @@
     "stock_dividend_and_lifecycle_replay_adapter_implemented": true,
     "synthetic_intraday_factory_integration_passes": true,
     "actual_record_date_entitlements_verified": false,
-    "actual_delisting_exit_verified": false
+    "actual_delisting_exit_verified": false,
+    "minute_capture_plan_file": "experiments/qlib/illiquidity-minute-development-capture-plan.json",
+    "minute_capture_manifest_file": "experiments/qlib/illiquidity-minute-development-capture-manifest.json",
+    "minute_admission_file": "experiments/qlib/illiquidity-development-minute-admission.json",
+    "missing_minute_probe_request_file": "experiments/qlib/illiquidity-missing-minute-source-probe-request.json",
+    "minute_source_active_prefix_pairs": 2276,
+    "minute_source_admitted_pairs": 2247,
+    "minute_source_missing_pairs": 29,
+    "minute_source_missing_instruments": {
+      "SH603056": 24,
+      "SZ002505": 5
+    },
+    "fresh_minute_query_reservations": 1432,
+    "fresh_minute_query_responses_preserved": 1432,
+    "minute_source_admitted_for_reconstructed_execution": false
   },
   "strategy_research_history": [
     {
