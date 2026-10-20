@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "ILLIQUIDITY_DAILY_DEVELOPMENT_GATE_PASSED_RAW_CONFIRMATION_PENDING",
+    "status": "ILLIQUIDITY_DAILY_GATE_PASSED_RAW_SOURCES_CAPTURED_ACCOUNT_ADMISSION_PENDING",
     "candidate": "amihud22",
     "candidate_budget": 1,
     "selection_uses_2026": false,
@@ -401,7 +401,18 @@
     "new_2026_outcomes_queried": false,
     "raw_share_confirmation_run": false,
     "candidate_promoted": false,
-    "objective_achieved": false
+    "objective_achieved": false,
+    "raw_capture_manifest_file": "experiments/qlib/illiquidity-raw-source-capture-manifest.json",
+    "raw_source_audit_file": "experiments/qlib/illiquidity-raw-development-data-audit.json",
+    "lifecycle_source_evidence_file": "experiments/qlib/illiquidity-lifecycle-source-evidence.json",
+    "raw_source_names": 144,
+    "raw_daily_records": 69623,
+    "incomplete_source_calendars": 2,
+    "noncash_distribution_reviews": 5,
+    "potential_unsupported_state_rows": 66,
+    "raw_source_admitted_for_account_replay": false,
+    "raw_source_query_reservations_consumed": 176,
+    "original75_checkpoint_packets_unchanged": true
   },
   "strategy_research_history": [
     {

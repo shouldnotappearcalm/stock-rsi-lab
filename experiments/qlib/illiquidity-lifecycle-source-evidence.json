@@ -1,0 +1,57 @@
+{
+  "status": "PRIMARY_LIFECYCLE_BOUNDARIES_MATCH_SOURCE_MISSING_DATES_ACCOUNT_NOT_VERIFIED",
+  "raw_manifest_sha256": "15709f0416c96148894be6b662c624dbde63d0f5d37b7760078235abe73440c8",
+  "calendar_sha256": "f1672b39e5f7646bf22fed1b8734e4a15b290cf36455bdf56ac0f79e9c2ec7bd",
+  "reviews": [
+    {
+      "instrument": "SH603341",
+      "primary_source_url": "https://static.cninfo.com.cn/finalpage/2024-02-29/1219209968.PDF",
+      "primary_document_sha256": "a7af3b6874a0fc3566317b2ffc67cb37fef3baa4e09cb949952c3ea9b89aa890",
+      "document_page_one_based": 2,
+      "publication_day": "2024-02-29",
+      "listing_or_delisting_boundary": "2024-03-01",
+      "missing_relation": "BEFORE",
+      "observed_rows": 448,
+      "missing_sessions": 38,
+      "missing_prefix_or_suffix_matches_primary_boundary": true,
+      "first_observed_session": "2024-03-01",
+      "last_observed_session": "2025-12-31",
+      "frozen_target_days": [
+        "2025-01-02",
+        "2025-05-06",
+        "2025-06-03"
+      ],
+      "raw_packet_sha256": "3bdc7d1aa0f420174e638a6e7782150ead67f78d1b3d2bb9175ec326b6a96fdd",
+      "actual_flat_inventory_at_missing_sessions_proven": false,
+      "missing_rows_filled": false,
+      "admitted_for_account_replay": false
+    },
+    {
+      "instrument": "SZ002505",
+      "primary_source_url": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-08-30/c983a041-2be4-48cc-aa93-a91db8411e06.PDF",
+      "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+      "document_page_one_based": 1,
+      "publication_day": "2024-08-30",
+      "listing_or_delisting_boundary": "2024-08-30",
+      "missing_relation": "AFTER",
+      "observed_rows": 163,
+      "missing_sessions": 323,
+      "missing_prefix_or_suffix_matches_primary_boundary": true,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2024-08-30",
+      "frozen_target_days": [
+        "2024-03-01",
+        "2024-04-01",
+        "2024-05-06",
+        "2024-06-03"
+      ],
+      "raw_packet_sha256": "ebc810bdc9c11cb88b3f39040f17df4fd7c3b6a2e090e09bbba626a8162754ce",
+      "actual_flat_inventory_at_missing_sessions_proven": false,
+      "missing_rows_filled": false,
+      "admitted_for_account_replay": false
+    }
+  ],
+  "new_portfolio_returns_computed": false,
+  "2026_market_values_queried": false,
+  "objective_achieved": false
+}

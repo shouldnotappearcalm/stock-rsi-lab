@@ -59,6 +59,7 @@ A股模块化投资skill研究项目。首个闭环是**明确时间范围、按
 
 [22 日流动性溢价筛查](docs/research/illiquidity-pre2026-results-2026-10-20.md)通过原定日频开发资格：
 40bp 下 2024/2025 为 +0.35%/+11.76%，平均仓位 90.48%。原股盘中确认待完成，尚未测该候选 2026，目标仍未达成。
+[144 股原股来源](docs/research/illiquidity-raw-development-data-results-2026-10-20.md)已取得，上市/退市缺行、送转和潜在 ST 状态明确留痕；账户准入仍未通过。
 
 独立项目，不修改已有a-share-skill。实现取舍来自多个已clone项目的
 [源码审计](docs/research/README.md)，不按现有skill仓库目录直接堆模块。
