@@ -53,3 +53,20 @@ class ExtensionSourceEntryTests(unittest.TestCase):
             path.write_text(json.dumps(request) + '\n')
             with self.assertRaisesRegex(ValueError, 'method changed'):
                 authenticate_request(path, hashlib.sha256(path.read_bytes()).hexdigest(), repo, base / 'no-sources')
+
+    def test_nonzero_sdk_login_response_retains_exact_provider_error_code(self):
+        class SDK:
+            def login(self):
+                return type('Result', (), {'error_code': '10001020', 'error_msg': 'synthetic denied'})()
+            def logout(self):
+                return type('Result', (), {'error_code': '0', 'error_msg': ''})()
+        with tempfile.TemporaryDirectory() as directory:
+            out = Path(directory)
+            session = SourceSession(out, 'a' * 64, SDK())
+            with self.assertRaises(RuntimeError):
+                session('SH600153', 'daily', {})
+            saved = json.loads((out / 'login-response-1.json').read_text())
+            self.assertEqual(saved.get('error_code'), '10001020')
+            self.assertEqual(saved.get('error_msg'), 'synthetic denied')
+            self.assertEqual(saved['error_type'], 'RuntimeError')
+            session.close()

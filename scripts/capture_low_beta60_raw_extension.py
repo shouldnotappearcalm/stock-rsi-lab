@@ -113,6 +113,7 @@ class SourceSession:
         if not self.attempted:
             self.attempted = True
             atomic_json(self.out / 'login-reserved-1.json', {'attempt': 1, 'request_sha256': self.request_sha})
+            record = {}
             try:
                 login = self.sdk.login()
                 record = {'error_code': login.error_code, 'error_msg': login.error_msg}
@@ -120,7 +121,7 @@ class SourceSession:
                     raise RuntimeError('source administrative login failed: ' + login.error_msg)
             except Exception as exc:
                 self.error = type(exc).__name__
-                atomic_json(self.out / 'login-response-1.json', {'error_type': type(exc).__name__, 'error': str(exc)})
+                atomic_json(self.out / 'login-response-1.json', {**record, 'error_type': type(exc).__name__, 'error': str(exc)})
                 raise
             atomic_json(self.out / 'login-response-1.json', record)
         symbol = source_code(code)
