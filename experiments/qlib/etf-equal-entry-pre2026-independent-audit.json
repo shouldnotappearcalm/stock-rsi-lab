@@ -1,0 +1,179 @@
+{
+  "status": "INDEPENDENT_STDLIB_LEDGER_SIGNAL_AND_FUNDING_AUDIT_PASSED",
+  "script_sha256": "289da5d69c7e7c5e49f173ddc3d3569a91832010d8e7168f8b7fb332ba6db437",
+  "request_sha256": "c5b02ff02bede888289f103647cdbd866d33ca24f35ea9dafd84eb0cf15acc46",
+  "parent_auditor_sha256": "9407af7715e58165797f91100c4fda068bcfbb823aca5f91cc7ca52c8ec0e0aa",
+  "output_summary_sha256": "2a244b0cbd9dfadf10f9dfdb0717dfba5ee0e7ac2901bd67f70438a614020440",
+  "verified_file_bindings": 142,
+  "binding_group_counts": {
+    "method_code_sha256": 17,
+    "local_source_sha256": 14,
+    "public_evidence_sha256": 13
+  },
+  "legacy_control_receipts_and_independent_reconstruction": {
+    "20": {
+      "status": "BOUND_RECEIPT_AND_FULL_LEGACY_LEDGER_INDEPENDENTLY_RECONCILED",
+      "source_ledger_sha256": "a4d4a5c2641f08412e0a9db7593d83ac8fd184058587b38ff6ea18a7ccbaf3df",
+      "sessions_verified": 485,
+      "monthly_rankings_verified": 24
+    },
+    "40": {
+      "status": "BOUND_RECEIPT_AND_FULL_LEGACY_LEDGER_INDEPENDENTLY_RECONCILED",
+      "source_ledger_sha256": "72cf0387dad3bdaa753f62e075a2756952700f959e50bfef3eb080c06a5d7136",
+      "sessions_verified": 485,
+      "monthly_rankings_verified": 24
+    }
+  },
+  "production_modules_imported": false,
+  "new_network_queries": 0,
+  "new_2026_queries": 0,
+  "profiles": {
+    "20": {
+      "sessions_verified": 485,
+      "warmup_and_outcome_sessions_reconstructed": 749,
+      "formation_intents_and_integer_targets_verified": 1,
+      "funding_intents_verified": 0,
+      "orders_verified": 3,
+      "fills_verified": 3,
+      "corporate_rows_verified": 14,
+      "all_five_recorded_entitlements": {
+        "SH510300-2023-01-16": 0,
+        "SH510300-2024-01-18": 90500,
+        "SH510500-2024-05-17": 57300,
+        "SH510500-2025-01-16": 57300,
+        "SH510300-2025-06-18": 90500
+      },
+      "gross_dividends_CNY": "24407.90",
+      "positive_record_entitlements": 4,
+      "cash_payments_verified": [
+        {
+          "day": "2024-01-24",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510300-2024-01-18",
+          "cash_delta": "6244.50"
+        },
+        {
+          "day": "2024-05-23",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2024-05-17",
+          "cash_delta": "4985.10"
+        },
+        {
+          "day": "2025-01-22",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2025-01-16",
+          "cash_delta": "5214.30"
+        },
+        {
+          "day": "2025-06-30",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510300-2025-06-18",
+          "cash_delta": "7964.00"
+        }
+      ],
+      "annual": {
+        "2024": {
+          "net_return": "0.11705346",
+          "ending_equity": "1117053.460",
+          "max_drawdown": "-0.1643228964338435242016937301",
+          "average_exposure": "0.9430986009729519189407703277",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.328986492732406916317147435",
+          "ending_equity": "1484548.960",
+          "max_drawdown": "-0.1361069689360023369258238152",
+          "average_exposure": "0.9445248459534061302794421951",
+          "sessions": 243
+        }
+      },
+      "numeric_screen_passes": true
+    },
+    "40": {
+      "sessions_verified": 485,
+      "warmup_and_outcome_sessions_reconstructed": 749,
+      "formation_intents_and_integer_targets_verified": 1,
+      "funding_intents_verified": 0,
+      "orders_verified": 3,
+      "fills_verified": 3,
+      "corporate_rows_verified": 14,
+      "all_five_recorded_entitlements": {
+        "SH510300-2023-01-16": 0,
+        "SH510300-2024-01-18": 90500,
+        "SH510500-2024-05-17": 57300,
+        "SH510500-2025-01-16": 57300,
+        "SH510300-2025-06-18": 90500
+      },
+      "gross_dividends_CNY": "24407.90",
+      "positive_record_entitlements": 4,
+      "cash_payments_verified": [
+        {
+          "day": "2024-01-24",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510300-2024-01-18",
+          "cash_delta": "6244.50"
+        },
+        {
+          "day": "2024-05-23",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2024-05-17",
+          "cash_delta": "4985.10"
+        },
+        {
+          "day": "2025-01-22",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2025-01-16",
+          "cash_delta": "5214.30"
+        },
+        {
+          "day": "2025-06-30",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510300-2025-06-18",
+          "cash_delta": "7964.00"
+        }
+      ],
+      "annual": {
+        "2024": {
+          "net_return": "0.11515327",
+          "ending_equity": "1115153.270",
+          "max_drawdown": "-0.1645679118317615895634059440",
+          "average_exposure": "0.9449030175445927218419087202",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.329547076519804313536201172",
+          "ending_equity": "1482648.770",
+          "max_drawdown": "-0.1363294191236281943480150537",
+          "average_exposure": "0.9459956838656506085611321514",
+          "sessions": 243
+        }
+      },
+      "numeric_screen_passes": true
+    }
+  },
+  "in_memory_negative_controls_rejected": [
+    "daily_cash",
+    "fill_fee",
+    "unexpected_ranking",
+    "formation_quantity",
+    "later_rebalance",
+    "initial_weight",
+    "entry_timestamp",
+    "unearned_receivable"
+  ],
+  "discrepancies": [],
+  "fixed_40bp_reference_disposition": "NUMERICAL_DEVELOPMENT_SCREEN_PASSED_ADMISSION_STILL_PENDING",
+  "candidate_id": "three_domestic_broad_ETF_initial_equal_entry_hold",
+  "candidate_budget": 1,
+  "total_ETF_family_candidate_budget_so_far": 3,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "limits": [
+    "Current-vintage source truth and historical arrival not certified.",
+    "No independent proof of absent corporate actions or complete historical event coverage.",
+    "Reference price bands and opening fills remain engineering assumptions; no queue or volume capacity proof.",
+    "Positive-entitlement coverage is limited to actual reconstructed entitlement quantities reported per profile; zero ownership does not test a payment path.",
+    "Candidate 3 belongs to an adaptive campaign with previously consumed 2026 diagnostics; it is not a sealed holdout.",
+    "This outcome audit is not investment or 2026 admission."
+  ]
+}

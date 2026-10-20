@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "ETF_EQUAL_ENTRY_FROZEN_PRE2026_RUN_PENDING",
+    "status": "ETF_EQUAL_ENTRY_DEVELOPMENT_PASSED_INDEPENDENTLY_AUDITED_2026_PENDING",
     "candidate": "three_domestic_broad_ETF_initial_equal_entry_hold",
     "candidate_budget": 1,
     "total_ETF_family_candidate_budget_so_far": 3,
@@ -399,7 +399,78 @@
     "source_or_execution_admission": false,
     "candidate_promoted": false,
     "objective_achieved": false,
-    "next_action": "Freeze/push then reproduce both old prior2-12 fullcontrols before one fixed pre2026 equal-entry baseline; independent account audit required before any2026continuation."
+    "next_action": "Freeze/push exact same-policy continuation request with fullsource/evidence hashes; then run one offline conditional interim2026 diagnostic, no policychange.",
+    "development_profiles": {
+      "20": {
+        "extra_cost_bps": 20,
+        "base_buy_sell_bps": [
+          5,
+          5
+        ],
+        "min_commission_CNY": "5",
+        "annual": {
+          "2024": {
+            "net_return": "0.11705346",
+            "ending_equity": "1117053.460",
+            "max_drawdown": "-0.1643228964338435242016937301",
+            "average_exposure": "0.9430986009729519189407703277",
+            "sessions": 242
+          },
+          "2025": {
+            "net_return": "0.328986492732406916317147435",
+            "ending_equity": "1484548.960",
+            "max_drawdown": "-0.1361069689360023369258238152",
+            "average_exposure": "0.9445248459534061302794421951",
+            "sessions": 243
+          }
+        },
+        "average_exposure": "0.9438131938188289774053007678",
+        "fills": 3,
+        "fees_CNY": "2375.24",
+        "gross_dividends_CNY": "24407.90",
+        "numerical_development_screen_passed": true,
+        "source_or_execution_admission": false,
+        "candidate_promoted": false,
+        "new_2026_queries": false,
+        "objective_achieved": false
+      },
+      "40": {
+        "extra_cost_bps": 40,
+        "base_buy_sell_bps": [
+          5,
+          5
+        ],
+        "min_commission_CNY": "5",
+        "annual": {
+          "2024": {
+            "net_return": "0.11515327",
+            "ending_equity": "1115153.270",
+            "max_drawdown": "-0.1645679118317615895634059440",
+            "average_exposure": "0.9449030175445927218419087202",
+            "sessions": 242
+          },
+          "2025": {
+            "net_return": "0.329547076519804313536201172",
+            "ending_equity": "1482648.770",
+            "max_drawdown": "-0.1363294191236281943480150537",
+            "average_exposure": "0.9459956838656506085611321514",
+            "sessions": 243
+          }
+        },
+        "average_exposure": "0.9454504771652464671465918004",
+        "fills": 3,
+        "fees_CNY": "4275.43",
+        "gross_dividends_CNY": "24407.90",
+        "numerical_development_screen_passed": true,
+        "source_or_execution_admission": false,
+        "candidate_promoted": false,
+        "new_2026_queries": false,
+        "objective_achieved": false
+      }
+    },
+    "development_result_file": "experiments/qlib/etf-equal-entry-pre2026-results.json",
+    "development_independent_audit_file": "experiments/qlib/etf-equal-entry-pre2026-independent-audit.json",
+    "development_independent_audit_sha256": "1002fba06be082ece24b30efaab1a335ae11d37385c6e6bdbf487a5212c4d0ca"
   },
   "strategy_research_history": [
     {

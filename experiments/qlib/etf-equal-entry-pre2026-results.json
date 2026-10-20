@@ -1,0 +1,101 @@
+{
+  "status": "ETF_EQUAL_ENTRY_PRE2026_DAILY_PROXY_COMPLETE_ADMISSION_SEPARATE",
+  "request_sha256": "c5b02ff02bede888289f103647cdbd866d33ca24f35ea9dafd84eb0cf15acc46",
+  "summaries": {
+    "20": {
+      "extra_cost_bps": 20,
+      "base_buy_sell_bps": [
+        5,
+        5
+      ],
+      "min_commission_CNY": "5",
+      "annual": {
+        "2024": {
+          "net_return": "0.11705346",
+          "ending_equity": "1117053.460",
+          "max_drawdown": "-0.1643228964338435242016937301",
+          "average_exposure": "0.9430986009729519189407703277",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.328986492732406916317147435",
+          "ending_equity": "1484548.960",
+          "max_drawdown": "-0.1361069689360023369258238152",
+          "average_exposure": "0.9445248459534061302794421951",
+          "sessions": 243
+        }
+      },
+      "average_exposure": "0.9438131938188289774053007678",
+      "fills": 3,
+      "fees_CNY": "2375.24",
+      "gross_dividends_CNY": "24407.90",
+      "numerical_development_screen_passed": true,
+      "source_or_execution_admission": false,
+      "candidate_promoted": false,
+      "new_2026_queries": false,
+      "objective_achieved": false
+    },
+    "40": {
+      "extra_cost_bps": 40,
+      "base_buy_sell_bps": [
+        5,
+        5
+      ],
+      "min_commission_CNY": "5",
+      "annual": {
+        "2024": {
+          "net_return": "0.11515327",
+          "ending_equity": "1115153.270",
+          "max_drawdown": "-0.1645679118317615895634059440",
+          "average_exposure": "0.9449030175445927218419087202",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.329547076519804313536201172",
+          "ending_equity": "1482648.770",
+          "max_drawdown": "-0.1363294191236281943480150537",
+          "average_exposure": "0.9459956838656506085611321514",
+          "sessions": 243
+        }
+      },
+      "average_exposure": "0.9454504771652464671465918004",
+      "fills": 3,
+      "fees_CNY": "4275.43",
+      "gross_dividends_CNY": "24407.90",
+      "numerical_development_screen_passed": true,
+      "source_or_execution_admission": false,
+      "candidate_promoted": false,
+      "new_2026_queries": false,
+      "objective_achieved": false
+    }
+  },
+  "artifact_sha256": {
+    "extra20-ledger.json": "f780a548477a06cd42c0f7b384233051386aeadd450ff5592300441f7b62544c",
+    "extra40-ledger.json": "d39f27756c707b70dc5de7133a9fddb4f1613f9c92eaf02c9ea2aabd14e9ec05",
+    "legacy-control-reproduction.json": "856a3e07f33b2869564f95a66b4122f6fdd39809579a6b47c6decfcf4072e4ed"
+  },
+  "candidate_id": "three_domestic_broad_ETF_initial_equal_entry_hold",
+  "candidate_budget": 1,
+  "legacy_controls_reproduced": {
+    "20": {
+      "status": "FULL_LEGACY_CONTROL_LEDGER_REPRODUCED_WITHOUT_DIFFERENCE",
+      "source_ledger_sha256": "a4d4a5c2641f08412e0a9db7593d83ac8fd184058587b38ff6ea18a7ccbaf3df",
+      "sessions": 485,
+      "monthly_intents": 24,
+      "investments_changed": false
+    },
+    "40": {
+      "status": "FULL_LEGACY_CONTROL_LEDGER_REPRODUCED_WITHOUT_DIFFERENCE",
+      "source_ledger_sha256": "72cf0387dad3bdaa753f62e075a2756952700f959e50bfef3eb080c06a5d7136",
+      "sessions": 485,
+      "monthly_intents": 24,
+      "investments_changed": false
+    }
+  },
+  "new_2026_queries": false,
+  "historical_arrival_certified": false,
+  "primary_action_completeness_certified": false,
+  "opening_execution_certified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
