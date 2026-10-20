@@ -1,0 +1,28 @@
+{
+  "20": {
+    "sessions": 486,
+    "events": 179,
+    "ledger_entries": 451,
+    "fills": 665,
+    "orders": 673,
+    "intents": 24,
+    "annual_returns": [
+      12.339997,
+      1.1719040725984708
+    ],
+    "four_no_hash_negative_controls_rejected": true
+  },
+  "40": {
+    "sessions": 486,
+    "events": 179,
+    "ledger_entries": 451,
+    "fills": 679,
+    "orders": 688,
+    "intents": 24,
+    "annual_returns": [
+      11.602443,
+      0.9027723523937554
+    ],
+    "four_no_hash_negative_controls_rejected": true
+  }
+}
