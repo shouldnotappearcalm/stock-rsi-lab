@@ -412,7 +412,13 @@
     "potential_unsupported_state_rows": 66,
     "raw_source_admitted_for_account_replay": false,
     "raw_source_query_reservations_consumed": 176,
-    "original75_checkpoint_packets_unchanged": true
+    "original75_checkpoint_packets_unchanged": true,
+    "account_contract_file": "docs/research/illiquidity-account-contract-2026-10-20.md",
+    "account_module_verification_file": "experiments/qlib/illiquidity-account-module-verification.json",
+    "corporate_reviewed_manifest_file": "experiments/qlib/illiquidity-corporate-reviewed-manifest.json",
+    "stock_dividend_account_module_implemented": true,
+    "lifecycle_guard_module_implemented": true,
+    "real_portfolio_runner_integration_complete": false
   },
   "strategy_research_history": [
     {

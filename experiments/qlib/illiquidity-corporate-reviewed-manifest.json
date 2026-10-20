@@ -1,0 +1,156 @@
+{
+  "status": "PRIMARY_ILLIQUIDITY_CORPORATE_AND_LIFECYCLE_COMPONENTS_REVIEWED_ACCOUNT_NOT_ADMITTED",
+  "capture_manifest_sha256": "fd50a336e35df417478c007175a069265102b9ec7e6e8a9a60d7c9c942edfab1",
+  "raw_manifest_sha256": "15709f0416c96148894be6b662c624dbde63d0f5d37b7760078235abe73440c8",
+  "target_sha256": "94a85eafa6885f2574be4c8eb0afd51a7e629b58d096ed85a25e215ec2fd056a",
+  "documents": [
+    {
+      "code": "603737",
+      "title": "2024年年度权益分派实施公告",
+      "day": "2025-05-24",
+      "timestamp_ms": 1748016000000,
+      "announcement_id": "1223645265",
+      "pdf_path": "finalpage/2025-05-24/1223645265.PDF",
+      "instrument": "SH603737",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-24/1223645265.PDF",
+      "file": "SH603737-2025-05-24.pdf",
+      "sha256": "68eb5de9a7efacd6de0fbbd7a3c8d2f19610bce7031314664e5ba09ab31ea334"
+    },
+    {
+      "code": "603826",
+      "title": "2023年年度权益分派实施公告",
+      "day": "2024-06-21",
+      "timestamp_ms": 1718899200000,
+      "announcement_id": "1220416612",
+      "pdf_path": "finalpage/2024-06-21/1220416612.PDF",
+      "instrument": "SH603826",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-21/1220416612.PDF",
+      "file": "SH603826-2024-06-21.pdf",
+      "sha256": "5af44a23ebb9baa06ca9e95e9d08cd1c840a5cf18c3cdeebd4b37ece433079a2"
+    },
+    {
+      "code": "003031",
+      "title": "关于公司2023年年度权益分派实施的公告",
+      "day": "2024-06-04",
+      "timestamp_ms": 1717430400000,
+      "announcement_id": "1220247499",
+      "pdf_path": "finalpage/2024-06-04/1220247499.PDF",
+      "instrument": "SZ003031",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-04/1220247499.PDF",
+      "file": "SZ003031-2024-06-04.pdf",
+      "sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4"
+    },
+    {
+      "code": "600167",
+      "title": "联美量子股份有限公司2024年临时权益分派实施公告",
+      "day": "2024-12-20",
+      "timestamp_ms": 1734624000000,
+      "announcement_id": "1222075984",
+      "pdf_path": "finalpage/2024-12-20/1222075984.PDF",
+      "instrument": "SH600167",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-12-20/1222075984.PDF",
+      "file": "SH600167-2024-12-20.pdf",
+      "sha256": "86719f49e32643c2fc44e234acb03678c2a140b6dccdc90245561796cdfc3bb3",
+      "reused_original_reviewed_manifest_sha256": "a77d0caf8788616fee773c1c4e5a0b9614956cbd0f79732644fee0b0b85b1bd8"
+    },
+    {
+      "instrument": "SH603341",
+      "day": "2024-02-29",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-02-29/1219209968.PDF",
+      "file": "SH603341-listing-announcement-20240229.pdf",
+      "sha256": "a7af3b6874a0fc3566317b2ffc67cb37fef3baa4e09cb949952c3ea9b89aa890",
+      "origin": "REUSED_PRIMARY_LIFECYCLE_DOCUMENT"
+    },
+    {
+      "instrument": "SZ002505",
+      "day": "2024-08-30",
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-08-30/c983a041-2be4-48cc-aa93-a91db8411e06.PDF",
+      "file": "SZ002505-delisting-announcement-20240830.pdf",
+      "sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+      "origin": "REUSED_PRIMARY_LIFECYCLE_DOCUMENT"
+    }
+  ],
+  "cash_overrides": {},
+  "capital_tax": {
+    "SH603737|2025-05-30": {
+      "verified_exempt": true,
+      "source_file": "SH603737-2025-05-24.pdf",
+      "source_sha256": "68eb5de9a7efacd6de0fbbd7a3c8d2f19610bce7031314664e5ba09ab31ea334",
+      "pages_one_based": [
+        3
+      ],
+      "evidence": "Explicit premium-capital source and no-tax statement",
+      "exemption_scope": "Only this original capital-transfer event"
+    },
+    "SZ003031|2024-06-11": {
+      "verified_exempt": true,
+      "source_file": "SZ003031-2024-06-04.pdf",
+      "source_sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4",
+      "pages_one_based": [
+        1,
+        2
+      ],
+      "evidence": "Premium capital source plus stated20pct tax0.78per10 on3.9cash only; transfer excluded from stated tax example",
+      "exemption_scope": "Only this original capital-transfer event"
+    }
+  },
+  "stock_dividend_tax_bases": {
+    "SH603826|2024-06-27": {
+      "verified": true,
+      "expected_stock_per_original_share": "0.4",
+      "taxable_income_per_original_share": "0.4",
+      "source_file": "SH603826-2024-06-21.pdf",
+      "source_sha256": "5af44a23ebb9baa06ca9e95e9d08cd1c840a5cf18c3cdeebd4b37ece433079a2",
+      "pages_one_based": [
+        1,
+        3
+      ],
+      "derivation": "Original notice10pct example has stock tax0.04per original share;0.04/0.10=0.4taxable stock income. Cash0.1is separate; original stock ratio0.4not reclassified as capital transfer."
+    }
+  },
+  "supplementary_distributions": [
+    {
+      "instrument": "SH600167",
+      "record": {
+        "code": "sh.600167",
+        "dividPlanDate": "2024-12-20",
+        "dividRegistDate": "2024-12-26",
+        "dividOperateDate": "2024-12-27",
+        "dividPayDate": "2024-12-27",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.12",
+        "dividStocksPs": "0",
+        "dividReserveToStockPs": "0",
+        "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+      },
+      "source_file": "SH600167-2024-12-20.pdf",
+      "source_sha256": "86719f49e32643c2fc44e234acb03678c2a140b6dccdc90245561796cdfc3bb3",
+      "record_origin": "issuer implementation notice; not a vendor API response"
+    }
+  ],
+  "lifecycles": {
+    "SH603341": {
+      "kind": "LISTING_BEGIN",
+      "effective_date": "2024-03-01",
+      "verified_primary_boundary": true,
+      "primary_document_sha256": "a7af3b6874a0fc3566317b2ffc67cb37fef3baa4e09cb949952c3ea9b89aa890",
+      "source_file": "SH603341-listing-announcement-20240229.pdf"
+    },
+    "SZ002505": {
+      "kind": "DELISTING_END",
+      "effective_date": "2024-08-30",
+      "verified_primary_boundary": true,
+      "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+      "source_file": "SZ002505-delisting-announcement-20240830.pdf"
+    }
+  },
+  "tax_model": "Same fixed20pct stress reserve on cash income plus verified taxable stock income; not actualFIFO taxation",
+  "fractional_allocation_supported": false,
+  "tax_liability_above_cash_supported": false,
+  "source_provider_packets_modified": false,
+  "documents_are_point_in_time_arrival_certification": false,
+  "portfolio_returns_computed": false,
+  "2026_market_values_queried": false,
+  "admitted_for_account_replay": false,
+  "objective_achieved": false
+}

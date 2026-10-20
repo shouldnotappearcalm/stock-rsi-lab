@@ -1,0 +1,54 @@
+{
+  "status": "THREE_IMPLEMENTATION_NOTICES_CAPTURED_TITLE_PARSER_FAILURE_PRESERVED",
+  "request_file": "experiments/qlib/illiquidity-corporate-notice-request.json",
+  "request_sha256": "897139dbb861dc1c9bdabbb77511a8957153f62b82d819079d9e87b7626ac573",
+  "original_capture_failure_sha256": "211c2f7394f5664ede094b989e445512d6fe01987e481ed61179bf401a7331b2",
+  "original_third_query_sha256": "7060229193db7ea86d43d1c0a9da9eab9fde6ff545aeda675b8eb1d7eaa5c9e8",
+  "original_successful_pages": 3,
+  "original_pages_requeried": false,
+  "recovery": "Unique original saved title includes 实施的公告; original capture required 实施公告. ThirdPDF downloaded from the already captured row without new API query.",
+  "total_pdf_gets": 3,
+  "documents": [
+    {
+      "code": "603737",
+      "title": "2024年年度权益分派实施公告",
+      "day": "2025-05-24",
+      "timestamp_ms": 1748016000000,
+      "announcement_id": "1223645265",
+      "pdf_path": "finalpage/2025-05-24/1223645265.PDF",
+      "instrument": "SH603737",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-24/1223645265.PDF",
+      "file": "SH603737-2025-05-24.pdf",
+      "sha256": "68eb5de9a7efacd6de0fbbd7a3c8d2f19610bce7031314664e5ba09ab31ea334"
+    },
+    {
+      "code": "603826",
+      "title": "2023年年度权益分派实施公告",
+      "day": "2024-06-21",
+      "timestamp_ms": 1718899200000,
+      "announcement_id": "1220416612",
+      "pdf_path": "finalpage/2024-06-21/1220416612.PDF",
+      "instrument": "SH603826",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-21/1220416612.PDF",
+      "file": "SH603826-2024-06-21.pdf",
+      "sha256": "5af44a23ebb9baa06ca9e95e9d08cd1c840a5cf18c3cdeebd4b37ece433079a2"
+    },
+    {
+      "code": "003031",
+      "title": "关于公司2023年年度权益分派实施的公告",
+      "day": "2024-06-04",
+      "timestamp_ms": 1717430400000,
+      "announcement_id": "1220247499",
+      "pdf_path": "finalpage/2024-06-04/1220247499.PDF",
+      "instrument": "SZ003031",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-04/1220247499.PDF",
+      "file": "SZ003031-2024-06-04.pdf",
+      "sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4"
+    }
+  ],
+  "original_two_PDF_bytes_unchanged": true,
+  "financially_reviewed": false,
+  "2026_market_values_queried": false,
+  "portfolio_returns_computed": false,
+  "investment_rule_changed": false
+}
