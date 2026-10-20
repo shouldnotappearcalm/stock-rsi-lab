@@ -1,0 +1,1048 @@
+{
+  "status": "LOW_BETA60_RAW_SOURCES_CAPTURED_ADMISSION_SEPARATE",
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "requested_names": 69,
+  "names": 69,
+  "totals": {
+    "bar_rows": 33534,
+    "distributions": 178,
+    "adjustments": 184,
+    "quarantines": 0
+  },
+  "request_sha256": "8a3da07192a1c3901997a8f57a2216b268bbf3e47082d63280e1188518abd493",
+  "target_sha256": "ee19a560df3b5b669d093191757ea25bf7b1cffef4497af9ee4c5a1873eb995b",
+  "calendar_sha256": "feda1fd82528f89646d2cc0092b0ae9c22660eae84665cfaf8632c983d7a9704",
+  "per_code_sha256": {
+    "SH600004": "2ed44a4c855a8c1d73490fe5062f069ef67fd867c46fdaf4d4afb49f179d80d2",
+    "SH600021": "aa0b94b8fd58081930be747c393260b5c03f1f1a0065dd07ac73ee07fdb1e82e",
+    "SH600056": "1d3f88a7b3731cd2538e5f27354c26d89369df5376f2ce0f5976c1313578c84c",
+    "SH600062": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+    "SH600167": "4c023ee8df557e2d6ca074e219d1d3235bff93cc375d458c5ee992f3feb4a9f1",
+    "SH600170": "c603a2c960696edf096951b7a43b11df7f8ad2a87ddce4031c5999bf24783d8d",
+    "SH600177": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+    "SH600350": "8a4dd0c64fae9f00c523fa4f2f1a6dc465a9da1a1c8511828ea83e4258a5209c",
+    "SH600373": "c3709c53264f223884335b2db81666cb04ab5544ce3f78844e517170bc1cb1be",
+    "SH600377": "c738cc5fd417a8521e4ccbd9fb918a60d775e9d2a8c3465a2feabe8c82eff990",
+    "SH600398": "f638f28c3b3ddf9ed0279b0981a884f3ebb652d59599d1171b5c544fc4757ec3",
+    "SH600483": "9c9a95d58574176a1b60d21a2207108b0fee84bc0ab068d76780e640a7c6d70b",
+    "SH600511": "e52857e070648e7ea7605a1ed78616d49a566afc67d78b911e85bc1b809cee8f",
+    "SH600578": "acd6335db5be8c430873d841272f2d976c136882074a10867dc5fce710c30c5f",
+    "SH600598": "a5a8dee4621f4ee721f0fa007d3f2ba66d9220976365210279a5c54c7aeb5965",
+    "SH600642": "c6e461f4120b81bae3656155419ab14e6c182b10079c5f880279795b937bb9a7",
+    "SH600663": "cdce8e9d271bb0b2e0bab3e3a8b97a2854424f3bef7f4cb0edf2b74fe0a904dd",
+    "SH600820": "1d2a6414d85be8785d39ad8b3d6e5859c1746a7412a2d38e1904d8f585549947",
+    "SH600863": "fb0b3b9a62336da9bd0de8b2e90c72268ebf4280dbf85376719ef56735d5c5cd",
+    "SH600867": "4654a94f7255610e7e8143e6de75f77a7b87d4ad78a2b1f5b687cfb6726a2e36",
+    "SH600901": "bc3b0b8f49d58ca278742d62d54faa2981a4e0f26ff9c23026273a177a827c69",
+    "SH600928": "0eb1bfda13546ac2f4f51efd323202cb1adad3476b532f44d19d252a2cb5ba77",
+    "SH600968": "de0cbfce1fe35276ecc0207d6c93274d1239d24a259b74b745f4645dfea6e8db",
+    "SH600985": "83ed984587fc63a726e3e7ed5f56ead29bf63ca7012412e79d8834b8753d1497",
+    "SH600988": "1b61d83c2fcced376d8a81e879cc27259b3937bc009981adc32ccf6b45eebc00",
+    "SH600998": "1d56b6343dfb83c3616525ecda456f54e4976756e48407b1a1f580c9a7b4b252",
+    "SH601000": "109611679570a0ab063594b2c37fe4dabb6dcbf1006880ba3b0ceb12ea97b575",
+    "SH601019": "b21d2a0b6ae38ece39b0f59a5c497de081206730fc84e2a709fdffd52b71eaa2",
+    "SH601077": "111c1d94a17d131342a0f62ef3ad41f489debc846299d983403941e1dc7ff71d",
+    "SH601098": "d2e9de86eca3e2767e686743be4ac4520544abe4f206a7855ec446320762adf0",
+    "SH601118": "df981d773959658183d9164ace25817f43e79967525399a9ef0ced7603a811d2",
+    "SH601128": "da99a9958bfddd73a5cc1d2de2797758864cbec7698e97de5152e2a0f1bf8613",
+    "SH601158": "1fed273cd931f98962ed8206901880569bffaaf2db5c8c27a8c39063232049eb",
+    "SH601179": "591ff8bfab778f80823a1495c97aca72573241ea6126b1bc2f289a1aa091d277",
+    "SH601228": "478fd24370817e597de4bdb537a02500265a8de69e618cf75244ca654a2a8838",
+    "SH601577": "d58e194b10074a37edebca373d889fe8831a4763ed666b00109ca45f9f42bd9c",
+    "SH601598": "dee3a98a47dfcf1e803760922913d9cc53c4e0bca29501e2e25fea94006af47e",
+    "SH601928": "ce3956a6ef810aa566700bc02c56fc523b06677cb2f8a81829d58dc55342e77b",
+    "SH601933": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+    "SH601991": "a10ea43bb4746d7b8e6416a56f458065c51240737178ff3de491a13c2ddc9015",
+    "SH601997": "ccc6328a2674366f29ff14cbda9644e4af27ae89dd19fa4ccbdb275e9a532ce3",
+    "SH603658": "4d1129642dbe96019cabf3de5dff3d4d935cc31b6e7577c42006e7b6d6f10646",
+    "SH603826": "f71bd92e5d12274e0fbab5beb527f02764551d132e51f2bd12984bcccaf84a5d",
+    "SZ000062": "fc2a982fed90776b8acd911d3ae2d3455caf80fe537c81ffbd85de5f222e9dc4",
+    "SZ000429": "f3348f2352b28ed1d26108f9a3d7e70d7fd4473e43b762f336b0ead0f08b5113",
+    "SZ000543": "3600a1b12a1604745367addd4b2df9cb57b43679a7e40a7dac1a5421cbe208f8",
+    "SZ000553": "a961c28e2c0f225f8112a594578537cce3e6fc98335346f2f95e85d18be0abf2",
+    "SZ000582": "81bc30f49077d0c7c608704782309676bb4539527fb27f447341e4ce981a7770",
+    "SZ000598": "80703e5f968fc3eafdac3e7e3358d46f5ca219a1dba83632425d963c8ab00a4d",
+    "SZ000883": "7006cb2d3f3bcf844e2ba4c46930cd1909a8fdb5d3ab620e615574cddc2454db",
+    "SZ000932": "fa26a206e15211264f0e8e023f5a65274de891a9c45889eb574626804f4efbad",
+    "SZ000937": "56ecc19ba1911b0cc4d06368a8d49596b9f32521a95c089f8e0494289840754c",
+    "SZ000975": "b3bee77d5d5f3e5a5c2ffb0619f7dff092e34ca235b0c95066ce8a3165b77aa8",
+    "SZ001914": "2cc466a35fe69cdd36eed6c347bddda53b8d21dbe840eed9808b85f8372a6d44",
+    "SZ002120": "bde60d51ab0695877d90c6d4aae1459072b4d06e98538c84fc67369b6eac45ef",
+    "SZ002244": "1ea943d0e82fba7417a61cb659198713bdefe75ffa1e9a74dbb658dd86768b21",
+    "SZ002423": "cb2add739e2d872820940d88e2a538e83d50c3b5e3035c9eac4edfbfc57fc214",
+    "SZ002461": "6122ff9d28e39e12479384164c6d6ba4c3bbb0d93d66be9f8ec1374d9323f39e",
+    "SZ002468": "36582bf048ace1f52e66d2b47b9af1a2ca83aa960021e3e5504f4a1d35f69537",
+    "SZ002936": "960877db335338d0699bd3cb364fe924a7ab6f99ccc82b25135f85f0cde81968",
+    "SZ002966": "bd531f52a365a7a785fd385e877629eb44484ebe5abf91dfa86d8329acd3d61f",
+    "SH600153": "7bc6f6ab945edeb8c6270c0f30cad18a38b7aea8142c925d73bfa3d066430414",
+    "SH600312": "6a683a91d03c882e41af9e542fbf5613b0703f0761385dc871e012327c85017f",
+    "SH600325": "74478565fa33e1c5ae5721134c10915a31860f4b92d0a25d0f3a9c2a9a94e247",
+    "SH600339": "dd58b99ec08f996fdc61e6cf458a7278b63119a0e28d0b643d3cfd34bb024c63",
+    "SH601333": "22ebfefe25462a1339e1c7f5a01bd2bba93d8af0a9626a9ead5cd0722c06bd66",
+    "SH601918": "79d34a681bf2499ddb3669a298fc503a83c94b0365fcfe46c14601ec197e90c0",
+    "SZ002262": "ed41adab9f045bea65e2f77a9b6fe529e6bac516b9f772bd41250c81bfed64e9",
+    "SZ002422": "76f3ba7c0ab571eb8f5964fba1056ed07613a80775a063025c5e76805e490ad4"
+  },
+  "errors_sha256": {},
+  "calendar_diagnostics": {
+    "SH600004": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600021": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600056": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600062": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600167": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600170": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600177": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600350": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600373": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600377": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600398": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600483": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600511": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600578": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600598": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600642": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600663": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600820": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600863": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600867": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600901": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600928": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600968": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600985": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600988": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600998": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601000": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601019": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601077": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601098": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601118": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601128": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601158": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601179": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601228": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601577": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601598": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601928": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601933": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601991": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601997": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH603658": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH603826": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000062": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000429": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000543": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000553": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000582": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000598": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000883": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000932": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000937": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000975": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ001914": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002120": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002244": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002423": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002461": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002468": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002936": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002966": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600153": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600312": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600325": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600339": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601333": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601918": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002262": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002422": {
+      "full_explicit_calendar_covered": true,
+      "observed_rows": 486,
+      "first_observed_session": "2023-12-29",
+      "last_observed_session": "2025-12-31",
+      "missing_sessions": [],
+      "missing_sessions_classified_as_prelisting": false,
+      "synthetic_source_rows_created": 0
+    }
+  },
+  "reuse_routes": {
+    "SH600004": {
+      "directory": "return-families-raw-dev-20261017",
+      "packet_sha256": "d498ce8b46763dd63340c30a9ef8c7d9b2b3cdf11f6d2c5dd081a832e3eb51dc",
+      "pre2026_raw_core_sha256": "bd11ec2fe0e36f20572684046548e2fd43230e951562041830328d09e5b14566"
+    },
+    "SH600021": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "4a7993c4efc96d474053231ccdca3bc9bf5dd60add7f5a8c425b79934120531e",
+      "pre2026_raw_core_sha256": "6dcd88bab3140b62d11c27a50e8cec2fa5b2b82da8e3d2734421e9155014f13e"
+    },
+    "SH600056": {
+      "directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "9cd2bffb018952ac54a0850e19407415394fe069528019ae1223bee2c7ec26d3",
+      "pre2026_raw_core_sha256": "d22fd883de4d5a59ff5768c63bb26592d8aad839c2b5dd71382447967c7736a2"
+    },
+    "SH600062": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "efefecc77f9ae6f595bfed0c615793be86caccda73c95afdd5a951d5683225f1",
+      "pre2026_raw_core_sha256": "17e4487974b3a9a0bad94ab7067b2e7cc5ea1c4b5a1a6d5c428222c52edf50d6"
+    },
+    "SH600167": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "fb45766f35b1c6bb595058e4e57cec6527bb72423c1482a2f5fb0210c4458fb7",
+      "pre2026_raw_core_sha256": "b7aa07ffe915c9c83592b179a52c659c5906d093627832843c451f8e40fdad60"
+    },
+    "SH600170": {
+      "directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "de92416b838ecefd58d0aa4e05651f383064a80dc9a39fa08df05b4f06d5bfc5",
+      "pre2026_raw_core_sha256": "5c2f0603016b283b4839eb6cca89fdf514c8976de0502eb58c00491e57c1a217"
+    },
+    "SH600177": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "bf772823973a321d7b41d34c571aed02810c4dd2088c567e93f41c313f6d6a47",
+      "pre2026_raw_core_sha256": "8ed443cb19146451262edb0c2b14c36d4aeee36dfdfc74e494ceabc0763f867d"
+    },
+    "SH600350": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "77397032c433c981552930c04fb8cf00ce52bbe9b780bb2baec2b393913a0687",
+      "pre2026_raw_core_sha256": "27f2acbdfd87d9bdaffc66e69f866169060d7e56dad50afce1596051543686ad"
+    },
+    "SH600373": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "9c1512a49c59d6e7dd9f334b3d7afb83ab78795f5c4403ac9ea8534ba2fd35c4",
+      "pre2026_raw_core_sha256": "c99091923150b875e1e208d55987772a06f8a9884aebdde93f2f93a87c8a7fa2"
+    },
+    "SH600377": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "e494cb1722f7942e0d8d061daffb5f967396ee5c2ee10277b5de29548003f31b",
+      "pre2026_raw_core_sha256": "5d50761640d1b4e009afd2655df74d2bb22f7a6440571a93dae3fbfabe6c32ab"
+    },
+    "SH600398": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "5ef669f00b671bba57784d4414b2c2b5a1e0836b7524e706cb63cba052d13194",
+      "pre2026_raw_core_sha256": "1fb7c95f0c32edc64b61f4fc06616648f2f9c17ace19f3426cb300b0cf71927a"
+    },
+    "SH600483": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "b8ffee938edb32c8538fd89f3cfcf47206b12aa928919b25191b8985f1d6dfda",
+      "pre2026_raw_core_sha256": "3b606f320ccfdc8976ed6439b52f8b3603d9fcbf93782a72d30056e0e045e8b9"
+    },
+    "SH600511": {
+      "directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "4b31d4ce87c5ea1dd15ac7fe3ae345f89f8054195ab92a04f594272109f9418b",
+      "pre2026_raw_core_sha256": "32815de4ca4f2b883a47bb918d6113605bd423f9c65a9be9f6eceee6bf7cf9d3"
+    },
+    "SH600578": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "47664b707a49a6802e2b446bb15b6977201ce0461178c636d8c40f2cabf59ab9",
+      "pre2026_raw_core_sha256": "2252055aaea2b541510efda4281485a34c592e3be57ad5b4b816673b39aa9297"
+    },
+    "SH600598": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "6dc6ee9820fef685751013a1881b5c8b06a92aea0ee96ad1ea760f103f79305b",
+      "pre2026_raw_core_sha256": "32ad8eae4a471ff2b510605c6431b7081aba5f47a82325421ac27acfce8cb785"
+    },
+    "SH600642": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "c0e283669a9dc82628e41f498b7fa421c0c8b12670240e421c9c671d0cc04a24",
+      "pre2026_raw_core_sha256": "eb0363d9537dbc8bc6f9bc0d9361bf20a7509544e7db148d714753e5c2e4f93a"
+    },
+    "SH600663": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "7e5c86fbedbfcb8a3f05a2bc8c792f1f865cbad59ddee717a9a79a40c92eb9c5",
+      "pre2026_raw_core_sha256": "09d080a47bf3213d64e14b4ec562ccd1aa5a9e7724073ea45244729cf180c198"
+    },
+    "SH600820": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "8dbd850f7437d38e62a94e3459c07016dc4fc5a26c0682b1afaf26fed94ececb",
+      "pre2026_raw_core_sha256": "32cca8998245991c2e00409f765190936d9471c4088bc5528172a0961c80e5f8"
+    },
+    "SH600863": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "392ff335328a9c72cc525ff9800cea0c94635b893804dadb14fa3334c73bae50",
+      "pre2026_raw_core_sha256": "0cbc68ed11f2890c851529d20713a76ac117a91d93c568edd646afb3020490a7"
+    },
+    "SH600867": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "1f82bc0946b91aea937cfe3a3fb3b251b1687fba99b0bad2f7e0a26fc4407fbe",
+      "pre2026_raw_core_sha256": "fc43ea73899906e98ebed7b3b637eb0991c63c6038b6a84d867c06205992e7a4"
+    },
+    "SH600901": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "422eb6d4a5e444de95fb5191fc60f1d15cb3b912b1bad7c1a091bbdd3bbbaa45",
+      "pre2026_raw_core_sha256": "e8ccdc11f809646e3ce8fe1de6c70a44248c972533adb4e2cfd619865ba41119"
+    },
+    "SH600928": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "2cdedb51ca4f91542744c4d5c17950a856d96e93a81b8e9f1c35f2757e532cc9",
+      "pre2026_raw_core_sha256": "2b580a252f182343339d8cdb1a3422a359ad1bb60cbf8bf0144e522ab1d7ccdf"
+    },
+    "SH600968": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "133aa2e3f3c275ca781a2f7d69e8927a32e8c546d69742942a2cf9d860963157",
+      "pre2026_raw_core_sha256": "0745583aa748d61151b36c8393bd18b6f60c79f7cd5ce90e2805dc7279c23cb9"
+    },
+    "SH600985": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "397353cf97451fef2fa490f8b28af75cc97ee549374e3b7c1a339c92d32e9ce7",
+      "pre2026_raw_core_sha256": "011582aed071bfcb9afca33e958f359de77436b16fc34bb52f0eda21b4bf0481"
+    },
+    "SH600988": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "1780e191c94fdd1af70333acb59721c094a60350d8a20a0569ddc7a5ab70d5cb",
+      "pre2026_raw_core_sha256": "695c2fd5a3fb3fd65639d54b2541bd7459f09d3d9206c58b0315aa7cfc0a8bb3"
+    },
+    "SH600998": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "7c1611ac0a8880efae2c7186120de567393a638ada1e1101cb1fa84e98f75a9e",
+      "pre2026_raw_core_sha256": "90bfa46561442e04706e3955ffb86093db2b829f7012e90fbf3f3402ecf109a4"
+    },
+    "SH601000": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "3d350c22b721916f12398343b743a61de824be7ab88c4278734743e0fc0e2fe8",
+      "pre2026_raw_core_sha256": "51657c23cd4be1017ee08963ab894fc42b9afe1014123c08f20b361266fbc715"
+    },
+    "SH601019": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "56653171cb139ca59bd12acf0aa7b4d8139cf413e0d51f6e243c1069c22959c7",
+      "pre2026_raw_core_sha256": "6146c8de18f47c1403ec89f034d78394775df9874f6e4759184fb68866115af6"
+    },
+    "SH601077": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "800b30b0e807e026fdf33a2bbd37556577c516f2340b83d46ff796e40470f388",
+      "pre2026_raw_core_sha256": "867bd0096bc4fa6abe4020407057fe70c6114030ae55b7db9e986260f52a2c99"
+    },
+    "SH601098": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "db2cb3bc4e8e5f33bd4bf4738fad131ea8dff526402c61630646cd941f7a0970",
+      "pre2026_raw_core_sha256": "47148869b872c1112b079cb56cbf3e2b7cda19e9e8e94458338cf80881eb100a"
+    },
+    "SH601118": {
+      "directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "6874eb05e923220146c482c191e1c1fbb6ce76cce1b45803730978ed563484d9",
+      "pre2026_raw_core_sha256": "878238fb08397a26bd56c58db4956838bc0fd714ced130aed3afd087b7d293be"
+    },
+    "SH601128": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "a8e19ead8136538d2e0cea36c18e0ed05fcb4523921cd9f8afea9fdf6a039143",
+      "pre2026_raw_core_sha256": "9a619ff9edb543b3008aac2cb42abc1da6f6a37c0d70582ad05dedbdaad7fb1d"
+    },
+    "SH601158": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "eb9c02e677208afb11e7f698568b44ec85d4ecf709167e3e85e29daa91627918",
+      "pre2026_raw_core_sha256": "5ac593da40fa7ac08a06240ae0670f8bbb9783b307c9c76eb7ade1d4ae090834"
+    },
+    "SH601179": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "8be4a5b6f5745fe8857470b89c4b80a2e91d5bdb550d22dc57e72bd1c87fb080",
+      "pre2026_raw_core_sha256": "e481aedb813c13ad23813cdf3e7e0ecba88dababe12a29bab6ed08a3efb722fd"
+    },
+    "SH601228": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "d6ce7b1365a943c001b6ef9d0c23dbda72a5a160b8ab2ba8c8d9e24e48edc1f4",
+      "pre2026_raw_core_sha256": "f2096740cab78f9d45e144bbe6a66a2dfce3de5a63cc208477ec3c8f516c5e9a"
+    },
+    "SH601577": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "4a2fd979bd457e9291e004c17d577760a7b593b5884696936f5cb4216290714e",
+      "pre2026_raw_core_sha256": "412b51bf27a1e4981689460fc55eb182b14184c9c37a4a0d527f67a7159d0f0a"
+    },
+    "SH601598": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "ebc0b69d4d2f6933eac123cbcdf8012621bb98bf6b873c9a8946b7dc4ee574fd",
+      "pre2026_raw_core_sha256": "6059972bb099b870023f634ecd6079065d3b7f5911ff86aa6e8aadb25023c5d6"
+    },
+    "SH601928": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "b27a825944d79d068b8f92e9e3b92482f1d7bb729b5883af48168a206db22d8c",
+      "pre2026_raw_core_sha256": "a121507df6f2c8d98f4c7c124cceb6b82e00af1c1a52a225a07672cea6aef617"
+    },
+    "SH601933": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+      "pre2026_raw_core_sha256": "1e6355900d686fc3d45e486df105b37c6b448934ca3274959acfe51caee24f0c"
+    },
+    "SH601991": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "df344cc06a44b795201d9c0b3fba7178c5d89717a276c86e6175ac0bd378b786",
+      "pre2026_raw_core_sha256": "bb74f1dcf00e60c39b46ea63ddaf5dc59ad10555900ba50816e2a624059ca0d5"
+    },
+    "SH601997": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "999c5d8817534838d21a2728ce80343bd8376c7162647a0eb3d9d779adc40e65",
+      "pre2026_raw_core_sha256": "d4429d2323d13d4f619306157f265397019059e29bb21972f271b244afd17f2d"
+    },
+    "SH603658": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "c347cbb8bb29860a7736c13a810b93343b8c3747818ff246fdc98c8b46f5f176",
+      "pre2026_raw_core_sha256": "bbe1ee4fe4ae2ba81961a58e67d239a4c9c3fef2227648e9d87f71f26817bea3"
+    },
+    "SH603826": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "c0f680b98bf6923ea0c8a79e09ef1b8c3ed251a8d2bb9fd707bc03effa4e3410",
+      "pre2026_raw_core_sha256": "1cd3b5efc2b6822f7ece7176f31501382a9bb40fe78c00536c829568c6529ac5"
+    },
+    "SZ000062": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "a64a3f30ded7b65eaac61889b762bc65b3efa74801e4af3a5ab7b755300173cf",
+      "pre2026_raw_core_sha256": "6ea64b5ca1104ac2b59cfd0467a2ac8f767ce6bd90cc5706537cae2db9bc325e"
+    },
+    "SZ000429": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "dbb357459aed75e210de0af0bb2c4f4a8c80f2299512d784605567113c0562b2",
+      "pre2026_raw_core_sha256": "2c4174bed14eb53de4000e4c82d1a54b721df51a7eb56ffb23fff410e168c8d5"
+    },
+    "SZ000543": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "222e16d93df8739cc81d8695addbfa40456ccacda5cb253ea222712ec0add4ab",
+      "pre2026_raw_core_sha256": "42abdbb59df092b760ea94047d9b5d7b483151af6a56cf97464d579c7c86934f"
+    },
+    "SZ000553": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "4d0beb2a3be4c5794d17c48ad7bfbda33aa0b6ec7d1c4bf2f2027119ba0c999e",
+      "pre2026_raw_core_sha256": "2bbdc633a4064a75eb0fe20d259ff38e564a76cbd0a6323bb22e38a87b8ddfe4"
+    },
+    "SZ000582": {
+      "directory": "low-risk-raw-account-data-20261017",
+      "packet_sha256": "d3a5cb9fb21a6705870c1ea347017aeffbd5246d971198d1974f688aaa8b116e",
+      "pre2026_raw_core_sha256": "c1811528a1259f383b094c2e85204f96584341dd1dc34b056bb0f6d8dc243116"
+    },
+    "SZ000598": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "2dc33662415ea45272faa6065bac8fe646a9e0245180a7c588a904e60209936f",
+      "pre2026_raw_core_sha256": "d88ccaac6343054159b77ab029b54845044ee5b28bcb737435417ed4d4b4247c"
+    },
+    "SZ000883": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "2534d13ac01f46e361104f15bd4cebda1e1c8ecfee3bb23ff18cd84db5ab79cd",
+      "pre2026_raw_core_sha256": "226e5929e957604f5183dfe9c8738a84e583ecc76c97b017be4258944f7dfcd9"
+    },
+    "SZ000932": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "d22343faadaeb94c511cb0ec9f6997d4b2634cd09519aad8ed7c4b02555d10ce",
+      "pre2026_raw_core_sha256": "7944c4afc43d0ffad27adb74d1bb2b23f163460a85f084919d6a4e04c0406eae"
+    },
+    "SZ000937": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "8be62d8670e53337909040cc3e65c356251bfbe99b71ab94118b34fc88f76cb6",
+      "pre2026_raw_core_sha256": "d814be7527b81ca9226276a31f72bf44be30e65101bbd252ee54f523c369ab4d"
+    },
+    "SZ000975": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "36e9b27307f5359a6cce9459ab68b839417b13255734131b5ee1c2ce45937833",
+      "pre2026_raw_core_sha256": "3a860b5cd96067be73683f85ade6d4a742c28014f376268e7e80bee0115f787f"
+    },
+    "SZ001914": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "38cab67de5258a590ffa93c0c171ec7a7365ca203bcf26d951a15c010969cb64",
+      "pre2026_raw_core_sha256": "68796230a589d9cc5eea6dc9efaacbc1f649af4b35e81e7dbf8fc285869422f2"
+    },
+    "SZ002120": {
+      "directory": "return-families-raw-dev-20261017",
+      "packet_sha256": "c4e059f2ce03347c4c9a86a8532702def09b98b613d0b5ef227da1f8f2bcf77f",
+      "pre2026_raw_core_sha256": "7fb1483da8ebe1acab84ee1083eed91940693cb3bfbbe104354a45a63ec42827"
+    },
+    "SZ002244": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "cbaba8aa6ebf0f5c4bb12311f46307197ef88442109ad574e092866b03ae1035",
+      "pre2026_raw_core_sha256": "83721588cbe1b2d56e89ef12806eb6a1f0dd8f81db3bf9f2fc4e333f0b010906"
+    },
+    "SZ002423": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "56c9e588d3e48995ebf4539043b354d80e7dc84a853487474208fee46a881738",
+      "pre2026_raw_core_sha256": "534dc2d99509d2c6c8c119de745b20bbe843edffad4bebccf29e9f7f491cc1ac"
+    },
+    "SZ002461": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "aacc6bb4e07ad058939faed13a87ee0cfa67ab3bbd5d47063f4e013e64edf817",
+      "pre2026_raw_core_sha256": "8a4d274c474d754c5c560b6169bd7e59635d2c6cf0e9f0a68aecc5ef14311dd8"
+    },
+    "SZ002468": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "88bfabed3be8bf01548fbadb8dbf8ebf12440e5d7e7279a89e402ef94c1f564d",
+      "pre2026_raw_core_sha256": "129377e20c62459414d9b0b579f0d01cafc8d08c5d4e72dfb3e7f050a7baf8a8"
+    },
+    "SZ002936": {
+      "directory": "return-families-raw-dev-20261017",
+      "packet_sha256": "8d4a62d6b264f6418b6fd2c63a1d4b52162d56fbfc2a461bee5e27f265d48c43",
+      "pre2026_raw_core_sha256": "968e6e438d499c4eec4f4b100b2e62368bee8b470b9db0398810000df55fb665"
+    },
+    "SZ002966": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "e58c247f92d7899c8e86519c066d7440591cd0b807510de90f953027231dd48c",
+      "pre2026_raw_core_sha256": "573fd67463efe93a4a9ce4b00087e933960eea95c6b59168898c3d861c2d6e80"
+    }
+  },
+  "fresh_codes": [
+    "SH600153",
+    "SH600312",
+    "SH600325",
+    "SH600339",
+    "SH601333",
+    "SH601918",
+    "SZ002262",
+    "SZ002422"
+  ],
+  "maximum_new_query_reservations": 32,
+  "query_reservations_consumed": 32,
+  "pending_codes": [],
+  "source_units": {
+    "price": "CNY/share",
+    "volume": "shares",
+    "amount": "CNY"
+  },
+  "missing_rows_synthesized": false,
+  "admitted_for_account_replay": false,
+  "new_2026_market_queries": false,
+  "historical_arrival_verified": false,
+  "portfolio_return_computed": false,
+  "objective_achieved": false,
+  "corporate_action_completeness_verified": false,
+  "original_cache_may_include_later_bytes": true,
+  "SDK_decoded_responses_not_TCP_wire": true,
+  "strategy_or_targets_changed": false
+}

@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "LOW_BETA60_NORMALIZED_DEVELOPMENT_PASSED_RAW_SHARE_CONFIRMATION_PENDING",
+    "status": "LOW_BETA60_RAW_SOURCES_CAPTURED_CORPORATE_ACTION_REVIEW_PENDING",
     "candidate": "low_beta60",
     "candidate_budget": 1,
     "adaptive_development_not_sealed": true,
@@ -396,7 +396,7 @@
     "raw_share_execution_verified": false,
     "candidate_promoted": false,
     "objective_achieved": false,
-    "next_action": "Complete same2024/25raw-share source packets for69frozen names: authenticate+clip61existing originals; separatelyfreeze8names×4boundedqueries; thenreviewcorporateactions andintradayexecution. No2026ROIyet/nofactorchanges.",
+    "next_action": "Freeze primary-source corporate-action review for four noncash distributions and six unmatched adjustment dates; reuse authenticated prior proofs where available. Then freeze same2024/25integer-share/cash and intraday confirmation. No2026ROI or factor change yet.",
     "formation_summary_file": "experiments/qlib/low-beta60-pre2026-formations-summary.json",
     "eligible_range": [
       326,
@@ -417,7 +417,16 @@
     "uncached_in_checked_sources_names": 8,
     "raw_source_core_conflicts": 0,
     "strict_Qlib_fill_not_above_request_verified": false,
-    "reference_Qlib_rounding_excess_fill_count": 133
+    "reference_Qlib_rounding_excess_fill_count": 133,
+    "raw_source_capture_manifest_file": "experiments/qlib/low-beta60-raw-source-capture-manifest.json",
+    "raw_source_independent_audit_file": "experiments/qlib/low-beta60-raw-source-audit.json",
+    "raw_source_captured_names": 69,
+    "raw_source_market_query_reservations_consumed": 32,
+    "raw_source_calendar_gaps": 0,
+    "raw_source_errors": 0,
+    "raw_source_noncash_distributions_requiring_review": 4,
+    "raw_source_adjustment_dates_without_distribution": 6,
+    "raw_source_remaining_missing_names": 0
   },
   "strategy_research_history": [
     {

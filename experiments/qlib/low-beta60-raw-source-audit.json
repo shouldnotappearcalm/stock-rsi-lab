@@ -1,0 +1,169 @@
+{
+  "status": "INDEPENDENT_PRE2026_RAW_SOURCE_CAPTURE_AUDIT_COMPLETE",
+  "audit_code_sha256": "11033c2e08e98a4bdfabac221dae4ed36c99def680232a053bcf01a53d2248bd",
+  "capture_manifest_sha256": "411e2abe02ebf914c809d6b5acb9b7e2fabacafe7dc88081b980787fb0cd8613",
+  "request_sha256": "8a3da07192a1c3901997a8f57a2216b268bbf3e47082d63280e1188518abd493",
+  "original_cache_may_include_later_bytes": true,
+  "sdk_decoded_responses_not_tcp_wire": true,
+  "captured_names": 69,
+  "capture_complete": true,
+  "source_query_identities": 32,
+  "journal_artifacts_verified": 96,
+  "response_status_counts": {
+    "CAPTURED": 32
+  },
+  "authenticated_clipped_reuse_counts": {
+    "return-families-raw-dev-20261017": 3,
+    "budgeted-residual-raw-dev-20261021": 41,
+    "low-risk-raw-account-data-20261017": 5,
+    "illiquidity-raw-source-continuation-20261020": 10,
+    "szse-value-raw-dev-20261017": 2
+  },
+  "totals": {
+    "bar_rows": 33534,
+    "distributions": 178,
+    "adjustments": 184,
+    "quarantines": 0
+  },
+  "incomplete_calendars": {},
+  "isST_source_rows": [],
+  "unsupported_or_missing_formation_status": [],
+  "noncash_distributions_requiring_review": [
+    {
+      "instrument": "SH600998",
+      "record": {
+        "code": "sh.600998",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-25",
+        "dividPlanAnnounceDate": "2024-04-27",
+        "dividPlanDate": "2024-06-01",
+        "dividRegistDate": "2024-06-06",
+        "dividOperateDate": "2024-06-07",
+        "dividPayDate": "2024-06-07",
+        "dividStockMarketDate": "2024-06-07",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225\u62160.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c2.9\u6d3e2.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.25\u62162.5\u5143\uff09",
+        "dividReserveToStockPs": "0.290000"
+      },
+      "packet_sha256": "1d56b6343dfb83c3616525ecda456f54e4976756e48407b1a1f580c9a7b4b252"
+    },
+    {
+      "instrument": "SH601128",
+      "record": {
+        "code": "sh.601128",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-04-30",
+        "dividPlanAnnounceDate": "2024-03-22",
+        "dividPlanDate": "2024-05-22",
+        "dividRegistDate": "2024-05-28",
+        "dividOperateDate": "2024-05-29",
+        "dividPayDate": "2024-05-29",
+        "dividStockMarketDate": "2024-05-29",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225\u62160.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c1\u6d3e2.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.25\u62162.5\u5143\uff09",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "packet_sha256": "da99a9958bfddd73a5cc1d2de2797758864cbec7698e97de5152e2a0f1bf8613"
+    },
+    {
+      "instrument": "SH601128",
+      "record": {
+        "code": "sh.601128",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-04-26",
+        "dividPlanAnnounceDate": "2025-03-28",
+        "dividPlanDate": "2025-05-28",
+        "dividRegistDate": "2025-06-04",
+        "dividOperateDate": "2025-06-05",
+        "dividPayDate": "2025-06-05",
+        "dividStockMarketDate": "2025-06-05",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225\u62160.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c1\u6d3e2.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.25\u62162.5\u5143\uff09",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "packet_sha256": "da99a9958bfddd73a5cc1d2de2797758864cbec7698e97de5152e2a0f1bf8613"
+    },
+    {
+      "instrument": "SH603826",
+      "record": {
+        "code": "sh.603826",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-17",
+        "dividPlanAnnounceDate": "2024-04-26",
+        "dividPlanDate": "2024-06-21",
+        "dividRegistDate": "2024-06-26",
+        "dividOperateDate": "2024-06-27",
+        "dividPayDate": "2024-06-27",
+        "dividStockMarketDate": "2024-06-27",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "0.05\u62160.1",
+        "dividStocksPs": "0.400000",
+        "dividCashStock": "10\u90014\u6d3e1\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e0.5\u62161\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "packet_sha256": "f71bd92e5d12274e0fbab5beb527f02764551d132e51f2bd12984bcccaf84a5d"
+    }
+  ],
+  "adjustments_without_distribution": [
+    [
+      "SH600167",
+      "2024-12-27"
+    ],
+    [
+      "SH601098",
+      "2024-07-15"
+    ],
+    [
+      "SH601228",
+      "2024-07-15"
+    ],
+    [
+      "SH601928",
+      "2024-07-15"
+    ],
+    [
+      "SZ001914",
+      "2025-08-14"
+    ],
+    [
+      "SZ002244",
+      "2025-08-08"
+    ]
+  ],
+  "distributions_without_adjustment": [],
+  "noninteger_volume_rows": [],
+  "active_price_fields_off_cent_tick": [],
+  "capture_errors": {},
+  "pending_codes": [],
+  "original_source_packets_changed": false,
+  "clipped_reuse_provenance_verified": true,
+  "raw_source_admitted_for_account_replay": false,
+  "primary_corporate_or_lifecycle_review_complete": false,
+  "new_portfolio_returns_computed": false,
+  "2026_market_queries": false,
+  "objective_achieved": false,
+  "administrative_sessions": [
+    {
+      "attempt": 1,
+      "reservation_sha256": "b77e5d3769d31ac96d6357b214716c40bcc9cdf40d74f43a20a137df3212102d",
+      "response_sha256": "094781fd57e4fdee1a3cea3d48712bdc92fa2f890849fcf6ac92a8d293e4e44f",
+      "response": {
+        "error_code": "0",
+        "error_msg": "success"
+      },
+      "logout_sha256": "b47c5f6bd6a76500de2e47d43016e60d778a3b0e0f3dee9ff667769d7f4f1527",
+      "logout": {
+        "cleanup_called": true,
+        "error_code": "0",
+        "error_msg": "success"
+      }
+    }
+  ],
+  "scope": "Own SDK-response/hash/packet/calendar and numeric-field verification; data retrieval not historical truth, PIT arrival, exact minute-volume, corporate tax basis or actual held-account admission"
+}
