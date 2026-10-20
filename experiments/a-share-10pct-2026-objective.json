@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "MARKET_RESIDUAL_MOMENTUM_FROZEN_PENDING_DEVELOPMENT",
+    "status": "MARKET_RESIDUAL_MOMENTUM_DEVELOPMENT_REJECTED_NO_2026_RUN",
     "candidate": "market_residual_mom36_12_2",
     "candidate_budget": 1,
     "descriptive_controls_not_selectable": [
@@ -399,7 +399,19 @@
     "new_2026_outcomes_queried": false,
     "raw_share_confirmation_run": false,
     "candidate_promoted": false,
-    "objective_achieved": false
+    "objective_achieved": false,
+    "freeze_commit": "0fedd393de494c470568e477f6f99436bc3d3d8a",
+    "result_file": "experiments/qlib/market-residual-momentum-pre2026-results.json",
+    "independent_csv_audit_file": "experiments/qlib/market-residual-momentum-pre2026-independent-csv-audit.json",
+    "independent_development_gate_passes": false,
+    "independently_reconstructed_binary_formations": 24,
+    "independently_reconstructed_csv_profiles": 6,
+    "qlib_rounding_request_excess_records_preserved": true,
+    "rejection_reason": "Average exposure89.62870723296017% below predeclared90%; both development years net positive; no2026 outcome computed",
+    "2024_reference_net_pct": 4.737606609196554,
+    "2025_reference_net_pct": 6.192833029377742,
+    "average_reference_exposure_pct": 89.62870723296017,
+    "candidate_unverified_held_marks": 0
   },
   "strategy_research_history": [
     {
