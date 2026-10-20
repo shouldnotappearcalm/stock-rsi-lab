@@ -1,0 +1,61 @@
+{
+  "status": "ETF_ACTION_AND_RULE_ORIGINALS_CAPTURE_FINISHED_REVIEW_SEPARATE",
+  "request_sha256": "a0efb67340a69909dd45bbca612528d0ab90ba26d2e0f2a4c926eac60ceb3a05",
+  "documents": {
+    "SH510300_trading": {
+      "id": "SH510300_trading",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-01/1220228349.PDF",
+      "file": "SH510300-2024-prospectus.pdf",
+      "kind": "rule_pdf",
+      "role": "fund_prospectus",
+      "sha256": "f3af2a31efc9121dd469899c022584763c24b6a7eea8cc7974fccb11f55f1783",
+      "HTTP_receipt": {
+        "request_file": "queries/0a792e0e57c70fea35af0b4f8cbf2863d719da12da077fa24ebd5d6c83c6d877/request.json",
+        "request_sha256": "31317bdf3a8449cf9029473c1ca508586ccd5f2f21f92bb13942e0dae1496826",
+        "reserved_file": "queries/0a792e0e57c70fea35af0b4f8cbf2863d719da12da077fa24ebd5d6c83c6d877/reserved-1.json",
+        "reserved_sha256": "487202e2441b5b8b8685c3bee134eecb606322986ce2239e8bd0eace626f81fc",
+        "response_file": "queries/0a792e0e57c70fea35af0b4f8cbf2863d719da12da077fa24ebd5d6c83c6d877/response-1.json",
+        "response_sha256": "4d03dc3f20361d28aeb88ad6909fd03538115c42c443e0993cc16016b4811003"
+      }
+    },
+    "SH510500_trading": {
+      "id": "SH510500_trading",
+      "url": "https://www.nffund.com/main/files/2024/11/20/990043127212.pdf",
+      "file": "SH510500-2024-prospectus.pdf",
+      "kind": "rule_pdf",
+      "role": "fund_prospectus",
+      "sha256": "9bb4fbb909c7a479b754dbfa2db84bfa86960a72e46104d13a7340c83c2b1439",
+      "HTTP_receipt": {
+        "request_file": "queries/d249150f38654e76dbd3ba7385b49181e00d5d98c39c4698667cc9823bb40784/request.json",
+        "request_sha256": "ca32a4cccb53fd905c4cee8c7a79e614d1717581340d4521543419955a9dffc8",
+        "reserved_file": "queries/d249150f38654e76dbd3ba7385b49181e00d5d98c39c4698667cc9823bb40784/reserved-1.json",
+        "reserved_sha256": "f1c703570a7a38cf4616d3dfe10d66beb9102087900b33564d7a606fb41337c6",
+        "response_file": "queries/d249150f38654e76dbd3ba7385b49181e00d5d98c39c4698667cc9823bb40784/response-1.json",
+        "response_sha256": "accf5d4f6dfa6b75ea112d064a1df5095091bad880ec8eb32e92ebbfded39d58"
+      }
+    }
+  },
+  "actions": {},
+  "errors": {},
+  "captured_documents": 2,
+  "extracted_fund_pages": 0,
+  "HTTP_query_reservations": 2,
+  "artifact_sha256": {
+    "SH510300-2024-prospectus.pdf": "f3af2a31efc9121dd469899c022584763c24b6a7eea8cc7974fccb11f55f1783",
+    "SH510500-2024-prospectus.pdf": "9bb4fbb909c7a479b754dbfa2db84bfa86960a72e46104d13a7340c83c2b1439",
+    "errors.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "queries/0a792e0e57c70fea35af0b4f8cbf2863d719da12da077fa24ebd5d6c83c6d877/request.json": "31317bdf3a8449cf9029473c1ca508586ccd5f2f21f92bb13942e0dae1496826",
+    "queries/0a792e0e57c70fea35af0b4f8cbf2863d719da12da077fa24ebd5d6c83c6d877/reserved-1.json": "487202e2441b5b8b8685c3bee134eecb606322986ce2239e8bd0eace626f81fc",
+    "queries/0a792e0e57c70fea35af0b4f8cbf2863d719da12da077fa24ebd5d6c83c6d877/response-1.json": "4d03dc3f20361d28aeb88ad6909fd03538115c42c443e0993cc16016b4811003",
+    "queries/d249150f38654e76dbd3ba7385b49181e00d5d98c39c4698667cc9823bb40784/request.json": "ca32a4cccb53fd905c4cee8c7a79e614d1717581340d4521543419955a9dffc8",
+    "queries/d249150f38654e76dbd3ba7385b49181e00d5d98c39c4698667cc9823bb40784/reserved-1.json": "f1c703570a7a38cf4616d3dfe10d66beb9102087900b33564d7a606fb41337c6",
+    "queries/d249150f38654e76dbd3ba7385b49181e00d5d98c39c4698667cc9823bb40784/response-1.json": "accf5d4f6dfa6b75ea112d064a1df5095091bad880ec8eb32e92ebbfded39d58"
+  },
+  "full_pages_may_contain_current_or_2026_auxiliary_content": true,
+  "auxiliary_content_admitted_into_decisions": false,
+  "primary_event_truth_certified": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

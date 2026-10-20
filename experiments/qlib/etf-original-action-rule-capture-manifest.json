@@ -1,0 +1,175 @@
+{
+  "status": "ETF_ACTION_AND_RULE_ORIGINALS_CAPTURE_FINISHED_REVIEW_SEPARATE",
+  "request_sha256": "7a472a861ae24361e875d462ea00eff09574c471bc3b9c5afa66d836427e7273",
+  "documents": {
+    "SH510300": {
+      "id": "SH510300",
+      "url": "https://fundf10.eastmoney.com/fhsp_510300.html",
+      "kind": "fund_actions",
+      "file": "SH510300.html",
+      "sha256": "157be0fb6f748bbb89c9c02d016198aa0156a303764848c1989c25e5364ce4dc",
+      "HTTP_receipt": {
+        "request_file": "queries/7dafe9774c90588a284a016c64e990517a90fdd2d917da44c2a6b244eb71fdf8/request.json",
+        "request_sha256": "27ca32cb99a2b0ca891eaeac7c05e055f01c23589682ad3861a3b61141642efe",
+        "reserved_file": "queries/7dafe9774c90588a284a016c64e990517a90fdd2d917da44c2a6b244eb71fdf8/reserved-1.json",
+        "reserved_sha256": "6c79e69fd2939d76ca7a7e82714219be3c50a132b012b3a947ddb1fe44fb8844",
+        "response_file": "queries/7dafe9774c90588a284a016c64e990517a90fdd2d917da44c2a6b244eb71fdf8/response-1.json",
+        "response_sha256": "d1b3ae0cdd524ad24716ab6ab139cd2f702924b02547067e59c7301eff086052"
+      }
+    },
+    "SH510500": {
+      "id": "SH510500",
+      "url": "https://fundf10.eastmoney.com/fhsp_510500.html",
+      "kind": "fund_actions",
+      "file": "SH510500.html",
+      "sha256": "d41cd2b70e13c3879c4f2e64deeadf3d0e99e279a3d70af4e7a209f1893952fa",
+      "HTTP_receipt": {
+        "request_file": "queries/a79193bfd5d66383e9b468cf91630842d1dc9975233949838a09f91500831f15/request.json",
+        "request_sha256": "43e5d7fc05e7886bed2816bc744fc39a22997bfaf6a2d45f0032595aabaa1423",
+        "reserved_file": "queries/a79193bfd5d66383e9b468cf91630842d1dc9975233949838a09f91500831f15/reserved-1.json",
+        "reserved_sha256": "7157febd59c4a0ad18a4f3719d52d0d60db4851de1c9af51513c0fb6d559b8dc",
+        "response_file": "queries/a79193bfd5d66383e9b468cf91630842d1dc9975233949838a09f91500831f15/response-1.json",
+        "response_sha256": "b439078ad473055ad0ed5afed0797a551a8765efe86c3edd85a17baf45f5502b"
+      }
+    },
+    "SZ159915": {
+      "id": "SZ159915",
+      "url": "https://fundf10.eastmoney.com/fhsp_159915.html",
+      "kind": "fund_actions",
+      "file": "SZ159915.html",
+      "sha256": "d78207b5e2f0a78c982d8379d97b08369b1f01804e069b44cbf4e343f4d36db4",
+      "HTTP_receipt": {
+        "request_file": "queries/a2701e074cae937ee9caa917eff1baa601c6ccf63d9e80a5e24a63e8f514ae6e/request.json",
+        "request_sha256": "eb94652dbf280b664786bf08f8baed40308aa479f0dff0ff7eaf48083b37ae46",
+        "reserved_file": "queries/a2701e074cae937ee9caa917eff1baa601c6ccf63d9e80a5e24a63e8f514ae6e/reserved-1.json",
+        "reserved_sha256": "c7e7fed8f41a348dbaaece77423b08e1cb5ffeb888b4cb945113d81217657baa",
+        "response_file": "queries/a2701e074cae937ee9caa917eff1baa601c6ccf63d9e80a5e24a63e8f514ae6e/response-1.json",
+        "response_sha256": "5d7b63497f0784ea22cc82569035107bfb1f7b8823b28c50f4d746c3a68d3f13"
+      }
+    },
+    "sse_faq": {
+      "id": "sse_faq",
+      "url": "https://www.sse.com.cn/assortment/fund/etf/question/",
+      "kind": "rule_html",
+      "file": "sse-etf-faq.html",
+      "sha256": "063acec3915611fe3d043c17229aae9d99d0108be26551e63ff1a375a1f8fbaa",
+      "HTTP_receipt": {
+        "request_file": "queries/9b2b7970155fe9a02ddd5932c29adf6e9306cc5ea988edbb3b3e4ca1571cdbd5/request.json",
+        "request_sha256": "3f5f34471013b6bdb8c4ce746576e6eac0ff7b47d442c91713b96a9a76f8ce15",
+        "reserved_file": "queries/9b2b7970155fe9a02ddd5932c29adf6e9306cc5ea988edbb3b3e4ca1571cdbd5/reserved-1.json",
+        "reserved_sha256": "1607142561ff48d5ac250f38de9531b8cae084bafcbf79eb22367933ae7236ce",
+        "response_file": "queries/9b2b7970155fe9a02ddd5932c29adf6e9306cc5ea988edbb3b3e4ca1571cdbd5/response-1.json",
+        "response_sha256": "62e7f87544749bcec43284ba7776d13f82ea975641dad842e26f0d98f550ce52"
+      }
+    },
+    "szse_trading": {
+      "id": "szse_trading",
+      "url": "https://www.szse.cn/www/investor/warning/t20210104_584079.html",
+      "kind": "rule_html",
+      "file": "szse-etf-trading.html",
+      "sha256": "7f2a2eda45198335321857307612ab23b6e8ff66e359462b0c19da9effa6d70d",
+      "HTTP_receipt": {
+        "request_file": "queries/aa89e3e4849a78e01341103f70e68d9378017c08e41b7185f76bce94056637dd/request.json",
+        "request_sha256": "0803c940e25c14468191a1e15d5a38f0521ed15867314d93fdb91dcfc392762f",
+        "reserved_file": "queries/aa89e3e4849a78e01341103f70e68d9378017c08e41b7185f76bce94056637dd/reserved-1.json",
+        "reserved_sha256": "d539f8e42c929e0d7e502100b2cdb5b72ee87b50fd3d27ac28ee0d06afaed000",
+        "response_file": "queries/aa89e3e4849a78e01341103f70e68d9378017c08e41b7185f76bce94056637dd/response-1.json",
+        "response_sha256": "683e08862d73e0810758aedd61e6f7826a1efd98f36250481d6965bc19452e5b"
+      }
+    },
+    "growth20": {
+      "id": "growth20",
+      "url": "https://docs.static.szse.cn/www/aboutus/trends/conference/W020200821767425488573.pdf",
+      "kind": "rule_pdf",
+      "file": "szse-growth20-list.pdf",
+      "sha256": "ff0a569fede5cb1d4cb09d7aa878c8970fe8c0c74c083beb2b4dfdbe6d71b095",
+      "HTTP_receipt": {
+        "request_file": "queries/b60f2cc8e408b1ff96b26164c02e71a05a504c19486e48c04499f4c90af38f60/request.json",
+        "request_sha256": "28850f23536df710d10d7e6569489fc292b20882f37e8438c3a5baf341eada92",
+        "reserved_file": "queries/b60f2cc8e408b1ff96b26164c02e71a05a504c19486e48c04499f4c90af38f60/reserved-1.json",
+        "reserved_sha256": "daf7eae26330fb2098fc2924690dfc1a765205a813656b1eb5ea70185c45518a",
+        "response_file": "queries/b60f2cc8e408b1ff96b26164c02e71a05a504c19486e48c04499f4c90af38f60/response-1.json",
+        "response_sha256": "56d5a4fbd142efed324ea000e3f31482cbf6f9f13608e4d853342a2109d60ecf"
+      }
+    },
+    "tax_open_fund": {
+      "id": "tax_open_fund",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5202818/content.html",
+      "kind": "rule_html",
+      "file": "tax-2002-128.html",
+      "sha256": "d12d135f81cc88fc075bc0f2b7f560985097b8c92525b282b762243824421dbb",
+      "HTTP_receipt": {
+        "request_file": "queries/11fd785d710a8b2fb8712834664d695312dfe8c3e8034e031cd92828652d54ea/request.json",
+        "request_sha256": "01dfcee6ecf2ce09c7b84e765418aef7148270fe062f4e5fb0c32e5aa6c218e8",
+        "reserved_file": "queries/11fd785d710a8b2fb8712834664d695312dfe8c3e8034e031cd92828652d54ea/reserved-1.json",
+        "reserved_sha256": "3c8a8c697a68ae4b1899bfc653b4e72072617a2abc3b4f2ec6234792df15639b",
+        "response_file": "queries/11fd785d710a8b2fb8712834664d695312dfe8c3e8034e031cd92828652d54ea/response-1.json",
+        "response_sha256": "a3fc3afa46bb095a2258597031387438278549336445c86aff3be3c712625322"
+      }
+    }
+  },
+  "actions": {},
+  "errors": {
+    "SH510300": {
+      "error_type": "ValueError",
+      "error": "unique source dividends table missing"
+    },
+    "SH510500": {
+      "error_type": "ValueError",
+      "error": "unique source dividends table missing"
+    },
+    "SZ159915": {
+      "error_type": "ValueError",
+      "error": "unique source dividends table missing"
+    },
+    "sse_intro": {
+      "error_type": "ValueError",
+      "error": "source query attempts exhausted: d7a90d52d853180dcae23cd76af8a027b18181d52e8f7f75914d96a1ca9653fa"
+    }
+  },
+  "captured_documents": 7,
+  "extracted_fund_pages": 0,
+  "HTTP_query_reservations": 8,
+  "artifact_sha256": {
+    "SH510300.html": "157be0fb6f748bbb89c9c02d016198aa0156a303764848c1989c25e5364ce4dc",
+    "SH510500.html": "d41cd2b70e13c3879c4f2e64deeadf3d0e99e279a3d70af4e7a209f1893952fa",
+    "SZ159915.html": "d78207b5e2f0a78c982d8379d97b08369b1f01804e069b44cbf4e343f4d36db4",
+    "errors.json": "af330f709c21950013fd9359d35eb4c7929de65f6bb13dee6ac0a81074614a37",
+    "queries/11fd785d710a8b2fb8712834664d695312dfe8c3e8034e031cd92828652d54ea/request.json": "01dfcee6ecf2ce09c7b84e765418aef7148270fe062f4e5fb0c32e5aa6c218e8",
+    "queries/11fd785d710a8b2fb8712834664d695312dfe8c3e8034e031cd92828652d54ea/reserved-1.json": "3c8a8c697a68ae4b1899bfc653b4e72072617a2abc3b4f2ec6234792df15639b",
+    "queries/11fd785d710a8b2fb8712834664d695312dfe8c3e8034e031cd92828652d54ea/response-1.json": "a3fc3afa46bb095a2258597031387438278549336445c86aff3be3c712625322",
+    "queries/7dafe9774c90588a284a016c64e990517a90fdd2d917da44c2a6b244eb71fdf8/request.json": "27ca32cb99a2b0ca891eaeac7c05e055f01c23589682ad3861a3b61141642efe",
+    "queries/7dafe9774c90588a284a016c64e990517a90fdd2d917da44c2a6b244eb71fdf8/reserved-1.json": "6c79e69fd2939d76ca7a7e82714219be3c50a132b012b3a947ddb1fe44fb8844",
+    "queries/7dafe9774c90588a284a016c64e990517a90fdd2d917da44c2a6b244eb71fdf8/response-1.json": "d1b3ae0cdd524ad24716ab6ab139cd2f702924b02547067e59c7301eff086052",
+    "queries/9b2b7970155fe9a02ddd5932c29adf6e9306cc5ea988edbb3b3e4ca1571cdbd5/request.json": "3f5f34471013b6bdb8c4ce746576e6eac0ff7b47d442c91713b96a9a76f8ce15",
+    "queries/9b2b7970155fe9a02ddd5932c29adf6e9306cc5ea988edbb3b3e4ca1571cdbd5/reserved-1.json": "1607142561ff48d5ac250f38de9531b8cae084bafcbf79eb22367933ae7236ce",
+    "queries/9b2b7970155fe9a02ddd5932c29adf6e9306cc5ea988edbb3b3e4ca1571cdbd5/response-1.json": "62e7f87544749bcec43284ba7776d13f82ea975641dad842e26f0d98f550ce52",
+    "queries/a2701e074cae937ee9caa917eff1baa601c6ccf63d9e80a5e24a63e8f514ae6e/request.json": "eb94652dbf280b664786bf08f8baed40308aa479f0dff0ff7eaf48083b37ae46",
+    "queries/a2701e074cae937ee9caa917eff1baa601c6ccf63d9e80a5e24a63e8f514ae6e/reserved-1.json": "c7e7fed8f41a348dbaaece77423b08e1cb5ffeb888b4cb945113d81217657baa",
+    "queries/a2701e074cae937ee9caa917eff1baa601c6ccf63d9e80a5e24a63e8f514ae6e/response-1.json": "5d7b63497f0784ea22cc82569035107bfb1f7b8823b28c50f4d746c3a68d3f13",
+    "queries/a79193bfd5d66383e9b468cf91630842d1dc9975233949838a09f91500831f15/request.json": "43e5d7fc05e7886bed2816bc744fc39a22997bfaf6a2d45f0032595aabaa1423",
+    "queries/a79193bfd5d66383e9b468cf91630842d1dc9975233949838a09f91500831f15/reserved-1.json": "7157febd59c4a0ad18a4f3719d52d0d60db4851de1c9af51513c0fb6d559b8dc",
+    "queries/a79193bfd5d66383e9b468cf91630842d1dc9975233949838a09f91500831f15/response-1.json": "b439078ad473055ad0ed5afed0797a551a8765efe86c3edd85a17baf45f5502b",
+    "queries/aa89e3e4849a78e01341103f70e68d9378017c08e41b7185f76bce94056637dd/request.json": "0803c940e25c14468191a1e15d5a38f0521ed15867314d93fdb91dcfc392762f",
+    "queries/aa89e3e4849a78e01341103f70e68d9378017c08e41b7185f76bce94056637dd/reserved-1.json": "d539f8e42c929e0d7e502100b2cdb5b72ee87b50fd3d27ac28ee0d06afaed000",
+    "queries/aa89e3e4849a78e01341103f70e68d9378017c08e41b7185f76bce94056637dd/response-1.json": "683e08862d73e0810758aedd61e6f7826a1efd98f36250481d6965bc19452e5b",
+    "queries/b60f2cc8e408b1ff96b26164c02e71a05a504c19486e48c04499f4c90af38f60/request.json": "28850f23536df710d10d7e6569489fc292b20882f37e8438c3a5baf341eada92",
+    "queries/b60f2cc8e408b1ff96b26164c02e71a05a504c19486e48c04499f4c90af38f60/reserved-1.json": "daf7eae26330fb2098fc2924690dfc1a765205a813656b1eb5ea70185c45518a",
+    "queries/b60f2cc8e408b1ff96b26164c02e71a05a504c19486e48c04499f4c90af38f60/response-1.json": "56d5a4fbd142efed324ea000e3f31482cbf6f9f13608e4d853342a2109d60ecf",
+    "queries/d7a90d52d853180dcae23cd76af8a027b18181d52e8f7f75914d96a1ca9653fa/request.json": "98d33e7cefc965bb9333e1bf7d48d4200e8fefcff1bd090f6b6182bb744b5735",
+    "queries/d7a90d52d853180dcae23cd76af8a027b18181d52e8f7f75914d96a1ca9653fa/reserved-1.json": "b311af63fbb13c6f886f7015c754bb0009d01f4f11fda54de4e76c7f38b7a391",
+    "queries/d7a90d52d853180dcae23cd76af8a027b18181d52e8f7f75914d96a1ca9653fa/response-1.json": "bce924cbc140494701fe06488ae6cabc3a1484d5564de830dbfae1730e9d4e82",
+    "request.json": "7a472a861ae24361e875d462ea00eff09574c471bc3b9c5afa66d836427e7273",
+    "sse-etf-faq.html": "063acec3915611fe3d043c17229aae9d99d0108be26551e63ff1a375a1f8fbaa",
+    "szse-etf-trading.html": "7f2a2eda45198335321857307612ab23b6e8ff66e359462b0c19da9effa6d70d",
+    "szse-growth20-list.pdf": "ff0a569fede5cb1d4cb09d7aa878c8970fe8c0c74c083beb2b4dfdbe6d71b095",
+    "tax-2002-128.html": "d12d135f81cc88fc075bc0f2b7f560985097b8c92525b282b762243824421dbb"
+  },
+  "full_pages_may_contain_current_or_2026_auxiliary_content": true,
+  "auxiliary_content_admitted_into_decisions": false,
+  "primary_event_truth_certified": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

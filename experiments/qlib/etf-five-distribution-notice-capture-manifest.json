@@ -1,0 +1,127 @@
+{
+  "status": "ETF_ACTION_AND_RULE_ORIGINALS_CAPTURE_FINISHED_REVIEW_SEPARATE",
+  "request_sha256": "5471b11ee794b00bd1183d81ebb8797c0115a5b8f5ac4ae18416a0b62a3602e0",
+  "documents": {
+    "SH510300-2023-01-16": {
+      "id": "SH510300-2023-01-16",
+      "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2023-01-09/510300_20230109_0ED5.pdf",
+      "kind": "rule_pdf",
+      "role": "cash_distribution_notice",
+      "file": "SH510300-2023-01-16.pdf",
+      "publication_day": "2023-01-09",
+      "sha256": "68f2227ae25acec3b831d50d042b87f12696dc0df1514ef9dacb36e018d571d7",
+      "HTTP_receipt": {
+        "request_file": "queries/78e8eff1eb19728e3660c0468fc54ba84240c73ec326ae25f008bf21f3d98e98/request.json",
+        "request_sha256": "b9aed92d117ea71b73652dbfb5168e2684a1a982cd479834c4e9e88dd17d1805",
+        "reserved_file": "queries/78e8eff1eb19728e3660c0468fc54ba84240c73ec326ae25f008bf21f3d98e98/reserved-1.json",
+        "reserved_sha256": "fec536c34acde7a0eedd6d7443ef0f027bc6d6e887ebe0b6d3ee19e69d97168b",
+        "response_file": "queries/78e8eff1eb19728e3660c0468fc54ba84240c73ec326ae25f008bf21f3d98e98/response-1.json",
+        "response_sha256": "d0161d0a41a91d9dfbb0b5b7fcdf7ccb5c11b31c661a00c84bca7ae9e5d83661"
+      }
+    },
+    "SH510300-2024-01-18": {
+      "id": "SH510300-2024-01-18",
+      "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-01-11/510300_20240111_QQFV.pdf",
+      "kind": "rule_pdf",
+      "role": "cash_distribution_notice",
+      "file": "SH510300-2024-01-18.pdf",
+      "publication_day": "2024-01-11",
+      "sha256": "165ddaec9b36480ff4cbc738227043db7b7acc4f80ac31bedaa0e4f5c4001f4b",
+      "HTTP_receipt": {
+        "request_file": "queries/9c003d5c62289b3411db9f0385d761f808456b73a6c5131191c155b2213a70b6/request.json",
+        "request_sha256": "7a86143d5d6f1f03581be6d5a386ea194625756ba6785a6c4f3417f59998c7e0",
+        "reserved_file": "queries/9c003d5c62289b3411db9f0385d761f808456b73a6c5131191c155b2213a70b6/reserved-1.json",
+        "reserved_sha256": "74385e9bef40210e1a1acdebe0b70e302c91b88da70816ee55a1ac70cc92c33d",
+        "response_file": "queries/9c003d5c62289b3411db9f0385d761f808456b73a6c5131191c155b2213a70b6/response-1.json",
+        "response_sha256": "96bf200fed8ab3c4fb590bd08410f631672e3d918056845e6b5ffb8f3c6456b9"
+      }
+    },
+    "SH510300-2025-06-18": {
+      "id": "SH510300-2025-06-18",
+      "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2025-06-11/510300_20250611_ZAU4.pdf",
+      "kind": "rule_pdf",
+      "role": "cash_distribution_notice",
+      "file": "SH510300-2025-06-18.pdf",
+      "publication_day": "2025-06-11",
+      "sha256": "9a2f554b8ba5e340c79905171388f65225e9239027a36794522aa6bb4a82be67",
+      "HTTP_receipt": {
+        "request_file": "queries/8ab3a524a83bc77b6cf9fb1ab8747115450c67fae25207f0b9839bdfd7d1e747/request.json",
+        "request_sha256": "8e41f09583668366cc9397ca60a6c4f96b6c09e1626c58155e6cde09df9c4dbf",
+        "reserved_file": "queries/8ab3a524a83bc77b6cf9fb1ab8747115450c67fae25207f0b9839bdfd7d1e747/reserved-1.json",
+        "reserved_sha256": "8a3e2e4f5c3cac3ff25dd72fa04726b2ce5328543cb5958743270851997ce910",
+        "response_file": "queries/8ab3a524a83bc77b6cf9fb1ab8747115450c67fae25207f0b9839bdfd7d1e747/response-1.json",
+        "response_sha256": "9b76f71b9ac658befeee5ca34328c7fc7cdcc5131c2369b3ca890da398625af0"
+      }
+    },
+    "SH510500-2024-05-17": {
+      "id": "SH510500-2024-05-17",
+      "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-05-10/510500_20240510_LM77.pdf",
+      "kind": "rule_pdf",
+      "role": "cash_distribution_notice",
+      "file": "SH510500-2024-05-17.pdf",
+      "publication_day": "2024-05-10",
+      "sha256": "fd5097c1f298d22c5605a4116f57ff8d747392d51c6e0ff85da36102eeb67e45",
+      "HTTP_receipt": {
+        "request_file": "queries/e1ff2416c1f435c55302837742182dd0848541b77b43d2c7ce17d22d73d1a320/request.json",
+        "request_sha256": "acc31fbf096be45afc243cd1eeca5d727a1af02a18972ad8664a6568b1bd739d",
+        "reserved_file": "queries/e1ff2416c1f435c55302837742182dd0848541b77b43d2c7ce17d22d73d1a320/reserved-1.json",
+        "reserved_sha256": "1f15368d92e4b32469deb0b0a2887d3ddb7030e72ef6b382cec356f2ee18e403",
+        "response_file": "queries/e1ff2416c1f435c55302837742182dd0848541b77b43d2c7ce17d22d73d1a320/response-1.json",
+        "response_sha256": "6ad658c66e9216179f039fc3bba7575624f882bc3409eaf7da1cf597a2029620"
+      }
+    },
+    "SH510500-2025-01-16": {
+      "id": "SH510500-2025-01-16",
+      "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2025-01-09/510500_20250109_GIJW.pdf",
+      "kind": "rule_pdf",
+      "role": "cash_distribution_notice",
+      "file": "SH510500-2025-01-16.pdf",
+      "publication_day": "2025-01-09",
+      "sha256": "494b00d5f7a973d4dcb83c5414afc1cf1feed644bfdf31529712c94b0cf08488",
+      "HTTP_receipt": {
+        "request_file": "queries/6cf949a1b1f9afbb7992a0095365bd38f3c4cbb929d091e47a46bd16647da3e9/request.json",
+        "request_sha256": "ab7f9d6b4f369ae35b63438096a79fbe57a6f19314d6ca14be9a47b4bebff497",
+        "reserved_file": "queries/6cf949a1b1f9afbb7992a0095365bd38f3c4cbb929d091e47a46bd16647da3e9/reserved-1.json",
+        "reserved_sha256": "152037e64229ed8de72e3761d78ead490bf1708dd04f33f3adf3bb33b20fb16e",
+        "response_file": "queries/6cf949a1b1f9afbb7992a0095365bd38f3c4cbb929d091e47a46bd16647da3e9/response-1.json",
+        "response_sha256": "9056fd6da3e0ed0542dc040de509336e83e7a2433ca0c1840c103bb00309fd05"
+      }
+    }
+  },
+  "actions": {},
+  "errors": {},
+  "captured_documents": 5,
+  "extracted_fund_pages": 0,
+  "HTTP_query_reservations": 5,
+  "artifact_sha256": {
+    "SH510300-2023-01-16.pdf": "68f2227ae25acec3b831d50d042b87f12696dc0df1514ef9dacb36e018d571d7",
+    "SH510300-2024-01-18.pdf": "165ddaec9b36480ff4cbc738227043db7b7acc4f80ac31bedaa0e4f5c4001f4b",
+    "SH510300-2025-06-18.pdf": "9a2f554b8ba5e340c79905171388f65225e9239027a36794522aa6bb4a82be67",
+    "SH510500-2024-05-17.pdf": "fd5097c1f298d22c5605a4116f57ff8d747392d51c6e0ff85da36102eeb67e45",
+    "SH510500-2025-01-16.pdf": "494b00d5f7a973d4dcb83c5414afc1cf1feed644bfdf31529712c94b0cf08488",
+    "errors.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "queries/6cf949a1b1f9afbb7992a0095365bd38f3c4cbb929d091e47a46bd16647da3e9/request.json": "ab7f9d6b4f369ae35b63438096a79fbe57a6f19314d6ca14be9a47b4bebff497",
+    "queries/6cf949a1b1f9afbb7992a0095365bd38f3c4cbb929d091e47a46bd16647da3e9/reserved-1.json": "152037e64229ed8de72e3761d78ead490bf1708dd04f33f3adf3bb33b20fb16e",
+    "queries/6cf949a1b1f9afbb7992a0095365bd38f3c4cbb929d091e47a46bd16647da3e9/response-1.json": "9056fd6da3e0ed0542dc040de509336e83e7a2433ca0c1840c103bb00309fd05",
+    "queries/78e8eff1eb19728e3660c0468fc54ba84240c73ec326ae25f008bf21f3d98e98/request.json": "b9aed92d117ea71b73652dbfb5168e2684a1a982cd479834c4e9e88dd17d1805",
+    "queries/78e8eff1eb19728e3660c0468fc54ba84240c73ec326ae25f008bf21f3d98e98/reserved-1.json": "fec536c34acde7a0eedd6d7443ef0f027bc6d6e887ebe0b6d3ee19e69d97168b",
+    "queries/78e8eff1eb19728e3660c0468fc54ba84240c73ec326ae25f008bf21f3d98e98/response-1.json": "d0161d0a41a91d9dfbb0b5b7fcdf7ccb5c11b31c661a00c84bca7ae9e5d83661",
+    "queries/8ab3a524a83bc77b6cf9fb1ab8747115450c67fae25207f0b9839bdfd7d1e747/request.json": "8e41f09583668366cc9397ca60a6c4f96b6c09e1626c58155e6cde09df9c4dbf",
+    "queries/8ab3a524a83bc77b6cf9fb1ab8747115450c67fae25207f0b9839bdfd7d1e747/reserved-1.json": "8a3e2e4f5c3cac3ff25dd72fa04726b2ce5328543cb5958743270851997ce910",
+    "queries/8ab3a524a83bc77b6cf9fb1ab8747115450c67fae25207f0b9839bdfd7d1e747/response-1.json": "9b76f71b9ac658befeee5ca34328c7fc7cdcc5131c2369b3ca890da398625af0",
+    "queries/9c003d5c62289b3411db9f0385d761f808456b73a6c5131191c155b2213a70b6/request.json": "7a86143d5d6f1f03581be6d5a386ea194625756ba6785a6c4f3417f59998c7e0",
+    "queries/9c003d5c62289b3411db9f0385d761f808456b73a6c5131191c155b2213a70b6/reserved-1.json": "74385e9bef40210e1a1acdebe0b70e302c91b88da70816ee55a1ac70cc92c33d",
+    "queries/9c003d5c62289b3411db9f0385d761f808456b73a6c5131191c155b2213a70b6/response-1.json": "96bf200fed8ab3c4fb590bd08410f631672e3d918056845e6b5ffb8f3c6456b9",
+    "queries/e1ff2416c1f435c55302837742182dd0848541b77b43d2c7ce17d22d73d1a320/request.json": "acc31fbf096be45afc243cd1eeca5d727a1af02a18972ad8664a6568b1bd739d",
+    "queries/e1ff2416c1f435c55302837742182dd0848541b77b43d2c7ce17d22d73d1a320/reserved-1.json": "1f15368d92e4b32469deb0b0a2887d3ddb7030e72ef6b382cec356f2ee18e403",
+    "queries/e1ff2416c1f435c55302837742182dd0848541b77b43d2c7ce17d22d73d1a320/response-1.json": "6ad658c66e9216179f039fc3bba7575624f882bc3409eaf7da1cf597a2029620",
+    "request.json": "5471b11ee794b00bd1183d81ebb8797c0115a5b8f5ac4ae18416a0b62a3602e0"
+  },
+  "full_pages_may_contain_current_or_2026_auxiliary_content": true,
+  "auxiliary_content_admitted_into_decisions": false,
+  "primary_event_truth_certified": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
