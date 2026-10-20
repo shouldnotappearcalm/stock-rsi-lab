@@ -1,0 +1,62 @@
+{
+  "status": "INDEPENDENT_PRIOR_CLOSE_INTENT_AND_TAMPER_AUDIT_PASSED",
+  "script_sha256": "d1ff62baa001f241bd3cd80ce4af431992bccf4865fbc3342473afbdcb4dadb2",
+  "frozen_plan_sha256": "75f1398abbe5c177e7164b2f7247eea444534f97ce45f6893798b2cb68a7068f",
+  "frozen_base_auditor_sha256": "cf16d01041e95415c90469ab7ecd12846b8f3f3f50e2b12c1f31769685df7ba5",
+  "summary_sha256": "c36e04dd4ff5dc0e38b49629f93fdaf0477e35cbec0bb1fd5e0a367e11c37b29",
+  "profiles": {
+    "20/eligible_equal_weight": {
+      "sessions": 485,
+      "intents": 24,
+      "intended_orders": 4359,
+      "unfilled_orders": 3204
+    },
+    "20/low_vol60_control": {
+      "sessions": 485,
+      "intents": 24,
+      "intended_orders": 711,
+      "unfilled_orders": 111
+    },
+    "20/low_beta60": {
+      "sessions": 485,
+      "intents": 24,
+      "intended_orders": 689,
+      "unfilled_orders": 118
+    },
+    "40/eligible_equal_weight": {
+      "sessions": 485,
+      "intents": 24,
+      "intended_orders": 4328,
+      "unfilled_orders": 3178
+    },
+    "40/low_vol60_control": {
+      "sessions": 485,
+      "intents": 24,
+      "intended_orders": 719,
+      "unfilled_orders": 116
+    },
+    "40/low_beta60": {
+      "sessions": 485,
+      "intents": 24,
+      "intended_orders": 688,
+      "unfilled_orders": 122
+    }
+  },
+  "total_intents": 144,
+  "negative_controls_rejected": [
+    "prior_equity",
+    "fixed_quantity",
+    "future_asof",
+    "fee",
+    "daily_cash"
+  ],
+  "negative_controls_use_hash_gate": false,
+  "negative_control_method": "Mutate decoded in-memory evidence after authenticating original files; verify() has no hashes and independently recomputes arithmetic.",
+  "latest_decoded_source_date": "2025-12-01",
+  "date_indexed_2026_values_read": false,
+  "new_strategy_runs": 0,
+  "network_queries": 0,
+  "imports_project_code": false,
+  "raw_share_execution_verified": false,
+  "discrepancies": []
+}

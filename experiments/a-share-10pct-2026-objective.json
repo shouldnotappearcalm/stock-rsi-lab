@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "LOW_BETA60_FORMATIONS_FROZEN_ACCOUNT_REQUEST_PENDING_NO_ROI",
+    "status": "LOW_BETA60_NORMALIZED_DEVELOPMENT_PASSED_RAW_SHARE_CONFIRMATION_PENDING",
     "candidate": "low_beta60",
     "candidate_budget": 1,
     "adaptive_development_not_sealed": true,
@@ -396,14 +396,28 @@
     "raw_share_execution_verified": false,
     "candidate_promoted": false,
     "objective_achieved": false,
-    "next_action": "Independently verify formations; freeze/push accountrequest andCSV auditor identity before20/40cost development runs.",
+    "next_action": "Complete same2024/25raw-share source packets for69frozen names: authenticate+clip61existing originals; separatelyfreeze8names×4boundedqueries; thenreviewcorporateactions andintradayexecution. No2026ROIyet/nofactorchanges.",
     "formation_summary_file": "experiments/qlib/low-beta60-pre2026-formations-summary.json",
     "eligible_range": [
       326,
       338
     ],
     "initial_targets_sha256": "ee19a560df3b5b669d093191757ea25bf7b1cffef4497af9ee4c5a1873eb995b",
-    "initial_receipts_sha256": "878eaa5f39816e1608ba6396e5bae96052b2fbd312f06c7caf75fa8e1674b327"
+    "initial_receipts_sha256": "878eaa5f39816e1608ba6396e5bae96052b2fbd312f06c7caf75fa8e1674b327",
+    "development_result_file": "experiments/qlib/low-beta60-pre2026-results.json",
+    "independent_csv_audit_file": "experiments/qlib/low-beta60-pre2026-independent-csv-audit.json",
+    "independent_intent_audit_file": "experiments/qlib/low-beta60-pre2026-intent-independent-audit.json",
+    "reference_2024_net_pct": 12.522972355360839,
+    "reference_2025_net_pct": 1.6459508387595356,
+    "reference_average_exposure_pct": 92.97057576657052,
+    "unverified_held_marks": 0,
+    "raw_source_inventory_file": "experiments/qlib/low-beta60-raw-source-inventory.json",
+    "target_union_names": 69,
+    "authenticated_existing_raw_names": 61,
+    "uncached_in_checked_sources_names": 8,
+    "raw_source_core_conflicts": 0,
+    "strict_Qlib_fill_not_above_request_verified": false,
+    "reference_Qlib_rounding_excess_fill_count": 133
   },
   "strategy_research_history": [
     {
