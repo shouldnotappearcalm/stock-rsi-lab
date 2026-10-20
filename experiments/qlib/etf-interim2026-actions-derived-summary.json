@@ -1,0 +1,110 @@
+{
+  "status": "THREE_ETF_2026_ACTION_TABLES_DERIVED_OFFLINE_PRIMARY_REVIEW_PENDING",
+  "original_capture_manifest_sha256": "6ed28eac7f7c886b53f33da3e92d17cf879db327b1b14b1c988ff3b25bfe608a",
+  "derivation_method_sha256": "2d4a6cfdca9051e9eac932172121a341f7ee248dc7512b2c73c63f8bff25179c",
+  "imported_parser_sha256": "051c86c386e96301400e9e00dbf4ff785acd78cbc22f952cf2194391cad59a3f",
+  "bs4_version": "4.15.0",
+  "funds": {
+    "SH510300": {
+      "instrument": "SH510300",
+      "window": [
+        "2026-01-01",
+        "2026-10-20"
+      ],
+      "dividends": [
+        {
+          "recorded": "2026-01-16",
+          "ex_date": "2026-01-19",
+          "pay_date": "2026-01-27",
+          "cash_per_unit": "0.1230",
+          "cash_provider_raw": "每10份派现金1.2300元",
+          "cash_provider_denominator": 10
+        }
+      ],
+      "share_changes": [],
+      "provider_asserts_no_dividends": false,
+      "provider_asserts_no_share_changes": false,
+      "outside_window_rows_excluded": 14,
+      "primary_event_truth_certified": false,
+      "historical_arrival_certified": false,
+      "tax_treatment_certified": false,
+      "auxiliary_page_data_excluded_from_decisions": true,
+      "derivation_version": "EXPLICIT_2026_ONE_OR_TEN_UNITS_V3",
+      "original_html_sha256": "157be0fb6f748bbb89c9c02d016198aa0156a303764848c1989c25e5364ce4dc",
+      "original_source_header": "每10份分红",
+      "source_bytes_modified": false,
+      "network_queries": 0
+    },
+    "SH510500": {
+      "instrument": "SH510500",
+      "window": [
+        "2026-01-01",
+        "2026-10-20"
+      ],
+      "dividends": [
+        {
+          "recorded": "2026-01-15",
+          "ex_date": "2026-01-16",
+          "pay_date": "2026-01-21",
+          "cash_per_unit": "0.0620",
+          "cash_provider_raw": "每10份派现金0.6200元",
+          "cash_provider_denominator": 10
+        },
+        {
+          "recorded": "2026-07-14",
+          "ex_date": "2026-07-15",
+          "pay_date": "2026-07-20",
+          "cash_per_unit": "0.1490",
+          "cash_provider_raw": "每10份派现金1.4900元",
+          "cash_provider_denominator": 10
+        }
+      ],
+      "share_changes": [],
+      "provider_asserts_no_dividends": false,
+      "provider_asserts_no_share_changes": false,
+      "outside_window_rows_excluded": 4,
+      "primary_event_truth_certified": false,
+      "historical_arrival_certified": false,
+      "tax_treatment_certified": false,
+      "auxiliary_page_data_excluded_from_decisions": true,
+      "derivation_version": "EXPLICIT_2026_ONE_OR_TEN_UNITS_V3",
+      "original_html_sha256": "d41cd2b70e13c3879c4f2e64deeadf3d0e99e279a3d70af4e7a209f1893952fa",
+      "original_source_header": "每10份分红",
+      "source_bytes_modified": false,
+      "network_queries": 0
+    },
+    "SZ159915": {
+      "instrument": "SZ159915",
+      "window": [
+        "2026-01-01",
+        "2026-10-20"
+      ],
+      "dividends": [],
+      "share_changes": [],
+      "provider_asserts_no_dividends": true,
+      "provider_asserts_no_share_changes": false,
+      "outside_window_rows_excluded": 1,
+      "primary_event_truth_certified": false,
+      "historical_arrival_certified": false,
+      "tax_treatment_certified": false,
+      "auxiliary_page_data_excluded_from_decisions": true,
+      "derivation_version": "EXPLICIT_2026_ONE_OR_TEN_UNITS_V3",
+      "original_html_sha256": "d78207b5e2f0a78c982d8379d97b08369b1f01804e069b44cbf4e343f4d36db4",
+      "original_source_header": "每10份分红",
+      "source_bytes_modified": false,
+      "network_queries": 0
+    }
+  },
+  "network_queries": 0,
+  "original_source_bytes_modified": false,
+  "selected_2026_window": [
+    "2026-01-01",
+    "2026-10-20"
+  ],
+  "investment_rule_frozen_before_access": true,
+  "primary_event_truth_certified": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

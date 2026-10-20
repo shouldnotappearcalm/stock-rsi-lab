@@ -1,0 +1,64 @@
+{
+  "status": "ETF_ACTION_AND_RULE_ORIGINALS_CAPTURE_FINISHED_REVIEW_SEPARATE",
+  "request_sha256": "23e9b5e2500ea5136d5828e9d40331a613b0311a69ff48569c8a491c696fb8c2",
+  "documents": {
+    "sse2026closures": {
+      "id": "sse2026closures",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "kind": "rule_html",
+      "role": "official2026closure_crosscheck",
+      "file": "sse-2026-closures.html",
+      "sha256": "8c2f8ba80f5a95e1630fe253147eb2763b6e96ba8ce7da531345dbd40c6f4b00",
+      "HTTP_receipt": {
+        "request_file": "queries/aadfdc2d85e4531eb94121e0414c9259e9d2439e5c66c7feec9591e76c6157cc/request.json",
+        "request_sha256": "3d6bb7e00e37b9f72905642ae5ca07e3933a82570b67f046f06d77e1c2701b23",
+        "reserved_file": "queries/aadfdc2d85e4531eb94121e0414c9259e9d2439e5c66c7feec9591e76c6157cc/reserved-1.json",
+        "reserved_sha256": "fbef634cb4fbd4d19cd8aa473e6860ff668044f32b5a983a4570023e60edd310",
+        "response_file": "queries/aadfdc2d85e4531eb94121e0414c9259e9d2439e5c66c7feec9591e76c6157cc/response-1.json",
+        "response_sha256": "168f435ba9d5ffe4b03960fdf08ed24a6c8546809508f1a7a4b2cfe326dd75ad"
+      }
+    }
+  },
+  "actions": {},
+  "errors": {
+    "SH510300": {
+      "error_type": "ValueError",
+      "error": "source query attempts exhausted: 4eba22bf655d6e040252d09ae338be609a6f98b1a212190a5a1729bd1314a19c"
+    },
+    "SH510500": {
+      "error_type": "ValueError",
+      "error": "source query attempts exhausted: e0fe155e985ed9e524992a793a8c0daa99512c277c28cc7419cb5f6d88b7b830"
+    },
+    "SZ159915": {
+      "error_type": "ValueError",
+      "error": "source query attempts exhausted: 0abbe74923ecbb9f7f8c88bf97b003e44c47b96b70bd8d9a55bfbb7cff9c0adc"
+    }
+  },
+  "captured_documents": 1,
+  "extracted_fund_pages": 0,
+  "HTTP_query_reservations": 4,
+  "artifact_sha256": {
+    "errors.json": "518d570cd353c27cb058b8013608b31d54e966afcfc358142292a583524720eb",
+    "queries/0abbe74923ecbb9f7f8c88bf97b003e44c47b96b70bd8d9a55bfbb7cff9c0adc/request.json": "89c533484fccd7a8b16d2bef72732f85d059250c4d6c9fd9d8377172675518f0",
+    "queries/0abbe74923ecbb9f7f8c88bf97b003e44c47b96b70bd8d9a55bfbb7cff9c0adc/reserved-1.json": "3ab2fe57e706633f874ea7738d70ee8d532b3cfaedcae4d453a99cf6749a18be",
+    "queries/0abbe74923ecbb9f7f8c88bf97b003e44c47b96b70bd8d9a55bfbb7cff9c0adc/response-1.json": "d029aeeefda6ad34de79d69d09bc01d0357dedb05e8538a1fec872c371a38f3d",
+    "queries/4eba22bf655d6e040252d09ae338be609a6f98b1a212190a5a1729bd1314a19c/request.json": "dd44a3494a4a47b6a24990a4a4fd3a777573cade2d01b8f68b30123ee5f890ba",
+    "queries/4eba22bf655d6e040252d09ae338be609a6f98b1a212190a5a1729bd1314a19c/reserved-1.json": "0ae9af75f5d0291fa6733c2f9ae58e7ea75dd3ceb9b5af95683dd80d1684131c",
+    "queries/4eba22bf655d6e040252d09ae338be609a6f98b1a212190a5a1729bd1314a19c/response-1.json": "cf625eb9b7de097a283963b54de77a5442d8b7ce9821ffb0186e513f7a16ce2f",
+    "queries/aadfdc2d85e4531eb94121e0414c9259e9d2439e5c66c7feec9591e76c6157cc/request.json": "3d6bb7e00e37b9f72905642ae5ca07e3933a82570b67f046f06d77e1c2701b23",
+    "queries/aadfdc2d85e4531eb94121e0414c9259e9d2439e5c66c7feec9591e76c6157cc/reserved-1.json": "fbef634cb4fbd4d19cd8aa473e6860ff668044f32b5a983a4570023e60edd310",
+    "queries/aadfdc2d85e4531eb94121e0414c9259e9d2439e5c66c7feec9591e76c6157cc/response-1.json": "168f435ba9d5ffe4b03960fdf08ed24a6c8546809508f1a7a4b2cfe326dd75ad",
+    "queries/e0fe155e985ed9e524992a793a8c0daa99512c277c28cc7419cb5f6d88b7b830/request.json": "4a5302a89ad34a18091f26eaa634a58078e84bee7a85962507614286348599f2",
+    "queries/e0fe155e985ed9e524992a793a8c0daa99512c277c28cc7419cb5f6d88b7b830/reserved-1.json": "78dec31d880c44239cb4f7f735e520bd21be8faa4fef4b62cb5c7d07da59a641",
+    "queries/e0fe155e985ed9e524992a793a8c0daa99512c277c28cc7419cb5f6d88b7b830/response-1.json": "a843a47b2f2c411a0599e444633d0abf82256339bb97b47ce6a1493fcca9c335",
+    "request.json": "23e9b5e2500ea5136d5828e9d40331a613b0311a69ff48569c8a491c696fb8c2",
+    "sse-2026-closures.html": "8c2f8ba80f5a95e1630fe253147eb2763b6e96ba8ce7da531345dbd40c6f4b00"
+  },
+  "full_pages_may_contain_current_or_2026_auxiliary_content": true,
+  "auxiliary_content_admitted_into_decisions": false,
+  "primary_event_truth_certified": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

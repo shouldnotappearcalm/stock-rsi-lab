@@ -1,0 +1,98 @@
+{
+  "status": "FROZEN_THREE_QUOTE_HEADER_ADDITIONAL_ETF_ATTEMPTS",
+  "parent_commit": "25b37f2f8d99adf0917184861f84777354c4558f",
+  "candidate_id": "three_domestic_broad_ETF_prior2_12",
+  "candidate_method_changed": false,
+  "sources": [
+    {
+      "id": "SH510300",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&beg=20260101&end=20261020&secid=1.510300",
+      "kind": "price_json",
+      "role": "frozen_ETF_raw_interim2026",
+      "file": "SH510300-raw-wire.json"
+    },
+    {
+      "id": "SH510500",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&beg=20260101&end=20261020&secid=1.510500",
+      "kind": "price_json",
+      "role": "frozen_ETF_raw_interim2026",
+      "file": "SH510500-raw-wire.json"
+    },
+    {
+      "id": "SZ159915",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&beg=20260101&end=20261020&secid=0.159915",
+      "kind": "price_json",
+      "role": "frozen_ETF_raw_interim2026",
+      "file": "SZ159915-raw-wire.json"
+    }
+  ],
+  "window": [
+    "2026-01-01",
+    "2026-10-20"
+  ],
+  "maximum_http_queries": 3,
+  "max_attempts_per_identity": 1,
+  "minimum_interval_seconds": 0.3,
+  "maximum_body_bytes": 10485760,
+  "method_code_sha256": {
+    "scripts/capture_etf_interim2026_quote_retry.py": "bffe19677ed5cfeceaa8c929a90d95c3d38cd0469a4e3b84b35c965233810af5",
+    "scripts/capture_etf_interim2026_sources.py": "5ea87fae25102528cf687ec6d5cda4eea620ae49564c4f542bd708bcceb359bc",
+    "scripts/capture_etf_action_sources.py": "051c86c386e96301400e9e00dbf4ff785acd78cbc22f952cf2194391cad59a3f",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "local_source_sha256": {
+    "etf-prior2-12-physical-development-20261021/summary.json": "948c10412f05ef37cc568414601de866cf814614d0c4e18f242065e5b5d58cea",
+    "etf-prior2-12-independent-audit-20261021.json": "6efbb96bced0ee314b358a25a8dfa08b4232df3c59358de66e5f9538af98503a",
+    "etf-actions-rules-sources-20261021/manifest.json": "6ed28eac7f7c886b53f33da3e92d17cf879db327b1b14b1c988ff3b25bfe608a",
+    "low-risk-raw-account-data-20261017/calendar.json": "4bd04e2784a52654c2d066558e77d799d6b08e1139e332cf56817909db22d0d7",
+    "etf-interim2026-originals-20261021/manifest.json": "19d829e93ddd31bac957c23385df810575ff1683ebd733e9c8cf505b3badbb32",
+    "etf-interim2026-actions-derived-20261021/summary.json": "73113b38ed293c49ade6304654d796c6f59ca5bad0c9b71e24a1bc675bdd28aa"
+  },
+  "public_evidence_sha256": {
+    "docs/research/etf-prior2-12-interim2026-source-plan-2026-10-21.md": "80a223a727ea784e119888a955577fc8d683eb055e983056054b00c5ccefdb97",
+    "docs/research/etf-prior2-12-next-candidate-2026-10-21.md": "0829720cbde3cf2ccdf59358c47ac9e8c5ca7be83b157066d4d6b7c61c134839",
+    "experiments/qlib/etf-prior2-12-pre2026-independent-audit.json": "6efbb96bced0ee314b358a25a8dfa08b4232df3c59358de66e5f9538af98503a",
+    "experiments/qlib/etf-prior2-12-pre2026-replay-request.json": "c7933685469539c70d4fddeeba643efb8b2ba5b8936e8df920fc3f8d922298c7",
+    "experiments/qlib/etf-prior2-12-pre2026-results.json": "948c10412f05ef37cc568414601de866cf814614d0c4e18f242065e5b5d58cea",
+    "scripts/derive_etf_actions_2026.py": "2d4a6cfdca9051e9eac932172121a341f7ee248dc7512b2c73c63f8bff25179c",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/run_etf_prior2_12_pre2026.py": "392050f67908a43335e0debb3f23a8e209537c1e1d7e7234e59fdb4e398bff76",
+    "scripts/run_etf_relative_pre2026.py": "bfe1f636fd757e787318b5492d42cb9285133e9d4d120c3a0a1e274ce8f6cc72",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/etf_prior2_12.py": "7124203e1ea6cfb0285fb62d18ea73c84b3493e93879313e80f7f811c0bfeb48",
+    "src/stock_rsi/etf_relative_replay.py": "6b1662aa696e806c4eca62717aeeb3b74fa3edcf0943a7c34a9cf62e39b6deb7",
+    "src/stock_rsi/etf_replay_v2.py": "fb1f42a19dfd14175489293d0982ff57e61eb5c95809fe93c9e9d99cc34ec196",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "tests/test_etf_2026_action_derivation.py": "46f3ff1fed3c6c73f9f1abb41218b32e109da3aa41006c3083866ceade63d2e7",
+    "docs/research/etf-interim2026-transport-continuation-2026-10-21.md": "3e9a0a33eb646826efd6c911c732fc807418778ddc2a12718f407c18ce405d99",
+    "tests/test_etf_quote_transport.py": "f8f16d673690daf286d4bad63e4fd50f4ee93ab4267d4f2b0672bdfbd9ff4c17",
+    "scripts/derive_etf_interim2026_prices.py": "2421e126575c6f5524ec8d7936f724f37a8ec247b7862f1cf1564ea4dfadc1cc",
+    "tests/test_etf_interim2026_prices.py": "daf0c7f3b2732fba4422a20540d0b7ff0263a8bbaac596637eb7528e14fc8aed"
+  },
+  "purpose": "Source capture only; future diagnostic must meet preregistered data checks and separately freeze; no automaticROI",
+  "calendar_reference_prefix_ends": "2026-10-16",
+  "clock_checked_UTC": "2026-10-20 20:01:09 UTC",
+  "requested_January_October_horizon_complete": false,
+  "new_2026_ETF_price_queries_before_this_request": 3,
+  "portfolio_returns_authorized_in_this_capture": false,
+  "historical_arrival_certified": false,
+  "opening_execution_certified": false,
+  "primary_action_completeness_certified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "additional_queries_over_original_request": 3,
+  "total_maximum_attempts_each_same_price_URL_across_two_phases": 2,
+  "original_failed_capture_preserved": true,
+  "transport_change_only": "Referer quote.eastmoney.com matches original successful pre2026 ETF transport",
+  "transport_failure_cause_proved": false,
+  "successful_2026_ETF_price_responses_before_this_request": 0,
+  "superseded_unexecuted_draft_sha256": "bcdb31e6b7a3762f131c1d5fb90cc88a39038c82908a3796caff1f8438e272e0",
+  "query_attempts_under_superseded_draft": 0
+}
