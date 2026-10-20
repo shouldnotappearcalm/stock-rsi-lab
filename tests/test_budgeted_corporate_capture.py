@@ -77,6 +77,9 @@ class BudgetedCorporateCaptureTests(unittest.TestCase):
         paths=[]
         class Handler(BaseHTTPRequestHandler):
             def do_POST(self):
+                # Consume the request before closing the connection: unread POST
+                # bytes can cause a TCP reset that discards our fixture response.
+                self.rfile.read(int(self.headers['Content-Length']))
                 paths.append(self.path);self.send_response(302)
                 self.send_header('Location','/finalpage/2026-01-01/1220000002.PDF');self.end_headers()
                 self.wfile.write(b'synthetic redirect body')

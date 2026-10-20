@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "BUDGETED_RESIDUAL_ADJACENCY_CLASSIFIED_PRIMARY_NOTICES_FROZEN",
+    "status": "BUDGETED_RESIDUAL_PRIMARY_NOTICES_CAPTURED_REVIEWED_SOURCE_EVENTS_PENDING",
     "candidate": "market_residual_mom36_12_2",
     "candidate_budget": 1,
     "editable_module": "priorclose_integer_lot_allocation_only",
@@ -438,7 +438,18 @@
     "corporate_notice_fresh_cases": 12,
     "corporate_notice_reused_cases": 1,
     "corporate_notice_maximum_HTTP_queries": 36,
-    "corporate_notice_capture_executed": false
+    "corporate_notice_capture_executed": true,
+    "corporate_notice_capture_freeze_commit": "e5990da641d7afc2bcd06e499b848d5d46ca2055",
+    "corporate_notice_capture_manifest_file": "experiments/qlib/budgeted-residual-corporate-capture-manifest.json",
+    "corporate_notice_capture_audit_file": "experiments/qlib/budgeted-residual-corporate-capture-audit.json",
+    "corporate_notice_reviewed_manifest_file": "experiments/qlib/budgeted-residual-corporate-reviewed-manifest.json",
+    "corporate_notice_captured_cases": 13,
+    "corporate_notice_new_HTTP_queries": 24,
+    "corporate_notice_source_errors": 0,
+    "capital_tax_explicit_exemptions": 6,
+    "capital_tax_inferred_exemptions_with_tax_examples": 4,
+    "capital_tax_cases_still_requiring_actual_zero_entitlement_or_additional_proof": 3,
+    "source_events_compiled": false
   },
   "strategy_research_history": [
     {

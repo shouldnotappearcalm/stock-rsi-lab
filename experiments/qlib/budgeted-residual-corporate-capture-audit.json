@@ -1,0 +1,111 @@
+{
+  "status": "ALL13_PRIMARY_BYTE_IDENTITY_CHAINS_VERIFIED_FINANCIAL_REVIEW_SEPARATE",
+  "audit_code_sha256": "784bdc2529cda6c6916d50a9dbc5b05dd4cd3a07a6fd04593b06706a889bd1e6",
+  "request_sha256": "99a5f18edf3e2ef27f519c8f7e0b649ad6e9959d381c2a79d1ded8f64d07b2ba",
+  "capture_manifest_sha256": "d1f2ad707004e111e9270f8b953b9abe97332182f8f7ba17794ca027db2b527d",
+  "documents": [
+    {
+      "case_id": "SH603737|2025-05-30",
+      "file": "SH603737-2025-05-24.pdf",
+      "sha256": "68eb5de9a7efacd6de0fbbd7a3c8d2f19610bce7031314664e5ba09ab31ea334",
+      "publication_day": "2025-05-24",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH603298|2024-05-31",
+      "file": "SH603298-2024-05-24.pdf",
+      "sha256": "d36524bb084bfcb0a52fb39b54ee2ae3eb26ddb17be1689dfb80f45502616a00",
+      "publication_day": "2024-05-24",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SZ002984|2024-04-19",
+      "file": "SZ002984-2024-04-12.pdf",
+      "sha256": "8e7b30276e1e33199ca0e810c9924f43f258258aad60f53d3600311ba196b674",
+      "publication_day": "2024-04-12",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH600161|2024-06-20",
+      "file": "SH600161-2024-06-14.pdf",
+      "sha256": "2c1ebb870d47ccc044aafe91bfb67773c189d6c170274a9928543ff5ad4278e9",
+      "publication_day": "2024-06-14",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH600580|2025-06-27",
+      "file": "SH600580-2025-06-20.pdf",
+      "sha256": "7779de4b72e008b32757fe78f6d81a6c34433a4df73122455a4a5fd993990a7d",
+      "publication_day": "2025-06-20",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH600885|2025-06-19",
+      "file": "SH600885-2025-06-11.pdf",
+      "sha256": "a96cd0c926a18b54ff057d5d76ca6b5c356668402e72630a8afc4fab70b0b943",
+      "publication_day": "2025-06-11",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH600998|2024-06-07",
+      "file": "SH600998-2024-06-01.pdf",
+      "sha256": "ec4723683ff0f75c293129695b99588a3231ba3fd73e77752a1c8502076826f3",
+      "publication_day": "2024-06-01",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH601128|2024-05-29",
+      "file": "SH601128-2024-05-22.pdf",
+      "sha256": "a7433696703e9b8ce37f0bdde75b17f3946623272c697f746c17640b84fe5f5d",
+      "publication_day": "2024-05-22",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH601128|2025-06-05",
+      "file": "SH601128-2025-05-28.pdf",
+      "sha256": "feced976f31029e64a8d45887f8b0bf1ea17b77541cd35d6e890c24dd4c3500f",
+      "publication_day": "2025-05-28",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH603596|2024-05-20",
+      "file": "SH603596-2024-05-14.pdf",
+      "sha256": "08f8a6c5984648d6b66de07815274d7cc233afe5e89da7774524b16f45aaaba0",
+      "publication_day": "2024-05-14",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SZ002155|2025-06-13",
+      "file": "SZ002155-2025-06-07.pdf",
+      "sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+      "publication_day": "2025-06-07",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SZ002837|2024-05-27",
+      "file": "SZ002837-2024-05-18.pdf",
+      "sha256": "b9ad0b843a59defb2117aac32655817bb92702ec3f5aa2012f8a06aeb186e4b1",
+      "publication_day": "2024-05-18",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SZ002837|2025-05-30",
+      "file": "SZ002837-2025-05-23.pdf",
+      "sha256": "7861fcd7337b44cae11bf34cef5c1c455953adc917d7243df223b503c9e3e367",
+      "publication_day": "2025-05-23",
+      "byte_and_identity_chain_verified": true
+    }
+  ],
+  "new_API_requests": 12,
+  "new_PDF_requests": 12,
+  "reused_documents": 1,
+  "captured_HTTP_responses": 24,
+  "immutable_query_artifacts": 72,
+  "capture_artifact_files": 88,
+  "source_errors": 0,
+  "financial_review_completed": false,
+  "historical_arrival_certified": false,
+  "portfolio_returns_computed": false,
+  "new_2026_queries": false,
+  "objective_achieved": false
+}

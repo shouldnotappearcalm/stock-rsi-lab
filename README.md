@@ -61,6 +61,12 @@ A股模块化投资skill研究项目。首个闭环是**明确时间范围、按
 40bp 下 2024/2025 为 +0.35%/+11.76%，平均仓位 90.48%。原股盘中确认待完成，尚未测该候选 2026，目标仍未达成。
 [144 股原股来源](docs/research/illiquidity-raw-development-data-results-2026-10-20.md)已取得，上市/退市缺行、送转和潜在 ST 状态明确留痕；账户准入仍未通过。
 
+[残差动量的固定整手分配版本](docs/research/budgeted-residual-pre2026-results-2026-10-21.md)通过日频开发初筛：
+100 万、每边额外 40bp，2024/2025 为 +4.97%/+7.96%，平均仓位 94.63%。
+已捕获 210 股的 102,060 条原日线，并按现有覆盖规则核实九处相邻复权记录。
+[13 份非现金分派原公告](docs/research/budgeted-residual-corporate-source-results-2026-10-21.md)全部取得并逐份核对；
+三笔转增税基仍须补证或核实实际零权益。尚未认证原股账户、分钟执行或该候选的 2026 收益。
+
 独立项目，不修改已有a-share-skill。实现取舍来自多个已clone项目的
 [源码审计](docs/research/README.md)，不按现有skill仓库目录直接堆模块。
 
@@ -243,5 +249,3 @@ Copyright 2026 stock-rsi-lab contributors。
 
 项目自有代码采用[Apache License 2.0](LICENSE)。外部数据、模型和引用源码继续适用
 各自许可或使用条款；仓库中的来源说明不将这些第三方内容重新授权。
-
-[固定整手候选：九处相邻复权记录与 13 笔非现金分派原公告计划](docs/research/budgeted-residual-corporate-source-plan-2026-10-21.md)：原始来源覆盖 210 只通过现有检查；公告捕获与财务审阅分别留痕，尚未认证账户收益或 2026 目标。

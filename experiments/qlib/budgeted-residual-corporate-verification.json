@@ -1,0 +1,29 @@
+{
+  "status": "CORPORATE_CAPTURE_BYTE_AUDIT_AND_309_ENGINEERING_CHECKS_PASS",
+  "capture_freeze_commit": "e5990da641d7afc2bcd06e499b848d5d46ca2055",
+  "request_sha256": "99a5f18edf3e2ef27f519c8f7e0b649ad6e9959d381c2a79d1ded8f64d07b2ba",
+  "capture_manifest_sha256": "d1f2ad707004e111e9270f8b953b9abe97332182f8f7ba17794ca027db2b527d",
+  "capture_audit_sha256": "4e3688958aa4c6a6e05a2367917656736a3bead79dfa56190f60f4639fe1199d",
+  "reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+  "source_compile_audit_sha256": "db5848c32bf4d496b5e9380a10b9220fdbbe4c225291dbd6df31b57397e51ed4",
+  "focused_tests": 8,
+  "full_tests": 309,
+  "final_full_regression_log_sha256": "17375516b625f22d055925e956eea42a9ffb7bf77fdb17085dd33908434f6418",
+  "earlier_fixture_failure_preserved": {
+    "tests": 309,
+    "failures": 1,
+    "failure": "Loopback302fixture closed with unread POST data; ConnectionResetError sometimes loses fixture body",
+    "log_sha256": "b1b796653c7f3b5c4ce60f3ca5ef7a7ea4b3657ba8af55565d25a37bb66503ec",
+    "isolated_old_fixture_trials": 100,
+    "isolated_old_fixture_connection_resets": 22,
+    "isolated_consumed_POST_trials": 100,
+    "isolated_consumed_POST_connection_resets": 0,
+    "capture_method_modified": false,
+    "source_packets_modified": false
+  },
+  "independent_review": "Capture audit reexecuted exactly; all13 PDFs reextracted; six explicit/four inferred event exemptions and three unknown verified; corrected fixture8tests rerun independently",
+  "raw_account_admitted": false,
+  "portfolio_returns_computed": false,
+  "new_2026_queries": false,
+  "objective_achieved": false
+}
