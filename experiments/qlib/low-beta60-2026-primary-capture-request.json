@@ -1,0 +1,76 @@
+{
+  "status": "FROZEN_LOW_BETA60_2026_SIX_PRIMARY_DOCUMENTS_NO_ROI",
+  "method_code_sha256": {
+    "scripts/capture_low_beta60_corporate_2026.py": "f864a41b22b92bbc3335e67d202ac802b30a3a722a2e0e48435840296d6013ef",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/low-beta60-raw-extension-primary-questions.json": "0ed5c7b09fadd20117afec461beb986fbf009abfd59971524bb35ff1e4a274a1",
+    "experiments/qlib/low-beta60-2026-primary-discovery.json": "07909d5ef4d905149ac7f40fe41a9f7c8659132240953b7772515952c4d59a20",
+    "docs/research/low-beta60-2026-primary-capture-plan-2026-10-21.md": "b99035105d121a7b50eda3652b3ee0e5f86f03f984ed0058c84d58ac8c1d9a0b"
+  },
+  "local_source_sha256": {
+    "low-beta60-raw-extension-20261021/manifest.json": "10f645719228d50c439e166bbfe65959b5ff517668c2ecc8ffc4fca4e1680ea7",
+    "cninfo-csi500-reports-20261017/plan.json": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0",
+    "low-risk-corporate-proofs-20261017/manifest.json": "ef97c73712072ed58a05dceea01cc041063a013f8229defbe22d25089a4d1c25",
+    "low-risk-corporate-proofs-20261017/SH601128-20260603-1225346607.pdf": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac"
+  },
+  "maximum_http_queries": 6,
+  "minimum_interval_seconds": 0.3,
+  "max_attempts_per_identity": 1,
+  "maximum_consecutive_failures": 3,
+  "documents": [
+    {
+      "document_id": "SH601128-20260603",
+      "instrument": "SH601128",
+      "publication_day": "2026-06-03",
+      "event_day": "2026-06-09",
+      "reuse_file": "low-risk-corporate-proofs-20261017/SH601128-20260603-1225346607.pdf",
+      "reuse_sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac"
+    },
+    {
+      "document_id": "SZ000937-20260611",
+      "instrument": "SZ000937",
+      "publication_day": "2026-06-11",
+      "event_day": "2026-06-17",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF"
+    },
+    {
+      "document_id": "SH601918-20260130",
+      "instrument": "SH601918",
+      "publication_day": "2026-01-30",
+      "event_day": "2026-02-06",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-01-30/1224955681.PDF"
+    },
+    {
+      "document_id": "SZ000975-20260417",
+      "instrument": "SZ000975",
+      "publication_day": "2026-04-17",
+      "event_day": "2026-04-24",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF"
+    },
+    {
+      "document_id": "SH603826-20260708",
+      "instrument": "SH603826",
+      "publication_day": "2026-07-08",
+      "event_day": "2026-07-14",
+      "organization_id": "9900030692",
+      "exact_title": "2025年年度权益分派实施公告"
+    },
+    {
+      "document_id": "SZ000937-20260827",
+      "instrument": "SZ000937",
+      "publication_day": "2026-08-27",
+      "event_day": "2026-06-17",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225510646.PDF",
+      "supplement_only_published_after_event": true
+    }
+  ],
+  "portfolio_returns_to_compute": false,
+  "investment_rule_changes_allowed": false,
+  "source_capture_is_financial_admission": false,
+  "historical_arrival_certified": false
+}
