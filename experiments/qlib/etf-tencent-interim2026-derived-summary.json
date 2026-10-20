@@ -1,0 +1,34 @@
+{
+  "status": "TENCENT_RAW_INTERIM2026_DERIVED_OFFLINE_PRICE_REVIEW_PENDING",
+  "overlap_sessions_each": 243,
+  "all_overlap_raw_OHLC_equal": true,
+  "excluded_pre2025_rows": {
+    "SH510300": 207,
+    "SH510500": 207,
+    "SZ159915": 207
+  },
+  "sessions_each": 190,
+  "series": 3,
+  "window": [
+    "2026-01-01",
+    "2026-10-20"
+  ],
+  "capture_manifest_sha256": "e859417c71f4223f6365eb17fe3118b3dbb428a7d98465f549153fb5dc5d387c",
+  "closure_manifest_sha256": "19d829e93ddd31bac957c23385df810575ff1683ebd733e9c8cf505b3badbb32",
+  "old_price_manifest_sha256": "517ef1a4ebb7b2e0d562516c05c44dd598d15d6c63a0e078835d9a466d98e85c",
+  "reference_calendar_sha256": "4bd04e2784a52654c2d066558e77d799d6b08e1139e332cf56817909db22d0d7",
+  "derivation_method_sha256": "8e2a7424cfc371f300e966ae884d19826482f9257b0317034ff24d8d0e09287c",
+  "network_queries": 0,
+  "portfolio_returns_computed": false,
+  "source_admitted_for_account_replay": false,
+  "historical_arrival_certified": false,
+  "opening_execution_certified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "artifact_sha256": {
+    "SZ159915-raw.json": "b435e8dca8e79d5fc69db439da293b63cad157ce1285f561571b3abf6f01897c",
+    "SH510500-raw.json": "0354211886c18cda19b077dce54137e0ddc7e9a19937d15737f4af411166b024",
+    "SH510300-raw.json": "2266c6bfee94597708176387b2d2b17073a8d98396d49336d6495ba389fbf577",
+    "calendar.json": "fcb96f903f89e0108fee91f172d81fdcdcdaf9f17a0fd5c20aaabccafb2f41e8"
+  }
+}

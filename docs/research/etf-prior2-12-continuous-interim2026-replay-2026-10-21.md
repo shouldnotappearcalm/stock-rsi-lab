@@ -1,0 +1,11 @@
+# One frozen prior2–12 continuous-account interim diagnostic
+
+The same frozen candidate 8fdbf76 passed the registered pre2026 reference: 2024 and 2025 each positive at 40bp extra costs; average exposures above90%. Do not alter its three assets, prior2–12 economic hypothesis, exact total-return ranking, tie-break,95% target, monthly15:05 formation, next-session fills, sale-confirmation-then-following-session funding, cash-payment convention or fee profiles using2026 outcomes.
+
+After independent validation of Tencent raw data, replay once at each pre-existing20/40bp profile,40bp reference. Initial cash1m only once at2024 start; warm-up starts2022Dec. Combine749 old explicit sessions with190 observed2026 sessions throughOct20. All8 known cash events use original notice facts, with July2026 510500 explicitly distributor-hosted manager PDF; issuer-host identity unverified. No provider-recorded in-window share change; no completeness proof.
+
+Require675 outcome days and34 monthly intents, including Dec31,2025 formation forfirst2026session andJan–Sep2026formations. The partialOctober tail creates no subsequent execution. Reproduce old485 daily rows,24 intents, all old fills/orders/funding/corporate entries exactly before2026. Failure aborts, not retunes. Compute2026return asOct20 closing equity divided byDec31,2025 equity minus1. No year reset. Report all costs, exposure and drawdown, all fixed profiles. User numeric condition:2024>0,2025>0,2026interim>=10%; fullOctober incomplete, so do not declare the full criterion achieved.
+
+Daily engineering proxy only: historical arrival, complete primary actions, historical official daily bands, actual opening fills/queue/volume capacity are not certified. No new model selection from2026ROI, noinvestment promotion, nobroker orders. Independently reconstruct signals, integer quantities,cash,fees,receivables,targets,stagedfunding and annualmetrics with a separatelyversioned stdlib auditor and negativecontrols. A numeric failure is retained.
+
+Freeze the runner, authenticated source/evidence manifest and exact request hash, push before any portfolioROI. The source adapter correction quarantines pre2025 extra rows and requires243 exact2025 OHLC matches; it does not extend strategy search.
