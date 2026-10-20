@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_THREE_PRE2026_ILLIQUIDITY_CORPORATE_NOTICES",
+  "strategy": "amihud22",
+  "cases": [
+    {
+      "instrument": "SH603737",
+      "publication_day": "2025-05-24",
+      "organization_id": "9900032852"
+    },
+    {
+      "instrument": "SH603826",
+      "publication_day": "2024-06-21",
+      "organization_id": "9900030692"
+    },
+    {
+      "instrument": "SZ003031",
+      "publication_day": "2024-06-04",
+      "organization_id": "9900040654"
+    }
+  ],
+  "max_pages_per_exact_day": 2,
+  "maximum_page_attempts_including_retries": 18,
+  "maximum_pdf_gets": 3,
+  "capture_code_sha256": "f632f7baa96d832deff1c2c23f564e1c5f750d442f0d71397a1a1662cfdf1b28",
+  "shared_method_sha256": {
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2"
+  },
+  "org_map_plan_sha256": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0",
+  "raw_manifest_sha256": "15709f0416c96148894be6b662c624dbde63d0f5d37b7760078235abe73440c8",
+  "selection_basis": "Only original noncash corporate records needing possible held-share tax treatment; no2026prices/returns",
+  "existing_special_cash_notice_reused_without_new_query": "SH600167-2024-12-20.pdf",
+  "global_cross_restart_retry_bound_claimed": false,
+  "investment_rule_changed": false,
+  "portfolio_returns_computed": false
+}
