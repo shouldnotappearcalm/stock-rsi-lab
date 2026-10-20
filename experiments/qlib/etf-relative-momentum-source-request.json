@@ -1,0 +1,39 @@
+{
+  "status": "FROZEN_SIX_ETF_PRE2026_HISTORY_QUERIES",
+  "parent_commit": "eeb1bcc93acab2c138dc2d033f8b3b614ccda1a0",
+  "instruments": [
+    "SH510300",
+    "SH510500",
+    "SZ159915"
+  ],
+  "modes": [
+    "raw",
+    "hfq"
+  ],
+  "window": [
+    "2022-12-01",
+    "2025-12-31"
+  ],
+  "maximum_http_queries": 6,
+  "max_attempts_per_identity": 1,
+  "minimum_interval_seconds": 0.3,
+  "calendar_file": "qlib-enhanced-dev/calendars/day.txt",
+  "calendar_sha256": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+  "explicit_sessions": 749,
+  "method_code_sha256": {
+    "scripts/capture_etf_rotation_pre2026.py": "f7f0f31d0584264f835af2332fa40cff2d41508d1739ac4830adfa188913d25e",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0"
+  },
+  "public_evidence_sha256": {
+    "docs/research/etf-relative-momentum-pre2026-design-2026-10-21.md": "c68c159e588a13f37c427cbf4559c8bd77e6b31e7af0eaf337bae7a84faa32bf"
+  },
+  "candidate_budget": 1,
+  "candidate": "three_domestic_broad_ETF_relative12m",
+  "signal_or_asset_search_authorized": false,
+  "new_2026_history_or_live_quote_queries_authorized": false,
+  "portfolio_returns_authorized_in_this_capture": false,
+  "objective_achieved": false,
+  "superseded_unexecuted_wording_draft_sha256": "4f71c150c5259c11d8b37cd09de1611e6296aefde5a16f7c4cc6508032ffb4f4",
+  "market_calls_under_superseded_draft": 0
+}
