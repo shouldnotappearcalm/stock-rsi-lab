@@ -1,0 +1,339 @@
+{
+  "status": "INDEPENDENT_PRE2026_RAW_SOURCE_CAPTURE_AUDIT_COMPLETE",
+  "audit_code_sha256": "eb38af491d1ae705195b5877a012c2a3c931372ceca5d46ea9feda8e33373f27",
+  "capture_manifest_sha256": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+  "request_sha256": "58a914187a42bab8975b23545acae19c37f40f966933da9f6775531dcea04951",
+  "captured_names": 210,
+  "capture_complete": true,
+  "source_query_identities": 456,
+  "journal_artifacts_verified": 1368,
+  "response_status_counts": {
+    "CAPTURED": 456
+  },
+  "reuse_byte_identical_counts": {
+    "illiquidity-raw-source-continuation-20261020": 41,
+    "return-families-raw-dev-20261017": 43,
+    "szse-value-raw-dev-20261017": 12
+  },
+  "totals": {
+    "bar_rows": 102060,
+    "distributions": 510,
+    "adjustments": 519,
+    "quarantines": 0
+  },
+  "incomplete_calendars": {},
+  "isST_source_rows": [],
+  "unsupported_or_missing_formation_status": [],
+  "noncash_distributions_requiring_review": [
+    {
+      "instrument": "SH603298",
+      "record": {
+        "code": "sh.603298",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-11",
+        "dividPlanAnnounceDate": "2024-04-18",
+        "dividPlanDate": "2024-05-24",
+        "dividRegistDate": "2024-05-30",
+        "dividOperateDate": "2024-05-31",
+        "dividPayDate": "2024-05-31",
+        "dividStockMarketDate": "2024-05-31",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "0.45\u62160.5",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c4\u6d3e5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e4.5\u62165\u5143\uff09",
+        "dividReserveToStockPs": "0.400000"
+      },
+      "packet_sha256": "1a0e7fbbd470726e62f5e6a5364ab022b4bfd02955f35c79a91cd4e1626d3ee7"
+    },
+    {
+      "instrument": "SH603737",
+      "record": {
+        "code": "sh.603737",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-05-17",
+        "dividPlanAnnounceDate": "2025-04-26",
+        "dividPlanDate": "2025-05-24",
+        "dividRegistDate": "2025-05-29",
+        "dividOperateDate": "2025-05-30",
+        "dividPayDate": "2025-05-30",
+        "dividStockMarketDate": "2025-05-30",
+        "dividCashPsBeforeTax": "0.32",
+        "dividCashPsAfterTax": "0.288\u62160.32",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c4\u6d3e3.2\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.88\u62163.2\u5143\uff09",
+        "dividReserveToStockPs": "0.400000"
+      },
+      "packet_sha256": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7"
+    },
+    {
+      "instrument": "SZ002984",
+      "record": {
+        "code": "sz.002984",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-03-22",
+        "dividPlanAnnounceDate": "2024-03-01",
+        "dividPlanDate": "2024-04-12",
+        "dividRegistDate": "2024-04-18",
+        "dividOperateDate": "2024-04-19",
+        "dividPayDate": "2024-04-19",
+        "dividStockMarketDate": "2024-04-19",
+        "dividCashPsBeforeTax": "0.41",
+        "dividCashPsAfterTax": "0.369\u62160.41",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c4\u6d3e4.1\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e3.69\u62164.1\u5143\uff09",
+        "dividReserveToStockPs": "0.400000"
+      },
+      "packet_sha256": "39e81963b661513fd480aad49f4bb5ed774cddbfd53b594d301a4503faa8fb66"
+    },
+    {
+      "instrument": "SH600161",
+      "record": {
+        "code": "sh.600161",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-30",
+        "dividPlanAnnounceDate": "2024-03-29",
+        "dividPlanDate": "2024-06-14",
+        "dividRegistDate": "2024-06-19",
+        "dividOperateDate": "2024-06-20",
+        "dividPayDate": "2024-06-20",
+        "dividStockMarketDate": "2024-06-20",
+        "dividCashPsBeforeTax": "0.15",
+        "dividCashPsAfterTax": "0.135\u62160.15",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c2\u6d3e1.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e1.35\u62161.5\u5143\uff09",
+        "dividReserveToStockPs": "0.200000"
+      },
+      "packet_sha256": "9719574e76a6af350a019b56e728833aa3b1645de11c1c010ce241f73e6648ac"
+    },
+    {
+      "instrument": "SH600580",
+      "record": {
+        "code": "sh.600580",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-05-20",
+        "dividPlanAnnounceDate": "2025-04-26",
+        "dividPlanDate": "2025-06-20",
+        "dividRegistDate": "2025-06-26",
+        "dividOperateDate": "2025-06-27",
+        "dividPayDate": "2025-06-27",
+        "dividStockMarketDate": "2025-06-27",
+        "dividCashPsBeforeTax": "0.15",
+        "dividCashPsAfterTax": "0.135\u62160.15",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c2\u6d3e1.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e1.35\u62161.5\u5143\uff09",
+        "dividReserveToStockPs": "0.200000"
+      },
+      "packet_sha256": "ae06375f4e9b499ebe5f2497b2bcee7a8d8e291169834375babf305931f28b88"
+    },
+    {
+      "instrument": "SH600885",
+      "record": {
+        "code": "sh.600885",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-04-22",
+        "dividPlanAnnounceDate": "2025-03-29",
+        "dividPlanDate": "2025-06-11",
+        "dividRegistDate": "2025-06-18",
+        "dividOperateDate": "2025-06-19",
+        "dividPayDate": "2025-06-19",
+        "dividStockMarketDate": "2025-06-19",
+        "dividCashPsBeforeTax": "0.515",
+        "dividCashPsAfterTax": "0.4635\u62160.515",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c4\u6d3e5.15\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e4.635\u62165.15\u5143\uff09",
+        "dividReserveToStockPs": "0.400000"
+      },
+      "packet_sha256": "0a14b984efb1873b1516f9ca4f4df859e48b3127c88f5b5b75780d426c831b96"
+    },
+    {
+      "instrument": "SH600998",
+      "record": {
+        "code": "sh.600998",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-25",
+        "dividPlanAnnounceDate": "2024-04-27",
+        "dividPlanDate": "2024-06-01",
+        "dividRegistDate": "2024-06-06",
+        "dividOperateDate": "2024-06-07",
+        "dividPayDate": "2024-06-07",
+        "dividStockMarketDate": "2024-06-07",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225\u62160.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c2.9\u6d3e2.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.25\u62162.5\u5143\uff09",
+        "dividReserveToStockPs": "0.290000"
+      },
+      "packet_sha256": "7c1611ac0a8880efae2c7186120de567393a638ada1e1101cb1fa84e98f75a9e"
+    },
+    {
+      "instrument": "SH601128",
+      "record": {
+        "code": "sh.601128",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-04-30",
+        "dividPlanAnnounceDate": "2024-03-22",
+        "dividPlanDate": "2024-05-22",
+        "dividRegistDate": "2024-05-28",
+        "dividOperateDate": "2024-05-29",
+        "dividPayDate": "2024-05-29",
+        "dividStockMarketDate": "2024-05-29",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225\u62160.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c1\u6d3e2.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.25\u62162.5\u5143\uff09",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "packet_sha256": "a8e19ead8136538d2e0cea36c18e0ed05fcb4523921cd9f8afea9fdf6a039143"
+    },
+    {
+      "instrument": "SH601128",
+      "record": {
+        "code": "sh.601128",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-04-26",
+        "dividPlanAnnounceDate": "2025-03-28",
+        "dividPlanDate": "2025-05-28",
+        "dividRegistDate": "2025-06-04",
+        "dividOperateDate": "2025-06-05",
+        "dividPayDate": "2025-06-05",
+        "dividStockMarketDate": "2025-06-05",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225\u62160.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c1\u6d3e2.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.25\u62162.5\u5143\uff09",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "packet_sha256": "a8e19ead8136538d2e0cea36c18e0ed05fcb4523921cd9f8afea9fdf6a039143"
+    },
+    {
+      "instrument": "SH603596",
+      "record": {
+        "code": "sh.603596",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-04-18",
+        "dividPlanAnnounceDate": "2024-03-28",
+        "dividPlanDate": "2024-05-14",
+        "dividRegistDate": "2024-05-17",
+        "dividOperateDate": "2024-05-20",
+        "dividPayDate": "2024-05-20",
+        "dividStockMarketDate": "2024-05-20",
+        "dividCashPsBeforeTax": "0.34",
+        "dividCashPsAfterTax": "0.306\u62160.34",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c4\u6d3e3.4\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e3.06\u62163.4\u5143\uff09",
+        "dividReserveToStockPs": "0.400000"
+      },
+      "packet_sha256": "1c9523ec8deef19fcdd85e2d52c6f74c8875f827765a3382d7057bb16bfa8f22"
+    },
+    {
+      "instrument": "SZ002155",
+      "record": {
+        "code": "sz.002155",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-05-08",
+        "dividPlanAnnounceDate": "2025-04-11",
+        "dividPlanDate": "2025-06-07",
+        "dividRegistDate": "2025-06-12",
+        "dividOperateDate": "2025-06-13",
+        "dividPayDate": "2025-06-13",
+        "dividStockMarketDate": "2025-06-13",
+        "dividCashPsBeforeTax": "0.23",
+        "dividCashPsAfterTax": "0.207\u62160.23",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c3\u6d3e2.3\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.07\u62162.3\u5143\uff09",
+        "dividReserveToStockPs": "0.300000"
+      },
+      "packet_sha256": "5db558641d98f37a6a884fc256ab0876f2318cca6bd3ec13c749f9e8e5f93e74"
+    },
+    {
+      "instrument": "SZ002837",
+      "record": {
+        "code": "sz.002837",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-09",
+        "dividPlanAnnounceDate": "2024-04-16",
+        "dividPlanDate": "2024-05-18",
+        "dividRegistDate": "2024-05-24",
+        "dividOperateDate": "2024-05-27",
+        "dividPayDate": "2024-05-27",
+        "dividStockMarketDate": "2024-05-27",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "0.18\u62160.2",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c3\u6d3e2\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e1.8\u62162\u5143\uff09",
+        "dividReserveToStockPs": "0.300000"
+      },
+      "packet_sha256": "9db77b0a7ae6bd4cf82936301d72863a281649e850f8da129ed1116e2c9eebac"
+    },
+    {
+      "instrument": "SZ002837",
+      "record": {
+        "code": "sz.002837",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-05-17",
+        "dividPlanAnnounceDate": "2025-04-22",
+        "dividPlanDate": "2025-05-23",
+        "dividRegistDate": "2025-05-29",
+        "dividOperateDate": "2025-05-30",
+        "dividPayDate": "2025-05-30",
+        "dividStockMarketDate": "2025-05-30",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "0.18\u62160.2",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c3\u6d3e2\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e1.8\u62162\u5143\uff09",
+        "dividReserveToStockPs": "0.300000"
+      },
+      "packet_sha256": "9db77b0a7ae6bd4cf82936301d72863a281649e850f8da129ed1116e2c9eebac"
+    }
+  ],
+  "adjustments_without_distribution": [
+    [
+      "SH601098",
+      "2024-07-15"
+    ],
+    [
+      "SH603529",
+      "2024-07-15"
+    ],
+    [
+      "SH600498",
+      "2024-07-15"
+    ],
+    [
+      "SH600535",
+      "2025-03-27"
+    ],
+    [
+      "SZ002281",
+      "2024-07-15"
+    ],
+    [
+      "SZ002078",
+      "2024-07-15"
+    ],
+    [
+      "SZ002244",
+      "2025-08-08"
+    ],
+    [
+      "SH600737",
+      "2025-08-14"
+    ],
+    [
+      "SH600879",
+      "2024-07-15"
+    ]
+  ],
+  "distributions_without_adjustment": [],
+  "noninteger_volume_rows": [],
+  "active_price_fields_off_cent_tick": [],
+  "capture_errors": {},
+  "pending_codes": [],
+  "source_packets_or_original_reuse_changed": false,
+  "raw_source_admitted_for_account_replay": false,
+  "primary_corporate_or_lifecycle_review_complete": false,
+  "new_portfolio_returns_computed": false,
+  "2026_market_queries": false,
+  "objective_achieved": false,
+  "scope": "Own SDK-response/hash/packet/calendar and numeric-field verification; data retrieval not historical truth, PIT arrival, exact minute-volume, corporate tax basis or actual held-account admission"
+}

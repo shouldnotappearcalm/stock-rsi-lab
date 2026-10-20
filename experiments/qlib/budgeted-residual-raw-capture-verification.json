@@ -1,0 +1,21 @@
+{
+  "status": "BUDGETED_RESIDUAL_RAW_CAPTURE_RECONCILIATION_COMPLETE",
+  "capture_freeze_commit": "aaba70091bd4f7d255bda155b730ac879ee92c9d",
+  "capture_manifest_sha256": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+  "independent_audit_sha256": "c5803d3d9df88ff7eeafd09ad72592019ae4e453d41b795503339a0791f56bf9",
+  "independent_audit_code_sha256": "eb38af491d1ae705195b5877a012c2a3c931372ceca5d46ea9feda8e33373f27",
+  "login_cleanup_artifact_sha256": {
+    "login-reserved-1.json": "bd61a95f936c4d9bc6ee9be12d7195758a830ca9b11e275b696fc912df4e4643",
+    "login-response-1.json": "094781fd57e4fdee1a3cea3d48712bdc92fa2f890849fcf6ac92a8d293e4e44f",
+    "logout-response-1.json": "b47c5f6bd6a76500de2e47d43016e60d778a3b0e0f3dee9ff667769d7f4f1527"
+  },
+  "data_queries": 456,
+  "login_attempts": 1,
+  "all_reuse96_original_bytes_unchanged": true,
+  "engineer_regression_tests": 301,
+  "primary_corporate_review_complete": false,
+  "raw_source_admitted_for_account_replay": false,
+  "new_2026_queries": false,
+  "new_portfolio_returns_computed": false,
+  "objective_achieved": false
+}
