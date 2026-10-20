@@ -1,0 +1,46 @@
+{
+  "instrument": "SH603056",
+  "session": "2025-06-03",
+  "query_window": [
+    "2025-06-03",
+    "2025-06-03"
+  ],
+  "frequency": "5",
+  "adjustflag": "3",
+  "started_at": "2026-10-17T15:23:13.057028+00:00",
+  "request_sha256": "ef9425fba0a682f5112c1fae7660b26a773fb8cdfa2ee795d610040f8f76c92f",
+  "reference_daily_packet_sha256": "d7bfecbe25b925dc80eee3d8ca5a397e7648fd0d39959ffaa984b0799b3736d8",
+  "status": "RESPONSE_CAPTURED",
+  "fields": [
+    "date",
+    "time",
+    "code",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "amount",
+    "adjustflag"
+  ],
+  "source_checks": {
+    "complete_48_labels": true,
+    "first_open_matches": true,
+    "highest_matches": true,
+    "lowest_matches": false,
+    "last_close_matches": true,
+    "total_volume_matches": false
+  },
+  "admitted_as_reported_5min_OHLCV": false,
+  "total_5min_reported_volume": "91176400",
+  "daily_reported_volume": "91176604",
+  "original_TDX_failure_unchanged": true,
+  "one_minute_series_created": false,
+  "interchangeable_with_240_minute_points": false,
+  "source_is_a_fill_verification": false,
+  "historical_arrival_verified": false,
+  "new_portfolio_account_run": false,
+  "2026_market_values_queried": false,
+  "objective_achieved": false,
+  "packet_sha256": "ca7e22098bce257a3df95ae1d3c6e4652021ae3abbddab98957aeec09073caf6"
+}

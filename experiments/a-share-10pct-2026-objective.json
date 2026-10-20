@@ -429,7 +429,10 @@
     "execution_source_alternate_endpoint_probe_results_file": "experiments/qlib/high52-alternate-minute-endpoint-results.json",
     "execution_source_alternate_endpoint_gap_resolved": false,
     "execution_source_original_requests": 30,
-    "execution_source_additional_bounded_requests": 4
+    "execution_source_additional_bounded_requests": 4,
+    "alternative_5min_source_file": "experiments/qlib/high52-baostock-five-minute-probe-results.json",
+    "alternative_5min_source_admitted": false,
+    "alternative_5min_does_not_replace_minute_series": true
   },
   "strategy_research_history": [
     {

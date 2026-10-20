@@ -1,0 +1,70 @@
+{
+  "experiment_id": "single-intermediate-momentum-pre2026-v1",
+  "status": "FROZEN_BEFORE_INTERMEDIATE_MOMENTUM_OUTCOMES",
+  "parent_commit": "130947e",
+  "families": [
+    "intermediate_mom12_7"
+  ],
+  "candidate_budget": 1,
+  "capital_CNY": 1000000,
+  "user_selected_capital_CNY": null,
+  "extra_bps": [
+    20,
+    40
+  ],
+  "account_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "source": [
+    {
+      "title": "Is momentum really momentum?",
+      "publication_year": 2012,
+      "doi": "10.1016/j.jfineco.2011.05.003"
+    },
+    {
+      "title": "A four-factor model based on factor momentum",
+      "publication_year": 2024,
+      "doi": "10.1016/j.pacfin.2024.102511"
+    }
+  ],
+  "design_file": "docs/research/intermediate-momentum-pre2026-plan-2026-10-17.md",
+  "design_sha256": "9b7aa6f06a38bfcd5ebf965f076574e3d91b901c7769581d5e03ef96e91c88fb",
+  "signal": "Cumulative return of six old months t-12..t-7 from seven consecutive month-end closes; skip six recent returns; current close only for formation data eligibility/order sizing",
+  "common_eligibility": "seven complete finite positive old month-end closes; finite positive current close/volume/factor; >=100 and >=80% historical mainboard CSI500 names",
+  "exposure_target": 0.95,
+  "portfolio_selection": "top floor(N/10) old-six-month cumulative returns; code-ascending ties; monthly95% equalweight",
+  "control": "same eligible names95% equal-weight; descriptive, not risk-matched",
+  "selection_rule": "At40bp only: both2024/2025 net positive, average exposure>=90%, zero unverified held marks; no replacement variants",
+  "maximum_selected_followup_leads": 1,
+  "following_stage": "same2024/25 raw-share intraday confirmation, then only frozen2026 diagnostic",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_intermediate_momentum_pre2026.py": "a6a6d6e7e0273643925497d484b429996454514b8129746a1dda8bb002f8849e",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/intermediate_momentum.py": "ceda946acb612256c2b85b7fa61b174f003dc56b4f66b80551f67e9f0fa75a26"
+  },
+  "input_sha256": {
+    "price_files": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "gap_state_manifest_sha256": "257f3266d366bcc0c3452329efaae23086940394a3d9368b3fa943df2d311fc7",
+  "initial_targets_sha256": "ad6d1c0cf2c6e4864c26c4ba14bdf7a7dd528d319d9c139bcf45bec24860eaad",
+  "initial_receipts_sha256": "c188f25dccf2bfe447fad2cb455db8286608f67b6cf286d1602b41b01ef43bb7",
+  "independent_csv_audit_code_sha256": "eb9146e591a95c244901b5bed8ffa9104369847c8aee17e7c0ffa86aeea055a9",
+  "2026_values_queried_for_new_candidate": false,
+  "2026_feedback_to_new_variants": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}
