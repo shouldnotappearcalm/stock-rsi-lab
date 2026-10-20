@@ -1,0 +1,254 @@
+{
+  "status": "INDEPENDENT_STDLIB_CONTINUOUS_INTERIM2026_AUDIT_PASSED",
+  "script_sha256": "0737dd7302fb38e3f167875e55805e6455c504a601b5975f0bb9c59d9dff53b6",
+  "parent_auditor_sha256": "289da5d69c7e7c5e49f173ddc3d3569a91832010d8e7168f8b7fb332ba6db437",
+  "request_sha256": "371a5541874326f23ddd7ff11bc13edb65b75950b56dd13eba0c8dfb70210cba",
+  "output_summary_sha256": "03ceffea76a3be9a31ec763e0fa35c407a8c7cd240ea645692f00fd837bfde8e",
+  "binding_group_counts": {
+    "method_code_sha256": 19,
+    "local_source_sha256": 83,
+    "public_evidence_sha256": 27
+  },
+  "verified_file_bindings": 288,
+  "source_overlap_and_calendar_checks": {
+    "SH510300": {
+      "overlap_OHLC_sessions": 243,
+      "new_sessions": 190,
+      "pre2025_rows_quarantined": 207
+    },
+    "SH510500": {
+      "overlap_OHLC_sessions": 243,
+      "new_sessions": 190,
+      "pre2025_rows_quarantined": 207
+    },
+    "SZ159915": {
+      "overlap_OHLC_sessions": 243,
+      "new_sessions": 190,
+      "pre2025_rows_quarantined": 207
+    }
+  },
+  "official_closure_ranges_independently_checked": 7,
+  "all_six_development_prefix_collections": {
+    "20": {
+      "status": "ALL_SIX_FROZEN_COLLECTIONS_IDENTICAL",
+      "old_ledger_sha256": "f780a548477a06cd42c0f7b384233051386aeadd450ff5592300441f7b62544c"
+    },
+    "40": {
+      "status": "ALL_SIX_FROZEN_COLLECTIONS_IDENTICAL",
+      "old_ledger_sha256": "d39f27756c707b70dc5de7133a9fddb4f1613f9c92eaf02c9ea2aabd14e9ec05"
+    }
+  },
+  "production_modules_imported": false,
+  "new_network_queries": 0,
+  "new_2026_queries": 0,
+  "new_strategy_variants": 0,
+  "profiles": {
+    "20": {
+      "sessions_verified": 675,
+      "warmup_and_outcome_sessions_reconstructed": 939,
+      "formation_intents_and_integer_targets_verified": 1,
+      "funding_intents_verified": 0,
+      "orders_verified": 3,
+      "fills_verified": 3,
+      "corporate_rows_verified": 23,
+      "all_recorded_entitlements": {
+        "SH510300-2023-01-16": 0,
+        "SH510300-2024-01-18": 90500,
+        "SH510500-2024-05-17": 57300,
+        "SH510500-2025-01-16": 57300,
+        "SH510300-2025-06-18": 90500,
+        "SH510500-2026-01-16": 57300,
+        "SH510300-2026-01-19": 90500,
+        "SH510500-2026-07-15": 57300
+      },
+      "gross_dividends_CNY": "47629.70",
+      "positive_record_entitlements": 7,
+      "cash_payments_verified": [
+        {
+          "day": "2024-01-24",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510300-2024-01-18",
+          "cash_delta": "6244.50"
+        },
+        {
+          "day": "2024-05-23",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2024-05-17",
+          "cash_delta": "4985.10"
+        },
+        {
+          "day": "2025-01-22",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2025-01-16",
+          "cash_delta": "5214.30"
+        },
+        {
+          "day": "2025-06-30",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510300-2025-06-18",
+          "cash_delta": "7964.00"
+        },
+        {
+          "day": "2026-01-22",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2026-01-16",
+          "cash_delta": "3552.60"
+        },
+        {
+          "day": "2026-01-28",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510300-2026-01-19",
+          "cash_delta": "11131.50"
+        },
+        {
+          "day": "2026-07-21",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2026-07-15",
+          "cash_delta": "8537.70"
+        }
+      ],
+      "annual": {
+        "2024": {
+          "net_return": "0.11705346",
+          "ending_equity": "1117053.460",
+          "max_drawdown": "-0.1643228964338435242016937301",
+          "average_exposure": "0.9430986009729519189407703277",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.328986492732406916317147435",
+          "ending_equity": "1484548.960",
+          "max_drawdown": "-0.1361069689360023369258238152",
+          "average_exposure": "0.9445248459534061302794421951",
+          "sessions": 243
+        },
+        "2026_interim": {
+          "net_return": "-0.0943153804775829016780962212",
+          "ending_equity": "1344533.160",
+          "max_drawdown": "-0.2610570291841914665090176628",
+          "average_exposure": "0.9439335597374530097509017763",
+          "sessions": 190,
+          "starting_equity": "1484548.960",
+          "end": "2026-10-20",
+          "full_October": false
+        }
+      },
+      "numeric_screen_passes": false
+    },
+    "40": {
+      "sessions_verified": 675,
+      "warmup_and_outcome_sessions_reconstructed": 939,
+      "formation_intents_and_integer_targets_verified": 1,
+      "funding_intents_verified": 0,
+      "orders_verified": 3,
+      "fills_verified": 3,
+      "corporate_rows_verified": 23,
+      "all_recorded_entitlements": {
+        "SH510300-2023-01-16": 0,
+        "SH510300-2024-01-18": 90500,
+        "SH510500-2024-05-17": 57300,
+        "SH510500-2025-01-16": 57300,
+        "SH510300-2025-06-18": 90500,
+        "SH510500-2026-01-16": 57300,
+        "SH510300-2026-01-19": 90500,
+        "SH510500-2026-07-15": 57300
+      },
+      "gross_dividends_CNY": "47629.70",
+      "positive_record_entitlements": 7,
+      "cash_payments_verified": [
+        {
+          "day": "2024-01-24",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510300-2024-01-18",
+          "cash_delta": "6244.50"
+        },
+        {
+          "day": "2024-05-23",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2024-05-17",
+          "cash_delta": "4985.10"
+        },
+        {
+          "day": "2025-01-22",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2025-01-16",
+          "cash_delta": "5214.30"
+        },
+        {
+          "day": "2025-06-30",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510300-2025-06-18",
+          "cash_delta": "7964.00"
+        },
+        {
+          "day": "2026-01-22",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2026-01-16",
+          "cash_delta": "3552.60"
+        },
+        {
+          "day": "2026-01-28",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510300-2026-01-19",
+          "cash_delta": "11131.50"
+        },
+        {
+          "day": "2026-07-21",
+          "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+          "event_id": "SH510500-2026-07-15",
+          "cash_delta": "8537.70"
+        }
+      ],
+      "annual": {
+        "2024": {
+          "net_return": "0.11515327",
+          "ending_equity": "1115153.270",
+          "max_drawdown": "-0.1645679118317615895634059440",
+          "average_exposure": "0.9449030175445927218419087202",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.329547076519804313536201172",
+          "ending_equity": "1482648.770",
+          "max_drawdown": "-0.1363294191236281943480150537",
+          "average_exposure": "0.9459956838656506085611321514",
+          "sessions": 243
+        },
+        "2026_interim": {
+          "net_return": "-0.0944362568081447907585017590",
+          "ending_equity": "1342632.970",
+          "max_drawdown": "-0.2613299430534361736769929079",
+          "average_exposure": "0.9450666456557746007815430563",
+          "sessions": 190,
+          "starting_equity": "1482648.770",
+          "end": "2026-10-20",
+          "full_October": false
+        }
+      },
+      "numeric_screen_passes": false
+    }
+  },
+  "in_memory_negative_controls_rejected": [
+    "daily_cash",
+    "fill_fee",
+    "unexpected_ranking",
+    "fixed_quantity",
+    "later_rebalance",
+    "initial_weight",
+    "entry_timestamp",
+    "new_year_receivable",
+    "year_reset_denominator"
+  ],
+  "discrepancies": [],
+  "reference_disposition": "CONDITIONAL_INTERIM_NUMERIC_SCREEN_FAILED",
+  "full_October": false,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "limits": [
+    "Current-vintage source data do not establish historical arrival or absence of missing corporate actions.",
+    "July2026 510500 notice is a distributor-hosted manager PDF; issuer-host byte identity remains unverified.",
+    "Opening fills, queue/capacity and complete official historical limit streams remain uncertified.",
+    "This is adaptive-development continuation through October20, not full October or a sealed holdout.",
+    "No strategy change or investment admission follows from this audit."
+  ]
+}
