@@ -1,0 +1,49 @@
+{
+  "status": "FROZEN_LOW_BETA60_EVENT_SOURCE_COMPILATION_NO_ROI",
+  "candidate": "low_beta60",
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "cash_override_contract": "PRIMARY_NOTICE_CASH_PRECISION_V1",
+  "method_code_sha256": {
+    "scripts/prepare_low_beta60_account_sources.py": "092f35e73f05ff0585233c6731d22f0d0ebd1fa477a4872c48c498e4d9c2a00a",
+    "src/stock_rsi/distribution_event_compiler_v2.py": "145ea48f2f68af0175d3f003f1970152b8d7c03ba40ed809dfbe3dc38fc51a3e",
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46"
+  },
+  "local_source_sha256": {
+    "low-beta60-raw-dev-20261021/manifest.json": "411e2abe02ebf914c809d6b5acb9b7e2fabacafe7dc88081b980787fb0cd8613",
+    "low-beta60-raw-dev-20261021/calendar.json": "feda1fd82528f89646d2cc0092b0ae9c22660eae84665cfaf8632c983d7a9704",
+    "low-beta60-pre2026-formations-20261021/targets.json": "ee19a560df3b5b669d093191757ea25bf7b1cffef4497af9ee4c5a1873eb995b",
+    "low-beta60-corporate-reviewed-20261021/reviewed-manifest.json": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+    "low-beta60-corporate-capture-audit-20261021.json": "77e274ee78b7a527bfaf93bead399acb174ea23595973a80116a88dd8076feb9"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/low-beta60-raw-source-audit.json": "c4dd872731c1eaee0e9b0eaf4acf14ad83142a726f4496edf1d01d7252e24925",
+    "experiments/qlib/low-beta60-corporate-reviewed-manifest.json": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+    "experiments/qlib/low-beta60-corporate-capture-audit.json": "77e274ee78b7a527bfaf93bead399acb174ea23595973a80116a88dd8076feb9",
+    "experiments/qlib/low-beta60-primary-content-independent-review.json": "53f12c3f795a3c27787c3781be1a6608a4920d4aef29a917eda21674b108d331",
+    "docs/research/low-beta60-cash-precision-and-event-plan-2026-10-21.md": "55202c6d3bec809e0c3618f9937b22c959dc854c2a98212f99b04d1fb89c6139"
+  },
+  "expected_source_names": 69,
+  "expected_monthly_targets": 24,
+  "expected_compiled_events": 179,
+  "expected_source_kind_counts": {
+    "VENDOR_DISTRIBUTION": 177,
+    "PRIMARY_NOTICE_SUPPLEMENT": 1,
+    "PRIMARY_CASH_PRECISION_CORRECTION": 1
+  },
+  "raw_account_replay_admitted": false,
+  "portfolio_returns_to_compute": false,
+  "new_2026_queries_allowed": false,
+  "corporate_action_completeness_certified": false,
+  "historical_arrival_certified": false,
+  "objective_achieved": false
+}
