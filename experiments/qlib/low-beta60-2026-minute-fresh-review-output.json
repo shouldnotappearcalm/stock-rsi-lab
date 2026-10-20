@@ -1,0 +1,51 @@
+{
+  "review_status": "ACTUAL_OUTPUT_CHAIN_CROSSCHECK_PASSED",
+  "checked_expected_sha256": {
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-minutes-2026-20261021/manifest.json": "3caf57eeaea6eb485b9546c6b0b0916b3caa03f45d414ace3487537d0c7c68b7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-minute-admission-2026-20261021/summary.json": "744129bf365921222e7aa1a73f8f96c61035a56a56eb2d178644083966b4218d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-2026-minute-independent-audit-20261021.json": "de96d51b0f87985c256487884023184bf795e6ad5a86744c607c3e3e7395145f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-2026-minute-source-plan-v2.json": "5083b01ee5d5d25d1fc204823aee98434d34ad394078a8144dd45d7a03f293e9"
+  },
+  "admission_rerun_exit_code": 0,
+  "admission_byte_parity": {
+    "summary.json": true,
+    "details.json": true
+  },
+  "independent_stdlib_audit_rerun_exit_code": 0,
+  "independent_audit_byte_parity": true,
+  "independent_audit_sha256": "de96d51b0f87985c256487884023184bf795e6ad5a86744c607c3e3e7395145f",
+  "snapshot_byte_sha256_matches_external_manifest": true,
+  "canonical_request_bytes_authenticated": 247,
+  "original1332_source_bytes_rechecked_unchanged": true,
+  "original_helper_modules_unchanged_since_d55109e": {
+    "scripts/fundamental_query_journal.py": true,
+    "scripts/tdx_history_checks.py": true,
+    "src/stock_rsi/intraday_tape.py": true,
+    "src/stock_rsi/calendar.py": true,
+    "src/stock_rsi/time.py": true,
+    "src/stock_rsi/data.py": true
+  },
+  "source_pairs_reconstructed": 754,
+  "fresh_queries_reconstructed": 247,
+  "points_reconstructed": 180960,
+  "windows_reconstructed": 36192,
+  "exact_share_total_matches_diagnostic": 62,
+  "nearest_hand_total_matches_diagnostic": 754,
+  "semantic_negative_controls_rejected": {
+    "missing_minute": true,
+    "wrong_security": true,
+    "outside_price_range": true,
+    "lunch_timestamp": true,
+    "oversized_lower_volume": true
+  },
+  "source_calls_during_review": 0,
+  "source_or_repository_mutations_during_review": false,
+  "portfolio_returns_computed": false,
+  "historical_arrival_verified": false,
+  "exact_share_precision_certified": false,
+  "queue_and_impact_calibrated": false,
+  "full_corporate_actions_certified": false,
+  "full_october_covered": false,
+  "account_admission_granted": false,
+  "objective_achieved": false
+}
