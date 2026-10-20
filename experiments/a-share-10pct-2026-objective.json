@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "BUDGETED_RESIDUAL_RAW_SOURCES_CAPTURED_CORPORATE_REVIEW_PENDING",
+    "status": "BUDGETED_RESIDUAL_ADJACENCY_CLASSIFIED_PRIMARY_NOTICES_FROZEN",
     "candidate": "market_residual_mom36_12_2",
     "candidate_budget": 1,
     "editable_module": "priorclose_integer_lot_allocation_only",
@@ -429,7 +429,16 @@
     "raw_capture_calendar_gaps": 0,
     "raw_capture_errors": 0,
     "raw_noncash_distributions_requiring_review": 13,
-    "raw_adjustment_dates_without_distribution_rows": 9
+    "raw_adjustment_dates_without_distribution_rows": 9,
+    "raw_adjustment_adjacency_file": "experiments/qlib/budgeted-residual-adjustment-adjacency.json",
+    "raw_adjustment_adjacency_classified": 9,
+    "existing_raw_coverage_gate_passes_all_names": true,
+    "corporate_notice_request_file": "experiments/qlib/budgeted-residual-corporate-notice-request.json",
+    "corporate_notice_request_sha256": "99a5f18edf3e2ef27f519c8f7e0b649ad6e9959d381c2a79d1ded8f64d07b2ba",
+    "corporate_notice_fresh_cases": 12,
+    "corporate_notice_reused_cases": 1,
+    "corporate_notice_maximum_HTTP_queries": 36,
+    "corporate_notice_capture_executed": false
   },
   "strategy_research_history": [
     {

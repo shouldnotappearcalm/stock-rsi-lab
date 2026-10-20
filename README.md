@@ -243,3 +243,5 @@ Copyright 2026 stock-rsi-lab contributors。
 
 项目自有代码采用[Apache License 2.0](LICENSE)。外部数据、模型和引用源码继续适用
 各自许可或使用条款；仓库中的来源说明不将这些第三方内容重新授权。
+
+[固定整手候选：九处相邻复权记录与 13 笔非现金分派原公告计划](docs/research/budgeted-residual-corporate-source-plan-2026-10-21.md)：原始来源覆盖 210 只通过现有检查；公告捕获与财务审阅分别留痕，尚未认证账户收益或 2026 目标。

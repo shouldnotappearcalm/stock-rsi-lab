@@ -1,0 +1,376 @@
+{
+  "status": "EXISTING_SOURCE_COVERAGE_GATE_PASSES_ALL210_NINE_ADJACENT_RECORDS_CLASSIFIED",
+  "audit_code_sha256": "4dee21facef319e8b74d3211e7e406bfff86ff50c3299cac1a47dc8109e4dffb",
+  "raw_manifest_sha256": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+  "original_audit_sha256": "c5803d3d9df88ff7eeafd09ad72592019ae4e453d41b795503339a0791f56bf9",
+  "existing_coverage_code_file": "scripts/run_low_risk_raw_share_validation.py",
+  "existing_coverage_code_sha256": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+  "cases": [
+    {
+      "instrument": "SH601098",
+      "adjustment_day": "2024-07-15",
+      "previous_exchange_session": "2024-07-12",
+      "separately_recorded_distribution": {
+        "code": "sh.601098",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-24",
+        "dividPlanAnnounceDate": "2024-04-27",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.55",
+        "dividCashPsAfterTax": "0.495\u62160.55",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e5.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e4.95\u62165.5\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "previous_adjustment": {
+        "code": "sh.601098",
+        "dividOperateDate": "2024-07-12",
+        "foreAdjustFactor": "0.910296",
+        "backAdjustFactor": "1.634860",
+        "adjustFactor": "1.000000"
+      },
+      "next_session_adjustment": {
+        "code": "sh.601098",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.910296",
+        "backAdjustFactor": "1.634860",
+        "adjustFactor": "1.634860"
+      },
+      "raw_previous_close": "11.6600",
+      "raw_current_preclose": "11.6600",
+      "source_packet_sha256": "db2cb3bc4e8e5f33bd4bf4738fad131ea8dff526402c61630646cd941f7a0970",
+      "classification": "NEXT_EXCHANGE_SESSION_ADJUSTMENT_RECORD_BESIDE_EXISTING_DISTRIBUTION",
+      "new_entitlement_created": false
+    },
+    {
+      "instrument": "SH603529",
+      "adjustment_day": "2024-07-15",
+      "previous_exchange_session": "2024-07-12",
+      "separately_recorded_distribution": {
+        "code": "sh.603529",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-31",
+        "dividPlanAnnounceDate": "2024-04-16",
+        "dividPlanDate": "2024-07-06",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.534",
+        "dividCashPsAfterTax": "0.4806\u62160.534",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e5.34\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e4.806\u62165.34\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "previous_adjustment": {
+        "code": "sh.603529",
+        "dividOperateDate": "2024-07-12",
+        "foreAdjustFactor": "0.915802",
+        "backAdjustFactor": "2.233399",
+        "adjustFactor": "1.000000"
+      },
+      "next_session_adjustment": {
+        "code": "sh.603529",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.915802",
+        "backAdjustFactor": "2.233399",
+        "adjustFactor": "2.233399"
+      },
+      "raw_previous_close": "27.5900",
+      "raw_current_preclose": "27.5900",
+      "source_packet_sha256": "66ec9ccf5cef865bcfe4347a0abb9e15ab0c2947dd906df6640242c102dd913b",
+      "classification": "NEXT_EXCHANGE_SESSION_ADJUSTMENT_RECORD_BESIDE_EXISTING_DISTRIBUTION",
+      "new_entitlement_created": false
+    },
+    {
+      "instrument": "SH600498",
+      "adjustment_day": "2024-07-15",
+      "previous_exchange_session": "2024-07-12",
+      "separately_recorded_distribution": {
+        "code": "sh.600498",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-25",
+        "dividPlanAnnounceDate": "2024-04-27",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.128",
+        "dividCashPsAfterTax": "0.1152\u62160.128",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e1.28\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e1.152\u62161.28\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "previous_adjustment": {
+        "code": "sh.600498",
+        "dividOperateDate": "2024-07-12",
+        "foreAdjustFactor": "0.989356",
+        "backAdjustFactor": "2.533879",
+        "adjustFactor": "1.000000"
+      },
+      "next_session_adjustment": {
+        "code": "sh.600498",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.989356",
+        "backAdjustFactor": "2.533879",
+        "adjustFactor": "2.533879"
+      },
+      "raw_previous_close": "15.7200",
+      "raw_current_preclose": "15.7200",
+      "source_packet_sha256": "4f559fcd91a92b9312dab7c176afb23386cde2cfba49c5dea374f40d4e1abe95",
+      "classification": "NEXT_EXCHANGE_SESSION_ADJUSTMENT_RECORD_BESIDE_EXISTING_DISTRIBUTION",
+      "new_entitlement_created": false
+    },
+    {
+      "instrument": "SH600535",
+      "adjustment_day": "2025-03-27",
+      "previous_exchange_session": "2025-03-26",
+      "separately_recorded_distribution": {
+        "code": "sh.600535",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-03-18",
+        "dividPlanAnnounceDate": "2025-02-25",
+        "dividPlanDate": "2025-03-20",
+        "dividRegistDate": "2025-03-25",
+        "dividOperateDate": "2025-03-26",
+        "dividPayDate": "2025-03-26",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "0.18\u62160.2",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e2\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e1.8\u62162\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "previous_adjustment": {
+        "code": "sh.600535",
+        "dividOperateDate": "2025-03-26",
+        "foreAdjustFactor": "0.963395",
+        "backAdjustFactor": "10.353456",
+        "adjustFactor": "1.000000"
+      },
+      "next_session_adjustment": {
+        "code": "sh.600535",
+        "dividOperateDate": "2025-03-27",
+        "foreAdjustFactor": "0.963395",
+        "backAdjustFactor": "10.353456",
+        "adjustFactor": "10.353456"
+      },
+      "raw_previous_close": "14.7800",
+      "raw_current_preclose": "14.7800",
+      "source_packet_sha256": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+      "classification": "NEXT_EXCHANGE_SESSION_ADJUSTMENT_RECORD_BESIDE_EXISTING_DISTRIBUTION",
+      "new_entitlement_created": false
+    },
+    {
+      "instrument": "SZ002281",
+      "adjustment_day": "2024-07-15",
+      "previous_exchange_session": "2024-07-12",
+      "separately_recorded_distribution": {
+        "code": "sz.002281",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-18",
+        "dividPlanAnnounceDate": "2024-04-26",
+        "dividPlanDate": "2024-07-04",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.24",
+        "dividCashPsAfterTax": "0.216\u62160.24",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e2.4\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.16\u62162.4\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "previous_adjustment": {
+        "code": "sz.002281",
+        "dividOperateDate": "2024-07-12",
+        "foreAdjustFactor": "0.994178",
+        "backAdjustFactor": "3.353922",
+        "adjustFactor": "1.000000"
+      },
+      "next_session_adjustment": {
+        "code": "sz.002281",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.994178",
+        "backAdjustFactor": "3.353922",
+        "adjustFactor": "3.353922"
+      },
+      "raw_previous_close": "36.6600",
+      "raw_current_preclose": "36.6600",
+      "source_packet_sha256": "4f1e5c29cbe8759043ad9fcc230ad8f3d0f95abddbda7ebcdf498b6456adde0e",
+      "classification": "NEXT_EXCHANGE_SESSION_ADJUSTMENT_RECORD_BESIDE_EXISTING_DISTRIBUTION",
+      "new_entitlement_created": false
+    },
+    {
+      "instrument": "SZ002078",
+      "adjustment_day": "2024-07-15",
+      "previous_exchange_session": "2024-07-12",
+      "separately_recorded_distribution": {
+        "code": "sz.002078",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-21",
+        "dividPlanAnnounceDate": "2024-04-10",
+        "dividPlanDate": "2024-07-04",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.3",
+        "dividCashPsAfterTax": "0.27\u62160.3",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e3\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.7\u62163\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "previous_adjustment": {
+        "code": "sz.002078",
+        "dividOperateDate": "2024-07-12",
+        "foreAdjustFactor": "0.955821",
+        "backAdjustFactor": "9.074734",
+        "adjustFactor": "1.000000"
+      },
+      "next_session_adjustment": {
+        "code": "sz.002078",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.955821",
+        "backAdjustFactor": "9.074734",
+        "adjustFactor": "9.074734"
+      },
+      "raw_previous_close": "14.2200",
+      "raw_current_preclose": "14.2200",
+      "source_packet_sha256": "1756148e4a4fcc5eab5b93007f4eaec554add7bdd0abed360beec6a8df365df0",
+      "classification": "NEXT_EXCHANGE_SESSION_ADJUSTMENT_RECORD_BESIDE_EXISTING_DISTRIBUTION",
+      "new_entitlement_created": false
+    },
+    {
+      "instrument": "SZ002244",
+      "adjustment_day": "2025-08-08",
+      "previous_exchange_session": "2025-08-07",
+      "separately_recorded_distribution": {
+        "code": "sz.002244",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-06-10",
+        "dividPlanAnnounceDate": "2025-04-26",
+        "dividPlanDate": "2025-07-31",
+        "dividRegistDate": "2025-08-06",
+        "dividOperateDate": "2025-08-07",
+        "dividPayDate": "2025-08-07",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.082",
+        "dividCashPsAfterTax": "0.0738\u62160.082",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e0.82\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e0.738\u62160.82\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "previous_adjustment": {
+        "code": "sz.002244",
+        "dividOperateDate": "2025-08-07",
+        "foreAdjustFactor": "0.991637",
+        "backAdjustFactor": "6.697785",
+        "adjustFactor": "1.000000"
+      },
+      "next_session_adjustment": {
+        "code": "sz.002244",
+        "dividOperateDate": "2025-08-08",
+        "foreAdjustFactor": "0.991637",
+        "backAdjustFactor": "6.697785",
+        "adjustFactor": "6.697785"
+      },
+      "raw_previous_close": "9.7600",
+      "raw_current_preclose": "9.7600",
+      "source_packet_sha256": "cbaba8aa6ebf0f5c4bb12311f46307197ef88442109ad574e092866b03ae1035",
+      "classification": "NEXT_EXCHANGE_SESSION_ADJUSTMENT_RECORD_BESIDE_EXISTING_DISTRIBUTION",
+      "new_entitlement_created": false
+    },
+    {
+      "instrument": "SH600737",
+      "adjustment_day": "2025-08-14",
+      "previous_exchange_session": "2025-08-13",
+      "separately_recorded_distribution": {
+        "code": "sh.600737",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-06-20",
+        "dividPlanAnnounceDate": "2025-04-25",
+        "dividPlanDate": "2025-08-05",
+        "dividRegistDate": "2025-08-12",
+        "dividOperateDate": "2025-08-13",
+        "dividPayDate": "2025-08-13",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.41",
+        "dividCashPsAfterTax": "0.369\u62160.41",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e4.1\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e3.69\u62164.1\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "previous_adjustment": {
+        "code": "sh.600737",
+        "dividOperateDate": "2025-08-13",
+        "foreAdjustFactor": "0.972908",
+        "backAdjustFactor": "14.088551",
+        "adjustFactor": "1.000000"
+      },
+      "next_session_adjustment": {
+        "code": "sh.600737",
+        "dividOperateDate": "2025-08-14",
+        "foreAdjustFactor": "0.972908",
+        "backAdjustFactor": "14.088551",
+        "adjustFactor": "14.088551"
+      },
+      "raw_previous_close": "11.4700",
+      "raw_current_preclose": "11.4700",
+      "source_packet_sha256": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+      "classification": "NEXT_EXCHANGE_SESSION_ADJUSTMENT_RECORD_BESIDE_EXISTING_DISTRIBUTION",
+      "new_entitlement_created": false
+    },
+    {
+      "instrument": "SH600879",
+      "adjustment_day": "2024-07-15",
+      "previous_exchange_session": "2024-07-12",
+      "separately_recorded_distribution": {
+        "code": "sh.600879",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-06-05",
+        "dividPlanAnnounceDate": "2024-03-23",
+        "dividPlanDate": "2024-07-06",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.048",
+        "dividCashPsAfterTax": "0.0432\u62160.048",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e0.48\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e0.432\u62160.48\u5143\uff09",
+        "dividReserveToStockPs": ""
+      },
+      "previous_adjustment": {
+        "code": "sh.600879",
+        "dividOperateDate": "2024-07-12",
+        "foreAdjustFactor": "0.993443",
+        "backAdjustFactor": "30.862664",
+        "adjustFactor": "1.000000"
+      },
+      "next_session_adjustment": {
+        "code": "sh.600879",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.993443",
+        "backAdjustFactor": "30.862664",
+        "adjustFactor": "30.862664"
+      },
+      "raw_previous_close": "7.2300",
+      "raw_current_preclose": "7.2300",
+      "source_packet_sha256": "ed33f227da7f31f9b0d928c42fd33ed95c15dc589de1f1e8d28a6cb789b82da1",
+      "classification": "NEXT_EXCHANGE_SESSION_ADJUSTMENT_RECORD_BESIDE_EXISTING_DISTRIBUTION",
+      "new_entitlement_created": false
+    }
+  ],
+  "source_or_evaluator_modified": false,
+  "additional_cash_or_shares_inferred": false,
+  "new_portfolio_returns_computed": false,
+  "2026_values_queried": false,
+  "account_replay_admitted": false,
+  "objective_achieved": false
+}
