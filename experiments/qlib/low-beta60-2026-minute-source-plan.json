@@ -1,0 +1,62 @@
+{
+  "status": "FROZEN_LOW_BETA60_2026_MINUTE_EXTENSION_SOURCE",
+  "parent_commit": "d55109e303a6a799e9fd0446fb63d7eb2fcbf296",
+  "max_fresh_query_reservations": 247,
+  "max_attempts_per_request": 1,
+  "stop_after_consecutive_source_failures": 3,
+  "inter_query_delay_seconds": 0.05,
+  "host": "116.205.183.150:7709",
+  "timeout_seconds": 3,
+  "package_version": "3.2.3",
+  "window": [
+    "2026-01-01",
+    "2026-10-13"
+  ],
+  "output_directory": "low-beta60-minutes-2026-20261021",
+  "method_code_sha256": {
+    "scripts/capture_low_beta60_minutes_2026.py": "d361a053d35ad72e114c168c70bb0014d50e3e06f6fd7d53eeb3f95c996696af",
+    "scripts/low_beta60_2026_minute_sources.py": "bbb981412fdcf50902cfb6e592494aae7ccdc0659d29ade66cb565a6c827ab6c",
+    "scripts/admit_low_beta60_minutes_2026.py": "c87d24d7e34eb989bb79a365a3e3ddd39c7758843f72a6fde0a233c50cd261a7",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/low-beta60-continuous-minute-source-inventory-summary.json": "9de0196c50331450fdaff65a49a57b287c83d79650d94dec21de77303ed520ac",
+    "experiments/qlib/low-beta60-minute-source-verification.json": "82096ec52023cb1ceaf64f7f20976782b0f98d0a5367eafe111184135eaec465",
+    "experiments/qlib/low-beta60-minute-source-results.json": "24fd697156e7140c463b54d577782b2a04a4fabe6effb0467556a51c43c8ed63",
+    "experiments/qlib/low-beta60-minute-source-independent-audit.json": "1388eee27dfbc219363d27f68a9b1b954bc80c5c88f379a58dad586a3d4ca2be",
+    "experiments/qlib/low-beta60-raw-extension-verification.json": "9cb82eadb9f64d92723b759561ea63143f5719ee421868eda7afe4525aa16fad",
+    "docs/research/low-beta60-2026-minute-source-plan-2026-10-21.md": "42f305894ee0d1e8a5e84a3b1bfb3ad0f89f1ada889f01cf9580de9eb93cf970"
+  },
+  "local_source_sha256": {
+    "low-beta60-raw-extension-20261021/manifest.json": "10f645719228d50c439e166bbfe65959b5ff517668c2ecc8ffc4fca4e1680ea7",
+    "low-beta60-calendar-extension-formations-20261021/targets.json": "defeeb81106bc436a3123c174b60fcfd6ccd98acb4f0ece97e183eb98b7c77a5",
+    "low-beta60-minutes-dev-20261021/manifest.json": "4b2cb2b7fb10610b0be878ea722df94e7a0157b6f39382ccfaede65d621086e8",
+    "low-beta60-continuous-minute-source-inventory-20261021-v2.json": "90578fd8e825824c4842716ecf719e7bd1ddabe3e520422f1d4787ac42bc6917",
+    "tdx-fixed-order-history-20261017/manifest.json": "def299b792b608f862b3bbc1258195e0b12154c753156625e1a8ec95c4784205",
+    "intraday-prefix-tape-20261017/manifest.json": "723a04f41035b481c72fb7908941d07ef2c41c07ca366d9e96a4c247ff47d80c",
+    "return-family-minutes-dev-20261017/manifest.json": "f0db11d9c96bebd1f3ba2aebb095f9d95e454fa3fe3c5f1231a0855cddb7dc6c",
+    "reversal-minutes-full-20261017/manifest.json": "395f3ed98b8bb129d16d700d6dadc0b90d944f0c79967b5b10f6d67940a37954",
+    "szse-value-minutes-dev-20261017/manifest.json": "39bf11c2e72383d6e199037018ff3d60973572cd0f34b5add2058ecee2bef57c",
+    "szse-value-minutes-full-20261017/manifest.json": "fde57ca57adb4eeaa9bfb01ee28314dab2189d92430779061e23d178b7ee8346",
+    "illiquidity-minutes-dev-20261021/manifest.json": "d8b1759fafd47914f82303b2e2fb2099c1c962bfdf34f8b3c6c1f9a0123fdcb2",
+    "low-risk-execution-tape-20261017/manifest.json": "13ce6f1b1a68f3207e25d3e66c2bff0b59407ccca78f118399884850129469f8",
+    "low-risk-feedback-tape-additions-20261017/manifest.json": "046a2d77da79729aa53b7beef741428d3c7509b12db6463dc07276275c3ab1e9"
+  },
+  "design_file": "docs/research/low-beta60-2026-minute-source-plan-2026-10-21.md",
+  "newyear_required_sources": 754,
+  "newyear_cached_sources": 507,
+  "original_prefix_sources": 1332,
+  "combined_potential_sources": 2086,
+  "actual_source_calls_before_freeze": 0,
+  "cached2026_sources_already_observed": true,
+  "portfolio_returns_computed": false,
+  "historical_arrival_verified": false,
+  "automatic_resume_allowed": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
