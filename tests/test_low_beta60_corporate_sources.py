@@ -5,6 +5,10 @@ try:
     from scripts.capture_low_beta60_corporate_sources import source_cases
 except ImportError:
     source_cases = None
+try:
+    from scripts.continue_low_beta60_corporate_sources import select_implementation_notice
+except ImportError:
+    select_implementation_notice = None
 
 
 class LowBeta60CorporateSourceTests(unittest.TestCase):
@@ -53,3 +57,29 @@ class LowBeta60CorporateSourceTests(unittest.TestCase):
         packets['SH600002']['adjustments'][0]['dividOperateDate'] = '2026-01-05'
         with self.assertRaises(ValueError):
             source_cases(audit, packets)
+
+
+class ImplementationTitleTests(unittest.TestCase):
+    def setUp(self):
+        self.assertIsNotNone(select_implementation_notice)
+
+    def test_original_profit_distribution_title_and_equity_distribution_both_work(self):
+        case = {'instrument': 'SZ001914', 'publication_day': '2025-08-06'}
+        for title in ('2024年度利润分配实施公告', '2024年年度权益分派实施公告'):
+            row = {'code': '001914', 'day': '2025-08-06', 'title': title,
+                   'announcement_id': '1224401972',
+                   'pdf_path': 'finalpage/2025-08-06/1224401972.PDF'}
+            self.assertEqual(select_implementation_notice([row], case), row)
+            self.assertEqual(row['title'], title)
+
+    def test_drafts_wrong_security_duplicates_and_wrong_pdf_paths_are_rejected(self):
+        case = {'instrument': 'SZ001914', 'publication_day': '2025-08-06'}
+        row = {'code': '001914', 'day': '2025-08-06', 'title': '2024年度利润分配实施公告',
+               'announcement_id': '1224401972',
+               'pdf_path': 'finalpage/2025-08-06/1224401972.PDF'}
+        for change in ({'title': '2024年度利润分配预案'}, {'code': '002244'},
+                       {'pdf_path': 'finalpage/2026-08-06/1224401972.PDF'}):
+            with self.assertRaises(ValueError):
+                select_implementation_notice([{**row, **change}], case)
+        with self.assertRaises(ValueError):
+            select_implementation_notice([row, dict(row)], case)
