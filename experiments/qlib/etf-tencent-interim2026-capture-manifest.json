@@ -1,0 +1,82 @@
+{
+  "status": "ETF_ACTION_AND_RULE_ORIGINALS_CAPTURE_FINISHED_REVIEW_SEPARATE",
+  "request_sha256": "c415826f21c3a23bf0553cb5df05b48975d58f09f811545a81bc377fc3491ea9",
+  "documents": {
+    "SH510300": {
+      "id": "SH510300",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_day2025&param=sh510300%2Cday%2C2025-01-01%2C2026-10-20%2C640%2C&r=0.8205512681390605",
+      "kind": "price_jsonp",
+      "role": "raw_ETF_history_with2025_cross_provider_overlap",
+      "file": "SH510300-tencent-raw-wire.txt",
+      "sha256": "97c36c03f6c04127efb2106117994dbca9c64da08dd4d39848d12829a990fae2",
+      "HTTP_receipt": {
+        "request_file": "queries/e2edea5f22d59df5cc4d5a5b291b34b20b78100d51d11fa3fabdd148c040bf63/request.json",
+        "request_sha256": "fef12ee396b513f11fd83fbd6802480c4b2b1fd3c88f9603bfa04b0c5855b02b",
+        "reserved_file": "queries/e2edea5f22d59df5cc4d5a5b291b34b20b78100d51d11fa3fabdd148c040bf63/reserved-1.json",
+        "reserved_sha256": "1400822920b622e6146a39a39d7da9b10a8fa156d10f2efdd3d4a6ce8081ce0d",
+        "response_file": "queries/e2edea5f22d59df5cc4d5a5b291b34b20b78100d51d11fa3fabdd148c040bf63/response-1.json",
+        "response_sha256": "fb15b427d799ba002f2ee167ae641b64a34afee2b6c752eb09af5a08af10cdf6"
+      }
+    },
+    "SH510500": {
+      "id": "SH510500",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_day2025&param=sh510500%2Cday%2C2025-01-01%2C2026-10-20%2C640%2C&r=0.8205512681390605",
+      "kind": "price_jsonp",
+      "role": "raw_ETF_history_with2025_cross_provider_overlap",
+      "file": "SH510500-tencent-raw-wire.txt",
+      "sha256": "5d481882158185fe9e5bf3aa900968e17390dad67b9c1a852b4f96833173249c",
+      "HTTP_receipt": {
+        "request_file": "queries/aacd834c9a6c0a14cb89f86b4ebdb5fef6bc0281e4da9edfc25d4bc76abd7d92/request.json",
+        "request_sha256": "dabd78766a93199b9edd60e92fc7d0c17ea639c98cd11116f66b5eb09f5d1d18",
+        "reserved_file": "queries/aacd834c9a6c0a14cb89f86b4ebdb5fef6bc0281e4da9edfc25d4bc76abd7d92/reserved-1.json",
+        "reserved_sha256": "64970e6f870959f997b0961501adb20fed2402e899ea67be905ac9717c980bd1",
+        "response_file": "queries/aacd834c9a6c0a14cb89f86b4ebdb5fef6bc0281e4da9edfc25d4bc76abd7d92/response-1.json",
+        "response_sha256": "367e2727a3ccbd2f32a85bc2f0a6cb396b6120452dc4528c753767cd795e9689"
+      }
+    },
+    "SZ159915": {
+      "id": "SZ159915",
+      "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_day2025&param=sz159915%2Cday%2C2025-01-01%2C2026-10-20%2C640%2C&r=0.8205512681390605",
+      "kind": "price_jsonp",
+      "role": "raw_ETF_history_with2025_cross_provider_overlap",
+      "file": "SZ159915-tencent-raw-wire.txt",
+      "sha256": "b57c506f5da717e10de646ad743b911e081045319ade3275f8df9ebd7cd30c1f",
+      "HTTP_receipt": {
+        "request_file": "queries/f8c5aa58da7c22834623dc9f2524643a4064ee288ebae05f1770676c71c0e3fa/request.json",
+        "request_sha256": "b17fdb84cd92628c9d85e1cc6e8004b525c499ef1866b16e47f08397a5963a33",
+        "reserved_file": "queries/f8c5aa58da7c22834623dc9f2524643a4064ee288ebae05f1770676c71c0e3fa/reserved-1.json",
+        "reserved_sha256": "9f68c9b09c485e444468170a39e092c6d4324f888b559fe0c38fdf1dd4fdb4fb",
+        "response_file": "queries/f8c5aa58da7c22834623dc9f2524643a4064ee288ebae05f1770676c71c0e3fa/response-1.json",
+        "response_sha256": "acee3fed2fe02840ce23e325d340ce2aa074b8732ef9ec2889d83ce3cb92e1bd"
+      }
+    }
+  },
+  "actions": {},
+  "errors": {},
+  "captured_documents": 3,
+  "extracted_fund_pages": 0,
+  "HTTP_query_reservations": 3,
+  "artifact_sha256": {
+    "SH510300-tencent-raw-wire.txt": "97c36c03f6c04127efb2106117994dbca9c64da08dd4d39848d12829a990fae2",
+    "SH510500-tencent-raw-wire.txt": "5d481882158185fe9e5bf3aa900968e17390dad67b9c1a852b4f96833173249c",
+    "SZ159915-tencent-raw-wire.txt": "b57c506f5da717e10de646ad743b911e081045319ade3275f8df9ebd7cd30c1f",
+    "errors.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "queries/aacd834c9a6c0a14cb89f86b4ebdb5fef6bc0281e4da9edfc25d4bc76abd7d92/request.json": "dabd78766a93199b9edd60e92fc7d0c17ea639c98cd11116f66b5eb09f5d1d18",
+    "queries/aacd834c9a6c0a14cb89f86b4ebdb5fef6bc0281e4da9edfc25d4bc76abd7d92/reserved-1.json": "64970e6f870959f997b0961501adb20fed2402e899ea67be905ac9717c980bd1",
+    "queries/aacd834c9a6c0a14cb89f86b4ebdb5fef6bc0281e4da9edfc25d4bc76abd7d92/response-1.json": "367e2727a3ccbd2f32a85bc2f0a6cb396b6120452dc4528c753767cd795e9689",
+    "queries/e2edea5f22d59df5cc4d5a5b291b34b20b78100d51d11fa3fabdd148c040bf63/request.json": "fef12ee396b513f11fd83fbd6802480c4b2b1fd3c88f9603bfa04b0c5855b02b",
+    "queries/e2edea5f22d59df5cc4d5a5b291b34b20b78100d51d11fa3fabdd148c040bf63/reserved-1.json": "1400822920b622e6146a39a39d7da9b10a8fa156d10f2efdd3d4a6ce8081ce0d",
+    "queries/e2edea5f22d59df5cc4d5a5b291b34b20b78100d51d11fa3fabdd148c040bf63/response-1.json": "fb15b427d799ba002f2ee167ae641b64a34afee2b6c752eb09af5a08af10cdf6",
+    "queries/f8c5aa58da7c22834623dc9f2524643a4064ee288ebae05f1770676c71c0e3fa/request.json": "b17fdb84cd92628c9d85e1cc6e8004b525c499ef1866b16e47f08397a5963a33",
+    "queries/f8c5aa58da7c22834623dc9f2524643a4064ee288ebae05f1770676c71c0e3fa/reserved-1.json": "9f68c9b09c485e444468170a39e092c6d4324f888b559fe0c38fdf1dd4fdb4fb",
+    "queries/f8c5aa58da7c22834623dc9f2524643a4064ee288ebae05f1770676c71c0e3fa/response-1.json": "acee3fed2fe02840ce23e325d340ce2aa074b8732ef9ec2889d83ce3cb92e1bd",
+    "request.json": "c415826f21c3a23bf0553cb5df05b48975d58f09f811545a81bc377fc3491ea9"
+  },
+  "full_pages_may_contain_current_or_2026_auxiliary_content": true,
+  "auxiliary_content_admitted_into_decisions": false,
+  "primary_event_truth_certified": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
