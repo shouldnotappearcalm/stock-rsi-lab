@@ -1,0 +1,49 @@
+{
+  "status": "TWO_COUNTERFACTUAL_LEDGERS_INDEPENDENTLY_RECONSTRUCTED",
+  "audit_code_sha256": "f684e5e193c004420febfc1f6d04c53ae320429d7d4003a6e7d64f273a349cc5",
+  "summary_sha256": "28950a63c8917b2435b9ca47b5b393178511059b6c16c97a6489619bc4d70edc",
+  "plan_sha256": "2d62df171fc751f902e5b14b02997e9d0552408f676eca05086b176764c70dd0",
+  "results_by_extra_bps": {
+    "20": {
+      "status": "INDEPENDENT_CONDITIONAL_DECIMAL_LEDGER_RECONSTRUCTED",
+      "sessions": 486,
+      "fills": 991,
+      "events": 510,
+      "monthly_intent_equity_inventory_and_receipt_reconciled": 24,
+      "original_prefix_fill_and_corporate_bytes_reproduced": true,
+      "ending_equity_CNY": "1158574.5500",
+      "total_fees_CNY": "54341.13",
+      "gross_cash_dividends_CNY": "47426.85",
+      "combined_stress_reserve_CNY": "9529.37",
+      "scenario_capital_income_CNY": "220.00",
+      "additional_scenario_reserve_CNY": "44.00",
+      "2024_return_pct": 6.018466,
+      "2025_return_pct": 9.280448370192415,
+      "average_exposure_pct": 94.42734588980156
+    },
+    "40": {
+      "status": "INDEPENDENT_CONDITIONAL_DECIMAL_LEDGER_RECONSTRUCTED",
+      "sessions": 486,
+      "fills": 992,
+      "events": 510,
+      "monthly_intent_equity_inventory_and_receipt_reconciled": 24,
+      "original_prefix_fill_and_corporate_bytes_reproduced": true,
+      "ending_equity_CNY": "1123827.6600",
+      "total_fees_CNY": "89030.00",
+      "gross_cash_dividends_CNY": "46914.33",
+      "combined_stress_reserve_CNY": "9426.87",
+      "scenario_capital_income_CNY": "220.00",
+      "additional_scenario_reserve_CNY": "44.00",
+      "2024_return_pct": 4.543287,
+      "2025_return_pct": 7.49878755964503,
+      "average_exposure_pct": 94.52393436208827
+    }
+  },
+  "imports_project_engine_or_strategy": false,
+  "original_source_gate_remains_false": true,
+  "opening_auction_or_impact_verified": false,
+  "actual_tax_settlement_reproduced": false,
+  "actual_net_return_lower_bound": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

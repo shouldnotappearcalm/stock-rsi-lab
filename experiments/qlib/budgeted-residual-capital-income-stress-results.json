@@ -1,0 +1,193 @@
+{
+  "status": "COUNTERFACTUAL_FULL_CAPITAL_INCOME_TAX_STRESS",
+  "plan_sha256": "2d62df171fc751f902e5b14b02997e9d0552408f676eca05086b176764c70dd0",
+  "method_code_sha256": {
+    "scripts/run_budgeted_residual_raw_development.py": "4d3547698f78e6d41f44e6a71e83a2eb706e2b2cd4ec7eba7533f3b022dfc052",
+    "scripts/replay_budgeted_stock_distribution_targets.py": "b095e27984bd654d5c7bac1933457ba118f51093401c7a1aa21d2cbac9a38e1e",
+    "scripts/replay_stock_distribution_targets.py": "53071ca9cb108f5f95c9794ab87aae2ab389858ec3f50094b75afb9a6e72d0b4",
+    "src/stock_rsi/budgeted_raw_orders.py": "38db2870618622f84722aaf6737645ac089f5a29a356e82a114ad18cd3eb314e",
+    "src/stock_rsi/budgeted_lot_orders.py": "4fe22e63c5fdd89934bb7b4b498e0ca0fd65019ea250c44e05637468d1bfd097",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "scripts/run_low_risk_feedback_cost_stress.py": "a08e0ac1e34090c7fb868fd6fa3dda73ba56adc14137dbdee3cb44617920c503",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/run_budgeted_capital_income_stress_development.py": "36a79d40cb61a4218baaa668d4d0cfcae5f580a779958dda1da40fc6070d4efe",
+    "src/stock_rsi/capital_income_stress_account.py": "b903544abcd65104e2aea37d46c40251cf70a08e617c319ffb255d02ba76646e"
+  },
+  "both_original_prefix_controls": {
+    "20": {
+      "day": "2025-06-27",
+      "account_prefix_sha256": "b74dece1dc697c5afa0702512467a89b744a673ab8006891073cd73c2aaf446f",
+      "original_failure_bytes_reproduced": true
+    },
+    "40": {
+      "day": "2025-06-27",
+      "account_prefix_sha256": "fb932517d83f4dbab4c44aaf2678910209e9bed27895e46719178d0c67ae808b",
+      "original_failure_bytes_reproduced": true
+    }
+  },
+  "results_by_extra_bps": {
+    "20": {
+      "status": "COUNTERFACTUAL_COMPLETE_UNAUDITED",
+      "2024_return_pct": 6.018466,
+      "2025_return_pct": 9.280448370192415,
+      "fills": 991,
+      "orders": 1001,
+      "monthly_decisions": 24,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0004157540550193798,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "average_exposure_pct": 94.42734588980156,
+      "unknown_tax_entitlements": {
+        "record": {
+          "e36dbcab01391ecdbae9dc3dbca42c938bfbe992f502ba1f5ae5faf5a0623ed2": 0,
+          "3ef06d52d6050910459596334bacd175c1f067904610243fcdb82d23ec38db0d": 0,
+          "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971": 1100
+        },
+        "ex": {
+          "e36dbcab01391ecdbae9dc3dbca42c938bfbe992f502ba1f5ae5faf5a0623ed2": 0,
+          "3ef06d52d6050910459596334bacd175c1f067904610243fcdb82d23ec38db0d": 0,
+          "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971": 1100
+        }
+      },
+      "original_prefix_receipt": [
+        {
+          "day": "2025-06-27",
+          "account_prefix_sha256": "b74dece1dc697c5afa0702512467a89b744a673ab8006891073cd73c2aaf446f",
+          "original_failure_bytes_reproduced": true
+        }
+      ],
+      "capital_stress_ledger": [
+        {
+          "day": "2025-06-27",
+          "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+          "registered_quantity": 1100,
+          "capital_shares": 220,
+          "par_value_CNY": "1",
+          "capital_income_CNY": "220.00",
+          "baseline_cash_and_stock_reserve_CNY": "33.00",
+          "additional_scenario_reserve_CNY": "44.00",
+          "combined_reserve_CNY": "77.00",
+          "source_sha256": [
+            [
+              "nominal_capital",
+              "ec08c2d97b909f4cf00cf45fa60fa96d9669ab7d132ccc0ba974e2cee340ab6a"
+            ],
+            [
+              "ordinary_shares",
+              "f1383b7f236af488090f022664ee751af9a5f33ef456b726a215f8c90c1d0102"
+            ]
+          ],
+          "capital_tax_exempt_verified": false,
+          "status": "COUNTERFACTUAL_FULL_CAPITAL_INCOME_TAX_STRESS"
+        }
+      ],
+      "artifact_sha256": {
+        "corporate_ledger.json": "3cc7a27a43a2268ead60f72f54f0d8a7d33d87a403cf29b5dd15cd6870dfe232",
+        "daily.csv": "4e269552aa1d5a59ef20877d4c4833db2359c3aeb85f4a3bd76481ac3b44f65e",
+        "fills.json": "76be3aa651ef0aafe91cb698ebf24254d0a67fbedca8cdd85d072bf195d392d3",
+        "intents.json": "c905f2e79a78c2d6622d73a3748bc85bac9aceefee95c6b40732cef2ad191124",
+        "orders.json": "376d385f11e71b5a5cc809c41061282deab6b16f86bcb5ff99b03988bc1e9aed",
+        "ownership.json": "68752c0834cbf1fa7e80803df67cb7fd889ea2ff8f6fa8f19e4b8c69c000946e",
+        "capital_stress_ledger.json": "90e60ad6e845b040e777fb8a8580e0bcd9a5330e1bc8376a7f796fcace0c4ffa",
+        "original_prefix_receipt.json": "17208fb1f050c948d04132920d8980f347bad38170f897cc33ec69c7a180694b"
+      }
+    },
+    "40": {
+      "status": "COUNTERFACTUAL_COMPLETE_UNAUDITED",
+      "2024_return_pct": 4.543287,
+      "2025_return_pct": 7.49878755964503,
+      "fills": 992,
+      "orders": 1002,
+      "monthly_decisions": 24,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0004157540550193798,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "average_exposure_pct": 94.52393436208827,
+      "unknown_tax_entitlements": {
+        "record": {
+          "e36dbcab01391ecdbae9dc3dbca42c938bfbe992f502ba1f5ae5faf5a0623ed2": 0,
+          "3ef06d52d6050910459596334bacd175c1f067904610243fcdb82d23ec38db0d": 0,
+          "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971": 1100
+        },
+        "ex": {
+          "e36dbcab01391ecdbae9dc3dbca42c938bfbe992f502ba1f5ae5faf5a0623ed2": 0,
+          "3ef06d52d6050910459596334bacd175c1f067904610243fcdb82d23ec38db0d": 0,
+          "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971": 1100
+        }
+      },
+      "original_prefix_receipt": [
+        {
+          "day": "2025-06-27",
+          "account_prefix_sha256": "fb932517d83f4dbab4c44aaf2678910209e9bed27895e46719178d0c67ae808b",
+          "original_failure_bytes_reproduced": true
+        }
+      ],
+      "capital_stress_ledger": [
+        {
+          "day": "2025-06-27",
+          "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+          "registered_quantity": 1100,
+          "capital_shares": 220,
+          "par_value_CNY": "1",
+          "capital_income_CNY": "220.00",
+          "baseline_cash_and_stock_reserve_CNY": "33.00",
+          "additional_scenario_reserve_CNY": "44.00",
+          "combined_reserve_CNY": "77.00",
+          "source_sha256": [
+            [
+              "nominal_capital",
+              "ec08c2d97b909f4cf00cf45fa60fa96d9669ab7d132ccc0ba974e2cee340ab6a"
+            ],
+            [
+              "ordinary_shares",
+              "f1383b7f236af488090f022664ee751af9a5f33ef456b726a215f8c90c1d0102"
+            ]
+          ],
+          "capital_tax_exempt_verified": false,
+          "status": "COUNTERFACTUAL_FULL_CAPITAL_INCOME_TAX_STRESS"
+        }
+      ],
+      "artifact_sha256": {
+        "corporate_ledger.json": "95f866c44e5805315a5d91c52c0ff76db83d4c4786abae4f318c09f44fdcda1b",
+        "daily.csv": "ec815ec8c234239e8c44ddff2b5b970141de8d8c73765f62a5ffd831ae6157da",
+        "fills.json": "cf5d3ab015f20da903ce1dc15e4a881702a81160a1b9396ed3e7cdccb23f46c3",
+        "intents.json": "b2c182d94625044b226ad65df88f30d23c358222b047af04bc7631924c0f0fae",
+        "orders.json": "54b7430eb6788329e350afcbfc822b3e16e32a8384a54ddd891b83751fe2082d",
+        "ownership.json": "d702e9cc705d3b42043fbd3ffdb3aa9b484456888d0b55e4702c7ac82862903d",
+        "capital_stress_ledger.json": "90e60ad6e845b040e777fb8a8580e0bcd9a5330e1bc8376a7f796fcace0c4ffa",
+        "original_prefix_receipt.json": "eebb85636a6ec942114e1a49cb17a281b47a7cf12d39f7b1f102d0f1b3a476d0"
+      }
+    }
+  },
+  "reference_CNY": "1000000",
+  "reference_extra_bps": 40,
+  "raw_daily_proxy_development_gate_passes": false,
+  "raw_source_admitted_for_account_replay": false,
+  "actual_tax_exemption_certified": false,
+  "actual_tax_settlement_reproduced": false,
+  "actual_net_return_lower_bound": false,
+  "source_evidence_level": "CONDITIONAL_COUNTERFACTUAL_DAILY_OPEN_PROXY_ONLY",
+  "minute_execution_admitted": false,
+  "historical_arrival_certified": false,
+  "queue_and_impact_calibrated": false,
+  "new_2026_queries": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

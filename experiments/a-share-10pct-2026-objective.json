@@ -498,6 +498,27 @@
       "discovery_quarantine_file": "experiments/qlib/budgeted-residual-wolong-discovery-quarantine.json",
       "unintentional_2026_single_name_quote_snippets_seen_in_search_results": true,
       "investment_rules_changed_using_search_snippets": false
+    },
+    "separate_capital_income_counterfactual": {
+      "status": "CONDITIONAL_2024_2025_ACCOUNTING_RECONSTRUCTED_ORIGINAL_GATE_STILL_FALSE",
+      "freeze_commit": "3eb5f2f24ae1841351bd242b4e80f432854885cb",
+      "plan_file": "experiments/qlib/budgeted-residual-capital-income-stress-development-plan.json",
+      "result_file": "experiments/qlib/budgeted-residual-capital-income-stress-results.json",
+      "independent_audit_file": "experiments/qlib/budgeted-residual-capital-income-stress-independent-audit.json",
+      "verification_file": "experiments/qlib/budgeted-residual-capital-income-stress-verification.json",
+      "new_separately_versioned_counterfactual_account": true,
+      "original_account_or_events_changed": false,
+      "reference_CNY": 1000000,
+      "reference_extra_bps": 40,
+      "conditional_2024_return_pct": 4.543287,
+      "conditional_2025_return_pct": 7.49878755964503,
+      "average_exposure_pct": 94.52393436208827,
+      "actual_tax_exemption_certified": false,
+      "actual_net_return_lower_bound": false,
+      "minute_execution_admitted": false,
+      "2026_candidate_tested": false,
+      "candidate_promoted": false,
+      "objective_achieved": false
     }
   },
   "strategy_research_history": [
