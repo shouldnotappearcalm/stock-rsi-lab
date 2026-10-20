@@ -1,0 +1,139 @@
+{
+  "status": "ILLIQUIDITY_SIX_PRE2026_SOURCE_PROBES_COMPLETE",
+  "request_sha256": "cd76222255cbaeaeb4d6965acbe8cccebcc9268a99028d248060570b182a324c",
+  "prior_capture_manifest_sha256": "d8b1759fafd47914f82303b2e2fb2099c1c962bfdf34f8b3c6c1f9a0123fdcb2",
+  "results": [
+    {
+      "method": "minutes.history",
+      "instrument": "SH603056",
+      "day": "2024-01-02",
+      "role": "MISSING_SOURCE_PROBE",
+      "status": "REQUEST_FAILED",
+      "error": "invalid historical intraday payload",
+      "host": "116.205.171.132:7709",
+      "file": "1.json",
+      "sha256": "9d08a302047e3c30a89310cd58caf134f361cace57d644377d754a79336a9729"
+    },
+    {
+      "method": "minutes.history",
+      "instrument": "SZ002505",
+      "day": "2024-03-01",
+      "role": "MISSING_SOURCE_PROBE",
+      "status": "REQUEST_FAILED",
+      "error": "invalid historical intraday payload",
+      "host": "116.205.171.132:7709",
+      "file": "2.json",
+      "sha256": "c69ae3d2e931aa7a5a27a631fc806ee34dbc106e505017f5d037a4e2cb17c599"
+    },
+    {
+      "method": "query_history_k_data_plus",
+      "instrument": "SH603056",
+      "day": "2024-01-02",
+      "role": "MISSING_SOURCE_PROBE",
+      "status": "RESPONSE_CAPTURED",
+      "source_checks": {
+        "complete_48_labels": true,
+        "first_open_matches": true,
+        "highest_matches": true,
+        "lowest_matches": true,
+        "last_close_matches": true,
+        "total_volume_matches": false
+      },
+      "strict_reported_5min_OHLCV_check_passes": false,
+      "total_5min_volume": "2909200",
+      "daily_volume": "2884000",
+      "file": "3.json",
+      "sha256": "39f71f11db68cdb282ec2de10b865387829a5989205ca8837271ea13567b3125"
+    },
+    {
+      "method": "query_history_k_data_plus",
+      "instrument": "SZ002505",
+      "day": "2024-03-01",
+      "role": "MISSING_SOURCE_PROBE",
+      "status": "RESPONSE_CAPTURED",
+      "source_checks": {
+        "complete_48_labels": true,
+        "first_open_matches": true,
+        "highest_matches": true,
+        "lowest_matches": true,
+        "last_close_matches": true,
+        "total_volume_matches": false
+      },
+      "strict_reported_5min_OHLCV_check_passes": false,
+      "total_5min_volume": "54697900",
+      "daily_volume": "54362802",
+      "file": "4.json",
+      "sha256": "80355c64febde331081cb4caec389cdf339d1861a947a100e8b6720f5ac19866"
+    },
+    {
+      "method": "query_history_k_data_plus",
+      "instrument": "SH600378",
+      "day": "2024-01-02",
+      "role": "FIXED_HASH_CHOSEN_CONTROL",
+      "status": "RESPONSE_CAPTURED",
+      "source_checks": {
+        "complete_48_labels": true,
+        "first_open_matches": true,
+        "highest_matches": false,
+        "lowest_matches": true,
+        "last_close_matches": false,
+        "total_volume_matches": false
+      },
+      "strict_reported_5min_OHLCV_check_passes": false,
+      "total_5min_volume": "1363400",
+      "daily_volume": "1385900",
+      "file": "5.json",
+      "sha256": "0475de5e05f5a30f49bcd2336a6a63331f16aa150c154e7996396d4f9f42deda"
+    },
+    {
+      "method": "query_history_k_data_plus",
+      "instrument": "SH603233",
+      "day": "2025-07-01",
+      "role": "FIXED_HASH_CHOSEN_CONTROL",
+      "status": "RESPONSE_CAPTURED",
+      "source_checks": {
+        "complete_48_labels": true,
+        "first_open_matches": true,
+        "highest_matches": false,
+        "lowest_matches": false,
+        "last_close_matches": true,
+        "total_volume_matches": false
+      },
+      "strict_reported_5min_OHLCV_check_passes": false,
+      "total_5min_volume": "7374900",
+      "daily_volume": "7374940",
+      "file": "6.json",
+      "sha256": "8f5a87bbc009b70ca5741564d8945f0da8b34c40eafb009d8037b2329b49c71d"
+    }
+  ],
+  "query_reservations": 6,
+  "query_responses_preserved": 6,
+  "query_artifact_sha256": {
+    "queries/4fc8503e2544c05743171b1c140417ca536be7532adb83d7cbf1a87f0acb603a/request.json": "5e6c79a617750e035c5e9375c882fe81839a6341a5b838d03b6690ce994e9f1f",
+    "queries/4fc8503e2544c05743171b1c140417ca536be7532adb83d7cbf1a87f0acb603a/reserved-1.json": "38941c682720922bd936bdb9587d1bc7e313ab71d4ae7c13103473acebf2cc80",
+    "queries/4fc8503e2544c05743171b1c140417ca536be7532adb83d7cbf1a87f0acb603a/response-1.json": "21871759f619d068e6d4f8f4cbe7be1873deb42385ad27ccf9e5e1705a3987d9",
+    "queries/5444df6da72f0347fb2cfa10ea6a99b7553588c06a31ce19db5af91dfb07786f/request.json": "3966824e3abbc856b2e6359479de1738287b70d03f4eded492f0d2f8c4f00c08",
+    "queries/5444df6da72f0347fb2cfa10ea6a99b7553588c06a31ce19db5af91dfb07786f/reserved-1.json": "6a16a5650e8c7415642ea2f58526e75382a370019408b0180140b414551360a2",
+    "queries/5444df6da72f0347fb2cfa10ea6a99b7553588c06a31ce19db5af91dfb07786f/response-1.json": "bd579713b83d95c645fe8857e5e0acaeeb9bf7379885fcd1dbf0043ea42e85c4",
+    "queries/78613b3531e5d7eea656a9e61874cbd94e47e5b7f384401d5c593c4c4b5ec40c/request.json": "14371bb66df35fe856248b5e748655e397256257534e2a1825639b87ba31f372",
+    "queries/78613b3531e5d7eea656a9e61874cbd94e47e5b7f384401d5c593c4c4b5ec40c/reserved-1.json": "c9fab52db9527faaa61b6a1c027898a23d28a1a1851a69ba6e1a7667afd4e956",
+    "queries/78613b3531e5d7eea656a9e61874cbd94e47e5b7f384401d5c593c4c4b5ec40c/response-1.json": "6e1e12b5724d3051955827d2086f0201d2a091a2fa4ee50666f08566b07f3c73",
+    "queries/7aae77aa84acaf8ffc6ee06eed44269c4c1438e5879c478594de6e6179b37fa6/request.json": "92bfa5d687b0c76fa7bbd46874d692420179f76a3236fbee781d5bdc5915a493",
+    "queries/7aae77aa84acaf8ffc6ee06eed44269c4c1438e5879c478594de6e6179b37fa6/reserved-1.json": "519234b13ae72592d7ee1bdfe6325cdcfab69246bd8e909a9681fb6e619238cb",
+    "queries/7aae77aa84acaf8ffc6ee06eed44269c4c1438e5879c478594de6e6179b37fa6/response-1.json": "38d331a323759c23287eeb0c7a8c5d82a31843ab3736e083f96ed075e65532fa",
+    "queries/abe809069aa568448cc4848900344f890f1a7077b3aadf5b9f2b176750e2b0fa/request.json": "492e9eccc73e51dae0dcc3265e52e57a300d2ac854e2c009bb2c704fdcec0153",
+    "queries/abe809069aa568448cc4848900344f890f1a7077b3aadf5b9f2b176750e2b0fa/reserved-1.json": "9a0aaed19aa9ef4863179b9a56a028106187003866920a54c8fa2a92e723827a",
+    "queries/abe809069aa568448cc4848900344f890f1a7077b3aadf5b9f2b176750e2b0fa/response-1.json": "79c625d99d90865bfd748af0ab4b068b273540e738592163e406708e6f32a871",
+    "queries/d602d247c81891703530a555d01a8144d2a2aed687f21decf0eb90cd72872746/request.json": "70e0414e3e362a53074d840a9b92758b6409c7a5546914bc359606955d6860cb",
+    "queries/d602d247c81891703530a555d01a8144d2a2aed687f21decf0eb90cd72872746/reserved-1.json": "61106cb189b45c785eac9fd28698ae553fb15b7ddc10746e64b7e84c9fad2e70",
+    "queries/d602d247c81891703530a555d01a8144d2a2aed687f21decf0eb90cd72872746/response-1.json": "4a640b3cb8915ba5c0e20382102408e9936a62b1dc527da18e609e905e3c85be"
+  },
+  "previous_source_packets_modified": false,
+  "five_minute_validator_or_criteria_changed": false,
+  "one_minute_series_created": false,
+  "source_is_a_fill_verification": false,
+  "admitted_for_reconstructed_execution": false,
+  "portfolio_returns_computed": false,
+  "2026_market_values_queried": false,
+  "objective_achieved": false
+}

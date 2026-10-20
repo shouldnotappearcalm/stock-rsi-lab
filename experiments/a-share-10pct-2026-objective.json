@@ -439,7 +439,16 @@
     },
     "fresh_minute_query_reservations": 1432,
     "fresh_minute_query_responses_preserved": 1432,
-    "minute_source_admitted_for_reconstructed_execution": false
+    "minute_source_admitted_for_reconstructed_execution": false,
+    "missing_minute_probe_result_file": "experiments/qlib/illiquidity-missing-minute-source-probe-results.json",
+    "missing_minute_probe_freeze_commit": "ddb1aeb",
+    "missing_minute_probe_queries": 6,
+    "missing_minute_probe_response_artifacts_preserved": 6,
+    "missing_minute_probe_alternate_TDX_failures": 2,
+    "missing_minute_probe_Bao_responses": 4,
+    "missing_minute_probe_Bao_strict_checks_passed": 0,
+    "missing_minute_probe_verification_file": "experiments/qlib/illiquidity-missing-minute-source-probe-verification.json",
+    "missing_minute_probe_facts_independently_verified": true
   },
   "strategy_research_history": [
     {
