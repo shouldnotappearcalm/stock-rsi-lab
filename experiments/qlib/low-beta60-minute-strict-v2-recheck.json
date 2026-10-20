@@ -1,0 +1,16 @@
+{
+  "status": "STRICT_V2_COMPLETE_CAPTURE_LOCAL_RECHECK_PASSED_SOURCE_TREE_BYTE_IDENTICAL",
+  "guard_plan_sha256": "61bc9c4ca765a3b0977533ce0ad96c48cca6d9cd503c59f654034e47f8a1d6dd",
+  "exit_code": 0,
+  "capture_files_checked_before_and_after": 2817,
+  "source_tree_before_sha256": "cedc460432b515c4d70f863f755dbc4c8cc2260c93bd036b246ec3c2ecca2802",
+  "source_tree_after_sha256": "cedc460432b515c4d70f863f755dbc4c8cc2260c93bd036b246ec3c2ecca2802",
+  "all_source_files_byte_identical": true,
+  "logical_reservations_before_and_after": 493,
+  "logical_responses_before_and_after": 493,
+  "new_source_calls": 0,
+  "new_source_rewrites": 0,
+  "2026_market_values_queried": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

@@ -43,7 +43,9 @@
 
 **Interfaces:** Consumes Task1 manifest/sessions, original raw/calendar/targets, request/plan. `inspect_packet(code,day,packet,daily)` returns existing diagnostic facts plus status or rejects; main emits details and summary independently of account code. CLI flags --source-root --capture-dir --plan --expected-plan-sha256 --output-dir.
 
-- [ ] Write behavior cases for valid source, wrong minute price signature/oversized lower volume, failed/partial/future packet and wrong source identity, using existing complete minute synthetic fixtures.
-- [ ] Observe failing test, implement admission using inspect_minutes+aggregate_minutes unchanged, run full suite.
-- [ ] Run actual local-only admission, preserving each failure; independent audit exact1332source/request/response identities and economics-free statuses.
-- [ ] One fresh final reviewer examines the whole change and actual source evidence. Fix Critical/Important, report remaining bounds, push results and update still-active objective.
+- [x] Write behavior cases for valid source, wrong minute price signature/oversized lower volume, failed/partial/future packet and wrong source identity, using existing complete minute synthetic fixtures.
+- [x] Observe failing test, implement admission using inspect_minutes+aggregate_minutes unchanged, run full suite.
+- [x] Run actual local-only admission, preserving each failure; independent audit exact1332source/request/response identities and economics-free statuses.
+- [x] One fresh final reviewer examines the whole change and actual source evidence. Fix Critical/Important, report remaining bounds, push results and update still-active objective.
+
+Final review found one Important restart-byte gap. Fixed through separately versioned V2 with externally anchored snapshots and4new regression groups,full413pass and actual2817file local recheck. Historical v1 API minor retained; supportedV2 cap493. No source/economic rules were changed. Final source admission does not qualify the investment or compute2026.
