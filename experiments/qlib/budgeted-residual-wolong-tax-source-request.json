@@ -1,0 +1,63 @@
+{
+  "status": "FROZEN_WOLONG_CAPITAL_TAX_PRIMARY_SOURCES_PRE2026",
+  "parent_commit": "a7d5be351723df3493c9cbd58dec2647a164e550",
+  "case_id": "SH600580|2025-06-27",
+  "day": "2025-04-26",
+  "code": "600580",
+  "organization_id": "gssh0600580",
+  "roles": [
+    "proposal",
+    "annual"
+  ],
+  "max_pages": 2,
+  "maximum_http_queries": 4,
+  "max_attempts_per_identity": 1,
+  "minimum_interval_seconds": 0.3,
+  "maximum_response_body_bytes": 10485760,
+  "original_distribution": {
+    "code": "sh.600580",
+    "dividPreNoticeDate": "",
+    "dividAgmPumDate": "2025-05-20",
+    "dividPlanAnnounceDate": "2025-04-26",
+    "dividPlanDate": "2025-06-20",
+    "dividRegistDate": "2025-06-26",
+    "dividOperateDate": "2025-06-27",
+    "dividPayDate": "2025-06-27",
+    "dividStockMarketDate": "2025-06-27",
+    "dividCashPsBeforeTax": "0.15",
+    "dividCashPsAfterTax": "0.135或0.15",
+    "dividStocksPs": "0.000000",
+    "dividCashStock": "10转2派1.5元（含税，扣税后1.35或1.5元）",
+    "dividReserveToStockPs": "0.200000"
+  },
+  "local_source_sha256": {
+    "budgeted-residual-raw-daily-development-20261021/summary.json": "99e262fc66644f8676b0fb125fd2f9996c71190cf5e5dd43c1d45cabce25daff",
+    "budgeted-residual-raw-daily-development-20261021/20/failed_account_state.json": "b74dece1dc697c5afa0702512467a89b744a673ab8006891073cd73c2aaf446f",
+    "budgeted-residual-raw-daily-development-20261021/40/failed_account_state.json": "fb932517d83f4dbab4c44aaf2678910209e9bed27895e46719178d0c67ae808b",
+    "budgeted-residual-raw-daily-failure-audit-20261021-v2.json": "731cc33e23fdf740daf21e5305be67ef373f77a86593e9df4bb1f857a0caf6e0",
+    "budgeted-residual-raw-dev-20261021/manifest.json": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+    "budgeted-residual-raw-dev-20261021/codes/SH600580.json": "ae06375f4e9b499ebe5f2497b2bcee7a8d8e291169834375babf305931f28b88",
+    "budgeted-residual-corporate-notices-20261021/manifest.json": "d1f2ad707004e111e9270f8b953b9abe97332182f8f7ba17794ca027db2b527d",
+    "budgeted-residual-corporate-reviewed-20261021/reviewed-manifest.json": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+    "budgeted-residual-corporate-reviewed-20261021/SH600580-2025-06-20.pdf": "7779de4b72e008b32757fe78f6d81a6c34433a4df73122455a4a5fd993990a7d",
+    "cninfo-csi500-reports-20261017/plan.json": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/budgeted-residual-raw-daily-development-results.json": "99e262fc66644f8676b0fb125fd2f9996c71190cf5e5dd43c1d45cabce25daff",
+    "experiments/qlib/budgeted-residual-raw-daily-failure-audit.json": "731cc33e23fdf740daf21e5305be67ef373f77a86593e9df4bb1f857a0caf6e0",
+    "experiments/qlib/budgeted-residual-corporate-capture-manifest.json": "d1f2ad707004e111e9270f8b953b9abe97332182f8f7ba17794ca027db2b527d",
+    "experiments/qlib/budgeted-residual-corporate-reviewed-manifest.json": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247"
+  },
+  "method_code_sha256": {
+    "scripts/capture_budgeted_wolong_tax_source_pre2026.py": "3e2481487b609a8d1d69ec30104f070c127e501819ec83e997016fd1a265b9f2",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "new_tax_exemption_automatically_authorized": false,
+  "signal_or_target_modification_authorized": false,
+  "new_2026_queries_authorized": false,
+  "portfolio_returns_authorized": false,
+  "objective_achieved": false
+}

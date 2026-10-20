@@ -467,7 +467,17 @@
     "raw_daily_record_day": "2025-06-26",
     "raw_daily_registered_quantity_both_cost_profiles": 1100,
     "raw_daily_other_unknown_events_actual_zero_in_failed_prefix": 2,
-    "raw_daily_unknown_tax_override_added": false
+    "raw_daily_unknown_tax_override_added": false,
+    "wolong_source_continuation": {
+      "status": "EXACT_DAY_PRIMARY_CAPTURE_FROZEN_NOT_EXECUTED",
+      "request_file": "experiments/qlib/budgeted-residual-wolong-tax-source-request.json",
+      "request_sha256": "2e52e94784b8659ba57f6df92828430e6bd8a0c1fb5fe8e57a03ad29384601d6",
+      "day": "2025-04-26",
+      "max_new_HTTP_identities": 4,
+      "automatic_tax_exemption": false,
+      "new_2026_queries": false,
+      "portfolio_returns_computed": false
+    }
   },
   "strategy_research_history": [
     {

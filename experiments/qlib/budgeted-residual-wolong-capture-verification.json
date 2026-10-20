@@ -1,0 +1,13 @@
+{
+  "status": "WOLONG_CAPTURE_SYNTHETIC_VERIFIED_BEFORE_SOURCE_ACCESS",
+  "request_sha256": "2e52e94784b8659ba57f6df92828430e6bd8a0c1fb5fe8e57a03ad29384601d6",
+  "full_tests": 322,
+  "full_log_sha256": "6c8835c1a92ddc18e93ecb0a8822e2d5f7b291e0bbeb4e80800d6cb5999481ac",
+  "focused_tests": 3,
+  "red_log_sha256": "5b75bb876d287de15e6ff09d8d7d296400cebe05f58c783de70c9077ad8ff642",
+  "independent_review": "3focused tests plus2mocked2pageAPI/2PDF captures; each consumes4identities; repeated source replay makes0newcalls; failed proposal preserves annual.5method/10local/4public hashes and original event verified.",
+  "actual_new_source_requests": 0,
+  "new_2026_queries": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
