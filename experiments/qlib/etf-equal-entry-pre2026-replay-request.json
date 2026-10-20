@@ -1,0 +1,109 @@
+{
+  "status": "FROZEN_ONE_ETF_EQUAL_ENTRY_PRE2026_REPLAY",
+  "parent_commit": "be84899ce6e9a81c48aae0a3cd4b47010a416345",
+  "candidate_budget": 1,
+  "total_ETF_family_candidate_budget_so_far": 3,
+  "candidate_id": "three_domestic_broad_ETF_initial_equal_entry_hold",
+  "instruments": [
+    "SH510300",
+    "SH510500",
+    "SZ159915"
+  ],
+  "research_window": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "signal_warmup_start": "2022-12-01",
+  "initial_cash_CNY": "1000000",
+  "extra_cost_bps": [
+    20,
+    40
+  ],
+  "reference_extra_cost_bps": 40,
+  "unchanged_engine_controls": [
+    20,
+    40
+  ],
+  "ranking": "NONE_FIXED_INITIAL_EQUAL_WEIGHTS_NO_SUBSEQUENT_TRADES",
+  "rotation_funding": "NO_ROTATION_INITIAL_PURCHASES_ONLY",
+  "method_code_sha256": {
+    "scripts/run_etf_equal_entry_pre2026.py": "53c613885fc05416ffaf76ea7c967e27b96b983eac76f6ba1b1197535ac6d240",
+    "src/stock_rsi/etf_equal_entry.py": "d54a39a303ae5e8199b5be59e1541e57e41f3cd7f013418a8774e3b1bb2a96c5",
+    "src/stock_rsi/etf_replay_v3.py": "572ed0d9d38fb489dd55f6eb7110d65a04157e148e78e35f8ae9980041152e28",
+    "scripts/run_etf_prior2_12_pre2026.py": "392050f67908a43335e0debb3f23a8e209537c1e1d7e7234e59fdb4e398bff76",
+    "scripts/run_etf_relative_pre2026.py": "bfe1f636fd757e787318b5492d42cb9285133e9d4d120c3a0a1e274ce8f6cc72",
+    "src/stock_rsi/etf_prior2_12.py": "7124203e1ea6cfb0285fb62d18ea73c84b3493e93879313e80f7f811c0bfeb48",
+    "src/stock_rsi/etf_replay_v2.py": "fb1f42a19dfd14175489293d0982ff57e61eb5c95809fe93c9e9d99cc34ec196",
+    "src/stock_rsi/etf_relative_replay.py": "6b1662aa696e806c4eca62717aeeb3b74fa3edcf0943a7c34a9cf62e39b6deb7",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "local_source_sha256": {
+    "qlib-enhanced-dev/calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "etf-relative-eastmoney-development-20261021/manifest.json": "517ef1a4ebb7b2e0d562516c05c44dd598d15d6c63a0e078835d9a466d98e85c",
+    "etf-actions-rules-sources-20261021/manifest.json": "6ed28eac7f7c886b53f33da3e92d17cf879db327b1b14b1c988ff3b25bfe608a",
+    "etf-cashflow-derived-v2-20261021/summary.json": "0a9492f81d1fcaf74c11c7acbfc1ce6c6f0ced0f08aa5095c18371cda6f5c1f7",
+    "etf-five-distribution-notices-20261021/manifest.json": "6cce62b83d36faec783564a027e784487f0aba6fe948fec8f2fb408df3429c8e",
+    "etf-trading-prospectuses-20261021/manifest.json": "ab3b70a65444d0f4002454d8d09b29ee3aae448233944427f9a3a16e1557e94c",
+    "etf-relative12m-physical-development-20261021/summary.json": "7cd0780d35cffbcad2a5dc7f7637f2d44a9f65f047cf5a56c3bf63dd97935a31",
+    "etf-relative12m-physical-development-20261021/extra20-ledger.json": "f10a38ba886934afd818264c5db9b121c113eb446dbf4280c88eaa4002be2f66",
+    "etf-relative12m-physical-development-20261021/extra40-ledger.json": "9c53d2a44b892847ee1f93cd29e7d608b84ff52a455ae46b0a1609528b3b88ff",
+    "etf-relative12m-independent-audit-20261021.json": "e152bf9bd8db7dcea0f6d39954386726944458adcb041acfa5cc3f337cf64f6f",
+    "etf-prior2-12-physical-development-20261021/summary.json": "948c10412f05ef37cc568414601de866cf814614d0c4e18f242065e5b5d58cea",
+    "etf-prior2-12-physical-development-20261021/extra20-ledger.json": "a4d4a5c2641f08412e0a9db7593d83ac8fd184058587b38ff6ea18a7ccbaf3df",
+    "etf-prior2-12-physical-development-20261021/extra40-ledger.json": "72cf0387dad3bdaa753f62e075a2756952700f959e50bfef3eb080c06a5d7136",
+    "etf-prior2-12-independent-audit-20261021.json": "6efbb96bced0ee314b358a25a8dfa08b4232df3c59358de66e5f9538af98503a"
+  },
+  "public_evidence_sha256": {
+    "docs/research/etf-prior2-12-next-candidate-2026-10-21.md": "0829720cbde3cf2ccdf59358c47ac9e8c5ca7be83b157066d4d6b7c61c134839",
+    "docs/research/etf-prior2-12-implementation-freeze-2026-10-21.md": "c00327cdf887afb5458268bf802152264a1a67a6c517d768a8204296d9e7c0c3",
+    "docs/research/etf-relative-account-replay-plan-2026-10-21.md": "9f3ed35ca857fd988419f45ac2ae39ed9a844b4b73d77194f0359034504df21f",
+    "experiments/qlib/etf-five-cashflows-primary-review.json": "9d92fc6453501acad87321524f77259453b0013a04f71b842f655def7b97982a",
+    "experiments/qlib/etf-relative-momentum-history-independent-audit.json": "c4c8d524d205dcf7bc872e5693fa60c565e9c173ea0587f2a2042c39fd68be97",
+    "experiments/qlib/etf-relative12m-pre2026-independent-audit.json": "e152bf9bd8db7dcea0f6d39954386726944458adcb041acfa5cc3f337cf64f6f",
+    "tests/test_etf_prior2_12.py": "3fe3e8a222354525145ea9773cc8a99ef948a544162004752bff383b7576c81c",
+    "tests/test_etf_relative_replay.py": "d18540185a464e1a4ac5d8b76facb8712651d2c77e6d143415553c7ba5613f64",
+    "tests/test_etf_development_annuals.py": "b4f3224e148e5ef55567d35626cb74a1e2d0880e57f39bbc5244999d16fa7cb7",
+    "docs/research/etf-equal-entry-pre2026-plan-2026-10-21.md": "f71580bdac342bc3259029819301974cacb7ce77b206ca69f6d74d91c9dced4e",
+    "tests/test_etf_equal_entry.py": "79c3afbf454b4c71e19e00c68df953109a606188ac610a351945ad1ca5b461d4",
+    "experiments/qlib/etf-prior2-12-pre2026-replay-request.json": "c7933685469539c70d4fddeeba643efb8b2ba5b8936e8df920fc3f8d922298c7",
+    "experiments/qlib/etf-prior2-12-pre2026-independent-audit.json": "6efbb96bced0ee314b358a25a8dfa08b4232df3c59358de66e5f9538af98503a"
+  },
+  "expected_outcome_sessions_by_year": {
+    "2024": 242,
+    "2025": 243
+  },
+  "new_2026_queries_authorized": false,
+  "historical_arrival_certified": false,
+  "primary_action_completeness_certified": false,
+  "opening_execution_certified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "target_weight_ratios": {
+    "SH510300": [
+      "19",
+      "60"
+    ],
+    "SH510500": [
+      "19",
+      "60"
+    ],
+    "SZ159915": [
+      "19",
+      "60"
+    ]
+  },
+  "entry_formation": "2023-12-29T15:05:00+08:00",
+  "entry_execution": "2024-01-02T09:30:00+08:00",
+  "dividend_reinvestment": false,
+  "annual_cash_reset": false,
+  "adaptive_campaign_has_prior_2026_diagnostics": true,
+  "not_a_sealed_holdout": true
+}
