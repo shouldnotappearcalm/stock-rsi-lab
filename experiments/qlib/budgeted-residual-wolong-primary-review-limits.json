@@ -1,0 +1,30 @@
+{
+  "status": "ORIGINAL_PROPOSAL_AND2024ANNUAL_READ_INSUFFICIENT_FOR_EVENT_TAX_EXEMPTION",
+  "capture_manifest_sha256": "af9485555760c5859cec505370119585421cf8736fbed486e7ac3a32a463e3a4",
+  "proposal_sha256": "f1383b7f236af488090f022664ee751af9a5f33ef456b726a215f8c90c1d0102",
+  "annual_sha256": "ec08c2d97b909f4cf00cf45fa60fa96d9669ab7d132ccc0ba974e2cee340ab6a",
+  "proposal_pages_read": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "annual_relevant_pages_read": [
+    51,
+    192,
+    193,
+    262
+  ],
+  "cash_per_original_share": ".15",
+  "capital_per_original_share": ".2",
+  "declared_stock_dividend_per_original_share": "0",
+  "2024_year_end_reported_capital_premium_CNY": "1887712328.92",
+  "2024_year_end_other_capital_reserve_CNY": "10798167.06",
+  "existence_of_premium_balance_is_not_event_funding_proof": true,
+  "actual_2025_event_capital_source_verified": false,
+  "capital_tax_exemption_granted": false,
+  "historical_arrival_certified": false,
+  "portfolio_returns_computed": false,
+  "new_2026_queries": false,
+  "objective_achieved": false
+}

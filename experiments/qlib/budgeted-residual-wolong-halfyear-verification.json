@@ -1,0 +1,16 @@
+{
+  "status": "WOLONG_HALF_YEAR_CAPTURE_SYNTHETIC_VERIFIED_BEFORE_SOURCE_ACCESS",
+  "request_sha256": "16201ab67e045ea8abb677e75cae57e3fb7ada96f1b90de23b01cd7c5513ae29",
+  "full_tests": 324,
+  "full_log_sha256": "f0076af46fe141c1919feb8247dafd22ab604902695e98e9f14afbe893f1882c",
+  "focused_selector_tests": 2,
+  "red_log_sha256": "4ad6ba95f770c4a8ea2d86509b5fb54b5bc0b1349188e35a9f080afed24c0c0c",
+  "method_files": 5,
+  "frozen_local_inputs": 8,
+  "frozen_public_evidence": 4,
+  "new_halfyear_source_queries": 0,
+  "new_2026_queries": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false,
+  "independent_review": "2focused passed; realmain localmock2APIpages+1PDF consumes3identities; terminalrestart makes0newwirecalls;5methods/8local/4public hashes match. Earliercapture3HTTPand2PDF bytechains independently reconstructed."
+}

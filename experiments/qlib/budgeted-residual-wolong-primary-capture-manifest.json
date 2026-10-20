@@ -1,0 +1,71 @@
+{
+  "status": "WOLONG_PRIMARY_CONTINUATION_CAPTURE_FINISHED_REVIEW_SEPARATE",
+  "request_sha256": "2e52e94784b8659ba57f6df92828430e6bd8a0c1fb5fe8e57a03ad29384601d6",
+  "documents": {
+    "proposal": {
+      "code": "600580",
+      "title": "卧龙电驱关于2024年度利润分配及资本公积转增股本方案的公告",
+      "day": "2025-04-26",
+      "timestamp_ms": 1745596800000,
+      "announcement_id": "1223319708",
+      "pdf_path": "finalpage/2025-04-26/1223319708.PDF",
+      "instrument": "SH600580",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223319708.PDF",
+      "file": "SH600580-2025-04-26-proposal.pdf",
+      "sha256": "f1383b7f236af488090f022664ee751af9a5f33ef456b726a215f8c90c1d0102",
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/e3e86deac96fc8668df172a710d68b7d80eec83108825843e2458e80062207ad/request.json",
+        "request_sha256": "d142d7206a6de7477f594194d4f3899d4dc9c02c8122829a0ef43868fd07cd8d",
+        "reserved_file": "queries/e3e86deac96fc8668df172a710d68b7d80eec83108825843e2458e80062207ad/reserved-1.json",
+        "reserved_sha256": "5bf4afe51afdabf83ed8916b230a12ab9085758b44eba531834da5d6ca7f73d7",
+        "response_file": "queries/e3e86deac96fc8668df172a710d68b7d80eec83108825843e2458e80062207ad/response-1.json",
+        "response_sha256": "432a975fb8dbf9b2ae1afceddea24e30d85b8a81f1ace8aa1c0d562baf38d3ee"
+      }
+    },
+    "annual": {
+      "code": "600580",
+      "title": "卧龙电驱2024年年度报告",
+      "day": "2025-04-26",
+      "timestamp_ms": 1745596800000,
+      "announcement_id": "1223319716",
+      "pdf_path": "finalpage/2025-04-26/1223319716.PDF",
+      "instrument": "SH600580",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223319716.PDF",
+      "file": "SH600580-2025-04-26-annual.pdf",
+      "sha256": "ec08c2d97b909f4cf00cf45fa60fa96d9669ab7d132ccc0ba974e2cee340ab6a",
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/5b949798da511c5a4984cd43addc628b1a97f5d904a255f13f2792be92fa2af4/request.json",
+        "request_sha256": "b9fa5c02b286d976ee72fcfd4ccbb928b826a0ca39b29e595e7705c5da4bb6e9",
+        "reserved_file": "queries/5b949798da511c5a4984cd43addc628b1a97f5d904a255f13f2792be92fa2af4/reserved-1.json",
+        "reserved_sha256": "cdd6d8613a6f38d32dd58995bc4041c4c31c214a5bdb2af92eea33e33ccc8f2b",
+        "response_file": "queries/5b949798da511c5a4984cd43addc628b1a97f5d904a255f13f2792be92fa2af4/response-1.json",
+        "response_sha256": "7ba80e3b9e2fdd7371a8b42ff4fc96036d500391f634e3a79afc110b210b5e43"
+      }
+    }
+  },
+  "errors": {},
+  "HTTP_query_reservations": 3,
+  "maximum_HTTP_query_reservations": 4,
+  "artifact_sha256": {
+    "SH600580-2025-04-26-annual.pdf": "ec08c2d97b909f4cf00cf45fa60fa96d9669ab7d132ccc0ba974e2cee340ab6a",
+    "SH600580-2025-04-26-proposal.pdf": "f1383b7f236af488090f022664ee751af9a5f33ef456b726a215f8c90c1d0102",
+    "documents.json": "6e0a1af65c006484888093ee3c1721e6e44e7df508200a716ef8669e986d5911",
+    "errors.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "queries/1a99f4d3016350413afbf301e4722ffc12a702a0fa3ab50e9e98271faa336905/request.json": "5c16aa24c55679ce75b8df57f6dacbc06dd5b9d004ec1acdee8d2dab3048aca8",
+    "queries/1a99f4d3016350413afbf301e4722ffc12a702a0fa3ab50e9e98271faa336905/reserved-1.json": "8b2a6766c8c47cdf7f6a4cf724db767139fc32988e287dc7004c46581fccddc7",
+    "queries/1a99f4d3016350413afbf301e4722ffc12a702a0fa3ab50e9e98271faa336905/response-1.json": "a7c2c06cb47a96271d67fe64c449ed5022d4dcdc83ae4c0b15c1688e223ffc47",
+    "queries/5b949798da511c5a4984cd43addc628b1a97f5d904a255f13f2792be92fa2af4/request.json": "b9fa5c02b286d976ee72fcfd4ccbb928b826a0ca39b29e595e7705c5da4bb6e9",
+    "queries/5b949798da511c5a4984cd43addc628b1a97f5d904a255f13f2792be92fa2af4/reserved-1.json": "cdd6d8613a6f38d32dd58995bc4041c4c31c214a5bdb2af92eea33e33ccc8f2b",
+    "queries/5b949798da511c5a4984cd43addc628b1a97f5d904a255f13f2792be92fa2af4/response-1.json": "7ba80e3b9e2fdd7371a8b42ff4fc96036d500391f634e3a79afc110b210b5e43",
+    "queries/e3e86deac96fc8668df172a710d68b7d80eec83108825843e2458e80062207ad/request.json": "d142d7206a6de7477f594194d4f3899d4dc9c02c8122829a0ef43868fd07cd8d",
+    "queries/e3e86deac96fc8668df172a710d68b7d80eec83108825843e2458e80062207ad/reserved-1.json": "5bf4afe51afdabf83ed8916b230a12ab9085758b44eba531834da5d6ca7f73d7",
+    "queries/e3e86deac96fc8668df172a710d68b7d80eec83108825843e2458e80062207ad/response-1.json": "432a975fb8dbf9b2ae1afceddea24e30d85b8a81f1ace8aa1c0d562baf38d3ee",
+    "request.json": "2e52e94784b8659ba57f6df92828430e6bd8a0c1fb5fe8e57a03ad29384601d6"
+  },
+  "financial_review_completed": false,
+  "capital_tax_exemption_granted": false,
+  "original_source_or_investment_rule_modified": false,
+  "new_2026_queries": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

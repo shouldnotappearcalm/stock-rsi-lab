@@ -469,14 +469,23 @@
     "raw_daily_other_unknown_events_actual_zero_in_failed_prefix": 2,
     "raw_daily_unknown_tax_override_added": false,
     "wolong_source_continuation": {
-      "status": "EXACT_DAY_PRIMARY_CAPTURE_FROZEN_NOT_EXECUTED",
+      "status": "ORIGINAL_PROPOSAL_AND_ANNUAL_CAPTURED_TAX_SOURCE_STILL_UNVERIFIED_HALF_YEAR_REQUEST_FROZEN",
       "request_file": "experiments/qlib/budgeted-residual-wolong-tax-source-request.json",
       "request_sha256": "2e52e94784b8659ba57f6df92828430e6bd8a0c1fb5fe8e57a03ad29384601d6",
       "day": "2025-04-26",
       "max_new_HTTP_identities": 4,
       "automatic_tax_exemption": false,
       "new_2026_queries": false,
-      "portfolio_returns_computed": false
+      "portfolio_returns_computed": false,
+      "capture_freeze_commit": "945d26cfc06e6fc1898485921b3845acc6fead60",
+      "actual_HTTP_requests": 3,
+      "documents": 2,
+      "capture_manifest_file": "experiments/qlib/budgeted-residual-wolong-primary-capture-manifest.json",
+      "review_limits_file": "experiments/qlib/budgeted-residual-wolong-primary-review-limits.json",
+      "halfyear_request_file": "experiments/qlib/budgeted-residual-wolong-halfyear-source-request.json",
+      "halfyear_request_sha256": "16201ab67e045ea8abb677e75cae57e3fb7ada96f1b90de23b01cd7c5513ae29",
+      "halfyear_maximum_HTTP_queries": 3,
+      "halfyear_capture_executed": false
     }
   },
   "strategy_research_history": [
