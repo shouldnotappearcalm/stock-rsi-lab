@@ -1,0 +1,85 @@
+{
+  "status": "FROZEN_EIGHT_ETF_ACTION_AND_RULE_SOURCES",
+  "parent_commit": "02a06b44807726069f947e8c3ca3cfdcb6533fba",
+  "sources": [
+    {
+      "id": "SH510300",
+      "url": "https://fundf10.eastmoney.com/fhsp_510300.html",
+      "kind": "fund_actions",
+      "file": "SH510300.html"
+    },
+    {
+      "id": "SH510500",
+      "url": "https://fundf10.eastmoney.com/fhsp_510500.html",
+      "kind": "fund_actions",
+      "file": "SH510500.html"
+    },
+    {
+      "id": "SZ159915",
+      "url": "https://fundf10.eastmoney.com/fhsp_159915.html",
+      "kind": "fund_actions",
+      "file": "SZ159915.html"
+    },
+    {
+      "id": "sse_faq",
+      "url": "https://www.sse.com.cn/assortment/fund/etf/question/",
+      "kind": "rule_html",
+      "file": "sse-etf-faq.html"
+    },
+    {
+      "id": "szse_trading",
+      "url": "https://www.szse.cn/www/investor/warning/t20210104_584079.html",
+      "kind": "rule_html",
+      "file": "szse-etf-trading.html"
+    },
+    {
+      "id": "growth20",
+      "url": "https://docs.static.szse.cn/www/aboutus/trends/conference/W020200821767425488573.pdf",
+      "kind": "rule_pdf",
+      "file": "szse-growth20-list.pdf"
+    },
+    {
+      "id": "tax_open_fund",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5202818/content.html",
+      "kind": "rule_html",
+      "file": "tax-2002-128.html"
+    },
+    {
+      "id": "sse_intro",
+      "url": "https://etf.sse.com.cn/fund/learning/download/c/10055613/files/32901abf70d54e999f46975b52ba46de.pdf",
+      "kind": "rule_pdf",
+      "file": "sse-etf-intro.pdf"
+    }
+  ],
+  "maximum_http_queries": 8,
+  "max_attempts_per_identity": 1,
+  "minimum_interval_seconds": 0.3,
+  "maximum_body_bytes": 10485760,
+  "extracted_action_window": [
+    "2022-12-01",
+    "2025-12-31"
+  ],
+  "bs4_version": "4.15.0",
+  "method_code_sha256": {
+    "scripts/capture_etf_action_sources.py": "051c86c386e96301400e9e00dbf4ff785acd78cbc22f952cf2194391cad59a3f",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "local_source_sha256": {
+    "etf-relative-eastmoney-development-20261021/manifest.json": "517ef1a4ebb7b2e0d562516c05c44dd598d15d6c63a0e078835d9a466d98e85c"
+  },
+  "public_evidence_sha256": {
+    "docs/research/etf-relative-momentum-pre2026-design-2026-10-21.md": "c68c159e588a13f37c427cbf4559c8bd77e6b31e7af0eaf337bae7a84faa32bf",
+    "docs/research/etf-action-source-plan-2026-10-21.md": "d895f70f9dfbad6f75b9a76c561530bc0c625261edaa874614e82cd1129cf8bc",
+    "experiments/qlib/etf-relative-momentum-history-independent-audit.json": "c4c8d524d205dcf7bc872e5693fa60c565e9c173ea0587f2a2042c39fd68be97",
+    "experiments/qlib/etf-relative-source-discovery-quarantine.json": "5b6e7cc407c7bb253c78cc9179020d0e242228bca77dd168ffbc908e8f9de698"
+  },
+  "source_pages_can_contain_current_or_2026_auxiliary_content": true,
+  "auxiliary_content_admitted_into_decisions": false,
+  "portfolio_returns_authorized_in_this_capture": false,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "superseded_unexecuted_draft_sha256": "5149710f6d3ba2a780d8303961b953d4fbd081e0012113b3bd0a5e236446698f",
+  "market_queries_under_superseded_draft": 0,
+  "superseded_unexecuted_review_draft_sha256": "acffbb92873667b27c24625299ce7a6fc85a06e9f96a1de8bf44dada24129f32"
+}
