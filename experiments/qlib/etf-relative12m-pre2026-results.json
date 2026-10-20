@@ -1,0 +1,83 @@
+{
+  "status": "ETF_RELATIVE12M_PRE2026_DAILY_PROXY_COMPLETE_ADMISSION_SEPARATE",
+  "request_sha256": "17afaa08717c7c1565ae028fa3afbafcc212897ce9f11fb45b2ea017f2236dd1",
+  "summaries": {
+    "20": {
+      "extra_cost_bps": 20,
+      "base_buy_sell_bps": [
+        5,
+        5
+      ],
+      "min_commission_CNY": "5",
+      "annual": {
+        "2024": {
+          "net_return": "0.00591829",
+          "ending_equity": "1005918.290",
+          "max_drawdown": "-0.14635431",
+          "average_exposure": "0.9440288348129343185996486066",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.482675844376982150309643937",
+          "ending_equity": "1491450.750",
+          "max_drawdown": "-0.1975006074630247021813156163",
+          "average_exposure": "0.9355780939445704205402642053",
+          "sessions": 243
+        }
+      },
+      "average_exposure": "0.9397947522747643655513384856",
+      "fills": 30,
+      "fees_CNY": "30422.85",
+      "gross_dividends_CNY": "0.00",
+      "numerical_development_screen_passed": true,
+      "source_or_execution_admission": false,
+      "candidate_promoted": false,
+      "new_2026_queries": false,
+      "objective_achieved": false
+    },
+    "40": {
+      "extra_cost_bps": 40,
+      "base_buy_sell_bps": [
+        5,
+        5
+      ],
+      "min_commission_CNY": "5",
+      "annual": {
+        "2024": {
+          "net_return": "-0.00397873",
+          "ending_equity": "996021.270",
+          "max_drawdown": "-0.15151682",
+          "average_exposure": "0.9447577264634686469038808029",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.460582302624922859328094469",
+          "ending_equity": "1454771.040",
+          "max_drawdown": "-0.1976510625674357564030909573",
+          "average_exposure": "0.9366659306513425206557421617",
+          "sessions": 243
+        }
+      },
+      "average_exposure": "0.9407034864998673094228546379",
+      "fills": 29,
+      "fees_CNY": "54221.76",
+      "gross_dividends_CNY": "0.00",
+      "numerical_development_screen_passed": false,
+      "source_or_execution_admission": false,
+      "candidate_promoted": false,
+      "new_2026_queries": false,
+      "objective_achieved": false
+    }
+  },
+  "artifact_sha256": {
+    "extra20-ledger.json": "f10a38ba886934afd818264c5db9b121c113eb446dbf4280c88eaa4002be2f66",
+    "extra40-ledger.json": "9c53d2a44b892847ee1f93cd29e7d608b84ff52a455ae46b0a1609528b3b88ff"
+  },
+  "candidate_budget": 1,
+  "new_2026_queries": false,
+  "historical_arrival_certified": false,
+  "primary_action_completeness_certified": false,
+  "opening_execution_certified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

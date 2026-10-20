@@ -26,7 +26,7 @@
     "User capital remains unspecified; no deployment participation/cost profile selected, all 60 scenarios retained",
     "Nested execution now records explicit legal-sized children, capacity and residuals; counterfactual queue/impact and precise historical available volume are not calibrated",
     "Historical official price limits/special status and real information arrival times remain unverified",
-    "Cash dividends still use a flat 20% stress reserve, not actual FIFO holding-period tax",
+    "Earlier ordinary-stock candidates still use declared tax stress assumptions rather than verified actual FIFO holding-period tax; latest cash-only ETF account models temporary fund-distribution exemption separately",
     "Consumed 2026 diagnostics cannot become sealed evidence; original relative research gate remains REJECTED"
   ],
   "prior_normalized_diagnostic": {
@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "FIXED_NEW_ETF_RELATIVE12M_HYPOTHESIS_SIX_PRE2026_PRICE_SERIES_CAPTURED_NO_ROI",
+    "status": "ETF_RELATIVE12M_DEVELOPMENT_REJECTED_REFERENCE40BP_2024_NEGATIVE_NO2026",
     "candidate": "three_domestic_broad_ETF_relative12m",
     "candidate_budget": 1,
     "design_file": "docs/research/etf-relative-momentum-pre2026-design-2026-10-21.md",
@@ -398,19 +398,107 @@
       "2022-12-01",
       "2025-12-31"
     ],
-    "HTTP_queries": 6,
     "price_series": 6,
     "sessions_each": 749,
     "bar_rows": 4494,
-    "source_errors": 0,
     "selection_uses_2026": false,
     "source_admitted_for_account_replay": false,
-    "ETF_execution_account_implemented": false,
+    "ETF_execution_account_implemented": true,
     "new_2026_outcomes_queried": false,
-    "portfolio_returns_computed": false,
-    "next_action": "Authenticate ETF distributions/share changes and adjustment definition; validate tick/limits/T1/fees before separately frozen 2024/2025 portfolio replay. No2026feedback to alter rules.",
+    "portfolio_returns_computed": true,
+    "next_action": "Complete independent actual-ledger audit and preserve this rejection; separately register one prior2-12 existing-method candidate using only pre2026 development. Never rescue oldcandidate with2026 outcomes.",
     "candidate_promoted": false,
-    "objective_achieved": false
+    "objective_achieved": false,
+    "reference_extra_cost_bps": 40,
+    "development_result_file": "experiments/qlib/etf-relative12m-pre2026-results.json",
+    "development_replay_request_file": "experiments/qlib/etf-relative-pre2026-replay-request.json",
+    "development_replay_request_sha256": "17afaa08717c7c1565ae028fa3afbafcc212897ce9f11fb45b2ea017f2236dd1",
+    "replay_freeze_commit": "c580939422f8af54baa9c3114af880483f71cd24",
+    "primary_cash_review_file": "experiments/qlib/etf-five-cashflows-primary-review.json",
+    "development_profiles": {
+      "20": {
+        "extra_cost_bps": 20,
+        "base_buy_sell_bps": [
+          5,
+          5
+        ],
+        "min_commission_CNY": "5",
+        "annual": {
+          "2024": {
+            "net_return": "0.00591829",
+            "ending_equity": "1005918.290",
+            "max_drawdown": "-0.14635431",
+            "average_exposure": "0.9440288348129343185996486066",
+            "sessions": 242
+          },
+          "2025": {
+            "net_return": "0.482675844376982150309643937",
+            "ending_equity": "1491450.750",
+            "max_drawdown": "-0.1975006074630247021813156163",
+            "average_exposure": "0.9355780939445704205402642053",
+            "sessions": 243
+          }
+        },
+        "average_exposure": "0.9397947522747643655513384856",
+        "fills": 30,
+        "fees_CNY": "30422.85",
+        "gross_dividends_CNY": "0.00",
+        "numerical_development_screen_passed": true,
+        "source_or_execution_admission": false,
+        "candidate_promoted": false,
+        "new_2026_queries": false,
+        "objective_achieved": false
+      },
+      "40": {
+        "extra_cost_bps": 40,
+        "base_buy_sell_bps": [
+          5,
+          5
+        ],
+        "min_commission_CNY": "5",
+        "annual": {
+          "2024": {
+            "net_return": "-0.00397873",
+            "ending_equity": "996021.270",
+            "max_drawdown": "-0.15151682",
+            "average_exposure": "0.9447577264634686469038808029",
+            "sessions": 242
+          },
+          "2025": {
+            "net_return": "0.460582302624922859328094469",
+            "ending_equity": "1454771.040",
+            "max_drawdown": "-0.1976510625674357564030909573",
+            "average_exposure": "0.9366659306513425206557421617",
+            "sessions": 243
+          }
+        },
+        "average_exposure": "0.9407034864998673094228546379",
+        "fills": 29,
+        "fees_CNY": "54221.76",
+        "gross_dividends_CNY": "0.00",
+        "numerical_development_screen_passed": false,
+        "source_or_execution_admission": false,
+        "candidate_promoted": false,
+        "new_2026_queries": false,
+        "objective_achieved": false
+      }
+    },
+    "reference_development_numeric_gate_passed": false,
+    "reference_rejection_reason": "2024 reference40bp netreturn -0.397873percent fails strict positive requirement",
+    "independent_ledger_audit_status": "INDEPENDENT_STDLIB_LEDGER_SIGNAL_AND_FUNDING_AUDIT_PASSED",
+    "original8_action_source_documents": 7,
+    "original8_action_source_errors": 4,
+    "primary_cash_notices": 5,
+    "provider_inwindow_share_changes": 0,
+    "primary_action_completeness_certified": false,
+    "rotation_funding": "NEXT_SESSION_BUY_AFTER_OBSERVED_FULL_SALE_WITH_ORIGINAL_FORMATION_QTY",
+    "next_candidate_plan": "docs/research/etf-prior2-12-next-candidate-2026-10-21.md",
+    "next_candidate_budget": 1,
+    "next_candidate_returns_computed": false,
+    "price_capture_HTTP_queries": 6,
+    "price_capture_source_errors": 0,
+    "independent_ledger_audit_file": "experiments/qlib/etf-relative12m-pre2026-independent-audit.json",
+    "independent_ledger_audit_sha256": "e152bf9bd8db7dcea0f6d39954386726944458adcb041acfa5cc3f337cf64f6f"
   },
   "strategy_research_history": [
     {

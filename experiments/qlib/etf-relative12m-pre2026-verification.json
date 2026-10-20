@@ -1,0 +1,17 @@
+{
+  "status": "PRE2026_REAL_PRICE_ENGINEERING_REPLAY_INDEPENDENTLY_RECONSTRUCTED_CANDIDATE_REJECTED",
+  "result_summary_sha256": "7cd0780d35cffbcad2a5dc7f7637f2d44a9f65f047cf5a56c3bf63dd97935a31",
+  "audit_sha256": "e152bf9bd8db7dcea0f6d39954386726944458adcb041acfa5cc3f337cf64f6f",
+  "audit_root_rerun_byte_identical": true,
+  "all_354_behavior_regressions_passed": true,
+  "reference40bp_rejected_reason": "2024netreturn is negative; bothyears must be positive",
+  "reference_not_selected_after_outcomes": true,
+  "lower_cost20bp_numeric_pass_not_promoted": true,
+  "complete_requested_2026_horizon": false,
+  "new_2026_ETF_portfolio_returns_computed": false,
+  "historical_arrival_certified": false,
+  "opening_execution_certified": false,
+  "primary_action_completeness_certified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

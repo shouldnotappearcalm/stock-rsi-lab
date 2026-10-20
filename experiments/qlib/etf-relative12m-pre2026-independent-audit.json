@@ -1,0 +1,98 @@
+{
+  "status": "INDEPENDENT_STDLIB_LEDGER_SIGNAL_AND_FUNDING_AUDIT_PASSED",
+  "script_sha256": "041fb3d7697db14b693a5e3561573b0fb01b755022c2b10731a9c33f06dc5f97",
+  "request_sha256": "17afaa08717c7c1565ae028fa3afbafcc212897ce9f11fb45b2ea017f2236dd1",
+  "output_summary_sha256": "7cd0780d35cffbcad2a5dc7f7637f2d44a9f65f047cf5a56c3bf63dd97935a31",
+  "verified_file_bindings": 120,
+  "production_modules_imported": false,
+  "new_network_queries": 0,
+  "new_2026_queries": 0,
+  "profiles": {
+    "20": {
+      "sessions_verified": 485,
+      "warmup_and_outcome_sessions_reconstructed": 749,
+      "monthly_rankings_and_integer_targets_verified": 24,
+      "funding_intents_verified": 6,
+      "orders_verified": 30,
+      "fills_verified": 30,
+      "corporate_rows_verified": 10,
+      "all_five_recorded_entitlements": {
+        "SH510300-2023-01-16": 0,
+        "SH510300-2024-01-18": 0,
+        "SH510500-2024-05-17": 0,
+        "SH510500-2025-01-16": 0,
+        "SH510300-2025-06-18": 0
+      },
+      "gross_dividends_CNY": "0.00",
+      "annual": {
+        "2024": {
+          "net_return": "0.00591829",
+          "ending_equity": "1005918.290",
+          "max_drawdown": "-0.14635431",
+          "average_exposure": "0.9440288348129343185996486066",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.482675844376982150309643937",
+          "ending_equity": "1491450.750",
+          "max_drawdown": "-0.1975006074630247021813156163",
+          "average_exposure": "0.9355780939445704205402642053",
+          "sessions": 243
+        }
+      },
+      "numeric_screen_passes": true
+    },
+    "40": {
+      "sessions_verified": 485,
+      "warmup_and_outcome_sessions_reconstructed": 749,
+      "monthly_rankings_and_integer_targets_verified": 24,
+      "funding_intents_verified": 6,
+      "orders_verified": 29,
+      "fills_verified": 29,
+      "corporate_rows_verified": 10,
+      "all_five_recorded_entitlements": {
+        "SH510300-2023-01-16": 0,
+        "SH510300-2024-01-18": 0,
+        "SH510500-2024-05-17": 0,
+        "SH510500-2025-01-16": 0,
+        "SH510300-2025-06-18": 0
+      },
+      "gross_dividends_CNY": "0.00",
+      "annual": {
+        "2024": {
+          "net_return": "-0.00397873",
+          "ending_equity": "996021.270",
+          "max_drawdown": "-0.15151682",
+          "average_exposure": "0.9447577264634686469038808029",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.460582302624922859328094469",
+          "ending_equity": "1454771.040",
+          "max_drawdown": "-0.1976510625674357564030909573",
+          "average_exposure": "0.9366659306513425206557421617",
+          "sessions": 243
+        }
+      },
+      "numeric_screen_passes": false
+    }
+  },
+  "in_memory_negative_controls_rejected": [
+    "daily_cash",
+    "fill_fee",
+    "ranking",
+    "formation_quantity",
+    "funding_timestamp"
+  ],
+  "discrepancies": [],
+  "fixed_40bp_reference_disposition": "REJECT_NUMERICAL_DEVELOPMENT_SCREEN_2024_NOT_POSITIVE",
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "limits": [
+    "Current-vintage source truth and historical arrival not certified.",
+    "No independent proof of absent corporate actions or complete historical event coverage.",
+    "Reference price bands and opening fills remain engineering assumptions; no queue or volume capacity proof.",
+    "Actual positive-entitlement cash payment path is not exercised: all five reconstructed record-date quantities are zero.",
+    "This outcome audit is not investment or 2026 admission."
+  ]
+}
