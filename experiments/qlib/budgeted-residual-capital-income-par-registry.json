@@ -1,0 +1,49 @@
+{
+  "status": "COUNTERFACTUAL_PAR_VALUE_BASIS_NOT_TAX_EXEMPTION",
+  "events": [
+    {
+      "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+      "instrument": "SH600580",
+      "recorded": "2025-06-26",
+      "ex_date": "2025-06-27",
+      "event_sha256": "f82c567fc4ec9ac42ea9e61d8f87862c2f9f5787b8256e7e5e7f52b7975ae6bf",
+      "issuer": "卧龙电气驱动集团股份有限公司",
+      "nominal_capital_CNY": "1302622626.00",
+      "ordinary_shares": 1302622626,
+      "par_value_CNY": "1",
+      "sources": [
+        {
+          "file": "budgeted-residual-wolong-tax-sources-20261021/SH600580-2025-04-26-annual.pdf",
+          "sha256": "ec08c2d97b909f4cf00cf45fa60fa96d9669ab7d132ccc0ba974e2cee340ab6a",
+          "role": "nominal_capital",
+          "instrument": "SH600580",
+          "issuer": "卧龙电气驱动集团股份有限公司",
+          "publication_day": "2025-04-26",
+          "page": 192,
+          "extracted": {
+            "currency": "CNY",
+            "unit_multiplier": "1",
+            "nominal_capital": "1302622626.00"
+          }
+        },
+        {
+          "file": "budgeted-residual-wolong-tax-sources-20261021/SH600580-2025-04-26-proposal.pdf",
+          "sha256": "f1383b7f236af488090f022664ee751af9a5f33ef456b726a215f8c90c1d0102",
+          "role": "ordinary_shares",
+          "instrument": "SH600580",
+          "issuer": "卧龙电气驱动集团股份有限公司",
+          "publication_day": "2025-04-26",
+          "page": 2,
+          "extracted": {
+            "unit": "shares",
+            "ordinary_shares": 1302622626
+          }
+        }
+      ]
+    }
+  ],
+  "manual_extraction_review": "Original page images annual192/proposal2 inspected; same2024-12-31 balance. Par is capital_CNY/ordinary_shares, not repurchase-adjusted distribution base.",
+  "historical_arrival_certified": false,
+  "capital_tax_exemption_granted": false,
+  "halfyear_document_used_for_June_basis": false
+}

@@ -1,0 +1,18 @@
+{
+  "status": "COUNTERFACTUAL_IMPLEMENTATION_REVIEWED_BEFORE_ANY_NEW_PORTFOLIO_OUTCOME",
+  "plan_sha256": "2d62df171fc751f902e5b14b02997e9d0552408f676eca05086b176764c70dd0",
+  "regression_tests_passed": 332,
+  "regression_log_sha256": "41c52d10dada67a9b2d6813b7f7ec9894ae997dc67f58d5b12276bc9d1ee464a",
+  "new_behavior_tests": 8,
+  "red_green_evidence_logs": [
+    "stock-rsi-capital-stress-red.log",
+    "stock-rsi-capital-stress-runner-red.log"
+  ],
+  "independent_read_only_review": "No Critical or Important; 8new synthetic tests rerun;21method10local12public hashes verified before independent audit source added. Independent audit itself not covered by reviewer final verdict.",
+  "deferred_minor": "Synthetic runner tests do not cover both-controls-before-full orchestration and preservation of full account calendar; actual two historical controls still mandatory before any complete scenario.",
+  "actual_prefixes_or_counterfactual_returns_run": false,
+  "original_account_or_event_changed": false,
+  "source_tax_exemption_granted": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
