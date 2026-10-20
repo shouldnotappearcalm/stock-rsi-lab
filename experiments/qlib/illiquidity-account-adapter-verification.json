@@ -1,0 +1,63 @@
+{
+  "status": "SOURCE_EVENTS_COMPILED_AND_SYNTHETIC_ACCOUNT_ADAPTER_VERIFIED_REAL_REPLAY_PENDING",
+  "baseline_commit": "08a1316",
+  "source_event_compilation_file": "experiments/qlib/illiquidity-source-event-compilation.json",
+  "source_event_compilation_sha256": "53e58254017146b41a9c935560ce20096756a35beebfb429c8c1add64c173ff8",
+  "method_and_test_code_sha256": {
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "scripts/prepare_illiquidity_account_events.py": "4782f3066ac8c106a6177af7258be4bfd26805a6188387176821c65216fee1d3",
+    "scripts/replay_stock_distribution_targets.py": "53071ca9cb108f5f95c9794ab87aae2ab389858ec3f50094b75afb9a6e72d0b4",
+    "tests/test_distribution_event_compiler.py": "f24e05497bbb58fa0c50d504e697421b37485a4777a83556fbaf45393f3f28bf",
+    "tests/test_distribution_source_coverage.py": "71e974b23a5f7f3e95797db07098bb2566d33b682bc33d6cd5ae02df0f26a809",
+    "tests/test_lifecycle_target_replay.py": "34d9c94c8840005d236143de1f9804606274cf2d691c0bcc3b5919f92b649659"
+  },
+  "unchanged_legacy_files_sha256": {
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/intraday_broker.py": "0e268152b9bec87e865d09e2cb9acc25cb7c2cccb484044145381bca247e00c3",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "src/stock_rsi/illiquidity.py": "43927a97e91a62a43cc67969972e4b4e2319373768d07e6d5ae959ea580c66e8",
+    "src/stock_rsi/agents.py": "7739f4046fd18db1f137c86c523f11a07b3156d2aebee014a55992071d852898"
+  },
+  "documentation_file": "docs/research/illiquidity-account-adapter-2026-10-20.md",
+  "documentation_sha256": "1ba36cdf6d0f967cfad3c6c1f89d1a0c64993da71c1a665a55c4382805042784",
+  "test_command": "PYTHONPATH=src python -m unittest discover -s tests -v",
+  "new_behavior_tests": 14,
+  "compiler_and_adapter_tests_failed_before_implementation": true,
+  "first_full_run": {
+    "tests": 269,
+    "exit_code": 1,
+    "errors": 1,
+    "failing_test": "test_agents.AgentTests.test_tools_invalid_schema_and_process_error_fail_closed / answer-flood",
+    "cause_observed": "Existing CLI bridge cleanup os.killpg raised PermissionError; not reproducible in targeted6tests or next full suite",
+    "test_log_sha256": "b685bb6979d61ebfe15cf21c6492c07a7f47754aedf4b8bc427d873db8347f48"
+  },
+  "targeted_existing_cli_tests": {
+    "tests": 6,
+    "exit_code": 0,
+    "cli_bridge_or_test_changed": false
+  },
+  "final_full_run": {
+    "tests": 276,
+    "exit_code": 0,
+    "test_log_sha256": "ee595fccae7aebc734d39e13de21e704cd355fd17e2d7f5787104e36baffd499"
+  },
+  "compiled_real_source_events": 302,
+  "synthetic_daily_financial_legacy_control_matches": true,
+  "synthetic_intraday_factory_integration_passes": true,
+  "actual_record_date_entitlements_verified": false,
+  "actual_delisting_exit_verified": false,
+  "real_portfolio_runner_integration_complete": false,
+  "intraday_source_admission_complete": false,
+  "independent_real_portfolio_ledger_audit_complete": false,
+  "admitted_for_account_replay": false,
+  "new_portfolio_returns_computed": false,
+  "2026_market_values_queried": false,
+  "objective_achieved": false,
+  "read_only_review": {
+    "source_authentication_and_artifact_reconstruction": "No material findings",
+    "final_adapter_focused_tests": 7,
+    "final_adapter_focused_test_exit_code": 0,
+    "real_ROI_replay_performed_by_reviewer": false,
+    "full_276_suite_independently_rerun_by_reviewer": false
+  }
+}

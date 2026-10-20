@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "ILLIQUIDITY_DAILY_GATE_PASSED_RAW_SOURCES_CAPTURED_ACCOUNT_ADMISSION_PENDING",
+    "status": "ILLIQUIDITY_SOURCE_EVENTS_COMPILED_SYNTHETIC_ACCOUNT_ADAPTER_VERIFIED_REAL_REPLAY_PENDING",
     "candidate": "amihud22",
     "candidate_budget": 1,
     "selection_uses_2026": false,
@@ -418,7 +418,14 @@
     "corporate_reviewed_manifest_file": "experiments/qlib/illiquidity-corporate-reviewed-manifest.json",
     "stock_dividend_account_module_implemented": true,
     "lifecycle_guard_module_implemented": true,
-    "real_portfolio_runner_integration_complete": false
+    "real_portfolio_runner_integration_complete": false,
+    "source_event_compilation_file": "experiments/qlib/illiquidity-source-event-compilation.json",
+    "account_adapter_verification_file": "experiments/qlib/illiquidity-account-adapter-verification.json",
+    "compiled_real_source_events": 302,
+    "stock_dividend_and_lifecycle_replay_adapter_implemented": true,
+    "synthetic_intraday_factory_integration_passes": true,
+    "actual_record_date_entitlements_verified": false,
+    "actual_delisting_exit_verified": false
   },
   "strategy_research_history": [
     {
