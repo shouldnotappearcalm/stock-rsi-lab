@@ -1,0 +1,103 @@
+{
+  "status": "ONE_PRIOR2_12_CONDITIONAL_DAILY_INTERIM2026_DIAGNOSTIC_COMPLETE_AUDIT_PENDING",
+  "request_sha256": "e264c5a5e7a87a56f29a5dea8e87118d7f1d94b87d0621769de5377f1dfa5e8f",
+  "candidate_id": "three_domestic_broad_ETF_prior2_12",
+  "summaries": {
+    "20": {
+      "extra_cost_bps": 20,
+      "base_buy_sell_bps": [
+        5,
+        5
+      ],
+      "min_commission_CNY": "5",
+      "annual": {
+        "2024": {
+          "net_return": "0.10839644",
+          "ending_equity": "1108396.440",
+          "max_drawdown": "-0.17274996",
+          "average_exposure": "0.9468877237426630022111827612",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.535969251218453931519303689",
+          "ending_equity": "1702462.850",
+          "max_drawdown": "-0.1976469650735980724851544509",
+          "average_exposure": "0.9445388802519428017396580761",
+          "sessions": 243
+        },
+        "2026_interim": {
+          "starting_equity": "1702462.850",
+          "ending_equity": "1609469.830",
+          "net_return": "-0.0546226427202214720867477373",
+          "average_exposure": "0.9435490206480953286268369916",
+          "max_drawdown": "-0.3106637781115543926424972983",
+          "sessions": 190,
+          "end": "2026-10-20",
+          "full_October": false
+        }
+      },
+      "pre2026_full_ledger_prefix_reproduced": true,
+      "fills": 36,
+      "fees_CNY": "20666.57",
+      "conditional_interim_three_period_numeric_screen_passed": false,
+      "source_or_execution_admission": false,
+      "full_October": false,
+      "candidate_promoted": false,
+      "objective_achieved": false
+    },
+    "40": {
+      "extra_cost_bps": 40,
+      "base_buy_sell_bps": [
+        5,
+        5
+      ],
+      "min_commission_CNY": "5",
+      "annual": {
+        "2024": {
+          "net_return": "0.10163541",
+          "ending_equity": "1101635.410",
+          "max_drawdown": "-0.17456197",
+          "average_exposure": "0.9473488646561858354572952826",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.530106099258374419899955830",
+          "ending_equity": "1685619.060",
+          "max_drawdown": "-0.1976514406265729140690692545",
+          "average_exposure": "0.9447907915441816436139106654",
+          "sessions": 243
+        },
+        "2026_interim": {
+          "starting_equity": "1685619.060",
+          "ending_equity": "1587103.190",
+          "net_return": "-0.0584449193401977787318090720",
+          "average_exposure": "0.9437182948900634406656951289",
+          "max_drawdown": "-0.3134548962134427381265623749",
+          "sessions": 190,
+          "end": "2026-10-20",
+          "full_October": false
+        }
+      },
+      "pre2026_full_ledger_prefix_reproduced": true,
+      "fills": 36,
+      "fees_CNY": "36903.81",
+      "conditional_interim_three_period_numeric_screen_passed": false,
+      "source_or_execution_admission": false,
+      "full_October": false,
+      "candidate_promoted": false,
+      "objective_achieved": false
+    }
+  },
+  "reference_extra_cost_bps": 40,
+  "account_reset_at_2026": false,
+  "full_October": false,
+  "historical_arrival_certified": false,
+  "primary_action_completeness_certified": false,
+  "opening_execution_certified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "artifact_sha256": {
+    "extra20-ledger.json": "30f1acc79f5fb6fc15fb05da0e47508c30d54466767fae89cabb6ded994e3f2d",
+    "extra40-ledger.json": "206ce4323d9f9013452f70cc04f65279c16a514eec957debcf602b68db79f44f"
+  }
+}

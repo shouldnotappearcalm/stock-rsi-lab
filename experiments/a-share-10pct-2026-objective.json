@@ -9,7 +9,7 @@
     "2026_January_through_October_pct": ">=10"
   },
   "net_definition": "One fixed account policy, executable orders, all configured costs and held-position valuation; no annualization substitute for the 2026 interval.",
-  "latest_available_2026_session": "2026-10-16",
+  "latest_available_2026_session": "2026-10-20",
   "requested_2026_end": "last actual exchange session on or before 2026-10-31",
   "requested_2026_horizon_complete": false,
   "selection_rule": "Economic hypothesis and rule choices use independent sources and pre-2026 development only; fixed 2026 diagnostics must not tune later variants.",
@@ -22,7 +22,7 @@
     "Honest labeling of consumed 2026 diagnostics and point-in-time data limitations"
   ],
   "remaining_completion_evidence": [
-    "Complete requested October or explicit acceptance of an interim cutoff; latest available session remains 2026-10-16",
+    "Complete requested October or explicit acceptance of an interim cutoff; latest ETF source session2026-10-20, ordinary-stock sources remain2026-10-16",
     "User capital remains unspecified; no deployment participation/cost profile selected, all 60 scenarios retained",
     "Nested execution now records explicit legal-sized children, capacity and residuals; counterfactual queue/impact and precise historical available volume are not calibrated",
     "Historical official price limits/special status and real information arrival times remain unverified",
@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "ETF_PRIOR2_12_NUMERIC_DEVELOPMENT_PASSED_2026_PENDING",
+    "status": "ETF_PRIOR2_12_2026_INTERIM_NUMERIC_REJECTED_INDEPENDENTLY_AUDITED",
     "candidate": "three_domestic_broad_ETF_prior2_12",
     "candidate_budget": 1,
     "total_ETF_family_candidate_budget_so_far": 2,
@@ -475,11 +475,105 @@
     "primary_action_completeness_certified": false,
     "opening_execution_certified": false,
     "source_admitted_for_investment_replay": false,
-    "new_2026_ETF_queries": false,
-    "2026_return_computed": false,
-    "next_action": "Review explicit interim2026 source/account qualification, fixed rules unchanged; capture no later than last completed2026-10-20 session, verify cashactions and calendar before separately frozen2026daily engineeringdiagnostic; no automaticinvestmentadmission",
+    "new_2026_ETF_queries": true,
+    "2026_return_computed": true,
+    "next_action": "Retain and publish this audited fixed interim rejection. Any next hypothesis must be registered from independent economic sources and pre2026 development; do not use2026 return facts to change rules.",
     "candidate_promoted": false,
-    "objective_achieved": false
+    "objective_achieved": false,
+    "interim2026_result_file": "experiments/qlib/etf-prior2-12-interim2026-results.json",
+    "interim2026_request_file": "experiments/qlib/etf-prior2-12-interim2026-replay-request.json",
+    "interim2026_profiles": {
+      "20": {
+        "extra_cost_bps": 20,
+        "base_buy_sell_bps": [
+          5,
+          5
+        ],
+        "min_commission_CNY": "5",
+        "annual": {
+          "2024": {
+            "net_return": "0.10839644",
+            "ending_equity": "1108396.440",
+            "max_drawdown": "-0.17274996",
+            "average_exposure": "0.9468877237426630022111827612",
+            "sessions": 242
+          },
+          "2025": {
+            "net_return": "0.535969251218453931519303689",
+            "ending_equity": "1702462.850",
+            "max_drawdown": "-0.1976469650735980724851544509",
+            "average_exposure": "0.9445388802519428017396580761",
+            "sessions": 243
+          },
+          "2026_interim": {
+            "starting_equity": "1702462.850",
+            "ending_equity": "1609469.830",
+            "net_return": "-0.0546226427202214720867477373",
+            "average_exposure": "0.9435490206480953286268369916",
+            "max_drawdown": "-0.3106637781115543926424972983",
+            "sessions": 190,
+            "end": "2026-10-20",
+            "full_October": false
+          }
+        },
+        "pre2026_full_ledger_prefix_reproduced": true,
+        "fills": 36,
+        "fees_CNY": "20666.57",
+        "conditional_interim_three_period_numeric_screen_passed": false,
+        "source_or_execution_admission": false,
+        "full_October": false,
+        "candidate_promoted": false,
+        "objective_achieved": false
+      },
+      "40": {
+        "extra_cost_bps": 40,
+        "base_buy_sell_bps": [
+          5,
+          5
+        ],
+        "min_commission_CNY": "5",
+        "annual": {
+          "2024": {
+            "net_return": "0.10163541",
+            "ending_equity": "1101635.410",
+            "max_drawdown": "-0.17456197",
+            "average_exposure": "0.9473488646561858354572952826",
+            "sessions": 242
+          },
+          "2025": {
+            "net_return": "0.530106099258374419899955830",
+            "ending_equity": "1685619.060",
+            "max_drawdown": "-0.1976514406265729140690692545",
+            "average_exposure": "0.9447907915441816436139106654",
+            "sessions": 243
+          },
+          "2026_interim": {
+            "starting_equity": "1685619.060",
+            "ending_equity": "1587103.190",
+            "net_return": "-0.0584449193401977787318090720",
+            "average_exposure": "0.9437182948900634406656951289",
+            "max_drawdown": "-0.3134548962134427381265623749",
+            "sessions": 190,
+            "end": "2026-10-20",
+            "full_October": false
+          }
+        },
+        "pre2026_full_ledger_prefix_reproduced": true,
+        "fills": 36,
+        "fees_CNY": "36903.81",
+        "conditional_interim_three_period_numeric_screen_passed": false,
+        "source_or_execution_admission": false,
+        "full_October": false,
+        "candidate_promoted": false,
+        "objective_achieved": false
+      }
+    },
+    "new_2026_outcomes_queried": true,
+    "pre2026_full_ledger_prefix_reproduced": true,
+    "complete_requested_October": false,
+    "interim2026_result_used_to_change_policy": false,
+    "interim2026_independent_audit_file": "experiments/qlib/etf-prior2-12-interim2026-independent-audit.json",
+    "interim2026_independent_audit_sha256": "d868f49751c20468c38e459c2f1d4f3f828a1169c1078158afab5d766465ee5e"
   },
   "strategy_research_history": [
     {
