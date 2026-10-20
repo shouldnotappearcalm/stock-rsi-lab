@@ -1,0 +1,124 @@
+{
+  "status": "INDEPENDENT_STDLIB_LEDGER_SIGNAL_AND_FUNDING_AUDIT_PASSED",
+  "script_sha256": "9407af7715e58165797f91100c4fda068bcfbb823aca5f91cc7ca52c8ec0e0aa",
+  "request_sha256": "c7933685469539c70d4fddeeba643efb8b2ba5b8936e8df920fc3f8d922298c7",
+  "parent_auditor_sha256": "041fb3d7697db14b693a5e3561573b0fb01b755022c2b10731a9c33f06dc5f97",
+  "output_summary_sha256": "948c10412f05ef37cc568414601de866cf814614d0c4e18f242065e5b5d58cea",
+  "verified_file_bindings": 131,
+  "binding_group_counts": {
+    "method_code_sha256": 14,
+    "local_source_sha256": 10,
+    "public_evidence_sha256": 9
+  },
+  "legacy_control_receipts_and_independent_reconstruction": {
+    "20": {
+      "status": "BOUND_RECEIPT_AND_FULL_LEGACY_LEDGER_INDEPENDENTLY_RECONCILED",
+      "source_ledger_sha256": "f10a38ba886934afd818264c5db9b121c113eb446dbf4280c88eaa4002be2f66",
+      "sessions_verified": 485,
+      "monthly_rankings_verified": 24
+    },
+    "40": {
+      "status": "BOUND_RECEIPT_AND_FULL_LEGACY_LEDGER_INDEPENDENTLY_RECONCILED",
+      "source_ledger_sha256": "9c53d2a44b892847ee1f93cd29e7d608b84ff52a455ae46b0a1609528b3b88ff",
+      "sessions_verified": 485,
+      "monthly_rankings_verified": 24
+    }
+  },
+  "production_modules_imported": false,
+  "new_network_queries": 0,
+  "new_2026_queries": 0,
+  "profiles": {
+    "20": {
+      "sessions_verified": 485,
+      "warmup_and_outcome_sessions_reconstructed": 749,
+      "monthly_rankings_and_integer_targets_verified": 24,
+      "funding_intents_verified": 2,
+      "orders_verified": 25,
+      "fills_verified": 25,
+      "corporate_rows_verified": 10,
+      "all_five_recorded_entitlements": {
+        "SH510300-2023-01-16": 0,
+        "SH510300-2024-01-18": 0,
+        "SH510500-2024-05-17": 0,
+        "SH510500-2025-01-16": 0,
+        "SH510300-2025-06-18": 0
+      },
+      "gross_dividends_CNY": "0.00",
+      "annual": {
+        "2024": {
+          "net_return": "0.10839644",
+          "ending_equity": "1108396.440",
+          "max_drawdown": "-0.17274996",
+          "average_exposure": "0.9468877237426630022111827612",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.535969251218453931519303689",
+          "ending_equity": "1702462.850",
+          "max_drawdown": "-0.1976469650735980724851544509",
+          "average_exposure": "0.9445388802519428017396580761",
+          "sessions": 243
+        }
+      },
+      "numeric_screen_passes": true
+    },
+    "40": {
+      "sessions_verified": 485,
+      "warmup_and_outcome_sessions_reconstructed": 749,
+      "monthly_rankings_and_integer_targets_verified": 24,
+      "funding_intents_verified": 2,
+      "orders_verified": 25,
+      "fills_verified": 25,
+      "corporate_rows_verified": 10,
+      "all_five_recorded_entitlements": {
+        "SH510300-2023-01-16": 0,
+        "SH510300-2024-01-18": 0,
+        "SH510500-2024-05-17": 0,
+        "SH510500-2025-01-16": 0,
+        "SH510300-2025-06-18": 0
+      },
+      "gross_dividends_CNY": "0.00",
+      "annual": {
+        "2024": {
+          "net_return": "0.10163541",
+          "ending_equity": "1101635.410",
+          "max_drawdown": "-0.17456197",
+          "average_exposure": "0.9473488646561858354572952826",
+          "sessions": 242
+        },
+        "2025": {
+          "net_return": "0.530106099258374419899955830",
+          "ending_equity": "1685619.060",
+          "max_drawdown": "-0.1976514406265729140690692545",
+          "average_exposure": "0.9447907915441816436139106654",
+          "sessions": 243
+        }
+      },
+      "numeric_screen_passes": true
+    }
+  },
+  "in_memory_negative_controls_rejected": [
+    "daily_cash",
+    "fill_fee",
+    "ranking",
+    "formation_quantity",
+    "funding_timestamp",
+    "lag_endpoint",
+    "lag_month_count"
+  ],
+  "discrepancies": [],
+  "fixed_40bp_reference_disposition": "NUMERICAL_DEVELOPMENT_SCREEN_PASSED_ADMISSION_STILL_PENDING",
+  "candidate_id": "three_domestic_broad_ETF_prior2_12",
+  "candidate_budget": 1,
+  "total_ETF_family_candidate_budget_so_far": 2,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "limits": [
+    "Current-vintage source truth and historical arrival not certified.",
+    "No independent proof of absent corporate actions or complete historical event coverage.",
+    "Reference price bands and opening fills remain engineering assumptions; no queue or volume capacity proof.",
+    "Positive-entitlement coverage is limited to actual reconstructed entitlement quantities reported per profile; zero ownership does not test a payment path.",
+    "Candidate 2 is adaptive development after observing candidate 1, not an untouched holdout result.",
+    "This outcome audit is not investment or 2026 admission."
+  ]
+}

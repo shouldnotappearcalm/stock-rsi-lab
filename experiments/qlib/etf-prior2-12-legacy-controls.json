@@ -1,0 +1,16 @@
+{
+  "20": {
+    "status": "FULL_LEGACY_CONTROL_LEDGER_REPRODUCED_WITHOUT_DIFFERENCE",
+    "source_ledger_sha256": "f10a38ba886934afd818264c5db9b121c113eb446dbf4280c88eaa4002be2f66",
+    "sessions": 485,
+    "monthly_intents": 24,
+    "investments_changed": false
+  },
+  "40": {
+    "status": "FULL_LEGACY_CONTROL_LEDGER_REPRODUCED_WITHOUT_DIFFERENCE",
+    "source_ledger_sha256": "9c53d2a44b892847ee1f93cd29e7d608b84ff52a455ae46b0a1609528b3b88ff",
+    "sessions": 485,
+    "monthly_intents": 24,
+    "investments_changed": false
+  }
+}
