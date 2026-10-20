@@ -1,0 +1,31 @@
+{
+  "status": "FROZEN_TWO_PRE2026_ETF_TRADING_PROSPECTUSES",
+  "sources": [
+    {
+      "id": "SH510300_trading",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-01/1220228349.PDF",
+      "file": "SH510300-2024-prospectus.pdf",
+      "kind": "rule_pdf",
+      "role": "fund_prospectus"
+    },
+    {
+      "id": "SH510500_trading",
+      "url": "https://www.nffund.com/main/files/2024/11/20/990043127212.pdf",
+      "file": "SH510500-2024-prospectus.pdf",
+      "kind": "rule_pdf",
+      "role": "fund_prospectus"
+    }
+  ],
+  "maximum_queries": 2,
+  "max_attempts": 1,
+  "minimum_interval_seconds": 0.3,
+  "method_code_sha256": {
+    "experiments/qlib/audit_sources/2026-10-21-etf-trading-prospectus-capture.py": "32edafb9dbb1cf3e0f0b86547b313c6c43c79cdaf06d2f2ad4b5439e0fa6feeb",
+    "scripts/capture_etf_action_sources.py": "051c86c386e96301400e9e00dbf4ff785acd78cbc22f952cf2194391cad59a3f",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "scope": "Read listed-fund trading terms only; financial performance sections excluded from policy changes",
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
