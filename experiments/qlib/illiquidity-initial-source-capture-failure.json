@@ -1,0 +1,29 @@
+{
+  "status": "INITIAL_RAW_CAPTURE_STOPPED_WITH75_AUTHENTICATED_CHECKPOINTS",
+  "capture_exit_code": 1,
+  "request_sha256": "1b8c8fe6e001e155eac6fb838013e07c73e90dde44a8431f7c64caf59ec6cef8",
+  "progress_sha256": "acd00bbc4b8e647bca21ba270291e329f6db13369567757adb34b7e9015a72f6",
+  "calendar_sha256": "f1672b39e5f7646bf22fed1b8734e4a15b290cf36455bdf56ac0f79e9c2ec7bd",
+  "original_capture_code_sha256": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d",
+  "complete_packets": 75,
+  "next_code": "SH603341",
+  "next_code_packet_saved": false,
+  "error": "raw security calendar coverage incomplete",
+  "failure_log_sha256": "3f65f46e96f7494693ead16f9c42693f433993cb4332f1e6a8a00f74d25bfba4",
+  "original_failed_provider_response_retained": false,
+  "validation_was_after4_query_components_and_before_packet_checkpoint": true,
+  "primary_listing_document": {
+    "url": "https://static.cninfo.com.cn/finalpage/2024-02-29/1219209968.PDF",
+    "sha256": "a7af3b6874a0fc3566317b2ffc67cb37fef3baa4e09cb949952c3ea9b89aa890",
+    "page_one_based": 2,
+    "publication_day": "2024-02-29",
+    "listing_day": "2024-03-01"
+  },
+  "qlib_observed_range_begin": "2024-03-01",
+  "first_frozen_target_day": "2025-01-02",
+  "missing_date_pattern_confirmed_from_failed_response": false,
+  "investment_rule_changed": false,
+  "old75_packets_verified_unchanged": true,
+  "2026_market_values_queried": false,
+  "objective_achieved": false
+}
