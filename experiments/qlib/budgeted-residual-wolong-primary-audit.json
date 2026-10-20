@@ -1,0 +1,58 @@
+{
+  "status": "ALL_THREE_WOLONG_ORIGINAL_DOCUMENTS_FIVE_HTTP_CHAINS_VERIFIED_REVIEW_SEPARATE",
+  "audit_code_sha256": "405b7b5ecdda2b1ff087561218a21ed2d473107a06ec86d0e4fd196ae346397b",
+  "captures": [
+    {
+      "directory": "budgeted-residual-wolong-tax-sources-20261021",
+      "request_sha256": "2e52e94784b8659ba57f6df92828430e6bd8a0c1fb5fe8e57a03ad29384601d6",
+      "manifest_sha256": "af9485555760c5859cec505370119585421cf8736fbed486e7ac3a32a463e3a4",
+      "HTTP_identities": 3,
+      "API_pages": 1,
+      "PDFs": 2,
+      "all_artifact_bytes_verified": true
+    },
+    {
+      "directory": "budgeted-residual-wolong-halfyear-20261021",
+      "request_sha256": "16201ab67e045ea8abb677e75cae57e3fb7ada96f1b90de23b01cd7c5513ae29",
+      "manifest_sha256": "86431c7d01e6563efc9933b0e0ddc7cc50cbe4509ccd9309cae64fb2b838bed1",
+      "HTTP_identities": 2,
+      "API_pages": 1,
+      "PDFs": 1,
+      "all_artifact_bytes_verified": true
+    }
+  ],
+  "documents": [
+    {
+      "role": "proposal",
+      "instrument": "SH600580",
+      "publication_day": "2025-04-26",
+      "file": "SH600580-2025-04-26-proposal.pdf",
+      "sha256": "f1383b7f236af488090f022664ee751af9a5f33ef456b726a215f8c90c1d0102",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223319708.PDF"
+    },
+    {
+      "role": "annual",
+      "instrument": "SH600580",
+      "publication_day": "2025-04-26",
+      "file": "SH600580-2025-04-26-annual.pdf",
+      "sha256": "ec08c2d97b909f4cf00cf45fa60fa96d9669ab7d132ccc0ba974e2cee340ab6a",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223319716.PDF"
+    },
+    {
+      "role": "halfyear",
+      "instrument": "SH600580",
+      "publication_day": "2025-08-12",
+      "file": "SH600580-2025-08-12-halfyear.pdf",
+      "sha256": "0e1bd5d18148c2447aa762d8dee5b8de88bfc1949d83ac6dbe828d61db764c89",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-08-12/1224444818.PDF"
+    }
+  ],
+  "immutable_query_artifacts": 15,
+  "source_errors": 0,
+  "original_source_modified": false,
+  "capital_tax_exemption_granted": false,
+  "historical_arrival_certified": false,
+  "new_2026_market_queries": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

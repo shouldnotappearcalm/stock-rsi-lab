@@ -469,7 +469,7 @@
     "raw_daily_other_unknown_events_actual_zero_in_failed_prefix": 2,
     "raw_daily_unknown_tax_override_added": false,
     "wolong_source_continuation": {
-      "status": "ORIGINAL_PROPOSAL_AND_ANNUAL_CAPTURED_TAX_SOURCE_STILL_UNVERIFIED_HALF_YEAR_REQUEST_FROZEN",
+      "status": "THREE_ORIGINAL_DOCUMENTS_CAPTURED_TAX_SOURCE_NOT_CERTIFIED",
       "request_file": "experiments/qlib/budgeted-residual-wolong-tax-source-request.json",
       "request_sha256": "2e52e94784b8659ba57f6df92828430e6bd8a0c1fb5fe8e57a03ad29384601d6",
       "day": "2025-04-26",
@@ -485,7 +485,19 @@
       "halfyear_request_file": "experiments/qlib/budgeted-residual-wolong-halfyear-source-request.json",
       "halfyear_request_sha256": "16201ab67e045ea8abb677e75cae57e3fb7ada96f1b90de23b01cd7c5513ae29",
       "halfyear_maximum_HTTP_queries": 3,
-      "halfyear_capture_executed": false
+      "halfyear_capture_executed": true,
+      "halfyear_capture_freeze_commit": "3059a967d70c165bd47441fb2d8ccd049e945576",
+      "halfyear_actual_HTTP_queries": 2,
+      "combined_actual_HTTP_queries": 5,
+      "combined_original_PDFs": 3,
+      "capture_audit_file": "experiments/qlib/budgeted-residual-wolong-primary-audit.json",
+      "halfyear_manifest_file": "experiments/qlib/budgeted-residual-wolong-halfyear-capture-manifest.json",
+      "halfyear_review_limits_file": "experiments/qlib/budgeted-residual-wolong-halfyear-review-limits.json",
+      "capital_tax_source_verified": false,
+      "source_report_conflicts_preserved": 2,
+      "discovery_quarantine_file": "experiments/qlib/budgeted-residual-wolong-discovery-quarantine.json",
+      "unintentional_2026_single_name_quote_snippets_seen_in_search_results": true,
+      "investment_rules_changed_using_search_snippets": false
     }
   },
   "strategy_research_history": [

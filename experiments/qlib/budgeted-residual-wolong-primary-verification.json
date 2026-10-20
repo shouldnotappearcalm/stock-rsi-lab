@@ -1,0 +1,25 @@
+{
+  "status": "SOURCE_AUDIT_PASSED_TAX_ADMISSION_REMAINS_FALSE",
+  "source_PDFs": 3,
+  "HTTP_identities": 5,
+  "source_errors": 0,
+  "regression_tests": 324,
+  "regression_log_sha256": "f0076af46fe141c1919feb8247dafd22ab604902695e98e9f14afbe893f1882c",
+  "independent_offline_review": "passed; byte chains and frozen source bindings recomputed; no network or ROI",
+  "artifact_sha256": {
+    "experiments/qlib/audit_sources/2026-10-21-budgeted-wolong-primary-audit.py": "405b7b5ecdda2b1ff087561218a21ed2d473107a06ec86d0e4fd196ae346397b",
+    "experiments/qlib/budgeted-residual-wolong-primary-audit.json": "380ed9c64162dacea9bcf98a11151c9dc67c09fd96f07162505bc891c48c5eb1",
+    "experiments/qlib/budgeted-residual-wolong-halfyear-capture-manifest.json": "86431c7d01e6563efc9933b0e0ddc7cc50cbe4509ccd9309cae64fb2b838bed1",
+    "experiments/qlib/budgeted-residual-wolong-halfyear-review-limits.json": "081661c7c7b714f69c029ea5279920a8e7a5f9d89a451e30041eddfebe6c0d5f",
+    "experiments/qlib/budgeted-residual-wolong-discovery-quarantine.json": "934f90a20749e84ef188c2f39602749cdc0ca98bd1507334c1908827e2a7d126",
+    "docs/research/budgeted-residual-wolong-primary-results-2026-10-21.md": "b8ecd04e803b27f7cce3e73ab3a15a9a9351768b79a2a0ff5012dd7a6f868ded",
+    "docs/research/budgeted-residual-capital-income-stress-plan-2026-10-21.md": "4294ae966b1af0fb396b09d636e3caf29906ecab45e05c76278099d8f976041d"
+  },
+  "capital_tax_exemption_granted": false,
+  "source_conflicts_preserved": 2,
+  "accidental_2026_search_snippet_exposure_disclosed": true,
+  "new_portfolio_returns": false,
+  "stress_account_implemented": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

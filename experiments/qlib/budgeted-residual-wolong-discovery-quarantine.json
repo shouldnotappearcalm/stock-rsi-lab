@@ -1,0 +1,27 @@
+{
+  "status": "OUT_OF_WINDOW_SEARCH_DISCOVERY_RESULTS_QUARANTINED_NOT_MODEL_INPUTS",
+  "purpose": "Locate pre2026 issuer-specific tax-source statement only",
+  "requested_queries": [
+    "site:cninfo.com.cn \"卧龙\" \"2025\" \"转增\" \"不扣税\" before:2026-01-01",
+    "\"600580\" \"2025\" \"股票溢价\" before:2026-01-01",
+    "site:sns.sseinfo.com \"卧龙\" \"2025\" \"转增\" \"税\" before:2026-01-01"
+  ],
+  "provider_ignored_cutoff_and_returned_2026_material": true,
+  "unintentionally_visible_2026_single_security_quote_snippets": true,
+  "full_out_of_window_documents_opened": false,
+  "excluded_result_urls": [
+    "https://static.cninfo.com.cn/finalpage/2026-04-23/1225144575.PDF",
+    "https://www.460.net.cn/news/show-272666.html",
+    "https://www.dapanbao.com/stock/600580/"
+  ],
+  "followup_actual_primary_domain_filter_queries": [
+    "\"卧龙电驱\" \"2025\" \"转增股本\" \"股票溢价\" domains=cninfo.com.cn,sse.com.cn,sseinfo.com",
+    "\"臥龍\" \"2025\" \"資本公積\" \"溢價\" domains=hkexnews.hk"
+  ],
+  "followup_primary_results_found": 0,
+  "new_portfolio_2026_results_computed": false,
+  "investment_rule_or_target_modified_from_snippets": false,
+  "selection_uses_2026": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}

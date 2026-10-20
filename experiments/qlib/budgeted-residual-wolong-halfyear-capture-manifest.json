@@ -1,0 +1,49 @@
+{
+  "status": "WOLONG_HALF_YEAR_PRIMARY_CAPTURE_FINISHED_REVIEW_SEPARATE",
+  "request_sha256": "16201ab67e045ea8abb677e75cae57e3fb7ada96f1b90de23b01cd7c5513ae29",
+  "documents": {
+    "halfyear": {
+      "code": "600580",
+      "title": "卧龙电驱2025年半年度报告",
+      "day": "2025-08-12",
+      "timestamp_ms": 1754928000000,
+      "announcement_id": "1224444818",
+      "pdf_path": "finalpage/2025-08-12/1224444818.PDF",
+      "instrument": "SH600580",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-08-12/1224444818.PDF",
+      "file": "SH600580-2025-08-12-halfyear.pdf",
+      "sha256": "0e1bd5d18148c2447aa762d8dee5b8de88bfc1949d83ac6dbe828d61db764c89",
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/34af6cf1c65f6663c49bd3e8705bf4c2dbd644c356bdaa24b8eac8b9b333a277/request.json",
+        "request_sha256": "8de3364cba43b2f8e5ed96a92ea7022a0d0c16d1d0ca020f163a1d3c2d3f88c8",
+        "reserved_file": "queries/34af6cf1c65f6663c49bd3e8705bf4c2dbd644c356bdaa24b8eac8b9b333a277/reserved-1.json",
+        "reserved_sha256": "d2b6b4b7ccebe0838e6cf7796007d2b6a55c8a36bd35b9bbf844ca0fc5069985",
+        "response_file": "queries/34af6cf1c65f6663c49bd3e8705bf4c2dbd644c356bdaa24b8eac8b9b333a277/response-1.json",
+        "response_sha256": "98fdfde23f293bb4d0c452362f1f873930e771d7abdd4ab8bce5a13f5a53577e"
+      }
+    }
+  },
+  "errors": {},
+  "HTTP_query_reservations": 2,
+  "maximum_HTTP_query_reservations": 3,
+  "artifact_sha256": {
+    "SH600580-2025-08-12-halfyear.pdf": "0e1bd5d18148c2447aa762d8dee5b8de88bfc1949d83ac6dbe828d61db764c89",
+    "documents.json": "a98d29589e4b7bd04acff7d58680b55a2189dc3cc544fce11979e4a5e18659fd",
+    "errors.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "queries/34af6cf1c65f6663c49bd3e8705bf4c2dbd644c356bdaa24b8eac8b9b333a277/request.json": "8de3364cba43b2f8e5ed96a92ea7022a0d0c16d1d0ca020f163a1d3c2d3f88c8",
+    "queries/34af6cf1c65f6663c49bd3e8705bf4c2dbd644c356bdaa24b8eac8b9b333a277/reserved-1.json": "d2b6b4b7ccebe0838e6cf7796007d2b6a55c8a36bd35b9bbf844ca0fc5069985",
+    "queries/34af6cf1c65f6663c49bd3e8705bf4c2dbd644c356bdaa24b8eac8b9b333a277/response-1.json": "98fdfde23f293bb4d0c452362f1f873930e771d7abdd4ab8bce5a13f5a53577e",
+    "queries/fbed77e84919f1257221d9789e50626ce919ade7ed8211a8572137a9d7bb83f6/request.json": "bee806790191dd79edcdf222a5d6c2ec26150dea48940564f7b31a4652ee7e68",
+    "queries/fbed77e84919f1257221d9789e50626ce919ade7ed8211a8572137a9d7bb83f6/reserved-1.json": "75b89a6fda5d6c31ff2f95138bec0fa9d3fd1cf153d9697d9a5890080de786f0",
+    "queries/fbed77e84919f1257221d9789e50626ce919ade7ed8211a8572137a9d7bb83f6/response-1.json": "338c0741ba285ee6616114e7de407ccbb6f1fb2ce6eb7bc02ce00e6cc26375f9",
+    "request.json": "16201ab67e045ea8abb677e75cae57e3fb7ada96f1b90de23b01cd7c5513ae29"
+  },
+  "source_role": "POST_EVENT_ACTUAL_CAPITAL_MOVEMENT_CONFIRMATION_EVALUATOR_ONLY_NOT_DECISION_RECORD",
+  "historical_arrival_certified": false,
+  "financial_review_completed": false,
+  "capital_tax_exemption_granted": false,
+  "original_source_or_investment_rule_modified": false,
+  "new_2026_queries": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

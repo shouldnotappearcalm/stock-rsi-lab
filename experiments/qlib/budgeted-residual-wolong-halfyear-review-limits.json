@@ -1,0 +1,69 @@
+{
+  "status": "ACTUAL_CAPITAL_MOVEMENT_CORROBORATED_TAX_EXEMPTION_STILL_UNPROVEN",
+  "instrument": "SH600580",
+  "original_event_ex_date": "2025-06-27",
+  "original_record_day": "2025-06-26",
+  "actual_registered_quantity_both_failed_profiles": 1100,
+  "primary_capture_audit_sha256": "380ed9c64162dacea9bcf98a11151c9dc67c09fd96f07162505bc891c48c5eb1",
+  "halfyear_manifest_sha256": "86431c7d01e6563efc9933b0e0ddc7cc50cbe4509ccd9309cae64fb2b838bed1",
+  "halfyear_PDF": {
+    "file": "SH600580-2025-08-12-halfyear.pdf",
+    "sha256": "0e1bd5d18148c2447aa762d8dee5b8de88bfc1949d83ac6dbe828d61db764c89",
+    "publication_day": "2025-08-12",
+    "pages": 200,
+    "audited": false
+  },
+  "relevant_pages_read": [
+    2,
+    23,
+    25,
+    35,
+    51,
+    52,
+    56,
+    59,
+    62,
+    138,
+    139
+  ],
+  "key_pages_rendered_and_inspected": [
+    35,
+    138,
+    139
+  ],
+  "reported_capital_transfer_per_original_share": ".2",
+  "reported_cash_per_original_share": ".15",
+  "reported_capital_transfer_shares": 259494885,
+  "consolidated_share_premium_reduction_CNY": "265342584.84",
+  "reduction_in_excess_of_nominal_transfer_CNY": "5847699.84",
+  "capital_premium_change_explanation": "Company report attributes share-premium change mainly to capital conversion and minority acquisitions; does not identify original issuance-income provenance of this specific distribution.",
+  "parent_total_capital_reserve_reduction_CNY": "276138403.67",
+  "accounting_attribution_corroborated": true,
+  "funding_origin_from_stock_issuance_income_verified": false,
+  "issuer_explicit_event_no_tax_statement_found": false,
+  "source_conflicts": [
+    {
+      "page": 35,
+      "kind": "COMPLETION_DATE",
+      "reported_value": "2025-06-28",
+      "contradicting_sources": "page23 and original implementation notice say2025-06-27",
+      "original_typed_event_or_calendar_changed": false
+    },
+    {
+      "page": 35,
+      "kind": "TABLE_CLASSIFICATION",
+      "reported_value": "259494885 appears under stock-dividend column, capital-transfer column is dash",
+      "contradicting_sources": "same-page narrative and page138 explicitly say capital conversion",
+      "source_row_or_stock_dividend_type_rewritten": false
+    }
+  ],
+  "capital_tax_exemption_granted": false,
+  "original_reviewed_manifest_modified": false,
+  "historical_arrival_certified": false,
+  "future_report_returned_to_investment_snapshots": false,
+  "new_2026_strategy_returns_queried": false,
+  "portfolio_returns_computed": false,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "parent_statement_other_movement_in_capital_reserve_column_CNY": "16643518.67"
+}
