@@ -1,0 +1,18 @@
+{
+  "status": "SIX_FROZEN_ETF_HISTORY_IDENTITIES_AND_WIRE_ARTIFACTS_RECONSTRUCTED",
+  "audit_code_sha256": "3df6d864c45647a54bba7658488c972307393852d54dcbcd85920bf36d085d04",
+  "request_sha256": "54bb2f9ad9482b7cb581535aac689f47074277c621b2467d290a672a52653961",
+  "manifest_sha256": "517ef1a4ebb7b2e0d562516c05c44dd598d15d6c63a0e078835d9a466d98e85c",
+  "HTTP_identities": 6,
+  "immutable_query_files": 18,
+  "successful_series": 6,
+  "successful_bar_rows": 4494,
+  "expected_sessions_per_series": 749,
+  "source_failures_by_type": {},
+  "all_current_method_and_document_hashes_verified": true,
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "new_2026_bar_queries": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

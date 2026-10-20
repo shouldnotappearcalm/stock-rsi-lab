@@ -69,6 +69,8 @@ A股模块化投资skill研究项目。首个闭环是**明确时间范围、按
 两费用档均真实登记持股1,100股，资本税基未知；其余两未知事件实际零权益。未计算完整年度原股收益，尚未认证分钟执行或该候选的2026收益。
 [三份卧龙原始文件补证](docs/research/budgeted-residual-wolong-primary-results-2026-10-21.md)完成3份PDF、5条HTTP字节链核验，仍不足以证明本次免税；另完成[全额资本收入压力诊断](docs/research/budgeted-residual-capital-income-stress-results-2026-10-21.md)：40bp下2024/2025为+4.54%/+7.50%，平均仓位94.52%；两份原失败前缀和每日账本均复算通过，原来源门槛仍失败，没有该候选的2026结果。
 
+另冻结了[三只境内宽基ETF的12个月相对动量假设](docs/research/etf-relative-momentum-pre2026-design-2026-10-21.md)，并完成[6份开发期历史价格捕获](docs/research/etf-relative-momentum-data-results-2026-10-21.md)：3只各原价/后复权、每份749日，共4,494行，尚未跑该候选收益。
+
 独立项目，不修改已有a-share-skill。实现取舍来自多个已clone项目的
 [源码审计](docs/research/README.md)，不按现有skill仓库目录直接堆模块。
 
