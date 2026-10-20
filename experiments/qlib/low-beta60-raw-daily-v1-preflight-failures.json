@@ -1,0 +1,23 @@
+{
+  "status": "PRE_ACCOUNT_PREFLIGHT_FAILURES_PRESERVED_NO_ROI",
+  "frozen_commit": "c789b42",
+  "original_plan_sha256": "3768c0e8e289136f5321b79e38d2ae249fe56c4af948ee9454858777646cfe23",
+  "attempts": [
+    {
+      "invocation": "PYTHONPATH=src python scripts/run_low_beta60_raw_development.py ...",
+      "exit_code": 1,
+      "phase": "MODULE_IMPORT",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/run_low_beta60_raw_development.py\", line 8, in <module>\n    from scripts.prepare_low_beta60_account_sources import file_sha,verify_packet\nModuleNotFoundError: No module named 'scripts'\n"
+    },
+    {
+      "invocation": "PYTHONPATH=src python -m scripts.run_low_beta60_raw_development ...",
+      "exit_code": 1,
+      "phase": "SOURCE_COVERAGE_BEFORE_ACCOUNT_OR_OUTPUT_CREATION",
+      "traceback": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/run_low_beta60_raw_development.py\", line 135, in <module>\n    if __name__=='__main__':raise SystemExit(main())\n                                             ^^^^^^\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/run_low_beta60_raw_development.py\", line 65, in main\n    validate_source_coverage(packets)\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/run_low_risk_raw_share_validation.py\", line 94, in validate_source_coverage\n    raise ValueError(\"unexplained raw reference change: \"+code+\" \"+row[\"date\"])\nValueError: unexplained raw reference change: SH600167 2024-12-27\n"
+    }
+  ],
+  "account_constructed": false,
+  "returns_computed": false,
+  "source_or_strategy_modified": false,
+  "new_network_requests": 0
+}

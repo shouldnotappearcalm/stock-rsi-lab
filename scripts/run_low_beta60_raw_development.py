@@ -1,5 +1,6 @@
 """Two frozen pre2026 engineering diagnostics using the existing physical engine."""
 import argparse,json,math
+from copy import deepcopy
 from dataclasses import asdict
 from decimal import Decimal
 from functools import partial
@@ -22,6 +23,15 @@ METHOD_FILES=('scripts/run_low_beta60_raw_development.py','scripts/prepare_low_b
  'src/stock_rsi/calendar.py','src/stock_rsi/data.py','src/stock_rsi/models.py','src/stock_rsi/time.py',
  'src/stock_rsi/lifecycle_source_rows.py','scripts/capture_low_risk_raw_account_data.py',
  'scripts/capture_cninfo_csi500_reports_pre2026.py','scripts/prepare_qlib_master_market_pre2026.py')
+
+
+def validate_compiled_reference_coverage(packets,events):
+    """Coverage uses authenticated event dates, never edits vendor packets."""
+    projected=deepcopy(packets)
+    for packet in projected.values():packet['distributions']=[]
+    for event in events:
+        projected[event.instrument]['distributions'].append({'dividOperateDate':event.ex_date.isoformat()})
+    validate_source_coverage(projected)
 
 
 def main(argv=None):
@@ -62,7 +72,6 @@ def main(argv=None):
         path=raw/'codes'/(code+'.json')
         if file_sha(path)!=h:raise ValueError('raw packet changed')
         packet=json.loads(path.read_text());verify_packet(code,packet,sessions);packets[code]=packet
-    validate_source_coverage(packets)
     targetfile=base/'low-beta60-pre2026-formations-20261021/targets.json'
     if file_sha(targetfile)!=m['target_sha256'] or ss['target_sha256']!=m['target_sha256']:
         raise ValueError('original frozen monthly target changed')
@@ -80,6 +89,7 @@ def main(argv=None):
     if (clean([asdict(e) for e in events])!=json.loads((source/'derived_events.json').read_text())
             or list(receipts)!=json.loads((source/'event_source_receipts.json').read_text())):
         raise ValueError('source event compilation differs from frozen artifacts')
+    validate_compiled_reference_coverage(packets,events)
     bars={c:{r['date']:r for r in v['bars']} for c,v in packets.items()}
     out.mkdir(parents=True);results={}
     for bps in plan['extra_cost_bps']:
