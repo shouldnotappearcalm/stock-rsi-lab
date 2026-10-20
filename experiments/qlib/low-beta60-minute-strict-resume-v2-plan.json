@@ -1,0 +1,35 @@
+{
+  "status": "FROZEN_LOW_BETA60_COMPLETE_CAPTURE_STRICT_LOCAL_RECHECK",
+  "capture_plan_sha256": "0c28aa72b264540852cf6956584b4aeb3ed57ea6918f4bfa1ee91a97dbbf9c33",
+  "capture_manifest_sha256": "4b2cb2b7fb10610b0be878ea722df94e7a0157b6f39382ccfaede65d621086e8",
+  "request_sha256": "ec940fd6956179597604eebdc0b7066e25e59dfbdc6c3303982490fc8b6ef38d",
+  "method_code_sha256": {
+    "scripts/capture_low_beta60_minutes_pre2026.py": "5a1cfa651c593d7867311270d9810aec5ef1ddc5f5f34c6fd735b998e4aad417",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/illiquidity_minute_sources.py": "6823f1a6f14a0b81732f589b4faa83442c434f8fd70b09f128bd0525bddd0fc6",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/admit_low_beta60_minutes_pre2026.py": "bd9b6f1051d06520a257a635314c2b7c27be5c0109faa3f9ff9102eb2554fff7",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "scripts/capture_low_beta60_minutes_pre2026_v2.py": "400ff12f1fcdbb284be9f3a86004f1c9affba6b26d33ae8053998b07d3ec56ff"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/low-beta60-minute-capture-plan.json": "0c28aa72b264540852cf6956584b4aeb3ed57ea6918f4bfa1ee91a97dbbf9c33",
+    "experiments/qlib/low-beta60-minute-capture-manifest.json": "4b2cb2b7fb10610b0be878ea722df94e7a0157b6f39382ccfaede65d621086e8",
+    "experiments/qlib/low-beta60-minute-gap-identities.json": "ec940fd6956179597604eebdc0b7066e25e59dfbdc6c3303982490fc8b6ef38d",
+    "experiments/qlib/low-beta60-minute-source-results.json": "24fd697156e7140c463b54d577782b2a04a4fabe6effb0467556a51c43c8ed63",
+    "experiments/qlib/low-beta60-minute-source-independent-audit.json": "1388eee27dfbc219363d27f68a9b1b954bc80c5c88f379a58dad586a3d4ca2be",
+    "docs/research/low-beta60-minute-strict-resume-v2-2026-10-21.md": "f3a9408195f91416faa6a3138debd3504369da05f2df05501dc0b650dd257b6e",
+    "tests/test_low_beta60_minute_resume_v2.py": "3e3b1fbc2d85038acefb07bb2c441e0accec2c9377d3db4fc647585fda44a7d7"
+  },
+  "allow_source_calls": false,
+  "allow_source_rewrites": false,
+  "existing_fresh_reservations": 493,
+  "source_pairs": 1332,
+  "portfolio_returns_to_compute": false,
+  "new_2026_queries_allowed": false,
+  "objective_achieved": false
+}
