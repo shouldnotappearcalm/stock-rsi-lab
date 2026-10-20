@@ -409,7 +409,16 @@
     "2025_reference_net_pct": 7.96089954924355,
     "average_reference_exposure_pct": 94.63247083163103,
     "reference_max_drawdown_pct": -20.946105729505582,
-    "candidate_unverified_held_marks": 0
+    "candidate_unverified_held_marks": 0,
+    "raw_capture_status": "FROZEN_REQUEST_PENDING_NETWORK",
+    "raw_capture_request_file": "experiments/qlib/budgeted-residual-raw-development-request.json",
+    "raw_capture_request_sha256": "58a914187a42bab8975b23545acae19c37f40f966933da9f6775531dcea04951",
+    "raw_capture_expected_names": 210,
+    "raw_capture_reused_names": 96,
+    "raw_capture_new_names": 114,
+    "raw_capture_maximum_new_queries": 456,
+    "raw_capture_new_queries_executed": 0,
+    "raw_source_admitted_for_account_replay": false
   },
   "strategy_research_history": [
     {
