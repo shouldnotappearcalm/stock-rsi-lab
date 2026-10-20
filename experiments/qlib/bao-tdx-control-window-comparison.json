@@ -1,0 +1,82 @@
+{
+  "status": "TWO_CONTROL_SOURCE_WINDOW_COMPARISON_COMPLETE",
+  "audit_code_sha256": "23446f29b54384a1f64c10f2fe364cfbbee90f79ed6aa578b4d3eba3811f1bb2",
+  "source_probe_manifest_sha256": "5309d80bdd9820575a1481ef843326eea6686ac729974fc1776186022e077cfa",
+  "source_admission_summary_sha256": "54032820d96eda7c06cd745cb41492aae752edfb327892168287d6b72ab1e7ff",
+  "source_minute_manifest_sha256": {
+    "tdx-fixed-order-history-20261017": "def299b792b608f862b3bbc1258195e0b12154c753156625e1a8ec95c4784205",
+    "illiquidity-minutes-dev-20261021": "d8b1759fafd47914f82303b2e2fb2099c1c962bfdf34f8b3c6c1f9a0123fdcb2"
+  },
+  "controls": [
+    {
+      "instrument": "SH600378",
+      "day": "2024-01-02",
+      "windows": 48,
+      "end_close_mismatches": 11,
+      "execution_range_end_close_mismatches": 9,
+      "execution_range_all_sampled_prices_contained": true,
+      "maximum_abs_execution_range_volume_difference_shares": 17900,
+      "distinct_execution_range_volume_differences": [
+        -17900,
+        -100,
+        0,
+        100,
+        200,
+        500,
+        600,
+        1000,
+        2900,
+        17900
+      ],
+      "TDX_packet_sha256": "6b6b2fdde730158e1439a82193da771e6b7089f2b16d7e58fe9159f1cb1bee77",
+      "Bao_packet_sha256": "0475de5e05f5a30f49bcd2336a6a63331f16aa150c154e7996396d4f9f42deda"
+    },
+    {
+      "instrument": "SH603233",
+      "day": "2025-07-01",
+      "windows": 48,
+      "end_close_mismatches": 11,
+      "execution_range_end_close_mismatches": 11,
+      "execution_range_all_sampled_prices_contained": true,
+      "maximum_abs_execution_range_volume_difference_shares": 7600,
+      "distinct_execution_range_volume_differences": [
+        -7300,
+        -2900,
+        -1500,
+        -1000,
+        -700,
+        -600,
+        -500,
+        -300,
+        -200,
+        -100,
+        0,
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        900,
+        1200,
+        1900,
+        2100,
+        7600
+      ],
+      "TDX_packet_sha256": "fb665fe09dd61deaa95396bfc2f775b36db6e8524a7916770b0c16aabd5511b3",
+      "Bao_packet_sha256": "8f5a87bbc009b70ca5741564d8945f0da8b34c40eafb009d8037b2329b49c71d"
+    }
+  ],
+  "windows_compared": 96,
+  "execution_range_windows": 92,
+  "execution_range_end_close_mismatches": 20,
+  "detail_sha256": "3bf13e398ba9e3172fac3565463283b7f8ec442a3dfd32a6e1fa293c72a3a6eb",
+  "source_timing_or_true_volume_certified": false,
+  "uniform_volume_conversion_is_a_verified_fix": false,
+  "source_admission_changed": false,
+  "source_prices_or_volumes_modified": false,
+  "portfolio_returns_computed": false,
+  "2026_market_values_queried": false,
+  "objective_achieved": false
+}

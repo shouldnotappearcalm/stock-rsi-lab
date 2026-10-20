@@ -1,0 +1,70 @@
+{
+  "experiment_id": "single-market-residual-momentum-pre2026-v1",
+  "status": "FROZEN_BEFORE_MARKET_RESIDUAL_MOMENTUM_OUTCOMES",
+  "parent_commit": "60fa54e",
+  "families": [
+    "market_residual_mom36_12_2"
+  ],
+  "descriptive_controls": [
+    "eligible_equal_weight",
+    "total_mom12_2_control"
+  ],
+  "candidate_budget": 1,
+  "capital_CNY": 1000000,
+  "user_selected_capital_CNY": null,
+  "extra_bps": [
+    20,
+    40
+  ],
+  "account_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "source": {
+    "doi": "10.1016/j.jempfin.2011.01.003",
+    "title": "Residual Momentum",
+    "publication_year": 2011,
+    "primary_pdf_url": "https://repub.eur.nl/pub/22252/ResidualMomentum-2011.pdf",
+    "primary_pdf_sha256": "db0ebbbe9de1d46deccef39cc4160416a5df39fd46b5a5ca4045df5b3ec227ee",
+    "read_scope": "PrimaryPDF methodology pages11\u201313; market-onlyrawreturnproxy isnotfullFF3paperreplication"
+  },
+  "design_file": "docs/research/market-residual-momentum-pre2026-plan-2026-10-21.md",
+  "design_sha256": "ed780993745c9f05367941453179ca12d2ad694937be68e4c2adee29f063e1eb",
+  "signal": "Fit36monthly R=alpha+beta*CSI500priceindexreturn+error; rankmean(R-beta*M)/sampleSD across t-12..t-2; alpha retainedasdiagnosticnotranksubtraction; mostrecentmonthincludedonlyinbetafit",
+  "exposure_target": 0.95,
+  "portfolio_selection": "highest floor(N/10), codeascendingties, monthly95%equalweight",
+  "common_eligibility": "HistoricalmainboardCSI500;positiveformationfactor/close/volume;37positivefinite consecutive monthlycloses;nondegenerateregression;>=100and>=80%eligible",
+  "selection_rule": "Onlycandidateat40bp: both2024/2025netpositive, averageexposure>=90%, zerounverifiedheldmarks; neithercontrolcanbeselected",
+  "maximum_selected_followup_leads": 1,
+  "following_stage": "same2024/25raw-shareintradayconfirmation, thenonlyfrozen2026diagnostic",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_market_residual_momentum_pre2026.py": "e54d67bd4b4acbc9133e6dbb5214d5a97cbea569913b1074d746442d019c1776",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/market_residual_momentum.py": "a27cc05c406a01fbdcd379ae4f54c756fa66aa260bcb06aaac488ea3c32cf898"
+  },
+  "input_sha256": {
+    "price_files": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "market_close_sha256": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4",
+  "gap_state_manifest_sha256": "257f3266d366bcc0c3452329efaae23086940394a3d9368b3fa943df2d311fc7",
+  "initial_targets_sha256": "c53444e1377bd5a0cee85099d345328fc0de669f8bc104cc7be601b9fb2ca1c8",
+  "initial_receipts_sha256": "34f3ca0dc750f906442ab8c16b46009b32b56b97b4268de0385183c2b10e62ac",
+  "independent_csv_audit_code_sha256": "764e22a32a46f6a3b4c2c9410a54ba4d8ea554abba98fe15ee3a7ac4cbfd5d93",
+  "2026_values_queried_for_new_candidate": false,
+  "2026_feedback_to_new_variants": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}
