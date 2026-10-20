@@ -1,0 +1,408 @@
+{
+  "status": "FROZEN_TEN_LOW_BETA60_PRIMARY_SOURCE_QUESTIONS",
+  "candidate": "low_beta60",
+  "method_code_sha256": {
+    "scripts/capture_low_beta60_corporate_sources.py": "c91df98195ce46157faf69540dfc14cb63fb9b2e491f205361348d48429092c6",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "protocol_file": "docs/research/low-beta60-corporate-source-plan-2026-10-21.md",
+  "protocol_sha256": "f60933cd06731effeba4e028613437c2b2456ab4c4b88db87a87d73ca598c656",
+  "raw_manifest_sha256": "411e2abe02ebf914c809d6b5acb9b7e2fabacafe7dc88081b980787fb0cd8613",
+  "raw_audit_sha256": "c4dd872731c1eaee0e9b0eaf4acf14ad83142a726f4496edf1d01d7252e24925",
+  "org_map_plan_sha256": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0",
+  "cases": [
+    {
+      "case_id": "SH600167|2024-12-27",
+      "instrument": "SH600167",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.600167",
+        "dividOperateDate": "2024-12-27",
+        "foreAdjustFactor": "0.941185",
+        "backAdjustFactor": "3.674983",
+        "adjustFactor": "3.674983"
+      },
+      "organization_id": "gssh0600167",
+      "publication_day": "2024-12-20"
+    },
+    {
+      "case_id": "SH600998|2024-06-07",
+      "instrument": "SH600998",
+      "kind": "NONCASH",
+      "source_record": {
+        "code": "sh.600998",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-25",
+        "dividPlanAnnounceDate": "2024-04-27",
+        "dividPlanDate": "2024-06-01",
+        "dividRegistDate": "2024-06-06",
+        "dividOperateDate": "2024-06-07",
+        "dividPayDate": "2024-06-07",
+        "dividStockMarketDate": "2024-06-07",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225或0.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10转2.9派2.5元（含税，扣税后2.25或2.5元）",
+        "dividReserveToStockPs": "0.290000"
+      },
+      "organization_id": "9900015627",
+      "publication_day": "2024-06-01"
+    },
+    {
+      "case_id": "SH601098|2024-07-15",
+      "instrument": "SH601098",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.601098",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.910296",
+        "backAdjustFactor": "1.634860",
+        "adjustFactor": "1.634860"
+      },
+      "organization_id": "9900015470",
+      "related_vendor_distribution": {
+        "code": "sh.601098",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-24",
+        "dividPlanAnnounceDate": "2024-04-27",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.55",
+        "dividCashPsAfterTax": "0.495或0.55",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派5.5元（含税，扣税后4.95或5.5元）",
+        "dividReserveToStockPs": ""
+      },
+      "publication_day": "2024-07-05"
+    },
+    {
+      "case_id": "SH601128|2024-05-29",
+      "instrument": "SH601128",
+      "kind": "NONCASH",
+      "source_record": {
+        "code": "sh.601128",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-04-30",
+        "dividPlanAnnounceDate": "2024-03-22",
+        "dividPlanDate": "2024-05-22",
+        "dividRegistDate": "2024-05-28",
+        "dividOperateDate": "2024-05-29",
+        "dividPayDate": "2024-05-29",
+        "dividStockMarketDate": "2024-05-29",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225或0.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10转1派2.5元（含税，扣税后2.25或2.5元）",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "organization_id": "9900023084",
+      "publication_day": "2024-05-22"
+    },
+    {
+      "case_id": "SH601128|2025-06-05",
+      "instrument": "SH601128",
+      "kind": "NONCASH",
+      "source_record": {
+        "code": "sh.601128",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-04-26",
+        "dividPlanAnnounceDate": "2025-03-28",
+        "dividPlanDate": "2025-05-28",
+        "dividRegistDate": "2025-06-04",
+        "dividOperateDate": "2025-06-05",
+        "dividPayDate": "2025-06-05",
+        "dividStockMarketDate": "2025-06-05",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225或0.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10转1派2.5元（含税，扣税后2.25或2.5元）",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "organization_id": "9900023084",
+      "publication_day": "2025-05-28"
+    },
+    {
+      "case_id": "SH601228|2024-07-15",
+      "instrument": "SH601228",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.601228",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.978449",
+        "backAdjustFactor": "1.087319",
+        "adjustFactor": "1.087319"
+      },
+      "organization_id": "9900029141",
+      "related_vendor_distribution": {
+        "code": "sh.601228",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-22",
+        "dividPlanAnnounceDate": "2024-04-09",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.043",
+        "dividCashPsAfterTax": "0.0387或0.043",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派0.43元（含税，扣税后0.387或0.43元）",
+        "dividReserveToStockPs": ""
+      },
+      "publication_day": "2024-07-05"
+    },
+    {
+      "case_id": "SH601928|2024-07-15",
+      "instrument": "SH601928",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.601928",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.908267",
+        "backAdjustFactor": "1.539891",
+        "adjustFactor": "1.539891"
+      },
+      "organization_id": "9900021782",
+      "related_vendor_distribution": {
+        "code": "sh.601928",
+        "dividPreNoticeDate": "2024-03-07",
+        "dividAgmPumDate": "2024-05-17",
+        "dividPlanAnnounceDate": "2024-04-23",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "0.45或0.5",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派5元（含税，扣税后4.5或5元）",
+        "dividReserveToStockPs": ""
+      },
+      "publication_day": "2024-07-05"
+    },
+    {
+      "case_id": "SH603826|2024-06-27",
+      "instrument": "SH603826",
+      "kind": "NONCASH",
+      "source_record": {
+        "code": "sh.603826",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-17",
+        "dividPlanAnnounceDate": "2024-04-26",
+        "dividPlanDate": "2024-06-21",
+        "dividRegistDate": "2024-06-26",
+        "dividOperateDate": "2024-06-27",
+        "dividPayDate": "2024-06-27",
+        "dividStockMarketDate": "2024-06-27",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "0.05或0.1",
+        "dividStocksPs": "0.400000",
+        "dividCashStock": "10送4派1元（含税，扣税后0.5或1元）",
+        "dividReserveToStockPs": ""
+      },
+      "organization_id": "9900030692",
+      "publication_day": "2024-06-21"
+    },
+    {
+      "case_id": "SZ001914|2025-08-14",
+      "instrument": "SZ001914",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sz.001914",
+        "dividOperateDate": "2025-08-14",
+        "foreAdjustFactor": "0.971079",
+        "backAdjustFactor": "6.815053",
+        "adjustFactor": "6.815053"
+      },
+      "organization_id": "gssz0000043",
+      "related_vendor_distribution": {
+        "code": "sz.001914",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-06-18",
+        "dividPlanAnnounceDate": "2025-03-17",
+        "dividPlanDate": "2025-08-06",
+        "dividRegistDate": "2025-08-12",
+        "dividOperateDate": "2025-08-13",
+        "dividPayDate": "2025-08-13",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.240097",
+        "dividCashPsAfterTax": "0.2160877或0.2400974",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派2.400974元（含税，扣税后2.160877或2.400974元）",
+        "dividReserveToStockPs": ""
+      },
+      "publication_day": "2025-08-06"
+    },
+    {
+      "case_id": "SZ002244|2025-08-08",
+      "instrument": "SZ002244",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sz.002244",
+        "dividOperateDate": "2025-08-08",
+        "foreAdjustFactor": "0.991637",
+        "backAdjustFactor": "6.697785",
+        "adjustFactor": "6.697785"
+      },
+      "organization_id": "9900004730",
+      "related_vendor_distribution": {
+        "code": "sz.002244",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-06-10",
+        "dividPlanAnnounceDate": "2025-04-26",
+        "dividPlanDate": "2025-07-31",
+        "dividRegistDate": "2025-08-06",
+        "dividOperateDate": "2025-08-07",
+        "dividPayDate": "2025-08-07",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.082",
+        "dividCashPsAfterTax": "0.0738或0.082",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派0.82元（含税，扣税后0.738或0.82元）",
+        "dividReserveToStockPs": ""
+      },
+      "publication_day": "2025-07-31"
+    }
+  ],
+  "reuse_documents": {
+    "SH600998|2024-06-07": {
+      "directory": "budgeted-residual-corporate-reviewed-20261021",
+      "file": "SH600998-2024-06-01.pdf",
+      "sha256": "ec4723683ff0f75c293129695b99588a3231ba3fd73e77752a1c8502076826f3",
+      "reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "metadata": {
+        "code": "600998",
+        "title": "九州通2023年年度权益分派实施公告",
+        "day": "2024-06-01",
+        "timestamp_ms": 1717171200000,
+        "announcement_id": "1220224086",
+        "pdf_path": "finalpage/2024-06-01/1220224086.PDF",
+        "instrument": "SH600998",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-06-01/1220224086.PDF",
+        "file": "SH600998-2024-06-01.pdf",
+        "sha256": "ec4723683ff0f75c293129695b99588a3231ba3fd73e77752a1c8502076826f3",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/7a805603bf1ec2505d68c1e73eb5a1aa87a30295ad55298d33721ab9c0f4ecd4/request.json",
+          "request_sha256": "4c9f37e816ebb5f27a6ab352aca01d14bcb93c4375e5a624c829e4955fa9c09f",
+          "reserved_file": "queries/7a805603bf1ec2505d68c1e73eb5a1aa87a30295ad55298d33721ab9c0f4ecd4/reserved-1.json",
+          "reserved_sha256": "2159c65497972b258b3aeec10257b9557aa451dadae403b0c1483b0a6a043d57",
+          "response_file": "queries/7a805603bf1ec2505d68c1e73eb5a1aa87a30295ad55298d33721ab9c0f4ecd4/response-1.json",
+          "response_sha256": "fbf9af6ef2c9727806dbb78c65328028f1a8c901dc90c67ea32ef62cdd23d5b2"
+        },
+        "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+      }
+    },
+    "SH601128|2024-05-29": {
+      "directory": "budgeted-residual-corporate-reviewed-20261021",
+      "file": "SH601128-2024-05-22.pdf",
+      "sha256": "a7433696703e9b8ce37f0bdde75b17f3946623272c697f746c17640b84fe5f5d",
+      "reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "metadata": {
+        "code": "601128",
+        "title": "江苏常熟农村商业银行股份有限公司2023年年度权益分派实施公告",
+        "day": "2024-05-22",
+        "timestamp_ms": 1716307200000,
+        "announcement_id": "1220122344",
+        "pdf_path": "finalpage/2024-05-22/1220122344.PDF",
+        "instrument": "SH601128",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-05-22/1220122344.PDF",
+        "file": "SH601128-2024-05-22.pdf",
+        "sha256": "a7433696703e9b8ce37f0bdde75b17f3946623272c697f746c17640b84fe5f5d",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/d145ffc39fc6f58ec2be6bffb425a5e19eb144ce4cd0cb4329913064d19c1d43/request.json",
+          "request_sha256": "76bacbcabd3e5b1ba3e410691ffded9dbff26b062e8553e771a2c017a0ef56aa",
+          "reserved_file": "queries/d145ffc39fc6f58ec2be6bffb425a5e19eb144ce4cd0cb4329913064d19c1d43/reserved-1.json",
+          "reserved_sha256": "518a348780a558c08d78bc8cd1a0859b074f836e130bc817d723d6ff3677ca8c",
+          "response_file": "queries/d145ffc39fc6f58ec2be6bffb425a5e19eb144ce4cd0cb4329913064d19c1d43/response-1.json",
+          "response_sha256": "2124a7c1349dece9b815dafd72224dbe81646e064120c740dcdff4e314f14788"
+        },
+        "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+      }
+    },
+    "SH601128|2025-06-05": {
+      "directory": "budgeted-residual-corporate-reviewed-20261021",
+      "file": "SH601128-2025-05-28.pdf",
+      "sha256": "feced976f31029e64a8d45887f8b0bf1ea17b77541cd35d6e890c24dd4c3500f",
+      "reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "metadata": {
+        "code": "601128",
+        "title": "江苏常熟农村商业银行股份有限公司2024年年度权益分派实施公告",
+        "day": "2025-05-28",
+        "timestamp_ms": 1748361600000,
+        "announcement_id": "1223695580",
+        "pdf_path": "finalpage/2025-05-28/1223695580.PDF",
+        "instrument": "SH601128",
+        "url": "https://static.cninfo.com.cn/finalpage/2025-05-28/1223695580.PDF",
+        "file": "SH601128-2025-05-28.pdf",
+        "sha256": "feced976f31029e64a8d45887f8b0bf1ea17b77541cd35d6e890c24dd4c3500f",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/e9248a2c577d503fe1404c72c976f360051e1ecc439c6b4f9616dd81a790555f/request.json",
+          "request_sha256": "3100e72906d2bb696e4dc62a05f5ee8444e5959f0154fe16174bc19f9d4f2b45",
+          "reserved_file": "queries/e9248a2c577d503fe1404c72c976f360051e1ecc439c6b4f9616dd81a790555f/reserved-1.json",
+          "reserved_sha256": "6cab6e937aacca8fc4cdc8bc0216cf799ec7b0a4cfeb30358609d9c862e8864a",
+          "response_file": "queries/e9248a2c577d503fe1404c72c976f360051e1ecc439c6b4f9616dd81a790555f/response-1.json",
+          "response_sha256": "c85868b5c7cb3e292fe90653d69df59e401e845e635f1fa0198464cfd4ccd4c9"
+        },
+        "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+      }
+    },
+    "SH603826|2024-06-27": {
+      "directory": "illiquidity-corporate-reviewed-20261020",
+      "file": "SH603826-2024-06-21.pdf",
+      "sha256": "5af44a23ebb9baa06ca9e95e9d08cd1c840a5cf18c3cdeebd4b37ece433079a2",
+      "reviewed_manifest_sha256": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4",
+      "metadata": {
+        "code": "603826",
+        "title": "2023年年度权益分派实施公告",
+        "day": "2024-06-21",
+        "timestamp_ms": 1718899200000,
+        "announcement_id": "1220416612",
+        "pdf_path": "finalpage/2024-06-21/1220416612.PDF",
+        "instrument": "SH603826",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-06-21/1220416612.PDF",
+        "file": "SH603826-2024-06-21.pdf",
+        "sha256": "5af44a23ebb9baa06ca9e95e9d08cd1c840a5cf18c3cdeebd4b37ece433079a2"
+      }
+    },
+    "SH600167|2024-12-27": {
+      "directory": "illiquidity-corporate-reviewed-20261020",
+      "file": "SH600167-2024-12-20.pdf",
+      "sha256": "86719f49e32643c2fc44e234acb03678c2a140b6dccdc90245561796cdfc3bb3",
+      "reviewed_manifest_sha256": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4",
+      "metadata": {
+        "code": "600167",
+        "title": "联美量子股份有限公司2024年临时权益分派实施公告",
+        "day": "2024-12-20",
+        "timestamp_ms": 1734624000000,
+        "announcement_id": "1222075984",
+        "pdf_path": "finalpage/2024-12-20/1222075984.PDF",
+        "instrument": "SH600167",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-12-20/1222075984.PDF",
+        "file": "SH600167-2024-12-20.pdf",
+        "sha256": "86719f49e32643c2fc44e234acb03678c2a140b6dccdc90245561796cdfc3bb3",
+        "reused_original_reviewed_manifest_sha256": "a77d0caf8788616fee773c1c4e5a0b9614956cbd0f79732644fee0b0b85b1bd8"
+      }
+    }
+  },
+  "max_pages_per_exact_day": 2,
+  "max_attempts_per_identity": 1,
+  "maximum_consecutive_failed_fresh_cases": 3,
+  "minimum_interval_seconds": 0.3,
+  "maximum_http_query_reservations": 15,
+  "HTTP_redirects_allowed": false,
+  "max_body_bytes": 10485760,
+  "socket_timeout_seconds": 20,
+  "documents_financially_reviewed": false,
+  "raw_source_admitted_for_account_replay": false,
+  "investment_rule_changed": false,
+  "portfolio_returns_computed": false,
+  "new_2026_queries": false,
+  "objective_achieved": false
+}
