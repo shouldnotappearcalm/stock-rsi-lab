@@ -1,0 +1,117 @@
+{
+  "status": "ALL10_PRIMARY_BYTE_CHAINS_VERIFIED_WITH_ORIGINAL_TWO_PARSER_FAILURES_PRESERVED",
+  "audit_code_sha256": "30c9f0caf55da32d97c4d91ac5030e84e0076c6934da6d9f1942e300793b4a17",
+  "initial_manifest_sha256": "4575c850becfa049fa7876dfe1f6fff0869d685f848dde76ed4c8d3cd3bc1158",
+  "continuation_manifest_sha256": "d5368ff85a6a46443d0869d13354e3ea8ccc76426feb1cac58ac227509976e19",
+  "request_sha256": [
+    "d6f63be857682d50c273a30d3d67b94472d52e78d522b40082a9871db6bf7f17",
+    "6167bcdb48cfcb4c330d4112b4f8949422c651dcd06f97d30c0a9442e889a62d"
+  ],
+  "documents": [
+    {
+      "case_id": "SH600998|2024-06-07",
+      "file": "SH600998-2024-06-01.pdf",
+      "sha256": "ec4723683ff0f75c293129695b99588a3231ba3fd73e77752a1c8502076826f3",
+      "publication_day": "2024-06-01",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH601128|2024-05-29",
+      "file": "SH601128-2024-05-22.pdf",
+      "sha256": "a7433696703e9b8ce37f0bdde75b17f3946623272c697f746c17640b84fe5f5d",
+      "publication_day": "2024-05-22",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH601128|2025-06-05",
+      "file": "SH601128-2025-05-28.pdf",
+      "sha256": "feced976f31029e64a8d45887f8b0bf1ea17b77541cd35d6e890c24dd4c3500f",
+      "publication_day": "2025-05-28",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH603826|2024-06-27",
+      "file": "SH603826-2024-06-21.pdf",
+      "sha256": "5af44a23ebb9baa06ca9e95e9d08cd1c840a5cf18c3cdeebd4b37ece433079a2",
+      "publication_day": "2024-06-21",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH600167|2024-12-27",
+      "file": "SH600167-2024-12-20.pdf",
+      "sha256": "86719f49e32643c2fc44e234acb03678c2a140b6dccdc90245561796cdfc3bb3",
+      "publication_day": "2024-12-20",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH601098|2024-07-15",
+      "file": "SH601098-2024-07-05.pdf",
+      "sha256": "86065bbe62101d50566a72a02934719b7e4cfe4b1ebd13f05589a02503b555d2",
+      "publication_day": "2024-07-05",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH601228|2024-07-15",
+      "file": "SH601228-2024-07-05.pdf",
+      "sha256": "2f143ea8feea4a1b364fe38f5a81467b0fe07d591c269ebbc3d15cafa3c213a7",
+      "publication_day": "2024-07-05",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SH601928|2024-07-15",
+      "file": "SH601928-2024-07-05.pdf",
+      "sha256": "cca49ab308e431106399224f486ff6f6c5be5cdd191bcc1a0e6abf2800966dd5",
+      "publication_day": "2024-07-05",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SZ001914|2025-08-14",
+      "file": "SZ001914-2025-08-06.pdf",
+      "sha256": "0805bcd7ad7b6db8b0edd158f8a35509c63ee957ef664897376f269ae111bf74",
+      "publication_day": "2025-08-06",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "case_id": "SZ002244|2025-08-08",
+      "file": "SZ002244-2025-07-31.pdf",
+      "sha256": "16afce827ec2e1c0e1e38ac60642e8baa4099d0aa09faa98dbc08a9efa1f5ed4",
+      "publication_day": "2025-07-31",
+      "byte_and_identity_chain_verified": true
+    }
+  ],
+  "original_selection_errors": {
+    "SZ001914|2025-08-14": {
+      "case_id": "SZ001914|2025-08-14",
+      "error_type": "ValueError",
+      "error": "exact implementation notice is not unique",
+      "HTTP_responses_retained": true,
+      "financial_approval_granted": false
+    },
+    "SZ002244|2025-08-08": {
+      "case_id": "SZ002244|2025-08-08",
+      "error_type": "ValueError",
+      "error": "exact implementation notice is not unique",
+      "HTTP_responses_retained": true,
+      "financial_approval_granted": false
+    }
+  },
+  "initial_HTTP_reservations": 8,
+  "continuation_HTTP_reservations": 2,
+  "combined_HTTP_reservations": 10,
+  "original_combined_HTTP_limit": 15,
+  "new_API_requests_in_continuation": 0,
+  "total_new_list_API_requests": 5,
+  "total_new_PDF_requests": 5,
+  "reused_preexisting_documents": 5,
+  "immutable_query_artifacts_verified": 30,
+  "capture_artifact_counts": [
+    37,
+    19
+  ],
+  "financial_review_completed": false,
+  "historical_arrival_certified": false,
+  "raw_source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "new_2026_queries": false,
+  "objective_achieved": false
+}

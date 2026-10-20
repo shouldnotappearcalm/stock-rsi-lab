@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "LOW_BETA60_RAW_SOURCES_CAPTURED_CORPORATE_ACTION_REVIEW_PENDING",
+    "status": "LOW_BETA60_PRIMARY_NOTICES_REVIEWED_CASH_PRECISION_CONTRACT_PENDING",
     "candidate": "low_beta60",
     "candidate_budget": 1,
     "adaptive_development_not_sealed": true,
@@ -396,7 +396,7 @@
     "raw_share_execution_verified": false,
     "candidate_promoted": false,
     "objective_achieved": false,
-    "next_action": "Freeze primary-source corporate-action review for four noncash distributions and six unmatched adjustment dates; reuse authenticated prior proofs where available. Then freeze same2024/25integer-share/cash and intraday confirmation. No2026ROI or factor change yet.",
+    "next_action": "Implement separately versioned primary-notice cash-precision contract with original row/PDF proof bindings and regression tests; compile179source events without ROI, independently audit, then freeze same2024/25raw-share account and intraday confirmation. No2026ROI/factor changes.",
     "formation_summary_file": "experiments/qlib/low-beta60-pre2026-formations-summary.json",
     "eligible_range": [
       326,
@@ -426,7 +426,27 @@
     "raw_source_errors": 0,
     "raw_source_noncash_distributions_requiring_review": 4,
     "raw_source_adjustment_dates_without_distribution": 6,
-    "raw_source_remaining_missing_names": 0
+    "raw_source_remaining_missing_names": 0,
+    "corporate_initial_capture_manifest_file": "experiments/qlib/low-beta60-corporate-initial-capture-manifest.json",
+    "corporate_continuation_manifest_file": "experiments/qlib/low-beta60-corporate-continuation-manifest.json",
+    "corporate_capture_audit_file": "experiments/qlib/low-beta60-corporate-capture-audit.json",
+    "corporate_reviewed_manifest_file": "experiments/qlib/low-beta60-corporate-reviewed-manifest.json",
+    "primary_questions": 10,
+    "primary_documents_captured": 10,
+    "primary_combined_HTTP_reservations": 10,
+    "primary_original_HTTP_reservation_limit": 15,
+    "primary_original_parser_errors_preserved": 2,
+    "primary_cash_supplements_required": 1,
+    "primary_cash_precision_corrections_pending": 1,
+    "cash_precision_contract_implemented": false,
+    "event_compilation_admitted": false,
+    "all_vendor_adjustment_date_semantics_verified": false,
+    "corporate_source_result_document_file": "docs/research/low-beta60-corporate-results-2026-10-21.md",
+    "independent_primary_content_review_file": "experiments/qlib/low-beta60-primary-content-independent-review.json",
+    "cash_precision_event_plan_file": "docs/research/low-beta60-cash-precision-and-event-plan-2026-10-21.md",
+    "raw_source_noncash_primary_cases_reviewed": 4,
+    "raw_source_later_adjustment_date_semantics_still_unverified": 5,
+    "unsupported_cash_precision_contract_rejected_by_original_compiler": true
   },
   "strategy_research_history": [
     {
