@@ -55,6 +55,31 @@ class LowBeta2026MinuteTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 verify_receipt(Path(directory), CODE, DAY, saved, '116.205.183.150:7709')
 
+    def test_query_request_byte_mutation_is_rejected_even_when_json_is_unchanged(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            journal = QueryJournal(root, max_queries=1, max_attempts=1)
+            saved = query_packet(journal, CODE, DAY, '116.205.183.150:7709', payload)
+            path = next(root.rglob('request.json'))
+            path.write_bytes(path.read_bytes() + b' ')
+            with self.assertRaises(ValueError):
+                verify_receipt(root, CODE, DAY, saved, '116.205.183.150:7709')
+
+    def test_capture_snapshot_bytes_are_bound_to_external_manifest_sha(self):
+        import scripts.low_beta60_2026_minute_sources as module
+        check = getattr(module, 'verify_snapshot', None)
+        self.assertIsNotNone(check, 'external snapshot byte guard missing')
+        with tempfile.TemporaryDirectory() as directory:
+            base = Path(directory)
+            out = base / 'out'
+            m = capture_extension(base, out, {}, [[CODE, DAY]], plan(1), lambda *x: payload())
+            expected = hashlib.sha256((out / 'manifest.json').read_bytes()).hexdigest()
+            check(out, m, expected)
+            path = next(out.glob('capture-snapshot-*.json'))
+            path.write_bytes(path.read_bytes() + b' ')
+            with self.assertRaises(ValueError):
+                check(out, m, expected)
+
     def test_capture_copies_source_bytes_and_refuses_existing_output(self):
         with tempfile.TemporaryDirectory() as directory:
             base = Path(directory)
@@ -115,14 +140,25 @@ class LowBeta2026MinuteTests(unittest.TestCase):
         r = inspect_packet(CODE, DAY, packet, daily)
         self.assertEqual(r['status'], 'ADMITTED_RECONSTRUCTED_ACTIVE_TAPE')
         self.assertEqual(r['windows'], 48)
-        for kind in ('clock', 'price', 'capacity'):
+        for kind in ('clock', 'price', 'capacity', 'none_point', 'bad_clock_type'):
             altered = copy.deepcopy(packet)
             row = dict(daily)
             if kind == 'clock':
                 altered['response']['points'][0]['time'] = DAY + 'T09:32:00+08:00'
             elif kind == 'price':
                 altered['response']['points'][0].update(price_milli=10010, price=10.01)
-            else:
+            elif kind == 'capacity':
                 row['volume'] = '100'
-            with self.subTest(kind=kind), self.assertRaises(ValueError):
-                inspect_packet(CODE, DAY, altered, row)
+            elif kind == 'none_point':
+                altered['response']['points'][0] = None
+            else:
+                altered['response']['points'][0]['time'] = True
+            with self.subTest(kind=kind):
+                try:
+                    inspect_packet(CODE, DAY, altered, row)
+                except ValueError:
+                    pass
+                except Exception as exc:
+                    self.fail('malformed source escaped per-row rejection: ' + type(exc).__name__)
+                else:
+                    self.fail('invalid source accepted')

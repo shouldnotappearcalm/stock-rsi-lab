@@ -61,6 +61,9 @@ def verify_receipt(root, code, day, packet, host):
     request = json.loads((folder / 'request.json').read_text())
     reserved = json.loads((folder / 'reserved-1.json').read_text())
     response = json.loads((folder / 'response-1.json').read_text())
+    canonical_request = (json.dumps(identity, ensure_ascii=False, indent=2, allow_nan=False) + '\n').encode()
+    if (folder / 'request.json').read_bytes() != canonical_request:
+        raise ValueError('immutable source request bytes changed')
     if (request != identity or reserved['identity_sha256'] != key or reserved['attempt'] != 1
             or response['identity_sha256'] != key or response['reservation_sha256'] != file_sha(folder / 'reserved-1.json')
             or packet['instrument'] != code or packet['requested_day'] != day
@@ -80,6 +83,16 @@ def verify_receipt(root, code, day, packet, host):
         raise ValueError('unknown source response status')
 
 
+def verify_snapshot(capture, manifest, expected_manifest_sha256):
+    capture = Path(capture)
+    snapshots = list(capture.glob('capture-snapshot-*.json'))
+    if (file_sha(capture / 'manifest.json') != expected_manifest_sha256 or len(snapshots) != 1
+            or snapshots[0].name != 'capture-snapshot-' + digest(manifest) + '.json'
+            or file_sha(snapshots[0]) != expected_manifest_sha256
+            or json.loads(snapshots[0].read_text()) != manifest):
+        raise ValueError('externally anchored immutable source snapshot bytes changed')
+
+
 def inspect_packet(code, day, packet, daily):
     valid_pair(code, day)
     if (packet['instrument'] != code or packet['requested_day'] != day or daily['date'] != day
@@ -88,7 +101,11 @@ def inspect_packet(code, day, packet, daily):
     record = packet.get('methods', {}).get('minutes.history', packet)
     if record['status'] != 'RESPONSE_CAPTURED':
         raise ValueError('minute source unavailable')
-    facts = inspect_minutes(code, day, record['response'], daily)
+    response = record['response']
+    if (not isinstance(response, dict) or not isinstance(response.get('points'), list)
+            or any(not isinstance(p, dict) or not isinstance(p.get('time'), str) for p in response['points'])):
+        raise ValueError('minute source points and clocks have invalid shapes')
+    facts = inspect_minutes(code, day, response, daily)
     if not facts['last_close_matches'] or facts['traded_points_outside_daily_range']:
         raise ValueError('minute/raw daily price signature mismatch')
     windows = aggregate_minutes(code, date.fromisoformat(day), record['response']['points'])

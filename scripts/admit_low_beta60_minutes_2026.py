@@ -6,7 +6,7 @@ from pathlib import Path
 
 from scripts.capture_low_beta60_minutes_2026 import authenticate_inputs
 from scripts.fundamental_query_journal import file_sha, digest
-from scripts.low_beta60_2026_minute_sources import inspect_packet, verify_receipt
+from scripts.low_beta60_2026_minute_sources import inspect_packet, verify_receipt, verify_snapshot
 
 
 def main(argv=None):
@@ -30,9 +30,7 @@ def main(argv=None):
     expected = set(reused) | {c + '-' + d + '.json' for c, d in fresh}
     if not set(m['per_session_sha256']) <= expected or {p.name for p in (capture / 'sessions').iterdir()} != set(m['per_session_sha256']):
         raise ValueError('unbound source packet or unexpected capture identity')
-    snapshots = list(capture.glob('capture-snapshot-*.json'))
-    if len(snapshots) != 1 or snapshots[0].name != 'capture-snapshot-' + digest(m) + '.json' or json.loads(snapshots[0].read_text()) != m:
-        raise ValueError('immutable captured source snapshot changed')
+    verify_snapshot(capture, m, a.expected_capture_manifest_sha256)
     keys = {digest({'method': 'minutes.history', 'instrument': c, 'requested_day': d,
                     'host': plan['host'], 'include_raw': True}) for c, d in fresh}
     folders = list((capture / 'queries').iterdir())
