@@ -1,0 +1,83 @@
+{
+  "status": "TWO_FROZEN_RAW_DIAGNOSTICS_BLOCKED_ON_ORIGINAL_WOLONG_CAPITAL_TAX_SOURCE",
+  "audit_code_sha256": "27197e231ebf3140c558eeba99bbd36a4113d5723581700c8201208b86ddf257",
+  "summary_sha256": "99e262fc66644f8676b0fb125fd2f9996c71190cf5e5dd43c1d45cabce25daff",
+  "plan_sha256": "db9ab472409450ecfff462779d0e24e62c10cd31f22100b47fa39f86a8bf9a7a",
+  "profiles": [
+    {
+      "extra_cost_bps": 20,
+      "last_account_clock": [
+        "2025-06-26",
+        1
+      ],
+      "events": [
+        {
+          "instrument": "SH600161",
+          "event_id": "3ef06d52d6050910459596334bacd175c1f067904610243fcdb82d23ec38db0d",
+          "recorded": "2024-06-19",
+          "ex_date": "2024-06-20",
+          "registered_quantity": 0,
+          "status": "ACTUAL_RECORD_AND_EX_DATE_ZERO_OWNERSHIP_OBSERVED_IN_FAILED_PREFIX_ONLY"
+        },
+        {
+          "instrument": "SH600580",
+          "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+          "recorded": "2025-06-26",
+          "ex_date": "2025-06-27",
+          "registered_quantity": 1100,
+          "status": "NONZERO_REGISTERED_OWNERSHIP_UNKNOWN_TAX_REJECTED_BEFORE_EX_LEDGER"
+        },
+        {
+          "instrument": "SH603596",
+          "event_id": "e36dbcab01391ecdbae9dc3dbca42c938bfbe992f502ba1f5ae5faf5a0623ed2",
+          "recorded": "2024-05-17",
+          "ex_date": "2024-05-20",
+          "registered_quantity": 0,
+          "status": "ACTUAL_RECORD_AND_EX_DATE_ZERO_OWNERSHIP_OBSERVED_IN_FAILED_PREFIX_ONLY"
+        }
+      ],
+      "failed_state_sha256": "b74dece1dc697c5afa0702512467a89b744a673ab8006891073cd73c2aaf446f"
+    },
+    {
+      "extra_cost_bps": 40,
+      "last_account_clock": [
+        "2025-06-26",
+        1
+      ],
+      "events": [
+        {
+          "instrument": "SH600161",
+          "event_id": "3ef06d52d6050910459596334bacd175c1f067904610243fcdb82d23ec38db0d",
+          "recorded": "2024-06-19",
+          "ex_date": "2024-06-20",
+          "registered_quantity": 0,
+          "status": "ACTUAL_RECORD_AND_EX_DATE_ZERO_OWNERSHIP_OBSERVED_IN_FAILED_PREFIX_ONLY"
+        },
+        {
+          "instrument": "SH600580",
+          "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+          "recorded": "2025-06-26",
+          "ex_date": "2025-06-27",
+          "registered_quantity": 1100,
+          "status": "NONZERO_REGISTERED_OWNERSHIP_UNKNOWN_TAX_REJECTED_BEFORE_EX_LEDGER"
+        },
+        {
+          "instrument": "SH603596",
+          "event_id": "e36dbcab01391ecdbae9dc3dbca42c938bfbe992f502ba1f5ae5faf5a0623ed2",
+          "recorded": "2024-05-17",
+          "ex_date": "2024-05-20",
+          "registered_quantity": 0,
+          "status": "ACTUAL_RECORD_AND_EX_DATE_ZERO_OWNERSHIP_OBSERVED_IN_FAILED_PREFIX_ONLY"
+        }
+      ],
+      "failed_state_sha256": "fb932517d83f4dbab4c44aaf2678910209e9bed27895e46719178d0c67ae808b"
+    }
+  ],
+  "all_six_frozen_local_inputs_and_six_public_evidence_hashes_verified": true,
+  "completed_annual_returns_available": false,
+  "source_tax_override_added": false,
+  "investment_rule_changed": false,
+  "new_2026_queries": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

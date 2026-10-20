@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "BUDGETED_RESIDUAL_SOURCE_EVENTS_COMPILED_RAW_DAILY_ADAPTER_FROZEN",
+    "status": "BUDGETED_RESIDUAL_RAW_DAILY_STOPPED_NONZERO_WOLONG_UNVERIFIED_CAPITAL_TAX",
     "candidate": "market_residual_mom36_12_2",
     "candidate_budget": 1,
     "editable_module": "priorclose_integer_lot_allocation_only",
@@ -393,7 +393,7 @@
     "reference_extra_bps": 40,
     "old_experiment_rejection_preserved": true,
     "new_2026_outcomes_queried": false,
-    "raw_share_confirmation_run": false,
+    "raw_share_confirmation_run": true,
     "candidate_promoted": false,
     "objective_achieved": false,
     "freeze_commit": "feab53b73e8081ebcb43cfe37562286e25be4218",
@@ -455,7 +455,19 @@
     "source_event_independent_byte_reproduction": true,
     "raw_daily_plan_file": "experiments/qlib/budgeted-residual-raw-daily-development-plan.json",
     "raw_daily_plan_sha256": "db9ab472409450ecfff462779d0e24e62c10cd31f22100b47fa39f86a8bf9a7a",
-    "raw_daily_diagnostic_run": false
+    "raw_daily_diagnostic_run": true,
+    "raw_share_confirmation_complete": false,
+    "raw_daily_replay_freeze_commit": "10160b67ca8884166e6c7353bba8de4b6781bafc",
+    "raw_daily_result_file": "experiments/qlib/budgeted-residual-raw-daily-development-results.json",
+    "raw_daily_failure_audit_file": "experiments/qlib/budgeted-residual-raw-daily-failure-audit.json",
+    "raw_daily_proxy_development_gate_passes": false,
+    "raw_daily_complete_annual_returns_available": false,
+    "raw_daily_stop_instrument": "SH600580",
+    "raw_daily_stop_ex_date": "2025-06-27",
+    "raw_daily_record_day": "2025-06-26",
+    "raw_daily_registered_quantity_both_cost_profiles": 1100,
+    "raw_daily_other_unknown_events_actual_zero_in_failed_prefix": 2,
+    "raw_daily_unknown_tax_override_added": false
   },
   "strategy_research_history": [
     {

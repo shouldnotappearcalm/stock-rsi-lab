@@ -1,0 +1,14 @@
+{
+  "status": "FAILED_RAW_DIAGNOSTICS_INDEPENDENTLY_VERIFIED_SOURCE_CONTINUATION_REQUIRED",
+  "replay_freeze_commit": "10160b67ca8884166e6c7353bba8de4b6781bafc",
+  "source_diagnostics_completed": 2,
+  "complete_annual_returns_available": false,
+  "failure_audit_sha256": "731cc33e23fdf740daf21e5305be67ef373f77a86593e9df4bb1f857a0caf6e0",
+  "independent_review": "Verified19methods/6local/6public inputs; independently reconstructed3record positions from fills+stock credits; observed0/1100/0 in both20/40bp.Only earlier/later two have zeroex entries;Wolong rejects beforeex.",
+  "first_failure_audit_source_hash_gap_corrected_before_publication": true,
+  "original_unbound_audit_retained_locally": true,
+  "source_packets_or_account_method_modified": false,
+  "new_2026_queries": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
