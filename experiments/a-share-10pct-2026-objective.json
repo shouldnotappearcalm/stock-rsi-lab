@@ -5175,6 +5175,17 @@
       "minute_execution_verified": false,
       "new_2026_values_or_returns_queried": false,
       "objective_achieved": false
+    },
+    "minute_source_inventory": {
+      "status": "2502_REQUIRED_1584_CACHED_918_UNCACHED_NO_CONFLICT_NO_QUERY",
+      "file": "experiments/qlib/price-delay-minute-inventory.json",
+      "gap_identities_file": "experiments/qlib/price-delay-minute-gap-identities.json",
+      "verification_file": "experiments/qlib/price-delay-minute-inventory-verification.json",
+      "active_pairs": 2502,
+      "cached_valid_pairs": 1584,
+      "uncached_pairs": 918,
+      "source_admitted_for_intraday_replay": false,
+      "new_2026_values_read": false
     }
   }
 }

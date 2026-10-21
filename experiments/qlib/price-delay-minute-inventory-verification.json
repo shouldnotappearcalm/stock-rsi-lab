@@ -1,0 +1,31 @@
+{
+  "status": "FIXED_PRE2026_MINUTE_PREFIX_INVENTORIED_NO_CAPTURE_OR_ACCOUNT",
+  "frozen_inventory_method_commit": "0e55bf1",
+  "method_code_sha256": {
+    "scripts/inventory_price_delay_minutes_pre2026.py": "2428de97e0c7a87368c4ce4ffdb7bda2114ef51c8005ccde55cb3ba937f73c48",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/illiquidity_minute_sources.py": "6823f1a6f14a0b81732f589b4faa83442c434f8fd70b09f128bd0525bddd0fc6",
+    "scripts/admit_low_beta60_minutes_pre2026.py": "bd9b6f1051d06520a257a635314c2b7c27be5c0109faa3f9ff9102eb2554fff7",
+    "scripts/capture_low_beta60_minutes_pre2026.py": "5a1cfa651c593d7867311270d9810aec5ef1ddc5f5f34c6fd735b998e4aad417",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46"
+  },
+  "inventory_summary_sha256": "b7051b8ae5049b129458bc3830b783d890a97fb33bbb71807e3a48095221665a",
+  "inventory_details_sha256": "eeb6b6b2bbd36c732f2bddbeedee1058295eab905d35b71e958908efc14c6bf9",
+  "public_gap_identities_sha256": "8c9ce7b9e9519f86349447f3e3bb3760b12e610b8dcd59a8a2c417a0babd4dee",
+  "active_pairs": 2502,
+  "cached_valid_pairs": 1584,
+  "fresh_pairs_to_request": 918,
+  "references_checked": 2261,
+  "nonexecuting_intervals": 2,
+  "cached_conflicts": 0,
+  "cached_invalid": 0,
+  "new_source_queries": 0,
+  "source_admitted_for_intraday_replay": false,
+  "new_2026_values_read": false,
+  "objective_achieved": false
+}
