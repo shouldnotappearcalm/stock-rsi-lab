@@ -1,0 +1,17 @@
+{
+  "raw_manifest_sha256": "273ca456409168d06070e190c78fff850810cb1dbcc178accb69c87ba6880f5d",
+  "all127_packets_authenticated": true,
+  "all123_accepted_packets_byte_exact": true,
+  "all_original103_prefixes_identical": true,
+  "all54_original_financial_files_unchanged": true,
+  "all_v1_source_bytes_and_four_errors_unchanged": true,
+  "coordinate_revisions": [
+    "SZ000563",
+    "SZ000783",
+    "SZ002608",
+    "SZ002756"
+  ],
+  "source_queries": 0,
+  "portfolio_returns_computed": false,
+  "account_admission": false
+}

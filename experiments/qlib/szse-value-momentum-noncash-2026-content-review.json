@@ -1,0 +1,651 @@
+{
+  "status": "INDEPENDENT_FIVE_NONCASH_PRIMARY_CONTENT_REVIEW_COMPLETE_LIMITED_INFERENCE",
+  "capture_directory": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-noncash-2026-capture-20261021",
+  "capture_manifest_sha256": "faa7a5ec488e6b35021d96ce5d379cfa9e37c32d4b0fe8073bd98bb1a86d5a04",
+  "request_sha256": "51556053066c9fa72213ee3fb12bcc5caecdd13dc2184a9c8a383bf1c3d56a80",
+  "documents": [
+    {
+      "instrument": "SZ000034",
+      "document_id": "SZ000034-20260512",
+      "issuer": "神州数码集团股份有限公司",
+      "short_name": "神州数码",
+      "announcement_number": "2026-053",
+      "signature_day": "2026-05-12",
+      "record_date": "2026-05-18",
+      "ex_date": "2026-05-19",
+      "cash_payment_date": "2026-05-19",
+      "listed_date": "2026-05-19",
+      "cash_per_original_share_CNY": "0.073",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0.4",
+      "cash_per_10_original_shares_CNY": "0.73",
+      "capital_per_10_original_shares": "4",
+      "explicit_tax_within_1month_per_10_original_shares_CNY": "0.146",
+      "premium_source_text_strength": "EXPLICIT_PREMIUM_FORMED_CAPITAL_RESERVE_SOURCE",
+      "premium_source_quote": "同时以资本溢价形成的资本公积向全体股东每10股转增4股",
+      "premium_source_page": 1,
+      "explicit_tax_quote": "每10股补缴税款0.146元",
+      "explicit_tax_page": 2,
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash_capital_stock": [
+          1,
+          2
+        ],
+        "record_ex_listed": [
+          2
+        ],
+        "cash_payment": [
+          3
+        ],
+        "signature": [
+          4
+        ]
+      },
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "notes": [
+        "Final implementation base726242617replaces earlier724991225because option exercises; fixed0.073cash/.4capital ratio remains unchanged.",
+        "Cash distribution for the named judicially frozen self-paying shareholder follows court requirements; ordinary delegated payment date does not certify that special settlement."
+      ],
+      "file": "SZ000034-20260512.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-noncash-2026-capture-20261021/SZ000034-20260512.pdf",
+      "sha256": "935ebdd4f61cd041f006b7f556a3fd1e3162f59afcc4ce05e6491e6cd620ae0b",
+      "publication_day": "2026-05-12",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-05-12/1225292672.PDF",
+      "conservative_publication_day": "2026-05-12",
+      "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "capital_tax_exempt_inference_supported": true,
+      "strict_statutory_capital_tax_certification": false,
+      "tax_amount_check": {
+        "cash_per10_CNY": "0.73",
+        "rate": "0.20",
+        "computed_cash_tax_per10_CNY": "0.1460",
+        "notice_explicit_tax_per10_CNY": "0.146",
+        "exact_decimal_equality": true,
+        "rounding_used": false,
+        "applies_to": "Notice example for postIPOrestricted/incentive/unrestricted individual shares held<=1month; not all taxpayer classes."
+      },
+      "inference_scope": "Paired issuer notice premium-related wording and explicit cash-only20percent tax amount support an event-specific limited inference for the inherited fixed stress scenario. Not a general tax opinion, strict statutory source certification, or actual investor tax assessment.",
+      "notice_explicit_statutory_transfer_exemption_statement_found": false,
+      "unknowns": [
+        "No independent reserve-account source tracing, tax authority ruling, or investor-specific FIFO liability verified.",
+        "Fractional-share allocation uses registry tail ordering/random ties and final registry confirmation; this review does not predict individual rounded entitlements or authorize synthetic rounding.",
+        "Actual historical publication arrival/time and actual cash/share receipt not certified."
+      ],
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "vendor_comparison": {
+        "source_packet_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/codes/SZ000034.json",
+        "source_packet_sha256": "f6c18ba3cfa1b5104a8784c2c7e9f97bf8030d2e2bb2dbd164f3ea96b5be2117",
+        "vendor_record": {
+          "code": "sz.000034",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-04-23",
+          "dividPlanAnnounceDate": "2026-03-31",
+          "dividPlanDate": "2026-05-12",
+          "dividRegistDate": "2026-05-18",
+          "dividOperateDate": "2026-05-19",
+          "dividPayDate": "2026-05-19",
+          "dividStockMarketDate": "2026-05-19",
+          "dividCashPsBeforeTax": "0.073",
+          "dividCashPsAfterTax": "0.0657或0.073",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转4派0.73元（含税，扣税后0.657或0.73元）",
+          "dividReserveToStockPs": "0.400000"
+        },
+        "compared_primary_fields_agree": {
+          "record_date": true,
+          "ex_date": true,
+          "cash_payment_date": true,
+          "listed_date": true,
+          "gross_cash": true,
+          "stock": true,
+          "capital": true
+        },
+        "contradictions_in_compared_fields": [],
+        "cash_after_tax_not_a_single_universal_net_rate": true,
+        "other_vendor_plan_or_AGM_metadata_not_reclassified": true
+      }
+    },
+    {
+      "instrument": "SZ001309",
+      "document_id": "SZ001309-20260929",
+      "issuer": "深圳市德明利技术股份有限公司",
+      "short_name": "德明利",
+      "announcement_number": "2026-085",
+      "signature_day": "2026-09-28",
+      "record_date": "2026-10-12",
+      "ex_date": "2026-10-13",
+      "cash_payment_date": "2026-10-13",
+      "listed_date": "2026-10-13",
+      "cash_per_original_share_CNY": "1.5",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0.4",
+      "cash_per_10_original_shares_CNY": "15.000000",
+      "capital_per_10_original_shares": "4.000000",
+      "explicit_tax_within_1month_per_10_original_shares_CNY": "3.000000",
+      "premium_source_text_strength": "TRANSFER_AMOUNT_WITHIN_SHARE_PREMIUM_BALANCE_NOT_EXCLUSIVE_SOURCE_TRACING",
+      "premium_source_quote": "转增金额未超过报告期末“资本公积--股本溢价”的余额",
+      "premium_source_page": 1,
+      "explicit_tax_quote": "每10股补缴税款3.000000元",
+      "explicit_tax_page": 2,
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash_capital_stock": [
+          1,
+          2
+        ],
+        "record_ex": [
+          2
+        ],
+        "cash_payment_listed": [
+          3
+        ],
+        "signature": [
+          4
+        ]
+      },
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "notes": [
+        "PDF signedSep28but captured publication daySep29; preserve both and use conservativeSep29for document availability."
+      ],
+      "file": "SZ001309-20260929.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-noncash-2026-capture-20261021/SZ001309-20260929.pdf",
+      "sha256": "d830099d394f2615a67e5366d119ec030bd829ee4821b8454b982162aff3d87d",
+      "publication_day": "2026-09-29",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-09-29/1225585295.PDF",
+      "conservative_publication_day": "2026-09-29",
+      "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "capital_tax_exempt_inference_supported": true,
+      "strict_statutory_capital_tax_certification": false,
+      "tax_amount_check": {
+        "cash_per10_CNY": "15.000000",
+        "rate": "0.20",
+        "computed_cash_tax_per10_CNY": "3.00000000",
+        "notice_explicit_tax_per10_CNY": "3.000000",
+        "exact_decimal_equality": true,
+        "rounding_used": false,
+        "applies_to": "Notice example for postIPOrestricted/incentive/unrestricted individual shares held<=1month; not all taxpayer classes."
+      },
+      "inference_scope": "Paired issuer notice premium-related wording and explicit cash-only20percent tax amount support an event-specific limited inference for the inherited fixed stress scenario. Not a general tax opinion, strict statutory source certification, or actual investor tax assessment.",
+      "notice_explicit_statutory_transfer_exemption_statement_found": false,
+      "unknowns": [
+        "No independent reserve-account source tracing, tax authority ruling, or investor-specific FIFO liability verified.",
+        "Fractional-share allocation uses registry tail ordering/random ties and final registry confirmation; this review does not predict individual rounded entitlements or authorize synthetic rounding.",
+        "Actual historical publication arrival/time and actual cash/share receipt not certified.",
+        "Not-exceeding-share-premium-balance text alone does not prove the entire transfer was exclusively sourced from legally qualifying share premium; boolean support relies on the paired explicit tax amount only at limited inference level."
+      ],
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "vendor_comparison": {
+        "source_packet_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/codes/SZ001309.json",
+        "source_packet_sha256": "33907d03e083371ff9fbc4f7baa6495358a6f7178a2855ec073e53a5f02b3ee6",
+        "vendor_record": {
+          "code": "sz.001309",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-09-15",
+          "dividPlanAnnounceDate": "2026-08-28",
+          "dividPlanDate": "2026-09-29",
+          "dividRegistDate": "2026-10-12",
+          "dividOperateDate": "2026-10-13",
+          "dividPayDate": "2026-10-13",
+          "dividStockMarketDate": "2026-10-13",
+          "dividCashPsBeforeTax": "1.5",
+          "dividCashPsAfterTax": "1.35或1.5",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转4派15元（含税，扣税后13.5或15元）",
+          "dividReserveToStockPs": "0.400000"
+        },
+        "compared_primary_fields_agree": {
+          "record_date": true,
+          "ex_date": true,
+          "cash_payment_date": true,
+          "listed_date": true,
+          "gross_cash": true,
+          "stock": true,
+          "capital": true
+        },
+        "contradictions_in_compared_fields": [],
+        "cash_after_tax_not_a_single_universal_net_rate": true,
+        "other_vendor_plan_or_AGM_metadata_not_reclassified": true
+      }
+    },
+    {
+      "instrument": "SZ002335",
+      "document_id": "SZ002335-20260522",
+      "issuer": "科华数据股份有限公司",
+      "short_name": "科华数据",
+      "announcement_number": "2026-029",
+      "signature_day": "2026-05-22",
+      "record_date": "2026-05-28",
+      "ex_date": "2026-05-29",
+      "cash_payment_date": "2026-05-29",
+      "listed_date": "2026-05-29",
+      "cash_per_original_share_CNY": "0.5",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0.45",
+      "cash_per_10_original_shares_CNY": "5.00",
+      "capital_per_10_original_shares": "4.50",
+      "explicit_tax_within_1month_per_10_original_shares_CNY": "1.00",
+      "premium_source_text_strength": "TRANSFER_AMOUNT_WITHIN_SHARE_PREMIUM_BALANCE_NOT_EXCLUSIVE_SOURCE_TRACING",
+      "premium_source_quote": "转增金额未超过2025年末母公司“资本公积-股本溢价”的余额",
+      "premium_source_page": 1,
+      "explicit_tax_quote": "每10股补缴税款1.00元",
+      "explicit_tax_page": 2,
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash_capital_stock": [
+          1,
+          2
+        ],
+        "record_ex_cash_payment": [
+          2
+        ],
+        "listed_signature": [
+          3
+        ]
+      },
+      "primary_pages": [
+        1,
+        2,
+        3
+      ],
+      "notes": [],
+      "file": "SZ002335-20260522.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-noncash-2026-capture-20261021/SZ002335-20260522.pdf",
+      "sha256": "f0a9233c95884f9afb86b09749f18da7326f1c3da67e6f58d4adaef6d3d49d26",
+      "publication_day": "2026-05-22",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-05-22/1225323212.PDF",
+      "conservative_publication_day": "2026-05-22",
+      "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "capital_tax_exempt_inference_supported": true,
+      "strict_statutory_capital_tax_certification": false,
+      "tax_amount_check": {
+        "cash_per10_CNY": "5.00",
+        "rate": "0.20",
+        "computed_cash_tax_per10_CNY": "1.0000",
+        "notice_explicit_tax_per10_CNY": "1.00",
+        "exact_decimal_equality": true,
+        "rounding_used": false,
+        "applies_to": "Notice example for postIPOrestricted/incentive/unrestricted individual shares held<=1month; not all taxpayer classes."
+      },
+      "inference_scope": "Paired issuer notice premium-related wording and explicit cash-only20percent tax amount support an event-specific limited inference for the inherited fixed stress scenario. Not a general tax opinion, strict statutory source certification, or actual investor tax assessment.",
+      "notice_explicit_statutory_transfer_exemption_statement_found": false,
+      "unknowns": [
+        "No independent reserve-account source tracing, tax authority ruling, or investor-specific FIFO liability verified.",
+        "Fractional-share allocation uses registry tail ordering/random ties and final registry confirmation; this review does not predict individual rounded entitlements or authorize synthetic rounding.",
+        "Actual historical publication arrival/time and actual cash/share receipt not certified.",
+        "Not-exceeding-share-premium-balance text alone does not prove the entire transfer was exclusively sourced from legally qualifying share premium; boolean support relies on the paired explicit tax amount only at limited inference level."
+      ],
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3
+      ],
+      "vendor_comparison": {
+        "source_packet_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/codes/SZ002335.json",
+        "source_packet_sha256": "aff3ca4fa02d46c487a91df8cf0f814507a6d102de26f864b27b6d979ffc6bf8",
+        "vendor_record": {
+          "code": "sz.002335",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-05-19",
+          "dividPlanAnnounceDate": "2026-04-27",
+          "dividPlanDate": "2026-05-22",
+          "dividRegistDate": "2026-05-28",
+          "dividOperateDate": "2026-05-29",
+          "dividPayDate": "2026-05-29",
+          "dividStockMarketDate": "2026-05-29",
+          "dividCashPsBeforeTax": "0.5",
+          "dividCashPsAfterTax": "0.45或0.5",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转4.5派5元（含税，扣税后4.5或5元）",
+          "dividReserveToStockPs": "0.450000"
+        },
+        "compared_primary_fields_agree": {
+          "record_date": true,
+          "ex_date": true,
+          "cash_payment_date": true,
+          "listed_date": true,
+          "gross_cash": true,
+          "stock": true,
+          "capital": true
+        },
+        "contradictions_in_compared_fields": [],
+        "cash_after_tax_not_a_single_universal_net_rate": true,
+        "other_vendor_plan_or_AGM_metadata_not_reclassified": true
+      }
+    },
+    {
+      "instrument": "SZ002595",
+      "document_id": "SZ002595-20260430",
+      "issuer": "山东豪迈机械科技股份有限公司",
+      "short_name": "豪迈科技",
+      "announcement_number": "2026-018",
+      "signature_day": "2026-04-29",
+      "record_date": "2026-05-08",
+      "ex_date": "2026-05-11",
+      "cash_payment_date": "2026-05-11",
+      "listed_date": "2026-05-11",
+      "cash_per_original_share_CNY": "1",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0.45",
+      "cash_per_10_original_shares_CNY": "10.000000",
+      "capital_per_10_original_shares": "4.500000",
+      "explicit_tax_within_1month_per_10_original_shares_CNY": "2.000000",
+      "premium_source_text_strength": "TRANSFER_AMOUNT_WITHIN_SHARE_PREMIUM_BALANCE_NOT_EXCLUSIVE_SOURCE_TRACING",
+      "premium_source_quote": "转增金额未超过报告期末母公司“资本公积-股本溢价”的余额",
+      "premium_source_page": 1,
+      "explicit_tax_quote": "每10股补缴税款2.000000元",
+      "explicit_tax_page": 2,
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash_capital_stock": [
+          1,
+          2
+        ],
+        "record_ex_cash_payment_listed": [
+          2
+        ],
+        "signature": [
+          3
+        ]
+      },
+      "primary_pages": [
+        1,
+        2,
+        3
+      ],
+      "notes": [
+        "PDF signedApr29but captured publication dayApr30; preserve both and use conservativeApr30for document availability."
+      ],
+      "file": "SZ002595-20260430.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-noncash-2026-capture-20261021/SZ002595-20260430.pdf",
+      "sha256": "57cc64295dec15d54885c8d3256c65e02faa8276da53faf0e121c5c769a4dadc",
+      "publication_day": "2026-04-30",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225256197.PDF",
+      "conservative_publication_day": "2026-04-30",
+      "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "capital_tax_exempt_inference_supported": true,
+      "strict_statutory_capital_tax_certification": false,
+      "tax_amount_check": {
+        "cash_per10_CNY": "10.000000",
+        "rate": "0.20",
+        "computed_cash_tax_per10_CNY": "2.00000000",
+        "notice_explicit_tax_per10_CNY": "2.000000",
+        "exact_decimal_equality": true,
+        "rounding_used": false,
+        "applies_to": "Notice example for postIPOrestricted/incentive/unrestricted individual shares held<=1month; not all taxpayer classes."
+      },
+      "inference_scope": "Paired issuer notice premium-related wording and explicit cash-only20percent tax amount support an event-specific limited inference for the inherited fixed stress scenario. Not a general tax opinion, strict statutory source certification, or actual investor tax assessment.",
+      "notice_explicit_statutory_transfer_exemption_statement_found": false,
+      "unknowns": [
+        "No independent reserve-account source tracing, tax authority ruling, or investor-specific FIFO liability verified.",
+        "Fractional-share allocation uses registry tail ordering/random ties and final registry confirmation; this review does not predict individual rounded entitlements or authorize synthetic rounding.",
+        "Actual historical publication arrival/time and actual cash/share receipt not certified.",
+        "Not-exceeding-share-premium-balance text alone does not prove the entire transfer was exclusively sourced from legally qualifying share premium; boolean support relies on the paired explicit tax amount only at limited inference level."
+      ],
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3
+      ],
+      "vendor_comparison": {
+        "source_packet_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/codes/SZ002595.json",
+        "source_packet_sha256": "c7b318f85391d9f77247e26c65e5ff1487eb4ce203252845144d1f0538e868b1",
+        "vendor_record": {
+          "code": "sz.002595",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-04-28",
+          "dividPlanAnnounceDate": "2026-03-31",
+          "dividPlanDate": "2026-04-30",
+          "dividRegistDate": "2026-05-08",
+          "dividOperateDate": "2026-05-11",
+          "dividPayDate": "2026-05-11",
+          "dividStockMarketDate": "2026-05-11",
+          "dividCashPsBeforeTax": "1",
+          "dividCashPsAfterTax": "0.9或1",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转4.5派10元（含税，扣税后9或10元）",
+          "dividReserveToStockPs": "0.450000"
+        },
+        "compared_primary_fields_agree": {
+          "record_date": true,
+          "ex_date": true,
+          "cash_payment_date": true,
+          "listed_date": true,
+          "gross_cash": true,
+          "stock": true,
+          "capital": true
+        },
+        "contradictions_in_compared_fields": [],
+        "cash_after_tax_not_a_single_universal_net_rate": true,
+        "other_vendor_plan_or_AGM_metadata_not_reclassified": true
+      }
+    },
+    {
+      "instrument": "SZ002837",
+      "document_id": "SZ002837-20260523",
+      "issuer": "深圳市英维克科技股份有限公司",
+      "short_name": "英维克",
+      "announcement_number": "2026-021",
+      "signature_day": "2026-05-23",
+      "record_date": "2026-05-29",
+      "ex_date": "2026-06-01",
+      "cash_payment_date": "2026-06-01",
+      "listed_date": "2026-06-01",
+      "cash_per_original_share_CNY": "0.17",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0.3",
+      "cash_per_10_original_shares_CNY": "1.700000",
+      "capital_per_10_original_shares": "3.000000",
+      "explicit_tax_within_1month_per_10_original_shares_CNY": "0.340000",
+      "premium_source_text_strength": "TRANSFER_AMOUNT_WITHIN_SHARE_PREMIUM_BALANCE_NOT_EXCLUSIVE_SOURCE_TRACING",
+      "premium_source_quote": "转增金额未超过报告期末“资本公积——股本溢价”的余额",
+      "premium_source_page": 1,
+      "explicit_tax_quote": "每10股补缴税款0.340000元",
+      "explicit_tax_page": 2,
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash_capital_stock": [
+          1,
+          2
+        ],
+        "record_ex_share_credit": [
+          2
+        ],
+        "cash_payment_listed": [
+          3
+        ],
+        "signature": [
+          4
+        ]
+      },
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "notes": [
+        "Final implementation base980268994replaces earlier977440581because option exercises; cash.17/capital.3ratios unchanged. No2024/2025tax inference is silently broadened to this event; evidence is this separate2026notice."
+      ],
+      "file": "SZ002837-20260523.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-noncash-2026-capture-20261021/SZ002837-20260523.pdf",
+      "sha256": "272db3d49eb318fad0b682741ea9c56f3f854e7a2ff3dbb6d1d0ec0ae4ce5895",
+      "publication_day": "2026-05-23",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-05-23/1225326690.PDF",
+      "conservative_publication_day": "2026-05-23",
+      "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "capital_tax_exempt_inference_supported": true,
+      "strict_statutory_capital_tax_certification": false,
+      "tax_amount_check": {
+        "cash_per10_CNY": "1.700000",
+        "rate": "0.20",
+        "computed_cash_tax_per10_CNY": "0.34000000",
+        "notice_explicit_tax_per10_CNY": "0.340000",
+        "exact_decimal_equality": true,
+        "rounding_used": false,
+        "applies_to": "Notice example for postIPOrestricted/incentive/unrestricted individual shares held<=1month; not all taxpayer classes."
+      },
+      "inference_scope": "Paired issuer notice premium-related wording and explicit cash-only20percent tax amount support an event-specific limited inference for the inherited fixed stress scenario. Not a general tax opinion, strict statutory source certification, or actual investor tax assessment.",
+      "notice_explicit_statutory_transfer_exemption_statement_found": false,
+      "unknowns": [
+        "No independent reserve-account source tracing, tax authority ruling, or investor-specific FIFO liability verified.",
+        "Fractional-share allocation uses registry tail ordering/random ties and final registry confirmation; this review does not predict individual rounded entitlements or authorize synthetic rounding.",
+        "Actual historical publication arrival/time and actual cash/share receipt not certified.",
+        "Not-exceeding-share-premium-balance text alone does not prove the entire transfer was exclusively sourced from legally qualifying share premium; boolean support relies on the paired explicit tax amount only at limited inference level."
+      ],
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "vendor_comparison": {
+        "source_packet_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/codes/SZ002837.json",
+        "source_packet_sha256": "7b47f4f4509c0e9eeb204b57ba4f85e77b4ff69cdd973a21beec8174a26afe49",
+        "vendor_record": {
+          "code": "sz.002837",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-05-13",
+          "dividPlanAnnounceDate": "2026-04-21",
+          "dividPlanDate": "2026-05-23",
+          "dividRegistDate": "2026-05-29",
+          "dividOperateDate": "2026-06-01",
+          "dividPayDate": "2026-06-01",
+          "dividStockMarketDate": "2026-06-01",
+          "dividCashPsBeforeTax": "0.17",
+          "dividCashPsAfterTax": "0.153或0.17",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转3派1.7元（含税，扣税后1.53或1.7元）",
+          "dividReserveToStockPs": "0.300000"
+        },
+        "compared_primary_fields_agree": {
+          "record_date": true,
+          "ex_date": true,
+          "cash_payment_date": true,
+          "listed_date": true,
+          "gross_cash": true,
+          "stock": true,
+          "capital": true
+        },
+        "contradictions_in_compared_fields": [],
+        "cash_after_tax_not_a_single_universal_net_rate": true,
+        "other_vendor_plan_or_AGM_metadata_not_reclassified": true
+      }
+    }
+  ],
+  "document_count": 5,
+  "total_original_pages_reviewed": 18,
+  "all_requested_economic_and_timing_fields_transcribed": true,
+  "all5cash20percent_tax_amount_equalities_exact": true,
+  "all5event_specific_limited_capital_tax_inferences_supported": true,
+  "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+  "strict_statutory_capital_tax_certification": false,
+  "key_distinction": "000034explicitly says capital reserves formed by capital premium. The other four cite transfer amount not exceeding a share-premium balance. None is promoted to strict statutory exclusive-source certification; exact cash×20percent=stated tax is paired limited event-specific evidence, not proof from balance alone.",
+  "vendor_record_comparison": "Gross cash,stock/capital ratios,record/ex/pay/listed dates agree for all five source records; no contradiction found in these compared fields. Original raw packets and their flags remain unchanged.",
+  "original_4inference_level_preserved": true,
+  "SZ000937_included_in_documents": false,
+  "SZ000937_existing_unknown_guard": "No inference/exemption proof is created forSZ000937; existing unknown tax guard is unchanged and must still stop unsupported positive-owned entitlements.",
+  "review_method": "Bundledpypdf6.10.0 independently re-extracted all18pages; all18rendered pages visually reviewed in complete-document contact sheets; originalPDF/manifest/all bound artifact hashes verified; direct Decimal arithmetic for explicit per10share cash/tax comparison; no account or return model imported.",
+  "limits": [
+    "This is primary content/evidence review only, not source/account admission or full corporate-action completeness.",
+    "Publication days are captured official URL/manifest labels; signature dates and conservative publication days are separately retained. Historical actual arrival is unverified.",
+    "Limited inference covers only each named event and indicated ordinary investor tax example. It does not certify universal exemption, actualFIFOtax, reserve-account exclusivity or other2026capital events.",
+    "Cash payment and unrestricted-share listing dates are issuer-declared schedules; actual settlement, restricted shares, and registry fractional allocation remain unverified."
+  ],
+  "admitted_for_account_replay": false,
+  "source_packets_or_prior_proofs_modified": false,
+  "investment_rules_changed": false,
+  "network_calls_by_reviewer": 0,
+  "account_or_ROI_computed": false,
+  "extraction_script": "/tmp/szse-value-momentum-noncash-primary-extract-20261021.py",
+  "extraction_script_sha256": "29a1d39e66cc422a7a06ce7636ad1897ebcc9a775aa9fc64475de838fd5d2d50",
+  "review_script": "/tmp/szse-value-momentum-noncash-content-report-20261021.py",
+  "review_script_sha256": "e3f266341106bac5f70af41c18e8f561219e1a7827e92587e6dc6f81fba1cfc1",
+  "independent_extracted_pages": "/tmp/szse-value-momentum-noncash-primary-visual-review-20261021/independent-extracted-pages.json",
+  "independent_extracted_pages_sha256": "df7f4a396814abb1f55f8cf37202502fe03f1fa7a784d710caaf4269888b434c",
+  "visual_contact_sheets": [
+    {
+      "document_id": "SZ000034-20260512",
+      "file": "/tmp/szse-value-momentum-noncash-primary-visual-review-20261021/SZ000034-20260512-contact.png",
+      "sha256": "9fc1ce147596c1fdb15c35016b3871d59614a0b6f7468d8667dd874a7aee8b96"
+    },
+    {
+      "document_id": "SZ001309-20260929",
+      "file": "/tmp/szse-value-momentum-noncash-primary-visual-review-20261021/SZ001309-20260929-contact.png",
+      "sha256": "c412bf8da6eaa1c4214c5cc9cd7eeebde2644be595ae5c2ae03483cfd619f8b7"
+    },
+    {
+      "document_id": "SZ002335-20260522",
+      "file": "/tmp/szse-value-momentum-noncash-primary-visual-review-20261021/SZ002335-20260522-contact.png",
+      "sha256": "ddead156bb8733a7148136277874c85cb250fe548f55200dc9d1a941da45b98f"
+    },
+    {
+      "document_id": "SZ002595-20260430",
+      "file": "/tmp/szse-value-momentum-noncash-primary-visual-review-20261021/SZ002595-20260430-contact.png",
+      "sha256": "b3f106509c34ce7d79a0b77198d3a8501a52af823045fd4e445c43066f5e2d3d"
+    },
+    {
+      "document_id": "SZ002837-20260523",
+      "file": "/tmp/szse-value-momentum-noncash-primary-visual-review-20261021/SZ002837-20260523-contact.png",
+      "sha256": "02a4240870860225807c5cad88e36c19fb41aed63acf5c4365bd578f2e0f0ca0"
+    }
+  ]
+}
