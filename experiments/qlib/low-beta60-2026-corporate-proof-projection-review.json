@@ -1,0 +1,46 @@
+{
+  "status": "PROJECTION_CROSSCHECK_PASS_NO_NEW_FINANCIAL_ADMISSION",
+  "reviewed_projection_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+  "repo_and_local_projection_byte_identical": true,
+  "copied_pdf_count": 6,
+  "all_pdf_copies_match_capture_and_prior_review": true,
+  "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf",
+  "raw_manifest_sha256": "10f645719228d50c439e166bbfe65959b5ff517668c2ecc8ffc4fca4e1680ea7",
+  "immutable_prior_review_sha256": "8a78937656054e77e4107a13d85d7d8475a1d1d1c2bfb11caba64cabc563c960",
+  "bound_raw_packet_hashes_checked": [
+    "SH601128",
+    "SH603826",
+    "SH601918",
+    "SZ000975",
+    "SZ000937"
+  ],
+  "checks": {
+    "SH601128_explicit_capital_exemption_supported": true,
+    "SH603826_bonus_basis_source_arithmetic_supported": true,
+    "SH601918_primary_supplement_separate_from_vendor_rows_and_dates_supported": true,
+    "SZ000975_original_row_digest_matches": true,
+    "SZ000975_cash_override_and_reference_deduction_separated": true,
+    "SZ000975_declared_truncation_preserved": true,
+    "SZ000937_absent_from_capital_tax": true,
+    "SZ000937_strict_tax_unresolved_preserved": true,
+    "SZ000937_later_data_excluded_from_decision_snapshot": true,
+    "all_non_admission_flags_false": true
+  },
+  "findings": {
+    "critical": [],
+    "important": [],
+    "minor": []
+  },
+  "remaining_boundary": "SZ000937 strict tax question remains open as intended; retrospective premium proof is not contemporary June decision data. No event compilation, account or ROI admission is granted by this projection review.",
+  "scope": {
+    "used_prior_pdf_content_review": true,
+    "repeat_PDF_extraction": false,
+    "repeat_full_suite": false,
+    "repeat_capture_audit": false,
+    "new_network_requests": 0,
+    "repository_or_source_edits": false,
+    "holdings_or_ROI_read": false,
+    "event_compilation_run": false,
+    "review_output_only": true
+  }
+}

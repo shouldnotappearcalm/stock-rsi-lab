@@ -1,0 +1,293 @@
+{
+  "status": "INDEPENDENT_CAPTURE_CHAIN_AND_SELECTED_CONTENT_REVIEW_ONLY",
+  "capture_directory": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-2026-20261021",
+  "scope": {
+    "implementation_pdf_pages_text_read": {
+      "SH601128-20260603": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SZ000937-20260611": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SH601918-20260130": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SZ000975-20260417": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "SH603826-20260708": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "halfyear_pdf_total_pages": 133,
+    "halfyear_pdf_pages_text_read": [
+      1,
+      25,
+      26,
+      98
+    ],
+    "halfyear_printed_page_offset": "PDF pages25,26,98 are printed24,25,97",
+    "visually_reviewed_pdf_pages": {
+      "SH601128-20260603": [
+        2,
+        3
+      ],
+      "SH601918-20260130": [
+        2
+      ],
+      "SH603826-20260708": [
+        2,
+        3
+      ],
+      "SZ000975-20260417": [
+        2,
+        3
+      ],
+      "SZ000937-20260611": [
+        2,
+        3
+      ],
+      "SZ000937-20260827": [
+        25,
+        26,
+        98
+      ]
+    },
+    "new_network_requests": 0,
+    "repository_edits": false,
+    "holdings_or_portfolio_roi_read": false
+  },
+  "chain_validation": {
+    "manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf",
+    "request_sha256": "d7f73f8aab1f10a73a3c9d1c1e350ec9ab1fb4f513e1f1530ef1be24680d8aa9",
+    "all_artifact_hashes_match": true,
+    "artifact_count": 26,
+    "query_count": 6,
+    "query_chains_verified": [
+      {
+        "folder": "492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+        "payload": null,
+        "body_sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307"
+      },
+      {
+        "folder": "72ab0df6da19182940ae6b2525a92842a48e034ab5a61d57b6c55e960d2206e7",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "payload": {
+          "pageNum": "1",
+          "pageSize": "30",
+          "column": "szse",
+          "tabName": "fulltext",
+          "plate": "",
+          "stock": "603826,9900030692",
+          "searchkey": "",
+          "secid": "",
+          "category": "",
+          "trade": "",
+          "seDate": "2026-07-08~2026-07-08",
+          "sortName": "",
+          "sortType": "",
+          "isHLtitle": "true"
+        },
+        "body_sha256": "3bcd61a9c94e5f5b5e2a9c20c88f8e446bb62c5a1217d7ba7d5ea3cd3b1d3fb6"
+      },
+      {
+        "folder": "c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+        "payload": null,
+        "body_sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29"
+      },
+      {
+        "folder": "d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-01-30/1224955681.PDF",
+        "payload": null,
+        "body_sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87"
+      },
+      {
+        "folder": "e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225510646.PDF",
+        "payload": null,
+        "body_sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073"
+      },
+      {
+        "folder": "ee68545437736727dd8f53f2c3fb558e80da4d2d2227fc700b4588c95d73bb61",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-07-08/1225414246.PDF",
+        "payload": null,
+        "body_sha256": "7fc22a71f05326ff38dc340af4c433feaa1023f3874c8377d0e6094017f276e3"
+      }
+    ],
+    "all_pdf_bodies_byte_identical": true,
+    "reused_pdf_byte_identical": true,
+    "selected_listing_row_equals_raw_listing": true,
+    "canonical_SH603826_url": "https://static.cninfo.com.cn/finalpage/2026-07-08/1225414246.PDF",
+    "listing_row_count": 2,
+    "unique_original_implementation_matches": 1,
+    "attempts_per_identity": 1,
+    "errors": {},
+    "pending_documents": [],
+    "request_file_identical_to_frozen_sha": true,
+    "all_six_manifest_pdf_hashes_match": true
+  },
+  "pdf_sha256": {
+    "SH601128-20260603": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+    "SZ000937-20260611": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+    "SH601918-20260130": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+    "SZ000975-20260417": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+    "SH603826-20260708": "7fc22a71f05326ff38dc340af4c433feaa1023f3874c8377d0e6094017f276e3",
+    "SZ000937-20260827": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073"
+  },
+  "source_content_findings": {
+    "SH601128-20260603": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cash_per_original_share": "0.12",
+      "capital_shares_per_original_share": "0.10",
+      "record_day": "2026-06-08",
+      "ex_pay_list_day": "2026-06-09",
+      "tax_source": "PDFp3 expressly identifies reserve from share-premium issuance and says this capital transfer is not taxed.",
+      "explicit_issuer_no_tax_statement": true
+    },
+    "SH601918-20260130": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cash_per_original_share": "0.05",
+      "record_day": "2026-02-05",
+      "ex_pay_day": "2026-02-06",
+      "conclusion": "Original temporary implementation notice directly supports the cash distribution missing from vendor dividend rows; no amount inferred from the price gap."
+    },
+    "SH603826-20260708": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cash_per_original_share": "0.15",
+      "bonus_shares_per_original_share": "0.3",
+      "record_day": "2026-07-13",
+      "ex_pay_list_day": "2026-07-14",
+      "tax_evidence_pdf_page": 3,
+      "issuer_QFII_and_stock_connect_10percent_examples": {
+        "cash_tax_per_original_share": "0.015",
+        "bonus_tax_per_original_share": "0.03",
+        "total_tax_per_original_share": "0.045",
+        "net_cash_per_original_share": "0.105"
+      },
+      "derived_bonus_income_basis_per_original_share": "0.3",
+      "basis_derivation": "Issuer explicit stock tax0.03 divided by stated10percent rate; this is a source-grounded arithmetic derivation, not an explicit general investor tax ruling."
+    },
+    "SZ000975-20260417": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cash_per_original_share": "0.4804021",
+      "ex_reference_adjustment_per_total_share": "0.4796827",
+      "record_day": "2026-04-23",
+      "ex_pay_day": "2026-04-24",
+      "precision_evidence_pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "declared_convention": "Final digit truncated, not rounded; preserve issuer-displayed distribution and tax-example precision.",
+      "conclusion": "The actual eligible-share payment and total-share denominator used for the ex-price adjustment are distinct;0.4796827 cannot replace0.4804021 as cash income."
+    },
+    "SZ000937-20260611": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cash_per_original_share": "0.1",
+      "capital_shares_per_original_share": "0.1",
+      "record_day": "2026-06-16",
+      "ex_pay_list_day": "2026-06-17",
+      "individual_cash_tax_per_original_share_examples": {
+        "up_to_one_month": "0.02",
+        "over_one_month_up_to_one_year": "0.01",
+        "over_one_year": "0"
+      },
+      "explicit_issuer_no_tax_statement": false,
+      "implementation_names_premium_capital_source": false,
+      "conclusion": "June notice expressly gives the distribution and cash-sized tax examples, but does not expressly name share premium or state capital transfer tax exemption."
+    },
+    "SZ000937-20260827": {
+      "pdf_pages_read": [
+        1,
+        25,
+        26,
+        98
+      ],
+      "total_pdf_pages": 133,
+      "publication_day": "2026-08-27",
+      "relevant_event_day": "2026-06-17",
+      "capital_transfer_new_shares": 353354685,
+      "capital_premium_decrease_yuan": "353354685.00",
+      "retrospective_premium_source_verified": true,
+      "source_evidence": "PDFp98 note39 labels the decrease as capital/share premium and explains the same2025 AGM capital transfer; note38 confirms the share increase. PDFp25 links the implemented2025 distribution to that transfer. This is stronger than equality of two unlabelled amounts.",
+      "issuer_explicit_no_tax_statement": false,
+      "contemporaneous_june_decision_evidence": false
+    }
+  },
+  "tax_source_assessment": {
+    "instrument": "SZ000937",
+    "retrospective_capital_source_conclusion": "Combined primary issuer documents sufficiently support retrospective classification as share-premium capital transfer.",
+    "tax_exemption_conclusion": "Cash-only June tax examples plus the later explicit premium-reserve accounting strongly support the exemption interpretation, but there is no express issuer no-tax sentence in the reviewed pages. Keep an unresolved flag if the frozen admission standard requires an explicit exemption statement; do not silently upgrade that standard.",
+    "recommended_separate_flags": {
+      "retrospective_premium_source_verified": true,
+      "combined_primary_exemption_interpretation_supported": true,
+      "issuer_explicit_no_tax_statement": false,
+      "strict_explicit_exemption_admission_resolved": false,
+      "june_decision_visibility_verified": false
+    },
+    "temporal_boundary": "August27 evidence may support retrospective corporate-action reconstruction only; cannot be exposed to June17 decision-facing data or represented as contemporaneous implementation proof. Publication is not observed arrival."
+  },
+  "findings": {
+    "critical": [],
+    "important": [
+      {
+        "kind": "UNRESOLVED_ADMISSION_STANDARD",
+        "detail": "SZ000937 premium source is retrospectively evidenced, but strict explicit tax-exemption certification remains unproven by an express issuer sentence. Accepting combined evidence requires a documented reviewer interpretation and cannot establish June visibility."
+      }
+    ],
+    "minor": []
+  },
+  "admission": {
+    "source_capture_integrity_pass": true,
+    "download_alone_grants_financial_admission": false,
+    "financial_admission_granted": false,
+    "historical_arrival_verified": false,
+    "account_replay_run": false,
+    "investment_rule_changed": false,
+    "portfolio_returns_computed": false,
+    "objective_achieved": false
+  }
+}

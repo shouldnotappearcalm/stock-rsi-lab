@@ -1,0 +1,298 @@
+{
+  "status": "FOUR2026_SOURCE_QUESTIONS_SUPPORTED_ONE_STRICT_TAX_QUESTION_OPEN",
+  "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf",
+  "request_sha256": "d7f73f8aab1f10a73a3c9d1c1e350ec9ab1fb4f513e1f1530ef1be24680d8aa9",
+  "raw_manifest_sha256": "10f645719228d50c439e166bbfe65959b5ff517668c2ecc8ffc4fca4e1680ea7",
+  "independent_capture_audit_sha256": "6cc3e1d09468fc4ae8ec3934cd872155cc332da60550b3da44b69ce2d07c0347",
+  "independent_content_review_sha256": "8a78937656054e77e4107a13d85d7d8475a1d1d1c2bfb11caba64cabc563c960",
+  "documents": [
+    {
+      "instrument": "SH601128",
+      "publication_day": "2026-06-03",
+      "file": "SH601128-20260603.pdf",
+      "sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+      "url": null,
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": null,
+      "capture_route": "BYTE_IDENTICAL_REUSE",
+      "day": "2026-06-03",
+      "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+    },
+    {
+      "instrument": "SZ000937",
+      "publication_day": "2026-06-11",
+      "file": "SZ000937-20260611.pdf",
+      "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/request.json",
+        "request_sha256": "ca5bd8abb2caed04ca1eda8d9ffa74cf4328648d4b51bcd78c6f5f1799c67449",
+        "reserved_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/reserved-1.json",
+        "reserved_sha256": "71ce0f96dd30edca6124871e84a1a057af9643d96991c05968c81dea9b5bfa75",
+        "response_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/response-1.json",
+        "response_sha256": "10051350d1329b587d65814f528cb6b56d6ef5f970e949760abfb945810798bc"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP",
+      "day": "2026-06-11",
+      "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+    },
+    {
+      "instrument": "SH601918",
+      "publication_day": "2026-01-30",
+      "file": "SH601918-20260130.pdf",
+      "sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-01-30/1224955681.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/request.json",
+        "request_sha256": "048fcc943410f11f4aa12ce906b2571b6b5920fc66cde34a3384d7b542636e88",
+        "reserved_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/reserved-1.json",
+        "reserved_sha256": "300e2c178394aaec2d47065a56f9a25ff17841ae4c4df2360bde31b8c633526f",
+        "response_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/response-1.json",
+        "response_sha256": "0b53b08e0fb753460113e4565c0c489eb8779dc6f8090f23244d613456ef27c6"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP",
+      "day": "2026-01-30",
+      "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+    },
+    {
+      "instrument": "SZ000975",
+      "publication_day": "2026-04-17",
+      "file": "SZ000975-20260417.pdf",
+      "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/request.json",
+        "request_sha256": "5403b9c01827e7ca3f4264c8f2bacb3eee32b12f1778eb377deea523d7e2bb27",
+        "reserved_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/reserved-1.json",
+        "reserved_sha256": "ce583ddeee886cfe0c2dd084844341e99265bb1611521b0db23f6f79b53d4483",
+        "response_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/response-1.json",
+        "response_sha256": "772aa7ba23ae38dea2dfd3e0a215eb962e55714cc216b32a519f82e86d83880d"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP",
+      "day": "2026-04-17",
+      "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+    },
+    {
+      "instrument": "SH603826",
+      "publication_day": "2026-07-08",
+      "file": "SH603826-20260708.pdf",
+      "sha256": "7fc22a71f05326ff38dc340af4c433feaa1023f3874c8377d0e6094017f276e3",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-08/1225414246.PDF",
+      "listing_row": {
+        "id": null,
+        "secCode": "603826",
+        "secName": "坤彩科技",
+        "orgId": "9900030692",
+        "announcementId": "1225414246",
+        "announcementTitle": "2025年年度权益分派实施公告",
+        "announcementTime": 1783440000000,
+        "adjunctUrl": "finalpage/2026-07-08/1225414246.PDF",
+        "adjunctSize": 106,
+        "adjunctType": "PDF",
+        "storageTime": null,
+        "columnId": "250401||251302||2705",
+        "pageColumn": "SHZB",
+        "announcementType": "01010503||010113||011301",
+        "associateAnnouncement": null,
+        "important": null,
+        "batchNum": null,
+        "announcementContent": "",
+        "orgName": null,
+        "tileSecName": "坤彩科技",
+        "shortTitle": "2025年年度权益分派实施公告",
+        "announcementTypeName": null,
+        "secNameList": null
+      },
+      "listing_receipt": {
+        "request_file": "queries/72ab0df6da19182940ae6b2525a92842a48e034ab5a61d57b6c55e960d2206e7/request.json",
+        "request_sha256": "52dc0cb77a8fcc3aac34861e71183941daa2f2931d77ea509e2ce759592230de",
+        "reserved_file": "queries/72ab0df6da19182940ae6b2525a92842a48e034ab5a61d57b6c55e960d2206e7/reserved-1.json",
+        "reserved_sha256": "8377a7c6f01b49aa3ebcf4ef9dda8067fae1c5560aed946837d7b1944d8d962f",
+        "response_file": "queries/72ab0df6da19182940ae6b2525a92842a48e034ab5a61d57b6c55e960d2206e7/response-1.json",
+        "response_sha256": "bc72cac1c2ee42c31da6c70f3f7e87a4dba2474c10c3060c81632953aa94874e"
+      },
+      "pdf_receipt": {
+        "request_file": "queries/ee68545437736727dd8f53f2c3fb558e80da4d2d2227fc700b4588c95d73bb61/request.json",
+        "request_sha256": "90628a115f4e90dbc3f6e145480c972bb70457ea3c2c446c821ba7d15631ceb7",
+        "reserved_file": "queries/ee68545437736727dd8f53f2c3fb558e80da4d2d2227fc700b4588c95d73bb61/reserved-1.json",
+        "reserved_sha256": "60a334e0a9548ec32ae37b8024d00281febfbc3d31ed202bebb1690e9aaf82d6",
+        "response_file": "queries/ee68545437736727dd8f53f2c3fb558e80da4d2d2227fc700b4588c95d73bb61/response-1.json",
+        "response_sha256": "84c60393f13a9cfbe51203e2185a5d334cb14672dba107172fc390e4b795435a"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP",
+      "day": "2026-07-08",
+      "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+    },
+    {
+      "instrument": "SZ000937",
+      "publication_day": "2026-08-27",
+      "file": "SZ000937-20260827.pdf",
+      "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225510646.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/request.json",
+        "request_sha256": "270cda9ae2267be5b099dfb5304d719f134afd10bf64b7959f2103abc948a60d",
+        "reserved_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/reserved-1.json",
+        "reserved_sha256": "9b9b98194905516a965f2bc836503c9815af8d4d1c0f1f77428d3c3ba4d26c08",
+        "response_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/response-1.json",
+        "response_sha256": "6088f5bc0a7859a559862efdb0a3b0140ffe5a07845211135df6f7a54b70f071"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP",
+      "day": "2026-08-27",
+      "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+    }
+  ],
+  "capital_tax": {
+    "SH601128|2026-06-09": {
+      "verified_exempt": true,
+      "source_file": "SH601128-20260603.pdf",
+      "source_sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+      "pages_one_based": [
+        3
+      ],
+      "evidence": "Issuer explicitly identifies share-premium issuance source and no tax for this transfer."
+    }
+  },
+  "stock_dividend_tax_bases": {
+    "SH603826|2026-07-14": {
+      "verified": true,
+      "expected_stock_per_original_share": "0.3",
+      "taxable_income_per_original_share": "0.3",
+      "source_file": "SH603826-20260708.pdf",
+      "source_sha256": "7fc22a71f05326ff38dc340af4c433feaa1023f3874c8377d0e6094017f276e3",
+      "pages_one_based": [
+        1,
+        2,
+        3
+      ],
+      "derivation": "Issuer 10percent example distinguishes stock tax0.03 from cash tax0.015;0.03/0.10=0.3 peroriginalshare. This is source arithmetic, not a full FIFO settlement certificate."
+    }
+  },
+  "supplementary_distributions": [
+    {
+      "instrument": "SH601918",
+      "record": {
+        "code": "sh.601918",
+        "dividPlanDate": "2026-01-30",
+        "dividRegistDate": "2026-02-05",
+        "dividOperateDate": "2026-02-06",
+        "dividPayDate": "2026-02-06",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.05",
+        "dividStocksPs": "0",
+        "dividReserveToStockPs": "0",
+        "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+      },
+      "source_file": "SH601918-20260130.pdf",
+      "source_sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+      "pages_one_based": [
+        1,
+        2
+      ],
+      "record_origin": "Issuer temporary implementation notice; not a vendor API row or amount inferred from prices."
+    }
+  ],
+  "cash_override_contract": "PRIMARY_NOTICE_CASH_PRECISION_V1",
+  "cash_overrides": {
+    "SZ000975|2026-04-24": {
+      "verified": true,
+      "kind": "PRIMARY_NOTICE_CASH_PRECISION",
+      "source_row_sha256": "6c072ee6566a233b45ebb3f98e13e41259b9a0126c16ebe59f0752f9a227abc0",
+      "expected_vendor_cash_per_share": "0.480402",
+      "effective_cash_per_share": "0.4804021",
+      "source_file": "SZ000975-20260417.pdf",
+      "source_sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+      "pages_one_based": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reference_price_deduction_per_share": "0.4796827",
+      "reference_price_deduction_is_not_cash_entitlement": true,
+      "declared_precision": "Issuer final digit truncated, not rounded; preserve displayed precision."
+    }
+  },
+  "unresolved_tax": {
+    "SZ000937|2026-06-17": {
+      "verified_exempt": false,
+      "retrospective_premium_source_verified": true,
+      "issuer_explicit_no_tax_statement": false,
+      "strict_tax_admission_resolved": false,
+      "implementation": {
+        "source_file": "SZ000937-20260611.pdf",
+        "source_sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+        "pages_one_based": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cash_per_original_share": "0.1",
+        "capital_per_original_share": "0.1",
+        "record_day": "2026-06-16",
+        "ex_pay_list_day": "2026-06-17",
+        "individual_tax_per_original_share_examples": [
+          "0.02",
+          "0.01",
+          "0"
+        ]
+      },
+      "supplement": {
+        "source_file": "SZ000937-20260827.pdf",
+        "source_sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+        "publication_day": "2026-08-27",
+        "pages_one_based": [
+          1,
+          25,
+          26,
+          98
+        ],
+        "capital_premium_decrease_yuan": "353354685.00",
+        "new_shares": 353354685,
+        "published_after_event": true
+      },
+      "evidence_assessment": "Explicitly labelled premium decrease and transfer note support retrospective source; no express issuer no-tax sentence. Preserve strict unresolved status, not silent exemption.",
+      "later_data_may_enter_decision_snapshot": false,
+      "account_behavior_required": "Original StockDistributionAccount fails before mutation at exdate if registered quantity positive; zero ownership only is permitted. Do not alter holdings to bypass this guard."
+    }
+  },
+  "root_implementation_text_pages_read": 20,
+  "root_supplement_pdf_pages_read": [
+    1,
+    25,
+    26,
+    98
+  ],
+  "root_current_visual_pages_count": 11,
+  "independent_reviewer_implementation_text_pages_read": 20,
+  "independent_reviewer_supplement_pdf_pages_read": [
+    1,
+    25,
+    26,
+    98
+  ],
+  "independent_reviewer_visual_pages_count": 12,
+  "question_count": 5,
+  "supported_questions": 4,
+  "strict_tax_questions_remaining": 1,
+  "event_compilation_run": false,
+  "event_compilation_admitted": false,
+  "admitted_for_account_replay": false,
+  "historical_arrival_verified": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "full_corporate_actions_certified": false,
+  "source_provider_packets_modified": false,
+  "investment_rule_changed": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

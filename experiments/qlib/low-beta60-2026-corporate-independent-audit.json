@@ -1,0 +1,25 @@
+{
+  "status": "INDEPENDENT_SIX_PRIMARY_PDFS_AND_SIX_HTTP_RECEIPTS_RECONSTRUCTED",
+  "audit_code_sha256": "0a93f3bd4409eda52b3cb0a4be569c8fbc42ecf14742f0ae489bca5728a3e701",
+  "request_sha256": "d7f73f8aab1f10a73a3c9d1c1e350ec9ab1fb4f513e1f1530ef1be24680d8aa9",
+  "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf",
+  "documents": 6,
+  "reused_original_bytes": 1,
+  "new_pdf_responses": 5,
+  "listing_responses": 1,
+  "canonical_request_bytes_authenticated": 6,
+  "all_pdf_bytes_equal_response_or_bound_cache": true,
+  "canonical_SH603826_url": "https://static.cninfo.com.cn/finalpage/2026-07-08/1225414246.PDF",
+  "http_envelope_negative_controls_rejected": {
+    "non200": true,
+    "redirect": true,
+    "truncated": true,
+    "partial": true,
+    "invalid_base64": true
+  },
+  "negative_controls_use_hash_gate": false,
+  "source_content_financially_admitted": false,
+  "historical_arrival_verified": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
