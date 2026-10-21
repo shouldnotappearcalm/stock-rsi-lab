@@ -1,0 +1,709 @@
+{
+  "status": "FOUR_EXISTING_COORDINATE_PROOFS_INDEPENDENTLY_FRACTION_RECONSTRUCTED_REUSABLE_UNCHANGED",
+  "audit_code_sha256": "6f05634abdbacb022b6f557aecf35a3f07da7d4ddc098a58f12fae84dfa94e89",
+  "imports_project_code": false,
+  "production_coordinate_function_called": false,
+  "V2_manifest_sha256": "273ca456409168d06070e190c78fff850810cb1dbcc178accb69c87ba6880f5d",
+  "public_V2_request_sha256": "0c79e7a7151d373afac335867079a41cb33f95140aba83d80547e798da13b49c",
+  "prior_V2_independent_audit_sha256": "a80607328aafaae9fe4386cacc7b4ea286818526ae2e4ab974c77de7dea3348e",
+  "V2_request_sha256": "0c79e7a7151d373afac335867079a41cb33f95140aba83d80547e798da13b49c",
+  "coordinate_checks_sha256": "fe62b5acc5a3d3a95b7668455a356c3f7855dab72c66110c1ca37c42ee1da66a",
+  "seven_notice_content_review_sha256": "0b1f5dc599412f0b0e37fbe11e6a4ab508519e9320b848858aa05bae4e0cc4ec",
+  "seven_notice_capture_manifest_sha256": "31f32ff7ff86ecea75c543eea78967deedcd2262fe8e5d00543a4bdcba48cb65",
+  "pairs": [
+    {
+      "instrument": "SZ002608",
+      "cached_root": "reversal-raw-full-20261017",
+      "V2_packet_sha256": "4255a1dd199f53701f6f00c98548175b044dbcd96054365807f6eeadcc19e8df",
+      "cached_manifest_sha256": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc",
+      "cached_packet_sha256": "b7e732add1d0a10094dbfaf4f194ea6d1514cd4bf8bd78ff22a43c3ec11c6fd5",
+      "all_common_daily_rows_literal_and_normalized_core_exact": 674,
+      "all_common_distribution_rows_exact": 3,
+      "pre2026_adjustment_rows_literal_exact": 2,
+      "all_common_nonfore_fields_exact": true,
+      "changed_fore_dates": [
+        "2026-07-14"
+      ],
+      "existing_coordinate_proof_index": 2,
+      "existing_proof_sha256": "ebdade8f1a4c60079cbfdb8a596a5891c497609a8ccb5afbe1861dbf5877e086",
+      "fraction_reconstructed_proof": {
+        "instrument": "SZ002608",
+        "comparison_window": [
+          "2026-01-01",
+          "2026-10-16"
+        ],
+        "common_daily_rows": 188,
+        "common_distribution_rows": 1,
+        "old_latest_back": "2.849199",
+        "new_latest_back": "2.868849",
+        "ratio_exact": "949733/956283",
+        "ratio_rounding_interval": [
+          "5698397/5737699",
+          "814057/819671"
+        ],
+        "common_fore_coordinate_checks": [
+          {
+            "date": "2026-07-14",
+            "cached_fore": "1.000000",
+            "fresh_fore": "0.993151",
+            "predicted_interval": [
+              "11396788301603/11475398000000",
+              "1628114814057/1639342000000"
+            ],
+            "fresh_rounding_interval": [
+              "1986301/2000000",
+              "1986303/2000000"
+            ],
+            "nonfore_fields_exact": true
+          }
+        ],
+        "new_adjustment_row": {
+          "code": "sz.002608",
+          "dividOperateDate": "2026-10-19",
+          "foreAdjustFactor": "1.000000",
+          "backAdjustFactor": "2.868849",
+          "adjustFactor": "2.868849"
+        },
+        "primary_notice": {
+          "instrument": "SZ002608",
+          "issuer": "江苏国信股份有限公司",
+          "short_name": "江苏国信",
+          "announcement_number": "2026-036",
+          "signature_day": "2026-10-13",
+          "record_date": "2026-10-16",
+          "ex_date": "2026-10-19",
+          "cash_payment_date": "2026-10-19",
+          "cash_per_original_share_CNY": "0.05",
+          "cash_per_10_original_shares_CNY": "0.500000",
+          "price_reference_cash_per_share_CNY": null,
+          "issuer_stated_total_cash_CNY": "188903985.20",
+          "eligible_share_base": "3778079704",
+          "primary_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "field_pages": {
+            "issuer_code": [
+              1
+            ],
+            "cash": [
+              1,
+              2
+            ],
+            "record": [
+              2
+            ],
+            "ex_pay": [
+              3
+            ],
+            "noncash_zero": [
+              1
+            ],
+            "signature": [
+              4
+            ]
+          },
+          "excerpts": [
+            {
+              "page": 2,
+              "quote": "每10股派0.500000元人民币现金"
+            },
+            {
+              "page": 1,
+              "quote": "不送红股、不以公积金转增股本。"
+            },
+            {
+              "page": 3,
+              "quote": "权除息日为：2026年10月19日。"
+            }
+          ],
+          "eligibility": "All registered shareholders on stated existing share base; notice lists certain self-paying holders separately.",
+          "unknowns": [
+            "No separately stated price-reference cash formula; do not infer an exact adjustment-factor mapping."
+          ],
+          "file": "SZ002608.pdf",
+          "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002608.pdf",
+          "sha256": "c8d15c68dc8f6acd7830fb692d063395b20825bb159165b91d23ba58a6c34f95",
+          "publication_day": "2026-10-13",
+          "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+          "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601312.PDF",
+          "stock_per_original_share": "0",
+          "capital_per_original_share": "0",
+          "stock_listing_date": null,
+          "stock_listing_date_applicable": false,
+          "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+          "all_pages_text_reviewed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "all_pages_visually_reviewed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "conservative_notice_publication_day": "2026-10-13",
+          "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+        },
+        "economic_cause_inferred_from_factors": false
+      },
+      "existing_proof_can_be_reused_unchanged": true
+    },
+    {
+      "instrument": "SZ002608",
+      "cached_root": "szse-value-raw-full-20261017",
+      "V2_packet_sha256": "4255a1dd199f53701f6f00c98548175b044dbcd96054365807f6eeadcc19e8df",
+      "cached_manifest_sha256": "3c02e2f9ed433f93e8419a26eaa1610d8c397fb79a5cc12ec871bfda75ecc897",
+      "cached_packet_sha256": "e9516b01c9d4b0b11bf0f63badfdd933f0b27ef5d521397b68f0840dc7f6088d",
+      "all_common_daily_rows_literal_and_normalized_core_exact": 674,
+      "all_common_distribution_rows_exact": 3,
+      "pre2026_adjustment_rows_literal_exact": 2,
+      "all_common_nonfore_fields_exact": true,
+      "changed_fore_dates": [
+        "2026-07-14"
+      ],
+      "existing_coordinate_proof_index": 1,
+      "existing_proof_sha256": "ebdade8f1a4c60079cbfdb8a596a5891c497609a8ccb5afbe1861dbf5877e086",
+      "fraction_reconstructed_proof": {
+        "instrument": "SZ002608",
+        "comparison_window": [
+          "2026-01-01",
+          "2026-10-16"
+        ],
+        "common_daily_rows": 188,
+        "common_distribution_rows": 1,
+        "old_latest_back": "2.849199",
+        "new_latest_back": "2.868849",
+        "ratio_exact": "949733/956283",
+        "ratio_rounding_interval": [
+          "5698397/5737699",
+          "814057/819671"
+        ],
+        "common_fore_coordinate_checks": [
+          {
+            "date": "2026-07-14",
+            "cached_fore": "1.000000",
+            "fresh_fore": "0.993151",
+            "predicted_interval": [
+              "11396788301603/11475398000000",
+              "1628114814057/1639342000000"
+            ],
+            "fresh_rounding_interval": [
+              "1986301/2000000",
+              "1986303/2000000"
+            ],
+            "nonfore_fields_exact": true
+          }
+        ],
+        "new_adjustment_row": {
+          "code": "sz.002608",
+          "dividOperateDate": "2026-10-19",
+          "foreAdjustFactor": "1.000000",
+          "backAdjustFactor": "2.868849",
+          "adjustFactor": "2.868849"
+        },
+        "primary_notice": {
+          "instrument": "SZ002608",
+          "issuer": "江苏国信股份有限公司",
+          "short_name": "江苏国信",
+          "announcement_number": "2026-036",
+          "signature_day": "2026-10-13",
+          "record_date": "2026-10-16",
+          "ex_date": "2026-10-19",
+          "cash_payment_date": "2026-10-19",
+          "cash_per_original_share_CNY": "0.05",
+          "cash_per_10_original_shares_CNY": "0.500000",
+          "price_reference_cash_per_share_CNY": null,
+          "issuer_stated_total_cash_CNY": "188903985.20",
+          "eligible_share_base": "3778079704",
+          "primary_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "field_pages": {
+            "issuer_code": [
+              1
+            ],
+            "cash": [
+              1,
+              2
+            ],
+            "record": [
+              2
+            ],
+            "ex_pay": [
+              3
+            ],
+            "noncash_zero": [
+              1
+            ],
+            "signature": [
+              4
+            ]
+          },
+          "excerpts": [
+            {
+              "page": 2,
+              "quote": "每10股派0.500000元人民币现金"
+            },
+            {
+              "page": 1,
+              "quote": "不送红股、不以公积金转增股本。"
+            },
+            {
+              "page": 3,
+              "quote": "权除息日为：2026年10月19日。"
+            }
+          ],
+          "eligibility": "All registered shareholders on stated existing share base; notice lists certain self-paying holders separately.",
+          "unknowns": [
+            "No separately stated price-reference cash formula; do not infer an exact adjustment-factor mapping."
+          ],
+          "file": "SZ002608.pdf",
+          "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002608.pdf",
+          "sha256": "c8d15c68dc8f6acd7830fb692d063395b20825bb159165b91d23ba58a6c34f95",
+          "publication_day": "2026-10-13",
+          "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+          "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601312.PDF",
+          "stock_per_original_share": "0",
+          "capital_per_original_share": "0",
+          "stock_listing_date": null,
+          "stock_listing_date_applicable": false,
+          "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+          "all_pages_text_reviewed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "all_pages_visually_reviewed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "conservative_notice_publication_day": "2026-10-13",
+          "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+        },
+        "economic_cause_inferred_from_factors": false
+      },
+      "existing_proof_can_be_reused_unchanged": true
+    },
+    {
+      "instrument": "SZ002756",
+      "cached_root": "reversal-raw-full-20261017",
+      "V2_packet_sha256": "f38a919eb4b2c6154ddb6e14be19fdbae1bd7ecd557266ef124d3c1ecf384e75",
+      "cached_manifest_sha256": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc",
+      "cached_packet_sha256": "2fa4a1a324041fb6b95af36e6cf92607bf58256c85e4d325795fff36e5c3235e",
+      "all_common_daily_rows_literal_and_normalized_core_exact": 674,
+      "all_common_distribution_rows_exact": 5,
+      "pre2026_adjustment_rows_literal_exact": 4,
+      "all_common_nonfore_fields_exact": true,
+      "changed_fore_dates": [
+        "2026-05-29"
+      ],
+      "existing_coordinate_proof_index": 1,
+      "existing_proof_sha256": "0d11316af016ec5c07b325fba6e93631d4a97f314f19bc5a5670c11798541539",
+      "fraction_reconstructed_proof": {
+        "instrument": "SZ002756",
+        "comparison_window": [
+          "2026-01-01",
+          "2026-10-16"
+        ],
+        "common_daily_rows": 188,
+        "common_distribution_rows": 1,
+        "old_latest_back": "3.211166",
+        "new_latest_back": "3.238333",
+        "ratio_exact": "458738/462619",
+        "ratio_rounding_interval": [
+          "2140777/2158889",
+          "6422333/6476665"
+        ],
+        "common_fore_coordinate_checks": [
+          {
+            "date": "2026-05-29",
+            "cached_fore": "1.000000",
+            "fresh_fore": "0.991611",
+            "predicted_interval": [
+              "4281551859223/4317778000000",
+              "12844672422333/12953330000000"
+            ],
+            "fresh_rounding_interval": [
+              "1983221/2000000",
+              "1983223/2000000"
+            ],
+            "nonfore_fields_exact": true
+          }
+        ],
+        "new_adjustment_row": {
+          "code": "sz.002756",
+          "dividOperateDate": "2026-10-20",
+          "foreAdjustFactor": "1.000000",
+          "backAdjustFactor": "3.238333",
+          "adjustFactor": "3.238333"
+        },
+        "primary_notice": {
+          "instrument": "SZ002756",
+          "issuer": "永兴特种材料科技股份有限公司",
+          "short_name": "永兴材料",
+          "announcement_number": "2026-045",
+          "signature_day": "2026-10-14",
+          "record_date": "2026-10-19",
+          "ex_date": "2026-10-20",
+          "cash_payment_date": "2026-10-20",
+          "cash_per_original_share_CNY": "0.3",
+          "cash_per_10_original_shares_CNY": "3.00",
+          "price_reference_cash_per_share_CNY": "0.2962722",
+          "issuer_stated_total_cash_CNY": "159720837.60",
+          "eligible_share_base": "532402792",
+          "primary_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "field_pages": {
+            "issuer_code": [
+              1
+            ],
+            "cash_final_scheme": [
+              2
+            ],
+            "record_ex_pay": [
+              3
+            ],
+            "noncash_zero": [
+              1,
+              2
+            ],
+            "price_reference": [
+              1,
+              3
+            ],
+            "signature": [
+              4
+            ]
+          },
+          "excerpts": [
+            {
+              "page": 2,
+              "quote": "每10股派发现金股利3.00元"
+            },
+            {
+              "page": 2,
+              "quote": "不送红股，不以公积金转增股本"
+            },
+            {
+              "page": 3,
+              "quote": "0.2962722元/股"
+            }
+          ],
+          "eligibility": "Final implemented base532402792excludes6698748repurchase shares from539101540total. pp2says2534000repurchase shares transferredOct8toemployee plan; use final implementation base, not earlier529868792proposal base.",
+          "unknowns": [
+            "Actual receipt eligibility for special company-held shares is not independently registry-certified."
+          ],
+          "critical_interpretation": "Ordinary eligible shareholders receive0.3gross/share;0.2962722is only the whole-capital price reference.",
+          "file": "SZ002756.pdf",
+          "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002756.pdf",
+          "sha256": "b9969a48825ef1bd866b179f1abd8954abeebc935180fc2d63cac8e1dd7f5220",
+          "publication_day": "2026-10-14",
+          "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+          "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225602795.PDF",
+          "stock_per_original_share": "0",
+          "capital_per_original_share": "0",
+          "stock_listing_date": null,
+          "stock_listing_date_applicable": false,
+          "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+          "all_pages_text_reviewed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "all_pages_visually_reviewed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "conservative_notice_publication_day": "2026-10-14",
+          "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+        },
+        "economic_cause_inferred_from_factors": false
+      },
+      "existing_proof_can_be_reused_unchanged": true
+    },
+    {
+      "instrument": "SZ002756",
+      "cached_root": "szse-value-raw-full-20261017",
+      "V2_packet_sha256": "f38a919eb4b2c6154ddb6e14be19fdbae1bd7ecd557266ef124d3c1ecf384e75",
+      "cached_manifest_sha256": "3c02e2f9ed433f93e8419a26eaa1610d8c397fb79a5cc12ec871bfda75ecc897",
+      "cached_packet_sha256": "594bfe14f8459e8e3bd88b2e31a90228be27222a66a6c8417fd9739de34adab4",
+      "all_common_daily_rows_literal_and_normalized_core_exact": 674,
+      "all_common_distribution_rows_exact": 5,
+      "pre2026_adjustment_rows_literal_exact": 4,
+      "all_common_nonfore_fields_exact": true,
+      "changed_fore_dates": [
+        "2026-05-29"
+      ],
+      "existing_coordinate_proof_index": 0,
+      "existing_proof_sha256": "0d11316af016ec5c07b325fba6e93631d4a97f314f19bc5a5670c11798541539",
+      "fraction_reconstructed_proof": {
+        "instrument": "SZ002756",
+        "comparison_window": [
+          "2026-01-01",
+          "2026-10-16"
+        ],
+        "common_daily_rows": 188,
+        "common_distribution_rows": 1,
+        "old_latest_back": "3.211166",
+        "new_latest_back": "3.238333",
+        "ratio_exact": "458738/462619",
+        "ratio_rounding_interval": [
+          "2140777/2158889",
+          "6422333/6476665"
+        ],
+        "common_fore_coordinate_checks": [
+          {
+            "date": "2026-05-29",
+            "cached_fore": "1.000000",
+            "fresh_fore": "0.991611",
+            "predicted_interval": [
+              "4281551859223/4317778000000",
+              "12844672422333/12953330000000"
+            ],
+            "fresh_rounding_interval": [
+              "1983221/2000000",
+              "1983223/2000000"
+            ],
+            "nonfore_fields_exact": true
+          }
+        ],
+        "new_adjustment_row": {
+          "code": "sz.002756",
+          "dividOperateDate": "2026-10-20",
+          "foreAdjustFactor": "1.000000",
+          "backAdjustFactor": "3.238333",
+          "adjustFactor": "3.238333"
+        },
+        "primary_notice": {
+          "instrument": "SZ002756",
+          "issuer": "永兴特种材料科技股份有限公司",
+          "short_name": "永兴材料",
+          "announcement_number": "2026-045",
+          "signature_day": "2026-10-14",
+          "record_date": "2026-10-19",
+          "ex_date": "2026-10-20",
+          "cash_payment_date": "2026-10-20",
+          "cash_per_original_share_CNY": "0.3",
+          "cash_per_10_original_shares_CNY": "3.00",
+          "price_reference_cash_per_share_CNY": "0.2962722",
+          "issuer_stated_total_cash_CNY": "159720837.60",
+          "eligible_share_base": "532402792",
+          "primary_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "field_pages": {
+            "issuer_code": [
+              1
+            ],
+            "cash_final_scheme": [
+              2
+            ],
+            "record_ex_pay": [
+              3
+            ],
+            "noncash_zero": [
+              1,
+              2
+            ],
+            "price_reference": [
+              1,
+              3
+            ],
+            "signature": [
+              4
+            ]
+          },
+          "excerpts": [
+            {
+              "page": 2,
+              "quote": "每10股派发现金股利3.00元"
+            },
+            {
+              "page": 2,
+              "quote": "不送红股，不以公积金转增股本"
+            },
+            {
+              "page": 3,
+              "quote": "0.2962722元/股"
+            }
+          ],
+          "eligibility": "Final implemented base532402792excludes6698748repurchase shares from539101540total. pp2says2534000repurchase shares transferredOct8toemployee plan; use final implementation base, not earlier529868792proposal base.",
+          "unknowns": [
+            "Actual receipt eligibility for special company-held shares is not independently registry-certified."
+          ],
+          "critical_interpretation": "Ordinary eligible shareholders receive0.3gross/share;0.2962722is only the whole-capital price reference.",
+          "file": "SZ002756.pdf",
+          "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002756.pdf",
+          "sha256": "b9969a48825ef1bd866b179f1abd8954abeebc935180fc2d63cac8e1dd7f5220",
+          "publication_day": "2026-10-14",
+          "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+          "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225602795.PDF",
+          "stock_per_original_share": "0",
+          "capital_per_original_share": "0",
+          "stock_listing_date": null,
+          "stock_listing_date_applicable": false,
+          "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+          "all_pages_text_reviewed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "all_pages_visually_reviewed": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "conservative_notice_publication_day": "2026-10-14",
+          "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+        },
+        "economic_cause_inferred_from_factors": false
+      },
+      "existing_proof_can_be_reused_unchanged": true
+    }
+  ],
+  "primary_PDF_manifest_receipt_bindings": {
+    "SZ002608": {
+      "file": "SZ002608.pdf",
+      "sha256": "c8d15c68dc8f6acd7830fb692d063395b20825bb159165b91d23ba58a6c34f95",
+      "publication_day": "2026-10-13",
+      "record_date": "2026-10-16",
+      "ex_date": "2026-10-19",
+      "cash_payment_date": "2026-10-19",
+      "actual_cash_per_original_share_CNY": "0.05",
+      "separate_price_reference_cash_per_share_CNY": null,
+      "review_primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pdf_receipt": {
+        "request_file": "queries/207b6e1c27745068cbc274f9ebe371a55700719af4f0d882c855758b74bd344f/request.json",
+        "request_sha256": "4876b224758781409736163136c722613d467c3262a256a7fd84fea38c0c9036",
+        "reserved_file": "queries/207b6e1c27745068cbc274f9ebe371a55700719af4f0d882c855758b74bd344f/reserved-1.json",
+        "reserved_sha256": "91ff304dc1e4ec4f5441296cb44460252a4d2e67fdae57ae8337e80ec1c97d81",
+        "response_file": "queries/207b6e1c27745068cbc274f9ebe371a55700719af4f0d882c855758b74bd344f/response-1.json",
+        "response_sha256": "eebe6c48b28f599165690b730e9e5a51b5d129de1bf55bc2d4c0c998e35dc329"
+      }
+    },
+    "SZ002756": {
+      "file": "SZ002756.pdf",
+      "sha256": "b9969a48825ef1bd866b179f1abd8954abeebc935180fc2d63cac8e1dd7f5220",
+      "publication_day": "2026-10-14",
+      "record_date": "2026-10-19",
+      "ex_date": "2026-10-20",
+      "cash_payment_date": "2026-10-20",
+      "actual_cash_per_original_share_CNY": "0.3",
+      "separate_price_reference_cash_per_share_CNY": "0.2962722",
+      "review_primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pdf_receipt": {
+        "request_file": "queries/b132217dca8e16413b6c83f2fe07832ed4c710aa2bacae2bfb2d755ca2d4bc2e/request.json",
+        "request_sha256": "e34dbbe1694b2acf8671c47884ff2d513dc6e9ebff0e7e66a995baa62dd1d0e6",
+        "reserved_file": "queries/b132217dca8e16413b6c83f2fe07832ed4c710aa2bacae2bfb2d755ca2d4bc2e/reserved-1.json",
+        "reserved_sha256": "e6e257c5478bdd1da6bf4e8b5d273c43804d2bc6ba665768c658da20350a40f5",
+        "response_file": "queries/b132217dca8e16413b6c83f2fe07832ed4c710aa2bacae2bfb2d755ca2d4bc2e/response-1.json",
+        "response_sha256": "3dc1aa8d6e7054a0bc8450d1a0dd167e41c295e553befa7e87aa6fce8634ade3"
+      }
+    }
+  },
+  "six_saved_raw_query_receipts": {
+    "SZ002608/daily": {
+      "request_file": "queries/02022ebc2b40c67ab594b5863d00d8e1e4f816cb98884a893cbab1d76d1f3253/request.json",
+      "reserved_file": "queries/02022ebc2b40c67ab594b5863d00d8e1e4f816cb98884a893cbab1d76d1f3253/reserved-1.json",
+      "response_file": "queries/02022ebc2b40c67ab594b5863d00d8e1e4f816cb98884a893cbab1d76d1f3253/response-1.json",
+      "request_sha256": "1ec5614c808debc45574171d47b0fefeb9c2811c1799f0cd8ca885eda6f8a7db",
+      "reserved_sha256": "366925256499f0d848ab6767b956d265550037bd55bcf2146f30039f4ddcd68a",
+      "response_sha256": "2294e0fb73bc4ac36fe86b2f1afc6242a2bd0f9c1496e711eb0aa52f47b10f80"
+    },
+    "SZ002608/dividend2026": {
+      "request_file": "queries/a7a8fdb17e6db95735ad5b28b710e1303ded2537a720d38e35a725395df515b3/request.json",
+      "reserved_file": "queries/a7a8fdb17e6db95735ad5b28b710e1303ded2537a720d38e35a725395df515b3/reserved-1.json",
+      "response_file": "queries/a7a8fdb17e6db95735ad5b28b710e1303ded2537a720d38e35a725395df515b3/response-1.json",
+      "request_sha256": "b68222110e1ccf8d368609d1acd50d592d4cc5814eca8a4f5010a7445c3bba8e",
+      "reserved_sha256": "b1c55f36c199e4167e7bad66be3d3e3d9880ecc15d8f3b1485fb43c6515186c4",
+      "response_sha256": "0913f4423550829d180f705cd90a47617c81a26305017702a4590ceadfb23cc3"
+    },
+    "SZ002608/adjustments": {
+      "request_file": "queries/8bfc5075475c0277b8b4d05addedc6bd50e577ec837a9df66204b23f48f0be02/request.json",
+      "reserved_file": "queries/8bfc5075475c0277b8b4d05addedc6bd50e577ec837a9df66204b23f48f0be02/reserved-1.json",
+      "response_file": "queries/8bfc5075475c0277b8b4d05addedc6bd50e577ec837a9df66204b23f48f0be02/response-1.json",
+      "request_sha256": "bf89dbd8bf0923121701aceb65430c95ba692300d5ae7466a28bce35af4c6aa9",
+      "reserved_sha256": "5349efa621d736e9713d63b14c5a717a74003160c2a4271ed99bc5dd419a81e0",
+      "response_sha256": "9d8e9cc557c73679c42c9130a72f26b6143a349e24d555258b01e775bbe6791b"
+    },
+    "SZ002756/daily": {
+      "request_file": "queries/7a7bf72f0b8f518d10000e59a58253d83414a6cb07e194821130a371b4676bce/request.json",
+      "reserved_file": "queries/7a7bf72f0b8f518d10000e59a58253d83414a6cb07e194821130a371b4676bce/reserved-1.json",
+      "response_file": "queries/7a7bf72f0b8f518d10000e59a58253d83414a6cb07e194821130a371b4676bce/response-1.json",
+      "request_sha256": "fb6a32df9266549c8b8d8f3ea9a77994b700ed9afbc6b5f58a5ae0a597e1fa3d",
+      "reserved_sha256": "416a2ae96ae8e4c565f9855d252f7b1e630078550b31c3218eb7ddf226c89abb",
+      "response_sha256": "0e3cb602b9428645936db4e2f42713192a0b5f47d9260b0e7158b9403ac36a2f"
+    },
+    "SZ002756/dividend2026": {
+      "request_file": "queries/5cea56097e9721aef2e80cbbdc5120e31b72c5738c6a9976463da824e635b848/request.json",
+      "reserved_file": "queries/5cea56097e9721aef2e80cbbdc5120e31b72c5738c6a9976463da824e635b848/reserved-1.json",
+      "response_file": "queries/5cea56097e9721aef2e80cbbdc5120e31b72c5738c6a9976463da824e635b848/response-1.json",
+      "request_sha256": "515d9ec8f432b5e14965058c4154890951d7b51cef0c7ece5ed3bde013e405fb",
+      "reserved_sha256": "56286bf1fb7dac840ffb0481b083fef5bc2bc09a4c1c8ba08df60bf10c9f9800",
+      "response_sha256": "f3dc5cb7faaac51386eaa9541c3f8810d4fff1a18bc58c84b8e23a6b78cb6cbc"
+    },
+    "SZ002756/adjustments": {
+      "request_file": "queries/3a7da565bb3d6aa9be85440ed5b6f8a68f1c952bb30dbe43cd48ae4aed2f5cd9/request.json",
+      "reserved_file": "queries/3a7da565bb3d6aa9be85440ed5b6f8a68f1c952bb30dbe43cd48ae4aed2f5cd9/reserved-1.json",
+      "response_file": "queries/3a7da565bb3d6aa9be85440ed5b6f8a68f1c952bb30dbe43cd48ae4aed2f5cd9/response-1.json",
+      "request_sha256": "28460d6b4778440edba2801f0cd0033576937a525ab5e40a4c06ca5575046816",
+      "reserved_sha256": "9039323649c5a9b34973d347e42f337384875c388ac288d86daddaa34d1e0dc6",
+      "response_sha256": "3b351aa26ff07ac1388b9a95e93ed662e27fc70187d184790634fc6349283934"
+    }
+  },
+  "existing_proof_can_be_reused_unchanged": true,
+  "raw_source_bytes_modified": false,
+  "new_cash_entitlement_rows_created": false,
+  "cash_or_tax_inferred_from_adjustment_factors": false,
+  "economic_cause_inferred_from_factors": false,
+  "semantic_negative_controls_rejected": {
+    "wrong_fore_outside_rounding": true,
+    "nonfore_change": true,
+    "cash_notice_ratio_inferred_from_factor": true,
+    "wrong_source_root_proof": true
+  },
+  "account_or_ROI_computed": false,
+  "network_calls": 0,
+  "strategy_changes_or_recommendations": false,
+  "objective_achieved": false,
+  "critical_or_important_findings": [],
+  "limitations": [
+    "This is exact coordinate-rounding consistency plus existing reviewed cash-notice provenance, not an independent proof of the economic cause of factor changes.",
+    "The V2literal pre2026coordinate prefix stays unchanged; only2026increment forecoordinates are compared using latest-back ratio intervals. This is not a claim of one globally rewritten coordinate basis.",
+    "Actual shareholder cash0.05/0.30CNY is bound to the existing notices; any separate price-reference cash remains distinct. No new cash/tax source is inferred, no raw dividend row is supplemented here.",
+    "Reuses the existing seven-notice content review and reauthenticates two original PDF complete-byte receipts; does not re-review economics, certify PIT/arrival or grant account/source admission."
+  ]
+}

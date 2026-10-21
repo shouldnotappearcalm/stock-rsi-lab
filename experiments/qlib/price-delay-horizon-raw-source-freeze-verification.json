@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_SOURCE_CAPTURE_READY_NO_NETWORK_YET",
+  "request_file": "experiments/qlib/price-delay-horizon-raw-source-request.json",
+  "request_sha256": "762b77dfed8c2a85e5fbfb7bdc7db149fd4216378230906b6ef8e18aa6ca4160",
+  "code_review_file": "experiments/qlib/price-delay-horizon-raw-wrapper-review.json",
+  "code_review_sha256": "4b06662d8d2b2fedb7f65b4c18b97fa67c2589a9c4ffd5dbc026121d13b95968",
+  "critical_findings": 0,
+  "important_findings": 0,
+  "root_actual_preflight_exit_code": 0,
+  "independent_actual_preflight_exit_code": 0,
+  "preflight_created_output_or_connected_SDK": false,
+  "full_suite_tests": 594,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 11.501,
+  "full_suite_log_sha256": "59f82aa7d7e60c4b92fee239652b15dc4857460937e531891483eb08f37adf4b",
+  "coordinate_independent_audit_sha256": "e93c52c7ccf23fbb3cf163e28278d693729f335d69be90fa86be0a17dfa866c7",
+  "root_coordinate_audit_reproduction_byte_identical": true,
+  "capture_executed": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_return_computed": false,
+  "investment_rules_changed": false,
+  "objective_achieved": false
+}

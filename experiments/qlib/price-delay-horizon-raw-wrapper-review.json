@@ -1,0 +1,57 @@
+{
+  "status": "BOUNDED_WRAPPER_CODE_AND_EXISTING_SOURCE_PROOF_REVIEW_PASS",
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "reviewed_code_sha256": {
+    "scripts/capture_price_delay_horizon_raw.py": "9cdf6750074f6c57def43bd57da5c64af341d21161a3965182bd1d9a3dcce3b4",
+    "tests/test_price_delay_horizon_raw_capture.py": "ba871cc77d56dcdd68c7abb26446e4111a573321cb998f275e50025d8797d2fe",
+    "scripts/value_momentum_raw_extension_sources.py": "ca08a618fecf8d6fe8adce4cc7613f7cb1c10fd3f03d3ef16b6e2803d485b1aa",
+    "scripts/reassemble_value_momentum_raw_extension_v2.py": "bfefb6d3175899445fbb1d34f18e4b4ede396fe2ad06979d39b081285f0f3cd9"
+  },
+  "verification": {
+    "synthetic_tests_run": 30,
+    "synthetic_tests_passed": 30,
+    "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src:. /Users/calm/.cache/stock-rsi-research-env/bin/python -m unittest tests.test_price_delay_horizon_raw_capture tests.test_value_momentum_raw_extension_sources tests.test_value_momentum_raw_reassembly_v2 -v",
+    "actual_four_registered_coordinate_pairs_recomputed_equal_saved_proofs": true,
+    "actual_coordinate_independent_audit_links_verified": true,
+    "actual_checked_cached_packet_hashes_match_audit_and_remain_unchanged": true,
+    "actual_authenticated_preflight_exit_code": 0,
+    "actual_preflight_output": "preflight203names/102cache/80incremental/21cold/345queries; no network/output/account",
+    "binding_counts": {
+      "method_code_sha256": 11,
+      "public_evidence_sha256": 12,
+      "local_source_sha256": 6,
+      "immutable_financial_sha256": 48,
+      "source_manifest_sha256": 4,
+      "source_calendar_sha256": 4,
+      "original_packet_sha256": 151,
+      "coordinate_reference_proof_sha256": 4
+    },
+    "actual_capture_output_absent_after_preflight": true
+  },
+  "reviewed_boundaries": {
+    "frozen_partition": "203 names: 102 whole cache, 80 incremental, 21 cold; independently derived budget 345",
+    "query_journal": "Inherited per-identity max_attempts=1 with exact derived 345 reservation budget; raw decoded response stored before validators; source errors retained; consecutive3 code failures stop; no resume",
+    "admin_cleanup": "One lazy administrative login, typed/status failure retained; logout attempted in finally; socket timeout restored; login/logout error or missing required completion proof prevents capture_complete",
+    "source_authentication": "Exact method/public/local and 48 financial path sets, fixed output and SDK metadata version; four source manifests/calendars and referenced packet bytes; 151 original baselines; 167 derived baseline total; final postcapture authentication",
+    "coordinate_scope": "Only four registered issuer/root keys, exact saved-proof digest and newly bound independent audit/source hash; unchanged nonfore and cash fields required; no rewriting or economic entitlement inference",
+    "original_prefix": "compose_packet copies original baseline rows for all151 originals; common core and corporation rows checked before suffix use; full 676-session dates required without lifecycle exception",
+    "completion": "Exact requested code set, 203 packets, no errors/pending/abnormal exit, exactly345 consumed reservations, successful login/logout and postcheck; separate price-delay scope retains legacy helper manifest",
+    "admission": "Both legacy and wrapper scope keep source/account admission, full corporate-action certification, historical arrival and actual FIFO tax verification false; no accounts/ROI called"
+  },
+  "limits": [
+    "No actual SDK/network invocation or live source capture was performed.",
+    "The four-coordinate source check reuses the separately independently reconstructed review and existing reviewed issuer notices; this is not a new PDF economic-content review or tax/cash admission.",
+    "Authentication preserves cached packet hashes and nested provenance; this report does not claim to independently replay all historical cache vendor journals.",
+    "Whole-cache output reuses observations with new assembly provenance, not byte-identical copying of entire packet wrappers.",
+    "No prior-strategy 2026 account/performance reports were read.",
+    "Exact request preflight passed; commit/push and live capture completion are not claimed by this read-only review."
+  ],
+  "ready_to_freeze_source_capture_request": true,
+  "source_capture_executed": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "request_sha256": "762b77dfed8c2a85e5fbfb7bdc7db149fd4216378230906b6ef8e18aa6ca4160",
+  "protocol_sha256": "f0a7e3ba3a47c9391b5b1ea67941042274e3e1cb98163da22cc055a7989d63ba"
+}
