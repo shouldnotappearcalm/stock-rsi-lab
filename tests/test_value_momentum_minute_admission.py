@@ -1,10 +1,24 @@
-import copy,unittest
+import copy,tempfile,unittest
+from pathlib import Path
+from scripts.fundamental_query_journal import file_sha
+from scripts.admit_value_momentum_minutes_pre2026 import verify_journal_bytes
 try:
  from scripts.admit_value_momentum_minutes_pre2026 import verify_capture_scope
 except ImportError:verify_capture_scope=None
 
 
 class CompositeMinuteAdmissionScopeTests(unittest.TestCase):
+ def test_audited_journal_bytes_cannot_be_reformatted_or_extended(self):
+  with tempfile.TemporaryDirectory() as d:
+   capture=Path(d);folder=capture/'queries'/'fixed-request';folder.mkdir(parents=True)
+   request=folder/'request.json';request.write_text('{"instrument":"SZ000001"}')
+   audit={'query_artifact_sha256':{'queries/fixed-request/request.json':file_sha(request)}}
+   verify_journal_bytes(capture,audit)
+   request.write_text('{ "instrument": "SZ000001" }')
+   with self.assertRaises(ValueError):verify_journal_bytes(capture,audit)
+   request.write_text('{"instrument":"SZ000001"}');extra=folder/'unexpected.json';extra.write_text('{}')
+   with self.assertRaises(ValueError):verify_journal_bytes(capture,audit)
+   extra.unlink();verify_journal_bytes(capture,audit)
  def setUp(self):self.assertIsNotNone(verify_capture_scope)
  def fixture(self):
   scope={'status':'COMPOSITE_PRE2026_MINUTE_CAPTURE_RECORDED','candidate':'szse_value_momentum_equal',

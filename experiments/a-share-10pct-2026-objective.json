@@ -4945,6 +4945,18 @@
       "source_conflicts": 0,
       "new_network_requests": 0,
       "minute_execution_admitted": false
+    },
+    "minute_source_capture": {
+      "status": "CAPTURE_COMPLETE_LOCAL_SOURCE_ADMISSION_PENDING",
+      "manifest_file": "experiments/qlib/szse-value-momentum-minute-capture-manifest.json",
+      "audit_file": "experiments/qlib/szse-value-momentum-minute-capture-independent-audit.json",
+      "verification_file": "experiments/qlib/szse-value-momentum-minute-capture-verification.json",
+      "captured_packets": 1744,
+      "byte_copies": 1051,
+      "fresh_reservations": 693,
+      "fresh_responses": 693,
+      "minute_execution_admitted": false,
+      "new_2026_market_queries": false
     }
   }
 }

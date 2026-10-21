@@ -1,0 +1,28 @@
+{
+  "status": "FIXED_COMPOSITE_CAPTURE_COMPLETE_INDEPENDENTLY_RECONSTRUCTED_NOT_SOURCE_ADMISSION",
+  "capture_freeze_commit": "9ec7070",
+  "capture_plan_sha256": "b341e730801fe265731d61b5ab2f4e69e59993ea962aad45c9e5963491aabcdb",
+  "source_capture_exit_code": 0,
+  "captured_packets": 1744,
+  "byte_copies": 1051,
+  "fresh_reservations": 693,
+  "fresh_responses": 693,
+  "independent_audit_file": "experiments/qlib/szse-value-momentum-minute-capture-independent-audit.json",
+  "independent_audit_sha256": "8f86595601ccf2979c17434045ac55bb4b6e90117143f7f438ab960196f00bf6",
+  "root_reproduction_byte_identical": true,
+  "semantic_negative_controls_rejected": {
+    "future_day": true,
+    "wrong_endpoint": true,
+    "second_attempt": true,
+    "fresh_projection_rewrite": true,
+    "lost_source_error": true
+  },
+  "full_suite_tests": 498,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 10.852,
+  "admitted_for_reconstructed_execution": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_values_queried": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

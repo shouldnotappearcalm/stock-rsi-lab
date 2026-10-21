@@ -1,0 +1,13 @@
+{
+  "status": "COMPOSITE_LOCAL_ADMISSION_METHOD_FROZEN_BEFORE_SOURCE_VERDICT",
+  "plan_sha256": "b46b982d31d9d115e554f396991caec4c8672245316a03e98d28c89694f3a396",
+  "code_review_sha256": "f005770f1a766a450559c26bd431554c008c2979a28897e3cbe172f6214dd170",
+  "ready_for_local_admission": true,
+  "full_suite_tests": 499,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 10.705,
+  "source_admission_executed": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_values_queried": false,
+  "objective_achieved": false
+}
