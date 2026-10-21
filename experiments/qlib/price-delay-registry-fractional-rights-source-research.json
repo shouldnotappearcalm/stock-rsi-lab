@@ -1,0 +1,153 @@
+{
+  "actual_account_run": false,
+  "announcement_number": "2026-036",
+  "complete_relevant_pages_visually_viewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "diagnostic_only": {
+    "conservative_return_range_computed": false,
+    "endpoint_only_portfolio_bound_proven": false,
+    "floor_proven_worst_final_portfolio_return": false,
+    "limitation": "To claim a return bound, any later authorized diagnostic must propagate every reachable account/state/order branch and shared constraints or explicitly justify a safe overapproximation. Higher credited shares can alter fees, lots, affordability, rebalancing and later ownership, so local floor/ceil alone does not order terminal returns.",
+    "research_does_not_authorize_branch_replay": true,
+    "strict_original_account_pass_established": false,
+    "strict_original_failure_should_remain_preserved": true
+  },
+  "event_key": "SZ002831|2026-06-04",
+  "feasibility_and_claim_boundary": {
+    "actual_account_allocation_certified": false,
+    "allocation_probability_available": false,
+    "both_local_values_proven_feasible_in_actual_full_registry": false,
+    "corresponding_post_credit_quantity_if_original900_unchanged": [
+      1261,
+      1262
+    ],
+    "exact_vs_display_ratio_warning": "Agreement for900 shares does not establish floor/ceil agreement for every quantity reached in a later hypothetical branch; recompute exact rational bounds for each changed record quantity.",
+    "full_registry_legal_branch_set_enumerated": false,
+    "full_registry_missing_inputs": [
+      "All eligible registered holdings and treatment of any account aggregation",
+      "All competing fractional remainders and cut-off rank",
+      "Registrar internal precision and system tie order/result",
+      "Actual share-credit confirmation"
+    ],
+    "global_constraint": "The sum of all registry awards must equal367817529. Independent local choices are an overapproximation, not certified joint registry realizations.",
+    "local_conservative_envelope_new_shares": [
+      361,
+      362
+    ],
+    "local_envelope_can_overapproximate_actual_feasible_set": true,
+    "qualification": "This follows the ordinary one-extra-share-per-fractional-account reading of the stated largest-remainder procedure, for one eligible registered account holding900 shares. Both published-display and declared-total/eligible ratio conventions give the same local integer envelope. The PDF does not authenticate the registrar internal precision or a specific account ledger.",
+    "rounding_unit": "Registered shareholder securities account as applied by registrar; do not independently round strategy FIFO tax lots or decompose the same account into artificial holders.",
+    "standard_largest_remainder_single_account_result_is_within_floor_ceil": true
+  },
+  "instrument": "SZ002831",
+  "issuer": "深圳市裕同包装科技股份有限公司",
+  "mathematics": {
+    "account_record_quantity_assumption_from_root_not_re_read": 900,
+    "both_ratio_conventions_local_floor_ceil": [
+      361,
+      362
+    ],
+    "display_ratio_account_quota": {
+      "ceil": 362,
+      "decimal_60_digit_context": "361.71567",
+      "denominator": 100000,
+      "floor": 361,
+      "numerator": 36171567
+    },
+    "display_ratio_times_eligible_minus_declared_total": {
+      "ceil": 1,
+      "decimal_60_digit_context": "0.6070522",
+      "denominator": 5000000,
+      "floor": 0,
+      "numerator": 3035261
+    },
+    "displayed_ratio_equals_exact_total_ratio": false,
+    "exact_declared_total_over_eligible_ratio": {
+      "ceil": 1,
+      "decimal_60_digit_context": "0.401906299336687123450838964766947294109254259676488015621509",
+      "denominator": 915182294,
+      "floor": 0,
+      "numerator": 367817529
+    },
+    "exact_quota_minus_display_quota": {
+      "ceil": 0,
+      "decimal_60_digit_context": "-5.96981588894244931709747435301671166291160785940642335023147E-7",
+      "denominator": 45759114700000,
+      "floor": -1,
+      "numerator": -27317349
+    },
+    "exact_ratio_account_quota": {
+      "ceil": 362,
+      "decimal_60_digit_context": "361.715669403018411105755068290252564698328833708839214059358",
+      "denominator": 457591147,
+      "floor": 361,
+      "numerator": 165517888050
+    },
+    "q900_integer_boundary_changed": false
+  },
+  "network_queries": 0,
+  "original_url": "https://static.cninfo.com.cn/finalpage/2026-05-29/1225335706.PDF",
+  "pdf_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-horizon-corporate-reviewed-20261021/SZ002831-20260529.pdf",
+  "pdf_sha256": "ae29cedfb8dd555a2c0f624a05fe0d91484b67d29fc5ba1118dfca79a52f5922",
+  "physical_pages_rendered": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "physical_pages_text_extracted": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "portfolio_returns_computed": false,
+  "primary_facts": {
+    "actual_entitlement_vs_price_reference_kept_separate": true,
+    "capital_shares_credit_and_unrestricted_trading_date": "2026-06-04",
+    "declared_total_new_capital_shares": 367817529,
+    "declared_total_pages": [
+      1,
+      4
+    ],
+    "displayed_new_capital_shares_per_10_original_shares": "4.019063",
+    "displayed_ratio_pages": [
+      1,
+      3
+    ],
+    "displayed_ratio_per_original_share": "0.4019063",
+    "eligible_basis_pages": [
+      1,
+      2,
+      3
+    ],
+    "eligible_original_shares": 915182294,
+    "ex_date": "2026-06-04",
+    "largest_remainder_and_random_tie_page": 4,
+    "price_reference_ratio_not_used": "0.3995786",
+    "record_date": "2026-06-03",
+    "rule_paraphrase": "Credit the integer portion; rank the sub-one-share fractional tails from largest to smallest and award one share in that order until the announced aggregate transfer is reached. Equal fractional tails are ordered randomly by the system."
+  },
+  "reading_artifact_sha256": {
+    "calculate.py": "0fd54b04d75cb0a901f24579392ae85ab25f5ea117a08beef616c38e59d5bd59",
+    "fulltext.txt": "0a0923e97098f13fd2949e2f93e27fd16106b329ddd552d3186fe2b1610acdc5",
+    "p1.png": "f23dabe3b358b5eb6581ca43aa0dd15d47d33f7a1692ecff89897cf756eff68f",
+    "p2.png": "4f1236aeb5e7d1b53f625ea8a0338b396d3e7abc0730a8109bbfe6b2f08feb09",
+    "p3.png": "2e334655080df557a4a15e043ef246a96c6edcaa67158b31d3f11a0c58e3e203",
+    "p4.png": "f2535a53b06cc2105f819019a842ca87160973328681967c4d58558b8bef719f",
+    "p5.png": "08cbb811e89739df095cd65aa95aef6be05744d340d2ace14bfe3f1a31415adc"
+  },
+  "repository_or_source_modified": false,
+  "reviewed_manifest_sha256": "51c236c980a154048f147dd8ee9f7053763e71a0fda769be10f94331aee3cb07",
+  "signed_date": "2026-05-29",
+  "source_queries": 0,
+  "status": "PRIMARY_NOTICE_LARGEST_REMAINDER_LOCAL_ENVELOPE_RESEARCH_ONLY",
+  "tax_and_other_guards": "No new statutory tax exemption, actualFIFO basis, rights cash compensation or ownership evidence is inferred. Existing evidence limits and guards remain intact.",
+  "title": "2025年度权益分派实施公告"
+}

@@ -1,0 +1,62 @@
+{
+  "status": "UNCHANGED_PRICE_DELAY_SSE_REGIME_DAILY_HORIZON_RECORDED",
+  "plan_sha256": "cdcfc7df83f4cdcb2db7f2620aa143ea206e10e3fe79bb67ec631708d547407a",
+  "candidate": "price_delay_d1",
+  "window": [
+    "2023-12-29",
+    "2026-10-20"
+  ],
+  "initial_CNY": "1000000",
+  "reference_extra_bps": 40,
+  "results_by_extra_bps": {
+    "20": {
+      "status": "INVALID_SOURCE_OR_ACCOUNT",
+      "error_type": "ValueError",
+      "error": "fractional corporate entitlement needs registry allocation evidence",
+      "portfolio_returns_computed": false,
+      "failure_artifact_sha256": {
+        "error.json": "827bcaf28629c92305e4e584e3d12da29743ceedc76943ac1367acce6c84aad3",
+        "failed_account_state.json": "d33c86df49c583898389a5084b4fe73e7f15f31cbfd311b214f69da31ac70cf8",
+        "partial_case.json": "62d9a9f3c06e725cc2c2e574cfff5550d94b3b01f159b6e95a0ac8003523fd1b",
+        "source_scope_audit.json": "7fd14b9b7b4910abb11fc3c893fe04ca54b10ac61285c6f439c9889f85c70922"
+      },
+      "original_traceback": "Traceback (most recent call last):\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/run_price_delay_regime_horizon.py\", line 276, in run_profiles\n    case = simulate(inputs['calendar'], inputs['bars'], inputs['events'], inputs['targets'], old.CAPITAL,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/replay_regime_stock_distribution_targets.py\", line 51, in simulate_regime_fixed_targets\n    account.start_day(day)\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/src/stock_rsi/stock_distribution_account.py\", line 48, in start_day\n    raise ValueError('fractional corporate entitlement needs registry allocation evidence')\nValueError: fractional corporate entitlement needs registry allocation evidence\n"
+    },
+    "40": {
+      "status": "INVALID_SOURCE_OR_ACCOUNT",
+      "error_type": "ValueError",
+      "error": "fractional corporate entitlement needs registry allocation evidence",
+      "portfolio_returns_computed": false,
+      "failure_artifact_sha256": {
+        "error.json": "827bcaf28629c92305e4e584e3d12da29743ceedc76943ac1367acce6c84aad3",
+        "failed_account_state.json": "1a090dbe374ffb99d3d434f4deace680e72f87473ab344e9f4469a834c415c15",
+        "partial_case.json": "53620a29966767a52bda72143b2ef39c3e1a0cad17790d741b5d0e2c9b0b2305",
+        "source_scope_audit.json": "7fd14b9b7b4910abb11fc3c893fe04ca54b10ac61285c6f439c9889f85c70922"
+      },
+      "original_traceback": "Traceback (most recent call last):\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/run_price_delay_regime_horizon.py\", line 276, in run_profiles\n    case = simulate(inputs['calendar'], inputs['bars'], inputs['events'], inputs['targets'], old.CAPITAL,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/replay_regime_stock_distribution_targets.py\", line 51, in simulate_regime_fixed_targets\n    account.start_day(day)\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/src/stock_rsi/stock_distribution_account.py\", line 48, in start_day\n    raise ValueError('fractional corporate entitlement needs registry allocation evidence')\nValueError: fractional corporate entitlement needs registry allocation evidence\n"
+    }
+  },
+  "postcheck": {
+    "all_bound_inputs_unchanged": true,
+    "source_authentication_repeated": true,
+    "errors": [],
+    "completed": true,
+    "persistence_errors": []
+  },
+  "all_profiles_complete_before_returns": false,
+  "interrupted": null,
+  "execution_model": "DAILY_PROXY_ONLY",
+  "allocator": "plan_integer_targets",
+  "risk_warning_buy_permission": false,
+  "source_queries": 0,
+  "investment_rule_changed": false,
+  "old_failure_relabelled_success": false,
+  "old60_financial_files_unchanged": true,
+  "full_October_2026_complete": false,
+  "sealed_2026_evidence_claimed": false,
+  "historical_arrival_verified": false,
+  "queue_and_impact_calibrated": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

@@ -5766,5 +5766,32 @@
     "root_independent_audit_reproduction_byte_identical": true,
     "verification_file": "experiments/qlib/low-market-residual-vol1m-horizon-run-verification.json",
     "verification_sha256": "b09df0a26ac4b966ca922bab9374f41db2a4f6f83b654082afdd143f14bd942d"
+  },
+  "latest_price_delay_regime_horizon_diagnostic": {
+    "status": "UNCHANGED_STRATEGY_REGIME_CAPABILITY_EXERCISED_FRACTIONAL_REGISTRY_GUARD_FAILED",
+    "candidate": "price_delay_d1",
+    "new_alpha_candidates": 0,
+    "freeze_commit": "f6e5499b58166f7a7220f20a64e81ef181e6c9ad",
+    "request_sha256": "cdcfc7df83f4cdcb2db7f2620aa143ea206e10e3fe79bb67ec631708d547407a",
+    "result_file": "experiments/qlib/price-delay-regime-horizon-results.json",
+    "summary_sha256": "bff3bea0e879e2f6652e189ea3b6aafd1e6862c7de2ca2fd7a72c19056a923ea",
+    "verification_file": "experiments/qlib/price-delay-regime-horizon-run-verification.json",
+    "verification_sha256": "d45ac9baab437ebb25646d63a82842476d1c6a767183fdc8cf394e57fbfbaa50",
+    "independent_failure_audit_sha256": "f00a992403a10a425aaef3e6859d4d982bdf3cd9cf25a3c35764796c6627fefe",
+    "root_audit_byte_identical": true,
+    "completed_partial_sessions_each": 584,
+    "monthly_intents_each": 30,
+    "last_completed_session": "2026-06-03",
+    "failed_session": "2026-06-04",
+    "failure_instrument": "SZ002831",
+    "registered_quantity_each": 900,
+    "noninteger_capital_rights_each": "361.7156700",
+    "actual_ST_permission_rejections_each": 2,
+    "ST_buy_fills_each": 0,
+    "all_old_financial_and_failure_evidence_preserved": true,
+    "investment_rule_changed": false,
+    "2026_annual_ROI_computed": false,
+    "objective_achieved": false,
+    "next_action": "User approved a separate complete allocation-envelope tree; retain strict failure and enumerate all admitted integer allocation paths with unchanged strategy/costs, preserving all old prefixes and reporting all leaf returns only after complete gates. No floor/ceil selection by performance or actual registry certification."
   }
 }
