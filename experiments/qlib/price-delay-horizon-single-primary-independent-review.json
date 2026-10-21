@@ -1,0 +1,103 @@
+{
+  "status": "INDEPENDENT_ONE_PRIMARY_CHAIN_AND_ALL_FOUR_PAGES_REVIEW_PASS_NO_ADMISSION",
+  "audit_code_sha256": "a7531181eba58f18d7d7d05ad9ad7c278d5cd4784d8a801c26bd351ceffe5354",
+  "imports_project_code": false,
+  "capture_manifest_sha256": "644697e02850d93f72e0024a1e4efe4b6caec76b417b906ea54c45a4ee67c81c",
+  "request_sha256": "194e1c2514fe97fb0c0f16757ce3a4199e9bf3d60b2bff6f1862945bb32fa7f0",
+  "primary_pdf_sha256": "6bc1e1c5fe3f61008331fddabbfa7d6d6aed3146c0448e1e232e8dcedf559dff",
+  "root_content_review_sha256": "b20a662cc6149c96397089a769f3e43dd96b85039c13ea544441cb4a17c6285f",
+  "all4pages_independently_text_extracted_and_visually_reviewed": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_file": "/tmp/price-delay-SH603233-independent-pages-20261021/page-1.txt",
+      "text_sha256": "b2bd3f892bf9d8dcf727f3ed7d9948b1ebd312e681d29a6b87eb182379e6d559",
+      "screenshot": "/tmp/price-delay-SH603233-independent-pages-20261021/page-1.png",
+      "screenshot_sha256": "a9de8619a6b31a2abe5d315a259735037c0bb158796ab220e45ef9a320f2dfb4"
+    },
+    {
+      "page": 2,
+      "text_file": "/tmp/price-delay-SH603233-independent-pages-20261021/page-2.txt",
+      "text_sha256": "753bedf9e2facb798646124855931b113667e17e0472007d1921922908665c46",
+      "screenshot": "/tmp/price-delay-SH603233-independent-pages-20261021/page-2.png",
+      "screenshot_sha256": "41908822ca3c9cd4d0526126f70bc4b7074f78675d4b3c56b64ab3511a482a8f"
+    },
+    {
+      "page": 3,
+      "text_file": "/tmp/price-delay-SH603233-independent-pages-20261021/page-3.txt",
+      "text_sha256": "aec0c42b3e247b5a804d8b38f597b8f0a42e186dd233631823831005830cb5d3",
+      "screenshot": "/tmp/price-delay-SH603233-independent-pages-20261021/page-3.png",
+      "screenshot_sha256": "c3523b11d12d575564849c56e2e2b96fc9b64b912652ec12b8b233339310cb5a"
+    },
+    {
+      "page": 4,
+      "text_file": "/tmp/price-delay-SH603233-independent-pages-20261021/page-4.txt",
+      "text_sha256": "dcac7f4832f43ca75604938c1777d6ddcdaff63171a70192f83fd523da1faf40",
+      "screenshot": "/tmp/price-delay-SH603233-independent-pages-20261021/page-4.png",
+      "screenshot_sha256": "244b12a0757feb1349a81d55754cc46eefd5536c94ae3d4c4598a9ac82d780a5"
+    }
+  ],
+  "verified_primary_fields": {
+    "instrument": "SH603233",
+    "issuer_name": "大参林医药集团股份有限公司",
+    "announcement_number": "2026-055",
+    "publication_day": "2026-10-12",
+    "signature_day": "2026-10-12",
+    "record_date": "2026-10-16",
+    "ex_date": "2026-10-19",
+    "cash_payment_date": "2026-10-19",
+    "cash_per_original_share_CNY": "0.41",
+    "stock_per_original_share": "0",
+    "capital_per_original_share": "0",
+    "eligible_share_count": "1132170028",
+    "total_share_count": "1138892282",
+    "excluded_repurchase_shares": "6722254",
+    "price_reference_cash_per_share_CNY": "0.41"
+  },
+  "reference_cash": {
+    "actual_eligible_share_cash": "0.41",
+    "published_approximate_all_capital_reference": "0.41",
+    "notice_formula_exact_rational": "1054976617/2588391550",
+    "notice_formula_decimal_diagnostic": "0.4075799957699599197038021547",
+    "diagnostic_is_not_new_cash_entitlement_or_factor_mapping": true
+  },
+  "receipt": {
+    "request_file": "queries/6a427d3a5f9767be9f5168a4eccb8487bfd9eb3517e98ff4a9c38a97eb087513/request.json",
+    "request_sha256": "de90a86fc62f3989b035c99fb7d8df4e3fce33d8078c1bdff8234178a7e28c1c",
+    "reserved_file": "queries/6a427d3a5f9767be9f5168a4eccb8487bfd9eb3517e98ff4a9c38a97eb087513/reserved-1.json",
+    "reserved_sha256": "5bc378aefa5706662244c73ebf4994eecc8a3b32393547cb06dc98f8841a286b",
+    "response_file": "queries/6a427d3a5f9767be9f5168a4eccb8487bfd9eb3517e98ff4a9c38a97eb087513/response-1.json",
+    "response_sha256": "8cbfa2421b3f6116855f99be88cfd78bd68bf25444ed202ca1513717ffa93f2d"
+  },
+  "one_exact_query_reservation_and_response_verified": true,
+  "postcheck_inputs_reauthenticated": true,
+  "original_151_packet_hashes_unchanged": true,
+  "successful_assembled_original_prefixes_literal_equal": 151,
+  "all48_original_financial_hashes_unchanged": true,
+  "raw_capture_202_of203_failure_preserved": true,
+  "semantic_negative_controls_rejected": {
+    "coherently_rehashed_wrong_final_url": true,
+    "coherently_rehashed_HTTP_body_differs_from_PDF": true,
+    "second_attempt_rejected": true,
+    "coherently_rehashed_partial_body_rejected": true,
+    "diluted_reference_not_actual_cash": true,
+    "wrong_record_date": true,
+    "invented_stock_ratio": true,
+    "repurchase_shares_included": true
+  },
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "limitations": [
+    "Cash0.41 is for eligible ordinary registered holders. Repurchased shares are excluded; named self-paying holders have separate payment handling.",
+    "The notice delegates distribution through ChinaClear; designated trading holders can receive on payment day, undesignated holders wait. This does not independently certify investor receipt.",
+    "Personal/fund tax is deferred until share transfer and holding-period based:20percent up to1month,10percent over1month through1year,temporary exemption over1year. This is issuer notice evidence, not independent tax-law advice, FIFO lot validation or actual liability certification.",
+    "Publication/signature day is Oct12 from captured official URL and notice; historical first availability remains uncertified.",
+    "No factor economic causality, coordinate consistency or complete company-action coverage is proved by this PDF review.",
+    "All4pages visually reviewed independently; no internet, project code import, account replay, portfolio ROI or source mutation."
+  ],
+  "source_admitted_for_account_replay": false,
+  "new_events_compiled": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

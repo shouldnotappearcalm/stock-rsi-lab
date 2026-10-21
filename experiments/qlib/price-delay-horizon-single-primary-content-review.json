@@ -1,0 +1,82 @@
+{
+  "status": "ONE_PRIMARY_NOTICE_ALL_FOUR_PAGES_TEXT_AND_VISUALLY_REVIEWED_NO_ACCOUNT_ADMISSION",
+  "capture_manifest_sha256": "644697e02850d93f72e0024a1e4efe4b6caec76b417b906ea54c45a4ee67c81c",
+  "request_sha256": "194e1c2514fe97fb0c0f16757ce3a4199e9bf3d60b2bff6f1862945bb32fa7f0",
+  "all_pages_text_extracted_and_visually_reviewed": true,
+  "documents_read": 1,
+  "pages_read": 4,
+  "documents": [
+    {
+      "instrument": "SH603233",
+      "publication_day": "2026-10-12",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600412.PDF",
+      "file": "SH603233.pdf",
+      "sha256": "6bc1e1c5fe3f61008331fddabbfa7d6d6aed3146c0448e1e232e8dcedf559dff",
+      "pdf_receipt": {
+        "request_file": "queries/6a427d3a5f9767be9f5168a4eccb8487bfd9eb3517e98ff4a9c38a97eb087513/request.json",
+        "request_sha256": "de90a86fc62f3989b035c99fb7d8df4e3fce33d8078c1bdff8234178a7e28c1c",
+        "reserved_file": "queries/6a427d3a5f9767be9f5168a4eccb8487bfd9eb3517e98ff4a9c38a97eb087513/reserved-1.json",
+        "reserved_sha256": "5bc378aefa5706662244c73ebf4994eecc8a3b32393547cb06dc98f8841a286b",
+        "response_file": "queries/6a427d3a5f9767be9f5168a4eccb8487bfd9eb3517e98ff4a9c38a97eb087513/response-1.json",
+        "response_sha256": "8cbfa2421b3f6116855f99be88cfd78bd68bf25444ed202ca1513717ffa93f2d"
+      },
+      "issuer_name": "大参林医药集团股份有限公司",
+      "announcement_number": "2026-055",
+      "signature_day": "2026-10-12",
+      "record_date": "2026-10-16",
+      "ex_date": "2026-10-19",
+      "cash_payment_date": "2026-10-19",
+      "cash_per_original_share_CNY": "0.41",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0",
+      "price_reference_cash_per_share_CNY": "0.41",
+      "price_reference_cash_qualifier": "Published rounded approximate virtual allocation, separately stated from actual eligible-share cash; not reverse-engineered from factor.",
+      "eligible_share_count": "1132170028",
+      "total_share_count": "1138892282",
+      "excluded_repurchase_shares": "6722254",
+      "cash_entitlement_investor_scope": "Ordinary registered eligible A-share holders excluding issuer repurchase shares; self-paid holders listed separately.",
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "field_pages": {
+        "issuer_notice_identity": [
+          1,
+          4
+        ],
+        "cash_entitlement": [
+          1,
+          3,
+          4
+        ],
+        "no_stock_or_capital": [
+          2
+        ],
+        "record_ex_pay": [
+          1,
+          2
+        ],
+        "differential_reference_and_eligible_base": [
+          2
+        ],
+        "tax_text": [
+          3,
+          4
+        ]
+      },
+      "cash_tax_model_note": "Notice describes deferral and holding-period-dependent settlement. Existing engineering stress reserve stays separate; actual FIFO tax/arrival not certified.",
+      "capital_tax_exemption_claimed": false,
+      "stock_tax_basis_claimed": false
+    }
+  ],
+  "raw_vendor_rows_modified": false,
+  "cash_inferred_from_adjustment_factor": false,
+  "coordinate_consistency_proven_by_content_review": false,
+  "new_events_compiled": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_return_computed": false,
+  "investment_rules_changed": false,
+  "objective_achieved": false
+}

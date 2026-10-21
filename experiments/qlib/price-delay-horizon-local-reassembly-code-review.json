@@ -1,0 +1,57 @@
+{
+  "status": "BOUNDED_LOCAL_REASSEMBLY_CODE_REVIEW_PASS_AFTER_CANONICAL_BINDING_FIX",
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "resolved_findings": [
+    {
+      "severity": "Important",
+      "issue": "Original draft authenticated a newly rebound tree but did not directly compare202 accepted packet/calendar bytes with the original manifest or saved query bytes with the original independent audit.",
+      "resolution": "verify_source_capture_bindings now validates202 accepted packet hashes, error hash, calendar hash and actual sessions, cleanup/postcheck/prior-proof hashes and exact1035 query filenames/hashes; main copies against original manifest hash map. The same authentication repeats before completion.",
+      "regression": "Coherently rebound new trees containing changed packet/error/calendar/cleanup/response are rejected by canonical prior anchors."
+    }
+  ],
+  "request_sha256": "b43aa018c7439824913841643df4af9ea6d6cdb454e18a8bfe570d33974cf12d",
+  "superseded_unexecuted_request_sha256": "ddbcfb795d8998a31deffe04e5ea50a2f06611d1f8f2ddde53baa1e4cc160c78",
+  "reviewed_file_sha256": {
+    "scripts/reassemble_price_delay_horizon_raw.py": "63086e1e30b703a6338fb349fca83bfe8737c1f2d8358a81572a514e0ff6a682",
+    "tests/test_price_delay_horizon_raw_reassembly.py": "179e6382396d43f1cd277e78f08fdfe52071433a7c8eb570f47bf6eb50b7518c",
+    "docs/research/price-delay-horizon-local-reassembly-plan-2026-10-21.md": "6b7a291b86c204e72f789d8929ce1f9e6a15aafd474963137727e72d73ea558c",
+    "experiments/qlib/price-delay-horizon-local-reassembly-request.json": "b43aa018c7439824913841643df4af9ea6d6cdb454e18a8bfe570d33974cf12d"
+  },
+  "checks": {
+    "focused_and_inherited_tests_passed": 13,
+    "actual_final_request_preflight_exit_code": 0,
+    "actual_reassembly_output_created": false,
+    "exact_method_public_local_sets": {
+      "method_code_sha256": 12,
+      "public_evidence_sha256": 7,
+      "local_source_sha256": 3
+    },
+    "immutable_capture_tree_files": 1249,
+    "immutable_primary_tree_files": 6,
+    "immutable_financial_files": 48,
+    "canonical_query_artifacts": 1035,
+    "original345_single_attempt_saved_identities_and_vendor_response_chains_checked": true,
+    "forbidden_fetch_never_used_and_no_source_session_instantiated": true,
+    "new_coordinate_proof_sha256": "a7507bb9dc138a20d38414ff0fe7d63a33a62a3b4286775c795ad2614b28e8ba",
+    "literal_pre2026_prefix_verified_for_reassembled_SH603233": true,
+    "all202_other_source_packet_copies_against_original_manifest": true,
+    "all203_code_set_and_original676_session_calendar_authenticated": true,
+    "postwrite_full_input_reauthentication_before_success_manifest": true,
+    "factor_values_and_vendor_dividend_rows_not_rewritten_or_supplemented": true,
+    "original_failed_source_capture_retained": true,
+    "source_account_arrival_ROI_admission_flags_false": true
+  },
+  "limitations": [
+    "Only synthetic tests and actual read-only preflight ran; no real V2 output was assembled or account replay executed.",
+    "Proof validation reuses the unchanged registered rational interval method; this code review is not a second independent mathematical reconstruction of the new proof.",
+    "Failed/interrupted write preserves its partial directory and cannot produce a success manifest; it cannot resume into that existing directory.",
+    "Actual202 packet byte copies and final203-output audit remain subsequent runtime evidence after freeze/push.",
+    "Source receipt integrity and primary notice content do not certify factor economic causality, complete company actions, tax settlement, historical arrival or account admission.",
+    "No network, new query, repository/source modification or portfolio ROI in this review."
+  ],
+  "ready_for_frozen_local_only_reassembly": true,
+  "actual_reassembly_executed": false,
+  "source_admitted_for_account_replay": false
+}
