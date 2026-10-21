@@ -1,0 +1,71 @@
+{
+  "status": "IMPORTANT_EXCEPTION_POSTCHECK_GAP",
+  "review_scope": "read-only code, metadata and hash preflight; synthetic tests; no real formation/account/ROI/network",
+  "file_sha256": {
+    "scripts/prepare_low_market_residual_vol_horizon_formations.py": "70a60a537ce7432aa43f8dc00403e43daa9ebc17655b7908d39faf513e512c08",
+    "tests/test_low_market_residual_vol_horizon_formations.py": "d4fbd1557532c3074b2a26cb408770dc46623d26767b898e3eb64c3eda482dd3",
+    "docs/research/low-market-residual-vol1m-horizon-protocol-2026-10-21.md": "b2aef172f8fd563768e5185e20bd19de8e012ba1175c19ccd92f266b5014ce1f",
+    "experiments/qlib/low-market-residual-vol1m-horizon-formation-request.json": "4d2064fdc1b343d266518481bdb597f464d9acfebe13dd0a5188f91fa1743433",
+    "src/stock_rsi/low_market_residual_vol_horizon.py": "2049746b10bdb92dc7f598e3de0c9600546b571e3504453dfa425a3800d0211a"
+  },
+  "tests_run": 10,
+  "tests_passed": true,
+  "guarded_source_preflight_passed": true,
+  "full_provider_QlibSnapshot_calls": 0,
+  "build_targets_calls": 0,
+  "bound_input_count": 5355,
+  "original_completed_output_files": 26,
+  "clock_months": 34,
+  "denied_months": [
+    {
+      "execution_session": "2026-03-02",
+      "formation_asof": "2026-02-27",
+      "return_month": "2026-02",
+      "sample_dates": [
+        "2026-02-02",
+        "2026-02-03",
+        "2026-02-04",
+        "2026-02-05",
+        "2026-02-06",
+        "2026-02-09",
+        "2026-02-10",
+        "2026-02-11",
+        "2026-02-12",
+        "2026-02-13",
+        "2026-02-24",
+        "2026-02-25",
+        "2026-02-26",
+        "2026-02-27"
+      ],
+      "n": 14,
+      "minimum_return_observations": 15,
+      "admitted": false,
+      "reason": "complete_source_month_fewer_than_frozen_15_observations"
+    }
+  ],
+  "calendar_branches_match_original": true,
+  "source_full_file_hashing_is_not_float_decoding": true,
+  "critical_findings": [],
+  "important_findings": [
+    {
+      "file": "scripts/prepare_low_market_residual_vol_horizon_formations.py",
+      "function": "main exception handler",
+      "issue": "Unexpected formation/persistence exceptions and KeyboardInterrupt bypass source/old-financial postcheck. Normal declared clock denial does recheck.",
+      "synthetic_evidence": {
+        "load_inputs_calls": 1,
+        "verify_inputs_calls": 0,
+        "written": [
+          "input-before.json",
+          "terminal-error.json"
+        ]
+      },
+      "required_fix": "Attempt source and byte postcheck after every started application including exceptions; retain original error plus separate postcheck result/error."
+    }
+  ],
+  "boundaries": [
+    "34 is a success expectation only; actual explicit February2026 n=14 makes March formation fail unchanged n>=15 before full-provider quote decoding.",
+    "Original pre2026 authenticate constructs only physically capped pre2026 QlibSnapshot.",
+    "No real formation, outputs, portfolio returns or 2026 quote values read.",
+    "Core authored by this reviewer; this review independently concerns root wrapper/protocol, not a second independent review of own factor core."
+  ]
+}

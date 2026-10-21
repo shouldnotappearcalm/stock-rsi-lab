@@ -1,0 +1,29 @@
+{
+  "status": "UNCHANGED_IVOL_HORIZON_METHOD_FROZEN_BEFORE_ACTUAL_CLOCK_DENIAL_RUN",
+  "request_file": "experiments/qlib/low-market-residual-vol1m-horizon-formation-request.json",
+  "request_sha256": "c5cdfdb602d7d233a374a08eefeebdefa3cec6b6a0890b27a57b22e63ff84301",
+  "preflight_exit_code": 0,
+  "preflight_log_sha256": "59137ad3a6ee3e04e3572e400d56415205bcc34eae3b2f47f917b46216a114d9",
+  "local_suite": {
+    "tests": 784,
+    "exit_code": 0,
+    "log_sha256": "24c50bc3287e2180b87d203d5715e80b43ede2976ae13e21fd211845cd87d126"
+  },
+  "clean_CI_research_suite": {
+    "tests": 784,
+    "optional_Qlib_skips": 3,
+    "exit_code": 0,
+    "log_sha256": "f8301254b4da1cbacd18e2791586a3b64dc43c95f33b8d5b1811ebdf2ed718a3"
+  },
+  "final_code_review_sha256": "6e9f56f169e7a8a309ee3ce72247187f7b9e2223549ac39d4d3b2184b82766d8",
+  "critical_or_important_findings": [],
+  "original_factor_sha256": "de2d29831b81d0e7078e482bdf429ea3388e47d7a2bc264bfec0841c20a602dd",
+  "metadata_known_short_month_expected_to_fail_unchanged_rule": true,
+  "minimum_observations_changed": false,
+  "skip_or_carry_fallback_added": false,
+  "2026_quote_values_decoded_by_current_candidate": false,
+  "portfolio_returns_computed": false,
+  "prior_CI_repair_commit": "2bde776637b9307be46e53b4c5b7eb9915c192b2",
+  "latest_pre_freeze_CI_all_three_jobs_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39610494580",
+  "objective_achieved": false
+}

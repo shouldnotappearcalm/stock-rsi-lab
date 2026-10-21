@@ -1,0 +1,26 @@
+{
+  "status": "PASS_BOUNDED_CODE_REVIEW_FIXED",
+  "prior_report": "/tmp/low-market-residual-vol-horizon-formation-code-review-20261021.json",
+  "prior_report_sha256": "73ec81146a4a6209a52fb8a8dd960de2adbf57508db2cf398bee303459553ba8",
+  "file_sha256": {
+    "scripts/prepare_low_market_residual_vol_horizon_formations.py": "cb82717a83b596c7c98671eea3e6ed61f39cd9d1201d0725c51888eca53066b0",
+    "tests/test_low_market_residual_vol_horizon_formations.py": "3af0bfe1113f5319df43200b47b1025428d2cb8d9f99e8a253d8434459c3d608"
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "resolved_important": "Exception and KeyboardInterrupt paths now independently attempt complete source/clock reload and every known byte hash. Original exception object survives source-postcheck and persistence failures; input-before write is inside protected try.",
+  "focused_tests": 5,
+  "tests_passed": true,
+  "regressions": [
+    "main KeyboardInterrupt with successful post-auth",
+    "main KeyboardInterrupt with failing post-auth still calls known hash verification",
+    "original exception identity preserved; no summary/ROI created"
+  ],
+  "final_request_requires_rebinding_current_method_sha": true,
+  "actual_preflight_repeated": false,
+  "real_2026_quotes_read": false,
+  "actual_formation_called": false,
+  "portfolio_returns_computed": false,
+  "repository_modified_by_reviewer": false,
+  "scope": "Bounded rereview of the reported exception-postcheck fix. Prior guarded source authentication remains evidence of previous request; root must rebind current method and rerun preflight before freeze."
+}
