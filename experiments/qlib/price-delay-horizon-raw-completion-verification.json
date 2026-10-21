@@ -1,0 +1,33 @@
+{
+  "status": "203_LOCAL_RAW_PACKETS_INDEPENDENTLY_RECONSTRUCTED_CORPORATE_INVENTORY_PENDING",
+  "manifest_sha256": "9fe3990c0b4b1c076b78c97971ceecf593687b2f15699154c3bdbbce666f6490",
+  "request_sha256": "b43aa018c7439824913841643df4af9ea6d6cdb454e18a8bfe570d33974cf12d",
+  "independent_audit_file": "experiments/qlib/price-delay-horizon-local-reassembly-independent-audit.json",
+  "independent_audit_sha256": "a7bf3324200deb497ba93327fe41c2d4e6ae7fb5b39d7ed81916aaca91ded753",
+  "root_reproduction_byte_identical": true,
+  "raw_source_names": 203,
+  "sessions": 676,
+  "copied_packet_bytes": 202,
+  "reassembled_saved_response_names": 1,
+  "totals": {
+    "bars": 137228,
+    "distributions": 733,
+    "adjustments": 754,
+    "quarantine": 0
+  },
+  "new_source_queries_for_local_reassembly": 0,
+  "original_failed_capture_complete": false,
+  "original_failed_capture_saved_names": 202,
+  "original_failed_capture_errors": [
+    "SH603233"
+  ],
+  "original_failed_capture_reservations": 345,
+  "all_original_capture_bytes_preserved": true,
+  "all48_development_financial_artifacts_unchanged": true,
+  "source_admitted_for_account_replay": false,
+  "2026_portfolio_return_computed": false,
+  "investment_rules_changed": false,
+  "full_October_2026_complete": false,
+  "objective_achieved": false,
+  "validation_note": "Frozen independent-audit source bytes are retained literally, including one original trailing whitespace; no git diff whitespace success is claimed for that imported evidence file."
+}

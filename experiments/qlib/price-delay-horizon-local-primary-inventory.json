@@ -1,0 +1,190 @@
+{
+  "status": "NO_SH603233_MATCH_IN_FIXED_EXISTING_LOCAL_PRIMARY_REVIEWED_ALLOWLIST",
+  "instrument": "SH603233",
+  "question_day": "2026-10-19",
+  "manifests_checked": [
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+      "sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+      "sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+      "sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-full-corporate-notices-20261017/reviewed-manifest.json",
+      "sha256": "0c14b8e9bfa421a20b5bb6b1befd4b8c0c7c93e674b9f87e910394efacd64723",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-family-corporate-notices-20261017/reviewed-manifest.json",
+      "sha256": "a77d0caf8788616fee773c1c4e5a0b9614956cbd0f79732644fee0b0b85b1bd8",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/reviewed-manifest.json",
+      "sha256": "ff7d6c9e1a17978c74d204a616f1bd965600a5605d02667570256d881ccbf022",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-reviewed-20261021/reviewed-manifest.json",
+      "sha256": "a7cd5b97694232e3503990e3db60a805c0e6e82f8ec894f02283b7d9b3582fb9",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-reviewed-20261021/reviewed-manifest.json",
+      "sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/reviewed-manifest.json",
+      "sha256": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-corporate-notices-20261017/reviewed-manifest.json",
+      "sha256": "fe5d1b9b29cee2b674c65caaafdd0910ec463945b32f8f4b7a8a60f727aecda6",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-20261021/reviewed-manifest.json",
+      "sha256": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-2026-20261021/manifest.json",
+      "sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-horizon-cninfo-primary-20261021/manifest.json",
+      "sha256": "154b58f1baff99e059c641ab3ada1369d5cf6865f2f3c0604c04638bc5e84710",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-horizon-missing-primary-20261021/manifest.json",
+      "sha256": "e8d9088504c3e4ea0fc9c2c2075a0a34eb73fe3429117fdc747dec0a05340555",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-primary-literature-20261021/manifest.json",
+      "sha256": "68d0f1794e910ee69e2b1259330823d3aef8c584b3804d241aabd61e85ca2556",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/manifest.json",
+      "sha256": "31f32ff7ff86ecea75c543eea78967deedcd2262fe8e5d00543a4bdcba48cb65",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-noncash-2026-capture-20261021/manifest.json",
+      "sha256": "faa7a5ec488e6b35021d96ce5d379cfa9e37c32d4b0fe8073bd98bb1a86d5a04",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-capture-20261021/manifest.json",
+      "sha256": "f2191de5406e83a9d6319000cdeca525199fae531f8e7b0cd908d6644eff7c80",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/manifest.json",
+      "sha256": "238c63fcbeaad7e78c6bf69e928c54da3d46c1faab6439ca139bfb866b6b5c76",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-sources-20261021/manifest.json",
+      "sha256": "4575c850becfa049fa7876dfe1f6fff0869d685f848dde76ed4c8d3cd3bc1158",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-continuation-20261021/manifest.json",
+      "sha256": "d5368ff85a6a46443d0869d13354e3ea8ccc76426feb1cac58ac227509976e19",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-notices-20261021/manifest.json",
+      "sha256": "d1f2ad707004e111e9270f8b953b9abe97332182f8f7ba17794ca027db2b527d",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/manifest.json",
+      "sha256": "c9e547dafce1037f9b9725abc64ce883c88c1773e4df916f253ae86da43d8f59",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-full-corporate-notices-20261017/manifest.json",
+      "sha256": "4db4f616056c618419f053b57497ee39bb97aa1c347b085ce05b4bed99b77e7a",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-family-corporate-notices-20261017/manifest.json",
+      "sha256": "dc42da1e6683a418e2d59a358b978515b2f985f65885082c6207757d1e0f1de9",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    },
+    {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-corporate-proofs-20261017/manifest.json",
+      "sha256": "ef97c73712072ed58a05dceea01cc041063a013f8229defbe22d25089a4d1c25",
+      "instrument_or_notice_text_match": false,
+      "same_root_top_level_filename_match": []
+    }
+  ],
+  "matching_primary_document": null,
+  "matching_primary_document_sha256": null,
+  "matching_reviewed_event_proof": null,
+  "no_match_means_only_fixed_local_scope": true,
+  "issuer_public_notice_globally_absent_certified": false,
+  "root_reported_source_question_not_independently_verified_here": {
+    "original_adjustment_day": "2026-06-26",
+    "original_foreAdjustFactor": "1.000000",
+    "fresh_foreAdjustFactor": "0.977969",
+    "reported_additional_adjustment_day": "2026-10-19",
+    "reported_vendor_dividend_exdates": [
+      "2026-06-26"
+    ]
+  },
+  "pending_raw_output_read": false,
+  "fresh_bars_or_dividend_response_compared": false,
+  "entitlement_inferred_from_factor": false,
+  "local_reassembly_admitted": false,
+  "next_required_evidence": "Authenticated terminal raw response/core/prefix audit plus issuer primary implementation notice/content review for Oct19 or explicit provider provenance explaining this coordinate change; no cash may be solved from the factor.",
+  "network_calls": 0,
+  "account_or_ROI_run": false,
+  "repository_or_original_sources_modified": false,
+  "limitations": [
+    "Existing metadata/manifests and top-level document filenames searched; no new notice searched or captured.",
+    "No matching PDF exists in these registered manifests, so no PDF hash or economic notice fields can be supplied for SH603233.",
+    "The root-reported factor discrepancy is retained as a question, not a verified economic explanation."
+  ]
+}
