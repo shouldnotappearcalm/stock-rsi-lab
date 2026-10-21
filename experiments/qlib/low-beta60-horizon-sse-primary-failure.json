@@ -1,0 +1,18 @@
+{
+  "status": "SINGLE_ORIGINAL_CAPTURE_FINANCIAL_REVIEW_PENDING",
+  "request_sha256": "2edfd67e538a66ac2351aa6dabc433cadfa4ec4436362c63e8163293f359bb24",
+  "capture_complete": false,
+  "documents_financially_reviewed": false,
+  "portfolio_returns_computed": false,
+  "admitted_for_account_replay": false,
+  "objective_achieved": false,
+  "error_type": "AssertionError",
+  "error": "source response is not an original PDF",
+  "HTTP_query_reservations_consumed": 1,
+  "artifact_sha256": {
+    "request.json": "2edfd67e538a66ac2351aa6dabc433cadfa4ec4436362c63e8163293f359bb24",
+    "queries/ff0370e8fd74c7d6f4d92c72f63ae8f80b2f6857b7a6851bb60b1551d1d42dc9/request.json": "6aac175d6f7604264c58b4a1de75b808bd665b293f62c5676518ef8ae229bc20",
+    "queries/ff0370e8fd74c7d6f4d92c72f63ae8f80b2f6857b7a6851bb60b1551d1d42dc9/reserved-1.json": "dc3e0b8c3d9ccb37cde1aaa9fdf60f00aee04283dc250bdcbddaa0d9c75e4b54",
+    "queries/ff0370e8fd74c7d6f4d92c72f63ae8f80b2f6857b7a6851bb60b1551d1d42dc9/response-1.json": "f44aa6ba7c4bfb326426ffe5180fd217595f762df72d35e6ec9619d071e7dcea"
+  }
+}

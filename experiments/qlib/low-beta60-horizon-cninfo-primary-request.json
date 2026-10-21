@@ -1,0 +1,31 @@
+{
+  "status": "FROZEN_ALTERNATE_CNINFO_EXACT_DAY_IMPLEMENTATION_NOTICE",
+  "maximum_http_queries": 2,
+  "max_attempts_per_identity": 1,
+  "maximum_body_bytes": 4194304,
+  "timeout_seconds": 20,
+  "documents": [
+    {
+      "document_id": "SH601598-20261013",
+      "instrument": "SH601598",
+      "publication_day": "2026-10-13",
+      "exact_title": "2026年半年度权益分派实施公告",
+      "organization_id": "gshk0000598"
+    }
+  ],
+  "output_directory": "low-beta60-horizon-cninfo-primary-20261021",
+  "org_map_plan_sha256": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0",
+  "original_SSE_failure_manifest_sha256": "e8d9088504c3e4ea0fc9c2c2075a0a34eb73fe3429117fdc747dec0a05340555",
+  "raw_source_manifest_sha256": "9e2a7639ae40f1e8913a5306d430ed14003074acc24b741d7e7e3d4e5a64f891",
+  "method_code_sha256": {
+    "scripts/capture_low_beta60_corporate_2026.py": "f864a41b22b92bbc3335e67d202ac802b30a3a722a2e0e48435840296d6013ef",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2"
+  },
+  "no_same_URL_retry": true,
+  "documents_financially_reviewed": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
