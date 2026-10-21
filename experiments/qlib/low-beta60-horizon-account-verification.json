@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN_CONTINUOUS_ACCOUNT_BEFORE_ACTUAL_REPLAY",
+  "plan_sha256": "26c820a9b29192e726e97c568118ed38e70c719d77f0d030ffbc9332d89e15cd",
+  "full_tests_passed": 471,
+  "critical_or_important_review_findings": 0,
+  "code_review_sha256": "f8e9075020605735a74d53652ce8de04c82eb1a9a10f9fe82ef35751ce3e03a5",
+  "logs_sha256": {
+    "stock-rsi-lowbeta-horizon-account-red-20261021.log": "1451a6a675a27354632162aab5b0797a0dc3202c88c5830f7997ab9b0e51e593",
+    "stock-rsi-lowbeta-horizon-account-binding-red-20261021.log": "bdbe8935e936c483b60a3e76d30d0a073848736ad50330b31b185c98d4cad5e7",
+    "stock-rsi-lowbeta-horizon-account-green-20261021.log": "f7c476d053c72b53ed5acf00ab0e401cede1e7572133a601f3b4a6d53be4fdf7",
+    "stock-rsi-lowbeta-horizon-account-full-20261021.log": "5eec33047076321aca6d8793a83cdf462a64dba0843b6423be4816ae2f759167"
+  },
+  "actual_preflight": {
+    "sessions": 676,
+    "names": 79,
+    "events": 269,
+    "targets": 34,
+    "tapes": 2086,
+    "reference_profiles": 6,
+    "tape_accesses": 0
+  },
+  "actual_account_replays": 0,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

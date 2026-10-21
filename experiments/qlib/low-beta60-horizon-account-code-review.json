@@ -1,0 +1,82 @@
+{
+  "status": "HORIZON_ACCOUNT_CODE_REVIEW_APPROVED_NO_CRITICAL_OR_IMPORTANT_FINDINGS",
+  "base_commit": "a6212e940c23cd79f0d30d5a1e811aa69e282fd7",
+  "reviewed_working_tree_files": [
+    "scripts/run_low_beta60_horizon_account.py",
+    "tests/test_low_beta60_horizon_account.py",
+    "docs/research/low-beta60-horizon-account-plan-2026-10-21.md",
+    "experiments/qlib/low-beta60-horizon-account-plan.json",
+    "docs/research/low-beta60-horizon-event-results-2026-10-21.md",
+    "experiments/qlib/low-beta60-horizon-event-results.json",
+    "experiments/qlib/low-beta60-horizon-event-independent-audit.json",
+    "experiments/qlib/low-beta60-horizon-events-output-review.json",
+    "experiments/qlib/low-beta60-horizon-event-verification.json",
+    "experiments/a-share-10pct-2026-objective.json"
+  ],
+  "new_runner_sha256": "638639a93c2af9089a5d5373f9665b12eac91c83247919c9e074a924a6832887",
+  "account_plan_sha256": "26c820a9b29192e726e97c568118ed38e70c719d77f0d030ffbc9332d89e15cd",
+  "strengths": [
+    "All six fixed capital/participation/cost profiles use the unchanged continuous account and execution framework.",
+    "All seven original financial artifacts gate returns; execution_session and eligible_at correctly exclude the Dec31 intent and parent for January execution.",
+    "Decimal previous-year-end denominators and unrounded10percent threshold are used only after completeness, prefix and source-capacity validation.",
+    "Unknown capital tax rejects positive registered ownership before credits and retains entitlements, cash, lots, orders, fills, claims and clocks without portfolio ROI.",
+    "Mandatory method/local/public SHA binding scopes reject omissions; all2086 source tapes are authenticated before replay and cached access rechecks file bytes.",
+    "Actual269-event publication preserves interim/no-ROI scope and records prior capture-cap deviation."
+  ],
+  "critical_findings": [],
+  "important_findings": [],
+  "minor_findings": [],
+  "reviewer_validation": {
+    "focused_horizon_account_unittests": {
+      "passed": 6,
+      "exit_code": 0
+    },
+    "inherited_source_io_retention_unittests": {
+      "passed": 2,
+      "exit_code": 0
+    },
+    "read_only_load_inputs": {
+      "passed": true,
+      "calendar_sessions": 676,
+      "raw_names": 79,
+      "events": 269,
+      "monthly_targets": 34,
+      "source_tapes_authenticated": 2086,
+      "original_reference_profiles": 6,
+      "reference_artifacts_per_profile": 7,
+      "tapes_accessed": 0
+    },
+    "additional_fully_synthetic_success_replay": {
+      "passed": true,
+      "profiles": 6,
+      "source_sessions": 676,
+      "return_rows": 675,
+      "monthly_intents": 34,
+      "prior_financial_artifact_comparisons": 42,
+      "synthetic_prices_and_bars_only": true,
+      "outputs_removed_with_temporary_directory": true
+    },
+    "full_suite_reported_by_coordinator": {
+      "passed": 471,
+      "seconds": 11.222,
+      "log": "/tmp/stock-rsi-lowbeta-horizon-account-full-20261021.log",
+      "independently_rerun_by_reviewer": false
+    }
+  },
+  "declined_to_judge": [
+    "Actual candidate2026 ownership, account results and ROI: explicitly outside this pre-run review; real account replay forbidden and not performed.",
+    "Full-October completion, real-profit acceptance, actual FIFO settlement and calibrated queue/impact behavior: explicitly disclaimed by this interim engineering protocol.",
+    "Historical RED-before-code sequence: cannot independently establish from current working tree; current six behavior tests independently passed.",
+    "Reconstruction of every prior source audit from primary source bytes: prior audited output identities are bound and source files authenticated here; semantic audit reruns belong to source/output phases."
+  ],
+  "ready_for_frozen_actual_run": true,
+  "assessment": "Reviewed wrapper, tests, plan and event-phase metadata align with the frozen protocol. No Critical or Important issue was identified; successful synthetic completion and tax/source failure paths are supported by fresh checks. Actual-run states still require the planned independent output review before results are reported.",
+  "repository_edits_performed": false,
+  "network_or_source_queries_performed": 0,
+  "broker_orders_performed": false,
+  "background_jobs_created": false,
+  "financial_account_replay_performed": false,
+  "actual_candidate_2026_roi_viewed": false,
+  "full_October_complete": false,
+  "objective_achieved": false
+}

@@ -1,0 +1,9 @@
+# Oct20 evaluator-event results
+
+Before materialization, a6212e9 froze request3e6f7e1c1308d10ca6d98a7a9dc623d1fa67f188e793025f5b896ea3373dbb0d. Actual entry and independent stdlib reconstruction exited0. Fresh reviewer reran the auditor to a temporary file and reproduced its output byte-for-byte.465 repository tests passed. No source queries or portfolio-return calculations occurred.
+
+269 events comprise the prior266 literal ordered event/receipt prefix and three new cash events:SH600398 recordOct13/ex-payOct14 cash0.27;SH600312 recordOct14/ex-payOct15 cash0.242;primary SH601598 recordOct19/ex-payOct20 cash0.14. Counts264 vendor,3 primary supplements,2 precision completions. Raw source files and existing proof artifacts are unchanged; copied prior event files remain byte-identical.
+
+Both original69-name pre2026 coverage and all79-name2026 coverage passed. The new-year check includes Dec31 as the first reference boundary.25 historical corporate rows from the ten future-only names remain raw-source facts; no pre2026 target includes those names, so they do not rewrite the old account event set. Independent reconstruction checks every relevant reference and adjustment. Five semantic negative controls rejected old/new cash rewrites, omitted primary supplement, wrong record date and erased tax guard.
+
+SZ000937Jun17 remains explicitly unresolved and lacks a capital-tax exemption flag. Fixed target months include June; positive registered ownership must stop an account before unverified shares are credited. Next: six unchanged continuous100/500/1000bps participation ×20/40bps extra-cost accounts, initial1mCNY, verify original2024/25 financial prefixes before any2026 return summary. Oct20 remains interim. No strategy adjustment from2026 outcomes, no full-October or verified-profit claim. The previously recorded4MiB/10MiB primary capture deviation is retained.

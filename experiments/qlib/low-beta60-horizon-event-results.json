@@ -1,0 +1,42 @@
+{
+  "status": "269_EVENTS_COMPILED_PRIOR266_LITERAL_PREFIX_RETAINED_AUDIT_PENDING",
+  "plan_sha256": "3e6f7e1c1308d10ca6d98a7a9dc623d1fa67f188e793025f5b896ea3373dbb0d",
+  "window": [
+    "2023-12-29",
+    "2026-10-20"
+  ],
+  "original_events": 179,
+  "appended_events": 90,
+  "earlier_rows_of_future_only_names_ignored": 25,
+  "unverified_tax_event_keys": [
+    "SZ000937|2026-06-17"
+  ],
+  "preserved_prior_events": 266,
+  "new_post_Oct13_events": 3,
+  "compiled_events": 269,
+  "source_queries": 0,
+  "raw_manifest_sha256": "9e2a7639ae40f1e8913a5306d430ed14003074acc24b741d7e7e3d4e5a64f891",
+  "proof_manifest_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+  "coverage_scopes_passed": [
+    "original69_pre2026",
+    "all79_2026_with_Dec31_boundary"
+  ],
+  "source_kind_counts": {
+    "VENDOR_DISTRIBUTION": 264,
+    "PRIMARY_NOTICE_SUPPLEMENT": 3,
+    "PRIMARY_CASH_PRECISION_CORRECTION": 2
+  },
+  "artifact_sha256": {
+    "derived_events.json": "c1ed330538ffcb7b2d0a774acb3b3e7f46f7be2c2a4a9c0fd74550e9e411aa4e",
+    "event_source_receipts.json": "c8f9339628bd9d0fbbca46d5031a28ad935a9991057cdcf6cd8c5869534ba5fb",
+    "effective_horizon_proofs.json": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+    "prior_derived_events.json": "1ccd85b766b29f2d14514b2945d64f6ce017f1c4e0acec604d29fbd0d4749036",
+    "prior_event_source_receipts.json": "69b5fc9452f12625e66b64daee0b3f9026c58265a199368737dbd3e721561bd6"
+  },
+  "prior266_event_objects_and_receipts_unchanged": true,
+  "unknown_tax_guard_retained": true,
+  "account_replay_admitted": false,
+  "portfolio_returns_computed": false,
+  "full_October_complete": false,
+  "objective_achieved": false
+}

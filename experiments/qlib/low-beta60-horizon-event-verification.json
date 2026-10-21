@@ -1,5 +1,5 @@
 {
-  "status": "BEFORE269_EVENT_MATERIALIZATION_NO_ROI",
+  "status": "269_EVENT_ACTUAL_COMPILATION_AND_INDEPENDENT_RECONSTRUCTION_VERIFIED_NO_ROI",
   "tests_passed": 465,
   "request_sha256": "3e6f7e1c1308d10ca6d98a7a9dc623d1fa67f188e793025f5b896ea3373dbb0d",
   "review_sha256": "56271e180a11b458d397e879c722e4b66dd54ae2ee9ee5002653acfc140df44d",
@@ -14,5 +14,12 @@
   },
   "source_queries": 0,
   "portfolio_returns_computed": false,
-  "objective_achieved": false
+  "objective_achieved": false,
+  "freeze_commit": "a6212e9",
+  "compile_exit_code": 0,
+  "independent_audit_exit_code": 0,
+  "actual_summary_sha256": "39988d55bca3b06ad156c603cef1e733f247f375b1ff14e52578314bb7537b65",
+  "actual_audit_sha256": "312ff71ba0857229a394ecc9e17e3d15dc2eeedf7fae18014c39405a7b8a678c",
+  "fresh_output_review_sha256": "b0d2eac9bb09a7f43df87645f2311b5aa758ffad80df62167e3716cb1cd2e614",
+  "fresh_auditor_byte_reproduction": true
 }

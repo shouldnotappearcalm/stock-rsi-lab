@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "LOW_BETA60_OCT20_RAW_AND_MISSING_CASH_PRIMARY_VERIFIED_269_EVENT_COMPILATION_PENDING_NO2026ROI",
+    "status": "LOW_BETA60_SIX_HORIZON_ACCOUNT_PLAN_FROZEN_READY_FOR_ACTUAL_REPLAY",
     "candidate": "low_beta60",
     "candidate_budget": 1,
     "adaptive_development_not_sealed": true,
@@ -396,7 +396,7 @@
     "raw_share_execution_verified": false,
     "candidate_promoted": false,
     "objective_achieved": false,
-    "next_action": "Freeze and compile269 horizon evaluator events: preserve all prior266 economics, append SH600398Oct14 / SH600312Oct15 vendor cash and reviewed SH601598Oct20 primary cash. Independently validate full2026 corporate reference coverage, retain SZ000937 unknown-tax ownership guard, then run six unchanged continuous accounts through unconditionalOct20 with original2024/25 financial-prefix parity before reporting2026 ROI.",
+    "next_action": "Freeze and run six unchanged continuous minute accounts through unconditionalOct20 using269 verified events and2086 potential minute tapes; keep SZ000937 tax guard. Verify original2024/25 financial prefixes before any2026 return summary. Preserve all failure states and do not tune strategy from2026 outcomes.",
     "formation_summary_file": "experiments/qlib/low-beta60-pre2026-formations-summary.json",
     "eligible_range": [
       326,
@@ -933,6 +933,24 @@
       "result_file": "experiments/qlib/low-beta60-horizon-primary-results.json",
       "reviewed_manifest_file": "experiments/qlib/low-beta60-horizon-primary-reviewed-manifest.json",
       "content_review_file": "experiments/qlib/low-beta60-horizon-primary-content-review.json"
+    },
+    "horizon_event_compilation": {
+      "result_file": "experiments/qlib/low-beta60-horizon-event-results.json",
+      "independent_audit_file": "experiments/qlib/low-beta60-horizon-event-independent-audit.json",
+      "fresh_output_review_file": "experiments/qlib/low-beta60-horizon-events-output-review.json",
+      "verification_file": "experiments/qlib/low-beta60-horizon-event-verification.json",
+      "events": 269,
+      "prior266_literal_prefix_unchanged": true,
+      "new_events": 3,
+      "both_coverage_scopes_passed": true,
+      "unknown_tax_guard_retained": true,
+      "portfolio_returns_computed": false
+    },
+    "horizon_account_request": {
+      "plan_file": "experiments/qlib/low-beta60-horizon-account-plan.json",
+      "plan_sha256": "26c820a9b29192e726e97c568118ed38e70c719d77f0d030ffbc9332d89e15cd",
+      "verification_file": "experiments/qlib/low-beta60-horizon-account-verification.json",
+      "portfolio_returns_computed": false
     }
   },
   "strategy_research_history": [
