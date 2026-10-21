@@ -1,0 +1,32 @@
+{
+  "review_date": "2026-10-21",
+  "repository": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead",
+  "branch": "codex/portfolio-proposal-foundation",
+  "base": "6a0702f",
+  "scope": "Six original uncommitted source horizon files plus independent stdlib auditor and its test",
+  "assessment": "No concrete Critical or Important regression found; ready for frozen request publication. Source capture and financial admission remain unverified.",
+  "findings": [],
+  "verification": {
+    "targeted_unittest": "10 tests passed, including auditor positive fixture and five semantic negative mutations",
+    "pytest": "Unavailable: No module named pytest; unittest suite used successfully",
+    "actual_source_preflight": "authenticate_request passed with actual request SHA, 79 original packets, 55 cached tails, 24 complete authenticated dividend response chains, 671 old sessions",
+    "real_prefix_synthetic_extension": "Temporary fixture over actual authenticated prefix completed 79 packets / 214 reservations / 676 source sessions. Future daily bars and fresh source responses were synthetic, not real observations.",
+    "cash_event_fixture": "SH600398 Oct14 cash 0.27 retained; SH600312 Oct15 cash 0.242 retained with exactly one original-quarantine promotion",
+    "network_queries": 0,
+    "repository_edits": 0
+  },
+  "test_coverage_gaps": [
+    "Committed tests do not run successful authenticate_request with a complete 79/55/24/671 fixture, nor mutate each local/public source binding independently; reviewer separately ran successful real local preflight.",
+    "Current new tests do not exercise decoded provider initial/final error envelopes or partial ordinary iteration errors through full capture; inherited reader journals these envelopes but this behavior lacks new end-to-end regression coverage.",
+    "Small fixtures do not demonstrate 214-query accounting and both real cash-event shapes; reviewer separately checked full authenticated old prefix using explicitly synthetic new responses.",
+    "Full repository suite was not rerun by this reviewer; root implementer owns full-suite validation.",
+    "Auditor tests directly exercise verify_assembly only, not the full audit entrypoint and receipt/calendar/admin/count checks."
+  ],
+  "minor_notes": [
+    {
+      "file": "experiments/qlib/audit_sources/2026-10-21-low-beta60-horizon-audit.py",
+      "topic": "Report count naming",
+      "detail": "new_daily_bars=79*len(added) counts all appended bars including cached tails (395 with five new market sessions); fresh queried daily response rows are230. Rename to appended_daily_bars or report fresh_daily_bars separately to avoid source-count ambiguity."
+    }
+  ]
+}

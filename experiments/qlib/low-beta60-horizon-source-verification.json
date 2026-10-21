@@ -1,0 +1,25 @@
+{
+  "status": "PRE_CAPTURE_HORIZON_VERIFICATION_NO_SOURCE_CALLS",
+  "tests_passed": 460,
+  "test_log_sha256": {
+    "stock-rsi-lowbeta-horizon-sources-red-20261021.log": "09ed2f98f4bf9c2d22b228edea5d4db9be4d9bd385e26bb393c0adc80d943fef",
+    "stock-rsi-lowbeta-horizon-entry-red-20261021.log": "19d56b84df439aa1fec0a74c2694470b0f73d93ed8828a76d5761731199e2002",
+    "stock-rsi-lowbeta-horizon-audit-red-20261021.log": "57a097bbc41a82d3f93f786754937927819b3e05314b4002c35bfd9189cc2755",
+    "stock-rsi-lowbeta-horizon-targeted-green-20261021.log": "8faafaac2b90be19d2dbb041799138632b4c0ff056de746eb37e35d7feb56e66",
+    "stock-rsi-lowbeta-horizon-audit-green-20261021.log": "878f35106c704685083ba3a10891ec4fb054377caff9f7fa3ff2be480da16ffc",
+    "stock-rsi-lowbeta-horizon-full-20261021.log": "525ee5f6941f9e14a0df99338bb4489a94199beca901f5f439833f20c3c4d8c5"
+  },
+  "request_sha256": "f7e846b879d85691116b82774d09fe51305cc6f829dad3f1b3e63b1b739f5c87",
+  "review_sha256": "cc8043ea32b5d3e5f559977e8399a9211e74ff356e0ab754de3ebf04769af072",
+  "review_critical_or_important_findings": 0,
+  "minor_audit_bar_count_labels_corrected": true,
+  "actual_source_preflight": {
+    "originals": 79,
+    "cached_tails": 55,
+    "reused_dividend_responses": 24,
+    "old_sessions": 671
+  },
+  "source_calls": 0,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
