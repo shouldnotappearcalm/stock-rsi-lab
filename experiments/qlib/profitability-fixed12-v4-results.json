@@ -1,0 +1,390 @@
+{
+  "status": "FIXED36_SOURCE_CONTEXT_V4_COMPLETE_NOT_FACTOR_ADMITTED",
+  "parser_contract": "CONSOLIDATED_THREE_FIELD_SOURCE_CONTEXT_V4",
+  "request_sha256": "b2c1687037fb97c1232db23c80c835f82198a85ff0c66f427d19cd2982549449",
+  "documents": 36,
+  "issuer_count": 12,
+  "status_counts": {
+    "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 13,
+    "SOURCE_SCHEMA_UNSUPPORTED": 20,
+    "COVER_IDENTITY_UNVERIFIED": 3
+  },
+  "coverage_by_issuer": {
+    "SH600166": {
+      "2022": {
+        "capture_key": "SH600166-2022-1216699842",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SH600166-2023-1219874919",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SH600166-2024-1223327299",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      }
+    },
+    "SH601108": {
+      "2022": {
+        "capture_key": "SH601108-2022-1216664368",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "one literal consolidated row required: revenue"
+      },
+      "2023": {
+        "capture_key": "SH601108-2023-1219833882",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique ordered primary consolidated/parent balance and income statements required"
+      },
+      "2024": {
+        "capture_key": "SH601108-2024-1223320210",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique ordered primary consolidated/parent balance and income statements required"
+      }
+    },
+    "SH600901": {
+      "2022": {
+        "capture_key": "SH600901-2022-1216523728",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SH600901-2023-1219877383",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique scoped consolidated/parent table boundaries required"
+      },
+      "2024": {
+        "capture_key": "SH600901-2024-1223316139",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      }
+    },
+    "SH603517": {
+      "2022": {
+        "capture_key": "SH603517-2022-1216709701",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SH603517-2023-1219907586",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SH603517-2024-1223045873",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      }
+    },
+    "SH600418": {
+      "2022": {
+        "capture_key": "SH600418-2022-1216702541",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SH600418-2023-1219915147",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SH600418-2024-1222952026",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      }
+    },
+    "SH600655": {
+      "2022": {
+        "capture_key": "SH600655-2022-1216202153",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two monetary cells in bounded same-page row block required: revenue"
+      },
+      "2023": {
+        "capture_key": "SH600655-2023-1219374764",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two monetary cells in bounded same-page row block required: revenue"
+      },
+      "2024": {
+        "capture_key": "SH600655-2024-1222881098",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two monetary cells in bounded same-page row block required: revenue"
+      }
+    },
+    "SZ000825": {
+      "2022": {
+        "capture_key": "SZ000825-2022-1216522455",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "bare unit requires matching explicit section or report-preparation RMB evidence"
+      },
+      "2023": {
+        "capture_key": "SZ000825-2023-1219865113",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "bare unit requires matching explicit section or report-preparation RMB evidence"
+      },
+      "2024": {
+        "capture_key": "SZ000825-2024-1223315831",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "bare unit requires matching explicit section or report-preparation RMB evidence"
+      }
+    },
+    "SZ000783": {
+      "2022": {
+        "capture_key": "SZ000783-2022-1216691305",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique scoped consolidated/parent table boundaries required"
+      },
+      "2023": {
+        "capture_key": "SZ000783-2023-1219860033",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique scoped consolidated/parent table boundaries required"
+      },
+      "2024": {
+        "capture_key": "SZ000783-2024-1223376019",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      }
+    },
+    "SZ000750": {
+      "2022": {
+        "capture_key": "SZ000750-2022-1216658986",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique scoped consolidated/parent table boundaries required"
+      },
+      "2023": {
+        "capture_key": "SZ000750-2023-1219266576",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique scoped consolidated/parent table boundaries required"
+      },
+      "2024": {
+        "capture_key": "SZ000750-2024-1222948083",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique scoped consolidated/parent table boundaries required"
+      }
+    },
+    "SZ000933": {
+      "2022": {
+        "capture_key": "SZ000933-2022-1216236727",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SZ000933-2023-1219401996",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SZ000933-2024-1222881387",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two fiscal columns within eight same-page nonempty header lines required"
+      }
+    },
+    "SZ002372": {
+      "2022": {
+        "capture_key": "SZ002372-2022-1216497085",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SZ002372-2023-1219540563",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SZ002372-2024-1223102793",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two fiscal columns within eight same-page nonempty header lines required"
+      }
+    },
+    "SZ002925": {
+      "2022": {
+        "capture_key": "SZ002925-2022-1216693662",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "bare unit requires matching explicit section or report-preparation RMB evidence"
+      },
+      "2023": {
+        "capture_key": "SZ002925-2023-1219867746",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "bare unit requires matching explicit section or report-preparation RMB evidence"
+      },
+      "2024": {
+        "capture_key": "SZ002925-2024-1223270418",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "bare unit requires matching explicit section or report-preparation RMB evidence"
+      }
+    }
+  },
+  "source_observations": 23,
+  "all3_year_supported_parse_issuers": 3,
+  "input_count": 443,
+  "all_inputs_unchanged": true,
+  "original_parser_or_financial_source_changed": false,
+  "financial_version_history_complete": false,
+  "manual_numeric_visual_review_complete": false,
+  "economic_sector_compatibility_verified": false,
+  "historical_arrival_verified": false,
+  "investment_factor_admitted": false,
+  "security_ranking_or_portfolio_returns_computed": false,
+  "2026_financial_or_market_values_read": false,
+  "objective_achieved": false,
+  "old_status_counts": {
+    "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 12,
+    "SOURCE_SCHEMA_UNSUPPORTED": 21,
+    "COVER_IDENTITY_UNVERIFIED": 3
+  },
+  "transitions_by_document": {
+    "SH600166-2022-1216699842": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SH600166-2023-1219874919": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SH600166-2024-1223327299": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SH601108-2022-1216664368": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SH601108-2023-1219833882": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SH601108-2024-1223320210": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SH600901-2022-1216523728": {
+      "old": "COVER_IDENTITY_UNVERIFIED",
+      "v2": "COVER_IDENTITY_UNVERIFIED"
+    },
+    "SH600901-2023-1219877383": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SH600901-2024-1223316139": {
+      "old": "COVER_IDENTITY_UNVERIFIED",
+      "v2": "COVER_IDENTITY_UNVERIFIED"
+    },
+    "SH603517-2022-1216709701": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SH603517-2023-1219907586": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SH603517-2024-1223045873": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SH600418-2022-1216702541": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SH600418-2023-1219915147": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SH600418-2024-1222952026": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SH600655-2022-1216202153": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SH600655-2023-1219374764": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SH600655-2024-1222881098": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ000825-2022-1216522455": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ000825-2023-1219865113": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ000825-2024-1223315831": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ000783-2022-1216691305": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ000783-2023-1219860033": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ000783-2024-1223376019": {
+      "old": "COVER_IDENTITY_UNVERIFIED",
+      "v2": "COVER_IDENTITY_UNVERIFIED"
+    },
+    "SZ000750-2022-1216658986": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ000750-2023-1219266576": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ000750-2024-1222948083": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ000933-2022-1216236727": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SZ000933-2023-1219401996": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SZ000933-2024-1222881387": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ002372-2022-1216497085": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SZ002372-2023-1219540563": {
+      "old": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+      "v2": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW"
+    },
+    "SZ002372-2024-1223102793": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ002925-2022-1216693662": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ002925-2023-1219867746": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    },
+    "SZ002925-2024-1223270418": {
+      "old": "SOURCE_SCHEMA_UNSUPPORTED",
+      "v2": "SOURCE_SCHEMA_UNSUPPORTED"
+    }
+  },
+  "all_V2_supported_numeric_cells_and_coordinates_preserved": true,
+  "all_V3_parsed_case_numeric_cells_and_coordinates_preserved": true,
+  "V3_overall_failed_run_preserved_not_relabelled_success": true,
+  "current_only_opening_balance_reports": [
+    "SZ000933-2022-1216236727",
+    "SZ000933-2023-1219401996",
+    "SZ002372-2023-1219540563"
+  ]
+}

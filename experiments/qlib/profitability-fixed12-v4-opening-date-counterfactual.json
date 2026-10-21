@@ -1,0 +1,11 @@
+{
+  "status": "OPENING_JAN1_TO_PRIOR_DEC31_FAKE_RECORD_REJECTED",
+  "source_cell_audit_code_sha256": "a394a3fd526d1430c1251701da46cdffef62f8374582211b5f5e353535cb1c14",
+  "synthetic_counterfactual_on_private_run_copy": true,
+  "record_digest_and_both_case_packets_updated": true,
+  "exit_code": 1,
+  "reason": "opening balance cannot fabricate prior-year GP record",
+  "all41_original_outputs_unchanged": true,
+  "investment_factor_admitted": false,
+  "objective_achieved": false
+}

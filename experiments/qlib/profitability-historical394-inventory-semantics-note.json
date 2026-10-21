@@ -1,0 +1,12 @@
+{
+  "status": "LITERAL_TITLE_PREFIX_DIAGNOSTIC_PRESERVED_CORRECTED_CATALOG_USED",
+  "first_catalog_summary_sha256": "812565d9f9836a26b0e72f1f31e342cb28d4f0db80fb9acab50c6f1145a54b74",
+  "first_catalog_code_sha256": "aaf57b150076bdf64b1af285d624e4e9aa7541bf6ca3c08a561a5547e0a9e66b",
+  "first_catalog_cells_with_literal_full_title": 415,
+  "corrected_prefix_aware_metadata_cells": 794,
+  "reason": "Initial literal-year-at-title-start matcher did not handle issuer-name prefixes. No-matching-title does not prove absent annual filing. Corrected existing-source catalog retains all candidate titles and ambiguous cells without choosing a version.",
+  "first_catalog_outputs_preserved_locally": true,
+  "corrected_catalog_file": "experiments/qlib/profitability-historical394-source-inventory.json",
+  "no_network_or_numeric_financial_values_used": true,
+  "investment_factor_admitted": false
+}
