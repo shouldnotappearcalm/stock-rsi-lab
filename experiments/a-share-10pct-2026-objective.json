@@ -4957,6 +4957,16 @@
       "fresh_responses": 693,
       "minute_execution_admitted": false,
       "new_2026_market_queries": false
+    },
+    "minute_source_admission": {
+      "status": "SOURCE_ARITHMETIC_ADMITTED_INTRADAY_ACCOUNT_PENDING",
+      "summary_file": "experiments/qlib/szse-value-momentum-minute-admission-summary.json",
+      "audit_file": "experiments/qlib/szse-value-momentum-minute-admission-independent-audit.json",
+      "verification_file": "experiments/qlib/szse-value-momentum-minute-admission-verification.json",
+      "active_samples": 1744,
+      "reconstructed_execution_source_admitted": true,
+      "intraday_account_reconciled": false,
+      "2026_returns_queried": false
     }
   }
 }

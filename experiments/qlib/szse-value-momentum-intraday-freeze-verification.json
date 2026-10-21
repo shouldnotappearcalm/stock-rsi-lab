@@ -1,0 +1,14 @@
+{
+  "status": "FIXED_COMPOSITE_INTRADAY_METHOD_FROZEN_BEFORE_ACCOUNT_OUTCOMES",
+  "plan_sha256": "5aceef3f4493c30e6b35a64dbd3caa13d0c52ad7f0f70a2faf9d36aaa301c29c",
+  "code_review_sha256": "24a66b80f57fdd34e37df79497b97f729cc042072b2423bda36ebcd943eee645",
+  "ready_for_intraday_development": true,
+  "source_only_preflight_exit_code": 0,
+  "full_suite_tests": 501,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 10.925,
+  "actual_account_replay_executed": false,
+  "actual_portfolio_returns_computed": false,
+  "new_2026_market_values_queried": false,
+  "objective_achieved": false
+}

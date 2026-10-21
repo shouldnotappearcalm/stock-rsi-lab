@@ -1,0 +1,73 @@
+{
+  "status": "INDEPENDENT1744_COMPOSITE_MINUTE_SOURCE_ADMISSION_ARITHMETIC_RECONSTRUCTED",
+  "audit_code_sha256": "7354034d5858a6d2052dba93b499413a5fb362c3df974fcc5205b3c787f1df09",
+  "admission_plan_sha256": "b46b982d31d9d115e554f396991caec4c8672245316a03e98d28c89694f3a396",
+  "admission_summary_sha256": "81b861aa40d7bd95eaf48cf443c4fbc6637e74d153921e5a291d3c0b03e3e286",
+  "capture_plan_sha256": "b341e730801fe265731d61b5ab2f4e69e59993ea962aad45c9e5963491aabcdb",
+  "capture_manifest_sha256": "5d5424e4f33d1a6d8174a8c68376b8024f6656a17b4c3294c3b9af252602296c",
+  "request_sha256": "cc985220113dc967deaf234c6f308b73c95a484701f7410b7607ecaa786bbd58",
+  "imports_project_code": false,
+  "source_pairs_reconstructed": 1744,
+  "reused_original_bytes_authenticated": 1051,
+  "fresh_immutable_queries_reconstructed": 693,
+  "nonexecuting_source_intervals_reconstructed": [
+    {
+      "instrument": "SZ002128",
+      "day": "2025-05-06",
+      "reason": "SOURCE_HALT",
+      "actual_inventory_proven_zero": false,
+      "synthetic_price_created": false
+    },
+    {
+      "instrument": "SZ002185",
+      "day": "2025-10-09",
+      "reason": "SOURCE_HALT",
+      "actual_inventory_proven_zero": false,
+      "synthetic_price_created": false
+    }
+  ],
+  "source_pairs": 1744,
+  "protocol_points": 418560,
+  "windows": 83712,
+  "all_window_evidence_ids_sha256": "69e4a24fe449171a9b04daec7bfad4b412d0fb131e93f3a7e9bfe5dfbbec7c74",
+  "all_reconstructed_windows_sha256": "6dac9c92c9cb964bb852e5313a8ab0a1892a32ae6c5f2e8ba952078e59bc4b9e",
+  "exact_share_total_matches": 113,
+  "nearest_hand_total_matches_diagnostic_only": 1744,
+  "reported_minus_daily_share_difference_min": -49,
+  "reported_minus_daily_share_difference_max": 50,
+  "daily_share_volume_above_reported_plus_one_hand_per_minute": 0,
+  "upper_envelope_failures_diagnostic_only": [],
+  "semantic_negative_controls_rejected": {
+    "missing_minute": true,
+    "wrong_security": true,
+    "outside_price_range": true,
+    "lunch_timestamp": true,
+    "oversized_lower_volume": true,
+    "off_cent_price": true,
+    "wrong_last_close": true,
+    "false_volume_lower_bound": true,
+    "erased_halting_identity": true,
+    "false_exact_volume_certification": true,
+    "forged_admission_total": true
+  },
+  "negative_controls_use_hash_gate": false,
+  "exact_query_artifact_bytes_reauthenticated": true,
+  "all1744_details_and_summary_independently_reconstructed": true,
+  "reconstructed_source_admission_passes": true,
+  "exact_share_precision_certified": false,
+  "historical_arrival_verified": false,
+  "sdk_date_echo_authenticated": false,
+  "queue_and_impact_calibrated": false,
+  "full_corporate_actions_certified": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_values_queried": false,
+  "candidate_promoted": false,
+  "account_replay_performed": false,
+  "network_calls": 0,
+  "objective_achieved": false,
+  "limitations": [
+    "Source arithmetic/identity admission only. The decoded date may be request-attached by SDK; historical date echo and arrival are not authenticated.",
+    "Hand-volume100share conversion and lower-bound stress do not certify exact per-minute share counts or exact trade totals. Exact/nearest-hand and upper-envelope matches are diagnostics only.",
+    "No queue/impact calibration, corporate/tax completeness, actual account execution, portfolio result or2026financial evidence is established."
+  ]
+}
