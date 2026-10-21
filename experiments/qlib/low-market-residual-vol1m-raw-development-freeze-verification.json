@@ -1,0 +1,22 @@
+{
+  "status": "RAW_RUNNER_REVIEWED_READY_FOR_POST_PUSH_PRE2026_EXECUTION",
+  "request_file": "experiments/qlib/low-market-residual-vol1m-raw-development-request.json",
+  "request_sha256": "9f1d99938167d5c6c998355a3374a8b2fbc45e51012f6297330d29eed73c58a3",
+  "runner_sha256": "9767ff1f52f57672d0956062b15e3c0f8bf97ee2519dafa04bd63251cfd3cfd9",
+  "tests_sha256": "0e20c1bedab8c95c20c3f6b4b4649c5c5f7ad582f9066b2060e603df04232eb3",
+  "independent_review_file": "experiments/qlib/low-market-residual-vol1m-raw-runner-independent-review.json",
+  "independent_review_sha256": "cb4ed730d1aed569034e707ca3c8599e73f5bc8eb5f0307dfd9b6ed880eeed13",
+  "focused_synthetic_tests_passed": 9,
+  "local_full_tests_passed": 749,
+  "local_full_log_sha256": "9ff1a9d25b69ec21c0fb7e8db6bbe00cb7a712b0d63937afd2ad5a9c7bdf0d3e",
+  "clean_research_tests_passed": 749,
+  "optional_dependency_skips": 3,
+  "clean_research_log_sha256": "f450a15e134a03c5e125daa5d2890cb68d841187af2750d021fae44484bf2b00",
+  "actual_source_preflight_exit_code": 0,
+  "source_preflight_log_sha256": "d4ba6ac122cac14a23c7691bb55c9056ce2137d216e4fa3ae20652a60bfae4c1",
+  "source_audit_root_reproduced_byte_identically": true,
+  "account_output_exists": false,
+  "actual_account_replay_run": false,
+  "2026_values_read": false,
+  "objective_achieved": false
+}

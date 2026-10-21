@@ -1,0 +1,31 @@
+{
+  "status": "SOURCE_COMPILATION_INDEPENDENTLY_VERIFIED_ACCOUNT_ADMISSION_SEPARATE",
+  "freeze_commit": "b80c43f08bf38cd3254460a607d6ccee41bd6df3",
+  "freeze_pushed_before_actual_compilation": true,
+  "request_sha256": "38fab49d2ab85bf44d3d6f79dc2ed2562a5e0227b22ee59e3ce75e45b7d7203f",
+  "source_summary_sha256": "c030eb8ea0ebba7f25a7db3bf2e75d41217e7b17ab3a7454460729b9979e3ad5",
+  "source_postcheck_sha256": "4549d08563e1e946f736279f0783a3885ac24ba512d60363ec6fe72d70f4dad1",
+  "actual_compilation_exit_code": 0,
+  "actual_compilation_log_sha256": "e52a806eacd878ef135bcae41acb06f05d4d0197694aa5a4cbe7601de3dc962d",
+  "frozen_commit_CI_all_three_jobs_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39601920731",
+  "local_checkout_tests": {
+    "full_count": 746,
+    "full_log_sha256": "59d7aba60c2cb230e49e25cb03b5cc6a9a8a9cbb02afec9d199298dccf0d33d5",
+    "clean_research_count": 746,
+    "clean_research_optional_skips": 3,
+    "clean_research_log_sha256": "e4fa47ddb00ec54071de160eff0815833968316bc0377977683989e77e51404d",
+    "scope_note": "Local checkout included six parallel raw-runner synthetic tests not included in source freeze commit; source focused ten tests passed separately."
+  },
+  "source_events": 862,
+  "original_inputs_unchanged": 1251,
+  "old_financial_artifacts_unchanged": 42,
+  "account_replay_run": false,
+  "portfolio_returns_computed": false,
+  "2026_values_read": false,
+  "objective_achieved": false,
+  "independent_audit_file": "experiments/qlib/low-market-residual-vol1m-event-source-independent-audit.json",
+  "independent_audit_sha256": "6c0accef4aaf1103f59aebd74a6c1a846c4ef9fa0b7a1e0bd909cdc7bbe3d628",
+  "root_reproduced_independent_audit_byte_identically": true,
+  "semantic_negative_controls_rejected": 11,
+  "audit_first_invocation_note": "Independent reviewer first supplied temporary preflight request path, correctly rejected as distinct from actual public request input path; rerun used actual frozen public path without changing source bytes."
+}
