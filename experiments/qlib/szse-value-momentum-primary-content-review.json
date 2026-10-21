@@ -1,0 +1,307 @@
+{
+  "status": "PRIMARY_CONTENT_REVIEW_COMPLETE_FOR_SEPARATE_EVALUATOR_PROPOSAL_ACCOUNT_ADMISSION_PENDING",
+  "capture_audit_sha256": "8952f583e3e261f16303771d487021d2a3a361a579b7bfd4913b4667b52c1095",
+  "capture_manifest_sha256": "f2191de5406e83a9d6319000cdeca525199fae531f8e7b0cd908d6644eff7c80",
+  "request_sha256": "0063aa7cfcd0ca4b9d3b129941c34a413b34afccbdb87711f810c64321b86ed9",
+  "visual_method": "Complete selected pages rendered with Poppler at90dpi and individually viewed; pypdf text used as cross-check. Physical PDF page numbers are one-based.",
+  "complete_pages_visually_reviewed": 26,
+  "all_six_originals_byte_authenticated": true,
+  "documents": [
+    {
+      "file": "SZ002155-2025-06-07.pdf",
+      "sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+      "registered_source_day": "2025-06-07",
+      "PDF_pages_total": 3,
+      "complete_physical_PDF_pages_visually_reviewed_one_based": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "file": "SZ002837-2024-05-18.pdf",
+      "sha256": "b9ad0b843a59defb2117aac32655817bb92702ec3f5aa2012f8a06aeb186e4b1",
+      "registered_source_day": "2024-05-18",
+      "PDF_pages_total": 4,
+      "complete_physical_PDF_pages_visually_reviewed_one_based": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file": "SZ002837-2025-05-23.pdf",
+      "sha256": "7861fcd7337b44cae11bf34cef5c1c455953adc917d7243df223b503c9e3e367",
+      "registered_source_day": "2025-05-23",
+      "PDF_pages_total": 4,
+      "complete_physical_PDF_pages_visually_reviewed_one_based": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file": "SZ002984-2024-04-12.pdf",
+      "sha256": "8e7b30276e1e33199ca0e810c9924f43f258258aad60f53d3600311ba196b674",
+      "registered_source_day": "2024-04-12",
+      "PDF_pages_total": 5,
+      "complete_physical_PDF_pages_visually_reviewed_one_based": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "file": "SZ002508-2024-01-03.pdf",
+      "sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0",
+      "registered_source_day": "2024-01-03",
+      "PDF_pages_total": 4,
+      "complete_physical_PDF_pages_visually_reviewed_one_based": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file": "SZ001389-2024-04-01.pdf",
+      "sha256": "21b5bc6e53c404b63b4a484a5906ca2ce4dc7aeaf9ed7f6e4dacb835e5ce158f",
+      "registered_source_day": "2024-04-01",
+      "PDF_pages_total": 54,
+      "complete_physical_PDF_pages_visually_reviewed_one_based": [
+        1,
+        2,
+        5,
+        12,
+        13,
+        29
+      ]
+    }
+  ],
+  "SZ002508_special_cash": {
+    "issuer": "杭州老板电器股份有限公司",
+    "security_code": "002508",
+    "announcement_number": "2024-001",
+    "announcement_and_signature_day": "2024-01-03",
+    "identity_amount_reference_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "record_date": "2024-01-09",
+    "ex_date": "2024-01-10",
+    "cash_payment_date": "2024-01-10",
+    "ordinary_eligible_registered_shareholder_cash_per_ten_CNY": "5.00",
+    "cash_per_original_share_CNY": "0.50",
+    "stock_per_original_share": "0",
+    "capital_per_original_share": "0",
+    "ordinary_cash_entitlement_pages": [
+      1,
+      2
+    ],
+    "record_ex_pages": [
+      1,
+      2
+    ],
+    "payment_page": 3,
+    "signature_page": 4,
+    "price_reference_cash_per_share_CNY": "0.497403",
+    "price_reference_pages": [
+      1,
+      3
+    ],
+    "reason_for_distinction": "Repurchase-account4929134shares excluded from944094916eligible shares;472047458CNY dividend divided by949024050total shares only for ex-price reference. Ordinary registered external shareholders receive0.50CNY per original share.",
+    "tax_wording_page": 2,
+    "tax_examples_per_ten_CNY": {
+      "within_one_month": "1.00",
+      "over_one_month_through_one_year": "0.50",
+      "over_one_year": "0"
+    },
+    "no_entitlement_amount_inferred_from_raw_price_gap": true,
+    "vendor_missing_row_preserved": true,
+    "supplementary_event_not_compiled_or_admitted_yet": true
+  },
+  "SZ001389_listing": {
+    "issuer": "广州广合科技股份有限公司",
+    "security_code": "001389",
+    "document_type": "首次公开发行股票并在主板上市之上市公告书",
+    "registered_URL_day": "2024-04-01",
+    "cover_printed_date": "2024年4月",
+    "primary_stated_listing_date": "2024-04-02",
+    "listing_date_verified_from_original_primary_text": true,
+    "listing_date_pages": [
+      2,
+      12,
+      13
+    ],
+    "listing_exchange_board": "深圳证券交易所主板",
+    "initial_unrestricted_listed_shares": 36926173,
+    "listing_information_page": 13,
+    "issue_price_CNY_per_share": "17.43",
+    "issue_price_page": 29,
+    "first_five_trading_days_without_price_limits_page": 5,
+    "printed_page_mapping": "Physical pages2/5/12/13/29 correspond to printed1/4/11/12/28.",
+    "entire54page_document_visually_reviewed": false,
+    "unrelated_financial_and_commitment_pages_not_claimed_reviewed": true,
+    "raw_first_observed_day": "2024-04-02",
+    "raw_initial_preclose": "17.4300",
+    "raw_initial_adjustment": {
+      "day": "2024-04-02",
+      "foreAdjustFactor": "0.981207",
+      "backAdjustFactor": "1.000000",
+      "adjustFactor": "1.000000"
+    },
+    "raw_first_day_and_preclose_consistent_with_primary_listing_and_issue_price": true,
+    "initial_factor_is_not_cash_or_stock_entitlement_evidence": true,
+    "no_zero_distribution_certification_inferred_from_factor": true,
+    "missing_prefix": {
+      "sessions": 60,
+      "from": "2023-12-29",
+      "through": "2024-04-01",
+      "classification_supported_by_primary": "BEFORE_PRIMARY_STATED_EXCHANGE_LISTING_DATE",
+      "synthetic_bars_created": 0
+    },
+    "first_frozen_target_execution": "2025-09-01",
+    "first_frozen_target_asof": "2025-08-29",
+    "no_raw_gaps_from_first_target_asof": true,
+    "lifecycle_or_initial_factor_account_admission_not_implemented_or_granted": true
+  },
+  "four_original_noncash_inferences_preserved": [
+    {
+      "event": "SZ002984|2024-04-19",
+      "file": "SZ002984-2024-04-12.pdf",
+      "sha256": "8e7b30276e1e33199ca0e810c9924f43f258258aad60f53d3600311ba196b674",
+      "ordinary_cash_per_original_share_CNY": "0.41",
+      "capital_per_original_share": "0.400000",
+      "stock_per_original_share": "0.000000",
+      "recorded": "2024-04-18",
+      "ex_pay_capital_listing": "2024-04-19",
+      "signature_day": "2024-04-12",
+      "source_and_tax_pages": [
+        2,
+        3
+      ],
+      "tax_examples_per_ten": {
+        "source_page": 2,
+        "tax_page": 3,
+        "cash_per_ten": "4.1",
+        "one_month_tax_per_ten": ".82",
+        "one_year_tax_per_ten": ".41"
+      },
+      "classification_retained": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "original_scope_retained": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+      "original_verified_exempt_field_unchanged": true,
+      "new_strict_statutory_tax_certification": false,
+      "publication_metadata_caveat": null
+    },
+    {
+      "event": "SZ002155|2025-06-13",
+      "file": "SZ002155-2025-06-07.pdf",
+      "sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+      "ordinary_cash_per_original_share_CNY": "0.23",
+      "capital_per_original_share": "0.300000",
+      "stock_per_original_share": "0.000000",
+      "recorded": "2025-06-12",
+      "ex_pay_capital_listing": "2025-06-13",
+      "signature_day": "2025-06-06",
+      "source_and_tax_pages": [
+        1,
+        2
+      ],
+      "tax_examples_per_ten": {
+        "source_page": 1,
+        "tax_page": 2,
+        "cash_per_ten": "2.3",
+        "one_month_tax_per_ten": ".46",
+        "one_year_tax_per_ten": ".23"
+      },
+      "classification_retained": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "original_scope_retained": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+      "original_verified_exempt_field_unchanged": true,
+      "new_strict_statutory_tax_certification": false,
+      "publication_metadata_caveat": null
+    },
+    {
+      "event": "SZ002837|2024-05-27",
+      "file": "SZ002837-2024-05-18.pdf",
+      "sha256": "b9ad0b843a59defb2117aac32655817bb92702ec3f5aa2012f8a06aeb186e4b1",
+      "ordinary_cash_per_original_share_CNY": "0.2",
+      "capital_per_original_share": "0.300000",
+      "stock_per_original_share": "0.000000",
+      "recorded": "2024-05-24",
+      "ex_pay_capital_listing": "2024-05-27",
+      "signature_day": "2024-05-20",
+      "source_and_tax_pages": [
+        1,
+        2
+      ],
+      "tax_examples_per_ten": {
+        "source_page": 1,
+        "tax_page": 2,
+        "cash_per_ten": "2",
+        "one_month_tax_per_ten": ".4",
+        "one_year_tax_per_ten": ".2"
+      },
+      "classification_retained": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "original_scope_retained": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+      "original_verified_exempt_field_unchanged": true,
+      "new_strict_statutory_tax_certification": false,
+      "publication_metadata_caveat": "CNINFO timestamp/path and vendor PlanDate are 2024-05-18; PDF signature prints 2024-05-20. Historical first-arrival is not certified; PDF is evaluator-only and not supplied as signal information."
+    },
+    {
+      "event": "SZ002837|2025-05-30",
+      "file": "SZ002837-2025-05-23.pdf",
+      "sha256": "7861fcd7337b44cae11bf34cef5c1c455953adc917d7243df223b503c9e3e367",
+      "ordinary_cash_per_original_share_CNY": "0.2",
+      "capital_per_original_share": "0.300000",
+      "stock_per_original_share": "0.000000",
+      "recorded": "2025-05-29",
+      "ex_pay_capital_listing": "2025-05-30",
+      "signature_day": "2025-05-23",
+      "source_and_tax_pages": [
+        1,
+        2
+      ],
+      "tax_examples_per_ten": {
+        "source_page": 1,
+        "tax_page": 2,
+        "cash_per_ten": "2",
+        "one_month_tax_per_ten": ".4",
+        "one_year_tax_per_ten": ".2"
+      },
+      "classification_retained": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "original_scope_retained": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+      "original_verified_exempt_field_unchanged": true,
+      "new_strict_statutory_tax_certification": false,
+      "publication_metadata_caveat": null
+    }
+  ],
+  "differential_distribution_caveat": {
+    "SZ002984": "PDFp1-2 price-reference averages0.4086125cash and0.3986464capital differ from ordinary registered-holder entitlement0.41cash+0.4capital onp1/3; do not substitute company-average ex-price ratios."
+  },
+  "pending_questions_before_account_admission": [
+    "Freeze a separate evaluator projection/compiler binding the unchanged raw packets, one original-primary SZ0025080.50cash supplement, four inherited tax-inference records and an explicit SZ001389 listing lifecycle; inspect projected output independently.",
+    "Classify prelisting missing rows only by the verified primary listing boundary; enforce zero owned/pending/required marks before listing, never fabricate bars or use issue price as a synthetic valuation/execution.",
+    "Initial SZ001389 factor row may only be handled under a separately reviewed listing-initialization/adjustment-anchor contract. Its numerical factor does not establish or quantify a corporate entitlement or prove absence of all distributions.",
+    "Retain all four event-specific ordinary-unrestricted-investor capital-tax inference labels and SZ0028372024May18metadata/May20signature caveat; no broader statutory exemption, FIFO settlement or historical arrival claim.",
+    "Registry fractional-allocation text does not supply this account allocation: unsupported fractional shares, unverified noncash tax basis or reserve above cash must still stop atomically.",
+    "Resolve the four dated adjustment-adjacency cases and explicit cash-only normalization for250blank-capital rows using unchanged source contracts; keep SZ0021282025-05-06halt subject to unchanged pending-order semantics.",
+    "No source/account admission or physical return conclusion until the separate frozen compiler and samepre2026account replay plus independent output audit are complete."
+  ],
+  "raw_source_packets_changed": false,
+  "investment_rules_changed": false,
+  "source_admitted_for_account_replay": false,
+  "new_strict_statutory_exemption_certification": false,
+  "historical_arrival_verified": false,
+  "account_replay_performed": false,
+  "portfolio_returns_computed": false,
+  "new_HTTP_or_market_queries": 0,
+  "new_2026_market_queries": false,
+  "unselected_2026_notice_opened_or_used": false,
+  "objective_achieved": false
+}

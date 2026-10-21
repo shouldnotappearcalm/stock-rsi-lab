@@ -1,0 +1,33 @@
+{
+  "status": "SIX_PRIMARY_ORIGINALS_AND_RELEVANT_CONTENT_REVIEWED_EVENT_LIFECYCLE_PROJECTION_PENDING",
+  "freeze_commit": "6168f1e",
+  "request_sha256": "0063aa7cfcd0ca4b9d3b129941c34a413b34afccbdb87711f810c64321b86ed9",
+  "capture_exit_code": 0,
+  "capture_manifest_sha256": "f2191de5406e83a9d6319000cdeca525199fae531f8e7b0cd908d6644eff7c80",
+  "source_audit_sha256": "8952f583e3e261f16303771d487021d2a3a361a579b7bfd4913b4667b52c1095",
+  "auditor_sha256": "8876f1adab4a13b2210332a14729eae4478367b4766308d679b6f0a2ac208c7c",
+  "root_byte_exact_reproduction": true,
+  "fresh_HTTP_PDFs": 2,
+  "byte_identical_reused_PDFs": 4,
+  "capture_errors": 0,
+  "full_tests_passed": 490,
+  "portfolio_returns_computed": false,
+  "raw_source_admitted_for_account_replay": false,
+  "objective_achieved": false,
+  "new_2026_market_queries": false,
+  "capture_log_sha256": "19d179565973ea62d04390335ce6e3865a994903b1cc197dc719900380b9cc27",
+  "independent_content_review_sha256": "0536f4ef3f030672976b6f17c0a314c40264bdf42f6202e8e5ad11b2a4e30ecd",
+  "independent_complete_pages_visually_reviewed": 26,
+  "root_new_primary_pages_visually_reviewed": {
+    "SZ002508-2024-01-03.pdf": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "SZ001389-2024-04-01.pdf": [
+      13,
+      29
+    ]
+  }
+}

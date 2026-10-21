@@ -4900,6 +4900,18 @@
       "raw_daily_bars": 49998,
       "source_admitted_for_account_replay": false,
       "new_2026_market_queries": false
+    },
+    "primary_source_review": {
+      "status": "SIX_PRIMARY_ORIGINALS_AND_RELEVANT_CONTENT_REVIEWED_EVENT_LIFECYCLE_PROJECTION_PENDING",
+      "capture_file": "experiments/qlib/szse-value-momentum-primary-capture-manifest.json",
+      "source_audit_file": "experiments/qlib/szse-value-momentum-primary-source-independent-audit.json",
+      "content_review_file": "experiments/qlib/szse-value-momentum-primary-content-review.json",
+      "verification_file": "experiments/qlib/szse-value-momentum-primary-capture-verification.json",
+      "original_PDFs": 6,
+      "independently_reviewed_complete_pages": 26,
+      "raw_source_admitted_for_account_replay": false,
+      "account_replay_performed": false,
+      "new_2026_market_queries": false
     }
   }
 }

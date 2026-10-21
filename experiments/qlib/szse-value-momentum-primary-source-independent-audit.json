@@ -1,0 +1,326 @@
+{
+  "status": "SIX_PRIMARY_BYTE_IDENTITY_CHAINS_AUDITED_CONTENT_REVIEW_SEPARATE",
+  "audit_code_sha256": "8876f1adab4a13b2210332a14729eae4478367b4766308d679b6f0a2ac208c7c",
+  "request_sha256": "0063aa7cfcd0ca4b9d3b129941c34a413b34afccbdb87711f810c64321b86ed9",
+  "capture_manifest_sha256": "f2191de5406e83a9d6319000cdeca525199fae531f8e7b0cd908d6644eff7c80",
+  "capture_complete": true,
+  "documents": [
+    {
+      "file": "SZ002155-2025-06-07.pdf",
+      "instrument": "SZ002155",
+      "registered_document_day": "2025-06-07",
+      "sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+      "bytes": 253601,
+      "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "file": "SZ002837-2024-05-18.pdf",
+      "instrument": "SZ002837",
+      "registered_document_day": "2024-05-18",
+      "sha256": "b9ad0b843a59defb2117aac32655817bb92702ec3f5aa2012f8a06aeb186e4b1",
+      "bytes": 280381,
+      "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "file": "SZ002837-2025-05-23.pdf",
+      "instrument": "SZ002837",
+      "registered_document_day": "2025-05-23",
+      "sha256": "7861fcd7337b44cae11bf34cef5c1c455953adc917d7243df223b503c9e3e367",
+      "bytes": 281892,
+      "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "file": "SZ002984-2024-04-12.pdf",
+      "instrument": "SZ002984",
+      "registered_document_day": "2024-04-12",
+      "sha256": "8e7b30276e1e33199ca0e810c9924f43f258258aad60f53d3600311ba196b674",
+      "bytes": 134626,
+      "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "file": "SZ002508-2024-01-03.pdf",
+      "instrument": "SZ002508",
+      "registered_document_day": "2024-01-03",
+      "sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0",
+      "bytes": 192998,
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP",
+      "byte_and_identity_chain_verified": true
+    },
+    {
+      "file": "SZ001389-2024-04-01.pdf",
+      "instrument": "SZ001389",
+      "registered_document_day": "2024-04-01",
+      "sha256": "21b5bc6e53c404b63b4a484a5906ca2ce4dc7aeaf9ed7f6e4dacb835e5ce158f",
+      "bytes": 1144158,
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP",
+      "byte_and_identity_chain_verified": true
+    }
+  ],
+  "reused_originals": 4,
+  "new_exact_PDF_HTTP_queries": 2,
+  "maximum_HTTP_reservations": 2,
+  "new_announcement_API_or_market_queries": 0,
+  "HTTP_outcomes_and_errors_retained": [
+    {
+      "identity": {
+        "source": "CNINFO_HTTP",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-01-03/1218790856.PDF",
+        "payload": null,
+        "primary_request_sha256": "0063aa7cfcd0ca4b9d3b129941c34a413b34afccbdb87711f810c64321b86ed9"
+      },
+      "HTTP_outcome": {
+        "status": 200,
+        "content_type": "application/pdf",
+        "final_url": "https://static.cninfo.com.cn/finalpage/2024-01-03/1218790856.PDF",
+        "body_truncated": false,
+        "body_complete": true,
+        "read_error_type": null,
+        "read_error": null,
+        "observed_body_bytes": 192998,
+        "body_sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0"
+      },
+      "response_sha256": "fe5cf5935823877e90247a51acdfd2327ba9cd5e61b9f9c8262e50a275873dc5"
+    },
+    {
+      "identity": {
+        "source": "CNINFO_HTTP",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-04-01/1219474753.PDF",
+        "payload": null,
+        "primary_request_sha256": "0063aa7cfcd0ca4b9d3b129941c34a413b34afccbdb87711f810c64321b86ed9"
+      },
+      "HTTP_outcome": {
+        "status": 200,
+        "content_type": "application/pdf",
+        "final_url": "https://static.cninfo.com.cn/finalpage/2024-04-01/1219474753.PDF",
+        "body_truncated": false,
+        "body_complete": true,
+        "read_error_type": null,
+        "read_error": null,
+        "observed_body_bytes": 1144158,
+        "body_sha256": "21b5bc6e53c404b63b4a484a5906ca2ce4dc7aeaf9ed7f6e4dacb835e5ce158f"
+      },
+      "response_sha256": "33f83954471e8243a5463be5666155d3b0a380f0cdb8f179505db87ec553ef68"
+    }
+  ],
+  "capture_artifact_sha256": {
+    "request.json": "0063aa7cfcd0ca4b9d3b129941c34a413b34afccbdb87711f810c64321b86ed9",
+    "SZ002155-2025-06-07.pdf": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+    "SZ002508-2024-01-03.pdf": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0",
+    "SZ001389-2024-04-01.pdf": "21b5bc6e53c404b63b4a484a5906ca2ce4dc7aeaf9ed7f6e4dacb835e5ce158f",
+    "errors.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "SZ002984-2024-04-12.pdf": "8e7b30276e1e33199ca0e810c9924f43f258258aad60f53d3600311ba196b674",
+    "SZ002837-2024-05-18.pdf": "b9ad0b843a59defb2117aac32655817bb92702ec3f5aa2012f8a06aeb186e4b1",
+    "manifest.json": "f2191de5406e83a9d6319000cdeca525199fae531f8e7b0cd908d6644eff7c80",
+    "progress.json": "dc425a63d6f275d3f1851ca4d4bd73b7b36bf74f7d08e90dfc0b05d721a6e807",
+    "SZ002837-2025-05-23.pdf": "7861fcd7337b44cae11bf34cef5c1c455953adc917d7243df223b503c9e3e367",
+    "queries/3ec52517bb01fb37677cfee325b9c0d0a1fa64fb8b9a19854a507bbcc590f398/request.json": "3ab05676050d0b042d2ac541a39acc6472d6f151e07c1e322b2fa5be2a034a75",
+    "queries/3ec52517bb01fb37677cfee325b9c0d0a1fa64fb8b9a19854a507bbcc590f398/reserved-1.json": "02906e8df76302cc820597c357fad72a72d050c269a4241bfd4aa8f231eb16c0",
+    "queries/3ec52517bb01fb37677cfee325b9c0d0a1fa64fb8b9a19854a507bbcc590f398/response-1.json": "fe5cf5935823877e90247a51acdfd2327ba9cd5e61b9f9c8262e50a275873dc5",
+    "queries/fa84dc9dc367fc0e76f45fd707397def338f74750e3aabec5a233a4f03427c06/request.json": "3437dbbbbe799dc64943b50e770fedf8564eda8a91a21733ec9891b0044e9853",
+    "queries/fa84dc9dc367fc0e76f45fd707397def338f74750e3aabec5a233a4f03427c06/reserved-1.json": "5f73cd1299bc445263c31eda01f1c9392e31ed82f0fc091d99926722d647cf4a",
+    "queries/fa84dc9dc367fc0e76f45fd707397def338f74750e3aabec5a233a4f03427c06/response-1.json": "33f83954471e8243a5463be5666155d3b0a380f0cdb8f179505db87ec553ef68"
+  },
+  "errors": {},
+  "pending_files": [],
+  "prior_four_event_specific_inferences_unchanged": [
+    {
+      "case_id": "SZ002155|2025-06-13",
+      "file": "SZ002155-2025-06-07.pdf",
+      "sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+      "component_review_unchanged": {
+        "case_id": "SZ002155|2025-06-13",
+        "file": "SZ002155-2025-06-07.pdf",
+        "sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+        "original_source_packet_sha256": "5db558641d98f37a6a884fc256ab0876f2318cca6bd3ec13c749f9e8e5f93e74",
+        "component_and_date_review": "Primary implementation notice read in full; ordinary eligible investor ratios and all four dates match original vendor row.",
+        "cash_per_original_share": "0.23",
+        "stock_per_original_share": "0.000000",
+        "capital_per_original_share": "0.300000",
+        "record_date": "2025-06-12",
+        "ex_date": "2025-06-13",
+        "cash_payment_date": "2025-06-13",
+        "capital_listing_date": "2025-06-13",
+        "price_reference_not_used_as_entitlement": true,
+        "capital_tax_review": "PREMIUM_SOURCE_PLUS_EXPLICIT_CASH_ONLY_TAX_EXAMPLES_INFERENCE"
+      },
+      "original_capital_tax_proof_unchanged": {
+        "verified_exempt": true,
+        "source_file": "SZ002155-2025-06-07.pdf",
+        "source_sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+        "exemption_scope": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+        "pages_one_based": [
+          1,
+          2
+        ],
+        "evidence": "Notice specifies transfer within share-premium reserve and its explicit supplementary-tax examples equal 20%/10% of cash alone; no additional transfer tax is included. This event-level conclusion is an inference from both statements.",
+        "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+        "tax_examples": {
+          "source_page": 1,
+          "tax_page": 2,
+          "cash_per_ten": "2.3",
+          "one_month_tax_per_ten": ".46",
+          "one_year_tax_per_ten": ".23"
+        }
+      },
+      "new_strict_statutory_exemption_certification": false,
+      "scope": "Event-specific ordinary unrestricted investor inference retained; no broader tax or original-arrival certification"
+    },
+    {
+      "case_id": "SZ002837|2024-05-27",
+      "file": "SZ002837-2024-05-18.pdf",
+      "sha256": "b9ad0b843a59defb2117aac32655817bb92702ec3f5aa2012f8a06aeb186e4b1",
+      "component_review_unchanged": {
+        "case_id": "SZ002837|2024-05-27",
+        "file": "SZ002837-2024-05-18.pdf",
+        "sha256": "b9ad0b843a59defb2117aac32655817bb92702ec3f5aa2012f8a06aeb186e4b1",
+        "original_source_packet_sha256": "9db77b0a7ae6bd4cf82936301d72863a281649e850f8da129ed1116e2c9eebac",
+        "component_and_date_review": "Primary implementation notice read in full; ordinary eligible investor ratios and all four dates match original vendor row.",
+        "cash_per_original_share": "0.2",
+        "stock_per_original_share": "0.000000",
+        "capital_per_original_share": "0.300000",
+        "record_date": "2024-05-24",
+        "ex_date": "2024-05-27",
+        "cash_payment_date": "2024-05-27",
+        "capital_listing_date": "2024-05-27",
+        "price_reference_not_used_as_entitlement": true,
+        "capital_tax_review": "PREMIUM_SOURCE_PLUS_EXPLICIT_CASH_ONLY_TAX_EXAMPLES_INFERENCE",
+        "publication_metadata_caveat": "CNINFO timestamp/path and vendor PlanDate are 2024-05-18; PDF signature prints 2024-05-20. Historical first-arrival is not certified; PDF is evaluator-only and not supplied as signal information."
+      },
+      "original_capital_tax_proof_unchanged": {
+        "verified_exempt": true,
+        "source_file": "SZ002837-2024-05-18.pdf",
+        "source_sha256": "b9ad0b843a59defb2117aac32655817bb92702ec3f5aa2012f8a06aeb186e4b1",
+        "exemption_scope": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+        "pages_one_based": [
+          1,
+          2
+        ],
+        "evidence": "Notice specifies transfer within share-premium reserve and its explicit supplementary-tax examples equal 20%/10% of cash alone; no additional transfer tax is included. This event-level conclusion is an inference from both statements.",
+        "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+        "tax_examples": {
+          "source_page": 1,
+          "tax_page": 2,
+          "cash_per_ten": "2",
+          "one_month_tax_per_ten": ".4",
+          "one_year_tax_per_ten": ".2"
+        }
+      },
+      "new_strict_statutory_exemption_certification": false,
+      "scope": "Event-specific ordinary unrestricted investor inference retained; no broader tax or original-arrival certification"
+    },
+    {
+      "case_id": "SZ002837|2025-05-30",
+      "file": "SZ002837-2025-05-23.pdf",
+      "sha256": "7861fcd7337b44cae11bf34cef5c1c455953adc917d7243df223b503c9e3e367",
+      "component_review_unchanged": {
+        "case_id": "SZ002837|2025-05-30",
+        "file": "SZ002837-2025-05-23.pdf",
+        "sha256": "7861fcd7337b44cae11bf34cef5c1c455953adc917d7243df223b503c9e3e367",
+        "original_source_packet_sha256": "9db77b0a7ae6bd4cf82936301d72863a281649e850f8da129ed1116e2c9eebac",
+        "component_and_date_review": "Primary implementation notice read in full; ordinary eligible investor ratios and all four dates match original vendor row.",
+        "cash_per_original_share": "0.2",
+        "stock_per_original_share": "0.000000",
+        "capital_per_original_share": "0.300000",
+        "record_date": "2025-05-29",
+        "ex_date": "2025-05-30",
+        "cash_payment_date": "2025-05-30",
+        "capital_listing_date": "2025-05-30",
+        "price_reference_not_used_as_entitlement": true,
+        "capital_tax_review": "PREMIUM_SOURCE_PLUS_EXPLICIT_CASH_ONLY_TAX_EXAMPLES_INFERENCE"
+      },
+      "original_capital_tax_proof_unchanged": {
+        "verified_exempt": true,
+        "source_file": "SZ002837-2025-05-23.pdf",
+        "source_sha256": "7861fcd7337b44cae11bf34cef5c1c455953adc917d7243df223b503c9e3e367",
+        "exemption_scope": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+        "pages_one_based": [
+          1,
+          2
+        ],
+        "evidence": "Notice specifies transfer within share-premium reserve and its explicit supplementary-tax examples equal 20%/10% of cash alone; no additional transfer tax is included. This event-level conclusion is an inference from both statements.",
+        "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+        "tax_examples": {
+          "source_page": 1,
+          "tax_page": 2,
+          "cash_per_ten": "2",
+          "one_month_tax_per_ten": ".4",
+          "one_year_tax_per_ten": ".2"
+        }
+      },
+      "new_strict_statutory_exemption_certification": false,
+      "scope": "Event-specific ordinary unrestricted investor inference retained; no broader tax or original-arrival certification"
+    },
+    {
+      "case_id": "SZ002984|2024-04-19",
+      "file": "SZ002984-2024-04-12.pdf",
+      "sha256": "8e7b30276e1e33199ca0e810c9924f43f258258aad60f53d3600311ba196b674",
+      "component_review_unchanged": {
+        "case_id": "SZ002984|2024-04-19",
+        "file": "SZ002984-2024-04-12.pdf",
+        "sha256": "8e7b30276e1e33199ca0e810c9924f43f258258aad60f53d3600311ba196b674",
+        "original_source_packet_sha256": "39e81963b661513fd480aad49f4bb5ed774cddbfd53b594d301a4503faa8fb66",
+        "component_and_date_review": "Primary implementation notice read in full; ordinary eligible investor ratios and all four dates match original vendor row.",
+        "cash_per_original_share": "0.41",
+        "stock_per_original_share": "0.000000",
+        "capital_per_original_share": "0.400000",
+        "record_date": "2024-04-18",
+        "ex_date": "2024-04-19",
+        "cash_payment_date": "2024-04-19",
+        "capital_listing_date": "2024-04-19",
+        "price_reference_not_used_as_entitlement": true,
+        "capital_tax_review": "PREMIUM_SOURCE_PLUS_EXPLICIT_CASH_ONLY_TAX_EXAMPLES_INFERENCE",
+        "differential_distribution": "Repurchase-account exclusion changes price-reference averaging; ordinary registered external shareholders receive the stated original per-share distribution. No company-average ratio substituted."
+      },
+      "original_capital_tax_proof_unchanged": {
+        "verified_exempt": true,
+        "source_file": "SZ002984-2024-04-12.pdf",
+        "source_sha256": "8e7b30276e1e33199ca0e810c9924f43f258258aad60f53d3600311ba196b674",
+        "exemption_scope": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+        "pages_one_based": [
+          2,
+          3
+        ],
+        "evidence": "Notice specifies transfer within share-premium reserve and its explicit supplementary-tax examples equal 20%/10% of cash alone; no additional transfer tax is included. This event-level conclusion is an inference from both statements.",
+        "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+        "tax_examples": {
+          "source_page": 2,
+          "tax_page": 3,
+          "cash_per_ten": "4.1",
+          "one_month_tax_per_ten": ".82",
+          "one_year_tax_per_ten": ".41"
+        }
+      },
+      "new_strict_statutory_exemption_certification": false,
+      "scope": "Event-specific ordinary unrestricted investor inference retained; no broader tax or original-arrival certification"
+    }
+  ],
+  "semantic_negative_controls_rejected": {
+    "redirect": true,
+    "truncated": true,
+    "incomplete": true,
+    "read_error": true,
+    "wrong_magic": true,
+    "unregistered_future_URL": true
+  },
+  "negative_controls_use_hash_gate": false,
+  "financial_content_review_complete": false,
+  "listing_boundary_verified": false,
+  "supplementary_distribution_verified": false,
+  "new_strict_statutory_exemption_certification": false,
+  "raw_source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "new_source_queries_performed": 0,
+  "new_2026_market_queries": false,
+  "unselected_2026_notice_opened_or_used": false,
+  "objective_achieved": false,
+  "content_review_required": [
+    "Inspect complete relevant pages for issuer identity, announcement/signature/path dates, ordinary registered shareholder amounts versus adjusted price-reference averages, record/ex/pay/list dates and tax wording.",
+    "SZ002508 special distribution must use the issuer stated cash entitlement, never the observed0.50 reference gap.",
+    "SZ001389 lifecycle boundary must come from explicit original listing text; first raw bar/factor and incomplete calendar prove no IPO/listing classification.",
+    "Carry all four inherited premium-source plus cash-tax-example inference labels, ordinary investor scope and SZ0028372024 publication metadata caveat forward; do not promote them to broader statutory proof."
+  ]
+}
