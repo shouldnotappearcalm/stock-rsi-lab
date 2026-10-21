@@ -1,0 +1,15 @@
+{
+  "status": "FAILED_NO_COMPLETED_CASE",
+  "frozen_commit": "7256c37",
+  "frozen_plan_sha256": "c7cf99377f149f872324b0579bf45203c5ee61dcd65af0ccd77a93ab45b583b0",
+  "case": "20/eligible_equal_weight",
+  "attempted_replay": true,
+  "completed_cases": 0,
+  "scoreable_returns": false,
+  "exception": "IndexError: index6301 out of bounds for calendar size6301",
+  "root_cause": "Qlib TradeCalendarManager.get_step_time requires one next-session boundary; V1 physical calendar ends at final2025 session and has no day_future.txt.",
+  "log_sha256": "bb7976b842a26e22e2576a1dff5b7b27cc42dc2e0b330f8298f2ecf020fefbe9",
+  "partial_output_preserved": "price-delay-pre2026-development-20261021",
+  "2026_market_values_queried": false,
+  "remedy": "Separate V2 quote-identical provider adds only actual next-session calendar metadata; V1 code/plan/output preserved."
+}
