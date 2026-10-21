@@ -4873,5 +4873,19 @@
     "original_42_financial_prefixes_identical": true,
     "full_October_complete": false,
     "objective_achieved": false
+  },
+  "latest_pre2026_screen": {
+    "candidate": "szse_monthly_small_issued_cap",
+    "candidate_budget": 1,
+    "status": "REJECTED_2024_LOSS_AND_UNVERIFIED_HELD_MARK",
+    "plan_file": "experiments/qlib/szse-issued-size-pre2026-plan.json",
+    "result_file": "experiments/qlib/szse-issued-size-pre2026-results.json",
+    "audit_file": "experiments/qlib/szse-issued-size-independent-audit.json",
+    "reference_extra_bps": 40,
+    "2024_net_pct": -3.8295090480519267,
+    "2025_net_pct": 8.328191327400791,
+    "2026_values_or_returns_queried": false,
+    "descriptive_control_promoted": false,
+    "objective_achieved": false
   }
 }

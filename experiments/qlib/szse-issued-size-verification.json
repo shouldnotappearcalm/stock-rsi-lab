@@ -1,5 +1,5 @@
 {
-  "status": "FROZEN_SOURCE_CODE_FORMATIONS_REVIEWED_BEFORE_PRE2026_RETURNS",
+  "status": "INDEPENDENTLY_RECONSTRUCTED_PRE2026_CANDIDATE_REJECTED",
   "plan_sha256": "3c07b1693808bc8eab6ce1e5e0e4571c77b51642475ecd405dddf13e608d06c1",
   "code_source_review_sha256": "6c195dc76f71efd23883e1932480b5a457a6ec7d276493054fca205d470e4bc0",
   "full_tests_passed": 482,
@@ -15,7 +15,17 @@
   "formations": 24,
   "candidate_unique_names": 68,
   "market_source_queries": 0,
-  "account_replays": 0,
+  "account_replays": 4,
   "2026_returns_computed": false,
-  "objective_achieved": false
+  "objective_achieved": false,
+  "freeze_commit": "9fa210d",
+  "actual_screen_exit_code": 0,
+  "summary_sha256": "43ac935411644ea001be4723b8a116efa9e98d3262b4e227543189d4e9f59acc",
+  "independent_output_audit_sha256": "2b39538d888c5d5921647497828dc8711e01ecd59397dff364a47e63eae482ea",
+  "root_audit_byte_exact_reproduction": true,
+  "original_HTML_rows_reconstructed": 35821,
+  "prior_close_allocations_reconstructed": 96,
+  "semantic_negative_controls_rejected": 9,
+  "selected_development_lead": null,
+  "2026_values_or_returns_queried": false
 }
