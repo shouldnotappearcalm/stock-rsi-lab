@@ -6408,5 +6408,76 @@
     "freeze_CI_run": 39675037061,
     "freeze_CI_all3_jobs": "success",
     "next_action": "Preserve full408 outcomes and strong exchange-format bias. Separately freeze source-backed currency-scope/note/header/identity repairs with all supported-cell conservation and original evidence; never use only132 parse-supported issuers as investment pool. Obtain laterFY2023/FY2024 and correction originals plus pre2024 business/sector evidence, then freeze GP policy and controls for2024/2025 continuous-account development before unchanged2026 diagnostic. No2026method feedback; all three economic objectives remain unproven."
+  },
+  "latest_profitability_historical408_currency_and_note_v5": {
+    "status": "ALL408_V5_SOURCE_FORMAT_INSPECTED_NOT_FACTOR_ADMITTED",
+    "freeze_commit": "c457d2f96d588dc21fcad9e0a60ad313f9c4ed4a",
+    "request_sha256": "d0b8aacab7d881d8a0e5aebb515a8f0652180c3afee9251299e703dc52c4493a",
+    "source_documents": 408,
+    "source_issuers": 391,
+    "source_range_issuers": 394,
+    "supported_reports": 174,
+    "supported_source_issuers": 165,
+    "source_observations": 319,
+    "old_supported_reports_preserved_identically": 139,
+    "newly_supported_reports": 35,
+    "new_literal_monetary_cells_checked": 129,
+    "new_direct_original_PDF_pages_checked": 131,
+    "status_counts": {
+      "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 174,
+      "SOURCE_SCHEMA_UNSUPPORTED": 214,
+      "COVER_IDENTITY_UNVERIFIED": 20
+    },
+    "status_counts_by_exchange": {
+      "SH": {
+        "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 143,
+        "SOURCE_SCHEMA_UNSUPPORTED": 73,
+        "COVER_IDENTITY_UNVERIFIED": 13
+      },
+      "SZ": {
+        "SOURCE_SCHEMA_UNSUPPORTED": 141,
+        "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 31,
+        "COVER_IDENTITY_UNVERIFIED": 7
+      }
+    },
+    "remaining_schema_error_counts": {
+      "one literal consolidated row required: revenue": 12,
+      "bare unit requires matching explicit section or report-preparation RMB evidence": 100,
+      "unique scoped consolidated/parent table boundaries required": 21,
+      "exact two monetary cells in bounded same-page row block required: revenue": 26,
+      "explicit end of primary financial statements section required": 10,
+      "unique ordered primary consolidated/parent balance and income statements required": 4,
+      "exact two fiscal columns within eight same-page nonempty header lines required": 27,
+      "extra fiscal header line unsupported": 2,
+      "one explicit CNY table unit required": 6,
+      "bounded contiguous annual table required": 5,
+      "exact two monetary cells in bounded same-page row block required: cost_of_sales": 1
+    },
+    "input_count_including_request": 5867,
+    "output_files": 413,
+    "all_inputs_unchanged": true,
+    "page_caches_reused_without_reextracting": true,
+    "remaining_initial_source_gap_issuers": [
+      "SH600925",
+      "SH601061",
+      "SZ001286"
+    ],
+    "result_file": "experiments/qlib/profitability-historical394-v5-results.json",
+    "source_audit_file": "experiments/qlib/profitability-historical394-v5-source-audit.json",
+    "original_format_fixture_file": "tests/fixtures/annual-profitability-v5-source-format-excerpts.json",
+    "financial_version_history_complete": false,
+    "historical_arrival_verified": false,
+    "manual_numeric_visual_review_complete": false,
+    "economic_sector_compatibility_verified": false,
+    "investment_factor_admitted": false,
+    "portfolio_returns_computed": false,
+    "2026_financial_or_market_values_read": false,
+    "original_frozen_methods_sources_and_failed_accounts_changed": false,
+    "objective_achieved": false,
+    "local_full_unittest_count": 1035,
+    "local_full_unittest_result": "OK",
+    "freeze_CI_run": 39678341670,
+    "freeze_CI_status": "success",
+    "next_action": "Retain all408 results, including remaining100 currency-scope failures and27 explicit fiscal-header failures. Continue original financial-report currency/statement/header evidence and laterFY2023/FY2024/correction source coverage for the full dated394 source range, with historical nonfinancial identities. Do not select the165 parsed issuers as a new universe. Then freeze GP policy/controls and2024/2025 continuous-account development before unchanged2026 diagnostics; no2026method feedback. All three economic return objectives remain unproven."
   }
 }
