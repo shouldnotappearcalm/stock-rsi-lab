@@ -1,5 +1,5 @@
 {
-  "status": "FROZEN_SOURCE_CODE_FORMATIONS_REVIEWED_BEFORE_PRE2026_RETURNS",
+  "status": "INDEPENDENTLY_RECONSTRUCTED_PRE2026_PROXY_LEAD_REQUIRES_PHYSICAL_CONFIRMATION",
   "plan_sha256": "d17ef433ed35923563f9e0d786165954ec383d77f1bf7302cb3c7b131542eb76",
   "code_source_review_sha256": "c11292e6045501fcdd83a3452aa376e1f5ba5e8708d2eb02a589434e0beeec9a",
   "full_tests_passed": 486,
@@ -15,7 +15,17 @@
   "formations": 24,
   "candidate_unique_names": 103,
   "market_source_queries": 0,
-  "account_replays": 0,
+  "account_replays": 6,
   "2026_returns_computed": false,
-  "objective_achieved": false
+  "objective_achieved": false,
+  "freeze_commit": "347f78f",
+  "actual_screen_exit_code": 0,
+  "summary_sha256": "054231f43b8525c9301ad50793acd895d57a84af5dffb272c4ff6b23e80730cf",
+  "independent_output_audit_sha256": "0d627c25fd3d4142e247744a33c72d18c225a6bf1e91ff7ad8c3e3d6bd36a367",
+  "root_audit_byte_exact_reproduction": true,
+  "original_HTML_rows_reconstructed": 35821,
+  "prior_close_allocations_reconstructed": 144,
+  "semantic_negative_controls_rejected": 11,
+  "selected_development_lead": "szse_value_momentum_equal",
+  "2026_values_or_returns_queried": false
 }
