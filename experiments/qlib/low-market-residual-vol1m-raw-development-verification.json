@@ -1,0 +1,52 @@
+{
+  "status": "FROZEN_PRE2026_RAW_ACCOUNT_REJECTED_INDEPENDENTLY_VERIFIED",
+  "freeze_commit": "716dea533886152798e57295caa88b2e753bb4e5",
+  "freeze_pushed_before_actual_replay": true,
+  "request_sha256": "9f1d99938167d5c6c998355a3374a8b2fbc45e51012f6297330d29eed73c58a3",
+  "actual_exit_code": 2,
+  "actual_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "terminal_summary_sha256": "54104915cc2a38e047300d3f3397bafcce10e19a85b6191f57e7af66323fa5a6",
+  "all_output_artifact_sha256": {
+    "20/error.json": "955d4c9930f07a52430af36b624e1473cfdb84f26ffa9efc948d8a469f2bd649",
+    "20/failed_account_state.json": "ae27bcd2e846441438e4effb5206336b058278596415f41f9986022bf3aa93fc",
+    "20/partial_engine_trace.json": "3a6408650b2a122379e79d31efe81069ae2a772f1ec0f601d54cfcb6f42ff5b3",
+    "20/required_source_dependencies.json": "dc6915b87d1337af72a3dd19d140167290f200b6afd009acf2197ae82af82bd5",
+    "40/error.json": "955d4c9930f07a52430af36b624e1473cfdb84f26ffa9efc948d8a469f2bd649",
+    "40/failed_account_state.json": "829355aaf0f19ad38cf042386c6397819ff2a0712d8dd044dfc5425ed269aa12",
+    "40/partial_engine_trace.json": "8df8945cde85246e5b0b7135f62ee1ec0d13eadb69ea550194f5e77aa2549b7b",
+    "40/required_source_dependencies.json": "dc6915b87d1337af72a3dd19d140167290f200b6afd009acf2197ae82af82bd5",
+    "case_results.json": "227993e392997c35fa51df2405472e822088c8ff6b1dbe75570102e277427349",
+    "first-error.json": "955d4c9930f07a52430af36b624e1473cfdb84f26ffa9efc948d8a469f2bd649",
+    "input-before.json": "de4f5205f152a9c063f19491a3eba18a1a9b566fca5a08cba37dd5faf6c789d9",
+    "input-postcheck.json": "016761d7dafe401ad3f1bfd6cfb19b567d72214de87a637e59c2dcb61ee17259",
+    "summary.json": "54104915cc2a38e047300d3f3397bafcce10e19a85b6191f57e7af66323fa5a6"
+  },
+  "fixed_profiles_attempted": [
+    20,
+    40
+  ],
+  "both_failed_session": "2025-12-16",
+  "last_account_clock": [
+    "2025-12-15",
+    1
+  ],
+  "last_completed_daily_rows_each": 474,
+  "monthly_decisions_each": 24,
+  "required_instrument": "SH600079",
+  "required_dependency": "OWNED_PHYSICAL_OR_PENDING_STOCK",
+  "physical_shares_each": 900,
+  "original_daily_source_isST": "1",
+  "source_inputs_unchanged_after_replay": true,
+  "annual_returns_computed": false,
+  "candidate_promoted": false,
+  "2026_values_read": false,
+  "objective_achieved": false,
+  "freeze_CI_all_three_jobs_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39603006278",
+  "next_action": "Independently audit the preserved failure, then address generally unsupported market-state transitions with historical primary evidence before any fresh strategy evaluation; never delete this security or weaken the existing frozen guard.",
+  "independent_audit_file": "experiments/qlib/low-market-residual-vol1m-raw-development-independent-failure-audit.json",
+  "independent_audit_sha256": "49b2e8c53882d83a7bdb164b5c0491f4bc56d713cb4f24ef3204dc749a86175e",
+  "root_reproduced_independent_audit_byte_identically": true,
+  "all474_partial_daily_ledgers_independently_reconstructed": true,
+  "all_six_unknown_events_actual_zero_record_and_ex_quantities": true,
+  "tax_verification_strengthened": false
+}

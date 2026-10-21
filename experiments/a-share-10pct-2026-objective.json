@@ -5575,7 +5575,7 @@
     "next_action": "Attribute pre2026 idle cash before proposing a separately frozen common whole-lot allocation change; do not alter indicator, thresholds or use2026 facts."
   },
   "latest_low_market_residual_vol_budgeted_screen": {
-    "status": "PRE2026_NORMALIZED_DAILY_GATE_PASS_REQUIRES_RAW_SHARE_CONFIRMATION",
+    "status": "PRE2026_RAW_ACCOUNT_BLOCKED_BY_NONORDINARY_HELD_SOURCE",
     "allocation_trial_id": "low_market_residual_vol_1m_budgeted_lots",
     "result_file": "experiments/qlib/low-market-residual-vol1m-budgeted-pre2026-results.json",
     "result_sha256": "f4a69930471c9131c09490b5351d60b11fe61bd2e5f0090a6d1ea56a7c2e83bd",
@@ -5599,7 +5599,7 @@
     "2026_market_values_or_outcomes_queried": false,
     "objective_achieved": false,
     "freeze_CI_all_three_jobs_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39589475343",
-    "next_action": "Run frozen continuous pre2026 physical account with unchanged tax, registry and ordinary-state guards; preserve both fixed-cost failures or independently audit completed accounts before any new 2026 evaluation.",
+    "next_action": "Address general unsupported holding-state transitions using historical source evidence and a newly frozen evaluator contract; preserve this failed account and do not delete SH600079, loosen the frozen guard, compute partial annual ROI, or use 2026 outcomes for method selection.",
     "raw_source_completion": {
       "status": "PRE2026_RAW_SOURCE_CAPTURE_INDEPENDENTLY_VERIFIED_ADMISSION_SEPARATE",
       "verification_file": "experiments/qlib/low-market-residual-vol1m-raw-source-verification.json",
@@ -5648,7 +5648,7 @@
       "local_tests_passed": 730,
       "actual_source_projection_run": true,
       "actual_event_compilation_run": true,
-      "actual_account_replay_run": false,
+      "actual_account_replay_run": true,
       "portfolio_returns_computed": false
     },
     "event_source_projection": {
@@ -5659,8 +5659,33 @@
       "independent_audit_sha256": "6c0accef4aaf1103f59aebd74a6c1a846c4ef9fa0b7a1e0bd909cdc7bbe3d628",
       "root_reproduced_byte_identically": true,
       "six_unknown_tax_states_preserved": true,
-      "actual_account_replay_run": false,
+      "actual_account_replay_run": true,
       "portfolio_returns_computed": false
+    },
+    "normalized_daily_screen_status": "PRE2026_NORMALIZED_DAILY_GATE_PASS_REQUIRES_RAW_SHARE_CONFIRMATION",
+    "raw_account_diagnostic": {
+      "status": "FAILED_ADMISSION_INDEPENDENTLY_VERIFIED_NOT_COMPLETE_PERFORMANCE",
+      "verification_file": "experiments/qlib/low-market-residual-vol1m-raw-development-verification.json",
+      "verification_sha256": "0ea42266794aa410f898f860e38791f70a529a7d68e173c4f052318266ba5c3b",
+      "independent_failure_audit_sha256": "49b2e8c53882d83a7bdb164b5c0491f4bc56d713cb4f24ef3204dc749a86175e",
+      "root_reproduced_byte_identically": true,
+      "fixed_extra_bps": [
+        20,
+        40
+      ],
+      "initial_CNY_each": 1000000,
+      "failed_session_each": "2025-12-16",
+      "required_instrument": "SH600079",
+      "actual_owned_shares_each": 900,
+      "partial_daily_rows_each": 474,
+      "source_isST": "1",
+      "failure_before_start_day": true,
+      "all42_old_financial_bytes_unchanged": true,
+      "all_six_tax_unknown_record_and_ex_quantities_zero": true,
+      "annual_returns_computed": false,
+      "candidate_promoted": false,
+      "2026_values_or_outcomes_read": false,
+      "objective_achieved": false
     }
   }
 }

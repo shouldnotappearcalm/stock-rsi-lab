@@ -1,0 +1,79 @@
+{
+  "status": "IVOL_RAW_PRE2026_FAILED_OR_INCOMPLETE_PRESERVED",
+  "plan_sha256": "9f1d99938167d5c6c998355a3374a8b2fbc45e51012f6297330d29eed73c58a3",
+  "method_code_sha256": {
+    "scripts/run_ivol_raw_pre2026.py": "9767ff1f52f57672d0956062b15e3c0f8bf97ee2519dafa04bd63251cfd3cfd9",
+    "scripts/prepare_ivol_account_sources_pre2026.py": "7b3a22bfb2d709d954ea6f564b194a2e4c903c862ba0fe8f9fb88be6b17ebdac",
+    "scripts/replay_ordinary_budgeted_stock_distribution_targets.py": "d5462f2c85944e8e716eb75761e6aa512ce3568b7cd3d8d52eaa4cf9cee22414",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "scripts/run_low_risk_feedback_cost_stress.py": "a08e0ac1e34090c7fb868fd6fa3dda73ba56adc14137dbdee3cb44617920c503",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "src/stock_rsi/primary_event_components.py": "a0ecc1c01b7caf688dab26b2461c5fb720e4772c0abff004f973ee5422e58418",
+    "src/stock_rsi/distribution_event_compiler_v2.py": "145ea48f2f68af0175d3f003f1970152b8d7c03ba40ed809dfbe3dc38fc51a3e",
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/budgeted_raw_orders.py": "38db2870618622f84722aaf6737645ac089f5a29a356e82a114ad18cd3eb314e",
+    "src/stock_rsi/ordinary_source_scope.py": "7e27c6b36bade230cc429d7fafd43d882fc9c134a8f6b4f31ef94e539232b888",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46"
+  },
+  "source_projection_summary_sha256": "c030eb8ea0ebba7f25a7db3bf2e75d41217e7b17ab3a7454460729b9979e3ad5",
+  "results_by_extra_bps": {
+    "20": {
+      "status": "INVALID_ACCOUNT_OR_SOURCE",
+      "error_type": "ValueError",
+      "error": "required nonordinary source state: SH600079 2025-12-16",
+      "original_traceback": "Traceback (most recent call last):\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/run_ivol_raw_pre2026.py\", line 259, in run_profiles\n    case=simulator(ctx['calendar'],ctx['bars'],ctx['events'],ctx['targets'],plan['initial_CNY'],\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/replay_ordinary_budgeted_stock_distribution_targets.py\", line 31, in simulate_ordinary_budgeted_fixed_targets\n    day_bars,exceptions=source_rows_on(bars,day,required,lifecycles)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/src/stock_rsi/ordinary_source_scope.py\", line 22, in ordinary_source_rows_on\n    raise ValueError('required nonordinary source state: ' + code + ' ' + day.isoformat())\nValueError: required nonordinary source state: SH600079 2025-12-16\n",
+      "annual_returns_computed": false,
+      "failure_artifact_sha256": {
+        "error.json": "955d4c9930f07a52430af36b624e1473cfdb84f26ffa9efc948d8a469f2bd649",
+        "failed_account_state.json": "ae27bcd2e846441438e4effb5206336b058278596415f41f9986022bf3aa93fc",
+        "partial_engine_trace.json": "3a6408650b2a122379e79d31efe81069ae2a772f1ec0f601d54cfcb6f42ff5b3",
+        "required_source_dependencies.json": "dc6915b87d1337af72a3dd19d140167290f200b6afd009acf2197ae82af82bd5"
+      }
+    },
+    "40": {
+      "status": "INVALID_ACCOUNT_OR_SOURCE",
+      "error_type": "ValueError",
+      "error": "required nonordinary source state: SH600079 2025-12-16",
+      "original_traceback": "Traceback (most recent call last):\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/run_ivol_raw_pre2026.py\", line 259, in run_profiles\n    case=simulator(ctx['calendar'],ctx['bars'],ctx['events'],ctx['targets'],plan['initial_CNY'],\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/replay_ordinary_budgeted_stock_distribution_targets.py\", line 31, in simulate_ordinary_budgeted_fixed_targets\n    day_bars,exceptions=source_rows_on(bars,day,required,lifecycles)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/src/stock_rsi/ordinary_source_scope.py\", line 22, in ordinary_source_rows_on\n    raise ValueError('required nonordinary source state: ' + code + ' ' + day.isoformat())\nValueError: required nonordinary source state: SH600079 2025-12-16\n",
+      "annual_returns_computed": false,
+      "failure_artifact_sha256": {
+        "error.json": "955d4c9930f07a52430af36b624e1473cfdb84f26ffa9efc948d8a469f2bd649",
+        "failed_account_state.json": "829355aaf0f19ad38cf042386c6397819ff2a0712d8dd044dfc5425ed269aa12",
+        "partial_engine_trace.json": "8df8945cde85246e5b0b7135f62ee1ec0d13eadb69ea550194f5e77aa2549b7b",
+        "required_source_dependencies.json": "dc6915b87d1337af72a3dd19d140167290f200b6afd009acf2197ae82af82bd5"
+      }
+    }
+  },
+  "reference_extra_bps": 40,
+  "reference_CNY": "1000000",
+  "annual_returns_computed": false,
+  "both_profiles_complete_before_annual_scoring": false,
+  "raw_daily_proxy_development_gate_passes": false,
+  "abnormal_exit": null,
+  "source_inputs_unchanged_after_replay": true,
+  "postcheck_sha256": "016761d7dafe401ad3f1bfd6cfb19b567d72214de87a637e59c2dcb61ee17259",
+  "annual_return_denominators": "2024 initial1m;2025 preceding2024year-endcontinuous equity;no reset",
+  "tax_model": "20percent cash+taxablebonus stress reserve, not actualFIFO liability settlement",
+  "execution_model": "unchanged ordinary-source budgeted integer allocation,next explicit daily open,9.5percent reference proxy",
+  "raw_account_independently_audited": false,
+  "minute_execution_admitted": false,
+  "historical_arrival_certified": false,
+  "full_corporate_actions_certified": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "queue_and_impact_calibrated": false,
+  "2026_return_computed": false,
+  "new_2026_queries": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
