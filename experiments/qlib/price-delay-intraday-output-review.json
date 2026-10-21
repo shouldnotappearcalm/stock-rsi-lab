@@ -1,0 +1,190 @@
+{
+  "status": "BOUNDED_OUTPUT_AND_ORDINARY_GUARD_EVIDENCE_REVIEW_PASS_FULL_LEDGER_AUDIT_SEPARATE",
+  "plan_sha256": "595244be4f34772b05d1ddd6ab2418d0c8666fdc939e038a1eb3b211d3fd0293",
+  "summary_sha256": "b8f2e1100e907f93046bc08c062e4be128374a999fec2623f630e28834f24273",
+  "freeze_commit": "70e5f8d",
+  "plan_bytes_equal_frozen_commit": true,
+  "current_nested_binding_counts_verified": {
+    "price-delay-intraday-plan.json": 46,
+    "price-delay-raw-daily-plan.json": 39,
+    "price-delay-ordinary-source-scope-plan.json": 28,
+    "price-delay-minute-admission-plan.json": 25,
+    "price-delay-minute-capture-plan.json": 26
+  },
+  "all_six_profiles_exactly_present": true,
+  "all48_profile_artifact_hashes_verified": true,
+  "original_failed_admission_summary_sha256": "c39b1af8c337ba04c2c4927962068f65205b4916f5bfb6379c279c0aed1125df",
+  "original_failed_admission_still_false": true,
+  "all12_rejected_source_packet_hashes_unchanged": true,
+  "source_scope_sha256": "63f7cb82cd81960171608406e5db97d658986c648fac96224fcefdc17327d518",
+  "raw_ST_intervals_independently_rederived": 241,
+  "ST_interval_range": [
+    "2024-05-21",
+    "2025-05-19"
+  ],
+  "ST_instruments": [
+    "SZ002092"
+  ],
+  "profiles": {
+    "100/20": {
+      "artifacts_verified": 8,
+      "calendar_rows": 486,
+      "monthly_intents": 24,
+      "actual_ST_interval_records_exact": 241,
+      "ST_previous_and_end_day_positions_zero": true,
+      "ST_inventory_independently_reconstructed_from_all_code_fills": true,
+      "ST_pending_parents_children_fills_nexttargets_absent": true,
+      "ST_events_or_stock_claims_or_positive_ex_entitlements": 0,
+      "ST_entry": {
+        "date": "2024-01-02",
+        "shares": 3900
+      },
+      "ST_exit": {
+        "date": "2024-02-01",
+        "shares": 3900,
+        "actual_paid_costed_fills_verified": true
+      },
+      "exit_precedes_first_ST_date": true,
+      "unproved_event_zero_record_and_ownership_verified": true,
+      "aggregate_2024_pct": "12.83990200",
+      "aggregate_2025_pct": "3.761675546297443611746490200",
+      "aggregate_average_exposure_pct": "92.36028873647437321318586159"
+    },
+    "100/40": {
+      "artifacts_verified": 8,
+      "calendar_rows": 486,
+      "monthly_intents": 24,
+      "actual_ST_interval_records_exact": 241,
+      "ST_previous_and_end_day_positions_zero": true,
+      "ST_inventory_independently_reconstructed_from_all_code_fills": true,
+      "ST_pending_parents_children_fills_nexttargets_absent": true,
+      "ST_events_or_stock_claims_or_positive_ex_entitlements": 0,
+      "ST_entry": {
+        "date": "2024-01-02",
+        "shares": 3900
+      },
+      "ST_exit": {
+        "date": "2024-02-01",
+        "shares": 3900,
+        "actual_paid_costed_fills_verified": true
+      },
+      "exit_precedes_first_ST_date": true,
+      "unproved_event_zero_record_and_ownership_verified": true,
+      "aggregate_2024_pct": "11.66117300",
+      "aggregate_2025_pct": "2.998118244736691060911566800",
+      "aggregate_average_exposure_pct": "92.38113048458128330053771353"
+    },
+    "500/20": {
+      "artifacts_verified": 8,
+      "calendar_rows": 486,
+      "monthly_intents": 24,
+      "actual_ST_interval_records_exact": 241,
+      "ST_previous_and_end_day_positions_zero": true,
+      "ST_inventory_independently_reconstructed_from_all_code_fills": true,
+      "ST_pending_parents_children_fills_nexttargets_absent": true,
+      "ST_events_or_stock_claims_or_positive_ex_entitlements": 0,
+      "ST_entry": {
+        "date": "2024-01-02",
+        "shares": 3900
+      },
+      "ST_exit": {
+        "date": "2024-02-01",
+        "shares": 3900,
+        "actual_paid_costed_fills_verified": true
+      },
+      "exit_precedes_first_ST_date": true,
+      "unproved_event_zero_record_and_ownership_verified": true,
+      "aggregate_2024_pct": "12.8755500",
+      "aggregate_2025_pct": "3.775258680910081944229729100",
+      "aggregate_average_exposure_pct": "92.35403980872363750208282668"
+    },
+    "500/40": {
+      "artifacts_verified": 8,
+      "calendar_rows": 486,
+      "monthly_intents": 24,
+      "actual_ST_interval_records_exact": 241,
+      "ST_previous_and_end_day_positions_zero": true,
+      "ST_inventory_independently_reconstructed_from_all_code_fills": true,
+      "ST_pending_parents_children_fills_nexttargets_absent": true,
+      "ST_events_or_stock_claims_or_positive_ex_entitlements": 0,
+      "ST_entry": {
+        "date": "2024-01-02",
+        "shares": 3900
+      },
+      "ST_exit": {
+        "date": "2024-02-01",
+        "shares": 3900,
+        "actual_paid_costed_fills_verified": true
+      },
+      "exit_precedes_first_ST_date": true,
+      "unproved_event_zero_record_and_ownership_verified": true,
+      "aggregate_2024_pct": "11.68731300",
+      "aggregate_2025_pct": "3.016021166164146146124940800",
+      "aggregate_average_exposure_pct": "92.36876894116974741881653402"
+    },
+    "1000/20": {
+      "artifacts_verified": 8,
+      "calendar_rows": 486,
+      "monthly_intents": 24,
+      "actual_ST_interval_records_exact": 241,
+      "ST_previous_and_end_day_positions_zero": true,
+      "ST_inventory_independently_reconstructed_from_all_code_fills": true,
+      "ST_pending_parents_children_fills_nexttargets_absent": true,
+      "ST_events_or_stock_claims_or_positive_ex_entitlements": 0,
+      "ST_entry": {
+        "date": "2024-01-02",
+        "shares": 3900
+      },
+      "ST_exit": {
+        "date": "2024-02-01",
+        "shares": 3900,
+        "actual_paid_costed_fills_verified": true
+      },
+      "exit_precedes_first_ST_date": true,
+      "unproved_event_zero_record_and_ownership_verified": true,
+      "aggregate_2024_pct": "12.8755500",
+      "aggregate_2025_pct": "3.777657783284333941229965200",
+      "aggregate_average_exposure_pct": "92.35394036543442803894092876"
+    },
+    "1000/40": {
+      "artifacts_verified": 8,
+      "calendar_rows": 486,
+      "monthly_intents": 24,
+      "actual_ST_interval_records_exact": 241,
+      "ST_previous_and_end_day_positions_zero": true,
+      "ST_inventory_independently_reconstructed_from_all_code_fills": true,
+      "ST_pending_parents_children_fills_nexttargets_absent": true,
+      "ST_events_or_stock_claims_or_positive_ex_entitlements": 0,
+      "ST_entry": {
+        "date": "2024-01-02",
+        "shares": 3900
+      },
+      "ST_exit": {
+        "date": "2024-02-01",
+        "shares": 3900,
+        "actual_paid_costed_fills_verified": true
+      },
+      "exit_precedes_first_ST_date": true,
+      "unproved_event_zero_record_and_ownership_verified": true,
+      "aggregate_2024_pct": "11.68731300",
+      "aggregate_2025_pct": "3.018450269279913646055752100",
+      "aggregate_average_exposure_pct": "92.36866677984385491546609829"
+    }
+  },
+  "all_three_reference40_gates_independently_checked_from_output_aggregates": true,
+  "no_profile_or_cheaper_sensitivity_selected": true,
+  "ready_for_2026_source_design": true,
+  "readiness_scope": "Only completed pre2026 output identity, fixed-target/guard and aggregate gate boundaries. Not full independent minute-ledger completion or permission for2026 account/ROI; separate source protocol and remaining ledger audit still required.",
+  "full_minute_decimal_cash_fee_inventory_audit_completed_by_this_review": false,
+  "critical_findings": [],
+  "important_findings": [],
+  "limits": [
+    "Per-day cash, per-bucket participation, full fill affordability, fees and all378events acrossall151names are intentionally left to the parallel independent Decimal ledger auditor.",
+    "This review independently reconstructs only the ST security share path and its relevant parent/child/fill dependencies; zero is not inferred from target membership.",
+    "Scope remains reconstructed source/execution evidence, not PIT, historical arrival, exact minute precision, actualFIFO tax, queues or market impact."
+  ],
+  "real_replay_run": false,
+  "new_network_queries": 0,
+  "2026_market_values_or_outcomes_read": false,
+  "repository_or_source_modified": false
+}

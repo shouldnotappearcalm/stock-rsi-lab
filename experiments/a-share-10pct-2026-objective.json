@@ -5123,7 +5123,7 @@
     }
   ],
   "latest_pre2026_price_delay_screen": {
-    "status": "PRE2026_RAW_DAILY_PASS_STRICT_MINUTE_ADMISSION_FAILED_12_ST_INTERVALS",
+    "status": "PRE2026_RAW_SHARE_INTRADAY_PASS_2026_NOT_YET_EVALUATED",
     "candidate": "price_delay_d1",
     "candidate_budget": 1,
     "2024_normalized_daily_proxy_net_pct": 16.908141739694326,
@@ -5209,12 +5209,29 @@
       "new_2026_values_read": false
     },
     "ordinary_source_scope_guard": {
-      "status": "PREPARATORY_SEPARATE_ACCOUNT_GUARD_NOT_ACTIVATED",
+      "status": "SIX_ACTUAL_ACCOUNT_DEPENDENCIES_INDEPENDENTLY_RECONSTRUCTED",
       "protocol": "docs/research/price-delay-ordinary-scope-plan-2026-10-21.md",
       "all_original_ST_source_intervals": 241,
       "required_ST_dependency_fails_closed": true,
       "strict_original_admission_overridden": false,
-      "real_candidate_account_replayed_with_guard": false
+      "real_candidate_account_replayed_with_guard": true,
+      "actual_unused_ST_intervals_across_profiles": 1446
+    },
+    "intraday_confirmation": {
+      "status": "ALL_SIX_ACCOUNTS_INDEPENDENTLY_RECONSTRUCTED",
+      "result_file": "experiments/qlib/price-delay-intraday-results.json",
+      "verification_file": "experiments/qlib/price-delay-intraday-verification.json",
+      "reference_participation_bps": 100,
+      "reference_extra_bps": 40,
+      "reference_2024_return_pct": 11.661173,
+      "reference_2025_return_pct": 2.998118244736691,
+      "reference_mean_exposure_pct": 92.38113048458128,
+      "all_three_40bp_profiles_pass": true,
+      "actual_ST_interval_proofs": 1446,
+      "new_2026_values_read": false,
+      "real_exchange_execution_certified": false,
+      "candidate_promoted": false,
+      "objective_achieved": false
     }
   }
 }

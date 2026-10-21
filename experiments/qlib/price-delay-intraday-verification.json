@@ -1,0 +1,21 @@
+{
+  "status": "ALL_SIX_PRE2026_INTRADAY_ACCOUNTS_INDEPENDENTLY_RECONSTRUCTED",
+  "freeze_commit": "70e5f8d",
+  "plan_sha256": "595244be4f34772b05d1ddd6ab2418d0c8666fdc939e038a1eb3b211d3fd0293",
+  "execution_exit_code": 0,
+  "summary_sha256": "b8f2e1100e907f93046bc08c062e4be128374a999fec2623f630e28834f24273",
+  "independent_ledger_audit_sha256": "78f22bc9c7e083cae6422c99b502988b7f6e3741f4ea90fddb453333d9a72e08",
+  "root_ledger_reproduction_byte_identical": true,
+  "output_review_sha256": "f1853618580e776296d82eb79ec1868c8e55e9b08c16cf1dc32bc099c177e2cc",
+  "development_confirmation_passes_independently": true,
+  "financial_artifacts_authenticated": 48,
+  "actual_ST_dependency_records_reconstructed": 1446,
+  "original_strict_2502_admission_remains_failed": true,
+  "rejected_ST_packets_retained": 12,
+  "full_suite_tests": 585,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 11.28,
+  "new_2026_market_values_read": false,
+  "PIT_or_real_exchange_execution_certified": false,
+  "objective_achieved": false
+}
