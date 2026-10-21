@@ -1,0 +1,548 @@
+{
+  "status": "PRE2026_FIXED_RISK_OVERLAY_BEHAVIOR_AND_PROFITABILITY_DIAGNOSTIC",
+  "policy_id": "amihud22_monthly_price_risk1",
+  "summary_sha256": "36eb54903e8f8f4c71952e9f6b35eaa0cd5fc47b5c8b0dd26bb37b5686c1452f",
+  "independent_account_audit_sha256": "16963e94156174abaa4455d2f0ba536034f0b673bad3da53e20f48a0dbebf8fd",
+  "changed_formations": [
+    {
+      "execution_session": "2024-06-03",
+      "contract": "MONTHLY_RAW_CLOSE_1CNY_ORDINARY_GUARD_V1",
+      "formation_asof": "2024-05-31",
+      "original_seed_target": {
+        "as_of": "2024-05-31",
+        "weights": {
+          "SZ000553": 0.02435897435897436,
+          "SH603826": 0.02435897435897436,
+          "SH601828": 0.02435897435897436,
+          "SZ000031": 0.02435897435897436,
+          "SZ000401": 0.02435897435897436,
+          "SH603868": 0.02435897435897436,
+          "SH600927": 0.02435897435897436,
+          "SZ002399": 0.02435897435897436,
+          "SH603707": 0.02435897435897436,
+          "SZ003022": 0.02435897435897436,
+          "SH603056": 0.02435897435897436,
+          "SZ002505": 0.02435897435897436,
+          "SH601992": 0.02435897435897436,
+          "SH600378": 0.02435897435897436,
+          "SH600956": 0.02435897435897436,
+          "SH601568": 0.02435897435897436,
+          "SH603355": 0.02435897435897436,
+          "SH600167": 0.02435897435897436,
+          "SZ002153": 0.02435897435897436,
+          "SZ003031": 0.02435897435897436,
+          "SH603026": 0.02435897435897436,
+          "SH603786": 0.02435897435897436,
+          "SZ002925": 0.02435897435897436,
+          "SZ000785": 0.02435897435897436,
+          "SH600022": 0.02435897435897436,
+          "SH603317": 0.02435897435897436,
+          "SZ000402": 0.02435897435897436,
+          "SZ002690": 0.02435897435897436,
+          "SH603866": 0.02435897435897436,
+          "SZ003035": 0.02435897435897436,
+          "SH601106": 0.02435897435897436,
+          "SH600827": 0.02435897435897436,
+          "SZ000958": 0.02435897435897436,
+          "SZ000156": 0.02435897435897436,
+          "SH600500": 0.02435897435897436,
+          "SZ002653": 0.02435897435897436,
+          "SZ002030": 0.02435897435897436,
+          "SZ002203": 0.02435897435897436,
+          "SH601139": 0.02435897435897436
+        }
+      },
+      "formation_cells": {
+        "SH600022": {
+          "date": "2024-05-31",
+          "close": "1.2500",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH600167": {
+          "date": "2024-05-31",
+          "close": "6.0300",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH600378": {
+          "date": "2024-05-31",
+          "close": "30.2500",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH600500": {
+          "date": "2024-05-31",
+          "close": "3.9500",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH600827": {
+          "date": "2024-05-31",
+          "close": "8.4500",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH600927": {
+          "date": "2024-05-31",
+          "close": "12.4000",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH600956": {
+          "date": "2024-05-31",
+          "close": "9.1500",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH601106": {
+          "date": "2024-05-31",
+          "close": "2.5400",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH601139": {
+          "date": "2024-05-31",
+          "close": "7.2900",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH601568": {
+          "date": "2024-05-31",
+          "close": "4.2500",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH601828": {
+          "date": "2024-05-31",
+          "close": "3.0800",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH601992": {
+          "date": "2024-05-31",
+          "close": "1.7100",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH603026": {
+          "date": "2024-05-31",
+          "close": "39.4200",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH603056": {
+          "date": "2024-05-31",
+          "close": "15.2700",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH603317": {
+          "date": "2024-05-31",
+          "close": "13.2800",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH603355": {
+          "date": "2024-05-31",
+          "close": "26.7200",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH603707": {
+          "date": "2024-05-31",
+          "close": "12.5300",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH603786": {
+          "date": "2024-05-31",
+          "close": "69.5800",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH603826": {
+          "date": "2024-05-31",
+          "close": "39.9600",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH603866": {
+          "date": "2024-05-31",
+          "close": "5.9700",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SH603868": {
+          "date": "2024-05-31",
+          "close": "45.7500",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ000031": {
+          "date": "2024-05-31",
+          "close": "2.6900",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ000156": {
+          "date": "2024-05-31",
+          "close": "6.8100",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ000401": {
+          "date": "2024-05-31",
+          "close": "4.6700",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ000402": {
+          "date": "2024-05-31",
+          "close": "2.9600",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ000553": {
+          "date": "2024-05-31",
+          "close": "5.8900",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ000785": {
+          "date": "2024-05-31",
+          "close": "2.8300",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ000958": {
+          "date": "2024-05-31",
+          "close": "4.0000",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ002030": {
+          "date": "2024-05-31",
+          "close": "6.5100",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ002153": {
+          "date": "2024-05-31",
+          "close": "6.6000",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ002203": {
+          "date": "2024-05-31",
+          "close": "8.5900",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ002399": {
+          "date": "2024-05-31",
+          "close": "9.9500",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ002505": {
+          "date": "2024-05-31",
+          "close": "0.9500",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ002653": {
+          "date": "2024-05-31",
+          "close": "30.6400",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ002690": {
+          "date": "2024-05-31",
+          "close": "16.8800",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ002925": {
+          "date": "2024-05-31",
+          "close": "13.0100",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ003022": {
+          "date": "2024-05-31",
+          "close": "16.4800",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ003031": {
+          "date": "2024-05-31",
+          "close": "62.9900",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        "SZ003035": {
+          "date": "2024-05-31",
+          "close": "4.9400",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      },
+      "minimum_raw_close_CNY": "1.00",
+      "blocked": {
+        "SZ002505": [
+          "FORMATION_RAW_CLOSE_BELOW_CNY1"
+        ]
+      },
+      "retained": [
+        "SH600022",
+        "SH600167",
+        "SH600378",
+        "SH600500",
+        "SH600827",
+        "SH600927",
+        "SH600956",
+        "SH601106",
+        "SH601139",
+        "SH601568",
+        "SH601828",
+        "SH601992",
+        "SH603026",
+        "SH603056",
+        "SH603317",
+        "SH603355",
+        "SH603707",
+        "SH603786",
+        "SH603826",
+        "SH603866",
+        "SH603868",
+        "SZ000031",
+        "SZ000156",
+        "SZ000401",
+        "SZ000402",
+        "SZ000553",
+        "SZ000785",
+        "SZ000958",
+        "SZ002030",
+        "SZ002153",
+        "SZ002203",
+        "SZ002399",
+        "SZ002653",
+        "SZ002690",
+        "SZ002925",
+        "SZ003022",
+        "SZ003031",
+        "SZ003035"
+      ],
+      "formation_evidence_id": "63acc206b721496049f2a08e0f2c8f60ec529bd394f4fd31058c2a4f498fe8f1",
+      "result_weights": {
+        "SH600022": "0.025000000000000000000000",
+        "SH600167": "0.025000000000000000000000",
+        "SH600378": "0.025000000000000000000000",
+        "SH600500": "0.025000000000000000000000",
+        "SH600827": "0.025000000000000000000000",
+        "SH600927": "0.025000000000000000000000",
+        "SH600956": "0.025000000000000000000000",
+        "SH601106": "0.025000000000000000000000",
+        "SH601139": "0.025000000000000000000000",
+        "SH601568": "0.025000000000000000000000",
+        "SH601828": "0.025000000000000000000000",
+        "SH601992": "0.025000000000000000000000",
+        "SH603026": "0.025000000000000000000000",
+        "SH603056": "0.025000000000000000000000",
+        "SH603317": "0.025000000000000000000000",
+        "SH603355": "0.025000000000000000000000",
+        "SH603707": "0.025000000000000000000000",
+        "SH603786": "0.025000000000000000000000",
+        "SH603826": "0.025000000000000000000000",
+        "SH603866": "0.025000000000000000000000",
+        "SH603868": "0.025000000000000000000000",
+        "SZ000031": "0.025000000000000000000000",
+        "SZ000156": "0.025000000000000000000000",
+        "SZ000401": "0.025000000000000000000000",
+        "SZ000402": "0.025000000000000000000000",
+        "SZ000553": "0.025000000000000000000000",
+        "SZ000785": "0.025000000000000000000000",
+        "SZ000958": "0.025000000000000000000000",
+        "SZ002030": "0.025000000000000000000000",
+        "SZ002153": "0.025000000000000000000000",
+        "SZ002203": "0.025000000000000000000000",
+        "SZ002399": "0.025000000000000000000000",
+        "SZ002653": "0.025000000000000000000000",
+        "SZ002690": "0.025000000000000000000000",
+        "SZ002925": "0.025000000000000000000000",
+        "SZ003022": "0.025000000000000000000000",
+        "SZ003031": "0.025000000000000000000000",
+        "SZ003035": "0.025000000000000000000000"
+      },
+      "all_filtered_to_cash": false,
+      "statutory_delisting_classifier": false,
+      "historical_arrival_verified": false
+    }
+  ],
+  "reference_profiles": {
+    "100/40/1000000": {
+      "status": "INDEPENDENT_FULL_ACCOUNT_RECONSTRUCTED",
+      "independent_metrics": {
+        "2024_return_pct": -1.538984,
+        "2025_return_pct": 8.849773599736164,
+        "average_exposure_pct": 92.29334643781853,
+        "2024_yearend_equity_CNY": "984610.1600",
+        "2025_yearend_equity_CNY": "1071745.9300",
+        "continuous_2025_denominator_CNY": "984610.1600"
+      },
+      "SZ002505_SELL_parents": [
+        {
+          "order_id": "3eb871d12fca5b2eef8ce4fc934ddbd5ded4b16bbf301a5895f2801b929ad051",
+          "decision_id": "a79240dc827b2c7c3f15e88025fd61cbc38885d1c32c37dddc5511c3b56b45b5",
+          "security_id": "SZ002505",
+          "action": "SELL",
+          "quantity": 21900,
+          "remaining": 0,
+          "filled_quantity": 21900,
+          "submitted_at": "2024-05-31T07:05:00+00:00",
+          "eligible_at": "2024-06-03T01:30:00+00:00",
+          "expires_at": "2024-06-03T06:55:00+00:00",
+          "legacy_expiry_hint": "2024-06-03T01:30:00+00:00",
+          "status": "FILLED",
+          "order_role": "PARENT_EXECUTION_INSTRUCTION_NOT_EXCHANGE_ORDER"
+        }
+      ],
+      "held_SZ002505_on2024Aug29": 0,
+      "failed_gate_reason": "2024_RETURN_NOT_STRICTLY_POSITIVE"
+    },
+    "500/40/1000000": {
+      "status": "INDEPENDENT_FULL_ACCOUNT_RECONSTRUCTED",
+      "independent_metrics": {
+        "2024_return_pct": -1.520039,
+        "2025_return_pct": 8.943237700916637,
+        "average_exposure_pct": 92.30338408681935,
+        "2024_yearend_equity_CNY": "984799.6100",
+        "2025_yearend_equity_CNY": "1072872.5800",
+        "continuous_2025_denominator_CNY": "984799.6100"
+      },
+      "SZ002505_SELL_parents": [
+        {
+          "order_id": "eb07d4a1e4a92d69b2d0e2339cebeaa0b233a53a55df5f6ee4b298e83a718996",
+          "decision_id": "ad0c6a234cc099eeeaacd984b695e758aa446ecb53fb8830d082d59b568a4a82",
+          "security_id": "SZ002505",
+          "action": "SELL",
+          "quantity": 21900,
+          "remaining": 0,
+          "filled_quantity": 21900,
+          "submitted_at": "2024-05-31T07:05:00+00:00",
+          "eligible_at": "2024-06-03T01:30:00+00:00",
+          "expires_at": "2024-06-03T06:55:00+00:00",
+          "legacy_expiry_hint": "2024-06-03T01:30:00+00:00",
+          "status": "FILLED",
+          "order_role": "PARENT_EXECUTION_INSTRUCTION_NOT_EXCHANGE_ORDER"
+        }
+      ],
+      "held_SZ002505_on2024Aug29": 0,
+      "failed_gate_reason": "2024_RETURN_NOT_STRICTLY_POSITIVE"
+    },
+    "1000/40/1000000": {
+      "status": "INDEPENDENT_FULL_ACCOUNT_RECONSTRUCTED",
+      "independent_metrics": {
+        "2024_return_pct": -1.520039,
+        "2025_return_pct": 8.943513899238852,
+        "average_exposure_pct": 92.30332157583209,
+        "2024_yearend_equity_CNY": "984799.6100",
+        "2025_yearend_equity_CNY": "1072875.3000",
+        "continuous_2025_denominator_CNY": "984799.6100"
+      },
+      "SZ002505_SELL_parents": [
+        {
+          "order_id": "bfb68c7ade00734cbc316d57474f1d3ea9b5bf20c07ebf1e74d0683567497a16",
+          "decision_id": "ad0c6a234cc099eeeaacd984b695e758aa446ecb53fb8830d082d59b568a4a82",
+          "security_id": "SZ002505",
+          "action": "SELL",
+          "quantity": 21900,
+          "remaining": 0,
+          "filled_quantity": 21900,
+          "submitted_at": "2024-05-31T07:05:00+00:00",
+          "eligible_at": "2024-06-03T01:30:00+00:00",
+          "expires_at": "2024-06-03T06:55:00+00:00",
+          "legacy_expiry_hint": "2024-06-03T01:30:00+00:00",
+          "status": "FILLED",
+          "order_role": "PARENT_EXECUTION_INSTRUCTION_NOT_EXCHANGE_ORDER"
+        }
+      ],
+      "held_SZ002505_on2024Aug29": 0,
+      "failed_gate_reason": "2024_RETURN_NOT_STRICTLY_POSITIVE"
+    }
+  },
+  "failed_stress_profiles": {
+    "100/0/100000000": {
+      "error": "lifecycle interval still requires shares, orders or price: SZ002505 2024-08-30",
+      "attempted_day": "2024-08-30",
+      "last_completed_day": "2024-08-29",
+      "last_account_clock": [
+        "2024-08-29",
+        1
+      ],
+      "completed_sessions": 162,
+      "completed_intents": 8,
+      "actual_owned_SZ002505": 108200,
+      "annual_ROI_computed": false
+    },
+    "100/5/100000000": {
+      "error": "lifecycle interval still requires shares, orders or price: SZ002505 2024-08-30",
+      "attempted_day": "2024-08-30",
+      "last_completed_day": "2024-08-29",
+      "last_account_clock": [
+        "2024-08-29",
+        1
+      ],
+      "completed_sessions": 162,
+      "completed_intents": 8,
+      "actual_owned_SZ002505": 108200,
+      "annual_ROI_computed": false
+    },
+    "100/10/100000000": {
+      "error": "lifecycle interval still requires shares, orders or price: SZ002505 2024-08-30",
+      "attempted_day": "2024-08-30",
+      "last_completed_day": "2024-08-29",
+      "last_account_clock": [
+        "2024-08-29",
+        1
+      ],
+      "completed_sessions": 162,
+      "completed_intents": 8,
+      "actual_owned_SZ002505": 108200,
+      "annual_ROI_computed": false
+    },
+    "100/20/100000000": {
+      "error": "lifecycle interval still requires shares, orders or price: SZ002505 2024-08-30",
+      "attempted_day": "2024-08-30",
+      "last_completed_day": "2024-08-29",
+      "last_account_clock": [
+        "2024-08-29",
+        1
+      ],
+      "completed_sessions": 162,
+      "completed_intents": 8,
+      "actual_owned_SZ002505": 108200,
+      "annual_ROI_computed": false
+    },
+    "100/40/100000000": {
+      "error": "lifecycle interval still requires shares, orders or price: SZ002505 2024-08-30",
+      "attempted_day": "2024-08-30",
+      "last_completed_day": "2024-08-29",
+      "last_account_clock": [
+        "2024-08-29",
+        1
+      ],
+      "completed_sessions": 162,
+      "completed_intents": 8,
+      "actual_owned_SZ002505": 108200,
+      "annual_ROI_computed": false
+    }
+  },
+  "new_portfolio_strategy_or_threshold_selected": false,
+  "2026_data_or_return_values_read": false,
+  "original_failed_results_changed": false,
+  "original_guards_changed": false,
+  "raw_development_confirmation_passes": false,
+  "objective_achieved": false
+}

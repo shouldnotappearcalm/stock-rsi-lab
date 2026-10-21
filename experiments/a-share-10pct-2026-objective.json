@@ -5996,5 +5996,92 @@
     "verification_file": "experiments/qlib/illiquidity-source-scenario-development-run-verification.json",
     "verification_sha256": "89065722f5df3af45447916e1f87de080a1b3a8d002cc999502f6f7c92b9546a",
     "next_action": "Retain all60 strict failures. Do not run2026 under faileddevelopmentgate. Investigate general prior-visible distress and exit-risk modules using only2024/2025 development evidence and primary pre2026 rules; do not remove the observed ticker ex post or invent sale/recovery. Separately freeze new hypotheses, controls, data scope and original strict account gates before outcomes. Original2024>0/2025>0/2026Jan-Oct>=10% objective unproven."
+  },
+  "latest_monthly_price_risk_development_confirmation": {
+    "status": "MONTHLY_PRICE_RISK_PRE2026_COMPLETE_INDEPENDENTLY_VERIFIED_PROFITABILITY_GATE_FAILED",
+    "freeze_commit": "020c1321c9eea10d97479b829d2f346022b53e35",
+    "freeze_pushed_before_actual_accounts": true,
+    "freeze_CI_all_three_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39646254300",
+    "plan_sha256": "06ff6d821f827a632aba81ac5637180b0274947625a00106ea6b68921f53441b",
+    "actual_preflight_exit_code": 0,
+    "actual_account_process_exit_code": 0,
+    "summary_sha256": "36eb54903e8f8f4c71952e9f6b35eaa0cd5fc47b5c8b0dd26bb37b5686c1452f",
+    "all2919_bound_inputs_unchanged": true,
+    "completed_full_profiles": 55,
+    "failed_profiles": 5,
+    "reference_profiles": {
+      "100/40/1000000": {
+        "2024_return_pct": -1.538984,
+        "2025_return_pct": 8.849773599736164,
+        "average_exposure_pct": 92.29334643781853,
+        "2024_yearend_equity_CNY": "984610.1600",
+        "2025_yearend_equity_CNY": "1071745.9300",
+        "continuous_2025_denominator_CNY": "984610.1600"
+      },
+      "500/40/1000000": {
+        "2024_return_pct": -1.520039,
+        "2025_return_pct": 8.943237700916637,
+        "average_exposure_pct": 92.30338408681935,
+        "2024_yearend_equity_CNY": "984799.6100",
+        "2025_yearend_equity_CNY": "1072872.5800",
+        "continuous_2025_denominator_CNY": "984799.6100"
+      },
+      "1000/40/1000000": {
+        "2024_return_pct": -1.520039,
+        "2025_return_pct": 8.943513899238852,
+        "average_exposure_pct": 92.30332157583209,
+        "2024_yearend_equity_CNY": "984799.6100",
+        "2025_yearend_equity_CNY": "1072875.3000",
+        "continuous_2025_denominator_CNY": "984799.6100"
+      }
+    },
+    "all3_reference_profiles_2024_negative": true,
+    "all3_reference_profiles_2025_positive": true,
+    "all3_reference_profiles_mean_exposure_over90pct": true,
+    "failed_stress_profiles": [
+      "100/0/100000000",
+      "100/5/100000000",
+      "100/10/100000000",
+      "100/20/100000000",
+      "100/40/100000000"
+    ],
+    "independent_audit_process_exit_code": 0,
+    "independent_audit_file": "experiments/qlib/amihud-monthly-price-risk-development-independent-ledger-audit.json",
+    "independent_audit_sha256": "16963e94156174abaa4455d2f0ba536034f0b673bad3da53e20f48a0dbebf8fd",
+    "independent_audit_code_file": "experiments/qlib/audit_sources/2026-10-22-amihud-monthly-price-risk-development-ledger.py",
+    "independent_audit_code_sha256": "3f1e6e750f9f10660c14c6cc8ffa9f6f5851fd42d551aee9e4733b28c4f12145",
+    "semantic_actual_account_controls_rejected": {
+      "missing_label_rejected": true,
+      "nonunique_binary32_cent_preimage_rejected": true,
+      "changed_projection_rejected": true,
+      "changed_source_SHA_rejected": true,
+      "actual_fee_tamper_rejected": true,
+      "actual_failure_cash_tamper_rejected": true,
+      "actual_failure_registered_quantity_tamper_rejected": true
+    },
+    "independent_auditor_synthetic_selftests_negative_controls": 16,
+    "diagnostic_file": "experiments/qlib/amihud-monthly-price-risk-development-diagnostic.json",
+    "diagnostic_sha256": "0e6252947ab8e6c363d53eb55fff9a15211d900be693b9c37da7fa99b6b8ae36",
+    "local_unittest_count": 935,
+    "local_unittest_result": "OK",
+    "raw_development_confirmation_passes": false,
+    "annual_ROI_computed_for_successful_profiles_only": true,
+    "old307_failed_artifacts_unchanged": true,
+    "original_source_admission_overridden": false,
+    "original_account_guards_changed": false,
+    "registry_allocation_assumed": false,
+    "conditional_engineering_only": true,
+    "historical_arrival_verified": false,
+    "queue_and_impact_calibrated": false,
+    "2026_strategy_returns_queried": false,
+    "objective_achieved": false,
+    "full_October_2026_complete": false,
+    "reviewer_independent_audit_process_exit_code": 0,
+    "independent_audit_root_and_reviewer_reports_byte_identical": true,
+    "candidate": "amihud22_monthly_price_risk1",
+    "result_file": "experiments/qlib/amihud-monthly-price-risk-development-results.json",
+    "verification_file": "experiments/qlib/amihud-monthly-price-risk-development-run-verification.json",
+    "verification_sha256": "66fb36af54674195d7fccf1fa1dcfe0815176416a292dca762406f3554e99180",
+    "next_action": "Reject this fixed adaptive candidate on all three reference2024 losses. Preserve all55 complete and5 failed accounts and original60 seed failures. No2026 evaluation under the faileddevelopmentgate. Next candidate needs an independently motivated investment mechanism, pre2026-only development/control/selection and a separately frozen candidate budget before outcomes; do not retune this threshold, fees, stock identity or dates to rescue it. Original2024>0/2025>0/2026Jan-Oct>=10percent objective remains unproven."
   }
 }
