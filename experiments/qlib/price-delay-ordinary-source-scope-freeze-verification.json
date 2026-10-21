@@ -1,0 +1,18 @@
+{
+  "status": "ORDINARY_ONLY_SOURCE_SCOPE_FROZEN_BEFORE_OUTPUT",
+  "plan_sha256": "03ae02284bdfb2a096c92c0084c5562223927ec9568af18d3941a4f0fdd726fc",
+  "code_review_sha256": "5caeb292343c81d38f30160d605a59c759b2d8dcfff06f92bddd66dcc9473c28",
+  "source_only_preflight_exit_code": 0,
+  "preflight_created_output": false,
+  "full_suite_tests": 582,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 11.364,
+  "ordinary_packets": 2490,
+  "retained_ST_rejections": 12,
+  "original_ST_daily_intervals": 241,
+  "original_strict_admission_remains_failed": true,
+  "account_dependency_proof_computed": false,
+  "portfolio_returns_computed": false,
+  "new_2026_values_read": false,
+  "objective_achieved": false
+}

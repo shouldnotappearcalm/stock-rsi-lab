@@ -1,0 +1,44 @@
+{
+  "status": "BOUNDED_CODE_REVIEW_PASS_SCOPE_PREPARATION_NOT_EXECUTED",
+  "script_sha256": "0a891aae274bf6355e1340c18f1120e98834eb00415dd4303dbb048589baf1cf",
+  "test_sha256": "8963a68a416e9f8fa39690ea6554a61af3aeea42cb051735f0af94dbe6ae3d78",
+  "critical_findings": [],
+  "important_findings": [],
+  "verified_code_boundaries": {
+    "exact_method_public_local_binding_sets_and_typed_fixed_profile": true,
+    "wrong_output_and_existing_output_refused": true,
+    "original_strict_admission_plan_and_all_its_bindings_reauthenticated": true,
+    "failed_summary_and_details_hashes_linked_to_independent_failure_audit": true,
+    "failure_audit_at_least_four_strict_boolean_negative_controls": true,
+    "original_capture_cleanup_must_pass": true,
+    "entire_capture_journal_byte_map_compared_to_bound_capture_audit": true,
+    "all1584reuse_and918fresh_routes_reconstructed_by_capture_authenticate": true,
+    "each_fresh_packet_receipt_chain_rechecked": true,
+    "each_ordinary_packet_original_inspect_repeated": true,
+    "each_ST_packet_remains_SOURCE_REJECTED_with_original_error": true,
+    "complete_disjoint_manifest_partition_required_for_tape_index": true,
+    "ST_state_cannot_be_in_ordinary_index": true,
+    "ST_index_lookup_fails_before_packet_read_or_access_tracking": true,
+    "fixed2490ordinary12rejected241dailyST_and2halt_intervals": true,
+    "scope_intervals_do_not_assert_account_dependency_absence": true,
+    "output_all_account_dependencies_ordinary_proven_remains_false": true,
+    "output_admitted_for_unconditional_execution_remains_false": true
+  },
+  "tests": {
+    "repository_tests_run": 2,
+    "repository_tests_passed": 2,
+    "additional_missing_each_profile_field_wrong_scalar_type_extra_binding_probes_rejected": true
+  },
+  "scope_notes": [
+    "No actual source preparation/preflight or account ran. Existing pre2026 failure audit metadata and source code were read only.",
+    "The source partition does not prove a real account never holds ST inventory or pending claims/orders; the separately frozen fixed replay must use the ordinary dependency guard and stop on any required ST state.",
+    "The241daily interval rows must remain available for account dependency audit; missing-month-target membership alone is not actual ownership proof.",
+    "OrdinaryScopeTapeBank must be constructed from authenticated immutable bars/scope in the future runner; it does not authenticate a standalone arbitrary scope path by itself.",
+    "Prior failed2502 admission and all12rejected original source packets remain unchanged. This scope is not a new successful2502 admission."
+  ],
+  "network_calls": 0,
+  "portfolio_returns_computed": false,
+  "2026_market_values_read": false,
+  "repository_files_modified": false,
+  "actual_scope_preparation_run": false
+}

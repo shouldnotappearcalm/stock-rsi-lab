@@ -1,0 +1,53 @@
+{
+  "status": "FROZEN_PRICE_DELAY_ORDINARY_SOURCE_SCOPE",
+  "candidate": "price_delay_d1",
+  "window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "ordinary_packets": 2490,
+  "rejected_packets": 12,
+  "nonordinary_daily_intervals": 241,
+  "nonexecuting_halt_intervals": 2,
+  "network_calls_permitted": 0,
+  "account_dependency_guard_required": true,
+  "original_strict_admission_remains_failed": true,
+  "new_2026_values_read": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false,
+  "output_relative": "price-delay-ordinary-source-scope-20261021",
+  "method_code_sha256": {
+    "scripts/capture_price_delay_minutes_pre2026.py": "25501164dc357f7217bcab973e435872d94680b2b902d5410b0f6c05ea9efa1f",
+    "scripts/capture_low_beta60_minutes_pre2026.py": "5a1cfa651c593d7867311270d9810aec5ef1ddc5f5f34c6fd735b998e4aad417",
+    "scripts/admit_low_beta60_minutes_pre2026.py": "bd9b6f1051d06520a257a635314c2b7c27be5c0109faa3f9ff9102eb2554fff7",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/illiquidity_minute_sources.py": "6823f1a6f14a0b81732f589b4faa83442c434f8fd70b09f128bd0525bddd0fc6",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/admit_price_delay_minutes_pre2026.py": "939c22c57a9fcea0b2bd0b03c36849da1e1a489ccec20c5a1327cdfd98a260a8",
+    "scripts/prepare_price_delay_ordinary_scope_pre2026.py": "0a891aae274bf6355e1340c18f1120e98834eb00415dd4303dbb048589baf1cf",
+    "scripts/run_low_beta60_intraday_development.py": "9561ec2fc27eeb8bd5e10ee95664ce8fad76ae9e6a1cf34ed4d9a2c1bfadfee4",
+    "scripts/run_low_risk_intraday_replay.py": "801e6abf71eba6ec50d37dcb2782c00a1308406fb1bb6a5e762d72f20dacdfd4",
+    "src/stock_rsi/ordinary_source_scope.py": "7e27c6b36bade230cc429d7fafd43d882fc9c134a8f6b4f31ef94e539232b888",
+    "scripts/replay_ordinary_stock_distribution_targets.py": "2289fdc0b549918682246d803a5b92af11f572df8cded85f0988555f7b47ee01"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/price-delay-minute-admission-plan.json": "cc70219562042601e1454398d28957411f756fe0417c1f11db72c0a4760ff1c2",
+    "experiments/qlib/price-delay-minute-admission-independent-audit.json": "b5cc7202d55a4ce73f65f6d9a335c7b1c629826ec77ac2d4f94aba9fccda9553",
+    "experiments/qlib/price-delay-minute-admission-summary.json": "c39b1af8c337ba04c2c4927962068f65205b4916f5bfb6379c279c0aed1125df",
+    "experiments/qlib/price-delay-minute-admission-verification.json": "79851e1cfc19ca125293bb02285980700698c16bd094afe29de90813d27f5fcb",
+    "experiments/qlib/audit_sources/2026-10-21-price-delay-minute-admission-audit.py": "1ca1e3a918558ca63816c8bd2190798048077ab790186db6dc0e715c85b0796f",
+    "experiments/qlib/price-delay-ordinary-scope-code-review.json": "038dd756464abd27864a155d4b1e003bc649b7ca3010d40dfbdb82fc3acae7f1",
+    "experiments/qlib/price-delay-ordinary-scope-preparation-verification.json": "2e4045df660f66eff36162f5d289e8ebc62cf9b2e20cb6a431e5a558d258ef07",
+    "docs/research/price-delay-ordinary-source-admission-plan-2026-10-21.md": "120cabf6d8a1feeeb46ac8381034d46c43154ac5d93bf97bb21297c570e68dd3"
+  },
+  "local_source_sha256": {
+    "price-delay-minute-admission-20261021/summary.json": "c39b1af8c337ba04c2c4927962068f65205b4916f5bfb6379c279c0aed1125df",
+    "price-delay-minute-admission-20261021/details.json": "e5a0e1f1c24e23a0157c1d5dd0c38c07172e9eab5a8558d56f16a5f4da3db2f1",
+    "price-delay-minutes-dev-20261021/manifest.json": "c84cc697810d20b693d24c0e84963ee3af4f3823d5d0b109dc6047c0a1e5f57b"
+  }
+}
