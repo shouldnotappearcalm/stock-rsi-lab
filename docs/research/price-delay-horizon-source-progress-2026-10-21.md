@@ -1,43 +1,39 @@
-# Frozen price-delay candidate: source progress
+# Price-delay 候选：数据与回放进度（2026-10-21）
 
-The objective is unchanged: one frozen strategy and continuous account, positive
-2024 and 2025 returns, and at least10% over January–October2026. The existing
-pre2026 intraday reference100/40bp produced11.661173% and2.998118244736691%.
-Those are engineering account results, not verified live/PIT returns. No2026
-portfolio return has been calculated for this candidate.
+验收口径保持为同一套冻结策略、一个连续账户：2024 年收益大于 0，
+2025 年收益大于 0，2026 年 1—10 月至少 10%。既有前两年盘中工程回放的
+100/40bp 参考结果为 11.661173% 和 2.998118244736691%。本候选尚未计算
+2026 年组合收益，不能声称满足第三项；现有数据截止 2026-10-20，完整十月未结束。
 
-The original source capture is preserved as failed:345 logical queries,
-202 saved names and one SH603233 adjustment-overlap conflict, no pending names,
-successful login/logout and unchanged frozen-input postcheck. Independent
-audit reproduced202 packets,345 fresh response chains and310 inherited cached
-component chains. It did not repair the failure or grant source admission.
+203 只股票、676 个显式交易日的原始历史已完成组装并独立复核，共 137228 根
+日线、733 条供应商分派记录、754 条复权记录。原始 345 次采集的 202/203 失败
+状态完整保留：SH603233 的复权坐标冲突没有被覆盖。后续冻结的本地组装原字节
+复制了 202 个包，只用已保存的三次响应和原公告验证该单包；没有重抓行情或改因子。
+原有 151 只股票的前两年原始序列及 48 份盘中财务文件保持不变。
 
-The missing SH603233 primary notice was captured once after its request was
-frozen/pushed. All four original pages and the complete HTTP/PDF chain were
-independently checked. Actual eligible-share cash and approximate all-capital
-reference cash remain separate; factors cannot establish cash or taxes.
+公司行动库存独立重算了 227 条 2026 年供应商事件，并明确排除了新增 52 只名称
+在 2026 年以前的 131 条分派。八处缺失事件中，六处有固定旧公告候选，另外两处
+原件已分别补采。补充四份公告的全部 18 页和 HTTP→PDF 字节链已经独立复核。
+旧 378 个事件及回执尚未修改，也没有把库存候选直接当成账户准入。
 
-The separately frozen local-only assembly copied202 accepted packet files
-byte-for-byte and reconstructed only SH603233 from its three existing saved
-responses plus the registered486-session baseline. The unchanged rational
-rounding validator explains the observed coordinate relationship; no factor
-or vendor distribution row was rewritten, and no income was inferred from
-factor values. No new market-data queries were issued for this assembly.
+SH603606 与 SZ000937 的资本税证据仍未解决；新 SH603596 证明只适用于其
+2026 年事件，不改变原 2024 年未知标志。SZ002831 公告的实际每股现金和转增
+为 0.8038127 与 0.4019063，和供应商六位标量存在精度差异；除息参考比例另存。
+原公告要求根据全体股东尾数排序分配零碎股，同尾随机，不能自行假设取整。
 
-Independent output audit, reproduced byte-identically by the root agent,
-confirmed all203 complete676-session histories:137228 bars,733 vendor
-distribution rows,754 adjustment rows, zero quarantine rows. All151 original
-pre2026 prefixes, all48 development financial artifacts, and every file of the
-failed capture remained unchanged. Canonical manifest and prior-audit hashes
-bind the copied packets, calendar, errors, cleanup and1035 journal files.
+独立的 mixed-component precision 模块已经完成行为测试和代码审查，完整测试
+607 项通过。它保留原始行、原事件身份来源、税务标志和非整数股份拒绝规则；
+不能单靠精度补充绕过登记校验。旧 v1/v2 编译器、账户和策略代码没有变动。
+该模块尚未用于真实 2026 年事件编译。
 
-Source/account admission remains false. Next: inventory all2026 corporate
-questions, keep the original378 compiled events/receipts unchanged, exclude
-the52 future-only names' pre2026 entitlements from the old account, authenticate
-required primary proofs, and freeze append-only event compilation and account
-replay. Do not adapt the strategy from2026 outcomes. Data ends2026-10-20;
-complete October is not yet available. The objective remains unachieved.
+下一步是冻结并验证公告证明投影，再追加 2026 年事件，逐对象核对旧 378 个事件
+及回执完全不变，然后冻结连续账户回放。所有未知税务或登记条件都需在实际账户
+状态中检查。不会依据 2026 年收益修改投资规则、参数或名单。历史消息首次到达、
+完整 PIT、实际税款及真实成交仍未获认证；当前证据属于工程研究。
 
-Evidence: `experiments/qlib/price-delay-horizon-raw-completion-verification.json`,
-`price-delay-horizon-local-reassembly-independent-audit.json`, and the separately
-retained raw-failure/primary reports. Full repository suite:599 tests passed.
+证据入口：
+
+- `experiments/qlib/price-delay-horizon-raw-completion-verification.json`
+- `experiments/qlib/price-delay-horizon-corporate-source-progress-verification.json`
+- `experiments/qlib/price-delay-horizon-component-precision-verification.json`
+- `experiments/a-share-10pct-2026-objective.json`
