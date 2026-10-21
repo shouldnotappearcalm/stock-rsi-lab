@@ -1,0 +1,27 @@
+{
+  "status": "PASS_BOUNDED_RUNNER_FIX_REVIEW",
+  "file_sha256": {
+    "scripts/run_price_delay_regime_horizon.py": "f4fd5839aaeb2082384c529ad2b5787d882fe993b6626ee1f63c899922909406",
+    "tests/test_price_delay_regime_horizon.py": "3f62a5472d43e7bd0030f26a8550512a9ff27c216b3cba830b3c8a6229bf4758"
+  },
+  "prior_report_sha256": "7f3fe278f6bcdb6df79e6816bc6dd1298870684728f62ef135bc3851a2702c04",
+  "critical_findings": [],
+  "important_findings": [],
+  "original_important_resolved": true,
+  "focused_tests_passed": 7,
+  "independent_reproduction_now_rejected_masking": {
+    "first-error.json": true,
+    "input-postcheck.json": true
+  },
+  "verified": [
+    "Guarded diagnostic writes preserve the first simulation failure in results/interruption and separately collect persistence_errors.",
+    "Both source authentication and bound-byte checks still run after simulation/persistence failure.",
+    "All profiles plus postchecks precede annual scoring; staged second-scorer failure still publishes neither result.",
+    "Final scored result persistence failure rolls back both returned annual payloads."
+  ],
+  "limitations": [
+    "No actual source preflight, primary document content review or final request authentication performed in this fix review.",
+    "No real quote values, account replay, returns, network, or repository edits.",
+    "Filesystem persistence failures can prevent diagnostics being written; in-memory first failure remains preserved rather than certifying a durable write."
+  ]
+}

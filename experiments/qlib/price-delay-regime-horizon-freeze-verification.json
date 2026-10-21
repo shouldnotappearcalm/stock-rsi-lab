@@ -1,0 +1,34 @@
+{
+  "status": "UNCHANGED_PRICE_DELAY_REGIME_HORIZON_FROZEN_BEFORE_NEW_ACCOUNT_OUTCOME",
+  "request_sha256": "cdcfc7df83f4cdcb2db7f2620aa143ea206e10e3fe79bb67ec631708d547407a",
+  "request_file": "experiments/qlib/price-delay-regime-horizon-request.json",
+  "actual_source_preflight_exit_code": 0,
+  "actual_source_preflight_log_sha256": "2775a1cf1f00db1a91f95a2c40d6e59dc93f3e0ad0d21e7fb9aa3ece9a38dbd2",
+  "source_manifest_sha256": "a274d78b936d5888853c9ec099c509a66470bccb667dd1ca5b125072fa203949",
+  "source_binding_audit_sha256": "53f85c12e46ae05b8bd454424afbf4db2df05b37b1cae020bfd11a1354f45103",
+  "source_binding_audit_root_reproduced_byte_identically": true,
+  "source_module_review_sha256": "db6015c05c2bebbb00d9736a90d815d85ffb7ea3e8c6cbb7c7b23fd222e6c78d",
+  "fixed_integer_driver_review_sha256": "208fa802585f5e1038247d64f28181dbaab5a2e590c656c5d6eb9ea4d1acc742",
+  "runner_final_review_sha256": "b1d5c67110cf5ac4e7008b25ba3bb8ecf862db7d47e988a75777ca1e2690f3e7",
+  "critical_or_important_findings": [],
+  "local_full_suite": {
+    "tests": 821,
+    "exit_code": 0,
+    "log_sha256": "31db68da2b18d280910eb778d65a20cd63b1f841cc04e3c6aedb6618aa75cf27"
+  },
+  "clean_CI_research_suite": {
+    "tests": 821,
+    "optional_Qlib_skips": 3,
+    "exit_code": 0,
+    "log_sha256": "d08e047322049eb2183bbf51ffccd692044b152ab3b9e3ce09c7d39a35678583"
+  },
+  "investment_rule_changed": false,
+  "allocator_changed": false,
+  "new_alpha_candidates": 0,
+  "risk_warning_buy_permission": false,
+  "new_account_or_ROI_run": false,
+  "prior_2026_partial_source_and_account_exposure_acknowledged": true,
+  "full_October_2026_complete": false,
+  "sealed_2026_evidence_claimed": false,
+  "objective_achieved": false
+}

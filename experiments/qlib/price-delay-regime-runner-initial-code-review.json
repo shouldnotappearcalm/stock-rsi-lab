@@ -1,0 +1,36 @@
+{
+  "status": "IMPORTANT_FAILURE_PERSISTENCE_EXCEPTION_MASKING",
+  "file_sha256": {
+    "scripts/run_price_delay_regime_horizon.py": "9c515e5b4ce1f928e0c8cc135731f0a49f8a365d5ec599eacb6592c67951c60f",
+    "tests/test_price_delay_regime_horizon.py": "7309c10d7a4e8526595b29c2a43f5322a141b6bc2ed9280f5569419cbdb54f99"
+  },
+  "critical_findings": [],
+  "important_findings": [
+    {
+      "function": "run_profiles",
+      "issue": "Unprotected first-error.json writes in both inner and outer exception handlers can replace the original KeyboardInterrupt/error with a persistence OSError. Finally postcheck/case_results persistence likewise lacks best-effort isolation.",
+      "reproduction": {
+        "simulator_error": "KeyboardInterrupt ORIGINAL",
+        "write_failure": "OSError only for first-error.json",
+        "propagated_error": "OSError first error persistence failed",
+        "original_exception_identity_preserved": false,
+        "source_postcheck_calls": 1,
+        "scorer_calls": 0
+      },
+      "required_fix": "Retain original failure identity and record persistence errors separately; exception/finally writes must not mask first failure. Add synthetic persistence-failure regression."
+    }
+  ],
+  "focused_tests_passed": 5,
+  "static_checks": [
+    "Fixed integer driver retained, no budgeted allocator substitution.",
+    "Original source load_inputs reused; source methods/public/local and60 financial bindings checked, packets/event artifacts/PDFs dynamically added to known hashes.",
+    "Original failed financial541days/27intents and pre2026 six artifacts/scope checkpoints required before scoring.",
+    "SSE permission false; old151/new52 and declared Dec31 boundary visibility preserved.",
+    "Both complete profiles and source postchecks precede annual scorer; two scorer outputs staged before result mutation."
+  ],
+  "limitations": [
+    "Primary evidence and final request not yet generated; actual source preflight not run.",
+    "No production replay or new return computation, real2026 quote, or network access.",
+    "No source/request complete-admission claim; this is bounded code/synthetic review."
+  ]
+}

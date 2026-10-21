@@ -1,0 +1,64 @@
+{
+  "status": "PASS_BOUNDED_INDEPENDENT_TRADING_REGIME_HORIZON_CODE_REVIEW",
+  "ready_for_frozen_source_bound_execution": true,
+  "reviewed_module_sha256": "a9ef8e97d1f90495159f0739efbde336d0ec901af8323c43de630e21980412b0",
+  "reviewed_tests_sha256": "3d42f482f8d6b0d2e0d6de41a7196a75838a90190ef11fb8cd17fc87b33dd01e",
+  "reviewed_file_sha256": {
+    "src/stock_rsi/trading_regime_horizon_source.py": "a9ef8e97d1f90495159f0739efbde336d0ec901af8323c43de630e21980412b0",
+    "tests/test_trading_regime_horizon_source.py": "3d42f482f8d6b0d2e0d6de41a7196a75838a90190ef11fb8cd17fc87b33dd01e",
+    "src/stock_rsi/trading_regime_source.py": "3c78cda962a6e9a0d62d0ae4a2f2d0bc7d426ba1e28a1ac582e4faa1dea43263",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e"
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "checks": {
+    "exact_two_epochs_2023Dec29_through2026Jul05_5pct_then_Jul06_throughOct20_10pct": true,
+    "new_rule_publication_must_equal_2026Apr24_and_engineering_availability_strictly_after_publication_day_before_effective": true,
+    "new_rule_does_not_apply_before_July6": true,
+    "two_separately_bound_original_rule_documents_required": true,
+    "only_SSE_mainboard_OTHER_and_DELISTING_risk_warning_statuses_supported": true,
+    "all_issuer_intervals_validated_and_globally_nonoverlapping": true,
+    "unrequired_global_proof_can_be_outside_current_visible_source_subset": true,
+    "required_missing_visible_source_still_fails_closed": true,
+    "unproved_unused_ST_retains_old_ordinary_audit_shape": true,
+    "ordinary_9p5pct_proxy_and_old_broker_fees_T1_FIFO_rules_unchanged": true,
+    "risk_permission_and_cumulative_500000_share_cap_reject_without_order_quantity_rewrite": true,
+    "risk_limits_half_up_cent_rounding_minimum_one_tick_positive_lower_bound": true,
+    "actual_open_must_be_cent_tick_and_within_selected_legal_band": true,
+    "directional_band_touch_remains_conservatively_unfilled": true,
+    "all_pending_security_source_rule_price_checks_finish_before_annotations_or_broker_mutation": true,
+    "validate_only_does_not_mutate_broker": true,
+    "OPEN_whitelist_does_not_access_or_pass_whole_day_high_low_close_volume_amount": true
+  },
+  "actual_validation": {
+    "focused_unit_tests": 27,
+    "focused_exit_code": 0,
+    "focused_log": "/tmp/trading-regime-horizon-independent-review-focused-20261021.log",
+    "additional_synthetic_checks": {
+      "old_epoch_July3": true,
+      "new_epoch_July6": true,
+      "old_eligible_unexpired_order_expires_without_permission_bypass": true,
+      "tampered_epoch_atomic_in_validate_only": true,
+      "tampered_epoch_atomic_in_actual_mode": true
+    },
+    "additional_log": "/tmp/trading-regime-horizon-independent-review-extra-20261021.log"
+  },
+  "known_separate_evidence": {
+    "driver_focused_tests": 13,
+    "driver_full_suite_tests": 814,
+    "driver_full_suite_log": "/tmp/regime-stock-distribution-replay-full-20261021.log"
+  },
+  "real_source_or_targets_read": false,
+  "real_account_or_ROI_run": false,
+  "2026_quote_or_outcome_values_read": false,
+  "network_used": false,
+  "repository_modified": false,
+  "limitations": [
+    "The module validates metadata/hash syntax and clocks; the separately frozen runner must authenticate actual original document bytes and globally permitted issuer universe.",
+    "This review verifies implementation against the frozen two-epoch contract, not independent legal certification of source document contents or historical publication arrival.",
+    "Explicit engineering_available_at remains conservative metadata; actual_arrival_verified/historical_arrival_verified cannot be upgraded.",
+    "Daily opening-price proxy with conservative band-touch refusal is not minute queue, impact, or actual execution certification."
+  ]
+}

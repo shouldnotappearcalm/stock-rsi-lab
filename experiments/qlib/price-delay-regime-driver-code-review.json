@@ -1,0 +1,34 @@
+{
+  "status": "PASS_BOUNDED_NONBUDGETED_REGIME_DRIVER_REVIEW",
+  "file_sha256": {
+    "scripts/replay_regime_stock_distribution_targets.py": "84eea65bc25b7817640ce99f99c5f283408674aa0775257cffcfe5573ced98d9",
+    "tests/test_regime_stock_distribution_replay.py": "1f139fe4b96acac5061d64e329503d39916ac41c7d9069c467725e0c8f161112",
+    "src/stock_rsi/trading_regime_horizon_source.py": "a9ef8e97d1f90495159f0739efbde336d0ec901af8323c43de630e21980412b0",
+    "scripts/replay_ordinary_stock_distribution_targets.py": "2289fdc0b549918682246d803a5b92af11f572df8cded85f0988555f7b47ee01"
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "focused_tests_passed": 30,
+  "allocator_identity_verified": "new driver.plan_integer_targets is old driver.plan_integer_targets is original account allocator",
+  "wealth_conservation_snapshot_intent_loop_suffix_AST_exact": true,
+  "evidence": [
+    "Synthetic all-ordinary complete artifacts match original fixed driver, including extra20/40 profiles, positive corporate distributions and immutable inputs.",
+    "Nonbudgeted floor fixture gives600+600 shares; no greedy allocation receipt.",
+    "09:25 source dependency excludes next target;09:30 all pending execution bars validated before account.start_day;15:05 next target enters source dependency and snapshot.",
+    "Broker OPEN payload omits close/high/low/volume/amount; strict source field-access trap passes until close.",
+    "Entire opening batch invalid-second-row rejects before cash claim payment or first fill.",
+    "Supported held ST state does not force liquidation; explicit fixed target sell and account permission terminal refusal retain old allocator quantities.",
+    "Lifecycle, unknown capital tax and fractional entitlement rejection retained.",
+    "Explicit source callback handles future-only omitted histories and Dec31 close-only target evidence without replacing production globals.",
+    "Unknown unused ST scope audits match old ordinary audit, with evaluator regime/phase records excluded from decision snapshots."
+  ],
+  "limitations": [
+    "This review concerns driver code and synthetic integration, not real source admission, actual replay, portfolio returns, or a complete independent financial audit.",
+    "Caller must authenticate source callback code/configuration, complete required source universe and evidence-document bytes; an arbitrary trusted callback is not a sandbox.",
+    "Horizon source module authored by reviewer; this independently reviews the other agent driver and integration, not an independent second-author review of that module."
+  ],
+  "network_used": false,
+  "real_provider_or_2026_values_read": false,
+  "actual_replay_run": false,
+  "repository_modified": false
+}
