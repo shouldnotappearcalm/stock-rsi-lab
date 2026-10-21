@@ -1,0 +1,26 @@
+{
+  "status": "PASS_BOUNDED_AUTHENTICATED_CONTEXT_TAPE_ADAPTER_REVIEW",
+  "file_sha256": {
+    "scripts/illiquidity_scenario_tape.py": "9193dc1c644759ce97dedbb1e5573104f318be50044a093c708009ed3f079f01",
+    "tests/test_illiquidity_scenario_tape.py": "1403ce6aa383fecc8bad1806fb94694dc3c9ac370cd2ffccbac0916312e2b8a1"
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "focused_tests_passed": 6,
+  "independent_old_cached_window_tamper_rejected": true,
+  "verified_boundaries": [
+    "Records must exactly cover caller-authenticated active set without duplicate records; archive membership is restricted to caller-authenticated rejected set and source_kind must match that route.",
+    "Every access rehashes original per-session bytes before either old or archive path, including cache hits; ordinary route still calls unchanged original bank.",
+    "Archive path rehashes projection and selected-development backing bytes on every call, even when windows are cached; first decode checks contract/instrument/day and original-admission false flags.",
+    "Every returned window list must contain48 windows with exact frozen window digest; both cached archive mutation and independently tested cached ordinary mutation are rejected.",
+    "Only explicit date objects within2024/2025 and registered pair scope accepted; future/out-of-scope requests cannot read a tape."
+  ],
+  "scope_assumptions": [
+    "Constructor requires an already authenticated complete source context. The forthcoming loader must bind actual2276 active/29 rejected routes,34 output artifacts, archive_selected_source_sha256 and all upstream/request identities. This adapter is not standalone source admission.",
+    "Authenticated metadata/caller context is trusted; this review does not certify an arbitrary caller-supplied set or real archive/TDX data."
+  ],
+  "real_source_loaded": false,
+  "account_or_ROI_run": false,
+  "network_used": false,
+  "repository_modified": false
+}
