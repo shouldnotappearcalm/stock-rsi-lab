@@ -1,5 +1,5 @@
 {
-  "status": "VALIDATED_AND_INDEPENDENTLY_REVIEWED_BEFORE_ACTUAL_CONDITIONAL_REPLAY",
+  "status": "SIX_CONDITIONAL_ACCOUNTS_AUDITED_AND_SCORED_NUMERIC_OBJECTIVE_FAILED",
   "plan_sha256": "932323b74b138d136eb78d9be3585390f2fce8b1683d62eff42f590b66d34675",
   "code_review_sha256": "bcc82f5b671f3ebdd11306bfbd2628e0a9f50d0b897c0941033c8923f3f9e07c",
   "full_tests_passed": 479,
@@ -11,7 +11,20 @@
     "stock-rsi-issuer-all-green-20261021.log": "a33478a5dc2d4fd917bd8e6ebad0049e372f96a85dc7d6ff2c00a33972a168bf",
     "stock-rsi-issuer-full-20261021.log": "b8f74a773d5727096eea86c6cb2073a1247899648643af70a291d9794ad16575"
   },
-  "actual_account_replays": 0,
-  "portfolio_returns_computed": false,
-  "objective_achieved": false
+  "actual_account_replays": 6,
+  "portfolio_returns_computed": true,
+  "objective_achieved": false,
+  "freeze_commit": "d9c7fcf",
+  "actual_account_exit_code": 0,
+  "account_summary_sha256": "2529f6cf476a89b403f9e20bcfb144371425e241f66c666932893fe50b9a47ed",
+  "independent_output_audit_sha256": "1f783158f7012c6120c9572b62428e723e27c2eed83f5f24f05f0a3747312dc7",
+  "independent_output_audit_code_sha256": "fb39b4842efff74df222184f43e8f4cba432a1e66c51b1070943ca595f585204",
+  "root_audit_byte_exact_reproduction": true,
+  "original_pre2026_financial_prefixes_verified": 42,
+  "strict_failure_ledger_prefixes_verified": 24,
+  "semantic_negative_controls_rejected": 10,
+  "original_269_source_events_unchanged": true,
+  "aggregate_score_sha256": "bfbf56f6c6ca1b59a10df640a17c0ebdba3c655deefe365d4a88dc65cacefa3a",
+  "root_independent_period_arithmetic_matches": true,
+  "all_six_meet_numeric_conditions_at_interim_cutoff": false
 }

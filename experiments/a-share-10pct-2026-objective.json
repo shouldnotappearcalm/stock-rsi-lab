@@ -22,7 +22,7 @@
     "Honest labeling of consumed 2026 diagnostics and point-in-time data limitations"
   ],
   "remaining_completion_evidence": [
-    "Complete requested October or explicit interim acceptance. Currentlow_beta60sixprofiles stop atJun17 because6300ownedSZ000937shares require supportedcapital-taxevidence; no2026returnhasbeencomputed.",
+    "Complete requested October and find a frozen candidate satisfying all three conditions. Current low_beta60 six conditional accounts have been independently reconstructed;2026 net5.3397\u20135.7552percent throughOct20, all below10percent.",
     "User capital remains unspecified; no deployment participation/cost profile selected, all 60 scenarios retained",
     "Nested execution now records explicit legal-sized children, capacity and residuals; counterfactual queue/impact and precise historical available volume are not calibrated",
     "Historical official price limits/special status and real information arrival times remain unverified",
@@ -4854,6 +4854,24 @@
     "status": "ENGINEERING_SCENARIO_SUPPORT_ONLY_NO_STATUTORY_EXEMPTION_ADMISSION",
     "current_strict_exemption_flag": false,
     "original_failures_preserved": true,
-    "portfolio_returns_computed": false
+    "portfolio_returns_computed": false,
+    "separate_conditional_account_scored": true
+  },
+  "latest_fixed_candidate_diagnostic": {
+    "candidate": "low_beta60",
+    "file": "experiments/qlib/low-beta60-issuer-schedule-scored-results.json",
+    "sha256": "bfbf56f6c6ca1b59a10df640a17c0ebdba3c655deefe365d4a88dc65cacefa3a",
+    "status": "ALL_SIX_FAIL_2026_10PCT_AT_OCT20",
+    "2026_net_return_range_pct": [
+      5.339726345292663,
+      5.755180793886555
+    ],
+    "positive2024_and2025_all_profiles": true,
+    "strict_tax_proof_verified": false,
+    "conditional_scenario_only": true,
+    "original_269_events_unchanged": true,
+    "original_42_financial_prefixes_identical": true,
+    "full_October_complete": false,
+    "objective_achieved": false
   }
 }

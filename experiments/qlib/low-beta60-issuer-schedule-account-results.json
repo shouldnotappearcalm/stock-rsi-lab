@@ -1,0 +1,144 @@
+{
+  "status": "SIX_CONDITIONAL_ENGINEERING_ACCOUNTS_RECORDED_UNSCORED",
+  "plan_sha256": "932323b74b138d136eb78d9be3585390f2fce8b1683d62eff42f590b66d34675",
+  "window": [
+    "2023-12-29",
+    "2026-10-20"
+  ],
+  "initial_CNY": "1000000",
+  "results_by_profile": {
+    "100/20": {
+      "status": "CONDITIONAL_ENGINEERING_ACCOUNT_COMPLETE_UNSCORED",
+      "development_financial_prefix_identical": true,
+      "source_events_changed": false,
+      "statutory_exemption_verified": false,
+      "account_sessions": 675,
+      "monthly_decisions": 34,
+      "scenario_uses": 1,
+      "portfolio_returns_computed": false,
+      "artifact_sha256": {
+        "corporate_ledger.json": "72b53d1ed4814f48b6918c54636dd40c06b988177e128832037e11a7509352e0",
+        "daily.csv": "c234923b12cdac24bd48781038a08eebe4b5778730c0b4782b52a4c4b1410a4f",
+        "fills.json": "39244e23bdf6d037bc633dc82e8a3af7db67289c63d0c4664f96d36c22311380",
+        "intents.json": "fdb5ad12e37975bee334da787b0accf1f310a5f32790416515d7eadf2e34dc83",
+        "orders.json": "cdb790ba3d5999b913de2fe7c6c08aee5dbca79f30ef8ba491edf48f6790c0f8",
+        "ownership.json": "131a94b02c10dfe9ff0c75221d119ee05c9cdb7dfea0d38b4bd82244aca9e032",
+        "parent_instructions.json": "ab135b4c1de3413371d81d7d35b1893f845c54f572d5bf3d3b094ff9070a39b8",
+        "scenario_ledger.json": "bee308c5cd7de22ca0c9ca6f42f430189863327ca516a9758ec28318b1405902"
+      }
+    },
+    "100/40": {
+      "status": "CONDITIONAL_ENGINEERING_ACCOUNT_COMPLETE_UNSCORED",
+      "development_financial_prefix_identical": true,
+      "source_events_changed": false,
+      "statutory_exemption_verified": false,
+      "account_sessions": 675,
+      "monthly_decisions": 34,
+      "scenario_uses": 1,
+      "portfolio_returns_computed": false,
+      "artifact_sha256": {
+        "corporate_ledger.json": "d790c5ccc6d2c4a144910bc8dd9e6d70df25d8c5254c267c714daf7633f255e7",
+        "daily.csv": "cd46716de9628b4467c51693b61aee053c4315f13696b935570a5384242a1299",
+        "fills.json": "668cd5e0d881d79f80abbde76b145b62e482027dfcf7baaa2fff234f26694fb4",
+        "intents.json": "2372e55c14d12d5f545ef30f868413fdf35a874132461b1f69a4ab49a566c600",
+        "orders.json": "3ed5f2987402db6160ff091f0337056d49b35e3fef926df9dbd385c62a46c25b",
+        "ownership.json": "14c44199772a26ca83ad7253effcde6d4774bed44bc4f590a584cffff1c2c6e1",
+        "parent_instructions.json": "c096e84af6594ceace2bd84212a5764d8f379e010f675e2fdd34b86970492aba",
+        "scenario_ledger.json": "bee308c5cd7de22ca0c9ca6f42f430189863327ca516a9758ec28318b1405902"
+      }
+    },
+    "500/20": {
+      "status": "CONDITIONAL_ENGINEERING_ACCOUNT_COMPLETE_UNSCORED",
+      "development_financial_prefix_identical": true,
+      "source_events_changed": false,
+      "statutory_exemption_verified": false,
+      "account_sessions": 675,
+      "monthly_decisions": 34,
+      "scenario_uses": 1,
+      "portfolio_returns_computed": false,
+      "artifact_sha256": {
+        "corporate_ledger.json": "b00f05c08c202fe3c36e77f8e5a9bf95497353621dda974eee023c0516aa7a9e",
+        "daily.csv": "cf4b8b0a50a45e27b7c84318f4b485ba28e8fca734138be283098b497e28fb3a",
+        "fills.json": "b4d596b43bcd4ff383111413622e2ef369894f6718429e557cf9c42459416787",
+        "intents.json": "efc6f27dfbe18ef67ab0055dc08f8134a14aa90de29278467c953b5b9f19bc21",
+        "orders.json": "8fb7a3a70c75acaa32a6ab80013f72672c052666601ab371d737a6ab83173288",
+        "ownership.json": "2becd6dd571372e69537bad3400bab801feb282ff279d9984c994f6382542b9e",
+        "parent_instructions.json": "673ffa3719ca6a8bf29643abea91364a89628f0bbfa940e73ff74be985ad362b",
+        "scenario_ledger.json": "bee308c5cd7de22ca0c9ca6f42f430189863327ca516a9758ec28318b1405902"
+      }
+    },
+    "500/40": {
+      "status": "CONDITIONAL_ENGINEERING_ACCOUNT_COMPLETE_UNSCORED",
+      "development_financial_prefix_identical": true,
+      "source_events_changed": false,
+      "statutory_exemption_verified": false,
+      "account_sessions": 675,
+      "monthly_decisions": 34,
+      "scenario_uses": 1,
+      "portfolio_returns_computed": false,
+      "artifact_sha256": {
+        "corporate_ledger.json": "b543982e89b7c4ccf5e6fc271f7b032188607308f24e8322d0aaf738bad2b421",
+        "daily.csv": "7d6bdb4dcb1984ba0a7bdebf593d94a5f5d27ce0ef5d5506d270f74e6171e344",
+        "fills.json": "d358d63addf4d65c1d027b42933a9ea887429f481b9ec5ab1f9f8566e84f0db4",
+        "intents.json": "70d5e7caf5f1ef3ed274ca59d3a0f5bff457bf086760b0edababb4a38fb11959",
+        "orders.json": "5228d5cb6db416e7997057e21299d873d6b88c808f2bfd9d7873648c02216c31",
+        "ownership.json": "aecf8b600dcd0a8bfc991a4f112ca600795077cca87fd1d1d8daf216cd7d9eb7",
+        "parent_instructions.json": "fe4d2c34fcc41f876d3ded3375fde05d30eef5b80c7799bb5a53c51edf7670a9",
+        "scenario_ledger.json": "bee308c5cd7de22ca0c9ca6f42f430189863327ca516a9758ec28318b1405902"
+      }
+    },
+    "1000/20": {
+      "status": "CONDITIONAL_ENGINEERING_ACCOUNT_COMPLETE_UNSCORED",
+      "development_financial_prefix_identical": true,
+      "source_events_changed": false,
+      "statutory_exemption_verified": false,
+      "account_sessions": 675,
+      "monthly_decisions": 34,
+      "scenario_uses": 1,
+      "portfolio_returns_computed": false,
+      "artifact_sha256": {
+        "corporate_ledger.json": "b00f05c08c202fe3c36e77f8e5a9bf95497353621dda974eee023c0516aa7a9e",
+        "daily.csv": "dfabf3b06ec02a4501cd7eea89f1785d4be858a8651b6b1c67fd9bab1b6b3377",
+        "fills.json": "17a5635eb926d3fbf54bd146efef5f84d687d087d843486ccd6c7b03d167482c",
+        "intents.json": "b9357a0774a319f5648b09f3251ff94e3c26bcfd4d41bdd722e024036004d48d",
+        "orders.json": "d8b220b4646170ff3ae1df309a6de797fa42aa0cc9db2f9bbe13bb13a4198476",
+        "ownership.json": "d3397025d4fafc080c90902eb097f2a880cc21c3ecf6a6d5c295d7f69f1368af",
+        "parent_instructions.json": "177678d0b40849635d5bca820f39399313777acfafff6479ecd9c718a298c44b",
+        "scenario_ledger.json": "bee308c5cd7de22ca0c9ca6f42f430189863327ca516a9758ec28318b1405902"
+      }
+    },
+    "1000/40": {
+      "status": "CONDITIONAL_ENGINEERING_ACCOUNT_COMPLETE_UNSCORED",
+      "development_financial_prefix_identical": true,
+      "source_events_changed": false,
+      "statutory_exemption_verified": false,
+      "account_sessions": 675,
+      "monthly_decisions": 34,
+      "scenario_uses": 1,
+      "portfolio_returns_computed": false,
+      "artifact_sha256": {
+        "corporate_ledger.json": "b543982e89b7c4ccf5e6fc271f7b032188607308f24e8322d0aaf738bad2b421",
+        "daily.csv": "d44d74337ec48907eee80461a8fbf4c29c92cf24d9c5dae8ceb3d5303273f60f",
+        "fills.json": "c1562502743f3f3b139e00f637101086b7bc32ac19a6a5e5eea9bfff7154fd1a",
+        "intents.json": "08e8a36d8c3d5e358d1dd1641ca4384e920829ddbf28d25329873974e9177cc6",
+        "orders.json": "afe58e018b624e04ddb757d06db8944aaa06cad93453c19c8a7c58e782738036",
+        "ownership.json": "e41de20f7f2bde7fb8f121d7d2395aef8f59cff070d5fb9d095afd53968aa820",
+        "parent_instructions.json": "61e62062c07cd059512e3bed6cea9d74770e0b4c054f0516f2e359c98005aefc",
+        "scenario_ledger.json": "bee308c5cd7de22ca0c9ca6f42f430189863327ca516a9758ec28318b1405902"
+      }
+    }
+  },
+  "all_profiles_complete": true,
+  "scenario_classification": "ISSUER_FORMAL_TAX_SCHEDULE_COMPOSITE_INFERENCE",
+  "statutory_exemption_verified": false,
+  "source_events_changed": false,
+  "source_queries": 0,
+  "portfolio_returns_computed": false,
+  "full_October_complete": false,
+  "sealed_evidence": false,
+  "historical_arrival_verified": false,
+  "queue_and_impact_calibrated": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

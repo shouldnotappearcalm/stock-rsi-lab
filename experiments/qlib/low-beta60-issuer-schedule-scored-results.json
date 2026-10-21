@@ -1,0 +1,99 @@
+{
+  "status": "SIX_CONDITIONAL_ACCOUNTS_SCORED_AFTER_INDEPENDENT_RECONSTRUCTION",
+  "window": [
+    "2023-12-29",
+    "2026-10-20"
+  ],
+  "initial_CNY": "1000000",
+  "results_by_profile": {
+    "100/20": {
+      "status": "CONDITIONAL_ENGINEERING_DIAGNOSTIC_AUDITED",
+      "2024_return_pct": 10.933862,
+      "2025_return_pct": 1.063642767615897,
+      "2026_through_2026-10-20_return_pct": 5.755180793886555,
+      "three_numeric_conditions_met_at_interim_cutoff": false,
+      "2026_starting_equity": "1121138.0200",
+      "ending_equity": "1185661.5400",
+      "max_drawdown_pct": -13.563042915087447,
+      "average_exposure_pct": 93.36364841904303,
+      "statutory_exemption_verified": false,
+      "scenario_classification": "ISSUER_FORMAL_TAX_SCHEDULE_COMPOSITE_INFERENCE"
+    },
+    "100/40": {
+      "status": "CONDITIONAL_ENGINEERING_DIAGNOSTIC_AUDITED",
+      "2024_return_pct": 10.330647,
+      "2025_return_pct": 0.7899944609225396,
+      "2026_through_2026-10-20_return_pct": 5.339726345292663,
+      "three_numeric_conditions_met_at_interim_cutoff": false,
+      "2026_starting_equity": "1112022.5300",
+      "ending_equity": "1171401.4900",
+      "max_drawdown_pct": -13.660931158072964,
+      "average_exposure_pct": 93.3677338981432,
+      "statutory_exemption_verified": false,
+      "scenario_classification": "ISSUER_FORMAL_TAX_SCHEDULE_COMPOSITE_INFERENCE"
+    },
+    "500/20": {
+      "status": "CONDITIONAL_ENGINEERING_DIAGNOSTIC_AUDITED",
+      "2024_return_pct": 10.617843,
+      "2025_return_pct": 1.0337147868630923,
+      "2026_through_2026-10-20_return_pct": 5.742087897390185,
+      "three_numeric_conditions_met_at_interim_cutoff": false,
+      "2026_starting_equity": "1117613.1600",
+      "ending_equity": "1181787.4900",
+      "max_drawdown_pct": -13.53030923142865,
+      "average_exposure_pct": 93.42993979245654,
+      "statutory_exemption_verified": false,
+      "scenario_classification": "ISSUER_FORMAL_TAX_SCHEDULE_COMPOSITE_INFERENCE"
+    },
+    "500/40": {
+      "status": "CONDITIONAL_ENGINEERING_DIAGNOSTIC_AUDITED",
+      "2024_return_pct": 9.893811,
+      "2025_return_pct": 0.7561272035601714,
+      "2026_through_2026-10-20_return_pct": 5.3550973085077604,
+      "three_numeric_conditions_met_at_interim_cutoff": false,
+      "2026_starting_equity": "1107247.4800",
+      "ending_equity": "1166541.6600",
+      "max_drawdown_pct": -13.602832031041633,
+      "average_exposure_pct": 93.41275481224682,
+      "statutory_exemption_verified": false,
+      "scenario_classification": "ISSUER_FORMAL_TAX_SCHEDULE_COMPOSITE_INFERENCE"
+    },
+    "1000/20": {
+      "status": "CONDITIONAL_ENGINEERING_DIAGNOSTIC_AUDITED",
+      "2024_return_pct": 10.614878,
+      "2025_return_pct": 1.033742495290733,
+      "2026_through_2026-10-20_return_pct": 5.742061280055931,
+      "three_numeric_conditions_met_at_interim_cutoff": false,
+      "2026_starting_equity": "1117583.5100",
+      "ending_equity": "1181755.8400",
+      "max_drawdown_pct": -13.530540685491625,
+      "average_exposure_pct": 93.4318323323421,
+      "statutory_exemption_verified": false,
+      "scenario_classification": "ISSUER_FORMAL_TAX_SCHEDULE_COMPOSITE_INFERENCE"
+    },
+    "1000/40": {
+      "status": "CONDITIONAL_ENGINEERING_DIAGNOSTIC_AUDITED",
+      "2024_return_pct": 9.892806,
+      "2025_return_pct": 0.7703852789053361,
+      "2026_through_2026-10-20_return_pct": 5.353295923463702,
+      "three_numeric_conditions_met_at_interim_cutoff": false,
+      "2026_starting_equity": "1107394.0400",
+      "ending_equity": "1166676.1200",
+      "max_drawdown_pct": -13.602957761454396,
+      "average_exposure_pct": 93.40899595589184,
+      "statutory_exemption_verified": false,
+      "scenario_classification": "ISSUER_FORMAL_TAX_SCHEDULE_COMPOSITE_INFERENCE"
+    }
+  },
+  "account_summary_sha256": "2529f6cf476a89b403f9e20bcfb144371425e241f66c666932893fe50b9a47ed",
+  "independent_audit_sha256": "1f783158f7012c6120c9572b62428e723e27c2eed83f5f24f05f0a3747312dc7",
+  "plan_sha256": "932323b74b138d136eb78d9be3585390f2fce8b1683d62eff42f590b66d34675",
+  "all_six_meet_numeric_conditions_at_interim_cutoff": false,
+  "source_queries": 0,
+  "portfolio_returns_computed": true,
+  "statutory_exemption_verified": false,
+  "full_October_complete": false,
+  "sealed_evidence": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
