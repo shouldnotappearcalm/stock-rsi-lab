@@ -1,0 +1,68 @@
+{
+  "status": "TWO_ORIGINAL_INCOME_PAGES_VISUALLY_REVIEWED_NOTE_COLUMN_FORMAT_ONLY",
+  "source_request_sha256": "ce6f7699c24df53aa31c3519ffd474e6b4e705f718bcc4684549e1454bb81309",
+  "reviewed_while_full408_source_inspection_running": true,
+  "records": [
+    {
+      "capture_key": "SH600022-2022-1216277821",
+      "source_sha256": "97a76743b4536070d2657fe36319c964d126eb5444be01fed80a621412e5e86a",
+      "physical_page": 68,
+      "render_path_relative_source_root": "gross-profitability-initial-note-layout-evidence-20261022/SH600022-2022-1216277821-p68.png",
+      "render_png_sha256": "9fe222b338367aec1dbd5b0a8af83c0fe0c299657047ae0328f58f6b12a060dc",
+      "page_text_sha256": "ada9bb9e4725419aad578555f12772ac8d07ff163e5fa5906243465c7a435739",
+      "literal_header_and_row_excerpt": [
+        "合并利润表",
+        "2022 年1—12 月",
+        "单位:元币种:人民币",
+        "项目 附",
+        "注 2022 年度 2021 年度",
+        "一、营业总收入 61 102,289,420,015.55 110,850,917,703.23",
+        "其中：营业收入 61 102,289,420,015.55 110,850,917,703.23",
+        "二、营业总成本  101,129,296,460.82 107,303,776,627.28",
+        "其中：营业成本 61 96,603,706,129.24 101,420,191,958.13",
+        "税金及附加 62 364,159,976.07 315,699,931.37",
+        "销售费用 63 267,148,239.83 374,324,056.36",
+        "管理费用 64 1,380,359,318.75 2,558,706,786.51"
+      ],
+      "visual_finding": "The printed note column is separate from both monetary columns; literal revenue and cost rows match the extracted two fiscal amounts.",
+      "note_style": "BARE_POSITIVE_INTEGER",
+      "existing_V4_status": "SOURCE_SCHEMA_UNSUPPORTED",
+      "visual_review_of_other_report_pages_complete": false,
+      "investment_factor_admitted": false
+    },
+    {
+      "capture_key": "SH600038-2022-1216127559",
+      "source_sha256": "d2f33f361c654a2746b346232f8fbeadad01e3dc470c6e1540d5e5360398efa0",
+      "physical_page": 63,
+      "render_path_relative_source_root": "gross-profitability-initial-note-layout-evidence-20261022/SH600038-2022-1216127559-p63.png",
+      "render_png_sha256": "d436d3c90fb0b722add99295ca59ca324b98af3db49d3efd8e635517ea5750e1",
+      "page_text_sha256": "96fe6c32a43ec65c80b7ac0ef1ffb7e3978fbb279f60bd45846fc8260f5527c4",
+      "literal_header_and_row_excerpt": [
+        "合并利润表",
+        "2022 年1—12 月",
+        "单位:元币种:人民币",
+        "项目 附注 2022 年度 2021 年度",
+        "一、营业总收入  19,472,858,456.18 21,789,854,719.38",
+        "其中：营业收入 七/61 19,472,858,456.18 21,789,854,719.38",
+        "二、营业总成本  19,091,130,267.62 20,768,948,855.32",
+        "其中：营业成本 七/61 17,467,888,711.87 19,080,848,079.26",
+        "税金及附加 七/62 22,756,024.89 19,354,139.90",
+        "销售费用 七/63 173,584,654.26 156,630,710.21",
+        "管理费用 七/64 912,041,955.44 932,940,989.78",
+        "研发费用 七/65 513,115,408.90 576,436,307.18"
+      ],
+      "visual_finding": "The printed note column is separate from both monetary columns; literal revenue and cost rows match the extracted two fiscal amounts.",
+      "note_style": "CHINESE_SECTION_SLASH_POSITIVE_INTEGER",
+      "existing_V4_status": "SOURCE_SCHEMA_UNSUPPORTED",
+      "visual_review_of_other_report_pages_complete": false,
+      "investment_factor_admitted": false
+    }
+  ],
+  "future_repair_constraint": "Preserve V4 outcomes; separately freeze note-only grammar extension, require explicit note header and exact two monetary columns; no new financial proxy, security selection or return-driven rule.",
+  "historical_arrival_verified": false,
+  "economic_sector_compatibility_verified": false,
+  "financial_version_history_complete": false,
+  "investment_factor_admitted": false,
+  "2026_financial_or_market_values_read": false,
+  "objective_achieved": false
+}

@@ -1,0 +1,34 @@
+{
+  "status": "ADDITIONAL_HISTORICAL_CLASSIFICATION_LOOKUP_LEADS_NOT_APPLIED",
+  "agent_reach_and_mcporter_CLI_available": false,
+  "fallback": "existing web search and official unauthenticated HTTPS read",
+  "queries": [
+    "site.capco.org.cn 2023 上市公司 行业 分类 2023年上半年",
+    "2023年下半年上市公司行业分类结果 2024 协会",
+    "site.capco.org.cn 2023年上半年 2024-02"
+  ],
+  "official_index_url": "https://www.capco.org.cn/xhgg/hyfl/hyfljg/index.html",
+  "current_official_index_response_bytes": 2371,
+  "current_official_index_response_sha256": "92d05ed35a043c2079d94ad366dd6de34c930ae8c61e0df1daa0fbd39e52dca8",
+  "index_response_finding": "SPA shell with app root and JS asset, not an authenticated historical classification list. Empty web text extraction is not proof of absent historical tables.",
+  "issuer_primary_disclosure_leads": [
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219625916.PDF",
+      "disclosure_day_from_URL": "2024-04-16",
+      "search_excerpt_finding": "Issuer reports an industry change according to the association 2023H1 classification; does not establish pre2024 publication."
+    },
+    {
+      "url": "https://dataclouds.cninfo.com.cn/shgonggao/2024/2024-04-13/260a52c7f8ba11eebd4ffa163e26e5de.pdf",
+      "disclosure_day_from_URL": "2024-04-13",
+      "search_excerpt_finding": "Issuer annual report refers to 2024February publication of a 2023H1 classification. The association original and publication date are not authenticated here."
+    }
+  ],
+  "search_results_are_source_discovery_only": true,
+  "new_official_classification_attachment_authenticated": false,
+  "pre2024_complete_classification_map_obtained": false,
+  "historical_sector_labels_applied": false,
+  "publication_period_is_not_publication_time": true,
+  "next_source_option": "Original FY2022 annual business/industry disclosures, with separately registered temporal and classification rules. Do not use later sector labels at the2024start.",
+  "2026_financial_or_market_values_used_for_strategy": false,
+  "objective_achieved": false
+}

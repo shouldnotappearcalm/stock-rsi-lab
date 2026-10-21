@@ -6353,5 +6353,60 @@
     "local_full_unittest_count": 1018,
     "local_full_unittest_result": "OK",
     "next_action": "Separately freeze broad original-PDF cover/year/statement/explicit-unit/current-cell and historical-business classification inspection across all408candidates with preserved versions/gaps. Obtain later2023/2024/correction source coverage and publication-visible nonfinancial identities before a frozen GP candidate/control/2024-2025 continuous-account selection. Later industry tables cannot backfill2024start. No2026method feedback; original2024>0/2025>0/2026Jan-Oct>=10percent remains unproven."
+  },
+  "latest_profitability_historical408_initial_content_inspection": {
+    "status": "ALL_INITIAL_CONTENT_INSPECTED_NOT_FACTOR_ADMITTED",
+    "freeze_commit": "25bdde514d28b3b06465a9183ab3631ba0417c15",
+    "request_sha256": "ce6f7699c24df53aa31c3519ffd474e6b4e705f718bcc4684549e1454bb81309",
+    "source_documents": 408,
+    "source_issuers": 391,
+    "source_range_issuers": 394,
+    "status_counts": {
+      "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 139,
+      "SOURCE_SCHEMA_UNSUPPORTED": 249,
+      "COVER_IDENTITY_UNVERIFIED": 20
+    },
+    "supported_source_issuers": 132,
+    "source_observations": 276,
+    "literal_monetary_cells_checked": 828,
+    "direct_original_PDF_pages_checked": 816,
+    "physical_pages_extracted": 94749,
+    "input_count_including_request": 4923,
+    "immutable_output_files": 923,
+    "all_inputs_unchanged": true,
+    "old_supported_initial_reports_preserved": 5,
+    "exchange_format_skew": {
+      "SH_supported_reports": 136,
+      "SH_candidate_reports": 229,
+      "SZ_supported_reports": 3,
+      "SZ_candidate_reports": 179
+    },
+    "remaining_initial_source_gap_issuers": [
+      "SH600925",
+      "SH601061",
+      "SZ001286"
+    ],
+    "result_file": "experiments/qlib/profitability-historical394-initial-schema-results.json",
+    "separate_source_audit_file": "experiments/qlib/profitability-historical394-initial-schema-audit.json",
+    "source_format_coverage_file": "experiments/qlib/profitability-historical394-initial-schema-coverage.json",
+    "source_note_visual_review_file": "experiments/qlib/profitability-historical394-note-layout-review.json",
+    "currency_context_followup_file": "experiments/qlib/profitability-historical394-currency-context-followup.json",
+    "historical_sector_source_followup_file": "experiments/qlib/profitability-historical-sector-source-followup.json",
+    "financial_numeric_source_values_decoded": true,
+    "all_source_fiscal_and_issuer_identities_verified": false,
+    "financial_version_history_complete": false,
+    "historical_arrival_verified": false,
+    "manual_numeric_visual_review_complete": false,
+    "economic_sector_compatibility_verified": false,
+    "investment_factor_admitted": false,
+    "portfolio_returns_computed": false,
+    "2026_financial_or_market_values_read": false,
+    "original_frozen_methods_sources_and_failed_accounts_changed": false,
+    "objective_achieved": false,
+    "local_full_unittest_count": 1024,
+    "local_full_unittest_result": "OK",
+    "freeze_CI_run": 39675037061,
+    "freeze_CI_all3_jobs": "success",
+    "next_action": "Preserve full408 outcomes and strong exchange-format bias. Separately freeze source-backed currency-scope/note/header/identity repairs with all supported-cell conservation and original evidence; never use only132 parse-supported issuers as investment pool. Obtain laterFY2023/FY2024 and correction originals plus pre2024 business/sector evidence, then freeze GP policy and controls for2024/2025 continuous-account development before unchanged2026 diagnostic. No2026method feedback; all three economic objectives remain unproven."
   }
 }

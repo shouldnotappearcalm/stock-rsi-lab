@@ -1,0 +1,44 @@
+{
+  "status": "ALL_INITIAL_CONTENT_INSPECTED_NOT_FACTOR_ADMITTED",
+  "request_sha256": "ce6f7699c24df53aa31c3519ffd474e6b4e705f718bcc4684549e1454bb81309",
+  "parser_contract": "CONSOLIDATED_THREE_FIELD_SOURCE_CONTEXT_V4",
+  "document_count": 408,
+  "source_issuer_count": 391,
+  "source_range_issuer_count": 394,
+  "remaining_source_gap_issuers": [
+    "SH600925",
+    "SH601061",
+    "SZ001286"
+  ],
+  "status_counts": {
+    "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 139,
+    "SOURCE_SCHEMA_UNSUPPORTED": 249,
+    "COVER_IDENTITY_UNVERIFIED": 20
+  },
+  "unsupported_error_counts": {
+    "one literal consolidated row required: revenue": 9,
+    "exact two monetary cells in bounded same-page row block required: revenue": 31,
+    "bare unit requires matching explicit section or report-preparation RMB evidence": 131,
+    "unique scoped consolidated/parent table boundaries required": 21,
+    "one explicit CNY table unit required": 22,
+    "explicit end of primary financial statements section required": 10,
+    "unique ordered primary consolidated/parent balance and income statements required": 4,
+    "extra fiscal header line unsupported": 2,
+    "exact two fiscal columns within eight same-page nonempty header lines required": 14,
+    "bounded contiguous annual table required": 5
+  },
+  "source_observation_count": 276,
+  "supported_source_issuer_count": 132,
+  "old_supported_initial_reports_preserved": 5,
+  "input_count": 4923,
+  "all_inputs_unchanged": true,
+  "page_text_retained_locally": true,
+  "financial_version_history_complete": false,
+  "manual_numeric_visual_review_complete": false,
+  "economic_sector_compatibility_verified": false,
+  "historical_arrival_verified": false,
+  "investment_factor_admitted": false,
+  "security_ranking_or_portfolio_returns_computed": false,
+  "2026_financial_or_market_values_read": false,
+  "objective_achieved": false
+}

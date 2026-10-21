@@ -1,0 +1,26 @@
+{
+  "status": "ALL408_SOURCE_FORMAT_COVERAGE_NOT_AN_INVESTMENT_UNIVERSE",
+  "request_sha256": "ce6f7699c24df53aa31c3519ffd474e6b4e705f718bcc4684549e1454bb81309",
+  "source_case_results_sha256": "f6ff6a14116d3e6f4f0bc205ff04ccf36d59b4bece95ae2b8fd06aeb19ca41a0",
+  "public_summary_sha256": "4d040b0b33a079606c3c6adf85e8554d993d0181f9fc1547934b97bd39438ec3",
+  "physical_pages_extracted": 94749,
+  "page_text_cache_bytes": 211632846,
+  "status_counts_by_exchange": {
+    "SH": {
+      "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 136,
+      "SOURCE_SCHEMA_UNSUPPORTED": 80,
+      "COVER_IDENTITY_UNVERIFIED": 13
+    },
+    "SZ": {
+      "SOURCE_SCHEMA_UNSUPPORTED": 169,
+      "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 3,
+      "COVER_IDENTITY_UNVERIFIED": 7
+    }
+  },
+  "supported_source_issuer_count": 132,
+  "interpretation": "Source-format success is highly exchange-dependent:136SH versus3SZ candidate reports. Do not equate supported stocks with the investment universe or run a profitability portfolio on this subset. Future separately frozen source-format changes must preserve failures and all previously supported cells.",
+  "investment_factor_admitted": false,
+  "portfolio_returns_computed": false,
+  "2026_financial_or_market_values_read": false,
+  "objective_achieved": false
+}
