@@ -1,0 +1,27 @@
+{
+  "status": "FROZEN_SINGLE_DELAY_PRE2026_FORMATIONS_ONLY",
+  "candidate_budget": 1,
+  "window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "design_sha256": "995f763bf2534d5816447512f12278240cac37d2d419b50a37bff10deefed7ea",
+  "provider_manifest_sha256": "49e1a7c7e163575165ecaaf9ba9dbcfacb1f7544c73d5bab594f1e5b152ae3fe",
+  "input_sha256": {
+    "price_files": "30a7f43d6e306929dea2089fa958c33b08b44d88f32f5a4ffd4acfa93076e160",
+    "calendars/day.txt": "0095d19144308a1b0075ffd7f40f7af2dae76bdff3cfb1ba8bd80d4663ef9eaa",
+    "instruments/csi500.txt": "3ada9b34652fe037e188ae977b67b66ae5906d3c6976168823869a6e172ce7b0",
+    "features/sh000905/close.day.bin": "ef2b45c052feb722c98fb76612d23ea0d6f916997c0ddc18e7efc8a0118c6a83"
+  },
+  "method_code_sha256": {
+    "scripts/prepare_price_delay_formations_pre2026.py": "1a45f2a6ad9b2e34765c802acb17695cfbbcf08f281c67e56ddf0af21f77a358",
+    "src/stock_rsi/price_delay.py": "ca2ce32a8fb8fb6529d2f011563e20d0381e96672b9385f33605b17d1e9cd126",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d"
+  },
+  "new_source_queries": 0,
+  "portfolio_returns_to_compute": false
+}

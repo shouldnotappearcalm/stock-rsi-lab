@@ -1,0 +1,12 @@
+{
+  "physical_equities": 501,
+  "physical_binary_fields": 4010,
+  "calendar_end": "2025-12-31",
+  "all_source_byte_prefixes_exact": true,
+  "all_source_hashes_unchanged": true,
+  "all_output_hashes_authenticated": true,
+  "numerical_validation": "100 synthetic independent NumPy least-squares comparisons",
+  "maximum_score_or_coefficient_error": 8.881784197001252e-15,
+  "portfolio_returns_computed": false,
+  "2026_market_values_queried": false
+}
