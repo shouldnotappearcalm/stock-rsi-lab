@@ -1,0 +1,20 @@
+{
+  "status": "READY_FOR_FROZEN_PRE2026_BUDGETED_ACCOUNT_NO_NEW_RETURNS",
+  "plan_sha256": "e75bbeafce270cd618b1b4066f9ea9ccf25fc07834e7662fc04dec305c43f34f",
+  "source_preflight_passed": true,
+  "unchanged_formations": 24,
+  "unchanged_baseline_financial_artifacts": 42,
+  "local_full_tests": 693,
+  "clean_research_test_result": "693 tests,3 optionalQlib skips,otherwise pass",
+  "existing_allocator_code_changed": false,
+  "signal_or_evaluator_changed": false,
+  "allocation_trials_for_this_signal": 2,
+  "candidate_budget_this_trial": 1,
+  "code_review_sha256": "2044a8bb7fbbeb59806cbe582ad601e0a409e8be75697fc930a6d6907e86b2e2",
+  "prepared_account_audit_code_sha256": "fa8bf59274d7697ed8c4e1088c4079e70d732fbb30547525710a36f89efbe8f8",
+  "prior_CI_repair_commit": "2bde776",
+  "prior_CI_all_three_jobs_success_run": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39588459232",
+  "new_account_replay_run": false,
+  "new_2026_values_or_returns_read": false,
+  "objective_achieved": false
+}

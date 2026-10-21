@@ -1,0 +1,60 @@
+{
+  "status": "PASS_AFTER_BASELINE_BINDING_FIX",
+  "critical_or_important_findings": [],
+  "minor_findings": [],
+  "resolved_findings": [
+    {
+      "severity": "Important",
+      "issue": "Empty baseline evidence map accepted; original plan/audit anchors could be omitted while reporting42 financial artifacts verified.",
+      "reproduction_before_fix": "Synthetic fixture baseline_evidence_sha256={} returned42. New regression independently observed RED.",
+      "resolution": "Exact four evidence files required; public.actual_summary_sha256 and independent audit.summary_sha256 match actual baseline summary; public audit SHA binds audit bytes; summary/public/audit plan SHA all match old plan. Empty and self-consistently rewritten summary regressions GREEN."
+    }
+  ],
+  "reviewed_file_sha256": {
+    "scripts/run_qlib_low_market_residual_vol_budgeted_pre2026.py": "51a610aec507e9a3b692dacab233a10c0ed6823895f98b975f5e727a81bc696b",
+    "tests/test_low_market_residual_vol_budgeted_entry.py": "f2d597dcce75be3c8cba0d2f43f90af1fc684abac0494dfe3c8958bcdc2803d4",
+    "docs/research/low-market-residual-vol1m-budgeted-design-2026-10-21.md": "388e6ea9c5f57774ea70b94616fdf3b0a6b650d8d1553fc505e75dbc113ce013",
+    "experiments/qlib/low-market-residual-vol1m-budgeted-pre2026-development-plan.json": "e75bbeafce270cd618b1b4066f9ea9ccf25fc07834e7662fc04dec305c43f34f",
+    "src/stock_rsi/budgeted_lot_orders.py": "4fe22e63c5fdd89934bb7b4b498e0ca0fd65019ea250c44e05637468d1bfd097",
+    "src/stock_rsi/budgeted_qlib_strategy.py": "4b4b08fff4e7607f39f07310a3d33029db0a7b9d1c8acd9ca2c0dba6c8dc3811"
+  },
+  "verification": {
+    "focused_tests": 13,
+    "focused_tests_status": "PASS",
+    "actual_baseline_financial_artifacts_verified": 42,
+    "baseline_evidence_files_verified": 4,
+    "all_current_plan_method_hashes_match": true,
+    "execution_loop_AST_parity": "Entire cost/family backtest, prior-close checks, daily reconcile, fee/model and artifact loop identical to original except strategy class replacement and progress strings.",
+    "unchanged_source_modules": [
+      "budgeted_lot_orders",
+      "budgeted_qlib_strategy",
+      "low_market_residual_vol",
+      "qlib_daily_evidence",
+      "return_families"
+    ],
+    "independent_auditor": {
+      "path": "/tmp/low-market-residual-vol1m-budgeted-development-independent-audit-20261021.py",
+      "sha256": "fa8bf59274d7697ed8c4e1088c4079e70d732fbb30547525710a36f89efbe8f8",
+      "stdlib_only": true,
+      "synthetic_hand_calculated_allocation_cases": 5,
+      "synthetic_semantic_negative_controls": 7,
+      "actual_new_case_audit_executed": false
+    }
+  },
+  "ready_to_freeze_push_and_run_pre2026_budgeted_development": true,
+  "scope": [
+    "Same frozen IVOL targets/receipts,95-percent notional target,1million capital,20/40bp costs and90-percent exposure gate.",
+    "Existing budgeted lot allocator is a new allocation-policy trial within the same signal/economic family; original rejected floor trial retained.",
+    "Controls cannot replace primary; only fixed40bp main candidate may satisfy prescribed development gate.",
+    "Independent audit prepared for6cases,485daily sessions plus initial NAV anchor,144allocation receipts, annual continuous denominators,42old financial byte preservation, fees/cash/units/priorclose source, independent suspension marks and inherited rounding excess reporting."
+  ],
+  "boundaries": {
+    "actual_new_returns_computed": false,
+    "actual_new_formation_or_account_run_by_reviewer": false,
+    "actual_2026_market_or_account_data_read": false,
+    "network_used": false,
+    "repository_modified_by_reviewer": false,
+    "PIT_or_raw_share_or_intraday_admission_granted": false,
+    "historical_execution_truth_certified": false
+  }
+}

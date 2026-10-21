@@ -4866,6 +4866,26 @@
         "unverified_held_marks": 0
       },
       "development_independent_audit_file": "experiments/qlib/low-market-residual-vol1m-pre2026-development-independent-audit.json"
+    },
+    {
+      "candidate": "low_market_residual_vol_1m_budgeted_lots",
+      "status": "FROZEN_EXISTING_BUDGETED_ALLOCATOR_PRE2026_NO_NEW_RETURNS",
+      "economic_family": "EXISTING_LOW_RISK_LOTTERY_VARIANT",
+      "new_independent_economic_family": false,
+      "signal": "low_market_residual_vol_1m",
+      "signal_or_target_changed": false,
+      "allocation_trials_for_signal": 2,
+      "candidate_budget": 1,
+      "plan_file": "experiments/qlib/low-market-residual-vol1m-budgeted-pre2026-development-plan.json",
+      "plan_sha256": "e75bbeafce270cd618b1b4066f9ea9ccf25fc07834e7662fc04dec305c43f34f",
+      "design_file": "docs/research/low-market-residual-vol1m-budgeted-design-2026-10-21.md",
+      "baseline_rejection_retained": true,
+      "portfolio_returns_computed": false,
+      "new_2026_values_or_returns_queried": false,
+      "controls_promoted": false,
+      "candidate_promoted": false,
+      "objective_achieved": false,
+      "next_action": "Run one fixed budgeted allocation policy over2024/2025 only; retain both allocation versions and all controls."
     }
   ],
   "latest_data_admission": {
