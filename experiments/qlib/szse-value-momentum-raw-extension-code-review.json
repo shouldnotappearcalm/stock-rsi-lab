@@ -1,0 +1,154 @@
+{
+  "status": "SCOPED_PEER_BOUNDED_RAW_EXTENSION_CODE_REVIEW_COMPLETE",
+  "ready_for_bounded_source_capture": true,
+  "critical_findings": [],
+  "important_findings": [],
+  "blocking_findings": [],
+  "request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495",
+  "request_file": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-raw-extension-request.json",
+  "method_code_sha256": {
+    "scripts/capture_value_momentum_raw_extension.py": "fab9f753680710b8717481d56b897ea566718efbedf5abfadc0fd19eb2eddf35",
+    "scripts/value_momentum_raw_extension_sources.py": "ca08a618fecf8d6fe8adce4cc7613f7cb1c10fd3f03d3ef16b6e2803d485b1aa",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/capture_illiquidity_raw_development.py": "4a6c1b9597b4e0d797720687f43ba951b9aeabaca3bf8c83149a4657598ce8f1",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/capture_frozen_target_development_data.py": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d",
+    "experiments/qlib/audit_sources/2026-10-21-szse-value-momentum-full-raw-inventory.py": "731b25ed65e3a8ef17a04a3608ef72479ff7c765cbf885b1c7cb0dba1304bfce"
+  },
+  "reviewed_head": "39049a729f09b78783bbc745ad724af51844bf9a",
+  "review_scope": "Fixed source-only raw extension to2026-10-20; no strategy search, account replay, portfolio returns, actual source queries or repository edits by reviewer.",
+  "reviewed_contract": {
+    "universe_and_calendar": {
+      "names": 127,
+      "monthly_targets": 34,
+      "full_sessions": 676,
+      "old_sessions": 486,
+      "new_suffix_sessions": 190,
+      "only_primary_listing_exception": "SZ0013892024-04-02",
+      "prelisting_absent_sessions": 60,
+      "SZ001389_required_postlisting_sessions": 616
+    },
+    "partition": {
+      "full_cached_no_queries": 15,
+      "baselines": 114,
+      "original103baselines": 103,
+      "new_cached_pre26baselines": 11,
+      "fresh_codes": 112,
+      "incremental_codes": 99,
+      "cold_codes": 13,
+      "logical_query_ceiling": 362,
+      "formula": "99*3+13*5"
+    },
+    "queries": "BaoStock0.9.4; one administrative login; socket timeout20seconds; one journal attempt per identity; incremental daily/dividend2026/adjustments, cold daily/dividend2024/2025/2026/adjustments; no implicit restart/endpoint switch; stop3consecutive failed codes.",
+    "source_bindings": "Exact mandatory method/public/local sets and all four fixed source manifest/calendar hashes; original103packet hashes; all registered cache routes/choices; audited34targets and independent inventory evidence; all code identities ordinary-board canonical.",
+    "prefix_and_overlap": "Old103rows copied rather than rebuilt;11new baselines clipped only from registered complete pre26caches; all common-date financial cores and overlapping-window corporate/adjustment rows checked; duplicate source dates rejected; originals untouched and reauthenticated after capture.",
+    "source_acceptance": "Explicit676session coverage, or only primary-bound616postlisting samples; no inferred IPO gaps or synthesized prices. Future dividend rows enter quarantine before amount interpretation; future daily rows fail after raw response preservation.",
+    "retention": "Immutable query request/reservation/response with timestamps/status/payload digest, typed code errors, pending/progress/stopped/abnormal manifest; login reservation/SDK failure status; logout cleanup; postcapture source authentication record. Postcapture input changes cannot be labeled unchanged or yield normal completion."
+  },
+  "actual_verification": {
+    "final_request_and_all_method_public_local_hashes_match": true,
+    "original_bound_helpers_unchanged_against_HEAD": true,
+    "actual_source_preflight_passed": true,
+    "preflight_explicitly_blocked": [
+      "baostock/eltdximports",
+      "socket.connect",
+      "socket.setdefaulttimeout",
+      "SourceSessionconstruction",
+      "capture_packets"
+    ],
+    "preflight_derived_partition": {
+      "names": 127,
+      "sessions": 676,
+      "original_baselines": 103,
+      "new_cached_baselines": 11,
+      "full_cache": 15,
+      "incremental": 99,
+      "cold": 13,
+      "maximum_queries": 362,
+      "registered_cache_overlap_names": 72
+    },
+    "focused_tests": {
+      "count": 15,
+      "result": "OK",
+      "suite": "tests.test_value_momentum_raw_extension_sources"
+    },
+    "parent_reported_full_suite": {
+      "count": 520,
+      "result": "OK",
+      "seconds": 10.965,
+      "log": "/tmp/value-momentum-raw-extension-final-suite.log",
+      "independently_rerun_by_this_reviewer": false
+    },
+    "full_synthetic_core_capture": {
+      "names": 127,
+      "sessions": 676,
+      "queries_and_three_artifact_chains": 362,
+      "reused_zero_query": 15,
+      "incremental": 99,
+      "cold": 13,
+      "baseline_records_exact": true,
+      "inputs_unchanged": true,
+      "SZ001389rows": 616
+    },
+    "mock_entry_cases": [
+      {
+        "case": "success",
+        "result": "PASS",
+        "login": 1,
+        "logout": 1
+      },
+      {
+        "case": "failed administrative login",
+        "result": "PASS",
+        "login_attempts": 1,
+        "business_queries": 0,
+        "consumed_logical_reservations": 3,
+        "retained_failed_SDKstatus": true,
+        "three_fail_stop": true
+      },
+      {
+        "case": "KeyboardInterrupt during query",
+        "result": "PASS",
+        "consumed_unknown_reservations": 1,
+        "response_absent": true,
+        "abnormal_manifest_and_cleanup_preserved": true
+      },
+      {
+        "case": "logout raisesOSError",
+        "result": "PASS",
+        "cleanup_exception_preserved": true,
+        "admission_remains_false": true
+      },
+      {
+        "case": "source input changes after capture",
+        "result": "PASS",
+        "postcheck_false_retained": true,
+        "original_source_files_changed_not_falsely_false": true,
+        "terminal_ValueError": true
+      }
+    ],
+    "actual_source_SDK_network_calls": 0,
+    "account_or_ROI_computed": false,
+    "planned_actual_output_remains_absent": true,
+    "core_synthetic_checks_script": "/tmp/szse-value-momentum-raw-extension-review-checks-20261021.py",
+    "core_synthetic_checks_script_sha256": "b46520c9bc2a303c5fd4594494a5e9c2b3a60b4ca8d3a7692685cb19b60520a1",
+    "entry_synthetic_checks_script": "/tmp/szse-value-momentum-raw-extension-entry-review-checks-20261021.py",
+    "entry_synthetic_checks_script_sha256": "e77a1c4f27b1c3c24ca8d97deebecb77d86722306730c0a279f666a5932a39d7"
+  },
+  "prior_author_and_root_fixes_verified": [
+    "Corporate/adjustment overlap uses common source window rather than comparing pre26prefix to full extension.",
+    "Both left and right duplicate-date source rows rejected.",
+    "Failed login preserves SDK error_code/error_msg with the single consumed attempt.",
+    "Postcapture source reauthentication avoids an unconditional unchanged-source assertion."
+  ],
+  "limitations": [
+    "Readiness is for this frozen bounded foreground source capture only; every packet remains ADMISSION_SEPARATE and cannot authorize account replay or2026profit.",
+    "362is a logical query reservation ceiling, plus one separately recorded administrative login; SDK transport packet/connection counts are not certified.",
+    "SDK-decoded responses/provenance/quarantine may contain later-date references; accepted source windows are bounded, not an absolute future-memory seal.",
+    "Capture completion/exit0 means source packet production, not a successful independent source audit or clean logout; cleanup errors remain explicit evidence for subsequent review.",
+    "No IPO exception beyond the already bound SZ001389primary boundary is inferred. Corporate completeness, historical arrival, exact minute volumes, queue/impact and actual FIFO/statutory tax remain uncertified.",
+    "October20is an interim endpoint; full requestedOctober2026 remains incomplete. Subsequent corporate/tax/lifecycle evidence, minute-source admission and continuous-account42fileprefix parity require separately frozen review."
+  ],
+  "repository_or_original_source_edits_by_reviewer": false
+}

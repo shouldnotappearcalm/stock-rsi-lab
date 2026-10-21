@@ -1,0 +1,23 @@
+{
+  "status": "BOUNDED_COMPOSITE_RAW_EXTENSION_FROZEN_BEFORE_SOURCE_CALLS",
+  "request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495",
+  "code_review_sha256": "16a6e074beeadedf7747ebbd727d5c6dedb1d0af980203499cdae32f5ad4958b",
+  "standalone_auditor_sha256": "51665d7da4cf9f15f4cdd355319206ab2c2970081c6b5ba4b17e73c3a00482ed",
+  "ready_for_bounded_source_capture": true,
+  "source_only_preflight_exit_code": 0,
+  "full_suite_tests": 520,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 10.965,
+  "names": 127,
+  "full_cached_names": 15,
+  "fresh_incremental_names": 99,
+  "cold_names": 13,
+  "logical_query_ceiling": 362,
+  "baostock_version": "0.9.4",
+  "actual_source_calls_before_freeze": 0,
+  "actual_capture_executed": false,
+  "source_admitted_for_account": false,
+  "portfolio_returns_computed": false,
+  "complete_requested_October": false,
+  "objective_achieved": false
+}
