@@ -1,0 +1,23 @@
+{
+  "status": "STRICT_2502_SAMPLE_ADMISSION_FAILED_12_ST_REJECTIONS_PRESERVED",
+  "freeze_commit": "1368705",
+  "plan_sha256": "cc70219562042601e1454398d28957411f756fe0417c1f11db72c0a4760ff1c2",
+  "execution_exit_code": 2,
+  "summary_sha256": "c39b1af8c337ba04c2c4927962068f65205b4916f5bfb6379c279c0aed1125df",
+  "details_sha256": "e5a0e1f1c24e23a0157c1d5dd0c38c07172e9eab5a8558d56f16a5f4da3db2f1",
+  "independent_audit_sha256": "b5cc7202d55a4ce73f65f6d9a335c7b1c629826ec77ac2d4f94aba9fccda9553",
+  "root_reproduction_byte_identical": true,
+  "source_pairs_reconstructed": 2502,
+  "ordinary_samples_admitted": 2490,
+  "source_rejected_samples": 12,
+  "reconstructed_five_minute_windows": 119520,
+  "rejections_are_not_automatically_excluded": true,
+  "actual_zero_inventory_not_inferred": true,
+  "full_suite_tests": 575,
+  "full_suite_exit_code": 0,
+  "admitted_for_reconstructed_execution": false,
+  "new_account_replay_performed": false,
+  "new_2026_values_read": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

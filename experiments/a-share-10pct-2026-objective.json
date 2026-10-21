@@ -1,7 +1,7 @@
 {
   "objective_id": "a-share-positive-2024-2025-and-10pct-2026-v1",
   "status": "ACTIVE_NOT_ACHIEVED",
-  "clarified_by_user": "2024-2025\u90fd\u5f97\u8d5a\u94b1\uff0c\u4eca\u5e741-10\u4e5f\u5f9710%+",
+  "clarified_by_user": "2024-2025都得赚钱，今年1-10也得10%+",
   "registered_on": "2026-10-17",
   "required_net_compound_returns": {
     "2024_full_calendar_year_pct": ">0",
@@ -13,7 +13,7 @@
   "requested_2026_end": "last actual exchange session on or before 2026-10-31",
   "requested_2026_horizon_complete": false,
   "selection_rule": "Economic hypothesis and rule choices use independent sources and pre-2026 development only; fixed 2026 diagnostics must not tune later variants.",
-  "no_lookahead_red_line": "\u4e0d\u8981\u6d4b\u8bd5\u533a\u95f4\u7684\u4e8b\u5b9e\u53bb\u53cd\u63a8\u65b9\u6cd5",
+  "no_lookahead_red_line": "不要测试区间的事实去反推方法",
   "claim_boundary": "Historical simulation is not realized account profit. No broker orders are authorized or submitted by this project.",
   "completion_requires": [
     "Same frozen method satisfies all three specified net-return conditions",
@@ -5123,7 +5123,7 @@
     }
   ],
   "latest_pre2026_price_delay_screen": {
-    "status": "PRE2026_RAW_DAILY_PASS_INTRADAY_CONFIRMATION_PENDING",
+    "status": "PRE2026_RAW_DAILY_PASS_STRICT_MINUTE_ADMISSION_FAILED_12_ST_INTERVALS",
     "candidate": "price_delay_d1",
     "candidate_budget": 1,
     "2024_normalized_daily_proxy_net_pct": 16.908141739694326,
@@ -5186,6 +5186,35 @@
       "uncached_pairs": 918,
       "source_admitted_for_intraday_replay": false,
       "new_2026_values_read": false
+    },
+    "minute_source_capture": {
+      "status": "COMPLETE_TECHNICAL_CAPTURE_INDEPENDENTLY_RECONSTRUCTED",
+      "file": "experiments/qlib/price-delay-minute-capture-verification.json",
+      "captured_pairs": 2502,
+      "reused": 1584,
+      "fresh": 918,
+      "source_admission_granted": false,
+      "new_2026_values_read": false
+    },
+    "minute_source_admission": {
+      "status": "FAILED_12_ST_REJECTIONS_PRESERVED",
+      "file": "experiments/qlib/price-delay-minute-admission-summary.json",
+      "verification_file": "experiments/qlib/price-delay-minute-admission-verification.json",
+      "ordinary_samples": 2490,
+      "rejected_nonordinary_samples": 12,
+      "rejected_issuer": "SZ002092",
+      "admitted_for_reconstructed_execution": false,
+      "actual_zero_inventory_proven": false,
+      "investment_target_changed": false,
+      "new_2026_values_read": false
+    },
+    "ordinary_source_scope_guard": {
+      "status": "PREPARATORY_SEPARATE_ACCOUNT_GUARD_NOT_ACTIVATED",
+      "protocol": "docs/research/price-delay-ordinary-scope-plan-2026-10-21.md",
+      "all_original_ST_source_intervals": 241,
+      "required_ST_dependency_fails_closed": true,
+      "strict_original_admission_overridden": false,
+      "real_candidate_account_replayed_with_guard": false
     }
   }
 }

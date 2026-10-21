@@ -1,0 +1,157 @@
+{
+  "status": "PRICE_DELAY_PRE2026_MINUTE_SOURCE_ADMISSION_COMPLETE",
+  "plan_sha256": "cc70219562042601e1454398d28957411f756fe0417c1f11db72c0a4760ff1c2",
+  "method_code_sha256": {
+    "scripts/capture_price_delay_minutes_pre2026.py": "25501164dc357f7217bcab973e435872d94680b2b902d5410b0f6c05ea9efa1f",
+    "scripts/capture_low_beta60_minutes_pre2026.py": "5a1cfa651c593d7867311270d9810aec5ef1ddc5f5f34c6fd735b998e4aad417",
+    "scripts/admit_low_beta60_minutes_pre2026.py": "bd9b6f1051d06520a257a635314c2b7c27be5c0109faa3f9ff9102eb2554fff7",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/illiquidity_minute_sources.py": "6823f1a6f14a0b81732f589b4faa83442c434f8fd70b09f128bd0525bddd0fc6",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/admit_price_delay_minutes_pre2026.py": "939c22c57a9fcea0b2bd0b03c36849da1e1a489ccec20c5a1327cdfd98a260a8"
+  },
+  "capture_plan_sha256": "82468c0329f042eee6b8152dcb53f1d573a21f4b32843cf8e9d73d1bcd500904",
+  "capture_manifest_sha256": "c84cc697810d20b693d24c0e84963ee3af4f3823d5d0b109dc6047c0a1e5f57b",
+  "request_sha256": "8c9ce7b9e9519f86349447f3e3bb3760b12e610b8dcd59a8a2c417a0babd4dee",
+  "capture_scope_sha256": "fa94a542d49032d4012839b50809c8a39a31a09f0e108d17cc7c602a4eb1c7ef",
+  "independent_capture_audit_sha256": "e6f339a756bbcd5a617cb8512cd05f19d376c7dfe0711f7f7b18f7a4c36501a2",
+  "raw_manifest_sha256": "b179d4e987ad2ee93d0b152d817486c29737c6d605abdad1a15c3fd4713d6b67",
+  "target_sha256": "03acf78c10c10376b5764b0d1399d1631af08a608aa865575aa1bd56203fad0c",
+  "required_active_sessions": 2502,
+  "nonexecuting_source_intervals": 2,
+  "status_counts": {
+    "ADMITTED_RECONSTRUCTED_ACTIVE_TAPE": 2490,
+    "SOURCE_REJECTED": 12
+  },
+  "fresh_reservations": 918,
+  "fresh_responses": 918,
+  "reused_packets": 1584,
+  "client_cleanup_passes": true,
+  "admitted_for_reconstructed_execution": false,
+  "details_sha256": "e5a0e1f1c24e23a0157c1d5dd0c38c07172e9eab5a8558d56f16a5f4da3db2f1",
+  "exact_share_total_matches": 215,
+  "exact_share_precision_certified": false,
+  "historical_arrival_verified": false,
+  "sdk_date_echo_authenticated": false,
+  "queue_and_impact_calibrated": false,
+  "full_corporate_actions_certified": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_values_queried": false,
+  "candidate_promoted": false,
+  "objective_achieved": false,
+  "exceptions": [
+    {
+      "instrument": "SZ002092",
+      "day": "2024-06-03",
+      "source_sha256": "4a958978be69561874f84fa06e0d4b5b03bf40e03ff1c040e384d525fdd86640",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2024-07-01",
+      "source_sha256": "1fce500a4ae9fe71b71006c5438391f18d4d6d65b09f4972bf759cc8b4cd7076",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2024-08-01",
+      "source_sha256": "50f32588317ee7612a564e0526bca4152f1ae687dc67bb152f808167ccc51a7a",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2024-09-02",
+      "source_sha256": "15ba1f425c71874b41c940b5d1aa2226b6bcf819dbb5f181a3ab556d5cdddd51",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2024-10-08",
+      "source_sha256": "be7429161793d2c57b4d4903960d5fac53bda578e2c0b1091b06c22cd308528f",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2024-11-01",
+      "source_sha256": "99c524f563e55a79311c74eb64003146993eb6ef023a3e451cc39c841a9fe575",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2024-12-02",
+      "source_sha256": "8ae82d84c09bbd770b3e7afab4ac1d1c80f8508dc09b6cf51041d88af803d4ab",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2025-01-02",
+      "source_sha256": "4ba9e9467b8789b49dc3eb85899653e97bcaeb9180249c765c978353bb1d1e88",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2025-02-05",
+      "source_sha256": "1ed209033efe7728171c63f8a9b92ee8afc51b95305f00d55b96f50c71c07336",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2025-03-03",
+      "source_sha256": "c342239af23c713bbcff5205f61c9fa4eedb7d790504c773129d75b168695638",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2025-04-01",
+      "source_sha256": "224f8bf5815a680d6b08c38fb91a922a2ffae05e6c1d2236859ecca119b9f19c",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    },
+    {
+      "instrument": "SZ002092",
+      "day": "2025-05-06",
+      "source_sha256": "d82f4ddfb222e5b0cee941f0224dbb89beca1ea54a66674cb650ce2303ac3106",
+      "origin": "FROZEN_FRESH_QUERY",
+      "status": "SOURCE_REJECTED",
+      "error_type": "ValueError",
+      "error": "source security/date/ordinary active state changed"
+    }
+  ]
+}
