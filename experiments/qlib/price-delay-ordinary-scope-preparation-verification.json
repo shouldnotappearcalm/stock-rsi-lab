@@ -1,7 +1,7 @@
 {
   "status": "PREPARATORY_ORDINARY_SOURCE_GUARD_TESTED_NOT_ACTIVATED",
   "original_fixed_replay_sha256": "53071ca9cb108f5f95c9794ab87aae2ab389858ec3f50094b75afb9a6e72d0b4",
-  "guarded_fixed_replay_sha256": "f9dc63180067a2acd7038ccba7ab9c6183911e27bc2baa93361cfe90ae11ef73",
+  "guarded_fixed_replay_sha256": "2289fdc0b549918682246d803a5b92af11f572df8cded85f0988555f7b47ee01",
   "guard_sha256": "7e27c6b36bade230cc429d7fafd43d882fc9c134a8f6b4f31ef94e539232b888",
   "original_replay_function_AST_identical": true,
   "original_plan_integer_targets_preserved": true,
@@ -20,5 +20,9 @@
   "real_candidate_guarded_account_replayed": false,
   "investment_rule_changed": false,
   "2026_candidate_return_queried": false,
-  "objective_achieved": false
+  "objective_achieved": false,
+  "post_review_whitespace_only_cleanup": {
+    "reviewed_code_sha256": "f9dc63180067a2acd7038ccba7ab9c6183911e27bc2baa93361cfe90ae11ef73",
+    "change": "remove inherited extra blank line at EOF; no AST change"
+  }
 }

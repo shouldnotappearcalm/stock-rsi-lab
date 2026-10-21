@@ -131,4 +131,3 @@ def simulate_fixed_targets(calendar,bars,events,targets,initial_cash,*,lifecycle
             "whole_day_volume_violations":sum(value>1 for value in capacity),
             "execution_status":"INVALID_OBSERVED_TAPE_CAPACITY" if any(value>1 for value in capacity)
                                else "DAILY_PROXY_NECESSARY_CHECKS_PASSED"}
-
