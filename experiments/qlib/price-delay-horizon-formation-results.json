@@ -1,0 +1,23 @@
+{
+  "status": "UNCHANGED_POLICY_HORIZON_FORMATIONS_NO_PORTFOLIO_RETURNS",
+  "plan_sha256": "0a2d18136247770b0ef605063d8f818c1f75940e4e20a3d754b261dccc997b82",
+  "candidate": "price_delay_d1",
+  "formations": 34,
+  "original_24_formations_and_receipts_identical": true,
+  "source_calendar_end": "2026-10-13",
+  "unconditional_interim_observation_end": "2026-10-20",
+  "full_October_2026_complete": false,
+  "artifact_sha256": {
+    "targets.json": "1596a8f120c6d17903fc965dc67674b824c91030aec03253385ad990d3849ebd",
+    "formation_receipts.json": "709a387d327667392bca9efc29c9d9f7582b1a1b3e3c8d254405c3884352cf16",
+    "candidate_targets.json": "5d122dac55da8f57934524de0b6e3640a303363aca49e0a0a09dd70d5850a923"
+  },
+  "new_2026_market_values_read": true,
+  "investment_rule_changed": false,
+  "controls_selectable": false,
+  "portfolio_returns_computed": false,
+  "historical_arrival_verified": false,
+  "strict_OS_future_boundary": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

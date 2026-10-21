@@ -5123,7 +5123,7 @@
     }
   ],
   "latest_pre2026_price_delay_screen": {
-    "status": "PRE2026_RAW_SHARE_INTRADAY_PASS_2026_NOT_YET_EVALUATED",
+    "status": "PRE2026_INTRADAY_PASS_34_HORIZON_FORMATIONS_VERIFIED_2026_RAW_DATA_PENDING",
     "candidate": "price_delay_d1",
     "candidate_budget": 1,
     "2024_normalized_daily_proxy_net_pct": 16.908141739694326,
@@ -5141,7 +5141,7 @@
     "raw_source_names": 151,
     "existing_pre2026_reuses": 129,
     "fresh_names": 22,
-    "2026_candidate_market_values_or_returns_queried": false,
+    "2026_candidate_market_values_or_returns_queried": true,
     "raw_share_execution_verified": false,
     "candidate_promoted": false,
     "objective_achieved": false,
@@ -5232,6 +5232,30 @@
       "real_exchange_execution_certified": false,
       "candidate_promoted": false,
       "objective_achieved": false
+    },
+    "2026_portfolio_return_computed": false,
+    "horizon_formations": {
+      "status": "34_INDEPENDENTLY_RECONSTRUCTED_ORIGINAL24_IDENTICAL",
+      "file": "experiments/qlib/price-delay-horizon-formation-results.json",
+      "verification_file": "experiments/qlib/price-delay-horizon-formation-verification.json",
+      "target_names": 203,
+      "additional_names": 52,
+      "portfolio_returns_computed": false,
+      "investment_rule_changed": false
+    },
+    "horizon_raw_inventory": {
+      "file": "experiments/qlib/price-delay-horizon-raw-inventory.json",
+      "route_plan": "experiments/qlib/price-delay-horizon-raw-route-plan.json",
+      "full_cached_names": 102,
+      "partial_cached_names": 35,
+      "no_raw_cached_names": 66,
+      "planned_whole_cache_reuse": 102,
+      "planned_incremental_names": 80,
+      "planned_cold_names": 21,
+      "planned_maximum_logical_queries": 345,
+      "source_capture_executed": false,
+      "source_admitted": false,
+      "portfolio_returns_computed": false
     }
   }
 }

@@ -1,0 +1,1465 @@
+{
+  "status": "SOURCE_ROUTE_AND_QUERY_BUDGET_DRAFT_NO_SOURCE_CAPTURE_EXECUTED",
+  "candidate": "price_delay_d1",
+  "target_sha256": "5d122dac55da8f57934524de0b6e3640a303363aca49e0a0a09dd70d5850a923",
+  "inventory_sha256": "374e584d9eb7d7adc257acd6fba7bc2684331d024ccf1456dd6f7b84ea7c5d45",
+  "window": [
+    "2023-12-29",
+    "2026-10-20"
+  ],
+  "source_priority": [
+    "szse-value-momentum-raw-full-v2-20261021",
+    "low-beta60-raw-horizon-20261021",
+    "reversal-raw-full-20261017",
+    "szse-value-raw-full-20261017"
+  ],
+  "names": 203,
+  "cohort_counts": {
+    "whole_cache": 102,
+    "incremental": 80,
+    "cold": 21
+  },
+  "planned_maximum_logical_queries": 345,
+  "calendar_queries_planned": 0,
+  "future_incremental_components": [
+    "daily2026",
+    "dividend2026",
+    "adjustments2026"
+  ],
+  "future_cold_components": [
+    "daily2023Dec29to2026Oct20",
+    "dividend2024",
+    "dividend2025",
+    "dividend2026",
+    "adjustmentsFullWindow"
+  ],
+  "original_pre2026_data_must_remain_unchanged": true,
+  "routes": {
+    "SH600004": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "08fd8293e7828e48cd419669bb06be7f7257d6e04f162a02b916f34b4c5b6b27",
+      "future_logical_query_count": 0
+    },
+    "SH600007": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600021": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "37cfc9d2d0a3d4871f34029c191ac0d6633c322c50a5a1c50e900892fe10a6cf",
+      "future_logical_query_count": 0
+    },
+    "SH600032": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "1ff569a9bb2c8ee6d9e8896a8bd743e128a77197c25d9381f5f3c788dda5a094",
+      "future_logical_query_count": 3
+    },
+    "SH600060": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH600062": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "94c0e0c2a4c347f4156c6789ca13b1041402e888c0985a007e2ca3c08b9e9117",
+      "future_logical_query_count": 0
+    },
+    "SH600066": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "40726aa0510af0058175c6e4f9d6dec82b4f2bebc446e37ef8a19aa6f62f57a1",
+      "future_logical_query_count": 3
+    },
+    "SH600079": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH600098": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600126": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "4315c8772978fe7aeab86aaa73b25747d250bed0ac9221a1dc971884325c3f94",
+      "future_logical_query_count": 3
+    },
+    "SH600132": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "cb330f6a691a13ff9510fc33560f81c63a1c3dd3663a17f2b2e428a3707d1688",
+      "future_logical_query_count": 3
+    },
+    "SH600153": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "8a880ac224f475a5be504681534b5cabc32715fdf200b84c98035a57de4b48fc",
+      "future_logical_query_count": 0
+    },
+    "SH600160": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600167": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "80538e4b809fd44177a7e8d2df0afd7afbb71d9a4220dd6d3b7548b0f3d0016f",
+      "future_logical_query_count": 0
+    },
+    "SH600171": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600177": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "bd0789c27a1163888e04e2001b1e42de3119eb42a840d47810a4d98fea384569",
+      "future_logical_query_count": 0
+    },
+    "SH600256": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH600258": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600282": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600298": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH600312": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "d1030fc0f09f608f21454d357b423577e3319fa68b2b976137ede975493ecffa",
+      "future_logical_query_count": 0
+    },
+    "SH600316": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600325": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "08d857632aba8299f88815d856e2d7f0365055be77f885f53fb860bf389ee48a",
+      "future_logical_query_count": 0
+    },
+    "SH600329": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH600332": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "9a6de3a23878ed40ef764e5bc833a0831ba2d7d7b288125789b5a9b8fb86791e",
+      "future_logical_query_count": 0
+    },
+    "SH600339": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "f5fbeb9e102f6fa99993dfab8bfeb0c8feb432d06235359455f9f896af343db5",
+      "future_logical_query_count": 0
+    },
+    "SH600348": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600350": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "f099ee64238b60c03a5f16f440802a76d87cdcb9624ddc83bd990a60f5cbaa09",
+      "future_logical_query_count": 0
+    },
+    "SH600363": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600373": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "96cc44c10d7dd14d9025e8721e49e9259445955a6f8f93ad37ba2d0df030f039",
+      "future_logical_query_count": 0
+    },
+    "SH600377": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "d4dc6f05f7643af023238feaa142cc227a8a68fdfc98b02b040700a156c3ef05",
+      "future_logical_query_count": 0
+    },
+    "SH600390": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "9249866bcd33b1e8c00345fbcb3b7bf85aec16ba7a3833d060d0893e054e149b",
+      "future_logical_query_count": 3
+    },
+    "SH600398": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "2d8b829972feb8f8487cd2205e7e9593fc6a0b4792846aa937572778265083c5",
+      "future_logical_query_count": 0
+    },
+    "SH600415": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600418": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600481": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600482": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "62e35d7680abfbb515ad7bcdf760679fc72d8088d1f1e359384c6da9321ccd36",
+      "future_logical_query_count": 3
+    },
+    "SH600483": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "76fd10a031d94d08947c303f9af1dfdfe3988ac2183567f6baa37075a3eb3112",
+      "future_logical_query_count": 0
+    },
+    "SH600511": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "4907c0cbafb8825598562cd0ffb9b46f809eaad9734ad1fb16e720cde14c573f",
+      "future_logical_query_count": 0
+    },
+    "SH600536": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "c2a83779439ea0581c08e7797849588093caac09f3b1e14e68488adfe31f201b",
+      "future_logical_query_count": 3
+    },
+    "SH600546": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600563": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH600566": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH600578": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "ee40692d9ff6b2f17551ec2853f57101ff6d0512713cc0a102467fec01691d7b",
+      "future_logical_query_count": 0
+    },
+    "SH600582": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600583": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600598": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "0ca663bfb8261dd6e6c9a8d7442b74686108de8ca45470fcbbebed7fa8167dd1",
+      "future_logical_query_count": 0
+    },
+    "SH600642": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "46bd7ef2367337c793164a8513dd8989f10b8a71c3836dbe764eaa1713d79a4a",
+      "future_logical_query_count": 0
+    },
+    "SH600663": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "9465b56971bc17db35e8bc8b7dc12cc650b52864af94bdedab6fe74c4ff8cebc",
+      "future_logical_query_count": 0
+    },
+    "SH600673": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600685": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH600754": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "4f027ff3ad79a673e02a051e42adb9b78319fe7ccf8f9026fea83382c3d01573",
+      "future_logical_query_count": 3
+    },
+    "SH600755": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600764": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "9cc1f130ab8a8da3842c1000c19014a2dbbffe90f18fd46aa21a6e7c5a1eba2c",
+      "future_logical_query_count": 3
+    },
+    "SH600801": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "4c08bae57066d3d29bed3737c07ad400e9a14cc6c3b856cc2175e23fb78c877e",
+      "future_logical_query_count": 3
+    },
+    "SH600808": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600820": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "5e0fb591016f92c54e67bd8593d39a5682d2b4f79690df48d4dc94349378dc03",
+      "future_logical_query_count": 0
+    },
+    "SH600839": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600863": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "b9638597ef18f08d774067727119c60b7da17d652f4d7713a8095549de2d6103",
+      "future_logical_query_count": 0
+    },
+    "SH600873": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "1cbdab2bdeefd6ed08b9d59c4bb275ce2c5bc2ab6690b15cbcf6b6dfe07eb514",
+      "future_logical_query_count": 0
+    },
+    "SH600901": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "de2e099aaf02b9971d2137a417948a254889ff1a4c34bb6480732e1b83d7c90d",
+      "future_logical_query_count": 0
+    },
+    "SH600925": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600928": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "e7c49278de40684b74c9214d964e0590bd963f427810e8c5641692070480a0b4",
+      "future_logical_query_count": 0
+    },
+    "SH600959": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "01a561899b3b8fdc263200798e8497c11c145093c6af8a9411ba09586d9dbaf1",
+      "future_logical_query_count": 3
+    },
+    "SH600968": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "8d1dfc958bf758f5e63e07cd69c4a12823058e16c23c3a4bfffe834fd7f556b2",
+      "future_logical_query_count": 0
+    },
+    "SH600970": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600977": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH600985": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "423ad1bdba7ac71cb0fcbd425f92f44c1244d0d19db08945602151b2e0d4286f",
+      "future_logical_query_count": 0
+    },
+    "SH600988": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "8e9d8790b11e56d823aec3771449a579e9815a76b0db9d49b2bb34e2a50eb0fb",
+      "future_logical_query_count": 0
+    },
+    "SH601000": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "134955e6ab1668e20ad5de4f510c4c7e21b1bee7f77dcd118e9f8d2d7e931de5",
+      "future_logical_query_count": 0
+    },
+    "SH601001": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH601016": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "b622a2326dd5e6d971b955cea74ce79105bd71a904d571b6db618f296c90f36a",
+      "future_logical_query_count": 3
+    },
+    "SH601019": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "25d1bfceb600d4b5e7ed15196291fccd2b86d9d3ce8ac3d13bdc2ff2f3a6d02a",
+      "future_logical_query_count": 0
+    },
+    "SH601061": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH601077": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "96f522c562b527b0b0a628c1beeb535d6e4a0162472a224fedadf2379d04333e",
+      "future_logical_query_count": 0
+    },
+    "SH601098": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "b6f8a8a1c61f24a113a13b2e6b8bf56013cfdfd1bf4439cb1842f168648fa6f0",
+      "future_logical_query_count": 0
+    },
+    "SH601128": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "438f4861d6ded7b674ada563071fb88f170f1bb6b4041211eb3ebed06dc1d534",
+      "future_logical_query_count": 0
+    },
+    "SH601139": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH601155": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "3be0c26923a1134c74eb389839d802907055780475a62a0df594197494df5726",
+      "future_logical_query_count": 3
+    },
+    "SH601158": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "5433ad2d9732527350640718c4882f1d849a79625af840f77f8d8a23e988be74",
+      "future_logical_query_count": 0
+    },
+    "SH601179": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "c44d2228eb864222e7f0561e2400ad2b0eb1f4e1758ba80495d3d14797389907",
+      "future_logical_query_count": 0
+    },
+    "SH601228": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "10cf12d54dd937bcf223135f085b9514c4c77098a78d4118186772055499371b",
+      "future_logical_query_count": 0
+    },
+    "SH601298": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH601333": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "577079d54f175940e14438015e39e9c9a335e9be71392a5f5ef0393f605485d8",
+      "future_logical_query_count": 0
+    },
+    "SH601567": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH601577": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "5757f384e781ac7a0a223607bc189cd1b780bd03cbfb77d2c54b167e098cd397",
+      "future_logical_query_count": 0
+    },
+    "SH601598": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "94c8a21e6e9391bd0b711cb1c9bf1e9684270d36042b6c55ea1b7c61eb4c6217",
+      "future_logical_query_count": 0
+    },
+    "SH601665": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "b2489fbb510c349e7c8fc54cf84dbd0fc6c4c70354392541664867bacbbf8117",
+      "future_logical_query_count": 0
+    },
+    "SH601666": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH601699": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH601717": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH601858": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH601918": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "30fad17d4ab74e6a4102c29816fd71f8ef27441aa80cced8a806b1e6a6d5122f",
+      "future_logical_query_count": 0
+    },
+    "SH601921": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH601928": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "c13450bccd7612402dae7053c79228a445ec53639bc07d27bcacc1b6a366c5fc",
+      "future_logical_query_count": 0
+    },
+    "SH601933": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "7cdf0561266893194da6f3e0ed9f378280bd298cb3a128c67b91625d3b3180d5",
+      "future_logical_query_count": 0
+    },
+    "SH601966": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "171e4ac8248666c822e577d77a69a2ee3d9940420634f504a18aee4080a255f6",
+      "future_logical_query_count": 3
+    },
+    "SH601991": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "1642459ab594981595ec1895c5e741505db9e36beaa10c890218c4fb2832b327",
+      "future_logical_query_count": 0
+    },
+    "SH601997": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "f735e90a1ce8b3d6516778570b84e8f9fdb9e0f6fb0c92e82f8047e4e54fdac4",
+      "future_logical_query_count": 0
+    },
+    "SH603000": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH603087": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "8aded6086f9b244ec3d05b2beaafaa0aba5516e865a728cef0f5e01fb097a6f8",
+      "future_logical_query_count": 3
+    },
+    "SH603129": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH603156": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH603233": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "fcd19150ab3753a4c818d768aaa8cb1ff0dfdc6f71593a17ae6472e5dd4132f1",
+      "future_logical_query_count": 3
+    },
+    "SH603338": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "77d678d16be84d6ceb09580fab6f41eb52633998e17d8875dc30ee00a33b2dd9",
+      "future_logical_query_count": 3
+    },
+    "SH603345": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "51aeb5f5744c2f9b9dd4cda27e327da6dbc4fd4bf1d39175fc8a1cd53bc68347",
+      "future_logical_query_count": 3
+    },
+    "SH603486": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "e48c879f598c06c28e7a09d6b3308e3192da3fea7ddfe754b374a1079030d66e",
+      "future_logical_query_count": 3
+    },
+    "SH603529": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH603556": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH603565": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH603589": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH603596": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH603605": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH603606": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH603659": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "c9d5bf40652d6c9e40ebe151e6818a946103a0d13d5257374af4969c3ad710b4",
+      "future_logical_query_count": 3
+    },
+    "SH603688": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH603728": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH603737": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "5e56a870e15a9d4d04e244218d4804d7c4fe43223e3814a11d58facd13717ec3",
+      "future_logical_query_count": 3
+    },
+    "SH603766": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SH603816": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "a92b87b337a311cda175e4550d4fab2560ec7d9169701a8d85b2a11eb35f4f08",
+      "future_logical_query_count": 3
+    },
+    "SH603833": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "88f5d838bbb826d4b9bdf0c68f06adf7463d2b9d65a6b26d8c6945bb98d7b165",
+      "future_logical_query_count": 3
+    },
+    "SH603868": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SH603939": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "d7f6c5b29d400e8dd10f803d064abafcbc312b3eee1097c7ec6c124378a9c2a7",
+      "future_logical_query_count": 3
+    },
+    "SH603979": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SZ000021": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "a4b9956cfcc62f23900522512972d9df0890336af7ab6d0b507f7af9024a5c28",
+      "future_logical_query_count": 0
+    },
+    "SZ000039": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "bb6e7a6481d120f07709dd06d146e0921f8a43702c9f9ce6c322addf54dcaa16",
+      "future_logical_query_count": 0
+    },
+    "SZ000062": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "da797f8d56e3a7c5a8e6c5bae63d865d4b8333237cd701b2d861326c9fb30c08",
+      "future_logical_query_count": 0
+    },
+    "SZ000400": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "7e8b999e8f20082e2af42ee18154a7e6c54921a3000c6956529a0d3d78e2062f",
+      "future_logical_query_count": 0
+    },
+    "SZ000415": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SZ000423": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "5e3c23171a4b04c5cb6f7f32ba86f0910c1f2eb8065acae2bf79547b7de9ba0e",
+      "future_logical_query_count": 0
+    },
+    "SZ000429": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "41a44d8aadfbd0544f95d4a017ba31d5fd47ae63daf67e85dc7e176a9f5312a0",
+      "future_logical_query_count": 0
+    },
+    "SZ000528": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "03f31c1424ea5707f29174d890b0075fb9e42e292a9e7f3091ba23e7f4242a1a",
+      "future_logical_query_count": 0
+    },
+    "SZ000539": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SZ000581": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "875c45a0632e15bfa717a089bef224d180d1480981d08a9f628cab6071c290a3",
+      "future_logical_query_count": 0
+    },
+    "SZ000582": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "a9526710f826d83ae5eacf1e43dfb4e78f30e447f9d556f2a6b41d323f502ac2",
+      "future_logical_query_count": 0
+    },
+    "SZ000598": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "8cea6a01e049bbf7a222fa607ed77fcd3af11eebedff92e86e7c327f666cb8d0",
+      "future_logical_query_count": 0
+    },
+    "SZ000723": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "4798a38155f7ed7f489b2bd7d5941645351917fe5d5d475e15c99524dd892b75",
+      "future_logical_query_count": 3
+    },
+    "SZ000729": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SZ000786": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "1a5af62658001d0424bf2bbcce190ce9c513e8ddce5873a501018dcee4bdca25",
+      "future_logical_query_count": 0
+    },
+    "SZ000831": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SZ000883": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "4060cea47267436d6555022a8d49e83d96ca9d5a8c16fd9d1f78a6b1269da09c",
+      "future_logical_query_count": 0
+    },
+    "SZ000893": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "09a0e9ad0db7c532a023e298285f9b7045277d504d17f64a25485676783cc2d2",
+      "future_logical_query_count": 0
+    },
+    "SZ000921": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "6143bd6e6d79aa8aa1443fc8fd95c53c2ec41778499f4785b08626284da8e63a",
+      "future_logical_query_count": 0
+    },
+    "SZ000932": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "6d89f63d25472cbe0a9cfa691265adc650589c345f0c4a2e5b99da9e0d273a53",
+      "future_logical_query_count": 0
+    },
+    "SZ000937": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "6d2611e62e6308bfb4f3b24a0c733706b83abc4e2c8605331a26c89ce1144da3",
+      "future_logical_query_count": 0
+    },
+    "SZ000951": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "79cf89235f9aa46b2034389d920d41c1abb45da774c25e70cd1cfbc42070131d",
+      "future_logical_query_count": 0
+    },
+    "SZ000958": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "0ef396ef4aba4e7d11ad0085f44ff488d3e9557e725745abbf5ec2474b1b44ef",
+      "future_logical_query_count": 3
+    },
+    "SZ000975": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "e0fde42391911764c587a3999a4bbfcb7c063b79a83233c941d4986749ca4b82",
+      "future_logical_query_count": 0
+    },
+    "SZ000983": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SZ001203": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "d8107a450abb751801c076505bfe1049975180b60ab889abf29722fbb553fd8b",
+      "future_logical_query_count": 0
+    },
+    "SZ001227": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "51e6b045fbbe2cbe43e4936ce43c2e8a6ef4de0abb402c21f3abc1bb266abc08",
+      "future_logical_query_count": 0
+    },
+    "SZ001286": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "35a2f988fbede3ddf21a4c0cb19b6fa5b29b2735a310f9eb4352128f2ae1ae00",
+      "future_logical_query_count": 0
+    },
+    "SZ001696": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "acabec4d06189c98b506d01747579fa13d6b2065a01935d416364783997dfde8",
+      "future_logical_query_count": 0
+    },
+    "SZ001872": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "1b2fa53e7f118e0c7f2b1f14161c10ffeabbac6859fd4fcb2ab7d21cc8c38214",
+      "future_logical_query_count": 0
+    },
+    "SZ002007": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "5f51fb0f06a49f8bc39cb6b01d3016dd61859aba16dbe42c4d35c77e8d8dc66a",
+      "future_logical_query_count": 3
+    },
+    "SZ002030": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "2f6692e3553f64c749f181ef1edc0630a118d0e2110d75a1d2df91df69e20bbf",
+      "future_logical_query_count": 0
+    },
+    "SZ002032": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "3a741d8fcb6c9d419b186da684ba5fd3e1f2c74cf5b9618821d2687137a14a68",
+      "future_logical_query_count": 0
+    },
+    "SZ002078": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "391447623afbdb8a14446e7335d366fc495ca8321dfcaabd2bf1651325125c44",
+      "future_logical_query_count": 0
+    },
+    "SZ002092": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SZ002128": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "8531a27a78b2668b1fcd2b7b3dfd971df592501a7bc3222d3720eab7583328aa",
+      "future_logical_query_count": 0
+    },
+    "SZ002155": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "5dd9eacbe3d8892052e8b4b7f9b90be2a798b2029056349ef5be4cacc995201b",
+      "future_logical_query_count": 0
+    },
+    "SZ002157": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "e5d38aa1231ff50645db68066081a7cf9aa99ff862e0a0925e5466cea621b03e",
+      "future_logical_query_count": 3
+    },
+    "SZ002192": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "371a1f60c949af051f20f47a9092472755c0f0d82f1a38c78523a572597c47cf",
+      "future_logical_query_count": 0
+    },
+    "SZ002203": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "762e0348053af31b55f600b34ea6d24b7b03f4bf474552c310cb4ba848cb9245",
+      "future_logical_query_count": 0
+    },
+    "SZ002223": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "80f38a28afad878609431614583cbb5a03b260b49594a155d41e42b8fa78b9a4",
+      "future_logical_query_count": 0
+    },
+    "SZ002244": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "118e334278b4228c9253ae3e14ab4489813760e3f34b02d0511b09537818df90",
+      "future_logical_query_count": 0
+    },
+    "SZ002252": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SZ002261": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "cc65a49390549249a87b7f0b690bb049f621ebac8fe6b406201380f398cd68cc",
+      "future_logical_query_count": 0
+    },
+    "SZ002262": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "9d1d5efcb9381813f409926a9af9ced948d117b57dbf205d7426aab17665d329",
+      "future_logical_query_count": 0
+    },
+    "SZ002265": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SZ002294": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "d7216e900fecced5b24df0a28e8035a41939675c88dd32bc16720b7cf089b580",
+      "future_logical_query_count": 0
+    },
+    "SZ002299": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "309112f244d6959800ff15014464da0d4c38a33d22bf7e51921ba76b57ecef1b",
+      "future_logical_query_count": 3
+    },
+    "SZ002312": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "bb077256d6dff83735a130450921267c61726eb8306870d6d10306b4ff630bb7",
+      "future_logical_query_count": 0
+    },
+    "SZ002318": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "da43b20bb98fd32b9635685fed7e98055f82b6cb48113091060d07e5972c862f",
+      "future_logical_query_count": 0
+    },
+    "SZ002353": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "937334f3e4f2c759ee1c7e423fe48cd0e0d97b51ba341ff74c4bc219fe8869ae",
+      "future_logical_query_count": 0
+    },
+    "SZ002372": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "6211929d31c55d5b2fbd05978aeac27485e64e6fcd030e3b4c3c501e3204b96f",
+      "future_logical_query_count": 3
+    },
+    "SZ002385": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "e01775aa6a34cbd1f416f080595d809208a0f28fb285e13feb06d0429c58d231",
+      "future_logical_query_count": 3
+    },
+    "SZ002422": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "ab11e90fed256f3fc2d8265e9c64d9110ff1f251c7aa9ebb7b0ac8c0744d7c04",
+      "future_logical_query_count": 0
+    },
+    "SZ002423": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "6561b898af78472918511d1fbad9562d848ff3fab4c9669800db70c3b90cb3e4",
+      "future_logical_query_count": 0
+    },
+    "SZ002432": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "5f35dd260d87f81537a4287d07f2ba731f7299d0d12d5b9ae2ac2c4fbfd07cb5",
+      "future_logical_query_count": 0
+    },
+    "SZ002444": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "f1a813647c10f149e4b2e01d64ee0c8d26d1301ec25108425eb25044d88b5412",
+      "future_logical_query_count": 0
+    },
+    "SZ002461": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "low-beta60-raw-horizon-20261021",
+      "cache_packet_sha256": "dd5ffe124524f0ebd3526fa5d745eb8a4a2293d6b16c937fc12f8c06b979580d",
+      "future_logical_query_count": 0
+    },
+    "SZ002487": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "d2be0b49fc2fd3a19b0378ff5426e41c6995a54f71af8a42b4610a263d3b87db",
+      "future_logical_query_count": 0
+    },
+    "SZ002508": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "b6c4fda4d5b003fba5b913f1e814482d297de62d1576d6f28af42611b2b0d51a",
+      "future_logical_query_count": 0
+    },
+    "SZ002531": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SZ002563": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "2a5a5acf40d5890e31239c8d57c3447bf493df491470f4a818000c5bf4c45fe0",
+      "future_logical_query_count": 3
+    },
+    "SZ002568": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "ecfab079328d894aa55f4fac32b0e43fe0a4097a3780e2315b9d5211c0ac776b",
+      "future_logical_query_count": 3
+    },
+    "SZ002595": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "c7b318f85391d9f77247e26c65e5ff1487eb4ce203252845144d1f0538e868b1",
+      "future_logical_query_count": 0
+    },
+    "SZ002607": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "323267a4981617cebe16cb2fdbfd836845d419d0838302de92ad972d4989ad94",
+      "future_logical_query_count": 0
+    },
+    "SZ002608": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "4255a1dd199f53701f6f00c98548175b044dbcd96054365807f6eeadcc19e8df",
+      "future_logical_query_count": 0
+    },
+    "SZ002625": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "06f0b1d42fb2c3bbab1c18da212c632318d415b1b1ea6cc5af6c0220e01bd1ab",
+      "future_logical_query_count": 0
+    },
+    "SZ002653": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "6d902ac4db3613e047b1e3f9305f7860758f383d1c1f09a94635465f9515c697",
+      "future_logical_query_count": 0
+    },
+    "SZ002670": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "3e2eb9c38f0c858eb3adb17a4d485192884c9be84ec680036507a2f13e1dd050",
+      "future_logical_query_count": 0
+    },
+    "SZ002673": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "e42ef72d0b69a98c60b47673c862939e4e131a7e2a6dbb445619d86c00248a30",
+      "future_logical_query_count": 0
+    },
+    "SZ002756": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "f38a919eb4b2c6154ddb6e14be19fdbae1bd7ecd557266ef124d3c1ecf384e75",
+      "future_logical_query_count": 0
+    },
+    "SZ002812": {
+      "source_class": "whole_cache",
+      "baseline": null,
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "861a12e557e58ed23189937b4bd41a9bd309bfd646c75e55df8c8514797a0fb9",
+      "future_logical_query_count": 0
+    },
+    "SZ002821": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "72b790e81ad2dfdc14f98276c4a3053d934bb323745dd30af1f2ef94cafc74ba",
+      "future_logical_query_count": 3
+    },
+    "SZ002831": {
+      "source_class": "cold",
+      "baseline": null,
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 5
+    },
+    "SZ002851": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "a2eedb9616ed00f74ae3fd62152faad355b127d41470621bdfa85e4ab4db5c91",
+      "future_logical_query_count": 0
+    },
+    "SZ002865": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "10d02d168cbe0e5d9c78597339e7af473372a38fbf8feef1ae5d5e09f79e48fc",
+      "future_logical_query_count": 0
+    },
+    "SZ002945": {
+      "source_class": "incremental",
+      "baseline": "original_price_delay",
+      "cache_route": null,
+      "cache_packet_sha256": null,
+      "future_logical_query_count": 3
+    },
+    "SZ002966": {
+      "source_class": "whole_cache",
+      "baseline": "original_price_delay",
+      "cache_route": "szse-value-momentum-raw-full-v2-20261021",
+      "cache_packet_sha256": "309d5136e565c7f1f31bd7d034d4fff57443585ac322f29696360888b6939b0e",
+      "future_logical_query_count": 0
+    },
+    "SZ003035": {
+      "source_class": "incremental",
+      "baseline": "fixed_priority_partial_cache_pre2026_prefix",
+      "cache_route": "reversal-raw-full-20261017",
+      "cache_packet_sha256": "5bfd142fd8ff7538ef1331a1c3905b8fe8f3139f653777da14f52ee19b3a01c3",
+      "future_logical_query_count": 3
+    }
+  },
+  "source_admitted_for_replay": false,
+  "new_network_queries_executed": 0,
+  "portfolio_returns_computed": false,
+  "investment_rule_changed": false,
+  "objective_achieved": false
+}

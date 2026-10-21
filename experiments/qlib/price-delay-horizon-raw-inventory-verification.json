@@ -1,0 +1,21 @@
+{
+  "status": "RAW_COVERAGE_INVENTORY_AND_SOURCE_BUDGET_INDEPENDENTLY_RECONSTRUCTED_NOT_ADMISSION",
+  "inventory_freeze_commit": "e61a830",
+  "inventory_execution_exit_code": 0,
+  "inventory_sha256": "374e584d9eb7d7adc257acd6fba7bc2684331d024ccf1456dd6f7b84ea7c5d45",
+  "independent_review_sha256": "918efcc4ac96e131b1940c5ea6c7acc34db9e2555474cb3a137fb8dd239fac06",
+  "root_review_reproduction_byte_identical": true,
+  "full_cache_names": 102,
+  "partial_cache_names": 35,
+  "no_full_window_cache_names": 66,
+  "planned_whole_packet_reuse": 102,
+  "planned_incremental_names": 80,
+  "planned_cold_names": 21,
+  "planned_logical_query_budget": 345,
+  "raw_core_common_date_conflicts": 0,
+  "original_pre2026_overlap_differences": 0,
+  "new_network_queries_executed": 0,
+  "source_admitted_for_replay": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

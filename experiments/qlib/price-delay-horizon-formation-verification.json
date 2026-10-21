@@ -1,0 +1,18 @@
+{
+  "status": "ALL34_FORMATIONS_INDEPENDENTLY_RECONSTRUCTED_WITH_IDENTICAL_ORIGINAL24",
+  "freeze_commit": "27da939",
+  "plan_sha256": "0a2d18136247770b0ef605063d8f818c1f75940e4e20a3d754b261dccc997b82",
+  "execution_exit_code": 0,
+  "summary_sha256": "0be48d36c005a98945b2a006241d20c1573dfe4c87845d9afcbd599a5dd9a168",
+  "independent_audit_sha256": "e742386b1a6df1be95c5798fbc3596d0ec6f248df35df436626c75ea26f6507a",
+  "root_reproduction_byte_identical": true,
+  "formations": 34,
+  "original_formations_identical": 24,
+  "actual_OLS_fits_independently_reconstructed": 12875,
+  "original_financial_files_unchanged": 48,
+  "original_physical_feature_prefixes_unchanged": 4010,
+  "new_2026_market_values_read": true,
+  "investment_rule_changed": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
