@@ -1,0 +1,17 @@
+{
+  "status": "PRICE_DELAY_PRE2026_MINUTE_CAPTURE_RECORDED",
+  "candidate": "price_delay_d1",
+  "capture_plan_sha256": "82468c0329f042eee6b8152dcb53f1d573a21f4b32843cf8e9d73d1bcd500904",
+  "request_sha256": "8c9ce7b9e9519f86349447f3e3bb3760b12e610b8dcd59a8a2c417a0babd4dee",
+  "legacy_helper_manifest_sha256": "c84cc697810d20b693d24c0e84963ee3af4f3823d5d0b109dc6047c0a1e5f57b",
+  "legacy_status_marker_preserved": true,
+  "expected_active_pairs": 2502,
+  "fixed_reused_pairs": 1584,
+  "maximum_fresh_logical_reservations": 918,
+  "complete_capture": true,
+  "cleanup_sha256": "6b66d41d8070d219dcba76946de32208aeb8b5cceeb6eb5d3b9a656f57a2071d",
+  "new_2026_queries": false,
+  "admitted_for_reconstructed_execution": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PRICE_DELAY_LOCAL_ADMISSION_METHOD_FROZEN_BEFORE_FORMAL_SOURCE_VERDICT",
+  "plan_sha256": "cc70219562042601e1454398d28957411f756fe0417c1f11db72c0a4760ff1c2",
+  "code_review_sha256": "63a63169754b3c30fccbd1795a02db7329cfc80795555645d8f5b41d4a1643b7",
+  "ready_to_execute_local_source_verdict": true,
+  "known_source_quality_questions_count": 12,
+  "known_questions_are_not_removed_or_repaired": true,
+  "full_suite_tests": 575,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 11.395,
+  "source_admission_executed": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_values_queried": false,
+  "objective_achieved": false
+}

@@ -1,0 +1,52 @@
+{
+  "status": "FROZEN_PRICE_DELAY_PRE2026_MINUTE_SOURCE_ADMISSION",
+  "candidate": "price_delay_d1",
+  "required_active_sessions": 2502,
+  "window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "fixed_reused_pairs": 1584,
+  "exact_fresh_reservations": 918,
+  "nonexecuting_source_intervals": 2,
+  "method_code_sha256": {
+    "scripts/capture_price_delay_minutes_pre2026.py": "25501164dc357f7217bcab973e435872d94680b2b902d5410b0f6c05ea9efa1f",
+    "scripts/capture_low_beta60_minutes_pre2026.py": "5a1cfa651c593d7867311270d9810aec5ef1ddc5f5f34c6fd735b998e4aad417",
+    "scripts/admit_low_beta60_minutes_pre2026.py": "bd9b6f1051d06520a257a635314c2b7c27be5c0109faa3f9ff9102eb2554fff7",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/illiquidity_minute_sources.py": "6823f1a6f14a0b81732f589b4faa83442c434f8fd70b09f128bd0525bddd0fc6",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/admit_price_delay_minutes_pre2026.py": "939c22c57a9fcea0b2bd0b03c36849da1e1a489ccec20c5a1327cdfd98a260a8"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/price-delay-minute-capture-plan.json": "82468c0329f042eee6b8152dcb53f1d573a21f4b32843cf8e9d73d1bcd500904",
+    "experiments/qlib/price-delay-minute-gap-identities.json": "8c9ce7b9e9519f86349447f3e3bb3760b12e610b8dcd59a8a2c417a0babd4dee",
+    "experiments/qlib/price-delay-minute-capture-independent-audit.json": "e6f339a756bbcd5a617cb8512cd05f19d376c7dfe0711f7f7b18f7a4c36501a2",
+    "experiments/qlib/price-delay-minute-capture-manifest.json": "c84cc697810d20b693d24c0e84963ee3af4f3823d5d0b109dc6047c0a1e5f57b",
+    "experiments/qlib/price-delay-minute-capture-scope.json": "fa94a542d49032d4012839b50809c8a39a31a09f0e108d17cc7c602a4eb1c7ef",
+    "experiments/qlib/price-delay-minute-capture-verification.json": "8da0e70e5d60c29cbd006d05962089d414f9811478cd33d8c9563ed7e5ba2f79",
+    "docs/research/price-delay-minute-admission-plan-2026-10-21.md": "4e2edace9c9d72a5ff17a1b7dc2192953d25eaff5a08345fff4fe5decc5d4a94"
+  },
+  "local_source_sha256": {
+    "price-delay-minutes-dev-20261021/plan.json": "82468c0329f042eee6b8152dcb53f1d573a21f4b32843cf8e9d73d1bcd500904",
+    "price-delay-minutes-dev-20261021/request.json": "8c9ce7b9e9519f86349447f3e3bb3760b12e610b8dcd59a8a2c417a0babd4dee",
+    "price-delay-minutes-dev-20261021/capture_request.json": "7bbc7ee517d66b67c09b509ca6c476cd7e3310911b193f62a4a292c4952dee82",
+    "price-delay-minutes-dev-20261021/manifest.json": "c84cc697810d20b693d24c0e84963ee3af4f3823d5d0b109dc6047c0a1e5f57b",
+    "price-delay-minutes-dev-20261021/price-delay-scope.json": "fa94a542d49032d4012839b50809c8a39a31a09f0e108d17cc7c602a4eb1c7ef",
+    "price-delay-minutes-dev-20261021/client_cleanup.json": "6b66d41d8070d219dcba76946de32208aeb8b5cceeb6eb5d3b9a656f57a2071d"
+  },
+  "capture_plan_sha256": "82468c0329f042eee6b8152dcb53f1d573a21f4b32843cf8e9d73d1bcd500904",
+  "request_sha256": "8c9ce7b9e9519f86349447f3e3bb3760b12e610b8dcd59a8a2c417a0babd4dee",
+  "capture_manifest_sha256": "c84cc697810d20b693d24c0e84963ee3af4f3823d5d0b109dc6047c0a1e5f57b",
+  "output_relative": "price-delay-minute-admission-20261021",
+  "network_calls_permitted": 0,
+  "portfolio_returns_computed": false,
+  "new_2026_market_values_queried": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

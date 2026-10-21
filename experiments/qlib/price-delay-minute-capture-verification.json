@@ -1,0 +1,22 @@
+{
+  "status": "PRICE_DELAY_CAPTURE_COMPLETE_INDEPENDENTLY_RECONSTRUCTED_SOURCE_ADMISSION_SEPARATE",
+  "capture_freeze_commit": "20ac7263661be271c31aa91b648a4218622f0e30",
+  "capture_plan_sha256": "82468c0329f042eee6b8152dcb53f1d573a21f4b32843cf8e9d73d1bcd500904",
+  "source_capture_exit_code": 0,
+  "captured_packets": 2502,
+  "byte_copies": 1584,
+  "fresh_reservations": 918,
+  "fresh_responses": 918,
+  "independent_audit_file": "experiments/qlib/price-delay-minute-capture-independent-audit.json",
+  "independent_audit_sha256": "e6f339a756bbcd5a617cb8512cd05f19d376c7dfe0711f7f7b18f7a4c36501a2",
+  "root_reproduction_byte_identical": true,
+  "source_quality_questions_count": 12,
+  "source_quality_problem": "12 original SZ002092 rows have isST=1; no automatic exclusion or zero-ownership inference",
+  "capture_freeze_full_suite_tests": 571,
+  "capture_freeze_full_suite_exit_code": 0,
+  "admitted_for_reconstructed_execution": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_values_queried": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

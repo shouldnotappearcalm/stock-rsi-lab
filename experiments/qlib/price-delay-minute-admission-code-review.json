@@ -1,0 +1,26 @@
+{
+  "status": "SCOPED_CODE_FIX_REVIEW_PASS_NO_ACTUAL_ADMISSION",
+  "script_sha256": "939c22c57a9fcea0b2bd0b03c36849da1e1a489ccec20c5a1327cdfd98a260a8",
+  "test_sha256": "a267f50bcc35bf82ef9d2d8bcbce504643b171590a8d5809e15f956747ddbd77",
+  "previous_important_output_binding_resolved": true,
+  "mandatory_typed_metadata_verified": true,
+  "fixed_output_relative": "price-delay-minute-admission-20261021",
+  "exact_method_public_local_sets_retained": true,
+  "main_validates_plan_before_source_processing": true,
+  "existing_four_tests_passed": true,
+  "additional_missing_fields_wrong_capture_subdirectory_and_bool_int_type_probes_rejected": true,
+  "original_ST1_guard_retained": true,
+  "synthetic_ST1_rejection_error": "source security/date/ordinary active state changed",
+  "critical_findings": [],
+  "important_findings": [],
+  "limits": [
+    "This confirms the code fix, not a successful source admission. No actual2502-packet admission run performed.",
+    "The reported12SZ002092 ST rows were not recounted here; any such source row remains rejected by the unchanged ordinary-board guard and cannot satisfy all2502 admitted status counts.",
+    "If a rejected ST row is fresh it is retained as SOURCE_REJECTED; inherited reused-source authentication may instead fail earlier for a reused ST row. Neither path grants admission."
+  ],
+  "actual_admission_run": false,
+  "network_calls": 0,
+  "portfolio_returns_computed": false,
+  "2026_market_values_read": false,
+  "repository_files_modified": false
+}
