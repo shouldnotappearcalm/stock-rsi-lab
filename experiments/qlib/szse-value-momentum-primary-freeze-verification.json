@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_TWO_PRIMARY_SOURCE_QUERIES_NO_NETWORK_YET",
+  "request_sha256": "0063aa7cfcd0ca4b9d3b129941c34a413b34afccbdb87711f810c64321b86ed9",
+  "code_review_sha256": "cf37e5f01021b8dd87cb78625da2c4ba1ef0db7d265f030e9f6ca23770038c29",
+  "full_tests_passed": 490,
+  "full_test_log_sha256": "c2eb068090ea485e25a78d5710b2a1e3d680b43a769e5d5262504e7fcd0ae376",
+  "actual_preflight_passed": true,
+  "actual_output_directory_exists": false,
+  "fresh_originals": 2,
+  "authenticated_byte_copy_originals": 4,
+  "maximum_new_HTTP_reservations": 2,
+  "max_attempts_per_identity": 1,
+  "portfolio_returns_computed": false,
+  "source_admitted_for_account_replay": false,
+  "new_2026_market_queries": false,
+  "objective_achieved": false
+}

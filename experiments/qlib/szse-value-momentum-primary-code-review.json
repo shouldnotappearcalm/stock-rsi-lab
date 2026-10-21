@@ -1,0 +1,98 @@
+{
+  "status": "INDEPENDENT_FIXED_PRIMARY_CAPTURE_CODE_REVIEW_APPROVED_NO_CRITICAL_OR_IMPORTANT_FINDINGS",
+  "base_commit": "6e7cf89757e3492b158424407a2de9f735c178ee",
+  "request_sha256": "0063aa7cfcd0ca4b9d3b129941c34a413b34afccbdb87711f810c64321b86ed9",
+  "method_code_sha256": {
+    "scripts/capture_value_momentum_primary_pre2026.py": "bdf0c1f05f6c5ecde67cc31fc5cea82ccfdc1950ffbf0559c69ccca054060f22",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "public_inputs_sha256": {
+    "docs/research/szse-value-momentum-primary-source-plan-2026-10-21.md": "8817eb821fcecbc638794eb38e6c60a1393e8eeb29b4efa966d697c9de9b5117",
+    "experiments/qlib/szse-value-momentum-raw-source-independent-audit.json": "65be118174da3e3e2e7e7cf9f8b26318f91700086fe90bceeb37d4d077fda281",
+    "experiments/qlib/szse-value-momentum-raw-source-manifest.json": "6c8c1cd640751e647f80774e83691ddf1b0907fbc1be86a4120e6a1de7f587ea"
+  },
+  "local_inputs_sha256": {
+    "szse-value-momentum-raw-dev-20261021/manifest.json": "6c8c1cd640751e647f80774e83691ddf1b0907fbc1be86a4120e6a1de7f587ea",
+    "szse-value-momentum-formations-pre2026-20261021/targets.json": "50ffb7748445baec563789ef821aa6ef861dfbd6c1859ba7a870ad11c2ed6f86",
+    "budgeted-residual-corporate-reviewed-20261021/reviewed-manifest.json": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247"
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "minor_findings": [],
+  "strengths": [
+    "Fresh scope is exactly two fixed2024 original CNINFO PDF URLs with GET-only payloads and safe exact filenames; request checksum and five capture-method hashes are checked before output or HTTP.",
+    "Frozen raw manifest, independent source audit, composite targets, protocol and original reviewed manifest authenticate the source questions and four original-copy identities. Reused metadata must exactly belong to the reviewed document set and every PDF hash must match.",
+    "The unchanged read_wire helper enforces20second timeout,10MiB maximum body, complete response and matching final URL, while blocking redirects. Journal persistence precedes response/PDF acceptance and preserves partial/error envelopes.",
+    "Two cross-restart HTTP reservations and one attempt per identity bound the fresh requests. Completed/error checkpoints are immutable, failed documents are skipped on restart, and orphan response files stop rather than being overwritten.",
+    "Capture manifest separately marks document financial review, listing boundary, supplementary distribution, raw account admission and all return/promotion claims unverified or false."
+  ],
+  "fresh_validation": {
+    "actual_preflight": {
+      "exit_code": 0,
+      "read_wire_forbidden_by_sentinel": true,
+      "socket_connect_forbidden_by_sentinel": true,
+      "HTTP_calls": 0,
+      "network_connections": 0,
+      "planned_output_created": false
+    },
+    "all_five_capture_methods_matched_request": true,
+    "all_three_public_and_three_local_bindings_matched": true,
+    "four_reviewed_copy_hashes_and_original_review_membership_matched": true,
+    "focused_tests": {
+      "passed": 8,
+      "new_exact_scope_test": 1,
+      "inherited_transport_tests_without_HTTP": 7,
+      "exit_code": 0
+    },
+    "mock_capture": {
+      "two_exact_fixed_GET_urls_only": true,
+      "two_query_reservations": true,
+      "four_copy_files_byte_identical": true,
+      "successful_six_document_state": true,
+      "five_document_one_error_state": true,
+      "HTTP_503_body_retained": true,
+      "successful_and_failed_restart_requery_count": 0,
+      "successful_and_failed_restart_byte_changes": 0,
+      "all_admission_and_return_flags_false": true,
+      "real_HTTP_requests": 0,
+      "temporary_outputs_removed": true
+    },
+    "NoRedirect_policy_inspected_and_returns_None": true,
+    "transport_MAX_BODY_bytes": 10485760,
+    "transport_timeout_seconds": 20,
+    "full_suite_log_inspected": {
+      "path": "/tmp/stock-rsi-value-momentum-primary-full-20261021.log",
+      "passed": 490,
+      "seconds": 11.149,
+      "result": "OK",
+      "reviewer_reran_full_suite": false
+    },
+    "original_capture_helpers_unchanged_from_base": true,
+    "synthetic_review_script": "/tmp/value-momentum-primary-synthetic-review-20261021.py",
+    "synthetic_review_script_sha256": "15f51caba42e078a211015f91047523bc10a6da2398b4138ad57ce8b2c896c27"
+  },
+  "ready_for_capture": true,
+  "approval_scope": "Only the frozen two original PDF requests and four exact reviewed copies after freeze/push. Content review, listing/corporate evidence, compiler/account admission and any return result remain separate.",
+  "assessment": "The exact0063aa7c request and bound methods are ready for the fixed primary source capture after publication/freeze. No Critical or Important issue was identified. Actual PDF contents and financial/lifecycle implications require subsequent independent content review; capture success does not establish issuer entitlement, listing status, tax treatment or account admission.",
+  "declined_to_judge": [
+    "Actual content or availability of the two not-yet-fetched PDFs: no HTTP request was performed in this review.",
+    "SZ001389 listing boundary or SZ002508 supplementary cash/share entitlement: content review and later separately frozen compiler/lifecycle scope are explicitly required.",
+    "Broader exemption or tax proof from the four reused documents: review membership and original-byte identity were authenticated without enlarging their original evidence scope.",
+    "Actual transport wall-clock completion:20seconds is the configured HTTP timeout and mocks verify response handling; no live transport was exercised.",
+    "Historical RED-before-code chronology and independent full-suite rerun: fresh scope/transport tests passed and full490 success was checked in the coordinator log."
+  ],
+  "repository_edits_performed": false,
+  "original_source_files_edited": false,
+  "actual_HTTP_requests": 0,
+  "actual_capture_output_exists": false,
+  "accounts_imported_or_computed": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_queries": false,
+  "2026_outcomes_used_as_rule_feedback": false,
+  "documents_financially_reviewed": false,
+  "raw_source_admitted_for_account_replay": false,
+  "objective_achieved": false
+}

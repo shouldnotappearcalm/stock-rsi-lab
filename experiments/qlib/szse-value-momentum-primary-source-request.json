@@ -1,0 +1,127 @@
+{
+  "status": "FROZEN_VALUE_MOMENTUM_TWO_PRIMARY_ORIGINALS",
+  "candidate": "szse_value_momentum_equal",
+  "fresh_documents": [
+    {
+      "instrument": "SZ002508",
+      "day": "2024-01-03",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-01-03/1218790856.PDF",
+      "file": "SZ002508-2024-01-03.pdf"
+    },
+    {
+      "instrument": "SZ001389",
+      "day": "2024-04-01",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-01/1219474753.PDF",
+      "file": "SZ001389-2024-04-01.pdf"
+    }
+  ],
+  "reuse_documents": [
+    {
+      "code": "002155",
+      "title": "2024\u5e74\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+      "day": "2025-06-07",
+      "timestamp_ms": 1749225600000,
+      "announcement_id": "1223802556",
+      "pdf_path": "finalpage/2025-06-07/1223802556.PDF",
+      "instrument": "SZ002155",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-06-07/1223802556.PDF",
+      "file": "SZ002155-2025-06-07.pdf",
+      "sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/7a3afdebacf7111267ccb51bde408ea0ecf951ddbad45dd806c7845d4f7efab3/request.json",
+        "request_sha256": "62476ab55b0382c6078d3a02b7e30f0b0706bff4823007468dd1a5442c670ba0",
+        "reserved_file": "queries/7a3afdebacf7111267ccb51bde408ea0ecf951ddbad45dd806c7845d4f7efab3/reserved-1.json",
+        "reserved_sha256": "d0ce2692e471fe7544115b336f36a64c231fdde16a1210ce7e1c63b0ad25b0dd",
+        "response_file": "queries/7a3afdebacf7111267ccb51bde408ea0ecf951ddbad45dd806c7845d4f7efab3/response-1.json",
+        "response_sha256": "24f2dfc924cd18b8521c193fbca5585fb16c2020f1658f8137d2a676caaebbd5"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    },
+    {
+      "code": "002837",
+      "title": "2023\u5e74\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+      "day": "2024-05-18",
+      "timestamp_ms": 1715961600000,
+      "announcement_id": "1220088498",
+      "pdf_path": "finalpage/2024-05-18/1220088498.PDF",
+      "instrument": "SZ002837",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-05-18/1220088498.PDF",
+      "file": "SZ002837-2024-05-18.pdf",
+      "sha256": "b9ad0b843a59defb2117aac32655817bb92702ec3f5aa2012f8a06aeb186e4b1",
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/a19010f07828a898eea5137f9f218e67da0f182f519c7aa1980651a4386b766a/request.json",
+        "request_sha256": "dea6bf78d607e82c42c25cd8faaa8bfa385af3695d43ef62a54851e98f74825e",
+        "reserved_file": "queries/a19010f07828a898eea5137f9f218e67da0f182f519c7aa1980651a4386b766a/reserved-1.json",
+        "reserved_sha256": "d6807b480a0cdff40d50ae80bd8cc259ff65dc7fab3dfffa603b338b9e5cbd45",
+        "response_file": "queries/a19010f07828a898eea5137f9f218e67da0f182f519c7aa1980651a4386b766a/response-1.json",
+        "response_sha256": "a7f2a4d6bd9b9f41b6560932123297807914d5db6e53e1f3855e70d38a6e3be8"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    },
+    {
+      "code": "002837",
+      "title": "2024\u5e74\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+      "day": "2025-05-23",
+      "timestamp_ms": 1747929600000,
+      "announcement_id": "1223633252",
+      "pdf_path": "finalpage/2025-05-23/1223633252.PDF",
+      "instrument": "SZ002837",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-23/1223633252.PDF",
+      "file": "SZ002837-2025-05-23.pdf",
+      "sha256": "7861fcd7337b44cae11bf34cef5c1c455953adc917d7243df223b503c9e3e367",
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/1bcc78e0a1f235e2fae0f4e5272ddbacc827dd10a4eaba5cff817667d015c670/request.json",
+        "request_sha256": "469bf3948b6b52477fc44bdc58b7267391a5652a98a8bf1c5bf3438f1b3b0b71",
+        "reserved_file": "queries/1bcc78e0a1f235e2fae0f4e5272ddbacc827dd10a4eaba5cff817667d015c670/reserved-1.json",
+        "reserved_sha256": "a7751b7f6c8cf713fbec644a1bf4bb3061d21cd0e339580a4825bb9c7d4bb457",
+        "response_file": "queries/1bcc78e0a1f235e2fae0f4e5272ddbacc827dd10a4eaba5cff817667d015c670/response-1.json",
+        "response_sha256": "74463bd1c5ed16d067bb261f836849ff298cb1ad8bb90b70d942f6d11b1cfb7f"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    },
+    {
+      "code": "002984",
+      "title": "2023\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+      "day": "2024-04-12",
+      "timestamp_ms": 1712851200000,
+      "announcement_id": "1219584416",
+      "pdf_path": "finalpage/2024-04-12/1219584416.PDF",
+      "instrument": "SZ002984",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-12/1219584416.PDF",
+      "file": "SZ002984-2024-04-12.pdf",
+      "sha256": "8e7b30276e1e33199ca0e810c9924f43f258258aad60f53d3600311ba196b674",
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/4d66fb91eb8c300916479b7b2d06450960c4b3371f95a9c099fb214fb1d7185e/request.json",
+        "request_sha256": "78cb3ec2ec4d1f9caf0b79fbd7c592dd8a9680bb5eccf37d9980a8b67dfc16ee",
+        "reserved_file": "queries/4d66fb91eb8c300916479b7b2d06450960c4b3371f95a9c099fb214fb1d7185e/reserved-1.json",
+        "reserved_sha256": "57c720c790e448661e765c69df43d403b9288ebaf634cb47129635d441a25d63",
+        "response_file": "queries/4d66fb91eb8c300916479b7b2d06450960c4b3371f95a9c099fb214fb1d7185e/response-1.json",
+        "response_sha256": "9f0910f8c56ba09861c8239ad1c67d1b72f254cec9601ca00d1dba4e5483ea14"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    }
+  ],
+  "maximum_new_HTTP_reservations": 2,
+  "max_attempts_per_identity": 1,
+  "method_code_sha256": {
+    "scripts/capture_value_momentum_primary_pre2026.py": "bdf0c1f05f6c5ecde67cc31fc5cea82ccfdc1950ffbf0559c69ccca054060f22",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "public_inputs_sha256": {
+    "docs/research/szse-value-momentum-primary-source-plan-2026-10-21.md": "8817eb821fcecbc638794eb38e6c60a1393e8eeb29b4efa966d697c9de9b5117",
+    "experiments/qlib/szse-value-momentum-raw-source-independent-audit.json": "65be118174da3e3e2e7e7cf9f8b26318f91700086fe90bceeb37d4d077fda281",
+    "experiments/qlib/szse-value-momentum-raw-source-manifest.json": "6c8c1cd640751e647f80774e83691ddf1b0907fbc1be86a4120e6a1de7f587ea"
+  },
+  "local_inputs_sha256": {
+    "szse-value-momentum-raw-dev-20261021/manifest.json": "6c8c1cd640751e647f80774e83691ddf1b0907fbc1be86a4120e6a1de7f587ea",
+    "szse-value-momentum-formations-pre2026-20261021/targets.json": "50ffb7748445baec563789ef821aa6ef861dfbd6c1859ba7a870ad11c2ed6f86",
+    "budgeted-residual-corporate-reviewed-20261021/reviewed-manifest.json": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247"
+  },
+  "accepted_source_cutoff": "2025-12-31",
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_queries": false
+}

@@ -4890,6 +4890,16 @@
     "2026_values_or_returns_queried": false,
     "controls_promoted": false,
     "raw_share_execution_verified": false,
-    "objective_achieved": false
+    "objective_achieved": false,
+    "raw_source_capture": {
+      "status": "SOURCE_CAPTURE_RECONSTRUCTED_ADMISSION_STILL_PENDING",
+      "manifest_file": "experiments/qlib/szse-value-momentum-raw-source-manifest.json",
+      "audit_file": "experiments/qlib/szse-value-momentum-raw-source-independent-audit.json",
+      "verification_file": "experiments/qlib/szse-value-momentum-raw-source-verification.json",
+      "source_names": 103,
+      "raw_daily_bars": 49998,
+      "source_admitted_for_account_replay": false,
+      "new_2026_market_queries": false
+    }
   }
 }
