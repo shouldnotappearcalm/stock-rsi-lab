@@ -1,0 +1,2 @@
+# HTML source-parser regressions run in both CI jobs; core runtime stays stdlib-only.
+beautifulsoup4==4.15.0

@@ -85,9 +85,11 @@ A股模块化投资skill研究项目。首个闭环是**明确时间范围、按
 
 ## 运行
 
-Python 3.11+，基础运行与测试只用标准库，不需要安装依赖。以下在项目根目录执行：
+Python 3.11+，基础运行只用标准库；完整测试还包含HTML来源解析，需要安装测试依赖。
+以下在项目根目录执行（建议使用独立虚拟环境）：
 
 ```bash
+python3 -m pip install -r requirements-test.txt
 PYTHONPATH=src python3 -m unittest discover -s tests -v
 
 PYTHONPATH=src python3 -m stock_rsi snapshot \
