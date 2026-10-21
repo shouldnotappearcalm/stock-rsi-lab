@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/prepare_value_momentum_2026_targets.py", line 126, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ^^^^^^
+  File "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/prepare_value_momentum_2026_targets.py", line 111, in main
+    raise ValueError('all34 causal monthly decisions andOctober target required')
+ValueError: all34 causal monthly decisions andOctober target required

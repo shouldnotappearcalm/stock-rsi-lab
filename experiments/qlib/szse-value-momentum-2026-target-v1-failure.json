@@ -1,0 +1,25 @@
+{
+  "status": "V1_TARGET_GENERATION_REJECTED_WRONG_HARDCODED_OCTOBER_SESSION",
+  "freeze_commit": "b6a7d03",
+  "plan_sha256": "def732cd248a52af6fbdc731deab683e7228ca7c2275d3df993bf18c4db36f71",
+  "original_script_sha256": "fa9cba976a36d0bec62f6944316a2edc9664e4e111b0c99555c24c33cbee2c75",
+  "actual_exit_code": 1,
+  "log_sha256": "79631fc7b9b86451111bed2df5ce5ae39c26d53dcd38e332d76125607f85ca28",
+  "error": "ValueError: all34 causal monthly decisions andOctober target required",
+  "source_calendar_sha256": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+  "source_October_sessions": [
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-12",
+    "2026-10-13"
+  ],
+  "hardcoded_assumption": "2026-10-09",
+  "source_first_October_session": "2026-10-08",
+  "all24_development_targets_and_receipts_prefix_check_completed_before_failure": true,
+  "original_output_created": false,
+  "new_2026_factor_features_read": true,
+  "2026_strategy_returns_computed": false,
+  "account_replay_performed": false,
+  "investment_code_changed": false,
+  "objective_achieved": false
+}

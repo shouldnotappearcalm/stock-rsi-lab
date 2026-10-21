@@ -1,0 +1,101 @@
+{
+  "status": "SCOPED_PEER_2026_TARGET_V2_CODE_REVIEW_COMPLETE",
+  "ready_for_target_extension": true,
+  "critical_findings": [],
+  "important_findings": [],
+  "blocking_findings": [],
+  "plan_sha256": "2de3e43f47e3317619ac6587aa326f13e9562a17caf6562a849dbefea7a2bcd1",
+  "plan_file": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-2026-target-v2-plan.json",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_szse_value_momentum_pre2026.py": "904bc0e2ff0a891f3a9df9ea377acab97b21fa62cd0fc1802d0ee5940dc3de7d",
+    "src/stock_rsi/budgeted_lot_orders.py": "4fe22e63c5fdd89934bb7b4b498e0ca0fd65019ea250c44e05637468d1bfd097",
+    "src/stock_rsi/budgeted_qlib_strategy.py": "4b4b08fff4e7607f39f07310a3d33029db0a7b9d1c8acd9ca2c0dba6c8dc3811",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/szse_monthly.py": "c3ad059f06694401f4027c592cc71387808c129523a54992f086d0205588a8ef",
+    "src/stock_rsi/exchange_value_momentum.py": "aeb70a401076906f8f529527d0b6ae3973bb794cada258bf530ea2ff4c94f87a",
+    "scripts/prepare_value_momentum_2026_targets.py": "fa9cba976a36d0bec62f6944316a2edc9664e4e111b0c99555c24c33cbee2c75",
+    "scripts/prepare_value_momentum_2026_targets_v2.py": "bf2bdb24b65d0bb01378e78eaf9e268739d2cb33fb8925c6218618471e80f32f",
+    "src/stock_rsi/exchange_value_momentum_extended.py": "6e01df162b825f46ae9d200f96889a947ce05d96107014a12573a2db308d11d4",
+    "scripts/run_qlib_low_risk_goal_diagnostic_2026.py": "2f50584bb898da8b49a5f28196d36397c0262d3b1064b902647d5c622eec64a4",
+    "scripts/prepare_szse_value_frozen_2026_targets.py": "1c51a0e3bc8340f04954b4be86c8b2170381c28583c1e3ef69aa666b860e72b9",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "v1_plan_sha256": "def732cd248a52af6fbdc731deab683e7228ca7c2275d3df993bf18c4db36f71",
+  "v1_failure_sha256": "04df88f48770cd618bc265d3c0107c6286dbe4b81f9d1e2235aaf40be9737cbb",
+  "v1_failure_log_sha256": "79631fc7b9b86451111bed2df5ce5ae39c26d53dcd38e332d76125607f85ca28",
+  "resolved_finding": {
+    "priority": "Important",
+    "issue": "V1evaluator guessedOctober9instead of deriving the month-transition session from the authenticated source calendar. Frozen investment builder already selected the first source session and was not changed.",
+    "resolution": "IsolatedV2monthly_execution_sessions derives the full sequence from sorted unique explicit calendar dates. verify_monthly_target_identities requires exact34keys in every composite/control family, exact receipt sequence without duplicates/gaps/extras, and each target/receipt formation equal to the immediately preceding explicit session.",
+    "fix_verified": true,
+    "V1code_plan_doc_failure_and_log_preserved": true,
+    "reviewer_prior_oversight_acknowledged": true
+  },
+  "reviewed_contract": {
+    "source_calendar_identity": "Derived from authenticated provider calendar; no fixedOctober8/9or weekday assumption. Runtime checks source calendar ends2026-10-13.",
+    "unchanged_investment": "Extended economic module unchanged fromV1and AST-proven to differ from original only in explicit date permission; no stock/rank/weight/lag/threshold/selection change.",
+    "authentication_order": "All six development profiles,42financial artifacts, frozen audit/review and original tested methods authenticated before any new provider/feature stage.",
+    "prefix": "All three family maps through2025and complete formation receipt prefix must still serialize byte-identically to originals before output.",
+    "target_only": "One fixed composite,34monthly targets plus family/formation evidence; controls not selectable; no account or strategy return code called.",
+    "permission_boundaries": "Factor reads constrained to formation_asof; target-source endOctober13, later proposed account endOctober20onlyinterim; fullOctober incomplete."
+  },
+  "actual_verification": {
+    "targeted_tests": {
+      "count": 8,
+      "result": "OK",
+      "suites": [
+        "tests.test_value_momentum_2026_source_calendar",
+        "tests.test_value_momentum_2026_permission",
+        "tests.test_exchange_value_momentum"
+      ]
+    },
+    "all_final_method_public_local_hash_bindings_match": true,
+    "all_original_bound_methods_unchanged_from_b6a7d03": true,
+    "V1plan_code_doc_extended_core_unchanged_from_freeze": true,
+    "V1log_byte_identical_to_original_failure_log": true,
+    "source_input_aggregate_hash_identity_unchanged_fromV1": true,
+    "actual_development_preflight_passed_without_new_features": true,
+    "preflight_feature_entrypoints_explicitly_forbidden": [
+      "full_input_hashes",
+      "load_capture",
+      "load_extension",
+      "QlibSnapshot",
+      "build_targets"
+    ],
+    "synthetic_integration_cases_passed": [
+      "all34calendar-identical families and receipts",
+      "guessedOctober9rejected",
+      "control_family_gap_rejected",
+      "future_target_asof_rejected",
+      "future_receipt_asof_rejected",
+      "duplicated_receipt_rejected",
+      "pre26receipt_tamper_rejected",
+      "late1000/40artifact_tamper_rejected_before_provider"
+    ],
+    "unit_calendar_alternatives": "October8first accepted; explicit alternativeOctober9first used literally; empty/reversed/duplicate calendars rejected.",
+    "actual2026features_or_targets_read_or_generated_by_this_review": false,
+    "account_or_ROI_computed": false,
+    "SDK_or_network_calls": 0,
+    "V1_and_V2_actual_outputs_remain_absent": true,
+    "checks_script": "/tmp/szse-value-momentum-2026-target-v2-review-checks-20261021.py",
+    "checks_script_sha256": "907c0a2356f30dd96189ad95b62c2c0d7807af9bbe88bda2419609e5cf4e1a60"
+  },
+  "limitations": [
+    "Approval applies to isolatedV2target generation only; it is not an account-return approval or2026profit claim.",
+    "V1already read2026factor features before failing; finalV2metadata retains that fact and does not claim sealed evidence or an unread2026history.",
+    "This reviewer did not reread actual2026price features or generate actual targets; synthetic integration uses fabricated2026calendar/weights/receipts and fixed original pre26prefix.",
+    "Historical arrival remains unverified. Source endOctober13supports an October formation decision; it does not provide October20account results or fullOctoberterminal performance."
+  ],
+  "repository_or_source_edits_by_reviewer": false
+}

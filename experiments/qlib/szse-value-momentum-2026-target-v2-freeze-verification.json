@@ -1,0 +1,18 @@
+{
+  "status": "COMPOSITE2026_TARGET_V2_SOURCE_CALENDAR_GUARD_FROZEN_BEFORE_V2_RUN",
+  "plan_sha256": "2de3e43f47e3317619ac6587aa326f13e9562a17caf6562a849dbefea7a2bcd1",
+  "code_review_sha256": "3fecce07866a8f046f21c92414db5c0ecdc6c0628aba0af00d9ae6507b095837",
+  "ready_for_target_extension": true,
+  "development_preflight_exit_code": 0,
+  "full_suite_tests": 505,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 10.793,
+  "v1_failure_preserved": true,
+  "v1_new_factor_features_read": true,
+  "new_2026_features_reread_by_v2_before_freeze": false,
+  "v2_targets_generated": false,
+  "2026_strategy_returns_computed": false,
+  "network_calls": 0,
+  "full_October_complete": false,
+  "objective_achieved": false
+}
