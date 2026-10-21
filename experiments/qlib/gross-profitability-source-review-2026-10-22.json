@@ -1,0 +1,101 @@
+{
+  "status": "PRIMARY_PAPER_AND_EXISTING_REPORT_PAGES_VISUALLY_REVIEWED_SOURCE_ONLY",
+  "contract": "CONSOLIDATED_ANNUAL_GP_TO_ASSETS_VINTAGES_V1",
+  "original_sample_selection": "SH600166 is the first instrument of the preexisting fixed-hash12issuer pilot. These2annual PDFs were captured before this hypothesis; no stock return used for selection.",
+  "paper": {
+    "title": "The other side of value: The gross profitability premium",
+    "author": "Robert Novy-Marx",
+    "journal": "Journal of Financial Economics108(1),1-28",
+    "year": 2013,
+    "doi": "10.1016/j.jfineco.2013.01.003",
+    "mirror_url": "https://oldschoolvalue-files.s3.amazonaws.com/pdf/Novy-Marx_Gross-Profitability-Anomaly_JFE_2013.pdf",
+    "source_pdf_sha256": "06b43f29fdcf8a2bc83ad5a87964e9aeb3a3272ee0597ad1e7164156e3f7c2a7",
+    "read_and_rendered_physical_pages": [
+      1,
+      3
+    ],
+    "scope": "Original published paper obtained from mirror, formula and data setup checked on pages1/3. University bibliography and NBER abstract corroborate identity. Not a full-paper replication or China long-only return claim.",
+    "field_definition": "Revenue minus cost of goods sold, divided by book total assets.",
+    "unimplemented_portfolio_details": "Historical nonfinancial universe, formation lag, holding design, weights, taxes, execution and controls need separate registration."
+  },
+  "reviewed_corporate_physical_pages": {
+    "2023": [
+      104,
+      105,
+      108
+    ],
+    "2024": [
+      98,
+      99,
+      102,
+      156
+    ]
+  },
+  "expected_cells_CNY": {
+    "2023": {
+      "2023-12-31": {
+        "revenue": "56096761370.79",
+        "cost_of_sales": "49712583057.97",
+        "total_assets": "44885094665.28"
+      },
+      "2022-12-31": {
+        "revenue": "46446743956.22",
+        "cost_of_sales": "41161578185.99",
+        "total_assets": "48518057775.80"
+      }
+    },
+    "2024": {
+      "2024-12-31": {
+        "revenue": "47697540240.43",
+        "cost_of_sales": "41666949302.89",
+        "total_assets": "51848813097.04"
+      },
+      "2023-12-31": {
+        "revenue": "56096761370.79",
+        "cost_of_sales": "49997740569.45",
+        "total_assets": "44885094665.28"
+      }
+    }
+  },
+  "reported_2023_cost_reclassification_CNY": "285157511.48",
+  "reclassification_source": "2024annualreport physicalpage156: guarantee/warranty cost reclassified from selling expense into cost of sales, including comparative2023 restatement. Classification affects cross-year economic comparability.",
+  "source_file_sha256": {
+    "novy-marx-2013-gross-profitability.pdf": "06b43f29fdcf8a2bc83ad5a87964e9aeb3a3272ee0597ad1e7164156e3f7c2a7",
+    "paper-capture.json": "caef7886f99f2e556389b54c644a7282b3e2d8878021aee0ee8f06f065cdd19a",
+    "paper-page-1.txt": "77ab6e1391e92576e4b44e5122829f7e37ca6dbd6d22ef978826eef989252ce6",
+    "paper-page-1.png": "eb0e5306a66e1c5925704742b81ddc6acbf18b7da64e904202b55a77e0b5a18c",
+    "paper-page-3.txt": "a6e461b5bfbd6bd698650fb891d2e412b511db13463a0f314204ac31ddc3977a",
+    "paper-page-3.png": "04abd767dea6e4bcaaf087a72bfa43d4003a00ad3da2b5bd4e196e3425a87074",
+    "SH600166-2023-12-31-1219874919-page-104.txt": "835d7b6d880f3a396c69a7e07f2147480412d6bf6357c90541c054aa9437d194",
+    "SH600166-2023-12-31-1219874919-page-104.png": "f8aa7de21bdc6305bcd2db63f164435024b625aab23e1872aeeb39983e6cb9bd",
+    "SH600166-2023-12-31-1219874919-page-105.txt": "711810c766b463a960794987e401dc8252b897bfb662e22fdbc9a2632dc65c12",
+    "SH600166-2023-12-31-1219874919-page-105.png": "a5f50dee05b6d1e70a2fe4249fdd3cca7b052003622de3a505b927f55de9b0c8",
+    "SH600166-2023-12-31-1219874919-page-108.txt": "ecba83ca0c3fea14b3fee7151f81524b635849ec1181121aa23b16fde4be1298",
+    "SH600166-2023-12-31-1219874919-page-108.png": "d4e921cf90da411f28a1541cea43ffa8d68d53c1028dc198776ab31aba15633c",
+    "SH600166-2024-12-31-1223327299-page-98.txt": "96a79d4f03d1094e14ffff5f4829e289e27135036c87e4db282254fc168e64f8",
+    "SH600166-2024-12-31-1223327299-page-98.png": "c44f5835d8b8798e033d4198d59558ee528e120cdff93e4c100290c7ddc06839",
+    "SH600166-2024-12-31-1223327299-page-99.txt": "d0044ac4e09f902eae365dfbf5937bb0a9e29d8b271a0ce15b2f0c847c7f553e",
+    "SH600166-2024-12-31-1223327299-page-99.png": "223a74573544c3e16835d148c1c8feda39e77b2459baf627131cd25c9342a7d6",
+    "SH600166-2024-12-31-1223327299-page-102.txt": "5f99487263def237764b2af9711401c015b43abc23bdfd6a6efa5b8ba2000223",
+    "SH600166-2024-12-31-1223327299-page-102.png": "9f760278a939c8f1c54a3285b5ef48c73c9a7987a5fd3546c194ccf57f4cc3b6",
+    "SH600166-2024-12-31-1223327299-page-156.txt": "cb7bc93e9a6f0628dde71792e96c6326c7c0bc8172be70f7c1ecf090bd781d09",
+    "SH600166-2024-12-31-1223327299-page-156.png": "e61131ac10e80294d3017fb1b24574426bd042d2bd99a80807d04f60d9d7a535"
+  },
+  "literal_field_scope": "Consolidated operating revenue/cost and total assets, current/prior fiscal columns. Parent-only assets, total operating cost and net income excluded.",
+  "known_gaps": [
+    "Only1issuer/2documents, not an investable universe. Original2022 announcement missing:2022comparative published2024 cannot be backdated to2023.",
+    "Publication dates have no verified intraday time. Day-end reconstruction is an explicit assumption. Default observed mode waits until2026 capture.",
+    "All corrections/interim releases/cross-firm presentation comparability remain incomplete.",
+    "Chinese operating revenue/cost mapping is an adaptation needing wider verification, not certified US Compustat COGS identity."
+  ],
+  "incidental_2026_nonperformance_bibliographic_metadata_seen": true,
+  "2026_metadata_used_for_hypothesis_or_formula": false,
+  "existing_horizon_files_read_scope": "Only top-level key names and nonfinancial pipeline status strings, using literal metadata spans. No2026 quote, position, cash, return or curve body decoded.",
+  "source_market_queries": 0,
+  "financial_version_history_complete": false,
+  "historical_arrival_verified": false,
+  "investment_factor_admitted": false,
+  "new_security_ranking_or_portfolio_returns_computed": false,
+  "2026_financial_or_market_values_read": false,
+  "objective_achieved": false
+}
