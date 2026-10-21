@@ -1,0 +1,53 @@
+{
+  "status": "FIVE_NONCASH_PRIMARY_ORIGINALS_CAPTURE_ONLY_NO_ROI",
+  "documents": [
+    {
+      "document_id": "SZ000034-20260512",
+      "instrument": "SZ000034",
+      "publication_day": "2026-05-12",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-12/1225292672.PDF",
+      "discovery": "OFFICIAL_CNINFO_ORIGINAL_REFERENCE_WEB_SEARCH"
+    },
+    {
+      "document_id": "SZ001309-20260929",
+      "instrument": "SZ001309",
+      "publication_day": "2026-09-29",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-29/1225585295.PDF",
+      "discovery": "OFFICIAL_CNINFO_ORIGINAL_REFERENCE_WEB_SEARCH"
+    },
+    {
+      "document_id": "SZ002335-20260522",
+      "instrument": "SZ002335",
+      "publication_day": "2026-05-22",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-22/1225323212.PDF",
+      "discovery": "OFFICIAL_CNINFO_ORIGINAL_REFERENCE_WEB_SEARCH"
+    },
+    {
+      "document_id": "SZ002595-20260430",
+      "instrument": "SZ002595",
+      "publication_day": "2026-04-30",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225256197.PDF",
+      "discovery": "OFFICIAL_CNINFO_ORIGINAL_REFERENCE_WEB_SEARCH"
+    },
+    {
+      "document_id": "SZ002837-20260523",
+      "instrument": "SZ002837",
+      "publication_day": "2026-05-23",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-23/1225326690.PDF",
+      "discovery": "OFFICIAL_CNINFO_ORIGINAL_REFERENCE_WEB_SEARCH"
+    }
+  ],
+  "maximum_http_queries": 5,
+  "max_attempts_per_identity": 1,
+  "method_code_sha256": {
+    "scripts/capture_value_momentum_noncash_2026.py": "cbe03a793aa1810588463512e8b6ff74a189a49fed607a29eaede95aa2fcebbe",
+    "scripts/capture_low_beta60_corporate_2026.py": "f864a41b22b92bbc3335e67d202ac802b30a3a722a2e0e48435840296d6013ef",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "historical_arrival_verified": false,
+  "source_admission": false,
+  "portfolio_returns_to_compute": false
+}
