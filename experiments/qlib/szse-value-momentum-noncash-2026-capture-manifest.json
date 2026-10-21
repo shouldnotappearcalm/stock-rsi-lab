@@ -1,0 +1,133 @@
+{
+  "status": "PRIMARY_CAPTURE_ONLY_FINANCIAL_REVIEW_SEPARATE",
+  "request_sha256": "51556053066c9fa72213ee3fb12bcc5caecdd13dc2184a9c8a383bf1c3d56a80",
+  "documents": {
+    "SZ000034-20260512": {
+      "instrument": "SZ000034",
+      "publication_day": "2026-05-12",
+      "file": "SZ000034-20260512.pdf",
+      "sha256": "935ebdd4f61cd041f006b7f556a3fd1e3162f59afcc4ce05e6491e6cd620ae0b",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-12/1225292672.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/9409707157447a6d502fc38f4e0179102e5d24f8b2cff403f413614652e1315e/request.json",
+        "request_sha256": "4764438afa3bc83b8df0ec6de5f914611894b9562dc6b16f777406623c46bd82",
+        "reserved_file": "queries/9409707157447a6d502fc38f4e0179102e5d24f8b2cff403f413614652e1315e/reserved-1.json",
+        "reserved_sha256": "00687eb63beadd75c39859a928b8cc2bc353cf34af5fa7c122ca04b7decbda05",
+        "response_file": "queries/9409707157447a6d502fc38f4e0179102e5d24f8b2cff403f413614652e1315e/response-1.json",
+        "response_sha256": "a542f0e4e9623baf49a12d911e277c97b9fe472548ddc2f0e1ba64162b9236bd"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP"
+    },
+    "SZ001309-20260929": {
+      "instrument": "SZ001309",
+      "publication_day": "2026-09-29",
+      "file": "SZ001309-20260929.pdf",
+      "sha256": "d830099d394f2615a67e5366d119ec030bd829ee4821b8454b982162aff3d87d",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-29/1225585295.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/ca85ebc46d82a32899fd6604b524f866fb5776f5aaae173456d2ca0c5559ee71/request.json",
+        "request_sha256": "41b92957e34f4188e42c53e8a56055d174d5aef3e93cfd29e5c448794ebf375d",
+        "reserved_file": "queries/ca85ebc46d82a32899fd6604b524f866fb5776f5aaae173456d2ca0c5559ee71/reserved-1.json",
+        "reserved_sha256": "5d435d808f7efb7d212afdff4da322107fca7ef048efa83dcc0de8ed0039df30",
+        "response_file": "queries/ca85ebc46d82a32899fd6604b524f866fb5776f5aaae173456d2ca0c5559ee71/response-1.json",
+        "response_sha256": "de10b709238e41e70b0c0f83783d8d3bb160d443799ac028b49ab17e15cbbc30"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP"
+    },
+    "SZ002335-20260522": {
+      "instrument": "SZ002335",
+      "publication_day": "2026-05-22",
+      "file": "SZ002335-20260522.pdf",
+      "sha256": "f0a9233c95884f9afb86b09749f18da7326f1c3da67e6f58d4adaef6d3d49d26",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-22/1225323212.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/79ca2a51b659bd1fba4f352e6abf56a9e400cee478330cbde1d92acfaf9fa13c/request.json",
+        "request_sha256": "76e3245ec106b91da41923846f98a10f8e443cd731c76143d16a67472d513710",
+        "reserved_file": "queries/79ca2a51b659bd1fba4f352e6abf56a9e400cee478330cbde1d92acfaf9fa13c/reserved-1.json",
+        "reserved_sha256": "69535147fb90831f2c2e618e39f7dffcb636eedda1b931f74e49959299f813d5",
+        "response_file": "queries/79ca2a51b659bd1fba4f352e6abf56a9e400cee478330cbde1d92acfaf9fa13c/response-1.json",
+        "response_sha256": "09abd58fc17a0916ebc8b6934a7e4148c0a7755d9095f0a3e95a64bf26d035a8"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP"
+    },
+    "SZ002595-20260430": {
+      "instrument": "SZ002595",
+      "publication_day": "2026-04-30",
+      "file": "SZ002595-20260430.pdf",
+      "sha256": "57cc64295dec15d54885c8d3256c65e02faa8276da53faf0e121c5c769a4dadc",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225256197.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/81b0a3b9f4cbb4c084e8ecb767aa41503231ed7a5387939c3cfa4018af7cd32e/request.json",
+        "request_sha256": "46a9d35321029471eed718d91e4ad65266fbe648f1d6fc623db8251c956712e1",
+        "reserved_file": "queries/81b0a3b9f4cbb4c084e8ecb767aa41503231ed7a5387939c3cfa4018af7cd32e/reserved-1.json",
+        "reserved_sha256": "304db37a12a08dd4553324908c69bf4d583ffa386ba0a1b07be0708cb121fb47",
+        "response_file": "queries/81b0a3b9f4cbb4c084e8ecb767aa41503231ed7a5387939c3cfa4018af7cd32e/response-1.json",
+        "response_sha256": "05e806601dd741878c0a2a5544ff851f7f94fe73bc34970af67af9fb86b6db72"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP"
+    },
+    "SZ002837-20260523": {
+      "instrument": "SZ002837",
+      "publication_day": "2026-05-23",
+      "file": "SZ002837-20260523.pdf",
+      "sha256": "272db3d49eb318fad0b682741ea9c56f3f854e7a2ff3dbb6d1d0ec0ae4ce5895",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-23/1225326690.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/bad8289950ffad1db4f6e59a3ac52c7ebd7431776e856ec407ec9d900df96f14/request.json",
+        "request_sha256": "7d28633e46665f062e1752edb4425605b5b92e874b4599322b31587eca546654",
+        "reserved_file": "queries/bad8289950ffad1db4f6e59a3ac52c7ebd7431776e856ec407ec9d900df96f14/reserved-1.json",
+        "reserved_sha256": "2712f2bab7ff724568d6cf67de9a507bb6c96d4c0414f37d33aa93a7fc444838",
+        "response_file": "queries/bad8289950ffad1db4f6e59a3ac52c7ebd7431776e856ec407ec9d900df96f14/response-1.json",
+        "response_sha256": "272dae2a92cdd6f8dbd9eb85eead4e10533426fd9db3e4c6a3a9e78fd8eb6763"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP"
+    }
+  },
+  "errors": {},
+  "pending_documents": [],
+  "http_query_reservations": 5,
+  "maximum_http_queries": 5,
+  "stopped_after_three_failures": false,
+  "abnormal_termination": false,
+  "capture_complete": true,
+  "artifact_sha256": {
+    "SZ000034-20260512.pdf": "935ebdd4f61cd041f006b7f556a3fd1e3162f59afcc4ce05e6491e6cd620ae0b",
+    "SZ001309-20260929.pdf": "d830099d394f2615a67e5366d119ec030bd829ee4821b8454b982162aff3d87d",
+    "SZ002335-20260522.pdf": "f0a9233c95884f9afb86b09749f18da7326f1c3da67e6f58d4adaef6d3d49d26",
+    "SZ002595-20260430.pdf": "57cc64295dec15d54885c8d3256c65e02faa8276da53faf0e121c5c769a4dadc",
+    "SZ002837-20260523.pdf": "272db3d49eb318fad0b682741ea9c56f3f854e7a2ff3dbb6d1d0ec0ae4ce5895",
+    "progress.json": "5d6902d43f24e268bbffd88467975d5bd626fb54e445a69301e1c30dfc0d7293",
+    "queries/79ca2a51b659bd1fba4f352e6abf56a9e400cee478330cbde1d92acfaf9fa13c/request.json": "76e3245ec106b91da41923846f98a10f8e443cd731c76143d16a67472d513710",
+    "queries/79ca2a51b659bd1fba4f352e6abf56a9e400cee478330cbde1d92acfaf9fa13c/reserved-1.json": "69535147fb90831f2c2e618e39f7dffcb636eedda1b931f74e49959299f813d5",
+    "queries/79ca2a51b659bd1fba4f352e6abf56a9e400cee478330cbde1d92acfaf9fa13c/response-1.json": "09abd58fc17a0916ebc8b6934a7e4148c0a7755d9095f0a3e95a64bf26d035a8",
+    "queries/81b0a3b9f4cbb4c084e8ecb767aa41503231ed7a5387939c3cfa4018af7cd32e/request.json": "46a9d35321029471eed718d91e4ad65266fbe648f1d6fc623db8251c956712e1",
+    "queries/81b0a3b9f4cbb4c084e8ecb767aa41503231ed7a5387939c3cfa4018af7cd32e/reserved-1.json": "304db37a12a08dd4553324908c69bf4d583ffa386ba0a1b07be0708cb121fb47",
+    "queries/81b0a3b9f4cbb4c084e8ecb767aa41503231ed7a5387939c3cfa4018af7cd32e/response-1.json": "05e806601dd741878c0a2a5544ff851f7f94fe73bc34970af67af9fb86b6db72",
+    "queries/9409707157447a6d502fc38f4e0179102e5d24f8b2cff403f413614652e1315e/request.json": "4764438afa3bc83b8df0ec6de5f914611894b9562dc6b16f777406623c46bd82",
+    "queries/9409707157447a6d502fc38f4e0179102e5d24f8b2cff403f413614652e1315e/reserved-1.json": "00687eb63beadd75c39859a928b8cc2bc353cf34af5fa7c122ca04b7decbda05",
+    "queries/9409707157447a6d502fc38f4e0179102e5d24f8b2cff403f413614652e1315e/response-1.json": "a542f0e4e9623baf49a12d911e277c97b9fe472548ddc2f0e1ba64162b9236bd",
+    "queries/bad8289950ffad1db4f6e59a3ac52c7ebd7431776e856ec407ec9d900df96f14/request.json": "7d28633e46665f062e1752edb4425605b5b92e874b4599322b31587eca546654",
+    "queries/bad8289950ffad1db4f6e59a3ac52c7ebd7431776e856ec407ec9d900df96f14/reserved-1.json": "2712f2bab7ff724568d6cf67de9a507bb6c96d4c0414f37d33aa93a7fc444838",
+    "queries/bad8289950ffad1db4f6e59a3ac52c7ebd7431776e856ec407ec9d900df96f14/response-1.json": "272dae2a92cdd6f8dbd9eb85eead4e10533426fd9db3e4c6a3a9e78fd8eb6763",
+    "queries/ca85ebc46d82a32899fd6604b524f866fb5776f5aaae173456d2ca0c5559ee71/request.json": "41b92957e34f4188e42c53e8a56055d174d5aef3e93cfd29e5c448794ebf375d",
+    "queries/ca85ebc46d82a32899fd6604b524f866fb5776f5aaae173456d2ca0c5559ee71/reserved-1.json": "5d435d808f7efb7d212afdff4da322107fca7ef048efa83dcc0de8ed0039df30",
+    "queries/ca85ebc46d82a32899fd6604b524f866fb5776f5aaae173456d2ca0c5559ee71/response-1.json": "de10b709238e41e70b0c0f83783d8d3bb160d443799ac028b49ab17e15cbbc30",
+    "request.json": "51556053066c9fa72213ee3fb12bcc5caecdd13dc2184a9c8a383bf1c3d56a80"
+  },
+  "documents_financially_reviewed": false,
+  "admitted_for_account_replay": false,
+  "historical_arrival_verified": false,
+  "investment_rule_changed": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

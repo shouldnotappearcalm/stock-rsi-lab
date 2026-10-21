@@ -1,0 +1,706 @@
+{
+  "status": "INDEPENDENT_SEVEN_ORIGINAL_PRIMARY_CONTENT_REVIEW_COMPLETE",
+  "capture_directory": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021",
+  "capture_manifest_sha256": "31f32ff7ff86ecea75c543eea78967deedcd2262fe8e5d00543a4bdcba48cb65",
+  "request_sha256": "f8aaac8e7e3c90b604fbffb37fc73a4c5ac9553694963f099a58998896d61ad2",
+  "documents": [
+    {
+      "instrument": "SZ000563",
+      "issuer": "陕西省国际信托股份有限公司",
+      "short_name": "陕国投A",
+      "announcement_number": "2026-48",
+      "signature_day": "2026-10-13",
+      "record_date": "2026-10-19",
+      "ex_date": "2026-10-20",
+      "cash_payment_date": "2026-10-20",
+      "cash_per_original_share_CNY": "0.01",
+      "cash_per_10_original_shares_CNY": "0.10",
+      "price_reference_cash_per_share_CNY": null,
+      "issuer_stated_total_cash_CNY": "51139703.58",
+      "eligible_share_base": "5113970358",
+      "primary_pages": [
+        1,
+        2,
+        3
+      ],
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash": [
+          1,
+          2
+        ],
+        "record_ex_pay": [
+          2
+        ],
+        "noncash_zero": [
+          2
+        ],
+        "signature": [
+          3
+        ]
+      },
+      "excerpts": [
+        {
+          "page": 2,
+          "quote": "按每10股0.10元人民币现金"
+        },
+        {
+          "page": 2,
+          "quote": "本次分配不发生股本变动。"
+        },
+        {
+          "page": 2,
+          "quote": "股权登记日：2026年10月19日"
+        }
+      ],
+      "eligibility": "All registered shareholders; no separate excluded buyback/compensation class identified in this notice.",
+      "unknowns": [
+        "No separately stated price-reference cash adjustment formula; do not infer its exact amount from adjustment factors."
+      ],
+      "file": "SZ000563.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ000563.pdf",
+      "sha256": "8a3a88f612aaee95ec44c35014518f806f07272a2d630aa588ae71d63cefd3b3",
+      "publication_day": "2026-10-13",
+      "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601352.PDF",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0",
+      "stock_listing_date": null,
+      "stock_listing_date_applicable": false,
+      "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3
+      ],
+      "conservative_notice_publication_day": "2026-10-13",
+      "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+    },
+    {
+      "instrument": "SZ000783",
+      "issuer": "长江证券股份有限公司",
+      "short_name": "长江证券",
+      "announcement_number": "2026-071",
+      "signature_day": "2026-10-14",
+      "record_date": "2026-10-19",
+      "ex_date": "2026-10-20",
+      "cash_payment_date": "2026-10-20",
+      "cash_per_original_share_CNY": "0.05",
+      "cash_per_10_original_shares_CNY": "0.50",
+      "price_reference_cash_per_share_CNY": "0.05",
+      "issuer_stated_total_cash_CNY": "276503647.40",
+      "eligible_share_base": "5530072948",
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash": [
+          2
+        ],
+        "record_ex_pay": [
+          3
+        ],
+        "noncash_zero": [
+          1,
+          2
+        ],
+        "price_reference": [
+          1,
+          4
+        ],
+        "signature": [
+          6
+        ]
+      },
+      "excerpts": [
+        {
+          "page": 2,
+          "quote": "每10股派0.50元人民币现金"
+        },
+        {
+          "page": 1,
+          "quote": "不送红股，不以公积金转增股本"
+        },
+        {
+          "page": 4,
+          "quote": "0.05元/股"
+        }
+      ],
+      "eligibility": "The notice states0buyback shares excluded; registered shares with dividend rights receive0.05gross/share.",
+      "unknowns": [],
+      "file": "SZ000783.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ000783.pdf",
+      "sha256": "48d812c2a58196db412703e8161a1870db8dc1996e030d6812f82379af4d5445",
+      "publication_day": "2026-10-14",
+      "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225604165.PDF",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0",
+      "stock_listing_date": null,
+      "stock_listing_date_applicable": false,
+      "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "conservative_notice_publication_day": "2026-10-14",
+      "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+    },
+    {
+      "instrument": "SZ002131",
+      "issuer": "利欧集团股份有限公司",
+      "short_name": "利欧股份",
+      "announcement_number": "2026-062",
+      "signature_day": "2026-10-09",
+      "record_date": "2026-10-15",
+      "ex_date": "2026-10-16",
+      "cash_payment_date": "2026-10-16",
+      "cash_per_original_share_CNY": "0.005",
+      "cash_per_10_original_shares_CNY": "0.050000",
+      "price_reference_cash_per_share_CNY": "0.0048602",
+      "issuer_stated_total_cash_CNY": "32912317.20",
+      "eligible_share_base": "6582463440",
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash": [
+          1,
+          2
+        ],
+        "record_ex_pay": [
+          3
+        ],
+        "noncash_zero": [
+          1,
+          2
+        ],
+        "price_reference": [
+          1,
+          4
+        ],
+        "eligibility_exclusions": [
+          2,
+          3
+        ],
+        "signature": [
+          4
+        ]
+      },
+      "excerpts": [
+        {
+          "page": 2,
+          "quote": "每10股派0.050000元人民币现金"
+        },
+        {
+          "page": 1,
+          "quote": "本次利润分配不送红股，不以资本公积金转增股本。"
+        },
+        {
+          "page": 4,
+          "quote": "0.0048602元"
+        }
+      ],
+      "eligibility": "Exclude143536043repurchased shares and45779220shares subject to compensation obligations from total6771778703; eligible6582463440shares. pp3explicitly exclude45779213国投证券股份有限公司-held and7remaining迹象信息技术（上海）有限公司-held compensation shares.",
+      "unknowns": [
+        "Actual entitlement requires confirmation the held share belongs to the eligible ordinary class, not the explicitly excluded compensation/repurchase shares.",
+        "No neighboring vendor adjustment row cannot establish zero dividend or cancel this issuer notice."
+      ],
+      "critical_interpretation": "Gross is0.005CNY per eligible original share, not0. The0.0048602CNYamount is solely the whole-capital diluted ex-price reference; it must not replace ordinary shareholder cash entitlement.",
+      "file": "SZ002131.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002131.pdf",
+      "sha256": "ab9e791b86ab0d107abec3f112f9198678ea0c522aa96b59fde62eae8d9cc9a6",
+      "publication_day": "2026-10-09",
+      "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596845.PDF",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0",
+      "stock_listing_date": null,
+      "stock_listing_date_applicable": false,
+      "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "conservative_notice_publication_day": "2026-10-09",
+      "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+    },
+    {
+      "instrument": "SZ002608",
+      "issuer": "江苏国信股份有限公司",
+      "short_name": "江苏国信",
+      "announcement_number": "2026-036",
+      "signature_day": "2026-10-13",
+      "record_date": "2026-10-16",
+      "ex_date": "2026-10-19",
+      "cash_payment_date": "2026-10-19",
+      "cash_per_original_share_CNY": "0.05",
+      "cash_per_10_original_shares_CNY": "0.500000",
+      "price_reference_cash_per_share_CNY": null,
+      "issuer_stated_total_cash_CNY": "188903985.20",
+      "eligible_share_base": "3778079704",
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash": [
+          1,
+          2
+        ],
+        "record": [
+          2
+        ],
+        "ex_pay": [
+          3
+        ],
+        "noncash_zero": [
+          1
+        ],
+        "signature": [
+          4
+        ]
+      },
+      "excerpts": [
+        {
+          "page": 2,
+          "quote": "每10股派0.500000元人民币现金"
+        },
+        {
+          "page": 1,
+          "quote": "不送红股、不以公积金转增股本。"
+        },
+        {
+          "page": 3,
+          "quote": "权除息日为：2026年10月19日。"
+        }
+      ],
+      "eligibility": "All registered shareholders on stated existing share base; notice lists certain self-paying holders separately.",
+      "unknowns": [
+        "No separately stated price-reference cash formula; do not infer an exact adjustment-factor mapping."
+      ],
+      "file": "SZ002608.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002608.pdf",
+      "sha256": "c8d15c68dc8f6acd7830fb692d063395b20825bb159165b91d23ba58a6c34f95",
+      "publication_day": "2026-10-13",
+      "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601312.PDF",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0",
+      "stock_listing_date": null,
+      "stock_listing_date_applicable": false,
+      "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "conservative_notice_publication_day": "2026-10-13",
+      "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+    },
+    {
+      "instrument": "SZ002756",
+      "issuer": "永兴特种材料科技股份有限公司",
+      "short_name": "永兴材料",
+      "announcement_number": "2026-045",
+      "signature_day": "2026-10-14",
+      "record_date": "2026-10-19",
+      "ex_date": "2026-10-20",
+      "cash_payment_date": "2026-10-20",
+      "cash_per_original_share_CNY": "0.3",
+      "cash_per_10_original_shares_CNY": "3.00",
+      "price_reference_cash_per_share_CNY": "0.2962722",
+      "issuer_stated_total_cash_CNY": "159720837.60",
+      "eligible_share_base": "532402792",
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash_final_scheme": [
+          2
+        ],
+        "record_ex_pay": [
+          3
+        ],
+        "noncash_zero": [
+          1,
+          2
+        ],
+        "price_reference": [
+          1,
+          3
+        ],
+        "signature": [
+          4
+        ]
+      },
+      "excerpts": [
+        {
+          "page": 2,
+          "quote": "每10股派发现金股利3.00元"
+        },
+        {
+          "page": 2,
+          "quote": "不送红股，不以公积金转增股本"
+        },
+        {
+          "page": 3,
+          "quote": "0.2962722元/股"
+        }
+      ],
+      "eligibility": "Final implemented base532402792excludes6698748repurchase shares from539101540total. pp2says2534000repurchase shares transferredOct8toemployee plan; use final implementation base, not earlier529868792proposal base.",
+      "unknowns": [
+        "Actual receipt eligibility for special company-held shares is not independently registry-certified."
+      ],
+      "critical_interpretation": "Ordinary eligible shareholders receive0.3gross/share;0.2962722is only the whole-capital price reference.",
+      "file": "SZ002756.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002756.pdf",
+      "sha256": "b9969a48825ef1bd866b179f1abd8954abeebc935180fc2d63cac8e1dd7f5220",
+      "publication_day": "2026-10-14",
+      "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225602795.PDF",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0",
+      "stock_listing_date": null,
+      "stock_listing_date_applicable": false,
+      "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "conservative_notice_publication_day": "2026-10-14",
+      "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+    },
+    {
+      "instrument": "SZ002812",
+      "issuer": "云南恩捷新材料（集团）股份有限公司",
+      "short_name": "恩捷股份",
+      "announcement_number": "2026-175",
+      "signature_day": "2026-10-13",
+      "record_date": "2026-10-19",
+      "ex_date": "2026-10-20",
+      "cash_payment_date": "2026-10-20",
+      "cash_per_original_share_CNY": "0.41",
+      "cash_per_10_original_shares_CNY": "4.10",
+      "price_reference_cash_per_share_CNY": "0.4091219",
+      "issuer_stated_total_cash_CNY": "401478977.38",
+      "eligible_share_base": "979217018",
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash_final_scheme": [
+          2
+        ],
+        "record_ex_pay": [
+          3
+        ],
+        "noncash_zero": [
+          1,
+          2
+        ],
+        "price_reference": [
+          1,
+          3,
+          4
+        ],
+        "signature": [
+          4
+        ]
+      },
+      "excerpts": [
+        {
+          "page": 2,
+          "quote": "每10股派发现金股利4.10元"
+        },
+        {
+          "page": 2,
+          "quote": "不送红股，不以公积金转增股本"
+        },
+        {
+          "page": 3,
+          "quote": "0.4091219元/股"
+        }
+      ],
+      "eligibility": "Final base979217018excludes2101500repurchase shares from981318518total; retain final scheme rather than earlier977644230proposal base.",
+      "unknowns": [
+        "Captured publication metadataOct14is one day later than the PDF board signatureOct13; actual historical first-public time not authenticated."
+      ],
+      "critical_interpretation": "0.41gross/share is the entitlement;0.4091219is the price reference only. Boilerplate section title about capital increase and references to incentive registration do not create a stock dividend; operative text says no stock or capital transfer.",
+      "file": "SZ002812.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002812.pdf",
+      "sha256": "5045142c9897f1eff9c9f66f8eab25340b4c2aff7c7ece8f876ac7d21aa78ce3",
+      "publication_day": "2026-10-14",
+      "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225604047.PDF",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0",
+      "stock_listing_date": null,
+      "stock_listing_date_applicable": false,
+      "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "conservative_notice_publication_day": "2026-10-14",
+      "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+    },
+    {
+      "instrument": "SZ003031",
+      "issuer": "河北中瓷电子科技股份有限公司",
+      "short_name": "中瓷电子",
+      "announcement_number": "2026-069",
+      "signature_day": "2026-10-12",
+      "record_date": "2026-10-19",
+      "ex_date": "2026-10-20",
+      "cash_payment_date": "2026-10-20",
+      "cash_per_original_share_CNY": "0.185",
+      "cash_per_10_original_shares_CNY": "1.850000",
+      "price_reference_cash_per_share_CNY": null,
+      "issuer_stated_total_cash_CNY": "83444778.91",
+      "eligible_share_base": "451052859",
+      "primary_pages": [
+        1,
+        2,
+        3
+      ],
+      "field_pages": {
+        "issuer_code": [
+          1
+        ],
+        "cash": [
+          1
+        ],
+        "record_ex": [
+          1
+        ],
+        "pay": [
+          2
+        ],
+        "noncash_zero": [
+          1
+        ],
+        "signature": [
+          3
+        ]
+      },
+      "excerpts": [
+        {
+          "page": 1,
+          "quote": "每10股派发现金股利1.850000元"
+        },
+        {
+          "page": 1,
+          "quote": "不送红股，不以公积金转增股本"
+        },
+        {
+          "page": 2,
+          "quote": "2026年10月20日"
+        }
+      ],
+      "eligibility": "Notice uses total451052859shares and all registered shareholders, with listed self-paying holders.",
+      "unknowns": [
+        "Captured publication metadataOct13is one day later than PDF board signatureOct12; historical first-public time not authenticated.",
+        "No separately stated price-reference cash formula.",
+        "Unrounded451052859*0.185=83444778.915CNY; notice states aggregate83444778.91. Registry/aggregate half-cent rounding convention is not established here. Preserve the explicit1.850000per10share entitlement; do not use aggregate rounding to alter it."
+      ],
+      "file": "SZ003031.pdf",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ003031.pdf",
+      "sha256": "7283be804fd938f61b871b64116f61424e9694909d6de5a92b19cae23b16c5a8",
+      "publication_day": "2026-10-13",
+      "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225602337.PDF",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0",
+      "stock_listing_date": null,
+      "stock_listing_date_applicable": false,
+      "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+      "all_pages_text_reviewed": [
+        1,
+        2,
+        3
+      ],
+      "all_pages_visually_reviewed": [
+        1,
+        2,
+        3
+      ],
+      "conservative_notice_publication_day": "2026-10-13",
+      "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified."
+    }
+  ],
+  "document_count": 7,
+  "all28pages_independently_text_extracted_and_visually_reviewed": true,
+  "original_PDF_hashes_match_manifest": true,
+  "seven_query_receipt_file_hash_chains_match_manifest": true,
+  "review_method": "Independent pypdf6.10.0 extraction from original seven PDFs using bundled Python; all28pages rendered with pdftoppm and visually reviewed in seven complete-document contact sheets. Root-provided text used only for initial navigation; final field/page checks use independent page extraction and original renders.",
+  "important_findings": [
+    {
+      "instrument": "SZ002131",
+      "finding": "Gross dividend is0.005CNYper eligible original share, not0; no stock or capital transfer.",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "price_reference_cash_per_share_CNY": "0.0048602",
+      "unsupported_inference_rejected": "Missing vendor adjustment does not make an issuer-declared dividend zero."
+    },
+    {
+      "instruments": [
+        "SZ002131",
+        "SZ002756",
+        "SZ002812"
+      ],
+      "finding": "Whole-capital diluted ex-price reference cash is lower than actual eligible shareholder gross cash; keep separate fields and never credit the reference amount as entitlement."
+    },
+    {
+      "instruments": [
+        "SZ002812",
+        "SZ003031"
+      ],
+      "finding": "Signature dates precede captured publication dates by one day; preserve both and use conservative publication date rather than treating board signature as historical arrival."
+    },
+    {
+      "instrument": "SZ003031",
+      "finding": "Issuer aggregate total retains a half-cent/transcription rounding distinction relative to nominal total shares times stated per-share ratio; registry rounding convention remains unknown and does not erase explicit per-share entitlement."
+    }
+  ],
+  "normalized_economic_scope": "All seven implementation notices support cash-only events with stated record/ex/pay dates and positive gross ordinary eligible-share entitlements. No stock-dividend/capital-transfer listing event exists in these seven notices.",
+  "unknowns_and_limits": [
+    "Historical actual announcement arrival/time is not certified by official URL day, board signature, or present capture.",
+    "This content review does not certify actual registry holdings/eligibility, self-paid settlement, actual account receipt, or FIFO/statutory tax liability. Notices describe holding-period differentiated taxation; no uniform net cash rate is inferred.",
+    "Three notices do not separately state price-reference cash formula; explicit null is not zero. No economic distribution is inferred from a vendor factor alone.",
+    "These seven notices do not establish full corporate-action completeness, all2026noncash tax treatment, source-account admission, portfolio profit or objective completion.",
+    "No source packet/proof/strategy was altered and no model-generated amount substitutes for original notice terms."
+  ],
+  "admitted_for_account_replay": false,
+  "source_packets_modified": false,
+  "investment_rules_changed": false,
+  "network_calls_by_reviewer": 0,
+  "account_replay_or_ROI_computed_by_reviewer": false,
+  "extraction_script": "/tmp/szse-value-momentum-seven-primary-extract-20261021.py",
+  "extraction_script_sha256": "013c0486e2607a220be06920f41be14684817d290c7aa3f027c4a7040f2cc4fa",
+  "content_report_script": "/tmp/szse-value-momentum-seven-primary-content-report-20261021.py",
+  "content_report_script_sha256": "b4537baeb2f59044dbe86cf6c7798eea833bdd31320d676d61c6031209664bc5",
+  "independent_extracted_pages_file": "/tmp/szse-value-momentum-seven-primary-visual-review-20261021/independent-extracted-pages.json",
+  "independent_extracted_pages_sha256": "0102925cbcf8ff36eaf7c5d8b2babb119650c70f2342c8ae919b5158990e3fce",
+  "visual_contact_sheets": [
+    {
+      "instrument": "SZ000563",
+      "file": "/tmp/szse-value-momentum-seven-primary-visual-review-20261021/SZ000563-contact.png",
+      "sha256": "37d180be337fe08421d6c5b32d7754ede4c96acbeead2c3e52bf10bc352dd0a2"
+    },
+    {
+      "instrument": "SZ000783",
+      "file": "/tmp/szse-value-momentum-seven-primary-visual-review-20261021/SZ000783-contact.png",
+      "sha256": "276e0d3ab7db0ce26d24bc18645cd56e54e825aa7c671979d35b3f3aa88d9de2"
+    },
+    {
+      "instrument": "SZ002131",
+      "file": "/tmp/szse-value-momentum-seven-primary-visual-review-20261021/SZ002131-contact.png",
+      "sha256": "0751b7ca96308ce3cc419d02f9292caf4cae0d734ad74314c0a23b3bed32c28a"
+    },
+    {
+      "instrument": "SZ002608",
+      "file": "/tmp/szse-value-momentum-seven-primary-visual-review-20261021/SZ002608-contact.png",
+      "sha256": "a40ee4577d29d2b7ad9ea816a7fb0df339f5dffa8bdabde9a83bf67a05d0cb61"
+    },
+    {
+      "instrument": "SZ002756",
+      "file": "/tmp/szse-value-momentum-seven-primary-visual-review-20261021/SZ002756-contact.png",
+      "sha256": "4faad4f4c3ba087988a23e008d2ff7d1e2e0fcdaf746e0568d00442ae73a59f3"
+    },
+    {
+      "instrument": "SZ002812",
+      "file": "/tmp/szse-value-momentum-seven-primary-visual-review-20261021/SZ002812-contact.png",
+      "sha256": "b6918a6bf2f4d0948148b9c1004610855a203b6dc3f6eb5d9fb3ec13d3be7ef0"
+    },
+    {
+      "instrument": "SZ003031",
+      "file": "/tmp/szse-value-momentum-seven-primary-visual-review-20261021/SZ003031-contact.png",
+      "sha256": "46bc580f7b29bab87f959a7e2971a0714053c9134e427e8054e58939a2b73f9d"
+    }
+  ]
+}
