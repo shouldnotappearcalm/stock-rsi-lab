@@ -1,0 +1,183 @@
+{
+  "2026_market_or_results_read": false,
+  "SSE_2020_FAQ": {
+    "facts": [
+      "Final reform rules publishedDec31 and FAQstates implementationfrompublication.",
+      "Price-based trigger changed fromparvalue toRMB1; the1yuan concept predates2024/25 development.",
+      "Question14 spells out transitionalhandling; FAQ isnot a substitute for fullcompany/applicableversion adjudication."
+    ],
+    "full_cached_text_sha256": "bf332335a7524bf0b7d51482d3e1d4951f6703d0c032b5e8115cc62fd9f038d4",
+    "historical_arrival_clock_verified": false,
+    "html_sha256": "9a215818affc1bfdaf1f9c0019f25f81b22c7ad1f317ad3e64fa17489c9884cf",
+    "publication_date": "2020-12-31",
+    "relevant_sections": [
+      "Openingparagraph",
+      "Question2",
+      "Question10",
+      "Question14"
+    ],
+    "title": "上海证券交易所就退市制度修订答记者问"
+  },
+  "SSE_2024_January9_case": {
+    "fact": "Officialdecision cites20consecutive dailycloses belowRMB1 from2023Nov28 toDec25 and2023Augustlistingrule9.2.1(1) as terminationbasis.",
+    "html_sha256": "7a69c12f135e771e6d736e827d044b049ef73b9faff0c7b69bc70916bc125de6",
+    "notice_number": "上证公告（股退）【2024】001号",
+    "publication_and_signature_date": "2024-01-09",
+    "scope": "Illustration of a preexistingrule andcompletedlegalprocedure, not issuer selection or blacklist input. ItsJan9 publication cannotbe treatedas knownbeforeJan2.",
+    "text_sha256": "2547d99d14702aedc2ab7e167759ea2260dbaf89488c735bcf7b1c2cff669fa1",
+    "title": "关于华仪电气股份有限公司股票终止上市的公告"
+  },
+  "SZSE_2023_August_listing_rules": {
+    "15.3_and_15.4": {
+      "facts": [
+        "Below doesnotinclude equality.",
+        "Yuan meansRMB unlessspecifiedotherwise."
+      ],
+      "no_currency_or_cross_exchange_inference": "NoBshareFX/priceconversion procedure orSSErule scope is imported fromthis clause.",
+      "page": 188
+    },
+    "9.2.1_first_paragraph_4": {
+      "condition": "Daily closingprice below1yuan on eachof20 consecutive countedtradingdays. A single observation below1 isnotthis legaltrigger.",
+      "page": 113,
+      "scope": "Company issuing onlyA shares or onlyB shares onthisexchange"
+    },
+    "9.2.1_first_paragraph_5": {
+      "condition": "BothA andB daily closingprices mustsimultaneouslybe below1yuan on eachof20 consecutive countedtradingdays; do not declare thelegalcondition basedonAalone.",
+      "page": 113,
+      "scope": "Company issuingbothA andB shares onthisexchange"
+    },
+    "9.2.3_warning": {
+      "condition": "After10consecutive countedtradingdays of specifiedprice/marketcap/shareholderconditions, disclose possibletermination-risk notice beforeopeningofnexttradingday, then eachtradingday untilconditionremoved orterminationdecision, whicheverearlier.",
+      "not_equivalent_to": "Automatic delisting after10days or a monthlyresearch exclusion.",
+      "pages": [
+        115,
+        116
+      ]
+    },
+    "9.2.4_next_procedure": {
+      "fact": "On occurrence of9.2.1 condition, disclose before nextsessionopen; suspension followsannouncement. This is separate from a monthly portfolio target heuristic.",
+      "page": 116
+    },
+    "complete_relevant_physical_pages_text_rendered_and_visually_viewed": [
+      1,
+      113,
+      114,
+      115,
+      116,
+      188,
+      189
+    ],
+    "consecutive_day_exclusions": {
+      "facts": [
+        "Full-day suspensiondays donotcount.",
+        "The first20tradingdays beginningonIPO/listingdate donotcount.",
+        "Exchange mayadjust indices under significantmarketabnormality."
+      ],
+      "page": 114,
+      "restriction": "Do not forwardfill a suspended dailyclose and countit as another below-thresholdtradingday."
+    },
+    "effective_clause": "16.3",
+    "effective_clause_pages": [
+      188,
+      189
+    ],
+    "entire_2024_2025_unamended_validity_certified": false,
+    "pdf_sha256": "b858a84f8897bb25087062c0f464ee2bf7e47da4d3cfa54b4f0d13cec8274d1d",
+    "publication_date_evidence": "OfficialPDF URL date2023-08-04; PDFtitle statesAugust2023. The downloadedattachment itself doesnot supply a precise first-public clock or independent publishing-notice receipt. Do not substituteURL date for effective date.",
+    "rule_effective_date": "2023-09-04",
+    "version_limit": "This predevelopment rule demonstrates a preexistingmechanism. Later2024/2025 amendments or full operational delisting chronology were not collected or certified here.",
+    "version_title": "深圳证券交易所股票上市规则（2023年8月修订）"
+  },
+  "actual_targets_or_quotes_read": false,
+  "all3_original_bytes_match_capture_receipts": true,
+  "capture_manifest_sha256": "77a19b58c8024bda4721115341e07288e759f8fc7476c315b7994175c37675fd",
+  "critical_or_important_source_fact_findings": [],
+  "design_conditions_are_not_yet_code_acceptance": true,
+  "network_queries": 0,
+  "portfolio_returns_computed": false,
+  "proposed_generic_monthly_overlay_assessment": {
+    "actual_implementation_causality_verified": false,
+    "classification": "NEW_ADAPTIVE_RESEARCH_HEURISTIC_TRIAL_NOT_STATUTORY_DELISTING_DETECTOR",
+    "economic_or_performance_advantage_established": false,
+    "equivalence": "Exclude close<1.00; close exactly1.00 is not excluded by pricecriterion. This mirrorsstrictbelow vocabulary only, not20daylegal logic.",
+    "fixed_threshold_CNY": "1.00",
+    "individual_ticker_or_future_outcome_selection_used": false,
+    "inputs_required_asof": [
+      "Original unadjusted rawclose at thepredeclaredmonthendformationdate, withdate/unit/issuer/pricebasis/availability authenticated.",
+      "Knownactive andordinarystate atthesameasof; missing/stale/unknown status failsclosed. A futureST/delistingflag, nextopenstate orfuturelast-tradedate cannotbe used.",
+      "The original selectedweightset beforeoverlay, soevery selectedsecurity receives thesame rule. No ticker-specificexception ornewfamily reranking."
+    ],
+    "method_only_feasible_without_future_state_or_blacklist": true,
+    "no_future_state_or_name_specific_data_needed_by_formula": true,
+    "policy_still_required_before_execution": [
+      "Define theallfilteredempty-S case explicitly: e.g.failclosed/noportfolio score, orkeepcashwithits exposuregate evaluated; never silentlyinsertreplacementstocks ordividebyzero.",
+      "Freeze whetherfilteraffects onlynewmonthlytargetorders; existinginventory must be handledbytheunchanged legal/lifecycle/accountguards andactualsell execution, not erasedasflat.",
+      "Authenticate state/quote knowntimes. Current-vintage historicalrawflags areengineeringinputs andcannotbecalledverifiedhistoricalPIT merelybecause dated.",
+      "Recompute mandatorysource scopefornewcandidate without deletingoriginalfailedsource evidence orweakeningadmissioncriteria."
+    ],
+    "pre2026_adaptive_trial_must_be_counted": true,
+    "qualification": "Conditional onimplementation usingonlyinformation availableat the commonformationasof, withstrictclock/sourceguards. This reviewdoesnotauthenticate actualinputs orcode.",
+    "threshold_scanned": false,
+    "weight_budget_definition_to_freeze": "For eligible survivors S oforiginalweights w, preserveproportions and set w_new[i]=0.95*w[i]/sum(w[j] for j in S). Excludedweights becomezero. Iforiginalselection isequalweighted this reduces to0.95/len(S); alternativeweights/renormalization wouldrequire explicitregistration."
+  },
+  "reading_page_artifact_sha256": {
+    "page-1.png": "3e262ab9533ede6891a1235e8f0b8872a71df9dcb7abc03b38e3cba99f60d1c2",
+    "page-1.txt": "dad74987b09668a8fc6b21958f2db6a71c32f46a0f3be31a2d344b5567876961",
+    "page-113.png": "f0cca954128d88a004b1e14e58672e63a1c976f1a4b73f4fb03842bbb01356dd",
+    "page-113.txt": "a490b1af2662e10b65ad3d076fc0523c0de6c041bfc31ba4766582f7d2208c33",
+    "page-114.png": "4c5ead60bc895d331e7a3ca33e00421c7721a13eed9d008c62ab550edcd0e7cd",
+    "page-114.txt": "25031a4fef3abf05d7113a51a79fbd50d11ffa257cf50405217ff294aad51924",
+    "page-115.png": "1ab58bf13486d5addec24ef2804a084dbee775fb2228f069f001d3e5badd0620",
+    "page-115.txt": "81f476b79f09842fbca747944ab284859c1a7f834fdae00d35c1eef95782ce3d",
+    "page-116.png": "3ff0007299336546dd9b6fb2aee8d342e973b7fdff885e29aaf242a93f668ebf",
+    "page-116.txt": "e6685764d1c15245c271d4aa41ff5a052687b7789b3f8d65a6f4076a972ea72e",
+    "page-188.png": "2a2948d35febb502e8e61ba9efa34a7a428f99dd0add15f8cb5944326562e664",
+    "page-188.txt": "02445761e60ede0cd8f88c15d9db0fdcd25f41bd17ef4047b5d0672d18a25284",
+    "page-189.png": "e284e6a3d33e1463c96e6a8bb7aa5cf587f8e65996e3d007af9fcb286df7aaf4",
+    "page-189.txt": "4f72c2b6816211a503e49ecd88db034f7b2c6352302c85d46271dba1d9c00a68"
+  },
+  "repository_or_formal_data_modified": false,
+  "sources": [
+    {
+      "bytes": 724269,
+      "content_type": "application/pdf",
+      "file": "szse-listing-rules-2023-08.pdf",
+      "final_url": "https://docs.static.szse.cn/www/disclosure/notice/W020230804625303228188.pdf",
+      "local_path": "/tmp/amihud-regulatory-risk-primary-20261022/szse-listing-rules-2023-08.pdf",
+      "retrieved_at_utc": "2026-10-21T17:10:18.494735+00:00",
+      "sha256": "b858a84f8897bb25087062c0f464ee2bf7e47da4d3cfa54b4f0d13cec8274d1d",
+      "status": 200,
+      "url": "https://docs.static.szse.cn/www/disclosure/notice/W020230804625303228188.pdf"
+    },
+    {
+      "bytes": 27700,
+      "content_type": "text/html",
+      "file": "sse-delist-2024-01-09.html",
+      "final_url": "https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20240109_92503416.shtml",
+      "local_path": "/tmp/amihud-regulatory-risk-primary-20261022/sse-delist-2024-01-09.html",
+      "retrieved_at_utc": "2026-10-21T17:10:18.691657+00:00",
+      "sha256": "7a69c12f135e771e6d736e827d044b049ef73b9faff0c7b69bc70916bc125de6",
+      "status": 200,
+      "url": "https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20240109_92503416.shtml"
+    },
+    {
+      "bytes": 59125,
+      "file": "sse-delist-rule-2020-12-31.html",
+      "final_url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20201231_5294528.shtml?tblci=GiAfVWIOSROJLhYahcl8LGUZCUQApXjLvYilJY8pEKcTDyDxrkEo7cihg57Z2rtS",
+      "local_path": "/tmp/amihud-regulatory-risk-primary-20261022/sse-delist-rule-2020-12-31.html",
+      "retrieved_at_utc": "2026-10-21T17:10:47.594220+00:00",
+      "sha256": "9a215818affc1bfdaf1f9c0019f25f81b22c7ad1f317ad3e64fa17489c9884cf",
+      "status": 200,
+      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20201231_5294528.shtml?tblci=GiAfVWIOSROJLhYahcl8LGUZCUQApXjLvYilJY8pEKcTDyDxrkEo7cihg57Z2rtS"
+    }
+  ],
+  "status": "INDEPENDENT_CACHED_PRIMARY_RULE_FACT_AND_MONTHLY_HEURISTIC_SCOPE_REVIEW_COMPLETE",
+  "unchanged_boundaries": {
+    "actual_flat_exit_or_sell_fill_inferred": false,
+    "cent_grid_certification_changed": false,
+    "original240_label_source_gate_changed": false,
+    "original_amihud22_failed_or_incomplete_evidence_preserved": true,
+    "source_admission_granted": false,
+    "tax_lifecycle_ordinary_state_guards_relaxed": false
+  }
+}

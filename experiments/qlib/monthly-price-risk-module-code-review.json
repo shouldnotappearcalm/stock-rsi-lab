@@ -1,0 +1,32 @@
+{
+  "status": "PASS_BOUNDED_NEW_MONTHLY_PRICE_RISK_MODULE_REVIEW",
+  "file_sha256": {
+    "src/stock_rsi/monthly_price_risk.py": "99f457406036eec139291bff7eb39c7682dd381869063782db969d5ea9627e58",
+    "tests/test_monthly_price_risk.py": "b6cd325d46544d801853b1db4ffdb697e2d631dfb4c48af2984a6da9b4cccdf6"
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "focused_tests_passed": 9,
+  "independent_fraction_allocation_oracle_cases": 250,
+  "proportional_error_bound_per_retained_weight": "at most retained_count * 1e-24, caused by registered floor-quantization and final residual assignment",
+  "strict_unknown_status_flags_rejected": true,
+  "all_zero_target_original_allocator_sells_existing_outside_seed_holdings": true,
+  "verified_boundaries": [
+    "Execution within2024/2025, immediate prior explicit source session and preceding natural month are checked before provider callback; no2026 execution or future fields admitted.",
+    "Only original seed names and exact date/close/tradestatus/isST fields enter each formation receipt/evidence; no future files, lifecycle dates or name blacklist.",
+    "Active close must be finite positive exact-cent;1.00 retained and0.99 excluded. Known halt is explicitly blocked even when halt close is absent; unknown flags fail whole decision.",
+    "No exclusions preserve original weight objects exactly; exclusions renormalize surviving relative weights to95percent with deterministic1e-24floor/final-residual rule.",
+    "All excluded emits original names at zero; unchanged allocator still issues sells for actual prior holdings, including names outside current seed, without inventing execution.",
+    "Future source perturbations leave earlier target/receipt unchanged; inputs deep-copied and unmodified."
+  ],
+  "limitations": [
+    "This is a separately registered research heuristic, not the statutory consecutive-day delisting test or verified exit capability.",
+    "All-cash target is an intention. Original source/account/market guards can still reject a held or halted security and must remain intact.",
+    "Future formation loader must authenticate original selected24 seed targets, complete explicit calendar and raw-cell provenance; this pure module alone does not certify those sources.",
+    "No real formation application, quote/target values, portfolio ROI, network or repository edits performed."
+  ],
+  "network_used": false,
+  "actual_quote_or_targets_read": false,
+  "actual_account_or_ROI_run": false,
+  "repository_modified": false
+}

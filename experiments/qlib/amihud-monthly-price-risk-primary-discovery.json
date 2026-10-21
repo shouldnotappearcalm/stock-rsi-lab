@@ -1,0 +1,81 @@
+{
+  "status": "BOUNDED_PRE2026_RULE_RESEARCH_FOR_NEW_ADAPTIVE_RISK_MODULE",
+  "routing": "agent-reach search/web instructions; mcporter/agent-reach unavailable; built-in search and original official HTTPS GET fallback",
+  "official_primary_sources_downloaded": 3,
+  "source_manifest_sha256": "5a057bd2c2e9ac38708a6bdf3994d0206d07391c7390eb0d5409377b930bd92d",
+  "sources": [
+    {
+      "url": "https://docs.static.szse.cn/www/disclosure/notice/W020230804625303228188.pdf",
+      "final_url": "https://docs.static.szse.cn/www/disclosure/notice/W020230804625303228188.pdf",
+      "status": 200,
+      "file": "szse-listing-rules-2023-08.pdf",
+      "sha256": "b858a84f8897bb25087062c0f464ee2bf7e47da4d3cfa54b4f0d13cec8274d1d",
+      "bytes": 724269,
+      "retrieved_at_utc": "2026-10-21T17:10:18.494735+00:00",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20240109_92503416.shtml",
+      "final_url": "https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20240109_92503416.shtml",
+      "status": 200,
+      "file": "sse-delist-2024-01-09.html",
+      "sha256": "7a69c12f135e771e6d736e827d044b049ef73b9faff0c7b69bc70916bc125de6",
+      "bytes": 27700,
+      "retrieved_at_utc": "2026-10-21T17:10:18.691657+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20201231_5294528.shtml?tblci=GiAfVWIOSROJLhYahcl8LGUZCUQApXjLvYilJY8pEKcTDyDxrkEo7cihg57Z2rtS",
+      "final_url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20201231_5294528.shtml?tblci=GiAfVWIOSROJLhYahcl8LGUZCUQApXjLvYilJY8pEKcTDyDxrkEo7cihg57Z2rtS",
+      "status": 200,
+      "file": "sse-delist-rule-2020-12-31.html",
+      "sha256": "9a215818affc1bfdaf1f9c0019f25f81b22c7ad1f317ad3e64fa17489c9884cf",
+      "bytes": 59125,
+      "retrieved_at_utc": "2026-10-21T17:10:47.594220+00:00"
+    }
+  ],
+  "independent_review_sha256": "a6093db043de09b07ccb35e41b69f96c4df17187e89261c76debe5b66f0322cb",
+  "search_queries": [
+    "site.szse.cn 2023 股票上市规则 连续二十个交易日 股票收盘价 均低于 1元",
+    "site.sse.com.cn 2023 股票上市规则 连续20个交易日 每日股票收盘价 均低于 1元",
+    "site.sse.com.cn 上海证券交易所股票上市规则（2023年8月修订） 9.2.1",
+    "site.sse.com.cn 2023年8月修订 每日股票收盘价均低于1元",
+    "site.sse.com.cn 上证发〔2023〕127号 股票上市规则",
+    "site.sse.com.cn 2023年8月4日 股票上市规则 附件"
+  ],
+  "incidental_2026_trading_rule_search_snippet_seen": true,
+  "2026_rule_used_for_hypothesis_or_threshold": false,
+  "primary_basis": "SZSE2023Aug listing rules effective2023Sep4 and SSE2020Dec31 FAQ. SSE2024Jan9 notice corroborates existing2023rule only; not a preJan2 signal.",
+  "inference": "One adaptive monthly rawclose>=1/knownactive/ordinary eligibility heuristic, followed by95percent survivor-weight redistribution. It is not a10daywarning or20daylegal-delist detector.",
+  "original_strategy_source_account_or_failed_results_changed": false,
+  "original_240_gate_or_cent_certification_changed": false,
+  "network_wire_request_count_independently_verified": false,
+  "actual_target_mapping_generated": false,
+  "new_portfolio_returns_computed": false,
+  "2026_quotes_or_ROI_read": false,
+  "objective_achieved": false,
+  "formal_primary_file_sha256": {
+    "capture-manifest.json": "77a19b58c8024bda4721115341e07288e759f8fc7476c315b7994175c37675fd",
+    "review-page-1.png": "3e262ab9533ede6891a1235e8f0b8872a71df9dcb7abc03b38e3cba99f60d1c2",
+    "review-page-1.txt": "dad74987b09668a8fc6b21958f2db6a71c32f46a0f3be31a2d344b5567876961",
+    "review-page-113.png": "f0cca954128d88a004b1e14e58672e63a1c976f1a4b73f4fb03842bbb01356dd",
+    "review-page-113.txt": "a490b1af2662e10b65ad3d076fc0523c0de6c041bfc31ba4766582f7d2208c33",
+    "review-page-114.png": "4c5ead60bc895d331e7a3ca33e00421c7721a13eed9d008c62ab550edcd0e7cd",
+    "review-page-114.txt": "25031a4fef3abf05d7113a51a79fbd50d11ffa257cf50405217ff294aad51924",
+    "review-page-115.png": "1ab58bf13486d5addec24ef2804a084dbee775fb2228f069f001d3e5badd0620",
+    "review-page-115.txt": "81f476b79f09842fbca747944ab284859c1a7f834fdae00d35c1eef95782ce3d",
+    "review-page-116.png": "3ff0007299336546dd9b6fb2aee8d342e973b7fdff885e29aaf242a93f668ebf",
+    "review-page-116.txt": "e6685764d1c15245c271d4aa41ff5a052687b7789b3f8d65a6f4076a972ea72e",
+    "review-page-188.png": "2a2948d35febb502e8e61ba9efa34a7a428f99dd0add15f8cb5944326562e664",
+    "review-page-188.txt": "02445761e60ede0cd8f88c15d9db0fdcd25f41bd17ef4047b5d0672d18a25284",
+    "review-page-189.png": "e284e6a3d33e1463c96e6a8bb7aa5cf587f8e65996e3d007af9fcb286df7aaf4",
+    "review-page-189.txt": "4f72c2b6816211a503e49ecd88db034f7b2c6352302c85d46271dba1d9c00a68",
+    "sse-delist-2024-01-09.html": "7a69c12f135e771e6d736e827d044b049ef73b9faff0c7b69bc70916bc125de6",
+    "sse-delist-2024-01-09.html.txt": "2547d99d14702aedc2ab7e167759ea2260dbaf89488c735bcf7b1c2cff669fa1",
+    "sse-delist-rule-2020-12-31.html": "9a215818affc1bfdaf1f9c0019f25f81b22c7ad1f317ad3e64fa17489c9884cf",
+    "sse-delist-rule-2020-12-31.html.txt": "bf332335a7524bf0b7d51482d3e1d4951f6703d0c032b5e8115cc62fd9f038d4",
+    "szse-listing-rules-2023-08.pdf": "b858a84f8897bb25087062c0f464ee2bf7e47da4d3cfa54b4f0d13cec8274d1d",
+    "szse-page-113.png": "88f0a8057c71c4919b32f3a40258640b9b343f315e518fcb6f8b3f8ec37fa656",
+    "szse-page-116.png": "7244b52e16c7680aabb3fbe0e6e36e8e87f3786525d8e179b290ff42a29a842b"
+  }
+}

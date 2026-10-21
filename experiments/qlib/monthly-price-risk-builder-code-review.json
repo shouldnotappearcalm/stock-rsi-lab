@@ -1,0 +1,31 @@
+{
+  "status": "PASS_BOUNDED_MONTHLY_RISK_TARGET_BINDING_FIX_REVIEW_FINAL",
+  "file_sha256": {
+    "scripts/build_monthly_price_risk_targets.py": "0295c154b4fa94e6095d86261b7aeb18cb0a636160ac77819fed343fad08ad7f",
+    "tests/test_monthly_price_risk_target_freeze.py": "1c5b4f8d6c20fdf22bf55bad1f4924fada712ba78e0ec3a85bc093eac0156341"
+  },
+  "initial_report_sha256": "2f9e4e9c4dc86a8ed8d94707e1aea44d0837bfaeeda5fe137b8cc0e173674d69",
+  "critical_findings": [],
+  "important_findings": [],
+  "both_original_important_findings_resolved": true,
+  "focused_tests_passed": 18,
+  "verified": [
+    "Canonical22 primary artifact scope plus manifest/capture/independent-review/page checks now require actual bytes; coherently rebound empty artifact map is rejected.",
+    "Canonical307 failed artifacts (60 profiles times5 plus7 roots) match public verification/independent audit, originalplan and summary anchors, and every actual file hash is checked and added to before/after paths.",
+    "Source/proof/page mutations and coerced partial failure maps are rejected by new synthetic fixtures.",
+    "Original monthly time/value rules remain unchanged; all source-only and no-account/actual-exit false flags retained.",
+    "Source/request mutation and interruption retain original error and fail final source postcheck.",
+    "Exact three unique original source basenames are enforced; independent synthetic coherent review-list shrink with updated review hash is rejected."
+  ],
+  "minor_findings": [],
+  "actual_builder_or_source_load_run": false,
+  "synthetic_temporary_fixtures_only": true,
+  "real_new_target_quote_or_ROI_values_read": false,
+  "network_used": false,
+  "repository_modified": false,
+  "limitations": [
+    "Final frozen request and actual primary/307failed source context not executed or independently authenticated here.",
+    "No generated targets or portfolio outcome claimed."
+  ],
+  "primary_exact_three_source_anchors_verified": true
+}
