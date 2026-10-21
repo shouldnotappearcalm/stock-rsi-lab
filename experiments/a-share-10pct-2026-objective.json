@@ -4896,7 +4896,19 @@
         "average_exposure_pct": 92.40730865157282,
         "unverified_held_marks": 0
       },
-      "pre2026_daily_proxy_gate_passed": true
+      "pre2026_daily_proxy_gate_passed": true,
+      "raw_source_capture": {
+        "status": "FROZEN_SOURCE_COMPLETION_BEFORE_QUERY",
+        "request_file": "experiments/qlib/low-market-residual-vol1m-pre2026-raw-source-request.json",
+        "request_sha256": "e3764479ec41fd229b592eba217095a0baa3d14cf478aed35c7b7d1dedc8fc6b",
+        "verification_file": "experiments/qlib/low-market-residual-vol1m-raw-source-freeze-verification.json",
+        "reuse_names": 301,
+        "fresh_names": 60,
+        "maximum_financial_logical_queries": 240,
+        "source_admitted_for_account": false,
+        "new_2026_queries": false,
+        "portfolio_returns_computed": false
+      }
     }
   ],
   "latest_data_admission": {

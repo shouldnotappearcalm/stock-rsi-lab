@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_BEFORE_ANY_NEW_RAW_SOURCE_QUERIES",
+  "source_request_sha256": "e3764479ec41fd229b592eba217095a0baa3d14cf478aed35c7b7d1dedc8fc6b",
+  "wrapper_sha256": "c27bbf7f4170df4b0724a5956186670499d37805c47db20c98d22afb36bb564b",
+  "local_full_tests": 703,
+  "clean_research_test_result": "703 tests,3 optionalQlib skips,otherwise pass",
+  "source_preflight_passed": true,
+  "actual_original_input_files_authenticated": 694,
+  "code_review_file": "experiments/qlib/low-market-residual-vol1m-raw-source-code-review.json",
+  "code_review_sha256": "1b105a15d773ee8d1e95cd328c45a028efa7c66e3310cbf981216ea7de77e6bc",
+  "prepared_independent_audit_code_sha256": "c3ae15d7928a4813fd290567e151c6f715fa852ed42ed9be4b71aaf7dc8d3ddf",
+  "fixed_primary_target_names": 361,
+  "fixed_byte_reuse_names": 301,
+  "fixed_fresh_names": 60,
+  "maximum_new_financial_logical_queries": 240,
+  "attempts_per_query": 1,
+  "max_administrative_login_attempts": 1,
+  "new_2026_market_queries": false,
+  "source_admitted_for_account": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

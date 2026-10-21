@@ -1,0 +1,67 @@
+{
+  "status": "PASS_BOUNDED_SOURCE_CAPTURE_CODE_AND_GUARDED_PREFLIGHT",
+  "critical_or_important_findings": [],
+  "minor_findings": [],
+  "ready_to_freeze_push_then_execute_exact_source_capture": true,
+  "reviewed_file_sha256": {
+    "scripts/capture_low_market_residual_vol_raw_pre2026.py": "c27bbf7f4170df4b0724a5956186670499d37805c47db20c98d22afb36bb564b",
+    "tests/test_low_market_residual_vol_raw_capture.py": "c0598a4ca66c116c9afc0c275af1bc2f246f9108b4647dbe6eccc77106c97c00",
+    "docs/research/low-market-residual-vol1m-raw-source-plan-2026-10-21.md": "c89f543f1ff4a11685d5ccce89cddd76de1edb4ea335c5dcb924f99c0c7297ed",
+    "experiments/qlib/low-market-residual-vol1m-pre2026-raw-source-request.json": "e3764479ec41fd229b592eba217095a0baa3d14cf478aed35c7b7d1dedc8fc6b"
+  },
+  "resolved_binding_issue": {
+    "issue": "Earlier draft authenticated inventory metadata and selected packets but not actual historical audit/legacy anchors and all registered overlap/partial packet references.",
+    "fix_verified": "Final authenticate binds actual anchor/legacy request files and all explicitly registered pre2026 packet options through old manifest hashes, core and complete-calendar flags; actual input bytes included in pre/post known_hashes."
+  },
+  "verification": {
+    "independently_run_focused_tests": 10,
+    "focused_result": "PASS",
+    "guarded_actual_source_preflight": "PASS exit0",
+    "capture_function_patched_to_raise_and_not_called": true,
+    "SDK_load_patched_to_raise_and_not_called": true,
+    "actual_output_directory_created": false,
+    "actual_input_files_authenticated": 694,
+    "selected_reuse_packets": 301,
+    "fresh_names": 60,
+    "maximum_logical_financial_queries": 240,
+    "source_calendar_sessions": 486,
+    "seven_source_roots": true,
+    "old_budgeted_financial_artifacts_bound": 42,
+    "request_method_and_screen_hashes_independently_verified": true,
+    "independent_source_auditor": {
+      "path": "/tmp/low-market-residual-vol1m-pre2026-raw-source-audit-20261021.py",
+      "sha256": "c3ae15d7928a4813fd290567e151c6f715fa852ed42ed9be4b71aaf7dc8d3ddf",
+      "final_request_schema_compatible": true,
+      "production_code_imports": false,
+      "actual_capture_output_audit_executed": false,
+      "synthetic_packet_negative_controls": 9,
+      "synthetic_journal_checks": [
+        "success",
+        "payload digest tampering rejected",
+        "unanswered reservation remains consumed",
+        "second attempt rejected"
+      ],
+      "registered_source_authentication_independently_run": true
+    }
+  },
+  "reviewed_boundaries": [
+    "Request and output fixed before SDK import; existing output refused without resume.",
+    "301 original packets copied byte-for-byte with sidecar routes; original nested provenance retained.",
+    "60fresh names each daily+2024dividend+2025dividend+adjustment,one attempt/component,240ceiling,one administrative login,three consecutive failed fresh codes stop.",
+    "QueryJournal saves SDK decoded response and initial/final/iteration status before schema validation; interrupted unanswered reservations preserved.",
+    "Errors,pending,terminal exception,cleanup and postcheck artifacts remain visible;login/logout/postcheck failure cannot report capture_complete.",
+    "Capture completeness and full calendar coverage remain separate; missing rows neither synthesized nor classified as IPO/suspension/delisting.",
+    "Known partial originals SH603341 missing38 and SZ002505 missing323 retain source references; no lifecycle inference from missing dates.",
+    "No changes to factor,allocation,target universe,financial outputs,account orROI."
+  ],
+  "declined_to_judge": [
+    "Actual capture success/240response completeness until real terminal output exists.",
+    "Issuer-primary corporate-action completeness,tax,lifecycle,PIT/historicalarrival,raw-share eligibility and account/intraday outcomes.",
+    "Underlying TCP attempt count beyond persistent logical SDK query reservations."
+  ],
+  "network_used_by_reviewer": false,
+  "2026_market_or_account_data_read": false,
+  "portfolio_returns_computed": false,
+  "repository_modified_by_reviewer": false,
+  "account_source_admission_granted": false
+}
