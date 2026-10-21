@@ -1,0 +1,367 @@
+{
+  "status": "LOW_MARKET_RESIDUAL_VOL1M_PRIMARY_SOURCES_CAPTURED_REVIEW_SEPARATE",
+  "request_sha256": "84b35bc01b9f803114d2e80748c66f52052e0c482e1f71798d1708d34ce372f1",
+  "documents": {
+    "SH600763|2024-07-05": {
+      "instrument": "SH600763",
+      "publication_day": "2024-07-01",
+      "source_question_ex_date": "2024-07-05",
+      "file": "SH600763-2024-07-01.pdf",
+      "sha256": "d48bdde979d56fa83a370efc1e1dcd56b0003772352001e87601769b550eeff3",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-07-01/1220505721.PDF",
+      "listing_row": {
+        "code": "600763",
+        "title": "通策医疗股份有限公司2023年年度权益分派实施公告",
+        "day": "2024-07-01",
+        "timestamp_ms": 1719763200000,
+        "announcement_id": "1220505721",
+        "pdf_path": "finalpage/2024-07-01/1220505721.PDF"
+      },
+      "HTTP_listing_receipts": [
+        {
+          "request_file": "queries/6f3e95e9b04ad2ca5bc82073b7784b23e773f61da417006bc63112aee17c8186/request.json",
+          "request_sha256": "2d1b60b5f059e8c084f22b4bdea86bec56e6b1ef70ff1a56ff71c710e71d3b77",
+          "reserved_file": "queries/6f3e95e9b04ad2ca5bc82073b7784b23e773f61da417006bc63112aee17c8186/reserved-1.json",
+          "reserved_sha256": "893a415cb5938b18031eb616ce7edde808f679057a21111b4c6d21181fb88e77",
+          "response_file": "queries/6f3e95e9b04ad2ca5bc82073b7784b23e773f61da417006bc63112aee17c8186/response-1.json",
+          "response_sha256": "65798239a374dd4c09293cb1693277cddf12647527a49b5472f0cd9c5cc30f66"
+        }
+      ],
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/7b26c753b4b5270254f77cbf752d21f9cee4ec424e1b00f0b25233b8f05c6969/request.json",
+        "request_sha256": "866b1bb545eac0f86fedc684aada4e40fcfc6ea77ca1c863f302420a6896f7b3",
+        "reserved_file": "queries/7b26c753b4b5270254f77cbf752d21f9cee4ec424e1b00f0b25233b8f05c6969/reserved-1.json",
+        "reserved_sha256": "6b7d58871e67fa0c84a23a328664d54387d7e985ec0ceda02f546527dde83c4c",
+        "response_file": "queries/7b26c753b4b5270254f77cbf752d21f9cee4ec424e1b00f0b25233b8f05c6969/response-1.json",
+        "response_sha256": "ec9e74aafe385496850d6c25ace45ed5b35d5037ce97085779a5d60fd17422e3"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    },
+    "SH603290|2024-05-23": {
+      "instrument": "SH603290",
+      "publication_day": "2024-05-16",
+      "source_question_ex_date": "2024-05-23",
+      "file": "SH603290-2024-05-16.pdf",
+      "sha256": "0d0cf5c4e9e876cb090b8ebe15774ebe8cf06778f727ddb4531fe0066549db30",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-05-16/1220063044.PDF",
+      "listing_row": {
+        "code": "603290",
+        "title": "2023年年度权益分派实施公告",
+        "day": "2024-05-16",
+        "timestamp_ms": 1715788800000,
+        "announcement_id": "1220063044",
+        "pdf_path": "finalpage/2024-05-16/1220063044.PDF"
+      },
+      "HTTP_listing_receipts": [
+        {
+          "request_file": "queries/8873813195c3796dd919b30e70c2ca85113287e3a93bdfa7c0280f53d840d1ec/request.json",
+          "request_sha256": "9af6f75d01ab0cb74bba7b086484364bafafd43bc332f01ff375699dfd446f2d",
+          "reserved_file": "queries/8873813195c3796dd919b30e70c2ca85113287e3a93bdfa7c0280f53d840d1ec/reserved-1.json",
+          "reserved_sha256": "272ad2f0ba1d3d7bd21fc275770ab73b8ca6294463369bd116c2b8ea87c9d3c8",
+          "response_file": "queries/8873813195c3796dd919b30e70c2ca85113287e3a93bdfa7c0280f53d840d1ec/response-1.json",
+          "response_sha256": "084a370d2a0676d6c993d13e6d4f5fb05292e867c718ed3cdf441df4dd7d8d63"
+        }
+      ],
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/a67853ee432207e9e31c83b01d4eb43f3702c918017dea23f7057a40ad98cfef/request.json",
+        "request_sha256": "61aef084aa7fd7ccc1a1156ab78f4c456f2e91c0f5bda8e88fee550c22cad562",
+        "reserved_file": "queries/a67853ee432207e9e31c83b01d4eb43f3702c918017dea23f7057a40ad98cfef/reserved-1.json",
+        "reserved_sha256": "848f2efa07ef8883ed465e9fd0823a260352e47a170e07c10229b2ac4743d33c",
+        "response_file": "queries/a67853ee432207e9e31c83b01d4eb43f3702c918017dea23f7057a40ad98cfef/response-1.json",
+        "response_sha256": "00fc11f523a1ee8218c93deaa45b4f4f40eb01844bb5a3549344f1856b4ae417"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    },
+    "SH603688|2024-05-22": {
+      "instrument": "SH603688",
+      "publication_day": "2024-05-16",
+      "source_question_ex_date": "2024-05-22",
+      "file": "SH603688-2024-05-16.pdf",
+      "sha256": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-05-16/1220061278.PDF",
+      "listing_row": {
+        "code": "603688",
+        "title": "江苏太平洋石英股份有限公司2023年年度权益分派实施公告",
+        "day": "2024-05-16",
+        "timestamp_ms": 1715788800000,
+        "announcement_id": "1220061278",
+        "pdf_path": "finalpage/2024-05-16/1220061278.PDF"
+      },
+      "HTTP_listing_receipts": [
+        {
+          "request_file": "queries/eb5076d89c9b0d595b85f4282644b43dd32ccecc3941e2be60185f675a20752c/request.json",
+          "request_sha256": "7fcd885c6afabf1cc03d61db48f42222f5ec0bd437e94f5c714a60e71766fedd",
+          "reserved_file": "queries/eb5076d89c9b0d595b85f4282644b43dd32ccecc3941e2be60185f675a20752c/reserved-1.json",
+          "reserved_sha256": "b8cc0eaf3715f25a8cfa79c57586df1f8d307a4090232587ea37c649381468df",
+          "response_file": "queries/eb5076d89c9b0d595b85f4282644b43dd32ccecc3941e2be60185f675a20752c/response-1.json",
+          "response_sha256": "7041385886e8c6bc106534cca913bf49a6e4ace39ea194c1f88ad97b4f0d3d36"
+        }
+      ],
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/a6d352d6ea78a60af8392d2cd0384db32fd12e1e8877c0d43347f12f61dd8457/request.json",
+        "request_sha256": "13cdb0c06fcbcb98cf64fcf5d51a9fa78c7442873b85284a241d1600b57fef18",
+        "reserved_file": "queries/a6d352d6ea78a60af8392d2cd0384db32fd12e1e8877c0d43347f12f61dd8457/reserved-1.json",
+        "reserved_sha256": "ebf1e55f221814ccf442b01d4628f8ef7cc2abb134d538eb78523291b2a98259",
+        "response_file": "queries/a6d352d6ea78a60af8392d2cd0384db32fd12e1e8877c0d43347f12f61dd8457/response-1.json",
+        "response_sha256": "8603c23daf8d00b81b4c6e85e85d186fd9eb3384be5da608da54ed2c15e877ec"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    },
+    "SH603927|2024-05-21": {
+      "instrument": "SH603927",
+      "publication_day": "2024-05-15",
+      "source_question_ex_date": "2024-05-21",
+      "file": "SH603927-2024-05-15.pdf",
+      "sha256": "46930080250d977d9dd8f7ed41c02467271d022adfabce3cf84c84e34537de5a",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-05-15/1220052491.PDF",
+      "listing_row": {
+        "code": "603927",
+        "title": "中科软2023年年度权益分派实施公告",
+        "day": "2024-05-15",
+        "timestamp_ms": 1715702400000,
+        "announcement_id": "1220052491",
+        "pdf_path": "finalpage/2024-05-15/1220052491.PDF"
+      },
+      "HTTP_listing_receipts": [
+        {
+          "request_file": "queries/08cfa45e6e5cfb15335b82b84a551e1be15c032149b8c164e58f22c198f45d1d/request.json",
+          "request_sha256": "98963de26b17193203c4ea61058b5fad44b372f845424d54eae200e56484f6c5",
+          "reserved_file": "queries/08cfa45e6e5cfb15335b82b84a551e1be15c032149b8c164e58f22c198f45d1d/reserved-1.json",
+          "reserved_sha256": "20567fc4e2f93c87cfed80f4ef6f440a0eefe2b425486ad4e50700a3b1b3417b",
+          "response_file": "queries/08cfa45e6e5cfb15335b82b84a551e1be15c032149b8c164e58f22c198f45d1d/response-1.json",
+          "response_sha256": "5319a3923c6e0c1c768dc49fbc1eaaa332733fbc622ae742f3b4b1e8d0b6df53"
+        }
+      ],
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/0909f9e33d4a41bda38f44ca2ec7277081639e2faee2d74347890c943af73104/request.json",
+        "request_sha256": "36e4414efebe12f1836132dd17ec051043853bcec9591a67765d2263b7a870f2",
+        "reserved_file": "queries/0909f9e33d4a41bda38f44ca2ec7277081639e2faee2d74347890c943af73104/reserved-1.json",
+        "reserved_sha256": "9032b2fabbf8191571ba93ceb5258c8f950e3bba2dfd80dd66902c5aad90cd66",
+        "response_file": "queries/0909f9e33d4a41bda38f44ca2ec7277081639e2faee2d74347890c943af73104/response-1.json",
+        "response_sha256": "c3538c281f5a36c2a62c67310bc9b94da3836f239fd91db92fc7964782731a83"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    },
+    "SZ000403|2025-06-04": {
+      "instrument": "SZ000403",
+      "publication_day": "2025-05-27",
+      "source_question_ex_date": "2025-06-04",
+      "file": "SZ000403-2025-05-27.pdf",
+      "sha256": "52287e10b2d70bf244f0306c2c472043e0e08d11fbe8592078bf68baf0d83af7",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-27/1223683926.PDF",
+      "listing_row": {
+        "code": "000403",
+        "title": "关于2024年度利润分配实施的公告",
+        "day": "2025-05-27",
+        "timestamp_ms": 1748275200000,
+        "announcement_id": "1223683926",
+        "pdf_path": "finalpage/2025-05-27/1223683926.PDF"
+      },
+      "HTTP_listing_receipts": [
+        {
+          "request_file": "queries/00b8e523e9df579bf507691deeb2db0875a053828380a9a777164065bfcf72a2/request.json",
+          "request_sha256": "8dd88835e7494e2848b89b40dc805e98d7982ce1ca6ab59e150d0f981ce21346",
+          "reserved_file": "queries/00b8e523e9df579bf507691deeb2db0875a053828380a9a777164065bfcf72a2/reserved-1.json",
+          "reserved_sha256": "cbe832f37eef9bdbe2879aa12d32d1e496e7c0b3d43feea457ae6953020505a7",
+          "response_file": "queries/00b8e523e9df579bf507691deeb2db0875a053828380a9a777164065bfcf72a2/response-1.json",
+          "response_sha256": "9a3e9476fcada0006a533f43fef5ed502f4288b3c11b4163eb35034d7739399c"
+        }
+      ],
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/f56f3f8cbb7ba1a90a24f6b8d25eb978532975cde04f220e2a8882df598e87b7/request.json",
+        "request_sha256": "257911c9631856ed9386511361e2b32c34f93558e248928613180008058be0bd",
+        "reserved_file": "queries/f56f3f8cbb7ba1a90a24f6b8d25eb978532975cde04f220e2a8882df598e87b7/reserved-1.json",
+        "reserved_sha256": "8ff2252663f99aa720cd728270b48b77040916d78d793c98b2636bf609ea8bfa",
+        "response_file": "queries/f56f3f8cbb7ba1a90a24f6b8d25eb978532975cde04f220e2a8882df598e87b7/response-1.json",
+        "response_sha256": "9bf778b4c60a745d4f775769e8329a11bbbac63bf2823f07fff337de11e6e685"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    },
+    "SH601966|2024-06-14": {
+      "instrument": "SH601966",
+      "publication_day": "2024-06-07",
+      "source_question_ex_date": "2024-06-14",
+      "file": "SH601966-2024-06-07.pdf",
+      "sha256": "f7659034cb64362e870f2f16f25f89ca683b10a779bb18e6e14ac6ea4d5b97a5",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-07/1220288229.PDF",
+      "listing_row": {
+        "code": "601966",
+        "title": "山东玲珑轮胎股份有限公司2023年年度及2024年一季度权益分派实施公告",
+        "day": "2024-06-07",
+        "timestamp_ms": 1717689600000,
+        "announcement_id": "1220288229",
+        "pdf_path": "finalpage/2024-06-07/1220288229.PDF"
+      },
+      "HTTP_listing_receipts": [
+        {
+          "request_file": "queries/79cde67b56c5c974b08b0fefa939de04e456a4e4e701a6d3dcca9d32dae262b6/request.json",
+          "request_sha256": "40d118a77661e49a941049af5ca441e467d4496005eb4cf7c08962aef229b00e",
+          "reserved_file": "queries/79cde67b56c5c974b08b0fefa939de04e456a4e4e701a6d3dcca9d32dae262b6/reserved-1.json",
+          "reserved_sha256": "1992d879db7e6984fd50e54e5230e404bc6b4f76e69f8d852850cb97b2f8d62a",
+          "response_file": "queries/79cde67b56c5c974b08b0fefa939de04e456a4e4e701a6d3dcca9d32dae262b6/response-1.json",
+          "response_sha256": "f87b8af5d2086eb3d38dfab832921025086e345e4cfce61928ab6766ff60bd68"
+        }
+      ],
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/9e3bd1cbc9d0c9ee2c7a15be3ea181c28ffb52f980b1bb686128937e835bcdb0/request.json",
+        "request_sha256": "da4885d2a94c53dd7e9545cf6a008452801376db3d84b26bc5122fd49e974aef",
+        "reserved_file": "queries/9e3bd1cbc9d0c9ee2c7a15be3ea181c28ffb52f980b1bb686128937e835bcdb0/reserved-1.json",
+        "reserved_sha256": "c26edb319c554c8cef4ce8edbe4ee996cd1266f5ff8d993069f6c279c260edeb",
+        "response_file": "queries/9e3bd1cbc9d0c9ee2c7a15be3ea181c28ffb52f980b1bb686128937e835bcdb0/response-1.json",
+        "response_sha256": "44f44ac4200708c54f5b9236954ceedb0273eb72c643e5c48b0742dd9c04ec1f"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    },
+    "SH601966|2025-10-23": {
+      "instrument": "SH601966",
+      "publication_day": "2025-10-16",
+      "source_question_ex_date": "2025-10-23",
+      "file": "SH601966-2025-10-16.pdf",
+      "sha256": "d33cd20903dce8ae630bdaef3e4cd6ee38172b9605f569d15126aa56df8ff01d",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-10-16/1224713535.PDF",
+      "listing_row": {
+        "code": "601966",
+        "title": "山东玲珑轮胎股份有限公司2025年第二季度权益分派实施公告",
+        "day": "2025-10-16",
+        "timestamp_ms": 1760544000000,
+        "announcement_id": "1224713535",
+        "pdf_path": "finalpage/2025-10-16/1224713535.PDF"
+      },
+      "HTTP_listing_receipts": [
+        {
+          "request_file": "queries/a0f58233217e3026958db6022fffe8d2b3c6f2744d1cdfcef4a3865b7237dc63/request.json",
+          "request_sha256": "7399a7ba3118a19b9a1338d4dbbce5a79f75de690c1d2a473ac6e099f7fe9173",
+          "reserved_file": "queries/a0f58233217e3026958db6022fffe8d2b3c6f2744d1cdfcef4a3865b7237dc63/reserved-1.json",
+          "reserved_sha256": "602cba00087b3f11210a7794084252870de106d729e8a9fc6524bb3278c22211",
+          "response_file": "queries/a0f58233217e3026958db6022fffe8d2b3c6f2744d1cdfcef4a3865b7237dc63/response-1.json",
+          "response_sha256": "6c15a39938d8ca3d8a043361cf96ad98affeda36dab371a5d600c6b15c8450d3"
+        }
+      ],
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/8641c1db6ec402d42739159386e0fde60aa2b464db9f46a6f5485d4ccfb1e313/request.json",
+        "request_sha256": "e81b4de24e742f44311c31ac6e39cb447a5489b297bc89c641910f11268eb518",
+        "reserved_file": "queries/8641c1db6ec402d42739159386e0fde60aa2b464db9f46a6f5485d4ccfb1e313/reserved-1.json",
+        "reserved_sha256": "652e3d377a729b5f9cd804533def62f7f3298aa6c7b71220637a8d958fa8024e",
+        "response_file": "queries/8641c1db6ec402d42739159386e0fde60aa2b464db9f46a6f5485d4ccfb1e313/response-1.json",
+        "response_sha256": "cddd89d8db67b4c9abe4141033e537dd6bb4e90e329411fef321f1c866e0901c"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    },
+    "SZ000728|2025-01-21": {
+      "instrument": "SZ000728",
+      "publication_day": "2025-01-14",
+      "source_question_ex_date": "2025-01-21",
+      "file": "SZ000728-2025-01-14.pdf",
+      "sha256": "712c5aa18b185c5dc7fe317b3f4cdadbef0bdd09b3b83d665e0d66707ae7ebf2",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-14/1222321918.PDF",
+      "listing_row": {
+        "code": "000728",
+        "title": "国元证券股份有限公司特别分红权益分派实施公告",
+        "day": "2025-01-14",
+        "timestamp_ms": 1736784000000,
+        "announcement_id": "1222321918",
+        "pdf_path": "finalpage/2025-01-14/1222321918.PDF"
+      },
+      "HTTP_listing_receipts": [
+        {
+          "request_file": "queries/7f2592e858c3626175f9e3ec470a755e73ba5a5bc4f4c59862b979c93dc6904e/request.json",
+          "request_sha256": "15bb120c836e72923ef2d7c8cac0e089cfa147215c9635100f32c105915ca403",
+          "reserved_file": "queries/7f2592e858c3626175f9e3ec470a755e73ba5a5bc4f4c59862b979c93dc6904e/reserved-1.json",
+          "reserved_sha256": "f9056bae39a5745bf2dea0e8854ae8d1e74ec604072e9208744705b4c20da3be",
+          "response_file": "queries/7f2592e858c3626175f9e3ec470a755e73ba5a5bc4f4c59862b979c93dc6904e/response-1.json",
+          "response_sha256": "d38bc6d5026ba4b61de690b7ac76c1319548685dc60fce4647e10e826181dd68"
+        }
+      ],
+      "HTTP_pdf_receipt": {
+        "request_file": "queries/efc56756d2527b39e558ff5e233fa02933485874544df336beff0253e9c46a8f/request.json",
+        "request_sha256": "8d7840b44fa9782720f16c398c5e36b170533b96be4a1af420fbc5dba3ccf30f",
+        "reserved_file": "queries/efc56756d2527b39e558ff5e233fa02933485874544df336beff0253e9c46a8f/reserved-1.json",
+        "reserved_sha256": "90a6d80b6ec29dddd1024a5e46820db3c0ae5ad95124fe70c9b29b70541376e4",
+        "response_file": "queries/efc56756d2527b39e558ff5e233fa02933485874544df336beff0253e9c46a8f/response-1.json",
+        "response_sha256": "80fbf9deafdc73cdbf35528485e1c7a996cd6958a69274ea03db5ee8d76f7f7b"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+    }
+  },
+  "errors": {},
+  "pending_cases": [],
+  "HTTP_query_reservations": 16,
+  "maximum_HTTP_query_reservations": 24,
+  "capture_complete": true,
+  "abnormal_exit": null,
+  "source_inputs_unchanged_after_capture": true,
+  "postcheck_sha256": "5a2228e30d9f82aa80295d23cf2eac6cdcf68a0183400672208d56288de17c9b",
+  "artifact_sha256": {
+    "SH600763-2024-07-01.pdf": "d48bdde979d56fa83a370efc1e1dcd56b0003772352001e87601769b550eeff3",
+    "SH601966-2024-06-07.pdf": "f7659034cb64362e870f2f16f25f89ca683b10a779bb18e6e14ac6ea4d5b97a5",
+    "SH601966-2025-10-16.pdf": "d33cd20903dce8ae630bdaef3e4cd6ee38172b9605f569d15126aa56df8ff01d",
+    "SH603290-2024-05-16.pdf": "0d0cf5c4e9e876cb090b8ebe15774ebe8cf06778f727ddb4531fe0066549db30",
+    "SH603688-2024-05-16.pdf": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+    "SH603927-2024-05-15.pdf": "46930080250d977d9dd8f7ed41c02467271d022adfabce3cf84c84e34537de5a",
+    "SZ000403-2025-05-27.pdf": "52287e10b2d70bf244f0306c2c472043e0e08d11fbe8592078bf68baf0d83af7",
+    "SZ000728-2025-01-14.pdf": "712c5aa18b185c5dc7fe317b3f4cdadbef0bdd09b3b83d665e0d66707ae7ebf2",
+    "errors.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "input-before.json": "60c44fed83444d960674ea5d1bbf1676a06cff5cecd0c0e6861ce2a4345ea840",
+    "input-postcheck.json": "5a2228e30d9f82aa80295d23cf2eac6cdcf68a0183400672208d56288de17c9b",
+    "progress.json": "01a6c29b039c7b6eb5cca0bc1a99911206c885a9d9ce2c8db0d0978ba8bf7831",
+    "queries/00b8e523e9df579bf507691deeb2db0875a053828380a9a777164065bfcf72a2/request.json": "8dd88835e7494e2848b89b40dc805e98d7982ce1ca6ab59e150d0f981ce21346",
+    "queries/00b8e523e9df579bf507691deeb2db0875a053828380a9a777164065bfcf72a2/reserved-1.json": "cbe832f37eef9bdbe2879aa12d32d1e496e7c0b3d43feea457ae6953020505a7",
+    "queries/00b8e523e9df579bf507691deeb2db0875a053828380a9a777164065bfcf72a2/response-1.json": "9a3e9476fcada0006a533f43fef5ed502f4288b3c11b4163eb35034d7739399c",
+    "queries/08cfa45e6e5cfb15335b82b84a551e1be15c032149b8c164e58f22c198f45d1d/request.json": "98963de26b17193203c4ea61058b5fad44b372f845424d54eae200e56484f6c5",
+    "queries/08cfa45e6e5cfb15335b82b84a551e1be15c032149b8c164e58f22c198f45d1d/reserved-1.json": "20567fc4e2f93c87cfed80f4ef6f440a0eefe2b425486ad4e50700a3b1b3417b",
+    "queries/08cfa45e6e5cfb15335b82b84a551e1be15c032149b8c164e58f22c198f45d1d/response-1.json": "5319a3923c6e0c1c768dc49fbc1eaaa332733fbc622ae742f3b4b1e8d0b6df53",
+    "queries/0909f9e33d4a41bda38f44ca2ec7277081639e2faee2d74347890c943af73104/request.json": "36e4414efebe12f1836132dd17ec051043853bcec9591a67765d2263b7a870f2",
+    "queries/0909f9e33d4a41bda38f44ca2ec7277081639e2faee2d74347890c943af73104/reserved-1.json": "9032b2fabbf8191571ba93ceb5258c8f950e3bba2dfd80dd66902c5aad90cd66",
+    "queries/0909f9e33d4a41bda38f44ca2ec7277081639e2faee2d74347890c943af73104/response-1.json": "c3538c281f5a36c2a62c67310bc9b94da3836f239fd91db92fc7964782731a83",
+    "queries/6f3e95e9b04ad2ca5bc82073b7784b23e773f61da417006bc63112aee17c8186/request.json": "2d1b60b5f059e8c084f22b4bdea86bec56e6b1ef70ff1a56ff71c710e71d3b77",
+    "queries/6f3e95e9b04ad2ca5bc82073b7784b23e773f61da417006bc63112aee17c8186/reserved-1.json": "893a415cb5938b18031eb616ce7edde808f679057a21111b4c6d21181fb88e77",
+    "queries/6f3e95e9b04ad2ca5bc82073b7784b23e773f61da417006bc63112aee17c8186/response-1.json": "65798239a374dd4c09293cb1693277cddf12647527a49b5472f0cd9c5cc30f66",
+    "queries/79cde67b56c5c974b08b0fefa939de04e456a4e4e701a6d3dcca9d32dae262b6/request.json": "40d118a77661e49a941049af5ca441e467d4496005eb4cf7c08962aef229b00e",
+    "queries/79cde67b56c5c974b08b0fefa939de04e456a4e4e701a6d3dcca9d32dae262b6/reserved-1.json": "1992d879db7e6984fd50e54e5230e404bc6b4f76e69f8d852850cb97b2f8d62a",
+    "queries/79cde67b56c5c974b08b0fefa939de04e456a4e4e701a6d3dcca9d32dae262b6/response-1.json": "f87b8af5d2086eb3d38dfab832921025086e345e4cfce61928ab6766ff60bd68",
+    "queries/7b26c753b4b5270254f77cbf752d21f9cee4ec424e1b00f0b25233b8f05c6969/request.json": "866b1bb545eac0f86fedc684aada4e40fcfc6ea77ca1c863f302420a6896f7b3",
+    "queries/7b26c753b4b5270254f77cbf752d21f9cee4ec424e1b00f0b25233b8f05c6969/reserved-1.json": "6b7d58871e67fa0c84a23a328664d54387d7e985ec0ceda02f546527dde83c4c",
+    "queries/7b26c753b4b5270254f77cbf752d21f9cee4ec424e1b00f0b25233b8f05c6969/response-1.json": "ec9e74aafe385496850d6c25ace45ed5b35d5037ce97085779a5d60fd17422e3",
+    "queries/7f2592e858c3626175f9e3ec470a755e73ba5a5bc4f4c59862b979c93dc6904e/request.json": "15bb120c836e72923ef2d7c8cac0e089cfa147215c9635100f32c105915ca403",
+    "queries/7f2592e858c3626175f9e3ec470a755e73ba5a5bc4f4c59862b979c93dc6904e/reserved-1.json": "f9056bae39a5745bf2dea0e8854ae8d1e74ec604072e9208744705b4c20da3be",
+    "queries/7f2592e858c3626175f9e3ec470a755e73ba5a5bc4f4c59862b979c93dc6904e/response-1.json": "d38bc6d5026ba4b61de690b7ac76c1319548685dc60fce4647e10e826181dd68",
+    "queries/8641c1db6ec402d42739159386e0fde60aa2b464db9f46a6f5485d4ccfb1e313/request.json": "e81b4de24e742f44311c31ac6e39cb447a5489b297bc89c641910f11268eb518",
+    "queries/8641c1db6ec402d42739159386e0fde60aa2b464db9f46a6f5485d4ccfb1e313/reserved-1.json": "652e3d377a729b5f9cd804533def62f7f3298aa6c7b71220637a8d958fa8024e",
+    "queries/8641c1db6ec402d42739159386e0fde60aa2b464db9f46a6f5485d4ccfb1e313/response-1.json": "cddd89d8db67b4c9abe4141033e537dd6bb4e90e329411fef321f1c866e0901c",
+    "queries/8873813195c3796dd919b30e70c2ca85113287e3a93bdfa7c0280f53d840d1ec/request.json": "9af6f75d01ab0cb74bba7b086484364bafafd43bc332f01ff375699dfd446f2d",
+    "queries/8873813195c3796dd919b30e70c2ca85113287e3a93bdfa7c0280f53d840d1ec/reserved-1.json": "272ad2f0ba1d3d7bd21fc275770ab73b8ca6294463369bd116c2b8ea87c9d3c8",
+    "queries/8873813195c3796dd919b30e70c2ca85113287e3a93bdfa7c0280f53d840d1ec/response-1.json": "084a370d2a0676d6c993d13e6d4f5fb05292e867c718ed3cdf441df4dd7d8d63",
+    "queries/9e3bd1cbc9d0c9ee2c7a15be3ea181c28ffb52f980b1bb686128937e835bcdb0/request.json": "da4885d2a94c53dd7e9545cf6a008452801376db3d84b26bc5122fd49e974aef",
+    "queries/9e3bd1cbc9d0c9ee2c7a15be3ea181c28ffb52f980b1bb686128937e835bcdb0/reserved-1.json": "c26edb319c554c8cef4ce8edbe4ee996cd1266f5ff8d993069f6c279c260edeb",
+    "queries/9e3bd1cbc9d0c9ee2c7a15be3ea181c28ffb52f980b1bb686128937e835bcdb0/response-1.json": "44f44ac4200708c54f5b9236954ceedb0273eb72c643e5c48b0742dd9c04ec1f",
+    "queries/a0f58233217e3026958db6022fffe8d2b3c6f2744d1cdfcef4a3865b7237dc63/request.json": "7399a7ba3118a19b9a1338d4dbbce5a79f75de690c1d2a473ac6e099f7fe9173",
+    "queries/a0f58233217e3026958db6022fffe8d2b3c6f2744d1cdfcef4a3865b7237dc63/reserved-1.json": "602cba00087b3f11210a7794084252870de106d729e8a9fc6524bb3278c22211",
+    "queries/a0f58233217e3026958db6022fffe8d2b3c6f2744d1cdfcef4a3865b7237dc63/response-1.json": "6c15a39938d8ca3d8a043361cf96ad98affeda36dab371a5d600c6b15c8450d3",
+    "queries/a67853ee432207e9e31c83b01d4eb43f3702c918017dea23f7057a40ad98cfef/request.json": "61aef084aa7fd7ccc1a1156ab78f4c456f2e91c0f5bda8e88fee550c22cad562",
+    "queries/a67853ee432207e9e31c83b01d4eb43f3702c918017dea23f7057a40ad98cfef/reserved-1.json": "848f2efa07ef8883ed465e9fd0823a260352e47a170e07c10229b2ac4743d33c",
+    "queries/a67853ee432207e9e31c83b01d4eb43f3702c918017dea23f7057a40ad98cfef/response-1.json": "00fc11f523a1ee8218c93deaa45b4f4f40eb01844bb5a3549344f1856b4ae417",
+    "queries/a6d352d6ea78a60af8392d2cd0384db32fd12e1e8877c0d43347f12f61dd8457/request.json": "13cdb0c06fcbcb98cf64fcf5d51a9fa78c7442873b85284a241d1600b57fef18",
+    "queries/a6d352d6ea78a60af8392d2cd0384db32fd12e1e8877c0d43347f12f61dd8457/reserved-1.json": "ebf1e55f221814ccf442b01d4628f8ef7cc2abb134d538eb78523291b2a98259",
+    "queries/a6d352d6ea78a60af8392d2cd0384db32fd12e1e8877c0d43347f12f61dd8457/response-1.json": "8603c23daf8d00b81b4c6e85e85d186fd9eb3384be5da608da54ed2c15e877ec",
+    "queries/eb5076d89c9b0d595b85f4282644b43dd32ccecc3941e2be60185f675a20752c/request.json": "7fcd885c6afabf1cc03d61db48f42222f5ec0bd437e94f5c714a60e71766fedd",
+    "queries/eb5076d89c9b0d595b85f4282644b43dd32ccecc3941e2be60185f675a20752c/reserved-1.json": "b8cc0eaf3715f25a8cfa79c57586df1f8d307a4090232587ea37c649381468df",
+    "queries/eb5076d89c9b0d595b85f4282644b43dd32ccecc3941e2be60185f675a20752c/response-1.json": "7041385886e8c6bc106534cca913bf49a6e4ace39ea194c1f88ad97b4f0d3d36",
+    "queries/efc56756d2527b39e558ff5e233fa02933485874544df336beff0253e9c46a8f/request.json": "8d7840b44fa9782720f16c398c5e36b170533b96be4a1af420fbc5dba3ccf30f",
+    "queries/efc56756d2527b39e558ff5e233fa02933485874544df336beff0253e9c46a8f/reserved-1.json": "90a6d80b6ec29dddd1024a5e46820db3c0ae5ad95124fe70c9b29b70541376e4",
+    "queries/efc56756d2527b39e558ff5e233fa02933485874544df336beff0253e9c46a8f/response-1.json": "80fbf9deafdc73cdbf35528485e1c7a996cd6958a69274ea03db5ee8d76f7f7b",
+    "queries/f56f3f8cbb7ba1a90a24f6b8d25eb978532975cde04f220e2a8882df598e87b7/request.json": "257911c9631856ed9386511361e2b32c34f93558e248928613180008058be0bd",
+    "queries/f56f3f8cbb7ba1a90a24f6b8d25eb978532975cde04f220e2a8882df598e87b7/reserved-1.json": "8ff2252663f99aa720cd728270b48b77040916d78d793c98b2636bf609ea8bfa",
+    "queries/f56f3f8cbb7ba1a90a24f6b8d25eb978532975cde04f220e2a8882df598e87b7/response-1.json": "9bf778b4c60a745d4f775769e8329a11bbbac63bf2823f07fff337de11e6e685",
+    "request.json": "84b35bc01b9f803114d2e80748c66f52052e0c482e1f71798d1708d34ce372f1"
+  },
+  "content_reviewed": false,
+  "documents_financially_reviewed": false,
+  "admitted_for_account_replay": false,
+  "corporate_action_completeness_verified": false,
+  "tax_verified": false,
+  "historical_arrival_verified": false,
+  "investment_rule_changed": false,
+  "portfolio_returns_computed": false,
+  "new_2026_queries": false,
+  "objective_achieved": false
+}

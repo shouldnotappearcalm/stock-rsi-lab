@@ -1,0 +1,204 @@
+{
+  "status": "REVIEWED_PRIMARY_ECONOMIC_COMPLETION_PROPOSAL_NOT_APPLIED",
+  "candidate": "low_market_residual_vol_1m",
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "primary_capture_manifest_sha256": "338244552243fd043698fb8c388c245c9bb269ceb65276607d59cd96fde68ad2",
+  "primary_content_review_sha256": "a994dd47d943c2438799d57677767f3d438bf095a8705125fedcb1cb969eefac",
+  "documents": [
+    {
+      "instrument": "SH600763",
+      "day": "2024-07-01",
+      "file": "SH600763-2024-07-01.pdf",
+      "sha256": "d48bdde979d56fa83a370efc1e1dcd56b0003772352001e87601769b550eeff3",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-07-01/1220505721.PDF",
+      "original_manifest_case_id": "SH600763|2024-07-05"
+    },
+    {
+      "instrument": "SH603290",
+      "day": "2024-05-16",
+      "file": "SH603290-2024-05-16.pdf",
+      "sha256": "0d0cf5c4e9e876cb090b8ebe15774ebe8cf06778f727ddb4531fe0066549db30",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-05-16/1220063044.PDF",
+      "original_manifest_case_id": "SH603290|2024-05-23"
+    },
+    {
+      "instrument": "SH603688",
+      "day": "2024-05-16",
+      "file": "SH603688-2024-05-16.pdf",
+      "sha256": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-05-16/1220061278.PDF",
+      "original_manifest_case_id": "SH603688|2024-05-22"
+    },
+    {
+      "instrument": "SH603927",
+      "day": "2024-05-15",
+      "file": "SH603927-2024-05-15.pdf",
+      "sha256": "46930080250d977d9dd8f7ed41c02467271d022adfabce3cf84c84e34537de5a",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-05-15/1220052491.PDF",
+      "original_manifest_case_id": "SH603927|2024-05-21"
+    },
+    {
+      "instrument": "SZ000403",
+      "day": "2025-05-27",
+      "file": "SZ000403-2025-05-27.pdf",
+      "sha256": "52287e10b2d70bf244f0306c2c472043e0e08d11fbe8592078bf68baf0d83af7",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-27/1223683926.PDF",
+      "original_manifest_case_id": "SZ000403|2025-06-04"
+    },
+    {
+      "instrument": "SH601966",
+      "day": "2024-06-07",
+      "file": "SH601966-2024-06-07.pdf",
+      "sha256": "f7659034cb64362e870f2f16f25f89ca683b10a779bb18e6e14ac6ea4d5b97a5",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-07/1220288229.PDF",
+      "original_manifest_case_id": "SH601966|2024-06-14"
+    },
+    {
+      "instrument": "SH601966",
+      "day": "2025-10-16",
+      "file": "SH601966-2025-10-16.pdf",
+      "sha256": "d33cd20903dce8ae630bdaef3e4cd6ee38172b9605f569d15126aa56df8ff01d",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-10-16/1224713535.PDF",
+      "original_manifest_case_id": "SH601966|2025-10-23"
+    },
+    {
+      "instrument": "SZ000728",
+      "day": "2025-01-14",
+      "file": "SZ000728-2025-01-14.pdf",
+      "sha256": "712c5aa18b185c5dc7fe317b3f4cdadbef0bdd09b3b83d665e0d66707ae7ebf2",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-14/1222321918.PDF",
+      "original_manifest_case_id": "SZ000728|2025-01-21"
+    }
+  ],
+  "primary_event_component_contract": "PRIMARY_EVENT_COMPONENT_COMPLETION_V1",
+  "primary_event_components": {
+    "SH601966|2024-06-14": {
+      "verified": true,
+      "version": 1,
+      "kind": "PRIMARY_TWO_CASH_COMPONENT_SUM",
+      "instrument": "SH601966",
+      "publication_day": "2024-06-07",
+      "record_date": "2024-06-13",
+      "ex_date": "2024-06-14",
+      "cash_payment_date": "2024-06-14",
+      "stock_listing_date": null,
+      "source_file": "SH601966-2024-06-07.pdf",
+      "source_sha256": "f7659034cb64362e870f2f16f25f89ca683b10a779bb18e6e14ac6ea4d5b97a5",
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0",
+      "components": [
+        {
+          "source_row_sha256": "7a52e023be8dc62468d080b16bb3166686e44ebd9a0ff9a5ff60842215271acb",
+          "cash_per_original_share": "0.286"
+        },
+        {
+          "source_row_sha256": "e373aaaa9dfa85f9e06a61328cbfd0f9c6b6a71f8e8fee89ced7be5f02bd5f1b",
+          "cash_per_original_share": "0.091"
+        }
+      ],
+      "combined_cash_per_original_share": "0.377"
+    },
+    "SH600763|2024-07-05": {
+      "verified": true,
+      "version": 1,
+      "kind": "PRIMARY_STOCK_ZERO_CAPITAL",
+      "instrument": "SH600763",
+      "publication_day": "2024-07-01",
+      "record_date": "2024-07-04",
+      "ex_date": "2024-07-05",
+      "cash_payment_date": "2024-07-05",
+      "stock_listing_date": "2024-07-05",
+      "source_file": "SH600763-2024-07-01.pdf",
+      "source_sha256": "d48bdde979d56fa83a370efc1e1dcd56b0003772352001e87601769b550eeff3",
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "stock_per_original_share": "0.400595",
+      "capital_per_original_share": "0",
+      "source_row_sha256": "68a97ccd96f1814f1a02124e5b9022372ad35a98bbc7e62dc2a4c9961682356d",
+      "cash_per_original_share": "0.43565"
+    }
+  },
+  "supplementary_distributions": [
+    {
+      "instrument": "SH601966",
+      "source_file": "SH601966-2025-10-16.pdf",
+      "source_sha256": "d33cd20903dce8ae630bdaef3e4cd6ee38172b9605f569d15126aa56df8ff01d",
+      "record": {
+        "code": "sh.601966",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "",
+        "dividPlanAnnounceDate": "",
+        "dividPlanDate": "2025-10-16",
+        "dividRegistDate": "2025-10-22",
+        "dividOperateDate": "2025-10-23",
+        "dividPayDate": "2025-10-23",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.11",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0",
+        "dividCashStock": "PRIMARY_NOTICE_CASH_ONLY_SUPPLEMENT",
+        "dividReserveToStockPs": "0"
+      },
+      "source_role": "PRIMARY_NOTICE_SUPPLEMENT_NOT_VENDOR_REWRITE",
+      "primary_pages_one_based": [
+        1,
+        2,
+        3
+      ],
+      "price_reference_not_used_for_entitlement": true
+    },
+    {
+      "instrument": "SZ000728",
+      "source_file": "SZ000728-2025-01-14.pdf",
+      "source_sha256": "712c5aa18b185c5dc7fe317b3f4cdadbef0bdd09b3b83d665e0d66707ae7ebf2",
+      "record": {
+        "code": "sz.000728",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "",
+        "dividPlanAnnounceDate": "",
+        "dividPlanDate": "2025-01-14",
+        "dividRegistDate": "2025-01-20",
+        "dividOperateDate": "2025-01-21",
+        "dividPayDate": "2025-01-21",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.06",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0",
+        "dividCashStock": "PRIMARY_NOTICE_CASH_ONLY_SUPPLEMENT",
+        "dividReserveToStockPs": "0"
+      },
+      "source_role": "PRIMARY_NOTICE_SUPPLEMENT_NOT_VENDOR_REWRITE",
+      "primary_pages_one_based": [
+        1,
+        2
+      ],
+      "price_reference_not_used_for_entitlement": true
+    }
+  ],
+  "capital_tax": {},
+  "stock_dividend_tax_bases": {},
+  "cash_overrides": {},
+  "six_tax_unknowns_unchanged": true,
+  "old_nine_cached_proof_types_not_replaced": true,
+  "missing_vendor_raw_rows_created": false,
+  "lifecycle_projection_not_yet_applied": true,
+  "actual_source_projection_run": false,
+  "actual_event_compilation_run": false,
+  "account_replay_admitted": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_queries": false,
+  "objective_achieved": false
+}

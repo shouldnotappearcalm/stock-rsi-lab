@@ -1,0 +1,27 @@
+{
+  "actual_source_projection_executed": false,
+  "expected_behavior": "Reject nonempty unsupported component_precision_overrides before the empty-component early return; do not expand this V2-only adapter to V3.",
+  "portfolio_returns_computed": false,
+  "proof": {
+    "intentionally_invalid": true,
+    "kind": "PRIMARY_NOTICE_MIXED_COMPONENT_PRECISION",
+    "verified": true
+  },
+  "proof_key": "SZ002831|2024-06-14",
+  "reviewed_module_sha256": "4f92495589e208a8d43d5df86dfaff818749cc916c10ba570a742ead555cc530",
+  "reviewed_tests_sha256": "6e5b09ce8a0bc671f2816042223dbe90125d0bb4ec5e29895f8db44e3afdee8a",
+  "severity": "Important",
+  "synthetic_reproduction": [
+    {
+      "mode": "active_components",
+      "output_identical_to_no_proof": true,
+      "unsupported_nonempty_proof_accepted": true
+    },
+    {
+      "mode": "empty_components",
+      "output_identical_to_no_proof": true,
+      "unsupported_nonempty_proof_accepted": true
+    }
+  ],
+  "title": "Nonempty unsupported V3 component precision map is silently ignored"
+}

@@ -1,0 +1,9 @@
+{
+  "first_root_invocation_exit_code": 1,
+  "first_root_error": "ValueError: explicit frozen request/commit/source roots required",
+  "cause": "Root omitted --repo-root/--source-root in first reproduction CLI call; no source or auditor mutation.",
+  "corrected_invocation_exit_code": 0,
+  "root_reproduction_byte_identical": true,
+  "independent_report_sha256": "7fb6a46f5e39fa9791b21a0cc1343ff958f236336e9e2329d548196610bd22d9",
+  "actual_source_restarted": false
+}

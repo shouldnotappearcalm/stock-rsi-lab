@@ -5599,7 +5599,7 @@
     "2026_market_values_or_outcomes_queried": false,
     "objective_achieved": false,
     "freeze_CI_all_three_jobs_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39589475343",
-    "next_action": "Capture and independently review eight fixed pre2026 original notices; then freeze evaluator event projection and physical-share account replay. Preserve possible held-period ST dependency and all source guard failures; no target deletion or2026-based tuning.",
+    "next_action": "Freeze authenticated pre2026 source projection with old proof/lifecycle reuse and new primary components/supplements, independently check compiled events, then run unchanged physical account with all original tax/registry/ordinary-state guards.",
     "raw_source_completion": {
       "status": "PRE2026_RAW_SOURCE_CAPTURE_INDEPENDENTLY_VERIFIED_ADMISSION_SEPARATE",
       "verification_file": "experiments/qlib/low-market-residual-vol1m-raw-source-verification.json",
@@ -5630,10 +5630,26 @@
         "freeze_verification_file": "experiments/qlib/low-market-residual-vol1m-primary-source-freeze-verification.json",
         "freeze_verification_sha256": "7c464a3ff5427ab0078d00a6d07bcad2a1727fa2ea0252729f16af91aa6b85ff",
         "planned_primary_documents": 8,
-        "actual_capture_run": false,
-        "content_reviewed": false,
-        "actual_account_replay_run": false
+        "actual_capture_run": true,
+        "content_reviewed": true,
+        "actual_account_replay_run": false,
+        "capture_manifest_sha256": "338244552243fd043698fb8c388c245c9bb269ceb65276607d59cd96fde68ad2",
+        "independent_source_audit_sha256": "7fb6a46f5e39fa9791b21a0cc1343ff958f236336e9e2329d548196610bd22d9",
+        "source_audit_reproduced_byte_identically": true,
+        "verification_file": "experiments/qlib/low-market-residual-vol1m-primary-source-verification.json",
+        "verification_sha256": "87de8bde7c20935714af3128c90c3d25c7bff93cd2d6c2c275c401097c279823",
+        "content_review_sha256": "a994dd47d943c2438799d57677767f3d438bf095a8705125fedcb1cb969eefac",
+        "content_review_scope": "Eight original PDFs/32pages; economics only; six tax cases and registry/ST dependency guards remain unresolved."
       }
+    },
+    "primary_component_adapter": {
+      "verification_file": "experiments/qlib/low-market-residual-vol1m-primary-event-components-verification.json",
+      "verification_sha256": "4fdee974b91bdccdf2fd65f36cb59c7e6a5eb6d5cf05defa17fb4d800c5c905e",
+      "local_tests_passed": 730,
+      "actual_source_projection_run": false,
+      "actual_event_compilation_run": false,
+      "actual_account_replay_run": false,
+      "portfolio_returns_computed": false
     }
   }
 }

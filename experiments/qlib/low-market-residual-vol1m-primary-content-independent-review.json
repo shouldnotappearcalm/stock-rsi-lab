@@ -1,0 +1,945 @@
+{
+  "status": "INDEPENDENT_EIGHT_PRE2026_PRIMARY_PDF_LITERAL_CONTENT_REVIEW_COMPLETE_NOT_ACCOUNT_ADMISSION",
+  "capture_manifest_sha256": "338244552243fd043698fb8c388c245c9bb269ceb65276607d59cd96fde68ad2",
+  "capture_audit_path": "/tmp/low-market-residual-vol1m-primary-source-independent-audit-20261021.json",
+  "capture_audit_sha256": "7fb6a46f5e39fa9791b21a0cc1343ff958f236336e9e2329d548196610bd22d9",
+  "request_sha256": "84b35bc01b9f803114d2e80748c66f52052e0c482e1f71798d1708d34ce372f1",
+  "documents_reviewed": 8,
+  "complete_pages_text_read_and_rendered_visual_inspected": 32,
+  "cases": {
+    "SH600763|2024-07-05": {
+      "instrument": "SH600763",
+      "source_PDF": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/SH600763-2024-07-01.pdf",
+      "pdf_sha256": "d48bdde979d56fa83a370efc1e1dcd56b0003772352001e87601769b550eeff3",
+      "capture_publication_day": "2024-07-01",
+      "issuer_signature_day": "2024-07-01",
+      "complete_physical_pages_text_read_and_visually_inspected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_economic_facts": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.43565",
+        "stock_dividend_per_original_share": "0.400595",
+        "capital_transfer_per_original_share": "0",
+        "record_date": "2024-07-04",
+        "ex_date": "2024-07-05",
+        "cash_payment_date": "2024-07-05",
+        "share_listing_date": "2024-07-05",
+        "reference_values_used_as_entitlement": false
+      },
+      "field_evidence_pages_one_based": {
+        "cash_stock_and_share_structure": [
+          1,
+          3,
+          4
+        ],
+        "dates": [
+          1,
+          2
+        ],
+        "tax": [
+          2,
+          3
+        ]
+      },
+      "original_vendor_rows": [
+        {
+          "code": "sh.600763",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-06-21",
+          "dividPlanAnnounceDate": "2024-04-26",
+          "dividPlanDate": "2024-07-01",
+          "dividRegistDate": "2024-07-04",
+          "dividOperateDate": "2024-07-05",
+          "dividPayDate": "2024-07-05",
+          "dividStockMarketDate": "2024-07-05",
+          "dividCashPsBeforeTax": "0.43565",
+          "dividCashPsAfterTax": "0.35203或0.43565",
+          "dividStocksPs": "0.400595",
+          "dividCashStock": "10送4.00595派4.3565元（含税，扣税后3.5203或4.3565元）",
+          "dividReserveToStockPs": ""
+        }
+      ],
+      "original_vendor_row_sha256": [
+        "68a97ccd96f1814f1a02124e5b9022372ad35a98bbc7e62dc2a4c9961682356d"
+      ],
+      "new_component_precision_override_required": false,
+      "cash_derived_from_preclose_or_adjustment": false,
+      "account_admission_granted": false,
+      "stock_tax_basis_evidence": {
+        "classification": "STOCK_DIVIDEND_AMOUNT_EXPLICIT_BUT_EXACT_TAXABLE_INCOME_BASIS_NOT_UNIQUELY_PROVEN",
+        "notice_explicitly_calls_bonus_stock_not_capital_transfer": true,
+        "unrestricted_holder_gross_cash": "0.43565",
+        "10pct_withholding_scenarios_net_cash_displayed": "0.35203",
+        "naive_unrounded_inversion_stock_basis": "0.40055",
+        "naive_inversion_is_not_verified_exact_basis": true,
+        "assuming_face_value_CNY1_would_give_stock_income_per_original_share": "0.400595",
+        "assuming_face1_net_cash_at10pct_before_display_rounding": "0.3520255",
+        "face_value_CNY1_explicitly_stated_in_this_PDF": false,
+        "exact_stock_taxable_income_per_original_share_verified": false,
+        "rounding_rule_certified_by_notice": false,
+        "stock_tax_basis_verified_for_compilation": false,
+        "original_ratio_must_not_be_reclassified_as_exempt_capital": true
+      },
+      "fractional_share_limit": {
+        "printed_bonus_ratio": "0.400595",
+        "pre_event_total_shares": "319356500",
+        "announced_bonus_shares": "127932617",
+        "printed_ratio_times_pre_event_shares": "127932617.117500",
+        "per_holder_registry_rounding_rule_certified": false
+      }
+    },
+    "SH603290|2024-05-23": {
+      "instrument": "SH603290",
+      "source_PDF": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/SH603290-2024-05-16.pdf",
+      "pdf_sha256": "0d0cf5c4e9e876cb090b8ebe15774ebe8cf06778f727ddb4531fe0066549db30",
+      "capture_publication_day": "2024-05-16",
+      "issuer_signature_day": "2024-05-16",
+      "complete_physical_pages_text_read_and_visually_inspected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_economic_facts": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "1.59760",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0.4",
+        "record_date": "2024-05-22",
+        "ex_date": "2024-05-23",
+        "cash_payment_date": "2024-05-23",
+        "share_listing_date": "2024-05-23",
+        "reference_values_used_as_entitlement": false
+      },
+      "field_evidence_pages_one_based": {
+        "ordinary_distribution_and_dates": [
+          1,
+          2
+        ],
+        "capital_reserve_source_and_tax": [
+          2,
+          3
+        ]
+      },
+      "original_vendor_rows": [
+        {
+          "code": "sh.603290",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-04-30",
+          "dividPlanAnnounceDate": "2024-04-08",
+          "dividPlanDate": "2024-05-16",
+          "dividRegistDate": "2024-05-22",
+          "dividOperateDate": "2024-05-23",
+          "dividPayDate": "2024-05-23",
+          "dividStockMarketDate": "2024-05-23",
+          "dividCashPsBeforeTax": "1.5976",
+          "dividCashPsAfterTax": "1.43784或1.5976",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转4派15.976元（含税，扣税后14.3784或15.976元）",
+          "dividReserveToStockPs": "0.400000"
+        }
+      ],
+      "original_vendor_row_sha256": [
+        "63003670619a057e53dbed1cb119f278846d94d234ce99a8b10de7e5e2aef2ad"
+      ],
+      "new_component_precision_override_required": false,
+      "cash_derived_from_preclose_or_adjustment": false,
+      "account_admission_granted": false,
+      "capital_tax_evidence": {
+        "classification": "GENERAL_CAPITAL_RESERVE_AND_CASH_TAX_DESCRIPTIONS_NO_EVENT_SPECIFIC_PREMIUM_SOURCE_OR_EXPLICIT_NO_TAX_CERTIFICATION",
+        "capital_reserve_transfer_explicit": true,
+        "share_premium_funding_source_explicit": false,
+        "explicit_capital_transfer_no_tax_statement_found": false,
+        "10pct_scenarios_after_tax_cash_per_original_share_CNY": "1.43784",
+        "after_tax_display_equals_90pct_of_cash_only": true,
+        "cash_tax_arithmetic_alone_establishes_capital_exemption": false,
+        "capital_tax_exempt_verified": false,
+        "strict_statutory_capital_tax_certification": false
+      }
+    },
+    "SH603688|2024-05-22": {
+      "instrument": "SH603688",
+      "source_PDF": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/SH603688-2024-05-16.pdf",
+      "pdf_sha256": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+      "capture_publication_day": "2024-05-16",
+      "issuer_signature_day": "2024-05-16",
+      "complete_physical_pages_text_read_and_visually_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "primary_economic_facts": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "5.7",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0.5",
+        "record_date": "2024-05-21",
+        "ex_date": "2024-05-22",
+        "cash_payment_date": "2024-05-22",
+        "share_listing_date": "2024-05-22",
+        "reference_values_used_as_entitlement": false
+      },
+      "field_evidence_pages_one_based": {
+        "ordinary_distribution_and_dates": [
+          1,
+          2,
+          3
+        ],
+        "capital_reserve_source_and_tax": [
+          2,
+          3,
+          4
+        ]
+      },
+      "original_vendor_rows": [
+        {
+          "code": "sh.603688",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-04-13",
+          "dividPlanAnnounceDate": "2024-03-23",
+          "dividPlanDate": "2024-05-16",
+          "dividRegistDate": "2024-05-21",
+          "dividOperateDate": "2024-05-22",
+          "dividPayDate": "2024-05-22",
+          "dividStockMarketDate": "2024-05-22",
+          "dividCashPsBeforeTax": "5.7",
+          "dividCashPsAfterTax": "5.13或5.7",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转5派57元（含税，扣税后51.3或57元）",
+          "dividReserveToStockPs": "0.500000"
+        }
+      ],
+      "original_vendor_row_sha256": [
+        "e57784c3d79cfcbb462d6dc36792e289eadc48c70c4bc26882dafebdb6aa16f9"
+      ],
+      "new_component_precision_override_required": false,
+      "cash_derived_from_preclose_or_adjustment": false,
+      "account_admission_granted": false,
+      "capital_tax_evidence": {
+        "classification": "GENERAL_CAPITAL_RESERVE_AND_CASH_TAX_DESCRIPTIONS_NO_EVENT_SPECIFIC_PREMIUM_SOURCE_OR_EXPLICIT_NO_TAX_CERTIFICATION",
+        "capital_reserve_transfer_explicit": true,
+        "share_premium_funding_source_explicit": false,
+        "explicit_capital_transfer_no_tax_statement_found": false,
+        "10pct_scenarios_after_tax_cash_per_original_share_CNY": "5.13",
+        "after_tax_display_equals_90pct_of_cash_only": true,
+        "cash_tax_arithmetic_alone_establishes_capital_exemption": false,
+        "capital_tax_exempt_verified": false,
+        "strict_statutory_capital_tax_certification": false
+      },
+      "differential_distribution_reference": {
+        "ordinary_holder_cash": "5.7",
+        "ordinary_holder_capital_ratio": "0.5",
+        "price_reference_cash_deduction_approx": "5.6925",
+        "price_reference_share_change_ratio_approx": "0.4993",
+        "buyback_account_excluded_shares": "474800",
+        "participating_shares": "360802326",
+        "total_pre_event_shares": "361277126",
+        "pages": [
+          2
+        ],
+        "reference_values_are_not_ordinary_holder_entitlements": true
+      }
+    },
+    "SH603927|2024-05-21": {
+      "instrument": "SH603927",
+      "source_PDF": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/SH603927-2024-05-15.pdf",
+      "pdf_sha256": "46930080250d977d9dd8f7ed41c02467271d022adfabce3cf84c84e34537de5a",
+      "capture_publication_day": "2024-05-15",
+      "issuer_signature_day": "2024-05-14",
+      "complete_physical_pages_text_read_and_visually_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "primary_economic_facts": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.55",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0.4",
+        "record_date": "2024-05-20",
+        "ex_date": "2024-05-21",
+        "cash_payment_date": "2024-05-21",
+        "share_listing_date": "2024-05-21",
+        "reference_values_used_as_entitlement": false
+      },
+      "field_evidence_pages_one_based": {
+        "ordinary_distribution_and_dates": [
+          1,
+          2
+        ],
+        "capital_reserve_source_and_tax": [
+          2,
+          3,
+          4
+        ]
+      },
+      "original_vendor_rows": [
+        {
+          "code": "sh.603927",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-05-08",
+          "dividPlanAnnounceDate": "2024-04-12",
+          "dividPlanDate": "2024-05-15",
+          "dividRegistDate": "2024-05-20",
+          "dividOperateDate": "2024-05-21",
+          "dividPayDate": "2024-05-21",
+          "dividStockMarketDate": "2024-05-21",
+          "dividCashPsBeforeTax": "0.55",
+          "dividCashPsAfterTax": "0.495或0.55",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转4派5.5元（含税，扣税后4.95或5.5元）",
+          "dividReserveToStockPs": "0.400000"
+        }
+      ],
+      "original_vendor_row_sha256": [
+        "6bf5be2a2f0af07b82e04d46de2cdcf89bc48fc7495c7f602fe3c8727f9cd18a"
+      ],
+      "new_component_precision_override_required": false,
+      "cash_derived_from_preclose_or_adjustment": false,
+      "account_admission_granted": false,
+      "capital_tax_evidence": {
+        "classification": "GENERAL_CAPITAL_RESERVE_AND_CASH_TAX_DESCRIPTIONS_NO_EVENT_SPECIFIC_PREMIUM_SOURCE_OR_EXPLICIT_NO_TAX_CERTIFICATION",
+        "capital_reserve_transfer_explicit": true,
+        "share_premium_funding_source_explicit": false,
+        "explicit_capital_transfer_no_tax_statement_found": false,
+        "10pct_scenarios_after_tax_cash_per_original_share_CNY": "0.495",
+        "after_tax_display_equals_90pct_of_cash_only": true,
+        "cash_tax_arithmetic_alone_establishes_capital_exemption": false,
+        "capital_tax_exempt_verified": false,
+        "strict_statutory_capital_tax_certification": false
+      }
+    },
+    "SZ000403|2025-06-04": {
+      "instrument": "SZ000403",
+      "source_PDF": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/SZ000403-2025-05-27.pdf",
+      "pdf_sha256": "52287e10b2d70bf244f0306c2c472043e0e08d11fbe8592078bf68baf0d83af7",
+      "capture_publication_day": "2025-05-27",
+      "issuer_signature_day": "2025-05-27",
+      "complete_physical_pages_text_read_and_visually_inspected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_economic_facts": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.35",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0.3",
+        "record_date": "2025-06-03",
+        "ex_date": "2025-06-04",
+        "cash_payment_date": "2025-06-04",
+        "share_listing_date": "2025-06-04",
+        "reference_values_used_as_entitlement": false
+      },
+      "field_evidence_pages_one_based": {
+        "ordinary_cash_capital": [
+          1,
+          2
+        ],
+        "record_ex_payment": [
+          2
+        ],
+        "share_listing_and_registry": [
+          2,
+          3
+        ],
+        "premium_balance_wording": [
+          1
+        ],
+        "tax_examples": [
+          2
+        ]
+      },
+      "original_vendor_rows": [
+        {
+          "code": "sz.000403",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2025-05-22",
+          "dividPlanAnnounceDate": "2025-04-24",
+          "dividPlanDate": "2025-05-27",
+          "dividRegistDate": "2025-06-03",
+          "dividOperateDate": "2025-06-04",
+          "dividPayDate": "2025-06-04",
+          "dividStockMarketDate": "2025-06-04",
+          "dividCashPsBeforeTax": "0.35",
+          "dividCashPsAfterTax": "0.315或0.35",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转3派3.5元（含税，扣税后3.15或3.5元）",
+          "dividReserveToStockPs": "0.300000"
+        }
+      ],
+      "original_vendor_row_sha256": [
+        "67a0fed5e573394187a54585e75c073882e8a67ae61994b63c7ececba1f95f82"
+      ],
+      "new_component_precision_override_required": false,
+      "cash_derived_from_preclose_or_adjustment": false,
+      "account_admission_granted": false,
+      "capital_tax_evidence": {
+        "classification": "EVENT_TRANSFER_WITHIN_REPORTED_PREMIUM_BALANCE_AND_CASH_ONLY_TAX_EXAMPLES_LIMITED_EVIDENCE_NOT_DIRECT_EXEMPTION",
+        "source_wording_scope": "转增金额未超过2024年末资本公积—股本溢价的余额",
+        "general_capital_reserve_transfer_explicit": true,
+        "amount_within_prior_year_end_share_premium_balance_explicit": true,
+        "actual_exclusive_funding_from_share_premium_explicitly_verified": false,
+        "explicit_capital_transfer_no_tax_statement_found": false,
+        "per10_cash_CNY": "3.50",
+        "per10_one_month_supplementary_tax_CNY": "0.70",
+        "per10_one_year_supplementary_tax_CNY": "0.35",
+        "per10_10pct_scenarios_net_cash_CNY": "3.15",
+        "cash_tax_arithmetic_matches_cash_only": true,
+        "evidence_can_only_support_explicitly_labelled_conditional_assumption_after_separate_method_review": true,
+        "capital_tax_exempt_verified": false,
+        "strict_statutory_capital_tax_certification": false
+      },
+      "registry_allocation_evidence": {
+        "full_pages": [
+          1,
+          2,
+          3
+        ],
+        "initial_plan_post_event_total": "950397387",
+        "actual_announced_post_event_total": "950397386",
+        "actual_transfer_shares": "219322473",
+        "pre_event_total": "731074913",
+        "printed_ratio": "0.3",
+        "printed_ratio_times_total": "219322473.9",
+        "notice_says_one_share_less_due_to_registration_calculation": true,
+        "per_holder_fractional_rule": "Rank fractional remainders descending; allocate one share sequentially, random order for equal remainders, until the announced aggregate is reached.",
+        "our_individual_holder_allocation_computable_from_this_PDF_alone": false,
+        "fractional_registry_allocation_certified": false
+      }
+    },
+    "SH601966|2024-06-14": {
+      "instrument": "SH601966",
+      "source_PDF": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/SH601966-2024-06-07.pdf",
+      "pdf_sha256": "f7659034cb64362e870f2f16f25f89ca683b10a779bb18e6e14ac6ea4d5b97a5",
+      "capture_publication_day": "2024-06-07",
+      "issuer_signature_day": "2024-06-06",
+      "complete_physical_pages_text_read_and_visually_inspected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "primary_economic_facts": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.377",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0",
+        "record_date": "2024-06-13",
+        "ex_date": "2024-06-14",
+        "cash_payment_date": "2024-06-14",
+        "share_listing_date": null,
+        "reference_values_used_as_entitlement": false
+      },
+      "field_evidence_pages_one_based": {
+        "separate_components_and_total": [
+          1,
+          2
+        ],
+        "record_ex_pay": [
+          1,
+          2
+        ],
+        "cash_tax_and_signature": [
+          3,
+          4
+        ]
+      },
+      "original_vendor_rows": [
+        {
+          "code": "sh.601966",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-05-16",
+          "dividPlanAnnounceDate": "2024-04-25",
+          "dividPlanDate": "2024-06-07",
+          "dividRegistDate": "2024-06-13",
+          "dividOperateDate": "2024-06-14",
+          "dividPayDate": "2024-06-14",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.286",
+          "dividCashPsAfterTax": "0.2574或0.286",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派2.86元（含税，扣税后2.574或2.86元）",
+          "dividReserveToStockPs": ""
+        },
+        {
+          "code": "sh.601966",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-05-16",
+          "dividPlanAnnounceDate": "2024-04-25",
+          "dividPlanDate": "2024-06-07",
+          "dividRegistDate": "2024-06-13",
+          "dividOperateDate": "2024-06-14",
+          "dividPayDate": "2024-06-14",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.091",
+          "dividCashPsAfterTax": "0.0819或0.091",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派0.91元（含税，扣税后0.819或0.91元）",
+          "dividReserveToStockPs": ""
+        }
+      ],
+      "original_vendor_row_sha256": [
+        "7a52e023be8dc62468d080b16bb3166686e44ebd9a0ff9a5ff60842215271acb",
+        "e373aaaa9dfa85f9e06a61328cbfd0f9c6b6a71f8e8fee89ced7be5f02bd5f1b"
+      ],
+      "new_component_precision_override_required": false,
+      "cash_derived_from_preclose_or_adjustment": false,
+      "account_admission_granted": false,
+      "same_date_component_evidence": {
+        "classification": "TWO_DISTINCT_FISCAL_PERIOD_CASH_COMPONENTS_EXPLICITLY_COMBINED_IN_ONE_NOTICE",
+        "components": [
+          {
+            "fiscal_period": "2023年度",
+            "cash_per_original_share_CNY": "0.286"
+          },
+          {
+            "fiscal_period": "2024年一季度",
+            "cash_per_original_share_CNY": "0.091"
+          }
+        ],
+        "explicit_combined_cash_per_original_share_CNY": "0.377",
+        "component_sum_exact": "0.377",
+        "both_original_vendor_rows_economically_supported": true,
+        "discard_either_vendor_row_or_count_total_again": false,
+        "original_packet_rows_rewritten": false,
+        "event_ID_receipt_composition_and_tax_cent_rounding_contract_implemented_or_admitted_here": false
+      },
+      "differential_distribution_reference": {
+        "ordinary_holder_cash": "0.377",
+        "price_reference_annual_component_approx": "0.28406",
+        "price_reference_Q1_component_approx": "0.09038",
+        "price_reference_combined_approx": "0.37444",
+        "pre_event_total_shares": "1473522713",
+        "repurchased_excluded_shares": "10020030",
+        "participating_shares": "1463502683",
+        "page": 2,
+        "reference_values_are_not_cash_entitlement": true
+      }
+    },
+    "SH601966|2025-10-23": {
+      "instrument": "SH601966",
+      "source_PDF": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/SH601966-2025-10-16.pdf",
+      "pdf_sha256": "d33cd20903dce8ae630bdaef3e4cd6ee38172b9605f569d15126aa56df8ff01d",
+      "capture_publication_day": "2025-10-16",
+      "issuer_signature_day": "2025-10-15",
+      "complete_physical_pages_text_read_and_visually_inspected": [
+        1,
+        2,
+        3
+      ],
+      "primary_economic_facts": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.11",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0",
+        "record_date": "2025-10-22",
+        "ex_date": "2025-10-23",
+        "cash_payment_date": "2025-10-23",
+        "share_listing_date": null,
+        "reference_values_used_as_entitlement": false
+      },
+      "field_evidence_pages_one_based": {
+        "cash_and_dates": [
+          1,
+          2
+        ],
+        "tax": [
+          2,
+          3
+        ]
+      },
+      "original_vendor_rows": [],
+      "original_vendor_row_sha256": [],
+      "new_component_precision_override_required": false,
+      "cash_derived_from_preclose_or_adjustment": false,
+      "account_admission_granted": false,
+      "primary_supplement_source_fact": {
+        "vendor_distribution_absent_in_bound_packet": true,
+        "cash_per_share_is_explicit_PDF_fact": "0.11",
+        "source_price_gap_not_used_to_derive_cash": true,
+        "event_projection_or_supplement_written": false
+      }
+    },
+    "SZ000728|2025-01-21": {
+      "instrument": "SZ000728",
+      "source_PDF": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/SZ000728-2025-01-14.pdf",
+      "pdf_sha256": "712c5aa18b185c5dc7fe317b3f4cdadbef0bdd09b3b83d665e0d66707ae7ebf2",
+      "capture_publication_day": "2025-01-14",
+      "issuer_signature_day": "2025-01-14",
+      "complete_physical_pages_text_read_and_visually_inspected": [
+        1,
+        2,
+        3
+      ],
+      "primary_economic_facts": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.06",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0",
+        "record_date": "2025-01-20",
+        "ex_date": "2025-01-21",
+        "cash_payment_date": "2025-01-21",
+        "share_listing_date": null,
+        "reference_values_used_as_entitlement": false
+      },
+      "field_evidence_pages_one_based": {
+        "cash_no_stock_no_capital": [
+          1
+        ],
+        "record_ex_pay_and_tax_examples": [
+          1,
+          2
+        ]
+      },
+      "original_vendor_rows": [],
+      "original_vendor_row_sha256": [],
+      "new_component_precision_override_required": false,
+      "cash_derived_from_preclose_or_adjustment": false,
+      "account_admission_granted": false,
+      "primary_supplement_source_fact": {
+        "vendor_distribution_absent_in_bound_packet": true,
+        "cash_per10_explicit_CNY": "0.600000",
+        "cash_per_share_exact_CNY": "0.060000",
+        "source_price_gap_not_used_to_derive_cash": true,
+        "event_projection_or_supplement_written": false
+      }
+    }
+  },
+  "page_evidence": [
+    {
+      "case_id": "SH600763|2024-07-05",
+      "page": 1,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH600763-2024-07-01.pdf.p1.png",
+      "render_sha256": "5631dab5ea6e35383c1d1f4abd83d9cec79f524738bdf4f56252dcee4d64446b",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH600763-2024-07-01.pdf.p1.txt",
+      "text_sha256": "b6ebbee5a4a5d88cb49a8b8007daa1dfe9120cdcf73ef02c98fd4e1922d6f71c"
+    },
+    {
+      "case_id": "SH600763|2024-07-05",
+      "page": 2,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH600763-2024-07-01.pdf.p2.png",
+      "render_sha256": "365f7fb3cb6a8e272be4f955bf4b22d066ff482a3185a2b92ddb1d656cfe3244",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH600763-2024-07-01.pdf.p2.txt",
+      "text_sha256": "03ce49e1ec4f63391a46b3168b8b781228a6bc6cab9b333987edd855ae776d13"
+    },
+    {
+      "case_id": "SH600763|2024-07-05",
+      "page": 3,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH600763-2024-07-01.pdf.p3.png",
+      "render_sha256": "dd8427835070460cad6ed1363f09f128613239f81f23b7b2fb38e5e6498ef78c",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH600763-2024-07-01.pdf.p3.txt",
+      "text_sha256": "5bb6f84c82511b22f943b71b076feefae1bb0ab6aa4f357883183e03439b2bad"
+    },
+    {
+      "case_id": "SH600763|2024-07-05",
+      "page": 4,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH600763-2024-07-01.pdf.p4.png",
+      "render_sha256": "b5aa1ab0500cea331de25fe53b28013c2e9c0daa72067fea6fb81fc424197dd7",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH600763-2024-07-01.pdf.p4.txt",
+      "text_sha256": "68cb772ff610f8f955bc4f60badca3b1521e9d818e1bab826c9f51984aa615f4"
+    },
+    {
+      "case_id": "SH603290|2024-05-23",
+      "page": 1,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603290-2024-05-16.pdf.p1.png",
+      "render_sha256": "d6e3d375169d243c13b72463319b51e9dde2ce85d420efefdc980f699d37d7a3",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603290-2024-05-16.pdf.p1.txt",
+      "text_sha256": "825ae790dee3d65c035b833cf65c61c4db39ca14532603bf248c81f4d284c307"
+    },
+    {
+      "case_id": "SH603290|2024-05-23",
+      "page": 2,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603290-2024-05-16.pdf.p2.png",
+      "render_sha256": "84265076776123a1bd339e9b69cf19daecc3edc7bdcd75146da3da392f2d1760",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603290-2024-05-16.pdf.p2.txt",
+      "text_sha256": "5a8d354789d3f0af6ba6b42dbb70c72aa0ce143f033524c2abdd74a9f7d499e0"
+    },
+    {
+      "case_id": "SH603290|2024-05-23",
+      "page": 3,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603290-2024-05-16.pdf.p3.png",
+      "render_sha256": "8e614eedec5c6e9ca8e4f99b84fcd0e2be28f917e72198ae8f47694a89ad6571",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603290-2024-05-16.pdf.p3.txt",
+      "text_sha256": "618f11e686c69909626f9d7f055ff709f7000a84d14c9e6378db4c36945f0bd8"
+    },
+    {
+      "case_id": "SH603290|2024-05-23",
+      "page": 4,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603290-2024-05-16.pdf.p4.png",
+      "render_sha256": "93fdbce22138c6094e6da99b4287f66cffaa5b61f6d790cbe957e1b3b4b54d1e",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603290-2024-05-16.pdf.p4.txt",
+      "text_sha256": "3f0a68cfa7a57dcd8dac9b506846176d073daa2418efd46e178cd84b789a4ec8"
+    },
+    {
+      "case_id": "SH603688|2024-05-22",
+      "page": 1,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603688-2024-05-16.pdf.p1.png",
+      "render_sha256": "a0afde2eab60a537a5c7e8731dac4dd404911a99b68a65a5a48892bf608a5797",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603688-2024-05-16.pdf.p1.txt",
+      "text_sha256": "9a4c7c572698845cc302e3afec1169177f386322e9c070bb8f59f6cba5d70c5d"
+    },
+    {
+      "case_id": "SH603688|2024-05-22",
+      "page": 2,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603688-2024-05-16.pdf.p2.png",
+      "render_sha256": "a260affd634c7861b17e4f8b911b9f1da4198445b16b83d29eca9e6a107d898c",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603688-2024-05-16.pdf.p2.txt",
+      "text_sha256": "636b294fd15b78b4e28ec43b2eb90a2ce138ef54bd6003679204ebf25aa9b166"
+    },
+    {
+      "case_id": "SH603688|2024-05-22",
+      "page": 3,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603688-2024-05-16.pdf.p3.png",
+      "render_sha256": "27b071b9c6056f271fc6bc0957e0c19f95efa4c6d85679b05abf47987a90bfb9",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603688-2024-05-16.pdf.p3.txt",
+      "text_sha256": "b0efb339cb1e4762eea4d6b2306790970beee17416562f3b6d13f172a69d9721"
+    },
+    {
+      "case_id": "SH603688|2024-05-22",
+      "page": 4,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603688-2024-05-16.pdf.p4.png",
+      "render_sha256": "967910e30c0deacf5a6f52353225500b2ec4a83ba0444d871f7ed7b51dfbddd9",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603688-2024-05-16.pdf.p4.txt",
+      "text_sha256": "c53059804b3e077ea5ee892a0621b7306e854c05b14b15d75c3243bb384a3c5b"
+    },
+    {
+      "case_id": "SH603688|2024-05-22",
+      "page": 5,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603688-2024-05-16.pdf.p5.png",
+      "render_sha256": "cb6a184ca7c2bf1a60bba0e7c1bf977a09db7d0f03f8f8418501ba4ec2b0a34d",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603688-2024-05-16.pdf.p5.txt",
+      "text_sha256": "131f463fd6fd64cba1e478cf4075dfdced88cf3a625a7a08f520de031522b029"
+    },
+    {
+      "case_id": "SH603927|2024-05-21",
+      "page": 1,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603927-2024-05-15.pdf.p1.png",
+      "render_sha256": "f8eab27ea79521b2658146b78b853212ffb6d8486ec0e6e620efa84fcc79d3b8",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603927-2024-05-15.pdf.p1.txt",
+      "text_sha256": "35c30405729a708f6e910c3fe302d8fb327e17fbbb18cffeaff990473292825b"
+    },
+    {
+      "case_id": "SH603927|2024-05-21",
+      "page": 2,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603927-2024-05-15.pdf.p2.png",
+      "render_sha256": "edca54d1c6798658a4cb7933d2291f324f34ae2e5deff679f393d158a8971392",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603927-2024-05-15.pdf.p2.txt",
+      "text_sha256": "7482e317718dbb8f761799d532d4b853e0e4d626eeb45dc37a82af3919cf6a18"
+    },
+    {
+      "case_id": "SH603927|2024-05-21",
+      "page": 3,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603927-2024-05-15.pdf.p3.png",
+      "render_sha256": "4a03c534c330f5f62667429683032ae7a3017a31102b8aad0c7faf57007217c1",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603927-2024-05-15.pdf.p3.txt",
+      "text_sha256": "7110b4370e50077c4f21619267e84540b585c587a2d3566a9e5cb3ec7c0262c8"
+    },
+    {
+      "case_id": "SH603927|2024-05-21",
+      "page": 4,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603927-2024-05-15.pdf.p4.png",
+      "render_sha256": "947378d37e89e28f258936ba1ca2b45e8e60e1f1a0efc8c8fedb8f250955643c",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603927-2024-05-15.pdf.p4.txt",
+      "text_sha256": "6797064d67736021dc4783e5cd1cb8a8c76583994ae39368f476c7d742664ea2"
+    },
+    {
+      "case_id": "SH603927|2024-05-21",
+      "page": 5,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603927-2024-05-15.pdf.p5.png",
+      "render_sha256": "cb3b9ef7ec69d23e0f0db3ce99a53754f828d51f99f1e9e03a7d0ceba4306e33",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH603927-2024-05-15.pdf.p5.txt",
+      "text_sha256": "d311478c40f1f8ae4235fda298f49fdb17f3f0ed86d20b61a856cbfd760bcad3"
+    },
+    {
+      "case_id": "SZ000403|2025-06-04",
+      "page": 1,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000403-2025-05-27.pdf.p1.png",
+      "render_sha256": "11c0c5c485b9699a58acd68bf63c92eb85568ef1a752c6528e7791270c3105dd",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000403-2025-05-27.pdf.p1.txt",
+      "text_sha256": "3896299528639fdd8d26120ab3322623f8c1dd4d0f66b6205bee2976ff5dfbec"
+    },
+    {
+      "case_id": "SZ000403|2025-06-04",
+      "page": 2,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000403-2025-05-27.pdf.p2.png",
+      "render_sha256": "3cee0f2437e7313aaccfd3a545871a6575537a9a93df4009037a4258be45dc8a",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000403-2025-05-27.pdf.p2.txt",
+      "text_sha256": "df515e6d7000024a5a69c40d24cee8a0b83f822bc49557ca3982c773b7ed540e"
+    },
+    {
+      "case_id": "SZ000403|2025-06-04",
+      "page": 3,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000403-2025-05-27.pdf.p3.png",
+      "render_sha256": "5be9f32e9cada3d99033de723af0c1e553d6cb33847b1cce1473fbceb2f5498d",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000403-2025-05-27.pdf.p3.txt",
+      "text_sha256": "fa819d0c46be80fe09919d065aa70c79c0443daaf3959083ac6ee0f1b0a73f72"
+    },
+    {
+      "case_id": "SZ000403|2025-06-04",
+      "page": 4,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000403-2025-05-27.pdf.p4.png",
+      "render_sha256": "10cc626d89eb7280fb58904542b7ed4f84dd2db746bfe10c2d4b566a94b8d7c4",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000403-2025-05-27.pdf.p4.txt",
+      "text_sha256": "c77c1ded4904e04b15aaca4afc583f1dcac023bf7d1a7d7ab44ec1352042d043"
+    },
+    {
+      "case_id": "SH601966|2024-06-14",
+      "page": 1,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2024-06-07.pdf.p1.png",
+      "render_sha256": "2110bd15484269742e91e9860ecb44872ebec8011142859107efef2540827e9f",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2024-06-07.pdf.p1.txt",
+      "text_sha256": "98a1024601ebade9fa77a11231a541bd06b1955588751d1a7a208804147bcb84"
+    },
+    {
+      "case_id": "SH601966|2024-06-14",
+      "page": 2,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2024-06-07.pdf.p2.png",
+      "render_sha256": "fd15e3bd7e2db94f831a77a7facbf7c381a2166882b6754896f850b0f89badac",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2024-06-07.pdf.p2.txt",
+      "text_sha256": "e45f083d62e2a3913db96fc00fa9a8145706e3d87c09255abce9abe44b69fd6b"
+    },
+    {
+      "case_id": "SH601966|2024-06-14",
+      "page": 3,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2024-06-07.pdf.p3.png",
+      "render_sha256": "436ddacc20c6f27fa00dbe31d28600e41b4019e2f99751b5995ed5bc914f2ce0",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2024-06-07.pdf.p3.txt",
+      "text_sha256": "41069e04f0330ced9603e43d662d3f765e0cfe39565bf5e0133769c39d4187a2"
+    },
+    {
+      "case_id": "SH601966|2024-06-14",
+      "page": 4,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2024-06-07.pdf.p4.png",
+      "render_sha256": "9949c525520b157340245ff58c06f723f9475d319d0764f6391f26af4cb48cc6",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2024-06-07.pdf.p4.txt",
+      "text_sha256": "f80933d7aa3b2afa3b5a1199f500b715a199a8387ca37068393c392d06ce04f4"
+    },
+    {
+      "case_id": "SH601966|2025-10-23",
+      "page": 1,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2025-10-16.pdf.p1.png",
+      "render_sha256": "63ebfb505752db0629e5476c93648cd39768148f2d544ccc7077f20527e56ae1",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2025-10-16.pdf.p1.txt",
+      "text_sha256": "2f2d7b3b1133ec33d163a2eb26007a37994dfac975c046242d6439863f4b88af"
+    },
+    {
+      "case_id": "SH601966|2025-10-23",
+      "page": 2,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2025-10-16.pdf.p2.png",
+      "render_sha256": "0ff5ffebe7a5ac6413b56fb0b524e20046aa57c1ae115fa783f31e1cabee4461",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2025-10-16.pdf.p2.txt",
+      "text_sha256": "8aadee2c0e522d4853fd9c10c1af687814f895b08f9e4b727e2f7cf9e50e7232"
+    },
+    {
+      "case_id": "SH601966|2025-10-23",
+      "page": 3,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2025-10-16.pdf.p3.png",
+      "render_sha256": "457b8754bfba4c5dbdad8fa98eb0806815fff3bdc055284c947a6fdfad848a77",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SH601966-2025-10-16.pdf.p3.txt",
+      "text_sha256": "70ac153fa703a083e2764540cdf1599e8cf2cb1a41d97372e243b2ef5d380917"
+    },
+    {
+      "case_id": "SZ000728|2025-01-21",
+      "page": 1,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000728-2025-01-14.pdf.p1.png",
+      "render_sha256": "335d47b4b3881f9ad0bb46e3029b8c72e20db30917211d8a79ccacc0fd120048",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000728-2025-01-14.pdf.p1.txt",
+      "text_sha256": "4abfdc1f701a08a271626e6bd7be362e8ccaf3aa8740422cd92d295a54242605"
+    },
+    {
+      "case_id": "SZ000728|2025-01-21",
+      "page": 2,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000728-2025-01-14.pdf.p2.png",
+      "render_sha256": "f2fc5b8265aff3249b89bdfcd873e9b4ffc27ec92598d63a56fa7980bc66bcc9",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000728-2025-01-14.pdf.p2.txt",
+      "text_sha256": "443cc79d098c64873ea1541d29963f6b0a3bc92f2a1765e09deccce33c1993e5"
+    },
+    {
+      "case_id": "SZ000728|2025-01-21",
+      "page": 3,
+      "complete_page_visually_inspected": true,
+      "render_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000728-2025-01-14.pdf.p3.png",
+      "render_sha256": "55b398a41bfa23e1c58ce5e1733ca4871106815097009d88167e65e8a9e05aef",
+      "text_path": "/tmp/low-market-residual-vol1m-primary-content-review-20261021/SZ000728-2025-01-14.pdf.p3.txt",
+      "text_sha256": "f4409c4a7e9504d98c2893c9b6f18890f62ec1ed547479477a1de56d0d9189f5"
+    }
+  ],
+  "pending_questions": [
+    {
+      "event_key": "SH600763|2024-07-05",
+      "issue": "Exact stock-dividend taxable income/face value is not uniquely established by the rounded10pct net cash display. Do not compile0.40055 as an exact inverted basis; do not assume face1 without bound primary evidence. Fractional stock allocations remain unproved."
+    },
+    {
+      "event_key": "SH603290|2024-05-23",
+      "issue": "General capital reserve stated, but share-premium funding and capital no-tax statement are absent from this notice. Cash-only tax examples are not a verified exemption."
+    },
+    {
+      "event_key": "SH603688|2024-05-22",
+      "issue": "Same capital-source/tax gap; preserve true5.7cash/.5capital versus5.6925/.4993 price-reference values."
+    },
+    {
+      "event_key": "SH603927|2024-05-21",
+      "issue": "Same capital-source/tax gap; signedMay14/publicationMay15 distinction is retained."
+    },
+    {
+      "event_key": "SZ000403|2025-06-04",
+      "issue": "Premium-balance capacity plus cash-only tax arithmetic is limited evidence. An exclusive actual funding source or direct no-tax statement is not certified. Any conditional evaluator assumption must be separately explicit, frozen and not called statutory proof. Fractional registration requires all-holder allocation evidence."
+    },
+    {
+      "event_key": "SH600580|2025-06-27",
+      "issue": "Outside these8new notices. Previously reviewed Wolong insufficient event-source/tax evidence remains unknown; no exemption is inherited from other issuers."
+    },
+    {
+      "event_key": "SH601966|2024-06-14",
+      "issue": "Source supports two separate fiscal-period components and combined0.377; identity/source-receipt composition and per-holder cash/tax rounding must be defined in a separately frozen compiler without changing raw rows."
+    }
+  ],
+  "date_semantics": "Capture publication dates come from the authenticated CNINFO issuer/day listing, not measured historical arrival. Several board signatures predate publication by one day; both literal dates retained, not silently rewritten.",
+  "review_limits": {
+    "strict_statutory_capital_tax_certification": false,
+    "actual_FIFO_tax_or_holder_specific_liability_verified": false,
+    "individual_registry_fractional_allocation_verified": false,
+    "actual_registered_ownership_or_flat_inventory_verified": false,
+    "proof_projection_run": false,
+    "corporate_events_compiled": false,
+    "account_admission_granted": false,
+    "portfolio_returns_computed": false,
+    "network_used_for_content_review": false,
+    "2026_market_or_financial_values_read": false,
+    "source_bytes_modified": false
+  },
+  "review_record_script_sha256": "afda6bb6da1483db55eb101f413612e2039809eaa1e43adbd94b98d8a1c14ec8"
+}

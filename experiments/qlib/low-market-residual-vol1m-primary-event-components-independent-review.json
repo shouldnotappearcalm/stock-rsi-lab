@@ -1,0 +1,64 @@
+{
+  "actual_account_replay_executed": false,
+  "actual_projection_executed": false,
+  "actual_source_or_pdf_read_for_this_review": false,
+  "checks": {
+    "blank_capital_only_completed_to_zero": true,
+    "cash_only_and_stock_only_contracts_separate": true,
+    "combined_rounding_semantics_explicit": true,
+    "derived_id_bound_to_canonical_v2_id_and_projection_receipt": true,
+    "derived_receipt_preserves_original_row_hashes_and_primary_pdf_chain": true,
+    "old_compiler_files_unchanged_during_review": true,
+    "original_component_row_digests_bound": true,
+    "original_packets_and_proofs_unchanged": true,
+    "orphan_duplicate_mutated_component_proofs_rejected": true,
+    "primary_doc_issuer_announcement_and_date_identity_bound": true,
+    "stock_basis_and_capital_exemption_not_granted": true,
+    "two_cash_components_exact_sum_0_377_not_reference_0_37444": true,
+    "unknown_owned_stock_tax_basis_rejected_before_mutation": true,
+    "unrelated_v1_v2_ids_and_receipts_unchanged": true,
+    "unsupported_v3_contract_rejected_on_both_early_and_active_paths": true
+  },
+  "critical_or_important_findings": 0,
+  "findings": [],
+  "limitations": [
+    "This is code and synthetic coverage only. The caller must authenticate actual packet, manifest, PDF bytes and substantive content before projection.",
+    "A single combined cash event is explicit; 4 synthetic shares settle gross 1.51 while separate component cent rounding totals 1.50. No equivalence, registry allocation or historical arrival is certified.",
+    "Unknown stock tax basis remains unverified and requires zero record ownership; no broader exemption, tax settlement, source completeness or actual-account evidence is granted."
+  ],
+  "network_or_market_queries": 0,
+  "portfolio_returns_computed": false,
+  "resolved_findings": [
+    {
+      "independently_reproduced_fixed": true,
+      "initial_finding_path": "/tmp/ivol-primary-event-components-independent-review-initial-finding-20261021.json",
+      "initial_finding_sha256": "50f7ea4f2ba938d55ddfef2c4c186626c81ccbe432bea54bac81592915f9a098",
+      "initial_module_sha256": "4f92495589e208a8d43d5df86dfaff818749cc916c10ba570a742ead555cc530",
+      "initial_review_path": "/tmp/ivol-primary-event-components-independent-review-initial-20261021.json",
+      "initial_review_sha256": "87460e60e8d9b7d1d662199f350cd0fa03bfcfd2242aa27be4abdb2d96b07737",
+      "initial_tests_sha256": "6e5b09ce8a0bc671f2816042223dbe90125d0bb4ec5e29895f8db44e3afdee8a",
+      "resolution": "project entry now requires component_precision_overrides to be a dict and empty before the empty-completion return; V2-only scope retained.",
+      "severity": "Important",
+      "title": "Unsupported V3 component precision proofs were silently ignored"
+    }
+  ],
+  "reviewed_files_sha256": {
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/distribution_event_compiler_v2.py": "145ea48f2f68af0175d3f003f1970152b8d7c03ba40ed809dfbe3dc38fc51a3e",
+    "src/stock_rsi/distribution_event_compiler_v3.py": "c213b74dc215b363be974be3d0daab81c1b6f43abd21ce1ca50243ef11a09d53",
+    "src/stock_rsi/primary_event_components.py": "a0ecc1c01b7caf688dab26b2461c5fb720e4772c0abff004f973ee5422e58418",
+    "tests/test_primary_event_components.py": "836461a3acf113a54dc7c6d79e4dd01183743231c40ea635ba7efa9d2ffb4dff"
+  },
+  "status": "PASS_SYNTHETIC_CODE_REVIEW_AFTER_IMPORTANT_FIX",
+  "verification": {
+    "all_negative_probes_rejected_without_mutation": true,
+    "focused_log": "/tmp/ivol-primary-event-components-independent-review-final-focused-20261021.log",
+    "focused_log_sha256": "25f3506ca18f4ba8bd2e5b91b6d9802ac2e6133150a79d9fca3a295f9e9e4ae6",
+    "focused_synthetic_tests": 25,
+    "focused_synthetic_tests_passed": true,
+    "full_suite_not_repeated": true,
+    "independent_negative_api_probes": 20,
+    "independent_negative_probes_path": "/tmp/ivol-primary-event-components-independent-negative-probes-20261021.json",
+    "independent_negative_probes_sha256": "f13a7edf59d0ce83d17e7b66ce99c488f81a56937a1ffc4715cab503ecc7e1d7"
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "status": "PASS_INDEPENDENT_LITERAL_PRIMARY_COMPLETION_PROPOSAL_CHECK_NOT_APPLIED",
+  "proposal_sha256": "5b40b8b0789b6dddd53abe6241520894e79f908c5aafda19cc213f755956ecbf",
+  "primary_content_review_sha256": "a994dd47d943c2438799d57677767f3d438bf095a8705125fedcb1cb969eefac",
+  "primary_capture_manifest_sha256": "338244552243fd043698fb8c388c245c9bb269ceb65276607d59cd96fde68ad2",
+  "original_raw_manifest_sha256": "7c7e56f5ec3301a9b1d82748bd90603f255ef8a1c602b64cf34b3ebaedef62b3",
+  "source_questions_sha256": "399bf4a223bf0856645f8b9f2f2f1aa9efe780e5d5af4bae3416b91a5e128e2f",
+  "critical_findings": [],
+  "important_findings": [],
+  "findings": [],
+  "documents_checked": [
+    {
+      "case_id": "SH600763|2024-07-05",
+      "instrument": "SH600763",
+      "pdf_file": "SH600763-2024-07-01.pdf",
+      "pdf_sha256": "d48bdde979d56fa83a370efc1e1dcd56b0003772352001e87601769b550eeff3",
+      "publication_day": "2024-07-01",
+      "issuer_signature_day": "2024-07-01",
+      "publication_kept_distinct_from_signature": true,
+      "source_row_sha256": [
+        "68a97ccd96f1814f1a02124e5b9022372ad35a98bbc7e62dc2a4c9961682356d"
+      ],
+      "primary_review_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "economic_facts_bound_to_existing_review": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.43565",
+        "stock_dividend_per_original_share": "0.400595",
+        "capital_transfer_per_original_share": "0",
+        "record_date": "2024-07-04",
+        "ex_date": "2024-07-05",
+        "cash_payment_date": "2024-07-05",
+        "share_listing_date": "2024-07-05",
+        "reference_values_used_as_entitlement": false
+      }
+    },
+    {
+      "case_id": "SH603290|2024-05-23",
+      "instrument": "SH603290",
+      "pdf_file": "SH603290-2024-05-16.pdf",
+      "pdf_sha256": "0d0cf5c4e9e876cb090b8ebe15774ebe8cf06778f727ddb4531fe0066549db30",
+      "publication_day": "2024-05-16",
+      "issuer_signature_day": "2024-05-16",
+      "publication_kept_distinct_from_signature": true,
+      "source_row_sha256": [
+        "63003670619a057e53dbed1cb119f278846d94d234ce99a8b10de7e5e2aef2ad"
+      ],
+      "primary_review_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "economic_facts_bound_to_existing_review": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "1.59760",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0.4",
+        "record_date": "2024-05-22",
+        "ex_date": "2024-05-23",
+        "cash_payment_date": "2024-05-23",
+        "share_listing_date": "2024-05-23",
+        "reference_values_used_as_entitlement": false
+      }
+    },
+    {
+      "case_id": "SH603688|2024-05-22",
+      "instrument": "SH603688",
+      "pdf_file": "SH603688-2024-05-16.pdf",
+      "pdf_sha256": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+      "publication_day": "2024-05-16",
+      "issuer_signature_day": "2024-05-16",
+      "publication_kept_distinct_from_signature": true,
+      "source_row_sha256": [
+        "e57784c3d79cfcbb462d6dc36792e289eadc48c70c4bc26882dafebdb6aa16f9"
+      ],
+      "primary_review_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "economic_facts_bound_to_existing_review": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "5.7",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0.5",
+        "record_date": "2024-05-21",
+        "ex_date": "2024-05-22",
+        "cash_payment_date": "2024-05-22",
+        "share_listing_date": "2024-05-22",
+        "reference_values_used_as_entitlement": false
+      }
+    },
+    {
+      "case_id": "SH603927|2024-05-21",
+      "instrument": "SH603927",
+      "pdf_file": "SH603927-2024-05-15.pdf",
+      "pdf_sha256": "46930080250d977d9dd8f7ed41c02467271d022adfabce3cf84c84e34537de5a",
+      "publication_day": "2024-05-15",
+      "issuer_signature_day": "2024-05-14",
+      "publication_kept_distinct_from_signature": true,
+      "source_row_sha256": [
+        "6bf5be2a2f0af07b82e04d46de2cdcf89bc48fc7495c7f602fe3c8727f9cd18a"
+      ],
+      "primary_review_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "economic_facts_bound_to_existing_review": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.55",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0.4",
+        "record_date": "2024-05-20",
+        "ex_date": "2024-05-21",
+        "cash_payment_date": "2024-05-21",
+        "share_listing_date": "2024-05-21",
+        "reference_values_used_as_entitlement": false
+      }
+    },
+    {
+      "case_id": "SZ000403|2025-06-04",
+      "instrument": "SZ000403",
+      "pdf_file": "SZ000403-2025-05-27.pdf",
+      "pdf_sha256": "52287e10b2d70bf244f0306c2c472043e0e08d11fbe8592078bf68baf0d83af7",
+      "publication_day": "2025-05-27",
+      "issuer_signature_day": "2025-05-27",
+      "publication_kept_distinct_from_signature": true,
+      "source_row_sha256": [
+        "67a0fed5e573394187a54585e75c073882e8a67ae61994b63c7ececba1f95f82"
+      ],
+      "primary_review_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "economic_facts_bound_to_existing_review": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.35",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0.3",
+        "record_date": "2025-06-03",
+        "ex_date": "2025-06-04",
+        "cash_payment_date": "2025-06-04",
+        "share_listing_date": "2025-06-04",
+        "reference_values_used_as_entitlement": false
+      }
+    },
+    {
+      "case_id": "SH601966|2024-06-14",
+      "instrument": "SH601966",
+      "pdf_file": "SH601966-2024-06-07.pdf",
+      "pdf_sha256": "f7659034cb64362e870f2f16f25f89ca683b10a779bb18e6e14ac6ea4d5b97a5",
+      "publication_day": "2024-06-07",
+      "issuer_signature_day": "2024-06-06",
+      "publication_kept_distinct_from_signature": true,
+      "source_row_sha256": [
+        "7a52e023be8dc62468d080b16bb3166686e44ebd9a0ff9a5ff60842215271acb",
+        "e373aaaa9dfa85f9e06a61328cbfd0f9c6b6a71f8e8fee89ced7be5f02bd5f1b"
+      ],
+      "primary_review_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "economic_facts_bound_to_existing_review": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.377",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0",
+        "record_date": "2024-06-13",
+        "ex_date": "2024-06-14",
+        "cash_payment_date": "2024-06-14",
+        "share_listing_date": null,
+        "reference_values_used_as_entitlement": false
+      }
+    },
+    {
+      "case_id": "SH601966|2025-10-23",
+      "instrument": "SH601966",
+      "pdf_file": "SH601966-2025-10-16.pdf",
+      "pdf_sha256": "d33cd20903dce8ae630bdaef3e4cd6ee38172b9605f569d15126aa56df8ff01d",
+      "publication_day": "2025-10-16",
+      "issuer_signature_day": "2025-10-15",
+      "publication_kept_distinct_from_signature": true,
+      "source_row_sha256": [],
+      "primary_review_pages": [
+        1,
+        2,
+        3
+      ],
+      "economic_facts_bound_to_existing_review": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.11",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0",
+        "record_date": "2025-10-22",
+        "ex_date": "2025-10-23",
+        "cash_payment_date": "2025-10-23",
+        "share_listing_date": null,
+        "reference_values_used_as_entitlement": false
+      }
+    },
+    {
+      "case_id": "SZ000728|2025-01-21",
+      "instrument": "SZ000728",
+      "pdf_file": "SZ000728-2025-01-14.pdf",
+      "pdf_sha256": "712c5aa18b185c5dc7fe317b3f4cdadbef0bdd09b3b83d665e0d66707ae7ebf2",
+      "publication_day": "2025-01-14",
+      "issuer_signature_day": "2025-01-14",
+      "publication_kept_distinct_from_signature": true,
+      "source_row_sha256": [],
+      "primary_review_pages": [
+        1,
+        2,
+        3
+      ],
+      "economic_facts_bound_to_existing_review": {
+        "ordinary_eligible_holder_cash_per_original_share_CNY": "0.06",
+        "stock_dividend_per_original_share": "0",
+        "capital_transfer_per_original_share": "0",
+        "record_date": "2025-01-20",
+        "ex_date": "2025-01-21",
+        "cash_payment_date": "2025-01-21",
+        "share_listing_date": null,
+        "reference_values_used_as_entitlement": false
+      }
+    }
+  ],
+  "all8_PDF_actual_bytes_match_capture_and_review": true,
+  "all8_publication_days_use_authenticated_listing_not_signature": true,
+  "all_original_source_row_SHA_reconstructed_independently": true,
+  "reviewed_page_artifacts_verified": 32,
+  "page_artifact_bytes_hash_checked": 64,
+  "proposal_positive_page_references_covered_by_existing_review": true,
+  "two_typed_components_match_review_and_original_rows": true,
+  "cash_component_equation": "0.286+0.091=0.377 CNY/original share;0.37444 is reference-price deduction only",
+  "supplementary_cash_per_original_share_CNY": {
+    "SH601966|2025-10-23": "0.11",
+    "SZ000728|2025-01-21": "0.06"
+  },
+  "original_raw_packet_bindings": {
+    "SH600763": {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600763.json",
+      "sha256": "0bfa8bad5a5088ccbba3c645a76ebd913440dd910d615e8148347663b54b2e9f"
+    },
+    "SH603290": {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603290.json",
+      "sha256": "d4092fb9304226da6ff0bbaaa4c0956f33c2b90c97a3183b90bd648695280204"
+    },
+    "SH603688": {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603688.json",
+      "sha256": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2"
+    },
+    "SH603927": {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603927.json",
+      "sha256": "eaf58d551327fc8cebadd890b094cd8e34ae42de4aedcc116902163010382ab9"
+    },
+    "SZ000403": {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SZ000403.json",
+      "sha256": "1b0779fc3b44a69087fa4ea5a9eb8042f835b8350877ef1b3c3346d20143f5e5"
+    },
+    "SH601966": {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601966.json",
+      "sha256": "b6e4a40f8846c04bbe9fb045908aa10e31677048d907926f3dedbddbb0948c34"
+    },
+    "SZ000728": {
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SZ000728.json",
+      "sha256": "7a84b22a370d5ac08bebc9c8d6190ee3039eb6a6f450e8a13976fe06da26ab1c"
+    }
+  },
+  "six_tax_unknown_event_keys_retained": [
+    "SH600580|2025-06-27",
+    "SH600763|2024-07-05",
+    "SH603290|2024-05-23",
+    "SH603688|2024-05-22",
+    "SH603927|2024-05-21",
+    "SZ000403|2025-06-04"
+  ],
+  "new_tax_maps_empty": true,
+  "old_nine_cached_proof_types_unreplaced_in_proposal": [
+    {
+      "event_key": "SH600885|2025-06-19",
+      "type": "capital_tax"
+    },
+    {
+      "event_key": "SH600998|2024-06-07",
+      "type": "capital_tax"
+    },
+    {
+      "event_key": "SH601128|2024-05-29",
+      "type": "capital_tax"
+    },
+    {
+      "event_key": "SH601128|2025-06-05",
+      "type": "capital_tax"
+    },
+    {
+      "event_key": "SH603826|2024-06-27",
+      "type": "stock_dividend_tax_bases"
+    },
+    {
+      "event_key": "SZ001914|2025-08-13",
+      "type": "cash_overrides"
+    },
+    {
+      "event_key": "SZ002508|2024-01-10",
+      "type": "primary_cash_supplement"
+    },
+    {
+      "event_key": "SZ002984|2024-04-19",
+      "type": "capital_tax"
+    },
+    {
+      "event_key": "SZ003031|2024-06-11",
+      "type": "capital_tax"
+    }
+  ],
+  "actual_source_projection_run": false,
+  "actual_event_compilation_run": false,
+  "account_replay_admitted": false,
+  "portfolio_returns_computed": false,
+  "2026_market_or_financial_values_read": false,
+  "network_used": false,
+  "repository_or_source_modified": false,
+  "production_projection_compile_helpers_imported_or_called": false,
+  "review_scope": "Independent structured transcription/byte/arithmetic/date/page binding review against prior literal economic content review; not a new full visual PDF review, source projection, event compilation or account admission.",
+  "limitations": [
+    "Existing independent reviewer authored the32-page visual/text economic review. This check independently verified actual8PDFbyte hashes and32text+32render artifact hashes, and read bound economic page text for the two typed completions/two supplements.",
+    "Stock-dividend taxable basis/fractional registry amounts and five capital-tax unknowns are not upgraded. A verified typed primary component is not whole-event tax/account admission.",
+    "Old nine proof types are not replaced by this new proposal; downstream merge/application semantics were deliberately not invoked or certified.",
+    "Proposal false state flags verified; no projection, compile, actual holdings or outcome assessment performed."
+  ]
+}
