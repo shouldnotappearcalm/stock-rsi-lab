@@ -1,0 +1,60 @@
+{
+  "status": "FIXED_COMPOSITE_PRE2026_MINUTE_PREFIX_CACHE_INVENTORY_NOT_ADMISSION",
+  "method_code_sha256": {
+    "experiments/qlib/audit_sources/2026-10-21-szse-value-momentum-minute-inventory.py": "acc269e270d8066d636e918011841cd3acf6a7eb1cfa01e17beee91d9cdaed45",
+    "scripts/illiquidity_minute_sources.py": "6823f1a6f14a0b81732f589b4faa83442c434f8fd70b09f128bd0525bddd0fc6",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46"
+  },
+  "raw_manifest_sha256": "6c8c1cd640751e647f80774e83691ddf1b0907fbc1be86a4120e6a1de7f587ea",
+  "source_projection_summary_sha256": "4ebaff004689c2487d375f36989c869d07f9833277ff4e65059caca3326f721a",
+  "target_sha256": "50ffb7748445baec563789ef821aa6ef861dfbd6c1859ba7a870ad11c2ed6f86",
+  "source_manifest_sha256": {
+    "tdx-fixed-order-history-20261017": "def299b792b608f862b3bbc1258195e0b12154c753156625e1a8ec95c4784205",
+    "intraday-prefix-tape-20261017": "723a04f41035b481c72fb7908941d07ef2c41c07ca366d9e96a4c247ff47d80c",
+    "return-family-minutes-dev-20261017": "f0db11d9c96bebd1f3ba2aebb095f9d95e454fa3fe3c5f1231a0855cddb7dc6c",
+    "reversal-minutes-full-20261017": "395f3ed98b8bb129d16d700d6dadc0b90d944f0c79967b5b10f6d67940a37954",
+    "szse-value-minutes-dev-20261017": "39bf11c2e72383d6e199037018ff3d60973572cd0f34b5add2058ecee2bef57c",
+    "szse-value-minutes-full-20261017": "fde57ca57adb4eeaa9bfb01ee28314dab2189d92430779061e23d178b7ee8346",
+    "illiquidity-minutes-dev-20261021": "d8b1759fafd47914f82303b2e2fb2099c1c962bfdf34f8b3c6c1f9a0123fdcb2",
+    "low-beta60-minutes-dev-20261021": "4b2cb2b7fb10610b0be878ea722df94e7a0157b6f39382ccfaede65d621086e8"
+  },
+  "primary_tape_root": "tdx-fixed-order-history-20261017",
+  "source_precedence_fixed_before_packet_quality": [
+    "tdx-fixed-order-history-20261017",
+    "intraday-prefix-tape-20261017",
+    "return-family-minutes-dev-20261017",
+    "reversal-minutes-full-20261017",
+    "szse-value-minutes-dev-20261017",
+    "szse-value-minutes-full-20261017",
+    "illiquidity-minutes-dev-20261021",
+    "low-beta60-minutes-dev-20261021"
+  ],
+  "required_active_sessions": 1744,
+  "nonexecuting_source_intervals": 2,
+  "status_counts": {
+    "UNCACHED_IN_CHECKED_SOURCES": 693,
+    "EXISTING_RECONSTRUCTED_SOURCE_CHECKS_PASSED": 1051
+  },
+  "uncached_count": 693,
+  "cache_conflict_count": 0,
+  "cached_minute_packets_authenticated": 2225,
+  "local_details_sha256": "569314923a9dd0f2a70d31c2c381c90ad412cc6d5f716670a8cb1926068dae08",
+  "new_network_requests": 0,
+  "source_fetch_performed": false,
+  "full_October": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_values_queried": false,
+  "source_metadata_may_include_later_keys": true,
+  "source_packets_read_only_pre2026": true,
+  "minute_execution_admitted": false,
+  "historical_arrival_certified": false,
+  "queue_and_impact_calibrated": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

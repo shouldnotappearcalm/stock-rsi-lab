@@ -1,0 +1,80 @@
+{
+  "status": "PEER_EXECUTION_AND_OUTPUT_REVIEW_APPROVED_FOR_MINUTE_SOURCE_INVENTORY_ONLY",
+  "frozen_commit": "87a20ae555e8e798e22aefc1673d48ea060348cd",
+  "plan_sha256": "46e75c001457de30a86cab17795ebb211d4bfb9b8c89ef6100e91e8cc341aa40",
+  "summary_sha256": "f159193e20f39b48823d9b5d70b1ff6ac58db38a7c73f63268192de845f7a9e6",
+  "auditor_sha256": "ca05086bbcab6595342bdce46ef0f27e8a4222bfb242943f8d9c67f324bd31cc",
+  "auditor_authorship": "ROOT_AUTHORED_SEPARATE_ALGORITHM_FROM_RUNTIME",
+  "peer_review_action": "Executed and reviewed the published root-authored stdlib auditor; independently spot-checked total cash/share arithmetic, every fill fee and annual denominators. This review does not claim independent authorship of that auditor.",
+  "peer_audit_file": "/tmp/szse-value-momentum-raw-account-peer-audit-20261021.json",
+  "peer_audit_sha256": "ed3f69180d137cf3e5ab19bccae81d6f7084585af24d50a652cff4a369c3325d",
+  "source_projection_independent_audit_sha256": "546662cc31f84f3d1e3a3504868d8f115cc0caabf49ad612374ec78c21ebb27a",
+  "critical_findings": [],
+  "important_findings": [],
+  "verification": {
+    "auditor_exit_code": 0,
+    "imports_project_runtime_code": false,
+    "all_current_six_artifact_scopes_hashes_and_file_sets_verified": true,
+    "profiles": 2,
+    "source_sessions_per_profile": 486,
+    "account_return_sessions_per_profile": 485,
+    "monthly_allocations_and_snapshots_reconstructed": 48,
+    "record_and_ex_events_per_profile": 255,
+    "orders_statuses_reconstructed": 1405,
+    "fills_reconstructed": 1379,
+    "corporate_ledger_entries_reconstructed": 1152,
+    "all_six_arithmetic_negative_controls_rejected": true,
+    "negative_controls_use_hash_gate": false,
+    "terminal_cash_and_signed_share_totals_independently_rechecked": true,
+    "all1379_individual_base_plus_extra_rounded_fees_independently_rechecked": true,
+    "annual_returns_rechecked_against_previous_Dec31_equity": true,
+    "source_knowledge_boundary": "Snapshot reconstruction uses only frozen target records, visible raw bars and account wealth; lifecycle/anchor/primary proof fields are not included."
+  },
+  "results_by_extra_bps": {
+    "20": {
+      "2024_return_pct": 6.242551,
+      "2025_return_pct": 29.20541601076578,
+      "average_exposure_pct": 94.02908569611772,
+      "ending_equity_CNY": "1372711.3000",
+      "max_drawdown_pct": -22.08831257862596
+    },
+    "40": {
+      "2024_return_pct": 4.902274,
+      "2025_return_pct": 27.5493351078357,
+      "average_exposure_pct": 94.10831964432816,
+      "ending_equity_CNY": "1338021.5300",
+      "max_drawdown_pct": -22.377849072094595
+    }
+  },
+  "primary_supplement_spotcheck": {
+    "event": "SZ002508|2024-01-10",
+    "cash_per_eligible_original_share_CNY": "0.50",
+    "price_reference_not_used_as_entitlement_CNY": "0.497403",
+    "registered_quantity_both_profiles": 0,
+    "realized_cash_both_profiles_CNY": "0.00",
+    "interpretation": "The correctly retained source event had zero registered ownership in these accounts; no cash benefit was assumed."
+  },
+  "raw_daily_proxy_development_gate_passes_independently": true,
+  "ready_for_minute_source_inventory": true,
+  "assessment": "Both fixed raw-share daily proxy profiles reconcile and the40bp reference satisfies the registered pre2026 positive-year/exposure gate. Proceeding to source inventory for unchanged same-period minute qualification is supported; no minute execution or2026 admission follows from this review.",
+  "known_limitations": [
+    "Reconstructed daily-open execution uses the declared9.5percent protective proxy, not certified exchange limit bands, auctions, queues or impact.",
+    "Minute-source availability, volume precision, actual arrival and same-period minute execution remain unqualified.",
+    "The four event-specific ordinary-investor capital-tax inferences and original publication/signature caveat are retained; strict statutory origin and actual FIFO liability are not certified.",
+    "Primary listing evidence classifies only60 unrequired prelisting missing sessions. Initial unit-factor handling remains validation-only, with no synthesized price or inferred entitlement.",
+    "Corporate source reconstruction does not certify full corporate-action coverage or actual settlement.",
+    "All research remains adaptive rather than sealed. No2026 return or new2026 market value was computed here; promotion and objective achievement remain false."
+  ],
+  "real_account_runner_rerun": false,
+  "new_HTTP_or_market_queries": 0,
+  "new_2026_reads": false,
+  "repository_or_source_edits_performed": false,
+  "minute_execution_admitted": false,
+  "2026_admitted": false,
+  "historical_arrival_certified": false,
+  "full_corporate_actions_certified": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "queue_and_impact_calibrated": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

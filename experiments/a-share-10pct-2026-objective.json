@@ -22,7 +22,7 @@
     "Honest labeling of consumed 2026 diagnostics and point-in-time data limitations"
   ],
   "remaining_completion_evidence": [
-    "Complete requested October and find a frozen candidate satisfying all three conditions. Current low_beta60 six conditional accounts have been independently reconstructed;2026 net5.3397\u20135.7552percent throughOct20, all below10percent.",
+    "Complete requested October and verify the fixed szse_value_momentum_equal2026diagnostic only after pre2026minute confirmation. Its raw-share daily40bp account passes2024(+4.902274%) and2025(+27.549335%);693minute sources remain uncached. Earlier low_beta60six conditional2026accounts remain below10%.",
     "User capital remains unspecified; no deployment participation/cost profile selected, all 60 scenarios retained",
     "Nested execution now records explicit legal-sized children, capacity and residuals; counterfactual queue/impact and precise historical available volume are not calibrated",
     "Historical official price limits/special status and real information arrival times remain unverified",
@@ -4877,14 +4877,14 @@
   "latest_pre2026_screen": {
     "candidate": "szse_value_momentum_equal",
     "candidate_budget": 1,
-    "status": "DAILY_PROXY_PASS_REQUIRES_PRE2026_PHYSICAL_CONFIRMATION",
-    "plan_file": "experiments/qlib/szse-value-momentum-pre2026-plan.json",
-    "result_file": "experiments/qlib/szse-value-momentum-pre2026-results.json",
-    "audit_file": "experiments/qlib/szse-value-momentum-independent-audit.json",
+    "status": "PRE2026_RAW_DAILY_COMPOSITE_PASS_MINUTE_CONFIRMATION_REQUIRED",
+    "plan_file": "experiments/qlib/szse-value-momentum-raw-daily-plan.json",
+    "result_file": "experiments/qlib/szse-value-momentum-raw-daily-results.json",
+    "audit_file": "experiments/qlib/szse-value-momentum-raw-daily-ledger-audit.json",
     "reference_extra_bps": 40,
-    "2024_net_pct": 5.99977480994438,
-    "2025_net_pct": 27.914424295016737,
-    "actual_mean_exposure_pct": 94.30842757087504,
+    "2024_net_pct": 4.902274,
+    "2025_net_pct": 27.5493351078357,
+    "actual_mean_exposure_pct": 94.10831964432816,
     "unverified_held_marks": 0,
     "candidate_unique_names": 103,
     "2026_values_or_returns_queried": false,
@@ -4920,6 +4920,31 @@
       "verification_file": "experiments/qlib/szse-value-momentum-source-projection-verification.json",
       "events": 255,
       "account_returns_computed": false
+    },
+    "normalized_daily_screen_reference": {
+      "status": "DAILY_PROXY_PASS_REQUIRES_PRE2026_PHYSICAL_CONFIRMATION",
+      "plan_file": "experiments/qlib/szse-value-momentum-pre2026-plan.json",
+      "result_file": "experiments/qlib/szse-value-momentum-pre2026-results.json",
+      "audit_file": "experiments/qlib/szse-value-momentum-independent-audit.json",
+      "2024_net_pct": 5.99977480994438,
+      "2025_net_pct": 27.914424295016737,
+      "actual_mean_exposure_pct": 94.30842757087504
+    },
+    "numeric_basis": "PHYSICAL_RAW_SHARE_DAILY_OPEN_PROXY_40BP",
+    "max_drawdown_pct": -22.377849072094595,
+    "raw_daily_account_reconciled": true,
+    "minute_execution_admitted": false,
+    "raw_daily_verification_file": "experiments/qlib/szse-value-momentum-raw-daily-verification.json",
+    "minute_source_inventory": {
+      "status": "FIXED_COMPOSITE_PRE2026_MINUTE_PREFIX_CACHE_INVENTORY_NOT_ADMISSION",
+      "file": "experiments/qlib/szse-value-momentum-minute-inventory.json",
+      "gap_identity_file": "experiments/qlib/szse-value-momentum-minute-gap-identities.json",
+      "required_active_pairs": 1744,
+      "cached_valid_pairs": 1051,
+      "uncached_pairs": 693,
+      "source_conflicts": 0,
+      "new_network_requests": 0,
+      "minute_execution_admitted": false
     }
   }
 }
