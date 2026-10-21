@@ -1,0 +1,39 @@
+{
+  "status": "SEPARATE_QA_CORRECTED_AND_PASSED_FROZEN_SOURCE_UNCHANGED",
+  "frozen_source_request_sha256": "fc7ddecfac53f0d478180ecac7013f1dc6fe8460cc2be41fed7571d0418870f9",
+  "actual_financial_source_extractions": 1,
+  "separate_QA_attempts": 3,
+  "failed_QA_attempts": [
+    {
+      "attempt": 1,
+      "reason": "Checker incorrectly used V2 all-context identity instead of existing V3 cover-first/issuer-information scope",
+      "log": "profitability-all1236-v6-source-audit-20261022.log"
+    },
+    {
+      "attempt": 2,
+      "reason": "Checker incorrectly required header uniqueness across continuation pages; corrected to exact selected consolidated source page",
+      "log": "profitability-all1236-v6-source-audit-attempt2-20261022.log"
+    }
+  ],
+  "regression_test_file": "tests/test_profitability_v6_separate_audit.py",
+  "regression_test_sha256": "c5523b16ebf66fdd4b9fb873fe1439b8482a12e09914b770cf0b92b7f381a134",
+  "new_identity_and_pagination_regressions": 7,
+  "full_local_unittest_count": 1061,
+  "full_local_unittest_result": "OK",
+  "audit_code_file": "experiments/qlib/audit_sources/2026-10-22-profitability-all1236-v6-source-cells.py",
+  "audit_code_sha256": "57b46e6e58236623058c46390a76fe729995b8c0fa29495873afbe509bbbdf96",
+  "passing_audit_sha256": "05ebe151d372e8b3e7fa17e7604291848b943c4adfc201b46de7767881849008",
+  "local_evidence_relative_source_root": "gross-profitability-all1236-v6-qa-evidence-20261022",
+  "all_local_evidence_sha256": {
+    "full1061-tests.log": "7aa8e850ce95671fb6ec1dbca31dfac98241722eb9316e407eecd81dcdc88349",
+    "profitability-all1236-v6-source-audit-20261022.log": "128f2d0e77e15eb72237ceb4f5e4e02ab368038a867ad5802d6380ab0febf1b8",
+    "profitability-all1236-v6-source-audit-attempt2-20261022.log": "a95331b71fb73d22293e654ebaaa8d70fef22d77c9e1b6f67127eeb7da891405",
+    "profitability-v6-QA-identity-red-20261022.log": "fb18a1a237a8419665d2cb06436701671a0dfb558d72dc55e63872b42392146f",
+    "profitability-v6-QA-pagination-red-20261022.log": "77db0fd3c612aac26d813ee14a46387c83e57c021d05b789bbdd23ab18777ab8",
+    "source-audit-pass-attempt3.log": "99999d85936021e14d90f7fc6be6a0a1ae03429372e9cf44573ea1a93e158d4b",
+    "source-audit.json": "05ebe151d372e8b3e7fa17e7604291848b943c4adfc201b46de7767881849008"
+  },
+  "original_frozen_parser_request_inputs_outputs_or_old_failure_records_modified": false,
+  "investment_factor_admitted": false,
+  "objective_achieved": false
+}
