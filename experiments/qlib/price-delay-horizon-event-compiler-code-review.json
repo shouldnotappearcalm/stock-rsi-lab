@@ -1,0 +1,49 @@
+{
+  "status": "BOUNDED_EVENT_COMPILER_STATIC_SYNTHETIC_AND_GUARDED_PREFLIGHT_REVIEW_PASS",
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "request_sha256": "85959144aa9bdcc8521abbada821ca3b9a5c2cebc36aef6127dde7d2ca30e4af",
+  "reviewed_file_sha256": {
+    "scripts/prepare_price_delay_horizon_events.py": "fdbab0c3dd535d88d86fdab368a10b1f25605f2a92f5bd74b6843bf1b28f92fd",
+    "tests/test_prepare_price_delay_horizon_events.py": "aa3c0d54fa66a95bd90a9d3e0e0d43090c70346edc4a3eecfe06c78bb6d7f8c4",
+    "docs/research/price-delay-horizon-account-continuation-plan-2026-10-21.md": "ba3dbe663a9a5b9de4b934b2252c9db113d8d46d9dd56adda1e73e18ba4f27f0"
+  },
+  "checks": {
+    "synthetic_tests_passed": 14,
+    "actual_request_guarded_preflight_exit_code": 0,
+    "compile_horizon_mocked_to_raise_and_never_called_in_preflight": true,
+    "real_output_absent_after_preflight": true,
+    "exact_method_public_local_binding_counts": {
+      "method_code_sha256": 16,
+      "public_evidence_sha256": 9,
+      "local_source_sha256": 14
+    },
+    "actual_old15_new17_PDF_bytes_authenticated": 32,
+    "actual_financial_file_bytes_authenticated": 48,
+    "old378_fixed_independent_audit_and_source_producer_canonical_links_verified": true,
+    "203raw_151literalprefix_676calendar_34targets_24targetprefix_authenticated": true,
+    "old_compile_append_only_reused_and_V3_only_SZ002831_20260604": true,
+    "synthetic_old_event_ID_order_economics_and_receipt_prefix_exact_after_precision": true,
+    "future_only_pre2026_rows_excluded_by_source_date_not_compiled": true,
+    "227vendor_8primary_131excluded_613total_are_runtime_reconciliation_checks_not_padding": true,
+    "unknown2026_606_937_and_original2024_596_guards_retained": true,
+    "fractional_registry_guard_unchanged_and_not_waived_by_compiler": true,
+    "actual_source_maps_rechecked_before_and_after_output_write": true,
+    "external_request_SHA_rechecked_before_output_and_summary": true,
+    "fixed_unused_output_and_five_artifacts_two_literal_old_byte_copies": true,
+    "proof_and_summary_distinct_admission_field_names_authenticated_false": true
+  },
+  "limits": [
+    "Actual613-event compilation and coverage checks have NOT run in this review. Only synthetic compile_horizon fixtures and real input authentication/preflight were executed.",
+    "The original append compiler and precision adapter are reused without modifying investment rules or source rows; this review does not independently reconstruct actual compiled event outputs.",
+    "An expected count is a fail-closed runtime consistency condition, not authority to fabricate/drop/pad source events.",
+    "Unknown capital-tax events still require actual zero record ownership or separately sufficient evidence; noninteger entitlements still require registry evidence. No actual ownership/dependency proof was granted.",
+    "After the separately frozen execution, independent actual event/receipt audit remains required before account replay admission.",
+    "No network, new query, real event compilation, account run, portfolio ROI or repository edits by this review."
+  ],
+  "ready_for_frozen_source_event_compilation": true,
+  "actual_event_compilation_performed": false,
+  "account_replay_admitted": false,
+  "portfolio_returns_computed": false
+}

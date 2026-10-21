@@ -5123,7 +5123,7 @@
     }
   ],
   "latest_pre2026_price_delay_screen": {
-    "status": "PRE2026_INTRADAY_PASS_HORIZON_SOURCES_REVIEWED_APPEND_ONLY_EVENT_PROJECTION_PENDING",
+    "status": "PRE2026_INTRADAY_PASS_HORIZON_PROOF_PROJECTION_VERIFIED_EVENT_COMPILATION_PENDING",
     "candidate": "price_delay_d1",
     "candidate_budget": 1,
     "2024_normalized_daily_proxy_net_pct": 16.908141739694326,
@@ -5368,6 +5368,42 @@
       "source_or_account_admission": false,
       "investment_rules_changed": false,
       "objective_achieved": false
+    },
+    "horizon_reviewed_proof_projection": {
+      "frozen_commit": "1d3db1b",
+      "request_sha256": "4b2c8860037ee7b75c0d63f721726f9092a83137d8353f90a6eed0c0c2546998",
+      "reviewed_manifest_sha256": "51c236c980a154048f147dd8ee9f7053763e71a0fda769be10f94331aee3cb07",
+      "summary_sha256": "7285f0abe2cbe5e80b70a981f0b89a3d9600d127a6b703cfdf9923d19e594d99",
+      "independent_output_audit_file": "experiments/qlib/price-delay-horizon-proof-projection-independent-audit.json",
+      "independent_output_audit_sha256": "b0c011a0022d79efa8482a72e4ba8c4bc9e748a10ca207009655fad862be017e",
+      "root_audit_reproduction_byte_identical": true,
+      "consumed_original_PDFs": 17,
+      "HTTP_chains": 14,
+      "reviewed_byte_reuse_only": 3,
+      "supplements": 8,
+      "capital_supported": 5,
+      "unresolved_tax_keys": [
+        "SH603606|2026-05-26",
+        "SZ000937|2026-06-17"
+      ],
+      "events_compiled": false,
+      "source_admitted_for_account_replay": false,
+      "portfolio_returns_computed": false
+    },
+    "horizon_minute_inventory": {
+      "frozen_commit": "1d3db1b",
+      "request_sha256": "110a70fa2c40a6429352842a0f152796721d6c5268845269c6ec93f23b13dc28",
+      "new2026_active_pairs": 1764,
+      "cached_reuse_pairs": 1036,
+      "missing_pairs": 728,
+      "invalid_cached_pairs": 0,
+      "conflicting_cached_pairs": 0,
+      "nonordinary_source_markers": 8,
+      "root_separate_numeric_check_file": "experiments/qlib/price-delay-horizon-minute-inventory-numeric-check.json",
+      "minute_quality_checks_not_independently_reimplemented_by_root": true,
+      "new_source_queries": 0,
+      "source_admitted_for_account_replay": false,
+      "portfolio_returns_computed": false
     }
   }
 }

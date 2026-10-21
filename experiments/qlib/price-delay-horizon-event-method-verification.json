@@ -1,0 +1,18 @@
+{
+  "status": "PRICE_DELAY_HORIZON_APPEND_ONLY_EVENT_METHOD_VERIFIED_BEFORE_REAL_COMPILATION",
+  "request_sha256": "85959144aa9bdcc8521abbada821ca3b9a5c2cebc36aef6127dde7d2ca30e4af",
+  "code_review_sha256": "bf492bfc92b16da5d95869d9382209193aa13978e5872ed9df9582ded2ac7311",
+  "full_suite": {
+    "tests": 672,
+    "exit_code": 0,
+    "seconds": 12.347,
+    "log_sha256": "ca87dfa745ee0d18d6b5e39fa368a9e5e99364584ff1153cd42519ee8585402d"
+  },
+  "focused_event_tests": 14,
+  "actual_guarded_source_preflight_exit_code": 0,
+  "preflight_real_compile_called": false,
+  "actual_compilation_executed": false,
+  "account_replay_run": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
