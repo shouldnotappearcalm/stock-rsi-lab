@@ -6146,5 +6146,51 @@
     "public_excerpt_fixture_recreates_all4_actual_observations_byte_equivalent": true,
     "local_final_full_unittest_count": 951,
     "local_final_full_unittest_result": "OK"
+  },
+  "latest_profitability_fixed12_source_coverage": {
+    "status": "FIXED12_INITIAL_METADATA_AND36_PDF_CAPTURE_COMPLETE_NARROW_SCHEMA_INSUFFICIENT",
+    "initial_metadata_request_sha256": "b17246f79621f8581e2ff0c652643e7d51e46a0cb33a19329c1f04a210c58172",
+    "initial2022_metadata_POST_attempts": 12,
+    "initial2022_full_reports_found": 12,
+    "annual_PDF_request_sha256": "578b2a18c63944b3c833037608dd1beb493d2fb8a90b89570142b1f4b15ba18f",
+    "new_PDF_GET_attempts": 34,
+    "authenticated_original_PDF_cache_reuses": 2,
+    "annual_report_files": 36,
+    "issuer_source_sample_count": 12,
+    "fiscal_report_years": [
+      2022,
+      2023,
+      2024
+    ],
+    "source_sample_is_investment_universe": false,
+    "schema_request_sha256": "eeb494305680daa0e4069dfe7f7343f8ed350d08b0437796036b567f067c229e",
+    "schema_freeze_commit": "d5e7cbaae3fa3dab4d6c0c779516993df9d885cb",
+    "schema_result_file": "experiments/qlib/profitability-fixed12-schema-results.json",
+    "schema_status_counts": {
+      "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 3,
+      "SOURCE_SCHEMA_UNSUPPORTED": 15,
+      "COVER_IDENTITY_UNVERIFIED": 18
+    },
+    "supported_fiscal_observations": 6,
+    "issuers_with_all3_reports_parse_supported": 1,
+    "schema_unchanged_input_count": 283,
+    "schema_output_count": 41,
+    "run_integrity_file": "experiments/qlib/profitability-fixed12-schema-run-integrity.json",
+    "run_integrity_checks_do_not_independently_authenticate_PDF_cells": true,
+    "source_page_review_file": "experiments/qlib/profitability-fixed12-source-page-review.json",
+    "selected_original_physical_pages_visually_reviewed": 7,
+    "original_frozen_parser_or_old_failed_accounts_changed": false,
+    "all36_financial_cells_visually_authenticated": false,
+    "financial_version_history_complete": false,
+    "historical_arrival_verified": false,
+    "economic_sector_compatibility_verified": false,
+    "historical_nonfinancial_universe_coverage_complete": false,
+    "investment_factor_admitted": false,
+    "security_ranking_or_portfolio_returns_computed": false,
+    "2026_financial_or_market_values_read": false,
+    "objective_achieved": false,
+    "local_full_unittest_count": 972,
+    "local_full_unittest_result": "OK",
+    "next_action": "Keep all36 original source classifications. Separately version and freeze a bounded parser grammar and genuine-source regression fixtures for multi-line fiscal headers, explicit note references, numbered headings and literal identity separators/first20pages. Retain ambiguous or financially incompatible statements, missing rows and currency evidence failures without guessed replacements or survivorship subset. Complete accounting/correction/historical-universe coverage before one frozen profitability candidate and2024/2025 continuous-account controls; only then an unchanged2026 diagnostic. Required2024>0/2025>0/2026Jan-Oct>=10percent remains unproven."
   }
 }

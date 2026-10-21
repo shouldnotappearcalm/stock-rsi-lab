@@ -1,0 +1,230 @@
+{
+  "status": "FIXED36_FINANCIAL_SOURCE_SCHEMA_INSPECTION_COMPLETE_NOT_FACTOR_ADMITTED",
+  "request_sha256": "eeb494305680daa0e4069dfe7f7343f8ed350d08b0437796036b567f067c229e",
+  "documents": 36,
+  "issuer_count": 12,
+  "status_counts": {
+    "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW": 3,
+    "SOURCE_SCHEMA_UNSUPPORTED": 15,
+    "COVER_IDENTITY_UNVERIFIED": 18
+  },
+  "coverage_by_issuer": {
+    "SH600166": {
+      "2022": {
+        "capture_key": "SH600166-2022-1216699842",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SH600166-2023-1219874919",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SH600166-2024-1223327299",
+        "status": "SOURCE_CELL_PARSE_SUPPORTED_PENDING_VISUAL_REVIEW",
+        "error": null
+      }
+    },
+    "SH601108": {
+      "2022": {
+        "capture_key": "SH601108-2022-1216664368",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "one literal consolidated row required: revenue"
+      },
+      "2023": {
+        "capture_key": "SH601108-2023-1219833882",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SH601108-2024-1223320210",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      }
+    },
+    "SH600901": {
+      "2022": {
+        "capture_key": "SH600901-2022-1216523728",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SH600901-2023-1219877383",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SH600901-2024-1223316139",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      }
+    },
+    "SH603517": {
+      "2022": {
+        "capture_key": "SH603517-2022-1216709701",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact current/prior two-year column header required"
+      },
+      "2023": {
+        "capture_key": "SH603517-2023-1219907586",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SH603517-2024-1223045873",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two unambiguous monetary cells required: revenue"
+      }
+    },
+    "SH600418": {
+      "2022": {
+        "capture_key": "SH600418-2022-1216702541",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two unambiguous monetary cells required: revenue"
+      },
+      "2023": {
+        "capture_key": "SH600418-2023-1219915147",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two unambiguous monetary cells required: revenue"
+      },
+      "2024": {
+        "capture_key": "SH600418-2024-1222952026",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two unambiguous monetary cells required: revenue"
+      }
+    },
+    "SH600655": {
+      "2022": {
+        "capture_key": "SH600655-2022-1216202153",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two unambiguous monetary cells required: revenue"
+      },
+      "2023": {
+        "capture_key": "SH600655-2023-1219374764",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two unambiguous monetary cells required: revenue"
+      },
+      "2024": {
+        "capture_key": "SH600655-2024-1222881098",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "exact two unambiguous monetary cells required: revenue"
+      }
+    },
+    "SZ000825": {
+      "2022": {
+        "capture_key": "SZ000825-2022-1216522455",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SZ000825-2023-1219865113",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SZ000825-2024-1223315831",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      }
+    },
+    "SZ000783": {
+      "2022": {
+        "capture_key": "SZ000783-2022-1216691305",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SZ000783-2023-1219860033",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SZ000783-2024-1223376019",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      }
+    },
+    "SZ000750": {
+      "2022": {
+        "capture_key": "SZ000750-2022-1216658986",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique ordered consolidated/parent table boundaries required"
+      },
+      "2023": {
+        "capture_key": "SZ000750-2023-1219266576",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique ordered consolidated/parent table boundaries required"
+      },
+      "2024": {
+        "capture_key": "SZ000750-2024-1222948083",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique ordered consolidated/parent table boundaries required"
+      }
+    },
+    "SZ000933": {
+      "2022": {
+        "capture_key": "SZ000933-2022-1216236727",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SZ000933-2023-1219401996",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SZ000933-2024-1222881387",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      }
+    },
+    "SZ002372": {
+      "2022": {
+        "capture_key": "SZ002372-2022-1216497085",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique ordered consolidated/parent table boundaries required"
+      },
+      "2023": {
+        "capture_key": "SZ002372-2023-1219540563",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique ordered consolidated/parent table boundaries required"
+      },
+      "2024": {
+        "capture_key": "SZ002372-2024-1223102793",
+        "status": "SOURCE_SCHEMA_UNSUPPORTED",
+        "error": "unique ordered consolidated/parent table boundaries required"
+      }
+    },
+    "SZ002925": {
+      "2022": {
+        "capture_key": "SZ002925-2022-1216693662",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2023": {
+        "capture_key": "SZ002925-2023-1219867746",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      },
+      "2024": {
+        "capture_key": "SZ002925-2024-1223270418",
+        "status": "COVER_IDENTITY_UNVERIFIED",
+        "error": null
+      }
+    }
+  },
+  "source_observations": 6,
+  "all3_year_supported_parse_issuers": 1,
+  "input_count": 283,
+  "all_inputs_unchanged": true,
+  "original_parser_or_financial_source_changed": false,
+  "financial_version_history_complete": false,
+  "manual_numeric_visual_review_complete": false,
+  "economic_sector_compatibility_verified": false,
+  "historical_arrival_verified": false,
+  "investment_factor_admitted": false,
+  "security_ranking_or_portfolio_returns_computed": false,
+  "2026_financial_or_market_values_read": false,
+  "objective_achieved": false
+}

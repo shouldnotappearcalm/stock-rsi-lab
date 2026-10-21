@@ -1,0 +1,94 @@
+{
+  "status": "SEVEN_SELECTED_ORIGINAL_PAGES_VISUALLY_REVIEWED_NOT_COMPLETE_SOURCE_CERTIFICATION",
+  "selection": "diagnostic source-format examples after frozen full36 feasibility run, without price/return selection",
+  "source_reports": 6,
+  "physical_pages_reviewed": 7,
+  "read_only_original_PDFs": true,
+  "source_PDFs_modified": false,
+  "renderer": "existing pdftoppm, scale-to1500, original single pages, no OCR or edits",
+  "source_records": [
+    {
+      "capture_key": "SH600166-2022-1216699842",
+      "announcement_id": "1216699842",
+      "instrument": "SH600166",
+      "fiscal_year": 2022,
+      "source_sha256": "1fe7f6aa317fd0595cee9dcac28c09678b57777edef3cd0b6715fa0cf5b6f492",
+      "physical_page_1based": 124,
+      "local_render_png_sha256": "28ad4fe0a66d8c0ff4854cd746d7fd301e4bd8da5e998c84eedfed1df39493c3",
+      "PNG_original_page_visually_inspected_by_assistant": true,
+      "finding": "Supported income columns and explicit currency/unit; only this source page checked here, not all supported cells."
+    },
+    {
+      "capture_key": "SH603517-2022-1216709701",
+      "announcement_id": "1216709701",
+      "instrument": "SH603517",
+      "fiscal_year": 2022,
+      "source_sha256": "2b75bee493286d8bca4b355d169e4106040bf6fbd3df22777b96942f67fdea5a",
+      "physical_page_1based": 84,
+      "local_render_png_sha256": "2244c6f7fb185f4bf4cb422ce1cc8896535f956d64084ab877558c91efab3a2e",
+      "PNG_original_page_visually_inspected_by_assistant": true,
+      "finding": "Chinese-parenthesized note references are separate from two monetary columns."
+    },
+    {
+      "capture_key": "SH603517-2022-1216709701",
+      "announcement_id": "1216709701",
+      "instrument": "SH603517",
+      "fiscal_year": 2022,
+      "source_sha256": "2b75bee493286d8bca4b355d169e4106040bf6fbd3df22777b96942f67fdea5a",
+      "physical_page_1based": 81,
+      "local_render_png_sha256": "dbb6f3a13d732bba360e6a728e52db002b77c6cd187ecdf896f69164c4eb1668",
+      "PNG_original_page_visually_inspected_by_assistant": true,
+      "finding": "Two fiscal columns; balance header wraps onto multiple physical text lines, not an extra fiscal column."
+    },
+    {
+      "capture_key": "SH601108-2022-1216664368",
+      "announcement_id": "1216664368",
+      "instrument": "SH601108",
+      "fiscal_year": 2022,
+      "source_sha256": "fdc11b22678d08af13a142ac7f320584a2b96215432e47f0f3843c2aca45ffb3",
+      "physical_page_1based": 141,
+      "local_render_png_sha256": "faf452aa99e5cd170f449e78a4b737016dad322e0f71fc2c35621d547cac1937",
+      "PNG_original_page_visually_inspected_by_assistant": true,
+      "finding": "Broker statement reports net interest/fee income and total operating expenditure; required literal revenue/cost-of-sales rows unavailable on this page; no proxy substitution."
+    },
+    {
+      "capture_key": "SH600901-2023-1219877383",
+      "announcement_id": "1219877383",
+      "instrument": "SH600901",
+      "fiscal_year": 2023,
+      "source_sha256": "6283a5c06dfb6cf9240d7defa7f8310eeba7b8d22afc63f55f5ce0b9dda24fd2",
+      "physical_page_1based": 2,
+      "local_render_png_sha256": "6326695705939149409b41a321e3b36b51c8397b57bb8eaa8a7b26116683464e",
+      "PNG_original_page_visually_inspected_by_assistant": true,
+      "finding": "Literal stock-code label uses vertical-bar separator; first-five-page matcher rejected it."
+    },
+    {
+      "capture_key": "SZ002372-2022-1216497085",
+      "announcement_id": "1216497085",
+      "instrument": "SZ002372",
+      "fiscal_year": 2022,
+      "source_sha256": "362a4d6cb692266393f2e438b690b482937146275146fc992e82160e27a17c24",
+      "physical_page_1based": 80,
+      "local_render_png_sha256": "6d0e5d6267ce1a4886a360dcf133c4c423efd3ed017a8c5e0bd5a78414c0780a",
+      "PNG_original_page_visually_inspected_by_assistant": true,
+      "finding": "Numbered consolidated heading; local financial-section RMB unit sentence, table unit alone says yuan; printed page79, physical page80."
+    },
+    {
+      "capture_key": "SH600418-2022-1216702541",
+      "announcement_id": "1216702541",
+      "instrument": "SH600418",
+      "fiscal_year": 2022,
+      "source_sha256": "5d732a0c1fe8a26a5dccb23e81937d658fcdaec74f010d6027989ee9d3670887",
+      "physical_page_1based": 78,
+      "local_render_png_sha256": "7b273f108f8bfdb8a101de37c0512b34ceaea97fac1e1556948138dd8145b038",
+      "PNG_original_page_visually_inspected_by_assistant": true,
+      "finding": "Arabic-parenthesized note references; consolidated income also has insurance lines, so mechanical parse alone cannot certify accounting comparability."
+    }
+  ],
+  "all36_financial_cells_visually_authenticated": false,
+  "historical_arrival_verified": false,
+  "financial_version_history_complete": false,
+  "economic_sector_compatibility_verified": false,
+  "investment_factor_admitted": false,
+  "2026_financial_or_market_values_read": false
+}
