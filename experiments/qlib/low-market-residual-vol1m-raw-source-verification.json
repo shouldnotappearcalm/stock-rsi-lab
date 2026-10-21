@@ -1,0 +1,53 @@
+{
+  "status": "PRE2026_RAW_SOURCE_CAPTURE_INDEPENDENTLY_VERIFIED_ADMISSION_SEPARATE",
+  "freeze_commit": "9420a11dcdef407adfcd0dd298a2c7006d9c89ef",
+  "request_sha256": "e3764479ec41fd229b592eba217095a0baa3d14cf478aed35c7b7d1dedc8fc6b",
+  "manifest_sha256": "7c7e56f5ec3301a9b1d82748bd90603f255ef8a1c602b64cf34b3ebaedef62b3",
+  "independent_audit_sha256": "fa8baf8c5091cd1b96e617b2b41da4a50eb6082517f58dacd32d52ee1e5d36c7",
+  "root_reproduction_byte_identical": true,
+  "actual_capture_exit_code": 0,
+  "capture_complete": true,
+  "names": 361,
+  "byte_exact_reused_packets": 301,
+  "fresh_names": 60,
+  "successful_logical_financial_queries": 240,
+  "SDK_logins": 1,
+  "SDK_logout_success": true,
+  "bars": 175085,
+  "vendor_distributions": 860,
+  "adjustment_rows": 875,
+  "quarantined_rows": 0,
+  "source_input_files_rechecked": 694,
+  "frozen_request_additionally_rechecked": true,
+  "previous_financial_files_unchanged": 42,
+  "all1840_target_source_snapshots_ordinary_traded": true,
+  "source_partial_calendars": {
+    "SH603341": {
+      "observed_rows": 448,
+      "missing_sessions": 38
+    },
+    "SZ002505": {
+      "observed_rows": 163,
+      "missing_sessions": 323
+    }
+  },
+  "source_calendars_all_complete": false,
+  "missing_rows_synthesized": false,
+  "noncash_source_rows_require_review": 13,
+  "adjustments_without_same_ex_date_vendor_distribution": 16,
+  "first_audit_execution_failure_retained": true,
+  "first_audit_execution_failure_reason": "Relative request path resolved outside repository cwd; reran unchanged auditor from repository cwd. No source correction or recapture.",
+  "CI_freeze_all3_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39592407729",
+  "corporate_cache_inventory_sha256": "e20a92afef7f1b70724516a6c30f1bc16a1d83eeb2015a8ee1da54ee17166663",
+  "corporate_cache_inventory_scope": "Five bounded pre2026 proof roots and old source options only; fresh60 not included; terminal reconciliation required.",
+  "strategy_or_target_changes": false,
+  "new_2026_market_queries": false,
+  "account_replay_admitted": false,
+  "corporate_or_tax_completeness_verified": false,
+  "PIT_or_historical_arrival_verified": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false,
+  "next_action": "Reconcile all terminal source corporate/lifecycle questions against issuer primary evidence, then freeze source projection and physical-share account method before replay.",
+  "invalid_source_cases_rejected": 8,
+  "unadmitted_quarantine_boundary_case_passed": 1
+}

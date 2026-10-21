@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/tmp/low-market-residual-vol1m-pre2026-raw-source-audit-20261021.py", line 306, in <module>
+    if __name__=='__main__':cli()
+                            ^^^^^
+  File "/tmp/low-market-residual-vol1m-pre2026-raw-source-audit-20261021.py", line 304, in cli
+    run(p.parse_args())
+  File "/tmp/low-market-residual-vol1m-pre2026-raw-source-audit-20261021.py", line 276, in run
+    for n,h in input_before.items():need(sha(n)==h,'producer post-input immutable '+n)
+                                         ^^^^^^
+  File "/tmp/low-market-residual-vol1m-pre2026-raw-source-audit-20261021.py", line 21, in sha
+    def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+                                     ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py", line 1050, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'experiments/qlib/low-market-residual-vol1m-pre2026-raw-source-request.json'

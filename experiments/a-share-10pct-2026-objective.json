@@ -5599,6 +5599,18 @@
     "2026_market_values_or_outcomes_queried": false,
     "objective_achieved": false,
     "freeze_CI_all_three_jobs_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39589475343",
-    "next_action": "Inventory existing pre2026 raw-price/corporate-action coverage for361fixed primary names, then freeze any source completion and raw-share account confirmation. Never select/tune from2026facts."
+    "next_action": "Reconcile all terminal source corporate/lifecycle questions against issuer primary evidence, then freeze source projection and physical-share account method before replay.",
+    "raw_source_completion": {
+      "status": "PRE2026_RAW_SOURCE_CAPTURE_INDEPENDENTLY_VERIFIED_ADMISSION_SEPARATE",
+      "verification_file": "experiments/qlib/low-market-residual-vol1m-raw-source-verification.json",
+      "verification_sha256": "860e498a19e93585aafdf8d8aabe939d47ccdc0d6adde6b970e0032c7d83d9e6",
+      "manifest_sha256": "7c7e56f5ec3301a9b1d82748bd90603f255ef8a1c602b64cf34b3ebaedef62b3",
+      "independent_audit_sha256": "fa8baf8c5091cd1b96e617b2b41da4a50eb6082517f58dacd32d52ee1e5d36c7",
+      "root_reproduced_byte_identically": true,
+      "all1840_target_snapshots_ordinary": true,
+      "actual_account_replay_run": false,
+      "portfolio_return_computed": false,
+      "objective_achieved": false
+    }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "status": "AUDIT_PASS_AFTER_EXECUTION_CWD_CORRECTION_ONLY",
+  "first_run_exit_code": 1,
+  "first_run_log": "/tmp/low-market-residual-vol1m-pre2026-raw-source-audit-first-run-20261021.log",
+  "first_run_log_sha256": "763f2eace1c46e3908e38d448253f4119552d3010eb826fed1d027ace1ab8654",
+  "first_failure": "FileNotFoundError resolving original input-before relative request path from non-repository cwd",
+  "remediation": "Run unchanged frozen script from /Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead; no code/source/request mutation",
+  "second_run_exit_code": 0,
+  "second_run_log": "/tmp/low-market-residual-vol1m-pre2026-raw-source-audit-repo-cwd-20261021.log",
+  "second_run_log_sha256": "f25edc3ac4f6a755b6440e550b2875099a44ab4f82f7a6e96217b3834b5cdcbc",
+  "audit_report_sha256": "fa8baf8c5091cd1b96e617b2b41da4a50eb6082517f58dacd32d52ee1e5d36c7",
+  "frozen_script_sha256": "c3ae15d7928a4813fd290567e151c6f715fa852ed42ed9be4b71aaf7dc8d3ddf",
+  "producer_input_map_equals_independent_input_map_after_path_resolution": true,
+  "actual_preexisting_inputs_unchanged": 694,
+  "additional_frozen_request_file_unchanged": 1,
+  "all_1840_positive_target_asof_snapshots_checked_against_actual_raw_rows": true,
+  "all_1840_snapshot_isST_zero_and_tradestatus_one": true,
+  "snapshot_scope_is_not_holding_interval_or_account_admission": true,
+  "new_network_queries_by_reviewer": 0,
+  "account_or_ROI_run": false
+}
