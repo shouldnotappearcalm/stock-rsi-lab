@@ -4833,7 +4833,7 @@
     },
     {
       "candidate": "low_market_residual_vol_1m",
-      "status": "FROZEN_PRE2026_FORMATION_ONLY_NO_NEW_RETURNS",
+      "status": "PRE2026_24_FORMATIONS_INDEPENDENTLY_RECONSTRUCTED_NO_PORTFOLIO_RETURNS",
       "economic_family": "EXISTING_LOW_RISK_LOTTERY_VARIANT",
       "new_independent_economic_family": false,
       "candidate_budget": 1,
@@ -4851,7 +4851,10 @@
       "same_continuous_account_CNY": 1000000,
       "candidate_promoted": false,
       "objective_achieved": false,
-      "next_action": "Freeze verified single-indicator trial, form 24 monthly targets on physically capped pre2026 prices; independently check OLS and clocks before continuous development account."
+      "next_action": "Freeze continuous pre2026 account development at fixed20/40bp; no2026 read until retained.",
+      "formation_freeze_commit": "4e5fada",
+      "formation_result_file": "experiments/qlib/low-market-residual-vol1m-pre2026-formation-results.json",
+      "formation_independent_audit_file": "experiments/qlib/low-market-residual-vol1m-pre2026-formation-independent-audit.json"
     }
   ],
   "latest_data_admission": {

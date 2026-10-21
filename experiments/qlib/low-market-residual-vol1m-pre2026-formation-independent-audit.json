@@ -1,0 +1,61 @@
+{
+  "status": "INDEPENDENT_LOW_MARKET_RESIDUAL_VOL1M_PRE2026_24_FORMATIONS_RECONSTRUCTED",
+  "request_sha256": "c93479626e0879154c83a2e1fe82bfd59fa52b0642375d4a902630ac0f1c0238",
+  "summary_sha256": "5e5c97c84964be17a19f12225aea639b8c7060a400c3297e636f5d51ba881724",
+  "audit_code_sha256": "9dd983ada64607319955e1a7aaead57083e8bea1002ff19fa81b7ea9e94c50a6",
+  "provider_manifest_sha256": "e17a0e994ffe8b9e6729d290f7aea29e4c7c2d6f5ec6d497171d66f241d197fe",
+  "input_sha256": {
+    "price_files": "30a7f43d6e306929dea2089fa958c33b08b44d88f32f5a4ffd4acfa93076e160",
+    "calendars/day.txt": "0095d19144308a1b0075ffd7f40f7af2dae76bdff3cfb1ba8bd80d4663ef9eaa",
+    "instruments/csi500.txt": "3ada9b34652fe037e188ae977b67b66ae5906d3c6976168823869a6e172ce7b0",
+    "features/sh000905/close.day.bin": "ef2b45c052feb722c98fb76612d23ea0d6f916997c0ddc18e7efc8a0118c6a83"
+  },
+  "artifact_sha256": {
+    "targets.json": "64dd4c589b3661aceb5b103bc336a889f68449089f6ce9c2aff4312a7c8373fc",
+    "formation_receipts.json": "2ba9f98d79f39cff2bd9c98f6c8d169234601fc5509cc53ed450514da6642a25"
+  },
+  "formations_reconstructed": 24,
+  "all_OLS_fields_and_sample_dates_reconstructed": true,
+  "all_primary_and_control_targets_reconstructed": true,
+  "all_eligible_excluded_historical_members_reconstructed": true,
+  "all4010_feature_hashes_and_physical_2025_coordinates_verified": true,
+  "eligible_range": [
+    374,
+    394
+  ],
+  "sample_n_range": [
+    15,
+    23
+  ],
+  "primary_union_names": 361,
+  "first_formation_asof": "2023-12-29",
+  "last_formation_asof": "2025-11-28",
+  "negative_controls_rejected": {
+    "wrong_sigma_denominator_n_minus_1": true,
+    "total_volatility_substituted_for_residual": true,
+    "omitted_market_slope": true,
+    "dropped_return_observation": true,
+    "underfive_quintile_pool": true,
+    "missing_baseline_quote": true,
+    "nonfinite_quote": true,
+    "future_asof_receipt": true,
+    "different_member_or_target_set": true,
+    "nonmonthly_execution": true,
+    "actual_fit_sigma_mutation": true,
+    "actual_target_weight_mutation": true,
+    "actual_baseline_removed": true,
+    "actual_control_selection_mutation": true
+  },
+  "critical_or_important_findings": [],
+  "imports_project_code": false,
+  "production_factor_or_formation_called": false,
+  "portfolio_returns_computed": false,
+  "source_queries": 0,
+  "2026_market_values_read": false,
+  "actual_account_replay": false,
+  "limitations": [
+    "Independent Decimal80 OLS on simple returns derived from authenticated capped float32 quotes; field-scaled tolerances permit only floating arithmetic differences.",
+    "Market-only CSI500 regression, not FF3 idiosyncratic-risk replication. Same low-risk/lottery family additional trial; controls not selectable.",
+    "Price-vintage truth, historical announcement arrival, ordinary-security eligibility, raw shares, corporate actions and intraday fills are not admitted by a formation audit."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_FORMATIONS_INDEPENDENTLY_REPRODUCED_DEVELOPMENT_PREFLIGHT_PASS_NO_ACCOUNT_RETURNS",
+  "plan_sha256": "df6ab31b9f1fc3232a81384c67baa45e17216844991bf812bb976e76f0496ace",
+  "source_preflight_only_passed": true,
+  "formation_freeze_commit": "4e5fada",
+  "formation_independent_audit_sha256": "7f7bf8dfcc52755e011d9668b5f14669971723ceec49ff85379f7938ac13ca8b",
+  "root_reproduced_formation_audit_byte_identically": true,
+  "account_audit_code_sha256": "005bb2e823ef33cbd43986e9380365d852494810c4ee668924cc594ceb581d5a",
+  "code_changed_since_689_test_pass": false,
+  "fixed_account_CNY": 1000000,
+  "reference_extra_bps": 40,
+  "primary_candidates": 1,
+  "controls_selectable": false,
+  "portfolio_returns_computed": false,
+  "2026_market_values_queried": false,
+  "objective_achieved": false
+}

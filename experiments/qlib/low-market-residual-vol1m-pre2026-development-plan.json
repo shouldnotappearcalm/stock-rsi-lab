@@ -1,0 +1,61 @@
+{
+  "capital_CNY": 1000000,
+  "user_selected_capital_CNY": null,
+  "extra_bps": [
+    20,
+    40
+  ],
+  "reference_extra_bps": 40,
+  "window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "input_sha256": {
+    "price_files": "30a7f43d6e306929dea2089fa958c33b08b44d88f32f5a4ffd4acfa93076e160",
+    "calendars/day.txt": "0095d19144308a1b0075ffd7f40f7af2dae76bdff3cfb1ba8bd80d4663ef9eaa",
+    "instruments/csi500.txt": "3ada9b34652fe037e188ae977b67b66ae5906d3c6976168823869a6e172ce7b0",
+    "features/sh000905/close.day.bin": "ef2b45c052feb722c98fb76612d23ea0d6f916997c0ddc18e7efc8a0118c6a83"
+  },
+  "provider_manifest_sha256": "e17a0e994ffe8b9e6729d290f7aea29e4c7c2d6f5ec6d497171d66f241d197fe",
+  "market_close_sha256": "ef2b45c052feb722c98fb76612d23ea0d6f916997c0ddc18e7efc8a0118c6a83",
+  "gap_state_manifest_sha256": "257f3266d366bcc0c3452329efaae23086940394a3d9368b3fa943df2d311fc7",
+  "future_calendar_sha256": "b4daf1d94cbe450f324c4f63e5ee945a4281b19a2c81a70646ddd88c4bc10dfd",
+  "clock_only_next_session": "2026-01-05",
+  "status": "FROZEN_LOW_MARKET_RESIDUAL_VOL1M_BEFORE_COMPLETED_OUTCOMES",
+  "families": [
+    "low_market_residual_vol_1m"
+  ],
+  "descriptive_controls": [
+    "eligible_equal_weight",
+    "low_total_vol_1m_control"
+  ],
+  "candidate_budget": 1,
+  "design_sha256": "95aed4aa838aeae7a8441e46eb42adb0babd37c30aeee7115be755db76eddc75",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_low_market_residual_vol_pre2026.py": "afc31a5481d0cc58b948a576c3bd7ecac31a69dee0978b5fc3620134115db0af",
+    "scripts/prepare_price_delay_clock_pre2026.py": "d7b3cbd2442b86b7bfc5eb3852a395cf91f8f020bc09c08d27f675cdedaea75a",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/low_market_residual_vol.py": "de2d29831b81d0e7078e482bdf429ea3388e47d7a2bc264bfec0841c20a602dd"
+  },
+  "initial_targets_sha256": "64dd4c589b3661aceb5b103bc336a889f68449089f6ce9c2aff4312a7c8373fc",
+  "initial_receipts_sha256": "2ba9f98d79f39cff2bd9c98f6c8d169234601fc5509cc53ed450514da6642a25",
+  "formation_summary_sha256": "5e5c97c84964be17a19f12225aea639b8c7060a400c3297e636f5d51ba881724",
+  "new_source_queries": 0,
+  "objective_achieved": false,
+  "2026_market_values_or_outcomes_to_query": false,
+  "selection_rule": "single primary at40bp: both2024/2025 positive, exposure>=90%, no unverified held marks; controls never selectable",
+  "economic_family": "EXISTING_LOW_RISK_LOTTERY_VARIANT",
+  "new_independent_economic_family": false,
+  "formation_independent_audit_file": "experiments/qlib/low-market-residual-vol1m-pre2026-formation-independent-audit.json",
+  "formation_independent_audit_sha256": "7f7bf8dfcc52755e011d9668b5f14669971723ceec49ff85379f7938ac13ca8b"
+}
