@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_POST_RUN_PRE2026_SOURCE_VALIDATION_ONLY",
+  "window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "2026_market_values_queried": false,
+  "missing": {
+    "SH601298": [
+      "2024-07-10",
+      "2024-07-11",
+      "2024-07-12"
+    ]
+  },
+  "source": "BaoStock unadjusted daily trade status; existing capture method",
+  "capture_method_sha256": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+  "account_plan_sha256": "f4d425b1eda9ad6f1253337ca393870b54a2577c26042595bff2e6c0c6d0f94f",
+  "investment_rule_changes": 0,
+  "price_or_return_changes_allowed": false,
+  "cannot_rewrite_original_selected_null_summary": true
+}
