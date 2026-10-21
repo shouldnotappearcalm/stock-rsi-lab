@@ -1,0 +1,73 @@
+{
+  "status": "BOUNDED_INTRADAY_RUNNER_CODE_REVIEW_PASS_BEFORE_FREEZE",
+  "files_sha256": {
+    "scripts/run_price_delay_intraday_development.py": "4d8d6635e679ec4ff722594e2fe8efc34c4eb96028fe0d8c12fcdd11de6f8c8a",
+    "tests/test_price_delay_intraday_development.py": "368a49ab1cf2002ec2393658ebefc8e99544d1be77648d8d168524b8770b1f71",
+    "docs/research/price-delay-intraday-plan-2026-10-21.md": "2148b140cf79dce47bcca0900ff0eab4e59b107cc0f09de39bf949f84d36211d",
+    "scripts/replay_ordinary_stock_distribution_targets.py": "2289fdc0b549918682246d803a5b92af11f572df8cded85f0988555f7b47ee01",
+    "src/stock_rsi/ordinary_source_scope.py": "7e27c6b36bade230cc429d7fafd43d882fc9c134a8f6b4f31ef94e539232b888"
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "freeze_contract": {
+    "method_files": 34,
+    "public_files": 7,
+    "local_files": 5,
+    "exact_binding_sets_required": true,
+    "fixed_output_path_checked": true,
+    "typed_allocator_guard_candidate_budget_network_future_flags_required": true,
+    "window": [
+      "2023-12-29",
+      "2025-12-31"
+    ],
+    "capital_CNY": "1000000",
+    "participation_bps": [
+      100,
+      500,
+      1000
+    ],
+    "extra_cost_bps": [
+      20,
+      40
+    ]
+  },
+  "verified_account_boundaries": {
+    "original_fixed_integer_allocator_retained": true,
+    "guarded_simulator_function_AST_equal_original_fixed": true,
+    "raw_source_preflight_has_no_account_branch": true,
+    "old_raw_daily_evidence_and_independent_gate_reauthenticated": true,
+    "ordinary_scope_reconstructed_and_compared_to_actual_bound_scope": true,
+    "independent_scope_audit_identity_and_strict_negative_controls_required": true,
+    "ordinary_only_tape_index_size": 2490,
+    "rejected_ST_packets_retained": 12,
+    "all241_ST_intervals_must_match_actual_account_evaluator_audit_each_profile": true,
+    "source_scope_audit_written_and_included_in_artifact_hashes": true,
+    "unproved_SH603596_event_requires_actual_single_zero_record_entry_each_profile": true,
+    "owned_noncash_events_keep_original_tax_proof_guard": true,
+    "continuous486_rows485_sessions24_intents_required": true,
+    "prior_close_decisions_next_session_nested_execution_unchanged": true,
+    "old_cost_and_participation_broker_unchanged": true,
+    "three_40bp_profiles_all_required_no_winner_selection": true,
+    "missing_tape_and_required_ST_fail_with_retained_state": true
+  },
+  "tests": {
+    "focused_tests_passed": 3,
+    "profile_changes_empty_bindings_and_wrong_output_rejected": true,
+    "nonfinite_nonpositive_or_wrong_type_gate_values_rejected": true,
+    "all_six_synthetic_source_failures_preserve_pending_parent_and_cash": true,
+    "existing_output_refused": true
+  },
+  "scope_limits": [
+    "No real account, source-preflight, complete frozen plan authentication or portfolio ROI was executed. Final plan hashes and completed scope audit still need normal binding before execution.",
+    "The declared reference100/40 is descriptive; code confirmation correctly requires all three40bp profiles.20bp cases are retained sensitivity outputs, not selectable substitutes.",
+    "Ordinary source preparation alone does not prove zero ST dependency; every real case must pass the guard and provide the241 matching evaluator records.",
+    "The one inherited conditional capital-tax inference remains conditional; actualFIFO, historicalarrival, exactminutevolume/PIT/queues/impact remain unverified.",
+    "Main exits0 after recording all cases even if financial confirmation is false; use raw_development_confirmation_passes and per-profile status, not process success, as the financial outcome. This matches recorded-results behavior, not an admission pass."
+  ],
+  "actual_account_run": false,
+  "actual_input_authentication_executed": false,
+  "portfolio_returns_computed": false,
+  "network_calls": 0,
+  "2026_market_values_read": false,
+  "repository_files_modified": false
+}

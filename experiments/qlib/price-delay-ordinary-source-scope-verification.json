@@ -1,0 +1,20 @@
+{
+  "status": "ORDINARY_SCOPE_INDEPENDENTLY_RECONSTRUCTED_ACCOUNT_PROOF_STILL_REQUIRED",
+  "freeze_commit": "404ff29",
+  "plan_sha256": "03ae02284bdfb2a096c92c0084c5562223927ec9568af18d3941a4f0fdd726fc",
+  "source_prepare_exit_code": 0,
+  "summary_sha256": "c1829aae2aee54a7d98a627d5838ebec373ebfe0c5cbd2b3c196efb4d72b65ff",
+  "scope_sha256": "63f7cb82cd81960171608406e5db97d658986c648fac96224fcefdc17327d518",
+  "independent_audit_sha256": "1783b65e6f472ccabfecd52b5546751c0680cff1210cc62c022ff619288ee2e4",
+  "root_reproduction_byte_identical": true,
+  "ordinary_packets": 2490,
+  "retained_ST_rejections": 12,
+  "ST_daily_intervals": 241,
+  "halt_intervals": 2,
+  "original_strict_admission_remains_failed": true,
+  "all_account_dependencies_ordinary_proven": false,
+  "admitted_for_unconditional_execution": false,
+  "portfolio_returns_computed": false,
+  "new_2026_values_read": false,
+  "objective_achieved": false
+}

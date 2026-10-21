@@ -1,0 +1,20 @@
+{
+  "status": "SIX_FIXED_PRE2026_INTRADAY_ACCOUNTS_FROZEN_BEFORE_RETURNS",
+  "plan_sha256": "595244be4f34772b05d1ddd6ab2418d0c8666fdc939e038a1eb3b211d3fd0293",
+  "code_review_sha256": "9389aaf6d3e2e0b3a2fd944a512fcf01fbc50d6e02a9a37bb3ef26fa47473733",
+  "source_only_preflight_exit_code": 0,
+  "preflight_account_or_ROI_computed": false,
+  "full_suite_tests": 585,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 11.28,
+  "profile_count": 6,
+  "reference_participation_bps": 100,
+  "reference_extra_bps": 40,
+  "original_integer_allocator_preserved": true,
+  "ordinary_source_scope_independently_reconstructed": true,
+  "original_strict_2502_admission_remains_failed": true,
+  "all_three_40bp_profiles_required": true,
+  "real_candidate_intraday_account_run_started": false,
+  "new_2026_market_values_read": false,
+  "objective_achieved": false
+}
