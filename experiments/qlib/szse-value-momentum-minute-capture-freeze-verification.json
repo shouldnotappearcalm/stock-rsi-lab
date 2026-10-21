@@ -1,0 +1,26 @@
+{
+  "status": "FROZEN_COMPOSITE_MINUTE_CAPTURE_READY_NO_FRESH_CALLS_YET",
+  "plan_sha256": "b341e730801fe265731d61b5ab2f4e69e59993ea962aad45c9e5963491aabcdb",
+  "code_review_sha256": "7c4206ebb59bf4ba0b0d6dbcf042323aeec0ae8512ab41c7a1c6f71cefc2a8dd",
+  "independent_capture_auditor_sha256": "8f4fb5c58e4cf3614bec4f6b281c29cf438ff9d5979b6f9584ec88bb37d5f816",
+  "full_tests_passed": 498,
+  "new_capture_boundary_tests": 3,
+  "separate_pending_admission_scope_guard_tests": 2,
+  "actual_preflight_passed": true,
+  "independent_source_preflight_passed": true,
+  "log_sha256": {
+    "stock-rsi-value-momentum-minute-capture-final-full-20261021.log": "7b259646e0ce72e84ffe30c0bcecbbfe80ec16b43f20167c206ba3d9e8d8ae23",
+    "stock-rsi-value-momentum-minute-capture-preflight-20261021.log": "f8feb7acadf3ea76e751c64bb708fcb3aea66562ac7ae9f27ad6fd9a782ceaf3"
+  },
+  "expected_active_pairs": 1744,
+  "selected_byte_identical_reuses": 1051,
+  "all_cached_references_authenticated": 2225,
+  "maximum_new_logical_reservations": 693,
+  "attempts_per_identity": 1,
+  "actual_output_exists": false,
+  "new_source_calls": 0,
+  "admission_entry_not_executed_or_approved_yet": true,
+  "new_2026_queries": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

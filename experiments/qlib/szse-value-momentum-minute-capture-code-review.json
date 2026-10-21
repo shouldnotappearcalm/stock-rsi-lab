@@ -1,0 +1,127 @@
+{
+  "status": "SCOPED_PEER_CODE_SOURCE_BOUNDARY_REVIEW_COMPLETE",
+  "ready_for_capture": true,
+  "blocking_findings": [],
+  "critical_findings": [],
+  "important_findings": [],
+  "plan_sha256": "b341e730801fe265731d61b5ab2f4e69e59993ea962aad45c9e5963491aabcdb",
+  "plan_file": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-minute-capture-plan.json",
+  "request_sha256": "cc985220113dc967deaf234c6f308b73c95a484701f7410b7607ecaa786bbd58",
+  "method_code_sha256": {
+    "scripts/capture_value_momentum_minutes_pre2026.py": "05723c437df4455ee91015c7682e5d92a9bca6822e40f717ded78858de4d3e7b",
+    "scripts/capture_low_beta60_minutes_pre2026.py": "5a1cfa651c593d7867311270d9810aec5ef1ddc5f5f34c6fd735b998e4aad417",
+    "scripts/admit_low_beta60_minutes_pre2026.py": "bd9b6f1051d06520a257a635314c2b7c27be5c0109faa3f9ff9102eb2554fff7",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/illiquidity_minute_sources.py": "6823f1a6f14a0b81732f589b4faa83442c434f8fd70b09f128bd0525bddd0fc6",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46"
+  },
+  "reviewed_head": "dbc835cb2e68f1d75e65a4d54dda33fd3399eb3b",
+  "scope": "Fixed pre2026 composite minute source capture only; no strategy research, network/SDK capture, admission, or portfolio replay.",
+  "source_boundary_checks": {
+    "required_active_pairs": 1744,
+    "reused_byte_identical_packets": 1051,
+    "fresh_fixed_identities": 693,
+    "all_matching_cached_references_authenticated": 2225,
+    "source_manifest_priority_count": 8,
+    "source_halted_intervals": 2,
+    "actual_preflight_passed": true,
+    "preflight_eltdx_import_explicitly_blocked": true,
+    "preflight_socket_connect_explicitly_blocked": true,
+    "planned_actual_output_absent_after_review": true,
+    "legacy_bound_methods_unchanged_against_HEAD": true,
+    "mandatory_method_public_local_bindings_exact_and_hash_verified": true,
+    "pre2026_request_identities_calendar_targets_raw_packets_lifecycle_and_inventory_reconstructed": true,
+    "cached_packet_conflicts_and_prioritized_packet_semantics_checked": true
+  },
+  "verification": {
+    "targeted_unit_tests": {
+      "count": 21,
+      "result": "OK",
+      "suites": [
+        "tests.test_value_momentum_minute_capture",
+        "tests.test_low_beta60_minute_capture",
+        "tests.test_illiquidity_minute_sources",
+        "tests.test_low_beta60_minute_admission",
+        "tests.test_low_beta60_minute_resume_v2"
+      ]
+    },
+    "parent_reported_full_suite": {
+      "count": 496,
+      "result": "OK",
+      "seconds": 10.84,
+      "independently_rerun_by_this_reviewer": false
+    },
+    "review_checks_script": "/tmp/szse-value-momentum-minute-review-checks-20261021.py",
+    "review_checks_script_sha256": "6d795f5e864ffd9828f7b9857c6c8927882ce63c40a46a024ec3f5566215582f",
+    "synthetic_orchestration": "Real wrapper and unchanged legacy capture_prefix/QueryJournal; authenticate patched only for synthetic 693 fresh identities; fake eltdx module and blocked socket.connect; no real SDK imported.",
+    "synthetic_cases": [
+      {
+        "case": "693 successful mock source calls",
+        "result": "PASS",
+        "reservations": 693,
+        "responses": 693,
+        "clients_created": 1,
+        "closed": 1,
+        "exit": 0
+      },
+      {
+        "case": "source errors stop after 3 consecutive failures",
+        "result": "PASS",
+        "reservations": 3,
+        "preserved_SOURCE_ERROR_responses": 3,
+        "clients_created": 1,
+        "closed": 1,
+        "exit": 2
+      },
+      {
+        "case": "failed client initialization cleanup and stop",
+        "result": "PASS",
+        "reservations": 3,
+        "preserved_SOURCE_ERROR_responses": 3,
+        "clients_created": 3,
+        "closed": 3,
+        "entered": false,
+        "exit": 2
+      },
+      {
+        "case": "KeyboardInterrupt",
+        "result": "PASS",
+        "consumed_reservations": 1,
+        "responses": 0,
+        "abnormal_manifest_retained": true,
+        "client_closed": true,
+        "scope_success_artifact_absent": true
+      },
+      {
+        "case": "client.close raises",
+        "result": "PASS",
+        "cleanup_error_retained": true,
+        "terminal_ValueError": true
+      }
+    ],
+    "sdk_static_source_review": "Read installed eltdx3.2.3 client/minutes source without import: constructor respects one endpoint/pool, probe_hostsFalse, heartbeatNone; __enter__ connects; close closes transports; history called with one instrument, explicit day, include_rawTrue."
+  },
+  "strengths": [
+    "Checks external plan hash and complete immutable source/method/evidence bindings before output or SDK access.",
+    "Authenticates every matching cache reference and checks conflict signatures before priority selection.",
+    "Retains unchanged legacy manifest/schema, separate composite scope, immutable journal/error responses, and cleanup evidence.",
+    "Refuses any existing output and requires separate reviewed recovery after interruption."
+  ],
+  "limitations": [
+    "Approval authorizes source capture only; no minute execution admission, arrival certification, volume/queue/impact guarantee, corporate completeness certification, or return claim.",
+    "693 bounds logical minutes.history reservations; SDK transport/protocol packets and internal metadata activity are not certified by this budget.",
+    "Captured source responses can contain unsupported metadata/dates; subsequent local admission must reject unsupported content and verify every fresh receipt/packet.",
+    "Legacy complete_capture means all requested packet artifacts recorded and can include REQUEST_FAILED packets; it does not mean valid or admitted data.",
+    "Mock tests verify wrapper/journal/error orchestration, not real network availability or fresh source correctness."
+  ],
+  "declined_scope": [
+    "No actual SDK/HTTP calls or fresh queries.",
+    "No account/return computation, 2026 reads, strategy adjustment, real admission, or actual planned output creation."
+  ],
+  "repository_edits_by_reviewer": false
+}
