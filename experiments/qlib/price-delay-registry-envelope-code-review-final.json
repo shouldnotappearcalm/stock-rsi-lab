@@ -1,0 +1,41 @@
+{
+  "status": "PASS_BOUNDED_REGISTRY_ENVELOPE_CODE_REVIEW_FINAL",
+  "file_sha256": {
+    "scripts/run_price_delay_registry_envelope.py": "5750afbc5b7dd18db7926959f5bc5737f70ba56ec350072a250d8ba4983fa215",
+    "tests/test_price_delay_registry_envelope.py": "96c678fcd952840834a6f2cf1b438732802fddf16f922e6669905f563f0057e2",
+    "scripts/reconcile_registry_account.py": "5a1db1080eb9ea5913f6544388c33c8bdcf6d01351de21e6e55adf2dd5f8bb39",
+    "tests/test_reconcile_registry_account.py": "d66f7c78c27048baa72eacd05365d747e5385d2ec0b272fe4f3567bbf8353dc1"
+  },
+  "initial_report_sha256": "0c7865e38627175c1602edc556a01eb87f9f8485ea5dcfbfc08d43a8232e04f3",
+  "orchestration_fix_report_sha256": "3dfe8bc313df8b72ca2bfed631a44acd3b35fce498355d60011e1cf61baa9da4",
+  "critical_findings": [],
+  "important_findings": [],
+  "all_original_three_important_findings_resolved": true,
+  "additional_source_fill_binding_important_resolved": true,
+  "independent_semantic_probes_rejected": {
+    "out_of_calendar_fill": true,
+    "coherent_delayed_listing": true,
+    "source_open_mismatch": true,
+    "suspended_source_fill": true,
+    "coherent_candidate_branch_omission": true
+  },
+  "focused_tests_passed": 25,
+  "verified_boundaries": [
+    "Each branch candidate set is reconstructed from full primary envelope and all child identities must close without omitted/orphan/repeated nodes; both complete persisted cost trees and source postcheck precede any scorer.",
+    "Source record/ex/next-session-payment/first-listing clocks and zero-quantity event coverage required; every fill/corporate row consumed exactly once on explicit sessions.",
+    "Missing due cash cannot be retained as permanent receivable; due share credits cannot be delayed while conserving total equity.",
+    "Fill price must equal finite positive cent-tick original raw open on the same tradable source day;09:30 execution clock checked.",
+    "Original integer allocator/continuous account, old486/24 and541/27 and584/30 financial prefixes remain gates before scoring.",
+    "Unknown tax and reserve restrictions remain fail-closed; selected local allocation audit tied to whole registered quantity and original event/proof, not actual registry certification.",
+    "input-before failure enters protected final source postchecks; invalid leaf or persistence errors prevent annual scoring; scorer results are staged for all leaves/costs."
+  ],
+  "limitations": [
+    "Code/synthetic review only. Final request is not authenticated in this review and no actual source preflight or branch account was run.",
+    "No actual register, joint feasibility, probability, queue/arrival/tax certification or investment approval.",
+    "Bounds/account modules were authored by this reviewer; their separate independent review belongs to the events reviewer. This report independently reviews root orchestration and other-agent reconciliation."
+  ],
+  "network_used": false,
+  "real_2026_quotes_or_outcomes_read": false,
+  "actual_replay_or_ROI_run": false,
+  "repository_modified": false
+}

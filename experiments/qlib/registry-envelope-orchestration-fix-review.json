@@ -1,0 +1,20 @@
+{
+  "status": "PASS_ORCHESTRATION_TWO_FIXES_REVIEW_VALIDATOR_PENDING",
+  "file_sha256": {
+    "scripts/run_price_delay_registry_envelope.py": "5750afbc5b7dd18db7926959f5bc5737f70ba56ec350072a250d8ba4983fa215",
+    "tests/test_price_delay_registry_envelope.py": "96c678fcd952840834a6f2cf1b438732802fddf16f922e6669905f563f0057e2"
+  },
+  "resolved_findings": [
+    "Candidate list independently reconstructed from primary proof, registered account quantity, availability, full envelope and event identity before every child-set reconstruction. Coherent deletion of candidate/node/leaf rejected.",
+    "input-before persistence enclosed by main try/finally; failure preserves error and postchecks, no tree/account/scorer runs."
+  ],
+  "focused_tests_passed": 10,
+  "independent_coherent_branch_deletion_rejected": true,
+  "critical_findings": [],
+  "important_findings_in_reviewed_fixes": [],
+  "outstanding_original_finding": "Independent reconciler complete source event schedule and out-of-calendar consumption fix is owned by separate agent and not yet reviewed. Overall freeze clearance remains conditional on that fix.",
+  "actual_source_or_account_run": false,
+  "network_used": false,
+  "real_2026_values_read": false,
+  "repository_modified": false
+}

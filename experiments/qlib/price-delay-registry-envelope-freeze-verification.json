@@ -1,0 +1,45 @@
+{
+  "status": "PRE_RETURN_REGISTRY_ENVELOPE_FREEZE_VERIFIED",
+  "parent_strict_failure_commit": "968c4449a56439fa844602b9f4225e141b0d90b6",
+  "request_sha256": "f19acde4f990f44bb7d177c8a43c6a53dd1fbed65495cdd30cd7d8b734ab6d95",
+  "source_preflight_only_exit_code": 0,
+  "source_preflight_log_sha256": "1f271511750fb4ce8bfc030fb0b585696918b3f0d1e41d8de2fcc06600822498",
+  "source_preflight_created_account_or_output": false,
+  "local_full_suite": {
+    "tests": 863,
+    "exit_code": 0,
+    "log_sha256": "89a8644d588e94614ab3e040a32faa85e8f8c98642b97ac209e672888083ac71"
+  },
+  "clean_research_full_suite": {
+    "tests": 863,
+    "optional_qlib_skips": 3,
+    "exit_code": 0,
+    "log_sha256": "f4a923d5d78971e1d95e9422e83b30286eb601d7e7591cc4b71aa00489826323"
+  },
+  "test_code_sha256": {
+    "tests/test_price_delay_registry_envelope.py": "96c678fcd952840834a6f2cf1b438732802fddf16f922e6669905f563f0057e2",
+    "tests/test_reconcile_registry_account.py": "d66f7c78c27048baa72eacd05365d747e5385d2ec0b272fe4f3567bbf8353dc1",
+    "tests/test_registry_allocation_account.py": "02600a50f2675073ac8d22601af8a56d8a087954e6eae783f00d30d6d0dc0a83",
+    "tests/test_registry_allocation_bounds.py": "bdf4cff4667565f54509af364a26f28d3fbeb3afbf1a386abea633cb5550b11e"
+  },
+  "user_choice": "Preserve strict failure and enumerate the conservative entire-account allocation envelope",
+  "new_full_horizon_account_tree_executed": false,
+  "new_annual_return_computed": false,
+  "new_alpha_candidates": 0,
+  "investment_rule_changed": false,
+  "strict_failure_preserved": true,
+  "all_nodes_required_per_cost": true,
+  "per_cost_node_budget": 128,
+  "interim_cutoff": "2026-10-20",
+  "full_October_2026_complete": false,
+  "actual_registry_allocation_certified": false,
+  "sealed_2026_holdout_claimed": false,
+  "objective_achieved": false,
+  "original_important_findings_closed": true,
+  "source_fill_negative_tests_red_then_green": true,
+  "independent_review_sha256": {
+    "experiments/qlib/price-delay-registry-envelope-code-review-final.json": "f74c165c5031574c0a7b4072843050ae72c6515dcd192153d8c5b5edb5c812e4",
+    "experiments/qlib/registry-allocation-bounds-account-independent-review.json": "76b04ae1329930f74ff94ad36ade77d5fa8b9ef65d929d1b199b761047381c56",
+    "experiments/qlib/registry-envelope-orchestration-fix-review.json": "3dfe8bc313df8b72ca2bfed631a44acd3b35fce498355d60011e1cf61baa9da4"
+  }
+}

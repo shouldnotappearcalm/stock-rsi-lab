@@ -1,0 +1,22 @@
+{
+  "c362d998146cf8d73f192f8463c5896eac97c2fef1b3bf398a285fa0d188d199": {
+    "capital": {
+      "contract": "PRIMARY_LARGEST_REMAINDER_LOCAL_ENVELOPE_V1",
+      "issuer": "SZ002831",
+      "event_id": "c362d998146cf8d73f192f8463c5896eac97c2fef1b3bf398a285fa0d188d199",
+      "record_date": "2026-06-03",
+      "ex_date": "2026-06-04",
+      "component": "capital",
+      "source_file": "SZ002831-20260529.pdf",
+      "source_sha256": "ae29cedfb8dd555a2c0f624a05fe0d91484b67d29fc5ba1118dfca79a52f5922",
+      "published_on": "2026-05-29",
+      "available_at": "2026-05-30T00:00:00+08:00",
+      "actual_arrival_verified": false,
+      "eligible_count": 915182294,
+      "declared_total_shares": 367817529,
+      "quoted_per10": "4.019063",
+      "fraction_method": "LARGEST_REMAINDER_DESC_RANDOM_TIES",
+      "quoted_precision_bound": "ONE_LAST_DIGIT_SYMMETRIC_ENGINEERING_ASSUMPTION"
+    }
+  }
+}

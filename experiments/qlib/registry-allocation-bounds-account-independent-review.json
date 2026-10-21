@@ -1,0 +1,60 @@
+{
+  "actual_source_or_account_data_read": false,
+  "critical_or_important_findings": [],
+  "evidence_sha256": {
+    "/tmp/registry-allocation-independent-focused-20261021.log": "820fd4389602edf7dc94f2702a702488139184972337f6f09f75d8bc19acc423",
+    "/tmp/registry-allocation-independent-probes-20261021.log": "bfba882a09bab31161f919b7bdf4132e0691d726e806cd66fc2e1958ae2dec47",
+    "/tmp/registry-allocation-independent-probes-20261021.py": "671c4e6b725431753aaa4cefa592da0d9f3450126dd196fb99dbfa638ab28c0c",
+    "/tmp/registry-allocation-independent-probes-first-error-20261021.log": "baa5283bd1ea96e08415e7dda9f15780475170ea0a851fd768279726d6ca42f1"
+  },
+  "focused_tests": {
+    "command": "PYTHONPATH=src:tests:. /Users/calm/.cache/stock-rsi-research-env/bin/python -m unittest test_registry_allocation_bounds test_registry_allocation_account -v",
+    "elapsed_seconds": 0.007,
+    "passed": 17,
+    "tests_run": 17
+  },
+  "important_scope_limits": [
+    "Proof/PDF byte authentication is explicitly delegated to the source-bound caller; these two modules do not establish external document truth.",
+    "The symmetric last printed digit is an engineering uncertainty assumption. The pure function accepts canonical decimal precision generally; the actual source caller must bind the printed6decimal per10 literal.",
+    "Candidates overapproximate local outcomes, not certified jointly feasible whole-register outcomes or probabilities. All branches must be preserved; no claim floor is worst terminal ROI.",
+    "Preserving integer nominal events is deliberate strict-account compatibility; the broader pure mathematical envelope alone does not authorize branching such events.",
+    "Review covers math, module semantics and synthetic tests only; orchestrator enumeration, leaf reconciliation and real source/account outputs are outside this report."
+  ],
+  "independent_probes": {
+    "actual_data_or_returns_read": false,
+    "cross_issuer_tax_guard_precedes_choice_atomic": true,
+    "global_total_outside_envelope_rejected_not_clipped": true,
+    "integer_no_override_atomic": true,
+    "mathematical_endpoint_and_internal_ratio_checks": 65
+  },
+  "network_queries": 0,
+  "portfolio_returns_computed": false,
+  "ready_for_freeze_within_engineering_envelope_scope": true,
+  "reference_file_sha256": {
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32"
+  },
+  "repository_files_modified_by_reviewer": false,
+  "review_probe_first_failure_preserved": {
+    "cause": "Reviewer synthetic cross-issuer fixture had zero record entitlement for the second issuer, so no unknown-tax guard should fire. Corrected only the /tmp probe to supply900 second-issuer record entitlement; code unchanged; corrected probepassed.",
+    "log": "/tmp/registry-allocation-independent-probes-first-error-20261021.log",
+    "production_bug": false
+  },
+  "reviewed_file_sha256": {
+    "src/stock_rsi/registry_allocation_account.py": "9db80f8d41bb236436d56f8e7dec32f554e1e01688cbb8b5159645daeeb66d8a",
+    "src/stock_rsi/registry_allocation_bounds.py": "27dd11306ee19e675d13f6ea7813623005ddb7c3e79a6953d9c9cda596d39b4c",
+    "tests/test_registry_allocation_account.py": "02600a50f2675073ac8d22601af8a56d8a087954e6eae783f00d30d6d0dc0a83",
+    "tests/test_registry_allocation_bounds.py": "bdf4cff4667565f54509af364a26f28d3fbeb3afbf1a386abea633cb5550b11e"
+  },
+  "status": "INDEPENDENT_CODE_AND_SYNTHETIC_MATH_REVIEW_COMPLETE",
+  "verified_contracts": [
+    "Exact rational quote-last-digit symmetric engineering bounds, never certified issuer rounding; global total/eligible ratio membership required without narrowing the display envelope.",
+    "Whole registered-account quantity; inclusive floor(q*lower)..ceil(q*upper), at most3 local integers; out-of-global-total or wider intervals rejected without clipping.",
+    "Strict proof schema and sourceevent/component/date/ratio binding; actual-arrival flag staysFalse; constructor validates proof availability at exdate09:30.",
+    "All current events record/integer ownership and capital/stock tax basis/reserve checks precede all allocation-choice requests.",
+    "All current candidate selections validate before payment/share/clock/allocation-audit mutation. Structured missing-choice exception carries independent-copy envelope and candidates.",
+    "Only noninteger nominal components with a bound proof can branch; original integral/zero entitlements retain old behavior and cannot be overridden.",
+    "Selected share quantity changes only derived entitlement/claim/inventory; immutable source event ratio/ID/tax flags stayunchanged. Existing listing/payment/T+1 and tax reserve math retained.",
+    "Each branched component records13 audit fields in a separate list; audit absent from wealth. Audit metadata does not enter NAV."
+  ]
+}

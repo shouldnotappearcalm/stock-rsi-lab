@@ -1,0 +1,38 @@
+{
+  "status": "IMPORTANT_BOUNDED_REVIEW_FINDINGS",
+  "file_sha256": {
+    "scripts/run_price_delay_registry_envelope.py": "07a6254ebf8faf5ebe4bb9fe402e599d29833e448339ed3ec90c68f232546cf9",
+    "tests/test_price_delay_registry_envelope.py": "8940c203d02e915af80c89cfe8b02a1baf2cd2767e7a37a89e92f9b330eba17f",
+    "scripts/reconcile_registry_account.py": "2655330404f1aefedaf43cf967eb257c61ca13e9309357a20a2849635aad1f31",
+    "tests/test_reconcile_registry_account.py": "7f23a986ea96a22080adba2486d8a7127b8ee393b704fe8f1a265adef58ecdc2"
+  },
+  "critical_findings": [],
+  "important_findings": [
+    {
+      "scope": "tree closure",
+      "finding": "A coherently shortened choice_request.candidates plus removed child/node/leaf passes closure even when branch envelope has two candidates. Reconstruct candidates from primary proof/envelope instead of trusting stored short list.",
+      "reproduced": true
+    },
+    {
+      "scope": "independent ledger reconciliation",
+      "finding": "Out-of-calendar fill/corporate rows are silently ignored; source event exact occurrence/completeness not enforced. Coherent one-session listing delay passes after shifting same equity from listed to pending. Enforce consumption and source schedule.",
+      "reproduced": true
+    },
+    {
+      "scope": "terminal persistence",
+      "finding": "input-before write remains before main try/finally; OSError produces an output directory but no postcheck. Move inside protected application path.",
+      "reproduced": true
+    }
+  ],
+  "existing_focused_tests": 16,
+  "existing_focused_tests_passed": true,
+  "evidence_file": "/tmp/registry-envelope-review-initial-probes-20261021.json",
+  "actual_replay_or_account": false,
+  "real_market_values_read": false,
+  "network_used": false,
+  "repository_modified": false,
+  "limitations": [
+    "Review of code/synthetic behavior only; final request and actual source preflight not authenticated.",
+    "Bounds/account authored by reviewer; this review targets the other authors tree orchestration and independent ledger validator."
+  ]
+}
