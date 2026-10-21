@@ -1,0 +1,459 @@
+{
+  "status": "SCOPED_LOCAL_PRIMARY_GAP_CACHE_INVENTORY_COMPLETE",
+  "source_root": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015",
+  "scope": "Read-only existingBissuer-primary/corporate/proof/horizon/CNINFOarchives and existing repository primary/proof indexes; no user-other-workspace scan.",
+  "requested_instruments": [
+    "SZ000563",
+    "SZ000783",
+    "SZ002608",
+    "SZ002756",
+    "SZ002812",
+    "SZ003031",
+    "SZ002131"
+  ],
+  "matching_requested2026_primary_originals": [],
+  "matching_requested2026_reviewed_proofs": [],
+  "requested2026_economic_events_covered_by_local_primary_cache": 0,
+  "requires_separately_frozen_primary_source_protocol": true,
+  "conclusion": "None of the seven requested2026-10-16/19/20economic questions has a reusable originalPDF/reviewed proof in the scoped registered local caches. This is not a claim that no announcement exists.",
+  "per_instrument": {
+    "SZ000563": {
+      "requested_economic_effective_day": "2026-10-20",
+      "question_kind": "factor boundary without corresponding fresh dividend row",
+      "requested2026primary_pdf_or_reviewed_proof_found": false,
+      "covered_requested2026economic_events": [],
+      "scoped_cache_status": "NOT_FOUND_IN_REVIEWED_LOCAL_PRIMARY_ARCHIVES_AND_INDEXES",
+      "related_old_periodic_report_metadata": {
+        "metadata_packet_present": true,
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/codes/SZ000563.json",
+        "sha256": "928856f4374e5b1f3c6f1a66cc6080bc659624f509a839e8f2ce8795810e1da3",
+        "source_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/manifest.json",
+        "source_manifest_sha256": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+        "query_window": [
+          "2024-01-01",
+          "2025-12-31"
+        ],
+        "report_rows": 12,
+        "earliest_publication": "2024-03-18",
+        "latest_publication": "2025-10-28",
+        "downloaded_matching2026implementation_pdf": false,
+        "scope": "2024-2025periodic-report metadata only; not2026implementation evidence"
+      }
+    },
+    "SZ000783": {
+      "requested_economic_effective_day": "2026-10-20",
+      "question_kind": "factor boundary without corresponding fresh dividend row",
+      "requested2026primary_pdf_or_reviewed_proof_found": false,
+      "covered_requested2026economic_events": [],
+      "scoped_cache_status": "NOT_FOUND_IN_REVIEWED_LOCAL_PRIMARY_ARCHIVES_AND_INDEXES",
+      "related_old_periodic_report_metadata": {
+        "metadata_packet_present": true,
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/codes/SZ000783.json",
+        "sha256": "2551dbf80a747490096e00acb64dc364d0676eaf139c2ef5d8e893b22ddf9c49",
+        "source_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/manifest.json",
+        "source_manifest_sha256": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+        "query_window": [
+          "2024-01-01",
+          "2025-12-31"
+        ],
+        "report_rows": 13,
+        "earliest_publication": "2024-04-27",
+        "latest_publication": "2025-10-31",
+        "downloaded_matching2026implementation_pdf": false,
+        "scope": "2024-2025periodic-report metadata only; not2026implementation evidence"
+      }
+    },
+    "SZ002608": {
+      "requested_economic_effective_day": "2026-10-19",
+      "question_kind": "factor boundary without corresponding fresh dividend row",
+      "requested2026primary_pdf_or_reviewed_proof_found": false,
+      "covered_requested2026economic_events": [],
+      "scoped_cache_status": "NOT_FOUND_IN_REVIEWED_LOCAL_PRIMARY_ARCHIVES_AND_INDEXES",
+      "related_old_periodic_report_metadata": {
+        "metadata_packet_present": true,
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/codes/SZ002608.json",
+        "sha256": "cb6b63c56fed090ad80186486f8f02d3b584dcbd86fbc767c8aba7307d6db753",
+        "source_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/manifest.json",
+        "source_manifest_sha256": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+        "query_window": [
+          "2024-01-01",
+          "2025-12-31"
+        ],
+        "report_rows": 12,
+        "earliest_publication": "2024-04-12",
+        "latest_publication": "2025-10-25",
+        "downloaded_matching2026implementation_pdf": false,
+        "scope": "2024-2025periodic-report metadata only; not2026implementation evidence"
+      }
+    },
+    "SZ002756": {
+      "requested_economic_effective_day": "2026-10-20",
+      "question_kind": "factor boundary without corresponding fresh dividend row",
+      "requested2026primary_pdf_or_reviewed_proof_found": false,
+      "covered_requested2026economic_events": [],
+      "scoped_cache_status": "NOT_FOUND_IN_REVIEWED_LOCAL_PRIMARY_ARCHIVES_AND_INDEXES",
+      "related_old_periodic_report_metadata": {
+        "metadata_packet_present": true,
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/codes/SZ002756.json",
+        "sha256": "89dd4a1141e3baf368285a4c5c35e9f6b88ff7708163850cc191f05cda04c1c0",
+        "source_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/manifest.json",
+        "source_manifest_sha256": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+        "query_window": [
+          "2024-01-01",
+          "2025-12-31"
+        ],
+        "report_rows": 12,
+        "earliest_publication": "2024-04-30",
+        "latest_publication": "2025-10-30",
+        "downloaded_matching2026implementation_pdf": false,
+        "scope": "2024-2025periodic-report metadata only; not2026implementation evidence"
+      }
+    },
+    "SZ002812": {
+      "requested_economic_effective_day": "2026-10-20",
+      "question_kind": "factor boundary without corresponding fresh dividend row",
+      "requested2026primary_pdf_or_reviewed_proof_found": false,
+      "covered_requested2026economic_events": [],
+      "scoped_cache_status": "NOT_FOUND_IN_REVIEWED_LOCAL_PRIMARY_ARCHIVES_AND_INDEXES",
+      "related_old_periodic_report_metadata": {
+        "metadata_packet_present": false,
+        "local_original_pdf_for_requested2026question_found": false
+      }
+    },
+    "SZ003031": {
+      "requested_economic_effective_day": "2026-10-20",
+      "question_kind": "factor boundary without corresponding fresh dividend row",
+      "requested2026primary_pdf_or_reviewed_proof_found": false,
+      "covered_requested2026economic_events": [],
+      "scoped_cache_status": "NOT_FOUND_IN_REVIEWED_LOCAL_PRIMARY_ARCHIVES_AND_INDEXES",
+      "related_old_periodic_report_metadata": {
+        "metadata_packet_present": true,
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/codes/SZ003031.json",
+        "sha256": "eefbf8d321a796f4c4b07552d755175809d8976633e66fa9513fce0f9f1a0d40",
+        "source_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/manifest.json",
+        "source_manifest_sha256": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+        "query_window": [
+          "2024-01-01",
+          "2025-12-31"
+        ],
+        "report_rows": 12,
+        "earliest_publication": "2024-04-26",
+        "latest_publication": "2025-10-29",
+        "downloaded_matching2026implementation_pdf": false,
+        "scope": "2024-2025periodic-report metadata only; not2026implementation evidence"
+      },
+      "related_old_primary": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/SZ003031-2024-06-04.pdf",
+        "publication_day": "2024-06-04",
+        "sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4",
+        "title": "关于公司2023年年度权益分派实施的公告",
+        "capture_manifest": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/capture-manifest.json",
+        "capture_manifest_sha256": "fd50a336e35df417478c007175a069265102b9ec7e6e8a9a60d7c9c942edfab1",
+        "reviewed_manifest": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/reviewed-manifest.json",
+        "reviewed_manifest_sha256": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4",
+        "proof_key": "SZ003031|2024-06-11",
+        "proof": {
+          "verified_exempt": true,
+          "source_file": "SZ003031-2024-06-04.pdf",
+          "source_sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4",
+          "pages_one_based": [
+            1,
+            2
+          ],
+          "evidence": "Premium capital source plus stated20pct tax0.78per10 on3.9cash only; transfer excluded from stated tax example",
+          "exemption_scope": "Only this original capital-transfer event"
+        },
+        "covered_economic_event": "SZ003031capital-transfer event2024-06-11only",
+        "covers2026-10-20": false
+      }
+    },
+    "SZ002131": {
+      "requested_economic_effective_day": "2026-10-16",
+      "question_kind": "dividend row without neighboring factor",
+      "requested2026primary_pdf_or_reviewed_proof_found": false,
+      "covered_requested2026economic_events": [],
+      "scoped_cache_status": "NOT_FOUND_IN_REVIEWED_LOCAL_PRIMARY_ARCHIVES_AND_INDEXES",
+      "related_old_periodic_report_metadata": {
+        "metadata_packet_present": true,
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/codes/SZ002131.json",
+        "sha256": "f07442c405c607461285b277849455d5d5e715826ee60a0bec76a9973fcceb46",
+        "source_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/manifest.json",
+        "source_manifest_sha256": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+        "query_window": [
+          "2024-01-01",
+          "2025-12-31"
+        ],
+        "report_rows": 12,
+        "earliest_publication": "2024-04-29",
+        "latest_publication": "2025-10-28",
+        "downloaded_matching2026implementation_pdf": false,
+        "scope": "2024-2025periodic-report metadata only; not2026implementation evidence"
+      }
+    }
+  },
+  "related_old_originals": [
+    {
+      "instrument": "SZ003031",
+      "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/SZ003031-2024-06-04.pdf",
+      "publication_day": "2024-06-04",
+      "sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4",
+      "proof_key": "SZ003031|2024-06-11",
+      "economic_coverage": "2024-06-11capital transfer only; no2026coverage"
+    }
+  ],
+  "reviewed_index_files": 112,
+  "reviewed_index_sha256": {
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-notices-20261021/manifest.json": "d1f2ad707004e111e9270f8b953b9abe97332182f8f7ba17794ca027db2b527d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-notices-20261021/request.json": "99a5f18edf3e2ef27f519c8f7e0b649ad6e9959d381c2a79d1ded8f64d07b2ba",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-reviewed-20261021/capture-manifest.json": "d1f2ad707004e111e9270f8b953b9abe97332182f8f7ba17794ca027db2b527d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-reviewed-20261021/reviewed-manifest.json": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-wolong-halfyear-20261021/manifest.json": "86431c7d01e6563efc9933b0e0ddc7cc50cbe4509ccd9309cae64fb2b838bed1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-wolong-halfyear-20261021/request.json": "16201ab67e045ea8abb677e75cae57e3fb7ada96f1b90de23b01cd7c5513ae29",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-wolong-tax-sources-20261021/manifest.json": "af9485555760c5859cec505370119585421cf8736fbed486e7ac3a32a463e3a4",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-wolong-tax-sources-20261021/request.json": "2e52e94784b8659ba57f6df92828430e6bd8a0c1fb5fe8e57a03ad29384601d6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-annual-admission-20261016/manifest.json": "a6e66f2e53ef403e7ab01c7d936b21fd02f75608984c71da698f98d3342b6b4d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-annual-admission-20261016-v2/manifest.json": "9bd3cb105e8492e700a00c3708907d298779acd147147f00288fa9d84ba93c0d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/manifest.json": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-report-admission-20261016/manifest.json": "913428079b37e7954ea94f941c2ec01032e475311c45377c5ff5a44a7211ce19",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-report-admission-20261016-v2/manifest.json": "5c9b257237384ac376843f39d0d24b12cc970ecb9a86743ee02a3b144ffaa494",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/fundamental-primary-documents-20261017/manifest.json": "7edf73e0346f1580e242adc2c60d913c3568074e0397ae5e2eb76b80f502e647",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/fundamental-primary-documents-20261017/request.json": "9fc6bba9b13b406e1d89c2c952d5cebd056b3d58b3bc89be6bd690ef7f18b09c",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-notices-20261020/request.json": "897139dbb861dc1c9bdabbb77511a8957153f62b82d819079d9e87b7626ac573",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/capture-manifest.json": "fd50a336e35df417478c007175a069265102b9ec7e6e8a9a60d7c9c942edfab1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/reviewed-manifest.json": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-account-source-events-2026-20261021/effective_2026_proofs.json": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-account-source-events-20261021/effective_proofs.json": "012c1493c095092fd72a6bfe30d81934083a8c2968a77491c623effc89662162",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-account-source-events-horizon-20261021/effective_horizon_proofs.json": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-2026-20261021/manifest.json": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-2026-20261021/request.json": "d7f73f8aab1f10a73a3c9d1c1e350ec9ab1fb4f513e1f1530ef1be24680d8aa9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-continuation-20261021/manifest.json": "d5368ff85a6a46443d0869d13354e3ea8ccc76426feb1cac58ac227509976e19",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-continuation-20261021/request.json": "6167bcdb48cfcb4c330d4112b4f8949422c651dcd06f97d30c0a9442e889a62d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-20261021/reviewed-manifest.json": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-sources-20261021/manifest.json": "4575c850becfa049fa7876dfe1f6fff0869d685f848dde76ed4c8d3cd3bc1158",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-sources-20261021/request.json": "d6f63be857682d50c273a30d3d67b94472d52e78d522b40082a9871db6bf7f17",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-horizon-cninfo-primary-20261021/manifest.json": "154b58f1baff99e059c641ab3ada1369d5cf6865f2f3c0604c04638bc5e84710",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-horizon-cninfo-primary-20261021/request.json": "956b0f98f948839a2678b53baadc2d94355ec525d0f215486b9c3578b2a4d421",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-horizon-missing-primary-20261021/manifest.json": "e8d9088504c3e4ea0fc9c2c2075a0a34eb73fe3429117fdc747dec0a05340555",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-horizon-missing-primary-20261021/request.json": "2edfd67e538a66ac2351aa6dabc433cadfa4ec4436362c63e8163293f359bb24",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-primary-literature-20261021/manifest.json": "68d0f1794e910ee69e2b1259330823d3aef8c584b3804d241aabd61e85ca2556",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-corporate-proofs-20261017/manifest.json": "ef97c73712072ed58a05dceea01cc041063a013f8229defbe22d25089a4d1c25",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-family-corporate-notices-20261017/manifest.json": "dc42da1e6683a418e2d59a358b978515b2f985f65885082c6207757d1e0f1de9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-family-corporate-notices-20261017/reviewed-manifest.json": "a77d0caf8788616fee773c1c4e5a0b9614956cbd0f79732644fee0b0b85b1bd8",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-family-corporate-notices-20261017/zero-entitlement-proofs.json": "926cc5804ee1275e59a716e008714c58afecbc561d97dcdf8bb9f255abdf3a72",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/manifest.json": "c9e547dafce1037f9b9725abc64ce883c88c1773e4df916f253ae86da43d8f59",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/reviewed-manifest.json": "ff7d6c9e1a17978c74d204a616f1bd965600a5605d02667570256d881ccbf022",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/zero-entitlement-proofs.json": "43c05d9182a2321caeba9b4b812a151238d38a55474209ccb7c20748566a6f0d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-corporate-notices-20261017/manifest.json": "ec26c5c53a3eec54e4708b6b9cbe597c3a4c03773bdc5bc5140af67ac3b155bc",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-corporate-notices-20261017/reviewed-manifest.json": "fe5d1b9b29cee2b674c65caaafdd0910ec463945b32f8f4b7a8a60f727aecda6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-corporate-notices-20261017/zero_entitlement_proofs.json": "368e1bd848f6e2c8566dd44ff42e2bfcfa22d5a6bcab0326a70a8d80020b4de1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-full-corporate-notices-20261017/manifest.json": "4db4f616056c618419f053b57497ee39bb97aa1c347b085ce05b4bed99b77e7a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-full-corporate-notices-20261017/reviewed-manifest.json": "0c14b8e9bfa421a20b5bb6b1befd4b8c0c7c93e674b9f87e910394efacd64723",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-full-corporate-notices-20261017/zero_entitlement_proofs.json": "368e1bd848f6e2c8566dd44ff42e2bfcfa22d5a6bcab0326a70a8d80020b4de1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-capture-20261021/manifest.json": "f2191de5406e83a9d6319000cdeca525199fae531f8e7b0cd908d6644eff7c80",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-capture-20261021/request.json": "0063aa7cfcd0ca4b9d3b129941c34a413b34afccbdb87711f810c64321b86ed9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-corporate-capture-audit.json": "4e3688958aa4c6a6e05a2367917656736a3bead79dfa56190f60f4639fe1199d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-corporate-capture-manifest.json": "d1f2ad707004e111e9270f8b953b9abe97332182f8f7ba17794ca027db2b527d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-corporate-notice-request.json": "99a5f18edf3e2ef27f519c8f7e0b649ad6e9959d381c2a79d1ded8f64d07b2ba",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-corporate-reviewed-manifest.json": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-corporate-verification.json": "74ec9ccdc4644b444678f9f9fa2e2019b91130d327be55220d82936ab3cdf051",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-wolong-primary-audit.json": "380ed9c64162dacea9bcf98a11151c9dc67c09fd96f07162505bc891c48c5eb1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-wolong-primary-capture-manifest.json": "af9485555760c5859cec505370119585421cf8736fbed486e7ac3a32a463e3a4",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-wolong-primary-review-limits.json": "431f731003dcc9438381758c1e58077c807e6300b96cfdc702b65c986241e018",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-wolong-primary-verification.json": "369ed1938ecb1a989d3c2805153802e17cc75cfb1fd91e250d44fd7b4e1a24be",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/cninfo-csi500-event-data-2026-10-17.json": "82cd87bad9441f4118bbbb3b50f385d588ee64dee780ea1c2977d9d3006ac744",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/cninfo-report-admission-2026-10-16.json": "e0cea489afbfc432e26cf5e8e581873ccba48dc251f3c881d0d71e158ee77cee",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/etf-five-cashflows-primary-review.json": "9d92fc6453501acad87321524f77259453b0013a04f71b842f655def7b97982a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/fundamental-first-issuer-primary-doc-request.json": "9fc6bba9b13b406e1d89c2c952d5cebd056b3d58b3bc89be6bd690ef7f18b09c",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/fundamental-primary-documents-capture-manifest.json": "7edf73e0346f1580e242adc2c60d913c3568074e0397ae5e2eb76b80f502e647",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-corporate-capture-manifest.json": "fd50a336e35df417478c007175a069265102b9ec7e6e8a9a60d7c9c942edfab1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-corporate-notice-request.json": "897139dbb861dc1c9bdabbb77511a8957153f62b82d819079d9e87b7626ac573",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-corporate-reviewed-manifest.json": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-2026-corporate-capture-manifest.json": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-2026-corporate-content-review.json": "8a78937656054e77e4107a13d85d7d8475a1d1d1c2bfb11caba64cabc563c960",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-2026-corporate-independent-audit.json": "6cc3e1d09468fc4ae8ec3934cd872155cc332da60550b3da44b69ce2d07c0347",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-2026-corporate-proof-projection-review.json": "17c907c454eacbec8b221ff5f62f27cd91fd74634e57563e344e9337993b656e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-2026-corporate-reviewed-manifest.json": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-2026-corporate-verification.json": "5bc86e129ca9b910018f286f6d6d7630e25ba7a6c7bb4aeeb604c61e95cf501f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-2026-primary-capture-request.json": "d7f73f8aab1f10a73a3c9d1c1e350ec9ab1fb4f513e1f1530ef1be24680d8aa9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-2026-primary-discovery.json": "07909d5ef4d905149ac7f40fe41a9f7c8659132240953b7772515952c4d59a20",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-corporate-capture-audit.json": "77e274ee78b7a527bfaf93bead399acb174ea23595973a80116a88dd8076feb9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-corporate-continuation-manifest.json": "d5368ff85a6a46443d0869d13354e3ea8ccc76426feb1cac58ac227509976e19",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-corporate-continuation-request.json": "6167bcdb48cfcb4c330d4112b4f8949422c651dcd06f97d30c0a9442e889a62d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-corporate-initial-capture-manifest.json": "4575c850becfa049fa7876dfe1f6fff0869d685f848dde76ed4c8d3cd3bc1158",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-corporate-reviewed-manifest.json": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-corporate-source-request.json": "d6f63be857682d50c273a30d3d67b94472d52e78d522b40082a9871db6bf7f17",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-corporate-verification.json": "e67378671d81c560fc785c0893c6715ec48724ecef86ee3d39d4676cc61410bb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-horizon-cninfo-primary-request.json": "956b0f98f948839a2678b53baadc2d94355ec525d0f215486b9c3578b2a4d421",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-horizon-missing-primary-request-v2.json": "2edfd67e538a66ac2351aa6dabc433cadfa4ec4436362c63e8163293f359bb24",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-horizon-missing-primary-request.json": "6bc7f40da2bdc29e8eb51c2609f901ce739e1c562ac7c2fec8d706c1493c4d99",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-horizon-primary-capture-manifest.json": "154b58f1baff99e059c641ab3ada1369d5cf6865f2f3c0604c04638bc5e84710",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-horizon-primary-content-review.json": "66fd7313d11a9ed1ed60c48121b904baed9a915a2a2c49fc2847ee978a73168b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-horizon-primary-results.json": "f06e82d03718130e69a1ace1ca8d303cfe176fcd2fbc1999ada5f4f4f9097bd6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-horizon-primary-reviewed-manifest.json": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-horizon-sse-primary-failure.json": "e8d9088504c3e4ea0fc9c2c2075a0a34eb73fe3429117fdc747dec0a05340555",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-primary-content-independent-review.json": "53f12c3f795a3c27787c3781be1a6608a4920d4aef29a917eda21674b108d331",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-primary-literature-capture.json": "68d0f1794e910ee69e2b1259330823d3aef8c584b3804d241aabd61e85ca2556",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-raw-extension-primary-questions.json": "0ed5c7b09fadd20117afec461beb986fbf009abfd59971524bb35ff1e4a274a1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-risk-corporate-proof-manifest.json": "ef97c73712072ed58a05dceea01cc041063a013f8229defbe22d25089a4d1c25",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/return-families-corporate-capture-manifest.json": "dc42da1e6683a418e2d59a358b978515b2f985f65885082c6207757d1e0f1de9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/return-families-corporate-reviewed-manifest.json": "a77d0caf8788616fee773c1c4e5a0b9614956cbd0f79732644fee0b0b85b1bd8",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/return-families-zero-entitlement-proofs.json": "926cc5804ee1275e59a716e008714c58afecbc561d97dcdf8bb9f255abdf3a72",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/reversal-full-corporate-capture-manifest.json": "c9e547dafce1037f9b9725abc64ce883c88c1773e4df916f253ae86da43d8f59",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/reversal-full-corporate-reviewed-manifest.json": "ff7d6c9e1a17978c74d204a616f1bd965600a5605d02667570256d881ccbf022",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/reversal-full-zero-entitlement-proofs.json": "43c05d9182a2321caeba9b4b812a151238d38a55474209ccb7c20748566a6f0d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-corporate-capture-manifest.json": "ec26c5c53a3eec54e4708b6b9cbe597c3a4c03773bdc5bc5140af67ac3b155bc",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-corporate-reviewed-manifest.json": "fe5d1b9b29cee2b674c65caaafdd0910ec463945b32f8f4b7a8a60f727aecda6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-full-corporate-capture-manifest.json": "4db4f616056c618419f053b57497ee39bb97aa1c347b085ce05b4bed99b77e7a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-full-corporate-reviewed-manifest.json": "0c14b8e9bfa421a20b5bb6b1befd4b8c0c7c93e674b9f87e910394efacd64723",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-full-zero-entitlement-proofs.json": "368e1bd848f6e2c8566dd44ff42e2bfcfa22d5a6bcab0326a70a8d80020b4de1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-primary-capture-manifest.json": "f2191de5406e83a9d6319000cdeca525199fae531f8e7b0cd908d6644eff7c80",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-primary-capture-verification.json": "d9ac5a20d60c365d27374721863f11adbf0b405b527c0fe926d65446a8d6a92a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-primary-content-review.json": "0536f4ef3f030672976b6f17c0a314c40264bdf42f6202e8e5ad11b2a4e30ecd",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-primary-freeze-verification.json": "33d25b3bda428de8cd741d30300abb1b9bd328132535b1293b86c716427a6774",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-primary-source-independent-audit.json": "8952f583e3e261f16303771d487021d2a3a361a579b7bfd4913b4667b52c1095",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-primary-source-request.json": "0063aa7cfcd0ca4b9d3b129941c34a413b34afccbdb87711f810c64321b86ed9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-zero-entitlement-proofs.json": "368e1bd848f6e2c8566dd44ff42e2bfcfa22d5a6bcab0326a70a8d80020b4de1"
+  },
+  "issuer_mention_index_sha256": {
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-annual-admission-20261016/manifest.json": "a6e66f2e53ef403e7ab01c7d936b21fd02f75608984c71da698f98d3342b6b4d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-annual-admission-20261016-v2/manifest.json": "9bd3cb105e8492e700a00c3708907d298779acd147147f00288fa9d84ba93c0d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/manifest.json": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-report-admission-20261016/manifest.json": "913428079b37e7954ea94f941c2ec01032e475311c45377c5ff5a44a7211ce19",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-report-admission-20261016-v2/manifest.json": "5c9b257237384ac376843f39d0d24b12cc970ecb9a86743ee02a3b144ffaa494",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-notices-20261020/request.json": "897139dbb861dc1c9bdabbb77511a8957153f62b82d819079d9e87b7626ac573",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/capture-manifest.json": "fd50a336e35df417478c007175a069265102b9ec7e6e8a9a60d7c9c942edfab1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/reviewed-manifest.json": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/cninfo-report-admission-2026-10-16.json": "e0cea489afbfc432e26cf5e8e581873ccba48dc251f3c881d0d71e158ee77cee",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-corporate-capture-manifest.json": "fd50a336e35df417478c007175a069265102b9ec7e6e8a9a60d7c9c942edfab1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-corporate-notice-request.json": "897139dbb861dc1c9bdabbb77511a8957153f62b82d819079d9e87b7626ac573",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-corporate-reviewed-manifest.json": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4"
+  },
+  "allB_PDF_filename_inventory_count": 129,
+  "issuer_primary_pdf_directories_scoped": [
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-notices-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-reviewed-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-wolong-halfyear-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-wolong-tax-sources-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/fundamental-primary-documents-20261017",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-notices-20261020",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-source-boundary-primary-20261020",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-2026-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-continuation-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-sources-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-horizon-cninfo-primary-20261021",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-corporate-proofs-20261017",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-family-corporate-notices-20261017",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-corporate-notices-20261017",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-full-corporate-notices-20261017",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-capture-20261021"
+  ],
+  "issuer_linked_primary_index_entries": [
+    {
+      "index": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/capture-manifest.json",
+      "at": "/documents/2",
+      "metadata": {
+        "code": "003031",
+        "title": "关于公司2023年年度权益分派实施的公告",
+        "day": "2024-06-04",
+        "timestamp_ms": 1717430400000,
+        "announcement_id": "1220247499",
+        "pdf_path": "finalpage/2024-06-04/1220247499.PDF",
+        "instrument": "SZ003031",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-06-04/1220247499.PDF",
+        "file": "SZ003031-2024-06-04.pdf",
+        "sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4"
+      }
+    },
+    {
+      "index": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/reviewed-manifest.json",
+      "at": "/documents/2",
+      "metadata": {
+        "code": "003031",
+        "title": "关于公司2023年年度权益分派实施的公告",
+        "day": "2024-06-04",
+        "timestamp_ms": 1717430400000,
+        "announcement_id": "1220247499",
+        "pdf_path": "finalpage/2024-06-04/1220247499.PDF",
+        "instrument": "SZ003031",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-06-04/1220247499.PDF",
+        "file": "SZ003031-2024-06-04.pdf",
+        "sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4"
+      }
+    },
+    {
+      "index": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-corporate-reviewed-20261020/reviewed-manifest.json",
+      "at": "/capital_tax/SZ003031|2024-06-11",
+      "metadata": {
+        "verified_exempt": true,
+        "source_file": "SZ003031-2024-06-04.pdf",
+        "source_sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4",
+        "evidence": "Premium capital source plus stated20pct tax0.78per10 on3.9cash only; transfer excluded from stated tax example",
+        "exemption_scope": "Only this original capital-transfer event"
+      }
+    },
+    {
+      "index": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-corporate-capture-manifest.json",
+      "at": "/documents/2",
+      "metadata": {
+        "code": "003031",
+        "title": "关于公司2023年年度权益分派实施的公告",
+        "day": "2024-06-04",
+        "timestamp_ms": 1717430400000,
+        "announcement_id": "1220247499",
+        "pdf_path": "finalpage/2024-06-04/1220247499.PDF",
+        "instrument": "SZ003031",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-06-04/1220247499.PDF",
+        "file": "SZ003031-2024-06-04.pdf",
+        "sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4"
+      }
+    },
+    {
+      "index": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-corporate-reviewed-manifest.json",
+      "at": "/documents/2",
+      "metadata": {
+        "code": "003031",
+        "title": "关于公司2023年年度权益分派实施的公告",
+        "day": "2024-06-04",
+        "timestamp_ms": 1717430400000,
+        "announcement_id": "1220247499",
+        "pdf_path": "finalpage/2024-06-04/1220247499.PDF",
+        "instrument": "SZ003031",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-06-04/1220247499.PDF",
+        "file": "SZ003031-2024-06-04.pdf",
+        "sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4"
+      }
+    },
+    {
+      "index": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-corporate-reviewed-manifest.json",
+      "at": "/capital_tax/SZ003031|2024-06-11",
+      "metadata": {
+        "verified_exempt": true,
+        "source_file": "SZ003031-2024-06-04.pdf",
+        "source_sha256": "30636df3dccf80902521877bd60cfdbc45582a4ed098b72e559406e7fd5cfdc4",
+        "evidence": "Premium capital source plus stated20pct tax0.78per10 on3.9cash only; transfer excluded from stated tax example",
+        "exemption_scope": "Only this original capital-transfer event"
+      }
+    }
+  ],
+  "coverage_checks": {
+    "matching_old_PDF_hash_capture_and_proof_agree": true,
+    "old_capture_review_public_local_copies_byte_identical": true,
+    "all_matching_old_periodic_report_metadata_hashes_verified": true,
+    "no_requested2026document_or_proof_entry_found": true
+  },
+  "source_question_dates_origin": "Question dates and factor/dividend mismatch categories supplied by parent; this inventory did not recompute raw-source economics or returns.",
+  "negative_claim_boundary": "Cache not found is limited to listed local archives/indexes; no web discovery, announcement absence inference, factor-derived economic entitlement, or tax classification was made.",
+  "network_calls": 0,
+  "new_source_calls": 0,
+  "account_or_ROI_computed": false,
+  "strategy_or_code_or_source_edits": false,
+  "script": "/tmp/szse-value-momentum-primary-gap-cache-inventory-checks-20261021.py",
+  "script_sha256": "eab2dff700eefb5f5159437ac514ad1a632a9376dce5aa167c012195f039de92"
+}

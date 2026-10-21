@@ -1,0 +1,95 @@
+{
+  "status": "FIXED_FOUR_PRIMARY_METADATA_DISCOVERY_REQUESTS",
+  "method_sha256": "7e925f84c12fb86e02c4dde2a944efe413d5b2e2b1ce0cc074455d8a6ebb81be",
+  "organization_map_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cninfo-csi500-reports-20261017/plan.json",
+  "organization_map_sha256": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0",
+  "requests": [
+    {
+      "instrument": "SZ000563",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "000563,gssz0000563",
+        "searchkey": "",
+        "secid": "",
+        "category": "",
+        "trade": "",
+        "seDate": "2026-10-01~2026-10-20",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    {
+      "instrument": "SZ002608",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "002608,9900021237",
+        "searchkey": "",
+        "secid": "",
+        "category": "",
+        "trade": "",
+        "seDate": "2026-10-01~2026-10-20",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    {
+      "instrument": "SZ002756",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "002756,9900022998",
+        "searchkey": "",
+        "secid": "",
+        "category": "",
+        "trade": "",
+        "seDate": "2026-10-01~2026-10-20",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    {
+      "instrument": "SZ002131",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "002131,9900002724",
+        "searchkey": "",
+        "secid": "",
+        "category": "",
+        "trade": "",
+        "seDate": "2026-10-01~2026-10-20",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    }
+  ],
+  "max_HTTP_queries": 4,
+  "max_attempts": 1,
+  "timeout_seconds": 20,
+  "max_pages_per_issuer": 1,
+  "scope": "Announcement reference discovery only; original bytes later capture and content review required. No stock rankings/strategy/account/returns.",
+  "historical_organization_master_certified": false,
+  "portfolio_returns_computed": false
+}

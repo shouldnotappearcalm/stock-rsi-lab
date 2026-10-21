@@ -5018,6 +5018,20 @@
       "fresh_incremental_names": 99,
       "planning_logical_queries": 362,
       "capture_executed": false
+    },
+    "full_raw_source_capture": {
+      "status": "123_ASSEMBLED_FOUR_REJECTED_UNRESOLVED_NEW_ACTION_EVIDENCE",
+      "manifest_file": "experiments/qlib/szse-value-momentum-raw-extension-manifest.json",
+      "audit_file": "experiments/qlib/szse-value-momentum-raw-extension-independent-audit.json",
+      "conflict_review_file": "experiments/qlib/szse-value-momentum-raw-extension-four-conflicts.json",
+      "verification_file": "experiments/qlib/szse-value-momentum-raw-extension-verification.json",
+      "source_capture_exit_code": 2,
+      "successful_assemblies": 123,
+      "rejected_assemblies": 4,
+      "logical_queries_consumed": 362,
+      "source_admitted_for_account": false,
+      "2026_strategy_returns_queried": false,
+      "objective_achieved": false
     }
   }
 }

@@ -1,0 +1,2190 @@
+{
+  "status": "FOUR_CAPTURE_GUARD_CONFLICTS_INDEPENDENT_SOURCE_FACTS_ONLY",
+  "source_manifest": {
+    "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/manifest.json",
+    "sha256": "30a072f17206a557391b895935bd621ffdf4c97470df5790c0b78440cf319c70"
+  },
+  "frozen_request": {
+    "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/request.json",
+    "sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+  },
+  "inventory": {
+    "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-raw-inventory-20261021.json",
+    "sha256": "7e9d88f42cc8a0cf23caa152e94e75b6cb82621ba4e2404843e66c4f438e85cd"
+  },
+  "journal_all_362_identity_reservation_response_payload_chains_verified": true,
+  "capture_state": {
+    "status": "COMPOSITE_RAW_EXTENSION_CAPTURED_ADMISSION_SEPARATE",
+    "window": [
+      "2023-12-29",
+      "2026-10-20"
+    ],
+    "requested_names": 127,
+    "names": 123,
+    "request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495",
+    "calendar_sha256": "ec1fe0a606c2d145c872dc7cd87f1b78bae51dcc9a68fe6aefa42e51c13a077a",
+    "errors_sha256": {
+      "SZ000563": "b7d08f669fa358bdc5b8d44729bd9b028effc139da210668f939f1ea5692e04f",
+      "SZ000783": "2ab0bd254f7784b52aa74cc812e6ee0eee052007b0a71d3d95b65a422cf68e6a",
+      "SZ002608": "dae1fa819f73591fabe9ee5b981e8924ccd705ce38f5a776fc94d1642ca3c918",
+      "SZ002756": "377d1c508f5e4bb12f91648c038e1ebe4d78956ed7f5b93ad072d3efd604a853"
+    },
+    "pending_codes": [],
+    "reused_codes": [
+      "SZ000062",
+      "SZ000543",
+      "SZ000598",
+      "SZ000883",
+      "SZ000932",
+      "SZ000937",
+      "SZ000975",
+      "SZ002032",
+      "SZ002120",
+      "SZ002244",
+      "SZ002294",
+      "SZ002423",
+      "SZ002432",
+      "SZ002958",
+      "SZ002966"
+    ],
+    "incremental_codes": [
+      "SZ000021",
+      "SZ000032",
+      "SZ000034",
+      "SZ000039",
+      "SZ000400",
+      "SZ000423",
+      "SZ000426",
+      "SZ000513",
+      "SZ000528",
+      "SZ000559",
+      "SZ000563",
+      "SZ000581",
+      "SZ000591",
+      "SZ000623",
+      "SZ000630",
+      "SZ000683",
+      "SZ000703",
+      "SZ000728",
+      "SZ000733",
+      "SZ000778",
+      "SZ000783",
+      "SZ000785",
+      "SZ000786",
+      "SZ000830",
+      "SZ000878",
+      "SZ000887",
+      "SZ000893",
+      "SZ000921",
+      "SZ000933",
+      "SZ000951",
+      "SZ000967",
+      "SZ000987",
+      "SZ000988",
+      "SZ000997",
+      "SZ001203",
+      "SZ001227",
+      "SZ001286",
+      "SZ001389",
+      "SZ001696",
+      "SZ001872",
+      "SZ002008",
+      "SZ002019",
+      "SZ002028",
+      "SZ002030",
+      "SZ002056",
+      "SZ002065",
+      "SZ002078",
+      "SZ002080",
+      "SZ002085",
+      "SZ002128",
+      "SZ002130",
+      "SZ002131",
+      "SZ002152",
+      "SZ002155",
+      "SZ002156",
+      "SZ002185",
+      "SZ002192",
+      "SZ002195",
+      "SZ002223",
+      "SZ002240",
+      "SZ002261",
+      "SZ002273",
+      "SZ002281",
+      "SZ002312",
+      "SZ002318",
+      "SZ002353",
+      "SZ002384",
+      "SZ002407",
+      "SZ002429",
+      "SZ002444",
+      "SZ002463",
+      "SZ002465",
+      "SZ002472",
+      "SZ002497",
+      "SZ002508",
+      "SZ002517",
+      "SZ002532",
+      "SZ002558",
+      "SZ002572",
+      "SZ002595",
+      "SZ002600",
+      "SZ002607",
+      "SZ002608",
+      "SZ002625",
+      "SZ002653",
+      "SZ002670",
+      "SZ002673",
+      "SZ002683",
+      "SZ002738",
+      "SZ002756",
+      "SZ002773",
+      "SZ002797",
+      "SZ002812",
+      "SZ002837",
+      "SZ002850",
+      "SZ002851",
+      "SZ002865",
+      "SZ002867",
+      "SZ002984"
+    ],
+    "cold_codes": [
+      "SZ000657",
+      "SZ000960",
+      "SZ001309",
+      "SZ002126",
+      "SZ002138",
+      "SZ002202",
+      "SZ002203",
+      "SZ002335",
+      "SZ002402",
+      "SZ002409",
+      "SZ002436",
+      "SZ002487",
+      "SZ003031"
+    ],
+    "maximum_source_reservations": 362,
+    "query_reservations_consumed": 362,
+    "abnormal_exit": null,
+    "totals": {
+      "bars": 83088,
+      "distributions": 446,
+      "adjustments": 454,
+      "quarantine": 0
+    },
+    "admitted_for_account_replay": false,
+    "historical_arrival_verified": false,
+    "full_corporate_actions_certified": false,
+    "actual_FIFO_tax_liability_verified": false,
+    "portfolio_returns_computed": false,
+    "investment_rules_changed": false,
+    "objective_achieved": false,
+    "cleanup_sha256": "8c399f5e42bbf2726499856737d74416e1f1ba631258ec85edb1f453911151e0",
+    "method_code_sha256": {
+      "scripts/capture_value_momentum_raw_extension.py": "fab9f753680710b8717481d56b897ea566718efbedf5abfadc0fd19eb2eddf35",
+      "scripts/value_momentum_raw_extension_sources.py": "ca08a618fecf8d6fe8adce4cc7613f7cb1c10fd3f03d3ef16b6e2803d485b1aa",
+      "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+      "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+      "scripts/capture_illiquidity_raw_development.py": "4a6c1b9597b4e0d797720687f43ba951b9aeabaca3bf8c83149a4657598ce8f1",
+      "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+      "scripts/capture_frozen_target_development_data.py": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d",
+      "experiments/qlib/audit_sources/2026-10-21-szse-value-momentum-full-raw-inventory.py": "731b25ed65e3a8ef17a04a3608ef72479ff7c765cbf885b1c7cb0dba1304bfce"
+    },
+    "target_sha256": "23c35627f750be6207133d87f025ff3514a8f27d4f638b5c744409e1802089fa",
+    "original_packet_sha256": {
+      "SZ000062": "fc2a982fed90776b8acd911d3ae2d3455caf80fe537c81ffbd85de5f222e9dc4",
+      "SZ000543": "3600a1b12a1604745367addd4b2df9cb57b43679a7e40a7dac1a5421cbe208f8",
+      "SZ000598": "80703e5f968fc3eafdac3e7e3358d46f5ca219a1dba83632425d963c8ab00a4d",
+      "SZ000883": "7006cb2d3f3bcf844e2ba4c46930cd1909a8fdb5d3ab620e615574cddc2454db",
+      "SZ000932": "fa26a206e15211264f0e8e023f5a65274de891a9c45889eb574626804f4efbad",
+      "SZ000937": "56ecc19ba1911b0cc4d06368a8d49596b9f32521a95c089f8e0494289840754c",
+      "SZ000975": "b3bee77d5d5f3e5a5c2ffb0619f7dff092e34ca235b0c95066ce8a3165b77aa8",
+      "SZ002120": "bde60d51ab0695877d90c6d4aae1459072b4d06e98538c84fc67369b6eac45ef",
+      "SZ002244": "1ea943d0e82fba7417a61cb659198713bdefe75ffa1e9a74dbb658dd86768b21",
+      "SZ002423": "cb2add739e2d872820940d88e2a538e83d50c3b5e3035c9eac4edfbfc57fc214",
+      "SZ002966": "bd531f52a365a7a785fd385e877629eb44484ebe5abf91dfa86d8329acd3d61f",
+      "SZ000034": "b3f6cfe8cab70b8ae84f7e997083a30e9e137131a424768f40b16e72b85218b3",
+      "SZ000039": "8ecce3cfbd9223e67d12abe659b5c34af210dcc15aad4b99d9b4e1860f6255ca",
+      "SZ000400": "b35ecced3bb76f6b01c773c274e62bad3382b10309e5a7dd30d78c1beaeebb2d",
+      "SZ000423": "b7615c1cf9c716bb85efe5aa2fb42df8196500b405799930678e308e93ee089c",
+      "SZ000426": "eb079d2c492722c870be2ecd06804be164e82bbdb08e38d66a3331223db771fe",
+      "SZ000559": "1f7a391cce07849c878b541d27fb007833cab00b3950fa55f9e934b81d0f6ccf",
+      "SZ000630": "2b4f61d3c076837c8b2efc94c8613e48b49f11c76cf3ee0cfdcf1df6431feb02",
+      "SZ000785": "9a67e499a5e1ebd6af5a1a63138ff5c31a1820a8d56fb873455ea0565be8126d",
+      "SZ000878": "45e65ee10f17aef49c2ddbfa8a60f9fb3773551f09229a0a9197357cb36b54b9",
+      "SZ000887": "178f22d3c85e366c674699e1ec08305fdaef7d99d8a7400842f56c4f2f7ab835",
+      "SZ000893": "90096930e0a89eaa3ec01b96a90b2c8b5ca3804e4223c12c4f73254ff28cf130",
+      "SZ000967": "d1633c019458390a00cb482ea95478ab7680970d00a1713ee569820c52142f87",
+      "SZ000988": "3937b49b0e0d935cfa4c208b9200fd7c1d28ae54cf1659f9e50a959e131ed2f4",
+      "SZ000997": "a4b4b95df4ac26d1c1f638c340e3cb7b22415363775462bc91a0e83727610ec6",
+      "SZ001872": "58ca25f112881b7db6ab839e0d63771821ead46ea9c0667104bc957e801fecf2",
+      "SZ002008": "3e54388152e213003c9d4eeaed108241e136f402fba4b4ee870e235d8b2121fd",
+      "SZ002019": "f93296c3802035b3031c62c9f8fc578fc16057eeda6d1df835b24772fe47a8d1",
+      "SZ002028": "317e7a874f549a44183e2131bea4520d5868e8b57e3f0e23fbf4a075d0f57264",
+      "SZ002032": "4f5ba4e3cb093ede6216017d30becb8105a374344d1f6aa07f59a03715e45946",
+      "SZ002056": "965e9b2518ad0ef8e29b03b2e33a19664f9ae595489bf572e1d90d3f5d3734cf",
+      "SZ002065": "675d2ed610ff19c25cdad12d69c4c824fed787c08622b7f63341225ab005a6a6",
+      "SZ002078": "1756148e4a4fcc5eab5b93007f4eaec554add7bdd0abed360beec6a8df365df0",
+      "SZ002080": "022896a2d165e185e5d2f6456e3e4c148a078c681244721060161fd5f688eea7",
+      "SZ002085": "332c30fe32e3819110089a4a07d157b5ad0a8e068f322b0bbcca5378f0b7e5fe",
+      "SZ002128": "65616ce4c8305aee0f91d5353f56d832b27472054817463cdb09e340093b8200",
+      "SZ002130": "3ff336b9e6049573b9839bf8dfc275b54b60b54cb3e91dbde5f9db3536cea3cd",
+      "SZ002131": "ddb12b4be153403034efb247bbee5a80843fe29717a5fe8439c3a6184eac78d8",
+      "SZ002152": "e919f36c132d39a8aef7ff5dcac425c89393ed13463df963d1d1c64a9f5d0158",
+      "SZ002155": "5db558641d98f37a6a884fc256ab0876f2318cca6bd3ec13c749f9e8e5f93e74",
+      "SZ002195": "2820f97f6bb63e633435f60e86793d3d1cc55b99b8e05ea662264836c04997f0",
+      "SZ002223": "5085fee9a388ada79fd252e8da79de9cea47e8dd0b39fed2b726a5fddd2acc35",
+      "SZ002261": "b2c36f71ae9021dd04e6c333aa2f90698dcf602f50020c00f1cde47a607ba9da",
+      "SZ002273": "bc522ed88cb6f35c1f451af837f06b6f7a19df6edcaf9edc4e17a8a9fe81f878",
+      "SZ002281": "4f1e5c29cbe8759043ad9fcc230ad8f3d0f95abddbda7ebcdf498b6456adde0e",
+      "SZ002294": "b2ec4d323b2a21892a6627b369f518dd86d52839202ba2bb375f95742e0c85c2",
+      "SZ002353": "5b2e85bc3ed5d8cf9641b23f2548cec4751c8b74aca91a86c5440e1630941006",
+      "SZ002384": "bc292426b54553274a1b43586c6b9dd84e6e87dbffff1674e27be34f0e5534f6",
+      "SZ002432": "26c6d2751cc89df85077ee37e28f46d17725ceed373018f889deb796e4c02d0f",
+      "SZ002444": "3e8ff06fb8082d5f6490a5eaa77ee858687c983b34e8686eb0013cde30ce5ec6",
+      "SZ002463": "682beef8c2fb95b374183df59457a8e494edd4b9592dab1a55fc13596e04ef62",
+      "SZ002465": "b534ee7f1a538e05b7da4abbb08f4788e0edcd75ab1e110d89797de574c14122",
+      "SZ002472": "103bcf3738cfc1e368990a28d6d649701aba772a6c50baf7d2feb919edc3bcbd",
+      "SZ002517": "5ed305a754640e6cf598da023085fe2f07e70a73ad4d9da126cc27b547d0e436",
+      "SZ002532": "29bb8e46ae636e61cd9623d7ba903d8a756035a93086dbe2fc16ee469215c057",
+      "SZ002558": "3b9a726bc27725e60d1ab039beaabd1f247ca1cde325dd97f18f1662c5dc14fe",
+      "SZ002595": "27ad390249df13ad56ee8fdbe01ede1bbeebfa6d7cb723969c0d1d4eb93b50d6",
+      "SZ002600": "f93a37b82ebcd946f60d912193f7605df5b86fcfce2872284ffadfe3bb0ac872",
+      "SZ002607": "89729e555ddae6e9228db3f3dd5ec7cce12e4cc72e9212611e3f4ffe2227b6df",
+      "SZ002625": "8d972c2603e8bb1ca06a07e689b948ec85e07a65714efccb2bdd34bad73f9bce",
+      "SZ002653": "70b2fc8f0c69d08b3f57f636a0cde9795539cffd60fa2ba65eb488cb73077062",
+      "SZ002670": "db9748af221510b65378596a7f8dacf5cc8b93489842504765e2c0e1932c6379",
+      "SZ002673": "46316bf564daee6f0b42eb6e00d6c9f21e3628e175c227678308c04e7b91bf7c",
+      "SZ002683": "f87c6d0a8057fbf8e2489a96943e6500afa8282d1ac9d93f0baba89d285d5bb0",
+      "SZ002773": "931af2e34798056da1b6e666da57a8d7476e58ca8a5f43f3357bc49e7a13f530",
+      "SZ002797": "b10638ebc72f7c0cc2e8105f2d4fe097100250205cd1fb7208609be0f4ff3b5f",
+      "SZ002837": "9db77b0a7ae6bd4cf82936301d72863a281649e850f8da129ed1116e2c9eebac",
+      "SZ002850": "80e087b3837f3a2f8663bc5deafd944b3ce74ce73f57af13b470b7eb11fd66be",
+      "SZ002851": "a285810747c546a2400b571c680d6dd816ad568a4671da0279d8fe11266db556",
+      "SZ002958": "14c42b8e0652e07e8a55e1c9f8be017c03170d7a44208ace703d1f4e750d58ed",
+      "SZ002984": "39e81963b661513fd480aad49f4bb5ed774cddbfd53b594d301a4503faa8fb66",
+      "SZ001203": "8ad4c98d3790fb2a6405400d2bfabce5391ad098419d70f80c1823893d93c8f5",
+      "SZ002030": "fdf65f48080fb72ada3c2e8930b8f4b840785916e525d24b00da62a255872d10",
+      "SZ002240": "807f4aa3eba1b4f37e2c4042b3cc726301e04a8c78af98e87db6478322a69ca3",
+      "SZ002572": "8e974e6f9f9d825987b2e15b55c6a4ce400b00c177f48fa2dccec948b6828952",
+      "SZ002608": "5be2c044512829cbfc2ab4dbe9f143f5cc84d403dff3a281fc666a0be161f802",
+      "SZ002867": "2799242ba110bf7118b802c28d6996ef4479fc13744b5832198ef78c8ecf2f6e",
+      "SZ002185": "15e5471b94b353532a414e04230ef5815c7bd42d1f20065f4cc8df515698cda1",
+      "SZ000581": "71471e65fe1cbb55262f00b8205051d66a4b3c8571656e4af02161ad4ea1280a",
+      "SZ000591": "a891ac26f8e7c7d52ad57af830e13ba9e29383bb357c568fb2bff922cc043c4e",
+      "SZ000683": "c19aae3ade54fc41dbb00d5f57af0159807eee47902cd28b41fb4061b35484c4",
+      "SZ000733": "7a18eed3e29dac2f7cdc01ff7793ea5d571f0a146f54099001d4f5e913396f52",
+      "SZ000778": "f5efcb85de49fff0547d44386fb9246491e087b051a0c126afafffd303700ce2",
+      "SZ000830": "e6109288e37a2f5d23511bdfb39d1718317ddd33c40af65e0791fb6a7d89a08f",
+      "SZ000921": "cb4c60c6ce4e0f45230f65c1361ba2aa30db565d2cd0472ebd620e7165c232fb",
+      "SZ000933": "ecf6652d429e341cfbb458365e2a405e03fd8429d3bca14ba32fb43a15a17117",
+      "SZ000987": "98f55605b2c3a21b8d74c434ebee323df17a35d9162c88d915d955e9ff5fc3e4",
+      "SZ001227": "8b13c501b84edcec3d2a32c31c09690f51d55080ad9c0e0df65445122e5701d4",
+      "SZ001286": "ade0ead6470a44f755601f6f7fa2eaf756b145d2ed0c94792663c3ef7a2f43d5",
+      "SZ002192": "ae349355770b4c8b54704d8c2fdec0784264f01e29ed843c930b5333958fdc83",
+      "SZ002407": "66bafc96b7c042c474f7e025dd274ad956cb478bd380c4b7fd201fe87a9eb925",
+      "SZ002497": "ab85ecbf732da4b8bace96f00672d4d7ad2e814f06a215fe1e77e018901a3a44",
+      "SZ002508": "5c07e11730fd66eca29845ba91118c3465bd51455f71efd6c49f5197176830f2",
+      "SZ002738": "daadab1e8f1204d34248422186a4ab20282a10920bc7d66ae9d6b96ddfbda1b0",
+      "SZ002756": "296a0f16da3df155ebfc05b948d637abd2ab2a938b3e7f35e261f18a3f942a9c",
+      "SZ002865": "15b32ec45aaf31e06f0d3160e9abaaeb6b0d7a269ba03dbddd3969431e8b5bca",
+      "SZ000021": "390642524e7a3887eaa2c7fc683f1144f3bf601a7bcf414c4b6d35ff72b1274c",
+      "SZ000032": "d55e63758bb46401db984f7bb416de4280728f68317cb4c3abea7dcd0ad5d1db",
+      "SZ001389": "33cbb4b08c701434903416157bc245e8e1d23c35604d3153162f508d83c50c83",
+      "SZ001696": "145643e0c8dc9c9a1e127ec926cf6e8ecbcbd67364abc0d814f5f6966ca82871",
+      "SZ002156": "ef91b0dcf6819666db910e3414d7c1f9002c79792187fbbfa4ca82dae035ed91",
+      "SZ002312": "3911cdb5f6dd46fd1f79276807a41983a7091c0599e12a155e681d90dd11c6f4",
+      "SZ002429": "f8c76d1a3b0c077e65b4fab58db2d5964d65fc3afe8041437aef1b72ed18b7a9"
+    },
+    "source_manifest_sha256": {
+      "low-beta60-raw-horizon-20261021": "9e2a7639ae40f1e8913a5306d430ed14003074acc24b741d7e7e3d4e5a64f891",
+      "low-risk-raw-account-data-20261017": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+      "szse-value-raw-full-20261017": "3c02e2f9ed433f93e8419a26eaa1610d8c397fb79a5cc12ec871bfda75ecc897",
+      "reversal-raw-full-20261017": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc"
+    },
+    "source_calendar_sha256": {
+      "low-beta60-raw-horizon-20261021": "d5ca13ad3049cd788031b697f7e615d35cc899261a4997050954752efc0192ab",
+      "low-risk-raw-account-data-20261017": "4bd04e2784a52654c2d066558e77d799d6b08e1139e332cf56817909db22d0d7",
+      "szse-value-raw-full-20261017": "4bd04e2784a52654c2d066558e77d799d6b08e1139e332cf56817909db22d0d7",
+      "reversal-raw-full-20261017": "4bd04e2784a52654c2d066558e77d799d6b08e1139e332cf56817909db22d0d7"
+    },
+    "source_inputs_unchanged_after_capture": true,
+    "source_postcheck_sha256": "5a2228e30d9f82aa80295d23cf2eac6cdcf68a0183400672208d56288de17c9b",
+    "original_source_files_changed": false,
+    "SDK_decoded_responses_not_TCP_wire": true,
+    "full_October_complete": false,
+    "source_units": {
+      "price": "CNY/share",
+      "volume": "shares",
+      "amount": "CNY"
+    }
+  },
+  "administrative": {
+    "login-reserved-1.json": {
+      "evidence": {
+        "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/login-reserved-1.json",
+        "sha256": "0ba1837f1c76ab0ecdc0b320f0976fe70e81b957d674b0cd20bfb255dd0d50cb"
+      },
+      "contents": {
+        "attempt": 1,
+        "request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+      }
+    },
+    "login-response-1.json": {
+      "evidence": {
+        "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/login-response-1.json",
+        "sha256": "094781fd57e4fdee1a3cea3d48712bdc92fa2f890849fcf6ac92a8d293e4e44f"
+      },
+      "contents": {
+        "error_code": "0",
+        "error_msg": "success"
+      }
+    },
+    "cleanup.json": {
+      "evidence": {
+        "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/cleanup.json",
+        "sha256": "8c399f5e42bbf2726499856737d74416e1f1ba631258ec85edb1f453911151e0"
+      },
+      "contents": {
+        "login_attempted": true,
+        "logout_attempted": true,
+        "error_code": "0",
+        "error_msg": "success"
+      }
+    },
+    "source-postcheck.json": {
+      "evidence": {
+        "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/source-postcheck.json",
+        "sha256": "5a2228e30d9f82aa80295d23cf2eac6cdcf68a0183400672208d56288de17c9b"
+      },
+      "contents": {
+        "source_inputs_unchanged_after_capture": true
+      }
+    }
+  },
+  "codes": {
+    "SZ000563": {
+      "error": {
+        "evidence": {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/errors/SZ000563.json",
+          "sha256": "b7d08f669fa358bdc5b8d44729bd9b028effc139da210668f939f1ea5692e04f"
+        },
+        "contents": {
+          "instrument": "SZ000563",
+          "error_type": "ValueError",
+          "error": "registered cached corporate/adjustment conflict: adjustments",
+          "request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495",
+          "source_responses_retained": true
+        }
+      },
+      "fresh_queries": {
+        "dividend2026": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ000563",
+            "component": "dividend2026",
+            "parameters": {
+              "year": "2026",
+              "yearType": "operate"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/1b1528d62c807de3b547b688b7c6cc1b9031cc60477d2ea6fa93e740ebbf46b4/request.json",
+              "sha256": "7a292055c40ce0cf3f1f095435c5ce05d6a3f1a1cab3f8fa39d947399f349cc2"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/1b1528d62c807de3b547b688b7c6cc1b9031cc60477d2ea6fa93e740ebbf46b4/reserved-1.json",
+              "sha256": "87b7045af298950150259134a136db8c1b664450be3a81ec1044e9a29d308182"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/1b1528d62c807de3b547b688b7c6cc1b9031cc60477d2ea6fa93e740ebbf46b4/response-1.json",
+              "sha256": "989a04f07daf85bb0f1dac2a44b08d6523fb3864e79d3abb8e136f951860638a"
+            }
+          },
+          "row_count": 1
+        },
+        "daily": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ000563",
+            "component": "daily",
+            "parameters": {
+              "start_date": "2026-01-01",
+              "end_date": "2026-10-20",
+              "frequency": "d",
+              "adjustflag": "3"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/94b18dbc4da644c3e67763eceda7ee23ce1c3986cbf3d5d066544d8b5f2dfee5/request.json",
+              "sha256": "a51fc96dd73358bf1d6f0ffe0fad8f3565be204eb02e33ea51b0da8dd7191f6d"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/94b18dbc4da644c3e67763eceda7ee23ce1c3986cbf3d5d066544d8b5f2dfee5/reserved-1.json",
+              "sha256": "e9b21b5aafc10dd75213b3b818a1bc3995fbdd40e1f15bea313ae1c124f28861"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/94b18dbc4da644c3e67763eceda7ee23ce1c3986cbf3d5d066544d8b5f2dfee5/response-1.json",
+              "sha256": "24a5f81f919fed68b5cf374fa294ef92416dcec4435fd84fef22a942cdd3269f"
+            }
+          },
+          "row_count": 190
+        },
+        "adjustments": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ000563",
+            "component": "adjustments",
+            "parameters": {
+              "start_date": "2026-01-01",
+              "end_date": "2026-10-20"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/ed0da281a76da2afea3db7bd0a8057ec10d4d4bf600e493b697334609bc9827a/request.json",
+              "sha256": "6cf644ecf60f238e1d7f9c83389c26187e3c0d3c3227d28eb5c47df151a9c4ad"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/ed0da281a76da2afea3db7bd0a8057ec10d4d4bf600e493b697334609bc9827a/reserved-1.json",
+              "sha256": "2ed0891a2df4e77ab212c33d9ae3bcafc250645f9334d499457f4bb5d63b4da4"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/ed0da281a76da2afea3db7bd0a8057ec10d4d4bf600e493b697334609bc9827a/response-1.json",
+              "sha256": "4cc98a9f7900623bff77f87dbb68035b96a20ae65d7a4ebb4be7e34786544ea9"
+            }
+          },
+          "row_count": 2
+        }
+      },
+      "fresh_2026_distribution_rows": [
+        {
+          "code": "sz.000563",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-03-07",
+          "dividPlanAnnounceDate": "2026-02-10",
+          "dividPlanDate": "2026-04-22",
+          "dividRegistDate": "2026-04-27",
+          "dividOperateDate": "2026-04-28",
+          "dividPayDate": "2026-04-28",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.06",
+          "dividCashPsAfterTax": "0.054或0.06",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派0.6元（含税，扣税后0.54或0.6元）",
+          "dividReserveToStockPs": ""
+        }
+      ],
+      "fresh_2026_adjustment_rows": [
+        {
+          "code": "sz.000563",
+          "dividOperateDate": "2026-04-28",
+          "foreAdjustFactor": "0.996610",
+          "backAdjustFactor": "14.093815",
+          "adjustFactor": "14.093815"
+        },
+        {
+          "code": "sz.000563",
+          "dividOperateDate": "2026-10-20",
+          "foreAdjustFactor": "1.000000",
+          "backAdjustFactor": "14.141753",
+          "adjustFactor": "14.141753"
+        }
+      ],
+      "registered_cache_comparisons": [
+        {
+          "cache_packet": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SZ000563.json",
+            "sha256": "ab2e2b0cadddd1ba50edd1021d7d1aff90e508aaee40c9fc28fbe10370c45cfe"
+          },
+          "source_manifest": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/manifest.json",
+            "sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a"
+          },
+          "cache_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "comparisons": {
+            "bars": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 188,
+              "fresh_rows_in_window": 188,
+              "common_dates": 188,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 486,
+              "fresh_after_cache_end_rows": [
+                {
+                  "date": "2026-10-19",
+                  "code": "sz.000563",
+                  "open": "2.9400",
+                  "high": "2.9700",
+                  "low": "2.9300",
+                  "close": "2.9500",
+                  "preclose": "2.9500",
+                  "volume": "34479660",
+                  "amount": "101736620.4000",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                },
+                {
+                  "date": "2026-10-20",
+                  "code": "sz.000563",
+                  "open": "2.9500",
+                  "high": "2.9500",
+                  "low": "2.8900",
+                  "close": "2.9100",
+                  "preclose": "2.9400",
+                  "volume": "33898750",
+                  "amount": "98797018.5000",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "distributions": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 6,
+              "fresh_after_cache_end_rows": [],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "adjustments": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [
+                {
+                  "date": "2026-04-28",
+                  "field": "foreAdjustFactor",
+                  "cached": "1.000000",
+                  "fresh": "0.996610",
+                  "numeric_equal": false
+                }
+              ],
+              "numeric_unequal_field_count": 1,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 6,
+              "fresh_after_cache_end_rows": [
+                {
+                  "code": "sz.000563",
+                  "dividOperateDate": "2026-10-20",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "14.141753",
+                  "adjustFactor": "14.141753"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            }
+          }
+        },
+        {
+          "cache_packet": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-raw-full-20261017/codes/SZ000563.json",
+            "sha256": "beb90173a9cf9323cd3d9ea07554f1270da517b327cba295c1e87dc5385edcb3"
+          },
+          "source_manifest": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-raw-full-20261017/manifest.json",
+            "sha256": "3c02e2f9ed433f93e8419a26eaa1610d8c397fb79a5cc12ec871bfda75ecc897"
+          },
+          "cache_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "comparisons": {
+            "bars": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 188,
+              "fresh_rows_in_window": 188,
+              "common_dates": 188,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 486,
+              "fresh_after_cache_end_rows": [
+                {
+                  "date": "2026-10-19",
+                  "code": "sz.000563",
+                  "open": "2.9400",
+                  "high": "2.9700",
+                  "low": "2.9300",
+                  "close": "2.9500",
+                  "preclose": "2.9500",
+                  "volume": "34479660",
+                  "amount": "101736620.4000",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                },
+                {
+                  "date": "2026-10-20",
+                  "code": "sz.000563",
+                  "open": "2.9500",
+                  "high": "2.9500",
+                  "low": "2.8900",
+                  "close": "2.9100",
+                  "preclose": "2.9400",
+                  "volume": "33898750",
+                  "amount": "98797018.5000",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "distributions": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 6,
+              "fresh_after_cache_end_rows": [],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "adjustments": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [
+                {
+                  "date": "2026-04-28",
+                  "field": "foreAdjustFactor",
+                  "cached": "1.000000",
+                  "fresh": "0.996610",
+                  "numeric_equal": false
+                }
+              ],
+              "numeric_unequal_field_count": 1,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 6,
+              "fresh_after_cache_end_rows": [
+                {
+                  "code": "sz.000563",
+                  "dividOperateDate": "2026-10-20",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "14.141753",
+                  "adjustFactor": "14.141753"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            }
+          }
+        },
+        {
+          "cache_packet": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SZ000563.json",
+            "sha256": "8cc74ec9c6ceb661f018ad904ab1dd6af3ad3e8b2ed663fe57953971a14abe81"
+          },
+          "source_manifest": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/manifest.json",
+            "sha256": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc"
+          },
+          "cache_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "comparisons": {
+            "bars": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 188,
+              "fresh_rows_in_window": 188,
+              "common_dates": 188,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 486,
+              "fresh_after_cache_end_rows": [
+                {
+                  "date": "2026-10-19",
+                  "code": "sz.000563",
+                  "open": "2.9400",
+                  "high": "2.9700",
+                  "low": "2.9300",
+                  "close": "2.9500",
+                  "preclose": "2.9500",
+                  "volume": "34479660",
+                  "amount": "101736620.4000",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                },
+                {
+                  "date": "2026-10-20",
+                  "code": "sz.000563",
+                  "open": "2.9500",
+                  "high": "2.9500",
+                  "low": "2.8900",
+                  "close": "2.9100",
+                  "preclose": "2.9400",
+                  "volume": "33898750",
+                  "amount": "98797018.5000",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "distributions": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 6,
+              "fresh_after_cache_end_rows": [],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "adjustments": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [
+                {
+                  "date": "2026-04-28",
+                  "field": "foreAdjustFactor",
+                  "cached": "1.000000",
+                  "fresh": "0.996610",
+                  "numeric_equal": false
+                }
+              ],
+              "numeric_unequal_field_count": 1,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 6,
+              "fresh_after_cache_end_rows": [
+                {
+                  "code": "sz.000563",
+                  "dividOperateDate": "2026-10-20",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "14.141753",
+                  "adjustFactor": "14.141753"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            }
+          }
+        }
+      ]
+    },
+    "SZ000783": {
+      "error": {
+        "evidence": {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/errors/SZ000783.json",
+          "sha256": "2ab0bd254f7784b52aa74cc812e6ee0eee052007b0a71d3d95b65a422cf68e6a"
+        },
+        "contents": {
+          "instrument": "SZ000783",
+          "error_type": "ValueError",
+          "error": "registered cached corporate/adjustment conflict: adjustments",
+          "request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495",
+          "source_responses_retained": true
+        }
+      },
+      "fresh_queries": {
+        "daily": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ000783",
+            "component": "daily",
+            "parameters": {
+              "start_date": "2026-01-01",
+              "end_date": "2026-10-20",
+              "frequency": "d",
+              "adjustflag": "3"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/1eb5486285e3c98169f5fa7350998bb3322710103f3b1bda0a688a478e01850a/request.json",
+              "sha256": "071be387f305c7c0ea8b1a7410c1fde6bd0cad719903cb6825502a0c52a43e7d"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/1eb5486285e3c98169f5fa7350998bb3322710103f3b1bda0a688a478e01850a/reserved-1.json",
+              "sha256": "daf3856a70f7b0b96a1c6ea41808cc2ab2614c9e202cd0c86b7040dc3307d679"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/1eb5486285e3c98169f5fa7350998bb3322710103f3b1bda0a688a478e01850a/response-1.json",
+              "sha256": "0cefbf79d5239bcbbb5baee733618030ad45af57c558af494d013ddf89144dc0"
+            }
+          },
+          "row_count": 190
+        },
+        "adjustments": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ000783",
+            "component": "adjustments",
+            "parameters": {
+              "start_date": "2026-01-01",
+              "end_date": "2026-10-20"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/4c95819353f76fd413862befbd8ba902e93a53db63a8bb56c85e611e680818dd/request.json",
+              "sha256": "e032888b069bd3e5174c0f251e55bfbb1d28b34e49a3fa11daef34fe9f2bd2a6"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/4c95819353f76fd413862befbd8ba902e93a53db63a8bb56c85e611e680818dd/reserved-1.json",
+              "sha256": "8bfa5653cc1ee4a419c6cee4155c2f15ce9e51ce2b92b479e5002bfab385a6e6"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/4c95819353f76fd413862befbd8ba902e93a53db63a8bb56c85e611e680818dd/response-1.json",
+              "sha256": "b95a49227712d8d241902f7443a609e88b5e90542eebe6ed46f25caec945c5f4"
+            }
+          },
+          "row_count": 2
+        },
+        "dividend2026": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ000783",
+            "component": "dividend2026",
+            "parameters": {
+              "year": "2026",
+              "yearType": "operate"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/e4afd42d12694c95596cc090765d66bee554be50f845b36a107ac3b2a0b95c68/request.json",
+              "sha256": "7dda4ab74cc616fa8ef1649f72722caab9e4bc3c8cad4a79b800583a39a66c32"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/e4afd42d12694c95596cc090765d66bee554be50f845b36a107ac3b2a0b95c68/reserved-1.json",
+              "sha256": "04c8c47fe0f20a69be32b5ab4017c2074a4d66337e2941e6a0a35b3f8002f2fe"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/e4afd42d12694c95596cc090765d66bee554be50f845b36a107ac3b2a0b95c68/response-1.json",
+              "sha256": "05073e89f998148814ce6544312b78964b45dba97844c57ce30cf8907db6f879"
+            }
+          },
+          "row_count": 1
+        }
+      },
+      "fresh_2026_distribution_rows": [
+        {
+          "code": "sz.000783",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-05-23",
+          "dividPlanAnnounceDate": "2026-04-28",
+          "dividPlanDate": "2026-06-06",
+          "dividRegistDate": "2026-06-12",
+          "dividOperateDate": "2026-06-15",
+          "dividPayDate": "2026-06-15",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.3",
+          "dividCashPsAfterTax": "0.27或0.3",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派3元（含税，扣税后2.7或3元）",
+          "dividReserveToStockPs": ""
+        }
+      ],
+      "fresh_2026_adjustment_rows": [
+        {
+          "code": "sz.000783",
+          "dividOperateDate": "2026-06-15",
+          "foreAdjustFactor": "0.993464",
+          "backAdjustFactor": "5.915687",
+          "adjustFactor": "5.915687"
+        },
+        {
+          "code": "sz.000783",
+          "dividOperateDate": "2026-10-20",
+          "foreAdjustFactor": "1.000000",
+          "backAdjustFactor": "5.954606",
+          "adjustFactor": "5.954606"
+        }
+      ],
+      "registered_cache_comparisons": [
+        {
+          "cache_packet": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SZ000783.json",
+            "sha256": "b21e375cb4ce6d2eed2583c85ebb502278a54aac670d6761098ab4d7f180f91b"
+          },
+          "source_manifest": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/manifest.json",
+            "sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a"
+          },
+          "cache_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "comparisons": {
+            "bars": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 188,
+              "fresh_rows_in_window": 188,
+              "common_dates": 188,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 486,
+              "fresh_after_cache_end_rows": [
+                {
+                  "date": "2026-10-19",
+                  "code": "sz.000783",
+                  "open": "7.5800",
+                  "high": "7.7000",
+                  "low": "7.5400",
+                  "close": "7.6500",
+                  "preclose": "7.6700",
+                  "volume": "43772100",
+                  "amount": "333440730.4300",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                },
+                {
+                  "date": "2026-10-20",
+                  "code": "sz.000783",
+                  "open": "7.6000",
+                  "high": "7.6500",
+                  "low": "7.5000",
+                  "close": "7.5600",
+                  "preclose": "7.6000",
+                  "volume": "50160261",
+                  "amount": "379421789.8900",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "distributions": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 2,
+              "fresh_after_cache_end_rows": [],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "adjustments": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [
+                {
+                  "date": "2026-06-15",
+                  "field": "foreAdjustFactor",
+                  "cached": "1.000000",
+                  "fresh": "0.993464",
+                  "numeric_equal": false
+                }
+              ],
+              "numeric_unequal_field_count": 1,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 2,
+              "fresh_after_cache_end_rows": [
+                {
+                  "code": "sz.000783",
+                  "dividOperateDate": "2026-10-20",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "5.954606",
+                  "adjustFactor": "5.954606"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            }
+          }
+        },
+        {
+          "cache_packet": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-raw-full-20261017/codes/SZ000783.json",
+            "sha256": "5cd0dc3554f33523e2fe4d5621eb11cd090dcd2d1c119dc2e63fad71fe1d20f6"
+          },
+          "source_manifest": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-raw-full-20261017/manifest.json",
+            "sha256": "3c02e2f9ed433f93e8419a26eaa1610d8c397fb79a5cc12ec871bfda75ecc897"
+          },
+          "cache_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "comparisons": {
+            "bars": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 188,
+              "fresh_rows_in_window": 188,
+              "common_dates": 188,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 486,
+              "fresh_after_cache_end_rows": [
+                {
+                  "date": "2026-10-19",
+                  "code": "sz.000783",
+                  "open": "7.5800",
+                  "high": "7.7000",
+                  "low": "7.5400",
+                  "close": "7.6500",
+                  "preclose": "7.6700",
+                  "volume": "43772100",
+                  "amount": "333440730.4300",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                },
+                {
+                  "date": "2026-10-20",
+                  "code": "sz.000783",
+                  "open": "7.6000",
+                  "high": "7.6500",
+                  "low": "7.5000",
+                  "close": "7.5600",
+                  "preclose": "7.6000",
+                  "volume": "50160261",
+                  "amount": "379421789.8900",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "distributions": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 2,
+              "fresh_after_cache_end_rows": [],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "adjustments": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [
+                {
+                  "date": "2026-06-15",
+                  "field": "foreAdjustFactor",
+                  "cached": "1.000000",
+                  "fresh": "0.993464",
+                  "numeric_equal": false
+                }
+              ],
+              "numeric_unequal_field_count": 1,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 2,
+              "fresh_after_cache_end_rows": [
+                {
+                  "code": "sz.000783",
+                  "dividOperateDate": "2026-10-20",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "5.954606",
+                  "adjustFactor": "5.954606"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            }
+          }
+        }
+      ]
+    },
+    "SZ002608": {
+      "error": {
+        "evidence": {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/errors/SZ002608.json",
+          "sha256": "dae1fa819f73591fabe9ee5b981e8924ccd705ce38f5a776fc94d1642ca3c918"
+        },
+        "contents": {
+          "instrument": "SZ002608",
+          "error_type": "ValueError",
+          "error": "registered cached corporate/adjustment conflict: adjustments",
+          "request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495",
+          "source_responses_retained": true
+        }
+      },
+      "fresh_queries": {
+        "daily": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ002608",
+            "component": "daily",
+            "parameters": {
+              "start_date": "2026-01-01",
+              "end_date": "2026-10-20",
+              "frequency": "d",
+              "adjustflag": "3"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/02022ebc2b40c67ab594b5863d00d8e1e4f816cb98884a893cbab1d76d1f3253/request.json",
+              "sha256": "1ec5614c808debc45574171d47b0fefeb9c2811c1799f0cd8ca885eda6f8a7db"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/02022ebc2b40c67ab594b5863d00d8e1e4f816cb98884a893cbab1d76d1f3253/reserved-1.json",
+              "sha256": "366925256499f0d848ab6767b956d265550037bd55bcf2146f30039f4ddcd68a"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/02022ebc2b40c67ab594b5863d00d8e1e4f816cb98884a893cbab1d76d1f3253/response-1.json",
+              "sha256": "2294e0fb73bc4ac36fe86b2f1afc6242a2bd0f9c1496e711eb0aa52f47b10f80"
+            }
+          },
+          "row_count": 190
+        },
+        "adjustments": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ002608",
+            "component": "adjustments",
+            "parameters": {
+              "start_date": "2026-01-01",
+              "end_date": "2026-10-20"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/8bfc5075475c0277b8b4d05addedc6bd50e577ec837a9df66204b23f48f0be02/request.json",
+              "sha256": "bf89dbd8bf0923121701aceb65430c95ba692300d5ae7466a28bce35af4c6aa9"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/8bfc5075475c0277b8b4d05addedc6bd50e577ec837a9df66204b23f48f0be02/reserved-1.json",
+              "sha256": "5349efa621d736e9713d63b14c5a717a74003160c2a4271ed99bc5dd419a81e0"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/8bfc5075475c0277b8b4d05addedc6bd50e577ec837a9df66204b23f48f0be02/response-1.json",
+              "sha256": "9d8e9cc557c73679c42c9130a72f26b6143a349e24d555258b01e775bbe6791b"
+            }
+          },
+          "row_count": 2
+        },
+        "dividend2026": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ002608",
+            "component": "dividend2026",
+            "parameters": {
+              "year": "2026",
+              "yearType": "operate"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/a7a8fdb17e6db95735ad5b28b710e1303ded2537a720d38e35a725395df515b3/request.json",
+              "sha256": "b68222110e1ccf8d368609d1acd50d592d4cc5814eca8a4f5010a7445c3bba8e"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/a7a8fdb17e6db95735ad5b28b710e1303ded2537a720d38e35a725395df515b3/reserved-1.json",
+              "sha256": "b1c55f36c199e4167e7bad66be3d3e3d9880ecc15d8f3b1485fb43c6515186c4"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/a7a8fdb17e6db95735ad5b28b710e1303ded2537a720d38e35a725395df515b3/response-1.json",
+              "sha256": "0913f4423550829d180f705cd90a47617c81a26305017702a4590ceadfb23cc3"
+            }
+          },
+          "row_count": 1
+        }
+      },
+      "fresh_2026_distribution_rows": [
+        {
+          "code": "sz.002608",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-05-16",
+          "dividPlanAnnounceDate": "2026-04-21",
+          "dividPlanDate": "2026-07-08",
+          "dividRegistDate": "2026-07-13",
+          "dividOperateDate": "2026-07-14",
+          "dividPayDate": "2026-07-14",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.13",
+          "dividCashPsAfterTax": "0.117或0.13",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派1.3元（含税，扣税后1.17或1.3元）",
+          "dividReserveToStockPs": ""
+        }
+      ],
+      "fresh_2026_adjustment_rows": [
+        {
+          "code": "sz.002608",
+          "dividOperateDate": "2026-07-14",
+          "foreAdjustFactor": "0.993151",
+          "backAdjustFactor": "2.849199",
+          "adjustFactor": "2.849199"
+        },
+        {
+          "code": "sz.002608",
+          "dividOperateDate": "2026-10-19",
+          "foreAdjustFactor": "1.000000",
+          "backAdjustFactor": "2.868849",
+          "adjustFactor": "2.868849"
+        }
+      ],
+      "registered_cache_comparisons": [
+        {
+          "cache_packet": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SZ002608.json",
+            "sha256": "de85cba87ec35b16130bca60fd2f2ac484e35e3d28a1d0101b5c9c551953dfab"
+          },
+          "source_manifest": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/manifest.json",
+            "sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a"
+          },
+          "cache_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "comparisons": {
+            "bars": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 188,
+              "fresh_rows_in_window": 188,
+              "common_dates": 188,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 486,
+              "fresh_after_cache_end_rows": [
+                {
+                  "date": "2026-10-19",
+                  "code": "sz.002608",
+                  "open": "7.1800",
+                  "high": "7.2800",
+                  "low": "7.1100",
+                  "close": "7.2500",
+                  "preclose": "7.2500",
+                  "volume": "13823695",
+                  "amount": "99749022.1500",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                },
+                {
+                  "date": "2026-10-20",
+                  "code": "sz.002608",
+                  "open": "7.2400",
+                  "high": "7.2700",
+                  "low": "7.0700",
+                  "close": "7.1100",
+                  "preclose": "7.2500",
+                  "volume": "14477110",
+                  "amount": "103125795.4000",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "distributions": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 2,
+              "fresh_after_cache_end_rows": [],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "adjustments": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [
+                {
+                  "date": "2026-07-14",
+                  "field": "foreAdjustFactor",
+                  "cached": "1.000000",
+                  "fresh": "0.993151",
+                  "numeric_equal": false
+                }
+              ],
+              "numeric_unequal_field_count": 1,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 2,
+              "fresh_after_cache_end_rows": [
+                {
+                  "code": "sz.002608",
+                  "dividOperateDate": "2026-10-19",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "2.868849",
+                  "adjustFactor": "2.868849"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            }
+          }
+        },
+        {
+          "cache_packet": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-raw-full-20261017/codes/SZ002608.json",
+            "sha256": "e9516b01c9d4b0b11bf0f63badfdd933f0b27ef5d521397b68f0840dc7f6088d"
+          },
+          "source_manifest": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-raw-full-20261017/manifest.json",
+            "sha256": "3c02e2f9ed433f93e8419a26eaa1610d8c397fb79a5cc12ec871bfda75ecc897"
+          },
+          "cache_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "comparisons": {
+            "bars": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 188,
+              "fresh_rows_in_window": 188,
+              "common_dates": 188,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 486,
+              "fresh_after_cache_end_rows": [
+                {
+                  "date": "2026-10-19",
+                  "code": "sz.002608",
+                  "open": "7.1800",
+                  "high": "7.2800",
+                  "low": "7.1100",
+                  "close": "7.2500",
+                  "preclose": "7.2500",
+                  "volume": "13823695",
+                  "amount": "99749022.1500",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                },
+                {
+                  "date": "2026-10-20",
+                  "code": "sz.002608",
+                  "open": "7.2400",
+                  "high": "7.2700",
+                  "low": "7.0700",
+                  "close": "7.1100",
+                  "preclose": "7.2500",
+                  "volume": "14477110",
+                  "amount": "103125795.4000",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "distributions": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 2,
+              "fresh_after_cache_end_rows": [],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "adjustments": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [
+                {
+                  "date": "2026-07-14",
+                  "field": "foreAdjustFactor",
+                  "cached": "1.000000",
+                  "fresh": "0.993151",
+                  "numeric_equal": false
+                }
+              ],
+              "numeric_unequal_field_count": 1,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 2,
+              "fresh_after_cache_end_rows": [
+                {
+                  "code": "sz.002608",
+                  "dividOperateDate": "2026-10-19",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "2.868849",
+                  "adjustFactor": "2.868849"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            }
+          }
+        },
+        {
+          "cache_packet": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SZ002608.json",
+            "sha256": "b7e732add1d0a10094dbfaf4f194ea6d1514cd4bf8bd78ff22a43c3ec11c6fd5"
+          },
+          "source_manifest": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/manifest.json",
+            "sha256": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc"
+          },
+          "cache_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "comparisons": {
+            "bars": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 188,
+              "fresh_rows_in_window": 188,
+              "common_dates": 188,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 486,
+              "fresh_after_cache_end_rows": [
+                {
+                  "date": "2026-10-19",
+                  "code": "sz.002608",
+                  "open": "7.1800",
+                  "high": "7.2800",
+                  "low": "7.1100",
+                  "close": "7.2500",
+                  "preclose": "7.2500",
+                  "volume": "13823695",
+                  "amount": "99749022.1500",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                },
+                {
+                  "date": "2026-10-20",
+                  "code": "sz.002608",
+                  "open": "7.2400",
+                  "high": "7.2700",
+                  "low": "7.0700",
+                  "close": "7.1100",
+                  "preclose": "7.2500",
+                  "volume": "14477110",
+                  "amount": "103125795.4000",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "distributions": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 2,
+              "fresh_after_cache_end_rows": [],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "adjustments": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [
+                {
+                  "date": "2026-07-14",
+                  "field": "foreAdjustFactor",
+                  "cached": "1.000000",
+                  "fresh": "0.993151",
+                  "numeric_equal": false
+                }
+              ],
+              "numeric_unequal_field_count": 1,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 2,
+              "fresh_after_cache_end_rows": [
+                {
+                  "code": "sz.002608",
+                  "dividOperateDate": "2026-10-19",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "2.868849",
+                  "adjustFactor": "2.868849"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            }
+          }
+        }
+      ]
+    },
+    "SZ002756": {
+      "error": {
+        "evidence": {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/errors/SZ002756.json",
+          "sha256": "377d1c508f5e4bb12f91648c038e1ebe4d78956ed7f5b93ad072d3efd604a853"
+        },
+        "contents": {
+          "instrument": "SZ002756",
+          "error_type": "ValueError",
+          "error": "registered cached corporate/adjustment conflict: adjustments",
+          "request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495",
+          "source_responses_retained": true
+        }
+      },
+      "fresh_queries": {
+        "adjustments": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ002756",
+            "component": "adjustments",
+            "parameters": {
+              "start_date": "2026-01-01",
+              "end_date": "2026-10-20"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/3a7da565bb3d6aa9be85440ed5b6f8a68f1c952bb30dbe43cd48ae4aed2f5cd9/request.json",
+              "sha256": "28460d6b4778440edba2801f0cd0033576937a525ab5e40a4c06ca5575046816"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/3a7da565bb3d6aa9be85440ed5b6f8a68f1c952bb30dbe43cd48ae4aed2f5cd9/reserved-1.json",
+              "sha256": "9039323649c5a9b34973d347e42f337384875c388ac288d86daddaa34d1e0dc6"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/3a7da565bb3d6aa9be85440ed5b6f8a68f1c952bb30dbe43cd48ae4aed2f5cd9/response-1.json",
+              "sha256": "3b351aa26ff07ac1388b9a95e93ed662e27fc70187d184790634fc6349283934"
+            }
+          },
+          "row_count": 2
+        },
+        "dividend2026": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ002756",
+            "component": "dividend2026",
+            "parameters": {
+              "year": "2026",
+              "yearType": "operate"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/5cea56097e9721aef2e80cbbdc5120e31b72c5738c6a9976463da824e635b848/request.json",
+              "sha256": "515d9ec8f432b5e14965058c4154890951d7b51cef0c7ece5ed3bde013e405fb"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/5cea56097e9721aef2e80cbbdc5120e31b72c5738c6a9976463da824e635b848/reserved-1.json",
+              "sha256": "56286bf1fb7dac840ffb0481b083fef5bc2bc09a4c1c8ba08df60bf10c9f9800"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/5cea56097e9721aef2e80cbbdc5120e31b72c5738c6a9976463da824e635b848/response-1.json",
+              "sha256": "f3dc5cb7faaac51386eaa9541c3f8810d4fff1a18bc58c84b8e23a6b78cb6cbc"
+            }
+          },
+          "row_count": 1
+        },
+        "daily": {
+          "identity": {
+            "source": "BaoStock",
+            "instrument": "SZ002756",
+            "component": "daily",
+            "parameters": {
+              "start_date": "2026-01-01",
+              "end_date": "2026-10-20",
+              "frequency": "d",
+              "adjustflag": "3"
+            },
+            "composite_raw_extension_request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495"
+          },
+          "evidence": {
+            "request.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/7a7bf72f0b8f518d10000e59a58253d83414a6cb07e194821130a371b4676bce/request.json",
+              "sha256": "fb6a32df9266549c8b8d8f3ea9a77994b700ed9afbc6b5f58a5ae0a597e1fa3d"
+            },
+            "reserved-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/7a7bf72f0b8f518d10000e59a58253d83414a6cb07e194821130a371b4676bce/reserved-1.json",
+              "sha256": "416a2ae96ae8e4c565f9855d252f7b1e630078550b31c3218eb7ddf226c89abb"
+            },
+            "response-1.json": {
+              "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/queries/7a7bf72f0b8f518d10000e59a58253d83414a6cb07e194821130a371b4676bce/response-1.json",
+              "sha256": "0e3cb602b9428645936db4e2f42713192a0b5f47d9260b0e7158b9403ac36a2f"
+            }
+          },
+          "row_count": 190
+        }
+      },
+      "fresh_2026_distribution_rows": [
+        {
+          "code": "sz.002756",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-05-20",
+          "dividPlanAnnounceDate": "2026-04-28",
+          "dividPlanDate": "2026-05-22",
+          "dividRegistDate": "2026-05-28",
+          "dividOperateDate": "2026-05-29",
+          "dividPayDate": "2026-05-29",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.4",
+          "dividCashPsAfterTax": "0.36或0.4",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派4元（含税，扣税后3.6或4元）",
+          "dividReserveToStockPs": ""
+        }
+      ],
+      "fresh_2026_adjustment_rows": [
+        {
+          "code": "sz.002756",
+          "dividOperateDate": "2026-05-29",
+          "foreAdjustFactor": "0.991611",
+          "backAdjustFactor": "3.211166",
+          "adjustFactor": "3.211166"
+        },
+        {
+          "code": "sz.002756",
+          "dividOperateDate": "2026-10-20",
+          "foreAdjustFactor": "1.000000",
+          "backAdjustFactor": "3.238333",
+          "adjustFactor": "3.238333"
+        }
+      ],
+      "registered_cache_comparisons": [
+        {
+          "cache_packet": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-raw-full-20261017/codes/SZ002756.json",
+            "sha256": "594bfe14f8459e8e3bd88b2e31a90228be27222a66a6c8417fd9739de34adab4"
+          },
+          "source_manifest": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-raw-full-20261017/manifest.json",
+            "sha256": "3c02e2f9ed433f93e8419a26eaa1610d8c397fb79a5cc12ec871bfda75ecc897"
+          },
+          "cache_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "comparisons": {
+            "bars": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 188,
+              "fresh_rows_in_window": 188,
+              "common_dates": 188,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 486,
+              "fresh_after_cache_end_rows": [
+                {
+                  "date": "2026-10-19",
+                  "code": "sz.002756",
+                  "open": "35.5900",
+                  "high": "36.0600",
+                  "low": "35.3600",
+                  "close": "35.7600",
+                  "preclose": "35.7600",
+                  "volume": "5695255",
+                  "amount": "203323962.3800",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                },
+                {
+                  "date": "2026-10-20",
+                  "code": "sz.002756",
+                  "open": "35.3600",
+                  "high": "36.0700",
+                  "low": "35.0500",
+                  "close": "35.8900",
+                  "preclose": "35.4600",
+                  "volume": "6618892",
+                  "amount": "236029280.8600",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "distributions": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 4,
+              "fresh_after_cache_end_rows": [],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "adjustments": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [
+                {
+                  "date": "2026-05-29",
+                  "field": "foreAdjustFactor",
+                  "cached": "1.000000",
+                  "fresh": "0.991611",
+                  "numeric_equal": false
+                }
+              ],
+              "numeric_unequal_field_count": 1,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 4,
+              "fresh_after_cache_end_rows": [
+                {
+                  "code": "sz.002756",
+                  "dividOperateDate": "2026-10-20",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "3.238333",
+                  "adjustFactor": "3.238333"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            }
+          }
+        },
+        {
+          "cache_packet": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SZ002756.json",
+            "sha256": "2fa4a1a324041fb6b95af36e6cf92607bf58256c85e4d325795fff36e5c3235e"
+          },
+          "source_manifest": {
+            "path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/manifest.json",
+            "sha256": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc"
+          },
+          "cache_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "comparisons": {
+            "bars": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 188,
+              "fresh_rows_in_window": 188,
+              "common_dates": 188,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 486,
+              "fresh_after_cache_end_rows": [
+                {
+                  "date": "2026-10-19",
+                  "code": "sz.002756",
+                  "open": "35.5900",
+                  "high": "36.0600",
+                  "low": "35.3600",
+                  "close": "35.7600",
+                  "preclose": "35.7600",
+                  "volume": "5695255",
+                  "amount": "203323962.3800",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                },
+                {
+                  "date": "2026-10-20",
+                  "code": "sz.002756",
+                  "open": "35.3600",
+                  "high": "36.0700",
+                  "low": "35.0500",
+                  "close": "35.8900",
+                  "preclose": "35.4600",
+                  "volume": "6618892",
+                  "amount": "236029280.8600",
+                  "adjustflag": "3",
+                  "tradestatus": "1",
+                  "isST": "0"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "distributions": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [],
+              "numeric_unequal_field_count": 0,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 4,
+              "fresh_after_cache_end_rows": [],
+              "fresh_after_capture_cutoff_rows": []
+            },
+            "adjustments": {
+              "comparison_window": [
+                "2026-01-01",
+                "2026-10-16"
+              ],
+              "cached_rows_in_window": 1,
+              "fresh_rows_in_window": 1,
+              "common_dates": 1,
+              "string_field_differences": [
+                {
+                  "date": "2026-05-29",
+                  "field": "foreAdjustFactor",
+                  "cached": "1.000000",
+                  "fresh": "0.991611",
+                  "numeric_equal": false
+                }
+              ],
+              "numeric_unequal_field_count": 1,
+              "numeric_equal_format_only_count": 0,
+              "nonnumeric_changed_field_count": 0,
+              "cached_only_rows": [],
+              "fresh_only_rows": [],
+              "cached_pre2026_outside_fresh_query_count": 4,
+              "fresh_after_cache_end_rows": [
+                {
+                  "code": "sz.002756",
+                  "dividOperateDate": "2026-10-20",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "3.238333",
+                  "adjustFactor": "3.238333"
+                }
+              ],
+              "fresh_after_capture_cutoff_rows": []
+            }
+          }
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Only independently compared retained provider-decoded source records, not primary issuer notices or market tape.",
+    "No adjustment-factor economic interpretation, corporate-action alias, event entitlement, timing, tax, PIT, account admission or ROI is certified.",
+    "Fresh requests cover 2026 only; pre2026 rows have no fresh requery and cannot establish how current vendor values for those dates may have changed.",
+    "Observed differences do not authorize modifying the frozen guard or accepting/reassembling failed packets."
+  ],
+  "new_network_calls": 0,
+  "portfolio_returns_computed": false,
+  "source_admitted_for_account": false,
+  "original_files_modified": false,
+  "current_frozen_method_public_local_bindings_rechecked": {
+    "method_code_sha256": 8,
+    "public_evidence_sha256": 7,
+    "local_source_sha256": 7
+  },
+  "summary_table": [
+    {
+      "instrument": "SZ000563",
+      "registered_cache_packets_compared": 3,
+      "common_2026_daily_rows_per_cache": 188,
+      "all_daily_fields_string_exact": true,
+      "existing_distribution_all_fields_string_exact": true,
+      "old_adjustment_date": "2026-04-28",
+      "old_foreAdjustFactor": "1.000000",
+      "fresh_foreAdjustFactor": "0.996610",
+      "fore_change_is_numeric_not_format": true,
+      "common_backAdjustFactor_unchanged": "14.093815",
+      "common_adjustFactor_unchanged": "14.093815",
+      "new_adjustment_row": {
+        "code": "sz.000563",
+        "dividOperateDate": "2026-10-20",
+        "foreAdjustFactor": "1.000000",
+        "backAdjustFactor": "14.141753",
+        "adjustFactor": "14.141753"
+      },
+      "new_adjustment_date_has_fresh_distribution_row": false,
+      "new_daily_rows": [
+        "2026-10-19",
+        "2026-10-20"
+      ]
+    },
+    {
+      "instrument": "SZ000783",
+      "registered_cache_packets_compared": 2,
+      "common_2026_daily_rows_per_cache": 188,
+      "all_daily_fields_string_exact": true,
+      "existing_distribution_all_fields_string_exact": true,
+      "old_adjustment_date": "2026-06-15",
+      "old_foreAdjustFactor": "1.000000",
+      "fresh_foreAdjustFactor": "0.993464",
+      "fore_change_is_numeric_not_format": true,
+      "common_backAdjustFactor_unchanged": "5.915687",
+      "common_adjustFactor_unchanged": "5.915687",
+      "new_adjustment_row": {
+        "code": "sz.000783",
+        "dividOperateDate": "2026-10-20",
+        "foreAdjustFactor": "1.000000",
+        "backAdjustFactor": "5.954606",
+        "adjustFactor": "5.954606"
+      },
+      "new_adjustment_date_has_fresh_distribution_row": false,
+      "new_daily_rows": [
+        "2026-10-19",
+        "2026-10-20"
+      ]
+    },
+    {
+      "instrument": "SZ002608",
+      "registered_cache_packets_compared": 3,
+      "common_2026_daily_rows_per_cache": 188,
+      "all_daily_fields_string_exact": true,
+      "existing_distribution_all_fields_string_exact": true,
+      "old_adjustment_date": "2026-07-14",
+      "old_foreAdjustFactor": "1.000000",
+      "fresh_foreAdjustFactor": "0.993151",
+      "fore_change_is_numeric_not_format": true,
+      "common_backAdjustFactor_unchanged": "2.849199",
+      "common_adjustFactor_unchanged": "2.849199",
+      "new_adjustment_row": {
+        "code": "sz.002608",
+        "dividOperateDate": "2026-10-19",
+        "foreAdjustFactor": "1.000000",
+        "backAdjustFactor": "2.868849",
+        "adjustFactor": "2.868849"
+      },
+      "new_adjustment_date_has_fresh_distribution_row": false,
+      "new_daily_rows": [
+        "2026-10-19",
+        "2026-10-20"
+      ]
+    },
+    {
+      "instrument": "SZ002756",
+      "registered_cache_packets_compared": 2,
+      "common_2026_daily_rows_per_cache": 188,
+      "all_daily_fields_string_exact": true,
+      "existing_distribution_all_fields_string_exact": true,
+      "old_adjustment_date": "2026-05-29",
+      "old_foreAdjustFactor": "1.000000",
+      "fresh_foreAdjustFactor": "0.991611",
+      "fore_change_is_numeric_not_format": true,
+      "common_backAdjustFactor_unchanged": "3.211166",
+      "common_adjustFactor_unchanged": "3.211166",
+      "new_adjustment_row": {
+        "code": "sz.002756",
+        "dividOperateDate": "2026-10-20",
+        "foreAdjustFactor": "1.000000",
+        "backAdjustFactor": "3.238333",
+        "adjustFactor": "3.238333"
+      },
+      "new_adjustment_date_has_fresh_distribution_row": false,
+      "new_daily_rows": [
+        "2026-10-19",
+        "2026-10-20"
+      ]
+    }
+  ],
+  "conclusions": [
+    "All ten registered cache comparisons agree: 188 common 2026 daily records per cache are exact in every returned field, including raw OHLC/preclose, share volume, amount and status.",
+    "Each instrument has one existing 2026 distribution, unchanged in every field including cash strings, dates and stock/reserve ratios; fresh dividend responses contain no additional rows.",
+    "Each instrument has exactly one common 2026 adjustment record with a genuinely numeric foreAdjustFactor change. Its code, event date, backAdjustFactor and adjustFactor are unchanged. No shared-window adjustment was added or removed.",
+    "Each fresh adjustment response also has exactly one row beyond the old Oct16 cutoff: SZ002608 Oct19; the other three Oct20. These are source adjustment records, not independently certified new corporate-action entitlements.",
+    "A forward-factor rebasing interpretation is consistent with this pattern but its cause and corporate-action meaning are unverified; no back/adjust/cash/date revision was observed on common 2026 rows.",
+    "All 362 query identity/reservation/response/payload checksum chains verify. All four source-guard errors remain present and unchanged; no failed packet was admitted or reassembled."
+  ],
+  "inspection_script": {
+    "path": "/tmp/szse-value-momentum-four-conflicts-inspect.py",
+    "sha256": "2f8f6d4c64f8b2213033398ca3c64b00d5d85a0bbdb7f31f9c5004739f845670"
+  }
+}

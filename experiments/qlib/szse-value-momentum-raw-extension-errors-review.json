@@ -1,0 +1,508 @@
+{
+  "status": "FOUR_REGISTERED_ADJUSTMENT_CONFLICT_REJECTIONS_INDEPENDENTLY_REPRODUCED_NO_OVERRIDE",
+  "review_code_sha256": "f1a5d6d74c14f5e7ca0444b3f5fa3bd726a458dd31af57a83082b5be9ba64f2c",
+  "frozen_capture_auditor_sha256": "51665d7da4cf9f15f4cdd355319206ab2c2970081c6b5ba4b17e73c3a00482ed",
+  "main_audit_sha256": "0b24139aab74b1e276c8b9a897c48c9eccbe189befc6d99c67cabfba76354f8e",
+  "capture_manifest_sha256": "30a072f17206a557391b895935bd621ffdf4c97470df5790c0b78440cf319c70",
+  "request_sha256": "b8f0974b71414f00e916068f8f417b55a971824b26c90d1221782938190e8495",
+  "all362_SDK_responses_successful": true,
+  "four_error_rejections_reproduced": true,
+  "errors": {
+    "SZ000563": {
+      "original_error_sha256": "b7d08f669fa358bdc5b8d44729bd9b028effc139da210668f939f1ea5692e04f",
+      "query_components": [
+        "daily",
+        "dividend2026",
+        "adjustments"
+      ],
+      "all_SDK_error_codes_zero": true,
+      "raw_window_coverage_and_source_arithmetic_passed": true,
+      "original_pre2026_records_exact": true,
+      "registered_cache_adjustment_rejection_independently_reproduced": true,
+      "rejected_packet_not_persisted": true,
+      "fresh_source_projection_digest": "d62c773a6abcfb36f3130f1b7d6f8b73f8259df677f7f914e911e01c6106d91a",
+      "source_assembly_digest_for_comparison_only": "6a4d45d500d2515cd006393c2bcc1cfafd516469eaac6e81ea270c1f5cd3bd14",
+      "registered_cache_comparisons": [
+        {
+          "source_directory": "low-risk-raw-account-data-20261017",
+          "source_packet_sha256": "ab2e2b0cadddd1ba50edd1021d7d1aff90e508aaee40c9fc28fbe10370c45cfe",
+          "common_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "common_financial_bar_days": 674,
+          "common_day_financial_core_equal": true,
+          "corporate_comparisons": {
+            "distributions": {
+              "equal": true,
+              "fresh_common_row_set_sha256": "eada1e7490af3f9139ffe39362bd680eedf7933f038bb46c19c4966f3c98a9ad",
+              "cache_common_row_set_sha256": "eada1e7490af3f9139ffe39362bd680eedf7933f038bb46c19c4966f3c98a9ad",
+              "fresh_only_rows": [],
+              "cache_only_rows": []
+            },
+            "adjustments": {
+              "equal": false,
+              "fresh_common_row_set_sha256": "aee0c8a53204f2fc2cbcadc39913e3579eb528ef0c8a4597fc8869fc192eefb9",
+              "cache_common_row_set_sha256": "ed7f1c79aed23186147437b7147ebf4a89c87fba2d74801c73e6b117c252c7fa",
+              "fresh_only_rows": [
+                {
+                  "code": "sz.000563",
+                  "dividOperateDate": "2026-04-28",
+                  "foreAdjustFactor": "0.996610",
+                  "backAdjustFactor": "14.093815",
+                  "adjustFactor": "14.093815"
+                }
+              ],
+              "cache_only_rows": [
+                {
+                  "code": "sz.000563",
+                  "dividOperateDate": "2026-04-28",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "14.093815",
+                  "adjustFactor": "14.093815"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "source_directory": "szse-value-raw-full-20261017",
+          "source_packet_sha256": "beb90173a9cf9323cd3d9ea07554f1270da517b327cba295c1e87dc5385edcb3",
+          "common_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "common_financial_bar_days": 674,
+          "common_day_financial_core_equal": true,
+          "corporate_comparisons": {
+            "distributions": {
+              "equal": true,
+              "fresh_common_row_set_sha256": "eada1e7490af3f9139ffe39362bd680eedf7933f038bb46c19c4966f3c98a9ad",
+              "cache_common_row_set_sha256": "eada1e7490af3f9139ffe39362bd680eedf7933f038bb46c19c4966f3c98a9ad",
+              "fresh_only_rows": [],
+              "cache_only_rows": []
+            },
+            "adjustments": {
+              "equal": false,
+              "fresh_common_row_set_sha256": "aee0c8a53204f2fc2cbcadc39913e3579eb528ef0c8a4597fc8869fc192eefb9",
+              "cache_common_row_set_sha256": "ed7f1c79aed23186147437b7147ebf4a89c87fba2d74801c73e6b117c252c7fa",
+              "fresh_only_rows": [
+                {
+                  "code": "sz.000563",
+                  "dividOperateDate": "2026-04-28",
+                  "foreAdjustFactor": "0.996610",
+                  "backAdjustFactor": "14.093815",
+                  "adjustFactor": "14.093815"
+                }
+              ],
+              "cache_only_rows": [
+                {
+                  "code": "sz.000563",
+                  "dividOperateDate": "2026-04-28",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "14.093815",
+                  "adjustFactor": "14.093815"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "source_directory": "reversal-raw-full-20261017",
+          "source_packet_sha256": "8cc74ec9c6ceb661f018ad904ab1dd6af3ad3e8b2ed663fe57953971a14abe81",
+          "common_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "common_financial_bar_days": 674,
+          "common_day_financial_core_equal": true,
+          "corporate_comparisons": {
+            "distributions": {
+              "equal": true,
+              "fresh_common_row_set_sha256": "eada1e7490af3f9139ffe39362bd680eedf7933f038bb46c19c4966f3c98a9ad",
+              "cache_common_row_set_sha256": "eada1e7490af3f9139ffe39362bd680eedf7933f038bb46c19c4966f3c98a9ad",
+              "fresh_only_rows": [],
+              "cache_only_rows": []
+            },
+            "adjustments": {
+              "equal": false,
+              "fresh_common_row_set_sha256": "aee0c8a53204f2fc2cbcadc39913e3579eb528ef0c8a4597fc8869fc192eefb9",
+              "cache_common_row_set_sha256": "ed7f1c79aed23186147437b7147ebf4a89c87fba2d74801c73e6b117c252c7fa",
+              "fresh_only_rows": [
+                {
+                  "code": "sz.000563",
+                  "dividOperateDate": "2026-04-28",
+                  "foreAdjustFactor": "0.996610",
+                  "backAdjustFactor": "14.093815",
+                  "adjustFactor": "14.093815"
+                }
+              ],
+              "cache_only_rows": [
+                {
+                  "code": "sz.000563",
+                  "dividOperateDate": "2026-04-28",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "14.093815",
+                  "adjustFactor": "14.093815"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "SZ000783": {
+      "original_error_sha256": "2ab0bd254f7784b52aa74cc812e6ee0eee052007b0a71d3d95b65a422cf68e6a",
+      "query_components": [
+        "daily",
+        "dividend2026",
+        "adjustments"
+      ],
+      "all_SDK_error_codes_zero": true,
+      "raw_window_coverage_and_source_arithmetic_passed": true,
+      "original_pre2026_records_exact": true,
+      "registered_cache_adjustment_rejection_independently_reproduced": true,
+      "rejected_packet_not_persisted": true,
+      "fresh_source_projection_digest": "7ccc4559e728b9c06ffc1b44eda092edead9c6f5f821a3610b477f9ac9cc1582",
+      "source_assembly_digest_for_comparison_only": "e52f65e7a42f7e576983567f3a8f01ce07d9b8b1cc5f09c3a95a9c5f98826638",
+      "registered_cache_comparisons": [
+        {
+          "source_directory": "low-risk-raw-account-data-20261017",
+          "source_packet_sha256": "b21e375cb4ce6d2eed2583c85ebb502278a54aac670d6761098ab4d7f180f91b",
+          "common_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "common_financial_bar_days": 674,
+          "common_day_financial_core_equal": true,
+          "corporate_comparisons": {
+            "distributions": {
+              "equal": true,
+              "fresh_common_row_set_sha256": "2895cd02ea0e18191f8045e3908eb2cf7dcf76e8b69da2cd13779f82c9ca9311",
+              "cache_common_row_set_sha256": "2895cd02ea0e18191f8045e3908eb2cf7dcf76e8b69da2cd13779f82c9ca9311",
+              "fresh_only_rows": [],
+              "cache_only_rows": []
+            },
+            "adjustments": {
+              "equal": false,
+              "fresh_common_row_set_sha256": "9477efa045de557b325202c6cfd2043138261d7d014148da55feda0f8203cede",
+              "cache_common_row_set_sha256": "4cebd0a9271205f1936272b49777ea453fed970c3208fdf92c7071d16e5ecb55",
+              "fresh_only_rows": [
+                {
+                  "code": "sz.000783",
+                  "dividOperateDate": "2026-06-15",
+                  "foreAdjustFactor": "0.993464",
+                  "backAdjustFactor": "5.915687",
+                  "adjustFactor": "5.915687"
+                }
+              ],
+              "cache_only_rows": [
+                {
+                  "code": "sz.000783",
+                  "dividOperateDate": "2026-06-15",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "5.915687",
+                  "adjustFactor": "5.915687"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "source_directory": "szse-value-raw-full-20261017",
+          "source_packet_sha256": "5cd0dc3554f33523e2fe4d5621eb11cd090dcd2d1c119dc2e63fad71fe1d20f6",
+          "common_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "common_financial_bar_days": 674,
+          "common_day_financial_core_equal": true,
+          "corporate_comparisons": {
+            "distributions": {
+              "equal": true,
+              "fresh_common_row_set_sha256": "2895cd02ea0e18191f8045e3908eb2cf7dcf76e8b69da2cd13779f82c9ca9311",
+              "cache_common_row_set_sha256": "2895cd02ea0e18191f8045e3908eb2cf7dcf76e8b69da2cd13779f82c9ca9311",
+              "fresh_only_rows": [],
+              "cache_only_rows": []
+            },
+            "adjustments": {
+              "equal": false,
+              "fresh_common_row_set_sha256": "9477efa045de557b325202c6cfd2043138261d7d014148da55feda0f8203cede",
+              "cache_common_row_set_sha256": "4cebd0a9271205f1936272b49777ea453fed970c3208fdf92c7071d16e5ecb55",
+              "fresh_only_rows": [
+                {
+                  "code": "sz.000783",
+                  "dividOperateDate": "2026-06-15",
+                  "foreAdjustFactor": "0.993464",
+                  "backAdjustFactor": "5.915687",
+                  "adjustFactor": "5.915687"
+                }
+              ],
+              "cache_only_rows": [
+                {
+                  "code": "sz.000783",
+                  "dividOperateDate": "2026-06-15",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "5.915687",
+                  "adjustFactor": "5.915687"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "SZ002608": {
+      "original_error_sha256": "dae1fa819f73591fabe9ee5b981e8924ccd705ce38f5a776fc94d1642ca3c918",
+      "query_components": [
+        "daily",
+        "dividend2026",
+        "adjustments"
+      ],
+      "all_SDK_error_codes_zero": true,
+      "raw_window_coverage_and_source_arithmetic_passed": true,
+      "original_pre2026_records_exact": true,
+      "registered_cache_adjustment_rejection_independently_reproduced": true,
+      "rejected_packet_not_persisted": true,
+      "fresh_source_projection_digest": "05d55af3da91e34f927383c92697795c688967c8d9c50b15596bd04fd0cebd7c",
+      "source_assembly_digest_for_comparison_only": "44092c4c34ce1b7cec0c725431b872ea29bed442e9d42069dc3dce3cf2241c15",
+      "registered_cache_comparisons": [
+        {
+          "source_directory": "low-risk-raw-account-data-20261017",
+          "source_packet_sha256": "de85cba87ec35b16130bca60fd2f2ac484e35e3d28a1d0101b5c9c551953dfab",
+          "common_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "common_financial_bar_days": 674,
+          "common_day_financial_core_equal": true,
+          "corporate_comparisons": {
+            "distributions": {
+              "equal": true,
+              "fresh_common_row_set_sha256": "87e3eae491f27544eaaf044509eec280456e1c5e796b44f0236c12ffa8abbc0d",
+              "cache_common_row_set_sha256": "87e3eae491f27544eaaf044509eec280456e1c5e796b44f0236c12ffa8abbc0d",
+              "fresh_only_rows": [],
+              "cache_only_rows": []
+            },
+            "adjustments": {
+              "equal": false,
+              "fresh_common_row_set_sha256": "f0d52af2686a808e9f5cb9ee122e8d6024d711fc154a0a265986165bae7e6dd0",
+              "cache_common_row_set_sha256": "e6b500b42d9ab3185b1b1bc39261c9f741780a4d22cd8f1f55945e9d13bcb425",
+              "fresh_only_rows": [
+                {
+                  "code": "sz.002608",
+                  "dividOperateDate": "2026-07-14",
+                  "foreAdjustFactor": "0.993151",
+                  "backAdjustFactor": "2.849199",
+                  "adjustFactor": "2.849199"
+                }
+              ],
+              "cache_only_rows": [
+                {
+                  "code": "sz.002608",
+                  "dividOperateDate": "2026-07-14",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "2.849199",
+                  "adjustFactor": "2.849199"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "source_directory": "szse-value-raw-full-20261017",
+          "source_packet_sha256": "e9516b01c9d4b0b11bf0f63badfdd933f0b27ef5d521397b68f0840dc7f6088d",
+          "common_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "common_financial_bar_days": 674,
+          "common_day_financial_core_equal": true,
+          "corporate_comparisons": {
+            "distributions": {
+              "equal": true,
+              "fresh_common_row_set_sha256": "87e3eae491f27544eaaf044509eec280456e1c5e796b44f0236c12ffa8abbc0d",
+              "cache_common_row_set_sha256": "87e3eae491f27544eaaf044509eec280456e1c5e796b44f0236c12ffa8abbc0d",
+              "fresh_only_rows": [],
+              "cache_only_rows": []
+            },
+            "adjustments": {
+              "equal": false,
+              "fresh_common_row_set_sha256": "f0d52af2686a808e9f5cb9ee122e8d6024d711fc154a0a265986165bae7e6dd0",
+              "cache_common_row_set_sha256": "e6b500b42d9ab3185b1b1bc39261c9f741780a4d22cd8f1f55945e9d13bcb425",
+              "fresh_only_rows": [
+                {
+                  "code": "sz.002608",
+                  "dividOperateDate": "2026-07-14",
+                  "foreAdjustFactor": "0.993151",
+                  "backAdjustFactor": "2.849199",
+                  "adjustFactor": "2.849199"
+                }
+              ],
+              "cache_only_rows": [
+                {
+                  "code": "sz.002608",
+                  "dividOperateDate": "2026-07-14",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "2.849199",
+                  "adjustFactor": "2.849199"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "source_directory": "reversal-raw-full-20261017",
+          "source_packet_sha256": "b7e732add1d0a10094dbfaf4f194ea6d1514cd4bf8bd78ff22a43c3ec11c6fd5",
+          "common_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "common_financial_bar_days": 674,
+          "common_day_financial_core_equal": true,
+          "corporate_comparisons": {
+            "distributions": {
+              "equal": true,
+              "fresh_common_row_set_sha256": "87e3eae491f27544eaaf044509eec280456e1c5e796b44f0236c12ffa8abbc0d",
+              "cache_common_row_set_sha256": "87e3eae491f27544eaaf044509eec280456e1c5e796b44f0236c12ffa8abbc0d",
+              "fresh_only_rows": [],
+              "cache_only_rows": []
+            },
+            "adjustments": {
+              "equal": false,
+              "fresh_common_row_set_sha256": "f0d52af2686a808e9f5cb9ee122e8d6024d711fc154a0a265986165bae7e6dd0",
+              "cache_common_row_set_sha256": "e6b500b42d9ab3185b1b1bc39261c9f741780a4d22cd8f1f55945e9d13bcb425",
+              "fresh_only_rows": [
+                {
+                  "code": "sz.002608",
+                  "dividOperateDate": "2026-07-14",
+                  "foreAdjustFactor": "0.993151",
+                  "backAdjustFactor": "2.849199",
+                  "adjustFactor": "2.849199"
+                }
+              ],
+              "cache_only_rows": [
+                {
+                  "code": "sz.002608",
+                  "dividOperateDate": "2026-07-14",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "2.849199",
+                  "adjustFactor": "2.849199"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "SZ002756": {
+      "original_error_sha256": "377d1c508f5e4bb12f91648c038e1ebe4d78956ed7f5b93ad072d3efd604a853",
+      "query_components": [
+        "daily",
+        "dividend2026",
+        "adjustments"
+      ],
+      "all_SDK_error_codes_zero": true,
+      "raw_window_coverage_and_source_arithmetic_passed": true,
+      "original_pre2026_records_exact": true,
+      "registered_cache_adjustment_rejection_independently_reproduced": true,
+      "rejected_packet_not_persisted": true,
+      "fresh_source_projection_digest": "aacc8651f84638a4e3fd1aa7a7b8480f1f0dff1c78bf295a4eef52893d99d8eb",
+      "source_assembly_digest_for_comparison_only": "3d16f7acd81d73436ecbab9502c2cd490345ce62f179b8288a8bb4d073e44677",
+      "registered_cache_comparisons": [
+        {
+          "source_directory": "szse-value-raw-full-20261017",
+          "source_packet_sha256": "594bfe14f8459e8e3bd88b2e31a90228be27222a66a6c8417fd9739de34adab4",
+          "common_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "common_financial_bar_days": 674,
+          "common_day_financial_core_equal": true,
+          "corporate_comparisons": {
+            "distributions": {
+              "equal": true,
+              "fresh_common_row_set_sha256": "74103a4d5e8cf2d2b4d9b8440f29e7168ebc69213b42b7134d605f13e24e94c5",
+              "cache_common_row_set_sha256": "74103a4d5e8cf2d2b4d9b8440f29e7168ebc69213b42b7134d605f13e24e94c5",
+              "fresh_only_rows": [],
+              "cache_only_rows": []
+            },
+            "adjustments": {
+              "equal": false,
+              "fresh_common_row_set_sha256": "9fff0a3e6a47f0a69dd3fe4c488580d8fcf64ed4c3b4b228251143e079b92bb1",
+              "cache_common_row_set_sha256": "504b6057049221b51512e94d4f4f3dc35856a53a76a5a10f9feb439701152f9e",
+              "fresh_only_rows": [
+                {
+                  "code": "sz.002756",
+                  "dividOperateDate": "2026-05-29",
+                  "foreAdjustFactor": "0.991611",
+                  "backAdjustFactor": "3.211166",
+                  "adjustFactor": "3.211166"
+                }
+              ],
+              "cache_only_rows": [
+                {
+                  "code": "sz.002756",
+                  "dividOperateDate": "2026-05-29",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "3.211166",
+                  "adjustFactor": "3.211166"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "source_directory": "reversal-raw-full-20261017",
+          "source_packet_sha256": "2fa4a1a324041fb6b95af36e6cf92607bf58256c85e4d325795fff36e5c3235e",
+          "common_window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "common_financial_bar_days": 674,
+          "common_day_financial_core_equal": true,
+          "corporate_comparisons": {
+            "distributions": {
+              "equal": true,
+              "fresh_common_row_set_sha256": "74103a4d5e8cf2d2b4d9b8440f29e7168ebc69213b42b7134d605f13e24e94c5",
+              "cache_common_row_set_sha256": "74103a4d5e8cf2d2b4d9b8440f29e7168ebc69213b42b7134d605f13e24e94c5",
+              "fresh_only_rows": [],
+              "cache_only_rows": []
+            },
+            "adjustments": {
+              "equal": false,
+              "fresh_common_row_set_sha256": "9fff0a3e6a47f0a69dd3fe4c488580d8fcf64ed4c3b4b228251143e079b92bb1",
+              "cache_common_row_set_sha256": "504b6057049221b51512e94d4f4f3dc35856a53a76a5a10f9feb439701152f9e",
+              "fresh_only_rows": [
+                {
+                  "code": "sz.002756",
+                  "dividOperateDate": "2026-05-29",
+                  "foreAdjustFactor": "0.991611",
+                  "backAdjustFactor": "3.211166",
+                  "adjustFactor": "3.211166"
+                }
+              ],
+              "cache_only_rows": [
+                {
+                  "code": "sz.002756",
+                  "dividOperateDate": "2026-05-29",
+                  "foreAdjustFactor": "1.000000",
+                  "backAdjustFactor": "3.211166",
+                  "adjustFactor": "3.211166"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "source_complete": false,
+  "source_admitted_for_account": false,
+  "errors_overridden": false,
+  "source_packets_persisted_by_this_review": 0,
+  "network_calls": 0,
+  "account_replay_performed": false,
+  "portfolio_returns_computed": false,
+  "limitation": "Adjustment disagreement is retained as a provenance conflict. This review neither selects a revised source nor infers corporate entitlements or authorizes retries."
+}
