@@ -1,0 +1,59 @@
+{
+  "status": "FROZEN_LOW_BETA60_OCT20_269_EVENTS_NO_ROI",
+  "window": [
+    "2023-12-29",
+    "2026-10-20"
+  ],
+  "output_directory": "low-beta60-account-source-events-horizon-20261021",
+  "expected_preserved_events": 266,
+  "expected_new_events": 3,
+  "expected_total_events": 269,
+  "method_code_sha256": {
+    "scripts/prepare_low_beta60_account_sources.py": "092f35e73f05ff0585233c6731d22f0d0ebd1fa477a4872c48c498e4d9c2a00a",
+    "src/stock_rsi/distribution_event_compiler_v2.py": "145ea48f2f68af0175d3f003f1970152b8d7c03ba40ed809dfbe3dc38fc51a3e",
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/prepare_low_beta60_extension_events.py": "81701a09ffaea8d56b8b51f70dce99c91217f53abe0a647db291c1e421303201",
+    "scripts/prepare_low_beta60_horizon_events.py": "eb7ef4f6ab6b790859e6fdbf6d917e33ebcaee4fed730ad980259616f5f69c37",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20"
+  },
+  "local_source_sha256": {
+    "low-beta60-raw-dev-20261021/manifest.json": "411e2abe02ebf914c809d6b5acb9b7e2fabacafe7dc88081b980787fb0cd8613",
+    "low-beta60-raw-dev-20261021/calendar.json": "feda1fd82528f89646d2cc0092b0ae9c22660eae84665cfaf8632c983d7a9704",
+    "low-beta60-raw-horizon-20261021/manifest.json": "9e2a7639ae40f1e8913a5306d430ed14003074acc24b741d7e7e3d4e5a64f891",
+    "low-beta60-raw-horizon-20261021/calendar.json": "d5ca13ad3049cd788031b697f7e615d35cc899261a4997050954752efc0192ab",
+    "low-beta60-horizon-independent-audit-20261021.json": "c627bce4cd8b79d94782c249ae5696e93b994f6e25ebff418ae30c6df499fd5a",
+    "low-beta60-account-source-events-20261021/summary.json": "5e4d59c00b7bb26fed21e5285d0f44930966c13b50d0b6034470be1567a06050",
+    "low-beta60-account-source-events-20261021/effective_proofs.json": "012c1493c095092fd72a6bfe30d81934083a8c2968a77491c623effc89662162",
+    "low-beta60-account-source-events-20261021/derived_events.json": "d408a3521b01713e081ecb2924fde2a42b31feb0ccbad9f07efa7e99b6a3cfe2",
+    "low-beta60-account-source-events-20261021/event_source_receipts.json": "d4fded77ca439ae1bc380e5012d53a9dc12d6a28d4142378ff5c0fd9fe0d5c09",
+    "low-beta60-account-source-events-2026-20261021/summary.json": "24140caa7496ff9ab7e1ec56c54c226d0aaf31d03ca909b2dabd00582ec62843",
+    "low-beta60-account-source-events-2026-20261021/derived_events.json": "1ccd85b766b29f2d14514b2945d64f6ce017f1c4e0acec604d29fbd0d4749036",
+    "low-beta60-account-source-events-2026-20261021/event_source_receipts.json": "69b5fc9452f12625e66b64daee0b3f9026c58265a199368737dbd3e721561bd6",
+    "low-beta60-extension-event-independent-audit-20261021.json": "5100dfa3b77bdd657e914bd0300c8fec87fefe6e0d3b65972901ac957b167191",
+    "low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+    "low-beta60-corporate-reviewed-20261021/reviewed-manifest.json": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+    "low-beta60-calendar-extension-formations-20261021/targets.json": "defeeb81106bc436a3123c174b60fcfd6ccd98acb4f0ece97e183eb98b7c77a5",
+    "low-beta60-pre2026-formations-20261021/targets.json": "ee19a560df3b5b669d093191757ea25bf7b1cffef4497af9ee4c5a1873eb995b"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/low-beta60-horizon-source-independent-audit.json": "c627bce4cd8b79d94782c249ae5696e93b994f6e25ebff418ae30c6df499fd5a",
+    "experiments/qlib/low-beta60-horizon-source-output-review.json": "f86af5a417759649c48d4667a390010300dd884e1d395d172c00b08c52a73406",
+    "experiments/qlib/low-beta60-horizon-primary-content-review.json": "66fd7313d11a9ed1ed60c48121b904baed9a915a2a2c49fc2847ee978a73168b",
+    "experiments/qlib/low-beta60-horizon-primary-results.json": "f06e82d03718130e69a1ace1ca8d303cfe176fcd2fbc1999ada5f4f4f9097bd6",
+    "experiments/qlib/low-beta60-horizon-primary-reviewed-manifest.json": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+    "experiments/qlib/audit_sources/2026-10-21-low-beta60-horizon-event-audit.py": "d82697b2b5f8d5e33412fa26b578926c444a934d4e0e3899320b6bad87d0c832",
+    "docs/research/low-beta60-horizon-event-plan-2026-10-21.md": "dda3f5f6ea23c5e51add1a73cc59b1ac0f734b83d27d9043b1edd3e61bbc1507"
+  },
+  "portfolio_returns_to_compute": false,
+  "source_queries_allowed": false,
+  "investment_rule_changes_allowed": false,
+  "full_October_complete": false,
+  "objective_achieved": false
+}

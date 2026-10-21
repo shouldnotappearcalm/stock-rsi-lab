@@ -1,0 +1,18 @@
+{
+  "status": "BEFORE269_EVENT_MATERIALIZATION_NO_ROI",
+  "tests_passed": 465,
+  "request_sha256": "3e6f7e1c1308d10ca6d98a7a9dc623d1fa67f188e793025f5b896ea3373dbb0d",
+  "review_sha256": "56271e180a11b458d397e879c722e4b66dd54ae2ee9ee5002653acfc140df44d",
+  "critical_or_important_findings": 0,
+  "logs_sha256": {
+    "stock-rsi-lowbeta-horizon-events-red-20261021.log": "6c9f567d954e6197177ee59190904f15e3b3e770bbc53e23285608aa3ad64489",
+    "stock-rsi-lowbeta-horizon-event-coverage-red-20261021.log": "835fb5a89cfa787d00a149f979ca3f2dea779b8385584df91efd0f563d8770f9",
+    "stock-rsi-lowbeta-horizon-event-audit-red-20261021.log": "0d7992e939256833f385d4d5468a4187d62cdb21b9c2d912e567b330a8e19b9b",
+    "stock-rsi-lowbeta-horizon-events-green-20261021.log": "1be26e74a1bda2384285f35d348424402e35f654ea7eee40ce106e5cd76c1271",
+    "stock-rsi-lowbeta-horizon-event-audit-green-20261021.log": "d5ebde38b58b8708b9d8b8ee112352bdc3c474dbfdc347901ddca1c1dbee740f",
+    "stock-rsi-lowbeta-horizon-events-full-20261021.log": "39d272050f860b0ef630b14268e8045b50f537a04d6cefbe592b43f9f82aec41"
+  },
+  "source_queries": 0,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
