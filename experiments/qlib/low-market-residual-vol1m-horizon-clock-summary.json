@@ -1,0 +1,55 @@
+{
+  "status": "UNCHANGED_IVOL_CLOCK_ADMISSION_FAILED",
+  "plan_sha256": "c5cdfdb602d7d233a374a08eefeebdefa3cec6b6a0890b27a57b22e63ff84301",
+  "actual_exit_code": 2,
+  "candidate": "low_market_residual_vol_1m",
+  "candidate_budget": 1,
+  "clock_months_checked": 34,
+  "denied_months": [
+    {
+      "execution_session": "2026-03-02",
+      "formation_asof": "2026-02-27",
+      "return_month": "2026-02",
+      "sample_dates": [
+        "2026-02-02",
+        "2026-02-03",
+        "2026-02-04",
+        "2026-02-05",
+        "2026-02-06",
+        "2026-02-09",
+        "2026-02-10",
+        "2026-02-11",
+        "2026-02-12",
+        "2026-02-13",
+        "2026-02-24",
+        "2026-02-25",
+        "2026-02-26",
+        "2026-02-27"
+      ],
+      "n": 14,
+      "minimum_return_observations": 15,
+      "admitted": false,
+      "reason": "complete_source_month_fewer_than_frozen_15_observations"
+    }
+  ],
+  "source_calendar_end": "2026-10-13",
+  "interim_observation_end": "2026-10-20",
+  "full_October_2026_complete": false,
+  "investment_rule_changed": false,
+  "new_2026_quote_values_decoded": false,
+  "targets_generated": false,
+  "portfolio_returns_computed": false,
+  "all_original_financial_evidence_preserved": true,
+  "all_bound_inputs_unchanged": true,
+  "bound_input_count": 5356,
+  "sealed_2026_evidence_claimed": false,
+  "historical_arrival_verified": false,
+  "strict_OS_future_boundary": false,
+  "objective_achieved": false,
+  "artifact_sha256": {
+    "clock_admission.json": "e56f8132027cc3c4000e494b9f8d6a5777276f5aed028bc9e24a727f34fe1281",
+    "failure.json": "3e34743734c4d549e551d320cd267b623e957751edd27dc58c595d47e3fa3392",
+    "input-before.json": "e808fefbd90b4f84a495ac026fb222e30c818c9a42586db438d362a9dd179200",
+    "input-postcheck.json": "b98a3b5a647c90501358018bb23a526191cc5b2e00e7b8b374fffa209315a300"
+  }
+}

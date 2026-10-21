@@ -1,0 +1,30 @@
+{
+  "status": "FROZEN_IVOL_CLOCK_DENIAL_PRESERVED_INDEPENDENTLY_REPRODUCED",
+  "freeze_commit": "7b23e732c87f863fa71f69766d7a15309c146316",
+  "freeze_pushed_before_actual_run": true,
+  "request_sha256": "c5cdfdb602d7d233a374a08eefeebdefa3cec6b6a0890b27a57b22e63ff84301",
+  "observed_actual_process_exit_code": 2,
+  "expected_scientific_clock_denial_is_not_a_CI_test_failure": true,
+  "actual_log_sha256": "61a36fa625b304517279b74895bf16ac908914ad3dcb0c364bc4de020e483eff",
+  "actual_output_file_sha256": {
+    "clock_admission.json": "e56f8132027cc3c4000e494b9f8d6a5777276f5aed028bc9e24a727f34fe1281",
+    "failure.json": "3e34743734c4d549e551d320cd267b623e957751edd27dc58c595d47e3fa3392",
+    "input-before.json": "e808fefbd90b4f84a495ac026fb222e30c818c9a42586db438d362a9dd179200",
+    "input-postcheck.json": "b98a3b5a647c90501358018bb23a526191cc5b2e00e7b8b374fffa209315a300",
+    "summary.json": "fd639343d82b916fea399c8cc37521831b2606dcfef71aac1ae3bd6c7b040822"
+  },
+  "all5356_bound_inputs_unchanged": true,
+  "original26_completed13_failed42_financial_preserved": true,
+  "independent_clock_audit_file": "experiments/qlib/low-market-residual-vol1m-horizon-independent-clock-audit.json",
+  "independent_clock_audit_sha256": "b400a8add244715e4b02ffd4381a8948ff3cd08b5842e40ad7d4bbada957d387",
+  "root_audit_reproduction_byte_identical": true,
+  "negative_controls_rejected": 3,
+  "new_2026_quote_values_decoded": false,
+  "2026_portfolio_returns_computed": false,
+  "investment_rule_changed": false,
+  "fallback_added": false,
+  "objective_achieved": false,
+  "freeze_CI_all_three_jobs_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39614089971",
+  "local_and_clean_CI_suites_passed_tests": 784,
+  "clean_CI_optional_Qlib_skips": 3
+}
