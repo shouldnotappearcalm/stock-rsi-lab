@@ -1,0 +1,69 @@
+{
+  "status": "REAL_SOURCE_SPARSE_LINE_REGRESSION_EXCERPTS_NOT_PDF_AUTHENTICATION",
+  "CI_fetches_or_authenticates_original_PDF": false,
+  "not_complete_report_pages": true,
+  "instrument": "SH603517",
+  "report_year": 2022,
+  "announcement_id": "1216709701",
+  "source_pdf_sha256": "2b75bee493286d8bca4b355d169e4106040bf6fbd3df22777b96942f67fdea5a",
+  "publication_day": "2023-04-29",
+  "observed_at": "2026-10-21T18:45:18.736653+00:00",
+  "physical_page_count": 216,
+  "full_source_page_text_sha256": {
+    "81": "523ae338210ec138af48227defd2e928fe18d11bc1d02964060c67282a059586",
+    "82": "4ad694ba5feca9581500f422e28adfa4380fd1c49e160ab11ef307c67613787b",
+    "84": "fe8fd18a13d77dc3d51c7e4694e4ec9dd0b9e48b70ca24610768eba14c277574",
+    "86": "a8c4d6073b891e9c4503a448b34ec3ae0e2318ce845dffc6fd121740088cbec8"
+  },
+  "sparse_page_excerpts": {
+    "81": {
+      "line_numbers_1based": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        32
+      ],
+      "text": "合并资产负债表 \n2022 年 12 月 31 日 \n编制单位: 绝味食品股份有限公司 \n单位:元  币种:人民币 \n项目 附注 2022 年 12 月 31\n日 \n2021 年 12 月 31\n日 \n资产总计  8,849,269,455.75 7,401,391,558.20 "
+    },
+    "82": {
+      "line_numbers_1based": [
+        36
+      ],
+      "text": "母公司资产负债表 "
+    },
+    "84": {
+      "line_numbers_1based": [
+        4,
+        5,
+        6,
+        7,
+        9,
+        11
+      ],
+      "text": "合并利润表 \n2022 年 1—12 月 \n单位:元   币种:人民币 \n项目 附注 2022 年度 2021 年度 \n其中：营业收入 七、（六十一） 6,622,839,829.55 6,548,621,784.04 \n其中：营业成本 七、（六十一） 4,929,448,355.22 4,474,155,778.22 "
+    },
+    "86": {
+      "line_numbers_1based": [
+        5
+      ],
+      "text": "母公司利润表 "
+    }
+  },
+  "expected_cells_CNY": {
+    "2022-12-31": {
+      "revenue": "6622839829.55",
+      "cost_of_sales": "4929448355.22",
+      "total_assets": "8849269455.75"
+    },
+    "2021-12-31": {
+      "revenue": "6548621784.04",
+      "cost_of_sales": "4474155778.22",
+      "total_assets": "7401391558.20"
+    }
+  }
+}
