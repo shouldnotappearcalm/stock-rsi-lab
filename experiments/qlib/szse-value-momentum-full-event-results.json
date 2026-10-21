@@ -1,0 +1,48 @@
+{
+  "status": "FIXED_COMPOSITE_FULL_SOURCE_EVENTS_COMPILED_NO_RETURNS_AUDIT_PENDING",
+  "plan_sha256": "d280d340549795aaec697cad7edfc1b3a135c96d0d4935f27df478263c93061f",
+  "window": [
+    "2023-12-29",
+    "2026-10-20"
+  ],
+  "original_events": 255,
+  "appended_events": 155,
+  "earlier_rows_of_future_only_names_ignored": 61,
+  "unverified_tax_event_keys": [
+    "SZ000937|2026-06-17"
+  ],
+  "compiled_events": 410,
+  "raw_manifest_sha256": "273ca456409168d06070e190c78fff850810cb1dbcc178accb69c87ba6880f5d",
+  "target_sha256": "23c35627f750be6207133d87f025ff3514a8f27d4f638b5c744409e1802089fa",
+  "original_summary_sha256": "4ebaff004689c2487d375f36989c869d07f9833277ff4e65059caca3326f721a",
+  "coverage_scopes_passed": [
+    "original103_pre2026",
+    "all127_2026_with_Dec31_boundary"
+  ],
+  "artifact_sha256": {
+    "derived_events.json": "8738c5fef877c27353459b389e0bcc1b649c95066813263bc223257db217ee95",
+    "event_source_receipts.json": "a6a339c8021ed46818847c4c049429245aad24700316865fe1c92715d0eff877",
+    "effective_2026_proofs.json": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8",
+    "lifecycles.json": "008b9f3facd533c3873498ceba5fd0557231147653ad1688247fce1ee0a847e7"
+  },
+  "source_kind_counts": {
+    "VENDOR_DISTRIBUTION": 402,
+    "PRIMARY_NOTICE_SUPPLEMENT": 7,
+    "PRIMARY_CASH_PRECISION_CORRECTION": 1
+  },
+  "all_original_events_and_receipts_reconstructed_unchanged": true,
+  "original42_intraday_and12_daily_hashes_unchanged": true,
+  "original_source_files_modified": false,
+  "unknown_tax_requires_zero_registered_ownership": true,
+  "strict_statutory_tax_certification": false,
+  "source_queries": 0,
+  "event_compilation_independently_verified": false,
+  "account_replay_admitted": false,
+  "historical_arrival_verified": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "full_corporate_actions_certified": false,
+  "portfolio_returns_computed": false,
+  "full_October_complete": false,
+  "investment_rules_changed": false,
+  "objective_achieved": false
+}
