@@ -1,0 +1,79 @@
+{
+  "status": "PRIMARY_CAPTURE_ONLY_FINANCIAL_REVIEW_SEPARATE",
+  "request_sha256": "956b0f98f948839a2678b53baadc2d94355ec525d0f215486b9c3578b2a4d421",
+  "documents": {
+    "SH601598-20261013": {
+      "instrument": "SH601598",
+      "publication_day": "2026-10-13",
+      "file": "SH601598-20261013.pdf",
+      "sha256": "6c23f8c2d99a0f6feed5800f3f02571f6575aa6d17f9dcee739ed20d140f2c4a",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601622.PDF",
+      "listing_row": {
+        "id": null,
+        "secCode": "601598",
+        "secName": "中国外运",
+        "orgId": "gshk0000598",
+        "announcementId": "1225601622",
+        "announcementTitle": "2026年半年度权益分派实施公告",
+        "announcementTime": 1791820800000,
+        "adjunctUrl": "finalpage/2026-10-13/1225601622.PDF",
+        "adjunctSize": 121,
+        "adjunctType": "PDF",
+        "storageTime": null,
+        "columnId": "250401||251302||2705",
+        "pageColumn": "SHZB",
+        "announcementType": "01010503||010113||011301",
+        "associateAnnouncement": null,
+        "important": null,
+        "batchNum": null,
+        "announcementContent": "",
+        "orgName": null,
+        "tileSecName": "中国外运",
+        "shortTitle": "2026年半年度权益分派实施公告",
+        "announcementTypeName": null,
+        "secNameList": null
+      },
+      "listing_receipt": {
+        "request_file": "queries/4c91410282738adcc3f5b9b6db8ca578071514bf39cc8148d6319aa78cd4a4ec/request.json",
+        "request_sha256": "011c883d24347449ee3d09e43547377010c5d2880dec54085defa8814a273125",
+        "reserved_file": "queries/4c91410282738adcc3f5b9b6db8ca578071514bf39cc8148d6319aa78cd4a4ec/reserved-1.json",
+        "reserved_sha256": "704801f493fe9a7997f0c6a15c0b1415816b1afbb68e984bd32d531ffa68fbd4",
+        "response_file": "queries/4c91410282738adcc3f5b9b6db8ca578071514bf39cc8148d6319aa78cd4a4ec/response-1.json",
+        "response_sha256": "6117f11ea1a15474fdfe777b73d5c139bfb28337e202645f00b9ffea25e37024"
+      },
+      "pdf_receipt": {
+        "request_file": "queries/5e6b63e5e723a1c0c5f7600f69530dccf9faa505dee6528a557396c62ba8d686/request.json",
+        "request_sha256": "496384e45cf9615f2e9df078a42836c522c29ba234c67930f3949ae08b9add18",
+        "reserved_file": "queries/5e6b63e5e723a1c0c5f7600f69530dccf9faa505dee6528a557396c62ba8d686/reserved-1.json",
+        "reserved_sha256": "e38077411e169c03e3221d127ecc586e1c0a69f9fcb9240a3781f3f6fd083c70",
+        "response_file": "queries/5e6b63e5e723a1c0c5f7600f69530dccf9faa505dee6528a557396c62ba8d686/response-1.json",
+        "response_sha256": "316589ee26729e67bf5477e8d106768d17af88af4516fb0455636e395ae1e158"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP"
+    }
+  },
+  "errors": {},
+  "pending_documents": [],
+  "http_query_reservations": 2,
+  "maximum_http_queries": 2,
+  "stopped_after_three_failures": false,
+  "abnormal_termination": false,
+  "capture_complete": true,
+  "artifact_sha256": {
+    "SH601598-20261013.pdf": "6c23f8c2d99a0f6feed5800f3f02571f6575aa6d17f9dcee739ed20d140f2c4a",
+    "progress.json": "baf2e2c74c9e551fca1c9bb41b5a10c3414769c006ad3b35adb7377bef4b6d6c",
+    "queries/4c91410282738adcc3f5b9b6db8ca578071514bf39cc8148d6319aa78cd4a4ec/request.json": "011c883d24347449ee3d09e43547377010c5d2880dec54085defa8814a273125",
+    "queries/4c91410282738adcc3f5b9b6db8ca578071514bf39cc8148d6319aa78cd4a4ec/reserved-1.json": "704801f493fe9a7997f0c6a15c0b1415816b1afbb68e984bd32d531ffa68fbd4",
+    "queries/4c91410282738adcc3f5b9b6db8ca578071514bf39cc8148d6319aa78cd4a4ec/response-1.json": "6117f11ea1a15474fdfe777b73d5c139bfb28337e202645f00b9ffea25e37024",
+    "queries/5e6b63e5e723a1c0c5f7600f69530dccf9faa505dee6528a557396c62ba8d686/request.json": "496384e45cf9615f2e9df078a42836c522c29ba234c67930f3949ae08b9add18",
+    "queries/5e6b63e5e723a1c0c5f7600f69530dccf9faa505dee6528a557396c62ba8d686/reserved-1.json": "e38077411e169c03e3221d127ecc586e1c0a69f9fcb9240a3781f3f6fd083c70",
+    "queries/5e6b63e5e723a1c0c5f7600f69530dccf9faa505dee6528a557396c62ba8d686/response-1.json": "316589ee26729e67bf5477e8d106768d17af88af4516fb0455636e395ae1e158",
+    "request.json": "956b0f98f948839a2678b53baadc2d94355ec525d0f215486b9c3578b2a4d421"
+  },
+  "documents_financially_reviewed": false,
+  "admitted_for_account_replay": false,
+  "historical_arrival_verified": false,
+  "investment_rule_changed": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

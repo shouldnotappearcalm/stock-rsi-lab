@@ -1,0 +1,73 @@
+{
+  "status": "SUPPLEMENTARY_PRIMARY_SOURCE_FACTS_VERIFIED_FOR_PROPOSAL_ONLY",
+  "request_sha256": "956b0f98f948839a2678b53baadc2d94355ec525d0f215486b9c3578b2a4d421",
+  "pdf_sha256": "6c23f8c2d99a0f6feed5800f3f02571f6575aa6d17f9dcee739ed20d140f2c4a",
+  "pdf_pages_visually_reviewed": 3,
+  "pdf_text_extracted_independently": true,
+  "http_chains": [
+    {
+      "component": "listing",
+      "identity_sha256": "4c91410282738adcc3f5b9b6db8ca578071514bf39cc8148d6319aa78cd4a4ec",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "http_status": 200,
+      "decoded_body_bytes": 808,
+      "captured_at_utc": "2026-10-21T00:41:23.906187+00:00",
+      "complete": true,
+      "attempt": 1
+    },
+    {
+      "component": "pdf",
+      "identity_sha256": "5e6b63e5e723a1c0c5f7600f69530dccf9faa505dee6528a557396c62ba8d686",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601622.PDF",
+      "http_status": 200,
+      "decoded_body_bytes": 122766,
+      "captured_at_utc": "2026-10-21T00:41:24.032820+00:00",
+      "complete": true,
+      "attempt": 1
+    }
+  ],
+  "actual_queries": 2,
+  "max_queries": 2,
+  "sourcefacts": {
+    "instrument": "SH601598",
+    "issuer": "中国外运股份有限公司",
+    "gross_cash_CNY_per_A_share": "0.14",
+    "record_date": "2026-10-19",
+    "ex_date": "2026-10-20",
+    "cash_payment_date": "2026-10-20",
+    "cash_only_distribution": true,
+    "stock_distribution_per_share": "0",
+    "capital_conversion_per_share": "0",
+    "differentiated_distribution": false,
+    "conservative_announcement_day": "2026-10-13",
+    "CNINFO_listing_day": "2026-10-13",
+    "PDF_board_signature_day": "2026-10-12"
+  },
+  "tax_scope": {
+    "notice_describes_holding_period_dependent_A_share_individual_fund_tax": true,
+    "20_percent_stress_is_model_assumption_not_actual_FIFO_tax": true,
+    "actual_fifo_tax_verified": false
+  },
+  "known_protocol_deviation": {
+    "declared_maximum_body_bytes": 4194304,
+    "actual_inherited_transport_limit_bytes": 10485760,
+    "four_MiB_transport_limit_enforced": false,
+    "all_actual_decoded_bodies_under_declared_limit": true,
+    "materiality": "Actual captured source bytes and completeness remain independently authenticated; ex ante transport cap compliance must not be claimed. No oversize body occurred, and no recapture is needed for source-content proof."
+  },
+  "preserved_SSE_attempt": {
+    "queries": 1,
+    "original_manifest_sha256": "e8d9088504c3e4ea0fc9c2c2075a0a34eb73fe3429117fdc747dec0a05340555",
+    "PDF": false,
+    "gzip_HTML_JS_challenge": true,
+    "same_URL_retry": false
+  },
+  "raw_price_gap_used_to_infer_cash": false,
+  "raw_source_manifest_unchanged": true,
+  "source_calls_during_review": 0,
+  "portfolio_returns_computed": false,
+  "admitted_for_account_replay": false,
+  "financial_or_investment_admission": false,
+  "historical_arrival_verified": false,
+  "findings": []
+}
