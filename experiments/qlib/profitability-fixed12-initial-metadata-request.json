@@ -1,0 +1,306 @@
+{
+  "status": "FROZEN_BEFORE_FIXED12_INITIAL2022_ANNUAL_METADATA_CAPTURE",
+  "codes": [
+    "SH600166",
+    "SH601108",
+    "SH600901",
+    "SH603517",
+    "SH600418",
+    "SH600655",
+    "SZ000825",
+    "SZ000783",
+    "SZ000750",
+    "SZ000933",
+    "SZ002372",
+    "SZ002925"
+  ],
+  "publication_window": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "fiscal_year": 2022,
+  "max_logical_attempts": 12,
+  "per_resource_attempts": 1,
+  "page_cap": 1,
+  "max_body_bytes": 1048576,
+  "timeout_seconds": 20,
+  "minimum_request_interval_seconds": 0.2,
+  "output_subdir": "gross-profitability-initial2022-metadata-20261022",
+  "PDF_download_permitted": false,
+  "ranking_or_portfolio_returns_permitted": false,
+  "2026_financial_or_market_values_permitted": false,
+  "resources": {
+    "SH600166": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "600166,gssh0600166",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SH601108": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "601108,qsgn0000808",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SH600901": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "600901,9900017208",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SH603517": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "603517,9900029519",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SH600418": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "600418,gssh0600418",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SH600655": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "600655,gssh0600655",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SZ000825": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "000825,gssz0000825",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SZ000783": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "000783,gssz0000783",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SZ000750": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "000750,gssz0000750",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SZ000933": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "000933,gssz0000933",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SZ002372": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "002372,9900011087",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    },
+    "SZ002925": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "002925,9900033915",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2023-01-01~2023-12-31",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    }
+  },
+  "method_sha256": {
+    "scripts/immutable_http_capture.py": "730ca7fdd87e7e8f2f69d65f43a772f0ba22e3a94697db20a46d41df7b149553",
+    "scripts/capture_profitability_initial_annual_metadata.py": "3d3796e7552dc544e9aff501d999cc9c79c6807ad9aa642d10bc9f6639f5360e"
+  },
+  "input_sha256": {
+    "repo/docs/research/profitability-fixed12-initial-metadata-plan-2026-10-22.md": "f171380cc6b55883f9641858f9036a8b137387ec57c77b530acda203d14bacd7",
+    "repo/experiments/qlib/cninfo-report-admission-2026-10-16.json": "e0cea489afbfc432e26cf5e8e581873ccba48dc251f3c881d0d71e158ee77cee",
+    "repo/experiments/qlib/fundamental-value-pilot-capture-request.json": "d72e8e0e98b0d2711d4995c7e7c9200e38c1a33e593f0fafa8dc8fa01c8fc801",
+    "repo/experiments/qlib/gross-profitability-fixed12-annual-metadata-inventory.json": "0979a45e4ad1ae307a5e9ce145d70cbfda7d9389e15ab59c45159ab031f7c7f2",
+    "repo/experiments/qlib/gross-profitability-source-request.json": "e90736a8666cb7a147c899d6775ff3a9223ce0b9bd356374ee3aeba9953d9e6a",
+    "repo/experiments/qlib/gross-profitability-source-run-verification.json": "61411eeb55c5a1c816b47b3600fbb3bc003abd16ec3e7ab1f2441774515191f5",
+    "repo/scripts/capture_profitability_initial_annual_metadata.py": "3d3796e7552dc544e9aff501d999cc9c79c6807ad9aa642d10bc9f6639f5360e",
+    "repo/scripts/immutable_http_capture.py": "730ca7fdd87e7e8f2f69d65f43a772f0ba22e3a94697db20a46d41df7b149553",
+    "source/cninfo-csi500-reports-20261017/codes/SH600166.json": "75a23110cd8d2f343aba3256964d64a59841472a2661ca8ac263c5fae26c7aea",
+    "source/cninfo-csi500-reports-20261017/codes/SH600418.json": "6e4ea3be680e517ce8692f5be5f6b763d76aa92b8bf7c0618637870d29ad267c",
+    "source/cninfo-csi500-reports-20261017/codes/SH600655.json": "c74c6f04b5588af33c3d92b9e6651a74e1546343a3123c28f5e3c1b76c3f8a74",
+    "source/cninfo-csi500-reports-20261017/codes/SH600901.json": "f41a9d3b3e94f4954468339979b3209368ee1ba81a6e7053eee853edf296d9a2",
+    "source/cninfo-csi500-reports-20261017/codes/SH601108.json": "3674cac29dab676e78aa99d1bc097665a8e83b5796c89eb3cda8e9690a4bdbff",
+    "source/cninfo-csi500-reports-20261017/codes/SH603517.json": "a840726577549374f84157dd008d7e721cd3577b65269f2301c7c534f3107eb5",
+    "source/cninfo-csi500-reports-20261017/codes/SZ000750.json": "817de71dab9689f435e6a1af41f34266e3a5fe142161a4509ff1b8431a608008",
+    "source/cninfo-csi500-reports-20261017/codes/SZ000783.json": "2551dbf80a747490096e00acb64dc364d0676eaf139c2ef5d8e893b22ddf9c49",
+    "source/cninfo-csi500-reports-20261017/codes/SZ000825.json": "286e926586d419bbda7b15734598b349a767285f2aeb668310187c9d8b9b0b91",
+    "source/cninfo-csi500-reports-20261017/codes/SZ000933.json": "af405b91fb6559f8f11b213914befa60565642d3ce093524164895b34f38eccf",
+    "source/cninfo-csi500-reports-20261017/codes/SZ002372.json": "8d673a7f6a1d31e9b3b6d40371eaea27086feec012f931a423d6d7a1b64ccf47",
+    "source/cninfo-csi500-reports-20261017/codes/SZ002925.json": "23fd88970777310321fa52f409d1b34e4db84ccd5cb394165aa6966711326dc0",
+    "source/cninfo-csi500-reports-20261017/manifest.json": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+    "source/cninfo-csi500-reports-20261017/plan.json": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0"
+  },
+  "current_org_mapping_is_historical_master": false,
+  "financial_version_history_complete": false,
+  "investment_factor_admitted": false,
+  "objective_achieved": false
+}

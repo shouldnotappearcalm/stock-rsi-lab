@@ -1,0 +1,300 @@
+{
+  "status": "EXISTING_METADATA_ONLY_FIXED12_ANNUAL_SOURCE_INVENTORY_NO_NEW_CAPTURE",
+  "sample_codes": [
+    "SH600166",
+    "SH601108",
+    "SH600901",
+    "SH603517",
+    "SH600418",
+    "SH600655",
+    "SZ000825",
+    "SZ000783",
+    "SZ000750",
+    "SZ000933",
+    "SZ002372",
+    "SZ002925"
+  ],
+  "sample_selected_by_existing_fixed_hash_request": true,
+  "metadata_manifest_sha256": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+  "query_window": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "documents_by_code": {
+    "SH600166": {
+      "original_packet_sha256": "75a23110cd8d2f343aba3256964d64a59841472a2661ca8ac263c5fae26c7aea",
+      "annual_metadata_rows": [
+        {
+          "code": "600166",
+          "title": "2024年年度报告",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223327299",
+          "pdf_path": "finalpage/2025-04-26/1223327299.PDF"
+        },
+        {
+          "code": "600166",
+          "title": "2023年年度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219874919",
+          "pdf_path": "finalpage/2024-04-27/1219874919.PDF"
+        }
+      ]
+    },
+    "SH601108": {
+      "original_packet_sha256": "3674cac29dab676e78aa99d1bc097665a8e83b5796c89eb3cda8e9690a4bdbff",
+      "annual_metadata_rows": [
+        {
+          "code": "601108",
+          "title": "2024年年度报告",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223320210",
+          "pdf_path": "finalpage/2025-04-26/1223320210.PDF"
+        },
+        {
+          "code": "601108",
+          "title": "2023年年度报告",
+          "day": "2024-04-26",
+          "timestamp_ms": 1714060800000,
+          "announcement_id": "1219833882",
+          "pdf_path": "finalpage/2024-04-26/1219833882.PDF"
+        }
+      ]
+    },
+    "SH600901": {
+      "original_packet_sha256": "f41a9d3b3e94f4954468339979b3209368ee1ba81a6e7053eee853edf296d9a2",
+      "annual_metadata_rows": [
+        {
+          "code": "600901",
+          "title": "江苏金租：2024年年度报告",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223316139",
+          "pdf_path": "finalpage/2025-04-26/1223316139.PDF"
+        },
+        {
+          "code": "600901",
+          "title": "江苏金租：2023年年度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219877383",
+          "pdf_path": "finalpage/2024-04-27/1219877383.PDF"
+        }
+      ]
+    },
+    "SH603517": {
+      "original_packet_sha256": "a840726577549374f84157dd008d7e721cd3577b65269f2301c7c534f3107eb5",
+      "annual_metadata_rows": [
+        {
+          "code": "603517",
+          "title": "绝味食品2024年年度报告全文",
+          "day": "2025-04-10",
+          "timestamp_ms": 1744214400000,
+          "announcement_id": "1223045873",
+          "pdf_path": "finalpage/2025-04-10/1223045873.PDF"
+        },
+        {
+          "code": "603517",
+          "title": "绝味食品2023年度报告全文",
+          "day": "2024-04-30",
+          "timestamp_ms": 1714406400000,
+          "announcement_id": "1219907586",
+          "pdf_path": "finalpage/2024-04-30/1219907586.PDF"
+        }
+      ]
+    },
+    "SH600418": {
+      "original_packet_sha256": "6e4ea3be680e517ce8692f5be5f6b763d76aa92b8bf7c0618637870d29ad267c",
+      "annual_metadata_rows": [
+        {
+          "code": "600418",
+          "title": "江淮汽车2024年年度报告",
+          "day": "2025-03-29",
+          "timestamp_ms": 1743177600000,
+          "announcement_id": "1222952026",
+          "pdf_path": "finalpage/2025-03-29/1222952026.PDF"
+        },
+        {
+          "code": "600418",
+          "title": "江淮汽车2023年年度报告",
+          "day": "2024-04-30",
+          "timestamp_ms": 1714406400000,
+          "announcement_id": "1219915147",
+          "pdf_path": "finalpage/2024-04-30/1219915147.PDF"
+        }
+      ]
+    },
+    "SH600655": {
+      "original_packet_sha256": "c74c6f04b5588af33c3d92b9e6651a74e1546343a3123c28f5e3c1b76c3f8a74",
+      "annual_metadata_rows": [
+        {
+          "code": "600655",
+          "title": "上海豫园旅游商城（集团）股份有限公司2024年年度报告",
+          "day": "2025-03-25",
+          "timestamp_ms": 1742832000000,
+          "announcement_id": "1222881098",
+          "pdf_path": "finalpage/2025-03-25/1222881098.PDF"
+        },
+        {
+          "code": "600655",
+          "title": "上海豫园旅游商城（集团）股份有限公司2023年年度报告",
+          "day": "2024-03-22",
+          "timestamp_ms": 1711036800000,
+          "announcement_id": "1219374764",
+          "pdf_path": "finalpage/2024-03-22/1219374764.PDF"
+        }
+      ]
+    },
+    "SZ000825": {
+      "original_packet_sha256": "286e926586d419bbda7b15734598b349a767285f2aeb668310187c9d8b9b0b91",
+      "annual_metadata_rows": [
+        {
+          "code": "000825",
+          "title": "2024年年度报告",
+          "day": "2025-04-28",
+          "timestamp_ms": 1745769600000,
+          "announcement_id": "1223315831",
+          "pdf_path": "finalpage/2025-04-28/1223315831.PDF"
+        },
+        {
+          "code": "000825",
+          "title": "2023年年度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219865113",
+          "pdf_path": "finalpage/2024-04-27/1219865113.PDF"
+        }
+      ]
+    },
+    "SZ000783": {
+      "original_packet_sha256": "2551dbf80a747490096e00acb64dc364d0676eaf139c2ef5d8e893b22ddf9c49",
+      "annual_metadata_rows": [
+        {
+          "code": "000783",
+          "title": "2024年年度报告",
+          "day": "2025-04-29",
+          "timestamp_ms": 1745856000000,
+          "announcement_id": "1223376019",
+          "pdf_path": "finalpage/2025-04-29/1223376019.PDF"
+        },
+        {
+          "code": "000783",
+          "title": "2023年度报告（可视版）",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219860058",
+          "pdf_path": "finalpage/2024-04-27/1219860058.PDF"
+        },
+        {
+          "code": "000783",
+          "title": "2023年年度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219860033",
+          "pdf_path": "finalpage/2024-04-27/1219860033.PDF"
+        }
+      ]
+    },
+    "SZ000750": {
+      "original_packet_sha256": "817de71dab9689f435e6a1af41f34266e3a5fe142161a4509ff1b8431a608008",
+      "annual_metadata_rows": [
+        {
+          "code": "000750",
+          "title": "2024年年度报告",
+          "day": "2025-03-29",
+          "timestamp_ms": 1743177600000,
+          "announcement_id": "1222948083",
+          "pdf_path": "finalpage/2025-03-29/1222948083.PDF"
+        },
+        {
+          "code": "000750",
+          "title": "2023年年度报告",
+          "day": "2024-03-09",
+          "timestamp_ms": 1709913600000,
+          "announcement_id": "1219266576",
+          "pdf_path": "finalpage/2024-03-09/1219266576.PDF"
+        }
+      ]
+    },
+    "SZ000933": {
+      "original_packet_sha256": "af405b91fb6559f8f11b213914befa60565642d3ce093524164895b34f38eccf",
+      "annual_metadata_rows": [
+        {
+          "code": "000933",
+          "title": "2024年年度报告",
+          "day": "2025-03-25",
+          "timestamp_ms": 1742832000000,
+          "announcement_id": "1222881387",
+          "pdf_path": "finalpage/2025-03-25/1222881387.PDF"
+        },
+        {
+          "code": "000933",
+          "title": "2023年年度报告",
+          "day": "2024-03-26",
+          "timestamp_ms": 1711382400000,
+          "announcement_id": "1219401996",
+          "pdf_path": "finalpage/2024-03-26/1219401996.PDF"
+        }
+      ]
+    },
+    "SZ002372": {
+      "original_packet_sha256": "8d673a7f6a1d31e9b3b6d40371eaea27086feec012f931a423d6d7a1b64ccf47",
+      "annual_metadata_rows": [
+        {
+          "code": "002372",
+          "title": "2024年年度报告",
+          "day": "2025-04-16",
+          "timestamp_ms": 1744732800000,
+          "announcement_id": "1223102793",
+          "pdf_path": "finalpage/2025-04-16/1223102793.PDF"
+        },
+        {
+          "code": "002372",
+          "title": "2023年年度报告",
+          "day": "2024-04-09",
+          "timestamp_ms": 1712592000000,
+          "announcement_id": "1219540563",
+          "pdf_path": "finalpage/2024-04-09/1219540563.PDF"
+        }
+      ]
+    },
+    "SZ002925": {
+      "original_packet_sha256": "23fd88970777310321fa52f409d1b34e4db84ccd5cb394165aa6966711326dc0",
+      "annual_metadata_rows": [
+        {
+          "code": "002925",
+          "title": "2024年年度报告",
+          "day": "2025-04-25",
+          "timestamp_ms": 1745510400000,
+          "announcement_id": "1223270418",
+          "pdf_path": "finalpage/2025-04-25/1223270418.PDF"
+        },
+        {
+          "code": "002925",
+          "title": "2023年年度报告",
+          "day": "2024-04-27",
+          "timestamp_ms": 1714147200000,
+          "announcement_id": "1219867746",
+          "pdf_path": "finalpage/2024-04-27/1219867746.PDF"
+        }
+      ]
+    }
+  },
+  "original2022_filings_not_covered_by_this_metadata_window": 12,
+  "new_network_queries": 0,
+  "financial_numeric_or_portfolio_returns_computed": false,
+  "2026_values_read": false,
+  "not_a_full_investment_universe": true,
+  "new_strategy_registered": false,
+  "full_annual_metadata_rows": 25,
+  "title_variants_included": [
+    "YYYY年年度报告",
+    "YYYY年度报告"
+  ],
+  "metadata_title_variant_resolution": "SH603517 original2023 title uses2023年度报告全文. SZ000783 also has a2023可视版 preserved separately; no raw source title overwritten or arbitrary source edition silently selected.",
+  "ordinary_full_report_metadata_rows": 24,
+  "additional_visual_presentation_edition_rows": 1,
+  "historical_nonfinancial_classification_not_yet_verified": true
+}
