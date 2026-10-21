@@ -1,0 +1,590 @@
+{
+  "status": "FOUR_PRIMARY_HTTP_CHAINS_AND_ALL18_PAGES_INDEPENDENTLY_REVIEWED_NO_ADMISSION",
+  "audit_code_sha256": "1c0e89ae96598a6d6d78d7d10ac117db8d6214ac823f0b2f05988c9d0dcb236d",
+  "imports_project_code": false,
+  "capture_manifest_sha256": "51946a187e651816694ac44a439dc001d325efb58ba6270448552ca4dc0e4061",
+  "scope_sha256": "29632571df877989a8719e656c0757619774dc684d87f627ed18fc7e25b5ca39",
+  "request_sha256": "70914dee967b00ced4b9e6216d32f56b34d7a8e117c308534e1e85fcfc167818",
+  "root_content_review_sha256": "8405862ab4ba8c2c44744a3ec2850dfaec808608b12c418761ec5cb232af3358",
+  "all18_pages_independently_text_extracted_and_visually_reviewed": true,
+  "documents": [
+    {
+      "instrument": "SH603605",
+      "publication_day": "2026-10-12",
+      "file": "SH603605-20261012.pdf",
+      "sha256": "5b17463eeae09334971a6ae5356e6eb7a1de1630a96893f1203fdee3a3426058",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600426.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/37462af852e29ea2596f77f4c4cb22128484acba01bb3fef9af549305765a2f2/request.json",
+        "request_sha256": "6d46cd06ef68f3e1010517aa300728a0b72bd0155b3ecc3efb869f51b69d7e49",
+        "reserved_file": "queries/37462af852e29ea2596f77f4c4cb22128484acba01bb3fef9af549305765a2f2/reserved-1.json",
+        "reserved_sha256": "4d94b2dff11666e7426030f04484e49f625903e592b9ad71618c86dc14b82e9c",
+        "response_file": "queries/37462af852e29ea2596f77f4c4cb22128484acba01bb3fef9af549305765a2f2/response-1.json",
+        "response_sha256": "3cc1ae239fa41593a6f1fdbb43bd040a366dbb91920abde48eeb8101930a4ccb"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP",
+      "issuer_name": "珀莱雅化妆品股份有限公司",
+      "announcement_number": "2026-080",
+      "signature_day": "2026-10-12",
+      "record_date": "2026-10-15",
+      "ex_date": "2026-10-16",
+      "cash_payment_date": "2026-10-16",
+      "stock_listing_date": null,
+      "cash_per_original_share_CNY": "1.18",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0",
+      "eligible_share_count": "392321960",
+      "total_share_count": "395976172",
+      "excluded_repurchase_shares": "3654212",
+      "issuer_total_cash_CNY": "462939912.80",
+      "price_reference_cash_per_share_CNY": "1.17",
+      "price_reference_cash_qualifier": "Published approximate diluted reference, not actual eligible-share cash.",
+      "price_reference_share_change_ratio": "0",
+      "capital_tax_evidence_level": "NOT_APPLICABLE_NO_NONCASH",
+      "direct_premium_source_and_no_tax_statement": false,
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "field_pages": {
+        "identity": [
+          1,
+          4
+        ],
+        "actual_cash": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "record_ex_pay": [
+          1,
+          2
+        ],
+        "no_stock_capital": [
+          2
+        ],
+        "eligible_base_and_reference": [
+          2
+        ],
+        "cash_receipt": [
+          2,
+          3
+        ],
+        "tax": [
+          3,
+          4
+        ]
+      },
+      "notes": [
+        "Actual cash1.18 differs from reference1.17; convertible bond conversion price adjustment onp4 is not an A-share entitlement.",
+        "Delegated cash through ChinaClear; holders without designated trading wait, and named self-paying holders use separate company payment."
+      ],
+      "all_pages_independently_text_and_visual_reviewed": true,
+      "page_evidence": [
+        {
+          "page": 1,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603605-20261012-page-1.txt",
+          "text_sha256": "6bfde9720a0f0543f6741353cf5105d40d0fd4ea52780aac172d73427d5fef64",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603605-20261012-page-1.png",
+          "screenshot_sha256": "7a84b64cad37f9733800c038b5180e85ad44a28455d8d0365f3383b9fc335fb5"
+        },
+        {
+          "page": 2,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603605-20261012-page-2.txt",
+          "text_sha256": "4fb281b08c463840f16d601ec62fb26ccaffa6d94334dd2f7818888d55d45a28",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603605-20261012-page-2.png",
+          "screenshot_sha256": "8110cdbfa81fdc58c22c07d4c6154a3b090fc3bbb5516f8503f306095d4fd57b"
+        },
+        {
+          "page": 3,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603605-20261012-page-3.txt",
+          "text_sha256": "949ee551376f0022ded6057f65068cdfca4b352dbd6840097afb916e24d39960",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603605-20261012-page-3.png",
+          "screenshot_sha256": "5f76a9a9f588649b0e716a2329d8791646bda654011c93f7a38f70a27f662c5e"
+        },
+        {
+          "page": 4,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603605-20261012-page-4.txt",
+          "text_sha256": "ba1d186603a6023cafcf39ad43aadd82d401bcbf786a2da9f1ee6f654b91ee17",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603605-20261012-page-4.png",
+          "screenshot_sha256": "d9f58c89594ab6583dc8215e89bfae1625e34a60327a964e3126f1d0ec0befa4"
+        }
+      ]
+    },
+    {
+      "instrument": "SH603596",
+      "publication_day": "2026-04-30",
+      "file": "SH603596-20260430.pdf",
+      "sha256": "fe757ed08d7e938419aff963f66f7cd88c09268ee6dbf53aa79ed930f0131ff2",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225259935.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/df78040ce99a01a0f6e4645333266d6abc62499918d1589e12522d2426493db8/request.json",
+        "request_sha256": "78e135f65787bb29e7316bb6bd16d2af3693a04846455eba431e55511476acfd",
+        "reserved_file": "queries/df78040ce99a01a0f6e4645333266d6abc62499918d1589e12522d2426493db8/reserved-1.json",
+        "reserved_sha256": "7a5d264bbe6d14f103e6e2a9c751401e33cf57b2e473c4a7e67609023bdfe78b",
+        "response_file": "queries/df78040ce99a01a0f6e4645333266d6abc62499918d1589e12522d2426493db8/response-1.json",
+        "response_sha256": "ea1285a45547758c0f3a7a2de51e5ab3c055b3a7bc275d8f1ba4dc00155a3991"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP",
+      "issuer_name": "芜湖伯特利汽车安全系统股份有限公司",
+      "announcement_number": "2026-039",
+      "signature_day": "2026-04-30",
+      "record_date": "2026-05-08",
+      "ex_date": "2026-05-11",
+      "cash_payment_date": "2026-05-11",
+      "stock_listing_date": "2026-05-11",
+      "cash_per_original_share_CNY": "0.38",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0.48",
+      "eligible_share_count": "606513139",
+      "total_share_count": "606513139",
+      "excluded_repurchase_shares": "0",
+      "issuer_total_cash_CNY": "230474992.82",
+      "issuer_capital_shares": "291126307",
+      "issuer_post_total_shares": "897639446",
+      "price_reference_cash_per_share_CNY": null,
+      "price_reference_share_change_ratio": null,
+      "capital_tax_evidence_level": "DIRECT_ISSUER_PREMIUM_SOURCE_AND_TRANSFER_NO_TAX_STATEMENT",
+      "direct_premium_source_and_no_tax_statement": true,
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "field_pages": {
+        "identity": [
+          1,
+          4
+        ],
+        "actual_cash_capital_base": [
+          1,
+          2
+        ],
+        "record_ex_pay_list": [
+          1,
+          2
+        ],
+        "cash_and_share_receipt": [
+          2
+        ],
+        "premium_source_and_transfer_no_tax": [
+          3
+        ],
+        "cash_tax": [
+          2,
+          3
+        ],
+        "share_structure": [
+          4
+        ]
+      },
+      "notes": [
+        "p3item6 explicitly says capital reserve originates from share premium issuance and this transfer is not taxed.",
+        "This is the2026May11 event only; it does not retroactively upgrade the separate2024 event.",
+        "No separate diluted price-reference formula is stated because the notice says no differential distribution.",
+        "Published aggregate291126307 is integer;606513139*.48=291126306.72 does not establish investor fractional-share allocation."
+      ],
+      "all_pages_independently_text_and_visual_reviewed": true,
+      "page_evidence": [
+        {
+          "page": 1,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603596-20260430-page-1.txt",
+          "text_sha256": "1f81a0475178c08ea3ccfcef6eb78c436b62c46f7d93dc5c0438c7394272e2a7",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603596-20260430-page-1.png",
+          "screenshot_sha256": "f69d22c2614ab6aceec0d572fe0cf6dd6f1f3240905506bdb8c5487fc46e4aae"
+        },
+        {
+          "page": 2,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603596-20260430-page-2.txt",
+          "text_sha256": "df4559702b67d2026bd0a9a67dcd1cdcae9235893354ad13aaa39b7966e06a9c",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603596-20260430-page-2.png",
+          "screenshot_sha256": "ba807ee2e77ed5763b62883563896dc90f51ebcf9953503fa47a2047289f22e1"
+        },
+        {
+          "page": 3,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603596-20260430-page-3.txt",
+          "text_sha256": "6cb9426f9952f84d843552816a74f44697ba8e202c8d043939e9420798610c32",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603596-20260430-page-3.png",
+          "screenshot_sha256": "9136d18fd7ad4898c0dd46835c72ee7f37fe4ca1b71b0963acdf900dd9689417"
+        },
+        {
+          "page": 4,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603596-20260430-page-4.txt",
+          "text_sha256": "20c4366ba85fa5d03ad21cc1d542616acc7f86926aa8197e4c884373c908733d",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603596-20260430-page-4.png",
+          "screenshot_sha256": "8862758537ac3fdc438a29f79e037b72068dfba3eeff6fbb1129d8b2603e1e9d"
+        }
+      ]
+    },
+    {
+      "instrument": "SH603606",
+      "publication_day": "2026-05-19",
+      "file": "SH603606-20260519.pdf",
+      "sha256": "7e3c49e71dd16ddac919e881a0a128c404778fba443d271a257ddc94c364b335",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-19/1225313998.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/d3c00edd5477082293be0387f2e2801b99bc9ded81351fd9b7ab2361d7b6c4f7/request.json",
+        "request_sha256": "ff1ffccfa796d1f22b95ad5fc6a15ed57ae302968a800df8c9dba6951ed070a0",
+        "reserved_file": "queries/d3c00edd5477082293be0387f2e2801b99bc9ded81351fd9b7ab2361d7b6c4f7/reserved-1.json",
+        "reserved_sha256": "cc55d92a18854b835c35a69af249217d8af1d2533f0be6979b6c4cd3adc90900",
+        "response_file": "queries/d3c00edd5477082293be0387f2e2801b99bc9ded81351fd9b7ab2361d7b6c4f7/response-1.json",
+        "response_sha256": "8f4f3c97ebe4e9bfeb69f12186086ce1aec1aff3b13af545d16d33c730c3c322"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP",
+      "issuer_name": "宁波东方电缆股份有限公司",
+      "announcement_number": "2026-024",
+      "signature_day": "2026-05-19",
+      "record_date": "2026-05-25",
+      "ex_date": "2026-05-26",
+      "cash_payment_date": "2026-05-26",
+      "stock_listing_date": "2026-05-26",
+      "cash_per_original_share_CNY": "0.56",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0.2",
+      "eligible_share_count": "685465602",
+      "total_share_count": "687715368",
+      "excluded_repurchase_shares": "2249766",
+      "issuer_capital_shares": "137093120",
+      "issuer_post_total_shares": "824808488",
+      "price_reference_cash_per_share_CNY": "0.5582",
+      "price_reference_share_change_ratio": "0.1993",
+      "price_reference_cash_qualifier": "Published approximate all-capital diluted cash/share ratios; distinct from0.56/0.2 actual eligible-share entitlements.",
+      "capital_tax_evidence_level": "UNRESOLVED_GENERAL_CAPITAL_RESERVE_ONLY",
+      "direct_premium_source_and_no_tax_statement": false,
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "field_pages": {
+        "identity": [
+          1,
+          5
+        ],
+        "actual_cash_capital": [
+          1,
+          2
+        ],
+        "record_ex_pay_list": [
+          1,
+          3
+        ],
+        "eligible_base_and_reference": [
+          2
+        ],
+        "cash_and_share_receipt": [
+          3
+        ],
+        "cash_tax": [
+          3,
+          4
+        ],
+        "share_structure": [
+          5
+        ]
+      },
+      "notes": [
+        "All5pages inspected: generic capital reserve transfer, no explicit share-premium source or transfer-tax exemption statement.",
+        "Cash tax calculations0.56/0.504 alone are not promoted to a confirmed capital-tax exemption. Unknown remains unresolved.",
+        "The account zero-record guard must remain where tax proof is insufficient; this review does not run or waive it."
+      ],
+      "all_pages_independently_text_and_visual_reviewed": true,
+      "page_evidence": [
+        {
+          "page": 1,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603606-20260519-page-1.txt",
+          "text_sha256": "2f9ecb2bbdd70cbec736c933cbc503d348c412aa19721e0f68bd3737b8136cce",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603606-20260519-page-1.png",
+          "screenshot_sha256": "e1aa713a27635584391243a6872824b01f3b02d72efdecf3e93420fd2c89d8a3"
+        },
+        {
+          "page": 2,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603606-20260519-page-2.txt",
+          "text_sha256": "10341fd81681e213149f6728de025d8f7a96cc8b097f4ae808420b43f93c23f1",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603606-20260519-page-2.png",
+          "screenshot_sha256": "a8ec5461ae40643d16f55eecb78859fcab0cfa5c16eaba9c56f2dc17d9c58d03"
+        },
+        {
+          "page": 3,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603606-20260519-page-3.txt",
+          "text_sha256": "4076f97ffa57a701f0f68fdef57174e9c63f1aae2cc283b36e95bac9b5706f7f",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603606-20260519-page-3.png",
+          "screenshot_sha256": "4c0123717adeb1200c71ee85d50aab628d38e85ea0d0a0de1c2c45c74cf0aafd"
+        },
+        {
+          "page": 4,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603606-20260519-page-4.txt",
+          "text_sha256": "c6aa1c0774d55e24ac0347efb4a9df944de616051f38f65765a9b242b4b3fc02",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603606-20260519-page-4.png",
+          "screenshot_sha256": "32bdbe1fc5e12969a558851daf18df25e1ff64c51966d450fbaadf28a5abbd46"
+        },
+        {
+          "page": 5,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603606-20260519-page-5.txt",
+          "text_sha256": "eea2da8813623d9b31441f5b22b4686641f42fd1316c5b788441124744ada303",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SH603606-20260519-page-5.png",
+          "screenshot_sha256": "22193c678b610466a41cf34bc0d2134c9c18ef182ffd08506f7ae8bf0c723037"
+        }
+      ]
+    },
+    {
+      "instrument": "SZ002831",
+      "publication_day": "2026-05-29",
+      "file": "SZ002831-20260529.pdf",
+      "sha256": "ae29cedfb8dd555a2c0f624a05fe0d91484b67d29fc5ba1118dfca79a52f5922",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-29/1225335706.PDF",
+      "listing_row": null,
+      "listing_receipt": null,
+      "pdf_receipt": {
+        "request_file": "queries/910322d3effc2e0e371ef56240c1e5b49dc06c42384c8cec32607f0fd7033765/request.json",
+        "request_sha256": "427343428ac9f34d9edf445b36ac05c46faf370a29a0402b4d47a16f7d6d039f",
+        "reserved_file": "queries/910322d3effc2e0e371ef56240c1e5b49dc06c42384c8cec32607f0fd7033765/reserved-1.json",
+        "reserved_sha256": "c2e203ff0fab6463a6fc6d5f63f65d0334d15cda046c8bdc1130009fb05840eb",
+        "response_file": "queries/910322d3effc2e0e371ef56240c1e5b49dc06c42384c8cec32607f0fd7033765/response-1.json",
+        "response_sha256": "2f6aa30d6a83684715a3316e8bd41bd999ed0578e6f03abe95a9244415b5501e"
+      },
+      "capture_route": "JOURNALED_ORIGINAL_HTTP",
+      "issuer_name": "深圳市裕同包装科技股份有限公司",
+      "announcement_number": "2026-036",
+      "signature_day": "2026-05-29",
+      "record_date": "2026-06-03",
+      "ex_date": "2026-06-04",
+      "cash_payment_date": "2026-06-04",
+      "stock_listing_date": "2026-06-04",
+      "cash_per_original_share_CNY": "0.8038127",
+      "cash_per_10_original_shares_CNY": "8.038127",
+      "stock_per_original_share": "0",
+      "capital_per_original_share": "0.4019063",
+      "capital_per_10_original_shares": "4.019063",
+      "eligible_share_count": "915182294",
+      "total_share_count": "920513500",
+      "excluded_repurchase_shares": "5331206",
+      "issuer_total_cash_CNY": "735635150.73",
+      "issuer_capital_shares": "367817529",
+      "issuer_post_total_shares": "1288331029",
+      "price_reference_cash_per_share_CNY": "0.7991573",
+      "price_reference_share_change_ratio": "0.3995786",
+      "price_reference_cash_qualifier": "Per10 whole-capital reference7.991573/3.995786 truncated to6decimals without rounding; divide10 to displayed per-share reference. Not actual eligible-share rights.",
+      "capital_tax_evidence_level": "PREMIUM_BALANCE_AND_EXPLICIT_CASH_TAX_AMOUNT_CONDITIONAL_INFERENCE",
+      "direct_premium_source_and_no_tax_statement": false,
+      "fractional_share_method": "Largest fractional remainders first; random ordering among equal remainders until total distributed shares match. Not independent per-account floor or round.",
+      "primary_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "field_pages": {
+        "identity": [
+          1,
+          5
+        ],
+        "actual_cash_capital": [
+          1,
+          3
+        ],
+        "original_proposal_and_premium_balance": [
+          2
+        ],
+        "final_eligible_base": [
+          1,
+          2,
+          3
+        ],
+        "record_ex": [
+          1,
+          3
+        ],
+        "cash_pay_and_share_credit_list": [
+          4
+        ],
+        "reference": [
+          1
+        ],
+        "tax_FIFOrule_and_amounts": [
+          3
+        ],
+        "fractional_allocation": [
+          4
+        ],
+        "share_structure": [
+          4
+        ]
+      },
+      "notes": [
+        "p2 says proposed transfer amount does not exceed capital-reserve/share-premium balance. This supports a conditional source inference, not explicit tracing or a statutory exemption declaration.",
+        "p3explicit cash-only tax examples per10:1.607625 at20percent,0.803813 at10percent and net7.234314 at10percent. Rounding applies; these are not extra dividend/share cash values.",
+        "FIFO is explicitly described as the issuer tax method, but actual account lots, holding periods and settlement are not certified.",
+        "Actual final eligible base915182294 differs from earlier proposed919543954. Final ratios8.038127/4.019063 replace proposed8/4 in document evidence only.",
+        "The current compiler/account has NOT been demonstrated to support7-decimal entitlement overrides or fractional registry allocation. Preserve vendor scalars and fail-closed fractional entitlement guard."
+      ],
+      "all_pages_independently_text_and_visual_reviewed": true,
+      "page_evidence": [
+        {
+          "page": 1,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SZ002831-20260529-page-1.txt",
+          "text_sha256": "68fd3a22d2329566e4c904d8c576a1a67e5a216bf9d5d36f317a6e25af04e878",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SZ002831-20260529-page-1.png",
+          "screenshot_sha256": "14859037c7752ab1fd82ac7b5c8621baf66017440e70f64b860a691e23908ce6"
+        },
+        {
+          "page": 2,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SZ002831-20260529-page-2.txt",
+          "text_sha256": "39c21fe74f900a4a6812a9d0068dd4a39527f45474199d47e34c1936b3f8f70b",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SZ002831-20260529-page-2.png",
+          "screenshot_sha256": "8537e85e27820d48515ac9b2e4f05c629a4b2547e35cd0299ff0890ced00c178"
+        },
+        {
+          "page": 3,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SZ002831-20260529-page-3.txt",
+          "text_sha256": "56c6f7168976747c37ac222a9d57665238bbf6bd76f61a51c3df1d664cff961a",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SZ002831-20260529-page-3.png",
+          "screenshot_sha256": "8358d4372325587a91264965c35d6879efe616122fec9fc115cc269369e12e24"
+        },
+        {
+          "page": 4,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SZ002831-20260529-page-4.txt",
+          "text_sha256": "7b6642c45ef80b6031d2f67453715872ba7ec13409c5285a1ba09a5cbc0b284e",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SZ002831-20260529-page-4.png",
+          "screenshot_sha256": "4387e5e2b676d4d4269da402ee6e2debeb748f2bd68b0f83afb351614d8c2b66"
+        },
+        {
+          "page": 5,
+          "text": "/tmp/price-delay-four-primary-independent-pages-20261021/SZ002831-20260529-page-5.txt",
+          "text_sha256": "2b318c3f1a93a43fe004e935b7ea07d3d895ff50b19c772bd02faf634e5728c6",
+          "screenshot": "/tmp/price-delay-four-primary-independent-pages-20261021/SZ002831-20260529-page-5.png",
+          "screenshot_sha256": "635af7aea38ea912ed3fef7679549b488a47c8406e83b9077f2fb4fd570820a7"
+        }
+      ]
+    }
+  ],
+  "all4_request_reservation_response_HTTPbody_PDF_chains_verified": true,
+  "all_capture_artifact_hashes_verified": 18,
+  "all48_original_financial_hashes_unchanged": true,
+  "vendor_comparisons": {
+    "SH603605": {
+      "packet_sha256": "f36d6de06dee2ff44084cad463c664f22b5b14f783c29e27034bd02e7414f92b",
+      "matching_distribution_count": 0,
+      "source_rows": []
+    },
+    "SH603596": {
+      "packet_sha256": "7a719ca2b9cca689bdbdb5b77c801e34f1bdd524989c13266a2b6f72f54ab1f6",
+      "matching_distribution_count": 1,
+      "source_rows": [
+        {
+          "code": "sh.603596",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-04-21",
+          "dividPlanAnnounceDate": "2026-03-28",
+          "dividPlanDate": "2026-04-30",
+          "dividRegistDate": "2026-05-08",
+          "dividOperateDate": "2026-05-11",
+          "dividPayDate": "2026-05-11",
+          "dividStockMarketDate": "2026-05-11",
+          "dividCashPsBeforeTax": "0.38",
+          "dividCashPsAfterTax": "0.342或0.38",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转4.8派3.8元（含税，扣税后3.42或3.8元）",
+          "dividReserveToStockPs": "0.480000"
+        }
+      ],
+      "cash_scalar_minus_primary": "0.00",
+      "capital_scalar_minus_primary": "0.000000"
+    },
+    "SH603606": {
+      "packet_sha256": "441e74d76f69e0198c245f9777e816cce124cde5cd580d04065f6000b012d7dc",
+      "matching_distribution_count": 1,
+      "source_rows": [
+        {
+          "code": "sh.603606",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-04-22",
+          "dividPlanAnnounceDate": "2026-03-28",
+          "dividPlanDate": "2026-05-19",
+          "dividRegistDate": "2026-05-25",
+          "dividOperateDate": "2026-05-26",
+          "dividPayDate": "2026-05-26",
+          "dividStockMarketDate": "2026-05-26",
+          "dividCashPsBeforeTax": "0.56",
+          "dividCashPsAfterTax": "0.504或0.56",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转2派5.6元（含税，扣税后5.04或5.6元）",
+          "dividReserveToStockPs": "0.200000"
+        }
+      ],
+      "cash_scalar_minus_primary": "0.00",
+      "capital_scalar_minus_primary": "0.000000"
+    },
+    "SZ002831": {
+      "packet_sha256": "d9e5339034f9f2cb8802025d82b4e17edf51d00ce130cd39fa8688bf4184ed28",
+      "matching_distribution_count": 1,
+      "source_rows": [
+        {
+          "code": "sz.002831",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2026-05-20",
+          "dividPlanAnnounceDate": "2026-04-28",
+          "dividPlanDate": "2026-05-29",
+          "dividRegistDate": "2026-06-03",
+          "dividOperateDate": "2026-06-04",
+          "dividPayDate": "2026-06-04",
+          "dividStockMarketDate": "2026-06-04",
+          "dividCashPsBeforeTax": "0.803813",
+          "dividCashPsAfterTax": "0.7234314或0.8038127",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转4.019063派8.038127元（含税，扣税后7.234314或8.038127元）",
+          "dividReserveToStockPs": "0.401906"
+        }
+      ],
+      "cash_scalar_minus_primary": "3E-7",
+      "capital_scalar_minus_primary": "-3E-7"
+    }
+  },
+  "semantic_negative_controls_rejected": {
+    "changed_final_url": true,
+    "incomplete_body": true,
+    "different_HTTP_body": true,
+    "cash_replaced_by_reference": true,
+    "capital_replaced_by_diluted_reference": true,
+    "unresolved_tax_promoted": true,
+    "rounded_vendor_cash_used_as_exact": true,
+    "rounded_vendor_capital_used_as_exact": true,
+    "proposal_base_used_instead_of_final": true,
+    "conditional_inference_promoted": true,
+    "ex_date_used_as_record": true
+  },
+  "critical": [],
+  "important": [],
+  "unresolved_evidence": [
+    "SH603606 capital-source/tax exemption remains unproved; retain the existing pre-mutation zero-record-ownership gate.",
+    "SZ002831 primary7-decimal rights differ from6-decimal vendor scalars; no scalar correction or current compiler support is authorized/certified.",
+    "SZ002831 fractional shares require cross-holder remainder allocation with random equal-tail ordering; the independent account fractional-entitlement guard must remain."
+  ],
+  "limitations": [
+    "Primary-level economic facts only; no source/account admission, events compiled, policy change, new query or ROI.",
+    "SH603596 explicit premium/no-tax evidence is event-specific to2026May11; original2024 unknown is unchanged.",
+    "SZ002831 premium-balance+cash-tax-example evidence is conditional inference, not direct no-tax text or independently certified statutory treatment.",
+    "Cash delivery clauses state delegated payment and separate self-paying holders; actual investor arrival and FIFO tax settlement remain unverified.",
+    "Publication dates bind official URL/signature, not historical first availability.",
+    "Actual entitlements and whole-capital price-reference ratios must remain separate; no factor-causality inference.",
+    "This script rechecks saved independent text/render artifacts; initial pypdf extraction and all-page visual review occurred separately and are represented by per-page hashes."
+  ],
+  "source_admitted_for_account_replay": false,
+  "new_events_compiled": false,
+  "current_compiler_support_for_precision_or_fractional_allocation_verified": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

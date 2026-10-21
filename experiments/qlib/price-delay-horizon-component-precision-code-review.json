@@ -1,0 +1,55 @@
+{
+  "status": "BOUNDED_PRECISION_ADAPTER_CODE_REVIEW_PASS_AFTER_CANONICAL_IDENTITY_FIX",
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "resolved_findings": [
+    {
+      "severity": "Important",
+      "issue": "Original public apply entry accepted a coherently changed event/receipt tax flag pair or invented original event ID because it checked mutual agreement without canonical original compilation.",
+      "synthetic_reproduction": "V2 output with no capital-tax proof: event.capital_tax_exempt_verified=True and receipt.requires_zero_record_ownership_if_tax_unverified=False was accepted. Matching invented IDs were accepted.",
+      "resolution": "Each corrected vendor row now passes unchanged V2 with its own original tax proofs and no supplements/cash overrides; full event and receipt must equal canonical outputs before any replacement.",
+      "regression": "New test rejects both coherent flag and ID mutations; direct and append-only paths tested."
+    }
+  ],
+  "reviewed_file_sha256": {
+    "src/stock_rsi/distribution_event_compiler_v3.py": "c213b74dc215b363be974be3d0daab81c1b6f43abd21ce1ca50243ef11a09d53",
+    "tests/test_distribution_event_compiler_v3.py": "f89a22e09fb0c35672eb45219f8fd7780534de0ac2d49430439b8ccbc7796888",
+    "docs/research/price-delay-horizon-component-precision-design-2026-10-21.md": "ca4cd8d7d1be8c2dd3f52308ccda61cad0ee9ca1a2b7b5bb1d7ffc5a9b885c0d"
+  },
+  "original_modules_unchanged_from_HEAD": {
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/distribution_event_compiler_v2.py": "145ea48f2f68af0175d3f003f1970152b8d7c03ba40ed809dfbe3dc38fc51a3e",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "scripts/prepare_low_beta60_extension_events.py": "81701a09ffaea8d56b8b51f70dce99c91217f53abe0a647db291c1e421303201"
+  },
+  "checks": {
+    "v3_focused_tests_passed": 6,
+    "combined_v1_v2_v3_append_only_tests_passed": 22,
+    "extra_synthetic_compile_append_only_then_apply_preserves_entire_old_event_and_receipt_prefix": true,
+    "extra_synthetic_append_only_new_unknown_tax_flags_remain_false_and_guard_true": true,
+    "exact_half_unit_positive_and_negative_endpoints_accepted": true,
+    "reapplying_component_correction_rejected": true,
+    "empty_corrections_exact_v2_parity": true,
+    "deterministic_new_eventID_binds_originalID_row_document_completeproof_components": true,
+    "original_row_and_input_proofs_immutable": true,
+    "source_kind_vendor_only_and_dual_cash_contract_rejected": true,
+    "record_ex_pay_list_and_announced_identity_bound": true,
+    "all_tax_flags_and_taxable_stock_basis_preserved": true,
+    "Fraction_primary_per10_div10_and_half_unit_checks_no_float": true,
+    "fractional_registry_failure_remains_pre_mutation_atomic": true
+  },
+  "limits": [
+    "No actual2026 event projection, source compilation, candidate account replay or portfolio ROI was run. All adapter exercises used synthetic fixtures.",
+    "Caller must authenticate original packets, PDFs and complete primary-content review and freeze exact eligible event-key whitelist; adapter does not read/authenticate PDF bytes itself.",
+    "The later append-only caller must check all original378 event/receipt objects and source/financial files remain identical after adapter use; generic adapter has no hard-coded pre2026 prohibition.",
+    "Half-unit consistency does not certify the provider rounding algorithm or economic cause of adjustment factors.",
+    "Tax evidence classification is not upgraded by precision correction. Unknown tax ownership guards and noninteger entitlement registry guards remain required.",
+    "Positive primary page indices bind recorded proof metadata, not automatic page-count/content verification; authenticated full-document content review remains upstream."
+  ],
+  "ready_for_separately_frozen_proof_projection_plan": true,
+  "actual_source_projection_performed": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false
+}

@@ -5123,7 +5123,7 @@
     }
   ],
   "latest_pre2026_price_delay_screen": {
-    "status": "PRE2026_INTRADAY_PASS_203_HORIZON_RAW_VERIFIED_2026_CORPORATE_INVENTORY_PENDING",
+    "status": "PRE2026_INTRADAY_PASS_HORIZON_SOURCES_REVIEWED_APPEND_ONLY_EVENT_PROJECTION_PENDING",
     "candidate": "price_delay_d1",
     "candidate_budget": 1,
     "2024_normalized_daily_proxy_net_pct": 16.908141739694326,
@@ -5302,6 +5302,71 @@
       "2026_portfolio_return_computed": false,
       "investment_rules_changed": false,
       "full_October_2026_complete": false,
+      "objective_achieved": false
+    },
+    "horizon_corporate_source_review": {
+      "status": "CORPORATE_QUESTION_INVENTORY_AND_FOUR_NEW_PRIMARY_REVIEWS_COMPLETE_PROJECTION_PENDING",
+      "inventory_sha256": "4ca1c82931ceca0129b01ea1660ca82d7b4ca6b075dd67ba06e96554ff88d9d5",
+      "inventory_code_sha256": "680e6cc96fbacd9563386e424751a6cd16de4d14cdd242c55ad3c5e52aaffa3f",
+      "inventory_peer_review_sha256": "edfe65f03781e378bc396fa295e7c16ef339245679c3d9eb60f8483cdd146dee",
+      "root_ran_actual_frozen_inventory": true,
+      "root_reproduced_peer_review_script": false,
+      "new_2026_vendor_rows": 227,
+      "future_only_pre2026_rows_excluded": 131,
+      "positive_capital_transfer_events": 7,
+      "missing_vendor_distribution_dates": 8,
+      "six_existing_primary_cash_candidates": [
+        "SH601598|2026-10-20",
+        "SH601918|2026-02-06",
+        "SH601966|2026-06-24",
+        "SZ002608|2026-10-19",
+        "SZ002756|2026-10-20",
+        "SZ002812|2026-10-20"
+      ],
+      "new_primary_cash_notice_codes": [
+        "SH603233",
+        "SH603605"
+      ],
+      "new_four_primary_manifest_sha256": "51946a187e651816694ac44a439dc001d325efb58ba6270448552ca4dc0e4061",
+      "new_four_primary_scope_sha256": "29632571df877989a8719e656c0757619774dc684d87f627ed18fc7e25b5ca39",
+      "four_primary_independent_review_sha256": "04a8799f185d307df892f9b8182a7c8969f4bc0e46520d06d3aaf4644dcc2701",
+      "root_four_primary_independent_review_reproduction_byte_identical": true,
+      "independent_four_primary_pages_text_and_visually_reviewed": 18,
+      "root_four_primary_pages_text_reviewed": 18,
+      "root_four_primary_critical_pages_visually_reviewed": 9,
+      "remaining_unresolved_capital_tax_source_keys": [
+        "SH603606|2026-05-26",
+        "SZ000937|2026-06-17"
+      ],
+      "mixed_component_precision_key": "SZ002831|2026-06-04",
+      "registry_fractional_guard_unchanged": true,
+      "original_2024_SH603596_guard_unchanged": true,
+      "actual_new_proofs_projected": false,
+      "actual_new_events_compiled": false,
+      "2026_portfolio_return_computed": false,
+      "source_or_account_admission": false,
+      "investment_rules_changed": false,
+      "full_October_complete": false,
+      "objective_achieved": false
+    },
+    "horizon_mixed_component_precision_method": {
+      "status": "MIXED_COMPONENT_PRECISION_METHOD_TESTED_REVIEWED_NOT_YET_APPLIED_TO_ACTUAL_HORIZON",
+      "module_sha256": "c213b74dc215b363be974be3d0daab81c1b6f43abd21ce1ca50243ef11a09d53",
+      "tests_sha256": "f89a22e09fb0c35672eb45219f8fd7780534de0ac2d49430439b8ccbc7796888",
+      "code_review_sha256": "4ca5abd4f63a1f48d80ed9a6c1146b4a8cb3bf4e4b599fdde97abd215c9a07ad",
+      "critical_findings": 0,
+      "important_findings_remaining": 0,
+      "canonical_single_vendor_event_and_receipt_reconstruction_required": true,
+      "full_suite_tests": 607,
+      "full_suite_exit_code": 0,
+      "full_suite_elapsed_seconds": 12.435,
+      "full_suite_log_sha256": "0f0f6e1bad7f39b51d123e09945e19f1b752d50241ac059a7033b4286fc09d66",
+      "six_focused_tests_passed": true,
+      "old_v1_v2_account_and_append_only_code_unchanged": true,
+      "actual_2026_event_compilation_executed": false,
+      "actual_2026_account_executed": false,
+      "source_or_account_admission": false,
+      "investment_rules_changed": false,
       "objective_achieved": false
     }
   }

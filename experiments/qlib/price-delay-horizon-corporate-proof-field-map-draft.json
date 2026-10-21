@@ -1,0 +1,2305 @@
+{
+  "status": "NONBINDING_PRIMARY_FIELD_MAPPING_DRAFT_NOT_A_REVIEWED_MANIFEST",
+  "inventory_sha256": "4ca1c82931ceca0129b01ea1660ca82d7b4ca6b075dd67ba06e96554ff88d9d5",
+  "mapping_code_sha256": "cbadd7956f4e77467d6baa394881ec8166ee9dcce7ac07045c8e42fff71ed7a3",
+  "six_cached_cash_supplement_candidates": [
+    {
+      "event_key": "SH601598|2026-10-20",
+      "source_kind_if_later_admitted": "PRIMARY_NOTICE_SUPPLEMENT",
+      "notice_record_template_literal": {
+        "code": "sh.601598",
+        "dividPlanDate": "2026-10-13",
+        "dividRegistDate": "2026-10-19",
+        "dividOperateDate": "2026-10-20",
+        "dividPayDate": "2026-10-20",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.14",
+        "dividStocksPs": "0",
+        "dividReserveToStockPs": "0",
+        "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+      },
+      "cash_per_eligible_original_share_CNY": "0.14",
+      "announced": "2026-10-13",
+      "recorded": "2026-10-19",
+      "ex_date": "2026-10-20",
+      "pay_date": "2026-10-20",
+      "listed": null,
+      "stock_per_share": "0",
+      "capital_per_share": "0",
+      "same_date_vendor_row_absent": true,
+      "source_provenance": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+          "original_proof_literal": {
+            "instrument": "SH601598",
+            "record": {
+              "code": "sh.601598",
+              "dividPlanDate": "2026-10-13",
+              "dividRegistDate": "2026-10-19",
+              "dividOperateDate": "2026-10-20",
+              "dividPayDate": "2026-10-20",
+              "dividStockMarketDate": "",
+              "dividCashPsBeforeTax": "0.14",
+              "dividStocksPs": "0",
+              "dividReserveToStockPs": "0",
+              "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+            },
+            "source_file": "SH601598-20261013.pdf",
+            "source_sha256": "6c23f8c2d99a0f6feed5800f3f02571f6575aa6d17f9dcee739ed20d140f2c4a",
+            "pages_one_based": [
+              1,
+              2,
+              3
+            ],
+            "record_origin": "Original issuer implementation notice; conservative CNINFO announcement date Oct13, signed Oct12; no entitlement inferred from price gaps."
+          },
+          "original_proof_sha256": "7cfda13dfa5fb7d90d0e75d8bf35673a405eae3a2036480a2396d2a32b02dfa8",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SH601598-20261013.pdf",
+              "sha256": "6c23f8c2d99a0f6feed5800f3f02571f6575aa6d17f9dcee739ed20d140f2c4a",
+              "document": {
+                "instrument": "SH601598",
+                "publication_day": "2026-10-13",
+                "file": "SH601598-20261013.pdf",
+                "sha256": "6c23f8c2d99a0f6feed5800f3f02571f6575aa6d17f9dcee739ed20d140f2c4a",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601622.PDF",
+                "listing_row": {
+                  "id": null,
+                  "secCode": "601598",
+                  "secName": "中国外运",
+                  "orgId": "gshk0000598",
+                  "announcementId": "1225601622",
+                  "announcementTitle": "2026年半年度权益分派实施公告",
+                  "announcementTime": 1791820800000,
+                  "adjunctUrl": "finalpage/2026-10-13/1225601622.PDF",
+                  "adjunctSize": 121,
+                  "adjunctType": "PDF",
+                  "storageTime": null,
+                  "columnId": "250401||251302||2705",
+                  "pageColumn": "SHZB",
+                  "announcementType": "01010503||010113||011301",
+                  "associateAnnouncement": null,
+                  "important": null,
+                  "batchNum": null,
+                  "announcementContent": "",
+                  "orgName": null,
+                  "tileSecName": "中国外运",
+                  "shortTitle": "2026年半年度权益分派实施公告",
+                  "announcementTypeName": null,
+                  "secNameList": null
+                },
+                "listing_receipt": {
+                  "request_file": "queries/4c91410282738adcc3f5b9b6db8ca578071514bf39cc8148d6319aa78cd4a4ec/request.json",
+                  "request_sha256": "011c883d24347449ee3d09e43547377010c5d2880dec54085defa8814a273125",
+                  "reserved_file": "queries/4c91410282738adcc3f5b9b6db8ca578071514bf39cc8148d6319aa78cd4a4ec/reserved-1.json",
+                  "reserved_sha256": "704801f493fe9a7997f0c6a15c0b1415816b1afbb68e984bd32d531ffa68fbd4",
+                  "response_file": "queries/4c91410282738adcc3f5b9b6db8ca578071514bf39cc8148d6319aa78cd4a4ec/response-1.json",
+                  "response_sha256": "6117f11ea1a15474fdfe777b73d5c139bfb28337e202645f00b9ffea25e37024"
+                },
+                "pdf_receipt": {
+                  "request_file": "queries/5e6b63e5e723a1c0c5f7600f69530dccf9faa505dee6528a557396c62ba8d686/request.json",
+                  "request_sha256": "496384e45cf9615f2e9df078a42836c522c29ba234c67930f3949ae08b9add18",
+                  "reserved_file": "queries/5e6b63e5e723a1c0c5f7600f69530dccf9faa505dee6528a557396c62ba8d686/reserved-1.json",
+                  "reserved_sha256": "e38077411e169c03e3221d127ecc586e1c0a69f9fcb9240a3781f3f6fd083c70",
+                  "response_file": "queries/5e6b63e5e723a1c0c5f7600f69530dccf9faa505dee6528a557396c62ba8d686/response-1.json",
+                  "response_sha256": "316589ee26729e67bf5477e8d106768d17af88af4516fb0455636e395ae1e158"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-10-13",
+                "capture_manifest_sha256": "154b58f1baff99e059c641ab3ada1369d5cf6865f2f3c0604c04638bc5e84710"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "event_compiled": false,
+      "proof_projection_written": false,
+      "admitted": false,
+      "must_bind_before_projection": [
+        "new frozen full-raw manifest and all packets",
+        "source receipt/content review hashes",
+        "same issuer/economic ex-date unique, no vendor duplicate",
+        "eligible-holder cash, not diluted reference",
+        "exact source announcement/record/ex/pay dates; ordinary unrestricted A-share scenario"
+      ]
+    },
+    {
+      "event_key": "SH601918|2026-02-06",
+      "source_kind_if_later_admitted": "PRIMARY_NOTICE_SUPPLEMENT",
+      "notice_record_template_literal": {
+        "code": "sh.601918",
+        "dividPlanDate": "2026-01-30",
+        "dividRegistDate": "2026-02-05",
+        "dividOperateDate": "2026-02-06",
+        "dividPayDate": "2026-02-06",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.05",
+        "dividStocksPs": "0",
+        "dividReserveToStockPs": "0",
+        "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+      },
+      "cash_per_eligible_original_share_CNY": "0.05",
+      "announced": "2026-01-30",
+      "recorded": "2026-02-05",
+      "ex_date": "2026-02-06",
+      "pay_date": "2026-02-06",
+      "listed": null,
+      "stock_per_share": "0",
+      "capital_per_share": "0",
+      "same_date_vendor_row_absent": true,
+      "source_provenance": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+          "original_proof_literal": {
+            "instrument": "SH601918",
+            "record": {
+              "code": "sh.601918",
+              "dividPlanDate": "2026-01-30",
+              "dividRegistDate": "2026-02-05",
+              "dividOperateDate": "2026-02-06",
+              "dividPayDate": "2026-02-06",
+              "dividStockMarketDate": "",
+              "dividCashPsBeforeTax": "0.05",
+              "dividStocksPs": "0",
+              "dividReserveToStockPs": "0",
+              "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+            },
+            "source_file": "SH601918-20260130.pdf",
+            "source_sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+            "pages_one_based": [
+              1,
+              2
+            ],
+            "record_origin": "Issuer temporary implementation notice; not a vendor API row or amount inferred from prices."
+          },
+          "original_proof_sha256": "0883a60a71cdf9bbba559ab60646a33c998719eaace3b1bfd0c1c42c32d19d04",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SH601918-20260130.pdf",
+              "sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+              "document": {
+                "instrument": "SH601918",
+                "publication_day": "2026-01-30",
+                "file": "SH601918-20260130.pdf",
+                "sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-01-30/1224955681.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/request.json",
+                  "request_sha256": "048fcc943410f11f4aa12ce906b2571b6b5920fc66cde34a3384d7b542636e88",
+                  "reserved_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/reserved-1.json",
+                  "reserved_sha256": "300e2c178394aaec2d47065a56f9a25ff17841ae4c4df2360bde31b8c633526f",
+                  "response_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/response-1.json",
+                  "response_sha256": "0b53b08e0fb753460113e4565c0c489eb8779dc6f8090f23244d613456ef27c6"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-01-30",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SH601918-20260130.pdf",
+              "sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+              "document": {
+                "instrument": "SH601918",
+                "publication_day": "2026-01-30",
+                "file": "SH601918-20260130.pdf",
+                "sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-01-30/1224955681.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/request.json",
+                  "request_sha256": "048fcc943410f11f4aa12ce906b2571b6b5920fc66cde34a3384d7b542636e88",
+                  "reserved_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/reserved-1.json",
+                  "reserved_sha256": "300e2c178394aaec2d47065a56f9a25ff17841ae4c4df2360bde31b8c633526f",
+                  "response_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/response-1.json",
+                  "response_sha256": "0b53b08e0fb753460113e4565c0c489eb8779dc6f8090f23244d613456ef27c6"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-01-30",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        },
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+          "original_proof_literal": {
+            "instrument": "SH601918",
+            "record": {
+              "code": "sh.601918",
+              "dividPlanDate": "2026-01-30",
+              "dividRegistDate": "2026-02-05",
+              "dividOperateDate": "2026-02-06",
+              "dividPayDate": "2026-02-06",
+              "dividStockMarketDate": "",
+              "dividCashPsBeforeTax": "0.05",
+              "dividStocksPs": "0",
+              "dividReserveToStockPs": "0",
+              "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+            },
+            "source_file": "SH601918-20260130.pdf",
+            "source_sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+            "pages_one_based": [
+              1,
+              2
+            ],
+            "record_origin": "Issuer temporary implementation notice; not a vendor API row or amount inferred from prices."
+          },
+          "original_proof_sha256": "0883a60a71cdf9bbba559ab60646a33c998719eaace3b1bfd0c1c42c32d19d04",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SH601918-20260130.pdf",
+              "sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+              "document": {
+                "instrument": "SH601918",
+                "publication_day": "2026-01-30",
+                "file": "SH601918-20260130.pdf",
+                "sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-01-30/1224955681.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/request.json",
+                  "request_sha256": "048fcc943410f11f4aa12ce906b2571b6b5920fc66cde34a3384d7b542636e88",
+                  "reserved_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/reserved-1.json",
+                  "reserved_sha256": "300e2c178394aaec2d47065a56f9a25ff17841ae4c4df2360bde31b8c633526f",
+                  "response_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/response-1.json",
+                  "response_sha256": "0b53b08e0fb753460113e4565c0c489eb8779dc6f8090f23244d613456ef27c6"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-01-30",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SH601918-20260130.pdf",
+              "sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+              "document": {
+                "instrument": "SH601918",
+                "publication_day": "2026-01-30",
+                "file": "SH601918-20260130.pdf",
+                "sha256": "4e99c26cd96d66b89195e1679cb4f306229168a01b13c223ab3e37f755e2bb87",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-01-30/1224955681.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/request.json",
+                  "request_sha256": "048fcc943410f11f4aa12ce906b2571b6b5920fc66cde34a3384d7b542636e88",
+                  "reserved_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/reserved-1.json",
+                  "reserved_sha256": "300e2c178394aaec2d47065a56f9a25ff17841ae4c4df2360bde31b8c633526f",
+                  "response_file": "queries/d77c66bc3c64a90da3de619cf71aaa3aa1cf609ff6ddbd7163e5424dc7f92a94/response-1.json",
+                  "response_sha256": "0b53b08e0fb753460113e4565c0c489eb8779dc6f8090f23244d613456ef27c6"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-01-30",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "event_compiled": false,
+      "proof_projection_written": false,
+      "admitted": false,
+      "must_bind_before_projection": [
+        "new frozen full-raw manifest and all packets",
+        "source receipt/content review hashes",
+        "same issuer/economic ex-date unique, no vendor duplicate",
+        "eligible-holder cash, not diluted reference",
+        "exact source announcement/record/ex/pay dates; ordinary unrestricted A-share scenario"
+      ]
+    },
+    {
+      "event_key": "SH601966|2026-06-24",
+      "source_kind_if_later_admitted": "PRIMARY_NOTICE_SUPPLEMENT",
+      "notice_record_template_literal": {
+        "code": "sh.601966",
+        "dividPlanDate": "2026-06-16",
+        "dividRegistDate": "2026-06-23",
+        "dividOperateDate": "2026-06-24",
+        "dividPayDate": "2026-06-24",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.042",
+        "dividStocksPs": "0",
+        "dividReserveToStockPs": "0",
+        "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+      },
+      "cash_per_eligible_original_share_CNY": "0.042",
+      "announced": "2026-06-16",
+      "recorded": "2026-06-23",
+      "ex_date": "2026-06-24",
+      "pay_date": "2026-06-24",
+      "listed": null,
+      "stock_per_share": "0",
+      "capital_per_share": "0",
+      "same_date_vendor_row_absent": true,
+      "source_provenance": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "ff7d6c9e1a17978c74d204a616f1bd965600a5605d02667570256d881ccbf022",
+          "original_proof_literal": {
+            "instrument": "SH601966",
+            "record": {
+              "code": "sh.601966",
+              "dividPlanDate": "2026-06-16",
+              "dividRegistDate": "2026-06-23",
+              "dividOperateDate": "2026-06-24",
+              "dividPayDate": "2026-06-24",
+              "dividStockMarketDate": "",
+              "dividCashPsBeforeTax": "0.042",
+              "dividStocksPs": "0",
+              "dividReserveToStockPs": "0",
+              "dividCashStock": "PRIMARY_CASH_ONLY_NOTICE"
+            },
+            "source_file": "SH601966-1225371939.pdf",
+            "source_sha256": "a4b3740ee871fdbcf1e5d0e1c0f53994f9ecf459d1e3c545932c9cf1035dd9b7",
+            "record_origin": "issuer implementation notice, not vendor response"
+          },
+          "original_proof_sha256": "7dc3bee84003c3ed02bc8f7689c66e44a24191aee4cac2e3fd10500691993ab4",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/SH601966-1225371939.pdf",
+              "sha256": "a4b3740ee871fdbcf1e5d0e1c0f53994f9ecf459d1e3c545932c9cf1035dd9b7",
+              "document": {
+                "instrument": "SH601966",
+                "day": "2026-06-16",
+                "title": "山东玲珑轮胎股份有限公司2025年第四季度权益分派实施公告",
+                "announcement_id": "1225371939",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-06-16/1225371939.PDF",
+                "file": "SH601966-1225371939.pdf",
+                "sha256": "a4b3740ee871fdbcf1e5d0e1c0f53994f9ecf459d1e3c545932c9cf1035dd9b7"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/reviewed-manifest.json",
+              "root_sha256": "ff7d6c9e1a17978c74d204a616f1bd965600a5605d02667570256d881ccbf022"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "event_compiled": false,
+      "proof_projection_written": false,
+      "admitted": false,
+      "must_bind_before_projection": [
+        "new frozen full-raw manifest and all packets",
+        "source receipt/content review hashes",
+        "same issuer/economic ex-date unique, no vendor duplicate",
+        "eligible-holder cash, not diluted reference",
+        "exact source announcement/record/ex/pay dates; ordinary unrestricted A-share scenario"
+      ]
+    },
+    {
+      "event_key": "SZ002608|2026-10-19",
+      "source_kind_if_later_admitted": "PRIMARY_NOTICE_SUPPLEMENT",
+      "notice_record_template_literal": {
+        "code": "sz.002608",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "",
+        "dividPlanAnnounceDate": "",
+        "dividPlanDate": "2026-10-13",
+        "dividRegistDate": "2026-10-16",
+        "dividOperateDate": "2026-10-19",
+        "dividPayDate": "2026-10-19",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0",
+        "dividCashStock": "PRIMARY_NOTICE_CASH_ONLY",
+        "dividReserveToStockPs": "0"
+      },
+      "cash_per_eligible_original_share_CNY": "0.05",
+      "announced": "2026-10-13",
+      "recorded": "2026-10-16",
+      "ex_date": "2026-10-19",
+      "pay_date": "2026-10-19",
+      "listed": null,
+      "stock_per_share": "0",
+      "capital_per_share": "0",
+      "same_date_vendor_row_absent": true,
+      "source_provenance": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+          "original_reviewed_manifest_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8",
+          "original_proof_literal": {
+            "instrument": "SZ002608",
+            "source_file": "SZ002608.pdf",
+            "source_sha256": "c8d15c68dc8f6acd7830fb692d063395b20825bb159165b91d23ba58a6c34f95",
+            "record": {
+              "code": "sz.002608",
+              "dividPreNoticeDate": "",
+              "dividAgmPumDate": "",
+              "dividPlanAnnounceDate": "",
+              "dividPlanDate": "2026-10-13",
+              "dividRegistDate": "2026-10-16",
+              "dividOperateDate": "2026-10-19",
+              "dividPayDate": "2026-10-19",
+              "dividStockMarketDate": "",
+              "dividCashPsBeforeTax": "0.05",
+              "dividCashPsAfterTax": "",
+              "dividStocksPs": "0",
+              "dividCashStock": "PRIMARY_NOTICE_CASH_ONLY",
+              "dividReserveToStockPs": "0"
+            },
+            "primary_pages_one_based": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "source_role": "PRIMARY_NOTICE_SUPPLEMENT_NOT_VENDOR_REWRITE"
+          },
+          "original_proof_sha256": "5351f1420520bb8ae0ce9373f4fe7f2f5f03bc01e36607bae1fb47d86c7f78bb",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002608.pdf",
+              "sha256": "c8d15c68dc8f6acd7830fb692d063395b20825bb159165b91d23ba58a6c34f95",
+              "document": {
+                "instrument": "SZ002608",
+                "issuer": "江苏国信股份有限公司",
+                "short_name": "江苏国信",
+                "announcement_number": "2026-036",
+                "signature_day": "2026-10-13",
+                "record_date": "2026-10-16",
+                "ex_date": "2026-10-19",
+                "cash_payment_date": "2026-10-19",
+                "cash_per_original_share_CNY": "0.05",
+                "cash_per_10_original_shares_CNY": "0.500000",
+                "price_reference_cash_per_share_CNY": null,
+                "issuer_stated_total_cash_CNY": "188903985.20",
+                "eligible_share_base": "3778079704",
+                "primary_pages": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "field_pages": {
+                  "issuer_code": [
+                    1
+                  ],
+                  "cash": [
+                    1,
+                    2
+                  ],
+                  "record": [
+                    2
+                  ],
+                  "ex_pay": [
+                    3
+                  ],
+                  "noncash_zero": [
+                    1
+                  ],
+                  "signature": [
+                    4
+                  ]
+                },
+                "excerpts": [
+                  {
+                    "page": 2,
+                    "quote": "每10股派0.500000元人民币现金"
+                  },
+                  {
+                    "page": 1,
+                    "quote": "不送红股、不以公积金转增股本。"
+                  },
+                  {
+                    "page": 3,
+                    "quote": "权除息日为：2026年10月19日。"
+                  }
+                ],
+                "eligibility": "All registered shareholders on stated existing share base; notice lists certain self-paying holders separately.",
+                "unknowns": [
+                  "No separately stated price-reference cash formula; do not infer an exact adjustment-factor mapping."
+                ],
+                "file": "SZ002608.pdf",
+                "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002608.pdf",
+                "sha256": "c8d15c68dc8f6acd7830fb692d063395b20825bb159165b91d23ba58a6c34f95",
+                "publication_day": "2026-10-13",
+                "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+                "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601312.PDF",
+                "stock_per_original_share": "0",
+                "capital_per_original_share": "0",
+                "stock_listing_date": null,
+                "stock_listing_date_applicable": false,
+                "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+                "all_pages_text_reviewed": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "all_pages_visually_reviewed": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "conservative_notice_publication_day": "2026-10-13",
+                "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified.",
+                "day": "2026-10-13"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+              "root_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "event_compiled": false,
+      "proof_projection_written": false,
+      "admitted": false,
+      "must_bind_before_projection": [
+        "new frozen full-raw manifest and all packets",
+        "source receipt/content review hashes",
+        "same issuer/economic ex-date unique, no vendor duplicate",
+        "eligible-holder cash, not diluted reference",
+        "exact source announcement/record/ex/pay dates; ordinary unrestricted A-share scenario"
+      ]
+    },
+    {
+      "event_key": "SZ002756|2026-10-20",
+      "source_kind_if_later_admitted": "PRIMARY_NOTICE_SUPPLEMENT",
+      "notice_record_template_literal": {
+        "code": "sz.002756",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "",
+        "dividPlanAnnounceDate": "",
+        "dividPlanDate": "2026-10-14",
+        "dividRegistDate": "2026-10-19",
+        "dividOperateDate": "2026-10-20",
+        "dividPayDate": "2026-10-20",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.3",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0",
+        "dividCashStock": "PRIMARY_NOTICE_CASH_ONLY",
+        "dividReserveToStockPs": "0"
+      },
+      "cash_per_eligible_original_share_CNY": "0.3",
+      "announced": "2026-10-14",
+      "recorded": "2026-10-19",
+      "ex_date": "2026-10-20",
+      "pay_date": "2026-10-20",
+      "listed": null,
+      "stock_per_share": "0",
+      "capital_per_share": "0",
+      "same_date_vendor_row_absent": true,
+      "source_provenance": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+          "original_reviewed_manifest_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8",
+          "original_proof_literal": {
+            "instrument": "SZ002756",
+            "source_file": "SZ002756.pdf",
+            "source_sha256": "b9969a48825ef1bd866b179f1abd8954abeebc935180fc2d63cac8e1dd7f5220",
+            "record": {
+              "code": "sz.002756",
+              "dividPreNoticeDate": "",
+              "dividAgmPumDate": "",
+              "dividPlanAnnounceDate": "",
+              "dividPlanDate": "2026-10-14",
+              "dividRegistDate": "2026-10-19",
+              "dividOperateDate": "2026-10-20",
+              "dividPayDate": "2026-10-20",
+              "dividStockMarketDate": "",
+              "dividCashPsBeforeTax": "0.3",
+              "dividCashPsAfterTax": "",
+              "dividStocksPs": "0",
+              "dividCashStock": "PRIMARY_NOTICE_CASH_ONLY",
+              "dividReserveToStockPs": "0"
+            },
+            "primary_pages_one_based": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "source_role": "PRIMARY_NOTICE_SUPPLEMENT_NOT_VENDOR_REWRITE"
+          },
+          "original_proof_sha256": "51be9596890c0ca9bd99072f4b0018ac8e78aa3ac8e59491eddbc0484bfab614",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002756.pdf",
+              "sha256": "b9969a48825ef1bd866b179f1abd8954abeebc935180fc2d63cac8e1dd7f5220",
+              "document": {
+                "instrument": "SZ002756",
+                "issuer": "永兴特种材料科技股份有限公司",
+                "short_name": "永兴材料",
+                "announcement_number": "2026-045",
+                "signature_day": "2026-10-14",
+                "record_date": "2026-10-19",
+                "ex_date": "2026-10-20",
+                "cash_payment_date": "2026-10-20",
+                "cash_per_original_share_CNY": "0.3",
+                "cash_per_10_original_shares_CNY": "3.00",
+                "price_reference_cash_per_share_CNY": "0.2962722",
+                "issuer_stated_total_cash_CNY": "159720837.60",
+                "eligible_share_base": "532402792",
+                "primary_pages": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "field_pages": {
+                  "issuer_code": [
+                    1
+                  ],
+                  "cash_final_scheme": [
+                    2
+                  ],
+                  "record_ex_pay": [
+                    3
+                  ],
+                  "noncash_zero": [
+                    1,
+                    2
+                  ],
+                  "price_reference": [
+                    1,
+                    3
+                  ],
+                  "signature": [
+                    4
+                  ]
+                },
+                "excerpts": [
+                  {
+                    "page": 2,
+                    "quote": "每10股派发现金股利3.00元"
+                  },
+                  {
+                    "page": 2,
+                    "quote": "不送红股，不以公积金转增股本"
+                  },
+                  {
+                    "page": 3,
+                    "quote": "0.2962722元/股"
+                  }
+                ],
+                "eligibility": "Final implemented base532402792excludes6698748repurchase shares from539101540total. pp2says2534000repurchase shares transferredOct8toemployee plan; use final implementation base, not earlier529868792proposal base.",
+                "unknowns": [
+                  "Actual receipt eligibility for special company-held shares is not independently registry-certified."
+                ],
+                "critical_interpretation": "Ordinary eligible shareholders receive0.3gross/share;0.2962722is only the whole-capital price reference.",
+                "file": "SZ002756.pdf",
+                "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002756.pdf",
+                "sha256": "b9969a48825ef1bd866b179f1abd8954abeebc935180fc2d63cac8e1dd7f5220",
+                "publication_day": "2026-10-14",
+                "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+                "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225602795.PDF",
+                "stock_per_original_share": "0",
+                "capital_per_original_share": "0",
+                "stock_listing_date": null,
+                "stock_listing_date_applicable": false,
+                "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+                "all_pages_text_reviewed": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "all_pages_visually_reviewed": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "conservative_notice_publication_day": "2026-10-14",
+                "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified.",
+                "day": "2026-10-14"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+              "root_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "event_compiled": false,
+      "proof_projection_written": false,
+      "admitted": false,
+      "must_bind_before_projection": [
+        "new frozen full-raw manifest and all packets",
+        "source receipt/content review hashes",
+        "same issuer/economic ex-date unique, no vendor duplicate",
+        "eligible-holder cash, not diluted reference",
+        "exact source announcement/record/ex/pay dates; ordinary unrestricted A-share scenario"
+      ]
+    },
+    {
+      "event_key": "SZ002812|2026-10-20",
+      "source_kind_if_later_admitted": "PRIMARY_NOTICE_SUPPLEMENT",
+      "notice_record_template_literal": {
+        "code": "sz.002812",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "",
+        "dividPlanAnnounceDate": "",
+        "dividPlanDate": "2026-10-14",
+        "dividRegistDate": "2026-10-19",
+        "dividOperateDate": "2026-10-20",
+        "dividPayDate": "2026-10-20",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.41",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0",
+        "dividCashStock": "PRIMARY_NOTICE_CASH_ONLY",
+        "dividReserveToStockPs": "0"
+      },
+      "cash_per_eligible_original_share_CNY": "0.41",
+      "announced": "2026-10-14",
+      "recorded": "2026-10-19",
+      "ex_date": "2026-10-20",
+      "pay_date": "2026-10-20",
+      "listed": null,
+      "stock_per_share": "0",
+      "capital_per_share": "0",
+      "same_date_vendor_row_absent": true,
+      "source_provenance": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+          "original_reviewed_manifest_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8",
+          "original_proof_literal": {
+            "instrument": "SZ002812",
+            "source_file": "SZ002812.pdf",
+            "source_sha256": "5045142c9897f1eff9c9f66f8eab25340b4c2aff7c7ece8f876ac7d21aa78ce3",
+            "record": {
+              "code": "sz.002812",
+              "dividPreNoticeDate": "",
+              "dividAgmPumDate": "",
+              "dividPlanAnnounceDate": "",
+              "dividPlanDate": "2026-10-14",
+              "dividRegistDate": "2026-10-19",
+              "dividOperateDate": "2026-10-20",
+              "dividPayDate": "2026-10-20",
+              "dividStockMarketDate": "",
+              "dividCashPsBeforeTax": "0.41",
+              "dividCashPsAfterTax": "",
+              "dividStocksPs": "0",
+              "dividCashStock": "PRIMARY_NOTICE_CASH_ONLY",
+              "dividReserveToStockPs": "0"
+            },
+            "primary_pages_one_based": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "source_role": "PRIMARY_NOTICE_SUPPLEMENT_NOT_VENDOR_REWRITE"
+          },
+          "original_proof_sha256": "759e874325db979f69cb98fd89287589043384518295bc17a5ff6e399c7efd12",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002812.pdf",
+              "sha256": "5045142c9897f1eff9c9f66f8eab25340b4c2aff7c7ece8f876ac7d21aa78ce3",
+              "document": {
+                "instrument": "SZ002812",
+                "issuer": "云南恩捷新材料（集团）股份有限公司",
+                "short_name": "恩捷股份",
+                "announcement_number": "2026-175",
+                "signature_day": "2026-10-13",
+                "record_date": "2026-10-19",
+                "ex_date": "2026-10-20",
+                "cash_payment_date": "2026-10-20",
+                "cash_per_original_share_CNY": "0.41",
+                "cash_per_10_original_shares_CNY": "4.10",
+                "price_reference_cash_per_share_CNY": "0.4091219",
+                "issuer_stated_total_cash_CNY": "401478977.38",
+                "eligible_share_base": "979217018",
+                "primary_pages": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "field_pages": {
+                  "issuer_code": [
+                    1
+                  ],
+                  "cash_final_scheme": [
+                    2
+                  ],
+                  "record_ex_pay": [
+                    3
+                  ],
+                  "noncash_zero": [
+                    1,
+                    2
+                  ],
+                  "price_reference": [
+                    1,
+                    3,
+                    4
+                  ],
+                  "signature": [
+                    4
+                  ]
+                },
+                "excerpts": [
+                  {
+                    "page": 2,
+                    "quote": "每10股派发现金股利4.10元"
+                  },
+                  {
+                    "page": 2,
+                    "quote": "不送红股，不以公积金转增股本"
+                  },
+                  {
+                    "page": 3,
+                    "quote": "0.4091219元/股"
+                  }
+                ],
+                "eligibility": "Final base979217018excludes2101500repurchase shares from981318518total; retain final scheme rather than earlier977644230proposal base.",
+                "unknowns": [
+                  "Captured publication metadataOct14is one day later than the PDF board signatureOct13; actual historical first-public time not authenticated."
+                ],
+                "critical_interpretation": "0.41gross/share is the entitlement;0.4091219is the price reference only. Boilerplate section title about capital increase and references to incentive registration do not create a stock dividend; operative text says no stock or capital transfer.",
+                "file": "SZ002812.pdf",
+                "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-primary-2026-gaps-20261021/SZ002812.pdf",
+                "sha256": "5045142c9897f1eff9c9f66f8eab25340b4c2aff7c7ece8f876ac7d21aa78ce3",
+                "publication_day": "2026-10-14",
+                "publication_day_basis": "Captured official CNINFO finalpage URL day and frozen capture manifest; not authenticated historical first-availability timestamp.",
+                "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225604047.PDF",
+                "stock_per_original_share": "0",
+                "capital_per_original_share": "0",
+                "stock_listing_date": null,
+                "stock_listing_date_applicable": false,
+                "event_type": "CASH_ONLY_INTERIM_DIVIDEND",
+                "all_pages_text_reviewed": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "all_pages_visually_reviewed": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "conservative_notice_publication_day": "2026-10-14",
+                "payment_date_scope": "ChinaClear-delegated A-share cash distribution date explicitly stated; actual investor receipt and separately self-paid-holder settlement are not independently verified.",
+                "day": "2026-10-14"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+              "root_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "event_compiled": false,
+      "proof_projection_written": false,
+      "admitted": false,
+      "must_bind_before_projection": [
+        "new frozen full-raw manifest and all packets",
+        "source receipt/content review hashes",
+        "same issuer/economic ex-date unique, no vendor duplicate",
+        "eligible-holder cash, not diluted reference",
+        "exact source announcement/record/ex/pay dates; ordinary unrestricted A-share scenario"
+      ]
+    }
+  ],
+  "known_capital_tax_candidates": [
+    {
+      "event_key": "SH601128|2026-06-09",
+      "literal_raw_vendor_row": {
+        "code": "sh.601128",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-05-23",
+        "dividPlanAnnounceDate": "2026-04-24",
+        "dividPlanDate": "2026-06-03",
+        "dividRegistDate": "2026-06-08",
+        "dividOperateDate": "2026-06-09",
+        "dividPayDate": "2026-06-09",
+        "dividStockMarketDate": "2026-06-09",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "0.108或0.12",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10转1派1.2元（含税，扣税后1.08或1.2元）",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "source_row_sha256": "66c69d488e126760ea9e7f2553c410806ea5c91ca8223d37c0d440690cb12717",
+      "packet_sha256": "49a137ab5db2caaef59d0c1454bc49c124033b855033bc158dedc83a1c93706e",
+      "source_fields": {
+        "cash": "0.12",
+        "capital": "0.100000",
+        "stock": "0.000000",
+        "announced": "2026-06-03",
+        "recorded": "2026-06-08",
+        "ex_date": "2026-06-09",
+        "pay_date": "2026-06-09",
+        "listed": "2026-06-09"
+      },
+      "evidence_level_to_preserve": "DIRECT_ISSUER_EVENT_SHARE_PREMIUM_NO_TAX_STATEMENT",
+      "source_provenance": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+          "original_proof_literal": {
+            "verified_exempt": true,
+            "source_file": "SH601128-20260603.pdf",
+            "source_sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+            "pages_one_based": [
+              3
+            ],
+            "evidence": "Issuer explicitly identifies share-premium issuance source and no tax for this transfer."
+          },
+          "original_proof_sha256": "a09f0e1c22a18cb8352608b54f26c9c9fb142c1f2d2c8296d446b52415e19e7a",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SH601128-20260603.pdf",
+              "sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+              "document": {
+                "instrument": "SH601128",
+                "publication_day": "2026-06-03",
+                "file": "SH601128-20260603.pdf",
+                "sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+                "url": null,
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": null,
+                "capture_route": "BYTE_IDENTICAL_REUSE",
+                "day": "2026-06-03",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SH601128-20260603.pdf",
+              "sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+              "document": {
+                "instrument": "SH601128",
+                "publication_day": "2026-06-03",
+                "file": "SH601128-20260603.pdf",
+                "sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+                "url": null,
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": null,
+                "capture_route": "BYTE_IDENTICAL_REUSE",
+                "day": "2026-06-03",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        },
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+          "original_proof_literal": {
+            "verified_exempt": true,
+            "source_file": "SH601128-20260603.pdf",
+            "source_sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+            "pages_one_based": [
+              3
+            ],
+            "evidence": "Issuer explicitly identifies share-premium issuance source and no tax for this transfer."
+          },
+          "original_proof_sha256": "a09f0e1c22a18cb8352608b54f26c9c9fb142c1f2d2c8296d446b52415e19e7a",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SH601128-20260603.pdf",
+              "sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+              "document": {
+                "instrument": "SH601128",
+                "publication_day": "2026-06-03",
+                "file": "SH601128-20260603.pdf",
+                "sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+                "url": null,
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": null,
+                "capture_route": "BYTE_IDENTICAL_REUSE",
+                "day": "2026-06-03",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SH601128-20260603.pdf",
+              "sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+              "document": {
+                "instrument": "SH601128",
+                "publication_day": "2026-06-03",
+                "file": "SH601128-20260603.pdf",
+                "sha256": "f541758b7c6a564ee8ce86099ff90eefcf0a8f3700eb67ae7f012f75cff71aac",
+                "url": null,
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": null,
+                "capture_route": "BYTE_IDENTICAL_REUSE",
+                "day": "2026-06-03",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "new_verified_exempt_flag_projected": false,
+      "strict_statutory_certification": false,
+      "admitted": false
+    },
+    {
+      "event_key": "SH603737|2026-06-01",
+      "literal_raw_vendor_row": {
+        "code": "sh.603737",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-05-14",
+        "dividPlanAnnounceDate": "2026-04-23",
+        "dividPlanDate": "2026-05-26",
+        "dividRegistDate": "2026-05-29",
+        "dividOperateDate": "2026-06-01",
+        "dividPayDate": "2026-06-01",
+        "dividStockMarketDate": "2026-06-01",
+        "dividCashPsBeforeTax": "0.068",
+        "dividCashPsAfterTax": "0.0612或0.068",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10转2派0.68元（含税，扣税后0.612或0.68元）",
+        "dividReserveToStockPs": "0.200000"
+      },
+      "source_row_sha256": "0c8930d524a9a657993f8fa516adf68f7abc0ddf2a023df6ab26b3027bc9e479",
+      "packet_sha256": "40d2e0da754a0fd790f4c6549eaeed662a68e5ad8721fbb4b3d5ca3c5833da23",
+      "source_fields": {
+        "cash": "0.068",
+        "capital": "0.200000",
+        "stock": "0.000000",
+        "announced": "2026-05-26",
+        "recorded": "2026-05-29",
+        "ex_date": "2026-06-01",
+        "pay_date": "2026-06-01",
+        "listed": "2026-06-01"
+      },
+      "evidence_level_to_preserve": "DIRECT_ISSUER_EVENT_SHARE_PREMIUM_NO_TAX_STATEMENT",
+      "source_provenance": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "ff7d6c9e1a17978c74d204a616f1bd965600a5605d02667570256d881ccbf022",
+          "original_proof_literal": {
+            "verified_exempt": true,
+            "source_file": "SH603737-1225328631.pdf",
+            "source_sha256": "f6b3f28129ccf65adf1d3a1be7fba7c1c6a7eb062550b84e6605072cdb6ea0e0",
+            "publication_day": "2026-05-26",
+            "expected_capital_per_share": "0.200000",
+            "basis": "Issuer states premium share capital reserve and no tax for this capital transfer"
+          },
+          "original_proof_sha256": "8498a44eeae65ef8a23a5f3bdf90a793ede74e7df77be29229fcbf2e70264535",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/SH603737-1225328631.pdf",
+              "sha256": "f6b3f28129ccf65adf1d3a1be7fba7c1c6a7eb062550b84e6605072cdb6ea0e0",
+              "document": {
+                "instrument": "SH603737",
+                "day": "2026-05-26",
+                "title": "2025年年度权益分派实施公告",
+                "announcement_id": "1225328631",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-05-26/1225328631.PDF",
+                "file": "SH603737-1225328631.pdf",
+                "sha256": "f6b3f28129ccf65adf1d3a1be7fba7c1c6a7eb062550b84e6605072cdb6ea0e0"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-full-corporate-notices-20261017/reviewed-manifest.json",
+              "root_sha256": "ff7d6c9e1a17978c74d204a616f1bd965600a5605d02667570256d881ccbf022"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "new_verified_exempt_flag_projected": false,
+      "strict_statutory_certification": false,
+      "admitted": false
+    },
+    {
+      "event_key": "SZ002595|2026-05-11",
+      "literal_raw_vendor_row": {
+        "code": "sz.002595",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-04-28",
+        "dividPlanAnnounceDate": "2026-03-31",
+        "dividPlanDate": "2026-04-30",
+        "dividRegistDate": "2026-05-08",
+        "dividOperateDate": "2026-05-11",
+        "dividPayDate": "2026-05-11",
+        "dividStockMarketDate": "2026-05-11",
+        "dividCashPsBeforeTax": "1",
+        "dividCashPsAfterTax": "0.9或1",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10转4.5派10元（含税，扣税后9或10元）",
+        "dividReserveToStockPs": "0.450000"
+      },
+      "source_row_sha256": "4f4af7c42dad26d3429d528f72fd68af7f8f686db1fc145b7a057e16f2141d58",
+      "packet_sha256": "16377d68a7b3443ca8132500f9aad9dfa0f2422650bc4a78676500b1658b7ae6",
+      "source_fields": {
+        "cash": "1",
+        "capital": "0.450000",
+        "stock": "0.000000",
+        "announced": "2026-04-30",
+        "recorded": "2026-05-08",
+        "ex_date": "2026-05-11",
+        "pay_date": "2026-05-11",
+        "listed": "2026-05-11"
+      },
+      "evidence_level_to_preserve": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "source_provenance": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+          "original_reviewed_manifest_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8",
+          "original_proof_literal": {
+            "verified_exempt": true,
+            "source_file": "SZ002595-20260430.pdf",
+            "source_sha256": "57cc64295dec15d54885c8d3256c65e02faa8276da53faf0e121c5c769a4dadc",
+            "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+            "primary_pages_one_based": [
+              1,
+              2,
+              3
+            ],
+            "strict_statutory_capital_tax_certification": false
+          },
+          "original_proof_sha256": "59061a60b3b9040f56ba5c7e857cbd30c09db67b3ae47ae917108f31019ca94d",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-noncash-2026-capture-20261021/SZ002595-20260430.pdf",
+              "sha256": "57cc64295dec15d54885c8d3256c65e02faa8276da53faf0e121c5c769a4dadc",
+              "document": {
+                "instrument": "SZ002595",
+                "document_id": "SZ002595-20260430",
+                "issuer": "山东豪迈机械科技股份有限公司",
+                "short_name": "豪迈科技",
+                "announcement_number": "2026-018",
+                "signature_day": "2026-04-29",
+                "record_date": "2026-05-08",
+                "ex_date": "2026-05-11",
+                "cash_payment_date": "2026-05-11",
+                "listed_date": "2026-05-11",
+                "cash_per_original_share_CNY": "1",
+                "stock_per_original_share": "0",
+                "capital_per_original_share": "0.45",
+                "cash_per_10_original_shares_CNY": "10.000000",
+                "capital_per_10_original_shares": "4.500000",
+                "explicit_tax_within_1month_per_10_original_shares_CNY": "2.000000",
+                "premium_source_text_strength": "TRANSFER_AMOUNT_WITHIN_SHARE_PREMIUM_BALANCE_NOT_EXCLUSIVE_SOURCE_TRACING",
+                "premium_source_quote": "转增金额未超过报告期末母公司“资本公积-股本溢价”的余额",
+                "premium_source_page": 1,
+                "explicit_tax_quote": "每10股补缴税款2.000000元",
+                "explicit_tax_page": 2,
+                "field_pages": {
+                  "issuer_code": [
+                    1
+                  ],
+                  "cash_capital_stock": [
+                    1,
+                    2
+                  ],
+                  "record_ex_cash_payment_listed": [
+                    2
+                  ],
+                  "signature": [
+                    3
+                  ]
+                },
+                "primary_pages": [
+                  1,
+                  2,
+                  3
+                ],
+                "notes": [
+                  "PDF signedApr29but captured publication dayApr30; preserve both and use conservativeApr30for document availability."
+                ],
+                "file": "SZ002595-20260430.pdf",
+                "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-noncash-2026-capture-20261021/SZ002595-20260430.pdf",
+                "sha256": "57cc64295dec15d54885c8d3256c65e02faa8276da53faf0e121c5c769a4dadc",
+                "publication_day": "2026-04-30",
+                "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225256197.PDF",
+                "conservative_publication_day": "2026-04-30",
+                "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+                "capital_tax_exempt_inference_supported": true,
+                "strict_statutory_capital_tax_certification": false,
+                "tax_amount_check": {
+                  "cash_per10_CNY": "10.000000",
+                  "rate": "0.20",
+                  "computed_cash_tax_per10_CNY": "2.00000000",
+                  "notice_explicit_tax_per10_CNY": "2.000000",
+                  "exact_decimal_equality": true,
+                  "rounding_used": false,
+                  "applies_to": "Notice example for postIPOrestricted/incentive/unrestricted individual shares held<=1month; not all taxpayer classes."
+                },
+                "inference_scope": "Paired issuer notice premium-related wording and explicit cash-only20percent tax amount support an event-specific limited inference for the inherited fixed stress scenario. Not a general tax opinion, strict statutory source certification, or actual investor tax assessment.",
+                "notice_explicit_statutory_transfer_exemption_statement_found": false,
+                "unknowns": [
+                  "No independent reserve-account source tracing, tax authority ruling, or investor-specific FIFO liability verified.",
+                  "Fractional-share allocation uses registry tail ordering/random ties and final registry confirmation; this review does not predict individual rounded entitlements or authorize synthetic rounding.",
+                  "Actual historical publication arrival/time and actual cash/share receipt not certified.",
+                  "Not-exceeding-share-premium-balance text alone does not prove the entire transfer was exclusively sourced from legally qualifying share premium; boolean support relies on the paired explicit tax amount only at limited inference level."
+                ],
+                "all_pages_text_reviewed": [
+                  1,
+                  2,
+                  3
+                ],
+                "all_pages_visually_reviewed": [
+                  1,
+                  2,
+                  3
+                ],
+                "vendor_comparison": {
+                  "source_packet_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-raw-full-20261021/codes/SZ002595.json",
+                  "source_packet_sha256": "c7b318f85391d9f77247e26c65e5ff1487eb4ce203252845144d1f0538e868b1",
+                  "vendor_record": {
+                    "code": "sz.002595",
+                    "dividPreNoticeDate": "",
+                    "dividAgmPumDate": "2026-04-28",
+                    "dividPlanAnnounceDate": "2026-03-31",
+                    "dividPlanDate": "2026-04-30",
+                    "dividRegistDate": "2026-05-08",
+                    "dividOperateDate": "2026-05-11",
+                    "dividPayDate": "2026-05-11",
+                    "dividStockMarketDate": "2026-05-11",
+                    "dividCashPsBeforeTax": "1",
+                    "dividCashPsAfterTax": "0.9或1",
+                    "dividStocksPs": "0.000000",
+                    "dividCashStock": "10转4.5派10元（含税，扣税后9或10元）",
+                    "dividReserveToStockPs": "0.450000"
+                  },
+                  "compared_primary_fields_agree": {
+                    "record_date": true,
+                    "ex_date": true,
+                    "cash_payment_date": true,
+                    "listed_date": true,
+                    "gross_cash": true,
+                    "stock": true,
+                    "capital": true
+                  },
+                  "contradictions_in_compared_fields": [],
+                  "cash_after_tax_not_a_single_universal_net_rate": true,
+                  "other_vendor_plan_or_AGM_metadata_not_reclassified": true
+                },
+                "day": "2026-04-30"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+              "root_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "new_verified_exempt_flag_projected": false,
+      "strict_statutory_certification": false,
+      "admitted": false
+    }
+  ],
+  "cached_cash_precision_reference_only": [
+    {
+      "event_key": "SZ000975|2026-04-24",
+      "original_precision_proof_sources": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+          "original_proof_literal": {
+            "verified": true,
+            "kind": "PRIMARY_NOTICE_CASH_PRECISION",
+            "source_row_sha256": "6c072ee6566a233b45ebb3f98e13e41259b9a0126c16ebe59f0752f9a227abc0",
+            "expected_vendor_cash_per_share": "0.480402",
+            "effective_cash_per_share": "0.4804021",
+            "source_file": "SZ000975-20260417.pdf",
+            "source_sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+            "pages_one_based": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "reference_price_deduction_per_share": "0.4796827",
+            "reference_price_deduction_is_not_cash_entitlement": true,
+            "declared_precision": "Issuer final digit truncated, not rounded; preserve displayed precision."
+          },
+          "original_proof_sha256": "9525666818e024886ec1bc6452eb0c0f16bf5f810383a12e31b0048f98859ad2",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000975-20260417.pdf",
+              "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+              "document": {
+                "instrument": "SZ000975",
+                "publication_day": "2026-04-17",
+                "file": "SZ000975-20260417.pdf",
+                "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/request.json",
+                  "request_sha256": "5403b9c01827e7ca3f4264c8f2bacb3eee32b12f1778eb377deea523d7e2bb27",
+                  "reserved_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/reserved-1.json",
+                  "reserved_sha256": "ce583ddeee886cfe0c2dd084844341e99265bb1611521b0db23f6f79b53d4483",
+                  "response_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/response-1.json",
+                  "response_sha256": "772aa7ba23ae38dea2dfd3e0a215eb962e55714cc216b32a519f82e86d83880d"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-04-17",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SZ000975-20260417.pdf",
+              "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+              "document": {
+                "instrument": "SZ000975",
+                "publication_day": "2026-04-17",
+                "file": "SZ000975-20260417.pdf",
+                "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/request.json",
+                  "request_sha256": "5403b9c01827e7ca3f4264c8f2bacb3eee32b12f1778eb377deea523d7e2bb27",
+                  "reserved_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/reserved-1.json",
+                  "reserved_sha256": "ce583ddeee886cfe0c2dd084844341e99265bb1611521b0db23f6f79b53d4483",
+                  "response_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/response-1.json",
+                  "response_sha256": "772aa7ba23ae38dea2dfd3e0a215eb962e55714cc216b32a519f82e86d83880d"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-04-17",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000975-20260417.pdf",
+              "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+              "document": {
+                "instrument": "SZ000975",
+                "publication_day": "2026-04-17",
+                "file": "SZ000975-20260417.pdf",
+                "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/request.json",
+                  "request_sha256": "5403b9c01827e7ca3f4264c8f2bacb3eee32b12f1778eb377deea523d7e2bb27",
+                  "reserved_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/reserved-1.json",
+                  "reserved_sha256": "ce583ddeee886cfe0c2dd084844341e99265bb1611521b0db23f6f79b53d4483",
+                  "response_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/response-1.json",
+                  "response_sha256": "772aa7ba23ae38dea2dfd3e0a215eb962e55714cc216b32a519f82e86d83880d"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-04-17",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+              "root_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        },
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+          "original_proof_literal": {
+            "verified": true,
+            "kind": "PRIMARY_NOTICE_CASH_PRECISION",
+            "source_row_sha256": "6c072ee6566a233b45ebb3f98e13e41259b9a0126c16ebe59f0752f9a227abc0",
+            "expected_vendor_cash_per_share": "0.480402",
+            "effective_cash_per_share": "0.4804021",
+            "source_file": "SZ000975-20260417.pdf",
+            "source_sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+            "pages_one_based": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "reference_price_deduction_per_share": "0.4796827",
+            "reference_price_deduction_is_not_cash_entitlement": true,
+            "declared_precision": "Issuer final digit truncated, not rounded; preserve displayed precision."
+          },
+          "original_proof_sha256": "9525666818e024886ec1bc6452eb0c0f16bf5f810383a12e31b0048f98859ad2",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000975-20260417.pdf",
+              "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+              "document": {
+                "instrument": "SZ000975",
+                "publication_day": "2026-04-17",
+                "file": "SZ000975-20260417.pdf",
+                "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/request.json",
+                  "request_sha256": "5403b9c01827e7ca3f4264c8f2bacb3eee32b12f1778eb377deea523d7e2bb27",
+                  "reserved_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/reserved-1.json",
+                  "reserved_sha256": "ce583ddeee886cfe0c2dd084844341e99265bb1611521b0db23f6f79b53d4483",
+                  "response_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/response-1.json",
+                  "response_sha256": "772aa7ba23ae38dea2dfd3e0a215eb962e55714cc216b32a519f82e86d83880d"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-04-17",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SZ000975-20260417.pdf",
+              "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+              "document": {
+                "instrument": "SZ000975",
+                "publication_day": "2026-04-17",
+                "file": "SZ000975-20260417.pdf",
+                "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/request.json",
+                  "request_sha256": "5403b9c01827e7ca3f4264c8f2bacb3eee32b12f1778eb377deea523d7e2bb27",
+                  "reserved_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/reserved-1.json",
+                  "reserved_sha256": "ce583ddeee886cfe0c2dd084844341e99265bb1611521b0db23f6f79b53d4483",
+                  "response_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/response-1.json",
+                  "response_sha256": "772aa7ba23ae38dea2dfd3e0a215eb962e55714cc216b32a519f82e86d83880d"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-04-17",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000975-20260417.pdf",
+              "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+              "document": {
+                "instrument": "SZ000975",
+                "publication_day": "2026-04-17",
+                "file": "SZ000975-20260417.pdf",
+                "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/request.json",
+                  "request_sha256": "5403b9c01827e7ca3f4264c8f2bacb3eee32b12f1778eb377deea523d7e2bb27",
+                  "reserved_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/reserved-1.json",
+                  "reserved_sha256": "ce583ddeee886cfe0c2dd084844341e99265bb1611521b0db23f6f79b53d4483",
+                  "response_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/response-1.json",
+                  "response_sha256": "772aa7ba23ae38dea2dfd3e0a215eb962e55714cc216b32a519f82e86d83880d"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-04-17",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+              "root_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        },
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+          "original_reviewed_manifest_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8",
+          "original_proof_literal": {
+            "verified": true,
+            "kind": "PRIMARY_NOTICE_CASH_PRECISION",
+            "source_row_sha256": "6c072ee6566a233b45ebb3f98e13e41259b9a0126c16ebe59f0752f9a227abc0",
+            "expected_vendor_cash_per_share": "0.480402",
+            "effective_cash_per_share": "0.4804021",
+            "source_file": "SZ000975-20260417.pdf",
+            "source_sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+            "pages_one_based": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "reference_price_deduction_per_share": "0.4796827",
+            "reference_price_deduction_is_not_cash_entitlement": true,
+            "declared_precision": "Issuer final digit truncated, not rounded; preserve displayed precision."
+          },
+          "original_proof_sha256": "9525666818e024886ec1bc6452eb0c0f16bf5f810383a12e31b0048f98859ad2",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000975-20260417.pdf",
+              "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+              "document": {
+                "instrument": "SZ000975",
+                "publication_day": "2026-04-17",
+                "file": "SZ000975-20260417.pdf",
+                "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/request.json",
+                  "request_sha256": "5403b9c01827e7ca3f4264c8f2bacb3eee32b12f1778eb377deea523d7e2bb27",
+                  "reserved_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/reserved-1.json",
+                  "reserved_sha256": "ce583ddeee886cfe0c2dd084844341e99265bb1611521b0db23f6f79b53d4483",
+                  "response_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/response-1.json",
+                  "response_sha256": "772aa7ba23ae38dea2dfd3e0a215eb962e55714cc216b32a519f82e86d83880d"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-04-17",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SZ000975-20260417.pdf",
+              "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+              "document": {
+                "instrument": "SZ000975",
+                "publication_day": "2026-04-17",
+                "file": "SZ000975-20260417.pdf",
+                "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/request.json",
+                  "request_sha256": "5403b9c01827e7ca3f4264c8f2bacb3eee32b12f1778eb377deea523d7e2bb27",
+                  "reserved_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/reserved-1.json",
+                  "reserved_sha256": "ce583ddeee886cfe0c2dd084844341e99265bb1611521b0db23f6f79b53d4483",
+                  "response_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/response-1.json",
+                  "response_sha256": "772aa7ba23ae38dea2dfd3e0a215eb962e55714cc216b32a519f82e86d83880d"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-04-17",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000975-20260417.pdf",
+              "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+              "document": {
+                "instrument": "SZ000975",
+                "publication_day": "2026-04-17",
+                "file": "SZ000975-20260417.pdf",
+                "sha256": "fda321653c4b22dd2bfa80121865813166db53cbae1a5d116a4aacce8e873307",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111389.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/request.json",
+                  "request_sha256": "5403b9c01827e7ca3f4264c8f2bacb3eee32b12f1778eb377deea523d7e2bb27",
+                  "reserved_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/reserved-1.json",
+                  "reserved_sha256": "ce583ddeee886cfe0c2dd084844341e99265bb1611521b0db23f6f79b53d4483",
+                  "response_file": "queries/492f24224da8ca73bc34c176b12c3ca50b8ea1b65a6db41fe2c85f2276a0853e/response-1.json",
+                  "response_sha256": "772aa7ba23ae38dea2dfd3e0a215eb962e55714cc216b32a519f82e86d83880d"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-04-17",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+              "root_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "row_digest_exact_match": true,
+      "admitted": false
+    }
+  ],
+  "unknown_capital_source_rows_and_guards": [
+    {
+      "event_key": "SH603596|2026-05-11",
+      "literal_vendor_row": {
+        "code": "sh.603596",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-04-21",
+        "dividPlanAnnounceDate": "2026-03-28",
+        "dividPlanDate": "2026-04-30",
+        "dividRegistDate": "2026-05-08",
+        "dividOperateDate": "2026-05-11",
+        "dividPayDate": "2026-05-11",
+        "dividStockMarketDate": "2026-05-11",
+        "dividCashPsBeforeTax": "0.38",
+        "dividCashPsAfterTax": "0.342或0.38",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10转4.8派3.8元（含税，扣税后3.42或3.8元）",
+        "dividReserveToStockPs": "0.480000"
+      },
+      "source_row_sha256": "0f02c2437f8c559ebde2214c295ae2c53531ae467396de0e40dc72f4fb738fe9",
+      "verified_exempt": false,
+      "actual_zero_record_ownership_verified": false,
+      "existing_unresolved_tax_provenance": [],
+      "source_evidence_question": "Preserve unresolved; raw scalar/display differences are not primary evidence."
+    },
+    {
+      "event_key": "SH603606|2026-05-26",
+      "literal_vendor_row": {
+        "code": "sh.603606",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-04-22",
+        "dividPlanAnnounceDate": "2026-03-28",
+        "dividPlanDate": "2026-05-19",
+        "dividRegistDate": "2026-05-25",
+        "dividOperateDate": "2026-05-26",
+        "dividPayDate": "2026-05-26",
+        "dividStockMarketDate": "2026-05-26",
+        "dividCashPsBeforeTax": "0.56",
+        "dividCashPsAfterTax": "0.504或0.56",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10转2派5.6元（含税，扣税后5.04或5.6元）",
+        "dividReserveToStockPs": "0.200000"
+      },
+      "source_row_sha256": "2758b0d67fd67287b28537ed2d75eb388492529648acbe00393f5f6b8a0b02cb",
+      "verified_exempt": false,
+      "actual_zero_record_ownership_verified": false,
+      "existing_unresolved_tax_provenance": [],
+      "source_evidence_question": "Preserve unresolved; raw scalar/display differences are not primary evidence."
+    },
+    {
+      "event_key": "SZ000937|2026-06-17",
+      "literal_vendor_row": {
+        "code": "sz.000937",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-05-29",
+        "dividPlanAnnounceDate": "2026-04-29",
+        "dividPlanDate": "2026-06-11",
+        "dividRegistDate": "2026-06-16",
+        "dividOperateDate": "2026-06-17",
+        "dividPayDate": "2026-06-17",
+        "dividStockMarketDate": "2026-06-17",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "0.09或0.1",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10转1派1元（含税，扣税后0.9或1元）",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "source_row_sha256": "6734c0d8368ea557ade5afc272e5af975a85d7d30d1a0130bd1e2ddd5746532e",
+      "verified_exempt": false,
+      "actual_zero_record_ownership_verified": false,
+      "existing_unresolved_tax_provenance": [
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a",
+          "original_proof_literal": {
+            "verified_exempt": false,
+            "retrospective_premium_source_verified": true,
+            "issuer_explicit_no_tax_statement": false,
+            "strict_tax_admission_resolved": false,
+            "implementation": {
+              "source_file": "SZ000937-20260611.pdf",
+              "source_sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "pages_one_based": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "cash_per_original_share": "0.1",
+              "capital_per_original_share": "0.1",
+              "record_day": "2026-06-16",
+              "ex_pay_list_day": "2026-06-17",
+              "individual_tax_per_original_share_examples": [
+                "0.02",
+                "0.01",
+                "0"
+              ]
+            },
+            "supplement": {
+              "source_file": "SZ000937-20260827.pdf",
+              "source_sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+              "publication_day": "2026-08-27",
+              "pages_one_based": [
+                1,
+                25,
+                26,
+                98
+              ],
+              "capital_premium_decrease_yuan": "353354685.00",
+              "new_shares": 353354685,
+              "published_after_event": true
+            },
+            "evidence_assessment": "Explicitly labelled premium decrease and transfer note support retrospective source; no express issuer no-tax sentence. Preserve strict unresolved status, not silent exemption.",
+            "later_data_may_enter_decision_snapshot": false,
+            "account_behavior_required": "Original StockDistributionAccount fails before mutation at exdate if registered quantity positive; zero ownership only is permitted. Do not alter holdings to bypass this guard."
+          },
+          "original_proof_sha256": "38aa1b19ed2c8d80ea829cf35bb18f22c92c4372b18a49ce15568cacdc1ba291",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260611.pdf",
+              "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-06-11",
+                "file": "SZ000937-20260611.pdf",
+                "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/request.json",
+                  "request_sha256": "ca5bd8abb2caed04ca1eda8d9ffa74cf4328648d4b51bcd78c6f5f1799c67449",
+                  "reserved_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/reserved-1.json",
+                  "reserved_sha256": "71ce0f96dd30edca6124871e84a1a057af9643d96991c05968c81dea9b5bfa75",
+                  "response_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/response-1.json",
+                  "response_sha256": "10051350d1329b587d65814f528cb6b56d6ef5f970e949760abfb945810798bc"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-06-11",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SZ000937-20260611.pdf",
+              "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-06-11",
+                "file": "SZ000937-20260611.pdf",
+                "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/request.json",
+                  "request_sha256": "ca5bd8abb2caed04ca1eda8d9ffa74cf4328648d4b51bcd78c6f5f1799c67449",
+                  "reserved_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/reserved-1.json",
+                  "reserved_sha256": "71ce0f96dd30edca6124871e84a1a057af9643d96991c05968c81dea9b5bfa75",
+                  "response_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/response-1.json",
+                  "response_sha256": "10051350d1329b587d65814f528cb6b56d6ef5f970e949760abfb945810798bc"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-06-11",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260611.pdf",
+              "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-06-11",
+                "file": "SZ000937-20260611.pdf",
+                "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/request.json",
+                  "request_sha256": "ca5bd8abb2caed04ca1eda8d9ffa74cf4328648d4b51bcd78c6f5f1799c67449",
+                  "reserved_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/reserved-1.json",
+                  "reserved_sha256": "71ce0f96dd30edca6124871e84a1a057af9643d96991c05968c81dea9b5bfa75",
+                  "response_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/response-1.json",
+                  "response_sha256": "10051350d1329b587d65814f528cb6b56d6ef5f970e949760abfb945810798bc"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-06-11",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+              "root_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260827.pdf",
+              "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-08-27",
+                "file": "SZ000937-20260827.pdf",
+                "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225510646.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/request.json",
+                  "request_sha256": "270cda9ae2267be5b099dfb5304d719f134afd10bf64b7959f2103abc948a60d",
+                  "reserved_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/reserved-1.json",
+                  "reserved_sha256": "9b9b98194905516a965f2bc836503c9815af8d4d1c0f1f77428d3c3ba4d26c08",
+                  "response_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/response-1.json",
+                  "response_sha256": "6088f5bc0a7859a559862efdb0a3b0140ffe5a07845211135df6f7a54b70f071"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-08-27",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SZ000937-20260827.pdf",
+              "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-08-27",
+                "file": "SZ000937-20260827.pdf",
+                "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225510646.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/request.json",
+                  "request_sha256": "270cda9ae2267be5b099dfb5304d719f134afd10bf64b7959f2103abc948a60d",
+                  "reserved_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/reserved-1.json",
+                  "reserved_sha256": "9b9b98194905516a965f2bc836503c9815af8d4d1c0f1f77428d3c3ba4d26c08",
+                  "response_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/response-1.json",
+                  "response_sha256": "6088f5bc0a7859a559862efdb0a3b0140ffe5a07845211135df6f7a54b70f071"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-08-27",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        },
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+          "original_reviewed_manifest_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+          "original_proof_literal": {
+            "verified_exempt": false,
+            "retrospective_premium_source_verified": true,
+            "issuer_explicit_no_tax_statement": false,
+            "strict_tax_admission_resolved": false,
+            "implementation": {
+              "source_file": "SZ000937-20260611.pdf",
+              "source_sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "pages_one_based": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "cash_per_original_share": "0.1",
+              "capital_per_original_share": "0.1",
+              "record_day": "2026-06-16",
+              "ex_pay_list_day": "2026-06-17",
+              "individual_tax_per_original_share_examples": [
+                "0.02",
+                "0.01",
+                "0"
+              ]
+            },
+            "supplement": {
+              "source_file": "SZ000937-20260827.pdf",
+              "source_sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+              "publication_day": "2026-08-27",
+              "pages_one_based": [
+                1,
+                25,
+                26,
+                98
+              ],
+              "capital_premium_decrease_yuan": "353354685.00",
+              "new_shares": 353354685,
+              "published_after_event": true
+            },
+            "evidence_assessment": "Explicitly labelled premium decrease and transfer note support retrospective source; no express issuer no-tax sentence. Preserve strict unresolved status, not silent exemption.",
+            "later_data_may_enter_decision_snapshot": false,
+            "account_behavior_required": "Original StockDistributionAccount fails before mutation at exdate if registered quantity positive; zero ownership only is permitted. Do not alter holdings to bypass this guard."
+          },
+          "original_proof_sha256": "38aa1b19ed2c8d80ea829cf35bb18f22c92c4372b18a49ce15568cacdc1ba291",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260611.pdf",
+              "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-06-11",
+                "file": "SZ000937-20260611.pdf",
+                "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/request.json",
+                  "request_sha256": "ca5bd8abb2caed04ca1eda8d9ffa74cf4328648d4b51bcd78c6f5f1799c67449",
+                  "reserved_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/reserved-1.json",
+                  "reserved_sha256": "71ce0f96dd30edca6124871e84a1a057af9643d96991c05968c81dea9b5bfa75",
+                  "response_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/response-1.json",
+                  "response_sha256": "10051350d1329b587d65814f528cb6b56d6ef5f970e949760abfb945810798bc"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-06-11",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SZ000937-20260611.pdf",
+              "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-06-11",
+                "file": "SZ000937-20260611.pdf",
+                "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/request.json",
+                  "request_sha256": "ca5bd8abb2caed04ca1eda8d9ffa74cf4328648d4b51bcd78c6f5f1799c67449",
+                  "reserved_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/reserved-1.json",
+                  "reserved_sha256": "71ce0f96dd30edca6124871e84a1a057af9643d96991c05968c81dea9b5bfa75",
+                  "response_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/response-1.json",
+                  "response_sha256": "10051350d1329b587d65814f528cb6b56d6ef5f970e949760abfb945810798bc"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-06-11",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260611.pdf",
+              "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-06-11",
+                "file": "SZ000937-20260611.pdf",
+                "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/request.json",
+                  "request_sha256": "ca5bd8abb2caed04ca1eda8d9ffa74cf4328648d4b51bcd78c6f5f1799c67449",
+                  "reserved_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/reserved-1.json",
+                  "reserved_sha256": "71ce0f96dd30edca6124871e84a1a057af9643d96991c05968c81dea9b5bfa75",
+                  "response_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/response-1.json",
+                  "response_sha256": "10051350d1329b587d65814f528cb6b56d6ef5f970e949760abfb945810798bc"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-06-11",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+              "root_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260827.pdf",
+              "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-08-27",
+                "file": "SZ000937-20260827.pdf",
+                "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225510646.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/request.json",
+                  "request_sha256": "270cda9ae2267be5b099dfb5304d719f134afd10bf64b7959f2103abc948a60d",
+                  "reserved_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/reserved-1.json",
+                  "reserved_sha256": "9b9b98194905516a965f2bc836503c9815af8d4d1c0f1f77428d3c3ba4d26c08",
+                  "response_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/response-1.json",
+                  "response_sha256": "6088f5bc0a7859a559862efdb0a3b0140ffe5a07845211135df6f7a54b70f071"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-08-27",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SZ000937-20260827.pdf",
+              "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-08-27",
+                "file": "SZ000937-20260827.pdf",
+                "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225510646.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/request.json",
+                  "request_sha256": "270cda9ae2267be5b099dfb5304d719f134afd10bf64b7959f2103abc948a60d",
+                  "reserved_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/reserved-1.json",
+                  "reserved_sha256": "9b9b98194905516a965f2bc836503c9815af8d4d1c0f1f77428d3c3ba4d26c08",
+                  "response_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/response-1.json",
+                  "response_sha256": "6088f5bc0a7859a559862efdb0a3b0140ffe5a07845211135df6f7a54b70f071"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-08-27",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        },
+        {
+          "original_reviewed_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+          "original_reviewed_manifest_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8",
+          "original_proof_literal": {
+            "verified_exempt": false,
+            "retrospective_premium_source_verified": true,
+            "issuer_explicit_no_tax_statement": false,
+            "strict_tax_admission_resolved": false,
+            "implementation": {
+              "source_file": "SZ000937-20260611.pdf",
+              "source_sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "pages_one_based": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "cash_per_original_share": "0.1",
+              "capital_per_original_share": "0.1",
+              "record_day": "2026-06-16",
+              "ex_pay_list_day": "2026-06-17",
+              "individual_tax_per_original_share_examples": [
+                "0.02",
+                "0.01",
+                "0"
+              ]
+            },
+            "supplement": {
+              "source_file": "SZ000937-20260827.pdf",
+              "source_sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+              "publication_day": "2026-08-27",
+              "pages_one_based": [
+                1,
+                25,
+                26,
+                98
+              ],
+              "capital_premium_decrease_yuan": "353354685.00",
+              "new_shares": 353354685,
+              "published_after_event": true
+            },
+            "evidence_assessment": "Explicitly labelled premium decrease and transfer note support retrospective source; no express issuer no-tax sentence. Preserve strict unresolved status, not silent exemption.",
+            "later_data_may_enter_decision_snapshot": false,
+            "account_behavior_required": "Original StockDistributionAccount fails before mutation at exdate if registered quantity positive; zero ownership only is permitted. Do not alter holdings to bypass this guard."
+          },
+          "original_proof_sha256": "38aa1b19ed2c8d80ea829cf35bb18f22c92c4372b18a49ce15568cacdc1ba291",
+          "primary_PDF_references": [
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260611.pdf",
+              "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-06-11",
+                "file": "SZ000937-20260611.pdf",
+                "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/request.json",
+                  "request_sha256": "ca5bd8abb2caed04ca1eda8d9ffa74cf4328648d4b51bcd78c6f5f1799c67449",
+                  "reserved_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/reserved-1.json",
+                  "reserved_sha256": "71ce0f96dd30edca6124871e84a1a057af9643d96991c05968c81dea9b5bfa75",
+                  "response_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/response-1.json",
+                  "response_sha256": "10051350d1329b587d65814f528cb6b56d6ef5f970e949760abfb945810798bc"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-06-11",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SZ000937-20260611.pdf",
+              "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-06-11",
+                "file": "SZ000937-20260611.pdf",
+                "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/request.json",
+                  "request_sha256": "ca5bd8abb2caed04ca1eda8d9ffa74cf4328648d4b51bcd78c6f5f1799c67449",
+                  "reserved_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/reserved-1.json",
+                  "reserved_sha256": "71ce0f96dd30edca6124871e84a1a057af9643d96991c05968c81dea9b5bfa75",
+                  "response_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/response-1.json",
+                  "response_sha256": "10051350d1329b587d65814f528cb6b56d6ef5f970e949760abfb945810798bc"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-06-11",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260611.pdf",
+              "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-06-11",
+                "file": "SZ000937-20260611.pdf",
+                "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225363851.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/request.json",
+                  "request_sha256": "ca5bd8abb2caed04ca1eda8d9ffa74cf4328648d4b51bcd78c6f5f1799c67449",
+                  "reserved_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/reserved-1.json",
+                  "reserved_sha256": "71ce0f96dd30edca6124871e84a1a057af9643d96991c05968c81dea9b5bfa75",
+                  "response_file": "queries/c82a7a1c908743b5cb6cb1ce0b78029fe272d97a8b582e97700096a5b3f9c0e2/response-1.json",
+                  "response_sha256": "10051350d1329b587d65814f528cb6b56d6ef5f970e949760abfb945810798bc"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-06-11",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/szse-value-momentum-full-reviewed-proofs-20261021.json",
+              "root_sha256": "ac0cf40ccc3dc1d4ab3a723bfcd1e75cb34f51cac3068bba879b12033a09b9d8"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260827.pdf",
+              "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-08-27",
+                "file": "SZ000937-20260827.pdf",
+                "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225510646.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/request.json",
+                  "request_sha256": "270cda9ae2267be5b099dfb5304d719f134afd10bf64b7959f2103abc948a60d",
+                  "reserved_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/reserved-1.json",
+                  "reserved_sha256": "9b9b98194905516a965f2bc836503c9815af8d4d1c0f1f77428d3c3ba4d26c08",
+                  "response_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/response-1.json",
+                  "response_sha256": "6088f5bc0a7859a559862efdb0a3b0140ffe5a07845211135df6f7a54b70f071"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-08-27",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-horizon-20261021/reviewed-manifest.json",
+              "root_sha256": "01dcd1f8e96c544243ee88c446075cdaf68e8fd772dc45813144c85094251c0a"
+            },
+            {
+              "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/SZ000937-20260827.pdf",
+              "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+              "document": {
+                "instrument": "SZ000937",
+                "publication_day": "2026-08-27",
+                "file": "SZ000937-20260827.pdf",
+                "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+                "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225510646.PDF",
+                "listing_row": null,
+                "listing_receipt": null,
+                "pdf_receipt": {
+                  "request_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/request.json",
+                  "request_sha256": "270cda9ae2267be5b099dfb5304d719f134afd10bf64b7959f2103abc948a60d",
+                  "reserved_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/reserved-1.json",
+                  "reserved_sha256": "9b9b98194905516a965f2bc836503c9815af8d4d1c0f1f77428d3c3ba4d26c08",
+                  "response_file": "queries/e2ad0305e4922e3c0ee360fc4ef56127d3043478bbdc51488fa629e1823f4d45/response-1.json",
+                  "response_sha256": "6088f5bc0a7859a559862efdb0a3b0140ffe5a07845211135df6f7a54b70f071"
+                },
+                "capture_route": "JOURNALED_ORIGINAL_HTTP",
+                "day": "2026-08-27",
+                "capture_manifest_sha256": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf"
+              },
+              "root_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json",
+              "root_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80"
+            }
+          ],
+          "PDF_or_metadata_match_is_financial_admission": false
+        }
+      ],
+      "source_evidence_question": "Preserve unresolved; raw scalar/display differences are not primary evidence."
+    },
+    {
+      "event_key": "SZ002831|2026-06-04",
+      "literal_vendor_row": {
+        "code": "sz.002831",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2026-05-20",
+        "dividPlanAnnounceDate": "2026-04-28",
+        "dividPlanDate": "2026-05-29",
+        "dividRegistDate": "2026-06-03",
+        "dividOperateDate": "2026-06-04",
+        "dividPayDate": "2026-06-04",
+        "dividStockMarketDate": "2026-06-04",
+        "dividCashPsBeforeTax": "0.803813",
+        "dividCashPsAfterTax": "0.7234314或0.8038127",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10转4.019063派8.038127元（含税，扣税后7.234314或8.038127元）",
+        "dividReserveToStockPs": "0.401906"
+      },
+      "source_row_sha256": "a39864a5d425f599c396a97b1778ba2b32a98e1edc6ccfc94f217d6230403022",
+      "verified_exempt": false,
+      "actual_zero_record_ownership_verified": false,
+      "existing_unresolved_tax_provenance": [],
+      "source_evidence_question": "Preserve unresolved; raw scalar/display differences are not primary evidence."
+    }
+  ],
+  "new_SH603233_separate_existing_content_evidence": {
+    "event_key": "SH603233|2026-10-19",
+    "primary_content_review_file": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/price-delay-horizon-single-primary-content-review.json",
+    "primary_content_review_sha256": "b20a662cc6149c96397089a769f3e43dd96b85039c13ea544441cb4a17c6285f",
+    "independent_review_file": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/price-delay-horizon-single-primary-independent-review.json",
+    "independent_review_sha256": "32a97c9f083df960b7b0b111bac72b66c198f684ba96018c8ea0d50b5fe8d97e",
+    "primary_PDF_sha256": "6bc1e1c5fe3f61008331fddabbfa7d6d6aed3146c0448e1e232e8dcedf559dff",
+    "cash_per_eligible_original_share_CNY": "0.41",
+    "inside_original_six_root_inventory_allowlist": false,
+    "new_proof_projected": false
+  },
+  "SH603605_primary_source_pending_not_inferred_from_factor": true,
+  "original378_events_and_receipts_immutable": true,
+  "original_pre2026_SH603596_guard_receipt_literal": {
+    "event_id": "e36dbcab01391ecdbae9dc3dbca42c938bfbe992f502ba1f5ae5faf5a0623ed2",
+    "instrument": "SH603596",
+    "ex_date": "2024-05-20",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "0d5156797dd0f0719a13c1a4dfe28af6d6f69ea53453f8893ae8daeaad285b52",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": false,
+    "requires_zero_record_ownership_if_tax_unverified": true
+  },
+  "new_proofs_projected": false,
+  "new_events_compiled": false,
+  "account_admission": false,
+  "portfolio_returns_computed": false
+}

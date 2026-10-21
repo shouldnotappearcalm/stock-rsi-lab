@@ -1,0 +1,20 @@
+{
+  "status": "MIXED_COMPONENT_PRECISION_METHOD_TESTED_REVIEWED_NOT_YET_APPLIED_TO_ACTUAL_HORIZON",
+  "module_sha256": "c213b74dc215b363be974be3d0daab81c1b6f43abd21ce1ca50243ef11a09d53",
+  "tests_sha256": "f89a22e09fb0c35672eb45219f8fd7780534de0ac2d49430439b8ccbc7796888",
+  "code_review_sha256": "4ca5abd4f63a1f48d80ed9a6c1146b4a8cb3bf4e4b599fdde97abd215c9a07ad",
+  "critical_findings": 0,
+  "important_findings_remaining": 0,
+  "canonical_single_vendor_event_and_receipt_reconstruction_required": true,
+  "full_suite_tests": 607,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 12.435,
+  "full_suite_log_sha256": "0f0f6e1bad7f39b51d123e09945e19f1b752d50241ac059a7033b4286fc09d66",
+  "six_focused_tests_passed": true,
+  "old_v1_v2_account_and_append_only_code_unchanged": true,
+  "actual_2026_event_compilation_executed": false,
+  "actual_2026_account_executed": false,
+  "source_or_account_admission": false,
+  "investment_rules_changed": false,
+  "objective_achieved": false
+}

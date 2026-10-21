@@ -1,0 +1,96 @@
+{
+  "status": "INDEPENDENT_HORIZON_CORPORATE_INVENTORY_OUTPUT_COUNTS_SOURCE_ROWS_AND_GUARDS_VERIFIED_NOT_ADMISSION",
+  "review_code_sha256": "cbadd7956f4e77467d6baa394881ec8166ee9dcce7ac07045c8e42fff71ed7a3",
+  "request_sha256": "7bb7337030b4fe6b7fd2c16ada9f31fd2b6c58db1c84f503cbeb366a3db98292",
+  "inventory_sha256": "4ca1c82931ceca0129b01ea1660ca82d7b4ca6b075dd67ba06e96554ff88d9d5",
+  "inventory_code_sha256": "680e6cc96fbacd9563386e424751a6cd16de4d14cdd242c55ad3c5e52aaffa3f",
+  "raw_manifest_sha256": "9fe3990c0b4b1c076b78c97971ceecf593687b2f15699154c3bdbbce666f6490",
+  "all203_raw_packets_authenticated": true,
+  "original151_literal_prefixes_and_original378_event_receipt_files_unchanged": true,
+  "names_reconstructed": 203,
+  "old_names": 151,
+  "future_only_names": 52,
+  "sessions": 676,
+  "targets": 34,
+  "vendor_2026_events_reconstructed": 227,
+  "future_only_pre2026_distribution_rows_excluded_reconstructed": 131,
+  "future_only_pre2026_adjustment_rows_excluded_reconstructed": 134,
+  "blank_capital_explicit_cash_only_zero_candidates": 220,
+  "blank_capital_is_a_new_tax_exemption_or_admission": false,
+  "positive_capital_events": 7,
+  "positive_stock_dividend_events": 0,
+  "known_capital_proof_candidate_keys": [
+    "SH601128|2026-06-09",
+    "SH603737|2026-06-01",
+    "SZ002595|2026-05-11"
+  ],
+  "unresolved_capital_zero_record_ownership_keys": [
+    "SH603596|2026-05-11",
+    "SH603606|2026-05-26",
+    "SZ000937|2026-06-17",
+    "SZ002831|2026-06-04"
+  ],
+  "same_day_vendor_adjustment_keys": 227,
+  "late_factor_keys": [],
+  "eight_missing_vendor_event_question_keys": [
+    "SH601598|2026-10-20",
+    "SH601918|2026-02-06",
+    "SH601966|2026-06-24",
+    "SH603233|2026-10-19",
+    "SH603605|2026-10-16",
+    "SZ002608|2026-10-19",
+    "SZ002756|2026-10-20",
+    "SZ002812|2026-10-20"
+  ],
+  "same_eight_keys_derived_independently_from_preclose_and_adjustments": true,
+  "six_fixed_local_cash_supplement_candidate_keys": [
+    "SH601598|2026-10-20",
+    "SH601918|2026-02-06",
+    "SH601966|2026-06-24",
+    "SZ002608|2026-10-19",
+    "SZ002756|2026-10-20",
+    "SZ002812|2026-10-20"
+  ],
+  "new_separately_reviewed_SH603233_not_silently_added_to_inventory_allowlist": true,
+  "SH603605_no_primary_source_admitted": true,
+  "all227_original_literal_rows_indices_packet_hashes_and_row_digests_preserved": true,
+  "all131_excluded_rows_literal_digests_and_future_only_scope_verified": true,
+  "metadata_candidates_never_grant_financial_admission": true,
+  "all_bound_inputs_unchanged_after_review": true,
+  "negative_controls_rejected": {
+    "wrong_count": true,
+    "drop_missing_event": true,
+    "activate_future_pre2026_row": true,
+    "upgrade_blank_cash_metadata_admission": true,
+    "erase_unknown_tax_guard": true
+  },
+  "field_mapping_draft_file": "/tmp/price-delay-horizon-corporate-proof-field-map-draft-20261021.json",
+  "field_mapping_draft_sha256": "a37deca1179c453cae4d16cfd469317860cf37231bc47ff824fe974566b0c493",
+  "source_content_questions_for_next_phase": [
+    {
+      "event_key": "SZ002831|2026-06-04",
+      "question": "Scalar cash0.803813/capital0.401906 versus vendor display10转4.019063派8.038127 (0.4019063/0.8038127 per share) is raw internal precision/rounding information only; original primary notice must establish eligible-holder ratios and tax basis before any projection. Do not derive a correction from display/price/factor or silently use a cash-only precision contract on a capital event."
+    }
+  ],
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "critical_or_important_findings": [],
+  "imports_production_inventory_or_account_code": false,
+  "new_event_or_proof_compilation_run": false,
+  "source_or_repository_modified": false,
+  "network_calls": 0,
+  "account_or_ROI_run": false,
+  "strict_statutory_tax_certification": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "actual_zero_record_ownership_verified": false,
+  "historical_PIT_certification": false,
+  "source_or_account_admission": false,
+  "portfolio_returns_computed": false,
+  "limits": [
+    "This peer review independently recounts questions and original rows; does not reread all prior PDFs or authenticate actual shareholder entitlements/tax settlement.",
+    "No local proof candidate is sufficient by presence alone; the mapping draft preserves original proof levels and still requires frozen source projection/content provenance validation.",
+    "Eight date/source gaps are not themselves proof of eight economic dividends. Six have fixed local primary candidates; one has separately reviewed new primary evidence; SH603605 is still pending.",
+    "Zero record-date inventory is not established here; all unresolved taxes and the original pre2026 SH603596 guard must remain enforceable."
+  ]
+}
