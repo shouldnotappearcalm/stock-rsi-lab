@@ -1,0 +1,146 @@
+{
+  "status": "INDEPENDENT_PRE2026_RAW_SOURCE_CAPTURE_CODE_REVIEW_APPROVED_NO_CRITICAL_OR_IMPORTANT_FINDINGS",
+  "base_commit": "52904df9e32676146bdc778523d8a1fec56818ce",
+  "request_sha256": "a982335d7faddce869926c815396a0c46a750437822e5d7a4f1d243d1e259263",
+  "method_code_sha256": {
+    "scripts/capture_value_momentum_raw_pre2026.py": "5db248df3434cf5b7eaee3a5f6244ec1af79dafd6460182b15af0c7d74de5e9f",
+    "scripts/capture_budgeted_residual_raw_pre2026.py": "fcaf4d0e61f20aaf90980bfc4210503dd8e10283d039638cc8a37608177d2432",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/capture_frozen_target_development_data.py": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d",
+    "scripts/capture_illiquidity_raw_development.py": "4a6c1b9597b4e0d797720687f43ba951b9aeabaca3bf8c83149a4657598ce8f1",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "screen_files_sha256": {
+    "experiments/qlib/szse-value-momentum-pre2026-results.json": "054231f43b8525c9301ad50793acd895d57a84af5dffb272c4ff6b23e80730cf",
+    "experiments/qlib/szse-value-momentum-independent-audit.json": "0d627c25fd3d4142e247744a33c72d18c225a6bf1e91ff7ad8c3e3d6bd36a367",
+    "experiments/qlib/szse-value-momentum-raw-source-inventory.json": "a13286cdbdab0ef7d239884ad83c4cdadab840c57c6083367ef204dd38b6ea6d"
+  },
+  "protocol_sha256": "39d7797e0f752fd2c5a5cea224d2cc7b12b761a6c1a1f86bd2f6d5230a0681a5",
+  "target_sha256": "50ffb7748445baec563789ef821aa6ef861dfbd6c1859ba7a870ad11c2ed6f86",
+  "source_manifest_sha256": {
+    "low-beta60-raw-dev-20261021": "411e2abe02ebf914c809d6b5acb9b7e2fabacafe7dc88081b980787fb0cd8613",
+    "budgeted-residual-raw-dev-20261021": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+    "illiquidity-raw-source-continuation-20261020": "15709f0416c96148894be6b662c624dbde63d0f5d37b7760078235abe73440c8",
+    "return-families-raw-dev-20261017": "53250d4b726f8b54f5e2eafa516b7587e5acd01a6605c4be6457fdc5073263d7",
+    "szse-value-raw-dev-20261017": "0d41978c2c9ebcb1b89c6e4174cacda8852240f0c228879bbae2ad66ac18766e"
+  },
+  "inventory_audit_code_sha256": "410e677f285fef1584d5f2061ca78ee3f223ed4575022738ca4da9d2098baa65",
+  "critical_findings": [],
+  "important_findings": [],
+  "minor_findings": [],
+  "resolved_minor_findings": [
+    {
+      "issue": "Manifest initially omitted the explicit corporate_action_completeness_verified:false field required by its protocol.",
+      "resolution": "Final method records corporate_action_completeness_verified:false plus SDK_decoded_responses_not_TCP_wire:true and raw_quarantine_or_provenance_may_reference_later_dates:true. Final request and code hashes rechecked; final preflight and mock capture passed."
+    }
+  ],
+  "strengths": [
+    "Request, method, target, audited passing composite screen, inventory, protocol, five source manifests, calendars and exact routing all authenticate before any SDK import or output creation.",
+    "Exactly103 fixed target names are partitioned into96 fixed verbatim reuse routes and seven fixed fresh names. Selected reuse packets require the complete shared486-session calendar; no source clipping or name removal is introduced.",
+    "Fresh requests use raw daily adjustflag3 and exact2023-12-29..2025-12-31 bounds,2024/2025 operate-year distributions, and bounded adjustment requests. All four decoded responses are journaled before validation.",
+    "QueryJournal enforces28 total financial query reservations across restarts and one attempt per identity, retaining interrupted/error responses. Separate administrative login reservations cap login calls at three across restarts;20second socket default is applied before login.",
+    "Per-code checkpoints and immutable error files preserve successful and failed source attempts. Three consecutive fresh-code failures create a durable stop marker and prohibit automatic restart; cleanup is attempted and journaled in finally.",
+    "Fresh incomplete calendars remain incomplete and unclassified; no rows are synthesized and no IPO/prelisting status or replay admission is inferred. Manifest distinguishes capture success from source admission and corporate completeness."
+  ],
+  "fresh_validation": {
+    "final_actual_preflight": {
+      "exit_code": 0,
+      "SDK_import_forbidden_by_sentinel": true,
+      "socket_connect_forbidden_by_sentinel": true,
+      "socket_timeout_mutation_forbidden_by_sentinel": true,
+      "SDK_import_attempts": 0,
+      "socket_connects": 0,
+      "output_created": false
+    },
+    "inventory_reconstructed": {
+      "semantic_match_to_public": true,
+      "byte_exact_match": false,
+      "byte_difference": "Top-level metadata key ordering only; parsed JSON objects are identical.",
+      "names": 103,
+      "existing_names": 96,
+      "all_matching_source_choices_authenticated": 151,
+      "complete486_calendar_choices": 151,
+      "raw_price_core_conflicts": 0,
+      "fresh_names": [
+        "SZ000021",
+        "SZ000032",
+        "SZ001389",
+        "SZ001696",
+        "SZ002156",
+        "SZ002312",
+        "SZ002429"
+      ],
+      "accepted_packet_date_window_verified": true
+    },
+    "mock_SDK_capture_and_restart": {
+      "seven_fresh_codes_times_four_logical_queries": 28,
+      "query_parameter_tuples_checked": true,
+      "login_calls": 1,
+      "logout_cleanup_calls": 1,
+      "ninety_six_reuse_files_byte_identical": true,
+      "completed_restart_additional_calls": 0,
+      "completed_restart_file_byte_changes": 0,
+      "partial_SZ001389_calendar_preserved_unclassified": true,
+      "real_network_connections": 0,
+      "temporary_outputs_removed": true
+    },
+    "mock_SDK_failure_capture": {
+      "three_transport_failures_stop": true,
+      "typed_ConnectionError_query_journals_retained": true,
+      "per_code_failure_artifacts_retained": true,
+      "logout_cleanup_called": true,
+      "stopped_restart_refused_without_new_calls_or_file_changes": true
+    },
+    "local_SDK_inspection": {
+      "baostock_version": "0.9.4",
+      "login_and_socket_implementation_read_locally": true,
+      "SDK_used_for_real_financial_queries": false
+    },
+    "targeted_tests": {
+      "passed": 13,
+      "new_wrapper_tests": 3,
+      "inherited_capture_tests": 5,
+      "journal_tests": 5,
+      "exit_code": 0
+    },
+    "full_suite_log_inspected": {
+      "path": "/tmp/stock-rsi-value-momentum-raw-full-20261021.log",
+      "passed": 489,
+      "seconds": 10.785,
+      "result": "OK",
+      "reviewer_reran_full_suite": false
+    },
+    "original_tracked_helpers_unchanged_from_base": true,
+    "synthetic_review_script": "/tmp/value-momentum-raw-synthetic-review-20261021.py",
+    "synthetic_review_script_sha256": "821543b94c8ac4e561c336f7686f333e53f4b5b7009e778578de84cbd0bb9eaf",
+    "coordinator_reported_final_full_suite": {
+      "passed": 489,
+      "seconds": 10.876,
+      "reviewer_independently_inspected_final_run_log": false
+    }
+  },
+  "ready_for_capture": true,
+  "approval_scope": "Only the frozen pre2026 raw source capture after publication/freeze. No account replay, corporate-action admission, strategy change,2026 market query or strategy-outcome use is approved by this review.",
+  "assessment": "The final a982335d request and bound method are ready for the bounded source-only capture after freeze/push. No Critical or Important issue remains. Actual source responses, calendars, accepted corporate events, receipts and quarantines require independent source admission before any physical-account replay; query success is not complete coverage or financial acceptance.",
+  "declined_to_judge": [
+    "Actual vendor responses, future query success and full source coverage for seven missing names: no financial source query was made in this review.",
+    "IPO/prelisting status for SZ001389 or any missing interval: partial calendars are preserved without classification; later lifecycle admission is separate.",
+    "Corporate-action economics, primary-evidence sufficiency and exemption treatment: raw-price-core inventory agreement does not certify distribution/adjustment equivalence or corporate completeness.",
+    "Absolute memory sealing against later-date strings: preserved quarantines and original provenance may contain later references; accepted bar dates and event-operation dates remain bounded to the pre2026 request.",
+    "Actual TCP wire bytes and whole-request wall-clock duration: source journal captures decoded SDK envelopes and the declared20second setting is a socket timeout, not a measured transport transcript or full-capture deadline.",
+    "Historical RED-before-code chronology:13 focused tests were freshly run; historical sequence was reported by the coordinator."
+  ],
+  "repository_edits_performed": false,
+  "original_source_files_edited": false,
+  "actual_financial_source_queries": 0,
+  "actual_capture_output_exists": false,
+  "account_replay_performed": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_queries": false,
+  "2026_strategy_outcomes_used": false,
+  "source_admitted_for_account_replay": false,
+  "corporate_action_completeness_verified": false,
+  "historical_arrival_verified": false,
+  "objective_achieved": false
+}

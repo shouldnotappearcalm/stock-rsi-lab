@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN_SOURCE_CAPTURE_READY_NO_NETWORK_YET",
+  "request_sha256": "a982335d7faddce869926c815396a0c46a750437822e5d7a4f1d243d1e259263",
+  "code_review_file": "experiments/qlib/szse-value-momentum-raw-code-review.json",
+  "code_review_sha256": "cb5358c6927cc5a570c760d4cfa184bbfaf53bbe5194dd4bc4801935a23a3c4c",
+  "independent_source_auditor_sha256": "51352c94ae67698230e804436ba0f08df2a2d3b77b7411bde8eb063f1686baf6",
+  "full_tests_passed": 489,
+  "full_test_log_sha256": "2f4333904907b193bb17a52e60d5db88b11bbba50ab5aac9449d5727bd5c95bf",
+  "final_request_actual_preflight_passed": true,
+  "source_names": 103,
+  "exact_pre2026_reuse_names": 96,
+  "fixed_fresh_names": 7,
+  "maximum_new_query_reservations": 28,
+  "actual_capture_started": false,
+  "actual_output_directory_exists": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_return_computed": false,
+  "new_2026_market_queries": false,
+  "objective_achieved": false
+}

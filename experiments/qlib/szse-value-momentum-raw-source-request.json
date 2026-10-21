@@ -1,0 +1,556 @@
+{
+  "status": "FROZEN_VALUE_MOMENTUM_RAW_SOURCE_REQUEST",
+  "candidate": "szse_value_momentum_equal",
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "codes": [
+    "SZ000021",
+    "SZ000032",
+    "SZ000034",
+    "SZ000039",
+    "SZ000062",
+    "SZ000400",
+    "SZ000423",
+    "SZ000426",
+    "SZ000543",
+    "SZ000559",
+    "SZ000581",
+    "SZ000591",
+    "SZ000598",
+    "SZ000630",
+    "SZ000683",
+    "SZ000733",
+    "SZ000778",
+    "SZ000785",
+    "SZ000830",
+    "SZ000878",
+    "SZ000883",
+    "SZ000887",
+    "SZ000893",
+    "SZ000921",
+    "SZ000932",
+    "SZ000933",
+    "SZ000937",
+    "SZ000967",
+    "SZ000975",
+    "SZ000987",
+    "SZ000988",
+    "SZ000997",
+    "SZ001203",
+    "SZ001227",
+    "SZ001286",
+    "SZ001389",
+    "SZ001696",
+    "SZ001872",
+    "SZ002008",
+    "SZ002019",
+    "SZ002028",
+    "SZ002030",
+    "SZ002032",
+    "SZ002056",
+    "SZ002065",
+    "SZ002078",
+    "SZ002080",
+    "SZ002085",
+    "SZ002120",
+    "SZ002128",
+    "SZ002130",
+    "SZ002131",
+    "SZ002152",
+    "SZ002155",
+    "SZ002156",
+    "SZ002185",
+    "SZ002192",
+    "SZ002195",
+    "SZ002223",
+    "SZ002240",
+    "SZ002244",
+    "SZ002261",
+    "SZ002273",
+    "SZ002281",
+    "SZ002294",
+    "SZ002312",
+    "SZ002353",
+    "SZ002384",
+    "SZ002407",
+    "SZ002423",
+    "SZ002429",
+    "SZ002432",
+    "SZ002444",
+    "SZ002463",
+    "SZ002465",
+    "SZ002472",
+    "SZ002497",
+    "SZ002508",
+    "SZ002517",
+    "SZ002532",
+    "SZ002558",
+    "SZ002572",
+    "SZ002595",
+    "SZ002600",
+    "SZ002607",
+    "SZ002608",
+    "SZ002625",
+    "SZ002653",
+    "SZ002670",
+    "SZ002673",
+    "SZ002683",
+    "SZ002738",
+    "SZ002756",
+    "SZ002773",
+    "SZ002797",
+    "SZ002837",
+    "SZ002850",
+    "SZ002851",
+    "SZ002865",
+    "SZ002867",
+    "SZ002958",
+    "SZ002966",
+    "SZ002984"
+  ],
+  "target_sha256": "50ffb7748445baec563789ef821aa6ef861dfbd6c1859ba7a870ad11c2ed6f86",
+  "reuse_sources": [
+    {
+      "directory": "low-beta60-raw-dev-20261021",
+      "manifest_sha256": "411e2abe02ebf914c809d6b5acb9b7e2fabacafe7dc88081b980787fb0cd8613"
+    },
+    {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "manifest_sha256": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7"
+    },
+    {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "manifest_sha256": "15709f0416c96148894be6b662c624dbde63d0f5d37b7760078235abe73440c8"
+    },
+    {
+      "directory": "return-families-raw-dev-20261017",
+      "manifest_sha256": "53250d4b726f8b54f5e2eafa516b7587e5acd01a6605c4be6457fdc5073263d7"
+    },
+    {
+      "directory": "szse-value-raw-dev-20261017",
+      "manifest_sha256": "0d41978c2c9ebcb1b89c6e4174cacda8852240f0c228879bbae2ad66ac18766e"
+    }
+  ],
+  "reuse_routes": {
+    "SZ000034": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "b3f6cfe8cab70b8ae84f7e997083a30e9e137131a424768f40b16e72b85218b3"
+    },
+    "SZ000039": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "8ecce3cfbd9223e67d12abe659b5c34af210dcc15aad4b99d9b4e1860f6255ca"
+    },
+    "SZ000062": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "fc2a982fed90776b8acd911d3ae2d3455caf80fe537c81ffbd85de5f222e9dc4"
+    },
+    "SZ000400": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "b35ecced3bb76f6b01c773c274e62bad3382b10309e5a7dd30d78c1beaeebb2d"
+    },
+    "SZ000423": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "b7615c1cf9c716bb85efe5aa2fb42df8196500b405799930678e308e93ee089c"
+    },
+    "SZ000426": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "eb079d2c492722c870be2ecd06804be164e82bbdb08e38d66a3331223db771fe"
+    },
+    "SZ000543": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "3600a1b12a1604745367addd4b2df9cb57b43679a7e40a7dac1a5421cbe208f8"
+    },
+    "SZ000559": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "1f7a391cce07849c878b541d27fb007833cab00b3950fa55f9e934b81d0f6ccf"
+    },
+    "SZ000581": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "71471e65fe1cbb55262f00b8205051d66a4b3c8571656e4af02161ad4ea1280a"
+    },
+    "SZ000591": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "a891ac26f8e7c7d52ad57af830e13ba9e29383bb357c568fb2bff922cc043c4e"
+    },
+    "SZ000598": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "80703e5f968fc3eafdac3e7e3358d46f5ca219a1dba83632425d963c8ab00a4d"
+    },
+    "SZ000630": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "2b4f61d3c076837c8b2efc94c8613e48b49f11c76cf3ee0cfdcf1df6431feb02"
+    },
+    "SZ000683": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "c19aae3ade54fc41dbb00d5f57af0159807eee47902cd28b41fb4061b35484c4"
+    },
+    "SZ000733": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "7a18eed3e29dac2f7cdc01ff7793ea5d571f0a146f54099001d4f5e913396f52"
+    },
+    "SZ000778": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "f5efcb85de49fff0547d44386fb9246491e087b051a0c126afafffd303700ce2"
+    },
+    "SZ000785": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "9a67e499a5e1ebd6af5a1a63138ff5c31a1820a8d56fb873455ea0565be8126d"
+    },
+    "SZ000830": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "e6109288e37a2f5d23511bdfb39d1718317ddd33c40af65e0791fb6a7d89a08f"
+    },
+    "SZ000878": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "45e65ee10f17aef49c2ddbfa8a60f9fb3773551f09229a0a9197357cb36b54b9"
+    },
+    "SZ000883": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "7006cb2d3f3bcf844e2ba4c46930cd1909a8fdb5d3ab620e615574cddc2454db"
+    },
+    "SZ000887": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "178f22d3c85e366c674699e1ec08305fdaef7d99d8a7400842f56c4f2f7ab835"
+    },
+    "SZ000893": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "90096930e0a89eaa3ec01b96a90b2c8b5ca3804e4223c12c4f73254ff28cf130"
+    },
+    "SZ000921": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "cb4c60c6ce4e0f45230f65c1361ba2aa30db565d2cd0472ebd620e7165c232fb"
+    },
+    "SZ000932": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "fa26a206e15211264f0e8e023f5a65274de891a9c45889eb574626804f4efbad"
+    },
+    "SZ000933": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "ecf6652d429e341cfbb458365e2a405e03fd8429d3bca14ba32fb43a15a17117"
+    },
+    "SZ000937": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "56ecc19ba1911b0cc4d06368a8d49596b9f32521a95c089f8e0494289840754c"
+    },
+    "SZ000967": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "d1633c019458390a00cb482ea95478ab7680970d00a1713ee569820c52142f87"
+    },
+    "SZ000975": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "b3bee77d5d5f3e5a5c2ffb0619f7dff092e34ca235b0c95066ce8a3165b77aa8"
+    },
+    "SZ000987": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "98f55605b2c3a21b8d74c434ebee323df17a35d9162c88d915d955e9ff5fc3e4"
+    },
+    "SZ000988": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "3937b49b0e0d935cfa4c208b9200fd7c1d28ae54cf1659f9e50a959e131ed2f4"
+    },
+    "SZ000997": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "a4b4b95df4ac26d1c1f638c340e3cb7b22415363775462bc91a0e83727610ec6"
+    },
+    "SZ001203": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "8ad4c98d3790fb2a6405400d2bfabce5391ad098419d70f80c1823893d93c8f5"
+    },
+    "SZ001227": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "8b13c501b84edcec3d2a32c31c09690f51d55080ad9c0e0df65445122e5701d4"
+    },
+    "SZ001286": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "ade0ead6470a44f755601f6f7fa2eaf756b145d2ed0c94792663c3ef7a2f43d5"
+    },
+    "SZ001872": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "58ca25f112881b7db6ab839e0d63771821ead46ea9c0667104bc957e801fecf2"
+    },
+    "SZ002008": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "3e54388152e213003c9d4eeaed108241e136f402fba4b4ee870e235d8b2121fd"
+    },
+    "SZ002019": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "f93296c3802035b3031c62c9f8fc578fc16057eeda6d1df835b24772fe47a8d1"
+    },
+    "SZ002028": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "317e7a874f549a44183e2131bea4520d5868e8b57e3f0e23fbf4a075d0f57264"
+    },
+    "SZ002030": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "fdf65f48080fb72ada3c2e8930b8f4b840785916e525d24b00da62a255872d10"
+    },
+    "SZ002032": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "4f5ba4e3cb093ede6216017d30becb8105a374344d1f6aa07f59a03715e45946"
+    },
+    "SZ002056": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "965e9b2518ad0ef8e29b03b2e33a19664f9ae595489bf572e1d90d3f5d3734cf"
+    },
+    "SZ002065": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "675d2ed610ff19c25cdad12d69c4c824fed787c08622b7f63341225ab005a6a6"
+    },
+    "SZ002078": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "1756148e4a4fcc5eab5b93007f4eaec554add7bdd0abed360beec6a8df365df0"
+    },
+    "SZ002080": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "022896a2d165e185e5d2f6456e3e4c148a078c681244721060161fd5f688eea7"
+    },
+    "SZ002085": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "332c30fe32e3819110089a4a07d157b5ad0a8e068f322b0bbcca5378f0b7e5fe"
+    },
+    "SZ002120": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "bde60d51ab0695877d90c6d4aae1459072b4d06e98538c84fc67369b6eac45ef"
+    },
+    "SZ002128": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "65616ce4c8305aee0f91d5353f56d832b27472054817463cdb09e340093b8200"
+    },
+    "SZ002130": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "3ff336b9e6049573b9839bf8dfc275b54b60b54cb3e91dbde5f9db3536cea3cd"
+    },
+    "SZ002131": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "ddb12b4be153403034efb247bbee5a80843fe29717a5fe8439c3a6184eac78d8"
+    },
+    "SZ002152": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "e919f36c132d39a8aef7ff5dcac425c89393ed13463df963d1d1c64a9f5d0158"
+    },
+    "SZ002155": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "5db558641d98f37a6a884fc256ab0876f2318cca6bd3ec13c749f9e8e5f93e74"
+    },
+    "SZ002185": {
+      "directory": "return-families-raw-dev-20261017",
+      "packet_sha256": "15e5471b94b353532a414e04230ef5815c7bd42d1f20065f4cc8df515698cda1"
+    },
+    "SZ002192": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "ae349355770b4c8b54704d8c2fdec0784264f01e29ed843c930b5333958fdc83"
+    },
+    "SZ002195": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "2820f97f6bb63e633435f60e86793d3d1cc55b99b8e05ea662264836c04997f0"
+    },
+    "SZ002223": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "5085fee9a388ada79fd252e8da79de9cea47e8dd0b39fed2b726a5fddd2acc35"
+    },
+    "SZ002240": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "807f4aa3eba1b4f37e2c4042b3cc726301e04a8c78af98e87db6478322a69ca3"
+    },
+    "SZ002244": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "1ea943d0e82fba7417a61cb659198713bdefe75ffa1e9a74dbb658dd86768b21"
+    },
+    "SZ002261": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "b2c36f71ae9021dd04e6c333aa2f90698dcf602f50020c00f1cde47a607ba9da"
+    },
+    "SZ002273": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "bc522ed88cb6f35c1f451af837f06b6f7a19df6edcaf9edc4e17a8a9fe81f878"
+    },
+    "SZ002281": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "4f1e5c29cbe8759043ad9fcc230ad8f3d0f95abddbda7ebcdf498b6456adde0e"
+    },
+    "SZ002294": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "b2ec4d323b2a21892a6627b369f518dd86d52839202ba2bb375f95742e0c85c2"
+    },
+    "SZ002353": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "5b2e85bc3ed5d8cf9641b23f2548cec4751c8b74aca91a86c5440e1630941006"
+    },
+    "SZ002384": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "bc292426b54553274a1b43586c6b9dd84e6e87dbffff1674e27be34f0e5534f6"
+    },
+    "SZ002407": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "66bafc96b7c042c474f7e025dd274ad956cb478bd380c4b7fd201fe87a9eb925"
+    },
+    "SZ002423": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "cb2add739e2d872820940d88e2a538e83d50c3b5e3035c9eac4edfbfc57fc214"
+    },
+    "SZ002432": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "26c6d2751cc89df85077ee37e28f46d17725ceed373018f889deb796e4c02d0f"
+    },
+    "SZ002444": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "3e8ff06fb8082d5f6490a5eaa77ee858687c983b34e8686eb0013cde30ce5ec6"
+    },
+    "SZ002463": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "682beef8c2fb95b374183df59457a8e494edd4b9592dab1a55fc13596e04ef62"
+    },
+    "SZ002465": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "b534ee7f1a538e05b7da4abbb08f4788e0edcd75ab1e110d89797de574c14122"
+    },
+    "SZ002472": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "103bcf3738cfc1e368990a28d6d649701aba772a6c50baf7d2feb919edc3bcbd"
+    },
+    "SZ002497": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "ab85ecbf732da4b8bace96f00672d4d7ad2e814f06a215fe1e77e018901a3a44"
+    },
+    "SZ002508": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "5c07e11730fd66eca29845ba91118c3465bd51455f71efd6c49f5197176830f2"
+    },
+    "SZ002517": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "5ed305a754640e6cf598da023085fe2f07e70a73ad4d9da126cc27b547d0e436"
+    },
+    "SZ002532": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "29bb8e46ae636e61cd9623d7ba903d8a756035a93086dbe2fc16ee469215c057"
+    },
+    "SZ002558": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "3b9a726bc27725e60d1ab039beaabd1f247ca1cde325dd97f18f1662c5dc14fe"
+    },
+    "SZ002572": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "8e974e6f9f9d825987b2e15b55c6a4ce400b00c177f48fa2dccec948b6828952"
+    },
+    "SZ002595": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "27ad390249df13ad56ee8fdbe01ede1bbeebfa6d7cb723969c0d1d4eb93b50d6"
+    },
+    "SZ002600": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "f93a37b82ebcd946f60d912193f7605df5b86fcfce2872284ffadfe3bb0ac872"
+    },
+    "SZ002607": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "89729e555ddae6e9228db3f3dd5ec7cce12e4cc72e9212611e3f4ffe2227b6df"
+    },
+    "SZ002608": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "5be2c044512829cbfc2ab4dbe9f143f5cc84d403dff3a281fc666a0be161f802"
+    },
+    "SZ002625": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "8d972c2603e8bb1ca06a07e689b948ec85e07a65714efccb2bdd34bad73f9bce"
+    },
+    "SZ002653": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "70b2fc8f0c69d08b3f57f636a0cde9795539cffd60fa2ba65eb488cb73077062"
+    },
+    "SZ002670": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "db9748af221510b65378596a7f8dacf5cc8b93489842504765e2c0e1932c6379"
+    },
+    "SZ002673": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "46316bf564daee6f0b42eb6e00d6c9f21e3628e175c227678308c04e7b91bf7c"
+    },
+    "SZ002683": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "f87c6d0a8057fbf8e2489a96943e6500afa8282d1ac9d93f0baba89d285d5bb0"
+    },
+    "SZ002738": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "daadab1e8f1204d34248422186a4ab20282a10920bc7d66ae9d6b96ddfbda1b0"
+    },
+    "SZ002756": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "296a0f16da3df155ebfc05b948d637abd2ab2a938b3e7f35e261f18a3f942a9c"
+    },
+    "SZ002773": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "931af2e34798056da1b6e666da57a8d7476e58ca8a5f43f3357bc49e7a13f530"
+    },
+    "SZ002797": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "b10638ebc72f7c0cc2e8105f2d4fe097100250205cd1fb7208609be0f4ff3b5f"
+    },
+    "SZ002837": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "9db77b0a7ae6bd4cf82936301d72863a281649e850f8da129ed1116e2c9eebac"
+    },
+    "SZ002850": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "80e087b3837f3a2f8663bc5deafd944b3ce74ce73f57af13b470b7eb11fd66be"
+    },
+    "SZ002851": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "a285810747c546a2400b571c680d6dd816ad568a4671da0279d8fe11266db556"
+    },
+    "SZ002865": {
+      "directory": "szse-value-raw-dev-20261017",
+      "packet_sha256": "15b32ec45aaf31e06f0d3160e9abaaeb6b0d7a269ba03dbddd3969431e8b5bca"
+    },
+    "SZ002867": {
+      "directory": "illiquidity-raw-source-continuation-20261020",
+      "packet_sha256": "2799242ba110bf7118b802c28d6996ef4479fc13744b5832198ef78c8ecf2f6e"
+    },
+    "SZ002958": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "14c42b8e0652e07e8a55e1c9f8be017c03170d7a44208ace703d1f4e750d58ed"
+    },
+    "SZ002966": {
+      "directory": "low-beta60-raw-dev-20261021",
+      "packet_sha256": "bd531f52a365a7a785fd385e877629eb44484ebe5abf91dfa86d8329acd3d61f"
+    },
+    "SZ002984": {
+      "directory": "budgeted-residual-raw-dev-20261021",
+      "packet_sha256": "39e81963b661513fd480aad49f4bb5ed774cddbfd53b594d301a4503faa8fb66"
+    }
+  },
+  "fresh_codes": [
+    "SZ000021",
+    "SZ000032",
+    "SZ001389",
+    "SZ001696",
+    "SZ002156",
+    "SZ002312",
+    "SZ002429"
+  ],
+  "maximum_new_query_reservations": 28,
+  "max_attempts_per_query": 1,
+  "maximum_consecutive_failed_fresh_codes": 3,
+  "maximum_cross_restart_administrative_login_attempts": 3,
+  "socket_timeout_seconds": 20,
+  "baostock_version": "0.9.4",
+  "method_code_sha256": {
+    "scripts/capture_value_momentum_raw_pre2026.py": "5db248df3434cf5b7eaee3a5f6244ec1af79dafd6460182b15af0c7d74de5e9f",
+    "scripts/capture_budgeted_residual_raw_pre2026.py": "fcaf4d0e61f20aaf90980bfc4210503dd8e10283d039638cc8a37608177d2432",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/capture_frozen_target_development_data.py": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d",
+    "scripts/capture_illiquidity_raw_development.py": "4a6c1b9597b4e0d797720687f43ba951b9aeabaca3bf8c83149a4657598ce8f1",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "screen_files_sha256": {
+    "experiments/qlib/szse-value-momentum-pre2026-results.json": "054231f43b8525c9301ad50793acd895d57a84af5dffb272c4ff6b23e80730cf",
+    "experiments/qlib/szse-value-momentum-independent-audit.json": "0d627c25fd3d4142e247744a33c72d18c225a6bf1e91ff7ad8c3e3d6bd36a367",
+    "experiments/qlib/szse-value-momentum-raw-source-inventory.json": "a13286cdbdab0ef7d239884ad83c4cdadab840c57c6083367ef204dd38b6ea6d"
+  },
+  "protocol_file": "docs/research/szse-value-momentum-raw-source-plan-2026-10-21.md",
+  "source_admission_separate": true,
+  "portfolio_returns_computed": false,
+  "2026_market_values_queried": false,
+  "protocol_sha256": "39d7797e0f752fd2c5a5cea224d2cc7b12b761a6c1a1f86bd2f6d5230a0681a5"
+}
