@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_SOURCE_CODE_FORMATIONS_REVIEWED_BEFORE_PRE2026_RETURNS",
+  "plan_sha256": "3c07b1693808bc8eab6ce1e5e0e4571c77b51642475ecd405dddf13e608d06c1",
+  "code_source_review_sha256": "6c195dc76f71efd23883e1932480b5a457a6ec7d276493054fca205d470e4bc0",
+  "full_tests_passed": 482,
+  "new_behavior_tests_passed": 3,
+  "logs_sha256": {
+    "stock-rsi-size-red-20261021.log": "6422f48303405a3b81a3284938ac88a4870f1755f72f5e41ed02f0fb966bcc57",
+    "stock-rsi-size-missing-red-20261021.log": "60d9476c51eba3c9f3f8f82c37af217fec099dcc9a51ac3dde4ddd31adc5e6ac",
+    "stock-rsi-size-green-20261021.log": "1835f106e71785b53644f17e78b8316180f15b4a7cc4c262684aacbd1e3cde1f",
+    "stock-rsi-size-full-20261021.log": "1c561e545b4477ffc45c480c39352f0ee1b34657bb2ab12f4e8231f325d3ba57"
+  },
+  "independent_auditor_sha256": "72b924c01ab259bd68c3bf063d65d2b3e513ee9175b3e53bd3eb3e7bf67b3af6",
+  "candidate_budget": 1,
+  "formations": 24,
+  "candidate_unique_names": 68,
+  "market_source_queries": 0,
+  "account_replays": 0,
+  "2026_returns_computed": false,
+  "objective_achieved": false
+}

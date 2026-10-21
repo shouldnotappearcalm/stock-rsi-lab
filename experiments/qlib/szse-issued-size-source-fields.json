@@ -1,0 +1,138 @@
+{
+  "status": "PRE2026_PUBLISHED_SOURCE_FIELD_SCHEMA_REVIEW_NOT_EXACT_CAPITAL_CERTIFICATION",
+  "source_manifest_sha256": "d88866cb365d9bf19dd5eaa9c5bde140a396d9ad6ee3f779ba1937a0307aea28",
+  "all24_headers_reviewed": true,
+  "review_mode": "decoded original HTML text headers and parsed Decimal field checks; not issuer-capital reconciliation",
+  "reports": 24,
+  "mainboard_rows": 35821,
+  "missing_fields": 0,
+  "inconsistent_listed_issued_rows": 0,
+  "issuer_class_scope": "Security-row A issue volume, not a sum of A/B/H or total consolidated company value",
+  "units": "published issued volume in10000shares times published unadjustedclose CNY",
+  "precision": "Use rounded published proxy; not exact shares or verified original publication/arrival timing",
+  "per_month": {
+    "2023-11": {
+      "table_sha256": "d20493ed600ad0b32045905fa3fdeca2433392d5d98af133357a7b2086e3ea95",
+      "mainboard_rows": 1503,
+      "header_encoding": "gb18030"
+    },
+    "2023-12": {
+      "table_sha256": "ea2962c40ad05d0b1c25d36d8737410b01631c25fbe7bc22bcd99eb79c16b3ac",
+      "mainboard_rows": 1505,
+      "header_encoding": "gb18030"
+    },
+    "2024-01": {
+      "table_sha256": "6d3e79cd6ece52aac0db82331d5e2daab8536179584f6fced3b28524cab3745c",
+      "mainboard_rows": 1507,
+      "header_encoding": "gb18030"
+    },
+    "2024-02": {
+      "table_sha256": "9c5552defb07e836e1d31fb91d374d04a7ee94914f6856ede2296229eeb45eb9",
+      "mainboard_rows": 1506,
+      "header_encoding": "gb18030"
+    },
+    "2024-03": {
+      "table_sha256": "243cba7b7e46ecb296ca02fa920a019f4d0a5a83cc31a64c26fd400dc37a42fc",
+      "mainboard_rows": 1506,
+      "header_encoding": "gb18030"
+    },
+    "2024-04": {
+      "table_sha256": "abb74220e95eda15f0b414eb32e80a78ca0f9f144049a59f191d9c9609c238ac",
+      "mainboard_rows": 1505,
+      "header_encoding": "gb18030"
+    },
+    "2024-05": {
+      "table_sha256": "72417564edb66863504dbefa40645c7960d1aa29cb5ca32040f2e9970c67dcca",
+      "mainboard_rows": 1503,
+      "header_encoding": "gb18030"
+    },
+    "2024-06": {
+      "table_sha256": "9d407d54b3f8761feabdcd56e494916a6ee775949a65575fc8e17cd3b038f141",
+      "mainboard_rows": 1503,
+      "header_encoding": "gb18030"
+    },
+    "2024-07": {
+      "table_sha256": "b6a5c8807c5d8519022176531faa2bd87cdf71959740132b1cd6d7b3cf26dad1",
+      "mainboard_rows": 1499,
+      "header_encoding": "gb18030"
+    },
+    "2024-08": {
+      "table_sha256": "0844bf40a84a0ac7b6add4725d23facc36ca0c13bad08489f277bbdcd2e9c391",
+      "mainboard_rows": 1496,
+      "header_encoding": "gb18030"
+    },
+    "2024-09": {
+      "table_sha256": "a7a2f640b08e8ed742ad5c99d998b4d85b7e3d05aff6dfc0b6a46aa7a8cf7477",
+      "mainboard_rows": 1484,
+      "header_encoding": "gb18030"
+    },
+    "2024-10": {
+      "table_sha256": "386245a1d97c0d5fe6f819a0e453cd841fe249dee443df8218b105c3875924b2",
+      "mainboard_rows": 1482,
+      "header_encoding": "gb18030"
+    },
+    "2024-11": {
+      "table_sha256": "256a8c5b85f9e9cfe77f2123f0316636f9259d56836a5c7efc18542a5d8cc71e",
+      "mainboard_rows": 1481,
+      "header_encoding": "gb18030"
+    },
+    "2024-12": {
+      "table_sha256": "abb22e2d4656353c7bf6dce6b4cf61eab37a1b174ccb25cdcaf46f5a61a202e2",
+      "mainboard_rows": 1482,
+      "header_encoding": "gb18030"
+    },
+    "2025-01": {
+      "table_sha256": "3d9700ef2fc7012781cdb84fbaf2a89a48ee7d2d4843babb9245b58c59a3722f",
+      "mainboard_rows": 1484,
+      "header_encoding": "gb18030"
+    },
+    "2025-02": {
+      "table_sha256": "dd560f93c57ce703b31f03ed1d187fefaf707bc89a2c5063251f202f9d653592",
+      "mainboard_rows": 1484,
+      "header_encoding": "gb18030"
+    },
+    "2025-03": {
+      "table_sha256": "0f4668355e72ffa062ba2b6c212350ae9249a29204935897556ee1eb36bcbf61",
+      "mainboard_rows": 1485,
+      "header_encoding": "gb18030"
+    },
+    "2025-04": {
+      "table_sha256": "1d3966c18eb8e5d22d06502edab8c26f447eb971de0d3f3fc930f1a0bcd96510",
+      "mainboard_rows": 1487,
+      "header_encoding": "gb18030"
+    },
+    "2025-05": {
+      "table_sha256": "5ee68cafb06d8b1ac59283ad8ca6774b72664b45532e8db8f41db2a76a17a668",
+      "mainboard_rows": 1487,
+      "header_encoding": "gb18030"
+    },
+    "2025-06": {
+      "table_sha256": "24d38f8509b223acb8fceaf5648e89a35259c163cc123db13d2948e8847dd7dd",
+      "mainboard_rows": 1487,
+      "header_encoding": "gb18030"
+    },
+    "2025-07": {
+      "table_sha256": "fb55047d248fc7fe99506caac75cb0d375639d45cd0bea719f08295de13272c7",
+      "mainboard_rows": 1488,
+      "header_encoding": "gb18030"
+    },
+    "2025-08": {
+      "table_sha256": "72f842633dc8363343f776bf5bbed3836b19a7ba7fbb019e3b4641601db4cab8",
+      "mainboard_rows": 1485,
+      "header_encoding": "gb18030"
+    },
+    "2025-09": {
+      "table_sha256": "9b17b309596399f87b8e780e670d527ebf5768930e8c11babc88e154ff0bed1e",
+      "mainboard_rows": 1486,
+      "header_encoding": "gb18030"
+    },
+    "2025-10": {
+      "table_sha256": "a4c0192c48ff3133ef8af7627b67c8018dbfa91b4007e14dbafcec4ad59e24ca",
+      "mainboard_rows": 1486,
+      "header_encoding": "gb18030"
+    }
+  },
+  "source_queries": 0,
+  "2026_market_values_queried": false,
+  "portfolio_returns_computed": false
+}

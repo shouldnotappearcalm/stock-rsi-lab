@@ -1,0 +1,55 @@
+{
+  "experiment_id": "single-published-A-issued-size-pre2026-v1",
+  "status": "FROZEN_BEFORE_EXCHANGE_SIZE_OUTCOMES",
+  "families": [
+    "szse_monthly_small_issued_cap"
+  ],
+  "candidate_budget": 1,
+  "capital_CNY": 1000000,
+  "user_selected_capital_CNY": null,
+  "extra_bps": [
+    20,
+    40
+  ],
+  "account_window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "design_file": "docs/research/szse-issued-size-pre2026-plan-2026-10-21.md",
+  "source_capture_manifest_sha256": "d88866cb365d9bf19dd5eaa9c5bde140a396d9ad6ee3f779ba1937a0307aea28",
+  "source_field_review_sha256": "fe348482db4d31b45ebf496f6aef0db3bb2779a3bd162f557c2007b065acb8bf",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_szse_size_pre2026.py": "71fe1a2894086ba3c941091f3baa11c44c9b187806c7bd34161d007e1b4b534b",
+    "src/stock_rsi/budgeted_lot_orders.py": "4fe22e63c5fdd89934bb7b4b498e0ca0fd65019ea250c44e05637468d1bfd097",
+    "src/stock_rsi/budgeted_qlib_strategy.py": "4b4b08fff4e7607f39f07310a3d33029db0a7b9d1c8acd9ca2c0dba6c8dc3811",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/szse_monthly.py": "c3ad059f06694401f4027c592cc71387808c129523a54992f086d0205588a8ef",
+    "src/stock_rsi/exchange_size.py": "6e90716711e87a55952e54ab7c617de2e1b0e05f1c35a118af72758681d59e78"
+  },
+  "input_sha256": {
+    "price_files": "ab0357340ad07bedf4a4ceda8bd22cde759400d6d92b86ee4a31b4ab649e62c4",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "gap_state_manifest_sha256": "257f3266d366bcc0c3452329efaae23086940394a3d9368b3fa943df2d311fc7",
+  "initial_targets_sha256": "e8dfdad1d7874252b4d2d448f6feba457c08cbb92248f18cb673be50cb21d034",
+  "initial_receipts_sha256": "c2b4f8ad61cb0482b706493eaeeaabbb6945bae7c71c4591c8382188bc1706fc",
+  "selection_rule": "40bps candidate only:2024>0,2025>0,meanactualexposure>=90percent,zero unverified heldmarks; control cannot be selected",
+  "following_stage": "samepre26 physical corporate/intraday confirmation before separately frozen2026diagnostic",
+  "2026_market_values_queried": false,
+  "2026_feedback_to_rule_changes": false,
+  "sealed_evidence": false,
+  "objective_achieved": false,
+  "design_sha256": "b5ce601fd8e1c5bdfb86685dabbd758fac73567c35eddae28a9f9ba316c018f7"
+}

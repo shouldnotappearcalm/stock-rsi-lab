@@ -1,0 +1,107 @@
+{
+  "status": "INDEPENDENT_CODE_AND_ORIGINAL_SOURCE_FIELD_REVIEW_APPROVED_NO_CRITICAL_OR_IMPORTANT_FINDINGS",
+  "base_commit": "d8dc6f5d0058760dd42d144989be2287256d2868",
+  "plan_sha256": "3c07b1693808bc8eab6ce1e5e0e4571c77b51642475ecd405dddf13e608d06c1",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_szse_size_pre2026.py": "71fe1a2894086ba3c941091f3baa11c44c9b187806c7bd34161d007e1b4b534b",
+    "src/stock_rsi/budgeted_lot_orders.py": "4fe22e63c5fdd89934bb7b4b498e0ca0fd65019ea250c44e05637468d1bfd097",
+    "src/stock_rsi/budgeted_qlib_strategy.py": "4b4b08fff4e7607f39f07310a3d33029db0a7b9d1c8acd9ca2c0dba6c8dc3811",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/szse_monthly.py": "c3ad059f06694401f4027c592cc71387808c129523a54992f086d0205588a8ef",
+    "src/stock_rsi/exchange_size.py": "6e90716711e87a55952e54ab7c617de2e1b0e05f1c35a118af72758681d59e78"
+  },
+  "design_sha256": "b5ce601fd8e1c5bdfb86685dabbd758fac73567c35eddae28a9f9ba316c018f7",
+  "source_field_review_sha256": "fe348482db4d31b45ebf496f6aef0db3bb2779a3bd162f557c2007b065acb8bf",
+  "source_capture_manifest_sha256": "d88866cb365d9bf19dd5eaa9c5bde140a396d9ad6ee3f779ba1937a0307aea28",
+  "frozen_targets_sha256": "e8dfdad1d7874252b4d2d448f6feba457c08cbb92248f18cb673be50cb21d034",
+  "frozen_receipts_sha256": "c2b4f8ad61cb0482b706493eaeeaabbb6945bae7c71c4591c8382188bc1706fc",
+  "critical_findings": [],
+  "important_findings": [],
+  "minor_findings": [],
+  "strengths": [
+    "The single candidate ranks published issued-volume10000shares times published A-security close with Decimal arithmetic; listed shares, PE and current formation price cannot replace the published product.",
+    "Historical CSI500 Shenzhen ordinary main-board membership is evaluated at prior formation close. Special published names, nonpositive/missing fields and nonpositive visible close/factor/volume are excluded; universe/source/eligibility coverage gates match the protocol.",
+    "The two-calendar-month source offset, intervening full calendar trading month and document build-date upper bound enforce the declared lag. The code refuses a target-generation horizon beyond2025.",
+    "All24 original headers and35,821 parsed main-board security rows independently confirm separate issued/listed columns, valid units and listed<=issued. Paired A/B rows have distinct issuance amounts and are not combined.",
+    "The unchanged budgeted allocator keeps prior-close normalized-lot sizing and notional budget conservation. Runner independently checks decision equity/inventory against prior-close report positions and reconciles daily evidence before lead admission.",
+    "Only the40bps candidate can be selected, requiring both pre2026 years positive, actual mean exposure>=90percent and zero unverified held marks. Equal-weight control is excluded from selection.",
+    "Protocol and summary expressly distinguish the restricted-universe long-only proxy from the referenced study, full-A-share or microcap-exclusion/factor replication, exact share counts, calibrated physical execution and verified historical arrival."
+  ],
+  "fresh_validation": {
+    "all16_method_bindings_matched": true,
+    "original_methods_unchanged_from_base": true,
+    "provider_input_hashes_matched": true,
+    "gap_state_capture_authenticated": true,
+    "source_load_capture_full_authentication_passed": true,
+    "original_headers_independently_checked": 24,
+    "original_mainboard_rows_independently_checked": 35821,
+    "independent_rankings_and_formations_matched": 24,
+    "candidate_unique_names": 68,
+    "minimum_eligible_names": 153,
+    "source_months": [
+      "2023-11",
+      "2025-10"
+    ],
+    "execution_window": [
+      "2024-01-02",
+      "2025-12-01"
+    ],
+    "latest_guarded_scalar_price_read": "2025-11-28",
+    "2026_scalar_price_queries": 0,
+    "candidate_and_control_targets_and_receipts_semantically_and_byte_matched": true,
+    "A_B_sample_2023_11": {
+      "000012_A_issued_10k": "196132",
+      "200012_B_issued_10k": "110937",
+      "000019_A_issued_10k": "110079",
+      "200019_B_issued_10k": "5175"
+    },
+    "focused_tests": {
+      "passed": 12,
+      "new_size_tests": 3,
+      "inherited_budget_allocator_and_strategy_tests": 9,
+      "exit_code": 0
+    },
+    "synthetic_summary_prior_equity_compounding_and_broken_conservation_rejection_passed": true,
+    "full_suite_log_inspected": {
+      "path": "/tmp/stock-rsi-size-full-20261021.log",
+      "passed": 482,
+      "seconds": 10.956,
+      "result": "OK",
+      "reviewer_reran_full_suite": false
+    },
+    "independent_review_script": "/tmp/szse-issued-size-independent-review-20261021.py",
+    "independent_review_script_sha256": "a1d82eee077e1784a9dc268611d7f275f2ec642045454c6df3c90b1b3519c0e4"
+  },
+  "ready_for_development_screen": true,
+  "assessment": "The final frozen single pre2026 published-size hypothesis, source-field interpretation and screen implementation are ready for the development screen after freeze/push. No current Critical or Important finding was identified. Actual Qlib output, decision-allocation receipts and daily financial CSVs still require independent reconstruction before any development lead is admitted; passing this normalized open-price screen would require separate physical-share/corporate/intraday confirmation.",
+  "declined_to_judge": [
+    "Actual account returns, exposure, held-mark reconciliation and final lead admission: no Qlib account run was performed before freeze/push.",
+    "Statistical replication or economic validity of the referenced paper: the reviewed implementation explicitly narrows the universe and omits its microcap exclusion/factor construction; no new network retrieval or independent full-paper reread was performed.",
+    "Exact issuer share capital, all-class consolidated company value and actual historical arrival: source header/row checks support the rounded published A-security proxy only.",
+    "Historical RED-before-code sequence: fresh three size tests and nine relevant inherited tests passed; historical sequence was reported by the coordinator rather than independently reconstructed.",
+    "2026 strategy returns or using prior lowbeta outcomes as rule feedback: expressly forbidden and not performed in this review."
+  ],
+  "provider_calendar_includes_later_dates_but_scalar_formation_reads_guarded_pre2026": true,
+  "repository_edits_performed": false,
+  "source_files_edited": false,
+  "account_replay_performed": false,
+  "actual_portfolio_returns_computed": false,
+  "new_network_or_source_queries": 0,
+  "2026_returns_queried": false,
+  "2026_outcomes_used_as_rule_feedback": false,
+  "candidate_promoted": false,
+  "raw_share_execution_verified": false,
+  "historical_arrival_verified": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}
