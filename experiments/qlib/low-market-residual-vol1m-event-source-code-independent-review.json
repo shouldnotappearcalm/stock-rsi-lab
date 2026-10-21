@@ -1,0 +1,63 @@
+{
+  "status": "PASS_INDEPENDENT_IVOL_EVENT_SOURCE_CODE_REVIEW",
+  "ready_for_source_compilation": true,
+  "request_sha256": "38fab49d2ab85bf44d3d6f79dc2ed2562a5e0227b22ee59e3ce75e45b7d7203f",
+  "request_reviewed_path": "/tmp/ivol-source-projection-preflight-request-20261021.json",
+  "method_code_sha256": {
+    "scripts/prepare_ivol_account_sources_pre2026.py": "7b3a22bfb2d709d954ea6f564b194a2e4c903c862ba0fe8f9fb88be6b17ebdac",
+    "src/stock_rsi/primary_event_components.py": "a0ecc1c01b7caf688dab26b2461c5fb720e4772c0abff004f973ee5422e58418",
+    "src/stock_rsi/distribution_event_compiler_v2.py": "145ea48f2f68af0175d3f003f1970152b8d7c03ba40ed809dfbe3dc38fc51a3e",
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46"
+  },
+  "protocol_sha256": "3e9a3c144a088fbe034a1ac7e9822a529bbd768f2509b3fa47befc27bd8897ee",
+  "test_sha256": "d3e47a051ff51a1fb4cd95a65598d0e8e3da994ca4eb4ed15a2e11be3c8a60e8",
+  "critical_findings": [],
+  "important_findings": [],
+  "blocking_findings": [],
+  "verification": {
+    "focused_synthetic_tests": 10,
+    "focused_exit_code": 0,
+    "compiler_blocked_actual_source_preflight_exit_code": 0,
+    "known_actual_input_hashes": 1251,
+    "inherited_proof_types": 9,
+    "effective_documents": 19,
+    "primary_supplements": 3,
+    "typed_primary_components": 2,
+    "source_output_remains_absent": true,
+    "actual_compiler_called": false,
+    "log_sha256": {
+      "/tmp/ivol-event-source-code-review-focused-20261021.log": "de8937ddf682d25d98b442c0512bc4e9d6b51970abf65f06e7c1da3a054dc5ab",
+      "/tmp/ivol-event-source-code-review-preflight-20261021.log": "d94b9d070917ff71757b13370c77f322b00c15fbac07875f603ab7f24c6e7f9d"
+    }
+  },
+  "reviewed_rules": [
+    "Exact frozen method/public/local binding sets, raw capture tree/361packets/target/old42financial actual bytes and input recheck.",
+    "First registered cached proof literal retained; all17candidate aliases authenticated and economically equivalent aliases preserve source spelling/metadata rather than normalizing it.",
+    "Exactly9oldproof types,2primary typed components,3primary cash supplements; no source cash inferred from price/adjustment.",
+    "Exactly2primary lifecycle boundaries; missing38+323source rows remain missing, and listing-unit adjustment is removed only from validation copy.",
+    "Post-freeze compiler enforces862unique event/receipt pairs,6capital-taxflags/1stocktaxbasis and exactly6unknown guard events; no zero-ownership or tax-strengthening claim.",
+    "Existing output/incorrect path refused; explicit preflight performs proof authentication without invoking compiler/output.",
+    "Failure path preserves error/postcheck/summary/manifest and all admission/ROI/PIT flags remain false."
+  ],
+  "actual_source_projection_run": false,
+  "actual_event_compilation_run": false,
+  "account_replay_admitted": false,
+  "portfolio_returns_computed": false,
+  "2026_values_read": false,
+  "network_used": false,
+  "repository_modified_by_review": false,
+  "limitations": [
+    "Ready permits only the frozen local source/event compilation. Actual862events/receipt output still needs the separate stdlib reconstruction audit.",
+    "Lifecycle metadata does not establish actual flat inventory; raw replay must retain guard checks for owned/pending/target/positive-entitlement dependencies.",
+    "Six unresolved tax events and limited inherited inference scopes remain unchanged; no statutory tax certification."
+  ]
+}
