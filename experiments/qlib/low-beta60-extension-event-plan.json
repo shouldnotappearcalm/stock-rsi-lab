@@ -1,0 +1,57 @@
+{
+  "status": "FROZEN_LOW_BETA60_APPEND_ONLY2026_EVENTS_NO_ROI",
+  "window": [
+    "2023-12-29",
+    "2026-10-13"
+  ],
+  "unconditional_interim_observation_end": "2026-10-20",
+  "interim_cutoff_is_full_October": false,
+  "original_events": 179,
+  "appended_events": 87,
+  "expected_combined_events": 266,
+  "expected_unverified_tax_event_keys": [
+    "SZ000937|2026-06-17"
+  ],
+  "method_code_sha256": {
+    "scripts/prepare_low_beta60_account_sources.py": "092f35e73f05ff0585233c6731d22f0d0ebd1fa477a4872c48c498e4d9c2a00a",
+    "src/stock_rsi/distribution_event_compiler_v2.py": "145ea48f2f68af0175d3f003f1970152b8d7c03ba40ed809dfbe3dc38fc51a3e",
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "scripts/prepare_low_beta60_extension_events.py": "81701a09ffaea8d56b8b51f70dce99c91217f53abe0a647db291c1e421303201"
+  },
+  "local_source_sha256": {
+    "low-beta60-raw-dev-20261021/manifest.json": "411e2abe02ebf914c809d6b5acb9b7e2fabacafe7dc88081b980787fb0cd8613",
+    "low-beta60-raw-dev-20261021/calendar.json": "feda1fd82528f89646d2cc0092b0ae9c22660eae84665cfaf8632c983d7a9704",
+    "low-beta60-raw-extension-20261021/manifest.json": "10f645719228d50c439e166bbfe65959b5ff517668c2ecc8ffc4fca4e1680ea7",
+    "low-beta60-raw-extension-20261021/calendar.json": "13e7ab462fe5022d85b8acef00d92669fed5b764457d88dda108272257ec6c9f",
+    "low-beta60-raw-extension-independent-audit-20261021.json": "8e13fb42e914d36ce220b785d563125a6b2529de8c62bf3c1bbaf3f62a53277c",
+    "low-beta60-account-source-events-20261021/summary.json": "5e4d59c00b7bb26fed21e5285d0f44930966c13b50d0b6034470be1567a06050",
+    "low-beta60-account-source-events-20261021/effective_proofs.json": "012c1493c095092fd72a6bfe30d81934083a8c2968a77491c623effc89662162",
+    "low-beta60-account-source-events-20261021/derived_events.json": "d408a3521b01713e081ecb2924fde2a42b31feb0ccbad9f07efa7e99b6a3cfe2",
+    "low-beta60-account-source-events-20261021/event_source_receipts.json": "d4fded77ca439ae1bc380e5012d53a9dc12d6a28d4142378ff5c0fd9fe0d5c09",
+    "low-beta60-event-source-independent-audit-20261021.json": "ebb26bd32abae65e1929f7f69ba93a46eb61871a2d8cca908d430daf74b49312",
+    "low-beta60-corporate-reviewed-20261021/reviewed-manifest.json": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+    "low-beta60-corporate-reviewed-2026-20261021/reviewed-manifest.json": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+    "low-beta60-corporate-2026-20261021/manifest.json": "bbc2ca69bea797b7edb4228c70356972fc055fe18bf8dd8c18e446bdfc8a7ddf",
+    "low-beta60-2026-corporate-independent-audit-20261021.json": "6cc3e1d09468fc4ae8ec3934cd872155cc332da60550b3da44b69ce2d07c0347",
+    "low-beta60-calendar-extension-formations-20261021/targets.json": "defeeb81106bc436a3123c174b60fcfd6ccd98acb4f0ece97e183eb98b7c77a5"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/low-beta60-raw-extension-independent-audit.json": "8e13fb42e914d36ce220b785d563125a6b2529de8c62bf3c1bbaf3f62a53277c",
+    "experiments/qlib/low-beta60-event-source-independent-audit.json": "ebb26bd32abae65e1929f7f69ba93a46eb61871a2d8cca908d430daf74b49312",
+    "experiments/qlib/low-beta60-2026-corporate-reviewed-manifest.json": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+    "experiments/qlib/low-beta60-2026-corporate-content-review.json": "8a78937656054e77e4107a13d85d7d8475a1d1d1c2bfb11caba64cabc563c960",
+    "experiments/qlib/low-beta60-2026-corporate-proof-projection-review.json": "17c907c454eacbec8b221ff5f62f27cd91fd74634e57563e344e9337993b656e",
+    "docs/research/low-beta60-extension-event-plan-2026-10-21.md": "a1cf4fafa43d95987b92887896164c477a60e10af502fe3fcabc96f386686b40"
+  },
+  "portfolio_returns_to_compute": false,
+  "source_queries_allowed": false,
+  "investment_rule_changes_allowed": false,
+  "goal_achieved": false
+}
