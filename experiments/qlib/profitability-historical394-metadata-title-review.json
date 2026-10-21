@@ -1,0 +1,290 @@
+{
+  "status": "UNMATCHED_TITLE_SOURCE_ROWS_REVIEWED_NO_FINANCIAL_YEAR_GUESS",
+  "metadata_request_sha256": "adf0c0d546695aae8b08030c1ad9594800c60dcf5d889b8380aa04391ef56913",
+  "resources": {
+    "SH600511-2022": {
+      "source_packet_sha256": "4f9ae012ae604f654004841a60053a62a69ed20bc8de06552d73fa2b4b2ab25d",
+      "raw_body_sha256": "ecb15be3852ade4ad1f3fd5ca4c0dbea4b9fab2d4ac3c5b3e5e96b6d87be3cf8",
+      "rows": [
+        {
+          "instrument": "SH600511",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "国药股份2022年年度报告摘要",
+          "normalized_title": "国药股份2022年年度报告摘要",
+          "day": "2023-03-23",
+          "timestamp_ms": 1679500800000,
+          "announcement_id": "1216190227",
+          "pdf_path": "finalpage/2023-03-23/1216190227.PDF",
+          "classification": "SUMMARY"
+        },
+        {
+          "instrument": "SH600511",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "600511_国药股份_2022年_年度报告",
+          "normalized_title": "600511_国药股份_2022年_年度报告",
+          "day": "2023-03-23",
+          "timestamp_ms": 1679500800000,
+          "announcement_id": "1216190224",
+          "pdf_path": "finalpage/2023-03-23/1216190224.PDF",
+          "classification": "OTHER_ANNUAL_CATEGORY_NOTICE"
+        }
+      ]
+    },
+    "SH600536-2022": {
+      "source_packet_sha256": "ce99b899928411d0725f46964130cf637431038fd2eb9a209ef9df6eaa19f999",
+      "raw_body_sha256": "047eb1e2e2f6935c57af7a4ef8dd99bbf4edd6b50c1d05574541c6cb6aa8b9fc",
+      "rows": [
+        {
+          "instrument": "SH600536",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "《中国软件2022年年度报告》（修订稿）",
+          "normalized_title": "《中国软件2022年年度报告》（修订稿）",
+          "day": "2023-06-10",
+          "timestamp_ms": 1686326400000,
+          "announcement_id": "1217029786",
+          "pdf_path": "finalpage/2023-06-10/1217029786.PDF",
+          "classification": "OTHER_ANNUAL_CATEGORY_NOTICE"
+        },
+        {
+          "instrument": "SH600536",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "《中国软件2022年年度报告》",
+          "normalized_title": "《中国软件2022年年度报告》",
+          "day": "2023-04-28",
+          "timestamp_ms": 1682611200000,
+          "announcement_id": "1216663323",
+          "pdf_path": "finalpage/2023-04-28/1216663323.PDF",
+          "classification": "OTHER_ANNUAL_CATEGORY_NOTICE"
+        },
+        {
+          "instrument": "SH600536",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "《中国软件2022年年度报告》摘要",
+          "normalized_title": "《中国软件2022年年度报告》摘要",
+          "day": "2023-04-28",
+          "timestamp_ms": 1682611200000,
+          "announcement_id": "1216663322",
+          "pdf_path": "finalpage/2023-04-28/1216663322.PDF",
+          "classification": "SUMMARY"
+        }
+      ]
+    },
+    "SH600925-2022": {
+      "source_packet_sha256": "923225c51722938dc29f65fb67e6e7474979ac9db34d2222c412bc0cbc25ce7e",
+      "raw_body_sha256": "c2a890bbf3a6a53ab02ddc6c1794bf1c72ba45799fe9f59dcc5ba2cc18467114",
+      "rows": []
+    },
+    "SH601061-2022": {
+      "source_packet_sha256": "3cd4ae56faa747e21d664fd20c9d67b2d6e3382a0c9565a68ece9db493532495",
+      "raw_body_sha256": "c2a890bbf3a6a53ab02ddc6c1794bf1c72ba45799fe9f59dcc5ba2cc18467114",
+      "rows": []
+    },
+    "SH601158-2022": {
+      "source_packet_sha256": "197715b8065153e56679a6c3ad100cafce33220717f5efa116ae22492e4feeca",
+      "raw_body_sha256": "704688d77e66347df8380653b9cdc4416c97a3daa940f94d8451e1a39e22122d",
+      "rows": [
+        {
+          "instrument": "SH601158",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "重庆水务2022年年度报告（更正版）",
+          "normalized_title": "重庆水务2022年年度报告（更正版）",
+          "day": "2023-06-02",
+          "timestamp_ms": 1685635200000,
+          "announcement_id": "1216967559",
+          "pdf_path": "finalpage/2023-06-02/1216967559.PDF",
+          "classification": "OTHER_ANNUAL_CATEGORY_NOTICE"
+        },
+        {
+          "instrument": "SH601158",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "重庆水务2021年年度报告（更正版）",
+          "normalized_title": "重庆水务2021年年度报告（更正版）",
+          "day": "2023-06-02",
+          "timestamp_ms": 1685635200000,
+          "announcement_id": "1216967556",
+          "pdf_path": "finalpage/2023-06-02/1216967556.PDF",
+          "classification": "OTHER_ANNUAL_CATEGORY_NOTICE"
+        },
+        {
+          "instrument": "SH601158",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "重庆水务2020年年度报告（更正版）",
+          "normalized_title": "重庆水务2020年年度报告（更正版）",
+          "day": "2023-06-02",
+          "timestamp_ms": 1685635200000,
+          "announcement_id": "1216967554",
+          "pdf_path": "finalpage/2023-06-02/1216967554.PDF",
+          "classification": "OTHER_ANNUAL_CATEGORY_NOTICE"
+        },
+        {
+          "instrument": "SH601158",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "重庆水务集团股份有限公司2022年年报",
+          "normalized_title": "重庆水务集团股份有限公司2022年年报",
+          "day": "2023-04-01",
+          "timestamp_ms": 1680278400000,
+          "announcement_id": "1216299628",
+          "pdf_path": "finalpage/2023-04-01/1216299628.PDF",
+          "classification": "OTHER_ANNUAL_CATEGORY_NOTICE"
+        },
+        {
+          "instrument": "SH601158",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "重庆水务集团股份有限公司2022年年报摘要",
+          "normalized_title": "重庆水务集团股份有限公司2022年年报摘要",
+          "day": "2023-04-01",
+          "timestamp_ms": 1680278400000,
+          "announcement_id": "1216299625",
+          "pdf_path": "finalpage/2023-04-01/1216299625.PDF",
+          "classification": "SUMMARY"
+        }
+      ]
+    },
+    "SH601636-2022": {
+      "source_packet_sha256": "fd0a1b12e55271aa64e3cd3eff4c8501901e4cd51efa2e43ec37bd0de05e8b07",
+      "raw_body_sha256": "643c2e5cea8550c997ca0607c523eb738260235ce4561f0a683042acf505ed8f",
+      "rows": [
+        {
+          "instrument": "SH601636",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "601636_2022年_年度报告",
+          "normalized_title": "601636_2022年_年度报告",
+          "day": "2023-04-26",
+          "timestamp_ms": 1682438400000,
+          "announcement_id": "1216595289",
+          "pdf_path": "finalpage/2023-04-26/1216595289.PDF",
+          "classification": "OTHER_ANNUAL_CATEGORY_NOTICE"
+        },
+        {
+          "instrument": "SH601636",
+          "requested_fiscal_year": 2022,
+          "fiscal_year": null,
+          "title": "旗滨集团2022年年度报告摘要",
+          "normalized_title": "旗滨集团2022年年度报告摘要",
+          "day": "2023-04-26",
+          "timestamp_ms": 1682438400000,
+          "announcement_id": "1216595270",
+          "pdf_path": "finalpage/2023-04-26/1216595270.PDF",
+          "classification": "SUMMARY"
+        }
+      ]
+    },
+    "SZ001286-2022": {
+      "source_packet_sha256": "c45e95d3b1968de8c0b5464b19514a1b579deff12fdd69ed49393460ae07a290",
+      "raw_body_sha256": "c2a890bbf3a6a53ab02ddc6c1794bf1c72ba45799fe9f59dcc5ba2cc18467114",
+      "rows": []
+    },
+    "SH600511-2023": {
+      "source_packet_sha256": "2b8d2d621c5f20b85838780d5bf79ef3327824a1e258f9d81f2a04eb820be52b",
+      "raw_body_sha256": "76d77392cf56170a711c416db95a91ecca9e4712c43fdf8599911f2c5bdd6499",
+      "rows": [
+        {
+          "instrument": "SH600511",
+          "requested_fiscal_year": 2023,
+          "fiscal_year": null,
+          "title": "国药股份2023年年度报告摘要",
+          "normalized_title": "国药股份2023年年度报告摘要",
+          "day": "2024-03-21",
+          "timestamp_ms": 1710950400000,
+          "announcement_id": "1219361016",
+          "pdf_path": "finalpage/2024-03-21/1219361016.PDF",
+          "classification": "SUMMARY"
+        },
+        {
+          "instrument": "SH600511",
+          "requested_fiscal_year": 2023,
+          "fiscal_year": null,
+          "title": "600511_国药股份_2023年_年度报告",
+          "normalized_title": "600511_国药股份_2023年_年度报告",
+          "day": "2024-03-21",
+          "timestamp_ms": 1710950400000,
+          "announcement_id": "1219360999",
+          "pdf_path": "finalpage/2024-03-21/1219360999.PDF",
+          "classification": "OTHER_ANNUAL_CATEGORY_NOTICE"
+        }
+      ]
+    },
+    "SH601106-2024": {
+      "source_packet_sha256": "d7702dceedaf27a0163230e2d196b33a3806b7cb1c0a4b4436621d442b069baf",
+      "raw_body_sha256": "667246f9716b61fd9e2ec896dfb1e82312a132808a97f5c07d30fea5c1f4403e",
+      "rows": [
+        {
+          "instrument": "SH601106",
+          "requested_fiscal_year": 2024,
+          "fiscal_year": null,
+          "title": "年报全文",
+          "normalized_title": "年报全文",
+          "day": "2025-04-30",
+          "timestamp_ms": 1745942400000,
+          "announcement_id": "1223415420",
+          "pdf_path": "finalpage/2025-04-30/1223415420.PDF",
+          "classification": "OTHER_ANNUAL_CATEGORY_NOTICE"
+        },
+        {
+          "instrument": "SH601106",
+          "requested_fiscal_year": 2024,
+          "fiscal_year": null,
+          "title": "公告2025-020（中国第一重型机械股份公司2024年年度报告摘要）",
+          "normalized_title": "公告2025-020（中国第一重型机械股份公司2024年年度报告摘要）",
+          "day": "2025-04-30",
+          "timestamp_ms": 1745942400000,
+          "announcement_id": "1223415415",
+          "pdf_path": "finalpage/2025-04-30/1223415415.PDF",
+          "classification": "SUMMARY"
+        }
+      ]
+    },
+    "SH603737-2024": {
+      "source_packet_sha256": "bad89dafd6a5e2c21cda060a20a458f63cdd1f5072fab5afc7a137b513e8e4b9",
+      "raw_body_sha256": "ee26f86a265815a279a5bb9e8c11756ecb71a7b9c77d8fec07881cd3932dd658",
+      "rows": [
+        {
+          "instrument": "SH603737",
+          "requested_fiscal_year": 2024,
+          "fiscal_year": null,
+          "title": "2024年年度报告摘要",
+          "normalized_title": "2024年年度报告摘要",
+          "day": "2025-04-26",
+          "timestamp_ms": 1745596800000,
+          "announcement_id": "1223316583",
+          "pdf_path": "finalpage/2025-04-26/1223316583.PDF",
+          "classification": "SUMMARY"
+        }
+      ]
+    },
+    "SZ002505-2024": {
+      "source_packet_sha256": "853204e94f80aea31b310fe352fa9808328363aa8de7537e40c9e2b73b871520",
+      "raw_body_sha256": "c2a890bbf3a6a53ab02ddc6c1794bf1c72ba45799fe9f59dcc5ba2cc18467114",
+      "rows": []
+    }
+  },
+  "potential_explicit_year_title_alias_cases": [
+    "SH600511-2022",
+    "SH600536-2022",
+    "SH601158-2022",
+    "SH601636-2022",
+    "SH600511-2023"
+  ],
+  "unlabelled_year_fulltext_probe": "SH601106-2024",
+  "source_format_findings": [
+    "Underscore-delimited filename-style titles",
+    "Chinese book-title brackets",
+    "Explicit 更正版 suffix",
+    "Explicit fiscal year plus 年报 short label"
+  ],
+  "captured_source_summary_not_overwritten": true,
+  "financial_numeric_values_decoded": false,
+  "edition_selected_for_financial_values": false,
+  "investment_factor_admitted": false
+}
