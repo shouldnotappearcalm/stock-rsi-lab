@@ -1,0 +1,65 @@
+{
+  "content_kind": "EXCERPTED_REAL_FINANCIAL_ROW_REGRESSION_NOT_FULL_PDF",
+  "source_review_file": "experiments/qlib/gross-profitability-source-review-2026-10-22.json",
+  "CI_fetches_or_authenticates_original_PDF": false,
+  "documents": [
+    {
+      "instrument": "SH600166",
+      "report_year": 2023,
+      "announcement_id": "1219874919",
+      "publication_day": "2024-04-27",
+      "observed_at": "2026-10-17T12:52:40.656061+00:00",
+      "source_pdf_sha256": "e7588a7d935897aed750034c6847b0f57ab923c4837484f18e3bf62387b67eef",
+      "original_source_url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219874919.PDF",
+      "physical_page_count": 283,
+      "page_excerpts": {
+        "104": "合并资产负债表\n单位:元  币种:人民币\n项目 附注 2023 年 12 月31 日 2022 年12 月31 日",
+        "106": "母公司资产负债表",
+        "108": "合并利润表\n单位:元  币种:人民币\n项目 附注 2023 年度 2022 年度\n其中：营业收入 七、61 56,096,761,370.79 46,446,743,956.22\n其中：营业成本  49,712,583,057.97 41,161,578,185.99",
+        "110": "母公司利润表",
+        "105": "资产总计  44,885,094,665.28 48,518,057,775.80"
+      },
+      "expected_cells_CNY": {
+        "2023-12-31": {
+          "revenue": "56096761370.79",
+          "cost_of_sales": "49712583057.97",
+          "total_assets": "44885094665.28"
+        },
+        "2022-12-31": {
+          "revenue": "46446743956.22",
+          "cost_of_sales": "41161578185.99",
+          "total_assets": "48518057775.80"
+        }
+      }
+    },
+    {
+      "instrument": "SH600166",
+      "report_year": 2024,
+      "announcement_id": "1223327299",
+      "publication_day": "2025-04-26",
+      "observed_at": "2026-10-17T12:52:40.844587+00:00",
+      "source_pdf_sha256": "bce69ed22306f3a0cc5b6a62eef9f2fab05d8a3c148f9715fd86faf937540410",
+      "original_source_url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223327299.PDF",
+      "physical_page_count": 289,
+      "page_excerpts": {
+        "98": "合并资产负债表\n单位：元币种：人民币\n项目 附注 2024 年 12 月 31 日 2023 年 12 月 31 日",
+        "100": "母公司资产负债表",
+        "102": "合并利润表\n单位：元币种：人民币\n项目 附注 2024 年度 2023 年度\n其中：营业收入 七、61 47,697,540,240.43 56,096,761,370.79\n其中：营业成本 41,666,949,302.89 49,997,740,569.45",
+        "104": "母公司利润表",
+        "99": "资产总计 51,848,813,097.04 44,885,094,665.28"
+      },
+      "expected_cells_CNY": {
+        "2024-12-31": {
+          "revenue": "47697540240.43",
+          "cost_of_sales": "41666949302.89",
+          "total_assets": "51848813097.04"
+        },
+        "2023-12-31": {
+          "revenue": "56096761370.79",
+          "cost_of_sales": "49997740569.45",
+          "total_assets": "44885094665.28"
+        }
+      }
+    }
+  ]
+}

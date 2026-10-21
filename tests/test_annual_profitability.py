@@ -1,5 +1,7 @@
 import copy
 from decimal import Decimal
+import json
+from pathlib import Path
 import unittest
 
 from stock_rsi import annual_profitability as factor
@@ -35,6 +37,29 @@ def record(year=2023, publication='2024-04-27', cost='70.00', fiscal=None, doc='
 
 
 class AnnualProfitabilityTests(unittest.TestCase):
+    def test_versioned_real_source_rows_keep_2023_original_and_later_comparative_separate(self):
+        fixture = json.loads((Path(__file__).parent / 'fixtures/annual-profitability-real-row-vintages.json').read_text())
+        records = []
+        self.assertFalse(fixture['CI_fetches_or_authenticates_original_PDF'])
+        for d in fixture['documents']:
+            excerpts = [''] * d['physical_page_count']
+            for page, text in d['page_excerpts'].items():
+                excerpts[int(page) - 1] = text
+            cells = factor.parse_consolidated_tables(excerpts, d['report_year'])
+            self.assertEqual({period: {f: c['value_CNY'] for f, c in fields.items()}
+                              for period, fields in cells.items()}, d['expected_cells_CNY'])
+            for period, fields in cells.items():
+                records.append(factor.make_observation(d['instrument'], d['report_year'], period,
+                    d['publication_day'], d['observed_at'], d['source_pdf_sha256'], d['announcement_id'], fields))
+        self.assertEqual(len(records), 4)
+        before = factor.snapshot_observations(records, '2024-12-31T15:05:00+08:00', mode=factor.RECONSTRUCTED)
+        after = factor.snapshot_observations(records, '2025-04-28T15:05:00+08:00', mode=factor.RECONSTRUCTED)
+        original = next(r for r in before['records'] if r['fiscal_end'] == '2023-12-31')
+        revised = next(r for r in after['records'] if r['fiscal_end'] == '2023-12-31')
+        self.assertEqual(original['source']['payload']['cells']['cost_of_sales']['value_CNY'], '49712583057.97')
+        self.assertEqual(revised['source']['payload']['cells']['cost_of_sales']['value_CNY'], '49997740569.45')
+        self.assertEqual(factor.snapshot_observations(records, before['as_of'])['records'], [])
+
     def test_exact_consolidated_rows_and_columns_ignore_total_cost_and_parent_table(self):
         data = factor.parse_consolidated_tables(pages(), 2023)
         self.assertEqual(data['2023-12-31']['revenue']['value_CNY'], '100.00')

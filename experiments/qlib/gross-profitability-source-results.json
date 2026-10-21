@@ -1,0 +1,43 @@
+{
+  "status": "GP_VINTAGE_SOURCE_FIXTURE_COMPLETE_NOT_STRATEGY_ADMITTED",
+  "contract": "CONSOLIDATED_ANNUAL_GP_TO_ASSETS_VINTAGES_V1",
+  "request_sha256": "e90736a8666cb7a147c899d6775ff3a9223ce0b9bd356374ee3aeba9953d9e6a",
+  "issuer_count": 1,
+  "original_documents": 2,
+  "observations": 4,
+  "distinct_fiscal_periods": 3,
+  "snapshot_queries": 16,
+  "method_sha256": {
+    "scripts/build_gross_profitability_source_fixture.py": "b7460e693ae1f998b31eb28c3e196b7027d8bdb82fe39ffba93b5a598258fb18",
+    "src/stock_rsi/annual_profitability.py": "2135118a429b7d50d25dffac784dde2f95f43bf1c3d10e5162d1daf9866bc06f",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46"
+  },
+  "all_observed_historical_snapshots_empty": true,
+  "later_restatement_does_not_backfill": true,
+  "original_2023_cost_CNY": "49712583057.97",
+  "later_comparative_2023_cost_CNY": "49997740569.45",
+  "source_document_sha256": {
+    "SH600166-2023-12-31-1219874919.pdf": "e7588a7d935897aed750034c6847b0f57ab923c4837484f18e3bf62387b67eef",
+    "SH600166-2024-12-31-1223327299.pdf": "bce69ed22306f3a0cc5b6a62eef9f2fab05d8a3c148f9715fd86faf937540410"
+  },
+  "artifacts_sha256": {
+    "observations.json": "14bb24044e5b43ee6764c645832a59cf989a8f3b82caf00ae3128fb01a560f59",
+    "snapshots.json": "4b66fa673bce1017662116951f8d807a40e23e7bf118cc3595582f37a55f19e1",
+    "page_text_sha256.json": "c54ebdc54a19d89b61e87ee2844a33f1cdef6d66bab14ea4d5a449d5c34d03fb"
+  },
+  "gross_profitability_ratio_is_not_a_stock_return": true,
+  "financial_version_history_complete": false,
+  "historical_arrival_verified": false,
+  "investment_factor_admitted": false,
+  "historical_universe_coverage_complete": false,
+  "financial_cross_issuer_comparability_verified": false,
+  "portfolio_returns_computed": false,
+  "security_ranking_computed": false,
+  "original_accounts_strategies_and_failed_results_changed": false,
+  "2026_financial_or_market_values_read": false,
+  "objective_achieved": false,
+  "input_count": 33,
+  "all_inputs_unchanged": true
+}
