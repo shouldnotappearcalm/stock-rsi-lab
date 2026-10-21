@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/tmp/low-market-residual-vol1m-pre2026-terminal-corporate-questions-20261021.py", line 105, in <module>
+    need(not duplicatekeys,'duplicate vendor event identity needs separate primary resolution')
+  File "/tmp/low-market-residual-vol1m-pre2026-terminal-corporate-questions-20261021.py", line 17, in need
+    if not v:raise ValueError(s)
+             ^^^^^^^^^^^^^^^^^^^
+ValueError: duplicate vendor event identity needs separate primary resolution

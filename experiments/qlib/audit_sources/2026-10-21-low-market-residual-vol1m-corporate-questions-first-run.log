@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/tmp/low-market-residual-vol1m-pre2026-terminal-corporate-questions-20261021.py", line 38, in <module>
+    need(manifest['window']==[START,END] and manifest['capture_complete'] is True and manifest['names']==manifest['requested_names']==361 and manifest['pending_codes']==[] and manifest['errors_sha256']=={} and manifest['abnormal_exit'] is False and manifest['request_sha256']==audit['request_sha256'],'terminal manifest identity/completeness')
+  File "/tmp/low-market-residual-vol1m-pre2026-terminal-corporate-questions-20261021.py", line 17, in need
+    if not v:raise ValueError(s)
+             ^^^^^^^^^^^^^^^^^^^
+ValueError: terminal manifest identity/completeness

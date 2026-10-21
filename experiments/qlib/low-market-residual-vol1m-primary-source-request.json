@@ -1,0 +1,548 @@
+{
+  "status": "FROZEN_LOW_MARKET_RESIDUAL_VOL1M_EIGHT_PRIMARY_PRE2026",
+  "candidate": "low_market_residual_vol_1m",
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "protocol_file": "docs/research/low-market-residual-vol1m-primary-source-plan-2026-10-21.md",
+  "protocol_sha256": "37f2b2d11a8d555e67e10e249c2626d67f0b9d354aea757861b6cfbefb741ee3",
+  "output_relative": "low-market-residual-vol1m-primary-pre2026-20261021",
+  "maximum_http_query_reservations": 24,
+  "max_pages_per_exact_day": 2,
+  "max_attempts_per_identity": 1,
+  "minimum_interval_seconds": 0.3,
+  "maximum_consecutive_failed_cases": 3,
+  "method_code_sha256": {
+    "scripts/capture_low_market_residual_vol_primary_pre2026.py": "13ef06302d89a23d07b657f5af3c2940b1f0ad4b064d124e80e49c7e8a5f7bcd",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/low-market-residual-vol1m-raw-source-independent-audit.json": "fa8baf8c5091cd1b96e617b2b41da4a50eb6082517f58dacd32d52ee1e5d36c7",
+    "experiments/qlib/low-market-residual-vol1m-raw-source-capture-manifest.json": "7c7e56f5ec3301a9b1d82748bd90603f255ef8a1c602b64cf34b3ebaedef62b3",
+    "experiments/qlib/low-market-residual-vol1m-pre2026-corporate-questions.json": "399bf4a223bf0856645f8b9f2f2f1aa9efe780e5d5af4bae3416b91a5e128e2f"
+  },
+  "local_source_sha256": {
+    "low-market-residual-vol1m-raw-pre2026-20261021/manifest.json": "7c7e56f5ec3301a9b1d82748bd90603f255ef8a1c602b64cf34b3ebaedef62b3",
+    "cninfo-csi500-reports-20261017/plan.json": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0"
+  },
+  "cases": [
+    {
+      "case_id": "SH600763|2024-07-05",
+      "instrument": "SH600763",
+      "publication_day": "2024-07-01",
+      "ex_date": "2024-07-05",
+      "kind": "NONCASH",
+      "organization_id": "gssh0600763",
+      "source_distributions": [
+        {
+          "code": "sh.600763",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-06-21",
+          "dividPlanAnnounceDate": "2024-04-26",
+          "dividPlanDate": "2024-07-01",
+          "dividRegistDate": "2024-07-04",
+          "dividOperateDate": "2024-07-05",
+          "dividPayDate": "2024-07-05",
+          "dividStockMarketDate": "2024-07-05",
+          "dividCashPsBeforeTax": "0.43565",
+          "dividCashPsAfterTax": "0.35203或0.43565",
+          "dividStocksPs": "0.400595",
+          "dividCashStock": "10送4.00595派4.3565元（含税，扣税后3.5203或4.3565元）",
+          "dividReserveToStockPs": ""
+        }
+      ],
+      "source_adjustments": [
+        {
+          "code": "sh.600763",
+          "dividOperateDate": "2024-07-05",
+          "foreAdjustFactor": "0.989167",
+          "backAdjustFactor": "3.414021",
+          "adjustFactor": "3.414021"
+        }
+      ],
+      "reference_gap_bars": [
+        {
+          "date": "2024-07-04",
+          "code": "sh.600763",
+          "open": "54.7000",
+          "high": "55.0300",
+          "low": "53.3500",
+          "close": "53.6700",
+          "preclose": "54.7900",
+          "volume": "3218517",
+          "amount": "173310448.0900",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-05",
+          "code": "sh.600763",
+          "open": "37.5500",
+          "high": "39.8000",
+          "low": "37.5000",
+          "close": "39.3700",
+          "preclose": "38.0100",
+          "volume": "5486785",
+          "amount": "212738193.4100",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "source_packet_sha256": "0bfa8bad5a5088ccbba3c645a76ebd913440dd910d615e8148347663b54b2e9f"
+    },
+    {
+      "case_id": "SH603290|2024-05-23",
+      "instrument": "SH603290",
+      "publication_day": "2024-05-16",
+      "ex_date": "2024-05-23",
+      "kind": "NONCASH",
+      "organization_id": "9900023794",
+      "source_distributions": [
+        {
+          "code": "sh.603290",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-04-30",
+          "dividPlanAnnounceDate": "2024-04-08",
+          "dividPlanDate": "2024-05-16",
+          "dividRegistDate": "2024-05-22",
+          "dividOperateDate": "2024-05-23",
+          "dividPayDate": "2024-05-23",
+          "dividStockMarketDate": "2024-05-23",
+          "dividCashPsBeforeTax": "1.5976",
+          "dividCashPsAfterTax": "1.43784或1.5976",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转4派15.976元（含税，扣税后14.3784或15.976元）",
+          "dividReserveToStockPs": "0.400000"
+        }
+      ],
+      "source_adjustments": [
+        {
+          "code": "sh.603290",
+          "dividOperateDate": "2024-05-23",
+          "foreAdjustFactor": "0.987607",
+          "backAdjustFactor": "1.433441",
+          "adjustFactor": "1.433441"
+        }
+      ],
+      "reference_gap_bars": [
+        {
+          "date": "2024-05-22",
+          "code": "sh.603290",
+          "open": "131.0100",
+          "high": "132.8000",
+          "low": "130.3000",
+          "close": "132.3200",
+          "preclose": "131.0000",
+          "volume": "1790457",
+          "amount": "235736643.3300",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-05-23",
+          "code": "sh.603290",
+          "open": "93.5000",
+          "high": "93.9900",
+          "low": "90.4000",
+          "close": "90.6100",
+          "preclose": "93.3700",
+          "volume": "2407278",
+          "amount": "221778100.3800",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "source_packet_sha256": "d4092fb9304226da6ff0bbaaa4c0956f33c2b90c97a3183b90bd648695280204"
+    },
+    {
+      "case_id": "SH603688|2024-05-22",
+      "instrument": "SH603688",
+      "publication_day": "2024-05-16",
+      "ex_date": "2024-05-22",
+      "kind": "NONCASH",
+      "organization_id": "9900023189",
+      "source_distributions": [
+        {
+          "code": "sh.603688",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-04-13",
+          "dividPlanAnnounceDate": "2024-03-23",
+          "dividPlanDate": "2024-05-16",
+          "dividRegistDate": "2024-05-21",
+          "dividOperateDate": "2024-05-22",
+          "dividPayDate": "2024-05-22",
+          "dividStockMarketDate": "2024-05-22",
+          "dividCashPsBeforeTax": "5.7",
+          "dividCashPsAfterTax": "5.13或5.7",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转5派57元（含税，扣税后51.3或57元）",
+          "dividReserveToStockPs": "0.500000"
+        }
+      ],
+      "source_adjustments": [
+        {
+          "code": "sh.603688",
+          "dividOperateDate": "2024-05-22",
+          "foreAdjustFactor": "0.993001",
+          "backAdjustFactor": "2.656440",
+          "adjustFactor": "2.656440"
+        }
+      ],
+      "reference_gap_bars": [
+        {
+          "date": "2024-05-21",
+          "code": "sh.603688",
+          "open": "70.5200",
+          "high": "71.5000",
+          "low": "70.1600",
+          "close": "71.3800",
+          "preclose": "70.5200",
+          "volume": "9835000",
+          "amount": "696560676.2200",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-05-22",
+          "code": "sh.603688",
+          "open": "43.6700",
+          "high": "44.6500",
+          "low": "42.1200",
+          "close": "43.7600",
+          "preclose": "43.8100",
+          "volume": "14921265",
+          "amount": "644989917.0000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "source_packet_sha256": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2"
+    },
+    {
+      "case_id": "SH603927|2024-05-21",
+      "instrument": "SH603927",
+      "publication_day": "2024-05-15",
+      "ex_date": "2024-05-21",
+      "kind": "NONCASH",
+      "organization_id": "gfbj0430002",
+      "source_distributions": [
+        {
+          "code": "sh.603927",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-05-08",
+          "dividPlanAnnounceDate": "2024-04-12",
+          "dividPlanDate": "2024-05-15",
+          "dividRegistDate": "2024-05-20",
+          "dividOperateDate": "2024-05-21",
+          "dividPayDate": "2024-05-21",
+          "dividStockMarketDate": "2024-05-21",
+          "dividCashPsBeforeTax": "0.55",
+          "dividCashPsAfterTax": "0.495或0.55",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转4派5.5元（含税，扣税后4.95或5.5元）",
+          "dividReserveToStockPs": "0.400000"
+        }
+      ],
+      "source_adjustments": [
+        {
+          "code": "sh.603927",
+          "dividOperateDate": "2024-05-21",
+          "foreAdjustFactor": "0.959818",
+          "backAdjustFactor": "2.126038",
+          "adjustFactor": "2.126038"
+        }
+      ],
+      "reference_gap_bars": [
+        {
+          "date": "2024-05-20",
+          "code": "sh.603927",
+          "open": "28.0800",
+          "high": "28.5900",
+          "low": "27.9100",
+          "close": "28.2500",
+          "preclose": "28.0600",
+          "volume": "8027233",
+          "amount": "226890854.7500",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-05-21",
+          "code": "sh.603927",
+          "open": "19.8700",
+          "high": "19.8900",
+          "low": "19.5800",
+          "close": "19.6000",
+          "preclose": "19.7900",
+          "volume": "7554758",
+          "amount": "148930492.0200",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "source_packet_sha256": "eaf58d551327fc8cebadd890b094cd8e34ae42de4aedcc116902163010382ab9"
+    },
+    {
+      "case_id": "SZ000403|2025-06-04",
+      "instrument": "SZ000403",
+      "publication_day": "2025-05-27",
+      "ex_date": "2025-06-04",
+      "kind": "NONCASH",
+      "organization_id": "gssz0000403",
+      "source_distributions": [
+        {
+          "code": "sz.000403",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2025-05-22",
+          "dividPlanAnnounceDate": "2025-04-24",
+          "dividPlanDate": "2025-05-27",
+          "dividRegistDate": "2025-06-03",
+          "dividOperateDate": "2025-06-04",
+          "dividPayDate": "2025-06-04",
+          "dividStockMarketDate": "2025-06-04",
+          "dividCashPsBeforeTax": "0.35",
+          "dividCashPsAfterTax": "0.315或0.35",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转3派3.5元（含税，扣税后3.15或3.5元）",
+          "dividReserveToStockPs": "0.300000"
+        }
+      ],
+      "source_adjustments": [
+        {
+          "code": "sz.000403",
+          "dividOperateDate": "2025-06-04",
+          "foreAdjustFactor": "1.000000",
+          "backAdjustFactor": "6.392840",
+          "adjustFactor": "6.392840"
+        }
+      ],
+      "reference_gap_bars": [
+        {
+          "date": "2025-06-03",
+          "code": "sz.000403",
+          "open": "22.2000",
+          "high": "22.6000",
+          "low": "22.1600",
+          "close": "22.5600",
+          "preclose": "22.1300",
+          "volume": "11814771",
+          "amount": "265115680.6400",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2025-06-04",
+          "code": "sz.000403",
+          "open": "17.0800",
+          "high": "17.3900",
+          "low": "16.9100",
+          "close": "17.2600",
+          "preclose": "17.0800",
+          "volume": "14917480",
+          "amount": "256291853.8000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "source_packet_sha256": "1b0779fc3b44a69087fa4ea5a9eb8042f835b8350877ef1b3c3346d20143f5e5"
+    },
+    {
+      "case_id": "SH601966|2024-06-14",
+      "instrument": "SH601966",
+      "publication_day": "2024-06-07",
+      "ex_date": "2024-06-14",
+      "kind": "CONFLICTING_CASH_ROWS",
+      "organization_id": "9900023113",
+      "source_distributions": [
+        {
+          "code": "sh.601966",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-05-16",
+          "dividPlanAnnounceDate": "2024-04-25",
+          "dividPlanDate": "2024-06-07",
+          "dividRegistDate": "2024-06-13",
+          "dividOperateDate": "2024-06-14",
+          "dividPayDate": "2024-06-14",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.286",
+          "dividCashPsAfterTax": "0.2574或0.286",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派2.86元（含税，扣税后2.574或2.86元）",
+          "dividReserveToStockPs": ""
+        },
+        {
+          "code": "sh.601966",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-05-16",
+          "dividPlanAnnounceDate": "2024-04-25",
+          "dividPlanDate": "2024-06-07",
+          "dividRegistDate": "2024-06-13",
+          "dividOperateDate": "2024-06-14",
+          "dividPayDate": "2024-06-14",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.091",
+          "dividCashPsAfterTax": "0.0819或0.091",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派0.91元（含税，扣税后0.819或0.91元）",
+          "dividReserveToStockPs": ""
+        }
+      ],
+      "source_adjustments": [
+        {
+          "code": "sh.601966",
+          "dividOperateDate": "2024-06-14",
+          "foreAdjustFactor": "0.965886",
+          "backAdjustFactor": "1.109078",
+          "adjustFactor": "1.109078"
+        }
+      ],
+      "reference_gap_bars": [
+        {
+          "date": "2024-06-13",
+          "code": "sh.601966",
+          "open": "18.8900",
+          "high": "18.9400",
+          "low": "18.6100",
+          "close": "18.6800",
+          "preclose": "18.8900",
+          "volume": "16109610",
+          "amount": "301559125.2000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-06-14",
+          "code": "sh.601966",
+          "open": "18.4100",
+          "high": "18.4800",
+          "low": "18.1600",
+          "close": "18.4600",
+          "preclose": "18.3100",
+          "volume": "13291905",
+          "amount": "243496388.3500",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "source_packet_sha256": "b6e4a40f8846c04bbe9fb045908aa10e31677048d907926f3dedbddbb0948c34"
+    },
+    {
+      "case_id": "SH601966|2025-10-23",
+      "instrument": "SH601966",
+      "publication_day": "2025-10-16",
+      "ex_date": "2025-10-23",
+      "kind": "MISSING_CASH_SOURCE_QUESTION",
+      "organization_id": "9900023113",
+      "source_distributions": [],
+      "source_adjustments": [
+        {
+          "code": "sh.601966",
+          "dividOperateDate": "2025-10-23",
+          "foreAdjustFactor": "0.992239",
+          "backAdjustFactor": "1.139337",
+          "adjustFactor": "1.139337"
+        }
+      ],
+      "reference_gap_bars": [
+        {
+          "date": "2025-10-22",
+          "code": "sh.601966",
+          "open": "15.2300",
+          "high": "15.3000",
+          "low": "15.1800",
+          "close": "15.2600",
+          "preclose": "15.2500",
+          "volume": "8128259",
+          "amount": "123950866.2400",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2025-10-23",
+          "code": "sh.601966",
+          "open": "15.1500",
+          "high": "15.2700",
+          "low": "15.0900",
+          "close": "15.2600",
+          "preclose": "15.1500",
+          "volume": "9951400",
+          "amount": "150861116.1000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "source_packet_sha256": "b6e4a40f8846c04bbe9fb045908aa10e31677048d907926f3dedbddbb0948c34"
+    },
+    {
+      "case_id": "SZ000728|2025-01-21",
+      "instrument": "SZ000728",
+      "publication_day": "2025-01-14",
+      "ex_date": "2025-01-21",
+      "kind": "MISSING_CASH_SOURCE_QUESTION",
+      "organization_id": "gssz0000728",
+      "source_distributions": [],
+      "source_adjustments": [
+        {
+          "code": "sz.000728",
+          "dividOperateDate": "2025-01-21",
+          "foreAdjustFactor": "0.965618",
+          "backAdjustFactor": "2.442929",
+          "adjustFactor": "2.442929"
+        }
+      ],
+      "reference_gap_bars": [
+        {
+          "date": "2025-01-20",
+          "code": "sz.000728",
+          "open": "8.0000",
+          "high": "8.0800",
+          "low": "7.9600",
+          "close": "7.9900",
+          "preclose": "7.9400",
+          "volume": "28982735",
+          "amount": "232101222.3000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2025-01-21",
+          "code": "sz.000728",
+          "open": "7.9800",
+          "high": "8.0100",
+          "low": "7.8800",
+          "close": "7.9400",
+          "preclose": "7.9300",
+          "volume": "22874734",
+          "amount": "181674246.3600",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "source_packet_sha256": "7a84b22a370d5ac08bebc9c8d6190ee3039eb6a6f450e8a13976fe06da26ab1c"
+    }
+  ],
+  "source_admitted_for_account_replay": false,
+  "portfolio_returns_computed": false,
+  "new_2026_market_queries": false,
+  "objective_achieved": false
+}

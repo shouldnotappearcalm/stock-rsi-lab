@@ -1,0 +1,59 @@
+{
+  "status": "PASS_SCOPED_PRIMARY_SOURCE_CAPTURE_CODE_REVIEW",
+  "ready_for_capture": true,
+  "request_sha256": "84b35bc01b9f803114d2e80748c66f52052e0c482e1f71798d1708d34ce372f1",
+  "previous_request_reviewed_before_final_rebinding": "6299305c4a6809170e97845270934c206cc275da957ad8e92b599ee218e8f3f9",
+  "protocol_file": "docs/research/low-market-residual-vol1m-primary-source-plan-2026-10-21.md",
+  "protocol_sha256": "37f2b2d11a8d555e67e10e249c2626d67f0b9d354aea757861b6cfbefb741ee3",
+  "method_code_sha256": {
+    "scripts/capture_low_market_residual_vol_primary_pre2026.py": "13ef06302d89a23d07b657f5af3c2940b1f0ad4b064d124e80e49c7e8a5f7bcd",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "test_file_sha256": {
+    "tests/test_low_market_residual_vol_primary_capture.py": "0e7addc471a7f0026d65e34a201b8095100c1d6c31f4b64419c2185c8b08abe7"
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "blocking_findings": [],
+  "actual_verification": {
+    "focused_synthetic_tests": 11,
+    "focused_tests_exit_code": 0,
+    "blocked_HTTP_and_capture_actual_source_preflight_exit_code": 0,
+    "actual_authenticated_inputs": 416,
+    "fixed_cases": 8,
+    "source_packets_hashed": 361,
+    "old_financial_artifacts_hashed": 42,
+    "old_targets_hashed": true,
+    "planned_output_remains_absent": true,
+    "all_final_method_hashes_rechecked_against_request": true,
+    "log_sha256": {
+      "/tmp/low-market-residual-vol1m-primary-review-focused-20261021.log": "b17045cf1f5c1bc04c773ecfbe8ea632ef32b1634f0c67c3717f6041d9e7aeed",
+      "/tmp/low-market-residual-vol1m-primary-review-preflight-20261021.log": "c37d12ade6b9be660cf762ef4fd56834e2182bd0629ae8c182c364454cbdbd09"
+    },
+    "full_suite_rerun_by_this_review": false,
+    "full_suite_note": "Root is separately running final722-test suite and clean research CI environment; no duplicate full run requested."
+  },
+  "reviewed_contracts": {
+    "source_cases": "Exactly5noncash+1same-day conflicting gross-cash pair+2missing vendor-cash questions; entire source rows and referenced bar pair equal authenticated originals and prior question report.",
+    "cash_entitlements": "Both0.286and0.091original gross rows retained; reference-price gaps remain questions and are not converted into cash income.",
+    "identity": "Exact issuer/dayorg mapping, bounded complete stable listing pages, one unique implementation title including派林利润分配实施的公告, canonical ID/day/PDF path.",
+    "transport": "At most2exact-day listing pages plus1selected PDF per case,24logical reservations maximum, one attempt per identity,0.3sec spacing; inherited no-redirect20sec/10MiB bounded HTTP envelope.",
+    "failures": "Three consecutive failed cases stop; source errors/invalid bodies/interruption retain reservation/journal, error and terminal manifest; existing output refuses restart before source input reads.",
+    "immutability": "Frozen method/protocol/public/local maps, all361source packet bytes,42financial bytes, oldtargets,request bytes in before/after known-hash checks; postcheck failure cannot be complete.",
+    "boundaries": "All admission/content/tax/PIT/ROI/2026flags remain false; source capture is separate from mandatory ordinary-state account guard and cannot certify future holding-interval ordinary status."
+  },
+  "network_or_HTTP_performed": false,
+  "actual_capture_performed": false,
+  "account_replay_performed": false,
+  "portfolio_returns_computed": false,
+  "2026_quotes_or_queries_read": false,
+  "repository_modified_by_review": false,
+  "limitations": [
+    "Reviews source-capture identity/bytes/budget/failure boundaries; actual future response bytes require a separate output source-chain audit.",
+    "PDF content, economic quantities, same-day event composition, applicable tax treatment and lifecycle evidence remain separately reviewed prerequisites.",
+    "A future actual account must retain the ordinary-source guard for every required held/pending/target/positive-entitlement dependency; ordinary formation snapshots alone do not certify entire holding periods."
+  ]
+}

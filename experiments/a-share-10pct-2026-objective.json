@@ -5599,7 +5599,7 @@
     "2026_market_values_or_outcomes_queried": false,
     "objective_achieved": false,
     "freeze_CI_all_three_jobs_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39589475343",
-    "next_action": "Reconcile all terminal source corporate/lifecycle questions against issuer primary evidence, then freeze source projection and physical-share account method before replay.",
+    "next_action": "Capture and independently review eight fixed pre2026 original notices; then freeze evaluator event projection and physical-share account replay. Preserve possible held-period ST dependency and all source guard failures; no target deletion or2026-based tuning.",
     "raw_source_completion": {
       "status": "PRE2026_RAW_SOURCE_CAPTURE_INDEPENDENTLY_VERIFIED_ADMISSION_SEPARATE",
       "verification_file": "experiments/qlib/low-market-residual-vol1m-raw-source-verification.json",
@@ -5611,6 +5611,29 @@
       "actual_account_replay_run": false,
       "portfolio_return_computed": false,
       "objective_achieved": false
+    },
+    "terminal_source_questions": {
+      "file": "experiments/qlib/low-market-residual-vol1m-pre2026-corporate-questions.json",
+      "sha256": "399bf4a223bf0856645f8b9f2f2f1aa9efe780e5d5af4bae3416b91a5e128e2f",
+      "root_reproduced_byte_identically": true,
+      "vendor_rows": 860,
+      "unique_issuer_ex_date_keys": 859,
+      "noncash_without_cached_tax_or_basis": 6,
+      "missing_vendor_reference_gap_questions": 3,
+      "same_day_cash_component_group_needs_primary_resolution": "SH601966|2024-06-14",
+      "actual_raw_account_replay_run": false,
+      "investment_rules_changed": false,
+      "objective_achieved": false,
+      "primary_capture_request": {
+        "file": "experiments/qlib/low-market-residual-vol1m-primary-source-request.json",
+        "sha256": "84b35bc01b9f803114d2e80748c66f52052e0c482e1f71798d1708d34ce372f1",
+        "freeze_verification_file": "experiments/qlib/low-market-residual-vol1m-primary-source-freeze-verification.json",
+        "freeze_verification_sha256": "7c464a3ff5427ab0078d00a6d07bcad2a1727fa2ea0252729f16af91aa6b85ff",
+        "planned_primary_documents": 8,
+        "actual_capture_run": false,
+        "content_reviewed": false,
+        "actual_account_replay_run": false
+      }
     }
   }
 }

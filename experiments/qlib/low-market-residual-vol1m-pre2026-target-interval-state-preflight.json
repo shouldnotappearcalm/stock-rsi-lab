@@ -1,0 +1,33 @@
+{
+  "status": "PRE2026_SOURCE_STATUS_PREFLIGHT_TARGET_INTERVALS_ONLY",
+  "raw_manifest_sha256": "7c7e56f5ec3301a9b1d82748bd90603f255ef8a1c602b64cf34b3ebaedef62b3",
+  "target_sha256": "64dd4c589b3661aceb5b103bc336a889f68449089f6ce9c2aff4312a7c8373fc",
+  "target_execution_ST_rows": [],
+  "target_interval_ST_rows": [
+    {
+      "instrument": "SH600079",
+      "target_execution": "2025-12-01",
+      "following_target_or_pre2026_boundary": "2026-01-01",
+      "days": [
+        "2025-12-16",
+        "2025-12-17",
+        "2025-12-18",
+        "2025-12-19",
+        "2025-12-22",
+        "2025-12-23",
+        "2025-12-24",
+        "2025-12-25",
+        "2025-12-26",
+        "2025-12-29",
+        "2025-12-30",
+        "2025-12-31"
+      ],
+      "actual_ownership_unknown": true
+    }
+  ],
+  "actual_account_run": false,
+  "portfolio_returns_computed": false,
+  "candidate_invalidated_from_potential_holdings": false,
+  "investment_rules_changed": false,
+  "new_2026_data_read": false
+}
