@@ -1,0 +1,406 @@
+{
+  "status": "IVOL_REGIME_RAW_PRE2026_DAILY_ENGINEERING_COMPLETE",
+  "plan_sha256": "ad4eaf9d20276b4e94b457263e134ffb705aaca52a9b0657a79d17b205d05741",
+  "method_code_sha256": {
+    "scripts/run_ivol_raw_pre2026.py": "9767ff1f52f57672d0956062b15e3c0f8bf97ee2519dafa04bd63251cfd3cfd9",
+    "scripts/prepare_ivol_account_sources_pre2026.py": "7b3a22bfb2d709d954ea6f564b194a2e4c903c862ba0fe8f9fb88be6b17ebdac",
+    "scripts/replay_ordinary_budgeted_stock_distribution_targets.py": "d5462f2c85944e8e716eb75761e6aa512ce3568b7cd3d8d52eaa4cf9cee22414",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "scripts/run_low_risk_feedback_cost_stress.py": "a08e0ac1e34090c7fb868fd6fa3dda73ba56adc14137dbdee3cb44617920c503",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "src/stock_rsi/primary_event_components.py": "a0ecc1c01b7caf688dab26b2461c5fb720e4772c0abff004f973ee5422e58418",
+    "src/stock_rsi/distribution_event_compiler_v2.py": "145ea48f2f68af0175d3f003f1970152b8d7c03ba40ed809dfbe3dc38fc51a3e",
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/budgeted_raw_orders.py": "38db2870618622f84722aaf6737645ac089f5a29a356e82a114ad18cd3eb314e",
+    "src/stock_rsi/ordinary_source_scope.py": "7e27c6b36bade230cc429d7fafd43d882fc9c134a8f6b4f31ef94e539232b888",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "src/stock_rsi/trading_regime_source.py": "3c78cda962a6e9a0d62d0ae4a2f2d0bc7d426ba1e28a1ac582e4faa1dea43263",
+    "scripts/replay_regime_budgeted_stock_distribution_targets.py": "9d9dcbc57a95faecfc8f62545bc38cd47f6b722752b3b32ae4783c3ce1b18575",
+    "scripts/run_ivol_regime_raw_pre2026.py": "a6f500c78f101932b2813f2e5f639e789e50d1edfd40104de5dc1dc28a02ad53"
+  },
+  "source_projection_summary_sha256": "c030eb8ea0ebba7f25a7db3bf2e75d41217e7b17ab3a7454460729b9979e3ad5",
+  "results_by_extra_bps": {
+    "20": {
+      "status": "RAW_DAILY_PROXY_RECONCILED",
+      "artifact_sha256": {
+        "corporate_ledger.json": "e92ac41e01a981a2cf35d6a84d7c3b4f5d002c6ffbabed1c05cb53fcf41e7439",
+        "daily.csv": "aa413b9ebd345b20c020e085646ff48860e6fff3f63a5aa4a2b43ad338b77944",
+        "fills.json": "b9723431ce3dc01a40f52c875526f1882e71602c0ff22a36562eb5bc3833816d",
+        "intents.json": "afd6c4c3091ca67c4cece7de47a0ca0fbaf2102cf90c663ac9956885b04501a6",
+        "orders.json": "9e429bdf185852164e45e32477c5c2e3659d3c3fff6ecd2111028b8cf3a2f5d7",
+        "ordinary_prefix_regression.json": "2ebcbeb7209c82fb9f586fe5bd9bca30ab098bf9ce757c22b7e5a206fa6509a5",
+        "ownership.json": "f5e36d483b0d216d3e112b8888c0725eff5f8c69dfe380690770275125b28eef",
+        "phase_audit.json": "1933eef0cea9b1a1b349627df0d076e748204c68bbee39c102216b086e5d9c2b",
+        "regime_audit.json": "cd20633148984d23c5abba1bfb148b3e2f9b294543fdec3e7f1d23bb6eccea88",
+        "source_scope_audit.json": "e78f42796ee9cf994126c320973d2b804959a8e2f64f8ce7e786776d337c4716",
+        "unknown_tax_zero_ownership.json": "5eedca41af6bf457c2e56a32fd686ebc49181b3bba8e8a4d14f67ee1047e6d09"
+      },
+      "unknown_tax_zero_ownership": [
+        {
+          "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+          "instrument": "SH600580",
+          "record": {
+            "day": "2025-06-26",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+            "instrument": "SH600580",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2025-06-27",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+            "instrument": "SH600580",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        },
+        {
+          "event_id": "cce9eafab98207577ff8de02640b20679c07131643d4c6ca3423c40bad5aed89",
+          "instrument": "SH600763",
+          "record": {
+            "day": "2024-07-04",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "cce9eafab98207577ff8de02640b20679c07131643d4c6ca3423c40bad5aed89",
+            "instrument": "SH600763",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2024-07-05",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "cce9eafab98207577ff8de02640b20679c07131643d4c6ca3423c40bad5aed89",
+            "instrument": "SH600763",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        },
+        {
+          "event_id": "114eb6d1713ce5ced3d3917a5369377f3fd5f976bf2a2c054a130d01d84f93b9",
+          "instrument": "SH603290",
+          "record": {
+            "day": "2024-05-22",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "114eb6d1713ce5ced3d3917a5369377f3fd5f976bf2a2c054a130d01d84f93b9",
+            "instrument": "SH603290",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2024-05-23",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "114eb6d1713ce5ced3d3917a5369377f3fd5f976bf2a2c054a130d01d84f93b9",
+            "instrument": "SH603290",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        },
+        {
+          "event_id": "5a4a745cff294dc26917f810fa881e962e81b4a0c4de01127dd34253e28b4a82",
+          "instrument": "SH603688",
+          "record": {
+            "day": "2024-05-21",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "5a4a745cff294dc26917f810fa881e962e81b4a0c4de01127dd34253e28b4a82",
+            "instrument": "SH603688",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2024-05-22",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "5a4a745cff294dc26917f810fa881e962e81b4a0c4de01127dd34253e28b4a82",
+            "instrument": "SH603688",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        },
+        {
+          "event_id": "709928077645cd95bf82a0626caf771c8b9156bbaaa4a6f33dbd19de9e74c524",
+          "instrument": "SH603927",
+          "record": {
+            "day": "2024-05-20",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "709928077645cd95bf82a0626caf771c8b9156bbaaa4a6f33dbd19de9e74c524",
+            "instrument": "SH603927",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2024-05-21",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "709928077645cd95bf82a0626caf771c8b9156bbaaa4a6f33dbd19de9e74c524",
+            "instrument": "SH603927",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        },
+        {
+          "event_id": "007a47fdabcff2528906e8ea80e539d7de3ce45edc4890ed44ed5e64ba618e34",
+          "instrument": "SZ000403",
+          "record": {
+            "day": "2025-06-03",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "007a47fdabcff2528906e8ea80e539d7de3ce45edc4890ed44ed5e64ba618e34",
+            "instrument": "SZ000403",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2025-06-04",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "007a47fdabcff2528906e8ea80e539d7de3ce45edc4890ed44ed5e64ba618e34",
+            "instrument": "SZ000403",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        }
+      ],
+      "annual_returns_computed": true,
+      "2024_return_pct": 25.330681,
+      "2025_return_pct": 11.294994878388955,
+      "net_compound_return_pct": 39.486775,
+      "average_exposure_pct": 92.6028074076991,
+      "max_drawdown_pct": -15.794893334427485,
+      "cost_pct_initial": 9.275296,
+      "orders": 2486,
+      "fills": 2424,
+      "monthly_decisions": 24,
+      "account_sessions": 486,
+      "outcome_sessions": 485
+    },
+    "40": {
+      "status": "RAW_DAILY_PROXY_RECONCILED",
+      "artifact_sha256": {
+        "corporate_ledger.json": "162f10064679d2c734fa567cd7852870b64a7111370b28c13a7f450d4978c09f",
+        "daily.csv": "c46df14982292ee863b400150908504895cca01b6ab9a788811e14acd3414558",
+        "fills.json": "3eef8a5225ddbaf0a17be67b007f4476abf3dfe903d51b744e4a2aa62f9bb352",
+        "intents.json": "0bd29d358db36ca6109c78e53b527718bb0fd98f4f2836243ca25cdbcd3b8e73",
+        "orders.json": "6e7c96e5428fa56a628ab2bc0f595e020140b65f16fd1fb80178fdc301aaa80a",
+        "ordinary_prefix_regression.json": "2ebcbeb7209c82fb9f586fe5bd9bca30ab098bf9ce757c22b7e5a206fa6509a5",
+        "ownership.json": "7f2e5e56819c9bc8c442b9726c0eaa04f309b0c7c6cdf8f33992f09bcfbb2ad1",
+        "phase_audit.json": "1933eef0cea9b1a1b349627df0d076e748204c68bbee39c102216b086e5d9c2b",
+        "regime_audit.json": "0e4e7d2e64563da781f70b2f5fdbdeb9511452830c303c53812f593a8e577850",
+        "source_scope_audit.json": "e78f42796ee9cf994126c320973d2b804959a8e2f64f8ce7e786776d337c4716",
+        "unknown_tax_zero_ownership.json": "5eedca41af6bf457c2e56a32fd686ebc49181b3bba8e8a4d14f67ee1047e6d09"
+      },
+      "unknown_tax_zero_ownership": [
+        {
+          "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+          "instrument": "SH600580",
+          "record": {
+            "day": "2025-06-26",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+            "instrument": "SH600580",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2025-06-27",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "52acd43827195dbb74bef4a9cbf26494f8e055add937a0ffb614f6531eb12971",
+            "instrument": "SH600580",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        },
+        {
+          "event_id": "cce9eafab98207577ff8de02640b20679c07131643d4c6ca3423c40bad5aed89",
+          "instrument": "SH600763",
+          "record": {
+            "day": "2024-07-04",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "cce9eafab98207577ff8de02640b20679c07131643d4c6ca3423c40bad5aed89",
+            "instrument": "SH600763",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2024-07-05",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "cce9eafab98207577ff8de02640b20679c07131643d4c6ca3423c40bad5aed89",
+            "instrument": "SH600763",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        },
+        {
+          "event_id": "114eb6d1713ce5ced3d3917a5369377f3fd5f976bf2a2c054a130d01d84f93b9",
+          "instrument": "SH603290",
+          "record": {
+            "day": "2024-05-22",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "114eb6d1713ce5ced3d3917a5369377f3fd5f976bf2a2c054a130d01d84f93b9",
+            "instrument": "SH603290",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2024-05-23",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "114eb6d1713ce5ced3d3917a5369377f3fd5f976bf2a2c054a130d01d84f93b9",
+            "instrument": "SH603290",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        },
+        {
+          "event_id": "5a4a745cff294dc26917f810fa881e962e81b4a0c4de01127dd34253e28b4a82",
+          "instrument": "SH603688",
+          "record": {
+            "day": "2024-05-21",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "5a4a745cff294dc26917f810fa881e962e81b4a0c4de01127dd34253e28b4a82",
+            "instrument": "SH603688",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2024-05-22",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "5a4a745cff294dc26917f810fa881e962e81b4a0c4de01127dd34253e28b4a82",
+            "instrument": "SH603688",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        },
+        {
+          "event_id": "709928077645cd95bf82a0626caf771c8b9156bbaaa4a6f33dbd19de9e74c524",
+          "instrument": "SH603927",
+          "record": {
+            "day": "2024-05-20",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "709928077645cd95bf82a0626caf771c8b9156bbaaa4a6f33dbd19de9e74c524",
+            "instrument": "SH603927",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2024-05-21",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "709928077645cd95bf82a0626caf771c8b9156bbaaa4a6f33dbd19de9e74c524",
+            "instrument": "SH603927",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        },
+        {
+          "event_id": "007a47fdabcff2528906e8ea80e539d7de3ce45edc4890ed44ed5e64ba618e34",
+          "instrument": "SZ000403",
+          "record": {
+            "day": "2025-06-03",
+            "kind": "RECORD_DATE_OWNERSHIP",
+            "event_id": "007a47fdabcff2528906e8ea80e539d7de3ce45edc4890ed44ed5e64ba618e34",
+            "instrument": "SZ000403",
+            "quantity": 0
+          },
+          "ex": {
+            "day": "2025-06-04",
+            "kind": "EX_DATE_ENTITLEMENT",
+            "event_id": "007a47fdabcff2528906e8ea80e539d7de3ce45edc4890ed44ed5e64ba618e34",
+            "instrument": "SZ000403",
+            "registered_quantity": 0,
+            "cash_gross": "0.00",
+            "stress_tax_reserve": "0.00",
+            "capital_shares": 0,
+            "stock_shares": 0,
+            "taxable_stock_income": "0.00"
+          },
+          "tax_verification_granted": false
+        }
+      ],
+      "annual_returns_computed": true,
+      "2024_return_pct": 22.322729,
+      "2025_return_pct": 8.470337511845408,
+      "net_compound_return_pct": 32.683877,
+      "average_exposure_pct": 92.81075127313615,
+      "max_drawdown_pct": -16.43401076314788,
+      "cost_pct_initial": 15.01962,
+      "orders": 2490,
+      "fills": 2430,
+      "monthly_decisions": 24,
+      "account_sessions": 486,
+      "outcome_sessions": 485
+    }
+  },
+  "reference_extra_bps": 40,
+  "reference_CNY": "1000000",
+  "annual_returns_computed": true,
+  "both_profiles_complete_before_annual_scoring": true,
+  "raw_daily_proxy_development_gate_passes": true,
+  "abnormal_exit": null,
+  "source_inputs_unchanged_after_replay": true,
+  "postcheck_sha256": "016761d7dafe401ad3f1bfd6cfb19b567d72214de87a637e59c2dcb61ee17259",
+  "annual_return_denominators": "2024 initial1m;2025 preceding2024year-endcontinuous equity;no reset",
+  "tax_model": "20percent cash+taxablebonus stress reserve, not actualFIFO liability settlement",
+  "execution_model": "same budgeted integer allocation;ordinary9.5guard;authenticated ST5percent LIMIT daily-open proxy",
+  "raw_account_independently_audited": false,
+  "historical_arrival_verified": false,
+  "risk_warning_buy_permission": false,
+  "minute_execution_admitted": false,
+  "historical_arrival_certified": false,
+  "full_corporate_actions_certified": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "queue_and_impact_calibrated": false,
+  "2026_return_computed": false,
+  "new_2026_queries": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

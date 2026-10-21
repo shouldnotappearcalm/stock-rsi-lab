@@ -5599,7 +5599,7 @@
     "2026_market_values_or_outcomes_queried": false,
     "objective_achieved": false,
     "freeze_CI_all_three_jobs_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39589475343",
-    "next_action": "Address general unsupported holding-state transitions using historical source evidence and a newly frozen evaluator contract; preserve this failed account and do not delete SH600079, loosen the frozen guard, compute partial annual ROI, or use 2026 outcomes for method selection.",
+    "next_action": "See independently verified subsequent regime-aware raw qualification; keep the ordinary-only failed account intact. Freeze the unchanged candidate for a continuous 2024-2026 engineering evaluation with exogenous legal-rule epochs and source completeness, without selecting methods from2026 results.",
     "raw_source_completion": {
       "status": "PRE2026_RAW_SOURCE_CAPTURE_INDEPENDENTLY_VERIFIED_ADMISSION_SEPARATE",
       "verification_file": "experiments/qlib/low-market-residual-vol1m-raw-source-verification.json",
@@ -5686,6 +5686,56 @@
       "candidate_promoted": false,
       "2026_values_or_outcomes_read": false,
       "objective_achieved": false
-    }
+    },
+    "subsequent_regime_raw_qualification_key": "latest_low_market_residual_vol_regime_raw_qualification"
+  },
+  "latest_low_market_residual_vol_regime_raw_qualification": {
+    "status": "PRE2026_RAW_DAILY_REGIME_GATE_PASS_2026_EVALUATION_PENDING",
+    "candidate": "low_market_residual_vol_1m",
+    "factor_sha256": "de2d29831b81d0e7078e482bdf429ea3388e47d7a2bc264bfec0841c20a602dd",
+    "policy_id": "low_market_residual_vol_1m_budgeted",
+    "frozen_request_sha256": "ad4eaf9d20276b4e94b457263e134ffb705aaca52a9b0657a79d17b205d05741",
+    "freeze_commit": "dcd757ddd0f9560c978b6c4a5b9adbac6404d5e3",
+    "verification_file": "experiments/qlib/low-market-residual-vol1m-regime-run-verification.json",
+    "verification_sha256": "ba87bd81fa945959aebe06728c3ce709a71d9cac39a9d450a9eef79db4dabc50",
+    "summary_sha256": "42f8efaba89c635f2e08564695db5597e9c263164a2cf523b76ec044721a2335",
+    "independent_audit_sha256": "9f8aa7685f2b30ac058bea51ac4433bf35594667dbd2673cb68cc9481ce7bf81",
+    "root_reproduced_independent_audit_byte_identically": true,
+    "reference_extra_bps": 40,
+    "initial_CNY_each": 1000000,
+    "reference_metrics": {
+      "2024_return_pct": 22.322729,
+      "2025_return_pct": 8.470337511845408,
+      "net_compound_return_pct": 32.683877,
+      "average_exposure_pct": 92.81075127313615,
+      "max_drawdown_pct": -16.43401076314788,
+      "cost_pct_initial": 15.01962,
+      "orders": 2490,
+      "fills": 2430,
+      "monthly_decisions": 24,
+      "account_sessions": 486,
+      "outcome_sessions": 485
+    },
+    "continuous_year_end_equity_CNY_by_extra_bps": {
+      "20": {
+        "2024-12-31": "1253306.8100",
+        "2025-12-31": "1394867.7500"
+      },
+      "40": {
+        "2024-12-31": "1223227.2900",
+        "2025-12-31": "1326838.7700"
+      }
+    },
+    "old474_financial_days_and24_intents_preserved": true,
+    "old_ordinary_guard_failure_retained": true,
+    "actual_ST_held_sessions_each": 12,
+    "actual_ST_orders_each": 0,
+    "all_six_unknown_tax_record_and_ex_quantities_zero": true,
+    "strict_PIT_or_minute_execution_certified": false,
+    "actual_FIFO_tax_liability_verified": false,
+    "formal_research_promoted": false,
+    "2026_market_values_or_outcomes_queried": false,
+    "objective_achieved": false,
+    "next_action": "Freeze full-horizon metadata/clock/rule epochs and the unchanged candidate before reading2026 market values or returns; replay from the same2023 anchor so2026starts with actual2025year-end positions/claims/cash rather than a reset account."
   }
 }
