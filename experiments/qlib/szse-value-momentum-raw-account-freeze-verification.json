@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN_COMPOSITE_SOURCE_AND_RAW_DAILY_METHOD_NO_ACCOUNT_OUTCOMES_YET",
+  "plan_sha256": "46e75c001457de30a86cab17795ebb211d4bfb9b8c89ef6100e91e8cc341aa40",
+  "code_review_sha256": "087059e5cf959b90b7921d97346f582a62b35eb456508efd63af5b1fc6033695",
+  "full_tests_passed": 493,
+  "new_listing_anchor_behavior_tests": 3,
+  "log_sha256": {
+    "stock-rsi-value-momentum-anchor-red-20261021.log": "b038ac8f14a859b3f3e856298053c971deb5b77812bdc507652d56fcc32e88b8",
+    "stock-rsi-value-momentum-anchor-green-20261021.log": "0989f7bc49d6c7dd27a5d6dd4645650d2bb37f02fd0e2f61b48f6bf7e44df874",
+    "stock-rsi-value-momentum-raw-account-final-full-20261021.log": "718470827b910a8e0410ca92aee8c8f5807e055195c2571247d439ac39e5bbe3"
+  },
+  "source_auditor_preflight_passed": true,
+  "source_auditor_imports_project_code": false,
+  "root_ledger_auditor_uses_separate_arithmetic": true,
+  "prepared_auditor_sha256": {
+    "experiments/qlib/audit_sources/2026-10-21-szse-value-momentum-source-projection-audit.py": "22f02bc2c3249e65aaf01d101f39c6a19bf78ca6a4d01c99b4086e04fb0a0595",
+    "experiments/qlib/audit_sources/2026-10-21-szse-value-momentum-raw-account-audit.py": "ca05086bbcab6595342bdce46ef0f27e8a4222bfb242943f8d9c67f324bd31cc"
+  },
+  "actual_source_projection_exists": false,
+  "actual_raw_account_output_exists": false,
+  "new_source_queries": 0,
+  "new_2026_market_queries": false,
+  "actual_account_returns_computed": false,
+  "objective_achieved": false
+}

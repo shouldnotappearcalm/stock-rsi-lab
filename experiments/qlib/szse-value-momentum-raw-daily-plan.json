@@ -1,0 +1,67 @@
+{
+  "status": "FROZEN_VALUE_MOMENTUM_PRE2026_PHYSICAL_DAILY_DEVELOPMENT",
+  "candidate": "szse_value_momentum_equal",
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "initial_CNY": "1000000",
+  "extra_cost_bps": [
+    20,
+    40
+  ],
+  "reference_extra_bps": 40,
+  "reference_gate": "2024net>0 and2025net>0 and averageexposure>=90 and fullsource/accountchecks",
+  "candidate_budget": 1,
+  "investment_controls_promoted": false,
+  "capital_tax_inferences_unchanged": 4,
+  "primary_cash_supplements": 1,
+  "primary_listing_unit_anchor_validation_exceptions": 1,
+  "source_projection_directory": "szse-value-momentum-account-sources-20261021",
+  "raw_account_directory": "szse-value-momentum-raw-daily-dev-20261021",
+  "method_code_sha256": {
+    "scripts/compile_value_momentum_pre2026_sources.py": "656257dc937e103be8ea34e2d0e232c70d27f6a8c3ee80371bc5009f7f246754",
+    "scripts/run_value_momentum_raw_development.py": "3e94c4cc393e09faf7c85cb362c1afa950ae5ac8e5bd68b753978719da5e8616",
+    "src/stock_rsi/listing_anchor_source.py": "410a637c6ead90515dadaf47d4a4e988e9a40b920d2c27eb004141d1091bc44c",
+    "scripts/replay_budgeted_stock_distribution_targets.py": "b095e27984bd654d5c7bac1933457ba118f51093401c7a1aa21d2cbac9a38e1e",
+    "src/stock_rsi/budgeted_raw_orders.py": "38db2870618622f84722aaf6737645ac089f5a29a356e82a114ad18cd3eb314e",
+    "src/stock_rsi/budgeted_lot_orders.py": "4fe22e63c5fdd89934bb7b4b498e0ca0fd65019ea250c44e05637468d1bfd097",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "scripts/run_low_risk_feedback_cost_stress.py": "a08e0ac1e34090c7fb868fd6fa3dda73ba56adc14137dbdee3cb44617920c503",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/szse-value-momentum-primary-content-review.json": "0536f4ef3f030672976b6f17c0a314c40264bdf42f6202e8e5ad11b2a4e30ecd",
+    "experiments/qlib/szse-value-momentum-raw-source-independent-audit.json": "65be118174da3e3e2e7e7cf9f8b26318f91700086fe90bceeb37d4d077fda281",
+    "experiments/qlib/szse-value-momentum-primary-source-independent-audit.json": "8952f583e3e261f16303771d487021d2a3a361a579b7bfd4913b4667b52c1095",
+    "experiments/qlib/szse-value-momentum-pre2026-results.json": "054231f43b8525c9301ad50793acd895d57a84af5dffb272c4ff6b23e80730cf",
+    "experiments/qlib/szse-value-momentum-independent-audit.json": "0d627c25fd3d4142e247744a33c72d18c225a6bf1e91ff7ad8c3e3d6bd36a367",
+    "docs/research/szse-value-momentum-raw-account-plan-2026-10-21.md": "5c1baf0ed6f6c36d6dfb5add6c8a806792ae251cb3c7c2c25c51d23c3420ac1a"
+  },
+  "local_source_sha256": {
+    "szse-value-momentum-raw-dev-20261021/manifest.json": "6c8c1cd640751e647f80774e83691ddf1b0907fbc1be86a4120e6a1de7f587ea",
+    "szse-value-momentum-raw-dev-20261021/calendar.json": "b5eed25862cae66ab3aa29125a2df76a62f99de0bcfdf5fc6480c7cd79992f39",
+    "szse-value-momentum-primary-capture-20261021/manifest.json": "f2191de5406e83a9d6319000cdeca525199fae531f8e7b0cd908d6644eff7c80",
+    "szse-value-momentum-formations-pre2026-20261021/targets.json": "50ffb7748445baec563789ef821aa6ef861dfbd6c1859ba7a870ad11c2ed6f86",
+    "budgeted-residual-corporate-reviewed-20261021/reviewed-manifest.json": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+    "budgeted-residual-raw-dev-20261021/manifest.json": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7"
+  },
+  "source_evidence_level": "RECONSTRUCTED_ENGINEERING_NOT_PIT",
+  "new_source_queries": 0,
+  "new_2026_market_queries": false,
+  "raw_account_outcomes_observed": false,
+  "objective_achieved": false
+}
