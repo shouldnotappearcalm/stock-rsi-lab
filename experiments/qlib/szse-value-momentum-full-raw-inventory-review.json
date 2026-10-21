@@ -1,0 +1,80 @@
+{
+  "status": "INDEPENDENT_FIXED_LOCAL127_RAW_INVENTORY_RECONSTRUCTED_NOT_SOURCE_ADMISSION",
+  "review_code_sha256": "fb3503a64ba36834a0329c669f529387d39b165df20ee48675268123de5072eb",
+  "inventory_code_sha256": "731b25ed65e3a8ef17a04a3608ef72479ff7c765cbf885b1c7cb0dba1304bfce",
+  "inventory_sha256": "7e9d88f42cc8a0cf23caa152e94e75b6cb82621ba4e2404843e66c4f438e85cd",
+  "peer_inventory_sha256": "7e9d88f42cc8a0cf23caa152e94e75b6cb82621ba4e2404843e66c4f438e85cd",
+  "peer_rerun_byte_exact": true,
+  "target_independent_audit_sha256": "c261a21c4782954eeabeb612e824f550644869da08adbd796e533f5f9d902a6e",
+  "names": 127,
+  "old_names": 103,
+  "new_names": 24,
+  "full_cached_names": 15,
+  "partial_cached_names": 57,
+  "uncached_within_four_fixed_sources": 55,
+  "new_partial_names": 11,
+  "new_uncached_names": 13,
+  "old_full_partial_uncached_counts": [
+    15,
+    46,
+    42
+  ],
+  "new_full_partial_uncached_counts": [
+    0,
+    11,
+    13
+  ],
+  "source_design_budget_arithmetic": {
+    "fresh_packet_identities": 112,
+    "original_or_partial_baseline_identities": 99,
+    "no_baseline_cold_identities": 13,
+    "logical_components_per_baseline_assumption": 3,
+    "logical_components_per_cold_assumption": 5,
+    "logical_components_if_this_model_frozen": 362,
+    "component_scope_requires_separate_frozen_capture_review": true
+  },
+  "cross_source_packet_pair_common_day_comparisons": 47,
+  "old_prefix_packet_comparisons": 93,
+  "all103_original_packets_unchanged": true,
+  "all_selected_and_alternative_source_packet_hashes_authenticated": true,
+  "all_common_day_financial_cores_match": true,
+  "old_cached_bar_distribution_adjustment_prefixes_match": true,
+  "listing_boundary": {
+    "instrument": "SZ001389",
+    "effective_date": "2024-04-02",
+    "known_primary_absent_sessions": 60,
+    "required_postlisting_sessions": 616,
+    "source_file_sha256": "21b5bc6e53c404b63b4a484a5906ca2ce4dc7aeaf9ed7f6e4dacb835e5ce158f",
+    "physical_page": 13,
+    "sufficient_for_capture_design": true,
+    "newly_captured_postlisting_coverage_admitted": false
+  },
+  "semantic_negative_controls_rejected_or_expected_nonconflict": {
+    "changed_common_open_detected": true,
+    "changed_common_high_detected": true,
+    "changed_common_low_detected": true,
+    "changed_common_close_detected": true,
+    "changed_common_preclose_detected": true,
+    "changed_common_volume_detected": true,
+    "changed_common_amount_detected": true,
+    "changed_common_code_detected": true,
+    "changed_common_tradestatus_detected": true,
+    "changed_common_isST_detected": true,
+    "duplicate_day_rejected": true,
+    "numeric_format_variants_agree": true,
+    "different_tail_not_conflict": true
+  },
+  "critical_or_important_findings": 0,
+  "ready_for_bounded_source_capture_design": true,
+  "capture_execution_authorized": false,
+  "source_admitted_for_account": false,
+  "network_calls": 0,
+  "account_replay_performed": false,
+  "portfolio_returns_computed": false,
+  "limitations": [
+    "Uncached means no packet among the four explicitly prioritized authenticated local source roots; it does not assert global or vendor absence. Original pre2026 packets remain separately present for42 of55 locally uncached full-horizon names.",
+    "Completeness means required source-session coverage only. Fresh payloads, distribution revisions, adjustment adjacency, tax/corporate facts and eventual admission require separate review.",
+    "The primary-proven60-session prelisting absence is identified by count plus bound lifecycle/PDF identity. Future admission must compare exact absent dates and complete postlisting coverage rather than treat every missing day as a listing exemption.",
+    "Inventory and fixed source capture design do not authorize network execution, account replay, or any return computation. The362 logical-call budget is99baseline\u00d73+13cold\u00d75; component/year scopes and transport-vs-SDK limits still require frozen capture-method review."
+  ]
+}

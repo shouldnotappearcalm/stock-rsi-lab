@@ -1,0 +1,33 @@
+{
+  "status": "FIXED_COMPOSITE_2026_TARGETS_PREPARED_NO_RETURNS_V2",
+  "candidate": "szse_value_momentum_equal",
+  "candidate_budget": 1,
+  "plan_sha256": "2de3e43f47e3317619ac6587aa326f13e9562a17caf6562a849dbefea7a2bcd1",
+  "months": 34,
+  "target_generation_calendar_end": "2026-10-13",
+  "latest_target_execution_session": "2026-10-08",
+  "source_calendar_monthly_sessions_verified": true,
+  "v1_failure_preserved": true,
+  "planned_interim_account_end": "2026-10-20",
+  "requested_full_October_complete": false,
+  "development_targets_and_receipts_prefix_reproduced": true,
+  "permission_only_source_change_verified": true,
+  "controls_promoted": false,
+  "artifact_sha256": {
+    "family_targets.json": "f142eb867c81f0ad178207dda13ba0a351971fb4869442098e565cf584a2c109",
+    "formation_receipts.json": "89b5241c27c68609a1515af9d651ad8ce65733eca338595daa37befe99927faf",
+    "targets.json": "23c35627f750be6207133d87f025ff3514a8f27d4f638b5c744409e1802089fa"
+  },
+  "input_sha256": {
+    "price_files": "1d4c466105a98ba27261db43628a86edaf14fb3072db6ffcbd50ef556975001a",
+    "instruments/csi500.txt": "ea377505b12eaeb234122b8b7523bbce0d38d4783090cbee2c47da44a9b61c35",
+    "calendars/day.txt": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+    "features/sh000905/close.day.bin": "9708cc44dfec6012950786e837f35e39cefc98f542408c18c134f525ba0d8da4"
+  },
+  "new_2026_factor_features_read": true,
+  "2026_strategy_returns_queried": false,
+  "account_replay_performed": false,
+  "historical_arrival_verified": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}

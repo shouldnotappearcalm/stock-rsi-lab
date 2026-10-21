@@ -4887,7 +4887,7 @@
     "actual_mean_exposure_pct": 95.14883091138185,
     "unverified_held_marks": 0,
     "candidate_unique_names": 103,
-    "2026_values_or_returns_queried": false,
+    "2026_values_or_returns_queried": true,
     "controls_promoted": false,
     "raw_share_execution_verified": false,
     "objective_achieved": false,
@@ -4980,6 +4980,44 @@
     "reference_participation_bps": 100,
     "intraday_account_reconciled": true,
     "all_three40bp_profiles_pass": true,
-    "intraday_verification_file": "experiments/qlib/szse-value-momentum-intraday-verification.json"
+    "intraday_verification_file": "experiments/qlib/szse-value-momentum-intraday-verification.json",
+    "2026_strategy_returns_queried": false,
+    "2026_target_extension": {
+      "status": "ALL34_FIXED_FORMATIONS_RECONSTRUCTED_NO2026_ACCOUNT",
+      "target_file": "experiments/qlib/szse-value-momentum-2026-targets.json",
+      "receipt_file": "experiments/qlib/szse-value-momentum-2026-target-v2-receipt.json",
+      "audit_file": "experiments/qlib/szse-value-momentum-2026-target-v2-independent-audit.json",
+      "verification_file": "experiments/qlib/szse-value-momentum-2026-target-v2-verification.json",
+      "months": 34,
+      "names": 127,
+      "original24target_and_receipt_prefix_identical": true,
+      "new2026factor_features_read": true,
+      "2026_strategy_returns_queried": false,
+      "objective_achieved": false
+    },
+    "full_raw_source_inventory": {
+      "file": "experiments/qlib/szse-value-momentum-full-raw-inventory.json",
+      "source_priority_fixed_before_inventory": [
+        "low-beta60-raw-horizon-20261021",
+        "low-risk-raw-account-data-20261017",
+        "szse-value-raw-full-20261017",
+        "reversal-raw-full-20261017"
+      ],
+      "names": 127,
+      "complete20day_cached": 15,
+      "partial16day_cached": 57,
+      "uncached_in_four_sources": 55,
+      "cross_cache_conflicts": 0,
+      "original_pre2026_prefix_conflicts": 0,
+      "new_network_queries": 0,
+      "source_admitted_for_account": false,
+      "2026_strategy_returns_queried": false,
+      "pre2026_baseline_names": 114,
+      "cold_names": 13,
+      "fresh_calls_needed_names": 112,
+      "fresh_incremental_names": 99,
+      "planning_logical_queries": 362,
+      "capture_executed": false
+    }
   }
 }
