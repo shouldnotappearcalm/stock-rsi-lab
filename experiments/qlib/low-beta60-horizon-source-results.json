@@ -1,0 +1,37 @@
+{
+  "status": "OCT20_RAW_SOURCES_RECONSTRUCTED_NEW_CORPORATE_COVERAGE_GAP_NO_ROI",
+  "freeze_commit": "2235510",
+  "request_sha256": "f7e846b879d85691116b82774d09fe51305cc6f829dad3f1b3e63b1b739f5c87",
+  "window": [
+    "2023-12-29",
+    "2026-10-20"
+  ],
+  "names": 79,
+  "source_sessions_per_name": 676,
+  "bar_rows": 53404,
+  "new_logical_queries": 214,
+  "cached_tail_bars": 165,
+  "fresh_daily_response_bars": 230,
+  "reused_annual_dividend_responses": 24,
+  "distributions": 291,
+  "adjustments": 299,
+  "quarantine": 0,
+  "original_quarantine_promotions": 1,
+  "source_capture_complete": true,
+  "independent_reconstruction_passed": true,
+  "fresh_review_passed": true,
+  "coverage_gap_keys": [
+    "SH601598|2026-10-20"
+  ],
+  "source_evidence_sha256": {
+    "low-beta60-horizon-capture-manifest.json": "9e2a7639ae40f1e8913a5306d430ed14003074acc24b741d7e7e3d4e5a64f891",
+    "low-beta60-horizon-source-independent-audit.json": "c627bce4cd8b79d94782c249ae5696e93b994f6e25ebff418ae30c6df499fd5a",
+    "low-beta60-horizon-source-output-review.json": "f86af5a417759649c48d4667a390010300dd884e1d395d172c00b08c52a73406",
+    "low-beta60-horizon-reference-coverage.json": "46783e7d317b32820a6cbf1c7dab1081e606c4d6f43e9eaeeaee240d382f5c50"
+  },
+  "primary_resolution_required_before_account_replay": true,
+  "investment_rule_changed": false,
+  "portfolio_returns_computed": false,
+  "full_October_complete": false,
+  "objective_achieved": false
+}

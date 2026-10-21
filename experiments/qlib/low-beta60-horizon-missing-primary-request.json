@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN_SINGLE_SSE_ORIGINAL_NOTICE_CAPTURE_NO_FINANCIAL_ADMISSION",
+  "instrument": "SH601598",
+  "candidate_publication_day": "2026-10-13",
+  "candidate_title": "2026年半年度权益分派实施公告",
+  "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-10-13/601598_20261013_C7B4.pdf",
+  "maximum_HTTP_query_reservations": 1,
+  "max_attempts_per_identity": 1,
+  "timeout_seconds": 25,
+  "source_capture_manifest_sha256": "9e2a7639ae40f1e8913a5306d430ed14003074acc24b741d7e7e3d4e5a64f891",
+  "coverage_gap_file_sha256": "46783e7d317b32820a6cbf1c7dab1081e606c4d6f43e9eaeeaee240d382f5c50",
+  "method_code_sha256": {
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "output_directory": "low-beta60-horizon-missing-primary-20261021",
+  "candidate_from_discovery_not_financially_admitted": true,
+  "entitlements_inferred_from_prices": false,
+  "portfolio_returns_computed": false
+}

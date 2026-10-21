@@ -1,0 +1,20 @@
+{
+  "status": "POST_OCT13_REFERENCE_COVERAGE_NOT_ADMITTED",
+  "raw_manifest_sha256": "9e2a7639ae40f1e8913a5306d430ed14003074acc24b741d7e7e3d4e5a64f891",
+  "fixed_window": [
+    "2026-10-14",
+    "2026-10-20"
+  ],
+  "missing_event_coverage": [
+    {
+      "instrument": "SH601598",
+      "day": "2026-10-20",
+      "previous_close": "6.8900",
+      "source_preclose": "6.7500",
+      "classification": "UNEXPLAINED_REFERENCE_CHANGE_NOT_ENTITLEMENT_AMOUNT"
+    }
+  ],
+  "portfolio_returns_computed": false,
+  "entitlements_inferred_from_prices": false,
+  "investment_rule_changed": false
+}

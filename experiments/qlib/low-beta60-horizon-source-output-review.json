@@ -1,0 +1,59 @@
+{
+  "status": "ACTUAL_OUTPUT_INDEPENDENT_REVIEW_PASSED_NO_CRITICAL_OR_IMPORTANT_FINDINGS",
+  "commit": "2235510",
+  "request_sha256": "f7e846b879d85691116b82774d09fe51305cc6f829dad3f1b3e63b1b739f5c87",
+  "audit_rerun_exit_code": 0,
+  "audit_byte_exact_match": true,
+  "saved_and_rerun_audit_sha256": "c627bce4cd8b79d94782c249ae5696e93b994f6e25ebff418ae30c6df499fd5a",
+  "verified_old_671_row_prefixes": 79,
+  "preserved_distribution_and_adjustment_prefixes": 79,
+  "new_observed_sessions": [
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-19",
+    "2026-10-20"
+  ],
+  "appended_daily_bars": 395,
+  "cached_tail_bars": 165,
+  "fresh_daily_bars": 230,
+  "logical_query_components": {
+    "adjustments": 79,
+    "dividend2026": 55,
+    "daily": 79,
+    "calendar": 1
+  },
+  "reservations": 214,
+  "responses": 214,
+  "reused_complete_annual_chains": 24,
+  "cash_events": [
+    {
+      "instrument": "SH600312",
+      "post_old_cash_events": [
+        {
+          "dividOperateDate": "2026-10-15",
+          "dividCashPsBeforeTax": "0.242"
+        }
+      ],
+      "promotion_count": 1
+    },
+    {
+      "instrument": "SH600398",
+      "post_old_cash_events": [
+        {
+          "dividOperateDate": "2026-10-14",
+          "dividCashPsBeforeTax": "0.27"
+        }
+      ],
+      "promotion_count": 0
+    }
+  ],
+  "manifest_names": 79,
+  "manifest_errors": {},
+  "manifest_complete": true,
+  "original_and_bound_input_files_changed": [],
+  "portfolio_returns_computed": false,
+  "admitted_for_account_replay": false,
+  "findings": [],
+  "review_source_calls": 0
+}

@@ -1,0 +1,11 @@
+# Oct20 source capture and remaining corporate-action coverage
+
+Before source calls, commit2235510 froze external requestSHA f7e846b879d85691116b82774d09fe51305cc6f829dad3f1b3e63b1b739f5c87. Actual capture exited0:79 names,214 logical queries,0 failed codes,676 observed sessions,53404 daily rows. Independent stdlib audit and a fresh reviewer reconstructed the results; all79 old671-session prefixes and old corporate records remained unchanged. Appended395 bars comprise165 authenticated cached rows and230 fresh rows.24 authenticated full-year dividend responses were reused without duplicate requests.460 repository tests passed.
+
+The source retains291 distributions and299 adjustment records, with one previously quarantinedSH600312Oct15 cash0.242 event explicitly promoted. SH600398Oct14 cash0.27 is preserved. These are source facts, not financial admission or account returns.
+
+A subsequent reference-coverage diagnostic found a new gap:SH601598Oct20 has an adjustment record and a raw previous-close reference change, but no corresponding event in its complete current-year vendor response. All three records are retained; no cash amount is derived from the0.14 reference difference. This blocks corporate-action admission even though source capture and reconstruction succeeded.
+
+Discovery found an original SSE PDF link for the issuer's2026 interim distribution implementation notice, datedOct13. Issuer homepage displaysOct12, so exact original announcement/date/content must be checked rather than taking the homepage label as financial evidence. The issuer homepage download link returned404; agent-reach Exa CLI was unavailable and its Jina route returned401. No authentication or installation was attempted. A separate one-request bounded original-PDF capture is frozen in low-beta60-horizon-missing-primary-request.json. Search snippets and syndicated copies remain discovery only.
+
+Next: capture/review the original notice and resolve this third cash-event question, then extend evaluator events with exact old266-event preservation and run the six frozen continuous execution/cost accounts. TheSZ000937 capital-tax evidence guard remains unchanged. No2026 strategy return has been computed for this candidate; current cutoffOct20 is an interim observation, not full October.
