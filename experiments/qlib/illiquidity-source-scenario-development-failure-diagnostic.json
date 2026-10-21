@@ -1,0 +1,121 @@
+{
+  "status": "UNCHANGED_AMIHUD22_PRE2026_PHYSICAL_EXIT_FAILURE_DIAGNOSTIC",
+  "strategy": "amihud22",
+  "all60_fail_same_original_guard": true,
+  "all60_have_actual_SZ002505_shares": true,
+  "terminal_SZ002505_shares_range": [
+    2400,
+    2500100
+  ],
+  "actual_guard_cause": "OWNED_SHARES_AT_PRIMARY_DELISTING_BOUNDARY",
+  "boundary_day": "2024-08-30",
+  "last_active_vendor_source_day": "2024-07-02",
+  "SZ002505_raw_packet_sha256": "ebc810bdc9c11cb88b3f39040f17df4fd7c3b6a2e090e09bbba626a8162754ce",
+  "references": {
+    "100/40/1000000": {
+      "status": "INVALID_SOURCE_OR_ACCOUNT",
+      "attempted_day": "2024-08-30",
+      "last_completed_day": "2024-08-29",
+      "owned_SZ002505_shares": 24200,
+      "pending_SZ002505_parents": 0,
+      "nexttarget_SZ002505_dependency": false,
+      "last_account_clock": [
+        "2024-08-29",
+        1
+      ],
+      "annual_ROI_computed": false,
+      "SZ002505_sell_instructions": [
+        {
+          "quantity": 24200,
+          "remaining": 24200,
+          "filled_quantity": 0,
+          "submitted_at": "2024-06-28T07:05:00+00:00",
+          "eligible_at": "2024-07-01T01:30:00+00:00",
+          "expires_at": "2024-07-01T06:55:00+00:00",
+          "status": "UNFILLED_DAY_EXPIRED"
+        },
+        {
+          "quantity": 24200,
+          "remaining": 24200,
+          "filled_quantity": 0,
+          "submitted_at": "2024-07-31T07:05:00+00:00",
+          "eligible_at": "2024-08-01T01:30:00+00:00",
+          "expires_at": "2024-08-01T06:55:00+00:00",
+          "status": "UNFILLED_HALTED_DAY"
+        }
+      ]
+    },
+    "500/40/1000000": {
+      "status": "INVALID_SOURCE_OR_ACCOUNT",
+      "attempted_day": "2024-08-30",
+      "last_completed_day": "2024-08-29",
+      "owned_SZ002505_shares": 24200,
+      "pending_SZ002505_parents": 0,
+      "nexttarget_SZ002505_dependency": false,
+      "last_account_clock": [
+        "2024-08-29",
+        1
+      ],
+      "annual_ROI_computed": false,
+      "SZ002505_sell_instructions": [
+        {
+          "quantity": 24200,
+          "remaining": 24200,
+          "filled_quantity": 0,
+          "submitted_at": "2024-06-28T07:05:00+00:00",
+          "eligible_at": "2024-07-01T01:30:00+00:00",
+          "expires_at": "2024-07-01T06:55:00+00:00",
+          "status": "UNFILLED_DAY_EXPIRED"
+        },
+        {
+          "quantity": 24200,
+          "remaining": 24200,
+          "filled_quantity": 0,
+          "submitted_at": "2024-07-31T07:05:00+00:00",
+          "eligible_at": "2024-08-01T01:30:00+00:00",
+          "expires_at": "2024-08-01T06:55:00+00:00",
+          "status": "UNFILLED_HALTED_DAY"
+        }
+      ]
+    },
+    "1000/40/1000000": {
+      "status": "INVALID_SOURCE_OR_ACCOUNT",
+      "attempted_day": "2024-08-30",
+      "last_completed_day": "2024-08-29",
+      "owned_SZ002505_shares": 24200,
+      "pending_SZ002505_parents": 0,
+      "nexttarget_SZ002505_dependency": false,
+      "last_account_clock": [
+        "2024-08-29",
+        1
+      ],
+      "annual_ROI_computed": false,
+      "SZ002505_sell_instructions": [
+        {
+          "quantity": 24200,
+          "remaining": 24200,
+          "filled_quantity": 0,
+          "submitted_at": "2024-06-28T07:05:00+00:00",
+          "eligible_at": "2024-07-01T01:30:00+00:00",
+          "expires_at": "2024-07-01T06:55:00+00:00",
+          "status": "UNFILLED_DAY_EXPIRED"
+        },
+        {
+          "quantity": 24200,
+          "remaining": 24200,
+          "filled_quantity": 0,
+          "submitted_at": "2024-07-31T07:05:00+00:00",
+          "eligible_at": "2024-08-01T01:30:00+00:00",
+          "expires_at": "2024-08-01T06:55:00+00:00",
+          "status": "UNFILLED_HALTED_DAY"
+        }
+      ]
+    }
+  },
+  "inference": "The original daily-screen qualification did not prove executable exit for the physical shares. The preserved one-day/monthly parent policy, sampled-price/participation and lifecycle guards produced these failures; no actual market queue or alternative exit was certified.",
+  "next_research_scope": "Only pre2026 evidence may inform general, prior-visible distress and exit-risk hypotheses. Do not blacklist the observed ticker retrospectively, invent a sale/recovery price, or lower original account/source gates.",
+  "strategy_or_account_method_changed_after_outcomes": false,
+  "annual_ROI_computed": false,
+  "2026_quotes_or_ROI_read": false,
+  "objective_achieved": false
+}
