@@ -1,0 +1,17 @@
+{
+  "status": "SOURCE_PREFLIGHT_AND_689_TESTS_PASS_BEFORE_NEW_FORMATIONS_OR_RETURNS",
+  "request_sha256": "c93479626e0879154c83a2e1fe82bfd59fa52b0642375d4a902630ac0f1c0238",
+  "code_review_file": "experiments/qlib/low-market-residual-vol1m-pre2026-code-review.json",
+  "code_review_sha256": "a8ee603b8ef1c86e7b499ab4465107e64216b3eb940d8a86f408d64d131607cb",
+  "test_command": "PYTHONPATH=src /Users/calm/.cache/stock-rsi-research-env/bin/python -m unittest discover -s tests",
+  "tests_passed": 689,
+  "test_log_sha256": "9fd908f39ea9260e7ced08dc65192c6ce3c6764df8715f19caa39118c07977a9",
+  "source_preflight_passed": true,
+  "physically_capped_quote_end": "2025-12-31",
+  "candidate_budget": 1,
+  "new_independent_economic_family": false,
+  "actual_formations_run": false,
+  "portfolio_returns_computed": false,
+  "2026_market_values_queried": false,
+  "objective_achieved": false
+}

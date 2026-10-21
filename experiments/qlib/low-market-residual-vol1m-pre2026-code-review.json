@@ -1,0 +1,55 @@
+{
+  "status": "PASS_WITH_EXPLICIT_SCOPE",
+  "critical_or_important_findings": [],
+  "minor_findings": [],
+  "ready_to_freeze_push_and_run_pre2026_formations": true,
+  "reviewed_file_sha256": {
+    "src/stock_rsi/low_market_residual_vol.py": "de2d29831b81d0e7078e482bdf429ea3388e47d7a2bc264bfec0841c20a602dd",
+    "scripts/prepare_low_market_residual_vol_pre2026.py": "f2b5281fdf12c356a8b281f3e6285ec60c83041188db8e1301ceb1e0a9008cdf",
+    "scripts/run_qlib_low_market_residual_vol_pre2026.py": "afc31a5481d0cc58b948a576c3bd7ecac31a69dee0978b5fc3620134115db0af",
+    "tests/test_low_market_residual_vol.py": "1467dcfd48f50acde03602638d47d7f0aa3d8643a36d0116e3c520ed86dc340d",
+    "tests/test_prepare_low_market_residual_vol_pre2026.py": "942cdd622de3dca31e57951bb38698227ebf4f2f3b1525af5385144ced486ea3",
+    "docs/research/low-market-residual-vol1m-pre2026-design-2026-10-21.md": "95aed4aa838aeae7a8441e46eb42adb0babd37c30aeee7115be755db76eddc75",
+    "experiments/qlib/low-market-residual-vol1m-pre2026-formation-request.json": "c93479626e0879154c83a2e1fe82bfd59fa52b0642375d4a902630ac0f1c0238"
+  },
+  "verification": {
+    "focused_unittest_count": 17,
+    "focused_unittest_result": "PASS",
+    "numpy_independent_OLS_synthetic_cases": 100,
+    "maximum_absolute_parameter_or_sigma_difference": 1.5543122344752192e-15,
+    "numpy_tolerance": 1e-12,
+    "guarded_actual_source_preflight": "PASS; build_targets patched to raise and asserted not called; no output directory created",
+    "physical_pre2026_feature_files_hashed": 4010,
+    "physical_calendar_last_day": "2025-12-31",
+    "execution_parity": "Entire 20/40-bp family backtest/reconcile/output loop AST matches run_qlib_price_delay_clock_v2_pre2026.py after removing progress-print expressions only",
+    "root_reported_full_suite": {
+      "count": 689,
+      "independently_rerun_full_suite": false,
+      "log": "/tmp/low-market-residual-vol1m-full-tests-20261021.log"
+    }
+  },
+  "reviewed_behavior": [
+    "Execution month M uses complete calendar month M-1 including formation close; preceding month-last close provides first-return baseline; no additional skipped month.",
+    "OLS includes intercept; centered beta and residual sigma sqrt(SSE/(n-2)); n>=15 and fixed degeneracy protections.",
+    "All stock sample plus baseline close/factor/volume must be positive finite; invalid stock excluded wholly; market uses close only and invalid market fails month.",
+    "AsOfPrices cap equals prior-close formation date; historical active mainboard membership; lowest floor(N/5), deterministic ticker ties and 95-percent equal weights.",
+    "Only low_market_residual_vol_1m is selectable; eligible equal-weight and total-vol controls remain descriptive.",
+    "Request authenticates design and exact method set, physical pre2026 manifest/features/input hashes; external request SHA and fixed output/no-overwrite required.",
+    "Existing execution, fees, prior-close sizing and daily reconciliation retained; no old method/account/source edits required."
+  ],
+  "boundaries": {
+    "actual_formations_executed_by_reviewer": false,
+    "portfolio_returns_computed_by_reviewer": false,
+    "2026_market_values_read_by_reviewer": false,
+    "network_used": false,
+    "worktree_modified_by_reviewer": false,
+    "paper_claims_independently_verified": false,
+    "account_stage_authorized_by_this_review": false,
+    "notes": [
+      "This clears code/source boundary for frozen pre2026 formation, not actual formation correctness or portfolio profitability.",
+      "Account phase retains its separately frozen development request after actual formation evidence.",
+      "Source-preflight hashes physical pre2026 features; it does not establish historical point-in-time arrival or raw-share/minute execution.",
+      "This is an additional trial in the existing low-risk/lottery family, not FF3 replication or an untouched 2026 holdout."
+    ]
+  }
+}

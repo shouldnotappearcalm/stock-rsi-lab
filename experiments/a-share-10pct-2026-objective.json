@@ -4830,6 +4830,28 @@
       "candidate_promoted": false,
       "full_October_complete": false,
       "objective_achieved": false
+    },
+    {
+      "candidate": "low_market_residual_vol_1m",
+      "status": "FROZEN_PRE2026_FORMATION_ONLY_NO_NEW_RETURNS",
+      "economic_family": "EXISTING_LOW_RISK_LOTTERY_VARIANT",
+      "new_independent_economic_family": false,
+      "candidate_budget": 1,
+      "design_file": "docs/research/low-market-residual-vol1m-pre2026-design-2026-10-21.md",
+      "formation_request_file": "experiments/qlib/low-market-residual-vol1m-pre2026-formation-request.json",
+      "formation_request_sha256": "c93479626e0879154c83a2e1fe82bfd59fa52b0642375d4a902630ac0f1c0238",
+      "development_window": [
+        "2024-01-02",
+        "2025-12-31"
+      ],
+      "new_2026_values_or_outcomes_queried": false,
+      "portfolio_returns_computed": false,
+      "controls_selectable": false,
+      "reference_extra_cost_bps": 40,
+      "same_continuous_account_CNY": 1000000,
+      "candidate_promoted": false,
+      "objective_achieved": false,
+      "next_action": "Freeze verified single-indicator trial, form 24 monthly targets on physically capped pre2026 prices; independently check OLS and clocks before continuous development account."
     }
   ],
   "latest_data_admission": {

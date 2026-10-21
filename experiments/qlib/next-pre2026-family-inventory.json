@@ -1,0 +1,615 @@
+{
+  "status": "READ_ONLY_PRE2026_FAMILY_INVENTORY_NO_REGISTERED_UNRUN_ALPHA_QUEUE_FOUND",
+  "repository": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead",
+  "scope": "docs/research/*pre2026* plans/designs and explicit pre2026 development-result JSON metadata; relevant src/stock_rsi factor definitions. No broad full/horizon account output inspection.",
+  "frozen_unrun_alpha_queue": [],
+  "queue_finding_limit": "No candidate ordering queue or frozen-but-unexecuted new alpha was located in the reviewed scope. Old plans saying future/next are not treated as pending when a corresponding completed pre2026 result exists. Not an exhaustive claim about unrelated repository documents.",
+  "attempted_groups": [
+    {
+      "mechanism_group": "supervised_price_volume_prediction",
+      "registered_variants": [
+        "Alpha158 LightGBM",
+        "DoubleEnsemble",
+        "TRA three-state",
+        "MASTER",
+        "fixed 20-session horizon",
+        "rolling LightGBM/Ridge",
+        "fixed DE/TRA and multihorizon blends",
+        "MSE/TopMSE/LambdaRank objectives"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/pre2026-development-results.json",
+          "sha256": "a659f1958d8893c071af527e07ac2b88bb7d0b566383d9db547e55f94c5852d3"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/tra-first-pass-pre2026-results.json",
+          "sha256": "158a1fd7939503d63348e49fd699f7936e33d2be6333c4b8af270183a323a1c7"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/master-pre2026-results.json",
+          "sha256": "b3c5bfc90095f56bd28de8cd14d0c000f7776c87a063d845f58477c6e2a5b64c"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/topbook-objectives-pre2026-results.json",
+          "sha256": "b8c281ef4e00ea4536bb52533ee25a17f24e2147faca4f45143d9801f2ffbdf4"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "portfolio_and_allocation_adaptations",
+      "registered_variants": [
+        "enhanced indexing constrained optimizer",
+        "Topk/Dropout portfolio search",
+        "budgeted-lot residual allocation"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/enhanced-indexing-pre2026-results.json",
+          "sha256": "0f792ee04193bb080da86bb55d373166a2dc8d10350a744d7ae741f2eaf85e48"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-pre2026-results.json",
+          "sha256": "6bc4c15aeb6ee4e174d6d5276432e9b5c474fc1e4819cb19438ecfe0d65e7c17"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "low_risk",
+      "registered_variants": [
+        "low_vol36",
+        "low_beta60",
+        "low_vol60_control (nonpromotable)"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-risk-pre2026-results.json",
+          "sha256": "a48df406a146eee1aac2d7f49d1744f4e1dc88cda7cc4fa9334ba2c9607bcb42"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-pre2026-results.json",
+          "sha256": "c36e04dd4ff5dc0e38b49629f93fdaf0477e35cbec0bb1fd5e0a367e11c37b29"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "lottery_preference",
+      "registered_variants": [
+        "low_max_calendar"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/lottery-max-pre2026-results.json",
+          "sha256": "595770747ac22a962e7e523c49259e7e93ee0301d32d990e2d5615f2eff22659"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "momentum_and_price_anchor",
+      "registered_variants": [
+        "intermediate_mom12_7",
+        "near_52w_high",
+        "market_residual_mom36_12_2",
+        "total_mom12_2_control (nonpromotable)"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/intermediate-momentum-pre2026-results.json",
+          "sha256": "c4ba7e6e62cfe1668a6d744849367ce730613f06ff540c28d1ed48b90f6e3a5b"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/high52-pre2026-results.json",
+          "sha256": "f359ce0c02b7d013a52894dfe615605af980d088dbf9b532aaf74152c7e44eca"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/market-residual-momentum-pre2026-results.json",
+          "sha256": "734b4b22f18530623dee5d7efeb54ea5d37f67183ac2e14a0a912b53415437c9"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "reversal",
+      "registered_variants": [
+        "contrarian20",
+        "contrarian60_12"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/return-families-pre2026-results.json",
+          "sha256": "a885414df5865b090c298c87bd9b78ad21c1524ecdbc9e753e69e03a2548437a"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "calendar_seasonality",
+      "registered_variants": [
+        "seasonal5"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/return-families-pre2026-results.json",
+          "sha256": "a885414df5865b090c298c87bd9b78ad21c1524ecdbc9e753e69e03a2548437a"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "illiquidity",
+      "registered_variants": [
+        "amihud22"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-pre2026-results.json",
+          "sha256": "4296f6c297629c945c2768c064a6f175ec463371c8e02cac6db51ffd4f7631e4"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "exchange_value",
+      "registered_variants": [
+        "szse_monthly_low_pe"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-pre2026-results.json",
+          "sha256": "bb60fa2b0b524930ec26f9d2d6d9a0a93d11204668c4b158239479d0cde801b0"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "exchange_issued_size",
+      "registered_variants": [
+        "szse_monthly_small_issued_cap"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-issued-size-pre2026-results.json",
+          "sha256": "43ac935411644ea001be4723b8a116efa9e98d3262b4e227543189d4e9f59acc"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "fixed_value_momentum_composite",
+      "registered_variants": [
+        "szse_value_momentum_equal",
+        "value_leg_control and momentum_leg_control (nonpromotable)"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-pre2026-results.json",
+          "sha256": "054231f43b8525c9301ad50793acd895d57a84af5dffb272c4ff6b23e80730cf"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "overnight_avoidance",
+      "registered_variants": [
+        "weak_overnight_trend avoidance on fixed DE"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/ovnt-avoidance-pre2026-results.json",
+          "sha256": "9cf1e31bca16b5149a72d286bf5873bb8395a97eda747c6026f97debbf580846"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "price_delay",
+      "registered_variants": [
+        "price_delay_d1",
+        "low_delay_control (nonpromotable)"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/price-delay-pre2026-development-results.json",
+          "sha256": "7b409f0923a922516fcac3b1aa73a142f96899afb562467c0046d1b99ef49e6d"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "ETF_relative_momentum",
+      "registered_variants": [
+        "three broad domestic ETFs relative12m",
+        "three_domestic_broad_ETF_prior2_12"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/etf-relative12m-pre2026-results.json",
+          "sha256": "7cd0780d35cffbcad2a5dc7f7637f2d44a9f65f047cf5a56c3bf63dd97935a31"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/etf-prior2-12-pre2026-results.json",
+          "sha256": "948c10412f05ef37cc568414601de866cf814614d0c4e18f242065e5b5d58cea"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "ETF_initial_equal_entry_baseline",
+      "registered_variants": [
+        "three_domestic_broad_ETF_initial_equal_entry_hold; baseline, not unrun alpha"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/etf-equal-entry-pre2026-results.json",
+          "sha256": "2a244b0cbd9dfadf10f9dfdb0717dfba5ee0e7ac2901bd67f70438a614020440"
+        }
+      ]
+    },
+    {
+      "mechanism_group": "ORJ_signal_diagnostic",
+      "registered_variants": [
+        "overnight return jump entry-after-next-open diagnostic; not certified investable portfolio"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/orj-signal-pre2026-results.json",
+          "sha256": "aaa495bb860ae9ff729a4d3d706c8ed24be1c1a7842f5099cb679669b560214c"
+        }
+      ]
+    }
+  ],
+  "residual_volatility_review": {
+    "exact_standalone_low_idiosyncratic_volatility_rank_experiment_found": false,
+    "low_beta60": {
+      "score": "cov(R,M)/var(M) on60 monthly returns with intercept; signed beta ascending",
+      "reported_volatility": "sqrt(12 * total stock return centered sum of squares /59)",
+      "control": "low_vol60_control ranks total stock volatility; neither alpha nor beta subtraction enters that volatility score",
+      "evidence": {
+        "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/src/stock_rsi/low_beta60.py",
+        "sha256": "ec675a9a1f00de768701ee7441c9033f8236d0f7acfa6999a144109b5c8d2def"
+      }
+    },
+    "low_vol36": {
+      "score": "sample standard deviation of36 total monthly returns, annualized; no market regression",
+      "evidence": {
+        "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/src/stock_rsi/low_risk_monthly.py",
+        "sha256": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8"
+      }
+    },
+    "market_residual_momentum": {
+      "score": "36-month market beta fit; mean(R-beta*M)/sample_sd(R-beta*M) over11 months with latest month skipped",
+      "residual_risk_usage": "The residual-adjusted standard deviation is already computed as a denominator, but there is no separately declared ascending residual-SD portfolio. Subtracting the fitted intercept changes the mean, not the sample SD.",
+      "evidence": {
+        "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/src/stock_rsi/market_residual_momentum.py",
+        "sha256": "a27cc05c406a01fbdcd379ae4f54c756fa66aa260bcb06aaac488ea3c32cf898"
+      }
+    },
+    "duplicate_assessment": "Low IVOL is not mathematically identical to beta or total-vol ranking, and the existing residual-momentum ratio is not a standalone low-IVOL test. Nevertheless a new low-IVOL rank is a related low-risk/lottery-preference proxy, not a demonstrated independent economic family. Do not label it an entirely new mechanism, recycle controls as candidates, or use later-period rejection to select its window/model.",
+    "searched_source_tokens": [
+      "residual volatility",
+      "residual_vol",
+      "idiosyncratic",
+      "IVOL",
+      "特质波动"
+    ],
+    "additional_factor_framework": {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/src/stock_rsi/factors.py",
+      "sha256": "870ac23525e7bdf087e00cad6c8deb870fd78074ec1083f40e641a78d2689a35"
+    },
+    "trial_classification": "既有低风险/lottery研究族的未跑指标变体；若采用须计入同族新增trial，不称全新经济family或独立验证。"
+  },
+  "single_new_family_suggestion": {
+    "name": "accounting_accruals_earnings_persistence",
+    "stage": "LITERATURE_AND_PIT_SOURCE_FEASIBILITY_ONLY_NOT_FROZEN_NOT_RUN",
+    "economic_hypothesis": "Earnings contain cash-flow and accrual components with different persistence. If investors extrapolate reported earnings without fully discounting the less persistent accrual part, lower-accrual firms may be less overvalued. A long-only low-accrual adaptation would test that accounting information mechanism, not market sensitivity, trend, price delay, or PE/size alone.",
+    "published_pre2024_basis": {
+      "author": "Richard G. Sloan",
+      "year": 1996,
+      "title": "Do Stock Prices Fully Reflect Information in Accruals and Cash Flows about Future Earnings?",
+      "journal": "The Accounting Review",
+      "volume_issue_pages": "71(3),289-315",
+      "basis_status": "Established bibliographic reference from model knowledge; no network, primary-paper retrieval or full-definition verification in this task. Must authenticate original pre2024 publication before freezing an implementation."
+    },
+    "nonduplication_evidence": "No accrual-accounting or earnings-persistence factor/registered development family was found in the reviewed source/doc/summary scope. The existing mechanism inventory explicitly lists accruals/quality/investment as lacking verified PIT financial-source coverage.",
+    "prior_inventory_evidence": {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/docs/research/pre2026-independent-mechanism-inventory-2026-10-21.md",
+      "sha256": "9fa37d1f74192ebe1a495c9a338adac10afc1d52b94cebb5f101fed53713cb03"
+    },
+    "minimum_unresolved_inputs": [
+      "Original annual financial statement items and cash-flow/balance-sheet definitions sufficient for the paper-specific accrual measure.",
+      "Actual announcement/available-at dates, original-versus-restated vintages, and historical issuer/universe alignment.",
+      "Consistent units, fiscal periods and corporate-action/restatement handling; exchange PE and issued-share tables cannot substitute."
+    ],
+    "not_authorized_here": [
+      "No source query, data capture, portfolio code, financial account, parameter choice or result computation.",
+      "No claim that the anomaly transfers to China, survives long-only costs or meets the user return objective.",
+      "If PIT inputs cannot be authenticated, do not simulate or replace them with present-day financial data."
+    ],
+    "decision_scope": "Sloan仅为后续资料线索；缺PIT财务不能开跑或以PE替代，下一纯pre2026试验由root另行决定。"
+  },
+  "pre2026_result_metadata": [
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-pre2026-results.json",
+      "sha256": "6bc4c15aeb6ee4e174d6d5276432e9b5c474fc1e4819cb19438ecfe0d65e7c17",
+      "status": "BUDGETED_RESIDUAL_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": "market_residual_mom36_12_2",
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/total_mom12_2_control",
+        "20/market_residual_mom36_12_2",
+        "40/eligible_equal_weight",
+        "40/total_mom12_2_control",
+        "40/market_residual_mom36_12_2"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/de-tra-blend-pre2026-results.json",
+      "sha256": "690b0c1e3e3f74af5b39ab487c4e19fcdbb4a8b7b71ff5ab8e969104cecdc9eb",
+      "status": "PRE2026_DEVELOPMENT_ONLY",
+      "candidate_budget": 1
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/enhanced-indexing-pre2026-results.json",
+      "sha256": "0f792ee04193bb080da86bb55d373166a2dc8d10350a744d7ae741f2eaf85e48",
+      "status": "DEVELOPMENT_PASS_NEW_FUTURE_EVALUATION_REQUIRED"
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/etf-equal-entry-pre2026-results.json",
+      "sha256": "2a244b0cbd9dfadf10f9dfdb0717dfba5ee0e7ac2901bd67f70438a614020440",
+      "status": "ETF_EQUAL_ENTRY_PRE2026_DAILY_PROXY_COMPLETE_ADMISSION_SEPARATE",
+      "candidate_budget": 1,
+      "candidate_id": "three_domestic_broad_ETF_initial_equal_entry_hold"
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/etf-prior2-12-pre2026-results.json",
+      "sha256": "948c10412f05ef37cc568414601de866cf814614d0c4e18f242065e5b5d58cea",
+      "status": "ETF_PRIOR2_12_PRE2026_DAILY_PROXY_COMPLETE_ADMISSION_SEPARATE",
+      "candidate_budget": 1,
+      "candidate_id": "three_domestic_broad_ETF_prior2_12"
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/etf-relative12m-pre2026-results.json",
+      "sha256": "7cd0780d35cffbcad2a5dc7f7637f2d44a9f65f047cf5a56c3bf63dd97935a31",
+      "status": "ETF_RELATIVE12M_PRE2026_DAILY_PROXY_COMPLETE_ADMISSION_SEPARATE",
+      "candidate_budget": 1
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/high52-pre2026-results.json",
+      "sha256": "f359ce0c02b7d013a52894dfe615605af980d088dbf9b532aaf74152c7e44eca",
+      "status": "HIGH52_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": null,
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/near_52w_high",
+        "40/eligible_equal_weight",
+        "40/near_52w_high"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/horizon20-pre2026-results.json",
+      "sha256": "20c2b5892cdfae89f6b3fe0d80106e0538bef246b27df3a708388acd98a61174",
+      "status": "PRE2026_DEVELOPMENT_ONLY",
+      "candidate_budget": 1
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-pre2026-results.json",
+      "sha256": "4296f6c297629c945c2768c064a6f175ec463371c8e02cac6db51ffd4f7631e4",
+      "status": "ILLIQUIDITY_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": "amihud22",
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/amihud22",
+        "40/eligible_equal_weight",
+        "40/amihud22"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/intermediate-momentum-pre2026-results.json",
+      "sha256": "c4ba7e6e62cfe1668a6d744849367ce730613f06ff540c28d1ed48b90f6e3a5b",
+      "status": "INTERMEDIATE_MOMENTUM_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": null,
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/intermediate_mom12_7",
+        "40/eligible_equal_weight",
+        "40/intermediate_mom12_7"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/lottery-max-pre2026-results.json",
+      "sha256": "595770747ac22a962e7e523c49259e7e93ee0301d32d990e2d5615f2eff22659",
+      "status": "LOTTERY_MAX_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": null,
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/low_max_calendar",
+        "40/eligible_equal_weight",
+        "40/low_max_calendar"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-beta60-pre2026-results.json",
+      "sha256": "c36e04dd4ff5dc0e38b49629f93fdaf0477e35cbec0bb1fd5e0a367e11c37b29",
+      "status": "LOW_BETA60_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": "low_beta60",
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/low_vol60_control",
+        "20/low_beta60",
+        "40/eligible_equal_weight",
+        "40/low_vol60_control",
+        "40/low_beta60"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/low-risk-pre2026-results.json",
+      "sha256": "a48df406a146eee1aac2d7f49d1744f4e1dc88cda7cc4fa9334ba2c9607bcb42",
+      "status": "PRE2026_DEVELOPMENT_ONLY",
+      "candidate_budget": 1,
+      "development_gate_status": "REJECTED",
+      "strategy": "monthly lowest decile of 36 monthly-return volatility"
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/market-residual-momentum-pre2026-results.json",
+      "sha256": "734b4b22f18530623dee5d7efeb54ea5d37f67183ac2e14a0a912b53415437c9",
+      "status": "MARKET_RESIDUAL_MOMENTUM_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": null,
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/total_mom12_2_control",
+        "20/market_residual_mom36_12_2",
+        "40/eligible_equal_weight",
+        "40/total_mom12_2_control",
+        "40/market_residual_mom36_12_2"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/master-pre2026-results.json",
+      "sha256": "b3c5bfc90095f56bd28de8cd14d0c000f7776c87a063d845f58477c6e2a5b64c",
+      "status": "PRE2026_DEVELOPMENT_ONLY",
+      "candidate_budget": 1
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/multihorizon-blend-pre2026-results.json",
+      "sha256": "8d0e0e3828c4f80aaa2bfeee6c1a9bcf79ea605be6976b07d90e82d041036d74",
+      "status": "PRE2026_DEVELOPMENT_ONLY",
+      "candidate_budget": 1
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/orj-signal-pre2026-results.json",
+      "sha256": "aaa495bb860ae9ff729a4d3d706c8ed24be1c1a7842f5099cb679669b560214c",
+      "status": "PRE2026_DEVELOPMENT_SIGNAL_DIAGNOSTIC_ONLY",
+      "candidate_budget": 1,
+      "development_gate_status": "REJECTED_DEVELOPMENT_SIGNAL"
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/ovnt-avoidance-pre2026-results.json",
+      "sha256": "9cf1e31bca16b5149a72d286bf5873bb8395a97eda747c6026f97debbf580846",
+      "status": "PRE2026_DEVELOPMENT_ONLY",
+      "candidate_budget": 1,
+      "development_gate_status": "REJECTED"
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/pre2026-development-results.json",
+      "sha256": "a659f1958d8893c071af527e07ac2b88bb7d0b566383d9db547e55f94c5852d3",
+      "status": "DEVELOPMENT_PASS_SEALED_NOT_RUN"
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/price-delay-pre2026-development-results.json",
+      "sha256": "7b409f0923a922516fcac3b1aa73a142f96899afb562467c0046d1b99ef49e6d",
+      "status": "PRICE_DELAY_PRE2026_CLOCK_V2_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": null,
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/low_delay_control",
+        "20/price_delay_d1",
+        "40/eligible_equal_weight",
+        "40/low_delay_control",
+        "40/price_delay_d1"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/price-delay-pre2026-formation-results.json",
+      "sha256": "45f0304584efae66660994aa29de5075d4a61f7a1b20d59d7026a0a821e1df5a",
+      "status": "SINGLE_DELAY_PRE2026_FORMATIONS_PREPARED_NO_RETURNS",
+      "candidate_budget": 1
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/return-families-pre2026-results.json",
+      "sha256": "a885414df5865b090c298c87bd9b78ad21c1524ecdbc9e753e69e03a2548437a",
+      "status": "RETURN_FAMILY_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 3,
+      "selected_development_lead": "contrarian60_12",
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/contrarian20",
+        "20/contrarian60_12",
+        "20/seasonal5",
+        "40/eligible_equal_weight",
+        "40/contrarian20",
+        "40/contrarian60_12",
+        "40/seasonal5"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/roll1-campaign-pre2026-results.json",
+      "sha256": "43c8cb8f13e7327c09d5ac6509fc9590f184939a3c500811d2c3ccad1b566a2d",
+      "status": "PRE2026_DEVELOPMENT_ONLY",
+      "candidate_budget": 3,
+      "development_status": "NEW_LEAD_ONLY"
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/rolling-ridge20-pre2026-results.json",
+      "sha256": "41a29da0c03cc2dd3b53d15978091ec7462db8350afc26341a49c45473e2f5f1",
+      "status": "PRE2026_DEVELOPMENT_ONLY",
+      "candidate_budget": 1
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/rolling20-pre2026-results.json",
+      "sha256": "ebf65c7977e4248bdb4c55bc273d22918ac259e643ef287f94ec1045f20c8c87",
+      "status": "PRE2026_DEVELOPMENT_ONLY",
+      "candidate_budget": 1
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-issued-size-pre2026-results.json",
+      "sha256": "43ac935411644ea001be4723b8a116efa9e98d3262b4e227543189d4e9f59acc",
+      "status": "EXCHANGE_SIZE_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": null,
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/szse_monthly_small_issued_cap",
+        "40/eligible_equal_weight",
+        "40/szse_monthly_small_issued_cap"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-momentum-pre2026-results.json",
+      "sha256": "054231f43b8525c9301ad50793acd895d57a84af5dffb272c4ff6b23e80730cf",
+      "status": "EXCHANGE_VALUE_MOMENTUM_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": "szse_value_momentum_equal",
+      "profile_names": [
+        "20/value_leg_control",
+        "20/momentum_leg_control",
+        "20/szse_value_momentum_equal",
+        "40/value_leg_control",
+        "40/momentum_leg_control",
+        "40/szse_value_momentum_equal"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/szse-value-pre2026-results.json",
+      "sha256": "bb60fa2b0b524930ec26f9d2d6d9a0a93d11204668c4b158239479d0cde801b0",
+      "status": "EXCHANGE_VALUE_PRE2026_DEVELOPMENT_COMPLETE",
+      "candidate_budget": 1,
+      "selected_development_lead": "szse_monthly_low_pe",
+      "profile_names": [
+        "20/eligible_equal_weight",
+        "20/szse_monthly_low_pe",
+        "40/eligible_equal_weight",
+        "40/szse_monthly_low_pe"
+      ]
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/topbook-objectives-pre2026-results.json",
+      "sha256": "b8c281ef4e00ea4536bb52533ee25a17f24e2147faca4f45143d9801f2ffbdf4",
+      "status": "REJECTED_NO_DEVELOPMENT_IMPROVEMENT"
+    },
+    {
+      "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/tra-first-pass-pre2026-results.json",
+      "sha256": "158a1fd7939503d63348e49fd699f7936e33d2be6333c4b8af270183a323a1c7",
+      "status": "PRE2026_DEVELOPMENT_ONLY"
+    }
+  ],
+  "boundaries": {
+    "source_queries": 0,
+    "account_replay_run": false,
+    "portfolio_returns_computed": false,
+    "repository_modified": false,
+    "new_agent_spawned": false,
+    "raw_market_values_read": false,
+    "2026_account_financial_position_curve_files_opened": false,
+    "2026_outcomes_used_for_family_choice": false,
+    "incidental_text_exposure": "The first filename-based docs search returned a later-year diagnostic sentence appended to a file named szse-monthly-value-pre2026-results-2026-10-17.md. This was reported immediately to root; mixed result documents were excluded from further substantive reading. No numeric later-year performance is retained or used here. Therefore this task cannot claim perfect absence of incidental2026 performance-text exposure."
+  },
+  "controls_policy": "Equal-weight, low-vol60, ordinary momentum, single value/momentum legs, low-delay and ETF baseline/benchmark are not an unrun alpha promotion queue. No control is promoted based on development performance."
+}
