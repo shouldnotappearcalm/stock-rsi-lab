@@ -1,0 +1,62 @@
+{
+  "status": "THREE_ORIGINAL_CAS_DECLARATION_FORMATS_REVIEWED_NOT_FACTOR_ADMISSION",
+  "records": [
+    {
+      "capture_key": "SZ000825-2022-1216522455",
+      "source_sha256": "7ccca48b6f570cc53c8da019fcb10820149e28634413c151beaa3316b6cfe2a5",
+      "physical_page": 112,
+      "page_text_sha256": "451acd40bacfec1a4614d565a615a5b4774995d45eaf5491470cff92d9e7fba3",
+      "source_excerpt": "1、遵循企业会计准则的声明\n本公司所编制的财务报表符合企业会计准则的要求，真实、完整地反映了报告期公司的财务状况、\n经营成果、现金流量等有关信息。",
+      "source_statement_scope_anchor": {
+        "page": 110,
+        "literal": "三、公司基本情况",
+        "kind": "PRIMARY_FINANCIAL_STATEMENTS_SECTION"
+      },
+      "render_path_relative_source_root": "gross-profitability-v6-CAS-evidence-20261022/SZ000825-2022-1216522455-p112.png",
+      "render_png_sha256": "eddaa729ab02f3ce50aab9120d37bbd3668155952f222a6f65d064be3ce8bea4",
+      "explicit_CAS_compliance_format_visually_confirmed": true,
+      "actual_report_compliance_independently_certified": false,
+      "CI_authenticates_original_PDF": false,
+      "currency_inference_is_not_a_literal_CNY_quote": true,
+      "investment_factor_admitted": false
+    },
+    {
+      "capture_key": "SZ002925-2022-1216693662",
+      "source_sha256": "0e2123cc98b78fdf031bf09c074c92b9ddca806f14ad1330ab8204a153392bdc",
+      "physical_page": 167,
+      "page_text_sha256": "cafd279fbcab019bc1c3fbf63e07be17abe9b0795a4db79e3d2d26b12e25bb3e",
+      "source_excerpt": "1\n、遵循企业会计准则的声明\n本公司所编制的财务报表符合企业会计准则的要求，真实、完整地反映了公司的财务状况、经营成\n果、所有者权益变动和现金流量等有关信息。",
+      "source_statement_scope_anchor": {
+        "page": 161,
+        "literal": "三、公司基本情况",
+        "kind": "PRIMARY_FINANCIAL_STATEMENTS_SECTION"
+      },
+      "render_path_relative_source_root": "gross-profitability-v6-CAS-evidence-20261022/SZ002925-2022-1216693662-p167.png",
+      "render_png_sha256": "4a4c3a98634fcb31301553a2adbf66d04f3b584697d2b1275e767bdbcbd7f48a",
+      "explicit_CAS_compliance_format_visually_confirmed": true,
+      "actual_report_compliance_independently_certified": false,
+      "CI_authenticates_original_PDF": false,
+      "currency_inference_is_not_a_literal_CNY_quote": true,
+      "investment_factor_admitted": false
+    },
+    {
+      "capture_key": "SZ000155-2022-1216280861",
+      "source_sha256": "400fd4644324e7505a579b0a10e23d34a57c7b1701e18ffbdf4048dff9cdfdb6",
+      "physical_page": 159,
+      "page_text_sha256": "251ad055eccb4221bca17c158f82ad9e8b9c671b384af11f7d8090b658930b4c",
+      "source_excerpt": "1、遵循企业会计准则的声明\n公司所编制的财务报表符合企业会计准则的要求，真实、完整地反映了公司的财务状况、经营成果和现金流量等有关信\n息。",
+      "source_statement_scope_anchor": {
+        "page": 157,
+        "literal": "三、公司基本情况",
+        "kind": "PRIMARY_FINANCIAL_STATEMENTS_SECTION"
+      },
+      "render_path_relative_source_root": "gross-profitability-v6-CAS-evidence-20261022/SZ000155-2022-1216280861-p159.png",
+      "render_png_sha256": "218b60d140c1cfc8272b1c56cab6469007cbb021757cd195830756dbd3a6a8da",
+      "explicit_CAS_compliance_format_visually_confirmed": true,
+      "actual_report_compliance_independently_certified": false,
+      "CI_authenticates_original_PDF": false,
+      "currency_inference_is_not_a_literal_CNY_quote": true,
+      "investment_factor_admitted": false
+    }
+  ]
+}
