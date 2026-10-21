@@ -1,0 +1,38 @@
+{
+  "status": "HASH_VERIFIED_EXISTING_PRIMARY_READING_BYTES_IMPORTED_NO_NEW_NETWORK",
+  "source_research_sha256": "5f7ee5fdabc75f84a37819802cbc267c7cadd85a905c1c61a55295a483bea7bf",
+  "artifact_sha256": {
+    "issuer-www-st-notice.pdf": "554168c47a1fe1effd06478adc0c91f05e188541af3a7f5d747cf6e1dd682d0d",
+    "sse-trading-rules-2023.docx": "7aa2319f6dcf597be1e86b3b69d7c2ad0e6acb2a5d0cc6be48a01af602fded40",
+    "reading-download-receipts-additional.json": "5bd56f78db7649dd1f292fb6fd42bc9415df512d715fda7ce78c7055ac6ae0fb",
+    "issuer-st-notice-text.txt": "0986deb7fc5d22ea62fca8a217c0949e2c3bfbe1b66c01f56e575ceb2dd3b11a",
+    "sse-trading-rules-2023-text.txt": "e65151d622dc3ce871ef9e3e0fed746b2f31f942fd24627e2166f7f1e5b2638c"
+  },
+  "independent_failed_account_audit_sha256": "49b2e8c53882d83a7bdb164b5c0491f4bc56d713cb4f24ef3204dc749a86175e",
+  "old_run_and_source_bytes_checked_unchanged": 1286,
+  "all_existing_inputs_unchanged": true,
+  "source_retrieval_receipts": "reading-download-receipts-additional.json",
+  "documents": [
+    {
+      "file": "issuer-www-st-notice.pdf",
+      "sha256": "554168c47a1fe1effd06478adc0c91f05e188541af3a7f5d747cf6e1dd682d0d",
+      "instrument": "SH600079",
+      "published_on": "2025-12-13",
+      "original_mirror_url": "https://www.humanwell.com.cn/upload/portal/20251215/d612069786cfa7693647b948bf5c424a.pdf",
+      "first_public_clock_verified": false
+    },
+    {
+      "file": "sse-trading-rules-2023.docx",
+      "sha256": "7aa2319f6dcf597be1e86b3b69d7c2ad0e6acb2a5d0cc6be48a01af602fded40",
+      "published_on": "2023-02-17",
+      "original_archive_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/repeal/rules/c/10824490/files/dcbe58edb194451d93f19b1f7dd8fb4c.docx",
+      "historical_same_bytes_available_verified": false
+    }
+  ],
+  "HTTP_queries_in_this_import": 0,
+  "SDK_queries": 0,
+  "account_replay_run": false,
+  "portfolio_returns_computed": false,
+  "2026_market_or_strategy_data_read": false,
+  "objective_achieved": false
+}

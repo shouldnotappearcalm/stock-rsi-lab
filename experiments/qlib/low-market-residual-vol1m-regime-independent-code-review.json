@@ -1,0 +1,81 @@
+{
+  "2026_values_read": false,
+  "actual_account_replay_executed": false,
+  "actual_old_financial_prefix_verified": false,
+  "actual_source_or_primary_cache_read": false,
+  "checks": {
+    "OPEN_does_not_read_close_high_low_volume_amount": true,
+    "PREOPEN_does_not_read_open_or_day_end_values": true,
+    "ST_held_shares_not_forcibly_liquidated_or_repriced": true,
+    "ST_limit_economics_enforced": true,
+    "ST_limit_mechanism": "Actual opening price must lie within rounded5percent bands, then unchanged Broker rejects BUY atupper and SELL atlower; LIMIT metadata uses exactly those bounds. Within-band fills cannot exceedBUYlimit or undercutSELLlimit.",
+    "ST_sells_from_literal_monthly_targets_use_existing_T1_and_fees": true,
+    "buy_permission_and_500k_cap_are_explicit_terminal_refusals_without_resizing": true,
+    "earliest_primary_arrival_unverified_flag_preserved": true,
+    "new_target_dependencies_enter_only_at15_05_close": true,
+    "old13failure_files_and42financial_inputs_bound_through_prior_audit_and_loader": true,
+    "old474day_financial_and24intent_regression_required_before_scoring": true,
+    "ordinary_artifacts_exact_in_synthetic_controls": true,
+    "original_account_allocator_broker_ordinary_failure_not_modified_by_this_review": true,
+    "risk_warning_buy_permission_false_in_frozen_wrapper": true,
+    "same_day_whole_volume_is_close_only_capacity_diagnostic": true,
+    "six_unknown_tax_guards_and_fractional_registry_guard_retained": true,
+    "two_profiles_and_immutable_input_postcheck_precede_atomic_annual_scoring": true,
+    "unproven_required_ST_or_late_regime_proof_fails_closed": true,
+    "whole_open_batch_validated_before_account_start_and_corporate_credits": true
+  },
+  "critical_or_important_findings": 0,
+  "findings": [],
+  "limitations": [
+    "Code and synthetic fixtures only. No live source loader, source preflight, ordinary/regime actual account, or2026 market/financial/strategy data were read or executed by this reviewer.",
+    "The474day and24intent actual regression is an enforced future runtime check, not certified by this review before replay.",
+    "The5percent band and boundary exclusions are a daily engineering proxy; order submission timing, auction queues, available counterparties, actual limits and fill probability are not reconstructed.",
+    "Engineering source availability remains separate from earliest historical primary publication. Source proofs do not grant unknown tax exemptions, registry allocation or actual lifecycle-flat ownership."
+  ],
+  "network_queries": 0,
+  "portfolio_returns_computed": false,
+  "production_code_modified_by_reviewer": false,
+  "ready_for_freeze_code_review": true,
+  "resolved_findings": [
+    {
+      "initial_draft_sha256": "97b168af0f81a02dd98bf4f909ad28d4bdb2b027c684fcc04d9a00344976bdf1",
+      "initial_review_file": "/tmp/ivol-regime-raw-runner-initial-findings-20261021.json",
+      "initial_review_sha256": "ffed2e147c967cba17cb526bbb4d78158f050fb0149d5936bd7018f8111e432e",
+      "original_reproduction_file": "/tmp/ivol-regime-raw-runner-primary-binding-probe-20261021.json",
+      "original_reproduction_sha256": "f7057f4a53af4c0dd4faaaa6b8767102febdf460c19a3c485ccc157c4a42f587",
+      "resolution": "Wrapper now requires exact5 reading artifacts and exactly2 unique original document identities; metadata hashes must equal artifact-map entries, all actual files are bound. Original empty-map negative now rejects.",
+      "severity": "Important",
+      "title": "Primary artifact map omissions bypassed original notice/rule byte authentication"
+    }
+  ],
+  "reviewed_files_sha256": {
+    "scripts/replay_ordinary_budgeted_stock_distribution_targets.py": "d5462f2c85944e8e716eb75761e6aa512ce3568b7cd3d8d52eaa4cf9cee22414",
+    "scripts/replay_regime_budgeted_stock_distribution_targets.py": "9d9dcbc57a95faecfc8f62545bc38cd47f6b722752b3b32ae4783c3ce1b18575",
+    "scripts/run_ivol_raw_pre2026.py": "9767ff1f52f57672d0956062b15e3c0f8bf97ee2519dafa04bd63251cfd3cfd9",
+    "scripts/run_ivol_regime_raw_pre2026.py": "a6f500c78f101932b2813f2e5f639e789e50d1edfd40104de5dc1dc28a02ad53",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/budgeted_raw_orders.py": "38db2870618622f84722aaf6737645ac089f5a29a356e82a114ad18cd3eb314e",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/trading_regime_source.py": "3c78cda962a6e9a0d62d0ae4a2f2d0bc7d426ba1e28a1ac582e4faa1dea43263",
+    "tests/test_ivol_regime_raw_pre2026.py": "1630e7232da94bb56b655e46ea6b0c2371384476be85c90ca71bb192f612ce98",
+    "tests/test_regime_budgeted_replay.py": "01ee54170c958386806c62e6fffbf4e66147d78458a1188bb90bddef4462377c",
+    "tests/test_trading_regime_source.py": "d62cc5902e8f4d9677e795c73ceee998711bce2f9f27c93e5516aec5e18baca6"
+  },
+  "status": "PASS_INDEPENDENT_REGIME_CODE_AND_SYNTHETIC_REVIEW_AFTER_PRIMARY_BINDING_FIX",
+  "verification": {
+    "all_passed": true,
+    "clock_probe_first_classification_issue_preserved": "/tmp/ivol-regime-raw-independent-probes-first-clock-classification-20261021.json",
+    "composition": {
+      "driver": 8,
+      "regime_module": 10,
+      "runner": 6
+    },
+    "focused_synthetic_tests": 24,
+    "full_suite_not_repeated": true,
+    "independent_probes": "/tmp/ivol-regime-raw-independent-probes-20261021.json",
+    "independent_probes_sha256": "06bde0c12735b402d85086d2f022911d9bdc5333ec3ca3ed7851699f78b3470e",
+    "test_log": "/tmp/ivol-regime-raw-independent-focused-20261021.log",
+    "test_log_sha256": "22d2adbbbb24e1fb016fac765d93cd0c8d1512cc38c9df877d9082b89d174d2a"
+  }
+}

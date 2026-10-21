@@ -1,0 +1,139 @@
+{
+  "2026_market_or_strategy_data_requested": false,
+  "SDK_queries": 0,
+  "actual_account_replay": false,
+  "exchange_confirmation": {
+    "cash_share_forced_sale_inferred": false,
+    "document_number": "上证公告（会员）〔2025〕013号",
+    "effective_date": "2025-12-16",
+    "fact": "Exchange confirms600079 other-risk-warning status fromDec16 and removes it from margin-financing/securities-lending eligible names that date.",
+    "issuer": "上海证券交易所",
+    "published_and_signed_date": "2025-12-15",
+    "short_verbatim_excerpt": "调出融资融券标的证券名单",
+    "title": "关于融资融券标的证券调整的公告",
+    "url": "https://www.sse.com.cn/disclosure/magin/announcement/ssereport/c/c_20251215_10801711.shtml"
+  },
+  "existing_cash_share_trading": {
+    "attachment_sha256": "7aa2319f6dcf597be1e86b3b69d7c2ad0e6acb2a5d0cc6be48a01af602fded40",
+    "clause_facts": {
+      "4.4.10": "Risk-warning daily price limit5%, consistent with the issuer-specific2025 notice.",
+      "4.4.12": "Single-name daily cumulative buy quantity cap500000shares; not a sell-quantity or forced-liquidation rule.",
+      "4.4.2": "Risk-warning shares trade on the risk-warning board from the measure effective date.",
+      "4.4.7": "Unsigned risk disclosure blocks first buy entrustments; the rule does not state that it blocks sale of already-held shares.",
+      "4.4.9": "Both buy and sell entrustments in risk-warning shares use limit orders."
+    },
+    "conclusion": "Existing ordinary cash shares remain owned after the name/status change; after the announced resumption, sales may be submitted as limit orders within applicable rules. No ST-triggered mandatory sale, claim cancellation or share disappearance is established by these documents.",
+    "exchange_explanation": {
+      "date": "2016-08-26",
+      "scope": "Exchange interpretation of unsigned risk-warning disclosure; generic rule explanation, not a600079-specific execution guarantee.",
+      "short_verbatim_excerpt": "投资者可以卖出公司股票，但不能买入公司股票。",
+      "title": "关于拟对慧球科技股票实施ST处理及相关复牌安排的通报",
+      "url": "https://www.sse.com.cn/disclosure/credibility/supervision/dynamic/c/c_20160826_4163215.shtml"
+    },
+    "execution_not_proven": [
+      "Broker-specific account permissions and any security freeze are not authenticated.",
+      "A valid sell order does not guarantee fill: counterparties, price limits, queue priority and liquidity are not reconstructed.",
+      "No order date, exit price or strategy change is prescribed."
+    ],
+    "historical_rule_title": "上海证券交易所交易规则（2023年修订）",
+    "local_attachment": "/tmp/ivol-sh600079-st-primary-research-20261021/sse-trading-rules-2023.docx",
+    "original_rule_archive_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/repeal/rules/c/c_20250612_10824490.shtml",
+    "original_rule_attachment_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/repeal/rules/c/10824490/files/dcbe58edb194451d93f19b1f7dd8fb4c.docx",
+    "publication_date": "2023-02-17",
+    "rule_number": "上证发〔2023〕32号",
+    "short_verbatim_excerpt": "应当采用限价委托方式"
+  },
+  "formal_data_capture_or_admission_performed": false,
+  "instrument": "SH600079",
+  "issuer": "人福医药集团股份公司",
+  "portfolio_returns_computed": false,
+  "primary_notice": {
+    "announcement_number": "2025-129",
+    "bytes": 169241,
+    "exchange_original_url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-12-13/600079_20251213_5P8D.pdf",
+    "facts": {
+      "ST_effective_date": "2025-12-16",
+      "administrative_advance_notice_number": "鄂处罚字〔2025〕8号",
+      "administrative_advance_notice_received_date": "2025-12-12",
+      "daily_price_limit_pct": 5,
+      "disclosure_date_evidence": "SSE original filing URL date, contemporary announcement indexes and signed issuer notice; minute-level first-public timestamp not captured.",
+      "halt_date": "2025-12-15",
+      "halt_duration": "FULL_DAY",
+      "halt_table_page": 1,
+      "issuer_signature_date": "2025-12-13",
+      "listing_rule_version_cited": "上海证券交易所股票上市规则（2025年4月修订）",
+      "new_short_name": "ST人福",
+      "official_exchange_nominal_disclosure_date": "2025-12-13",
+      "old_short_name": "人福医药",
+      "operative_clauses": [
+        "9.8.1(7)",
+        "9.8.2"
+      ],
+      "price_limit_page": 2,
+      "reason_pages": [
+        1,
+        2
+      ],
+      "reason_paraphrase": "The company invokes listing-rule9.8.1(7): the regulator advance-notice facts involve false financial indicators in disclosed annual reports, without reaching the9.5.2(1) trigger described there. This is the stated other-risk-warning basis; the notice is an advance-penalty stage.",
+      "regulator": "中国证券监督管理委员会湖北监管局",
+      "resumption_date": "2025-12-16",
+      "risk_warning_board_trading": true,
+      "security_code_unchanged": "600079",
+      "signature_page": 3
+    },
+    "issuer_binary_read_url": "https://www.humanwell.com.cn/upload/portal/20251215/d612069786cfa7693647b948bf5c424a.pdf",
+    "issuer_indexed_alias_url": "https://en.humanwell.com.cn/upload/portal/20251215/d612069786cfa7693647b948bf5c424a.pdf",
+    "local_pdf": "/tmp/ivol-sh600079-st-primary-research-20261021/issuer-www-st-notice.pdf",
+    "pdf_sha256": "554168c47a1fe1effd06478adc0c91f05e188541af3a7f5d747cf6e1dd682d0d",
+    "physical_pages_complete_text_read_rendered_and_visually_inspected": [
+      1,
+      2,
+      3
+    ],
+    "short_verbatim_excerpt": "日涨跌幅限制为5%",
+    "title": "关于实施其他风险警示暨停牌的公告"
+  },
+  "public_time_boundaries": {
+    "conclusion": "Official dated filing is2025-12-13; contemporaneous news suggests public release may have occurred2025-12-12 evening. Actual first-public clock remains unverified; do not backdate access merely from receipt/signature or web path.",
+    "contemporaneous_secondary_discovery_only": {
+      "label": "A dated2025-12-12 wire report already describes the ST notice; not a primary upload timestamp and not used as a precise known_at proof.",
+      "url": "https://finance.eastmoney.com/a/202512123590306758.html"
+    },
+    "earliest_primary_public_timestamp_authenticated": false,
+    "formal_disclosure_and_signature_dates_kept_separate": true,
+    "issuer_mirror_Last_Modified": "Mon,15Dec2025 11:40:45 GMT",
+    "issuer_mirror_upload_path": "20251215",
+    "mirror_upload_or_Last_Modified_used_as_first_public_time": false
+  },
+  "reading_artifact_sha256": {
+    "issuer-st-notice-p1.png": "98fc55e7f4a1502abe9cca32352615b4c5982ec2ca1df49c626da3d845d1f01e",
+    "issuer-st-notice-p2.png": "0b326466719ab26fe451c4bc94f8f67aa0fdfcb299e4193a1b57605e916401d9",
+    "issuer-st-notice-p3.png": "c75f86c60b5a2db69c9d2d06240650c7d9f4579b3021eed5348e3c8207ea2e15",
+    "issuer-st-notice-text.txt": "0986deb7fc5d22ea62fca8a217c0949e2c3bfbe1b66c01f56e575ceb2dd3b11a",
+    "issuer-www-st-notice.pdf": "554168c47a1fe1effd06478adc0c91f05e188541af3a7f5d747cf6e1dd682d0d",
+    "reading-download-receipts-additional.json": "5bd56f78db7649dd1f292fb6fd42bc9415df512d715fda7ce78c7055ac6ae0fb",
+    "sse-st-notice.response": "1f1c33fe343b4bb4e19488a9b7006d67cd5872acb81c39c8ea675a0728937d38",
+    "sse-trading-rules-2023-text.txt": "e65151d622dc3ce871ef9e3e0fed746b2f31f942fd24627e2166f7f1e5b2638c",
+    "sse-trading-rules-2023.docx": "7aa2319f6dcf597be1e86b3b69d7c2ad0e6acb2a5d0cc6be48a01af602fded40"
+  },
+  "repository_modified": false,
+  "retrieval_limitations": {
+    "exchange_PDF_binary_authenticated": false,
+    "exchange_PDF_decoded_response": {
+      "decoded_bytes": 7373,
+      "decoded_sha256": "dcee3a774fac78521baba30f980a7e4f072a5e78d1ee1ca7b0df0178f046950a",
+      "has_script": true,
+      "is_html": true
+    },
+    "exchange_PDF_result": "Direct SSE request returned a gzip-encoded anti-bot HTML body, retained as sse-st-notice.response; web open also yielded no PDF text.",
+    "first_ever_company_ST_history_certified": false,
+    "historical_rule_attachment_caveat": "Current exchange archive serves the2023 text from a migrated/repeal path with a later server Last-Modified date; body identity/version checked, historical2025 binary availability not certified.",
+    "issuer_en_TLS_failure_preserved": "Python strict TLS failed hostname verification for en.humanwell.com.cn; no TLS checks disabled. Strict-TLS www.humanwell.com.cn succeeded with original PDF.",
+    "scope_note": "This identifies the announcedDecember2025 transition, not an exhaustive lifetime company status history.",
+    "search_snippet_scope": "Broad discovery unexpectedly returned current/2026 snippets and mixed-year market summaries; no such page was opened, values were not retained or used. Only source bodies dated<=2025 and the archived2023 rule text support facts here.",
+    "web_remote_screenshots": "Remote PDF screenshot requests timed out; all3 complete pages rendered locally and visually inspected instead."
+  },
+  "scope_cutoff": "2025-12-31",
+  "status": "PRE2026_PRIMARY_ST_TRANSITION_SOURCE_RESEARCH_ONLY_NO_ENGINE_OR_STRATEGY_CHANGE",
+  "strategy_or_code_modified": false
+}

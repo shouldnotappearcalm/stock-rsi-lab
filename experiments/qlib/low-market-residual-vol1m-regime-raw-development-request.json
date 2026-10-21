@@ -1,0 +1,66 @@
+{
+  "status": "FROZEN_IVOL_REGIME_RAW_PRE2026_DAILY_ENGINEERING_PLAN",
+  "initial_CNY": "1000000",
+  "extra_cost_bps": [
+    20,
+    40
+  ],
+  "reference_extra_bps": 40,
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "policy_id": "low_market_residual_vol_1m_budgeted",
+  "allocator": "plan_budgeted_raw_targets",
+  "source_guard": "regime_source_rows_on",
+  "tax_reserve_rate": "0.2",
+  "minimum_average_exposure_pct": 90,
+  "candidate_budget": 1,
+  "profile_budget": 2,
+  "output_relative": "low-market-residual-vol1m-regime-raw-development-pre2026-20261021",
+  "protocol_file": "docs/research/low-market-residual-vol1m-regime-development-protocol-2026-10-21.md",
+  "risk_warning_buy_permission": false,
+  "investment_rule_changed": false,
+  "new_2026_queries_allowed": false,
+  "old_failure_must_remain_unchanged": true,
+  "protocol_sha256": "068eecd65d477bab37ff0e7861fd7787f667aef246245cbbbd83747f4c32393c",
+  "method_code_sha256": {
+    "scripts/run_ivol_raw_pre2026.py": "9767ff1f52f57672d0956062b15e3c0f8bf97ee2519dafa04bd63251cfd3cfd9",
+    "scripts/prepare_ivol_account_sources_pre2026.py": "7b3a22bfb2d709d954ea6f564b194a2e4c903c862ba0fe8f9fb88be6b17ebdac",
+    "scripts/replay_ordinary_budgeted_stock_distribution_targets.py": "d5462f2c85944e8e716eb75761e6aa512ce3568b7cd3d8d52eaa4cf9cee22414",
+    "scripts/run_low_risk_raw_share_validation.py": "444194557f98b2eb96dc28c26edebd5eb88f077a9975a762dc847ee4ef169f20",
+    "scripts/run_low_risk_feedback_cost_stress.py": "a08e0ac1e34090c7fb868fd6fa3dda73ba56adc14137dbdee3cb44617920c503",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "src/stock_rsi/primary_event_components.py": "a0ecc1c01b7caf688dab26b2461c5fb720e4772c0abff004f973ee5422e58418",
+    "src/stock_rsi/distribution_event_compiler_v2.py": "145ea48f2f68af0175d3f003f1970152b8d7c03ba40ed809dfbe3dc38fc51a3e",
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/budgeted_raw_orders.py": "38db2870618622f84722aaf6737645ac089f5a29a356e82a114ad18cd3eb314e",
+    "src/stock_rsi/ordinary_source_scope.py": "7e27c6b36bade230cc429d7fafd43d882fc9c134a8f6b4f31ef94e539232b888",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46",
+    "src/stock_rsi/trading_regime_source.py": "3c78cda962a6e9a0d62d0ae4a2f2d0bc7d426ba1e28a1ac582e4faa1dea43263",
+    "scripts/replay_regime_budgeted_stock_distribution_targets.py": "9d9dcbc57a95faecfc8f62545bc38cd47f6b722752b3b32ae4783c3ce1b18575",
+    "scripts/run_ivol_regime_raw_pre2026.py": "a6f500c78f101932b2813f2e5f639e789e50d1edfd40104de5dc1dc28a02ad53"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/low-market-residual-vol1m-raw-development-request.json": "9f1d99938167d5c6c998355a3374a8b2fbc45e51012f6297330d29eed73c58a3",
+    "experiments/qlib/low-market-residual-vol1m-raw-development-independent-failure-audit.json": "49b2e8c53882d83a7bdb164b5c0491f4bc56d713cb4f24ef3204dc749a86175e",
+    "experiments/qlib/low-market-residual-vol1m-regime-evidence.json": "c8361908ec5afea9e00fe041c7776353b88a35acab90b5b1a0f317e1f304ab24",
+    "experiments/qlib/low-market-residual-vol1m-regime-primary-source-manifest.json": "4650e705239f67e6256a6f6acfb26d90edcfd341b48adb56122d884705672d5b",
+    "experiments/qlib/low-market-residual-vol1m-regime-primary-source-research.json": "5f7ee5fdabc75f84a37819802cbc267c7cadd85a905c1c61a55295a483bea7bf"
+  },
+  "local_source_sha256": {
+    "low-market-residual-vol1m-regime-primary-pre2026-20261021/manifest.json": "4650e705239f67e6256a6f6acfb26d90edcfd341b48adb56122d884705672d5b",
+    "low-market-residual-vol1m-raw-development-pre2026-20261021/summary.json": "54104915cc2a38e047300d3f3397bafcce10e19a85b6191f57e7af66323fa5a6"
+  }
+}

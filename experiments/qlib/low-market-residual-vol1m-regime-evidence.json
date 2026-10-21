@@ -1,0 +1,28 @@
+{
+  "contract": "SSE_MAINBOARD_RISK_WARNING_PRE2026_V1",
+  "rule_document": {
+    "source_file": "sse-trading-rules-2023.docx",
+    "sha256": "7aa2319f6dcf597be1e86b3b69d7c2ad0e6acb2a5d0cc6be48a01af602fded40",
+    "published_on": "2023-02-17",
+    "valid_from": "2023-12-29",
+    "valid_through": "2025-12-31"
+  },
+  "state_intervals": [
+    {
+      "instrument": "SH600079",
+      "exchange": "SSE",
+      "board": "MAINBOARD",
+      "risk_status": "OTHER_RISK_WARNING",
+      "effective_from": "2025-12-16",
+      "effective_through": "2025-12-31",
+      "published_on": "2025-12-13",
+      "engineering_available_at": "2025-12-14T00:00:00+08:00",
+      "actual_arrival_verified": false,
+      "source_file": "issuer-www-st-notice.pdf",
+      "source_sha256": "554168c47a1fe1effd06478adc0c91f05e188541af3a7f5d747cf6e1dd682d0d"
+    }
+  ],
+  "account_capabilities": {
+    "risk_warning_buy_permission": false
+  }
+}
