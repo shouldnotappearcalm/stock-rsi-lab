@@ -1,0 +1,122 @@
+{
+  "status": "INDEPENDENT_VALUE_MOMENTUM_CODE_SOURCE_REVIEW_APPROVED_NO_CRITICAL_OR_IMPORTANT_FINDINGS",
+  "base_commit": "08e2e60aa50b6d7d0942a8967d4adb63e2cc99c6",
+  "plan_sha256": "d17ef433ed35923563f9e0d786165954ec383d77f1bf7302cb3c7b131542eb76",
+  "method_code_sha256": {
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "src/stock_rsi/low_risk_monthly.py": "5648df2d29e0cbff0e454ae82d459a773e8ae896002d46d1883fb859525801a8",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/qlib_prior_close.py": "bdf60f6d40f29c8a33d24b3bcc5088ce182420c118a195b225449886012cc20f",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/suspension_evidence.py": "e5611949c9542adf3775a9ebb9de655892a7cd0b719c2a27073482cc774422c5",
+    "scripts/capture_baostock_gap_states_pre2026.py": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "scripts/run_cninfo_orj_signal_pre2026.py": "ee87e6a609699dfd2cad62528ab79e064920e683b10b2dc196f58c9db5a51fe7",
+    "scripts/prepare_qlib_master_market_pre2026.py": "e61480ba228260603a348b38100efcd409f8943e4a55f0c9d134151d59e1444d",
+    "scripts/run_qlib_szse_value_momentum_pre2026.py": "904bc0e2ff0a891f3a9df9ea377acab97b21fa62cd0fc1802d0ee5940dc3de7d",
+    "src/stock_rsi/budgeted_lot_orders.py": "4fe22e63c5fdd89934bb7b4b498e0ca0fd65019ea250c44e05637468d1bfd097",
+    "src/stock_rsi/budgeted_qlib_strategy.py": "4b4b08fff4e7607f39f07310a3d33029db0a7b9d1c8acd9ca2c0dba6c8dc3811",
+    "src/stock_rsi/return_families.py": "47cec354b2eb348bbb0fc5f6855e879c8761a98d584ba4c037b05ee7620a9f77",
+    "src/stock_rsi/szse_monthly.py": "c3ad059f06694401f4027c592cc71387808c129523a54992f086d0205588a8ef",
+    "src/stock_rsi/exchange_value_momentum.py": "aeb70a401076906f8f529527d0b6ae3973bb794cada258bf530ea2ff4c94f87a"
+  },
+  "design_sha256": "1713358a5753d88cb3212953ba25d52d27a4d767e2eeeb0bb49717a1279e61ab",
+  "source_close_review_sha256": "5a39f3676086a8faac95b86aa9f653aa1616bf70c5b482875c361818083ccef3",
+  "source_capture_manifest_sha256": "d88866cb365d9bf19dd5eaa9c5bde140a396d9ad6ee3f779ba1937a0307aea28",
+  "frozen_targets_sha256": "50ffb7748445baec563789ef821aa6ef861dfbd6c1859ba7a870ad11c2ed6f86",
+  "frozen_receipts_sha256": "4b858cf6ed63d2fb885ca68d2f88571b5977490a28de9f26a3a374e79331ab63",
+  "critical_findings": [],
+  "important_findings": [],
+  "minor_findings": [],
+  "strengths": [
+    "The13 consecutive month-end endpoints M-13..M-1 produce exactly11 cumulative return months M-12..M-2. Latest M-1 close is required for current eligibility and sizing but excluded from momentum ranking.",
+    "Value and momentum share the same historical CSI500 Shenzhen main-board positive-published-PE, non-special-name and complete-history eligible pool. Value PE sorts ascending with Decimal; momentum sorts descending; both use deterministic code ties and floor(N/10).",
+    "Two fixed47.5percent capital sleeves are combined by addition at each overlapping security. Both95percent single-leg controls remain descriptive and cannot enter candidate selection.",
+    "Published PE comes from authenticated original M-2 SZSE tables after the declared full intervening-month convention; article/table build dates cannot exceed formation. No current financial data or new market sources are substituted.",
+    "Frozen method/source/provider/design/public-review hashes and all24 targets/receipts are checked before any Qlib backtest. Original methods, budgeted allocator, prior-close account checks, daily evidence reconciliation and missing-mark admission are preserved.",
+    "All six20/40bps portfolio cases are retained. Only40bps composite can proceed, with both years positive, actual exposure>=90percent, zero unverified marks and daily reconciliation.",
+    "The protocol distinguishes this earnings-yield long-only capital blend from book-to-market factor research and makes no replication, source-premium, liquidity-immunity, actual arrival or physical-execution claim."
+  ],
+  "fresh_validation": {
+    "method_binding_count": 16,
+    "all_method_bindings_matched": true,
+    "original_tracked_methods_unchanged_from_base": true,
+    "provider_input_hashes_matched": true,
+    "source_and_gap_captures_authenticated": true,
+    "original_HTML_PE_headers_independently_checked": 24,
+    "original_PE_values_reparsed_independently_of_source_reader": true,
+    "all24_common_eligibility_pools_value_rankings_and_momentum_rankings_reconstructed": true,
+    "three_portfolios_times24_exact_frozen_targets_matched": true,
+    "frozen_targets_and_receipts_semantically_and_byte_matched": true,
+    "momentum_product_of11_monthly_returns_matches_endpoint_ratio": true,
+    "price_endpoints_per_formation": 13,
+    "ranked_return_months_per_formation": 11,
+    "skipped_latest_completed_month_verified": true,
+    "candidate_unique_names": 103,
+    "minimum_common_eligible": 134,
+    "source_months": [
+      "2023-11",
+      "2025-10"
+    ],
+    "formation_execution_sessions": [
+      "2024-01-02",
+      "2025-12-01"
+    ],
+    "latest_guarded_scalar_price_read": "2025-11-28",
+    "2026_scalar_price_queries": 0,
+    "focused_tests": {
+      "passed": 13,
+      "new_value_momentum_tests": 4,
+      "inherited_budget_allocator_strategy_tests": 9,
+      "exit_code": 0
+    },
+    "synthetic_runner": {
+      "all_six_fee_portfolio_configurations_passed": true,
+      "fixed_capital_date_window_limits_open_execution_and_fee_kwargs_checked": true,
+      "controls_deliberately_outperformed_but_could_not_replace_composite": true,
+      "four_selection_gate_negatives_rejected": [
+        "nonpositive2024",
+        "nonpositive2025",
+        "exposure_below90percent",
+        "unverified_held_mark"
+      ],
+      "Qlib_init_backtest_strategy_and_daily_reconciliation_were_stubbed": true,
+      "scope": "Tests runner configuration, prior-close boundary checks, case reporting and admission wiring; does not validate real account financial ledgers.",
+      "temporary_outputs_removed": true,
+      "actual_account_replay_performed": false
+    },
+    "full_suite_log_inspected": {
+      "path": "/tmp/stock-rsi-value-momentum-full-20261021.log",
+      "passed": 486,
+      "seconds": 11.066,
+      "result": "OK",
+      "reviewer_reran_full_suite": false
+    },
+    "independent_source_review_script": "/tmp/szse-value-momentum-independent-review-20261021.py",
+    "independent_source_review_script_sha256": "6b7294d3ca47b54292231b870956b4db446ae603a6809f877dee7dd51ec25b7d",
+    "synthetic_runner_review_script": "/tmp/szse-value-momentum-synthetic-runner-review-20261021.py",
+    "synthetic_runner_review_script_sha256": "ce43487caeafb212c8c5da9a08a6ba0b240641f50d92b4ee2cda65cd926f9448"
+  },
+  "ready_for_development_screen": true,
+  "assessment": "The exact frozen single-composite method and source interpretation are ready for the pre2026 development screen after freeze/push. No Critical or Important issue was identified. Actual six-account finances,144 prior-close allocations and all signal/source claims still require the planned independent output reconstruction before retaining a lead; the synthetic wiring check is not real account acceptance.",
+  "declined_to_judge": [
+    "Actual Qlib account returns, exposure and complete finance reconciliation: no actual account run was performed before freeze/push.",
+    "Independent rereading or empirical validation of the2013 source paper: no network retrieval was performed and the code/protocol explicitly describes the separate long-only PE adaptation.",
+    "Exact historical publication/arrival timing and full physical raw-share execution: declared source-lag and normalized daily-open screening conventions do not certify these.",
+    "Historical RED-before-code sequence: current four new tests and nine inherited tests were run freshly; historical sequence was reported by the coordinator.",
+    "2026 returns and any outcome-based rule feedback: explicitly excluded and not performed."
+  ],
+  "repository_edits_performed": false,
+  "source_files_edited": false,
+  "new_HTTP_or_source_queries": 0,
+  "actual_account_replay_performed": false,
+  "actual_portfolio_returns_computed": false,
+  "2026_scalar_reads": 0,
+  "2026_returns_queried": false,
+  "2026_outcomes_used_as_rule_feedback": false,
+  "candidate_promoted": false,
+  "raw_share_execution_verified": false,
+  "historical_arrival_verified": false,
+  "sealed_evidence": false,
+  "objective_achieved": false
+}

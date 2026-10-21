@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_SOURCE_CODE_FORMATIONS_REVIEWED_BEFORE_PRE2026_RETURNS",
+  "plan_sha256": "d17ef433ed35923563f9e0d786165954ec383d77f1bf7302cb3c7b131542eb76",
+  "code_source_review_sha256": "c11292e6045501fcdd83a3452aa376e1f5ba5e8708d2eb02a589434e0beeec9a",
+  "full_tests_passed": 486,
+  "new_behavior_tests_passed": 4,
+  "logs_sha256": {
+    "stock-rsi-value-momentum-red-20261021.log": "a6ce6c96cb90397f0570ecdafc677be909f839df074540e1ea2cf9f6d6647689",
+    "stock-rsi-value-momentum-green-20261021.log": "c9b02dcd38d70f74da5623916720287da7050cb0035145a9e08a38e5420e5343",
+    "stock-rsi-value-momentum-full-20261021.log": "2210e95eaad5010493f30f050df8b517212b828d23a15f242f108d9f88e25d35"
+  },
+  "independent_auditor_sha256": "6c323f4f1f7dcbcb90017e4761fb8bb440a916e397fa20cb74f3aec83db1c2dd",
+  "candidate_budget": 1,
+  "controls": 2,
+  "formations": 24,
+  "candidate_unique_names": 103,
+  "market_source_queries": 0,
+  "account_replays": 0,
+  "2026_returns_computed": false,
+  "objective_achieved": false
+}
