@@ -4869,7 +4869,7 @@
     },
     {
       "candidate": "low_market_residual_vol_1m_budgeted_lots",
-      "status": "FROZEN_EXISTING_BUDGETED_ALLOCATOR_PRE2026_NO_NEW_RETURNS",
+      "status": "PRE2026_NORMALIZED_DAILY_GATE_PASS_REQUIRES_RAW_SHARE_CONFIRMATION",
       "economic_family": "EXISTING_LOW_RISK_LOTTERY_VARIANT",
       "new_independent_economic_family": false,
       "signal": "low_market_residual_vol_1m",
@@ -4880,12 +4880,23 @@
       "plan_sha256": "e75bbeafce270cd618b1b4066f9ea9ccf25fc07834e7662fc04dec305c43f34f",
       "design_file": "docs/research/low-market-residual-vol1m-budgeted-design-2026-10-21.md",
       "baseline_rejection_retained": true,
-      "portfolio_returns_computed": false,
+      "portfolio_returns_computed": true,
       "new_2026_values_or_returns_queried": false,
       "controls_promoted": false,
       "candidate_promoted": false,
       "objective_achieved": false,
-      "next_action": "Run one fixed budgeted allocation policy over2024/2025 only; retain both allocation versions and all controls."
+      "next_action": "Inventory existing pre2026 raw-price/corporate-action coverage for361fixed primary names, then freeze any source completion and raw-share account confirmation. Never select/tune from2026facts.",
+      "development_freeze_commit": "316087a",
+      "development_result_file": "experiments/qlib/low-market-residual-vol1m-budgeted-pre2026-results.json",
+      "development_independent_audit_file": "experiments/qlib/low-market-residual-vol1m-budgeted-development-independent-audit.json",
+      "development_verification_file": "experiments/qlib/low-market-residual-vol1m-budgeted-pre2026-verification.json",
+      "development_reference_metrics": {
+        "2024_return_pct": 22.811950661627932,
+        "2025_return_pct": 8.754260202612073,
+        "average_exposure_pct": 92.40730865157282,
+        "unverified_held_marks": 0
+      },
+      "pre2026_daily_proxy_gate_passed": true
     }
   ],
   "latest_data_admission": {
@@ -5550,5 +5561,32 @@
     "2026_market_values_queried": false,
     "objective_achieved": false,
     "next_action": "Attribute pre2026 idle cash before proposing a separately frozen common whole-lot allocation change; do not alter indicator, thresholds or use2026 facts."
+  },
+  "latest_low_market_residual_vol_budgeted_screen": {
+    "status": "PRE2026_NORMALIZED_DAILY_GATE_PASS_REQUIRES_RAW_SHARE_CONFIRMATION",
+    "allocation_trial_id": "low_market_residual_vol_1m_budgeted_lots",
+    "result_file": "experiments/qlib/low-market-residual-vol1m-budgeted-pre2026-results.json",
+    "result_sha256": "f4a69930471c9131c09490b5351d60b11fe61bd2e5f0090a6d1ea56a7c2e83bd",
+    "independent_audit_file": "experiments/qlib/low-market-residual-vol1m-budgeted-development-independent-audit.json",
+    "independent_audit_sha256": "6a791d08f5e866b55a124b433da409aecb37789751d15ee1c87105874cb5038a",
+    "root_reproduced_independent_audit_byte_identically": true,
+    "same_continuous_CNY": 1000000,
+    "trading_sessions": 485,
+    "fixed_reference_extra_bps": 40,
+    "2024_net_return_pct": 22.811950661627932,
+    "2025_net_return_pct": 8.754260202612073,
+    "average_exposure_pct": 92.40730865157282,
+    "unverified_held_marks": 0,
+    "primary_reference_unfilled_orders": 176,
+    "primary_reference_tiny_qlib_overshoots": 387,
+    "strict_integer_share_execution_verified": false,
+    "all42_baseline_financial_bytes_unchanged": true,
+    "alpha_targets_or_gate_changed": false,
+    "controls_promoted": false,
+    "formal_research_promoted": false,
+    "2026_market_values_or_outcomes_queried": false,
+    "objective_achieved": false,
+    "freeze_CI_all_three_jobs_success": "https://github.com/shouldnotappearcalm/stock-rsi-lab/actions/runs/39589475343",
+    "next_action": "Inventory existing pre2026 raw-price/corporate-action coverage for361fixed primary names, then freeze any source completion and raw-share account confirmation. Never select/tune from2026facts."
   }
 }
