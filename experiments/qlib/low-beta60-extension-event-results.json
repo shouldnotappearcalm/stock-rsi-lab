@@ -1,0 +1,42 @@
+{
+  "status": "LOW_BETA60_266_SOURCE_EVENTS_COMPILED_ONE_TAX_GUARD_RETAINED_INDEPENDENT_AUDIT_PENDING",
+  "plan_sha256": "124b94a62ed55a8641107a04e17054abc493a5d824794ded73667e2b143bb112",
+  "window": [
+    "2023-12-29",
+    "2026-10-13"
+  ],
+  "original_events": 179,
+  "appended_events": 87,
+  "earlier_rows_of_future_only_names_ignored": 25,
+  "unverified_tax_event_keys": [
+    "SZ000937|2026-06-17"
+  ],
+  "compiled_events": 266,
+  "raw_manifest_sha256": "10f645719228d50c439e166bbfe65959b5ff517668c2ecc8ffc4fca4e1680ea7",
+  "reviewed_2026_manifest_sha256": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+  "source_kind_counts": {
+    "VENDOR_DISTRIBUTION": 262,
+    "PRIMARY_NOTICE_SUPPLEMENT": 2,
+    "PRIMARY_CASH_PRECISION_CORRECTION": 2
+  },
+  "all_original_events_and_receipts_reconstructed_unchanged": true,
+  "original_source_files_modified": false,
+  "unknown_tax_requires_zero_registered_ownership": true,
+  "artifact_sha256": {
+    "derived_events.json": "1ccd85b766b29f2d14514b2945d64f6ce017f1c4e0acec604d29fbd0d4749036",
+    "event_source_receipts.json": "69b5fc9452f12625e66b64daee0b3f9026c58265a199368737dbd3e721561bd6",
+    "effective_2026_proofs.json": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+    "original_derived_events.json": "d408a3521b01713e081ecb2924fde2a42b31feb0ccbad9f07efa7e99b6a3cfe2",
+    "original_event_source_receipts.json": "d4fded77ca439ae1bc380e5012d53a9dc12d6a28d4142378ff5c0fd9fe0d5c09"
+  },
+  "source_queries": 0,
+  "event_compilation_independently_verified": false,
+  "account_replay_admitted": false,
+  "historical_arrival_verified": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "full_corporate_actions_certified": false,
+  "portfolio_returns_computed": false,
+  "full_requested_October_complete": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

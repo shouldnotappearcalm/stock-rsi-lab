@@ -1,0 +1,51 @@
+{
+  "status": "PASS_ACTUAL_OUTPUT_CROSSCHECK",
+  "reviewed_head": "39c8862",
+  "scope": "Actual output authentication and deterministic reproduction only; no second code review, no network, holdings or ROI",
+  "summary_sha256": "24140caa7496ff9ab7e1ec56c54c226d0aaf31d03ca909b2dabd00582ec62843",
+  "plan_sha256": "124b94a62ed55a8641107a04e17054abc493a5d824794ded73667e2b143bb112",
+  "artifact_sha256": {
+    "derived_events.json": "1ccd85b766b29f2d14514b2945d64f6ce017f1c4e0acec604d29fbd0d4749036",
+    "event_source_receipts.json": "69b5fc9452f12625e66b64daee0b3f9026c58265a199368737dbd3e721561bd6",
+    "effective_2026_proofs.json": "7fdec0f62c3a83842c9e447a19416d9dd4b4165a44669484822e9d841c5a7d80",
+    "original_derived_events.json": "d408a3521b01713e081ecb2924fde2a42b31feb0ccbad9f07efa7e99b6a3cfe2",
+    "original_event_source_receipts.json": "d4fded77ca439ae1bc380e5012d53a9dc12d6a28d4142378ff5c0fd9fe0d5c09"
+  },
+  "audit_sha256": "5100dfa3b77bdd657e914bd0300c8fec87fefe6e0d3b65972901ac957b167191",
+  "audit_code_sha256": "11eac15b8ff8be5851d88f23ed9f1e4121be4067a1b11a26e72b8efc2d022942",
+  "checks": {
+    "summary_and_five_artifact_hashes_authenticated": true,
+    "two_original_copies_byte_identical": true,
+    "all179_event_and_receipt_prefix_objects_equal": true,
+    "financial_admission_flags_false": true,
+    "supported_module_compile_exit_code": 0,
+    "independent_audit_exit_code": 0,
+    "six_outputs_byte_identical": {
+      "derived_events.json": true,
+      "event_source_receipts.json": true,
+      "effective_2026_proofs.json": true,
+      "original_derived_events.json": true,
+      "original_event_source_receipts.json": true,
+      "summary.json": true
+    },
+    "audit_byte_identical": true,
+    "all_source_root_files_byte_unchanged": true
+  },
+  "counts": {
+    "original_events": 179,
+    "appended_events": 87,
+    "compiled_events": 266,
+    "earlier_rows_of_future_only_names_ignored": 25,
+    "unverified_tax_event_keys": [
+      "SZ000937|2026-06-17"
+    ]
+  },
+  "temporary_replication_directory": "/var/folders/rx/bdp_c2490z19fshb23q6pfp40000gn/T/lowbeta-extension-events-output-review-xi8c0dfl",
+  "findings": [],
+  "nonpassing_probe": {
+    "command": "PYTHONPATH=src python scripts/prepare_low_beta60_extension_events.py --help",
+    "exit_code": 1,
+    "observed": "ModuleNotFoundError: No module named scripts",
+    "interpretation": "Unsupported direct-path invocation; supported -m invocation passed. No source compilation occurred during this probe."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": "INDEPENDENT266_EVENTS_RECONSTRUCTED_ORIGINAL179_UNCHANGED_ONE_UNKNOWN_TAX_GUARD",
+  "audit_code_sha256": "11eac15b8ff8be5851d88f23ed9f1e4121be4067a1b11a26e72b8efc2d022942",
+  "plan_sha256": "124b94a62ed55a8641107a04e17054abc493a5d824794ded73667e2b143bb112",
+  "summary_sha256": "24140caa7496ff9ab7e1ec56c54c226d0aaf31d03ca909b2dabd00582ec62843",
+  "source_names": 79,
+  "source_sessions": 671,
+  "original_events_preserved": 179,
+  "appended_events_reconstructed": 87,
+  "events_reconstructed": 266,
+  "source_kind_counts": {
+    "VENDOR_DISTRIBUTION": 262,
+    "PRIMARY_CASH_PRECISION_CORRECTION": 2,
+    "PRIMARY_NOTICE_SUPPLEMENT": 2
+  },
+  "original_event_and_receipt_files_copied_byte_exact": true,
+  "original69_raw_prefixes_identical": true,
+  "earlier_future_only_name_rows_excluded": 25,
+  "unverified_tax_event_keys": [
+    "SZ000937|2026-06-17"
+  ],
+  "verified_capital_events_combined": 4,
+  "verified_stock_tax_basis_events_combined": 2,
+  "negative_controls_rejected": {
+    "old_event_rewrite": true,
+    "vendor_cash_instead_of_primary": true,
+    "wrong_new_record_date": true,
+    "missing_supplement": true,
+    "silent_tax_exemption": true,
+    "erased_unknown_tax_guard": true
+  },
+  "negative_controls_use_hash_gate": false,
+  "imports_project_code": false,
+  "source_inputs_modified": false,
+  "account_replay_admitted": false,
+  "historical_arrival_verified": false,
+  "full_corporate_actions_certified": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "portfolio_returns_computed": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}
