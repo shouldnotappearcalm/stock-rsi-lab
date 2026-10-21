@@ -1,0 +1,92 @@
+{
+  "status": "PROPOSED_COMPOSITE_CAPITAL_TAX_EVIDENCE_REVIEW_NO_ADMISSION",
+  "event_key": "SZ000937|2026-06-17",
+  "original_event_id": "9209326edbab25fc20575c17d79d5059ac14cdabb28e3a196617944c3cbff3d7",
+  "current_capital_tax_exempt_verified": false,
+  "new_exemption_admitted": false,
+  "regulation_capture_manifest_sha256": "a13cad377aab1f33d76c046fea2dd6433f115bc223fd9068dd6e06629290ef46",
+  "primary_sources": [
+    {
+      "file": "SZ000937-20260611.pdf",
+      "sha256": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+      "publication_day": "2026-06-11",
+      "pages_one_based": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "facts": {
+        "cash_per10_original_shares": "1.00",
+        "capital_shares_per10_original_shares": "1.00",
+        "individual_supplementary_tax_per10_original_shares": [
+          "0.20",
+          "0.10",
+          "0"
+        ],
+        "record_day": "2026-06-16",
+        "ex_pay_list_day": "2026-06-17"
+      }
+    },
+    {
+      "file": "SZ000937-20260827.pdf",
+      "sha256": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+      "publication_day": "2026-08-27",
+      "pages_one_based": [
+        98
+      ],
+      "retrospective_only": true,
+      "facts": {
+        "capital_premium_row_decrease_CNY": "353354685.00",
+        "new_shares": 353354685,
+        "note_links_to_same_AGM_transfer": true
+      },
+      "does_share_premium_label_alone_prove_stock_issuance_premium": false
+    }
+  ],
+  "official_regulations": {
+    "sat-1997-198": {
+      "id": "sat-1997-198",
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/grsds/200402/t288638.html",
+      "file": "sat-1997-198.html",
+      "sha256": "9eab1f2460833fc4ffcbb1fddda223bad3335efd63938d36bea2ca5e640d6633",
+      "bytes": 28613,
+      "receipt": {
+        "request_file": "queries/8e8c7530c9e863ec1f99db1a884c4f38ed9d1aa6ec58d9faaa961043355288a4/request.json",
+        "request_sha256": "105fd4dce004049eda014cce43af441df0f9355ef99fc2385c1be53ae7b1646c",
+        "reserved_file": "queries/8e8c7530c9e863ec1f99db1a884c4f38ed9d1aa6ec58d9faaa961043355288a4/reserved-1.json",
+        "reserved_sha256": "607db1758e4ec1cff5b42549c45f93af4dbdc69d3660481d4114bc8e0867f3c7",
+        "response_file": "queries/8e8c7530c9e863ec1f99db1a884c4f38ed9d1aa6ec58d9faaa961043355288a4/response-1.json",
+        "response_sha256": "91a109246bb04cc0280189bfb23512706ce765cf1086c6f3b1af790f9cb69206"
+      }
+    },
+    "sat-1998-289": {
+      "id": "sat-1998-289",
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/grsds/200402/t288656.html",
+      "file": "sat-1998-289.html",
+      "sha256": "e53ff0c1bc1aad4a96c85cb5ea000d9ec64d9c833591ccd02affa0898ad5bb42",
+      "bytes": 28883,
+      "receipt": {
+        "request_file": "queries/6c82c7345c2ba0fd518c963f62ad639f6b29acbfb21b9863b66c5b9bea9f1c1b/request.json",
+        "request_sha256": "2fe75df1512702cb0e16c0b28a17f0778ec6d403e4691f69fe5201d741452200",
+        "reserved_file": "queries/6c82c7345c2ba0fd518c963f62ad639f6b29acbfb21b9863b66c5b9bea9f1c1b/reserved-1.json",
+        "reserved_sha256": "d53d9a086ff0aea1e8ca012889735051c9e08b4dfb501cd883443ff169ec934d",
+        "response_file": "queries/6c82c7345c2ba0fd518c963f62ad639f6b29acbfb21b9863b66c5b9bea9f1c1b/response-1.json",
+        "response_sha256": "7f0510fc0cf94a19ec06330f32f740676cb837b68bd0678b035f6b9de6bb50b4"
+      }
+    }
+  },
+  "inferences_to_review": [
+    "Whether the formal issuer tax schedule is sufficient direct support for the existing20percent cash tax stress with no additional taxable capital income.",
+    "Whether documented premium decrease plus1997-198/1998-289 qualifies the transfer, or the share-premium accounting label can include legally different reserves.",
+    "Whether later issuer accounting evidence may substantiate an evaluator-only historical accounting fact while remaining excluded from every decision snapshot."
+  ],
+  "constraints": [
+    "Preserve the actual six-profile failed run and all raw vendor bytes.",
+    "Do not change fixed targets, account costs, tax formula or market outcome selection.",
+    "If accepted, preregister any correction, independently verify exactly one changed event and unchanged other268 plus original2024/25 financial prefixes before ROI.",
+    "If insufficient, specify the missing primary premise; do not grant exemption from price gaps or profit pressure."
+  ],
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

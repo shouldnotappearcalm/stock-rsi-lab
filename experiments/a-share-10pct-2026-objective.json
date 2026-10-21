@@ -1,7 +1,7 @@
 {
   "objective_id": "a-share-positive-2024-2025-and-10pct-2026-v1",
   "status": "ACTIVE_NOT_ACHIEVED",
-  "clarified_by_user": "2024-2025都得赚钱，今年1-10也得10%+",
+  "clarified_by_user": "2024-2025\u90fd\u5f97\u8d5a\u94b1\uff0c\u4eca\u5e741-10\u4e5f\u5f9710%+",
   "registered_on": "2026-10-17",
   "required_net_compound_returns": {
     "2024_full_calendar_year_pct": ">0",
@@ -13,7 +13,7 @@
   "requested_2026_end": "last actual exchange session on or before 2026-10-31",
   "requested_2026_horizon_complete": false,
   "selection_rule": "Economic hypothesis and rule choices use independent sources and pre-2026 development only; fixed 2026 diagnostics must not tune later variants.",
-  "no_lookahead_red_line": "不要测试区间的事实去反推方法",
+  "no_lookahead_red_line": "\u4e0d\u8981\u6d4b\u8bd5\u533a\u95f4\u7684\u4e8b\u5b9e\u53bb\u53cd\u63a8\u65b9\u6cd5",
   "claim_boundary": "Historical simulation is not realized account profit. No broker orders are authorized or submitted by this project.",
   "completion_requires": [
     "Same frozen method satisfies all three specified net-return conditions",
@@ -22,7 +22,7 @@
     "Honest labeling of consumed 2026 diagnostics and point-in-time data limitations"
   ],
   "remaining_completion_evidence": [
-    "Complete requested October or explicit acceptance of an interim cutoff; low_beta60 raw sources now2026-10-20, missing SH601598Oct20 primary notice reviewed, horizon event compilation and continuous account admission pending.",
+    "Complete requested October or explicit interim acceptance. Currentlow_beta60sixprofiles stop atJun17 because6300ownedSZ000937shares require supportedcapital-taxevidence; no2026returnhasbeencomputed.",
     "User capital remains unspecified; no deployment participation/cost profile selected, all 60 scenarios retained",
     "Nested execution now records explicit legal-sized children, capacity and residuals; counterfactual queue/impact and precise historical available volume are not calibrated",
     "Historical official price limits/special status and real information arrival times remain unverified",
@@ -378,7 +378,7 @@
     "all_scenario_fills_reconstructed": 234209
   },
   "latest_strategy_research": {
-    "status": "LOW_BETA60_SIX_HORIZON_ACCOUNT_PLAN_FROZEN_READY_FOR_ACTUAL_REPLAY",
+    "status": "LOW_BETA60_SIX_ACTUAL_HORIZON_ACCOUNTS_STOP_AT_OWNED_UNVERIFIED_CAPITAL_TAX_NO2026ROI",
     "candidate": "low_beta60",
     "candidate_budget": 1,
     "adaptive_development_not_sealed": true,
@@ -396,7 +396,7 @@
     "raw_share_execution_verified": false,
     "candidate_promoted": false,
     "objective_achieved": false,
-    "next_action": "Freeze and run six unchanged continuous minute accounts through unconditionalOct20 using269 verified events and2086 potential minute tapes; keep SZ000937 tax guard. Verify original2024/25 financial prefixes before any2026 return summary. Preserve all failure states and do not tune strategy from2026 outcomes.",
+    "next_action": "Review formal issuer tax schedule, capital-source evidence and authenticated SAT rules as an explicit evaluator-only evidence proposal. Preserve six failed runs. If supported, preregister exactly one source-event classification correction with independent evidence review and unchanged other268 records, investment targets and old2024/25 account prefixes; otherwise seek the exact missing primary premise. No2026 outcome-based strategy changes or partial-return substitution.",
     "formation_summary_file": "experiments/qlib/low-beta60-pre2026-formations-summary.json",
     "eligible_range": [
       326,
@@ -951,6 +951,35 @@
       "plan_sha256": "26c820a9b29192e726e97c568118ed38e70c719d77f0d030ffbc9332d89e15cd",
       "verification_file": "experiments/qlib/low-beta60-horizon-account-verification.json",
       "portfolio_returns_computed": false
+    },
+    "horizon_account_actual": {
+      "result_file": "experiments/qlib/low-beta60-horizon-account-results.json",
+      "independent_review_file": "experiments/qlib/low-beta60-horizon-account-independent-review.json",
+      "verification_file": "experiments/qlib/low-beta60-horizon-account-verification.json",
+      "result_document": "docs/research/low-beta60-horizon-account-results-2026-10-21.md",
+      "freeze_commit": "d23608f",
+      "actual_exit_code": 2,
+      "profiles": 6,
+      "complete_profiles": 0,
+      "tax_event": "SZ000937|2026-06-17",
+      "registered_quantity_each": 6300,
+      "all_six_cash_share_lot_claims_reconciled": true,
+      "retained_pre2026_artifact_prefix_types_checked": 4,
+      "full_seven_artifact_prefix_parity_claimed": false,
+      "all2086_source_tapes_authenticated": true,
+      "nonhalted_parent_day_union": 945,
+      "investment_rule_changed": false,
+      "portfolio_returns_computed": false,
+      "objective_achieved": false
+    },
+    "capital_tax_evidence_review": {
+      "request_file": "experiments/qlib/low-beta60-capital-tax-regulation-request.json",
+      "capture_manifest_file": "experiments/qlib/low-beta60-capital-tax-regulation-capture-manifest.json",
+      "proposal_file": "experiments/qlib/low-beta60-capital-tax-evidence-proposal.json",
+      "document_file": "docs/research/low-beta60-capital-tax-evidence-review-2026-10-21.md",
+      "official_pages_captured": 2,
+      "new_exemption_admitted": false,
+      "review_pending": true
     }
   },
   "strategy_research_history": [
@@ -4818,5 +4847,13 @@
       "new_2026_outcomes_queried": false,
       "old_investment_rules_changed": false
     }
-  ]
+  ],
+  "capital_tax_evidence_review": {
+    "file": "experiments/qlib/low-beta60-capital-tax-evidence-adequacy-review.json",
+    "sha256": "17752a53c768e1e4210c4cece963e6799ebd25930f15c1607a24193d10a1b783",
+    "status": "ENGINEERING_SCENARIO_SUPPORT_ONLY_NO_STATUTORY_EXEMPTION_ADMISSION",
+    "current_strict_exemption_flag": false,
+    "original_failures_preserved": true,
+    "portfolio_returns_computed": false
+  }
 }

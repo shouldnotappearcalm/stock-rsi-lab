@@ -1,0 +1,52 @@
+{
+  "request_sha256": "7e16ae558b7727f355826a3f0cb4cf854260f351f28a4d30380965ac929209d3",
+  "sources": {
+    "sat-1997-198": {
+      "id": "sat-1997-198",
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/grsds/200402/t288638.html",
+      "file": "sat-1997-198.html",
+      "sha256": "9eab1f2460833fc4ffcbb1fddda223bad3335efd63938d36bea2ca5e640d6633",
+      "bytes": 28613,
+      "receipt": {
+        "request_file": "queries/8e8c7530c9e863ec1f99db1a884c4f38ed9d1aa6ec58d9faaa961043355288a4/request.json",
+        "request_sha256": "105fd4dce004049eda014cce43af441df0f9355ef99fc2385c1be53ae7b1646c",
+        "reserved_file": "queries/8e8c7530c9e863ec1f99db1a884c4f38ed9d1aa6ec58d9faaa961043355288a4/reserved-1.json",
+        "reserved_sha256": "607db1758e4ec1cff5b42549c45f93af4dbdc69d3660481d4114bc8e0867f3c7",
+        "response_file": "queries/8e8c7530c9e863ec1f99db1a884c4f38ed9d1aa6ec58d9faaa961043355288a4/response-1.json",
+        "response_sha256": "91a109246bb04cc0280189bfb23512706ce765cf1086c6f3b1af790f9cb69206"
+      }
+    },
+    "sat-1998-289": {
+      "id": "sat-1998-289",
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/grsds/200402/t288656.html",
+      "file": "sat-1998-289.html",
+      "sha256": "e53ff0c1bc1aad4a96c85cb5ea000d9ec64d9c833591ccd02affa0898ad5bb42",
+      "bytes": 28883,
+      "receipt": {
+        "request_file": "queries/6c82c7345c2ba0fd518c963f62ad639f6b29acbfb21b9863b66c5b9bea9f1c1b/request.json",
+        "request_sha256": "2fe75df1512702cb0e16c0b28a17f0778ec6d403e4691f69fe5201d741452200",
+        "reserved_file": "queries/6c82c7345c2ba0fd518c963f62ad639f6b29acbfb21b9863b66c5b9bea9f1c1b/reserved-1.json",
+        "reserved_sha256": "d53d9a086ff0aea1e8ca012889735051c9e08b4dfb501cd883443ff169ec934d",
+        "response_file": "queries/6c82c7345c2ba0fd518c963f62ad639f6b29acbfb21b9863b66c5b9bea9f1c1b/response-1.json",
+        "response_sha256": "7f0510fc0cf94a19ec06330f32f740676cb837b68bd0678b035f6b9de6bb50b4"
+      }
+    }
+  },
+  "errors": {},
+  "source_facts_reviewed": false,
+  "new_exemption_admitted": false,
+  "portfolio_returns_computed": false,
+  "http_query_reservations": 2,
+  "capture_complete": true,
+  "artifact_sha256": {
+    "request.json": "7e16ae558b7727f355826a3f0cb4cf854260f351f28a4d30380965ac929209d3",
+    "sat-1998-289.html": "e53ff0c1bc1aad4a96c85cb5ea000d9ec64d9c833591ccd02affa0898ad5bb42",
+    "sat-1997-198.html": "9eab1f2460833fc4ffcbb1fddda223bad3335efd63938d36bea2ca5e640d6633",
+    "queries/6c82c7345c2ba0fd518c963f62ad639f6b29acbfb21b9863b66c5b9bea9f1c1b/request.json": "2fe75df1512702cb0e16c0b28a17f0778ec6d403e4691f69fe5201d741452200",
+    "queries/6c82c7345c2ba0fd518c963f62ad639f6b29acbfb21b9863b66c5b9bea9f1c1b/reserved-1.json": "d53d9a086ff0aea1e8ca012889735051c9e08b4dfb501cd883443ff169ec934d",
+    "queries/6c82c7345c2ba0fd518c963f62ad639f6b29acbfb21b9863b66c5b9bea9f1c1b/response-1.json": "7f0510fc0cf94a19ec06330f32f740676cb837b68bd0678b035f6b9de6bb50b4",
+    "queries/8e8c7530c9e863ec1f99db1a884c4f38ed9d1aa6ec58d9faaa961043355288a4/request.json": "105fd4dce004049eda014cce43af441df0f9355ef99fc2385c1be53ae7b1646c",
+    "queries/8e8c7530c9e863ec1f99db1a884c4f38ed9d1aa6ec58d9faaa961043355288a4/reserved-1.json": "607db1758e4ec1cff5b42549c45f93af4dbdc69d3660481d4114bc8e0867f3c7",
+    "queries/8e8c7530c9e863ec1f99db1a884c4f38ed9d1aa6ec58d9faaa961043355288a4/response-1.json": "91a109246bb04cc0280189bfb23512706ce765cf1086c6f3b1af790f9cb69206"
+  }
+}

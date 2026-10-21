@@ -1,5 +1,5 @@
 {
-  "status": "FROZEN_CONTINUOUS_ACCOUNT_BEFORE_ACTUAL_REPLAY",
+  "status": "ALL_SIX_ACTUAL_ACCOUNTS_STOPPED_AT_OWNED_UNKNOWN_TAX_EVENT_NO2026ROI",
   "plan_sha256": "26c820a9b29192e726e97c568118ed38e70c719d77f0d030ffbc9332d89e15cd",
   "full_tests_passed": 471,
   "critical_or_important_review_findings": 0,
@@ -19,7 +19,24 @@
     "reference_profiles": 6,
     "tape_accesses": 0
   },
-  "actual_account_replays": 0,
+  "actual_account_replays": 6,
   "portfolio_returns_computed": false,
-  "objective_achieved": false
+  "objective_achieved": false,
+  "freeze_commit": "d23608f",
+  "actual_account_exit_code": 2,
+  "actual_account_profiles": 6,
+  "actual_summary_sha256": "e199f2e0863a55fd48df0aa397eebfdc291599b00714aecc7b9543b3e94f22f4",
+  "actual_case_results_sha256": "817b410cc8f065d86fd292fe98d1425304ee1af25ac1a1226b74a259210c7c2e",
+  "independent_failure_state_audit_sha256": "0aabef6f89f0ea80eeed63a5139866e8550d34b7d67b0bfd9aec6931c4bdbe5e",
+  "independent_failure_state_audit_code_sha256": "b47b555296263fae2e1a4c0d93e9bd9d993e829154ddb4c0959c9835dffba4eb",
+  "root_auditor_exit_code": 0,
+  "root_auditor_byte_exact_reproduction": true,
+  "root_audit_log_sha256": "b12afe7a9a6cb5b33f99b6e9f5f122b113baa081af2e2877308209ae4a3d7c4e",
+  "all_six_positive_registration_quantity": 6300,
+  "last_completed_account_clock": [
+    "2026-06-16",
+    1
+  ],
+  "source_minute_access_union": 945,
+  "all_seven_financial_prefix_parity_claimed": false
 }

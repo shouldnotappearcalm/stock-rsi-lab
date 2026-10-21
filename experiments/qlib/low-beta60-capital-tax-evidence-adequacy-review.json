@@ -1,0 +1,85 @@
+{
+  "status": "INDEPENDENT_EVIDENCE_ADEQUACY_REVIEW_PROPOSAL_ONLY_NO_ADMISSION",
+  "proposal_sha256": "ad814ba8a7f54a08b6b293c47dc845ed843cd6fbc9028ff6ed324155bf748dbd",
+  "event_key": "SZ000937|2026-06-17",
+  "conclusion": "Adequate to propose an explicitly inferred, event-specific engineering classification of no additional capital-tax reserve under the unchanged20percent cash-stress model. Not a deductively complete statutory proof that the transferred reserve was formed exclusively from stock-issuance premium. No current exemption or account admission is granted.",
+  "questions": {
+    "issuer_schedule": {
+      "answer": "Strong positive primary evidence for the engineering treatment; an express no-tax sentence is not the only admissible evidence form.",
+      "facts": "June11 notice pp1-2 sets cash1.00CNY plus capital1.00share per10 original shares. Its ordinary unrestricted individual/FIFO supplementary tax schedule specifies total per10 amounts0.20/0.10/0, exactly20percent/10percent/0 of the cash1.00.",
+      "inference": "For the investor category represented by that schedule, the formal implementation disclosure is consistent with no additional taxable capital distribution. Retaining the flat20percent cash reserve is supported as an engineering stress interpretation, not actual FIFO settlement.",
+      "limit": "The note grammatically describes personal dividend tax and does not separately state that the capital component is exempt. Treating the disclosed supplementary amounts as the applicable comprehensive schedule is a reviewer inference, not a quoted component-specific exemption or legal guarantee. Neither amount matching nor omission alone is a universal exemption rule."
+    },
+    "share_premium_source": {
+      "answer": "No: the accounting label capital/share premium does not necessarily prove the narrower1998-289 stock-issuance-premium source condition.",
+      "facts": "Aug27 report physicalp98 explicitly reduces capital/share premium by353354685CNY and links the same AGM transfer to353354685new shares. This establishes the recorded account debit and event link.",
+      "additional_primary_countercheck": "The same report physicalp51 (printedp50), accounting policy6(1), allows differences between acquired net-asset book value and merger consideration to adjust capital reserve (share premium). Therefore this report itself distinguishes the accounting account label from a unique cash stock-issuance origin; no claim is made that this particular transfer actually used such a difference.",
+      "regulation": "1997-198 states the capital-reserve treatment;1998-289 paragraph2 expressly limits that reference to reserves formed from stock premium issuance revenue and distinguishes other reserves. Both captured official pages display full validity.",
+      "missing_premise_for_strict_statutory_proof": "Trace this particular353354685CNY debit to qualifying stock-premium issuance revenue, rather than merely to the capital/share-premium account. A primary issuer/registry event-tax breakdown identifying the capital component, or an issuer/auditor reserve-origin reconciliation through the transfer with qualifying issuance proceeds and intervening movements, would close this premise. Repeating the same balance-sheet label or matching share counts would not."
+    },
+    "retrospective_visibility": {
+      "answer": "Aug27 evidence may corroborate an evaluator-only historical accounting classification while remaining unavailable to every June decision snapshot.",
+      "limits": [
+        "Do not claim June market availability of Aug27 accounting details.",
+        "Do not change weights, holdings, costs, trade decisions or cash-tax formula.",
+        "Later evaluator evidence does not create a sealed out-of-sample result; record the post-event/post-failure evidence review timing.",
+        "June11 issuer schedule is the contemporaneous event disclosure; new2026-10-21 regulation capture proves archived content/capture, not historical fetch timing."
+      ]
+    }
+  },
+  "flag_semantics": {
+    "current_capital_tax_exempt_verified": false,
+    "current_guard_should_remain_unchanged": true,
+    "can_support_new_proposal": "Yes, if a separately frozen proposal explicitly identifies ISSUER_FORMAL_TAX_SCHEDULE_COMPOSITE_INFERENCE as the engineering evidence basis, scopes it only to this event and ordinary unrestricted individual scenario, preserves the unresolved narrower issuance-origin proof, and receives independent approval before any replay.",
+    "must_not_claim": "No legal certainty, explicit issuer no-tax sentence, proven qualifying issuance origin, all-investor treatment, or actual FIFO tax settlement.",
+    "if_existing_verified_flag_is_defined_as_strict_statutory_source_certification": "Current evidence is insufficient for that stronger meaning; keep it false and obtain the precise missing primary premise above rather than silently redefining it."
+  },
+  "review_checks": {
+    "official_original_HTML_read": 2,
+    "official_HTTP_chains": [
+      {
+        "id": "sat-1997-198",
+        "bytes": 28613,
+        "complete_chain": true,
+        "status": 200,
+        "attempt": 1,
+        "captured_at_utc": "2026-10-21T01:10:27.715379+00:00"
+      },
+      {
+        "id": "sat-1998-289",
+        "bytes": 28883,
+        "complete_chain": true,
+        "status": 200,
+        "attempt": 1,
+        "captured_at_utc": "2026-10-21T01:10:27.866100+00:00"
+      }
+    ],
+    "PDF_hashes_matched_proposal": true,
+    "June_notice_pages_visually_reviewed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "Aug_report_physical_pages_visually_reviewed": [
+      51,
+      98
+    ],
+    "all_six_failed_runs_preserved": true,
+    "prior_failure_summary_sha256": "e199f2e0863a55fd48df0aa397eebfdc291599b00714aecc7b9543b3e94f22f4",
+    "capital_transfer_guard_source_sha256": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "review_network_calls": 0,
+    "source_files_edited": false,
+    "account_replay_performed": false,
+    "portfolio_returns_computed": false
+  },
+  "required_before_any_later_repair": [
+    "Freeze an event-specific interpretation/proof proposal with explicit evidence and inference boundaries, not a general relaxation for capital reserves.",
+    "Bind all raw hashes, June source schedule, retrospective accounting corroboration and both regulations in evaluator-only proof lineage.",
+    "Independently verify exactly one event classification changes and other268events plus original2024/25 financial prefixes remain unchanged before computing ROI.",
+    "Preserve original six failures; create any approved later attempt separately."
+  ],
+  "new_exemption_admitted": false,
+  "admitted_for_account_replay": false,
+  "objective_achieved": false
+}
