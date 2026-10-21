@@ -1,0 +1,20 @@
+{
+  "status": "TWO_PRE2026_PHYSICAL_DAILY_ACCOUNTS_INDEPENDENTLY_RECONCILED",
+  "plan_sha256": "9d6ece8670a62f17acd31d9a82175b8d289b74b45465e5064bd99cdd1bd83a45",
+  "results_sha256": "899e6bf7acd36961b52e8ca6782ef9616e7af47dbcdcd94abb878494bd35b459",
+  "independent_ledger_audit_sha256": "90de13126531e933adc2e68175b466e3fd420e081dccdedf3460182155483dd3",
+  "independent_ledger_script_sha256": "e9d41497a764cb5823beb0f741406b2c8a9a2a0da1b2e37d0a4b1f62f5d0ba04",
+  "root_ledger_reproduction_byte_identical": true,
+  "root_numeric_verification_sha256": "7382e6724678b2d0e96ae9db8ad51d8514cfe38e1b2dcd2129ff2d70b6366f8b",
+  "sessions_per_case": 486,
+  "events_per_case": 378,
+  "complete_decision_snapshot_hashes": 48,
+  "financial_artifacts": 12,
+  "raw_daily_development_gate_passes": true,
+  "execution_model": "DAILY_OPEN_PROXY_ONLY",
+  "minute_execution_verified": false,
+  "new_2026_candidate_values_or_returns_queried": false,
+  "historical_arrival_verified": false,
+  "strict_statutory_tax_certification": false,
+  "objective_achieved": false
+}

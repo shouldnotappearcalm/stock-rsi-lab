@@ -5123,7 +5123,7 @@
     }
   ],
   "latest_pre2026_price_delay_screen": {
-    "status": "ORIGINAL_DAILY_SCREEN_MARK_BLOCK_RETAINED_SUPPLEMENT_PERMITS_RAW_SHARE_CONFIRMATION",
+    "status": "PRE2026_RAW_DAILY_PASS_INTRADAY_CONFIRMATION_PENDING",
     "candidate": "price_delay_d1",
     "candidate_budget": 1,
     "2024_normalized_daily_proxy_net_pct": 16.908141739694326,
@@ -5146,7 +5146,7 @@
     "candidate_promoted": false,
     "objective_achieved": false,
     "raw_source_capture": {
-      "status": "151_CAPTURED_AND_AUTHENTICATED_CORPORATE_ACTION_ADMISSION_PENDING",
+      "status": "RAW_SOURCE_BOUND_AND_USED_IN_AUDITED_PRE2026_DAILY_ACCOUNT",
       "manifest_file": "experiments/qlib/price-delay-pre2026-raw-source-manifest.json",
       "audit_file": "experiments/qlib/price-delay-raw-source-independent-audit.json",
       "verification_file": "experiments/qlib/price-delay-raw-source-verification.json",
@@ -5156,8 +5156,25 @@
       "failed_names": 0,
       "noncash_primary_questions": 5,
       "unmatched_adjustment_questions": 10,
-      "raw_share_account_replayed": false,
-      "new_2026_market_queries": false
+      "raw_share_account_replayed": true,
+      "new_2026_market_queries": false,
+      "all_corporate_actions_certified": false
+    },
+    "raw_daily_confirmation": {
+      "status": "BOTH_PROFILES_RECONCILED_PRE2026_GATE_PASS_MINUTES_PENDING",
+      "result_file": "experiments/qlib/price-delay-raw-daily-results.json",
+      "ledger_audit_file": "experiments/qlib/price-delay-raw-daily-independent-ledger-audit.json",
+      "verification_file": "experiments/qlib/price-delay-raw-daily-verification.json",
+      "reference_extra_bps": 40,
+      "initial_CNY": "1000000",
+      "2024_net_pct": 15.670055,
+      "2025_net_pct": 4.107627509989513,
+      "mean_exposure_pct": 92.13425562532221,
+      "max_drawdown_pct": -15.711192439662366,
+      "actual_unknown_tax_record_ownership_zero": true,
+      "minute_execution_verified": false,
+      "new_2026_values_or_returns_queried": false,
+      "objective_achieved": false
     }
   }
 }

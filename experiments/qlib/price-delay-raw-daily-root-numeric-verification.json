@@ -1,0 +1,30 @@
+{
+  "status": "ROOT_RAW_DAILY_METRICS_AND12_FINANCIAL_ARTIFACT_HASHES_REPRODUCED",
+  "summary_sha256": "899e6bf7acd36961b52e8ca6782ef9616e7af47dbcdcd94abb878494bd35b459",
+  "plan_sha256": "9d6ece8670a62f17acd31d9a82175b8d289b74b45465e5064bd99cdd1bd83a45",
+  "checks": {
+    "20": {
+      "sessions": 485,
+      "2024_net_pct": "17.5074100",
+      "2025_net_pct": "4.578358079715994080713718400",
+      "mean_exposure_pct": "92.07543657926187012457417346",
+      "max_drawdown_pct": "-15.41076251788153383414643429",
+      "year2024_terminal_CNY": "1175074.1000",
+      "year2025_terminal_CNY": "1228873.2000",
+      "artifacts_authenticated": 6
+    },
+    "40": {
+      "sessions": 485,
+      "2024_net_pct": "15.67005500",
+      "2025_net_pct": "4.107627509989512843233281100",
+      "mean_exposure_pct": "92.13425562532220792081224971",
+      "max_drawdown_pct": "-15.71119243966236600407121137",
+      "year2024_terminal_CNY": "1156700.5500",
+      "year2025_terminal_CNY": "1204213.5000",
+      "artifacts_authenticated": 6
+    }
+  },
+  "full_ledger_independent_audit_pending": true,
+  "new_2026_market_queries": false,
+  "objective_achieved": false
+}
