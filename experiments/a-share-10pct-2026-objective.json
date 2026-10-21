@@ -5144,6 +5144,20 @@
     "2026_candidate_market_values_or_returns_queried": false,
     "raw_share_execution_verified": false,
     "candidate_promoted": false,
-    "objective_achieved": false
+    "objective_achieved": false,
+    "raw_source_capture": {
+      "status": "151_CAPTURED_AND_AUTHENTICATED_CORPORATE_ACTION_ADMISSION_PENDING",
+      "manifest_file": "experiments/qlib/price-delay-pre2026-raw-source-manifest.json",
+      "audit_file": "experiments/qlib/price-delay-raw-source-independent-audit.json",
+      "verification_file": "experiments/qlib/price-delay-raw-source-verification.json",
+      "names": 151,
+      "bars": 73386,
+      "fresh_query_reservations": 88,
+      "failed_names": 0,
+      "noncash_primary_questions": 5,
+      "unmatched_adjustment_questions": 10,
+      "raw_share_account_replayed": false,
+      "new_2026_market_queries": false
+    }
   }
 }
