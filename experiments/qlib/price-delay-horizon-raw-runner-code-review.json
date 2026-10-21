@@ -1,0 +1,47 @@
+{
+  "status": "BOUNDED_RAW_DAILY_RUNNER_STATIC_AND_SYNTHETIC_REVIEW_PASS_ACTUAL_INPUT_READINESS_PENDING",
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "reviewed_file_sha256": {
+    "scripts/run_price_delay_horizon_raw.py": "b2ec12aa316cd09717c7c65f01efb51c31fde202710c563473b3f2eb3593399a",
+    "tests/test_run_price_delay_horizon_raw.py": "de66f0efce40cd357e2ec153a4cd34fa035fe9d7b32de4999cb5d9fbf2023fdb",
+    "docs/research/price-delay-horizon-account-continuation-plan-2026-10-21.md": "ba3dbe663a9a5b9de4b934b2252c9db113d8d46d9dd56adda1e73e18ba4f27f0",
+    "scripts/replay_stock_distribution_targets.py": "53071ca9cb108f5f95c9794ab87aae2ab389858ec3f50094b75afb9a6e72d0b4",
+    "src/stock_rsi/ordinary_source_scope.py": "7e27c6b36bade230cc429d7fafd43d882fc9c134a8f6b4f31ef94e539232b888",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/execution_cost.py": "5074d1ed75bc8b99f94b5077a0e179cda1b3954283d59f85d5c5f038a76a039e"
+  },
+  "checks": {
+    "focused_tests_passed": 12,
+    "simulator_same_code_object_and_same_original_integer_allocator": true,
+    "only_source_view_rebound_to_ordinary_guard": true,
+    "original151_full_history_new52_2026_only_except_first_target_Dec31_close_state": true,
+    "new_name_boundary_fields_only_date_code_close_tradestatus_isST": true,
+    "synthetic_original_six_serialized_financial_prefix_hashes_identical": true,
+    "Dec31_checkpoint_before_crossyear_new_intents_protects_mutable_order_status_prefix": true,
+    "source_scope_old241_and_full_expected_records_are_runtime_gates": true,
+    "both_profiles_continuous_initial1m_fixed20_40_before_any_annual_scoring": true,
+    "synthetic_late40_prefix_failure_keeps20_unscored_and_retains_full_failed_case": true,
+    "synthetic_unknown_tax_and_fractional_fail_atomically_and_preserve_entitlements_lots_cash_claims": true,
+    "synthetic_second_profile_runs_after_first_validation_failure": true,
+    "synthetic_hand_annual_denominators_2024initial_2025priorend_2026Dec2025_pass": true,
+    "extra_synthetic_both_profiles_complete_but_postcheck_failure_causes_zero_scorer_calls": true,
+    "actual60financial_file_hash_helper_regression_pass": true,
+    "event_source_pending_interface_matches_five_artifacts_and_old_summary_link_statically": true,
+    "daily_proxy_not_minute_execution_and_fullOctober_not_claimed": true
+  },
+  "limits": [
+    "No real source preflight, actual account run, candidate2026 price/result read or real portfolio ROI was performed.",
+    "The new event source summary, independent audit and account frozen request remain pending; current readiness is code-level only. Their final hashes, exact schema and required keys must pass actual source preflight before any run.",
+    "Synthetic676-day/34-intent results prove integration behaviors, not actual source-prefix equality, ordinary dependency safety or realized account success.",
+    "Annual scoring is allowed only after both runtime profiles pass all complete-path/prefix/conservation gates and source postcheck; failure path remains unscored.",
+    "Daily opening-price proxy is not historical minute execution, official queue/impact, PIT or actual FIFO tax settlement.",
+    "Known validation/arithmetic/I/O failures preserve detailed partial state; this review does not certify durable recovery from abrupt process termination."
+  ],
+  "ready_for_final_source_contract_integration": true,
+  "ready_for_actual_account_run": false,
+  "actual_preflight_performed": false,
+  "actual_account_run": false,
+  "real_portfolio_returns_computed": false
+}

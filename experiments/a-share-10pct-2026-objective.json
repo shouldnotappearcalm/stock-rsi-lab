@@ -5123,7 +5123,7 @@
     }
   ],
   "latest_pre2026_price_delay_screen": {
-    "status": "PRE2026_INTRADAY_PASS_HORIZON_PROOF_PROJECTION_VERIFIED_EVENT_COMPILATION_PENDING",
+    "status": "PRE2026_INTRADAY_PASS_HORIZON_613_EVENTS_VERIFIED_RAW_ACCOUNT_METHOD_READY",
     "candidate": "price_delay_d1",
     "candidate_budget": 1,
     "2024_normalized_daily_proxy_net_pct": 16.908141739694326,
@@ -5403,6 +5403,29 @@
       "minute_quality_checks_not_independently_reimplemented_by_root": true,
       "new_source_queries": 0,
       "source_admitted_for_account_replay": false,
+      "portfolio_returns_computed": false
+    },
+    "horizon_append_only_events": {
+      "event_freeze_commit": "755f6da",
+      "event_request_sha256": "85959144aa9bdcc8521abbada821ca3b9a5c2cebc36aef6127dde7d2ca30e4af",
+      "event_summary_sha256": "2b2e87fde0f400ef846400923d13c072fe2360e785843bb5026b8fa141d450c7",
+      "event_independent_audit_sha256": "a900ac99006afb5d4685fc61e3f7030cf66b7e63e6e32ea085123d5645cb13f0",
+      "root_audit_reproduction_byte_identical": true,
+      "compiled_events": 613,
+      "original_events_and_receipts_identical": 378,
+      "new_vendor_rows": 227,
+      "primary_supplements": 8,
+      "future_only_pre2026_distributions_excluded": 131,
+      "unverified_tax_keys": [
+        "SH603596|2024-05-20",
+        "SH603606|2026-05-26",
+        "SZ000937|2026-06-17"
+      ]
+    },
+    "horizon_raw_account_method": {
+      "request_sha256": "b28c9d0e1d7def9b8aedeee29714a1f7de490b03c47667458445dc70dc2206de",
+      "source_preflight_passed": true,
+      "actual_account_replay_run": false,
       "portfolio_returns_computed": false
     }
   }

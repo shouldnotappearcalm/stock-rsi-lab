@@ -1,0 +1,32 @@
+{
+  "status": "FINAL_RAW_RUNNER_INPUT_BINDING_AND_GUARDED_PREFLIGHT_PASS_NO_ACCOUNT_RUN",
+  "prior_algorithm_review_sha256": "a76a5df65d7d3cb2d998e4a61fdcc469253a8ae66fbb6ddac820e0618e0199f3",
+  "request_sha256": "b28c9d0e1d7def9b8aedeee29714a1f7de490b03c47667458445dc70dc2206de",
+  "runner_sha256": "b2ec12aa316cd09717c7c65f01efb51c31fde202710c563473b3f2eb3593399a",
+  "runner_bytes_unchanged_from_algorithm_review": true,
+  "event_audit_sha256": "a900ac99006afb5d4685fc61e3f7030cf66b7e63e6e32ea085123d5645cb13f0",
+  "event_summary_sha256": "2b2e87fde0f400ef846400923d13c072fe2360e785843bb5026b8fa141d450c7",
+  "actual_compiled_event_count": 613,
+  "guarded_source_preflight_exit_code": 0,
+  "run_profiles_patched_to_raise_and_never_called": true,
+  "actual_output_absent_after_preflight": true,
+  "actual60_financial_file_bytes_and_canonical_audit_versions_authenticated": true,
+  "actual_compiled_source_audit_schema_and_byte_hashes_authenticated": true,
+  "bound_counts": {
+    "method_code_sha256": 25,
+    "public_evidence_sha256": 10,
+    "local_source_sha256": 24,
+    "immutable_financial_sha256": 60
+  },
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "ready_for_freeze_push_and_fixed_account_run": true,
+  "actual_account_executed": false,
+  "portfolio_returns_computed": false,
+  "limits": [
+    "This addendum verifies source readiness and final binding only; prior algorithm review remains separate and unchanged.",
+    "No account run or annual scorer called. Actual account completion, old-prefix reproduction, ordinary dependency guards and two-profile reconciliation remain future runtime checks.",
+    "Frozen commit/push must precede the authorized fixed run. No PIT, minute execution, full-October or investment outcome claim."
+  ]
+}

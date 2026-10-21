@@ -1,0 +1,54 @@
+{
+  "status": "INDEPENDENT_PRICE_DELAY_HORIZON_EVENTS_AND_SOURCE_RECEIPTS_RECONSTRUCTED",
+  "plan_sha256": "85959144aa9bdcc8521abbada821ca3b9a5c2cebc36aef6127dde7d2ca30e4af",
+  "summary_sha256": "2b2e87fde0f400ef846400923d13c072fe2360e785843bb5026b8fa141d450c7",
+  "audit_code_sha256": "1ad2fc1c1e1fd7888826cfc2f8e33a01b6d2d761cd058a0c899bd9e20df2cdff",
+  "raw_manifest_sha256": "9fe3990c0b4b1c076b78c97971ceecf593687b2f15699154c3bdbbce666f6490",
+  "reviewed_manifest_sha256": "51c236c980a154048f147dd8ee9f7053763e71a0fda769be10f94331aee3cb07",
+  "derived_events_sha256": "5271a77bbee48408e2f09ba39b0228518f7ea73a0225e2260e518442c2fafa20",
+  "event_source_receipts_sha256": "44f26087b1e83adb9e4360ffdd0a4ab77a42114a8485a0a9a0853df09d007798",
+  "effective_2026_proofs_sha256": "51c236c980a154048f147dd8ee9f7053763e71a0fda769be10f94331aee3cb07",
+  "events_reconstructed": 613,
+  "original378_events_and_receipts_identical": true,
+  "all_source_receipts_reconstructed": true,
+  "all_original151_source_prefixes_identical": true,
+  "unknown_tax_guards_preserved": true,
+  "all48_original_financial_files_unchanged": true,
+  "all32_original_primary_PDFs_authenticated": true,
+  "vendor_2026_rows": 227,
+  "primary_supplements": 8,
+  "future_only_pre2026_rows_excluded": 131,
+  "source_kind_counts": {
+    "VENDOR_DISTRIBUTION": 600,
+    "PRIMARY_NOTICE_SUPPLEMENT": 11,
+    "PRIMARY_CASH_PRECISION_CORRECTION": 1,
+    "PRIMARY_COMPONENT_PRECISION_CORRECTION": 1
+  },
+  "all_unverified_tax_event_keys": [
+    "SH603596|2024-05-20",
+    "SH603606|2026-05-26",
+    "SZ000937|2026-06-17"
+  ],
+  "negative_controls_rejected": {
+    "changed_primary_pdf_hash": true,
+    "duplicate_primary_supplement": true,
+    "cash_reference_used_as_entitlement": true,
+    "changed_vendor_row_digest": true,
+    "economics_tax_flag_tampering": true,
+    "unknown_tax_exemption_upgrade": true,
+    "V1_reference_price_used_as_cash": true
+  },
+  "critical_or_important_findings": [],
+  "imports_project_code": false,
+  "production_compiler_called": false,
+  "account_replay_run": false,
+  "source_queries": 0,
+  "portfolio_returns_computed": false,
+  "source_admitted_for_account_replay": false,
+  "limitations": [
+    "Source entitlement/identity reconstruction only; no market truth, historical arrival, strict statutory or actual FIFO tax certification.",
+    "Conditional premium-source and explicit tax arithmetic evidence remains conditional.",
+    "Actual record-date ownership and fractional registry allocation must be checked in the separately gated account phase.",
+    "Adjustment factors supply no cash amount; future-only historical rows are excluded."
+  ]
+}

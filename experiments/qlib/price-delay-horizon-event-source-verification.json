@@ -1,0 +1,32 @@
+{
+  "status": "PRICE_DELAY_613_SOURCE_EVENTS_INDEPENDENTLY_RECONSTRUCTED_RAW_ACCOUNT_METHOD_READY_BEFORE_EXECUTION",
+  "event_freeze_commit": "755f6da",
+  "event_request_sha256": "85959144aa9bdcc8521abbada821ca3b9a5c2cebc36aef6127dde7d2ca30e4af",
+  "event_summary_sha256": "2b2e87fde0f400ef846400923d13c072fe2360e785843bb5026b8fa141d450c7",
+  "event_independent_audit_sha256": "a900ac99006afb5d4685fc61e3f7030cf66b7e63e6e32ea085123d5645cb13f0",
+  "root_audit_reproduction_byte_identical": true,
+  "compiled_events": 613,
+  "original_events_and_receipts_identical": 378,
+  "new_vendor_rows": 227,
+  "primary_supplements": 8,
+  "future_only_pre2026_distributions_excluded": 131,
+  "unverified_tax_keys": [
+    "SH603596|2024-05-20",
+    "SH603606|2026-05-26",
+    "SZ000937|2026-06-17"
+  ],
+  "raw_account_request_sha256": "b28c9d0e1d7def9b8aedeee29714a1f7de490b03c47667458445dc70dc2206de",
+  "raw_runner_code_review_sha256": "a76a5df65d7d3cb2d998e4a61fdcc469253a8ae66fbb6ddac820e0618e0199f3",
+  "raw_runner_final_binding_review_sha256": "1a923981a546bd8b64c3755a043f801c2aa3934b30a262e178aacb7b2749ed8a",
+  "raw_account_guarded_source_preflight_exit_code": 0,
+  "actual_account_replay_run": false,
+  "portfolio_returns_computed": false,
+  "full_suite": {
+    "tests": 672,
+    "exit_code": 0,
+    "log_sha256": "ca87dfa745ee0d18d6b5e39fa368a9e5e99364584ff1153cd42519ee8585402d"
+  },
+  "minute_execution_admitted": false,
+  "full_October_2026_complete": false,
+  "objective_achieved": false
+}
