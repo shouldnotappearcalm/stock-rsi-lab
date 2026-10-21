@@ -1,0 +1,27 @@
+{
+  "status": "PASS_BOUNDED_HF_ARCHIVE_PROBE_FIX_REVIEW",
+  "file_sha256": {
+    "src/stock_rsi/archive_minute_probe.py": "1e7bc84a65aecb3e1e948cf5cfcf9136c3b10c3f8bb2d459da162141842417e0",
+    "scripts/probe_hf_illiquidity_minutes_pre2026.py": "3bbb1ebbbc4fe72fbc2fe770302ab333cbd0e7c0f8b6244a45eaf7e72a54e3af",
+    "tests/test_archive_minute_probe.py": "d4e6188bf5ac0c7dce3ef61fc1124f57899d547ddd440c20c0e91f1e8cdd080b",
+    "tests/test_hf_illiquidity_probe.py": "069497c8ef273f71f8605639bc181030180fa0372f452a2bf7877d484266f26a"
+  },
+  "prior_report_sha256": "8d10b4cb060b6fbb4ce3721d185e6bcc0578691f1ecab5eefa35482e97e60ec0",
+  "critical_findings": [],
+  "important_findings": [],
+  "both_original_important_findings_resolved": true,
+  "independent_offline_redirect_probe": {
+    "request_count": 1,
+    "unregistered_redirect_requested": false,
+    "HTTP302_rejected": true,
+    "original_error_body_retained_privately": true
+  },
+  "uppercase_and_mixedcase_signed_URLs_redacted": true,
+  "focused_tests_passed": 13,
+  "final_request_requires_current_method_hash_binding": true,
+  "network_used": false,
+  "real_parquet_read": false,
+  "actual_source_probe_run": false,
+  "repository_modified": false,
+  "scope": "Only original redirect and URL-redaction fixes plus focused synthetic tests. No actual archive quality, execution admission, PIT, physical future isolation or return assessment."
+}

@@ -1,0 +1,172 @@
+{
+  "status": "FROZEN_TWO_OBJECT_29_DEVELOPMENT_SESSION_SOURCE_PROBE",
+  "dataset": "neigezhu/china-a-share-1min-ohlcv",
+  "revision": "ba589a11534825044fe5a6b84838f50ba8d8d188",
+  "objects": {
+    "SH603056": {
+      "file": "data/stock_1m/SH/603056.parquet",
+      "oid": "7495f3cab60517b6e4122a57c7223c3b105ebdafde2bbc9f51081d26f0e4a09d",
+      "size": 5822238
+    },
+    "SZ002505": {
+      "file": "data/stock_1m/SZ/002505.parquet",
+      "oid": "9a4e48cb3a2d1308be015a665d6856a99aff7d69295c52c2899a979e7e318cf7",
+      "size": 8725631
+    }
+  },
+  "maximum_logical_requests": 3,
+  "max_attempts_per_identity": 1,
+  "portfolio_replay_allowed": false,
+  "output_relative": "illiquidity-hf-archive-probe-20261021",
+  "raw_packet_relative": {
+    "SH603056": "illiquidity-raw-source-continuation-20261020/codes/SH603056.json",
+    "SZ002505": "illiquidity-raw-source-continuation-20261020/codes/SZ002505.json"
+  },
+  "source_file_sha256": {
+    "illiquidity-hf-archive-metadata-20261021/README.md": "29a04448d500ccdc4c4acdd133c36b3502d399af1e0050a11208cdd48f9dc7ec",
+    "illiquidity-hf-archive-metadata-20261021/data/stock_1m/SZ/002505.parquet": "3693a9a694c7d254542e4f0fa6fef2363ef3492ed11bbb89ba3d1257f282ba41",
+    "illiquidity-hf-archive-metadata-20261021/data/stock_1m/SH/603056.parquet": "bbb05e57d36f717bfbe04e2aa358d8b29b27ca59bf594af972729a58a6f48f78",
+    "illiquidity-hf-archive-metadata-20261021/metadata/summary.json": "cf7f02aad1e10d59eb129167ec9fe0b0983a9dacbc5e1a71e3deedd402823a45",
+    "illiquidity-hf-archive-metadata-20261021/metadata/missing_intervals.csv": "a84479cfd92ffa7fb0af698bc309a8871bf0b32c539d6965ccea27d536d1de9c",
+    "illiquidity-hf-archive-metadata-20261021/metadata/source_provenance.json": "469021ac7fda54883cf8d0805894d1325dccf5e903d4c025979762d53e29faf6",
+    "illiquidity-hf-archive-metadata-20261021/metadata/coverage_by_instrument.csv": "31a058c1019e1b097d99e862db68a028ec9d191adb09839c35365f4cb390dc32",
+    "illiquidity-raw-source-continuation-20261020/codes/SH603056.json": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+    "illiquidity-raw-source-continuation-20261020/codes/SZ002505.json": "ebc810bdc9c11cb88b3f39040f17df4fd7c3b6a2e090e09bbba626a8162754ce",
+    "illiquidity-hf-archive-metadata-20261021/discovery-http-raw-retry-manifest.json": "2681d978e0fe5b2b1785490fbf759e0b60163f8f569c016665d8e4c76e41cad0",
+    "illiquidity-hf-archive-metadata-20261021/discovery-http-manifest.json": "144dd70800231a7f6ab257204226a102810aebc8d306bba6bc315ca97a70259d",
+    "illiquidity-hf-archive-metadata-20261021/curl-raw-transport-failure.json": "e4e4c3ccd221e84fc3427d26b3736176153cdb6b38c555546a17d90ff1c65706"
+  },
+  "pairs": [
+    [
+      "SH603056",
+      "2024-01-02"
+    ],
+    [
+      "SH603056",
+      "2024-02-01"
+    ],
+    [
+      "SH603056",
+      "2024-03-01"
+    ],
+    [
+      "SH603056",
+      "2024-04-01"
+    ],
+    [
+      "SH603056",
+      "2024-05-06"
+    ],
+    [
+      "SH603056",
+      "2024-06-03"
+    ],
+    [
+      "SH603056",
+      "2024-07-01"
+    ],
+    [
+      "SH603056",
+      "2024-08-01"
+    ],
+    [
+      "SH603056",
+      "2024-09-02"
+    ],
+    [
+      "SH603056",
+      "2024-10-08"
+    ],
+    [
+      "SH603056",
+      "2024-11-01"
+    ],
+    [
+      "SH603056",
+      "2024-12-02"
+    ],
+    [
+      "SH603056",
+      "2025-01-02"
+    ],
+    [
+      "SH603056",
+      "2025-02-05"
+    ],
+    [
+      "SH603056",
+      "2025-03-03"
+    ],
+    [
+      "SH603056",
+      "2025-04-01"
+    ],
+    [
+      "SH603056",
+      "2025-05-06"
+    ],
+    [
+      "SH603056",
+      "2025-06-03"
+    ],
+    [
+      "SH603056",
+      "2025-07-01"
+    ],
+    [
+      "SH603056",
+      "2025-08-01"
+    ],
+    [
+      "SH603056",
+      "2025-09-01"
+    ],
+    [
+      "SH603056",
+      "2025-10-09"
+    ],
+    [
+      "SH603056",
+      "2025-11-03"
+    ],
+    [
+      "SH603056",
+      "2025-12-01"
+    ],
+    [
+      "SZ002505",
+      "2024-03-01"
+    ],
+    [
+      "SZ002505",
+      "2024-04-01"
+    ],
+    [
+      "SZ002505",
+      "2024-05-06"
+    ],
+    [
+      "SZ002505",
+      "2024-06-03"
+    ],
+    [
+      "SZ002505",
+      "2024-07-01"
+    ]
+  ],
+  "admission_sha256": "54032820d96eda7c06cd745cb41492aae752edfb327892168287d6b72ab1e7ff",
+  "method_code_sha256": {
+    "src/stock_rsi/archive_minute_probe.py": "1e7bc84a65aecb3e1e948cf5cfcf9136c3b10c3f8bb2d459da162141842417e0",
+    "scripts/probe_hf_illiquidity_minutes_pre2026.py": "3bbb1ebbbc4fe72fbc2fe770302ab333cbd0e7c0f8b6244a45eaf7e72a54e3af"
+  },
+  "whole_objects_can_include_2026_rows": true,
+  "only_explicit_2024_2025_session_rows_exposed_by_reader": true,
+  "columnar_reader_can_decode_mixed_rowgroups_internally": true,
+  "OS_level_future_data_boundary_claimed": false,
+  "upstream_provider_authenticated": false,
+  "interval_clock_semantics_authenticated": false,
+  "source_admission_must_remain_false": true,
+  "new_alpha_candidates": 0,
+  "prices_rounded_or_timestamp_shifted": false,
+  "objective_achieved": false
+}

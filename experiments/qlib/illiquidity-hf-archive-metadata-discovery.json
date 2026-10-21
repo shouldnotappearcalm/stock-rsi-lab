@@ -1,0 +1,60 @@
+{
+  "status": "PINNED_ARCHIVE_METADATA_AND_LFS_POINTERS_VERIFIED_NO_PAYLOAD_FETCH_YET",
+  "source": "https://huggingface.co/datasets/neigezhu/china-a-share-1min-ohlcv",
+  "git_revision": "ba589a11534825044fe5a6b84838f50ba8d8d188",
+  "files": {
+    "README.md": {
+      "sha256": "29a04448d500ccdc4c4acdd133c36b3502d399af1e0050a11208cdd48f9dc7ec",
+      "bytes": 18324,
+      "git_blob_oid": "a7af291cf7c2944a9c52e8e5cc5bbe277b0ec6d6"
+    },
+    "data/stock_1m/SH/603056.parquet": {
+      "sha256": "bbb05e57d36f717bfbe04e2aa358d8b29b27ca59bf594af972729a58a6f48f78",
+      "bytes": 132,
+      "git_blob_oid": "54d3d35d74dd1df393feaeaf277e789e0f3a77ad"
+    },
+    "data/stock_1m/SZ/002505.parquet": {
+      "sha256": "3693a9a694c7d254542e4f0fa6fef2363ef3492ed11bbb89ba3d1257f282ba41",
+      "bytes": 132,
+      "git_blob_oid": "08e48fdd3c52d514021ae7467927a814ca3c3ae2"
+    },
+    "metadata/coverage_by_instrument.csv": {
+      "sha256": "31a058c1019e1b097d99e862db68a028ec9d191adb09839c35365f4cb390dc32",
+      "bytes": 1052388,
+      "git_blob_oid": "c6f2e0dc2a7b18309512964fc0adbf520e02f4f2"
+    },
+    "metadata/missing_intervals.csv": {
+      "sha256": "a84479cfd92ffa7fb0af698bc309a8871bf0b32c539d6965ccea27d536d1de9c",
+      "bytes": 360127,
+      "git_blob_oid": "589f312dbcd6e613d23318f7828ad20612b120f0"
+    },
+    "metadata/source_provenance.json": {
+      "sha256": "469021ac7fda54883cf8d0805894d1325dccf5e903d4c025979762d53e29faf6",
+      "bytes": 411,
+      "git_blob_oid": "6ddb7a4f612cf9177ca178b4f104bc6231ac4759"
+    },
+    "metadata/summary.json": {
+      "sha256": "cf7f02aad1e10d59eb129167ec9fe0b0983a9dacbc5e1a71e3deedd402823a45",
+      "bytes": 2113,
+      "git_blob_oid": "434dc163952edad20fb6703aab42e3113f236976"
+    }
+  },
+  "whole_data_files_downloaded": 0,
+  "upstream_provider_disclosed": false,
+  "timestamp_interval_semantics_authenticated": false,
+  "original_price_floats_retained": true,
+  "all29_source_gaps_selection": "unchanged old development admission exceptions; no return screening",
+  "unrequested_web_card_preview_exposure": {
+    "mixed_year_quote_preview_returned_by_search_open": true,
+    "included_incidental_2026_BJ_sample_values": true,
+    "used_for_alpha_or_parameters_or_selection": false,
+    "sealed_2026_holdout_claimed": false
+  },
+  "metadata_access_failures_preserved": {
+    "resolve_urllib_tls_errors": 5,
+    "raw_urllib_tls_errors": 5,
+    "curl_raw_tls_errors": 1
+  },
+  "successful_fallback": "read-only Git clone with LFS smudge disabled; metadata read from exact commit; parquet files are132byte LFS pointers only",
+  "objective_achieved": false
+}

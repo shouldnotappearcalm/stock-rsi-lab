@@ -1,0 +1,31 @@
+{
+  "status": "FROZEN_SOURCE_ONLY_ARCHIVE_PROBE_BEFORE_PRICE_OBJECT_ACQUISITION",
+  "request_sha256": "6927ea42f2217fe0a19076fcf683dee0d760faef8c89df1ae2c97cbf5736c144",
+  "final_review_sha256": "a791d03784e80b0d0d6242e603a0e7cd6fec6d50fca009280bc809e5fbb477ca",
+  "all_local_source_bindings_passed": true,
+  "source_input_files": 12,
+  "local_full_suite": {
+    "tests": 876,
+    "exit_code": 0,
+    "log_sha256": "0ac86371fbd4cead7ff211864d75ae15538d48114f7f65c2ff564f44ff0fcbf2"
+  },
+  "clean_research_suite": {
+    "tests": 876,
+    "exit_code": 0,
+    "skips": 4,
+    "log_sha256": "e1406cff8c09ce088562d869103b56b83814b7c56a349458aecf6e26d007405b"
+  },
+  "test_code_sha256": {
+    "tests/test_archive_minute_probe.py": "d4e6188bf5ac0c7dce3ef61fc1124f57899d547ddd440c20c0e91f1e8cdd080b",
+    "tests/test_hf_illiquidity_probe.py": "069497c8ef273f71f8605639bc181030180fa0372f452a2bf7877d484266f26a"
+  },
+  "actual_payload_requests_made": 0,
+  "maximum_future_logical_payload_requests": 3,
+  "whole_object_expected_bytes": 14547869,
+  "session_pairs": 29,
+  "source_admission_false_under_every_outcome": true,
+  "investment_rule_changed": false,
+  "new_alpha_candidates": 0,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

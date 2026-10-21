@@ -1,0 +1,42 @@
+{
+  "status": "IMPORTANT_TRANSPORT_AND_PUBLIC_RECEIPT_FINDINGS",
+  "file_sha256": {
+    "src/stock_rsi/archive_minute_probe.py": "1e7bc84a65aecb3e1e948cf5cfcf9136c3b10c3f8bb2d459da162141842417e0",
+    "scripts/probe_hf_illiquidity_minutes_pre2026.py": "daa950e3b8337b5f6fbdcb36305ee6b133dde30e5a862e04dc5f1bde8edbe5a2",
+    "tests/test_archive_minute_probe.py": "d4e6188bf5ac0c7dce3ef61fc1124f57899d547ddd440c20c0e91f1e8cdd080b",
+    "tests/test_hf_illiquidity_probe.py": "5fdee2bd9a48298f112bcf2691d81f9389150bdef9a9c2ec2269ae623164ccc8"
+  },
+  "critical_findings": [],
+  "important_findings": [
+    {
+      "scope": "read_bytes transport",
+      "finding": "Default urllib redirect handling performs additional unreserved HTTP hops and can follow outside the admitted initial download authority.",
+      "offline_reproduction": "Pure fake HTTPS transport returned302 to unregistered.test; read_bytes made a second request and accepted its body.",
+      "fix": "Fail closed on redirects for the fixed one-batch/two-GET budget; add offline redirect negative."
+    },
+    {
+      "scope": "safe_error public receipts",
+      "finding": "Case-sensitive URL redaction leaks a signed action URL with uppercase HTTPS scheme, although urlsplit accepts it as https.",
+      "offline_reproduction": "safe_error(ValueError with HTTPS://huggingface.co/object?token=PRIVATE_SIGNED_TOKEN) returns the unredacted URL.",
+      "fix": "Case-insensitive URL redaction; keep action headers and signed URL values out of public errors."
+    }
+  ],
+  "probe_evidence_file": "/tmp/hf-illiquidity-probe-initial-review-probes-20261021.json",
+  "existing_focused_tests": 11,
+  "existing_focused_tests_passed": true,
+  "checks_with_no_important_finding": [
+    "Exactly2 pinned object OIDs/sizes and29 prior admission pairs are validated; no retries in source loop and reservation is attempted before fetch.",
+    "Arrow predicate filtering occurs before Python row materialization; mixed-group internal decode explicitly not OS isolation.",
+    "Published near-cent floats and09:30 labels retained, comparison records mismatches without rounding/shift.",
+    "Source comparison and numeric match never authorize execution, PIT/arrival or portfolio ROI.",
+    "Both source packets, method files, admission and request hashes checked before application and in finally."
+  ],
+  "network_used": false,
+  "real_parquet_read": false,
+  "real_market_or_account_run": false,
+  "repository_modified": false,
+  "limitations": [
+    "Only synthetic Parquet fixtures used by tests; no assessment of actual archive values, provenance completeness or future-row physical isolation.",
+    "No final request/protocol authentication or actual source preflight claimed."
+  ]
+}
