@@ -5793,5 +5793,65 @@
     "2026_annual_ROI_computed": false,
     "objective_achieved": false,
     "next_action": "User approved a separate complete allocation-envelope tree; retain strict failure and enumerate all admitted integer allocation paths with unchanged strategy/costs, preserving all old prefixes and reporting all leaf returns only after complete gates. No floor/ceil selection by performance or actual registry certification."
+  },
+  "latest_price_delay_registry_envelope_diagnostic": {
+    "status": "COMPLETE_LOCAL_ALLOCATION_ENVELOPE_BOTH_COSTS_NEGATIVE_2026_AT_INTERIM_CUTOFF",
+    "candidate": "price_delay_d1",
+    "freeze_commit": "b5f57800af6031429d67c874c179643795ee43ef",
+    "request_sha256": "f19acde4f990f44bb7d177c8a43c6a53dd1fbed65495cdd30cd7d8b734ab6d95",
+    "results_file": "experiments/qlib/price-delay-registry-envelope-results.json",
+    "summary_sha256": "5ecbfca7e3657db0c069ebf56b927eb8c3aeb5a30732e41929acb531cbe38a9a",
+    "verification_file": "experiments/qlib/price-delay-registry-envelope-run-verification.json",
+    "verification_sha256": "6ebac3962cdbe9feb288e0fb74d44225e7b1f97dc13a62564079f4916bde27f5",
+    "independent_audit_sha256": "3f73ad173a760ba6101bdecf980808b693cc1b2f43e7603b9c06bcfb3a90597b",
+    "root_audit_byte_identical": true,
+    "annual_return_ranges_pct_by_extra_bps": {
+      "20": {
+        "2024_return_pct": [
+          17.50741,
+          17.50741
+        ],
+        "2025_return_pct": [
+          4.578358079715994,
+          4.578358079715994
+        ],
+        "2026_through_2026-10-20_return_pct": [
+          -0.5937789187688364,
+          -0.587386884179751
+        ]
+      },
+      "40": {
+        "2024_return_pct": [
+          15.670055,
+          15.670055
+        ],
+        "2025_return_pct": [
+          4.107627509989513,
+          4.107627509989513
+        ],
+        "2026_through_2026-10-20_return_pct": [
+          -1.937755223637669,
+          -1.934804750154354
+        ]
+      }
+    },
+    "costs": [
+      20,
+      40
+    ],
+    "complete_leaf_paths_each": 2,
+    "sessions_each": 676,
+    "monthly_intents_each": 34,
+    "all553_bound_inputs_unchanged": true,
+    "all65_new_outputs_audited": true,
+    "all83_old_outputs_unchanged": true,
+    "strict_failure_preserved": true,
+    "new_alpha_candidates": 0,
+    "investment_rule_changed": false,
+    "actual_registry_allocation_certified": false,
+    "full_October_2026_complete": false,
+    "sealed_2026_evidence_claimed": false,
+    "objective_achieved": false,
+    "next_action": "Retain the complete failed interim candidate. Do not use its2026 names, periods, events or returns to revise investment rules. The development-only inventory found no credible frozen untested alpha queue; requalify any next proposal using pre2026 mechanism/source/execution evidence and freeze selection before another2026 diagnostic."
   }
 }

@@ -1,0 +1,134 @@
+{
+  "status": "COMPLETE_LOCAL_REGISTRY_ENVELOPE_DIAGNOSTIC",
+  "plan_sha256": "f19acde4f990f44bb7d177c8a43c6a53dd1fbed65495cdd30cd7d8b734ab6d95",
+  "candidate": "price_delay_d1",
+  "window": [
+    "2023-12-29",
+    "2026-10-20"
+  ],
+  "results_by_extra_bps": {
+    "20": {
+      "leaf_results": {
+        "e67be79895704b468954453f3b922318627a36fcb7d5a4bc83efe3de511685ed": {
+          "2024_return_pct": 17.50741,
+          "2025_return_pct": 4.578358079715994,
+          "2026_through_2026-10-20_return_pct": -0.5937789187688364,
+          "2026_starting_equity": "1228873.2000",
+          "ending_equity": "1221576.4100",
+          "three_numeric_conditions_met_at_interim_cutoff": false
+        },
+        "9db4a4666ec7a8ffdb1ebdd21a42d8f101dbd1c655be8cf5cf2a746b0edaa863": {
+          "2024_return_pct": 17.50741,
+          "2025_return_pct": 4.578358079715994,
+          "2026_through_2026-10-20_return_pct": -0.587386884179751,
+          "2026_starting_equity": "1228873.2000",
+          "ending_equity": "1221654.9600",
+          "three_numeric_conditions_met_at_interim_cutoff": false
+        }
+      },
+      "complete_leaf_count": 2,
+      "annual_return_ranges_pct": {
+        "2024_return_pct": [
+          17.50741,
+          17.50741
+        ],
+        "2025_return_pct": [
+          4.578358079715994,
+          4.578358079715994
+        ],
+        "2026_through_2026-10-20_return_pct": [
+          -0.5937789187688364,
+          -0.587386884179751
+        ]
+      },
+      "all_leaves_meet_three_interim_numeric_conditions": false
+    },
+    "40": {
+      "leaf_results": {
+        "e67be79895704b468954453f3b922318627a36fcb7d5a4bc83efe3de511685ed": {
+          "2024_return_pct": 15.670055,
+          "2025_return_pct": 4.107627509989513,
+          "2026_through_2026-10-20_return_pct": -1.937755223637669,
+          "2026_starting_equity": "1204213.5000",
+          "ending_equity": "1180878.7900",
+          "three_numeric_conditions_met_at_interim_cutoff": false
+        },
+        "9db4a4666ec7a8ffdb1ebdd21a42d8f101dbd1c655be8cf5cf2a746b0edaa863": {
+          "2024_return_pct": 15.670055,
+          "2025_return_pct": 4.107627509989513,
+          "2026_through_2026-10-20_return_pct": -1.934804750154354,
+          "2026_starting_equity": "1204213.5000",
+          "ending_equity": "1180914.3200",
+          "three_numeric_conditions_met_at_interim_cutoff": false
+        }
+      },
+      "complete_leaf_count": 2,
+      "annual_return_ranges_pct": {
+        "2024_return_pct": [
+          15.670055,
+          15.670055
+        ],
+        "2025_return_pct": [
+          4.107627509989513,
+          4.107627509989513
+        ],
+        "2026_through_2026-10-20_return_pct": [
+          -1.937755223637669,
+          -1.934804750154354
+        ]
+      },
+      "all_leaves_meet_three_interim_numeric_conditions": false
+    }
+  },
+  "trees": {
+    "20": {
+      "complete": true,
+      "nodes": 3,
+      "leaf_count": 2,
+      "node_statuses": {
+        "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a": "LOCAL_ALLOCATION_BRANCH_POINT",
+        "e67be79895704b468954453f3b922318627a36fcb7d5a4bc83efe3de511685ed": "COMPLETE_RECONCILED_LEAF_UNSCORED",
+        "9db4a4666ec7a8ffdb1ebdd21a42d8f101dbd1c655be8cf5cf2a746b0edaa863": "COMPLETE_RECONCILED_LEAF_UNSCORED"
+      },
+      "queued_unattempted": [],
+      "first_error": null,
+      "persistence_errors": []
+    },
+    "40": {
+      "complete": true,
+      "nodes": 3,
+      "leaf_count": 2,
+      "node_statuses": {
+        "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a": "LOCAL_ALLOCATION_BRANCH_POINT",
+        "e67be79895704b468954453f3b922318627a36fcb7d5a4bc83efe3de511685ed": "COMPLETE_RECONCILED_LEAF_UNSCORED",
+        "9db4a4666ec7a8ffdb1ebdd21a42d8f101dbd1c655be8cf5cf2a746b0edaa863": "COMPLETE_RECONCILED_LEAF_UNSCORED"
+      },
+      "queued_unattempted": [],
+      "first_error": null,
+      "persistence_errors": []
+    }
+  },
+  "source_postcheck": {
+    "all_bound_inputs_unchanged": true,
+    "source_authentication_repeated": true,
+    "errors": [],
+    "completed": true
+  },
+  "execution_error": null,
+  "scoring_error": null,
+  "annual_returns_computed_after_all_trees_complete": true,
+  "investment_rule_changed": false,
+  "new_alpha_candidates": 0,
+  "source_queries": 0,
+  "allocation_model": "CONSERVATIVE_LOCAL_DISPLAY_PRECISION_ENVELOPE_NOT_ACTUAL_REGISTER",
+  "all_local_candidates_globally_jointly_feasible_certified": false,
+  "probabilities_certified": false,
+  "actual_registry_allocation_certified": false,
+  "strict_failed_accounts_relabelled_success": false,
+  "full_October_2026_complete": false,
+  "sealed_2026_evidence_claimed": false,
+  "historical_arrival_verified": false,
+  "queue_and_impact_calibrated": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "objective_achieved": false
+}

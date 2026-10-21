@@ -1,0 +1,217 @@
+{
+  "allowlist_evidence": {
+    "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/pre2026-mechanism-inventory-allowlist.json",
+    "sha256": "474789e5ce531fd48e327c704fdc5841a1766fa5c769211aa47c3685067fbab7"
+  },
+  "boundaries": {
+    "2026_market_or_account_output_bodies_read": false,
+    "2026_results_used_to_rank_or_select_candidates": false,
+    "account_or_portfolio_runs": 0,
+    "agents_spawned": false,
+    "current_tree_new_results_read": false,
+    "network_queries": 0,
+    "new_targets_or_strategy_parameters": 0,
+    "portfolio_returns_computed": false,
+    "repository_modified": false,
+    "source_queries": 0
+  },
+  "do_not_misclassify_as_unrun_queue": [
+    {
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/roll1-campaign-pre2026-plan.json",
+          "sha256": "dc721feb53183c0b7d9bc64333d8883d4a171fae61e635587ff08b0cdd7d1121"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/roll1-campaign-pre2026-results.json",
+          "sha256": "43c8cb8f13e7327c09d5ac6509fc9590f184939a3c500811d2c3ccad1b566a2d"
+        }
+      ],
+      "later_year_filename_only": "experiments/qlib/roll1-selected-2026-results.json",
+      "method": "Qlib RR adaptation:1210 historysessions/refit20; mature close(t+2)/close(t+1)-1 labels; fixed100trees/lr.05/seed0; existingpre26 plan owns these settings.",
+      "name": "rolling_lgb one-session rolling campaign",
+      "reason": "Already tried supervised price-volume family. Pre2026 NEW_LEAD_ONLY is a development classification, not proof of an unrun2026 candidate; a later-year selected-result filename already exists and was not opened. No control or new window is promoted."
+    },
+    {
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/etf-prior2-12-pre2026-replay-request.json",
+          "sha256": "c7933685469539c70d4fddeeba643efb8b2ba5b8936e8df920fc3f8d922298c7"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/etf-prior2-12-pre2026-results.json",
+          "sha256": "948c10412f05ef37cc568414601de866cf814614d0c4e18f242065e5b5d58cea"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/etf-prior2-12-pre2026-independent-audit.json",
+          "sha256": "6efbb96bced0ee314b358a25a8dfa08b4232df3c59358de66e5f9538af98503a"
+        }
+      ],
+      "later_year_filenames_only": [
+        "experiments/qlib/etf-prior2-12-interim2026-results.json",
+        "experiments/qlib/etf-prior2-12-interim2026-independent-audit.json"
+      ],
+      "name": "three_domestic_broad_ETF_prior2_12",
+      "original_mechanism": "Existing prior2–12 momentum definition, skip latestmonth; an adaptive second ETF-familytrial, not a new unobserved mechanism.",
+      "reason": "Independent2024/25 numerical screen passed at fixed40bp, but source/execution admission remained false. Existinginterim2026 result/audit filenames prevent calling it an untouched or untested pending candidate. Bodies never opened."
+    },
+    {
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/enhanced-indexing-pre2026-results.json",
+          "sha256": "0f792ee04193bb080da86bb55d373166a2dc8d10350a744d7ae741f2eaf85e48"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/pre2026-development-results.json",
+          "sha256": "a659f1958d8893c071af527e07ac2b88bb7d0b566383d9db547e55f94c5852d3"
+        }
+      ],
+      "name": "enhanced-indexing retainedoptimizer / original DE Top100Drop2",
+      "reason": "Old DEVELOPMENT_PASS/SEALED_NOT_RUN labels are not a fresh queue. Enhanced-indexing pre2026 limitations explicitly require a newly registered future interval after consumed diagnostics and acknowledge simplified daily execution; no rereading/tuning of consumed years is justified. OriginalDE developmentstatus alone does not supersede later registrations."
+    },
+    {
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-pre2026-results.json",
+          "sha256": "6bc4c15aeb6ee4e174d6d5276432e9b5c474fc1e4819cb19438ecfe0d65e7c17"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/budgeted-residual-raw-daily-development-results.json",
+          "sha256": "99e262fc66644f8676b0fb125fd2f9996c71190cf5e5dd43c1d45cabce25daff"
+        }
+      ],
+      "name": "budgeted market residual momentum",
+      "reason": "Implementation/allocation variation within already tried residual-momentum family. Later pre2026 raw-daily reference gate is false; do not resurrect the earlier normalized pass or rename it a newfamily."
+    },
+    {
+      "name": "rejected or nonpromotable controls",
+      "reason": "High52/intermediate/lottery/residualbaseline/weakovernight and other failedpre26 trials stay rejected; totalvol/momentum/valueleg/equalweight/ETF equalentry controls are not newalpha. Existing selected reversal is already a registered tried family, not a new mechanism."
+    }
+  ],
+  "excluded_frozen_routes": [
+    "low_vol36",
+    "low_beta60",
+    "low_market_residual_vol1m",
+    "szse_monthly_low_pe",
+    "szse_value_momentum_equal",
+    "price_delay_d1"
+  ],
+  "existing_candidate_requiring_source_completion_only": [
+    {
+      "candidate_id": "amihud22",
+      "classification": "EXISTING_TRIED_LIQUIDITY_FAMILY_SOURCE_COMPLETION_NOT_NEW_ALPHA",
+      "current_pre2026_source_gate": {
+        "admitted_for_reconstructed_execution": false,
+        "blocking_scope": "29 missing/rejected required minute sources are preserved; six already registered source probes did not establish admission. No ticker deletion, tape fabrication or tolerance relaxation is implied.",
+        "required_active_sessions": 2276,
+        "status_counts": {
+          "ADMITTED_RECONSTRUCTED_ACTIVE_TAPE": 2247,
+          "SOURCE_REJECTED": 29
+        }
+      },
+      "development_gate": {
+        "independent_audit_status": "INDEPENDENT_NORMALIZED_CSV_DEVELOPMENT_AUDIT_COMPLETE",
+        "independent_gate": true,
+        "normalized_pre2026_selected_lead": "amihud22",
+        "note": "Normalized2024/25 screen evidence does not establish executable original-share/minute account.",
+        "raw_share_execution_verified_by_that_audit": false
+      },
+      "evidence": [
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-pre2026-plan.json",
+          "sha256": "81a1040a802da4419fddb8b1e4d634146a4b252a9e00afd697a8b96b714b7d7a"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-pre2026-results.json",
+          "sha256": "4296f6c297629c945c2768c064a6f175ec463371c8e02cac6db51ffd4f7631e4"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-pre2026-independent-csv-audit.json",
+          "sha256": "930dd04b97ba0decd15d285b7c39d1a605c583afe397841c156b644ef54854ae"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-development-minute-admission.json",
+          "sha256": "54032820d96eda7c06cd745cb41492aae752edfb327892168287d6b72ab1e7ff"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/illiquidity-missing-minute-source-probe-results.json",
+          "sha256": "5309d80bdd9820575a1481ef843326eea6686ac729974fc1776186022e077cfa"
+        },
+        {
+          "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/src/stock_rsi/illiquidity.py",
+          "sha256": "43927a97e91a62a43cc67969972e4b4e2319373768d07e6d5ae959ea580c66e8"
+        }
+      ],
+      "fixed_selection_rule": "At40bp only: both2024/2025 net positive, average exposure>=90%, zero unverified held marks; no replacement variants",
+      "fixed_signal": "Mean22 explicit daily abs(adjusted close return)/(1000*source amount);23 closing prices with one prior baseline; source amount units thousandCNY",
+      "mechanism_source_verification_limit": "References taken from existing frozen pre2026 request; no paper text fetched or newly verified. The China2022 item was registered as abstract-only.",
+      "original_mechanism": "Illiquidity premium / liquidity-risk or mispricing hypothesis; mean22 daily absolute adjusted return per traded CNY, not a lowvol/lowbeta/IVOL ranking.",
+      "original_sources_as_registered": [
+        {
+          "doi": "10.1016/S1386-4181(01)00024-6",
+          "publication_year": 2002,
+          "title": "Illiquidity and stock returns: cross-section and time-series effects"
+        },
+        {
+          "title": "Historical ILLIQ:22 trading days moving average",
+          "url": "https://vlab.stern.nyu.edu/docs/liquidity/ILLIQ-HIST"
+        },
+        {
+          "doi": "10.1016/j.pacfin.2022.101861",
+          "publication_year": 2022,
+          "read_scope": "publisher abstract only",
+          "title": "China's illiquidity premium: Due to risk-taking or mispricing?"
+        }
+      ],
+      "remaining_steps": [
+        "Close the exact existing pre2026 minute-source gaps with independently authenticated sources under an explicitly approved scope, or retain source-incomplete status.",
+        "Only after unchanged source criteria pass, independently confirm the same frozen2024/25 raw-share/minute execution and development gate.",
+        "Any later evaluation status must be checked against the separate experiment registry by root; this review does not inspect2026 result bodies or authorize a run."
+      ]
+    }
+  ],
+  "limitations": [
+    "No exhaustive claim about unrelated repository files. No trusted candidate ordering queue was found in the bounded existinginventory.",
+    "Filename existence signals prior registration/output artifacts, not certified completion; no2026 output body/status/financial metric was read to resolve it.",
+    "Earlier mechanisminventory already notes historical incidental mixed-year text exposure; it is preserved as provenance and not used here. Current review avoided mixed resultdocs and new treeaccountoutputs.",
+    "No independent full-source/financial reconstruction was rerun; this is an evidence index and gate-state distinction."
+  ],
+  "preexisting_research_only_lineage_not_candidate_registration": {
+    "classification": "EXISTING_LITERATURE_AND_PIT_FEASIBILITY_NOTE_ONLY",
+    "development_gate": "NOT_FROZEN_NOT_IMPLEMENTED_NOT_RUN_NO_PIT_SOURCE_COVERAGE_VERIFIED",
+    "evidence": [
+      {
+        "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/next-pre2026-family-inventory.json",
+        "sha256": "1a9e6b650da268bbcc4264c0fb4c8fe42ab90187d004006e8f5ca8e43d5381aa"
+      },
+      {
+        "path": "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/docs/research/pre2026-independent-mechanism-inventory-2026-10-21.md",
+        "sha256": "9fa37d1f74192ebe1a495c9a338adac10afc1d52b94cebb5f101fed53713cb03"
+      }
+    ],
+    "name": "accounting_accruals_earnings_persistence",
+    "not_allowed_to_infer": [
+      "No current-vintage fundamentals as historical PIT input.",
+      "No substitution of PE for cashflow/accrual financial fields.",
+      "No candidate parameter choice or ROI claim from the cited bibliographic lead."
+    ],
+    "original_mechanism": "Earnings contain cash-flow and accrual components with different persistence. If investors extrapolate reported earnings without fully discounting the less persistent accrual part, lower-accrual firms may be less overvalued. A long-only low-accrual adaptation would test that accounting information mechanism, not market sensitivity, trend, price delay, or PE/size alone.",
+    "registered_bibliographic_lead": {
+      "author": "Richard G. Sloan",
+      "basis_status": "Established bibliographic reference from model knowledge; no network, primary-paper retrieval or full-definition verification in this task. Must authenticate original pre2024 publication before freezing an implementation.",
+      "journal": "The Accounting Review",
+      "title": "Do Stock Prices Fully Reflect Information in Accruals and Cash Flows about Future Earnings?",
+      "volume_issue_pages": "71(3),289-315",
+      "year": 1996
+    },
+    "remaining_steps": [
+      "Original annual financial statement items and cash-flow/balance-sheet definitions sufficient for the paper-specific accrual measure.",
+      "Actual announcement/available-at dates, original-versus-restated vintages, and historical issuer/universe alignment.",
+      "Consistent units, fiscal periods and corporate-action/restatement handling; exchange PE and issued-share tables cannot substitute."
+    ]
+  },
+  "ready_for_new_alpha_account_or_2026_run": false,
+  "scope": "Existing pre2026 allowlisted research/results/requests and prior mechanism inventory only. Later-year result files were identified by filename only and never opened. No new alpha selection or trial.",
+  "status": "READ_ONLY_PRE2026_EVIDENCE_INDEX_NO_TRUSTWORTHY_FROZEN_UNRUN_NEW_ALPHA_QUEUE_FOUND",
+  "trusted_registered_unrun_new_alpha_queue": []
+}
