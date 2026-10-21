@@ -1,0 +1,68 @@
+{
+  "status": "INDEPENDENT_PRE2026_HALT_SUPPLEMENT_VERIFIED_NO_ACCOUNT_RERUN",
+  "request_sha256": "ea910e18788e1f0dbc98ddddefe7057b000e352392b26c32c014c17f3e187c71",
+  "capture_plan_sha256": "133b0714565e8949634a6ad6869e03c644fc2a07093050e7afc7da4a20e0ed2e",
+  "capture_manifest_sha256": "95a325e0c2e9bd342e621bf72164fcb2823069641dec0b75a30e4ad60a1e25b1",
+  "capture_method_sha256": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+  "packet_sha256": "e6fc242882ec7a1bb53fcc96583f280f86fe373675b5c94db0d3e3ac1d791062",
+  "public_supplement_verification_sha256": "5255f82f1d665ae1529aba02bfc89fba968ff40c3f734039a83e14e9c9b21aef",
+  "original_account_summary_sha256": "7b409f0923a922516fcac3b1aa73a142f96899afb562467c0046d1b99ef49e6d",
+  "original_selected_development_lead": null,
+  "account_plan_sha256": "f4d425b1eda9ad6f1253337ca393870b54a2577c26042595bff2e6c0c6d0f94f",
+  "all486_explicit_session_dates_and_security_rows_verified": true,
+  "all_original42_account_artifact_hashes_match": true,
+  "halt_dates": [
+    "2024-07-10",
+    "2024-07-11",
+    "2024-07-12"
+  ],
+  "last_visible_anchor": {
+    "day": "2024-07-09",
+    "vendor_raw_close": "9.8900",
+    "qlib_normalized_close": 1.8328313827514648,
+    "qlib_factor": 0.18532167375087738,
+    "qlib_close_divided_by_factor": 9.890000158401804,
+    "absolute_raw_price_difference": 1.5840180367376888e-07,
+    "same_unchanged_mark_all_three_halts": true
+  },
+  "checks": {
+    "20": {
+      "previous_unverified_rows": 3,
+      "independently_resolved_rows": 3,
+      "remaining_unverified_candidate_rows": 0,
+      "other_original_verified_rows": 17,
+      "original_marks_file_hash_unchanged": true,
+      "account_holding_marks_equal_unchanged_last_close": true
+    },
+    "40": {
+      "previous_unverified_rows": 3,
+      "independently_resolved_rows": 3,
+      "remaining_unverified_candidate_rows": 0,
+      "other_original_verified_rows": 17,
+      "original_marks_file_hash_unchanged": true,
+      "account_holding_marks_equal_unchanged_last_close": true
+    }
+  },
+  "reference40_metrics_read_from_original_summary_not_recomputed": {
+    "2024_return_pct": 16.908141739694326,
+    "2025_return_pct": 4.529958434408643,
+    "average_exposure_pct": 91.43468239703886,
+    "turnover_x_initial": 10.586173111243566
+  },
+  "same_numeric_gate_with_supplement_zero_unknown_passes": true,
+  "only_candidate_permitted_for_next_pre2026_confirmation": "price_delay_d1",
+  "low_delay_control_selectable": false,
+  "critical_findings": [],
+  "important_findings": [],
+  "limitations": [
+    "Post-run historical vendor status evidence; no historical observed arrival or complete PIT claim.",
+    "Existing capture method stores validated decoded rows and hashes, not a persistent raw-response/administrative request journal; audit does not claim wire-level or network-attempt completeness.",
+    "Other17 already-verified mark rows per candidate case were preserved by exact original artifact hashes; this supplement does not reclassify or rewrite them.",
+    "Existing pre2026 annual metrics were read for the unchanged gate, not recalculated or rerun. Original selected=null summary remains unchanged; supplemental qualification applies only to raw-share/minute pre2026 confirmation."
+  ],
+  "account_or_source_files_modified": false,
+  "portfolio_returns_recomputed": false,
+  "backtest_run": false,
+  "network_calls": 0,
+  "2026_market_values_read": false
+}

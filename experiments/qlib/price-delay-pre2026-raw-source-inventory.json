@@ -1,0 +1,4296 @@
+{
+  "status": "PRICE_DELAY_PRE2026_ONLY_RAW_CACHE_INVENTORY_ONLY",
+  "target_sha256": "03acf78c10c10376b5764b0d1399d1631af08a608aa865575aa1bd56203fad0c",
+  "candidate": "price_delay_d1",
+  "names": 151,
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "method_sha256": "06101936ba54def9fa22a7d2abb189bf0bc83fcd440414ca497cc643d9235479",
+  "helper_sha256": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d",
+  "validation_sha256": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+  "source_manifests_sha256": {
+    "budgeted-residual-raw-dev-20261021": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+    "illiquidity-raw-source-continuation-20261020": "15709f0416c96148894be6b662c624dbde63d0f5d37b7760078235abe73440c8",
+    "low-beta60-raw-dev-20261021": "411e2abe02ebf914c809d6b5acb9b7e2fabacafe7dc88081b980787fb0cd8613",
+    "szse-value-momentum-raw-dev-20261021": "6c8c1cd640751e647f80774e83691ddf1b0907fbc1be86a4120e6a1de7f587ea",
+    "return-families-raw-dev-20261017": "53250d4b726f8b54f5e2eafa516b7587e5acd01a6605c4be6457fdc5073263d7",
+    "szse-value-raw-dev-20261017": "0d41978c2c9ebcb1b89c6e4174cacda8852240f0c228879bbae2ad66ac18766e"
+  },
+  "reference_calendar_sha256": "0095d19144308a1b0075ffd7f40f7af2dae76bdff3cfb1ba8bd80d4663ef9eaa",
+  "source_priority_fixed_before_inventory": [
+    "budgeted-residual-raw-dev-20261021",
+    "illiquidity-raw-source-continuation-20261020",
+    "low-beta60-raw-dev-20261021",
+    "szse-value-momentum-raw-dev-20261021",
+    "return-families-raw-dev-20261017",
+    "szse-value-raw-dev-20261017"
+  ],
+  "existing_names": 129,
+  "fresh_codes": [
+    "SH600171",
+    "SH600258",
+    "SH600348",
+    "SH600415",
+    "SH600546",
+    "SH600583",
+    "SH600755",
+    "SH600970",
+    "SH600977",
+    "SH601001",
+    "SH601298",
+    "SH603000",
+    "SH603589",
+    "SH603728",
+    "SZ000415",
+    "SZ000951",
+    "SZ002092",
+    "SZ002299",
+    "SZ002318",
+    "SZ002487",
+    "SZ002531",
+    "SZ002945"
+  ],
+  "raw_core_conflict_codes": [],
+  "new_network_queries": 0,
+  "source_admitted_for_replay": false,
+  "corporate_action_completeness_verified": false,
+  "historical_arrival_verified": false,
+  "original_cache_may_include_later_bytes": false,
+  "date_indexed_2026_values_used": false,
+  "strategy_or_targets_changed": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false,
+  "items": {
+    "SH600007": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "5a6157165b4b67c724a2149c0174ba8ad1ba9379d259d730c22896ff2084ce09",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "4c12ba06d9d6dd1679828555a5fd054420cbe8ce77a113356b101b65b82d834c",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600021": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "4a7993c4efc96d474053231ccdca3bc9bf5dd60add7f5a8c425b79934120531e",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6dcd88bab3140b62d11c27a50e8cec2fa5b2b82da8e3d2734421e9155014f13e",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "aa0b94b8fd58081930be747c393260b5c03f1f1a0065dd07ac73ee07fdb1e82e",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6dcd88bab3140b62d11c27a50e8cec2fa5b2b82da8e3d2734421e9155014f13e",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600032": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "db5416f5196e09c5d3213ce9fa6373d23e55d8ab09d9a3dd7c2d4fd7cb315ae3",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f5c5f6fbc89429c65a850ba013c64c6c5c2beb324e1696756be66af3e3834b41",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SH600066": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c826ae2c5b540625366ccf10153ec9161baaad90567b67181601ea1860ff493f",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c826ae2c5b540625366ccf10153ec9161baaad90567b67181601ea1860ff493f",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SH600098": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "0aa1389cfa9bd8a525f59dac6227c67eae50f8fe465d06eaa22b3afe56182797",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "b626be4b635057f1a44831fd9eda5d5fedb1e87dbdd69a44023a90302841cc81",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH600126": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "18465760edf6570d0daaa31e0698ff50dd581c8d221a8691bf0f56a575589f81",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "39991ab0c4792f390ce5d5f1a9911e26d04a664dd24cd4d7563383a78542517d",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "18465760edf6570d0daaa31e0698ff50dd581c8d221a8691bf0f56a575589f81",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "39991ab0c4792f390ce5d5f1a9911e26d04a664dd24cd4d7563383a78542517d",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "4e987f520df35241fc9e73cb66ecec860aaaa53844b46eeacab7d2d44f5167e5",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "39991ab0c4792f390ce5d5f1a9911e26d04a664dd24cd4d7563383a78542517d",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        }
+      ]
+    },
+    "SH600160": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "69715c201be092c586a44f66cceab3a7c3e53915c3f3e755b656a02176820f7b",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "262029278222337ef9a2ac6196c0d2ece24c7807f93dd4f2af34a396c0f286c8",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600167": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "fb45766f35b1c6bb595058e4e57cec6527bb72423c1482a2f5fb0210c4458fb7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "b7aa07ffe915c9c83592b179a52c659c5906d093627832843c451f8e40fdad60",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "4c023ee8df557e2d6ca074e219d1d3235bff93cc375d458c5ee992f3feb4a9f1",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "b7aa07ffe915c9c83592b179a52c659c5906d093627832843c451f8e40fdad60",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "8b53efc69c2aaa0ea532c312f6437a1cb89aa204f5c606b4d9d7336e6d68cced",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "b7aa07ffe915c9c83592b179a52c659c5906d093627832843c451f8e40fdad60",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH600171": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH600258": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH600282": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "e695f23c85b6b3f825eff0863456cb50f89e18f7d8710c2d8b5c8fd0cc6b88d7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0edb528d785ce02595cb98ef12056dbd51435a03029f19b7b4f0607365bde408",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "e695f23c85b6b3f825eff0863456cb50f89e18f7d8710c2d8b5c8fd0cc6b88d7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0edb528d785ce02595cb98ef12056dbd51435a03029f19b7b4f0607365bde408",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SH600312": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "low-beta60-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "6a683a91d03c882e41af9e542fbf5613b0703f0761385dc871e012327c85017f",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "63c6212d9a7f8fac4b994dc38a470fe733f081a91477ee4ceda07a8b594b0607",
+          "distributions_in_window": 5,
+          "adjustments_in_window": 5
+        }
+      ]
+    },
+    "SH600316": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "819cde9788fe7f77e3c76aa81cc0a1bf1b8d28bbea6f88a6466e2ae7929ecc3f",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f0295c173cec615f6d8121763223a525d4f84ef313c0852441be5f1d78a631ed",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600325": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "low-beta60-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "74478565fa33e1c5ae5721134c10915a31860f4b92d0a25d0f3a9c2a9a94e247",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "bce0fe3f564af6c94290c91fc320571e40fec2c1394044701b7b995430342c74",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH600339": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "low-beta60-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "dd58b99ec08f996fdc61e6cf458a7278b63119a0e28d0b643d3cfd34bb024c63",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f87840784e705e11fc180e006227d4b154999ec89737899742012bd2dc7ddee7",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH600348": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH600350": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "77397032c433c981552930c04fb8cf00ce52bbe9b780bb2baec2b393913a0687",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "27f2acbdfd87d9bdaffc66e69f866169060d7e56dad50afce1596051543686ad",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "8a4dd0c64fae9f00c523fa4f2f1a6dc465a9da1a1c8511828ea83e4258a5209c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "27f2acbdfd87d9bdaffc66e69f866169060d7e56dad50afce1596051543686ad",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600363": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "9a74283dcbe1437ad427d8c956886c3274a4fc7b0c937d601d542e98305d8e3b",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "b33ba3ab287a493ad53d83910e8ea1302e4afd689d0532ef1c47d5fb042a93ad",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600373": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "9c1512a49c59d6e7dd9f334b3d7afb83ab78795f5c4403ac9ea8534ba2fd35c4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c99091923150b875e1e208d55987772a06f8a9884aebdde93f2f93a87c8a7fa2",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "9c1512a49c59d6e7dd9f334b3d7afb83ab78795f5c4403ac9ea8534ba2fd35c4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c99091923150b875e1e208d55987772a06f8a9884aebdde93f2f93a87c8a7fa2",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "c3709c53264f223884335b2db81666cb04ab5544ce3f78844e517170bc1cb1be",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c99091923150b875e1e208d55987772a06f8a9884aebdde93f2f93a87c8a7fa2",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600377": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "e494cb1722f7942e0d8d061daffb5f967396ee5c2ee10277b5de29548003f31b",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "5d50761640d1b4e009afd2655df74d2bb22f7a6440571a93dae3fbfabe6c32ab",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "c738cc5fd417a8521e4ccbd9fb918a60d775e9d2a8c3465a2feabe8c82eff990",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "5d50761640d1b4e009afd2655df74d2bb22f7a6440571a93dae3fbfabe6c32ab",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600390": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "return-families-raw-dev-20261017",
+      "choices": [
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "cb8e5c46e35ff42c735f0c4420dccd4658cb69218ffffcac9f5a8efcb65724cc",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "bc2c17dcb0f401d75e09b097f7a9069872fe54f4cb36c97400ea8f76010ccaec",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SH600398": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "5ef669f00b671bba57784d4414b2c2b5a1e0836b7524e706cb63cba052d13194",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "1fb7c95f0c32edc64b61f4fc06616648f2f9c17ace19f3426cb300b0cf71927a",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "f638f28c3b3ddf9ed0279b0981a884f3ebb652d59599d1171b5c544fc4757ec3",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "1fb7c95f0c32edc64b61f4fc06616648f2f9c17ace19f3426cb300b0cf71927a",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "5ef669f00b671bba57784d4414b2c2b5a1e0836b7524e706cb63cba052d13194",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "1fb7c95f0c32edc64b61f4fc06616648f2f9c17ace19f3426cb300b0cf71927a",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH600415": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH600418": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "35e42457878951da2e3de553aa8cc498091013c45eefa958fd024f783c46574d",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "1404ed3ca4837c2487daccaf30a1142b2351e9592b14b78df802818b8f956502",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        }
+      ]
+    },
+    "SH600481": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "3ca4888a0d3d026e35764dd08792eda84881b75f806973a0ad7f8b0ca8c4e954",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "b647b855033fc08a6ffb3bcc56e76d515a26d324dd6e02e7c186bd7fee0e4fea",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        }
+      ]
+    },
+    "SH600482": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "return-families-raw-dev-20261017",
+      "choices": [
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "8bc58386007ff5e4e8ed722307726a880ee9762d9f75ff68d97b5dbb2bfc6e66",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "ea703ea91f1271917f8193f14472a502f1d83f4f2b8876838c1e1b6ee40e0f22",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SH600483": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "b8ffee938edb32c8538fd89f3cfcf47206b12aa928919b25191b8985f1d6dfda",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3b606f320ccfdc8976ed6439b52f8b3603d9fcbf93782a72d30056e0e045e8b9",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "9c9a95d58574176a1b60d21a2207108b0fee84bc0ab068d76780e640a7c6d70b",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3b606f320ccfdc8976ed6439b52f8b3603d9fcbf93782a72d30056e0e045e8b9",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH600511": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "low-beta60-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "e52857e070648e7ea7605a1ed78616d49a566afc67d78b911e85bc1b809cee8f",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "32815de4ca4f2b883a47bb918d6113605bd423f9c65a9be9f6eceee6bf7cf9d3",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600546": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH600578": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "47664b707a49a6802e2b446bb15b6977201ce0461178c636d8c40f2cabf59ab9",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2252055aaea2b541510efda4281485a34c592e3be57ad5b4b816673b39aa9297",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "47664b707a49a6802e2b446bb15b6977201ce0461178c636d8c40f2cabf59ab9",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2252055aaea2b541510efda4281485a34c592e3be57ad5b4b816673b39aa9297",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "acd6335db5be8c430873d841272f2d976c136882074a10867dc5fce710c30c5f",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2252055aaea2b541510efda4281485a34c592e3be57ad5b4b816673b39aa9297",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600582": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "e4fbb56cbc861f4dbafdf32b9cd773a9ec9123d1be8ab96968605836b327a7c1",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "be345e675efb6fddb237f0d7ee25781f603dbe8429f383bec954a5556d4325f8",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600583": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH600598": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "6dc6ee9820fef685751013a1881b5c8b06a92aea0ee96ad1ea760f103f79305b",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "32ad8eae4a471ff2b510605c6431b7081aba5f47a82325421ac27acfce8cb785",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "a5a8dee4621f4ee721f0fa007d3f2ba66d9220976365210279a5c54c7aeb5965",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "32ad8eae4a471ff2b510605c6431b7081aba5f47a82325421ac27acfce8cb785",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600642": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "c0e283669a9dc82628e41f498b7fa421c0c8b12670240e421c9c671d0cc04a24",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "eb0363d9537dbc8bc6f9bc0d9361bf20a7509544e7db148d714753e5c2e4f93a",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "c6e461f4120b81bae3656155419ab14e6c182b10079c5f880279795b937bb9a7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "eb0363d9537dbc8bc6f9bc0d9361bf20a7509544e7db148d714753e5c2e4f93a",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600663": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "7e5c86fbedbfcb8a3f05a2bc8c792f1f865cbad59ddee717a9a79a40c92eb9c5",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "09d080a47bf3213d64e14b4ec562ccd1aa5a9e7724073ea45244729cf180c198",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "cdce8e9d271bb0b2e0bab3e3a8b97a2854424f3bef7f4cb0edf2b74fe0a904dd",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "09d080a47bf3213d64e14b4ec562ccd1aa5a9e7724073ea45244729cf180c198",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SH600673": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "a9ef1ef36cdba7ad072cacb64f8614e954e86ae89c23293601ae36d5d6822e03",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2e556f5a870f56a0276736cec75c74b83ccc650f5acb162c8519d0c0c1872cf1",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "a9ef1ef36cdba7ad072cacb64f8614e954e86ae89c23293601ae36d5d6822e03",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2e556f5a870f56a0276736cec75c74b83ccc650f5acb162c8519d0c0c1872cf1",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        }
+      ]
+    },
+    "SH600754": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "return-families-raw-dev-20261017",
+      "choices": [
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "af13dc8135f29e8f6cd39cdf5e70c40c888d113840a76df6a3fe75a8fb1746c7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "ff192860cd2de4b9c027ed69a5a71e19f99a7d1ed84cf5740e88e0cb4ea77457",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SH600755": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH600764": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "edf1977afc28f396ed5151de85933f0bf1c6ae714fe2ee21ef0e4c3ae72a5527",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8b8e7b747d8612bca36b648abed92e4054e66b6d861e8fcb2e9612aa9c7a329c",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "edf1977afc28f396ed5151de85933f0bf1c6ae714fe2ee21ef0e4c3ae72a5527",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8b8e7b747d8612bca36b648abed92e4054e66b6d861e8fcb2e9612aa9c7a329c",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "608c64acfb7f94fc80262cc9c6f34b8eaea9055a13b9ec872dd053768ec53ddc",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8b8e7b747d8612bca36b648abed92e4054e66b6d861e8fcb2e9612aa9c7a329c",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH600801": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "a13df939126f427c7cbac226ec1b2622d3f2e9aca873119b8b12d033cf776c95",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8a4a6b3cf10b4e5f4c513a72f5016e5566a7035a41ea07dc4b53635b8d63d6d9",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "a13df939126f427c7cbac226ec1b2622d3f2e9aca873119b8b12d033cf776c95",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8a4a6b3cf10b4e5f4c513a72f5016e5566a7035a41ea07dc4b53635b8d63d6d9",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "48f811319e91d07219c5507fd6d64f75df1b795541720944a1199529c9b73d96",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8a4a6b3cf10b4e5f4c513a72f5016e5566a7035a41ea07dc4b53635b8d63d6d9",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH600808": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "70cc1bacf01a672bdbc57f2cb8cb23b355077134a4f0c87774772815d00ea8db",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f2418148e9fe39648ecd284d4383e2255e2902a1358104943b48c34e658fed9c",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "70cc1bacf01a672bdbc57f2cb8cb23b355077134a4f0c87774772815d00ea8db",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f2418148e9fe39648ecd284d4383e2255e2902a1358104943b48c34e658fed9c",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        }
+      ]
+    },
+    "SH600820": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "8dbd850f7437d38e62a94e3459c07016dc4fc5a26c0682b1afaf26fed94ececb",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "32cca8998245991c2e00409f765190936d9471c4088bc5528172a0961c80e5f8",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "1d2a6414d85be8785d39ad8b3d6e5859c1746a7412a2d38e1904d8f585549947",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "32cca8998245991c2e00409f765190936d9471c4088bc5528172a0961c80e5f8",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SH600839": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "51b7b3a50de0910839a81bff21b12d6a39f5e35cd1d8d1f2fb73eb45c73eacc4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d6f344f0432b3f852499a2f006c887d92a3b0835aa17d65708171e780756144c",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600863": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "392ff335328a9c72cc525ff9800cea0c94635b893804dadb14fa3334c73bae50",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0cbc68ed11f2890c851529d20713a76ac117a91d93c568edd646afb3020490a7",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "fb0b3b9a62336da9bd0de8b2e90c72268ebf4280dbf85376719ef56735d5c5cd",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0cbc68ed11f2890c851529d20713a76ac117a91d93c568edd646afb3020490a7",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600873": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "5eac144389dfee69dc73d4b424dcbc787adc2df0af0521efb5ca3af4101fec72",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c52204f8048d1fc682e2984793a9288de5689e43b7e741ccdaeda69d075a2f64",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH600901": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "422eb6d4a5e444de95fb5191fc60f1d15cb3b912b1bad7c1a091bbdd3bbbaa45",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "e8ccdc11f809646e3ce8fe1de6c70a44248c972533adb4e2cfd619865ba41119",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "bc3b0b8f49d58ca278742d62d54faa2981a4e0f26ff9c23026273a177a827c69",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "e8ccdc11f809646e3ce8fe1de6c70a44248c972533adb4e2cfd619865ba41119",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH600925": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "dd0c2eeb05daf939bfb8578cad12c619fb7d947a9b0680f02946be3a11e417d4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "9c481f703c500d176f719c6d7ca471af168e0d13b57683639973feca9e579ccb",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600928": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "2cdedb51ca4f91542744c4d5c17950a856d96e93a81b8e9f1c35f2757e532cc9",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2b580a252f182343339d8cdb1a3422a359ad1bb60cbf8bf0144e522ab1d7ccdf",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "0eb1bfda13546ac2f4f51efd323202cb1adad3476b532f44d19d252a2cb5ba77",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2b580a252f182343339d8cdb1a3422a359ad1bb60cbf8bf0144e522ab1d7ccdf",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "561a8bf86215c25d21161cd2c3d0ecd6602d522447e13cacde81626ecf43df63",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2b580a252f182343339d8cdb1a3422a359ad1bb60cbf8bf0144e522ab1d7ccdf",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600959": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "fc6b9cb3a5143885441117b38b6c19b93725bb096646dd23a4a2aca47d74bdf5",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0282979f245bdf1b80ed7e41efb3a6541d8f798ec3f5a57a568e61a44a52dd4e",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "fc6b9cb3a5143885441117b38b6c19b93725bb096646dd23a4a2aca47d74bdf5",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0282979f245bdf1b80ed7e41efb3a6541d8f798ec3f5a57a568e61a44a52dd4e",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600968": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "133aa2e3f3c275ca781a2f7d69e8927a32e8c546d69742942a2cf9d860963157",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0745583aa748d61151b36c8393bd18b6f60c79f7cd5ce90e2805dc7279c23cb9",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "133aa2e3f3c275ca781a2f7d69e8927a32e8c546d69742942a2cf9d860963157",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0745583aa748d61151b36c8393bd18b6f60c79f7cd5ce90e2805dc7279c23cb9",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "de0cbfce1fe35276ecc0207d6c93274d1239d24a259b74b745f4645dfea6e8db",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0745583aa748d61151b36c8393bd18b6f60c79f7cd5ce90e2805dc7279c23cb9",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600970": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH600977": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH600985": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "397353cf97451fef2fa490f8b28af75cc97ee549374e3b7c1a339c92d32e9ce7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "011582aed071bfcb9afca33e958f359de77436b16fc34bb52f0eda21b4bf0481",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "83ed984587fc63a726e3e7ed5f56ead29bf63ca7012412e79d8834b8753d1497",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "011582aed071bfcb9afca33e958f359de77436b16fc34bb52f0eda21b4bf0481",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH600988": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "1780e191c94fdd1af70333acb59721c094a60350d8a20a0569ddc7a5ab70d5cb",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "695c2fd5a3fb3fd65639d54b2541bd7459f09d3d9206c58b0315aa7cfc0a8bb3",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "1b61d83c2fcced376d8a81e879cc27259b3937bc009981adc32ccf6b45eebc00",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "695c2fd5a3fb3fd65639d54b2541bd7459f09d3d9206c58b0315aa7cfc0a8bb3",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH601000": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "3d350c22b721916f12398343b743a61de824be7ab88c4278734743e0fc0e2fe8",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "51657c23cd4be1017ee08963ab894fc42b9afe1014123c08f20b361266fbc715",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "109611679570a0ab063594b2c37fe4dabb6dcbf1006880ba3b0ceb12ea97b575",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "51657c23cd4be1017ee08963ab894fc42b9afe1014123c08f20b361266fbc715",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH601001": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH601019": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "56653171cb139ca59bd12acf0aa7b4d8139cf413e0d51f6e243c1069c22959c7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6146c8de18f47c1403ec89f034d78394775df9874f6e4759184fb68866115af6",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "56653171cb139ca59bd12acf0aa7b4d8139cf413e0d51f6e243c1069c22959c7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6146c8de18f47c1403ec89f034d78394775df9874f6e4759184fb68866115af6",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "b21d2a0b6ae38ece39b0f59a5c497de081206730fc84e2a709fdffd52b71eaa2",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6146c8de18f47c1403ec89f034d78394775df9874f6e4759184fb68866115af6",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH601061": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "e422e89d789867da121f48b83e96ce24cd3d92c1b09d414f642150c8d71615e3",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "233eea16f9e3f0f9d10e9be2eaaf572d884413ec7f0f357303b7e8fce73178db",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH601077": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "800b30b0e807e026fdf33a2bbd37556577c516f2340b83d46ff796e40470f388",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "867bd0096bc4fa6abe4020407057fe70c6114030ae55b7db9e986260f52a2c99",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "111c1d94a17d131342a0f62ef3ad41f489debc846299d983403941e1dc7ff71d",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "867bd0096bc4fa6abe4020407057fe70c6114030ae55b7db9e986260f52a2c99",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "800b30b0e807e026fdf33a2bbd37556577c516f2340b83d46ff796e40470f388",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "867bd0096bc4fa6abe4020407057fe70c6114030ae55b7db9e986260f52a2c99",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH601098": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "db2cb3bc4e8e5f33bd4bf4738fad131ea8dff526402c61630646cd941f7a0970",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "47148869b872c1112b079cb56cbf3e2b7cda19e9e8e94458338cf80881eb100a",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 5
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "db2cb3bc4e8e5f33bd4bf4738fad131ea8dff526402c61630646cd941f7a0970",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "47148869b872c1112b079cb56cbf3e2b7cda19e9e8e94458338cf80881eb100a",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 5
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "d2e9de86eca3e2767e686743be4ac4520544abe4f206a7855ec446320762adf0",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "47148869b872c1112b079cb56cbf3e2b7cda19e9e8e94458338cf80881eb100a",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 5
+        }
+      ]
+    },
+    "SH601128": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "a8e19ead8136538d2e0cea36c18e0ed05fcb4523921cd9f8afea9fdf6a039143",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "9a619ff9edb543b3008aac2cb42abc1da6f6a37c0d70582ad05dedbdaad7fb1d",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "da99a9958bfddd73a5cc1d2de2797758864cbec7698e97de5152e2a0f1bf8613",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "9a619ff9edb543b3008aac2cb42abc1da6f6a37c0d70582ad05dedbdaad7fb1d",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH601155": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "2f9d7fdbea36513d7c29521dfe733e3619bc853f9b39dd3f5122266451f5f40e",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c5ac7b7ec4dcc9a169005ea51f72aa2df7d89662bcbc61c5cdd134cbe7df16d2",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "2f9d7fdbea36513d7c29521dfe733e3619bc853f9b39dd3f5122266451f5f40e",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c5ac7b7ec4dcc9a169005ea51f72aa2df7d89662bcbc61c5cdd134cbe7df16d2",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "249f35c9bc09fc36149786a2c2c53d547f1ec3524bee8290e5c8f34b014972bf",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c5ac7b7ec4dcc9a169005ea51f72aa2df7d89662bcbc61c5cdd134cbe7df16d2",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        }
+      ]
+    },
+    "SH601158": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "eb9c02e677208afb11e7f698568b44ec85d4ecf709167e3e85e29daa91627918",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "5ac593da40fa7ac08a06240ae0670f8bbb9783b307c9c76eb7ade1d4ae090834",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "eb9c02e677208afb11e7f698568b44ec85d4ecf709167e3e85e29daa91627918",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "5ac593da40fa7ac08a06240ae0670f8bbb9783b307c9c76eb7ade1d4ae090834",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "1fed273cd931f98962ed8206901880569bffaaf2db5c8c27a8c39063232049eb",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "5ac593da40fa7ac08a06240ae0670f8bbb9783b307c9c76eb7ade1d4ae090834",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH601179": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "8be4a5b6f5745fe8857470b89c4b80a2e91d5bdb550d22dc57e72bd1c87fb080",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "e481aedb813c13ad23813cdf3e7e0ecba88dababe12a29bab6ed08a3efb722fd",
+          "distributions_in_window": 5,
+          "adjustments_in_window": 5
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "591ff8bfab778f80823a1495c97aca72573241ea6126b1bc2f289a1aa091d277",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "e481aedb813c13ad23813cdf3e7e0ecba88dababe12a29bab6ed08a3efb722fd",
+          "distributions_in_window": 5,
+          "adjustments_in_window": 5
+        }
+      ]
+    },
+    "SH601228": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "d6ce7b1365a943c001b6ef9d0c23dbda72a5a160b8ab2ba8c8d9e24e48edc1f4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f2096740cab78f9d45e144bbe6a66a2dfce3de5a63cc208477ec3c8f516c5e9a",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "478fd24370817e597de4bdb537a02500265a8de69e618cf75244ca654a2a8838",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f2096740cab78f9d45e144bbe6a66a2dfce3de5a63cc208477ec3c8f516c5e9a",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "3c35a4d635dd3b6a6f81b6e89cd16bed5acbb092ba0fb5768437be4c8f44b583",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f2096740cab78f9d45e144bbe6a66a2dfce3de5a63cc208477ec3c8f516c5e9a",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH601298": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH601333": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "low-beta60-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "22ebfefe25462a1339e1c7f5a01bd2bba93d8af0a9626a9ead5cd0722c06bd66",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c8b336ac94e48956203140140a661c99024abd4b2b2026220a73bae5e3f15ea8",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH601567": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "ad50f366c7553258335804760883348eabecb26840db20bc24983ba55e889aa0",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "ceb8519b949fb2816b47e84e3af2a5073827bcacde6545098064806a7c96fa5f",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH601577": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "4a2fd979bd457e9291e004c17d577760a7b593b5884696936f5cb4216290714e",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "412b51bf27a1e4981689460fc55eb182b14184c9c37a4a0d527f67a7159d0f0a",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "d58e194b10074a37edebca373d889fe8831a4763ed666b00109ca45f9f42bd9c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "412b51bf27a1e4981689460fc55eb182b14184c9c37a4a0d527f67a7159d0f0a",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH601598": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "ebc0b69d4d2f6933eac123cbcdf8012621bb98bf6b873c9a8946b7dc4ee574fd",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6059972bb099b870023f634ecd6079065d3b7f5911ff86aa6e8aadb25023c5d6",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "ebc0b69d4d2f6933eac123cbcdf8012621bb98bf6b873c9a8946b7dc4ee574fd",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6059972bb099b870023f634ecd6079065d3b7f5911ff86aa6e8aadb25023c5d6",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "dee3a98a47dfcf1e803760922913d9cc53c4e0bca29501e2e25fea94006af47e",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6059972bb099b870023f634ecd6079065d3b7f5911ff86aa6e8aadb25023c5d6",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SH601665": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "52b3d86e2c99d344db6fb35f0e9b4dafc52bf12bbeee3d8f3fa7789219e1d070",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "4ecf561a9368883900b6137da97decd9023459ab860dfe2198df4d7f2749fcbe",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH601666": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "6aec9f6f924a34563450627bb563f6368e3c7515c970bebc463e1d719630ba9b",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "a540d686dfcafb3d9dd9a74c41bcf222f062baebcefc26ab66c044f1f86ab31c",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH601858": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "6f9366bac72c12dbc6e18f6aabaf8be1275ae03f83d15d3eefd4b9aadec0df21",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "47f50b0c75156387401c47670b53768c474b6947f1e43829760628bdf63bbf4a",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH601918": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "low-beta60-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "79d34a681bf2499ddb3669a298fc503a83c94b0365fcfe46c14601ec197e90c0",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0f57521508ca83fe4df8ed54e9599cfa479841819bdb834c322877b2d3184e7e",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH601921": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "94067bc8b7e748e00fab0492ac8d2c37247230ebe79da4831b0912cb1d6e9cc0",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d6b426ce12fe1085ba4688b86c8287dc3e36153af7f4391a011947c8c29557cc",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH601928": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "b27a825944d79d068b8f92e9e3b92482f1d7bb729b5883af48168a206db22d8c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "a121507df6f2c8d98f4c7c124cceb6b82e00af1c1a52a225a07672cea6aef617",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "ce3956a6ef810aa566700bc02c56fc523b06677cb2f8a81829d58dc55342e77b",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "a121507df6f2c8d98f4c7c124cceb6b82e00af1c1a52a225a07672cea6aef617",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SH601933": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "1e6355900d686fc3d45e486df105b37c6b448934ca3274959acfe51caee24f0c",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "1e6355900d686fc3d45e486df105b37c6b448934ca3274959acfe51caee24f0c",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "1e6355900d686fc3d45e486df105b37c6b448934ca3274959acfe51caee24f0c",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        }
+      ]
+    },
+    "SH601991": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "df344cc06a44b795201d9c0b3fba7178c5d89717a276c86e6175ac0bd378b786",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "bb74f1dcf00e60c39b46ea63ddaf5dc59ad10555900ba50816e2a624059ca0d5",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "a10ea43bb4746d7b8e6416a56f458065c51240737178ff3de491a13c2ddc9015",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "bb74f1dcf00e60c39b46ea63ddaf5dc59ad10555900ba50816e2a624059ca0d5",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH601997": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "999c5d8817534838d21a2728ce80343bd8376c7162647a0eb3d9d779adc40e65",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d4429d2323d13d4f619306157f265397019059e29bb21972f271b244afd17f2d",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "ccc6328a2674366f29ff14cbda9644e4af27ae89dd19fa4ccbdb275e9a532ce3",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d4429d2323d13d4f619306157f265397019059e29bb21972f271b244afd17f2d",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "999c5d8817534838d21a2728ce80343bd8376c7162647a0eb3d9d779adc40e65",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d4429d2323d13d4f619306157f265397019059e29bb21972f271b244afd17f2d",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH603000": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH603129": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "9c75aaaaddc818c13b10252a17e602bf38fa4c87e98e942c4a305098c3297506",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0c9296dc96fd75af5e711fb2a1ac3a4c73b0c80bd6ed563cfebe449d540f9dce",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH603156": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "60924bb05bf5e8e6e685f2cb4c852efed3dbae30b37c824c0260aab5997bc564",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "0efb8a835e4c871288ea928e60992db568a7e129e794726a90cbe5cbed9b7010",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH603338": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "54ebaf51dc73626754e606101ebb4b35226add5fbd98f51659f16e4f4b9792bd",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "dc472b3cdb784e611c43fbe61230bce0009812b2999ca99481a4fc3f24eb08ca",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "54ebaf51dc73626754e606101ebb4b35226add5fbd98f51659f16e4f4b9792bd",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "dc472b3cdb784e611c43fbe61230bce0009812b2999ca99481a4fc3f24eb08ca",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH603486": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "0cfc01769e783f9e6cad735026a937e25cc074bfc6d2e53d587a47b5e81983d1",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3cac75e9d7c28c6f0d3dc5ca71bb7c51f959a5a5d475e4066dce797427aa08a8",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH603529": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "66ec9ccf5cef865bcfe4347a0abb9e15ab0c2947dd906df6640242c102dd913b",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "63f731e8a178f9dc752fb59b6bde287319cddb48565b56f64b1f196771a7dfac",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 5
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "66ec9ccf5cef865bcfe4347a0abb9e15ab0c2947dd906df6640242c102dd913b",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "63f731e8a178f9dc752fb59b6bde287319cddb48565b56f64b1f196771a7dfac",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 5
+        }
+      ]
+    },
+    "SH603556": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "b503fd67fb6e7bbf23dde05cf560232390a30364b6460d26bbe506b20bdf8ed4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "99c4189a6c5b409d45c9551e8011c9eb289a36cecd64a6719063557447140cf9",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH603589": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH603596": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "1c9523ec8deef19fcdd85e2d52c6f74c8875f827765a3382d7057bb16bfa8f22",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "7118698e88ef6b55a357cf8f4e700ade91ec26e1d386c48835835b9825a0b9d0",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH603606": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "cf85fcb404319f93cb1101f0ddda6bce5a8bb01aa2fcbf4f3aa860470264940e",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "1d2559bca947e6bba2bca2fbc6479141b53868f8f78951d44cd2695e0356c8c2",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH603728": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SH603737": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2fa0d208e841fa087e0d5a10b230eb88311f517524a50b843503454a378f7662",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2fa0d208e841fa087e0d5a10b230eb88311f517524a50b843503454a378f7662",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2fa0d208e841fa087e0d5a10b230eb88311f517524a50b843503454a378f7662",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SH603868": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "1e1a9e4a8a3dca069cc99544cde0e313496abaaa8a8fe3c8e5076a1f3f853628",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "213fdd1dae19a324492901fd9e6087d169be6ec371c64c2189efc80c1fe2e191",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SH603979": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "70fd43da8a2cab0127d24870096b505071b7384c4ec4063522a10a5062da272b",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3e7eda99cd40306476f43826c343afad081dc204b7be437128f71f3c62d65249",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ000021": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "szse-value-momentum-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "390642524e7a3887eaa2c7fc683f1144f3bf601a7bcf414c4b6d35ff72b1274c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f3e142bf4c8695f427eb114828f5e8c6915c20e400989f56acd7ed587ead2dcd",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ000062": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "a64a3f30ded7b65eaac61889b762bc65b3efa74801e4af3a5ab7b755300173cf",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6ea64b5ca1104ac2b59cfd0467a2ac8f767ce6bd90cc5706537cae2db9bc325e",
+          "distributions_in_window": 5,
+          "adjustments_in_window": 5
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "fc2a982fed90776b8acd911d3ae2d3455caf80fe537c81ffbd85de5f222e9dc4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6ea64b5ca1104ac2b59cfd0467a2ac8f767ce6bd90cc5706537cae2db9bc325e",
+          "distributions_in_window": 5,
+          "adjustments_in_window": 5
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "fc2a982fed90776b8acd911d3ae2d3455caf80fe537c81ffbd85de5f222e9dc4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6ea64b5ca1104ac2b59cfd0467a2ac8f767ce6bd90cc5706537cae2db9bc325e",
+          "distributions_in_window": 5,
+          "adjustments_in_window": 5
+        }
+      ]
+    },
+    "SZ000400": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "b35ecced3bb76f6b01c773c274e62bad3382b10309e5a7dd30d78c1beaeebb2d",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "24ec5c65d71c4c57bf4e509ac03001c759006210aabbb73736229136d703d5c1",
+          "distributions_in_window": 5,
+          "adjustments_in_window": 5
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "b35ecced3bb76f6b01c773c274e62bad3382b10309e5a7dd30d78c1beaeebb2d",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "24ec5c65d71c4c57bf4e509ac03001c759006210aabbb73736229136d703d5c1",
+          "distributions_in_window": 5,
+          "adjustments_in_window": 5
+        }
+      ]
+    },
+    "SZ000415": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SZ000423": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "b7615c1cf9c716bb85efe5aa2fb42df8196500b405799930678e308e93ee089c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "40aae47578d36a902deae72698e0f296b31b68b82c819faf984a9be779c9b554",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "b7615c1cf9c716bb85efe5aa2fb42df8196500b405799930678e308e93ee089c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "40aae47578d36a902deae72698e0f296b31b68b82c819faf984a9be779c9b554",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SZ000429": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "dbb357459aed75e210de0af0bb2c4f4a8c80f2299512d784605567113c0562b2",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2c4174bed14eb53de4000e4c82d1a54b721df51a7eb56ffb23fff410e168c8d5",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "dbb357459aed75e210de0af0bb2c4f4a8c80f2299512d784605567113c0562b2",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2c4174bed14eb53de4000e4c82d1a54b721df51a7eb56ffb23fff410e168c8d5",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "f3348f2352b28ed1d26108f9a3d7e70d7fd4473e43b762f336b0ead0f08b5113",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2c4174bed14eb53de4000e4c82d1a54b721df51a7eb56ffb23fff410e168c8d5",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ000539": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "e9c131d2581ec73971f6c81f03a929118983259ffdcc0a0e066edb37b3b6adaf",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "ed600ca12265d14746d47a8a0be4a59ff7c1cfafbd31fc61cb80577839e595e5",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ000581": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "szse-value-momentum-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "71471e65fe1cbb55262f00b8205051d66a4b3c8571656e4af02161ad4ea1280a",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "268aae451627f96097a9edd9afc8ab78f05eb87d4d5cbeab954dcac8c512fa0b",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "71471e65fe1cbb55262f00b8205051d66a4b3c8571656e4af02161ad4ea1280a",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "268aae451627f96097a9edd9afc8ab78f05eb87d4d5cbeab954dcac8c512fa0b",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SZ000582": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "low-beta60-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "81bc30f49077d0c7c608704782309676bb4539527fb27f447341e4ce981a7770",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c1811528a1259f383b094c2e85204f96584341dd1dc34b056bb0f6d8dc243116",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SZ000598": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "2dc33662415ea45272faa6065bac8fe646a9e0245180a7c588a904e60209936f",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d88ccaac6343054159b77ab029b54845044ee5b28bcb737435417ed4d4b4247c",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "80703e5f968fc3eafdac3e7e3358d46f5ca219a1dba83632425d963c8ab00a4d",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d88ccaac6343054159b77ab029b54845044ee5b28bcb737435417ed4d4b4247c",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "80703e5f968fc3eafdac3e7e3358d46f5ca219a1dba83632425d963c8ab00a4d",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d88ccaac6343054159b77ab029b54845044ee5b28bcb737435417ed4d4b4247c",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "2dc33662415ea45272faa6065bac8fe646a9e0245180a7c588a904e60209936f",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d88ccaac6343054159b77ab029b54845044ee5b28bcb737435417ed4d4b4247c",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ000883": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "2534d13ac01f46e361104f15bd4cebda1e1c8ecfee3bb23ff18cd84db5ab79cd",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "226e5929e957604f5183dfe9c8738a84e583ecc76c97b017be4258944f7dfcd9",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "7006cb2d3f3bcf844e2ba4c46930cd1909a8fdb5d3ab620e615574cddc2454db",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "226e5929e957604f5183dfe9c8738a84e583ecc76c97b017be4258944f7dfcd9",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "7006cb2d3f3bcf844e2ba4c46930cd1909a8fdb5d3ab620e615574cddc2454db",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "226e5929e957604f5183dfe9c8738a84e583ecc76c97b017be4258944f7dfcd9",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ000921": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "szse-value-momentum-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "cb4c60c6ce4e0f45230f65c1361ba2aa30db565d2cd0472ebd620e7165c232fb",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "e3abfcbe0ef812fb0faf8c2e0c45c58f5ff77bb00c91aca30b4c9c85f30a96b7",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "cb4c60c6ce4e0f45230f65c1361ba2aa30db565d2cd0472ebd620e7165c232fb",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "e3abfcbe0ef812fb0faf8c2e0c45c58f5ff77bb00c91aca30b4c9c85f30a96b7",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ000932": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "low-beta60-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "fa26a206e15211264f0e8e023f5a65274de891a9c45889eb574626804f4efbad",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "7944c4afc43d0ffad27adb74d1bb2b23f163460a85f084919d6a4e04c0406eae",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "fa26a206e15211264f0e8e023f5a65274de891a9c45889eb574626804f4efbad",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "7944c4afc43d0ffad27adb74d1bb2b23f163460a85f084919d6a4e04c0406eae",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "d22343faadaeb94c511cb0ec9f6997d4b2634cd09519aad8ed7c4b02555d10ce",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "7944c4afc43d0ffad27adb74d1bb2b23f163460a85f084919d6a4e04c0406eae",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ000937": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "8be62d8670e53337909040cc3e65c356251bfbe99b71ab94118b34fc88f76cb6",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d814be7527b81ca9226276a31f72bf44be30e65101bbd252ee54f523c369ab4d",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "8be62d8670e53337909040cc3e65c356251bfbe99b71ab94118b34fc88f76cb6",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d814be7527b81ca9226276a31f72bf44be30e65101bbd252ee54f523c369ab4d",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "56ecc19ba1911b0cc4d06368a8d49596b9f32521a95c089f8e0494289840754c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d814be7527b81ca9226276a31f72bf44be30e65101bbd252ee54f523c369ab4d",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "56ecc19ba1911b0cc4d06368a8d49596b9f32521a95c089f8e0494289840754c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d814be7527b81ca9226276a31f72bf44be30e65101bbd252ee54f523c369ab4d",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "83284f4feb96b98773e4ab523dfbebbbff5084aca88e6907f15b5a40813e5f66",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d814be7527b81ca9226276a31f72bf44be30e65101bbd252ee54f523c369ab4d",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SZ000951": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SZ000958": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "9588cfa5d55446a48e50e0e3bc73849c3bd70769de13707ac0ce0c440b1c9238",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8ef50ad94c5f9842c71ec7c18f8a27c69e7123ba1695a40ba8ccfb9d3a4091c2",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "9588cfa5d55446a48e50e0e3bc73849c3bd70769de13707ac0ce0c440b1c9238",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8ef50ad94c5f9842c71ec7c18f8a27c69e7123ba1695a40ba8ccfb9d3a4091c2",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SZ000975": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "36e9b27307f5359a6cce9459ab68b839417b13255734131b5ee1c2ce45937833",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3a860b5cd96067be73683f85ade6d4a742c28014f376268e7e80bee0115f787f",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "b3bee77d5d5f3e5a5c2ffb0619f7dff092e34ca235b0c95066ce8a3165b77aa8",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3a860b5cd96067be73683f85ade6d4a742c28014f376268e7e80bee0115f787f",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "b3bee77d5d5f3e5a5c2ffb0619f7dff092e34ca235b0c95066ce8a3165b77aa8",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3a860b5cd96067be73683f85ade6d4a742c28014f376268e7e80bee0115f787f",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ001227": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "szse-value-momentum-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "8b13c501b84edcec3d2a32c31c09690f51d55080ad9c0e0df65445122e5701d4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3b728460d6db76ec5d9f9135a4c7e4f0c3729c0a768aa73ca421233af6d3b32e",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "8b13c501b84edcec3d2a32c31c09690f51d55080ad9c0e0df65445122e5701d4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3b728460d6db76ec5d9f9135a4c7e4f0c3729c0a768aa73ca421233af6d3b32e",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SZ001286": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "szse-value-momentum-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "ade0ead6470a44f755601f6f7fa2eaf756b145d2ed0c94792663c3ef7a2f43d5",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2b8d9a5969ed243f5ed950e514ec9dba6419f9d3c503a91b68f5b5718f4e3ed7",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "ade0ead6470a44f755601f6f7fa2eaf756b145d2ed0c94792663c3ef7a2f43d5",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "2b8d9a5969ed243f5ed950e514ec9dba6419f9d3c503a91b68f5b5718f4e3ed7",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SZ001696": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "szse-value-momentum-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "145643e0c8dc9c9a1e127ec926cf6e8ecbcbd67364abc0d814f5f6966ca82871",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3b8a50bd2723b781425f0799f39d0768babfab49817e7e88c985efe066a826fc",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ001872": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "58ca25f112881b7db6ab839e0d63771821ead46ea9c0667104bc957e801fecf2",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "00474bde9befc3a6a102252b2b41aceac29c1d88d55f3463631aa294eac9e813",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "58ca25f112881b7db6ab839e0d63771821ead46ea9c0667104bc957e801fecf2",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "00474bde9befc3a6a102252b2b41aceac29c1d88d55f3463631aa294eac9e813",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "58ca25f112881b7db6ab839e0d63771821ead46ea9c0667104bc957e801fecf2",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "00474bde9befc3a6a102252b2b41aceac29c1d88d55f3463631aa294eac9e813",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002007": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "return-families-raw-dev-20261017",
+      "choices": [
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "91775b87f1156ef5b4316b6fb38dbb1a5698778b50cc5089999ab07c06b69f5d",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "37ab8aad7dc1b36952d4c25ae086bdb48554cee9b6aeb5f76011fa4ceb6974a0",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SZ002030": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "fdf65f48080fb72ada3c2e8930b8f4b840785916e525d24b00da62a255872d10",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6c7ba17648cb0266c106164e43813b37720aaa1f256fd91b103ab06c24da5312",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "fdf65f48080fb72ada3c2e8930b8f4b840785916e525d24b00da62a255872d10",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6c7ba17648cb0266c106164e43813b37720aaa1f256fd91b103ab06c24da5312",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "4b92d11af0d123ef3a6b13fa05410a7339a7c42e1d6db6c177a5c44819b7c887",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6c7ba17648cb0266c106164e43813b37720aaa1f256fd91b103ab06c24da5312",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        }
+      ]
+    },
+    "SZ002032": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "4f5ba4e3cb093ede6216017d30becb8105a374344d1f6aa07f59a03715e45946",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6ab1b2350c682636e4ec89e821a9c7540a1ffaf1c289b7a4fe57428957672d1e",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "4f5ba4e3cb093ede6216017d30becb8105a374344d1f6aa07f59a03715e45946",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6ab1b2350c682636e4ec89e821a9c7540a1ffaf1c289b7a4fe57428957672d1e",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "4f5ba4e3cb093ede6216017d30becb8105a374344d1f6aa07f59a03715e45946",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "6ab1b2350c682636e4ec89e821a9c7540a1ffaf1c289b7a4fe57428957672d1e",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002092": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SZ002128": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "65616ce4c8305aee0f91d5353f56d832b27472054817463cdb09e340093b8200",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "a3e3a13ccf9be8c17a38ec4c85990f32e27f214a3d7d02f2e3c5dbe8b8511f48",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "65616ce4c8305aee0f91d5353f56d832b27472054817463cdb09e340093b8200",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "a3e3a13ccf9be8c17a38ec4c85990f32e27f214a3d7d02f2e3c5dbe8b8511f48",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "65616ce4c8305aee0f91d5353f56d832b27472054817463cdb09e340093b8200",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "a3e3a13ccf9be8c17a38ec4c85990f32e27f214a3d7d02f2e3c5dbe8b8511f48",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SZ002155": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "5db558641d98f37a6a884fc256ab0876f2318cca6bd3ec13c749f9e8e5f93e74",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "48172749d2d8803b21ce66ed9eca2992841d0f7082d98ee351e2bcf1047ff767",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "5db558641d98f37a6a884fc256ab0876f2318cca6bd3ec13c749f9e8e5f93e74",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "48172749d2d8803b21ce66ed9eca2992841d0f7082d98ee351e2bcf1047ff767",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002192": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "szse-value-momentum-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "ae349355770b4c8b54704d8c2fdec0784264f01e29ed843c930b5333958fdc83",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "fa331be512bcfef8ba339aad88cd67eb2ab85f99aa43289ecab496b6dcf7577b",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "ae349355770b4c8b54704d8c2fdec0784264f01e29ed843c930b5333958fdc83",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "fa331be512bcfef8ba339aad88cd67eb2ab85f99aa43289ecab496b6dcf7577b",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002223": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "5085fee9a388ada79fd252e8da79de9cea47e8dd0b39fed2b726a5fddd2acc35",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "79f678e12ad0f654e3926a5626d142a732b341df661ffa6d70e51059ddb1164f",
+          "distributions_in_window": 5,
+          "adjustments_in_window": 5
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "5085fee9a388ada79fd252e8da79de9cea47e8dd0b39fed2b726a5fddd2acc35",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "79f678e12ad0f654e3926a5626d142a732b341df661ffa6d70e51059ddb1164f",
+          "distributions_in_window": 5,
+          "adjustments_in_window": 5
+        }
+      ]
+    },
+    "SZ002244": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "cbaba8aa6ebf0f5c4bb12311f46307197ef88442109ad574e092866b03ae1035",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "83721588cbe1b2d56e89ef12806eb6a1f0dd8f81db3bf9f2fc4e333f0b010906",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "1ea943d0e82fba7417a61cb659198713bdefe75ffa1e9a74dbb658dd86768b21",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "83721588cbe1b2d56e89ef12806eb6a1f0dd8f81db3bf9f2fc4e333f0b010906",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "1ea943d0e82fba7417a61cb659198713bdefe75ffa1e9a74dbb658dd86768b21",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "83721588cbe1b2d56e89ef12806eb6a1f0dd8f81db3bf9f2fc4e333f0b010906",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "cbaba8aa6ebf0f5c4bb12311f46307197ef88442109ad574e092866b03ae1035",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "83721588cbe1b2d56e89ef12806eb6a1f0dd8f81db3bf9f2fc4e333f0b010906",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SZ002261": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "b2c36f71ae9021dd04e6c333aa2f90698dcf602f50020c00f1cde47a607ba9da",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "a5e1f7fbfa668309f7060ea92b89b5342b164ccf6f6ccc17fa2c918a915b3e0a",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "b2c36f71ae9021dd04e6c333aa2f90698dcf602f50020c00f1cde47a607ba9da",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "a5e1f7fbfa668309f7060ea92b89b5342b164ccf6f6ccc17fa2c918a915b3e0a",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        }
+      ]
+    },
+    "SZ002262": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "low-beta60-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "ed41adab9f045bea65e2f77a9b6fe529e6bac516b9f772bd41250c81bfed64e9",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "eb231cb025e6706f868e689ab3e49acabf87d0d06b6099b918f9ead010239dab",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002294": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "b2ec4d323b2a21892a6627b369f518dd86d52839202ba2bb375f95742e0c85c2",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "49b50690b80ab2a62229c148866d1f06bbe7b69173ca89e35b3acb4df9d47eb1",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "b2ec4d323b2a21892a6627b369f518dd86d52839202ba2bb375f95742e0c85c2",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "49b50690b80ab2a62229c148866d1f06bbe7b69173ca89e35b3acb4df9d47eb1",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002299": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SZ002312": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "szse-value-momentum-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "3911cdb5f6dd46fd1f79276807a41983a7091c0599e12a155e681d90dd11c6f4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "b7edf0a000a9e7f30999b363eb881fa555e1cbcac59202eaf0bd185f350587b4",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002318": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SZ002353": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "5b2e85bc3ed5d8cf9641b23f2548cec4751c8b74aca91a86c5440e1630941006",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "71c6ae6dc014ab31d14d6079a70cd46f0d2215722a8e7d1978582bf1f2fed428",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "5b2e85bc3ed5d8cf9641b23f2548cec4751c8b74aca91a86c5440e1630941006",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "71c6ae6dc014ab31d14d6079a70cd46f0d2215722a8e7d1978582bf1f2fed428",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SZ002372": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "91b5d31936fa84379b3af0d33e62d9df4879db7c7ee84cf8822548205bd62556",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "72c6347f290dde394bdb0d11a1f920fa8cae591c7538b950e7893d1cfd3f5d49",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SZ002385": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "return-families-raw-dev-20261017",
+      "choices": [
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "628d7ec1bd66116e17dec79c34d12ef33e798c968251537c3f84e27aff1520a5",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "1b6ebd4eb2acc4503319d4a165e1bf179df2d05c24d5a0a21f3f92649f25c124",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002422": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "low-beta60-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "76f3ba7c0ab571eb8f5964fba1056ed07613a80775a063025c5e76805e490ad4",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "d2e13a1de57a1e4db8ce74c571752659b026b91b95a3b18de958fe96bcd34efc",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SZ002423": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "56c9e588d3e48995ebf4539043b354d80e7dc84a853487474208fee46a881738",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "534dc2d99509d2c6c8c119de745b20bbe843edffad4bebccf29e9f7f491cc1ac",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "cb2add739e2d872820940d88e2a538e83d50c3b5e3035c9eac4edfbfc57fc214",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "534dc2d99509d2c6c8c119de745b20bbe843edffad4bebccf29e9f7f491cc1ac",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "cb2add739e2d872820940d88e2a538e83d50c3b5e3035c9eac4edfbfc57fc214",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "534dc2d99509d2c6c8c119de745b20bbe843edffad4bebccf29e9f7f491cc1ac",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "56c9e588d3e48995ebf4539043b354d80e7dc84a853487474208fee46a881738",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "534dc2d99509d2c6c8c119de745b20bbe843edffad4bebccf29e9f7f491cc1ac",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002444": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "3e8ff06fb8082d5f6490a5eaa77ee858687c983b34e8686eb0013cde30ce5ec6",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "91c7c9978fd76ac868160d192140bcb5458ed223739583ec8e8c57dbefa4ca6d",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "3e8ff06fb8082d5f6490a5eaa77ee858687c983b34e8686eb0013cde30ce5ec6",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "91c7c9978fd76ac868160d192140bcb5458ed223739583ec8e8c57dbefa4ca6d",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SZ002461": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "aacc6bb4e07ad058939faed13a87ee0cfa67ab3bbd5d47063f4e013e64edf817",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8a4d274c474d754c5c560b6169bd7e59635d2c6cf0e9f0a68aecc5ef14311dd8",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "aacc6bb4e07ad058939faed13a87ee0cfa67ab3bbd5d47063f4e013e64edf817",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8a4d274c474d754c5c560b6169bd7e59635d2c6cf0e9f0a68aecc5ef14311dd8",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "6122ff9d28e39e12479384164c6d6ba4c3bbb0d93d66be9f8ec1374d9323f39e",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "8a4d274c474d754c5c560b6169bd7e59635d2c6cf0e9f0a68aecc5ef14311dd8",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002487": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SZ002508": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "szse-value-momentum-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "5c07e11730fd66eca29845ba91118c3465bd51455f71efd6c49f5197176830f2",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f404a076b6aa73507d7128ff44221fc64e202c3fadb2b52246437842f7e613cf",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 5
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "5c07e11730fd66eca29845ba91118c3465bd51455f71efd6c49f5197176830f2",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f404a076b6aa73507d7128ff44221fc64e202c3fadb2b52246437842f7e613cf",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 5
+        }
+      ]
+    },
+    "SZ002531": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SZ002563": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "86243a96ffde096bd72357f0140e047bdf03f8f339eeaa31099ea4a2bb28f730",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "4a6620e46c42434e6bcfd7ef7f5c2f36958d9e1c738fe6ef7da4be0f4fa5ab2e",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "86243a96ffde096bd72357f0140e047bdf03f8f339eeaa31099ea4a2bb28f730",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "4a6620e46c42434e6bcfd7ef7f5c2f36958d9e1c738fe6ef7da4be0f4fa5ab2e",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "86243a96ffde096bd72357f0140e047bdf03f8f339eeaa31099ea4a2bb28f730",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "4a6620e46c42434e6bcfd7ef7f5c2f36958d9e1c738fe6ef7da4be0f4fa5ab2e",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SZ002595": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "27ad390249df13ad56ee8fdbe01ede1bbeebfa6d7cb723969c0d1d4eb93b50d6",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3b443aac9707c7e945b0c3338ed40b680730eeab918037ebd1588cd07973bd3b",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "27ad390249df13ad56ee8fdbe01ede1bbeebfa6d7cb723969c0d1d4eb93b50d6",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "3b443aac9707c7e945b0c3338ed40b680730eeab918037ebd1588cd07973bd3b",
+          "distributions_in_window": 3,
+          "adjustments_in_window": 3
+        }
+      ]
+    },
+    "SZ002607": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "89729e555ddae6e9228db3f3dd5ec7cce12e4cc72e9212611e3f4ffe2227b6df",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "08aa07e054a36b6e1bd3c72b34fa669b9b732404a22b3aea86a1a7a8a5431388",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "89729e555ddae6e9228db3f3dd5ec7cce12e4cc72e9212611e3f4ffe2227b6df",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "08aa07e054a36b6e1bd3c72b34fa669b9b732404a22b3aea86a1a7a8a5431388",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "89729e555ddae6e9228db3f3dd5ec7cce12e4cc72e9212611e3f4ffe2227b6df",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "08aa07e054a36b6e1bd3c72b34fa669b9b732404a22b3aea86a1a7a8a5431388",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        }
+      ]
+    },
+    "SZ002608": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "illiquidity-raw-source-continuation-20261020",
+      "choices": [
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "5be2c044512829cbfc2ab4dbe9f143f5cc84d403dff3a281fc666a0be161f802",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "ded9cc8d14fa1b740c76454cf30de077cea072c3b70272d4319d90dfef414645",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "5be2c044512829cbfc2ab4dbe9f143f5cc84d403dff3a281fc666a0be161f802",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "ded9cc8d14fa1b740c76454cf30de077cea072c3b70272d4319d90dfef414645",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "5be2c044512829cbfc2ab4dbe9f143f5cc84d403dff3a281fc666a0be161f802",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "ded9cc8d14fa1b740c76454cf30de077cea072c3b70272d4319d90dfef414645",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "5be2c044512829cbfc2ab4dbe9f143f5cc84d403dff3a281fc666a0be161f802",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "ded9cc8d14fa1b740c76454cf30de077cea072c3b70272d4319d90dfef414645",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002625": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "8d972c2603e8bb1ca06a07e689b948ec85e07a65714efccb2bdd34bad73f9bce",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c7c7f5922fcdf1327f0c84e41a2e948b17803a0cb1a63397d4e9420ee7f0f45f",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "8d972c2603e8bb1ca06a07e689b948ec85e07a65714efccb2bdd34bad73f9bce",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "c7c7f5922fcdf1327f0c84e41a2e948b17803a0cb1a63397d4e9420ee7f0f45f",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        }
+      ]
+    },
+    "SZ002653": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "70b2fc8f0c69d08b3f57f636a0cde9795539cffd60fa2ba65eb488cb73077062",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "23ac7fd160f4e61a12e97e8aa6e333d9a8701bde242ef2cee9adf2e121bc1a6d",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "illiquidity-raw-source-continuation-20261020",
+          "original_packet_sha256": "70b2fc8f0c69d08b3f57f636a0cde9795539cffd60fa2ba65eb488cb73077062",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "23ac7fd160f4e61a12e97e8aa6e333d9a8701bde242ef2cee9adf2e121bc1a6d",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "70b2fc8f0c69d08b3f57f636a0cde9795539cffd60fa2ba65eb488cb73077062",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "23ac7fd160f4e61a12e97e8aa6e333d9a8701bde242ef2cee9adf2e121bc1a6d",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    },
+    "SZ002670": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "db9748af221510b65378596a7f8dacf5cc8b93489842504765e2c0e1932c6379",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "481ef5da6a7d6ee8d766e328217197e6548dc43b2d8f7d9c72c2e0beb691042f",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "db9748af221510b65378596a7f8dacf5cc8b93489842504765e2c0e1932c6379",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "481ef5da6a7d6ee8d766e328217197e6548dc43b2d8f7d9c72c2e0beb691042f",
+          "distributions_in_window": 0,
+          "adjustments_in_window": 0
+        }
+      ]
+    },
+    "SZ002673": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "46316bf564daee6f0b42eb6e00d6c9f21e3628e175c227678308c04e7b91bf7c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "4da36c7f33b5574f260ad64366bfbd76c987fcbd31cbd243e2cb11b78f9285b9",
+          "distributions_in_window": 6,
+          "adjustments_in_window": 6
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "46316bf564daee6f0b42eb6e00d6c9f21e3628e175c227678308c04e7b91bf7c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "4da36c7f33b5574f260ad64366bfbd76c987fcbd31cbd243e2cb11b78f9285b9",
+          "distributions_in_window": 6,
+          "adjustments_in_window": 6
+        },
+        {
+          "source_directory": "return-families-raw-dev-20261017",
+          "original_packet_sha256": "46316bf564daee6f0b42eb6e00d6c9f21e3628e175c227678308c04e7b91bf7c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "4da36c7f33b5574f260ad64366bfbd76c987fcbd31cbd243e2cb11b78f9285b9",
+          "distributions_in_window": 6,
+          "adjustments_in_window": 6
+        }
+      ]
+    },
+    "SZ002851": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "a285810747c546a2400b571c680d6dd816ad568a4671da0279d8fe11266db556",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f64e6339d036022df78996af3a9c4ad400dee7bd8c6f79819addef45b5d2151c",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "a285810747c546a2400b571c680d6dd816ad568a4671da0279d8fe11266db556",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "f64e6339d036022df78996af3a9c4ad400dee7bd8c6f79819addef45b5d2151c",
+          "distributions_in_window": 2,
+          "adjustments_in_window": 2
+        }
+      ]
+    },
+    "SZ002865": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "szse-value-momentum-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "15b32ec45aaf31e06f0d3160e9abaaeb6b0d7a269ba03dbddd3969431e8b5bca",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "28bdd8ca674f053448355af091bd3f5f5861d8563c3cc352c0b40b96128b3f9f",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "15b32ec45aaf31e06f0d3160e9abaaeb6b0d7a269ba03dbddd3969431e8b5bca",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "28bdd8ca674f053448355af091bd3f5f5861d8563c3cc352c0b40b96128b3f9f",
+          "distributions_in_window": 1,
+          "adjustments_in_window": 1
+        }
+      ]
+    },
+    "SZ002945": {
+      "status": "NO_EXISTING_RAW_PACKET",
+      "choices": []
+    },
+    "SZ002966": {
+      "status": "EXISTING_ORIGINALS_AUTHENTICATED_NOT_ADMITTED",
+      "priority_route": "budgeted-residual-raw-dev-20261021",
+      "choices": [
+        {
+          "source_directory": "budgeted-residual-raw-dev-20261021",
+          "original_packet_sha256": "e58c247f92d7899c8e86519c066d7440591cd0b807510de90f953027231dd48c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "573fd67463efe93a4a9ce4b00087e933960eea95c6b59168898c3d861c2d6e80",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "low-beta60-raw-dev-20261021",
+          "original_packet_sha256": "bd531f52a365a7a785fd385e877629eb44484ebe5abf91dfa86d8329acd3d61f",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "573fd67463efe93a4a9ce4b00087e933960eea95c6b59168898c3d861c2d6e80",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "szse-value-momentum-raw-dev-20261021",
+          "original_packet_sha256": "bd531f52a365a7a785fd385e877629eb44484ebe5abf91dfa86d8329acd3d61f",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "573fd67463efe93a4a9ce4b00087e933960eea95c6b59168898c3d861c2d6e80",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        },
+        {
+          "source_directory": "szse-value-raw-dev-20261017",
+          "original_packet_sha256": "e58c247f92d7899c8e86519c066d7440591cd0b807510de90f953027231dd48c",
+          "original_window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "full_486_source_calendar": true,
+          "missing_sessions": [],
+          "pre2026_raw_core_sha256": "573fd67463efe93a4a9ce4b00087e933960eea95c6b59168898c3d861c2d6e80",
+          "distributions_in_window": 4,
+          "adjustments_in_window": 4
+        }
+      ]
+    }
+  }
+}

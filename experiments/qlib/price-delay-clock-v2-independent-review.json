@@ -1,0 +1,52 @@
+{
+  "status": "CLOCK_ONLY_V2_INDEPENDENT_BYTE_AND_RUNNER_SCOPE_CHECK_PASSED_NO_BACKTEST",
+  "original_provider_manifest_sha256": "49e1a7c7e163575165ecaaf9ba9dbcfacb1f7544c73d5bab594f1e5b152ae3fe",
+  "v2_provider_manifest_sha256": "e17a0e994ffe8b9e6729d290f7aea29e4c7c2d6f5ec6d497171d66f241d197fe",
+  "clock_request_sha256": "9720d70a7936db93b0c52493f8b69e427e2f27a7a85c985ae8d5422723dbedc4",
+  "v1_failure_record_sha256": "98d55668b1be05dbb79eec4ede694ea2a5ff87aca03c9ae18f4aa79f7cde3c13",
+  "v1_failure_completed_cases": 0,
+  "quote_files_compared_byte_for_byte": 4010,
+  "all_quote_bytes_unchanged": true,
+  "all_instrument_and_day_calendar_bytes_unchanged": true,
+  "provider_file_set_exact": true,
+  "no_symlinks_or_hardlinked_copied_files": true,
+  "normal_calendar_sessions": 6301,
+  "normal_calendar_end": "2025-12-31",
+  "future_calendar_sessions": 6302,
+  "future_calendar_sha256": "b4daf1d94cbe450f324c4f63e5ee945a4281b19a2c81a70646ddd88c4bc10dfd",
+  "clock_only_next_session": "2026-01-05",
+  "next_session_verified_from_frozen_actual_calendar": true,
+  "actual_calendar_metadata_source": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/qlib-enhanced-dev/calendars/day.txt",
+  "actual_calendar_metadata_sha256": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+  "quote_extent_verified_each_file": true,
+  "new_quote_values": 0,
+  "new_simulated_session_not_requested": true,
+  "runner_v1_sha256": "85ed6eec21794417c0833a815f65cb37a81a76d7a49594f0f088997e4eb3589d",
+  "runner_v2_sha256": "958366cfc796a92b8f96f8ba5b079f253c7be5ef40b0e8006576c45afdb32e0e",
+  "runner_economic_execution_and_selection_section_literal_equal": true,
+  "runner_changes": [
+    "method identity uses V2 and binds clock preparation",
+    "new frozen status identities",
+    "checks bound day_future hash, exactly day+one boundary and all feature hashes",
+    "records clock-only provenance in output summary"
+  ],
+  "clock_negative_tests_rejected": {
+    "missing_next": true,
+    "changed_prefix": true,
+    "duplicate_clock": true,
+    "noncanonical": true
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "limitations": [
+    "No account backtest or portfolio ROI was run; successful terminal account replay is not certified here.",
+    "Qlib installed source statically confirms future=True calendar and calendar_index+1 in get_step_time; day_future file is used for that exclusive boundary.",
+    "Only the frozen actual calendar metadata outside the capped provider was read; no uncapped quote file or other strategy result was read.",
+    "V2 account plan not yet frozen in this review; final plan must bind the verified V2 manifest/future-calendar/runner hashes.",
+    "PIT, source revisions and actual execution limitations of the original research remain unchanged."
+  ],
+  "network_queries": 0,
+  "portfolio_returns_computed": false,
+  "2026_quote_values_read": false,
+  "repository_files_modified": false
+}

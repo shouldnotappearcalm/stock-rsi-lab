@@ -1,0 +1,153 @@
+{
+  "status": "POST_RUN_PRE2026_STATUS_SUPPLEMENT_RESOLVES_CANDIDATE_MARKS_ONLY",
+  "original_summary_sha256": "7b409f0923a922516fcac3b1aa73a142f96899afb562467c0046d1b99ef49e6d",
+  "original_selected_development_lead": null,
+  "original_summary_unchanged": true,
+  "capture_manifest": {
+    "status": "PRE2026_INDEPENDENT_GAP_STATE_CAPTURE",
+    "window": [
+      "2023-12-29",
+      "2025-12-31"
+    ],
+    "source": "BaoStock query_history_k_data_plus, adjustflag=3",
+    "provider_version": "00.9.40",
+    "names": 1,
+    "plan_sha256": "133b0714565e8949634a6ad6869e03c644fc2a07093050e7afc7da4a20e0ed2e",
+    "price_audit_sha256": "ea910e18788e1f0dbc98ddddefe7057b000e352392b26c32c014c17f3e187c71",
+    "capture_code_sha256": "297ced31ebbbb9d12c15c686eb7cedfd9f2b6cef70b5b77869c15249ea6e5345",
+    "per_code_sha256": {
+      "SH601298": "e6fc242882ec7a1bb53fcc96583f280f86fe373675b5c94db0d3e3ac1d791062"
+    },
+    "gap_state_coverage": {
+      "suspended": 3,
+      "trading": 0,
+      "missing": 0
+    },
+    "2026_market_values_queried": false,
+    "original_price_provider_modified": false,
+    "historical_observed_arrival_verified": false
+  },
+  "capture_manifest_sha256": "95a325e0c2e9bd342e621bf72164fcb2823069641dec0b75a30e4ad60a1e25b1",
+  "capture_rows": 486,
+  "checks": {
+    "20": {
+      "original_unverified": 3,
+      "supplemented_rows": [
+        {
+          "instrument": "SH601298",
+          "session": "2024-07-10",
+          "marked_normalized_price": 1.8328313827514648,
+          "verified": true,
+          "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+          "last_visible_close_date": "2024-07-09",
+          "last_visible_normalized_close": 1.8328313827514648,
+          "source_tradestatus": "0",
+          "actual_quote_on_suspended_day_created": false
+        },
+        {
+          "instrument": "SH601298",
+          "session": "2024-07-11",
+          "marked_normalized_price": 1.8328313827514648,
+          "verified": true,
+          "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+          "last_visible_close_date": "2024-07-09",
+          "last_visible_normalized_close": 1.8328313827514648,
+          "source_tradestatus": "0",
+          "actual_quote_on_suspended_day_created": false
+        },
+        {
+          "instrument": "SH601298",
+          "session": "2024-07-12",
+          "marked_normalized_price": 1.8328313827514648,
+          "verified": true,
+          "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+          "last_visible_close_date": "2024-07-09",
+          "last_visible_normalized_close": 1.8328313827514648,
+          "source_tradestatus": "0",
+          "actual_quote_on_suspended_day_created": false
+        }
+      ],
+      "remaining_unverified": 0,
+      "original_other_verified_rows_unchanged": true
+    },
+    "40": {
+      "original_unverified": 3,
+      "supplemented_rows": [
+        {
+          "instrument": "SH601298",
+          "session": "2024-07-10",
+          "marked_normalized_price": 1.8328313827514648,
+          "verified": true,
+          "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+          "last_visible_close_date": "2024-07-09",
+          "last_visible_normalized_close": 1.8328313827514648,
+          "source_tradestatus": "0",
+          "actual_quote_on_suspended_day_created": false
+        },
+        {
+          "instrument": "SH601298",
+          "session": "2024-07-11",
+          "marked_normalized_price": 1.8328313827514648,
+          "verified": true,
+          "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+          "last_visible_close_date": "2024-07-09",
+          "last_visible_normalized_close": 1.8328313827514648,
+          "source_tradestatus": "0",
+          "actual_quote_on_suspended_day_created": false
+        },
+        {
+          "instrument": "SH601298",
+          "session": "2024-07-12",
+          "marked_normalized_price": 1.8328313827514648,
+          "verified": true,
+          "classification": "INDEPENDENT_HALT_LAST_VISIBLE_MARK",
+          "last_visible_close_date": "2024-07-09",
+          "last_visible_normalized_close": 1.8328313827514648,
+          "source_tradestatus": "0",
+          "actual_quote_on_suspended_day_created": false
+        }
+      ],
+      "remaining_unverified": 0,
+      "original_other_verified_rows_unchanged": true
+    }
+  },
+  "original_account_returns_and_ledger_unchanged": true,
+  "investment_rules_changed": false,
+  "supplemental_same_gate_candidate": "price_delay_d1",
+  "next_admissible_stage": "RAW_SHARE_AND_INTRADAY_PRE2026_CONFIRMATION_ONLY",
+  "2026_market_values_queried": false,
+  "raw_share_execution_verified": false,
+  "historical_arrival_verified": false,
+  "objective_achieved": false,
+  "raw_status_excerpt": [
+    {
+      "date": "2024-07-09",
+      "code": "sh.601298",
+      "close": "9.8900",
+      "tradestatus": "1",
+      "isST": "0"
+    },
+    {
+      "date": "2024-07-10",
+      "code": "sh.601298",
+      "close": "9.8900",
+      "tradestatus": "0",
+      "isST": "0"
+    },
+    {
+      "date": "2024-07-11",
+      "code": "sh.601298",
+      "close": "9.8900",
+      "tradestatus": "0",
+      "isST": "0"
+    },
+    {
+      "date": "2024-07-12",
+      "code": "sh.601298",
+      "close": "9.8900",
+      "tradestatus": "0",
+      "isST": "0"
+    }
+  ],
+  "observed_at": "2026-10-21T05:28:48.184916+00:00"
+}

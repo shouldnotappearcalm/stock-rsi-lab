@@ -1,0 +1,18 @@
+{
+  "status": "ROOT_ALL129_PRE2026_REUSES_AND42_ACCOUNT_ARTIFACTS_AUTHENTICATED",
+  "raw_request_sha256": "de427db69c3a5f0deb3823e0dfa7527a8fb8b97721f3de4696a5b6ea59b506b5",
+  "reuse_names": 129,
+  "explicit_source_sessions": 486,
+  "remaining_names": 22,
+  "maximum_new_source_reservations": 88,
+  "account_cases": 6,
+  "financial_artifacts": 42,
+  "original_summary_sha256": "7b409f0923a922516fcac3b1aa73a142f96899afb562467c0046d1b99ef49e6d",
+  "original_selected_lead": null,
+  "no_source_network": true,
+  "no_2026_price_values": true,
+  "bound_method_and_screen_files_validated": true,
+  "behavior_tests": 557,
+  "test_exit_code": 0,
+  "test_log_sha256": "64c9330c849415e70f9696f7065c38fcc3bb78d691d78d10d1f38b50bef7d3b3"
+}

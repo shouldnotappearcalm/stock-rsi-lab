@@ -5121,5 +5121,29 @@
       "full_October_complete": false,
       "objective_achieved": false
     }
-  ]
+  ],
+  "latest_pre2026_price_delay_screen": {
+    "status": "ORIGINAL_DAILY_SCREEN_MARK_BLOCK_RETAINED_SUPPLEMENT_PERMITS_RAW_SHARE_CONFIRMATION",
+    "candidate": "price_delay_d1",
+    "candidate_budget": 1,
+    "2024_normalized_daily_proxy_net_pct": 16.908141739694326,
+    "2025_normalized_daily_proxy_net_pct": 4.529958434408643,
+    "mean_exposure_pct": 91.43468239703886,
+    "reference_extra_bps": 40,
+    "original_selected_development_lead": null,
+    "original_unverified_marks": 3,
+    "supplemental_remaining_unverified_candidate_marks": 0,
+    "result_file": "experiments/qlib/price-delay-pre2026-development-results.json",
+    "account_audit_file": "experiments/qlib/price-delay-pre2026-account-independent-review.json",
+    "supplement_file": "experiments/qlib/price-delay-pre2026-gap-supplement-verification.json",
+    "supplement_audit_file": "experiments/qlib/price-delay-gap-supplement-independent-review.json",
+    "raw_source_request_file": "experiments/qlib/price-delay-pre2026-raw-source-request.json",
+    "raw_source_names": 151,
+    "existing_pre2026_reuses": 129,
+    "fresh_names": 22,
+    "2026_candidate_market_values_or_returns_queried": false,
+    "raw_share_execution_verified": false,
+    "candidate_promoted": false,
+    "objective_achieved": false
+  }
 }
