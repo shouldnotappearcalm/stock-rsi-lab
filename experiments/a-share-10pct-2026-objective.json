@@ -4833,7 +4833,7 @@
     },
     {
       "candidate": "low_market_residual_vol_1m",
-      "status": "PRE2026_24_FORMATIONS_INDEPENDENTLY_RECONSTRUCTED_NO_PORTFOLIO_RETURNS",
+      "status": "PRE2026_POSITIVE_BOTH_YEARS_REJECTED_MEAN_EXPOSURE_BELOW90_NO2026",
       "economic_family": "EXISTING_LOW_RISK_LOTTERY_VARIANT",
       "new_independent_economic_family": false,
       "candidate_budget": 1,
@@ -4845,16 +4845,27 @@
         "2025-12-31"
       ],
       "new_2026_values_or_outcomes_queried": false,
-      "portfolio_returns_computed": false,
+      "portfolio_returns_computed": true,
       "controls_selectable": false,
       "reference_extra_cost_bps": 40,
       "same_continuous_account_CNY": 1000000,
       "candidate_promoted": false,
       "objective_achieved": false,
-      "next_action": "Freeze continuous pre2026 account development at fixed20/40bp; no2026 read until retained.",
+      "next_action": "Attribute pre2026 idle cash before proposing a separately frozen common whole-lot allocation change; do not alter indicator, thresholds or use2026 facts.",
       "formation_freeze_commit": "4e5fada",
       "formation_result_file": "experiments/qlib/low-market-residual-vol1m-pre2026-formation-results.json",
-      "formation_independent_audit_file": "experiments/qlib/low-market-residual-vol1m-pre2026-formation-independent-audit.json"
+      "formation_independent_audit_file": "experiments/qlib/low-market-residual-vol1m-pre2026-formation-independent-audit.json",
+      "development_plan_file": "experiments/qlib/low-market-residual-vol1m-pre2026-development-plan.json",
+      "development_freeze_commit": "d067197",
+      "development_result_file": "experiments/qlib/low-market-residual-vol1m-pre2026-development-results.json",
+      "development_verification_file": "experiments/qlib/low-market-residual-vol1m-pre2026-development-verification.json",
+      "development_reference_metrics": {
+        "2024_return_pct": 21.881587874104035,
+        "2025_return_pct": 8.21840601362216,
+        "average_exposure_pct": 88.59909801697592,
+        "unverified_held_marks": 0
+      },
+      "development_independent_audit_file": "experiments/qlib/low-market-residual-vol1m-pre2026-development-independent-audit.json"
     }
   ],
   "latest_data_admission": {
@@ -5494,5 +5505,30 @@
       "728_missing_minute_source_queries_not_started": true,
       "reason_not_to_report_full_ROI": "The fixed next target requires a source outside the frozen ordinary-stock account model; partial values are not a complete valid 2026 return."
     }
+  },
+  "latest_low_market_residual_vol_screen": {
+    "candidate": "low_market_residual_vol_1m",
+    "status": "COMPLETE_INDEPENDENTLY_VERIFIED_PRE2026_SCREEN_REJECTED_EXPOSURE_NO2026",
+    "result_file": "experiments/qlib/low-market-residual-vol1m-pre2026-development-results.json",
+    "result_sha256": "204775979449096e069b375d2093c033f2a97bec970181366cebeeaedb29c93d",
+    "independent_audit_file": "experiments/qlib/low-market-residual-vol1m-pre2026-development-independent-audit.json",
+    "independent_audit_sha256": "32b0061937e5434c2e3474c8f198259f98b7e7dce3381f441073282ef943d5d5",
+    "root_reproduced_audit_byte_identically": true,
+    "same_continuous_CNY": 1000000,
+    "NAV_points_including_initial_anchor": 486,
+    "trading_sessions": 485,
+    "fixed_reference_extra_bps": 40,
+    "2024_net_return_pct": 21.881587874104035,
+    "2025_net_return_pct": 8.21840601362216,
+    "average_exposure_pct": 88.59909801697592,
+    "required_average_exposure_pct": 90,
+    "unverified_held_marks": 0,
+    "primary_reference_unfilled_orders": 253,
+    "inherited_tiny_Qlib_overshoots_explicitly_reported": true,
+    "controls_promoted": false,
+    "candidate_promoted": false,
+    "2026_market_values_queried": false,
+    "objective_achieved": false,
+    "next_action": "Attribute pre2026 idle cash before proposing a separately frozen common whole-lot allocation change; do not alter indicator, thresholds or use2026 facts."
   }
 }
