@@ -1,0 +1,69 @@
+{
+  "SSE": {
+    "cached_reading_receipt": "/tmp/ivol-sh600079-st-primary-research-20261021/reading-download-receipts-additional.json",
+    "docx_sha256": "7aa2319f6dcf597be1e86b3b69d7c2ad0e6acb2a5d0cc6be48a01af602fded40",
+    "fact": "A-share order-price minimum increment isCNY0.01. The exchange retains authority to use differing increments by price level and to adjust minima under3.3.11–3.3.12.",
+    "historical_first_arrival_authenticated": false,
+    "local_docx": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-regime-primary-pre2026-20261021/sse-trading-rules-2023.docx",
+    "local_text": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-regime-primary-pre2026-20261021/sse-trading-rules-2023-text.txt",
+    "original_docx_URL": "https://www.sse.com.cn/lawandrules/sselawsrules2025/repeal/rules/c/10824490/files/dcbe58edb194451d93f19b1f7dd8fb4c.docx",
+    "section": "3.3.11",
+    "text_sha256": "e65151d622dc3ce871ef9e3e0fed746b2f31f942fd24627e2166f7f1e5b2638c",
+    "verified": true,
+    "version": "上海证券交易所交易规则（2023年修订）"
+  },
+  "SZSE": {
+    "GET_budget_not_spent_on_guessed_URLs": true,
+    "additional_official_search_queries": [
+      {
+        "domains": [
+          "szse.cn"
+        ],
+        "query": "\"深圳证券交易所交易规则（2023年修订）\" \"3.3.11\" \"0.01\"",
+        "result": "EMPTY_SEARCH_RESULTS"
+      },
+      {
+        "domains": [
+          "docs.static.szse.cn"
+        ],
+        "query": "\"深圳证券交易所交易规则（2023年修订）\" filetype:pdf",
+        "result": "EMPTY_SEARCH_RESULTS"
+      }
+    ],
+    "additional_primary_GETs": 0,
+    "cached_prior_failure_manifest": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-archive-cent-grid-primary-20261022/manifest.json",
+    "cached_prior_failure_manifest_sha256": "163ce8b487c2e9cde09e96efb560154f21453f77f2ed11aaf247c1749ea4f9d9",
+    "historical_2023_final_or_2024_2025_effective_text_authenticated": false,
+    "new_PDF_downloaded": false,
+    "prior_failed_URLs": [
+      {
+        "source": "observed prior tool response, body not retained",
+        "status": 404,
+        "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020230217564423808793.pdf"
+      },
+      {
+        "body_sha256": "fc2051278f454ecd0aeafcf4ba1483f1f9bdcc644af901f4b5f464b3bdacaf8f",
+        "status": 404,
+        "url": "https://docs.static.szse.cn/www/lawrules/index/rule/W020230217564423808793.pdf"
+      }
+    ],
+    "stopping_reason": "No authenticated new originalURL was found within2officialsearches; previously observed404s remain failureevidence. No further search or retries.",
+    "tick_clause_authenticated": false
+  },
+  "boundaries": {
+    "2026_market_rows_read": false,
+    "additional_official_searches": 2,
+    "additional_primary_GETs": 0,
+    "maximum_additional_primary_GETs_authorized": 2,
+    "portfolio_or_account_runs": 0,
+    "repository_or_source_modified": false,
+    "rules_2026_or_consultation_used_as_historical_substitute": false,
+    "source_admission_granted": false
+  },
+  "limits": [
+    "SSE order tick text is not SZSE historical rule evidence.",
+    "Order-price tick alone does not authenticate archive instrument identity, raw-versus-adjusted price basis, minute-clock semantics, provider provenance, price precision serialization or historical arrival.",
+    "A uniquely reversible binary32-to-cent engineering decoder cannot supply a missing officialhistoricalSZSE rule or convert source comparison into executionadmission."
+  ],
+  "status": "BOUNDED_PRIMARY_RULE_LOOKUP_COMPLETE_SZSE_HISTORICAL_RULE_UNAUTHENTICATED"
+}

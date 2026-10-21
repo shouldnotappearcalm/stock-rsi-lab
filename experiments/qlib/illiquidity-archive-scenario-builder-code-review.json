@@ -1,0 +1,32 @@
+{
+  "status": "PASS_BOUNDED_SOURCE_BUILDER_FIX_REVIEW_FINAL",
+  "file_sha256": {
+    "scripts/build_illiquidity_archive_scenario_sources.py": "5c6e70317602952c7b4747ab22fed6c816c4e690e03530108149498955cb7b3e",
+    "tests/test_archive_scenario_source_request.py": "7e7757effd9df08c6a1ef581505c3271139b903ae4c092881db6149520c645c4",
+    "src/stock_rsi/archive_cent_clock.py": "836e938933fda9ee1fb8c60180488af4071dc7169cdd3d390c3fd4e5207d9714"
+  },
+  "prior_report_sha256": "632b8a5a1a8cf1804a93908bf512e2e7a2c16394449d42146e5e1ed20d3a025c",
+  "critical_findings": [],
+  "important_findings": [],
+  "both_original_important_findings_resolved": true,
+  "focused_tests_passed": 18,
+  "minor_findings": [],
+  "verified": [
+    "External frozen request is independently hashed before and after interpretation without a recursive request self hash.",
+    "Finally checks every bound source independently after KeyboardInterrupt, source mutation, missing source and parse failure.",
+    "Partial records and original error retained; no summary created on interruption or mismatched source/request.",
+    "Current archive_cent_clock SHA remains836e938933fda9ee1fb8c60180488af4071dc7169cdd3d390c3fd4e5207d9714.",
+    "Independent details-writer OSError probe: terminal records persistence_errors, original KeyboardInterrupt identity retained with diagnostic note; no successful summary."
+  ],
+  "actual_interpretation_or_build_run": false,
+  "synthetic_build_wrapper_tested_with_interpreter_mocked": true,
+  "real_6989_rows_read": false,
+  "network_used": false,
+  "portfolio_returns_computed": false,
+  "repository_modified": false,
+  "limitations": [
+    "Final frozen request/all actual inputs were not authenticated in this code fix review.",
+    "No real archive comparison, source route completeness result or account admission is claimed."
+  ],
+  "minor_persistence_diagnostics_resolved": true
+}

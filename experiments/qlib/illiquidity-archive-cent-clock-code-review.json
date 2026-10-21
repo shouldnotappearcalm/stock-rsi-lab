@@ -1,0 +1,39 @@
+{
+  "status": "PASS_BOUNDED_BINARY32_CENT_CLOCK_ENGINEERING_REVIEW",
+  "file_sha256": {
+    "src/stock_rsi/archive_cent_clock.py": "836e938933fda9ee1fb8c60180488af4071dc7169cdd3d390c3fd4e5207d9714",
+    "tests/test_archive_cent_clock.py": "d818c0c86412edf83164377f08a6e4500dda7a61c7ac752663a31c85b60bba3f"
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "focused_tests_passed": 8,
+  "independent_rational_round_to_even_oracle": {
+    "unique_binary32_inputs_checked": 15716,
+    "unique_cent_accepted": 11293,
+    "zero_or_multiple_cent_rejected": 4423,
+    "oracle": "Integer exponent/significand extraction and exact Fraction cents-to-binary32 rounding; no production inverse helper or float midpoint implementation used for expected answers. Deterministic seed20261022; exhaustive first10001cent values plus randomcent values and binary exponent boundaries."
+  },
+  "clock_hypothesis_independent_checks": {
+    "windows": 48,
+    "distinct_selected_labels": 192,
+    "excluded_preserved_rows": 49,
+    "both_interpretations_inside_each_window": true,
+    "maximum_interval_end_not_after_window_end": true,
+    "selected_volumes_disjoint": true
+  },
+  "verified_boundaries": [
+    "Negative zero and arbitrary binary64 prices rejected; unsupported extreme/multiple-cent values fail closed rather than round to a chosen cent.",
+    "All241 rows retained for whole-day decoded OHLC and share-volume reconciliation; 09:30 and boundary labels not shifted or reused.",
+    "Per-window evidence derives solely from its selected4 original-price-bit/decoded-value/volume rows and fixed contract/identity/window clocks; later interior mutation leaves earlier evidence unchanged.",
+    "Buy high/sell low and192label volume are conditional scenario inputs, with no actual broker queue/price/arrival/tick-provider certification."
+  ],
+  "network_used": false,
+  "real_archive_rows_read": false,
+  "real_account_or_ROI_run": false,
+  "repository_modified": false,
+  "limitations": [
+    "Validity is conditional on exact binary32 promotion, stated cent grid, and globally applicable start-label or end-label interpretations. This proves neither original encoding intent nor issuer/exchange tick applicability.",
+    "Source filtering and immutable full-day prechecks are engineering validation, not OS future-data isolation or point-in-time availability proof.",
+    "No actual6989row interpretation/source admission/portfolio or60-account validation performed."
+  ]
+}
