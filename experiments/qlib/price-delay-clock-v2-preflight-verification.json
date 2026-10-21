@@ -1,0 +1,12 @@
+{
+  "status": "CLOCK_V2_SOURCE_PREFLIGHT_AND_554_TESTS_PASS_BEFORE_COMPLETED_OUTCOMES",
+  "plan_sha256": "f4d425b1eda9ad6f1253337ca393870b54a2577c26042595bff2e6c0c6d0f94f",
+  "original_24_targets_and_receipts_byte_exact": true,
+  "source_preflight_exit_code": 0,
+  "source_preflight_log_sha256": "a7a641b7a1bbaf7af28e0da99dea6d98cca90ee97e1c2c5f8152043c3041ddc1",
+  "behavior_tests": 554,
+  "test_exit_code": 0,
+  "test_log_sha256": "1174db14bdfeb27322d52e55ebd3fb63550e17d9da1ed33743874a46b40decb2",
+  "last_step_verification_sha256": "7a21da299b49c230a267ece2f9dfd463f0479079231d5121ec4feae847c3259d",
+  "portfolio_roi_computed": false
+}

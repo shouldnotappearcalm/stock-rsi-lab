@@ -1,0 +1,10 @@
+{
+  "status": "QLIB_FINAL2025_STEP_BOUNDARY_REPRODUCED_WITHOUT_PRICE_EXTENSION",
+  "sessions": 485,
+  "last_step_start": "2025-12-31 00:00:00",
+  "last_step_end_exclusive_boundary_minus_second": "2026-01-04 23:59:59",
+  "last_snapshot_price_session": "2025-12-31",
+  "next_session_price_query_rejected": true,
+  "portfolio_roi_computed": false,
+  "provider_manifest_sha256": "e17a0e994ffe8b9e6729d290f7aea29e4c7c2d6f5ec6d497171d66f241d197fe"
+}
