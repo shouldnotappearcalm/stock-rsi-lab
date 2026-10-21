@@ -1,0 +1,31 @@
+{
+  "status": "PASS_BOUNDED_ILLIQUIDITY_SOURCE_SCENARIO_RUNNER_FIX_REVIEW",
+  "file_sha256": {
+    "scripts/run_illiquidity_source_scenario_development.py": "e81ae28b892957354b6f1dd23daf052d229e935cacb5a57cbbc282f7791893d9",
+    "tests/test_illiquidity_source_scenario_development.py": "aa188bd7f50bf087082d4e476a4314f09014d86a12dec399146e821e7cf148c5"
+  },
+  "initial_report_sha256": "37a4a1344c031f7f649263ebd6619badcece0f4b508db739889b2b916a04beaa",
+  "critical_findings": [],
+  "important_findings": [],
+  "original_first_error_persistence_finding_resolved": true,
+  "focused_tests_passed": 10,
+  "independent_failure_context_failure_probe": {
+    "original_exception_object_preserved": true,
+    "remaining_error_artifact_written": true,
+    "matrix_aborted_after_first_case": true,
+    "persistence_error_reported": true
+  },
+  "verified": [
+    "Stopped-original-frame diagnostics, individual writes/hashes and directory listing failures are separately captured; any diagnostic failure aborts with the original exception object and notes.",
+    "Finally case_results writer failure rethrows the active original error rather than replacing it; later global finally still hashes all bound inputs and frozen plan.",
+    "Synthetic60 ordinary source/account failures all preserved without ROI; interruption aborts rather than claiming complete matrix.",
+    "Original lifecycle-before-start, fractional entitlement and broker source failure synthetic traces retain actual attempted day and completed prefix.",
+    "No source authentication, original account, broker, allocator,60-matrix or three-reference gate change introduced by this fix."
+  ],
+  "scope": "Minimal review of original Important closure, synthetic fixtures only. No actual load_inputs/source preflight/account dataset or portfolio scoring executed.",
+  "network_used": false,
+  "real_source_or_prices_read": false,
+  "actual_account_or_ROI_run": false,
+  "repository_modified": false,
+  "initial_report_hash_note": "Initial static findings were read before the fix, but root edits completed before that report sampled its file SHA; its code SHA therefore matches the fixed version. The final version was re-read and its hashes verified stable across the full focused tests and independent regression."
+}
