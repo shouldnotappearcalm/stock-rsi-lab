@@ -1,0 +1,696 @@
+{
+  "status": "FROZEN_FIFTEEN_PRICE_DELAY_PRIMARY_SOURCE_QUESTIONS",
+  "method_code_sha256": {
+    "scripts/capture_price_delay_corporate_sources_pre2026.py": "0305eb449c312e8c9f198822b920ca9ac05e049354bbbeefc37e897790ef4f5c",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "protocol_file": "docs/research/price-delay-corporate-source-plan-2026-10-21.md",
+  "protocol_sha256": "bf85cb381d450674950d1681f3f20822966e46e4150fed0cbb379b195c36fdc9",
+  "raw_manifest_sha256": "b179d4e987ad2ee93d0b152d817486c29737c6d605abdad1a15c3fd4713d6b67",
+  "raw_audit_sha256": "82b378ef3f6a6eacadb7e3f54ba69bd54ec390c0339e7f93fc3f7daf96e07dcb",
+  "independent_raw_source_audit_sha256": "43f12468a344935fa233ae7c2afc3fb813feb6febe73d86969bdf03a7d188103",
+  "org_map_plan_sha256": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0",
+  "cases": [
+    {
+      "case_id": "SH600167|2024-12-27",
+      "instrument": "SH600167",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.600167",
+        "dividOperateDate": "2024-12-27",
+        "foreAdjustFactor": "0.941185",
+        "backAdjustFactor": "3.674983",
+        "adjustFactor": "3.674983"
+      },
+      "publication_day": "2024-12-20",
+      "organization_id": "gssh0600167"
+    },
+    {
+      "case_id": "SH600390|2024-07-15",
+      "instrument": "SH600390",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.600390",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.988740",
+        "backAdjustFactor": "4.477442",
+        "adjustFactor": "4.477442"
+      },
+      "publication_day": "2024-07-06",
+      "organization_id": "gssh0600390",
+      "related_vendor_distribution": {
+        "code": "sh.600390",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-18",
+        "dividPlanAnnounceDate": "2024-04-25",
+        "dividPlanDate": "2024-07-06",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.115",
+        "dividCashPsAfterTax": "0.1035\u62160.115",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e1.15\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e1.035\u62161.15\u5143\uff09",
+        "dividReserveToStockPs": ""
+      }
+    },
+    {
+      "case_id": "SH600482|2024-11-22",
+      "instrument": "SH600482",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.600482",
+        "dividOperateDate": "2024-11-22",
+        "foreAdjustFactor": "0.976483",
+        "backAdjustFactor": "2.213885",
+        "adjustFactor": "2.213885"
+      },
+      "publication_day": "2024-11-15",
+      "organization_id": "gssh0600482"
+    },
+    {
+      "case_id": "SH600754|2024-07-15",
+      "instrument": "SH600754",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.600754",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.955705",
+        "backAdjustFactor": "2.408435",
+        "adjustFactor": "2.408435"
+      },
+      "publication_day": "2024-07-06",
+      "organization_id": "gssh0600754",
+      "related_vendor_distribution": {
+        "code": "sh.600754",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-06-29",
+        "dividPlanAnnounceDate": "2024-04-02",
+        "dividPlanDate": "2024-07-06",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "0.45\u62160.5",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e4.5\u62165\u5143\uff09",
+        "dividReserveToStockPs": ""
+      }
+    },
+    {
+      "case_id": "SH601098|2024-07-15",
+      "instrument": "SH601098",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.601098",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.910296",
+        "backAdjustFactor": "1.634860",
+        "adjustFactor": "1.634860"
+      },
+      "publication_day": "2024-07-05",
+      "organization_id": "9900015470",
+      "related_vendor_distribution": {
+        "code": "sh.601098",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-24",
+        "dividPlanAnnounceDate": "2024-04-27",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.55",
+        "dividCashPsAfterTax": "0.495\u62160.55",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e5.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e4.95\u62165.5\u5143\uff09",
+        "dividReserveToStockPs": ""
+      }
+    },
+    {
+      "case_id": "SH601128|2024-05-29",
+      "instrument": "SH601128",
+      "kind": "NONCASH",
+      "source_record": {
+        "code": "sh.601128",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-04-30",
+        "dividPlanAnnounceDate": "2024-03-22",
+        "dividPlanDate": "2024-05-22",
+        "dividRegistDate": "2024-05-28",
+        "dividOperateDate": "2024-05-29",
+        "dividPayDate": "2024-05-29",
+        "dividStockMarketDate": "2024-05-29",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225\u62160.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c1\u6d3e2.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.25\u62162.5\u5143\uff09",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "publication_day": "2024-05-22",
+      "organization_id": "9900023084"
+    },
+    {
+      "case_id": "SH601128|2025-06-05",
+      "instrument": "SH601128",
+      "kind": "NONCASH",
+      "source_record": {
+        "code": "sh.601128",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-04-26",
+        "dividPlanAnnounceDate": "2025-03-28",
+        "dividPlanDate": "2025-05-28",
+        "dividRegistDate": "2025-06-04",
+        "dividOperateDate": "2025-06-05",
+        "dividPayDate": "2025-06-05",
+        "dividStockMarketDate": "2025-06-05",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "0.225\u62160.25",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c1\u6d3e2.5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.25\u62162.5\u5143\uff09",
+        "dividReserveToStockPs": "0.100000"
+      },
+      "publication_day": "2025-05-28",
+      "organization_id": "9900023084"
+    },
+    {
+      "case_id": "SH601228|2024-07-15",
+      "instrument": "SH601228",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.601228",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.978449",
+        "backAdjustFactor": "1.087319",
+        "adjustFactor": "1.087319"
+      },
+      "publication_day": "2024-07-05",
+      "organization_id": "9900029141",
+      "related_vendor_distribution": {
+        "code": "sh.601228",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-22",
+        "dividPlanAnnounceDate": "2024-04-09",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.043",
+        "dividCashPsAfterTax": "0.0387\u62160.043",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e0.43\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e0.387\u62160.43\u5143\uff09",
+        "dividReserveToStockPs": ""
+      }
+    },
+    {
+      "case_id": "SH601928|2024-07-15",
+      "instrument": "SH601928",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.601928",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.908267",
+        "backAdjustFactor": "1.539891",
+        "adjustFactor": "1.539891"
+      },
+      "publication_day": "2024-07-05",
+      "organization_id": "9900021782",
+      "related_vendor_distribution": {
+        "code": "sh.601928",
+        "dividPreNoticeDate": "2024-03-07",
+        "dividAgmPumDate": "2024-05-17",
+        "dividPlanAnnounceDate": "2024-04-23",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "0.45\u62160.5",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e5\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e4.5\u62165\u5143\uff09",
+        "dividReserveToStockPs": ""
+      }
+    },
+    {
+      "case_id": "SH603529|2024-07-15",
+      "instrument": "SH603529",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sh.603529",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.915802",
+        "backAdjustFactor": "2.233399",
+        "adjustFactor": "2.233399"
+      },
+      "publication_day": "2024-07-06",
+      "organization_id": "9900037312",
+      "related_vendor_distribution": {
+        "code": "sh.603529",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-31",
+        "dividPlanAnnounceDate": "2024-04-16",
+        "dividPlanDate": "2024-07-06",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.534",
+        "dividCashPsAfterTax": "0.4806\u62160.534",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e5.34\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e4.806\u62165.34\u5143\uff09",
+        "dividReserveToStockPs": ""
+      }
+    },
+    {
+      "case_id": "SH603596|2024-05-20",
+      "instrument": "SH603596",
+      "kind": "NONCASH",
+      "source_record": {
+        "code": "sh.603596",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-04-18",
+        "dividPlanAnnounceDate": "2024-03-28",
+        "dividPlanDate": "2024-05-14",
+        "dividRegistDate": "2024-05-17",
+        "dividOperateDate": "2024-05-20",
+        "dividPayDate": "2024-05-20",
+        "dividStockMarketDate": "2024-05-20",
+        "dividCashPsBeforeTax": "0.34",
+        "dividCashPsAfterTax": "0.306\u62160.34",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c4\u6d3e3.4\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e3.06\u62163.4\u5143\uff09",
+        "dividReserveToStockPs": "0.400000"
+      },
+      "publication_day": "2024-05-14",
+      "organization_id": "gfbj0835470"
+    },
+    {
+      "case_id": "SH603737|2025-05-30",
+      "instrument": "SH603737",
+      "kind": "NONCASH",
+      "source_record": {
+        "code": "sh.603737",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-05-17",
+        "dividPlanAnnounceDate": "2025-04-26",
+        "dividPlanDate": "2025-05-24",
+        "dividRegistDate": "2025-05-29",
+        "dividOperateDate": "2025-05-30",
+        "dividPayDate": "2025-05-30",
+        "dividStockMarketDate": "2025-05-30",
+        "dividCashPsBeforeTax": "0.32",
+        "dividCashPsAfterTax": "0.288\u62160.32",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c4\u6d3e3.2\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.88\u62163.2\u5143\uff09",
+        "dividReserveToStockPs": "0.400000"
+      },
+      "publication_day": "2025-05-24",
+      "organization_id": "9900032852"
+    },
+    {
+      "case_id": "SZ002155|2025-06-13",
+      "instrument": "SZ002155",
+      "kind": "NONCASH",
+      "source_record": {
+        "code": "sz.002155",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-05-08",
+        "dividPlanAnnounceDate": "2025-04-11",
+        "dividPlanDate": "2025-06-07",
+        "dividRegistDate": "2025-06-12",
+        "dividOperateDate": "2025-06-13",
+        "dividPayDate": "2025-06-13",
+        "dividStockMarketDate": "2025-06-13",
+        "dividCashPsBeforeTax": "0.23",
+        "dividCashPsAfterTax": "0.207\u62160.23",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u8f6c3\u6d3e2.3\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e2.07\u62162.3\u5143\uff09",
+        "dividReserveToStockPs": "0.300000"
+      },
+      "publication_day": "2025-06-07",
+      "organization_id": "9900003428"
+    },
+    {
+      "case_id": "SZ002244|2025-08-08",
+      "instrument": "SZ002244",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sz.002244",
+        "dividOperateDate": "2025-08-08",
+        "foreAdjustFactor": "0.991637",
+        "backAdjustFactor": "6.697785",
+        "adjustFactor": "6.697785"
+      },
+      "publication_day": "2025-07-31",
+      "organization_id": "9900004730",
+      "related_vendor_distribution": {
+        "code": "sz.002244",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-06-10",
+        "dividPlanAnnounceDate": "2025-04-26",
+        "dividPlanDate": "2025-07-31",
+        "dividRegistDate": "2025-08-06",
+        "dividOperateDate": "2025-08-07",
+        "dividPayDate": "2025-08-07",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.082",
+        "dividCashPsAfterTax": "0.0738\u62160.082",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10\u6d3e0.82\u5143\uff08\u542b\u7a0e\uff0c\u6263\u7a0e\u540e0.738\u62160.82\u5143\uff09",
+        "dividReserveToStockPs": ""
+      }
+    },
+    {
+      "case_id": "SZ002508|2024-01-10",
+      "instrument": "SZ002508",
+      "kind": "ADJUSTMENT_WITHOUT_DISTRIBUTION",
+      "source_record": {
+        "code": "sz.002508",
+        "dividOperateDate": "2024-01-10",
+        "foreAdjustFactor": "0.854886",
+        "backAdjustFactor": "7.232775",
+        "adjustFactor": "7.232775"
+      },
+      "publication_day": "2024-01-03",
+      "organization_id": "9900015938"
+    }
+  ],
+  "reuse_documents": {
+    "SH600167|2024-12-27": {
+      "directory": "illiquidity-corporate-reviewed-20261020",
+      "file": "SH600167-2024-12-20.pdf",
+      "sha256": "86719f49e32643c2fc44e234acb03678c2a140b6dccdc90245561796cdfc3bb3",
+      "reviewed_manifest_sha256": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4",
+      "metadata": {
+        "code": "600167",
+        "title": "\u8054\u7f8e\u91cf\u5b50\u80a1\u4efd\u6709\u9650\u516c\u53f82024\u5e74\u4e34\u65f6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "day": "2024-12-20",
+        "timestamp_ms": 1734624000000,
+        "announcement_id": "1222075984",
+        "pdf_path": "finalpage/2024-12-20/1222075984.PDF",
+        "instrument": "SH600167",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-12-20/1222075984.PDF",
+        "file": "SH600167-2024-12-20.pdf",
+        "sha256": "86719f49e32643c2fc44e234acb03678c2a140b6dccdc90245561796cdfc3bb3",
+        "reused_original_reviewed_manifest_sha256": "a77d0caf8788616fee773c1c4e5a0b9614956cbd0f79732644fee0b0b85b1bd8"
+      }
+    },
+    "SH600482|2024-11-22": {
+      "directory": "return-family-corporate-notices-20261017",
+      "file": "SH600482-2024-11-15.pdf",
+      "sha256": "451aedacd31a99f8a6a0b36e8aafba4cee8f2a4931d22afe025272ebe46464c1",
+      "reviewed_manifest_sha256": "a77d0caf8788616fee773c1c4e5a0b9614956cbd0f79732644fee0b0b85b1bd8",
+      "metadata": {
+        "code": "600482",
+        "title": "\u4e2d\u56fd\u8239\u8236\u91cd\u5de5\u96c6\u56e2\u52a8\u529b\u80a1\u4efd\u6709\u9650\u516c\u53f82024\u5e74\u7279\u522b\u5206\u7ea2\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "day": "2024-11-15",
+        "timestamp_ms": 1731600000000,
+        "announcement_id": "1221725633",
+        "pdf_path": "finalpage/2024-11-15/1221725633.PDF",
+        "instrument": "SH600482",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-11-15/1221725633.PDF",
+        "file": "SH600482-2024-11-15.pdf",
+        "sha256": "451aedacd31a99f8a6a0b36e8aafba4cee8f2a4931d22afe025272ebe46464c1"
+      }
+    },
+    "SH601098|2024-07-15": {
+      "directory": "low-beta60-corporate-reviewed-20261021",
+      "file": "SH601098-2024-07-05.pdf",
+      "sha256": "86065bbe62101d50566a72a02934719b7e4cfe4b1ebd13f05589a02503b555d2",
+      "reviewed_manifest_sha256": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+      "metadata": {
+        "code": "601098",
+        "title": "\u4e2d\u5357\u4f20\u5a922023\u5e74\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "day": "2024-07-05",
+        "timestamp_ms": 1720108800000,
+        "announcement_id": "1220535156",
+        "pdf_path": "finalpage/2024-07-05/1220535156.PDF",
+        "instrument": "SH601098",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-07-05/1220535156.PDF",
+        "file": "SH601098-2024-07-05.pdf",
+        "sha256": "86065bbe62101d50566a72a02934719b7e4cfe4b1ebd13f05589a02503b555d2",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/3aca3ef59930b2b797a7959bb481a0215c8ace1014a2feecc00da4e931834851/request.json",
+          "request_sha256": "2e1a17f25e08d409fac6df9229218af666c632c2d1304bf9249301fff2bbf1dc",
+          "reserved_file": "queries/3aca3ef59930b2b797a7959bb481a0215c8ace1014a2feecc00da4e931834851/reserved-1.json",
+          "reserved_sha256": "6a0b3c4b3ec066cb52b496d2e99a6b8782d4afc42bc69167be37f651a58259fd",
+          "response_file": "queries/3aca3ef59930b2b797a7959bb481a0215c8ace1014a2feecc00da4e931834851/response-1.json",
+          "response_sha256": "3eff6feb398c866732cb2955d7968ea850ee15f02ddf96e6fb8fee16e2d775c0"
+        },
+        "capture_route": "BYTE_IDENTICAL_PRIOR_CAPTURE_REUSE",
+        "previous_capture_manifest_sha256": "4575c850becfa049fa7876dfe1f6fff0869d685f848dde76ed4c8d3cd3bc1158"
+      }
+    },
+    "SH601128|2024-05-29": {
+      "directory": "budgeted-residual-corporate-reviewed-20261021",
+      "file": "SH601128-2024-05-22.pdf",
+      "sha256": "a7433696703e9b8ce37f0bdde75b17f3946623272c697f746c17640b84fe5f5d",
+      "reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "metadata": {
+        "code": "601128",
+        "title": "\u6c5f\u82cf\u5e38\u719f\u519c\u6751\u5546\u4e1a\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f82023\u5e74\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "day": "2024-05-22",
+        "timestamp_ms": 1716307200000,
+        "announcement_id": "1220122344",
+        "pdf_path": "finalpage/2024-05-22/1220122344.PDF",
+        "instrument": "SH601128",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-05-22/1220122344.PDF",
+        "file": "SH601128-2024-05-22.pdf",
+        "sha256": "a7433696703e9b8ce37f0bdde75b17f3946623272c697f746c17640b84fe5f5d",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/d145ffc39fc6f58ec2be6bffb425a5e19eb144ce4cd0cb4329913064d19c1d43/request.json",
+          "request_sha256": "76bacbcabd3e5b1ba3e410691ffded9dbff26b062e8553e771a2c017a0ef56aa",
+          "reserved_file": "queries/d145ffc39fc6f58ec2be6bffb425a5e19eb144ce4cd0cb4329913064d19c1d43/reserved-1.json",
+          "reserved_sha256": "518a348780a558c08d78bc8cd1a0859b074f836e130bc817d723d6ff3677ca8c",
+          "response_file": "queries/d145ffc39fc6f58ec2be6bffb425a5e19eb144ce4cd0cb4329913064d19c1d43/response-1.json",
+          "response_sha256": "2124a7c1349dece9b815dafd72224dbe81646e064120c740dcdff4e314f14788"
+        },
+        "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+      }
+    },
+    "SH601128|2025-06-05": {
+      "directory": "budgeted-residual-corporate-reviewed-20261021",
+      "file": "SH601128-2025-05-28.pdf",
+      "sha256": "feced976f31029e64a8d45887f8b0bf1ea17b77541cd35d6e890c24dd4c3500f",
+      "reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "metadata": {
+        "code": "601128",
+        "title": "\u6c5f\u82cf\u5e38\u719f\u519c\u6751\u5546\u4e1a\u94f6\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f82024\u5e74\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "day": "2025-05-28",
+        "timestamp_ms": 1748361600000,
+        "announcement_id": "1223695580",
+        "pdf_path": "finalpage/2025-05-28/1223695580.PDF",
+        "instrument": "SH601128",
+        "url": "https://static.cninfo.com.cn/finalpage/2025-05-28/1223695580.PDF",
+        "file": "SH601128-2025-05-28.pdf",
+        "sha256": "feced976f31029e64a8d45887f8b0bf1ea17b77541cd35d6e890c24dd4c3500f",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/e9248a2c577d503fe1404c72c976f360051e1ecc439c6b4f9616dd81a790555f/request.json",
+          "request_sha256": "3100e72906d2bb696e4dc62a05f5ee8444e5959f0154fe16174bc19f9d4f2b45",
+          "reserved_file": "queries/e9248a2c577d503fe1404c72c976f360051e1ecc439c6b4f9616dd81a790555f/reserved-1.json",
+          "reserved_sha256": "6cab6e937aacca8fc4cdc8bc0216cf799ec7b0a4cfeb30358609d9c862e8864a",
+          "response_file": "queries/e9248a2c577d503fe1404c72c976f360051e1ecc439c6b4f9616dd81a790555f/response-1.json",
+          "response_sha256": "c85868b5c7cb3e292fe90653d69df59e401e845e635f1fa0198464cfd4ccd4c9"
+        },
+        "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+      }
+    },
+    "SH601228|2024-07-15": {
+      "directory": "low-beta60-corporate-reviewed-20261021",
+      "file": "SH601228-2024-07-05.pdf",
+      "sha256": "2f143ea8feea4a1b364fe38f5a81467b0fe07d591c269ebbc3d15cafa3c213a7",
+      "reviewed_manifest_sha256": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+      "metadata": {
+        "code": "601228",
+        "title": "\u5e7f\u5dde\u6e2f\u80a1\u4efd\u6709\u9650\u516c\u53f82023\u5e74\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "day": "2024-07-05",
+        "timestamp_ms": 1720108800000,
+        "announcement_id": "1220534527",
+        "pdf_path": "finalpage/2024-07-05/1220534527.PDF",
+        "instrument": "SH601228",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-07-05/1220534527.PDF",
+        "file": "SH601228-2024-07-05.pdf",
+        "sha256": "2f143ea8feea4a1b364fe38f5a81467b0fe07d591c269ebbc3d15cafa3c213a7",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/44f88aba948c15b1e3227491f7ea2159e54a1521a246759c03c2699d24370c54/request.json",
+          "request_sha256": "7ec0703530bd08e37acb2df5bd10d3d64cdeb5497f183dc5771360263267c1a8",
+          "reserved_file": "queries/44f88aba948c15b1e3227491f7ea2159e54a1521a246759c03c2699d24370c54/reserved-1.json",
+          "reserved_sha256": "9a287d814083d40bccec901e4f4f8c4a982bdce1213ff5654e00e72c77861372",
+          "response_file": "queries/44f88aba948c15b1e3227491f7ea2159e54a1521a246759c03c2699d24370c54/response-1.json",
+          "response_sha256": "b7090f72f15511e62c9a9afc7238de750d0ac4a2477b36b9c93546968156e59f"
+        },
+        "capture_route": "BYTE_IDENTICAL_PRIOR_CAPTURE_REUSE",
+        "previous_capture_manifest_sha256": "4575c850becfa049fa7876dfe1f6fff0869d685f848dde76ed4c8d3cd3bc1158"
+      }
+    },
+    "SH601928|2024-07-15": {
+      "directory": "low-beta60-corporate-reviewed-20261021",
+      "file": "SH601928-2024-07-05.pdf",
+      "sha256": "cca49ab308e431106399224f486ff6f6c5be5cdd191bcc1a0e6abf2800966dd5",
+      "reviewed_manifest_sha256": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+      "metadata": {
+        "code": "601928",
+        "title": "\u51e4\u51f0\u4f20\u5a922023\u5e74\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "day": "2024-07-05",
+        "timestamp_ms": 1720108800000,
+        "announcement_id": "1220535164",
+        "pdf_path": "finalpage/2024-07-05/1220535164.PDF",
+        "instrument": "SH601928",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-07-05/1220535164.PDF",
+        "file": "SH601928-2024-07-05.pdf",
+        "sha256": "cca49ab308e431106399224f486ff6f6c5be5cdd191bcc1a0e6abf2800966dd5",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/1aa4962ed151a72bec1a1755299a250ef59e15f994206d75c65308efc51da0f9/request.json",
+          "request_sha256": "9bf15fcc9875194249c08accea06e4c2370af8401b58e43b2f22cf4dd89ec39d",
+          "reserved_file": "queries/1aa4962ed151a72bec1a1755299a250ef59e15f994206d75c65308efc51da0f9/reserved-1.json",
+          "reserved_sha256": "3a854fdf0d6179d928aed89fbb776b9b38eaa7a594d5c3ba88c551bda78e455b",
+          "response_file": "queries/1aa4962ed151a72bec1a1755299a250ef59e15f994206d75c65308efc51da0f9/response-1.json",
+          "response_sha256": "862b789e50fa0c3701f4521ffce70fdd1c6cae0c95f326c51312f5b4601a55a6"
+        },
+        "capture_route": "BYTE_IDENTICAL_PRIOR_CAPTURE_REUSE",
+        "previous_capture_manifest_sha256": "4575c850becfa049fa7876dfe1f6fff0869d685f848dde76ed4c8d3cd3bc1158"
+      }
+    },
+    "SH603596|2024-05-20": {
+      "directory": "budgeted-residual-corporate-reviewed-20261021",
+      "file": "SH603596-2024-05-14.pdf",
+      "sha256": "08f8a6c5984648d6b66de07815274d7cc233afe5e89da7774524b16f45aaaba0",
+      "reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "metadata": {
+        "code": "603596",
+        "title": "\u4f2f\u7279\u52292023\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "day": "2024-05-14",
+        "timestamp_ms": 1715616000000,
+        "announcement_id": "1220043566",
+        "pdf_path": "finalpage/2024-05-14/1220043566.PDF",
+        "instrument": "SH603596",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-05-14/1220043566.PDF",
+        "file": "SH603596-2024-05-14.pdf",
+        "sha256": "08f8a6c5984648d6b66de07815274d7cc233afe5e89da7774524b16f45aaaba0",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/a156183c8fd41ab684467862f90926041be9efd5bb3ec746d6faad3fa3cae305/request.json",
+          "request_sha256": "a74cc9e2a40ac3b0993c007047e323c2f1abc84feaf7d2cdaeca8feb8b234217",
+          "reserved_file": "queries/a156183c8fd41ab684467862f90926041be9efd5bb3ec746d6faad3fa3cae305/reserved-1.json",
+          "reserved_sha256": "e013b754f257d6d9d2e8fe479a1dccd655623ee062ed9e8a604eeb1723c837bb",
+          "response_file": "queries/a156183c8fd41ab684467862f90926041be9efd5bb3ec746d6faad3fa3cae305/response-1.json",
+          "response_sha256": "4d0415518a6924f9acb2f5d27d2d54a10550db49425010f403b571b41df1bb76"
+        },
+        "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+      }
+    },
+    "SH603737|2025-05-30": {
+      "directory": "budgeted-residual-corporate-reviewed-20261021",
+      "file": "SH603737-2025-05-24.pdf",
+      "sha256": "68eb5de9a7efacd6de0fbbd7a3c8d2f19610bce7031314664e5ba09ab31ea334",
+      "reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "metadata": {
+        "code": "603737",
+        "title": "2024\u5e74\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "day": "2025-05-24",
+        "timestamp_ms": 1748016000000,
+        "announcement_id": "1223645265",
+        "pdf_path": "finalpage/2025-05-24/1223645265.PDF",
+        "instrument": "SH603737",
+        "url": "https://static.cninfo.com.cn/finalpage/2025-05-24/1223645265.PDF",
+        "file": "SH603737-2025-05-24.pdf",
+        "sha256": "68eb5de9a7efacd6de0fbbd7a3c8d2f19610bce7031314664e5ba09ab31ea334",
+        "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+        "original_reviewed_manifest_sha256": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4"
+      }
+    },
+    "SZ002155|2025-06-13": {
+      "directory": "budgeted-residual-corporate-reviewed-20261021",
+      "file": "SZ002155-2025-06-07.pdf",
+      "sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+      "reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "metadata": {
+        "code": "002155",
+        "title": "2024\u5e74\u5e74\u5ea6\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "day": "2025-06-07",
+        "timestamp_ms": 1749225600000,
+        "announcement_id": "1223802556",
+        "pdf_path": "finalpage/2025-06-07/1223802556.PDF",
+        "instrument": "SZ002155",
+        "url": "https://static.cninfo.com.cn/finalpage/2025-06-07/1223802556.PDF",
+        "file": "SZ002155-2025-06-07.pdf",
+        "sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/7a3afdebacf7111267ccb51bde408ea0ecf951ddbad45dd806c7845d4f7efab3/request.json",
+          "request_sha256": "62476ab55b0382c6078d3a02b7e30f0b0706bff4823007468dd1a5442c670ba0",
+          "reserved_file": "queries/7a3afdebacf7111267ccb51bde408ea0ecf951ddbad45dd806c7845d4f7efab3/reserved-1.json",
+          "reserved_sha256": "d0ce2692e471fe7544115b336f36a64c231fdde16a1210ce7e1c63b0ad25b0dd",
+          "response_file": "queries/7a3afdebacf7111267ccb51bde408ea0ecf951ddbad45dd806c7845d4f7efab3/response-1.json",
+          "response_sha256": "24f2dfc924cd18b8521c193fbca5585fb16c2020f1658f8137d2a676caaebbd5"
+        },
+        "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP"
+      }
+    },
+    "SZ002244|2025-08-08": {
+      "directory": "low-beta60-corporate-reviewed-20261021",
+      "file": "SZ002244-2025-07-31.pdf",
+      "sha256": "16afce827ec2e1c0e1e38ac60642e8baa4099d0aa09faa98dbc08a9efa1f5ed4",
+      "reviewed_manifest_sha256": "931d97fc704c0e2c3e08717b584048698752c3a791ee04935c8d91fe959300e4",
+      "metadata": {
+        "code": "002244",
+        "title": "2024\u5e74\u5e74\u5ea6\u5229\u6da6\u5206\u914d\u5b9e\u65bd\u516c\u544a",
+        "day": "2025-07-31",
+        "timestamp_ms": 1753891200000,
+        "announcement_id": "1224341499",
+        "pdf_path": "finalpage/2025-07-31/1224341499.PDF",
+        "instrument": "SZ002244",
+        "url": "https://static.cninfo.com.cn/finalpage/2025-07-31/1224341499.PDF",
+        "file": "SZ002244-2025-07-31.pdf",
+        "sha256": "16afce827ec2e1c0e1e38ac60642e8baa4099d0aa09faa98dbc08a9efa1f5ed4",
+        "HTTP_pdf_receipt": {
+          "request_file": "queries/54feaa45ee9bc0e034c3a29529febd5b076340232a9a5c7246965cb2c901fe4d/request.json",
+          "request_sha256": "574e718100cc6813a0b6970a9ed8539bda5a795c4ebcfc91c108ed0dcaf261ed",
+          "reserved_file": "queries/54feaa45ee9bc0e034c3a29529febd5b076340232a9a5c7246965cb2c901fe4d/reserved-1.json",
+          "reserved_sha256": "dca5622092b685f616883e733ca6d60817b98fcf94f6b47fbb37bc6beae1b20d",
+          "response_file": "queries/54feaa45ee9bc0e034c3a29529febd5b076340232a9a5c7246965cb2c901fe4d/response-1.json",
+          "response_sha256": "ccbc2d5a9fc23244a6d7c1cc84c6816fc1b4cd69747ed84588dc32802780c06a"
+        },
+        "capture_route": "SAVED_LISTING_NEW_PDF_CONTINUATION",
+        "listing_capture_manifest_sha256": "4575c850becfa049fa7876dfe1f6fff0869d685f848dde76ed4c8d3cd3bc1158"
+      }
+    },
+    "SZ002508|2024-01-10": {
+      "directory": "szse-value-corporate-notices-20261017",
+      "file": "SZ002508-1218790856.pdf",
+      "sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0",
+      "reviewed_manifest_sha256": "fe5d1b9b29cee2b674c65caaafdd0910ec463945b32f8f4b7a8a60f727aecda6",
+      "metadata": {
+        "instrument": "SZ002508",
+        "day": "2024-01-03",
+        "title": "\u7279\u522b\u5206\u7ea2\u6743\u76ca\u5206\u6d3e\u5b9e\u65bd\u516c\u544a",
+        "announcement_id": "1218790856",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-01-03/1218790856.PDF",
+        "file": "SZ002508-1218790856.pdf",
+        "sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0"
+      }
+    }
+  },
+  "source_priority_fixed": [
+    "budgeted-residual-corporate-reviewed-20261021",
+    "illiquidity-corporate-reviewed-20261020",
+    "low-beta60-corporate-reviewed-20261021",
+    "szse-value-momentum-account-sources-20261021",
+    "return-family-corporate-notices-20261017",
+    "szse-value-corporate-notices-20261017"
+  ],
+  "metadata_only_projection_is_not_original_file": true,
+  "max_pages_per_exact_day": 2,
+  "max_attempts_per_identity": 1,
+  "maximum_consecutive_failed_fresh_cases": 3,
+  "minimum_interval_seconds": 0.3,
+  "maximum_http_query_reservations": 9,
+  "portfolio_returns_to_compute": false,
+  "new_2026_queries_allowed": false,
+  "objective_achieved": false
+}
