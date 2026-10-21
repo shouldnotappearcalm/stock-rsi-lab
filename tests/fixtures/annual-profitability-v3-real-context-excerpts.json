@@ -1,0 +1,87 @@
+{
+  "status": "SPARSE_ORIGINAL_SOURCE_CONTEXT_REGRESSION_NOT_FULL_PDF_AUTHENTICATION",
+  "CI_fetches_or_authenticates_original_PDF": false,
+  "instrument": "SZ000933",
+  "report_year": 2022,
+  "source_pdf_sha256": "9083cb1226c58fae38af32f9d57b050abf6124055b445f902a24e031ccd7956c",
+  "announcement_id": "1216236727",
+  "publication_day": "2023-03-28",
+  "observed_at": "2026-10-21T18:45:46.123849+00:00",
+  "physical_page_count": 207,
+  "full_source_page_text_sha256": {
+    "79": "e946cd57d063201c97f851f580dc4407d3b8b7d3f490e187c3c3dc1a2e1d4911",
+    "80": "3b44d70fc32da8df47c992247e9280d37cf6f58ae927b32f6a8509bafc9c48ff",
+    "82": "a7d1edf5fc52b49f6e410bacecea6446d55fc690ad64dab3d9d2ed7a58ceda14",
+    "84": "c38e10c231df4d1c6ccd73ae3d4c32089b89337e4663edf9b990bad152c7c992",
+    "86": "acb0caba87d79a170292f1472f961d507bd079d6ca426b773c7ed8f7f21d8205",
+    "99": "814deb4ddac81a1af55e76e0bcf638ab857a59d5c59794a17c7b7eca13ca1776",
+    "100": "47cd8bfcca0f2b1698db93fabb3aaec4e31e30f7192cd9f56bf6455ca7ff4946"
+  },
+  "sparse_page_excerpts": {
+    "79": {
+      "line_numbers_1based": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "text": "二、财务报表\n1、合并资产负债表\n编制单位：河南神火煤电股份有限公司\n2022 年 12 月 31 日\n单位：元\n项目 2022 年 12 月 31 日 2022 年 1 月 1 日"
+    },
+    "80": {
+      "line_numbers_1based": [
+        20
+      ],
+      "text": "资产总计 60,477,379,457.26 53,536,619,231.95"
+    },
+    "82": {
+      "line_numbers_1based": [
+        8
+      ],
+      "text": "2、母公司资产负债表"
+    },
+    "84": {
+      "line_numbers_1based": [
+        24,
+        25,
+        26,
+        28,
+        33
+      ],
+      "text": "3、合并利润表\n单位：元\n项目 2022 年度 2021 年度\n其中：营业收入 42,703,853,286.57 34,492,916,651.11\n其中：营业成本 29,338,267,775.94 22,190,161,519.02"
+    },
+    "86": {
+      "line_numbers_1based": [
+        28
+      ],
+      "text": "4、母公司利润表"
+    },
+    "99": {
+      "line_numbers_1based": [
+        3
+      ],
+      "text": "三、公司基本情况"
+    },
+    "100": {
+      "line_numbers_1based": [
+        25
+      ],
+      "text": "本集团记账本位币和编制本财务报表所采用的货币均为人民币。除有特别说明外，均以人民币元为单位表示。"
+    }
+  },
+  "expected_cells_CNY": {
+    "2022-12-31": {
+      "revenue": "42703853286.57",
+      "cost_of_sales": "29338267775.94",
+      "total_assets": "60477379457.26"
+    }
+  },
+  "unadmitted_comparative_source_row_amounts_CNY": {
+    "revenue": "34492916651.11",
+    "cost_of_sales": "22190161519.02",
+    "total_assets": "53536619231.95"
+  },
+  "reported_comparative_balance_date": "2022-01-01",
+  "prior_year_GP_observation_emitted": false
+}

@@ -1,0 +1,60 @@
+{
+  "status": "SOURCE_CONTEXT_REVIEW_BEFORE_V3_FULL36_RUN",
+  "selection": "pre2026 source-format failures and current source cells, no price/return selection",
+  "original_pages_reviewed": 6,
+  "records": [
+    {
+      "capture_key": "SZ000933-2022-1216236727",
+      "source_pdf_sha256": "9083cb1226c58fae38af32f9d57b050abf6124055b445f902a24e031ccd7956c",
+      "physical_page": 100,
+      "render_PNG_sha256": "aee69dae2a1ba77a637712c865b9c1ae22836a3f8221644ee5c6ff6140061f6b",
+      "original_page_visually_reviewed": true,
+      "finding": "Explicit report-preparation currency and unit; functional currency alone is insufficient."
+    },
+    {
+      "capture_key": "SZ000933-2022-1216236727",
+      "source_pdf_sha256": "9083cb1226c58fae38af32f9d57b050abf6124055b445f902a24e031ccd7956c",
+      "physical_page": 80,
+      "render_PNG_sha256": "c1febd51f59ed9321a2dfa2953a3dad9d77b1e8136b8122286301ae0e68c4b87",
+      "original_page_visually_reviewed": true,
+      "finding": "Consolidated total assets and two fiscal amounts."
+    },
+    {
+      "capture_key": "SZ000933-2022-1216236727",
+      "source_pdf_sha256": "9083cb1226c58fae38af32f9d57b050abf6124055b445f902a24e031ccd7956c",
+      "physical_page": 84,
+      "render_PNG_sha256": "a3b5f72a88618bbaf749ac3b08b8a174db0124eda239c4f07b6e37aae152bb5a",
+      "original_page_visually_reviewed": true,
+      "finding": "Consolidated revenue/cost-of-sales and fiscal columns."
+    },
+    {
+      "capture_key": "SZ002372-2022-1216497085",
+      "source_pdf_sha256": "362a4d6cb692266393f2e438b690b482937146275146fc992e82160e27a17c24",
+      "physical_page": 80,
+      "render_PNG_sha256": "6d0e5d6267ce1a4886a360dcf133c4c423efd3ed017a8c5e0bd5a78414c0780a",
+      "original_page_visually_reviewed": true,
+      "finding": "Explicit primary financial-section RMB unit; numbered primary tables."
+    },
+    {
+      "capture_key": "SZ002925-2022-1216693662",
+      "source_pdf_sha256": "0e2123cc98b78fdf031bf09c074c92b9ddca806f14ad1330ab8204a153392bdc",
+      "physical_page": 146,
+      "render_PNG_sha256": "8debb757b4d7c6235e717eb0c475b8312547c7e7698ccb1ae17c37bd74f16f90",
+      "original_page_visually_reviewed": true,
+      "finding": "Two fiscal columns appear as vertically split text tokens; bare yuan unit alone does not establish RMB."
+    },
+    {
+      "capture_key": "SH603517-2023-1219907586",
+      "source_pdf_sha256": "5d0f8af85ba30afc985883671d4c0d26b9365f091d92e2980564fbea02b386b9",
+      "physical_page": 7,
+      "render_PNG_sha256": "2156cef332c1b4ac8d2c7c05c43287c64804045ee5976f5bf0a077ebcadcc386",
+      "original_page_visually_reviewed": true,
+      "finding": "Issuer stock-information header and A-share row identify603517; generic adjacent-code regex fails."
+    }
+  ],
+  "PDFs_modified": false,
+  "financial_version_history_complete": false,
+  "economic_sector_compatibility_verified": false,
+  "investment_factor_admitted": false,
+  "2026_financial_or_market_values_read": false
+}
