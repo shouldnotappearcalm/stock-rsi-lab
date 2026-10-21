@@ -1,0 +1,715 @@
+{
+  "status": "INITIAL2022_METADATA_CAPTURE_COMPLETE",
+  "request_sha256": "b17246f79621f8581e2ff0c652643e7d51e46a0cb33a19329c1f04a210c58172",
+  "successful_issuers": 12,
+  "rejected_issuers": 0,
+  "logical_attempts": 12,
+  "results_by_code": {
+    "SH600166": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/a6e30394c165d7877e3d2f92d84da499199565ebbc28b35c9d4b2895994f2340",
+        "record": {
+          "resource": "SH600166",
+          "identity_sha256": "87036b5c05cfa6a924d4541ee28580286068cefff0b88ba15a210257ca509f38",
+          "started_at_utc": "2026-10-21T18:36:02.053132+00:00",
+          "request_sha256": "40bbaf85b881597396e8f7c4bf203346ced1a3d2105fe2f8f0795db8a4bce5cb",
+          "reservation_sha256": "6d889049e059b130348c799069ef998ea39438fa30c65758276a84f30af01a9a",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "e655d85a6c5363ca8eb61f22cfad0fb696bac1c552407b0796f698dbb2a51566",
+          "body_bytes": 1383,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:02.210154+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:02.210545+00:00"
+        },
+        "response_sha256": "be7a7a1f9dec219ac4b5a166d374748d0f59a7829a50188de1bdc1a0538bc3b5"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SH600166",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告全文",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216699842",
+          "pdf_path": "finalpage/2023-04-29/1216699842.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        },
+        {
+          "instrument": "SH600166",
+          "fiscal_year": null,
+          "title": "2022年年度报告摘要",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216699838",
+          "pdf_path": "finalpage/2023-04-29/1216699838.PDF",
+          "classification": "SUMMARY"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SH600166",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告全文",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216699842",
+          "pdf_path": "finalpage/2023-04-29/1216699842.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SH601108": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/c79d001ed2a08bdeda76aecb7346ecdf952a2792dfe7c77c0bbc331bbd189605",
+        "record": {
+          "resource": "SH601108",
+          "identity_sha256": "37ec0118af03328e025e07793cf691905610e4097cac3cb71fdebac8272f6fe5",
+          "started_at_utc": "2026-10-21T18:36:02.423911+00:00",
+          "request_sha256": "81ff0e38271049d5bb98ba8fe8d4b994e014ed38389555754a07892835cdf406",
+          "reservation_sha256": "725e36ecb6f45821bd84e737bebe3b57b62da7812c4a9864f8be927e743d38b6",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "5941dd23e602502420e07ffcea478cfe2375cb7995a668d10ad340619d424514",
+          "body_bytes": 1371,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:02.584628+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:02.584995+00:00"
+        },
+        "response_sha256": "67ca34e8e33f99c75878d93faae9cea79130191bca86928c0dd737aae57beff9"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SH601108",
+          "fiscal_year": null,
+          "title": "2022年年度报告摘要",
+          "day": "2023-04-28",
+          "timestamp_ms": 1682611200000,
+          "announcement_id": "1216664370",
+          "pdf_path": "finalpage/2023-04-28/1216664370.PDF",
+          "classification": "SUMMARY"
+        },
+        {
+          "instrument": "SH601108",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-28",
+          "timestamp_ms": 1682611200000,
+          "announcement_id": "1216664368",
+          "pdf_path": "finalpage/2023-04-28/1216664368.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SH601108",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-28",
+          "timestamp_ms": 1682611200000,
+          "announcement_id": "1216664368",
+          "pdf_path": "finalpage/2023-04-28/1216664368.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SH600901": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/49f212ddf134196573f65fa4b9b13ff32da09871b33878d12d05c620fe2b3129",
+        "record": {
+          "resource": "SH600901",
+          "identity_sha256": "cd8b58a9fa1b2a435e402169d13f8d9a8ea62096d2183c7ec4fc5ce94d531af3",
+          "started_at_utc": "2026-10-21T18:36:02.798180+00:00",
+          "request_sha256": "2f08f304c0ea1103e125fc23401f9d4d391c980b92ff81a72619ab47c9a4a801",
+          "reservation_sha256": "21bc24ef9032484d836d7c85c99815a2c2ebf2069f20b13bce9964e4537baf7f",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "57f3b47a9ece837474e4a043f0ee5a8500dd44ba1fb2e6971c884f976aa724a7",
+          "body_bytes": 1430,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:02.931769+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:02.933056+00:00"
+        },
+        "response_sha256": "3876731431e608d52ac769062a59364e02c46f76c73406eb101eefd4c4691e72"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SH600901",
+          "fiscal_year": null,
+          "title": "江苏金租：2022年年度报告摘要",
+          "day": "2023-04-22",
+          "timestamp_ms": 1682092800000,
+          "announcement_id": "1216523800",
+          "pdf_path": "finalpage/2023-04-22/1216523800.PDF",
+          "classification": "SUMMARY"
+        },
+        {
+          "instrument": "SH600901",
+          "fiscal_year": 2022,
+          "title": "江苏金租：2022年年度报告",
+          "day": "2023-04-22",
+          "timestamp_ms": 1682092800000,
+          "announcement_id": "1216523728",
+          "pdf_path": "finalpage/2023-04-22/1216523728.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SH600901",
+          "fiscal_year": 2022,
+          "title": "江苏金租：2022年年度报告",
+          "day": "2023-04-22",
+          "timestamp_ms": 1682092800000,
+          "announcement_id": "1216523728",
+          "pdf_path": "finalpage/2023-04-22/1216523728.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SH603517": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/d6ea7faf97b952df8aed89478535a292cc6e185d2711b6425ed4917e304ea81f",
+        "record": {
+          "resource": "SH603517",
+          "identity_sha256": "0258c727c4cc252253070ce2de5a088a79e63a7d472f4968061ba0b88715fe9b",
+          "started_at_utc": "2026-10-21T18:36:03.139473+00:00",
+          "request_sha256": "e6ed81882081cf3074643bd11430b144130b8adf378247e1158871e099949516",
+          "reservation_sha256": "0f5793152eb1c4d8d5569d43f1e1f55cf502da0f3c849bf2cccb0e6fe18cb001",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "b6a19c8c25253e4c846417ba60a7fbbb9a8b18457821df64ebb294a0a4997b1b",
+          "body_bytes": 1489,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:03.259280+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:03.259727+00:00"
+        },
+        "response_sha256": "148b875a48312707aff4619a79ec8bc55e6aa7941d7175bc0578df91734e79f9"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SH603517",
+          "fiscal_year": 2022,
+          "title": "绝味食品股份有限公司2022年度报告全文",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216709701",
+          "pdf_path": "finalpage/2023-04-29/1216709701.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        },
+        {
+          "instrument": "SH603517",
+          "fiscal_year": null,
+          "title": "绝味食品股份有限公司2022年度报告摘要",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216708948",
+          "pdf_path": "finalpage/2023-04-29/1216708948.PDF",
+          "classification": "SUMMARY"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SH603517",
+          "fiscal_year": 2022,
+          "title": "绝味食品股份有限公司2022年度报告全文",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216709701",
+          "pdf_path": "finalpage/2023-04-29/1216709701.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SH600418": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/5ea437715cc9cca870b8911e52478fc35d1ca713ba0f39c5dbc04c920218274c",
+        "record": {
+          "resource": "SH600418",
+          "identity_sha256": "c5391c695d8129b69a66e4c8ccdc6dfedb4a99325f695a77f0a4e41806c543be",
+          "started_at_utc": "2026-10-21T18:36:03.466192+00:00",
+          "request_sha256": "8d3c7746c1bef90e0d76b1626653b1a4e823c35748249b8689d704c6082dd77e",
+          "reservation_sha256": "871b8f82658cf217ed3f50c036281a237d92ab7f486511b84bf16ddb99f086b9",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "8018911d8915bcb9ef4e6cad4a0970248f173a4eee09a8c939e3978d1898ca11",
+          "body_bytes": 1419,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:03.599846+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:03.600657+00:00"
+        },
+        "response_sha256": "d7643b26decebdaf86dab74d702d30d18a4a6c47fb7ac3dcaffa5ce6db07e684"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SH600418",
+          "fiscal_year": null,
+          "title": "江淮汽车2022年年度报告摘要",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216702543",
+          "pdf_path": "finalpage/2023-04-29/1216702543.PDF",
+          "classification": "SUMMARY"
+        },
+        {
+          "instrument": "SH600418",
+          "fiscal_year": 2022,
+          "title": "江淮汽车2022年年度报告",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216702541",
+          "pdf_path": "finalpage/2023-04-29/1216702541.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SH600418",
+          "fiscal_year": 2022,
+          "title": "江淮汽车2022年年度报告",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216702541",
+          "pdf_path": "finalpage/2023-04-29/1216702541.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SH600655": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/23a1c4c8daa1630c37085e7fccc5d529e8bf46bf933ae42b48e65f58f728388c",
+        "record": {
+          "resource": "SH600655",
+          "identity_sha256": "52a521280ad5a0316486940b67fc92ad2012fbcf588b67fa929d121e5b40c0e6",
+          "started_at_utc": "2026-10-21T18:36:03.806789+00:00",
+          "request_sha256": "feb141303ba44742f322ffb8e1391b202f720b11d3991ffef8de5e5217756f49",
+          "reservation_sha256": "17422226dee32d78d89190c2785e7ee9a0b01b66deb5c3a0d602ea8d982996f6",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "3191b03231753fd053a9f48de84ec14cc29a2fc2aec26ac978110c873578d6c5",
+          "body_bytes": 1587,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:03.939282+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:03.940348+00:00"
+        },
+        "response_sha256": "50590b37ec1d7bcb6c4703ce864e320b3093a4969eba67fa1133a0f6d0970604"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SH600655",
+          "fiscal_year": 2022,
+          "title": "上海豫园旅游商城（集团）股份有限公司2022年年度报告",
+          "day": "2023-03-24",
+          "timestamp_ms": 1679587200000,
+          "announcement_id": "1216202153",
+          "pdf_path": "finalpage/2023-03-24/1216202153.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        },
+        {
+          "instrument": "SH600655",
+          "fiscal_year": null,
+          "title": "上海豫园旅游商城（集团）股份有限公司2022年年度报告摘要",
+          "day": "2023-03-24",
+          "timestamp_ms": 1679587200000,
+          "announcement_id": "1216202152",
+          "pdf_path": "finalpage/2023-03-24/1216202152.PDF",
+          "classification": "SUMMARY"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SH600655",
+          "fiscal_year": 2022,
+          "title": "上海豫园旅游商城（集团）股份有限公司2022年年度报告",
+          "day": "2023-03-24",
+          "timestamp_ms": 1679587200000,
+          "announcement_id": "1216202153",
+          "pdf_path": "finalpage/2023-03-24/1216202153.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SZ000825": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/1aa8fc7f7dbe5ce33df903585949c5e890c2beb9af662c3abcf1e6c2e1d5cf0f",
+        "record": {
+          "resource": "SZ000825",
+          "identity_sha256": "34061cdbff00ef25733707695e2375a8cfcb12aa8d9d3e9727b57dabf6796630",
+          "started_at_utc": "2026-10-21T18:36:04.152534+00:00",
+          "request_sha256": "b46b5c2dec50354dc54ef6ed23b58585b11b96db2b1b5b095679a2d0fcb3d9fe",
+          "reservation_sha256": "9163da5e339193baadbfda3fdccd968536c195d588b8848e008b6693c1d745e9",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "a35d6b9b29918e6f1a32f8a2d0b6d5facb953f843bdbd2e3937da8e8e06adc21",
+          "body_bytes": 1391,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:04.287098+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:04.287516+00:00"
+        },
+        "response_sha256": "bf80f2b11545322cc327a89d80fe00f3c2e273a053dbd6ac420ec3da33d35db0"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SZ000825",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-22",
+          "timestamp_ms": 1682092800000,
+          "announcement_id": "1216522455",
+          "pdf_path": "finalpage/2023-04-22/1216522455.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        },
+        {
+          "instrument": "SZ000825",
+          "fiscal_year": null,
+          "title": "2022年年度报告摘要",
+          "day": "2023-04-22",
+          "timestamp_ms": 1682092800000,
+          "announcement_id": "1216522387",
+          "pdf_path": "finalpage/2023-04-22/1216522387.PDF",
+          "classification": "SUMMARY"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SZ000825",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-22",
+          "timestamp_ms": 1682092800000,
+          "announcement_id": "1216522455",
+          "pdf_path": "finalpage/2023-04-22/1216522455.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SZ000783": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/4bbd0ce35e072b8091dfb881f72c6be6737c8e5ef77e1cd62254e9c0c13ac6f1",
+        "record": {
+          "resource": "SZ000783",
+          "identity_sha256": "548e8068fe19821bd82e91deed7ee8a0fe1ef3e1652a71b338e7506ed2fb19ac",
+          "started_at_utc": "2026-10-21T18:36:04.492681+00:00",
+          "request_sha256": "70f6bb945174f128ecbaed1e0b55b560db2940675d2f4f35a2cffb88ce7d64fe",
+          "reservation_sha256": "64474311135331ec35bae9f8ce9ac880c4b680defbf84175a998af2c0711c6b8",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "3282e7a762ff037f21b5c3c265f61ff1cd7e2cc240824b75f6f9f5649cc72448",
+          "body_bytes": 1440,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:04.635891+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:04.636723+00:00"
+        },
+        "response_sha256": "062939f0628a8b31bef4f2561a1c9a9a4b2bcf34bef9c792009bbd1903ee3aba"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SZ000783",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216691305",
+          "pdf_path": "finalpage/2023-04-29/1216691305.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        },
+        {
+          "instrument": "SZ000783",
+          "fiscal_year": null,
+          "title": "2022年年度报告摘要",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216691286",
+          "pdf_path": "finalpage/2023-04-29/1216691286.PDF",
+          "classification": "SUMMARY"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SZ000783",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216691305",
+          "pdf_path": "finalpage/2023-04-29/1216691305.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SZ000750": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/fb4b6c9a4b514841df327599b8fd5ba906b33fc6257db4f959a75e56aeb543f2",
+        "record": {
+          "resource": "SZ000750",
+          "identity_sha256": "0f11ed2dc019889d74262b97e04e0cd892ebfdbaa8565955b5dcb32d46830264",
+          "started_at_utc": "2026-10-21T18:36:04.852354+00:00",
+          "request_sha256": "212c91bb073d8defc8e3820e775525f8a981b79fe86f918eeb568e40abc49e9c",
+          "reservation_sha256": "f857bc82a35c8c9315f736ef24860d657e82d72d21537ecd045df7fc532cf0d9",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "01a67141232811d0472a1c02b7e0b0d14dfd3755d32cc028ad1c41e16180a212",
+          "body_bytes": 1440,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:04.988529+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:04.989781+00:00"
+        },
+        "response_sha256": "9b4f299ca365e4c1861b3599264f7ecfb57ca5cf66e847990096a5c89316f25e"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SZ000750",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-28",
+          "timestamp_ms": 1682611200000,
+          "announcement_id": "1216658986",
+          "pdf_path": "finalpage/2023-04-28/1216658986.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        },
+        {
+          "instrument": "SZ000750",
+          "fiscal_year": null,
+          "title": "2022年年度报告摘要",
+          "day": "2023-04-28",
+          "timestamp_ms": 1682611200000,
+          "announcement_id": "1216658970",
+          "pdf_path": "finalpage/2023-04-28/1216658970.PDF",
+          "classification": "SUMMARY"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SZ000750",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-28",
+          "timestamp_ms": 1682611200000,
+          "announcement_id": "1216658986",
+          "pdf_path": "finalpage/2023-04-28/1216658986.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SZ000933": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/45618b2c99640ed2257471f6b7ad327201cf3e97792da21de087e6f8684e8d82",
+        "record": {
+          "resource": "SZ000933",
+          "identity_sha256": "73ab34de55bc91e3c125aea976815c97b4bba3aa3bb13060a88b5a4cff4b5310",
+          "started_at_utc": "2026-10-21T18:36:05.195841+00:00",
+          "request_sha256": "4120ab3f7717b53da4cfdb8e61027226fc2b68752689f4019c1142f2ecd9e81f",
+          "reservation_sha256": "445882ad50c2e2403b19172373e85594ffc823df115d40c567a464aa980a25ee",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "fbca0e57622312236ec221b1cd796c59d0b662a4c0a29d753976318b275e6243",
+          "body_bytes": 1391,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:05.332928+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:05.333384+00:00"
+        },
+        "response_sha256": "d163b596e49c58b577d0ae558effe729fca0bef1d1385da496659c8f8aadc6e1"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SZ000933",
+          "fiscal_year": null,
+          "title": "2022年年度报告摘要",
+          "day": "2023-03-28",
+          "timestamp_ms": 1679932800000,
+          "announcement_id": "1216236754",
+          "pdf_path": "finalpage/2023-03-28/1216236754.PDF",
+          "classification": "SUMMARY"
+        },
+        {
+          "instrument": "SZ000933",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-03-28",
+          "timestamp_ms": 1679932800000,
+          "announcement_id": "1216236727",
+          "pdf_path": "finalpage/2023-03-28/1216236727.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SZ000933",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-03-28",
+          "timestamp_ms": 1679932800000,
+          "announcement_id": "1216236727",
+          "pdf_path": "finalpage/2023-03-28/1216236727.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SZ002372": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/c7f376acaa2858fb0c10258fed5044288c9b0e8e50e0168367acd1d6689313b7",
+        "record": {
+          "resource": "SZ002372",
+          "identity_sha256": "8352ad76c4bbf1e273ed8f6a463d73f0307b9caf6d83df0014b09d4e8c09aa5b",
+          "started_at_utc": "2026-10-21T18:36:05.545810+00:00",
+          "request_sha256": "467b77fd6bf454eca0a2b5222bc31671b6c71c56a22b73f446dbf35a7340e2d3",
+          "reservation_sha256": "2886d863f3a324aa722aea26b474564c8064c4cd06c90ac15023cf5e5276453d",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "a0c0a2b975ec045fc2a3912f4dcf9b79bc4174117f4d64f739f1283339d2f856",
+          "body_bytes": 1389,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:05.676795+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:05.677151+00:00"
+        },
+        "response_sha256": "1a45637a64d8d159bdcad7e8d6f9bb4500622a93bc0993c9016393adb5a644ce"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SZ002372",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-21",
+          "timestamp_ms": 1682006400000,
+          "announcement_id": "1216497085",
+          "pdf_path": "finalpage/2023-04-21/1216497085.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        },
+        {
+          "instrument": "SZ002372",
+          "fiscal_year": null,
+          "title": "2022年年度报告摘要",
+          "day": "2023-04-21",
+          "timestamp_ms": 1682006400000,
+          "announcement_id": "1216497057",
+          "pdf_path": "finalpage/2023-04-21/1216497057.PDF",
+          "classification": "SUMMARY"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SZ002372",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-21",
+          "timestamp_ms": 1682006400000,
+          "announcement_id": "1216497085",
+          "pdf_path": "finalpage/2023-04-21/1216497085.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    },
+    "SZ002925": {
+      "status": "INITIAL2022_FULL_REPORT_METADATA_CAPTURED",
+      "receipt": {
+        "folder": "http/c6939592ef3156315eaeee9f8574039dcfd82292898a36c9e3e47ed134af7e12",
+        "record": {
+          "resource": "SZ002925",
+          "identity_sha256": "c06573b5a9be02f57c1f18502c7b9517d2dcfe4d374a247627fc45b07a1ec61b",
+          "started_at_utc": "2026-10-21T18:36:05.891104+00:00",
+          "request_sha256": "27882dc18c10179afa43cf967f31b733a1eee45dec71a9ad25535f3111d25892",
+          "reservation_sha256": "b8123afdd96260c1a796513e0b5f2dc38b4f22eef64280485c3b02c428c76e82",
+          "http_status": 200,
+          "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+          "content_type": "application/json;charset=UTF-8",
+          "content_length_header": null,
+          "body_sha256": "8c6b76e347b71598d3293942e47aedd984ef3e5a944aef20b1fe37f63b7b582f",
+          "body_bytes": 1390,
+          "body_complete": true,
+          "captured_at_utc": "2026-10-21T18:36:06.050514+00:00",
+          "status": "RAW_HTTP_RESPONSE_CAPTURED_NOT_ADMITTED",
+          "finished_at_utc": "2026-10-21T18:36:06.051167+00:00"
+        },
+        "response_sha256": "9b4b07c095cef875dce2c51bfdf97fc5f9f6832b7349c2b1ae547460dc4afbde"
+      },
+      "all_normalized_rows": [
+        {
+          "instrument": "SZ002925",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216693662",
+          "pdf_path": "finalpage/2023-04-29/1216693662.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        },
+        {
+          "instrument": "SZ002925",
+          "fiscal_year": null,
+          "title": "2022年年度报告摘要",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216693643",
+          "pdf_path": "finalpage/2023-04-29/1216693643.PDF",
+          "classification": "SUMMARY"
+        }
+      ],
+      "selected_full_reports": [
+        {
+          "instrument": "SZ002925",
+          "fiscal_year": 2022,
+          "title": "2022年年度报告",
+          "day": "2023-04-29",
+          "timestamp_ms": 1682697600000,
+          "announcement_id": "1216693662",
+          "pdf_path": "finalpage/2023-04-29/1216693662.PDF",
+          "classification": "FULL_2022_ANNUAL_REPORT"
+        }
+      ]
+    }
+  },
+  "input_count": 23,
+  "all_inputs_unchanged": true,
+  "PDFs_downloaded": 0,
+  "current_org_mapping_is_historical_master": false,
+  "financial_version_history_complete": false,
+  "historical_arrival_verified": false,
+  "investment_factor_admitted": false,
+  "new_market_or_financial_values_decoded": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

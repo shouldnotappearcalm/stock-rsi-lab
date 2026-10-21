@@ -1,0 +1,735 @@
+{
+  "status": "FROZEN_BEFORE_FIXED12_ANNUAL_PDF_CAPTURE",
+  "output_subdir": "gross-profitability-fixed12-annual-pdfs-20261022",
+  "metadata_request_sha256": "b17246f79621f8581e2ff0c652643e7d51e46a0cb33a19329c1f04a210c58172",
+  "max_logical_attempts": 34,
+  "per_resource_attempts": 1,
+  "max_body_bytes": 26214400,
+  "timeout_seconds": 20,
+  "minimum_request_interval_seconds": 0.2,
+  "document_count": 36,
+  "cache_reuse_count": 2,
+  "financial_numeric_parsing_permitted": false,
+  "ranking_or_portfolio_returns_permitted": false,
+  "2026_financial_or_market_values_permitted": false,
+  "documents": [
+    {
+      "title": "2022年年度报告全文",
+      "day": "2023-04-29",
+      "timestamp_ms": 1682697600000,
+      "announcement_id": "1216699842",
+      "pdf_path": "finalpage/2023-04-29/1216699842.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SH600166",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216699842.PDF",
+      "capture_key": "SH600166-2022-1216699842",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2023年年度报告",
+      "day": "2024-04-27",
+      "timestamp_ms": 1714147200000,
+      "announcement_id": "1219874919",
+      "pdf_path": "finalpage/2024-04-27/1219874919.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SH600166",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219874919.PDF",
+      "capture_key": "SH600166-2023-1219874919",
+      "source_kind": "REUSE_AUTHENTICATED_ORIGINAL_PDF",
+      "source_path": "fundamental-primary-documents-20261017/SH600166-2023-12-31-1219874919.pdf",
+      "source_sha256": "e7588a7d935897aed750034c6847b0f57ab923c4837484f18e3bf62387b67eef",
+      "captured_at_utc": "2026-10-17T12:52:40.656061+00:00"
+    },
+    {
+      "title": "2024年年度报告",
+      "day": "2025-04-26",
+      "timestamp_ms": 1745596800000,
+      "announcement_id": "1223327299",
+      "pdf_path": "finalpage/2025-04-26/1223327299.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SH600166",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223327299.PDF",
+      "capture_key": "SH600166-2024-1223327299",
+      "source_kind": "REUSE_AUTHENTICATED_ORIGINAL_PDF",
+      "source_path": "fundamental-primary-documents-20261017/SH600166-2024-12-31-1223327299.pdf",
+      "source_sha256": "bce69ed22306f3a0cc5b6a62eef9f2fab05d8a3c148f9715fd86faf937540410",
+      "captured_at_utc": "2026-10-17T12:52:40.844587+00:00"
+    },
+    {
+      "title": "2022年年度报告",
+      "day": "2023-04-28",
+      "timestamp_ms": 1682611200000,
+      "announcement_id": "1216664368",
+      "pdf_path": "finalpage/2023-04-28/1216664368.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SH601108",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216664368.PDF",
+      "capture_key": "SH601108-2022-1216664368",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2023年年度报告",
+      "day": "2024-04-26",
+      "timestamp_ms": 1714060800000,
+      "announcement_id": "1219833882",
+      "pdf_path": "finalpage/2024-04-26/1219833882.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SH601108",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833882.PDF",
+      "capture_key": "SH601108-2023-1219833882",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2024年年度报告",
+      "day": "2025-04-26",
+      "timestamp_ms": 1745596800000,
+      "announcement_id": "1223320210",
+      "pdf_path": "finalpage/2025-04-26/1223320210.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SH601108",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223320210.PDF",
+      "capture_key": "SH601108-2024-1223320210",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "江苏金租：2022年年度报告",
+      "day": "2023-04-22",
+      "timestamp_ms": 1682092800000,
+      "announcement_id": "1216523728",
+      "pdf_path": "finalpage/2023-04-22/1216523728.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SH600901",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-22/1216523728.PDF",
+      "capture_key": "SH600901-2022-1216523728",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "江苏金租：2023年年度报告",
+      "day": "2024-04-27",
+      "timestamp_ms": 1714147200000,
+      "announcement_id": "1219877383",
+      "pdf_path": "finalpage/2024-04-27/1219877383.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SH600901",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219877383.PDF",
+      "capture_key": "SH600901-2023-1219877383",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "江苏金租：2024年年度报告",
+      "day": "2025-04-26",
+      "timestamp_ms": 1745596800000,
+      "announcement_id": "1223316139",
+      "pdf_path": "finalpage/2025-04-26/1223316139.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SH600901",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223316139.PDF",
+      "capture_key": "SH600901-2024-1223316139",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "绝味食品股份有限公司2022年度报告全文",
+      "day": "2023-04-29",
+      "timestamp_ms": 1682697600000,
+      "announcement_id": "1216709701",
+      "pdf_path": "finalpage/2023-04-29/1216709701.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SH603517",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216709701.PDF",
+      "capture_key": "SH603517-2022-1216709701",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "绝味食品2023年度报告全文",
+      "day": "2024-04-30",
+      "timestamp_ms": 1714406400000,
+      "announcement_id": "1219907586",
+      "pdf_path": "finalpage/2024-04-30/1219907586.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SH603517",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219907586.PDF",
+      "capture_key": "SH603517-2023-1219907586",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "绝味食品2024年年度报告全文",
+      "day": "2025-04-10",
+      "timestamp_ms": 1744214400000,
+      "announcement_id": "1223045873",
+      "pdf_path": "finalpage/2025-04-10/1223045873.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SH603517",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-10/1223045873.PDF",
+      "capture_key": "SH603517-2024-1223045873",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "江淮汽车2022年年度报告",
+      "day": "2023-04-29",
+      "timestamp_ms": 1682697600000,
+      "announcement_id": "1216702541",
+      "pdf_path": "finalpage/2023-04-29/1216702541.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SH600418",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216702541.PDF",
+      "capture_key": "SH600418-2022-1216702541",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "江淮汽车2023年年度报告",
+      "day": "2024-04-30",
+      "timestamp_ms": 1714406400000,
+      "announcement_id": "1219915147",
+      "pdf_path": "finalpage/2024-04-30/1219915147.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SH600418",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219915147.PDF",
+      "capture_key": "SH600418-2023-1219915147",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "江淮汽车2024年年度报告",
+      "day": "2025-03-29",
+      "timestamp_ms": 1743177600000,
+      "announcement_id": "1222952026",
+      "pdf_path": "finalpage/2025-03-29/1222952026.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SH600418",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222952026.PDF",
+      "capture_key": "SH600418-2024-1222952026",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "上海豫园旅游商城（集团）股份有限公司2022年年度报告",
+      "day": "2023-03-24",
+      "timestamp_ms": 1679587200000,
+      "announcement_id": "1216202153",
+      "pdf_path": "finalpage/2023-03-24/1216202153.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SH600655",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-03-24/1216202153.PDF",
+      "capture_key": "SH600655-2022-1216202153",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "上海豫园旅游商城（集团）股份有限公司2023年年度报告",
+      "day": "2024-03-22",
+      "timestamp_ms": 1711036800000,
+      "announcement_id": "1219374764",
+      "pdf_path": "finalpage/2024-03-22/1219374764.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SH600655",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-03-22/1219374764.PDF",
+      "capture_key": "SH600655-2023-1219374764",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "上海豫园旅游商城（集团）股份有限公司2024年年度报告",
+      "day": "2025-03-25",
+      "timestamp_ms": 1742832000000,
+      "announcement_id": "1222881098",
+      "pdf_path": "finalpage/2025-03-25/1222881098.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SH600655",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-25/1222881098.PDF",
+      "capture_key": "SH600655-2024-1222881098",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2022年年度报告",
+      "day": "2023-04-22",
+      "timestamp_ms": 1682092800000,
+      "announcement_id": "1216522455",
+      "pdf_path": "finalpage/2023-04-22/1216522455.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SZ000825",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-22/1216522455.PDF",
+      "capture_key": "SZ000825-2022-1216522455",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2023年年度报告",
+      "day": "2024-04-27",
+      "timestamp_ms": 1714147200000,
+      "announcement_id": "1219865113",
+      "pdf_path": "finalpage/2024-04-27/1219865113.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SZ000825",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219865113.PDF",
+      "capture_key": "SZ000825-2023-1219865113",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2024年年度报告",
+      "day": "2025-04-28",
+      "timestamp_ms": 1745769600000,
+      "announcement_id": "1223315831",
+      "pdf_path": "finalpage/2025-04-28/1223315831.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SZ000825",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223315831.PDF",
+      "capture_key": "SZ000825-2024-1223315831",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2022年年度报告",
+      "day": "2023-04-29",
+      "timestamp_ms": 1682697600000,
+      "announcement_id": "1216691305",
+      "pdf_path": "finalpage/2023-04-29/1216691305.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SZ000783",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216691305.PDF",
+      "capture_key": "SZ000783-2022-1216691305",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2023年年度报告",
+      "day": "2024-04-27",
+      "timestamp_ms": 1714147200000,
+      "announcement_id": "1219860033",
+      "pdf_path": "finalpage/2024-04-27/1219860033.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SZ000783",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219860033.PDF",
+      "capture_key": "SZ000783-2023-1219860033",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2024年年度报告",
+      "day": "2025-04-29",
+      "timestamp_ms": 1745856000000,
+      "announcement_id": "1223376019",
+      "pdf_path": "finalpage/2025-04-29/1223376019.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SZ000783",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223376019.PDF",
+      "capture_key": "SZ000783-2024-1223376019",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2022年年度报告",
+      "day": "2023-04-28",
+      "timestamp_ms": 1682611200000,
+      "announcement_id": "1216658986",
+      "pdf_path": "finalpage/2023-04-28/1216658986.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SZ000750",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216658986.PDF",
+      "capture_key": "SZ000750-2022-1216658986",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2023年年度报告",
+      "day": "2024-03-09",
+      "timestamp_ms": 1709913600000,
+      "announcement_id": "1219266576",
+      "pdf_path": "finalpage/2024-03-09/1219266576.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SZ000750",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-03-09/1219266576.PDF",
+      "capture_key": "SZ000750-2023-1219266576",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2024年年度报告",
+      "day": "2025-03-29",
+      "timestamp_ms": 1743177600000,
+      "announcement_id": "1222948083",
+      "pdf_path": "finalpage/2025-03-29/1222948083.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SZ000750",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222948083.PDF",
+      "capture_key": "SZ000750-2024-1222948083",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2022年年度报告",
+      "day": "2023-03-28",
+      "timestamp_ms": 1679932800000,
+      "announcement_id": "1216236727",
+      "pdf_path": "finalpage/2023-03-28/1216236727.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SZ000933",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-03-28/1216236727.PDF",
+      "capture_key": "SZ000933-2022-1216236727",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2023年年度报告",
+      "day": "2024-03-26",
+      "timestamp_ms": 1711382400000,
+      "announcement_id": "1219401996",
+      "pdf_path": "finalpage/2024-03-26/1219401996.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SZ000933",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-03-26/1219401996.PDF",
+      "capture_key": "SZ000933-2023-1219401996",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2024年年度报告",
+      "day": "2025-03-25",
+      "timestamp_ms": 1742832000000,
+      "announcement_id": "1222881387",
+      "pdf_path": "finalpage/2025-03-25/1222881387.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SZ000933",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-25/1222881387.PDF",
+      "capture_key": "SZ000933-2024-1222881387",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2022年年度报告",
+      "day": "2023-04-21",
+      "timestamp_ms": 1682006400000,
+      "announcement_id": "1216497085",
+      "pdf_path": "finalpage/2023-04-21/1216497085.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SZ002372",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216497085.PDF",
+      "capture_key": "SZ002372-2022-1216497085",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2023年年度报告",
+      "day": "2024-04-09",
+      "timestamp_ms": 1712592000000,
+      "announcement_id": "1219540563",
+      "pdf_path": "finalpage/2024-04-09/1219540563.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SZ002372",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-09/1219540563.PDF",
+      "capture_key": "SZ002372-2023-1219540563",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2024年年度报告",
+      "day": "2025-04-16",
+      "timestamp_ms": 1744732800000,
+      "announcement_id": "1223102793",
+      "pdf_path": "finalpage/2025-04-16/1223102793.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SZ002372",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102793.PDF",
+      "capture_key": "SZ002372-2024-1223102793",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2022年年度报告",
+      "day": "2023-04-29",
+      "timestamp_ms": 1682697600000,
+      "announcement_id": "1216693662",
+      "pdf_path": "finalpage/2023-04-29/1216693662.PDF",
+      "fiscal_year": 2022,
+      "instrument": "SZ002925",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216693662.PDF",
+      "capture_key": "SZ002925-2022-1216693662",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2023年年度报告",
+      "day": "2024-04-27",
+      "timestamp_ms": 1714147200000,
+      "announcement_id": "1219867746",
+      "pdf_path": "finalpage/2024-04-27/1219867746.PDF",
+      "fiscal_year": 2023,
+      "instrument": "SZ002925",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219867746.PDF",
+      "capture_key": "SZ002925-2023-1219867746",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    },
+    {
+      "title": "2024年年度报告",
+      "day": "2025-04-25",
+      "timestamp_ms": 1745510400000,
+      "announcement_id": "1223270418",
+      "pdf_path": "finalpage/2025-04-25/1223270418.PDF",
+      "fiscal_year": 2024,
+      "instrument": "SZ002925",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223270418.PDF",
+      "capture_key": "SZ002925-2024-1223270418",
+      "source_kind": "FRESH_FROZEN_PDF_GET"
+    }
+  ],
+  "resources": {
+    "SH600166-2022-1216699842": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216699842.PDF",
+      "payload": null
+    },
+    "SH601108-2022-1216664368": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216664368.PDF",
+      "payload": null
+    },
+    "SH601108-2023-1219833882": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219833882.PDF",
+      "payload": null
+    },
+    "SH601108-2024-1223320210": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223320210.PDF",
+      "payload": null
+    },
+    "SH600901-2022-1216523728": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-22/1216523728.PDF",
+      "payload": null
+    },
+    "SH600901-2023-1219877383": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219877383.PDF",
+      "payload": null
+    },
+    "SH600901-2024-1223316139": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223316139.PDF",
+      "payload": null
+    },
+    "SH603517-2022-1216709701": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216709701.PDF",
+      "payload": null
+    },
+    "SH603517-2023-1219907586": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219907586.PDF",
+      "payload": null
+    },
+    "SH603517-2024-1223045873": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-10/1223045873.PDF",
+      "payload": null
+    },
+    "SH600418-2022-1216702541": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216702541.PDF",
+      "payload": null
+    },
+    "SH600418-2023-1219915147": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219915147.PDF",
+      "payload": null
+    },
+    "SH600418-2024-1222952026": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222952026.PDF",
+      "payload": null
+    },
+    "SH600655-2022-1216202153": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-03-24/1216202153.PDF",
+      "payload": null
+    },
+    "SH600655-2023-1219374764": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-03-22/1219374764.PDF",
+      "payload": null
+    },
+    "SH600655-2024-1222881098": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-25/1222881098.PDF",
+      "payload": null
+    },
+    "SZ000825-2022-1216522455": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-22/1216522455.PDF",
+      "payload": null
+    },
+    "SZ000825-2023-1219865113": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219865113.PDF",
+      "payload": null
+    },
+    "SZ000825-2024-1223315831": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223315831.PDF",
+      "payload": null
+    },
+    "SZ000783-2022-1216691305": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216691305.PDF",
+      "payload": null
+    },
+    "SZ000783-2023-1219860033": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219860033.PDF",
+      "payload": null
+    },
+    "SZ000783-2024-1223376019": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223376019.PDF",
+      "payload": null
+    },
+    "SZ000750-2022-1216658986": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216658986.PDF",
+      "payload": null
+    },
+    "SZ000750-2023-1219266576": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-03-09/1219266576.PDF",
+      "payload": null
+    },
+    "SZ000750-2024-1222948083": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222948083.PDF",
+      "payload": null
+    },
+    "SZ000933-2022-1216236727": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-03-28/1216236727.PDF",
+      "payload": null
+    },
+    "SZ000933-2023-1219401996": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-03-26/1219401996.PDF",
+      "payload": null
+    },
+    "SZ000933-2024-1222881387": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-25/1222881387.PDF",
+      "payload": null
+    },
+    "SZ002372-2022-1216497085": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-21/1216497085.PDF",
+      "payload": null
+    },
+    "SZ002372-2023-1219540563": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-09/1219540563.PDF",
+      "payload": null
+    },
+    "SZ002372-2024-1223102793": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-16/1223102793.PDF",
+      "payload": null
+    },
+    "SZ002925-2022-1216693662": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216693662.PDF",
+      "payload": null
+    },
+    "SZ002925-2023-1219867746": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-04-27/1219867746.PDF",
+      "payload": null
+    },
+    "SZ002925-2024-1223270418": {
+      "method": "GET",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223270418.PDF",
+      "payload": null
+    }
+  },
+  "method_sha256": {
+    "scripts/immutable_http_capture.py": "730ca7fdd87e7e8f2f69d65f43a772f0ba22e3a94697db20a46d41df7b149553",
+    "scripts/capture_profitability_initial_annual_metadata.py": "3d3796e7552dc544e9aff501d999cc9c79c6807ad9aa642d10bc9f6639f5360e",
+    "scripts/capture_profitability_annual_pdfs.py": "00c929ef152b0f264292830f9161d37640505dc2208f3f6359a78739223696d2"
+  },
+  "input_sha256": {
+    "repo/docs/research/profitability-fixed12-initial-metadata-plan-2026-10-22.md": "f171380cc6b55883f9641858f9036a8b137387ec57c77b530acda203d14bacd7",
+    "repo/docs/research/profitability-fixed12-pdf-plan-2026-10-22.md": "1956f0240999354b2769fd968f6fa0833d999e44a05c404d27510c44769f66cf",
+    "repo/experiments/qlib/audit_sources/2026-10-22-profitability-initial-metadata-audit.py": "08da1a6b4fa0fd9ba5266732586858f841ddad2da3be9af1197c51a033f6cbbb",
+    "repo/experiments/qlib/cninfo-report-admission-2026-10-16.json": "e0cea489afbfc432e26cf5e8e581873ccba48dc251f3c881d0d71e158ee77cee",
+    "repo/experiments/qlib/fundamental-primary-documents-capture-manifest.json": "7edf73e0346f1580e242adc2c60d913c3568074e0397ae5e2eb76b80f502e647",
+    "repo/experiments/qlib/fundamental-value-pilot-capture-request.json": "d72e8e0e98b0d2711d4995c7e7c9200e38c1a33e593f0fafa8dc8fa01c8fc801",
+    "repo/experiments/qlib/gross-profitability-fixed12-annual-metadata-inventory.json": "0979a45e4ad1ae307a5e9ce145d70cbfda7d9389e15ab59c45159ab031f7c7f2",
+    "repo/experiments/qlib/gross-profitability-source-request.json": "e90736a8666cb7a147c899d6775ff3a9223ce0b9bd356374ee3aeba9953d9e6a",
+    "repo/experiments/qlib/gross-profitability-source-run-verification.json": "61411eeb55c5a1c816b47b3600fbb3bc003abd16ec3e7ab1f2441774515191f5",
+    "repo/experiments/qlib/profitability-fixed12-initial-metadata-audit.json": "ef66cad82869d3eb25fece74a7189b76be0823686fd0c5f1b87d1c67015578d4",
+    "repo/experiments/qlib/profitability-fixed12-initial-metadata-request.json": "b17246f79621f8581e2ff0c652643e7d51e46a0cb33a19329c1f04a210c58172",
+    "repo/scripts/capture_profitability_annual_pdfs.py": "00c929ef152b0f264292830f9161d37640505dc2208f3f6359a78739223696d2",
+    "repo/scripts/capture_profitability_initial_annual_metadata.py": "3d3796e7552dc544e9aff501d999cc9c79c6807ad9aa642d10bc9f6639f5360e",
+    "repo/scripts/immutable_http_capture.py": "730ca7fdd87e7e8f2f69d65f43a772f0ba22e3a94697db20a46d41df7b149553",
+    "source/cninfo-csi500-reports-20261017/codes/SH600166.json": "75a23110cd8d2f343aba3256964d64a59841472a2661ca8ac263c5fae26c7aea",
+    "source/cninfo-csi500-reports-20261017/codes/SH600418.json": "6e4ea3be680e517ce8692f5be5f6b763d76aa92b8bf7c0618637870d29ad267c",
+    "source/cninfo-csi500-reports-20261017/codes/SH600655.json": "c74c6f04b5588af33c3d92b9e6651a74e1546343a3123c28f5e3c1b76c3f8a74",
+    "source/cninfo-csi500-reports-20261017/codes/SH600901.json": "f41a9d3b3e94f4954468339979b3209368ee1ba81a6e7053eee853edf296d9a2",
+    "source/cninfo-csi500-reports-20261017/codes/SH601108.json": "3674cac29dab676e78aa99d1bc097665a8e83b5796c89eb3cda8e9690a4bdbff",
+    "source/cninfo-csi500-reports-20261017/codes/SH603517.json": "a840726577549374f84157dd008d7e721cd3577b65269f2301c7c534f3107eb5",
+    "source/cninfo-csi500-reports-20261017/codes/SZ000750.json": "817de71dab9689f435e6a1af41f34266e3a5fe142161a4509ff1b8431a608008",
+    "source/cninfo-csi500-reports-20261017/codes/SZ000783.json": "2551dbf80a747490096e00acb64dc364d0676eaf139c2ef5d8e893b22ddf9c49",
+    "source/cninfo-csi500-reports-20261017/codes/SZ000825.json": "286e926586d419bbda7b15734598b349a767285f2aeb668310187c9d8b9b0b91",
+    "source/cninfo-csi500-reports-20261017/codes/SZ000933.json": "af405b91fb6559f8f11b213914befa60565642d3ce093524164895b34f38eccf",
+    "source/cninfo-csi500-reports-20261017/codes/SZ002372.json": "8d673a7f6a1d31e9b3b6d40371eaea27086feec012f931a423d6d7a1b64ccf47",
+    "source/cninfo-csi500-reports-20261017/codes/SZ002925.json": "23fd88970777310321fa52f409d1b34e4db84ccd5cb394165aa6966711326dc0",
+    "source/cninfo-csi500-reports-20261017/manifest.json": "3adcf64870b6300be87bed4ebddc216b2ed3c0619d3f99a795698f2bc6bf2eb2",
+    "source/cninfo-csi500-reports-20261017/plan.json": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0",
+    "source/fundamental-primary-documents-20261017/SH600166-2023-12-31-1219874919.pdf": "e7588a7d935897aed750034c6847b0f57ab923c4837484f18e3bf62387b67eef",
+    "source/fundamental-primary-documents-20261017/SH600166-2024-12-31-1223327299.pdf": "bce69ed22306f3a0cc5b6a62eef9f2fab05d8a3c148f9715fd86faf937540410",
+    "source/gross-profitability-initial2022-metadata-20261022/SH600166.json": "82c022fb4f27494eda5f845ed5711b4d8b8e5cfff4d8b96e2282c11cbcc257c2",
+    "source/gross-profitability-initial2022-metadata-20261022/SH600418.json": "77cbfaa046d49aa7bd8175c6601a28e349c645f4e62fdd17765c5e6998a3d4fc",
+    "source/gross-profitability-initial2022-metadata-20261022/SH600655.json": "51b47501aa99afe025cf69d195695a791b774e9dab8905fbc98012f8ea6e6ff7",
+    "source/gross-profitability-initial2022-metadata-20261022/SH600901.json": "96b6b17f8fa76d8828c77762fc5b5f21af9b3146df61ae019194f4cbe68033cf",
+    "source/gross-profitability-initial2022-metadata-20261022/SH601108.json": "a5ed3511c1e67f72f704f282fd271c731e431e9e47d020da883bd67defd6e779",
+    "source/gross-profitability-initial2022-metadata-20261022/SH603517.json": "fa97025f5b53390a9640116f50c82a03d23e68fbe28750ec8cd910638fe55f96",
+    "source/gross-profitability-initial2022-metadata-20261022/SZ000750.json": "dcdaba2ec438c2e0b52589fd3025c145822963b8dd3d905dd35f0cac11fb7d87",
+    "source/gross-profitability-initial2022-metadata-20261022/SZ000783.json": "82b66f0cfce6e736b02ccb94472339629830d540100b0876f8a9d3e9036f5ea2",
+    "source/gross-profitability-initial2022-metadata-20261022/SZ000825.json": "ce7cac685f288474ead97eb2f6070026636af91e626752f09de09d564f2d62b3",
+    "source/gross-profitability-initial2022-metadata-20261022/SZ000933.json": "0c37be4ac246d319a1c2187da67b2f56e4cd3d05a2660f83004325f6411a3cd3",
+    "source/gross-profitability-initial2022-metadata-20261022/SZ002372.json": "fab839e9c652a2b6f4e2a6e2fabfdf41612a99d7d72314cb46430c8c487c9c78",
+    "source/gross-profitability-initial2022-metadata-20261022/SZ002925.json": "0f5db5f7c0a626531a28f97ccf987ab2ebbc62034ad23d34c2b27383e07fb846",
+    "source/gross-profitability-initial2022-metadata-20261022/case_results.json": "df2ed8ae33858939c83a5959b3f693e49746c76a50b4488e60ab8d0acccfa04d",
+    "source/gross-profitability-initial2022-metadata-20261022/http/1aa8fc7f7dbe5ce33df903585949c5e890c2beb9af662c3abcf1e6c2e1d5cf0f/body.bin": "a35d6b9b29918e6f1a32f8a2d0b6d5facb953f843bdbd2e3937da8e8e06adc21",
+    "source/gross-profitability-initial2022-metadata-20261022/http/1aa8fc7f7dbe5ce33df903585949c5e890c2beb9af662c3abcf1e6c2e1d5cf0f/request.json": "b46b5c2dec50354dc54ef6ed23b58585b11b96db2b1b5b095679a2d0fcb3d9fe",
+    "source/gross-profitability-initial2022-metadata-20261022/http/1aa8fc7f7dbe5ce33df903585949c5e890c2beb9af662c3abcf1e6c2e1d5cf0f/reservation.json": "9163da5e339193baadbfda3fdccd968536c195d588b8848e008b6693c1d745e9",
+    "source/gross-profitability-initial2022-metadata-20261022/http/1aa8fc7f7dbe5ce33df903585949c5e890c2beb9af662c3abcf1e6c2e1d5cf0f/response.json": "bf80f2b11545322cc327a89d80fe00f3c2e273a053dbd6ac420ec3da33d35db0",
+    "source/gross-profitability-initial2022-metadata-20261022/http/23a1c4c8daa1630c37085e7fccc5d529e8bf46bf933ae42b48e65f58f728388c/body.bin": "3191b03231753fd053a9f48de84ec14cc29a2fc2aec26ac978110c873578d6c5",
+    "source/gross-profitability-initial2022-metadata-20261022/http/23a1c4c8daa1630c37085e7fccc5d529e8bf46bf933ae42b48e65f58f728388c/request.json": "feb141303ba44742f322ffb8e1391b202f720b11d3991ffef8de5e5217756f49",
+    "source/gross-profitability-initial2022-metadata-20261022/http/23a1c4c8daa1630c37085e7fccc5d529e8bf46bf933ae42b48e65f58f728388c/reservation.json": "17422226dee32d78d89190c2785e7ee9a0b01b66deb5c3a0d602ea8d982996f6",
+    "source/gross-profitability-initial2022-metadata-20261022/http/23a1c4c8daa1630c37085e7fccc5d529e8bf46bf933ae42b48e65f58f728388c/response.json": "50590b37ec1d7bcb6c4703ce864e320b3093a4969eba67fa1133a0f6d0970604",
+    "source/gross-profitability-initial2022-metadata-20261022/http/45618b2c99640ed2257471f6b7ad327201cf3e97792da21de087e6f8684e8d82/body.bin": "fbca0e57622312236ec221b1cd796c59d0b662a4c0a29d753976318b275e6243",
+    "source/gross-profitability-initial2022-metadata-20261022/http/45618b2c99640ed2257471f6b7ad327201cf3e97792da21de087e6f8684e8d82/request.json": "4120ab3f7717b53da4cfdb8e61027226fc2b68752689f4019c1142f2ecd9e81f",
+    "source/gross-profitability-initial2022-metadata-20261022/http/45618b2c99640ed2257471f6b7ad327201cf3e97792da21de087e6f8684e8d82/reservation.json": "445882ad50c2e2403b19172373e85594ffc823df115d40c567a464aa980a25ee",
+    "source/gross-profitability-initial2022-metadata-20261022/http/45618b2c99640ed2257471f6b7ad327201cf3e97792da21de087e6f8684e8d82/response.json": "d163b596e49c58b577d0ae558effe729fca0bef1d1385da496659c8f8aadc6e1",
+    "source/gross-profitability-initial2022-metadata-20261022/http/49f212ddf134196573f65fa4b9b13ff32da09871b33878d12d05c620fe2b3129/body.bin": "57f3b47a9ece837474e4a043f0ee5a8500dd44ba1fb2e6971c884f976aa724a7",
+    "source/gross-profitability-initial2022-metadata-20261022/http/49f212ddf134196573f65fa4b9b13ff32da09871b33878d12d05c620fe2b3129/request.json": "2f08f304c0ea1103e125fc23401f9d4d391c980b92ff81a72619ab47c9a4a801",
+    "source/gross-profitability-initial2022-metadata-20261022/http/49f212ddf134196573f65fa4b9b13ff32da09871b33878d12d05c620fe2b3129/reservation.json": "21bc24ef9032484d836d7c85c99815a2c2ebf2069f20b13bce9964e4537baf7f",
+    "source/gross-profitability-initial2022-metadata-20261022/http/49f212ddf134196573f65fa4b9b13ff32da09871b33878d12d05c620fe2b3129/response.json": "3876731431e608d52ac769062a59364e02c46f76c73406eb101eefd4c4691e72",
+    "source/gross-profitability-initial2022-metadata-20261022/http/4bbd0ce35e072b8091dfb881f72c6be6737c8e5ef77e1cd62254e9c0c13ac6f1/body.bin": "3282e7a762ff037f21b5c3c265f61ff1cd7e2cc240824b75f6f9f5649cc72448",
+    "source/gross-profitability-initial2022-metadata-20261022/http/4bbd0ce35e072b8091dfb881f72c6be6737c8e5ef77e1cd62254e9c0c13ac6f1/request.json": "70f6bb945174f128ecbaed1e0b55b560db2940675d2f4f35a2cffb88ce7d64fe",
+    "source/gross-profitability-initial2022-metadata-20261022/http/4bbd0ce35e072b8091dfb881f72c6be6737c8e5ef77e1cd62254e9c0c13ac6f1/reservation.json": "64474311135331ec35bae9f8ce9ac880c4b680defbf84175a998af2c0711c6b8",
+    "source/gross-profitability-initial2022-metadata-20261022/http/4bbd0ce35e072b8091dfb881f72c6be6737c8e5ef77e1cd62254e9c0c13ac6f1/response.json": "062939f0628a8b31bef4f2561a1c9a9a4b2bcf34bef9c792009bbd1903ee3aba",
+    "source/gross-profitability-initial2022-metadata-20261022/http/5ea437715cc9cca870b8911e52478fc35d1ca713ba0f39c5dbc04c920218274c/body.bin": "8018911d8915bcb9ef4e6cad4a0970248f173a4eee09a8c939e3978d1898ca11",
+    "source/gross-profitability-initial2022-metadata-20261022/http/5ea437715cc9cca870b8911e52478fc35d1ca713ba0f39c5dbc04c920218274c/request.json": "8d3c7746c1bef90e0d76b1626653b1a4e823c35748249b8689d704c6082dd77e",
+    "source/gross-profitability-initial2022-metadata-20261022/http/5ea437715cc9cca870b8911e52478fc35d1ca713ba0f39c5dbc04c920218274c/reservation.json": "871b8f82658cf217ed3f50c036281a237d92ab7f486511b84bf16ddb99f086b9",
+    "source/gross-profitability-initial2022-metadata-20261022/http/5ea437715cc9cca870b8911e52478fc35d1ca713ba0f39c5dbc04c920218274c/response.json": "d7643b26decebdaf86dab74d702d30d18a4a6c47fb7ac3dcaffa5ce6db07e684",
+    "source/gross-profitability-initial2022-metadata-20261022/http/a6e30394c165d7877e3d2f92d84da499199565ebbc28b35c9d4b2895994f2340/body.bin": "e655d85a6c5363ca8eb61f22cfad0fb696bac1c552407b0796f698dbb2a51566",
+    "source/gross-profitability-initial2022-metadata-20261022/http/a6e30394c165d7877e3d2f92d84da499199565ebbc28b35c9d4b2895994f2340/request.json": "40bbaf85b881597396e8f7c4bf203346ced1a3d2105fe2f8f0795db8a4bce5cb",
+    "source/gross-profitability-initial2022-metadata-20261022/http/a6e30394c165d7877e3d2f92d84da499199565ebbc28b35c9d4b2895994f2340/reservation.json": "6d889049e059b130348c799069ef998ea39438fa30c65758276a84f30af01a9a",
+    "source/gross-profitability-initial2022-metadata-20261022/http/a6e30394c165d7877e3d2f92d84da499199565ebbc28b35c9d4b2895994f2340/response.json": "be7a7a1f9dec219ac4b5a166d374748d0f59a7829a50188de1bdc1a0538bc3b5",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c6939592ef3156315eaeee9f8574039dcfd82292898a36c9e3e47ed134af7e12/body.bin": "8c6b76e347b71598d3293942e47aedd984ef3e5a944aef20b1fe37f63b7b582f",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c6939592ef3156315eaeee9f8574039dcfd82292898a36c9e3e47ed134af7e12/request.json": "27882dc18c10179afa43cf967f31b733a1eee45dec71a9ad25535f3111d25892",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c6939592ef3156315eaeee9f8574039dcfd82292898a36c9e3e47ed134af7e12/reservation.json": "b8123afdd96260c1a796513e0b5f2dc38b4f22eef64280485c3b02c428c76e82",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c6939592ef3156315eaeee9f8574039dcfd82292898a36c9e3e47ed134af7e12/response.json": "9b4b07c095cef875dce2c51bfdf97fc5f9f6832b7349c2b1ae547460dc4afbde",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c79d001ed2a08bdeda76aecb7346ecdf952a2792dfe7c77c0bbc331bbd189605/body.bin": "5941dd23e602502420e07ffcea478cfe2375cb7995a668d10ad340619d424514",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c79d001ed2a08bdeda76aecb7346ecdf952a2792dfe7c77c0bbc331bbd189605/request.json": "81ff0e38271049d5bb98ba8fe8d4b994e014ed38389555754a07892835cdf406",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c79d001ed2a08bdeda76aecb7346ecdf952a2792dfe7c77c0bbc331bbd189605/reservation.json": "725e36ecb6f45821bd84e737bebe3b57b62da7812c4a9864f8be927e743d38b6",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c79d001ed2a08bdeda76aecb7346ecdf952a2792dfe7c77c0bbc331bbd189605/response.json": "67ca34e8e33f99c75878d93faae9cea79130191bca86928c0dd737aae57beff9",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c7f376acaa2858fb0c10258fed5044288c9b0e8e50e0168367acd1d6689313b7/body.bin": "a0c0a2b975ec045fc2a3912f4dcf9b79bc4174117f4d64f739f1283339d2f856",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c7f376acaa2858fb0c10258fed5044288c9b0e8e50e0168367acd1d6689313b7/request.json": "467b77fd6bf454eca0a2b5222bc31671b6c71c56a22b73f446dbf35a7340e2d3",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c7f376acaa2858fb0c10258fed5044288c9b0e8e50e0168367acd1d6689313b7/reservation.json": "2886d863f3a324aa722aea26b474564c8064c4cd06c90ac15023cf5e5276453d",
+    "source/gross-profitability-initial2022-metadata-20261022/http/c7f376acaa2858fb0c10258fed5044288c9b0e8e50e0168367acd1d6689313b7/response.json": "1a45637a64d8d159bdcad7e8d6f9bb4500622a93bc0993c9016393adb5a644ce",
+    "source/gross-profitability-initial2022-metadata-20261022/http/d6ea7faf97b952df8aed89478535a292cc6e185d2711b6425ed4917e304ea81f/body.bin": "b6a19c8c25253e4c846417ba60a7fbbb9a8b18457821df64ebb294a0a4997b1b",
+    "source/gross-profitability-initial2022-metadata-20261022/http/d6ea7faf97b952df8aed89478535a292cc6e185d2711b6425ed4917e304ea81f/request.json": "e6ed81882081cf3074643bd11430b144130b8adf378247e1158871e099949516",
+    "source/gross-profitability-initial2022-metadata-20261022/http/d6ea7faf97b952df8aed89478535a292cc6e185d2711b6425ed4917e304ea81f/reservation.json": "0f5793152eb1c4d8d5569d43f1e1f55cf502da0f3c849bf2cccb0e6fe18cb001",
+    "source/gross-profitability-initial2022-metadata-20261022/http/d6ea7faf97b952df8aed89478535a292cc6e185d2711b6425ed4917e304ea81f/response.json": "148b875a48312707aff4619a79ec8bc55e6aa7941d7175bc0578df91734e79f9",
+    "source/gross-profitability-initial2022-metadata-20261022/http/fb4b6c9a4b514841df327599b8fd5ba906b33fc6257db4f959a75e56aeb543f2/body.bin": "01a67141232811d0472a1c02b7e0b0d14dfd3755d32cc028ad1c41e16180a212",
+    "source/gross-profitability-initial2022-metadata-20261022/http/fb4b6c9a4b514841df327599b8fd5ba906b33fc6257db4f959a75e56aeb543f2/request.json": "212c91bb073d8defc8e3820e775525f8a981b79fe86f918eeb568e40abc49e9c",
+    "source/gross-profitability-initial2022-metadata-20261022/http/fb4b6c9a4b514841df327599b8fd5ba906b33fc6257db4f959a75e56aeb543f2/reservation.json": "f857bc82a35c8c9315f736ef24860d657e82d72d21537ecd045df7fc532cf0d9",
+    "source/gross-profitability-initial2022-metadata-20261022/http/fb4b6c9a4b514841df327599b8fd5ba906b33fc6257db4f959a75e56aeb543f2/response.json": "9b4f299ca365e4c1861b3599264f7ecfb57ca5cf66e847990096a5c89316f25e",
+    "source/gross-profitability-initial2022-metadata-20261022/input-before.json": "2863ebdd3c7e5f8364092d928f424c427ad183ad02493bf75770e79cd6fe4ac1",
+    "source/gross-profitability-initial2022-metadata-20261022/input-postcheck.json": "c4cb416ec3e608d4c23e6fbf126d4500f18fc906893e52a1a508fdcccd95f1d3",
+    "source/gross-profitability-initial2022-metadata-20261022/summary.json": "308c2fe50235accbdbeea2311aa1ea1dec737cee4fc0c7a6ef42812e134e8378",
+    "source/gross-profitability-initial2022-metadata-20261022/terminal.json": "0dc04f8beec2b50384d1bd6da385ce504dd523a9bfd1c21fcbe96dd0811a2b44"
+  },
+  "metadata_audit_sha256": "ef66cad82869d3eb25fece74a7189b76be0823686fd0c5f1b87d1c67015578d4",
+  "fixed12_sample_is_investable_universe": false,
+  "source_content_identity_review_separate": true,
+  "financial_version_history_complete": false,
+  "investment_factor_admitted": false,
+  "objective_achieved": false
+}
