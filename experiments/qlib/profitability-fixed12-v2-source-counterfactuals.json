@@ -1,0 +1,38 @@
+{
+  "status": "FOUR_PRIVATE_COPY_SOURCE_COUNTERFACTUALS_REJECTED_ORIGINAL_RUN_UNCHANGED",
+  "audit_code_sha256": "22a7db5a9238a9e6e936693b9ef5314fda2fdfb5903603fcb8541a2d21a5f39a",
+  "mutations": [
+    {
+      "mutation": "wrong_normalized_amount",
+      "rejected": true,
+      "exit_code": 1,
+      "rejection_reason": "independent exact normalized monetary arithmetic",
+      "record_digest_and_case_packet_updated_before_check": true
+    },
+    {
+      "mutation": "wrong_fiscal_column_index",
+      "rejected": true,
+      "exit_code": 1,
+      "rejection_reason": "two literal amounts and matching fiscal column",
+      "record_digest_and_case_packet_updated_before_check": true
+    },
+    {
+      "mutation": "asset_provenance_outside_consolidated_range",
+      "rejected": true,
+      "exit_code": 1,
+      "rejection_reason": "literal consolidated physical range",
+      "record_digest_and_case_packet_updated_before_check": true
+    },
+    {
+      "mutation": "backdated_capture",
+      "rejected": true,
+      "exit_code": 1,
+      "rejection_reason": "source/period/capture conservation",
+      "record_digest_and_case_packet_updated_before_check": true
+    }
+  ],
+  "all41_original_outputs_unchanged": true,
+  "uses_private_original_source_files_not_CI_fixture": true,
+  "investment_factor_admitted": false,
+  "objective_achieved": false
+}
