@@ -1,0 +1,33 @@
+{
+  "status": "RAW_SOURCE_CAPTURE_REJECTED_ONE_COORDINATE_CONFLICT_PRIMARY_REQUEST_FROZEN_NO_PRIMARY_NETWORK_YET",
+  "raw_request_sha256": "762b77dfed8c2a85e5fbfb7bdc7db149fd4216378230906b6ef8e18aa6ca4160",
+  "raw_capture_exit_code": 2,
+  "source_manifest_sha256": "223983d5707627f18c18e5528446e6fdb8e04e61c4ea3bf6ea61a44db4793bef",
+  "source_scope_sha256": "3b41f9693f5156fbc8d038afaa9f70336b1bcef86214be8d0e7dd53a3865ee7c",
+  "saved_names": 202,
+  "requested_names": 203,
+  "errors": [
+    "SH603233"
+  ],
+  "pending_names": [],
+  "logical_reservations_consumed": 345,
+  "login_success": true,
+  "logout_success": true,
+  "frozen_input_postcheck_passed": true,
+  "raw_capture_complete": false,
+  "primary_request_file": "experiments/qlib/price-delay-horizon-single-primary-request.json",
+  "primary_request_sha256": "194e1c2514fe97fb0c0f16757ce3a4199e9bf3d60b2bff6f1862945bb32fa7f0",
+  "primary_review_sha256": "4375c5f5f99cbe87efc985f6b941eac5013727416e62efeb70e5830a4858fc5f",
+  "root_primary_preflight_exit_code": 0,
+  "reviewer_primary_preflight_exit_code": 0,
+  "primary_capture_executed": false,
+  "full_suite_tests": 596,
+  "full_suite_exit_code": 0,
+  "full_suite_elapsed_seconds": 12.103,
+  "full_suite_log_sha256": "66b0c3b53cedcea49d852c445090d0979389e8f8744e74eafa42dca0139390a7",
+  "source_admitted_for_account_replay": false,
+  "portfolio_return_computed": false,
+  "strategy_changed": false,
+  "full_October_complete": false,
+  "objective_achieved": false
+}

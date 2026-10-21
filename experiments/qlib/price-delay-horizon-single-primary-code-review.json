@@ -1,0 +1,44 @@
+{
+  "status": "BOUNDED_SINGLE_PRIMARY_CAPTURE_CODE_REVIEW_PASS",
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "request_sha256": "194e1c2514fe97fb0c0f16757ce3a4199e9bf3d60b2bff6f1862945bb32fa7f0",
+  "reviewed_file_sha256": {
+    "scripts/capture_price_delay_horizon_primary.py": "614ff25ffa4be7999a714cab0b2d66c715bfececcab802a88a13433e898c814f",
+    "tests/test_price_delay_horizon_primary.py": "fda7a88fad59eb2ea7ca11e858d476c3271615350c18cc447101da0a86cfcde8",
+    "docs/research/price-delay-horizon-single-primary-plan-2026-10-21.md": "4fede719dc0ee8ac79aec8ea3cba3229ed405c8ade398e47266c55cacf74072b",
+    "experiments/qlib/price-delay-horizon-single-primary-request.json": "194e1c2514fe97fb0c0f16757ce3a4199e9bf3d60b2bff6f1862945bb32fa7f0"
+  },
+  "checks": {
+    "exact_request_preflight_exit_code": 0,
+    "preflight_created_output": false,
+    "frozen_method_hashes_verified": 5,
+    "frozen_original_failure_hashes_verified": 3,
+    "registered_tests_passed": 2,
+    "additional_synthetic_negative_controls": {
+      "transport_error_persisted_SOURCE_ERROR": true,
+      "KeyboardInterrupt_reservation_retained_and_completion_false": true,
+      "postcheck_mutation_preserves_PDF_but_completion_false": true
+    },
+    "only_registered_URL_and_instrument_and_publication_day": true,
+    "fresh_output_required_no_retry_or_resume": true,
+    "one_QueryJournal_reservation_one_attempt": true,
+    "HTTP_response_journaled_before_PDF_signature_validation": true,
+    "HTTP_redirects_refused_status_final_URL_and_body_completeness_checked": true,
+    "transport_socket_timeout_seconds": 20,
+    "maximum_body_bytes": 10485760,
+    "postcheck_reauthenticates_request_methods_protocol_and_three_failure_inputs": true,
+    "financial_review_source_account_arrival_ROI_admission_flags_false": true
+  },
+  "boundaries": [
+    "No real HTTP request, account replay or ROI was run; fixed output absent after preflight.",
+    "HTTP completion plus %PDF signature does not authenticate issuer, economic content, cash precision, record/ex/pay dates or tax; subsequent complete primary content review remains necessary.",
+    "20-second transport timeout is not an overall wall-clock deadline.",
+    "Hard interruption preserves an unanswered consumed reservation and writes capture_complete false; that path has no complete response to invent.",
+    "New capture writes only its distinct destination; original raw source failure and financial artifacts are not rewritten.",
+    "Review binds current exact request and code; it does not attest future commit/push or actual successful capture."
+  ],
+  "ready_for_frozen_single_source_capture": true,
+  "actual_capture_run": false
+}

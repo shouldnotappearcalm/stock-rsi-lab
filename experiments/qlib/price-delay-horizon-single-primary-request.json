@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN_PRICE_DELAY_ONE_MISSING_ACTION_PRIMARY",
+  "instrument": "SH603233",
+  "publication_day": "2026-10-12",
+  "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600412.PDF",
+  "maximum_http_queries": 1,
+  "max_attempts": 1,
+  "output_directory": "price-delay-horizon-missing-primary-20261021",
+  "protocol_file": "docs/research/price-delay-horizon-single-primary-plan-2026-10-21.md",
+  "portfolio_returns_to_compute": false,
+  "investment_rules_changed": false,
+  "method_code_sha256": {
+    "scripts/capture_price_delay_horizon_primary.py": "614ff25ffa4be7999a714cab0b2d66c715bfececcab802a88a13433e898c814f",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab"
+  },
+  "local_source_sha256": {
+    "price-delay-raw-horizon-20261021/manifest.json": "223983d5707627f18c18e5528446e6fdb8e04e61c4ea3bf6ea61a44db4793bef",
+    "price-delay-raw-horizon-20261021/price-delay-scope.json": "3b41f9693f5156fbc8d038afaa9f70336b1bcef86214be8d0e7dd53a3865ee7c",
+    "price-delay-raw-horizon-20261021/errors/SH603233.json": "5e9c840ca532534d9db3fcd6a3ff62f230f9f0842041f2e87972ef6f8059723b"
+  },
+  "protocol_sha256": "4fede719dc0ee8ac79aec8ea3cba3229ed405c8ade398e47266c55cacf74072b"
+}
