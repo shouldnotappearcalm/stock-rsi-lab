@@ -4877,14 +4877,14 @@
   "latest_pre2026_screen": {
     "candidate": "szse_value_momentum_equal",
     "candidate_budget": 1,
-    "status": "PRE2026_RAW_DAILY_COMPOSITE_PASS_MINUTE_CONFIRMATION_REQUIRED",
-    "plan_file": "experiments/qlib/szse-value-momentum-raw-daily-plan.json",
-    "result_file": "experiments/qlib/szse-value-momentum-raw-daily-results.json",
-    "audit_file": "experiments/qlib/szse-value-momentum-raw-daily-ledger-audit.json",
+    "status": "PRE2026_INTRADAY_COMPOSITE_PASS_2026_UNOPENED",
+    "plan_file": "experiments/qlib/szse-value-momentum-intraday-plan.json",
+    "result_file": "experiments/qlib/szse-value-momentum-intraday-results.json",
+    "audit_file": "experiments/qlib/szse-value-momentum-intraday-ledger-audit.json",
     "reference_extra_bps": 40,
-    "2024_net_pct": 4.902274,
-    "2025_net_pct": 27.5493351078357,
-    "actual_mean_exposure_pct": 94.10831964432816,
+    "2024_net_pct": 2.549085,
+    "2025_net_pct": 24.672115797035147,
+    "actual_mean_exposure_pct": 95.14883091138185,
     "unverified_held_marks": 0,
     "candidate_unique_names": 103,
     "2026_values_or_returns_queried": false,
@@ -4930,10 +4930,10 @@
       "2025_net_pct": 27.914424295016737,
       "actual_mean_exposure_pct": 94.30842757087504
     },
-    "numeric_basis": "PHYSICAL_RAW_SHARE_DAILY_OPEN_PROXY_40BP",
-    "max_drawdown_pct": -22.377849072094595,
+    "numeric_basis": "RECONSTRUCTED_PHYSICAL_INTRADAY_1PCT_PARTICIPATION_40BP",
+    "max_drawdown_pct": -22.60358345483592,
     "raw_daily_account_reconciled": true,
-    "minute_execution_admitted": false,
+    "minute_execution_admitted": true,
     "raw_daily_verification_file": "experiments/qlib/szse-value-momentum-raw-daily-verification.json",
     "minute_source_inventory": {
       "status": "FIXED_COMPOSITE_PRE2026_MINUTE_PREFIX_CACHE_INVENTORY_NOT_ADMISSION",
@@ -4967,6 +4967,19 @@
       "reconstructed_execution_source_admitted": true,
       "intraday_account_reconciled": false,
       "2026_returns_queried": false
-    }
+    },
+    "raw_daily_reference": {
+      "2024_net_pct": 4.902274,
+      "2025_net_pct": 27.5493351078357,
+      "actual_mean_exposure_pct": 94.10831964432816,
+      "max_drawdown_pct": -22.377849072094595,
+      "numeric_basis": "PHYSICAL_RAW_SHARE_DAILY_OPEN_PROXY_40BP",
+      "result_file": "experiments/qlib/szse-value-momentum-raw-daily-results.json",
+      "audit_file": "experiments/qlib/szse-value-momentum-raw-daily-ledger-audit.json"
+    },
+    "reference_participation_bps": 100,
+    "intraday_account_reconciled": true,
+    "all_three40bp_profiles_pass": true,
+    "intraday_verification_file": "experiments/qlib/szse-value-momentum-intraday-verification.json"
   }
 }
