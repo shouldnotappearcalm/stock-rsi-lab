@@ -1,0 +1,18 @@
+{
+  "status": "FIXED2502_PREFIX_SOURCE_PREFLIGHT_AND571_TESTS_PASS_BEFORE_CAPTURE",
+  "capture_plan_sha256": "82468c0329f042eee6b8152dcb53f1d573a21f4b32843cf8e9d73d1bcd500904",
+  "request_sha256": "8c9ce7b9e9519f86349447f3e3bb3760b12e610b8dcd59a8a2c417a0babd4dee",
+  "required_pairs": 2502,
+  "authenticated_reuses": 1584,
+  "fresh_logical_reservation_cap": 918,
+  "cached_reference_checks": 2261,
+  "source_preflight_exit_code": 0,
+  "source_preflight_log_sha256": "dfbb27d01fedd35be9e768c7bb6a7089355189d924ceeb2b97777c264c19a2e1",
+  "tests": 571,
+  "test_exit_code": 0,
+  "test_log_sha256": "ce325555a7ef76108121b8c87ad3ed65f726a6adc3c99c56ce102061e9dd7b74",
+  "SDK_or_source_network_calls_in_preflight": 0,
+  "portfolio_returns_computed": false,
+  "new_2026_values_read": false,
+  "objective_achieved": false
+}

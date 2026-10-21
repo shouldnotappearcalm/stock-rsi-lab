@@ -1,0 +1,59 @@
+{
+  "status": "FROZEN_PRICE_DELAY_PRE2026_MINUTE_SOURCE_CAPTURE",
+  "candidate": "price_delay_d1",
+  "window": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "request_sha256": "8c9ce7b9e9519f86349447f3e3bb3760b12e610b8dcd59a8a2c417a0babd4dee",
+  "method_code_sha256": {
+    "scripts/capture_price_delay_minutes_pre2026.py": "25501164dc357f7217bcab973e435872d94680b2b902d5410b0f6c05ea9efa1f",
+    "scripts/capture_low_beta60_minutes_pre2026.py": "5a1cfa651c593d7867311270d9810aec5ef1ddc5f5f34c6fd735b998e4aad417",
+    "scripts/admit_low_beta60_minutes_pre2026.py": "bd9b6f1051d06520a257a635314c2b7c27be5c0109faa3f9ff9102eb2554fff7",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/illiquidity_minute_sources.py": "6823f1a6f14a0b81732f589b4faa83442c434f8fd70b09f128bd0525bddd0fc6",
+    "scripts/tdx_history_checks.py": "11d6e81d42a0286d640b95b75240e78a89842ff072da4a621369d5d941882344",
+    "src/stock_rsi/intraday_tape.py": "c18041ee5307b58e14f60f2ad305d5db05b5ac8c2c8bed2f9a3d693c3e29ce72",
+    "src/stock_rsi/lifecycle_source_rows.py": "3af8d04b942df5e485615fe85505d48e29f8f936d71926a2a382ed4e3bd1b37c",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/price-delay-minute-gap-identities.json": "8c9ce7b9e9519f86349447f3e3bb3760b12e610b8dcd59a8a2c417a0babd4dee",
+    "experiments/qlib/price-delay-minute-inventory.json": "b7051b8ae5049b129458bc3830b783d890a97fb33bbb71807e3a48095221665a",
+    "experiments/qlib/price-delay-raw-daily-results.json": "899e6bf7acd36961b52e8ca6782ef9616e7af47dbcdcd94abb878494bd35b459",
+    "experiments/qlib/price-delay-raw-daily-independent-ledger-audit.json": "90de13126531e933adc2e68175b466e3fd420e081dccdedf3460182155483dd3",
+    "experiments/qlib/price-delay-raw-daily-root-numeric-verification.json": "7382e6724678b2d0e96ae9db8ad51d8514cfe38e1b2dcd2129ff2d70b6366f8b",
+    "experiments/qlib/price-delay-raw-daily-verification.json": "338a8483c94a331bcf590a9053e8da1da9914d2a5f12746388240a7c182606f1",
+    "docs/research/price-delay-minute-source-plan-2026-10-21.md": "1994ca5d6f4a27bfe818bde4ca52432365c22588fef3f9204e4d7f5ede18cdac"
+  },
+  "local_source_sha256": {
+    "price-delay-raw-dev-20261021/manifest.json": "b179d4e987ad2ee93d0b152d817486c29737c6d605abdad1a15c3fd4713d6b67",
+    "price-delay-raw-dev-20261021/calendar.json": "8675b1a13704262b666f552e5fee1cbe084fe1392aa9ce32d53a40b482698c2a",
+    "price-delay-pre2026-formations-20261021/targets.json": "03acf78c10c10376b5764b0d1399d1631af08a608aa865575aa1bd56203fad0c",
+    "price-delay-account-source-events-20261021/summary.json": "e3b7f480e44e8cd83d9147efdda705c172bdf9bf4d82617a0b79324da1a51b0c",
+    "price-delay-account-source-events-20261021/effective_proofs.json": "81b35024c1ad6cbd5c9768901290ce352c58ca92bc710b350120feb07a1a42aa",
+    "price-delay-minute-inventory-20261021/details.json": "eeb6b6b2bbd36c732f2bddbeedee1058295eab905d35b71e958908efc14c6bf9",
+    "price-delay-minute-inventory-20261021/summary.json": "b7051b8ae5049b129458bc3830b783d890a97fb33bbb71807e3a48095221665a",
+    "price-delay-raw-daily-pre2026-20261021/summary.json": "899e6bf7acd36961b52e8ca6782ef9616e7af47dbcdcd94abb878494bd35b459"
+  },
+  "required_source_pairs": 2502,
+  "existing_source_pairs_to_reuse": 1584,
+  "max_fresh_query_reservations": 918,
+  "max_attempts_per_request": 1,
+  "stop_after_consecutive_source_failures": 3,
+  "host": "116.205.183.150:7709",
+  "package_version": "3.2.3",
+  "timeout_seconds": 3,
+  "pool_size": 1,
+  "server_count": 1,
+  "connections_per_server": 1,
+  "heartbeat_interval": null,
+  "probe_hosts": false,
+  "inter_query_delay_seconds": 0.05,
+  "investment_rule_changed": false,
+  "portfolio_returns_to_compute": false,
+  "new_2026_queries_allowed": false,
+  "objective_achieved": false
+}
