@@ -1,0 +1,1105 @@
+{
+  "2026_quote_rows_materialized_to_Python": false,
+  "LFS_pointers_objects_and_reservations_verified": [
+    {
+      "bytes": 5822238,
+      "instrument": "SH603056",
+      "oid": "7495f3cab60517b6e4122a57c7223c3b105ebdafde2bbc9f51081d26f0e4a09d",
+      "schema": "symbol: string not null\nexchange: string not null\ntimestamp: timestamp[us] not null\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: int64\nturnover: double\n-- schema metadata --\ndataset_schema_version: '1'",
+      "selected_days": 24,
+      "selected_rows": 5784
+    },
+    {
+      "bytes": 8725631,
+      "instrument": "SZ002505",
+      "oid": "9a4e48cb3a2d1308be015a665d6856a99aff7d69295c52c2899a979e7e318cf7",
+      "schema": "symbol: string not null\nexchange: string not null\ntimestamp: timestamp[us] not null\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: int64\nturnover: double\n-- schema metadata --\ndataset_schema_version: '1'",
+      "selected_days": 5,
+      "selected_rows": 1205
+    }
+  ],
+  "admitted_for_reconstructed_execution": false,
+  "aggregate_OHLC_binary32_reference_encoding_pass_counts_out_of29": {
+    "close": 29,
+    "high": 29,
+    "low": 29,
+    "open": 29
+  },
+  "all16bound_inputs_rehashed_unchanged": true,
+  "all29_summary_comparisons_exactly_reconstructed": true,
+  "all_source_artifact_sha256": {
+    "SH603056-receipt.json": "554053700d3a54899a9a9e3b5194b9f435bac1dab755fc0ee725b38ec723bd2a",
+    "SH603056-selected-development-rows.json": "a873f74821b6bcdc2b7183cb6c5b1ae051463796578db2eadfb5aaa8983bd97f",
+    "SH603056.parquet": "7495f3cab60517b6e4122a57c7223c3b105ebdafde2bbc9f51081d26f0e4a09d",
+    "SZ002505-receipt.json": "447a8e3fbf4f63eac0f7abbd20e3be12fb0e501118eb9e6952f6568dc362fccf",
+    "SZ002505-selected-development-rows.json": "a8fea2079dc511a06eb63706513fb07932cc15352e913dbc9ccc76f8534952fd",
+    "SZ002505.parquet": "9a4e48cb3a2d1308be015a665d6856a99aff7d69295c52c2899a979e7e318cf7",
+    "input-before.json": "6574fcc1eb6fe018d1121e3ee01830d350f41242e69692471c7a2798cd5328bf",
+    "input-postcheck.json": "a0b108f3d010702aa73b98b7106f69683ee49336a1451346ced9555de52a8327",
+    "private-batch-response.json": "52b10b297922e539301b16fcf485ddfdc777582a604fb7b8314f8120fc58d458",
+    "reserved-1.json": "fee322019cdcbfd440c9028bfa098315829d531c301ba460d1acf1f1d3525c1d",
+    "reserved-2.json": "b730aa3f5568b24d72364bc2b04493b6aa9c71e24ccadf155845964bddda4921",
+    "reserved-3.json": "0fd10dbc3c41427c367fbac91d64e7db63b498d53e5425f3dd7d31c529381636",
+    "summary.json": "b621ea9cf4462e7e646b89dd759b0ac3e7e9f69e89fa1beac2309f47082deae6"
+  },
+  "audit_code_sha256": "cd6dd77cb967dd0d6230c72484fdb2e8c48bb5cc347b68955c15b46c3350ed10",
+  "binary32_diagnostic_method": "Encode only the original daily reference Decimal as IEEE754binary32 via struct.pack/unpack, expand to Pythonbinary64, compare original archive float text exactly; archive values are never rounded, shifted or rewritten. Matching is representation compatibility, not upstream-provider truth or admission.",
+  "critical_or_important_audit_discrepancies": [],
+  "exact_old29exceptions_verified": true,
+  "freeze_commit": "d5ef5bce96f84c534ee8ce0b64cec602c71479a2",
+  "historical_arrival_verified": false,
+  "limitations": [
+    "Whole immutable object hashing includes allbytes; Arrow may internally decode mixed-year rowgroups. Only explicitly filtered29pre2026 sessions were materialized or compared. NoOS isolation claimed.",
+    "Reservation/body/objectbytes prove local identities and logicalrequestbudget, not an independent HTTPwiretrace, actual server transportcount, historical arrival or upstream source truth. SignedURLs/headers are not emitted; private response hashlocallybound only.",
+    "The original241rows/09:30 label, floatprecision, and all exact source comparison failures remainunchanged; no rounding, source rewrite, labeldropping, queue/impact certification or account replay."
+  ],
+  "logical_request_reservations": 3,
+  "method_sha256": {
+    "scripts/probe_hf_illiquidity_minutes_pre2026.py": "3bbb1ebbbc4fe72fbc2fe770302ab333cbd0e7c0f8b6244a45eaf7e72a54e3af",
+    "src/stock_rsi/archive_minute_probe.py": "1e7bc84a65aecb3e1e948cf5cfcf9136c3b10c3f8bb2d459da162141842417e0"
+  },
+  "negative_controls_rejected": {
+    "minute_label_changed": true,
+    "missing_requested_date": true,
+    "object_oid_changed": true,
+    "raw_daily_volume_changed": true
+  },
+  "network_queries": 0,
+  "original_noncent_OHLC_cells_out_of27956": 26945,
+  "per_field_pass_counts_out_of29": {
+    "all_prices_exact_cent_without_rounding": 0,
+    "exact_existing_240_end_labels": 0,
+    "first_open_matches": 3,
+    "highest_matches": 2,
+    "last_close_matches": 1,
+    "lowest_matches": 5,
+    "total_volume_matches": 29
+  },
+  "per_session_exact_differences": [
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "14.75",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "14.7500"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "14.819999694824219",
+          "archive_minus_raw_daily": "-3.05175781E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.8200"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "14.25",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "14.2500"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "14.430000305175781",
+          "archive_minus_raw_daily": "3.05175781E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.4300"
+        }
+      },
+      "day": "2024-01-02",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 843
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "13.210000038146973",
+          "archive_minus_raw_daily": "3.8146973E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.2100"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "13.75",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "13.7500"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "13.029999732971191",
+          "archive_minus_raw_daily": "-2.67028809E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.0300"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "13.279999732971191",
+          "archive_minus_raw_daily": "-2.67028809E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.2800"
+        }
+      },
+      "day": "2024-02-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 920
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "14.739999771118164",
+          "archive_minus_raw_daily": "-2.28881836E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.7400"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "15.239999771118164",
+          "archive_minus_raw_daily": "-2.28881836E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.2400"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "14.609999656677246",
+          "archive_minus_raw_daily": "-3.43322754E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.6100"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "14.75",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "14.7500"
+        }
+      },
+      "day": "2024-03-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 906
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "15.6899995803833",
+          "archive_minus_raw_daily": "-4.196167E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.6900"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "16.149999618530273",
+          "archive_minus_raw_daily": "-3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "16.1500"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "15.569999694824219",
+          "archive_minus_raw_daily": "-3.05175781E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.5700"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "15.850000381469727",
+          "archive_minus_raw_daily": "3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.8500"
+        }
+      },
+      "day": "2024-04-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 922
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "16.3700008392334",
+          "archive_minus_raw_daily": "8.392334E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "16.3700"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "16.860000610351562",
+          "archive_minus_raw_daily": "6.10351562E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "16.8600"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "16.0",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "16.0000"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "16.860000610351562",
+          "archive_minus_raw_daily": "6.10351562E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "16.8600"
+        }
+      },
+      "day": "2024-05-06",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 946
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "14.920000076293945",
+          "archive_minus_raw_daily": "7.6293945E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.9200"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "15.34000015258789",
+          "archive_minus_raw_daily": "1.5258789E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.3400"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "14.829999923706055",
+          "archive_minus_raw_daily": "-7.6293945E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.8300"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "15.34000015258789",
+          "archive_minus_raw_daily": "1.5258789E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.3400"
+        }
+      },
+      "day": "2024-06-03",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 960
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "13.300000190734863",
+          "archive_minus_raw_daily": "1.90734863E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.3000"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "13.390000343322754",
+          "archive_minus_raw_daily": "3.43322754E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.3900"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "13.029999732971191",
+          "archive_minus_raw_daily": "-2.67028809E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.0300"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "13.149999618530273",
+          "archive_minus_raw_daily": "-3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.1500"
+        }
+      },
+      "day": "2024-07-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 952
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "12.520000457763672",
+          "archive_minus_raw_daily": "4.57763672E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "12.5200"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "12.949999809265137",
+          "archive_minus_raw_daily": "-1.90734863E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "12.9500"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "12.359999656677246",
+          "archive_minus_raw_daily": "-3.43322754E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "12.3600"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "12.899999618530273",
+          "archive_minus_raw_daily": "-3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "12.9000"
+        }
+      },
+      "day": "2024-08-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 929
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "13.399999618530273",
+          "archive_minus_raw_daily": "-3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.4000"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "13.75",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "13.7500"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "13.079999923706055",
+          "archive_minus_raw_daily": "-7.6293945E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.0800"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "13.149999618530273",
+          "archive_minus_raw_daily": "-3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.1500"
+        }
+      },
+      "day": "2024-09-02",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 913
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "15.119999885559082",
+          "archive_minus_raw_daily": "-1.14440918E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.1200"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "16.799999237060547",
+          "archive_minus_raw_daily": "-7.62939453E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "16.8000"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "14.619999885559082",
+          "archive_minus_raw_daily": "-1.14440918E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.6200"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "16.799999237060547",
+          "archive_minus_raw_daily": "-7.62939453E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "16.8000"
+        }
+      },
+      "day": "2024-10-08",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 901
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "14.699999809265137",
+          "archive_minus_raw_daily": "-1.90734863E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.7000"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "14.850000381469727",
+          "archive_minus_raw_daily": "3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.8500"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "13.75",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "13.7500"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "14.199999809265137",
+          "archive_minus_raw_daily": "-1.90734863E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.2000"
+        }
+      },
+      "day": "2024-11-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 917
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "14.65999984741211",
+          "archive_minus_raw_daily": "-1.5258789E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.6600"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "14.800000190734863",
+          "archive_minus_raw_daily": "1.90734863E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.8000"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "14.510000228881836",
+          "archive_minus_raw_daily": "2.28881836E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.5100"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "14.75",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "14.7500"
+        }
+      },
+      "day": "2024-12-02",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 959
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "13.880000114440918",
+          "archive_minus_raw_daily": "1.14440918E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.8800"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "14.430000305175781",
+          "archive_minus_raw_daily": "3.05175781E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.4300"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "13.75",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "13.7500"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "14.350000381469727",
+          "archive_minus_raw_daily": "3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.3500"
+        }
+      },
+      "day": "2025-01-02",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 919
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "14.100000381469727",
+          "archive_minus_raw_daily": "3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.1000"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "14.579999923706055",
+          "archive_minus_raw_daily": "-7.6293945E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.5800"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "13.880000114440918",
+          "archive_minus_raw_daily": "1.14440918E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.8800"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "14.539999961853027",
+          "archive_minus_raw_daily": "-3.8146973E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.5400"
+        }
+      },
+      "day": "2025-02-05",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 933
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "13.899999618530273",
+          "archive_minus_raw_daily": "-3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.9000"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "14.0600004196167",
+          "archive_minus_raw_daily": "4.196167E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.0600"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "13.859999656677246",
+          "archive_minus_raw_daily": "-3.43322754E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.8600"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "13.920000076293945",
+          "archive_minus_raw_daily": "7.6293945E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.9200"
+        }
+      },
+      "day": "2025-03-03",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 919
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "14.510000228881836",
+          "archive_minus_raw_daily": "2.28881836E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.5100"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "14.789999961853027",
+          "archive_minus_raw_daily": "-3.8146973E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.7900"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "14.479999542236328",
+          "archive_minus_raw_daily": "-4.57763672E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.4800"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "14.609999656677246",
+          "archive_minus_raw_daily": "-3.43322754E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.6100"
+        }
+      },
+      "day": "2025-04-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 929
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "13.0600004196167",
+          "archive_minus_raw_daily": "4.196167E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.0600"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "13.0600004196167",
+          "archive_minus_raw_daily": "4.196167E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "13.0600"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "12.949999809265137",
+          "archive_minus_raw_daily": "-1.90734863E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "12.9500"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "12.960000038146973",
+          "archive_minus_raw_daily": "3.8146973E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "12.9600"
+        }
+      },
+      "day": "2025-05-06",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 827
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "22.8799991607666",
+          "archive_minus_raw_daily": "-8.392334E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "22.8800"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "22.8799991607666",
+          "archive_minus_raw_daily": "-8.392334E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "22.8800"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "21.739999771118164",
+          "archive_minus_raw_daily": "-2.28881836E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "21.7400"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "22.8799991607666",
+          "archive_minus_raw_daily": "-8.392334E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "22.8800"
+        }
+      },
+      "day": "2025-06-03",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 962
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "15.880000114440918",
+          "archive_minus_raw_daily": "1.14440918E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.8800"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "15.979999542236328",
+          "archive_minus_raw_daily": "-4.57763672E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.9800"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "15.819999694824219",
+          "archive_minus_raw_daily": "-3.05175781E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.8200"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "15.850000381469727",
+          "archive_minus_raw_daily": "3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.8500"
+        }
+      },
+      "day": "2025-07-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 964
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "16.200000762939453",
+          "archive_minus_raw_daily": "7.62939453E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "16.2000"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "16.799999237060547",
+          "archive_minus_raw_daily": "-7.62939453E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "16.8000"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "15.6899995803833",
+          "archive_minus_raw_daily": "-4.196167E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.6900"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "15.770000457763672",
+          "archive_minus_raw_daily": "4.57763672E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.7700"
+        }
+      },
+      "day": "2025-08-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 923
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "16.229999542236328",
+          "archive_minus_raw_daily": "-4.57763672E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "16.2300"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "16.399999618530273",
+          "archive_minus_raw_daily": "-3.81469727E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "16.4000"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "16.0",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "16.0000"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "16.0",
+          "archive_minus_raw_daily": "0.0000",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": true,
+          "raw_daily_decimal": "16.0000"
+        }
+      },
+      "day": "2025-09-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 902
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "15.619999885559082",
+          "archive_minus_raw_daily": "-1.14440918E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.6200"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "15.779999732971191",
+          "archive_minus_raw_daily": "-2.67028809E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.7800"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "15.329999923706055",
+          "archive_minus_raw_daily": "-7.6293945E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.3300"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "15.720000267028809",
+          "archive_minus_raw_daily": "2.67028809E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "15.7200"
+        }
+      },
+      "day": "2025-10-09",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 937
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "14.890000343322754",
+          "archive_minus_raw_daily": "3.43322754E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.8900"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "14.949999809265137",
+          "archive_minus_raw_daily": "-1.90734863E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.9500"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "14.720000267028809",
+          "archive_minus_raw_daily": "2.67028809E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.7200"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "14.930000305175781",
+          "archive_minus_raw_daily": "3.05175781E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.9300"
+        }
+      },
+      "day": "2025-11-03",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 910
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "14.40999984741211",
+          "archive_minus_raw_daily": "-1.5258789E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.4100"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "14.470000267028809",
+          "archive_minus_raw_daily": "2.67028809E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.4700"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "14.380000114440918",
+          "archive_minus_raw_daily": "1.14440918E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.3800"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "14.430000305175781",
+          "archive_minus_raw_daily": "3.05175781E-7",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "14.4300"
+        }
+      },
+      "day": "2025-12-01",
+      "instrument": "SH603056",
+      "noncent_original_price_cells": 964
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "1.3600000143051147",
+          "archive_minus_raw_daily": "1.43051147E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.3600"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "1.3799999952316284",
+          "archive_minus_raw_daily": "-4.7683716E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.3800"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "1.340000033378601",
+          "archive_minus_raw_daily": "3.3378601E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.3400"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "1.3700000047683716",
+          "archive_minus_raw_daily": "4.7683716E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.3700"
+        }
+      },
+      "day": "2024-03-01",
+      "instrument": "SZ002505",
+      "noncent_original_price_cells": 964
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "1.2300000190734863",
+          "archive_minus_raw_daily": "1.90734863E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.2300"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "1.2400000095367432",
+          "archive_minus_raw_daily": "9.5367432E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.2400"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "1.2200000286102295",
+          "archive_minus_raw_daily": "2.86102295E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.2200"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "1.2200000286102295",
+          "archive_minus_raw_daily": "2.86102295E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.2200"
+        }
+      },
+      "day": "2024-04-01",
+      "instrument": "SZ002505",
+      "noncent_original_price_cells": 964
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "1.0700000524520874",
+          "archive_minus_raw_daily": "5.24520874E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.0700"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "1.1200000047683716",
+          "archive_minus_raw_daily": "4.7683716E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.1200"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "1.0399999618530273",
+          "archive_minus_raw_daily": "-3.81469727E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.0400"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "1.0700000524520874",
+          "archive_minus_raw_daily": "5.24520874E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.0700"
+        }
+      },
+      "day": "2024-05-06",
+      "instrument": "SZ002505",
+      "noncent_original_price_cells": 964
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "1.0099999904632568",
+          "archive_minus_raw_daily": "-9.5367432E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.0100"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "1.0099999904632568",
+          "archive_minus_raw_daily": "-9.5367432E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "1.0100"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "0.9300000071525574",
+          "archive_minus_raw_daily": "7.1525574E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "0.9300"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "0.9599999785423279",
+          "archive_minus_raw_daily": "-2.14576721E-8",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "0.9600"
+        }
+      },
+      "day": "2024-06-03",
+      "instrument": "SZ002505",
+      "noncent_original_price_cells": 932
+    },
+    {
+      "aggregate_OHLC": {
+        "close": {
+          "archive_decimal_from_original_float_text": "0.4000000059604645",
+          "archive_minus_raw_daily": "5.9604645E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "0.4000"
+        },
+        "high": {
+          "archive_decimal_from_original_float_text": "0.4000000059604645",
+          "archive_minus_raw_daily": "5.9604645E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "0.4000"
+        },
+        "low": {
+          "archive_decimal_from_original_float_text": "0.4000000059604645",
+          "archive_minus_raw_daily": "5.9604645E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "0.4000"
+        },
+        "open": {
+          "archive_decimal_from_original_float_text": "0.4000000059604645",
+          "archive_minus_raw_daily": "5.9604645E-9",
+          "daily_decimal_reencoded_IEEE754_binary32_then_binary64_exactly_matches_archive": true,
+          "exact_comparison": false,
+          "raw_daily_decimal": "0.4000"
+        }
+      },
+      "day": "2024-07-01",
+      "instrument": "SZ002505",
+      "noncent_original_price_cells": 964
+    }
+  ],
+  "portfolio_returns_computed": false,
+  "private_signed_URLs_or_headers_disclosed": false,
+  "project_code_imported": false,
+  "request_and_methods_match_frozen_Git_blobs": true,
+  "request_sha256": "6927ea42f2217fe0a19076fcf683dee0d760faef8c89df1ae2c97cbf5736c144",
+  "selected_pre2026_rows_reconstructed": 6989,
+  "source_admission": false,
+  "source_quality_conclusion": "All29 requested sessions contain241 original labels including09:30 and therefore fail the existing240end-label contract. Exact source checks and their failures are preserved. Binary32 compatibility is a separate diagnostic and does not turn any failed exact-cent/OHLC check into admission.",
+  "status": "INDEPENDENT_29_PRE2026_ARCHIVE_SOURCE_COMPARISONS_RECONSTRUCTED",
+  "summary_sha256": "b621ea9cf4462e7e646b89dd759b0ac3e7e9f69e89fa1beac2309f47082deae6"
+}

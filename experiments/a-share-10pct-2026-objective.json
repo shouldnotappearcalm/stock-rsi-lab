@@ -5853,5 +5853,37 @@
     "sealed_2026_evidence_claimed": false,
     "objective_achieved": false,
     "next_action": "Retain the complete failed interim candidate. Do not use its2026 names, periods, events or returns to revise investment rules. The development-only inventory found no credible frozen untested alpha queue; requalify any next proposal using pre2026 mechanism/source/execution evidence and freeze selection before another2026 diagnostic."
+  },
+  "latest_illiquidity_archive_source_probe": {
+    "status": "PINNED_ARCHIVE_ALL29_SOURCE_COMPARISONS_INDEPENDENTLY_VERIFIED_NOT_EXECUTION_ADMITTED",
+    "freeze_commit": "d5ef5bce96f84c534ee8ce0b64cec602c71479a2",
+    "request_sha256": "6927ea42f2217fe0a19076fcf683dee0d760faef8c89df1ae2c97cbf5736c144",
+    "summary_sha256": "b621ea9cf4462e7e646b89dd759b0ac3e7e9f69e89fa1beac2309f47082deae6",
+    "all16_bound_inputs_unchanged": true,
+    "logical_requests_reserved": 3,
+    "selected_sessions": 29,
+    "selected_development_rows": 6989,
+    "rows_each": 241,
+    "exact_daily_total_volume_matches": 29,
+    "exact_old240_end_label_matches": 0,
+    "exact_source_price_grid_matches": 0,
+    "original_daily_reference_encoded_binary32_matches": {
+      "open": 29,
+      "high": 29,
+      "low": 29,
+      "close": 29
+    },
+    "admitted_for_reconstructed_execution": false,
+    "old_source_packets_or_admission_changed": false,
+    "portfolio_returns_computed": false,
+    "new2026_portfolio_test_run": false,
+    "objective_achieved": false,
+    "candidate": "amihud22",
+    "result_file": "experiments/qlib/illiquidity-hf-archive-probe-results.json",
+    "verification_file": "experiments/qlib/illiquidity-hf-archive-probe-run-verification.json",
+    "verification_sha256": "2cdb96ac409a28ca3955712e7e34b1ca10ab1e4e8d9b76ba5f36d608807299c4",
+    "independent_audit_sha256": "4531a6e5f3f0bc126f6653ac165d271233bf101eb5a5485418e8302847388ee3",
+    "root_audit_byte_identical": true,
+    "next_action": "Keep the original source gate false. Define and independently review a separate reversible cent-grid representation and causal minute-clock contract before admitting archive execution or running the unchanged pre2026 account. No source rounding, label deletion, original gate override or2026-driven alpha changes. The original three return conditions remain unproven."
   }
 }
