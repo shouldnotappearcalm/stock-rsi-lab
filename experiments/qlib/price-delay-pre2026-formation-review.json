@@ -1,0 +1,361 @@
+{
+  "status": "INDEPENDENT_NUMPY_ALL24_FORMATIONS_RECONSTRUCTED_NO_PORTFOLIO_ROI",
+  "request_sha256": "79ff4add9a879e5ee426a3e73573dd04d6c4ca7cc2364efb9a1a5e2027a77630",
+  "formation_summary_sha256": "45f0304584efae66660994aa29de5075d4a61f7a1b20d59d7026a0a821e1df5a",
+  "provider_manifest_sha256": "49e1a7c7e163575165ecaaf9ba9dbcfacb1f7544c73d5bab594f1e5b152ae3fe",
+  "formation_artifact_sha256": {
+    "targets.json": "03acf78c10c10376b5764b0d1399d1631af08a608aa865575aa1bd56203fad0c",
+    "formation_receipts.json": "483c4143b4b1e43886eeaf2d57c171b8b34407d2037140fe9127cf4cdd2a3caa"
+  },
+  "auditor_source_sha256": "ad528b2aa9d5522b6e59d729af27bd1babccefb92ff44845082c9fe9f58a9b0a",
+  "frozen_method_and_design_bindings_checked": true,
+  "capped_feature_hash_and_physical_extent_checks": 4010,
+  "equity_names": 501,
+  "physical_calendar_end": "2025-12-31",
+  "uncapped_provider_opened": false,
+  "all24_measurement_caps_and_backward_weekly_endpoints_verified": true,
+  "all_eligible_excluded_and_missing_weeks_exact": true,
+  "all_actual_fits_numpy_reconstructed": 9247,
+  "max_absolute_errors": {
+    "delay": 3.5416114485542494e-14,
+    "r2_restricted": 6.106226635438361e-16,
+    "r2_full": 5.828670879282072e-16,
+    "alpha": 1.2826979062241506e-14,
+    "coefficients": 5.551115123125783e-15
+  },
+  "minimum_actual_design_singular_ratio": 0.5195864730695942,
+  "minimum_high_decile_selection_boundary_gap": 0.00021219784649095796,
+  "all_three_family_targets_exact": true,
+  "candidate": "price_delay_d1",
+  "controls_nonselectable_by_registered_design": [
+    "eligible_equal_weight",
+    "low_delay_control"
+  ],
+  "formations": [
+    {
+      "execution_session": "2024-01-02",
+      "measurement_cap": "2023-11-30",
+      "last_measurement_session": "2023-11-29",
+      "members": 394,
+      "eligible": 391,
+      "selected": 39,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        49,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-02-01",
+      "measurement_cap": "2023-12-31",
+      "last_measurement_session": "2023-12-27",
+      "members": 394,
+      "eligible": 391,
+      "selected": 39,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        49,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-03-01",
+      "measurement_cap": "2024-01-31",
+      "last_measurement_session": "2024-01-31",
+      "members": 394,
+      "eligible": 394,
+      "selected": 39,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        42,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-04-01",
+      "measurement_cap": "2024-02-29",
+      "last_measurement_session": "2024-02-28",
+      "members": 394,
+      "eligible": 394,
+      "selected": 39,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        46,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-05-06",
+      "measurement_cap": "2024-03-31",
+      "last_measurement_session": "2024-03-27",
+      "members": 394,
+      "eligible": 392,
+      "selected": 39,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        49,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-06-03",
+      "measurement_cap": "2024-04-30",
+      "last_measurement_session": "2024-04-24",
+      "members": 394,
+      "eligible": 394,
+      "selected": 39,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        50,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-07-01",
+      "measurement_cap": "2024-05-31",
+      "last_measurement_session": "2024-05-29",
+      "members": 388,
+      "eligible": 388,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-08-01",
+      "measurement_cap": "2024-06-30",
+      "last_measurement_session": "2024-06-26",
+      "members": 388,
+      "eligible": 387,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-09-02",
+      "measurement_cap": "2024-07-31",
+      "last_measurement_session": "2024-07-31",
+      "members": 388,
+      "eligible": 388,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-10-08",
+      "measurement_cap": "2024-08-31",
+      "last_measurement_session": "2024-08-28",
+      "members": 388,
+      "eligible": 387,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-11-01",
+      "measurement_cap": "2024-09-30",
+      "last_measurement_session": "2024-09-25",
+      "members": 388,
+      "eligible": 386,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2024-12-02",
+      "measurement_cap": "2024-10-31",
+      "last_measurement_session": "2024-10-30",
+      "members": 388,
+      "eligible": 387,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-01-02",
+      "measurement_cap": "2024-11-30",
+      "last_measurement_session": "2024-11-27",
+      "members": 386,
+      "eligible": 385,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-02-05",
+      "measurement_cap": "2024-12-31",
+      "last_measurement_session": "2024-12-25",
+      "members": 386,
+      "eligible": 386,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        42,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-03-03",
+      "measurement_cap": "2025-01-31",
+      "last_measurement_session": "2025-01-27",
+      "members": 386,
+      "eligible": 386,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        47,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-04-01",
+      "measurement_cap": "2025-02-28",
+      "last_measurement_session": "2025-02-26",
+      "members": 386,
+      "eligible": 386,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-05-06",
+      "measurement_cap": "2025-03-31",
+      "last_measurement_session": "2025-03-26",
+      "members": 386,
+      "eligible": 386,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-06-03",
+      "measurement_cap": "2025-04-30",
+      "last_measurement_session": "2025-04-30",
+      "members": 386,
+      "eligible": 386,
+      "selected": 38,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-07-01",
+      "measurement_cap": "2025-05-31",
+      "last_measurement_session": "2025-05-28",
+      "members": 376,
+      "eligible": 376,
+      "selected": 37,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-08-01",
+      "measurement_cap": "2025-06-30",
+      "last_measurement_session": "2025-06-25",
+      "members": 376,
+      "eligible": 375,
+      "selected": 37,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-09-01",
+      "measurement_cap": "2025-07-31",
+      "last_measurement_session": "2025-07-30",
+      "members": 376,
+      "eligible": 376,
+      "selected": 37,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-10-09",
+      "measurement_cap": "2025-08-31",
+      "last_measurement_session": "2025-08-27",
+      "members": 376,
+      "eligible": 375,
+      "selected": 37,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-11-03",
+      "measurement_cap": "2025-09-30",
+      "last_measurement_session": "2025-09-24",
+      "members": 376,
+      "eligible": 376,
+      "selected": 37,
+      "market_paired_weeks": 52,
+      "stock_observations_range": [
+        48,
+        52
+      ]
+    },
+    {
+      "execution_session": "2025-12-01",
+      "measurement_cap": "2025-10-31",
+      "last_measurement_session": "2025-10-29",
+      "members": 376,
+      "eligible": 375,
+      "selected": 37,
+      "market_paired_weeks": 48,
+      "stock_observations_range": [
+        45,
+        48
+      ]
+    }
+  ],
+  "critical_findings": [],
+  "important_findings": [],
+  "limitations": [
+    "QlibSnapshot source reader reused as authorized; no production price_delay fit/ranking/endpoint helpers imported. NumPy lstsq independently estimates both intercept regressions on each reconstructed stock-specific paired sample.",
+    "Verified capped-provider hashes and physical extents, not a new independent reread of original uncapped source byte prefixes; original uncapped source was not opened.",
+    "Historical memberships and adjusted data are the frozen provider version, not certified historical announcement arrival/PIT.",
+    "Same eligibility/selection direction and descriptive-only controls verified in design and formation objects; forthcoming portfolio-runner selection gate not reviewed here.",
+    "No original-paper replication claim or portfolio-performance conclusion."
+  ],
+  "portfolio_returns_computed": false,
+  "new_network_queries": 0,
+  "2026_market_values_read": false,
+  "repository_files_modified": false
+}

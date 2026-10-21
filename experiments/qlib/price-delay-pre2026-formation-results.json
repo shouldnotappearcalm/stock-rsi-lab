@@ -1,0 +1,30 @@
+{
+  "status": "SINGLE_DELAY_PRE2026_FORMATIONS_PREPARED_NO_RETURNS",
+  "request_sha256": "79ff4add9a879e5ee426a3e73573dd04d6c4ca7cc2364efb9a1a5e2027a77630",
+  "provider_manifest_sha256": "49e1a7c7e163575165ecaaf9ba9dbcfacb1f7544c73d5bab594f1e5b152ae3fe",
+  "input_sha256": {
+    "price_files": "30a7f43d6e306929dea2089fa958c33b08b44d88f32f5a4ffd4acfa93076e160",
+    "calendars/day.txt": "0095d19144308a1b0075ffd7f40f7af2dae76bdff3cfb1ba8bd80d4663ef9eaa",
+    "instruments/csi500.txt": "3ada9b34652fe037e188ae977b67b66ae5906d3c6976168823869a6e172ce7b0",
+    "features/sh000905/close.day.bin": "ef2b45c052feb722c98fb76612d23ea0d6f916997c0ddc18e7efc8a0118c6a83"
+  },
+  "formations": 24,
+  "candidate_budget": 1,
+  "eligible_range": [
+    375,
+    394
+  ],
+  "market_paired_weeks_range": [
+    48,
+    52
+  ],
+  "artifact_sha256": {
+    "targets.json": "03acf78c10c10376b5764b0d1399d1631af08a608aa865575aa1bd56203fad0c",
+    "formation_receipts.json": "483c4143b4b1e43886eeaf2d57c171b8b34407d2037140fe9127cf4cdd2a3caa"
+  },
+  "source_queries": 0,
+  "2026_market_values_queried": false,
+  "portfolio_returns_computed": false,
+  "historical_arrival_verified": false,
+  "objective_achieved": false
+}
