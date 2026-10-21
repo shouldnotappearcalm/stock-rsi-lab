@@ -5123,7 +5123,7 @@
     }
   ],
   "latest_pre2026_price_delay_screen": {
-    "status": "PRE2026_INTRADAY_PASS_HORIZON_613_EVENTS_VERIFIED_RAW_ACCOUNT_METHOD_READY",
+    "status": "HORIZON_RAW_ACCOUNT_INVALID_REQUIRED_NONORDINARY_TARGET_SOURCE_NO_2026_ROI",
     "candidate": "price_delay_d1",
     "candidate_budget": 1,
     "2024_normalized_daily_proxy_net_pct": 16.908141739694326,
@@ -5425,8 +5425,49 @@
     "horizon_raw_account_method": {
       "request_sha256": "b28c9d0e1d7def9b8aedeee29714a1f7de490b03c47667458445dc70dc2206de",
       "source_preflight_passed": true,
-      "actual_account_replay_run": false,
+      "actual_account_replay_run": true,
       "portfolio_returns_computed": false
+    },
+    "horizon_raw_account_result": {
+      "status": "FIXED_PRICE_DELAY_HORIZON_RAW_ACCOUNT_BLOCKED_BY_FROZEN_NONORDINARY_SOURCE_GUARD",
+      "freeze_commit": "25c6d03",
+      "raw_account_request_sha256": "b28c9d0e1d7def9b8aedeee29714a1f7de490b03c47667458445dc70dc2206de",
+      "actual_exit_code": 2,
+      "raw_account_summary_sha256": "c0761e10ee980018bff4eb210ff94f5603ad70af4ac4fde3e9786356e41a9a52",
+      "failure_independent_review_sha256": "b66c3d0bfe0807d9f67b1060abc15027c88482960eb950fb1029d55d6ea676a0",
+      "root_review_reproduction_byte_identical": true,
+      "failed_profiles": [
+        20,
+        40
+      ],
+      "failure_source": {
+        "instrument": "SH600079",
+        "day": "2026-03-31",
+        "raw_isST": "1",
+        "raw_tradestatus": "1",
+        "dependency": "FROZEN_2026_04_01_TARGET_PRIOR_CLOSE_SNAPSHOT",
+        "listed_position": 0,
+        "unlisted_position": 0,
+        "pending_orders": 0,
+        "positive_ex_entitlements": 0
+      },
+      "failure_before_day_mutation": true,
+      "last_completed_session": "2026-03-30",
+      "partial_source_days": 541,
+      "partial_intents": 27,
+      "old486_days_and24_intents_and_two_six_file_prefixes_byte_identical": true,
+      "old241_ordinary_scope_prefixes_identical": true,
+      "all60_original_financial_file_bytes_unchanged": true,
+      "failure_artifacts_authenticated": 8,
+      "annual_returns_computed": false,
+      "2026_portfolio_return_computed": false,
+      "candidate_qualified": false,
+      "objective_achieved": false,
+      "full_October_2026_complete": false,
+      "investment_rule_changes": false,
+      "no_target_deletion_or_guard_relaxation_to_bypass_failure": true,
+      "728_missing_minute_source_queries_not_started": true,
+      "reason_not_to_report_full_ROI": "The fixed next target requires a source outside the frozen ordinary-stock account model; partial values are not a complete valid 2026 return."
     }
   }
 }

@@ -1,0 +1,125 @@
+{
+  "status": "INDEPENDENT_BOUNDED_RAW_ACCOUNT_FAILURE_EVIDENCE_CONFIRMED_NO_ANNUAL_ROI",
+  "audit_code_sha256": "179e1f0decbbe309f4ed26fbd16610fb6299237800b8ba1311de836b960c1df8",
+  "imports_project_code": false,
+  "production_account_or_annual_scorer_called": false,
+  "plan_sha256": "b28c9d0e1d7def9b8aedeee29714a1f7de490b03c47667458445dc70dc2206de",
+  "summary_sha256": "c0761e10ee980018bff4eb210ff94f5603ad70af4ac4fde3e9786356e41a9a52",
+  "case_results_sha256": "039027f5e628cfad86111bd8a6076873b56ecdf4bcd0e1a331226fa740b4e66e",
+  "frozen_commit_request_bytes_verified": "25c6d03",
+  "failure_instrument": "SH600079",
+  "failure_day": "2026-03-31",
+  "raw_source_packet_sha256": "8d95d2068b34799f1288ea637ac8b25dfe35b335608c81eeffbb1a0b5600f6f7",
+  "source_state": {
+    "date": "2026-03-31",
+    "code": "sh.600079",
+    "tradestatus": "1",
+    "isST": "1"
+  },
+  "both_profiles_failed_same_next_target_dependency": true,
+  "profiles": {
+    "20": {
+      "failure_artifact_sha256": {
+        "error.json": "1f142284ffb8f3ca70dac3fad9b816732963a64126cdb04aca64f298dd1a4e47",
+        "failed_account_state.json": "ba33b6bdd2646967cfa059991da4d3a248bb2b4f04b3cf885418ebe71173dc81",
+        "partial_case.json": "b1029f814e90cb733886c96e9b44bb0761421e00947c105be9f49ce073e1d279",
+        "source_scope_audit.json": "ba69eac7fafcc014c8b923b1187d20f38ee3e5d1862b48e11cee600ca2443145"
+      },
+      "source_dependency": {
+        "physical_owned_quantity": 0,
+        "pending_stock_quantity": 0,
+        "pending_order_count": 0,
+        "positive_ex_entitlement_count": 0,
+        "next_frozen_target_dependency": true,
+        "next_execution_session": "2026-04-01",
+        "target_as_of": "2026-03-31",
+        "target_weight_literal": 0.02638888888888889,
+        "dependence_class": "NEXT_TARGET_PRIOR_CLOSE_REQUIRED",
+        "no_prior_SH600079_order_or_fill": true
+      },
+      "last_account_clock": [
+        "2026-03-30",
+        1
+      ],
+      "completed_partial_days": 541,
+      "completed_intents": 27,
+      "old486days_24intents_6financial_prefixes_byte_exact": true,
+      "reproduced_old6_prefix_sha256": {
+        "daily.csv": "92b38843f2f800f9af6484f09830c43be1bac0d34ffc3c5eee6e58e99a54eb9a",
+        "orders.json": "6b02485db7414189b07dc1e0ec9562298b6343c9f2767cef900760860170738a",
+        "fills.json": "2052b62c5642ac884fdb122fb115f1a0f9851bc269d7591bf46e1f2239feaa1d",
+        "corporate_ledger.json": "650d4dbdf7423134e8e2ce9a8784012b73a54b83d9827eb0964db7b2dfa6a2e3",
+        "intents.json": "fd4f8285187a438789b99adf6d41655998594153eafc7debe76d313c0ab8af12",
+        "ownership.json": "4b183e51f2627f4d8da41fb70deddcb24e5f379b3a31546fe0aacbae9438bda7"
+      },
+      "old241_source_scope_prefix_identical": true,
+      "source_scope_records_before_failure": 296,
+      "failure_day_no_account_clock_cash_position_fill_or_corporate_mutation_evidence": true,
+      "annual_returns_computed": false
+    },
+    "40": {
+      "failure_artifact_sha256": {
+        "error.json": "1f142284ffb8f3ca70dac3fad9b816732963a64126cdb04aca64f298dd1a4e47",
+        "failed_account_state.json": "e7e9ef47fcf9c6ecd48f5a699a4de80fce8fe30916663b1b63363d7e04f5383e",
+        "partial_case.json": "3f0c28270235729f812c8e07b44aad108bf91e454b073d6f34b4e0186a071ad7",
+        "source_scope_audit.json": "ba69eac7fafcc014c8b923b1187d20f38ee3e5d1862b48e11cee600ca2443145"
+      },
+      "source_dependency": {
+        "physical_owned_quantity": 0,
+        "pending_stock_quantity": 0,
+        "pending_order_count": 0,
+        "positive_ex_entitlement_count": 0,
+        "next_frozen_target_dependency": true,
+        "next_execution_session": "2026-04-01",
+        "target_as_of": "2026-03-31",
+        "target_weight_literal": 0.02638888888888889,
+        "dependence_class": "NEXT_TARGET_PRIOR_CLOSE_REQUIRED",
+        "no_prior_SH600079_order_or_fill": true
+      },
+      "last_account_clock": [
+        "2026-03-30",
+        1
+      ],
+      "completed_partial_days": 541,
+      "completed_intents": 27,
+      "old486days_24intents_6financial_prefixes_byte_exact": true,
+      "reproduced_old6_prefix_sha256": {
+        "daily.csv": "e990917dd9181ee0dfc7b710676484ed0f21f05cf7802a97bcda3eda2e1cbd66",
+        "orders.json": "b180e3ba2276762fbb3101896faa3393ef5eaa0ce4fda1727e3af5e09295b249",
+        "fills.json": "a72c1d4585d04a11e7338cdfcd3f8dba697e56388082dfaa47f2d7d1a66d04fb",
+        "corporate_ledger.json": "dd409a216fefa29174e86cfd35bef765dbfdde8110d53c53cd872b3bcf70ba95",
+        "intents.json": "0d1a5826e6a68a537647a9be981441814662c3a8f05d78254df4c00dbd1f6579",
+        "ownership.json": "bbfd4e3d2369651b318391f5823649f430091e84082d7305ff053a0063a461a2"
+      },
+      "old241_source_scope_prefix_identical": true,
+      "source_scope_records_before_failure": 296,
+      "failure_day_no_account_clock_cash_position_fill_or_corporate_mutation_evidence": true,
+      "annual_returns_computed": false
+    }
+  },
+  "all8_failure_artifact_hashes_verified": true,
+  "all60_original_financial_file_bytes_unchanged": true,
+  "all_request_method_public_local_bindings_unchanged": true,
+  "all203_raw_packet_hashes_and5_compiled_artifact_hashes_unchanged": true,
+  "source_guard_precedes_account_start_day_in_authenticated_code": true,
+  "guard_source_line": 30,
+  "start_day_source_line": 33,
+  "no_2026_annual_return_fields_in_results": true,
+  "annual_returns_computed_after_both_complete_gates": false,
+  "semantic_negative_controls_rejected": {
+    "ordinary_row_cannot_explain_failure": true,
+    "missing_target_dependency_rejected": true,
+    "mutated_failureday_clock_rejected": true
+  },
+  "critical_or_important_findings": [],
+  "limitations": [
+    "Failure is caused by next frozen target prior-close dependency, not actual SH600079 ownership, pending order, pending stock or positive ex entitlement. No free exit or target deletion is justified.",
+    "Observed state and authenticated code show refusal before account.start_day onMar31; there is no valid March31/full676day continuation or annual2026 result.",
+    "Both original2024/25 six-artifact prefixes were independently recovered byte-exact from partial rows/intents/ownership plus the Dec31 checkpoint. This is not an independent reconstruction of every2026partial-day trade or account economics.",
+    "The presence of earlier partial daily net_return/equity records is retained failure evidence; no annual scorer was called by this audit and no2026annual ROI is calculated or reported.",
+    "No account rerun, target/rule/guard edit, source mutation, network or new source query."
+  ],
+  "account_replay_admitted": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
