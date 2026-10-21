@@ -4912,6 +4912,14 @@
       "raw_source_admitted_for_account_replay": false,
       "account_replay_performed": false,
       "new_2026_market_queries": false
+    },
+    "source_projection": {
+      "status": "SOURCE_PROJECTION_RECONSTRUCTED_READY_FOR_FROZEN_RAW_DAILY_ACCOUNT",
+      "summary_file": "experiments/qlib/szse-value-momentum-source-projection-summary.json",
+      "audit_file": "experiments/qlib/szse-value-momentum-source-projection-independent-audit.json",
+      "verification_file": "experiments/qlib/szse-value-momentum-source-projection-verification.json",
+      "events": 255,
+      "account_returns_computed": false
     }
   }
 }

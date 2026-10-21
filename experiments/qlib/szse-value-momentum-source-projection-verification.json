@@ -1,0 +1,22 @@
+{
+  "status": "SOURCE_PROJECTION_RECONSTRUCTED_READY_FOR_FROZEN_RAW_DAILY_ACCOUNT",
+  "freeze_commit": "b7e5868",
+  "compilation_exit_code": 0,
+  "plan_sha256": "46e75c001457de30a86cab17795ebb211d4bfb9b8c89ef6100e91e8cc341aa40",
+  "summary_sha256": "4ebaff004689c2487d375f36989c869d07f9833277ff4e65059caca3326f721a",
+  "independent_audit_sha256": "546662cc31f84f3d1e3a3504868d8f115cc0caabf49ad612374ec78c21ebb27a",
+  "auditor_sha256": "22f02bc2c3249e65aaf01d101f39c6a19bf78ca6a4d01c99b4086e04fb0a0595",
+  "root_byte_exact_reproduction": true,
+  "events": 255,
+  "vendor_events": 254,
+  "primary_supplements": 1,
+  "inherited_capital_tax_inferences": 4,
+  "primary_listing_anchors": 1,
+  "semantic_controls_rejected": 14,
+  "source_only_account_preflight_passed": true,
+  "original_packets_changed": false,
+  "actual_raw_account_output_exists": false,
+  "account_returns_computed": false,
+  "new_2026_market_queries": false,
+  "objective_achieved": false
+}
