@@ -1,0 +1,31 @@
+{
+  "status": "V7_SOURCE_AND_SEPARATE_QA_PASSED_UNRESOLVED_OPENING_DATES_RETAINED",
+  "source_inspection_attempts": 1,
+  "actual_separate_source_QA_attempts": 1,
+  "checker_duplicate_date_guard_regression_failed_before_fix": true,
+  "checker_fix": "Count all source-line anchor windows,including adjacent repeats; nonoverlapping substring count had missed a duplicate.",
+  "frozen_parser_or_source_outputs_changed_to_pass_QA": false,
+  "source_request_sha256": "51d047df56f4150906172d3ac27972ee3167e9b98cb4b1b32e800d066099eb55",
+  "audit_code_sha256": "8710f79cbb9e2cd40e604490b834c9b8976986a40f45e9bffdac25e430e4363a",
+  "regression_test_file": "tests/test_profitability_v7_separate_audit.py",
+  "regression_test_sha256": "196294cbc0bbd582555613aa23256fdc81969fc5e5f42e73834a0d63d5fa7d71",
+  "full_local_unittest_count": 1080,
+  "full_local_unittest_result": "OK",
+  "freeze_local_unittest_count": 1076,
+  "freeze_CI_run": 39691179151,
+  "freeze_CI_all3_jobs": "success",
+  "local_evidence_relative_source_root": "gross-profitability-all1236-v7-qa-evidence-20261022",
+  "all_local_evidence_sha256": {
+    "profitability-all1236-v7-source-audit-20261022.log": "62054ea9754ed5a3f8ac1385cadb489222257dc0350f87225470728916ba1f23",
+    "profitability-v7-QA-anchor-red-20261022.log": "2ed0e5c1b82600161f37e406a28a975470745a11824ed47bedc2e4768eaa71c0",
+    "profitability-v7-full-tests-before-freeze-20261022.log": "54acaf31ab934c492df36f10e0eff537884f7b42d9343ebdb51c0eae3b661804",
+    "profitability-v7-full1080-tests-20261022.log": "320f9fdd4cb9663d826ae3b7393539336b2ca0f8693c621a75a232de68b32706",
+    "profitability-v7-parser-green-20261022.log": "8271405462da62bf91ff99827adb6ff0ca2b25ba7ed926e193ffc725f03b41b8",
+    "profitability-v7-parser-red-20261022.log": "462c8ec9ad794ce793c06b77518f76e1e97a638a8ac3b61acf7a00166a6dcab7",
+    "profitability-v7-runner-red-20261022.log": "deabbc5b414c500258e169a4f637c7d5a4c3bb1461488423db2c74382b123123",
+    "source-audit.json": "706c383c92fc490684c3b9b245019f84194031a6c2a43304a34bfa3a6eda1864"
+  },
+  "generic_opening_fiscal_dates_or_comparative_observations_invented": false,
+  "investment_factor_admitted": false,
+  "objective_achieved": false
+}
