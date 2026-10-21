@@ -22,7 +22,7 @@
     "Honest labeling of consumed 2026 diagnostics and point-in-time data limitations"
   ],
   "remaining_completion_evidence": [
-    "Complete requested October and verify the fixed szse_value_momentum_equal2026diagnostic only after pre2026minute confirmation. Its raw-share daily40bp account passes2024(+4.902274%) and2025(+27.549335%);693minute sources remain uncached. Earlier low_beta60six conditional2026accounts remain below10%.",
+    "The frozen szse_value_momentum_equal daily physical-account diagnostic is negative through2026Oct20 at both fixed20/40bp profiles; the reference40bp gives2024+4.902274%,2025+27.549335%,2026-7.840254%. No2026minute result or sealed validation is claimed. Preserve this failed observation, do not tune the strategy from2026facts. Further economic hypotheses and candidate selection must use independent sources and pre2026 development, with all prior2026 observations disclosed. Full requestedOctober remains incomplete.",
     "User capital remains unspecified; no deployment participation/cost profile selected, all 60 scenarios retained",
     "Nested execution now records explicit legal-sized children, capacity and residuals; counterfactual queue/impact and precise historical available volume are not calibrated",
     "Historical official price limits/special status and real information arrival times remain unverified",
@@ -4805,6 +4805,31 @@
         "network_queries": 0,
         "portfolio_returns_computed": false
       }
+    },
+    {
+      "candidate": "szse_value_momentum_equal",
+      "file": "experiments/qlib/szse-value-momentum-full-daily-results.json",
+      "sha256": "57455600ebcd8b0e8a314eb5413b84711e9d42f3462fe37faac42a548b43371e",
+      "status": "BOTH_FIXED_DAILY_COST_PROFILES_NEGATIVE_AT_OCT20",
+      "reference_extra_bps": 40,
+      "reference_2024_net_return_pct": 4.902274,
+      "reference_2025_net_return_pct": 27.5493351078357,
+      "reference_2026_net_return_pct": -7.840254259585793,
+      "2026_net_return_range_pct": [
+        -7.840254259585793,
+        -6.589937738547063
+      ],
+      "continuous_account_no_annual_reset": true,
+      "old12_daily_control_files_byte_identical": true,
+      "old54_financial_files_unchanged": true,
+      "execution_model": "DAILY_PROXY_ONLY",
+      "minute2026_execution_run": false,
+      "2026_observation_consumed": true,
+      "sealed_holdout": false,
+      "investment_rule_changed": false,
+      "candidate_promoted": false,
+      "full_October_complete": false,
+      "objective_achieved": false
     }
   ],
   "latest_data_admission": {
@@ -4858,26 +4883,37 @@
     "separate_conditional_account_scored": true
   },
   "latest_fixed_candidate_diagnostic": {
-    "candidate": "low_beta60",
-    "file": "experiments/qlib/low-beta60-issuer-schedule-scored-results.json",
-    "sha256": "bfbf56f6c6ca1b59a10df640a17c0ebdba3c655deefe365d4a88dc65cacefa3a",
-    "status": "ALL_SIX_FAIL_2026_10PCT_AT_OCT20",
+    "candidate": "szse_value_momentum_equal",
+    "file": "experiments/qlib/szse-value-momentum-full-daily-results.json",
+    "sha256": "57455600ebcd8b0e8a314eb5413b84711e9d42f3462fe37faac42a548b43371e",
+    "status": "BOTH_FIXED_DAILY_COST_PROFILES_NEGATIVE_AT_OCT20",
+    "reference_extra_bps": 40,
+    "reference_2024_net_return_pct": 4.902274,
+    "reference_2025_net_return_pct": 27.5493351078357,
+    "reference_2026_net_return_pct": -7.840254259585793,
     "2026_net_return_range_pct": [
-      5.339726345292663,
-      5.755180793886555
+      -7.840254259585793,
+      -6.589937738547063
     ],
-    "positive2024_and2025_all_profiles": true,
-    "strict_tax_proof_verified": false,
-    "conditional_scenario_only": true,
-    "original_269_events_unchanged": true,
-    "original_42_financial_prefixes_identical": true,
+    "continuous_account_no_annual_reset": true,
+    "old12_daily_control_files_byte_identical": true,
+    "old54_financial_files_unchanged": true,
+    "execution_model": "DAILY_PROXY_ONLY",
+    "minute2026_execution_run": false,
+    "2026_observation_consumed": true,
+    "sealed_holdout": false,
+    "investment_rule_changed": false,
+    "candidate_promoted": false,
     "full_October_complete": false,
-    "objective_achieved": false
+    "objective_achieved": false,
+    "output_review_file": "experiments/qlib/szse-value-momentum-full-daily-output-review.json",
+    "verification_file": "experiments/qlib/szse-value-momentum-full-daily-verification.json",
+    "verification_sha256": "e6e8f094ea20643ea3afb5fbdeb1762bc0842cc7a62b56a57931da1d5ddb177f"
   },
   "latest_pre2026_screen": {
     "candidate": "szse_value_momentum_equal",
     "candidate_budget": 1,
-    "status": "PRE2026_INTRADAY_COMPOSITE_PASS_2026_UNOPENED",
+    "status": "PRE2026_INTRADAY_PASS_2026_DAILY_PROXY_NEGATIVE",
     "plan_file": "experiments/qlib/szse-value-momentum-intraday-plan.json",
     "result_file": "experiments/qlib/szse-value-momentum-intraday-results.json",
     "audit_file": "experiments/qlib/szse-value-momentum-intraday-ledger-audit.json",
@@ -4981,7 +5017,7 @@
     "intraday_account_reconciled": true,
     "all_three40bp_profiles_pass": true,
     "intraday_verification_file": "experiments/qlib/szse-value-momentum-intraday-verification.json",
-    "2026_strategy_returns_queried": false,
+    "2026_strategy_returns_queried": true,
     "2026_target_extension": {
       "status": "ALL34_FIXED_FORMATIONS_RECONSTRUCTED_NO2026_ACCOUNT",
       "target_file": "experiments/qlib/szse-value-momentum-2026-targets.json",
@@ -5031,7 +5067,59 @@
       "logical_queries_consumed": 362,
       "source_admitted_for_account": false,
       "2026_strategy_returns_queried": false,
+      "objective_achieved": false,
+      "local_v2_reassembly": {
+        "result_file": "experiments/qlib/szse-value-momentum-raw-reassembly-v2-results.json",
+        "audit_file": "experiments/qlib/szse-value-momentum-raw-reassembly-v2-audit.json",
+        "names": 127,
+        "source_end": "2026-10-20",
+        "new_source_queries": 0,
+        "original_four_rejections_preserved": true
+      }
+    },
+    "2026_continuous_daily_diagnostic": {
+      "candidate": "szse_value_momentum_equal",
+      "file": "experiments/qlib/szse-value-momentum-full-daily-results.json",
+      "sha256": "57455600ebcd8b0e8a314eb5413b84711e9d42f3462fe37faac42a548b43371e",
+      "status": "BOTH_FIXED_DAILY_COST_PROFILES_NEGATIVE_AT_OCT20",
+      "reference_extra_bps": 40,
+      "reference_2024_net_return_pct": 4.902274,
+      "reference_2025_net_return_pct": 27.5493351078357,
+      "reference_2026_net_return_pct": -7.840254259585793,
+      "2026_net_return_range_pct": [
+        -7.840254259585793,
+        -6.589937738547063
+      ],
+      "continuous_account_no_annual_reset": true,
+      "old12_daily_control_files_byte_identical": true,
+      "old54_financial_files_unchanged": true,
+      "execution_model": "DAILY_PROXY_ONLY",
+      "minute2026_execution_run": false,
+      "2026_observation_consumed": true,
+      "sealed_holdout": false,
+      "investment_rule_changed": false,
+      "candidate_promoted": false,
+      "full_October_complete": false,
       "objective_achieved": false
     }
-  }
+  },
+  "fixed_candidate_diagnostic_history": [
+    {
+      "candidate": "low_beta60",
+      "file": "experiments/qlib/low-beta60-issuer-schedule-scored-results.json",
+      "sha256": "bfbf56f6c6ca1b59a10df640a17c0ebdba3c655deefe365d4a88dc65cacefa3a",
+      "status": "ALL_SIX_FAIL_2026_10PCT_AT_OCT20",
+      "2026_net_return_range_pct": [
+        5.339726345292663,
+        5.755180793886555
+      ],
+      "positive2024_and2025_all_profiles": true,
+      "strict_tax_proof_verified": false,
+      "conditional_scenario_only": true,
+      "original_269_events_unchanged": true,
+      "original_42_financial_prefixes_identical": true,
+      "full_October_complete": false,
+      "objective_achieved": false
+    }
+  ]
 }

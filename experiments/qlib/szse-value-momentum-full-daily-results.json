@@ -1,0 +1,67 @@
+{
+  "plan_sha256": "41b9ed54980e94a365df01dc398a6fca39baa2fccc7f7b9ab9af688e39507176",
+  "old_daily_controls": {
+    "20": {
+      "corporate_ledger.json": "1d1d8e1bd6d7525830a9c69720d174871c8da044d6ffbebe9c88893db8017676",
+      "daily.csv": "d47f064c0ddb91ecc94cc92e416aa29826b44e6762c1908f1116ee8eebf9f86c",
+      "fills.json": "dd7490d685ebb303f5067652359f83f2d5fc7fa401f874573e2d2bc94f9bfafa",
+      "intents.json": "f7a1acd7c319772b0098746ec5e8a3d850af91f324ba2dd574d6ce6a74796400",
+      "orders.json": "0273561226ca64b79e56a2fe30c0b8531001ab23d4074e1160a7370d666acddf",
+      "ownership.json": "215c42144e4f2d620a7ba7c4b7a63284fd60f11e7b29ffcf69b389060dd0e9c6"
+    },
+    "40": {
+      "corporate_ledger.json": "7206e99779786708c9eca0155151501324a6a904b595eabfa761017a04ae79ef",
+      "daily.csv": "eb943dda14d1020d7cf56a110dc9fc0d2fa5c0aeef3b181fc161ec3c21629ac9",
+      "fills.json": "2ac8a28bcba27403b285bae1257d1ac3466fcecab02726ec47293ff72fe27f84",
+      "intents.json": "2d6b592f3ba768af34fa6122672ea229114fc69ca214198bfb8fdfefc11455b8",
+      "orders.json": "abe619c445421f62dc738b432e129b190855d9e501ce03768950b6a99e59e5f5",
+      "ownership.json": "05ff1c7420f0f957836f4dca348262e7adc647eaa81ff70960c3a0037a637b3a"
+    }
+  },
+  "results_by_extra_bps": {
+    "20": {
+      "status": "CONTINUOUS_DAILY_PROXY_RECONCILED",
+      "2024_return_pct": 6.242551,
+      "2025_return_pct": 29.20541601076578,
+      "2026_through_2026-10-20_return_pct": -6.589937738547063,
+      "three_numeric_conditions_met_at_interim_cutoff": false,
+      "2026_starting_equity": "1372711.3000",
+      "ending_equity": "1282250.4800",
+      "pre2026_financial_collections_identical_at_boundary": true,
+      "artifact_sha256": {
+        "corporate_ledger.json": "f713277d0c6015335be240a54bc2dd9e08222833bcca4a6fb7847d0a3922d700",
+        "daily.csv": "94547d419e7047a4ed6469e967b8c4f566201766fe4e93cbe4df5281bd2ac996",
+        "fills.json": "ff4a2837f8e3e7c3b9236240f2aac7ac2fa0d5f9e9eaf30c40edb0576e08ccc3",
+        "intents.json": "aef5db1bfa33a96d417ad7419635448459b619abe0a875b0015c49159054e28b",
+        "orders.json": "39b3d6ee1da92c7200f577d34a77610b2fba534af406003c64be88fbaa58f4a7",
+        "ownership.json": "3cdb081d8f9698e2ddc79c594a52202bf915986a1888ecf4d2c4aff1ac93a4af"
+      }
+    },
+    "40": {
+      "status": "CONTINUOUS_DAILY_PROXY_RECONCILED",
+      "2024_return_pct": 4.902274,
+      "2025_return_pct": 27.5493351078357,
+      "2026_through_2026-10-20_return_pct": -7.840254259585793,
+      "three_numeric_conditions_met_at_interim_cutoff": false,
+      "2026_starting_equity": "1338021.5300",
+      "ending_equity": "1233117.2400",
+      "pre2026_financial_collections_identical_at_boundary": true,
+      "artifact_sha256": {
+        "corporate_ledger.json": "da962994ba0e02d017a7145efdcda4e8753a4e4b462483479cc5dbdc2805e7e6",
+        "daily.csv": "394eb33ebd8393c5178c745f1f320d4d1208d16224dd6ef0a35e61356a319705",
+        "fills.json": "3fc0d0c4784fb0dcc7930abb25b572301a807ca857407ab6c551500a2f3cba63",
+        "intents.json": "5d4c79960e284a53f3581109dd19753df744b8b74657d84f42e5cc2098c24b04",
+        "orders.json": "f20c00de5239e8c4cdc4d28034e7feb2db0e87d1ed9bfa7209ab6106f7aea93f",
+        "ownership.json": "5f7eed362a7e640e60f2bab3ee0646c6595290d21e7b6d7389ab020b13cf20a7"
+      }
+    }
+  },
+  "original54_financial_files_unchanged": true,
+  "execution_model": "DAILY_PROXY_ONLY",
+  "minute_execution_admitted": false,
+  "historical_arrival_verified": false,
+  "full_October_complete": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "candidate_promoted": false,
+  "objective_achieved": false
+}

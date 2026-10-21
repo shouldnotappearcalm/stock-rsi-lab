@@ -1,0 +1,22 @@
+{
+  "status": "FIXED_COMPOSITE_DAILY2026_NEGATIVE_OBSERVATION_VERIFIED",
+  "plan_file": "experiments/qlib/szse-value-momentum-full-daily-plan.json",
+  "plan_sha256": "41b9ed54980e94a365df01dc398a6fca39baa2fccc7f7b9ab9af688e39507176",
+  "results_sha256": "57455600ebcd8b0e8a314eb5413b84711e9d42f3462fe37faac42a548b43371e",
+  "output_review_file": "experiments/qlib/szse-value-momentum-full-daily-output-review.json",
+  "output_review_sha256": "e74df762f47abc44c32ec6a854bd726692744b24add9b3ed55ae863e65cfc0a7",
+  "root_numeric_audit_sha256": "9b496108227ef17e79c7ff9c0453b0f16eb9d35a351df7697008923878544425",
+  "tests": {
+    "passed": 540,
+    "log_sha256": "d000b11892f4a6bc47ad370f5f80bd655042c9f27188c6a3dfa7e9f56c08a26f"
+  },
+  "old12_controls_byte_exact": true,
+  "old54_financial_files_unchanged": true,
+  "continuous_account_no_annual_reset": true,
+  "both_profiles_negative_2026": true,
+  "investment_rule_changed": false,
+  "minute2026_execution_admitted": false,
+  "sealed_holdout": false,
+  "full_October_complete": false,
+  "objective_achieved": false
+}

@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "20": {
+      "annual_pct": [
+        "6.24255100",
+        "29.20541601076578065223603300",
+        "-6.589937738547063756231918540"
+      ],
+      "source_rows": 676,
+      "all_daily_equity_components_reconciled": true
+    },
+    "40": {
+      "annual_pct": [
+        "4.90227400",
+        "27.54933510783569858552351310",
+        "-7.840254259585793062687115360"
+      ],
+      "source_rows": 676,
+      "all_daily_equity_components_reconciled": true
+    }
+  },
+  "new_financial_files_hash_checked": 12
+}
