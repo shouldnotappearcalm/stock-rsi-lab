@@ -1,0 +1,54 @@
+{
+  "status": "OFFICIAL_CAS19_CURRENCY_BASIS_RESEARCH_ONLY_NOT_A_PARSER_CHANGE",
+  "official_source_records": [
+    {
+      "source_id": "cas19",
+      "url": "https://kjs.mof.gov.cn/zt/kjzzss/kuaijizhunzeshishi/200806/t20080618_46229.htm",
+      "body_sha256": "a31fbfe26c8783fe1657b5730db90cf693bdb7d0dadd5e6858e2a998cfe46bfe",
+      "response_sha256": "70c4a04a6d9bdc729775b561815f6b2de09fa300d9034cdf2a2d2081a2998627",
+      "text_sha256": "75371ec30fbccc52cab3c2966815b033498850434772642974b49ad36534a74a",
+      "captured_at_utc": "2026-10-21T21:45:20.930380+00:00",
+      "normative_phrase_verified_in_archived_text": true,
+      "article": "CAS19 Article4",
+      "publisher_displayed_date": "2006-03-09",
+      "date_qualification": "Publisher footer date2006March9; not inferred from URL path20080618."
+    },
+    {
+      "source_id": "mof2023reply",
+      "url": "https://www.mof.gov.cn/bd/mhwzzxly/hjs/202308/t20230804_3900253.htm",
+      "body_sha256": "583875b7d0a227824d45d42575db8bb49db14526b18be200591351359172b440",
+      "response_sha256": "f5f282a8a06e369ec23224e66aa1b9663829cb9081990f34aa16a89fa0ec701c",
+      "text_sha256": "9efab0d8292a50db5285ce6725809e4c8f0afb60eb7a6d16a61db0402b8211d9",
+      "captured_at_utc": "2026-10-21T21:45:21.203006+00:00",
+      "normative_phrase_verified_in_archived_text": true,
+      "article": "MOF reply citing CAS19 Article4",
+      "publisher_displayed_date": null,
+      "date_qualification": "Page displays question time2023August4; reply-time field is blank. Exact reply publication time is unverified."
+    }
+  ],
+  "local_archive_relative_source_root": "gross-profitability-cas-currency-primary-20261022",
+  "initial_currency_failure_report_count": 100,
+  "reports_with_lexical_candidate_CAS_compliance_statement": 85,
+  "census_sha256": "8f4660f718ff9b3458f207314c5d0a9f01bcc00069010c600fa00acc420d3499",
+  "candidate_CAS_quote_is_not_validated_report_compliance_or_currency_admission": true,
+  "proposed_future_evidence_scope": "INFERRED_FROM_EXPLICIT_CAS_COMPLIANCE_AND_CAS19_ART4",
+  "inference_is_not_literal_report_currency_quote": true,
+  "required_future_checks": [
+    "Same original report explicitly states its financial statements comply with Chinese enterprise accounting standards.",
+    "Local consolidated table units are explicit and period/issuer/primary-statement scope is verified.",
+    "No conflicting primary reporting currency, IFRS-only basis or ambiguous parallel statement set.",
+    "Keep exact report compliance quote/page plus archived official normative text references.",
+    "Preserve allV1-V5 sources and outcomes; freeze any new compound-evidence parser and negative controls before whole-cohort financial rerun."
+  ],
+  "forbidden_shortcuts": [
+    "Do not infer CNY solely from a stock code, mainland registration or functional-currency declaration.",
+    "Do not relabel contextual regulatory inference as an explicit CNY quotation.",
+    "Do not use future policy text or2026 returns to choose rules."
+  ],
+  "currency_rule_changed": false,
+  "financial_numeric_values_reparsed": false,
+  "investment_factor_admitted": false,
+  "portfolio_returns_computed": false,
+  "2026_financial_or_market_values_used_for_strategy": false,
+  "objective_achieved": false
+}

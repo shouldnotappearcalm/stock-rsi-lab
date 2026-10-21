@@ -6479,5 +6479,67 @@
     "freeze_CI_run": 39678341670,
     "freeze_CI_status": "success",
     "next_action": "Retain all408 results, including remaining100 currency-scope failures and27 explicit fiscal-header failures. Continue original financial-report currency/statement/header evidence and laterFY2023/FY2024/correction source coverage for the full dated394 source range, with historical nonfinancial identities. Do not select the165 parsed issuers as a new universe. Then freeze GP policy/controls and2024/2025 continuous-account development before unchanged2026 diagnostics; no2026method feedback. All three economic return objectives remain unproven."
+  },
+  "latest_profitability_historical394_later828_annual_source_capture": {
+    "status": "LATER_ANNUAL_CANDIDATE_PDF_BYTES_CAPTURED_CONTENT_REVIEW_PENDING",
+    "freeze_commit": "5e5a23cea61d560181cb54dcf4ee8b863bb729ab",
+    "request_sha256": "a4771483875d5b322ebdc3db17cb7bdeec2b52328e95e38e23d387db77992f52",
+    "source_range_issuers": 394,
+    "candidate_documents_recorded": 828,
+    "fresh_single_GET_attempts": 804,
+    "fresh_PDF_magic_bodies": 804,
+    "cached_originals_reused": 24,
+    "source_rejections": 0,
+    "fresh_PDF_bytes": 4242152853,
+    "input_count_including_request": 2711,
+    "all_inputs_unchanged": true,
+    "immutable_output_files": 4050,
+    "candidate_literal_fiscal_year_counts": {
+      "2023": 411,
+      "2024": 406,
+      "2021": 2,
+      "2022": 4,
+      "None": 1,
+      "2017": 1,
+      "2018": 1,
+      "2019": 1,
+      "2020": 1
+    },
+    "combined_initial_and_later_unique_announcement_IDs": 1236,
+    "raw_metadata_explicitFY2024_gaps_preserved": [
+      "SH601106",
+      "SH603737",
+      "SZ002505"
+    ],
+    "yearless_candidate_cover_verified_in_separate_review": {
+      "capture_key": "SH601106-UNKNOWN-1223415420",
+      "cover_fiscal_year": 2024,
+      "cover_issuer_code": "601106",
+      "raw_capture_fiscal_year_remains_null": true
+    },
+    "remainingFY2024_full_original_candidate_gaps_after_cover_evidence": [
+      "SH603737",
+      "SZ002505"
+    ],
+    "result_file": "experiments/qlib/profitability-historical394-later-pdf-results.json",
+    "separate_byte_audit_file": "experiments/qlib/profitability-historical394-later-pdf-byte-audit.json",
+    "yearless_cover_review_file": "experiments/qlib/profitability-later-yearless-cover-review.json",
+    "CAS19_currency_basis_research_file": "experiments/qlib/profitability-cas19-currency-evidence-research.json",
+    "CAS19_research_has_not_changed_any_currency_parser_or_admitted_financial_values": true,
+    "PDF_text_or_financial_numeric_values_decoded_during_byte_capture": false,
+    "whole_corpus_issuer_fiscal_and_accounting_content_verified": false,
+    "financial_version_history_complete": false,
+    "historical_arrival_verified": false,
+    "economic_sector_compatibility_verified": false,
+    "investment_factor_admitted": false,
+    "portfolio_returns_computed": false,
+    "2026_financial_or_market_values_used_for_strategy": false,
+    "original_frozen_methods_sources_and_failed_accounts_changed": false,
+    "objective_achieved": false,
+    "local_full_unittest_count": 1042,
+    "local_full_unittest_result": "OK",
+    "freeze_CI_run": 39680399072,
+    "freeze_CI_all3_jobs": "success",
+    "next_action": "Register complete original-content/financial-field inspection across initial+later1236 announcement IDs with all versions/gaps and cover-derived2024 identity as a separate source sidecar. Source-backed CAS compliance plus archived CAS19Article4 may support explicitly labelled regulatory currency inference under a separately frozen parser and negative controls, never a literal-CNY relabelling. Keep oldV1-V5 immutable. Resolve remaining original/header/identity/nonfinancial/accounting/version gaps, then freeze GP policy and equal-budget2024/2025 continuous-account development before unchanged2026 diagnostics. No2026method feedback; all three economic return objectives remain unproven."
   }
 }

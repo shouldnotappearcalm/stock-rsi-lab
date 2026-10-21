@@ -1,0 +1,51 @@
+{
+  "status": "YEARLESS_CANDIDATE_FISCAL2024_AND_ISSUER_CONFIRMED_FROM_ORIGINAL_COVER_ONLY",
+  "capture_key": "SH601106-UNKNOWN-1223415420",
+  "instrument": "SH601106",
+  "original_title": "年报全文",
+  "original_capture_fiscal_year": null,
+  "fiscal_year_from_original_cover": 2024,
+  "cover_year_not_inferred_from_publication_date": true,
+  "physical_page": 1,
+  "source_physical_page_count": 257,
+  "source_path_relative_source_root": "gross-profitability-historical394-later-annual-pdfs-20261022/http/d2a502fd0e2f54db216a3b5fa42475dfd77fbb74c16dcecd8d699fec35f56d82/body.bin",
+  "source_sha256": "d8052004f512106087e08e914bbd502689718f913e274e0327bc6226a8de61c8",
+  "source_capture_request_sha256": "a4771483875d5b322ebdc3db17cb7bdeec2b52328e95e38e23d387db77992f52",
+  "cover_review_request_sha256": "cf4761c2fc923aaa51e02d951cc09f5ec00afbcb4dd3e39e8de6849d865c0bb1",
+  "render_path_relative_source_root": "gross-profitability-later-yearless-cover-review-20261022/cover.png",
+  "render_png_sha256": "e46647c5e69d6c0bf2e047836642be921fc47bbb6226eef815aae818d5adac7e",
+  "extracted_cover_text_sha256": "6d2dea146e6def29e82fdb5a595b2f958778809bf841821d9a1a7cee567848dd",
+  "pypdf_version": "6.10.0",
+  "identity_method_source_sha256": "3fb5f629bf21ef653d564dad59879583a5be76fef8403a2281a367811d5ca74f",
+  "identity_evidence": {
+    "code_consistent": true,
+    "annual_year_consistent": true,
+    "literal_code_evidence": [
+      {
+        "code": "601106",
+        "physical_page": 1,
+        "literal": "公司代码：601106"
+      }
+    ],
+    "code_selection_scope": "FIRST5_COVER",
+    "other_literal_codes_retained_for_context": [
+      {
+        "code": "601106",
+        "physical_page": 1,
+        "literal": "公司代码：601106"
+      }
+    ],
+    "code_window_physical_pages": 20,
+    "annual_title_window_physical_pages": 5
+  },
+  "manually_viewed_original_cover_render": true,
+  "issuer_name_on_cover": "中国第一重型机械股份有限公司",
+  "cover_title_literal": "2024年年度报告",
+  "original_capture_records_and_frozen_inventory_changed": false,
+  "financial_numeric_fields_extracted": false,
+  "consolidated_accounting_and_units_verified": false,
+  "historical_arrival_verified": false,
+  "investment_factor_admitted": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
