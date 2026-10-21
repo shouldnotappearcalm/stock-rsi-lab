@@ -1,0 +1,53 @@
+{
+  "status": "NEW_FIXED_REPLAY_ORDINARY_GUARD_CODE_REVIEW_PASS_NOT_ACTIVATED",
+  "files_sha256": {
+    "scripts/replay_stock_distribution_targets.py": "53071ca9cb108f5f95c9794ab87aae2ab389858ec3f50094b75afb9a6e72d0b4",
+    "scripts/replay_ordinary_stock_distribution_targets.py": "f9dc63180067a2acd7038ccba7ab9c6183911e27bc2baa93361cfe90ae11ef73",
+    "src/stock_rsi/ordinary_source_scope.py": "7e27c6b36bade230cc429d7fafd43d882fc9c134a8f6b4f31ef94e539232b888",
+    "tests/test_ordinary_source_scope.py": "fc9654358c709c9bdb2409940be206cbe27dcb1323ae1d360a19fecf424c975f"
+  },
+  "original_simulate_fixed_targets_function_AST_identical": true,
+  "only_replay_changes": [
+    "module docstring first line",
+    "source_rows_on import now aliases ordinary_source_rows_on"
+  ],
+  "original_plan_integer_targets_allocator_preserved": true,
+  "earlier_uncommitted_budgeted_copy_deleted": true,
+  "allocator_mismatch_found_and_corrected_before_activation": true,
+  "required_dependency_coverage": {
+    "physical_owned_positions": "owned_quantities includes current broker lots",
+    "pending_unlisted_capital_and_stock": "owned_quantities includes all uncredited stock_claims",
+    "pending_parent_or_daily_orders": "broker.orders with status PENDING",
+    "new_ex_date_shares_after_prior_sale": "positive account.entitlements for event.ex_date==current day explicitly included",
+    "next_month_decision_price": "next explicit session target weights included on prior formation day",
+    "same_day_buys": "covered by pre-existing pending order before start_day",
+    "cash_receivable_only": "not a source price dependency; original cash claim/payment accounting remains intact"
+  },
+  "guard_runs_before_start_day_and_market_execution": true,
+  "required_ST_failure_has_no_auto_sale_price_substitution_or_free_exit": true,
+  "unused_ST_source_rows_preserved_in_original_and_evaluator_audit_only": true,
+  "unused_ST_removed_from_marks_and_not_in_snapshot_source_records": true,
+  "unknown_isST_or_unexplained_missing_row_still_rejected": true,
+  "tests": {
+    "repository_tests_passed": 5,
+    "all_ordinary_synthetic_full_result_equals_original": true,
+    "additional_pending_stock_and_positive_ex_entitlement_probes_fail_before_start_day": {
+      "pending_stock": true,
+      "positive_ex_entitlement": true
+    }
+  },
+  "critical_findings": [],
+  "important_findings": [],
+  "scope_limits": [
+    "This validates the separate guard and fixed replay source change; it does not itself admit2490 minute packets or authorize an account run.",
+    "The12original ST source rejections and source bytes must remain; a later separately frozen admission/runner must bind its exact ordinary subset and all required account dependencies.",
+    "If any actual held/pending/next-target/ex-entitlement dependency is ST, execution must stop rather than remove the security or alter its target.",
+    "No real candidate path, results or2026data were read or executed in this review.",
+    "The prior budgeted draft was not equivalent to price-delay original allocator; it was removed before activation. This report applies only to the new fixed implementation."
+  ],
+  "real_account_run": false,
+  "portfolio_ROI_computed": false,
+  "network_queries": 0,
+  "repository_modified_by_reviewer": false,
+  "2026_market_values_read": false
+}
