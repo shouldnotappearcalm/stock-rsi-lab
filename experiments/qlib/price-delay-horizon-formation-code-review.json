@@ -1,0 +1,45 @@
+{
+  "status": "BOUNDED_CODE_REVIEW_PASS_FREEZE_REQUEST_NOT_YET_REVIEWED",
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "reviewed_file_sha256": {
+    "src/stock_rsi/price_delay_horizon.py": "e8187e751204c909f36eacb81f22a6a83485a370dd871162005b5b3c9b45fb63",
+    "scripts/prepare_price_delay_horizon_formations.py": "697291d29719f6d8fc8c4018229fec821f238109deb8e60aa642e50dd6f9f06d",
+    "tests/test_price_delay_horizon.py": "b2e64de225ae1978901a476a9800cb801a97e79e8969696a6f9bb3b21fe8f3eb",
+    "tests/test_price_delay_horizon_formations.py": "f161cc9da7d58e1bb29f05c569fca4ee74615e1f53654ebb23079765f8f98c12",
+    "docs/research/price-delay-horizon-formation-plan-2026-10-21.md": "e14edaa3c803f92d8f62cf097b9456cd39a6966bb50475bb1d34236011c88d24"
+  },
+  "checks": {
+    "four_synthetic_tests_pass": true,
+    "build_targets_ast_identical_except_registered_default_and_guard": true,
+    "original_module_and_helpers_reused": true,
+    "strict_profile_and_exact_binding_sets_and_output": true,
+    "all_48_immutable_financials_current_hashes_match": true,
+    "nested_original_intraday_bindings_match": {
+      "methods": 34,
+      "public": 7,
+      "local": 5
+    },
+    "original_source_input_hashes_match": true,
+    "full_source_code_count": 526,
+    "full_price_input_digest": "1d4c466105a98ba27261db43628a86edaf14fb3072db6ffcbd50ef556975001a",
+    "physical_pre2026_feature_prefixes_byte_equal": 4010,
+    "source_calendar_end_metadata": "2026-10-13",
+    "preflight_path_returns_before_QlibSnapshot_creation": true,
+    "source_digest_hashes_bytes_without_float_decode": true,
+    "pre2026_targets_and_full_receipts_equality_required": true,
+    "34_receipts_and_measurement_caps_required": true,
+    "six_ledger_audit_and_root_reproduction_gate_schema_matches_current_evidence": true,
+    "controls_nonselectable_and_no_portfolio_account_called": true
+  },
+  "boundaries": [
+    "No actual 2026 float decoded, no new formations generated, no portfolio returns computed, no network, no repository/source edits.",
+    "Final frozen request does not yet exist and its exact maps/hash and CLI preflight have not been reviewed. Freeze and push exact method/input bindings before actual formation execution.",
+    "Actual 34 formations and original 24 receipt equality are runtime assertions, not completed evidence in this code review.",
+    "QlibSnapshot decodes full feature arrays during real generation; logical as-of caps apply, but no physical/OS future isolation is claimed.",
+    "October formation uses prior September close and earlier measurement cap; calendar ending Oct13 supports that formation but not complete October outcomes."
+  ],
+  "ready_to_generate_frozen_formation_request": true,
+  "actual_2026_run_authorized_by_this_report": false
+}
