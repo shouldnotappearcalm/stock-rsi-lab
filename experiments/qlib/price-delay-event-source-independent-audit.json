@@ -1,0 +1,75 @@
+{
+  "status": "INDEPENDENT_378_EVENT_ECONOMICS_IDENTITIES_AND_SOURCE_RECEIPTS_RECONSTRUCTED",
+  "audit_code_sha256": "86007998f709c340671a86a2dda866ef608b3fbfffcde085b5d1a07487a49a25",
+  "plan_sha256": "059a8265a9c4a260d3bceed41cea8be4a218ab8ddbc73ae943e383757f567901",
+  "summary_sha256": "e3b7f480e44e8cd83d9147efdda705c172bdf9bf4d82617a0b79324da1a51b0c",
+  "reviewed_manifest_sha256": "a7cd5b97694232e3503990e3db60a805c0e6e82f8ec894f02283b7d9b3582fb9",
+  "raw_manifest_sha256": "b179d4e987ad2ee93d0b152d817486c29737c6d605abdad1a15c3fd4713d6b67",
+  "source_names": 151,
+  "source_sessions": 486,
+  "monthly_targets": 24,
+  "events_reconstructed": 378,
+  "source_kind_counts": {
+    "VENDOR_DISTRIBUTION": 375,
+    "PRIMARY_NOTICE_SUPPLEMENT": 3,
+    "PRIMARY_CASH_PRECISION_CORRECTION": 0
+  },
+  "all151_source_packets_authenticated": true,
+  "all15_primary_PDF_bytes_and_two_content_reviews_authenticated": true,
+  "all378_economics_dates_event_IDs_and_receipts_identical": true,
+  "all_frozen_inputs_unchanged_after_audit": true,
+  "primary_cash_supplements": {
+    "SH600167|2024-12-27": "0.12",
+    "SH600482|2024-11-22": "0.03138",
+    "SZ002508|2024-01-10": "0.5"
+  },
+  "cash_precision_proofs_bound": 0,
+  "direct_capital_tax_proofs_bound": [
+    "SH601128|2024-05-29",
+    "SH601128|2025-06-05",
+    "SH603737|2025-05-30"
+  ],
+  "conditional_capital_tax_inference_bound": "SZ002155|2025-06-13",
+  "unverified_capital_tax_zero_record_ownership_required": [
+    "SH603596|2024-05-20"
+  ],
+  "actual_zero_record_ownership_verified": false,
+  "seven_later_factor_labels_remain_unexplained": true,
+  "additional_entitlements_from_factor_labels": 0,
+  "negative_controls_rejected": {
+    "changed_original_vendor_economics_not_hash_gate": true,
+    "duplicate_supplement_same_issuer_ex_date": true,
+    "price_reference_instead_of_eligible_cash": true,
+    "altered_PDF_binding_in_memory": true,
+    "unknown_capital_exemption_injected": true,
+    "unknown_receipt_guard_and_event_flag_upgraded": true,
+    "second_entitlement_from_factor_label": true,
+    "erased_original_source_row_receipt": true,
+    "wrong_supplement_record_date": true,
+    "conditional_tax_inference_upgraded": true
+  },
+  "semantic_negative_controls_use_only_hash_gate": false,
+  "imports_project_code": false,
+  "production_compile_function_called": false,
+  "account_instantiated_or_replayed": false,
+  "source_inputs_modified": false,
+  "repository_modified": false,
+  "network_calls": 0,
+  "new_2026_values_read": false,
+  "strict_statutory_capital_tax_certification": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "historical_arrival_certified": false,
+  "true_point_in_time_certified": false,
+  "full_corporate_actions_certified": false,
+  "raw_account_replay_admitted": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false,
+  "critical_or_important_findings": 0,
+  "limitations": [
+    "Reconstructs source projection, not all 375 vendor events from independent primary notices.",
+    "Four inherited event flags retain three direct issuer statements and one conditional inference; no statutory or final investor tax certification.",
+    "SH603596 zero record inventory remains an obligation for a separately frozen actual-share replay, not established by this source audit.",
+    "Seven late vendor factor labels do not authenticate factor methodology or support second income.",
+    "No queue, actual payment arrival, registry fractional allocation, historical PIT arrival, FIFO tax, account or ROI validation."
+  ]
+}
