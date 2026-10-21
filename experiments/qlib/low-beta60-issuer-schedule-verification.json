@@ -1,0 +1,17 @@
+{
+  "status": "VALIDATED_AND_INDEPENDENTLY_REVIEWED_BEFORE_ACTUAL_CONDITIONAL_REPLAY",
+  "plan_sha256": "932323b74b138d136eb78d9be3585390f2fce8b1683d62eff42f590b66d34675",
+  "code_review_sha256": "bcc82f5b671f3ebdd11306bfbd2628e0a9f50d0b897c0941033c8923f3f9e07c",
+  "full_tests_passed": 479,
+  "targeted_tests_passed": 8,
+  "logs_sha256": {
+    "stock-rsi-issuer-schedule-red-20261021.log": "06bf2c800eab7e772ef08d38b5bb4c2dba753b2d3dbdcfd6515ab1e766bec003",
+    "stock-rsi-issuer-runner-red-20261021.log": "906a4ef975ebfdc3fb849e46c5fb7c5172cfff92a946f6da9fb259780ecf15e8",
+    "stock-rsi-issuer-score-gate-red-20261021.log": "2e989264e2aba4075534c9e205efd0eb90ddcaaf940c24e26c9a1e2dfaa41f28",
+    "stock-rsi-issuer-all-green-20261021.log": "a33478a5dc2d4fd917bd8e6ebad0049e372f96a85dc7d6ff2c00a33972a168bf",
+    "stock-rsi-issuer-full-20261021.log": "b8f74a773d5727096eea86c6cb2073a1247899648643af70a291d9794ad16575"
+  },
+  "actual_account_replays": 0,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

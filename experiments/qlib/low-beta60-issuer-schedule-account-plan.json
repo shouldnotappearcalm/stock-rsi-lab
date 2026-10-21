@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_SIX_CONDITIONAL_ISSUER_SCHEDULE_ACCOUNTS_NO_ROI",
+  "output_directory": "low-beta60-issuer-schedule-account-20261021",
+  "window": [
+    "2023-12-29",
+    "2026-10-20"
+  ],
+  "initial_CNY": "1000000",
+  "participation_bps": [
+    100,
+    500,
+    1000
+  ],
+  "extra_cost_bps": [
+    20,
+    40
+  ],
+  "source_queries_allowed": false,
+  "investment_rule_changes_allowed": false,
+  "aggregate_ROI_in_replay_allowed": false,
+  "extra_method_sha256": {
+    "scripts/run_low_beta60_issuer_schedule_scenario.py": "89c7ef5a76d1bb9ebad7843213ac6206ecbe254614f24270f7ba9a22b31c8a90",
+    "src/stock_rsi/issuer_schedule_account.py": "33590b44b0fde617ae45748488f6a733ad299638214284efd3d199def1378e8f",
+    "scripts/score_low_beta60_issuer_schedule_scenario.py": "881da2912301b60621d29cffe17d4455b8684f7bfd3313131bb4cf34821375a9"
+  },
+  "extra_public_sha256": {
+    "experiments/qlib/low-beta60-horizon-account-plan.json": "26c820a9b29192e726e97c568118ed38e70c719d77f0d030ffbc9332d89e15cd",
+    "experiments/qlib/low-beta60-issuer-schedule-scenario.json": "4c08287172d9343bba6c1b5dbf2af528331e228f5e99e7d363ad9029c08ab6b9",
+    "docs/research/low-beta60-issuer-schedule-scenario-2026-10-21.md": "8ef66c6787218dfbf90885f6b18c388e919c89c6422c5b6a1318b00df87d78f9",
+    "experiments/qlib/low-beta60-issuer-schedule-proposal-review.json": "89cad1d49b3a404b091f369ffc7772809a44b1d9ba98d762b14e68ea22a9309a"
+  },
+  "extra_local_sha256": {
+    "low-beta60-intraday-horizon-20261021/summary.json": "e199f2e0863a55fd48df0aa397eebfdc291599b00714aecc7b9543b3e94f22f4",
+    "low-beta60-intraday-horizon-20261021/case_results.json": "817b410cc8f065d86fd292fe98d1425304ee1af25ac1a1226b74a259210c7c2e"
+  }
+}

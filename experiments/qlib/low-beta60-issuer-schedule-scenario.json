@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_EVENT_SPECIFIC_ISSUER_SCHEDULE_ENGINEERING_SCENARIO",
+  "classification": "ISSUER_FORMAL_TAX_SCHEDULE_COMPOSITE_INFERENCE",
+  "investor_scope": "ORDINARY_UNRESTRICTED_INDIVIDUAL",
+  "statutory_exemption_verified": false,
+  "strict_source_events_changed": false,
+  "event": {
+    "event_id": "9209326edbab25fc20575c17d79d5059ac14cdabb28e3a196617944c3cbff3d7",
+    "instrument": "SZ000937",
+    "announced": "2026-06-11",
+    "recorded": "2026-06-16",
+    "ex_date": "2026-06-17",
+    "pay_date": "2026-06-17",
+    "listed": "2026-06-17",
+    "cash_per_share": "0.1",
+    "capital_per_share": "0.100000",
+    "capital_tax_exempt_verified": false,
+    "stock_per_share": "0.000000",
+    "stock_taxable_income_per_share": "0",
+    "stock_tax_basis_verified": false
+  },
+  "tax_model": "FLAT20PERCENT_CASH_AND_VERIFIED_STOCK_INCOME_NO_ADDITIONAL_CAPITAL_RESERVE",
+  "source_sha256": {
+    "low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260611.pdf": "0d8170da564f8b9b428e00def3f5a53b94aaefd2f87c8e56cdc65959911a9c29",
+    "low-beta60-corporate-reviewed-horizon-20261021/SZ000937-20260827.pdf": "e995de8ab082fcf3a679ae32d7c751bdd47a286877e5b3b21f0320beccc52073",
+    "low-beta60-capital-tax-regulations-20261021/sat-1997-198.html": "9eab1f2460833fc4ffcbb1fddda223bad3335efd63938d36bea2ca5e640d6633",
+    "low-beta60-capital-tax-regulations-20261021/sat-1998-289.html": "e53ff0c1bc1aad4a96c85cb5ea000d9ec64d9c833591ccd02affa0898ad5bb42"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/low-beta60-capital-tax-evidence-proposal.json": "ad814ba8a7f54a08b6b293c47dc845ed843cd6fbc9028ff6ed324155bf748dbd",
+    "experiments/qlib/low-beta60-capital-tax-evidence-adequacy-review.json": "17752a53c768e1e4210c4cece963e6799ebd25930f15c1607a24193d10a1b783",
+    "experiments/qlib/low-beta60-capital-tax-regulation-capture-manifest.json": "a13cad377aab1f33d76c046fea2dd6433f115bc223fd9068dd6e06629290ef46"
+  },
+  "unresolved_premise": "Particular reserve debit traced to qualifying stock-issuance premium; current inference is not statutory proof.",
+  "retrospective_evidence_evaluator_only": true
+}

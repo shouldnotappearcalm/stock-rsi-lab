@@ -1,0 +1,104 @@
+{
+  "status": "INDEPENDENT_ISSUER_SCHEDULE_CODE_REVIEW_APPROVED_NO_OPEN_CRITICAL_OR_IMPORTANT_FINDINGS",
+  "base_commit": "5ded1f8e16fce5cf49a09cd8a7fbb41ae669cdf1",
+  "plan_sha256": "932323b74b138d136eb78d9be3585390f2fce8b1683d62eff42f590b66d34675",
+  "extra_method_sha256": {
+    "scripts/run_low_beta60_issuer_schedule_scenario.py": "89c7ef5a76d1bb9ebad7843213ac6206ecbe254614f24270f7ba9a22b31c8a90",
+    "src/stock_rsi/issuer_schedule_account.py": "33590b44b0fde617ae45748488f6a733ad299638214284efd3d199def1378e8f",
+    "scripts/score_low_beta60_issuer_schedule_scenario.py": "881da2912301b60621d29cffe17d4455b8684f7bfd3313131bb4cf34821375a9"
+  },
+  "registry_sha256": "4c08287172d9343bba6c1b5dbf2af528331e228f5e99e7d363ad9029c08ab6b9",
+  "proposal_review_sha256": "89cad1d49b3a404b091f369ffc7772809a44b1d9ba98d762b14e68ea22a9309a",
+  "protocol_sha256": "8ef66c6787218dfbf90885f6b18c388e919c89c6422c5b6a1318b00df87d78f9",
+  "critical_findings": [],
+  "important_findings": [],
+  "minor_findings": [],
+  "resolved_important_findings": [
+    {
+      "file": "scripts/score_low_beta60_issuer_schedule_scenario.py",
+      "issue": "Initial scorer calculated one profile return before remaining profiles hashes had validated, and did not require the complete eight-artifact scope.",
+      "independent_reproduction": "A synthetic later-profile daily.csv tamper reached a sentinel replacing fixed_interval_returns on the first profile; no numeric returns were calculated in the reproduction.",
+      "resolution": "Final scorer uses a complete validation pass over all six profiles, requires exact eight-artifact hashes, complete676 unique sorted dates including both year ends, and finite positive NAV/finite exposure. A distinct second pass calls the original unrounded return scorer only after validation completes.",
+      "verification": "Fresh targeted regression passed with zero return-scorer calls for late-profile tampering. Final source inspected independently."
+    }
+  ],
+  "strengths": [
+    "Single unchanged source event is bound by full semantic hash, event ID and original false capital_tax_exempt_verified flag; no general unknown-tax relaxation is introduced.",
+    "Four retained source bodies and three public evidence records authenticate the scoped ordinary-individual interpretation; classification remains explicit inference and statutory_exemption_verified remains false.",
+    "Original start-day timing,20percent cash/verified-stock-income reserve, claim listing, atomic prerequisite checks and clocks are preserved. Scenario provenance is recorded in a separate evaluator-only ledger.",
+    "Original source-loader and frozen horizon plan authenticate all676sessions/269events/34targets/2086tapes and six original reference profiles. Prior six failed outputs and new evidence/method bindings are checked before new output construction.",
+    "Runner preserves all six fixed capital/participation/cost profiles, checks all seven pre2026 financial prefixes before writing, writes eight distinct conditional artifacts, and contains no aggregate return calculation.",
+    "Separate scoring is gated by externally supplied audit checksum, summary/plan identity, four required reconstruction flags, all six profiles, no findings, exact complete financial artifacts and two-phase validation.",
+    "Retrospective evidence stays in account evaluator/provenance fields; the unchanged decision snapshot builder reads wealth and raw market/target records rather than schedule evidence or scenario ledger."
+  ],
+  "fresh_validation": {
+    "targeted_unittests_passed": 8,
+    "targeted_exit_code": 0,
+    "synthetic_complete_runner": {
+      "profiles": 6,
+      "sessions": 676,
+      "return_rows": 675,
+      "intents_per_profile": 34,
+      "prior_financial_prefixes_compared": 42,
+      "scenario_uses_per_profile": 1,
+      "source_flag_unchanged": true,
+      "all_eight_output_hashes_rechecked": true,
+      "aggregate_ROI_computed": false,
+      "passed": true
+    },
+    "synthetic_source_failure_runner": {
+      "profiles": 6,
+      "typed_source_IO_failure_retained": true,
+      "positions_cash_fills_entitlements_and_scenario_ledger_retained": true,
+      "aggregate_ROI_computed": false,
+      "passed": true
+    },
+    "read_only_preflight": {
+      "sessions": 676,
+      "events": 269,
+      "targets": 34,
+      "source_tapes_authenticated": 2086,
+      "tape_accessed": 0,
+      "reference_profiles": 6,
+      "strict_event_flag": false,
+      "actual_scenario_output_exists": false
+    },
+    "original_method_bindings_all_unchanged": true,
+    "original269_event_file_sha256": "c1ed330538ffcb7b2d0a774acb3b3e7f46f7be2c2a4a9c0fd74550e9e411aa4e",
+    "original_six_failures_authenticated": true,
+    "full_suite_log_inspected": {
+      "path": "/tmp/stock-rsi-issuer-full-20261021.log",
+      "tests_passed": 479,
+      "seconds": 10.875,
+      "exit_text": "OK",
+      "reviewer_independently_reran_full_suite": false
+    },
+    "synthetic_review_script": "/tmp/lowbeta-issuer-synthetic-review-20261021.py",
+    "synthetic_review_script_sha256": "43a2175f9fe929b7402280fa52e1b52f169671bca943d4fab7ab7eb33158e168",
+    "binding_counts": {
+      "original_method": 34,
+      "original_local": 21,
+      "original_public": 9,
+      "extra_method": 3,
+      "extra_public": 4,
+      "extra_local": 2,
+      "registry_source": 4,
+      "registry_public": 3
+    }
+  },
+  "ready_for_replay": true,
+  "assessment": "The final frozen code is ready for the separately labelled six-profile conditional engineering replay after the required freeze/push. The identified scoring gate defect was corrected and independently verified. Actual replay conservation, exact single conditional use, unchanged269events and all42 original financial prefixes still require independent output review before any actual aggregate scoring.",
+  "declined_to_judge": [
+    "Actual conditional account results, conservation and2026 returns: explicitly outside this pre-replay code review; no actual replay or scoring performed.",
+    "Statutory qualifying stock-issuance-premium origin and actual FIFO liability: evidence adequacy proposal explicitly preserves these unresolved premises; this code review does not admit legal exemption.",
+    "Historical RED-before-code sequence and independent full-suite rerun: current targeted tests were run freshly; full479 success was checked in the coordinator log.",
+    "Full October, historical arrival, queue/impact calibration, sealed evaluation and objective achievement: explicitly excluded by the protocol."
+  ],
+  "repository_edits_performed": false,
+  "source_files_edited": false,
+  "network_queries": 0,
+  "actual_account_replay_performed": false,
+  "actual_aggregate_ROI_computed": false,
+  "statutory_exemption_verified": false,
+  "objective_achieved": false
+}
