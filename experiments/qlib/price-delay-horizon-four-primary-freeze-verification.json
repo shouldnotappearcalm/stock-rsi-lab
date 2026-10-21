@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_FOUR_PRIMARY_CAPTURES_READY_NO_NETWORK_YET",
+  "request_sha256": "70914dee967b00ced4b9e6216d32f56b34d7a8e117c308534e1e85fcfc167818",
+  "code_review_sha256": "b391a35d59ccce5bd9d0edc0496e8394a9bbde9c1d12f1a645928cc29c32a7d8",
+  "root_preflight_exit_code": 0,
+  "reviewer_preflight_exit_code": 0,
+  "critical_findings": 0,
+  "important_findings": 0,
+  "full_suite_tests": 601,
+  "full_suite_exit_code": 0,
+  "full_suite_log_sha256": "327f76a1cdd57144a2584d8a3ee6ad90f5fc88cf089288db42feb91c4c7b5041",
+  "source_capture_executed": false,
+  "source_admitted_for_account_replay": false,
+  "portfolio_return_computed": false,
+  "investment_rules_changed": false,
+  "objective_achieved": false
+}

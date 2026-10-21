@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_PRICE_DELAY_FOUR_REMAINING_PRIMARY_SOURCE_QUESTIONS",
+  "maximum_http_queries": 4,
+  "max_attempts_per_identity": 1,
+  "minimum_interval_seconds": 0.3,
+  "output_directory": "price-delay-horizon-remaining-primary-20261021",
+  "documents": [
+    {
+      "document_id": "SH603605-20261012",
+      "instrument": "SH603605",
+      "publication_day": "2026-10-12",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600426.PDF"
+    },
+    {
+      "document_id": "SH603596-20260430",
+      "instrument": "SH603596",
+      "publication_day": "2026-04-30",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225259935.PDF"
+    },
+    {
+      "document_id": "SH603606-20260519",
+      "instrument": "SH603606",
+      "publication_day": "2026-05-19",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-19/1225313998.PDF"
+    },
+    {
+      "document_id": "SZ002831-20260529",
+      "instrument": "SZ002831",
+      "publication_day": "2026-05-29",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-29/1225335706.PDF"
+    }
+  ],
+  "investment_rules_changed": false,
+  "portfolio_returns_to_compute": false,
+  "method_code_sha256": {
+    "scripts/capture_low_beta60_corporate_2026.py": "f864a41b22b92bbc3335e67d202ac802b30a3a722a2e0e48435840296d6013ef",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "scripts/capture_price_delay_horizon_remaining_primary.py": "89c86a05d9569f43019d37c279a1f6093ce7852972af1856e4738d093083ee58"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/price-delay-horizon-local-reassembly-independent-audit.json": "a7bf3324200deb497ba93327fe41c2d4e6ae7fb5b39d7ed81916aaca91ded753",
+    "docs/research/price-delay-horizon-four-primary-plan-2026-10-21.md": "2e4765c5bd9d7b0643db41221d44c0a997a05a3b4a12a0ebaff517ca6ce87a49"
+  },
+  "local_source_sha256": {
+    "price-delay-raw-horizon-v2-20261021/manifest.json": "9fe3990c0b4b1c076b78c97971ceecf593687b2f15699154c3bdbbce666f6490",
+    "price-delay-horizon-corporate-inventory-20261021.json": "4ca1c82931ceca0129b01ea1660ca82d7b4ca6b075dd67ba06e96554ff88d9d5"
+  }
+}
