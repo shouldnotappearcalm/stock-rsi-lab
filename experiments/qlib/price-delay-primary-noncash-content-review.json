@@ -1,0 +1,585 @@
+{
+  "status": "FIVE_EXISTING_PRIMARY_NONCASH_PDFS_INDEPENDENTLY_READ_NOT_ADMISSION",
+  "request_sha256": "15d50d8a38fcbe88e2e2304c1680e74d01e132f714eb691f1657799c854568ec",
+  "raw_manifest_sha256": "b179d4e987ad2ee93d0b152d817486c29737c6d605abdad1a15c3fd4713d6b67",
+  "original_reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+  "pdf_review_skill": "/Users/calm/.codex/plugins/cache/openai-primary-runtime/pdf/26.1011.51657/skills/pdf/SKILL.md",
+  "pdfs_reviewed": 5,
+  "complete_pages_text_and_visual_reviewed": 19,
+  "cases": [
+    {
+      "case_id": "SH601128|2024-05-29",
+      "instrument": "SH601128",
+      "file": "SH601128-2024-05-22.pdf",
+      "original_pdf_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-reviewed-20261021/SH601128-2024-05-22.pdf",
+      "sha256": "a7433696703e9b8ce37f0bdde75b17f3946623272c697f746c17640b84fe5f5d",
+      "request_reuse_entry_and_original_reviewed_manifest_authenticated": true,
+      "original_reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "raw_packet_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH601128.json",
+      "raw_packet_sha256": "da99a9958bfddd73a5cc1d2de2797758864cbec7698e97de5152e2a0f1bf8613",
+      "raw_distribution_matches_frozen_request": true,
+      "total_pages": 4,
+      "complete_text_pages_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete_rendered_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "screenshots": [
+        {
+          "page": 1,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH601128-2024-05-29-page-1.png",
+          "sha256": "42634fd3320d025fcb5c685dd9100ecd223b617d86a1d42ce41e3b16bf9f1db1"
+        },
+        {
+          "page": 2,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH601128-2024-05-29-page-2.png",
+          "sha256": "ddb76e8f89dee4053df01c759b98f3bc4b3452769e667b90b22a15a40e854e60"
+        },
+        {
+          "page": 3,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH601128-2024-05-29-page-3.png",
+          "sha256": "018b778a47454ca1deac985df4b120fee41eb60eb910308d9bfbd3c7214e5fb6"
+        },
+        {
+          "page": 4,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH601128-2024-05-29-page-4.png",
+          "sha256": "d1a123ea8290abec9059e07a0d5dc0d374dcedc1e77475c3cfdfb63e9883c01d"
+        }
+      ],
+      "extracted_text_path": "/tmp/price-delay-noncash-pdf-review-20261021/SH601128-2024-05-29.txt",
+      "extracted_text_sha256": "553873ab07785e8e443e1ed7467b014f1eb0c465211bc9bb2c6c48f548f20636",
+      "source_publication_day_from_frozen_metadata": "2024-05-22",
+      "pdf_signed_day": "2024-05-21",
+      "primary_shareholder_meeting_day": "2024-04-29",
+      "vendor_dividAgmPumDate_preserved": "2024-04-30",
+      "date_metadata_note": "PDF signature/meeting dates are recorded separately from vendor publication-related fields; no source date rewritten.",
+      "record_date": "2024-05-28",
+      "ex_date": "2024-05-29",
+      "cash_payment_date": "2024-05-29",
+      "new_unrestricted_shares_listing_date": "2024-05-29",
+      "cash_per_original_entitled_share_CNY": "0.25",
+      "capital_per_original_entitled_share": "0.1",
+      "stock_dividend_per_original_entitled_share": "0",
+      "economic_fields_match_vendor_numerically": true,
+      "primary_reveals_extra_significant_cash_precision": false,
+      "cash_precision_override_needed": false,
+      "cash_is_actual_entitlement_not_merely_reference": true,
+      "cash_and_share_field_evidence_pages": [
+        1,
+        2
+      ],
+      "existing_capital_tax_record_for_comparison_only": {
+        "verified_exempt": true,
+        "source_file": "SH601128-2024-05-22.pdf",
+        "source_sha256": "a7433696703e9b8ce37f0bdde75b17f3946623272c697f746c17640b84fe5f5d",
+        "exemption_scope": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+        "pages_one_based": [
+          3
+        ],
+        "evidence": "Notice explicitly identifies share-premium capital source and states this transfer is not taxed."
+      },
+      "formal_reviewed_manifest_written": false,
+      "new_tax_admission_granted": false,
+      "strict_statutory_tax_certification": false,
+      "capital_source_evidence_level": "DIRECT_ISSUER_SHARE_PREMIUM_STATEMENT",
+      "tax_evidence_level": "DIRECT_ISSUER_EVENT_NO_TAX_STATEMENT",
+      "issuer_explicit_capital_transfer_no_tax_statement": true,
+      "capital_source_and_tax_pages": [
+        3
+      ],
+      "capital_source_evidence": "原文明确本次转增的资本公积来源为股本溢价发行所形成的资本公积，并明确本次转增股本不扣税。",
+      "cash_personal_tax_evidence": "普通流通自然人及相关基金现金红利暂不扣缴，卖出后按持有期计税：不超过1个月20%，超过1个月至1年10%，超过1年暂免。该现金税规定与转增不扣税表述分别列明。",
+      "cash_personal_tax_pages": [
+        3
+      ],
+      "capital_tax_conclusion": "原文足以保留此事件的直接来源与不扣税声明；不把本报告提升为独立法律认证或个人账户最终税额判断。",
+      "receipt_timing_evidence": "已办理指定交易者可于红利发放日在指定营业部领取；未指定交易者由中国结算暂保管，待指定后派发；转增按登记日持股比例计入。特定列名股东现金由公司自行发放。",
+      "receipt_timing_pages": [
+        2
+      ],
+      "differential_distribution": false,
+      "price_reference_cash_distinguished": "未出现与实际每股应付现金不同的差异化除权现金口径。",
+      "fractional_allocation_note": "公告载明总转增股份为整数及登记结算安排；不能据此模拟每个账户的零碎股分配。"
+    },
+    {
+      "case_id": "SH601128|2025-06-05",
+      "instrument": "SH601128",
+      "file": "SH601128-2025-05-28.pdf",
+      "original_pdf_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-reviewed-20261021/SH601128-2025-05-28.pdf",
+      "sha256": "feced976f31029e64a8d45887f8b0bf1ea17b77541cd35d6e890c24dd4c3500f",
+      "request_reuse_entry_and_original_reviewed_manifest_authenticated": true,
+      "original_reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "raw_packet_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH601128.json",
+      "raw_packet_sha256": "da99a9958bfddd73a5cc1d2de2797758864cbec7698e97de5152e2a0f1bf8613",
+      "raw_distribution_matches_frozen_request": true,
+      "total_pages": 4,
+      "complete_text_pages_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete_rendered_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "screenshots": [
+        {
+          "page": 1,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH601128-2025-06-05-page-1.png",
+          "sha256": "9b87a5589e44b4b10568e131ec5aeee5dab096b48d33c63328822d4b2a3f6ab8"
+        },
+        {
+          "page": 2,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH601128-2025-06-05-page-2.png",
+          "sha256": "1954435a83f1e8205dba7e36ac1249fd5079b33a4b36af3dd9ad157a0a9c0a62"
+        },
+        {
+          "page": 3,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH601128-2025-06-05-page-3.png",
+          "sha256": "acfe11bf2c1ae48172efc8684ed18bba5b430b76aebabcb904da06747e0f8735"
+        },
+        {
+          "page": 4,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH601128-2025-06-05-page-4.png",
+          "sha256": "88327cab8eed5ad90be6ce3ddb2d821a35d26b1ef914e300ea21990ca3ca4409"
+        }
+      ],
+      "extracted_text_path": "/tmp/price-delay-noncash-pdf-review-20261021/SH601128-2025-06-05.txt",
+      "extracted_text_sha256": "5612ef39f7b901466b12a552922aee368838097f6999ae36a13dc7b4ea8d8a7d",
+      "source_publication_day_from_frozen_metadata": "2025-05-28",
+      "pdf_signed_day": "2025-05-27",
+      "primary_shareholder_meeting_day": "2025-04-25",
+      "vendor_dividAgmPumDate_preserved": "2025-04-26",
+      "date_metadata_note": "PDF signature/meeting dates are recorded separately from vendor publication-related fields; no source date rewritten.",
+      "record_date": "2025-06-04",
+      "ex_date": "2025-06-05",
+      "cash_payment_date": "2025-06-05",
+      "new_unrestricted_shares_listing_date": "2025-06-05",
+      "cash_per_original_entitled_share_CNY": "0.25",
+      "capital_per_original_entitled_share": "0.1",
+      "stock_dividend_per_original_entitled_share": "0",
+      "economic_fields_match_vendor_numerically": true,
+      "primary_reveals_extra_significant_cash_precision": false,
+      "cash_precision_override_needed": false,
+      "cash_is_actual_entitlement_not_merely_reference": true,
+      "cash_and_share_field_evidence_pages": [
+        1,
+        2
+      ],
+      "existing_capital_tax_record_for_comparison_only": {
+        "verified_exempt": true,
+        "source_file": "SH601128-2025-05-28.pdf",
+        "source_sha256": "feced976f31029e64a8d45887f8b0bf1ea17b77541cd35d6e890c24dd4c3500f",
+        "exemption_scope": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+        "pages_one_based": [
+          3
+        ],
+        "evidence": "Notice explicitly identifies share-premium capital source and states this transfer is not taxed."
+      },
+      "formal_reviewed_manifest_written": false,
+      "new_tax_admission_granted": false,
+      "strict_statutory_tax_certification": false,
+      "capital_source_evidence_level": "DIRECT_ISSUER_SHARE_PREMIUM_STATEMENT",
+      "tax_evidence_level": "DIRECT_ISSUER_EVENT_NO_TAX_STATEMENT",
+      "issuer_explicit_capital_transfer_no_tax_statement": true,
+      "capital_source_and_tax_pages": [
+        3
+      ],
+      "capital_source_evidence": "原文明确本次转增的资本公积来源为股本溢价发行所形成的资本公积，并明确本次转增股本不扣税。",
+      "cash_personal_tax_evidence": "普通流通自然人及相关基金现金红利暂不扣缴，卖出后按持有期计税：不超过1个月20%，超过1个月至1年10%，超过1年暂免。该现金税规定与转增不扣税表述分别列明。",
+      "cash_personal_tax_pages": [
+        2,
+        3
+      ],
+      "capital_tax_conclusion": "原文足以保留此事件的直接来源与不扣税声明；不把本报告提升为独立法律认证或个人账户最终税额判断。",
+      "receipt_timing_evidence": "已办理指定交易者可于红利发放日在指定营业部领取；未指定交易者由中国结算暂保管，待指定后派发；转增按登记日持股比例计入。特定列名股东现金由公司自行发放。",
+      "receipt_timing_pages": [
+        2
+      ],
+      "differential_distribution": false,
+      "price_reference_cash_distinguished": "未出现与实际每股应付现金不同的差异化除权现金口径。",
+      "fractional_allocation_note": "公告载明总转增股份为整数及登记结算安排；不能据此模拟每个账户的零碎股分配。"
+    },
+    {
+      "case_id": "SH603596|2024-05-20",
+      "instrument": "SH603596",
+      "file": "SH603596-2024-05-14.pdf",
+      "original_pdf_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-reviewed-20261021/SH603596-2024-05-14.pdf",
+      "sha256": "08f8a6c5984648d6b66de07815274d7cc233afe5e89da7774524b16f45aaaba0",
+      "request_reuse_entry_and_original_reviewed_manifest_authenticated": true,
+      "original_reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "raw_packet_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH603596.json",
+      "raw_packet_sha256": "5efcf1fe74ef1abef73b32c6bfe87ee5d1b548e5c0d404e9974cb9a4f35ccc2a",
+      "raw_distribution_matches_frozen_request": true,
+      "total_pages": 4,
+      "complete_text_pages_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete_rendered_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "screenshots": [
+        {
+          "page": 1,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH603596-2024-05-20-page-1.png",
+          "sha256": "c7a79005d8c778a2b4a716bb7154e5aa218082b89a381ff9a11ea71ec03a5245"
+        },
+        {
+          "page": 2,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH603596-2024-05-20-page-2.png",
+          "sha256": "fcf981ad182993aa37596500483409520cc2de206786aacedc6565e10f132f98"
+        },
+        {
+          "page": 3,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH603596-2024-05-20-page-3.png",
+          "sha256": "8ed8c8526abbf64a1049de194ba6abd399d98e22f2bdf15947f29f40fe3dbefb"
+        },
+        {
+          "page": 4,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH603596-2024-05-20-page-4.png",
+          "sha256": "efa1f01554aec7f676d30227e551498f9acbeab2a7abf923f293d64bcd4e4f44"
+        }
+      ],
+      "extracted_text_path": "/tmp/price-delay-noncash-pdf-review-20261021/SH603596-2024-05-20.txt",
+      "extracted_text_sha256": "c5adfb31097c7511d9f5951bc069957cf64c9f0d193cbaf841a0bb8dcfff9459",
+      "source_publication_day_from_frozen_metadata": "2024-05-14",
+      "pdf_signed_day": "2024-05-14",
+      "primary_shareholder_meeting_day": "2024-04-17",
+      "vendor_dividAgmPumDate_preserved": "2024-04-18",
+      "date_metadata_note": "PDF signature/meeting dates are recorded separately from vendor publication-related fields; no source date rewritten.",
+      "record_date": "2024-05-17",
+      "ex_date": "2024-05-20",
+      "cash_payment_date": "2024-05-20",
+      "new_unrestricted_shares_listing_date": "2024-05-20",
+      "cash_per_original_entitled_share_CNY": "0.34",
+      "capital_per_original_entitled_share": "0.4",
+      "stock_dividend_per_original_entitled_share": "0",
+      "economic_fields_match_vendor_numerically": true,
+      "primary_reveals_extra_significant_cash_precision": false,
+      "cash_precision_override_needed": false,
+      "cash_is_actual_entitlement_not_merely_reference": true,
+      "cash_and_share_field_evidence_pages": [
+        1,
+        2
+      ],
+      "existing_capital_tax_record_for_comparison_only": null,
+      "formal_reviewed_manifest_written": false,
+      "new_tax_admission_granted": false,
+      "strict_statutory_tax_certification": false,
+      "capital_source_evidence_level": "GENERIC_CAPITAL_RESERVE_ONLY",
+      "tax_evidence_level": "INSUFFICIENT_FOR_CAPITAL_TRANSFER_EXEMPTION",
+      "issuer_explicit_capital_transfer_no_tax_statement": false,
+      "capital_source_and_tax_pages": [
+        2,
+        3,
+        4
+      ],
+      "capital_source_evidence": "第2页仅说以资本公积金每10股转增4股；四页全文未见明确股本溢价来源或本次转增不扣税句。",
+      "cash_personal_tax_evidence": "第3页现金红利按持有期20%/10%/暂免；一年以内派发时暂不代扣，实际每股派0.34；有限售个人及相关基金的税后现金0.306。该段针对现金，不能自动证明资本转增免税。",
+      "cash_personal_tax_pages": [
+        3,
+        4
+      ],
+      "capital_tax_conclusion": "保留未证实状态：不能把缺失capital_tax proof补为verified_exempt=true；也不能仅因缺证就断言其必然应税。",
+      "receipt_timing_evidence": "红利委托中国结算派发；指定交易者于发放日领取，未指定交易者暂保管；转增按登记日持股比例计入。三名列明股东现金自派。",
+      "receipt_timing_pages": [
+        2,
+        3
+      ],
+      "differential_distribution": true,
+      "actual_participating_shares": "433235729",
+      "total_shares": "433251529",
+      "treasury_shares_excluded": "15800",
+      "actual_cash_per_ten_entitled_shares": "3.40",
+      "actual_capital_per_ten_entitled_shares": "4",
+      "price_reference_evidence_pages": [
+        2
+      ],
+      "price_reference_cash_distinguished": {
+        "role": "仅除权参考摊薄口径，不是普通参与分配股东现金应付额",
+        "formula": "433235729 * 0.34 / 433251529",
+        "unrounded_decimal_diagnostic": "0.3399876007361995945777723960",
+        "printed_approximate_cash_per_share": "0.3400",
+        "printed_approximate_share_change_ratio": "0.4000",
+        "must_not_replace_actual_entitlement": "0.34"
+      },
+      "fractional_allocation_note": "转增实际按登记结算持股比例入账；股本变动总量不授权自行构造账户零碎股分配。"
+    },
+    {
+      "case_id": "SH603737|2025-05-30",
+      "instrument": "SH603737",
+      "file": "SH603737-2025-05-24.pdf",
+      "original_pdf_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-reviewed-20261021/SH603737-2025-05-24.pdf",
+      "sha256": "68eb5de9a7efacd6de0fbbd7a3c8d2f19610bce7031314664e5ba09ab31ea334",
+      "request_reuse_entry_and_original_reviewed_manifest_authenticated": true,
+      "original_reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "raw_packet_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH603737.json",
+      "raw_packet_sha256": "0bd7c311495ce9163846702cf6155a0259f1fb3b904a48f66a0381581a742673",
+      "raw_distribution_matches_frozen_request": true,
+      "total_pages": 4,
+      "complete_text_pages_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete_rendered_pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "screenshots": [
+        {
+          "page": 1,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH603737-2025-05-30-page-1.png",
+          "sha256": "cf42efc3d0084e8e90ba593bda5d8baf6746c058f44efa79ad8187bfa60b404d"
+        },
+        {
+          "page": 2,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH603737-2025-05-30-page-2.png",
+          "sha256": "dbbf4c42c3c49e52d320250f7060c7406fb82dc8efa2f836cfa14dc5b4738953"
+        },
+        {
+          "page": 3,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH603737-2025-05-30-page-3.png",
+          "sha256": "1e9383005f08d07afb822feb07a577a18faf29c6c8be574216b434e32f66f3e5"
+        },
+        {
+          "page": 4,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SH603737-2025-05-30-page-4.png",
+          "sha256": "67844cccb0adf366762bae98baa6400656ad4a2a088eff6d3843f5060f3c9287"
+        }
+      ],
+      "extracted_text_path": "/tmp/price-delay-noncash-pdf-review-20261021/SH603737-2025-05-30.txt",
+      "extracted_text_sha256": "e437588e62c5946a60cf4536eca1a692029be5976aeeeac927abc8569918763a",
+      "source_publication_day_from_frozen_metadata": "2025-05-24",
+      "pdf_signed_day": "2025-05-24",
+      "primary_shareholder_meeting_day": "2025-05-16",
+      "vendor_dividAgmPumDate_preserved": "2025-05-17",
+      "date_metadata_note": "PDF signature/meeting dates are recorded separately from vendor publication-related fields; no source date rewritten.",
+      "record_date": "2025-05-29",
+      "ex_date": "2025-05-30",
+      "cash_payment_date": "2025-05-30",
+      "new_unrestricted_shares_listing_date": "2025-05-30",
+      "cash_per_original_entitled_share_CNY": "0.32",
+      "capital_per_original_entitled_share": "0.4",
+      "stock_dividend_per_original_entitled_share": "0",
+      "economic_fields_match_vendor_numerically": true,
+      "primary_reveals_extra_significant_cash_precision": false,
+      "cash_precision_override_needed": false,
+      "cash_is_actual_entitlement_not_merely_reference": true,
+      "cash_and_share_field_evidence_pages": [
+        1,
+        2
+      ],
+      "existing_capital_tax_record_for_comparison_only": {
+        "verified_exempt": true,
+        "source_file": "SH603737-2025-05-24.pdf",
+        "source_sha256": "68eb5de9a7efacd6de0fbbd7a3c8d2f19610bce7031314664e5ba09ab31ea334",
+        "exemption_scope": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+        "pages_one_based": [
+          3
+        ],
+        "evidence": "Notice explicitly identifies share-premium capital source and states this transfer is not taxed."
+      },
+      "formal_reviewed_manifest_written": false,
+      "new_tax_admission_granted": false,
+      "strict_statutory_tax_certification": false,
+      "capital_source_evidence_level": "DIRECT_ISSUER_SHARE_PREMIUM_STATEMENT",
+      "tax_evidence_level": "DIRECT_ISSUER_EVENT_NO_TAX_STATEMENT",
+      "issuer_explicit_capital_transfer_no_tax_statement": true,
+      "capital_source_and_tax_pages": [
+        3
+      ],
+      "capital_source_evidence": "原文明确本次转增的资本公积来源为股本溢价发行所形成的资本公积，并明确本次转增股本不扣税。",
+      "cash_personal_tax_evidence": "普通流通自然人及相关基金现金红利暂不扣缴，卖出后按持有期计税：不超过1个月20%，超过1个月至1年10%，超过1年暂免。该现金税规定与转增不扣税表述分别列明。",
+      "cash_personal_tax_pages": [
+        2,
+        3
+      ],
+      "capital_tax_conclusion": "原文足以保留此事件的直接来源与不扣税声明；不把本报告提升为独立法律认证或个人账户最终税额判断。",
+      "receipt_timing_evidence": "已办理指定交易者可于红利发放日在指定营业部领取；未指定交易者由中国结算暂保管，待指定后派发；转增按登记日持股比例计入。特定列名股东现金由公司自行发放。",
+      "receipt_timing_pages": [
+        2
+      ],
+      "differential_distribution": false,
+      "price_reference_cash_distinguished": "未出现与实际每股应付现金不同的差异化除权现金口径。",
+      "fractional_allocation_note": "公告载明总转增股份为整数及登记结算安排；不能据此模拟每个账户的零碎股分配。"
+    },
+    {
+      "case_id": "SZ002155|2025-06-13",
+      "instrument": "SZ002155",
+      "file": "SZ002155-2025-06-07.pdf",
+      "original_pdf_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-reviewed-20261021/SZ002155-2025-06-07.pdf",
+      "sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+      "request_reuse_entry_and_original_reviewed_manifest_authenticated": true,
+      "original_reviewed_manifest_sha256": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+      "raw_packet_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SZ002155.json",
+      "raw_packet_sha256": "bfb13034ca10627a92dd9fcc9708d5fcd7f68d7522aadcf78a8d253998ae1fa2",
+      "raw_distribution_matches_frozen_request": true,
+      "total_pages": 3,
+      "complete_text_pages_read": [
+        1,
+        2,
+        3
+      ],
+      "complete_rendered_pages_visually_reviewed": [
+        1,
+        2,
+        3
+      ],
+      "screenshots": [
+        {
+          "page": 1,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SZ002155-2025-06-13-page-1.png",
+          "sha256": "180cc1354ca7d84abef1363a452181c30e975c70e5bc7f1d5261627c16ca4307"
+        },
+        {
+          "page": 2,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SZ002155-2025-06-13-page-2.png",
+          "sha256": "89592b5c3495758ee50e99445e5a5177d69ea5fb0ee30599fc037426e5565adf"
+        },
+        {
+          "page": 3,
+          "path": "/tmp/price-delay-noncash-pdf-review-20261021/SZ002155-2025-06-13-page-3.png",
+          "sha256": "0818c7c2586723f99c7387e182b63451c4ada8799b74fb74e2200d223cfad968"
+        }
+      ],
+      "extracted_text_path": "/tmp/price-delay-noncash-pdf-review-20261021/SZ002155-2025-06-13.txt",
+      "extracted_text_sha256": "e3d535fbd588beba44185446ddf54c39d89b586b55530b3cae7758378b9e9510",
+      "source_publication_day_from_frozen_metadata": "2025-06-07",
+      "pdf_signed_day": "2025-06-06",
+      "primary_shareholder_meeting_day": "2025-05-07",
+      "vendor_dividAgmPumDate_preserved": "2025-05-08",
+      "date_metadata_note": "PDF signature/meeting dates are recorded separately from vendor publication-related fields; no source date rewritten.",
+      "record_date": "2025-06-12",
+      "ex_date": "2025-06-13",
+      "cash_payment_date": "2025-06-13",
+      "new_unrestricted_shares_listing_date": "2025-06-13",
+      "cash_per_original_entitled_share_CNY": "0.23",
+      "capital_per_original_entitled_share": "0.3",
+      "stock_dividend_per_original_entitled_share": "0",
+      "economic_fields_match_vendor_numerically": true,
+      "primary_reveals_extra_significant_cash_precision": false,
+      "cash_precision_override_needed": false,
+      "cash_is_actual_entitlement_not_merely_reference": true,
+      "cash_and_share_field_evidence_pages": [
+        1,
+        2
+      ],
+      "existing_capital_tax_record_for_comparison_only": {
+        "verified_exempt": true,
+        "source_file": "SZ002155-2025-06-07.pdf",
+        "source_sha256": "9adfd2b237a169ea25fb35ee3a34dbc92cd69d72f3cf20ca21f3b41a2e480a81",
+        "exemption_scope": "Only this original capital-transfer event; ordinary unrestricted investor scenario",
+        "pages_one_based": [
+          1,
+          2
+        ],
+        "evidence": "Notice specifies transfer within share-premium reserve and its explicit supplementary-tax examples equal 20%/10% of cash alone; no additional transfer tax is included. This event-level conclusion is an inference from both statements.",
+        "evidence_kind": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+        "tax_examples": {
+          "source_page": 1,
+          "tax_page": 2,
+          "cash_per_ten": "2.3",
+          "one_month_tax_per_ten": ".46",
+          "one_year_tax_per_ten": ".23"
+        }
+      },
+      "formal_reviewed_manifest_written": false,
+      "new_tax_admission_granted": false,
+      "strict_statutory_tax_certification": false,
+      "capital_source_evidence_level": "PREMIUM_BALANCE_CEILING_STATEMENT_WITH_IMPLEMENTATION_CONSISTENCY",
+      "tax_evidence_level": "PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE",
+      "issuer_explicit_capital_transfer_no_tax_statement": false,
+      "capital_source_and_tax_pages": [
+        1,
+        2
+      ],
+      "capital_source_evidence": "第1页明确转增金额未超过报告期末资本公积—股本溢价余额，并说明实施方案与股东大会方案一致；这比直接逐项来源追踪及直接免税句更弱。",
+      "cash_personal_tax_evidence": "第2页普通相关个人现金暂不扣缴，FIFO按证券账户持有期：每10股在1个月以内补税0.460000，1个月以上至1年补0.230000，超过1年不补；两项金额分别等于每10股现金2.300000的20%和10%。",
+      "cash_personal_tax_pages": [
+        2
+      ],
+      "capital_tax_conclusion": "两段共同支持既有事件级有条件推论，必须保留INFERENCE标签；原文没有直接写转增免税/不扣税，不得升级为直接法定免税认证。",
+      "exact_cash_per_ten_source": "2.300000",
+      "exact_capital_per_ten_source": "3.000000",
+      "explicit_supplementary_tax_per_ten": {
+        "holding_at_most_one_month": "0.460000",
+        "holding_over_one_month_at_most_one_year": "0.230000",
+        "holding_over_one_year": "0"
+      },
+      "tax_examples_equal_cash_only_arithmetic": true,
+      "receipt_timing_evidence": "第2页转股于6月13日直接入证券账户，现金同日经托管券商划入资金账户；湖南黄金集团现金自派；第3页无限售新增股份起始交易日6月13日。",
+      "receipt_timing_pages": [
+        2,
+        3
+      ],
+      "differential_distribution": false,
+      "price_reference_cash_distinguished": "每10股2.300000为实施方案实际现金分派；尾随零不构成vendor0.23之外的新有效精度，不是除权参考替代数。",
+      "fractional_allocation_note": "第2页明确零碎股按尾数从大到小发1股，同尾数系统随机排序，直到总量一致；只凭账户持股乘0.3不总能确定个人实际零碎股分配。",
+      "fractional_allocation_pages": [
+        2
+      ]
+    }
+  ],
+  "important_findings": [
+    {
+      "case_id": "SH603596|2024-05-20",
+      "finding": "资本来源仅为泛称资本公积，全文没有明确股本溢价来源和本次转增不扣税条款；不得补为exempt=true。",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "SZ002155|2025-06-13",
+      "finding": "保留PREMIUM_SOURCE_AND_EXPLICIT_TAX_AMOUNT_INFERENCE，不升级为直接法定免税证明。",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "case_id": "SH603596|2024-05-20",
+      "finding": "差异化除权参考现金经总股本摊薄，普通有权参与分配股份实际每股现金仍为0.34；不得把参考公式当应付额。",
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "dates_ratios_cash_all_five_match_vendor": true,
+  "new_cash_precision_overrides_supported": 0,
+  "scope_limits": [
+    "仅核验冻结请求所列5份既存原始PDF及其对应pre26vendor行，不等待或读取其他fresh文件。",
+    "公告发布元数据与PDF落款日期不同的事项分别记录，未改写原vendor日期。",
+    "现金到账日及零碎股规则是公告安排，未证明某个模拟账户实际到达/可交易时钟、FIFO税款或登记结算分配。",
+    "未写正式reviewed-manifest，未更改任何税标志、账户门槛或投资规则。"
+  ],
+  "new_network_queries": 0,
+  "portfolio_returns_computed": false,
+  "repository_or_original_source_modified": false,
+  "formal_event_or_account_admission": false,
+  "2026_market_values_read": false
+}

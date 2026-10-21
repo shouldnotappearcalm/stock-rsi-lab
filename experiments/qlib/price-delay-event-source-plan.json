@@ -1,0 +1,44 @@
+{
+  "status": "FROZEN_PRICE_DELAY_EVENT_SOURCE_COMPILATION_NO_ROI",
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "cash_override_contract": "PRIMARY_NOTICE_CASH_PRECISION_V1",
+  "method_code_sha256": {
+    "scripts/prepare_price_delay_account_sources_pre2026.py": "4812a7c3e137a4bc43ff425f1920394a56b06b659b990926c8bb20b0c236413c",
+    "src/stock_rsi/distribution_event_compiler_v2.py": "145ea48f2f68af0175d3f003f1970152b8d7c03ba40ed809dfbe3dc38fc51a3e",
+    "src/stock_rsi/distribution_event_compiler.py": "a74656ed0709f055ddf460bb1d59cc2a450b1b2d6b49bbd976c4e1e138ba5a2a",
+    "src/stock_rsi/stock_distribution_account.py": "977f28d002a428d19468ba7d07e6c2b4b4207bf27fcd428232ec0ece84742d32",
+    "src/stock_rsi/raw_share_account.py": "d2361ac67fc2cd73d4f2a4f1eb9c289b05e42789701ddfdac28b3a31a5d4b795",
+    "src/stock_rsi/broker.py": "d8f530e3f80e655847b70a755ce7893f28b37a0f3ed0d96d896071feb0d56e72",
+    "src/stock_rsi/calendar.py": "ab966a96dc32111d9341a065cfe578a113821b01fa6be518a4f467541090cacb",
+    "src/stock_rsi/data.py": "2ef7895a657e3b91d86687df958c12be5402ff50983646cc3e85fa49af60ecde",
+    "src/stock_rsi/models.py": "10432793bbd9cd7b3fd7b0cea41289fce226e847086e5885ee7867ac11c0f9a1",
+    "src/stock_rsi/time.py": "d253a2ba839a11cada3d2335ccb409d2612df0ec5c8bf16fa892754f1f0c5d46"
+  },
+  "local_source_sha256": {
+    "price-delay-raw-dev-20261021/manifest.json": "b179d4e987ad2ee93d0b152d817486c29737c6d605abdad1a15c3fd4713d6b67",
+    "price-delay-raw-dev-20261021/calendar.json": "8675b1a13704262b666f552e5fee1cbe084fe1392aa9ce32d53a40b482698c2a",
+    "price-delay-pre2026-formations-20261021/targets.json": "03acf78c10c10376b5764b0d1399d1631af08a608aa865575aa1bd56203fad0c",
+    "price-delay-corporate-reviewed-20261021/reviewed-manifest.json": "a7cd5b97694232e3503990e3db60a805c0e6e82f8ec894f02283b7d9b3582fb9",
+    "price-delay-primary-capture-audit-20261021.json": "f1c38854ecfa1dc870cd15087b4bc2f1557952ee0d2f20be3f35cba1ddcd2403",
+    "price-delay-corporate-primary-20261021/manifest.json": "238c63fcbeaad7e78c6bf69e928c54da3d46c1faab6439ca139bfb866b6b5c76",
+    "budgeted-residual-corporate-reviewed-20261021/reviewed-manifest.json": "dc4238cd0ad53c6fb064010cb44dbfd11d3a8ee2e766e7f7484ff92f22033247",
+    "illiquidity-corporate-reviewed-20261020/reviewed-manifest.json": "d589c067f1498df1f6cffb810863751414155f05429dc44c934e5be861fa9ae4",
+    "return-family-corporate-notices-20261017/reviewed-manifest.json": "a77d0caf8788616fee773c1c4e5a0b9614956cbd0f79732644fee0b0b85b1bd8",
+    "szse-value-corporate-notices-20261017/reviewed-manifest.json": "fe5d1b9b29cee2b674c65caaafdd0910ec463945b32f8f4b7a8a60f727aecda6"
+  },
+  "public_evidence_sha256": {
+    "experiments/qlib/price-delay-raw-source-independent-audit.json": "43f12468a344935fa233ae7c2afc3fb813feb6febe73d86969bdf03a7d188103",
+    "experiments/qlib/price-delay-corporate-reviewed-manifest.json": "a7cd5b97694232e3503990e3db60a805c0e6e82f8ec894f02283b7d9b3582fb9",
+    "experiments/qlib/price-delay-primary-capture-independent-audit.json": "f1c38854ecfa1dc870cd15087b4bc2f1557952ee0d2f20be3f35cba1ddcd2403",
+    "experiments/qlib/price-delay-primary-content-review.json": "6f7dea7ed341c4f96815fde9e81f973315a25c6b812745298ee224899b3ce345",
+    "experiments/qlib/price-delay-primary-noncash-content-review.json": "ea7af1abcccf3e5279dc0828f8f44c9e9de1b4adc58540b4f5348e7d97b23a2c",
+    "experiments/qlib/price-delay-primary-adjustment-content-review.json": "24edf91598d329237f1a37bb4015dd90b2474bca4135a8c4443326e5dcd76a15",
+    "docs/research/price-delay-source-event-plan-2026-10-21.md": "f9fd38119e147f390d3aaf4e7efba53250d47ac3d1d301c94c7ecc50dcc042d9"
+  },
+  "portfolio_returns_to_compute": false,
+  "new_2026_queries_allowed": false,
+  "objective_achieved": false
+}

@@ -1,0 +1,18 @@
+{
+  "status": "ALL15_PRIMARY_BYTES_AUTHENTICATED_CAPTURE_ONLY",
+  "request_sha256": "15d50d8a38fcbe88e2e2304c1680e74d01e132f714eb691f1657799c854568ec",
+  "manifest_sha256": "238c63fcbeaad7e78c6bf69e928c54da3d46c1faab6439ca139bfb866b6b5c76",
+  "PDFs": 15,
+  "byte_reuses": 12,
+  "fresh_PDFs": 3,
+  "logical_HTTP_queries": 6,
+  "artifact_hashes_checked": 36,
+  "independent_capture_audit_sha256": "f1c38854ecfa1dc870cd15087b4bc2f1557952ee0d2f20be3f35cba1ddcd2403",
+  "test_count": 560,
+  "test_exit_code": 0,
+  "test_log_sha256": "50836d0fdd503cf1c48e9ef8ea6845e2c04eb9bf85e3366617a58e44c1814d59",
+  "original_prices_or_strategy_changed": false,
+  "source_economics_admitted": false,
+  "portfolio_returns_computed": false,
+  "new_2026_queries": false
+}

@@ -1,0 +1,11 @@
+# Price-delay source-event projection, with no account returns
+
+Compile only the fixed151-name pre2026 dataset and original24 target union. Bind the raw source, original15PDF capture, independent technical audit,54 complete text-page reviews and41 visual-page reviews to a separately versioned source proposal. All source packets stay immutable.
+
+Expected economics:375 original vendor distributions plus three primary cash supplements (SH6001672024Dec27,SH6004822024Nov22,SZ0025082024Jan10), giving378 events. Use the actual gross entitled-share amounts0.12,0.03138,0.50 and original notice dates. Do not use diluted price-reference deductions, adjustment ratios, B-share amounts/dates or factor labels as cash/share entitlement inputs. Seven later factor labels remain semantically unexplained; original earlier dividends are counted once.
+
+Four event-level capital-tax flags are inherited byte-exactly from the earlier source review. SH6011282024/2025 and SH603737 have direct notice support; SZ002155 retains a premium-source plus explicit tax-example inference, never a new statutory certificate. SH6035962024May20 remains unproved and must require zero record-date ownership. Do not add an exemption or disable that guard. Actual physical-account ownership, not a target or normalized-account assumption, must establish zero before replay can pass.
+
+No new cash precision correction, stock dividend or lifecycle boundary is proposed. The compiler and account are existing frozen modules; this new source adapter binds inputs and checks378/375/3 counts, four flags, zero verified stock-dividend bases and exactly the one unproved capital-transfer receipt. Existing generic proof projection copies the proposal without changing tax evidence or original packets. Compiling source events does not compute ROI or grant account admission.
+
+A separate independent reconstruction must verify every event identity/economic field, source receipt, source/primary hash and negative controls (duplicate supplement, changed original source, unsupported precision or tax assumption). Only then may a separately frozen raw-share daily account run under the same20/40bp profiles, CNY1m research reference and pre2026-only rule. Queue/minute/PIT/FIFO-tax and2026 objective claims remain outside this stage.

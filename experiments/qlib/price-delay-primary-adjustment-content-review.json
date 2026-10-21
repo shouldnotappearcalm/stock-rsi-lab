@@ -1,0 +1,1697 @@
+{
+  "status": "INDEPENDENT_TEN_PRE2026_ADJUSTMENT_PRIMARY_CONTENT_CASES_REVIEWED_NO_PROOF_PROJECTION",
+  "review_builder_sha256": "fabf077acb72f218bfbaa674f6f84e091a2d763e861badc4bd4c5864ccc5cc50",
+  "request_sha256": "15d50d8a38fcbe88e2e2304c1680e74d01e132f714eb691f1657799c854568ec",
+  "capture_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/manifest.json",
+  "capture_manifest_sha256": "238c63fcbeaad7e78c6bf69e928c54da3d46c1faab6439ca139bfb866b6b5c76",
+  "raw_manifest_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/manifest.json",
+  "raw_manifest_sha256": "b179d4e987ad2ee93d0b152d817486c29737c6d605abdad1a15c3fd4713d6b67",
+  "source_calendar_sha256": "8675b1a13704262b666f552e5fee1cbe084fe1392aa9ce32d53a40b482698c2a",
+  "case_count": 10,
+  "all10_original_PDF_and_vendor_packet_byte_hashes_authenticated": true,
+  "complete_text_pages_read": 35,
+  "complete_pages_rendered": 35,
+  "visually_reviewed_full_page_count": 22,
+  "missing_vendor_cash_cases": [
+    "SH600167|2024-12-27",
+    "SH600482|2024-11-22",
+    "SZ002508|2024-01-10"
+  ],
+  "existing_earlier_vendor_cash_events_confirmed": 7,
+  "cash_precision_completions_supported": 0,
+  "second_cash_events_supported_from_late_factors": 0,
+  "cases": {
+    "SH600167|2024-12-27": {
+      "case_id": "SH600167|2024-12-27",
+      "classification": "MISSING_VENDOR_CASH_EVENT_PRIMARY_NOTICE_SUPPORTS_SUPPLEMENT_REVIEW",
+      "source_pdf": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/SH600167-2024-12-20.pdf",
+        "sha256": "86719f49e32643c2fc44e234acb03678c2a140b6dccdc90245561796cdfc3bb3",
+        "title": "联美量子股份有限公司2024年临时权益分派实施公告",
+        "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+        "publication_day": "2024-12-20"
+      },
+      "complete_text_pages_read_one_based": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete_pages_rendered_one_based": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "visually_reviewed_full_pages_one_based": [
+        1,
+        2
+      ],
+      "field_pages_one_based": {
+        "cash": [
+          1,
+          2
+        ],
+        "dates": [
+          1,
+          2
+        ],
+        "no_stock_no_capital": [
+          2
+        ],
+        "reference": [
+          2
+        ],
+        "signature": [
+          4
+        ]
+      },
+      "page_image_sha256": {
+        "1": "6438da35e297554f5411e79e7e84c07ad1e9c4d10a0014bde42fbc1432597294",
+        "2": "86c7a1400f51a47988c22585366d61136199081a38736c13a3e4026ad514cf69",
+        "3": "325fef5376eb72a46e803efc706de236512b42142044e5bae432de6a07ff5429",
+        "4": "6e3dda3771ca36485f06da6fbd6fe8417d293cb2b422575473c3765f844ba175"
+      },
+      "extracted_complete_text_sha256": "b9f8c300135dd7e69898b32d99eb7eb903b767802a09f9ae8b95b9a58c9e9a2e",
+      "primary_economic_facts": {
+        "issuer": "联美量子股份有限公司",
+        "announcement_number": "2024-069",
+        "publication_day_from_capture_and_signature": "2024-12-20",
+        "signature_day": "2024-12-20",
+        "share_class": "A",
+        "currency": "CNY",
+        "cash_per_eligible_original_share_gross": "0.12",
+        "cash_per10_eligible_original_shares_gross": "1.2",
+        "per10_conversion_derived_only_for_display": false,
+        "shareholder_meeting_day": "2024-12-09",
+        "record_day": "2024-12-26",
+        "ex_day": "2024-12-27",
+        "cash_payment_day": "2024-12-27",
+        "operative_scheme": "CASH_ONLY",
+        "new_stock_distribution_supported": false,
+        "new_capital_transfer_supported": false,
+        "price_reference_deduction_per_total_share_if_explicit": "0.1167",
+        "price_reference_is_approximate": true,
+        "price_reference_is_not_holder_cash_entitlement": true,
+        "eligible_share_base_if_stated": "2224530993",
+        "excluded_buyback_shares_if_stated": "63588482",
+        "declared_total_gross_cash_if_stated": "266943719.16",
+        "payment_scope": "Issuer stated delegated A-share cash payment date; actual individual receipt and separately self-paid holders are not independently authenticated.",
+        "tax_scope": "Gross source amount only. No new FIFO settlement, statutory tax-exemption, or actual investor tax certification."
+      },
+      "original_vendor_packet": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600167.json",
+        "sha256": "4c023ee8df557e2d6ca074e219d1d3235bff93cc375d458c5ee992f3feb4a9f1"
+      },
+      "original_vendor_adjustment_row": {
+        "code": "sh.600167",
+        "dividOperateDate": "2024-12-27",
+        "foreAdjustFactor": "0.941185",
+        "backAdjustFactor": "3.674983",
+        "adjustFactor": "3.674983"
+      },
+      "original_vendor_adjustment_row_sha256": "6fb9c060e90749e7912cc62e82b36e28e0a53383a16434f6b00bd40fa18c8a78",
+      "related_existing_vendor_distribution": null,
+      "related_vendor_distribution_sha256": null,
+      "raw_source_bars_near_primary_ex_and_vendor_factor": [
+        {
+          "date": "2024-12-26",
+          "code": "sh.600167",
+          "open": "5.9900",
+          "high": "6.0200",
+          "low": "5.9400",
+          "close": "5.9400",
+          "preclose": "6.0000",
+          "volume": "2873640",
+          "amount": "17156718.6000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-12-27",
+          "code": "sh.600167",
+          "open": "5.8400",
+          "high": "5.9100",
+          "low": "5.7700",
+          "close": "5.8900",
+          "preclose": "5.8200",
+          "volume": "3524782",
+          "amount": "20592256.7800",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "primary_exdate_matches_vendor_existing_distribution": false,
+      "existing_vendor_cash_numeric_value_matches_primary": null,
+      "factor_day_equals_primary_exdate": true,
+      "factor_day_is_next_explicit_session_after_primary_exdate": false,
+      "primary_notice_authenticates_vendor_factor_date_semantics": false,
+      "second_distribution_at_factor_day_supported": false,
+      "needs_new_primary_cash_event_because_vendor_row_missing": true,
+      "needs_real_cash_precision_completion": false,
+      "cash_precision_assessment": "No vendor row exists for this economic event; adding a separately reviewed primary cash event is not a precision correction.",
+      "notes": [
+        "Physicalp2zero-share-change formula prints2,234,568,603 whereas the eligible cash base in the preceding paragraph is2,224,530,993. Retain original typographical inconsistency; multiplier is0 and neither value changes the stated0.12cash entitlement.",
+        "The operative clause explicitly says no bonus stock and no capital transfer; generic delivery boilerplate is not a noncash award."
+      ],
+      "explicit_unknowns": [
+        "Source adjustment date agrees with the primary economic exdate, but vendor factor methodology itself is not authenticated.",
+        "Primary payment dates do not independently prove actual cash arrival or a simulation settlement convention.",
+        "Historical first-public availability and observed arrival are not authenticated."
+      ],
+      "formal_source_proof_projected": false,
+      "source_admitted_for_account_replay": false
+    },
+    "SH600390|2024-07-15": {
+      "case_id": "SH600390|2024-07-15",
+      "classification": "EXISTING_VENDOR_DIVIDEND_CONFIRMED_FACTOR_NEXT_EXPLICIT_SESSION_SEMANTICS_UNAUTHENTICATED",
+      "source_pdf": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/SH600390-2024-07-06.pdf",
+        "sha256": "dd762184d807892bf5d321f44f875a52302283aa4fc4cec53021b1e53f121ae8",
+        "title": "五矿资本股份有限公司2023年年度权益分派实施公告",
+        "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP",
+        "publication_day": "2024-07-06"
+      },
+      "complete_text_pages_read_one_based": [
+        1,
+        2,
+        3
+      ],
+      "complete_pages_rendered_one_based": [
+        1,
+        2,
+        3
+      ],
+      "visually_reviewed_full_pages_one_based": [
+        1,
+        2
+      ],
+      "field_pages_one_based": {
+        "cash": [
+          1
+        ],
+        "dates": [
+          1,
+          2
+        ],
+        "cash_only_scheme": [
+          1
+        ],
+        "signature": [
+          3
+        ]
+      },
+      "page_image_sha256": {
+        "1": "45280b86665b00b3a7d3b07d25be6354f963ee03be4f58240507fd8ee6772070",
+        "2": "1472c36eab34f7c6bc757cfa1e157791cf1863b7756b7d8f1e232473085db80b",
+        "3": "039afbde8c2e8285088135219b60e1efe92957a6e2a620b28233608b48ac2b77"
+      },
+      "extracted_complete_text_sha256": "12df907b8e143b89107a267d5ff8b7caf7aeeb1feeb8b1414fb20a1d413ac65b",
+      "primary_economic_facts": {
+        "issuer": "五矿资本股份有限公司",
+        "announcement_number": "临2024-028",
+        "publication_day_from_capture_and_signature": "2024-07-06",
+        "signature_day": "2024-07-06",
+        "share_class": "A",
+        "currency": "CNY",
+        "cash_per_eligible_original_share_gross": "0.115",
+        "cash_per10_eligible_original_shares_gross": "1.15",
+        "per10_conversion_derived_only_for_display": false,
+        "shareholder_meeting_day": "2024-05-17",
+        "record_day": "2024-07-11",
+        "ex_day": "2024-07-12",
+        "cash_payment_day": "2024-07-12",
+        "operative_scheme": "CASH_ONLY",
+        "new_stock_distribution_supported": false,
+        "new_capital_transfer_supported": false,
+        "price_reference_deduction_per_total_share_if_explicit": null,
+        "price_reference_is_approximate": null,
+        "price_reference_is_not_holder_cash_entitlement": false,
+        "eligible_share_base_if_stated": null,
+        "excluded_buyback_shares_if_stated": null,
+        "declared_total_gross_cash_if_stated": null,
+        "payment_scope": "Issuer stated delegated A-share cash payment date; actual individual receipt and separately self-paid holders are not independently authenticated.",
+        "tax_scope": "Gross source amount only. No new FIFO settlement, statutory tax-exemption, or actual investor tax certification."
+      },
+      "original_vendor_packet": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600390.json",
+        "sha256": "56db63aba31317862a8c3bee732baf8d2ac8e0e0a580a502edf57638607294e6"
+      },
+      "original_vendor_adjustment_row": {
+        "code": "sh.600390",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.988740",
+        "backAdjustFactor": "4.477442",
+        "adjustFactor": "4.477442"
+      },
+      "original_vendor_adjustment_row_sha256": "5a494bdd1bc7d93ac731050960fcde62f1a5a73f15712dd238a5668eb0aa3c27",
+      "related_existing_vendor_distribution": {
+        "code": "sh.600390",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-18",
+        "dividPlanAnnounceDate": "2024-04-25",
+        "dividPlanDate": "2024-07-06",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.115",
+        "dividCashPsAfterTax": "0.1035或0.115",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派1.15元（含税，扣税后1.035或1.15元）",
+        "dividReserveToStockPs": ""
+      },
+      "related_vendor_distribution_sha256": "83be3ced2250d13ad5fd288417fd73f7f1a24f7ae74d8e21e695a5cc25d7076e",
+      "raw_source_bars_near_primary_ex_and_vendor_factor": [
+        {
+          "date": "2024-07-11",
+          "code": "sh.600390",
+          "open": "4.0900",
+          "high": "4.1500",
+          "low": "4.0800",
+          "close": "4.1300",
+          "preclose": "4.0300",
+          "volume": "26494199",
+          "amount": "109112780.8100",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-12",
+          "code": "sh.600390",
+          "open": "4.0500",
+          "high": "4.0900",
+          "low": "4.0200",
+          "close": "4.0400",
+          "preclose": "4.0200",
+          "volume": "19317240",
+          "amount": "78392625.6000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-15",
+          "code": "sh.600390",
+          "open": "4.0500",
+          "high": "4.0700",
+          "low": "4.0000",
+          "close": "4.0600",
+          "preclose": "4.0400",
+          "volume": "21681640",
+          "amount": "87586383.2000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "primary_exdate_matches_vendor_existing_distribution": true,
+      "existing_vendor_cash_numeric_value_matches_primary": true,
+      "factor_day_equals_primary_exdate": false,
+      "factor_day_is_next_explicit_session_after_primary_exdate": true,
+      "primary_notice_authenticates_vendor_factor_date_semantics": false,
+      "second_distribution_at_factor_day_supported": false,
+      "needs_new_primary_cash_event_because_vendor_row_missing": false,
+      "needs_real_cash_precision_completion": false,
+      "cash_precision_assessment": "Vendor and primary gross cash are numerically identical; extra displayed zeros, tax-net examples and diluted price-reference amounts do not justify precision completion.",
+      "notes": [],
+      "explicit_unknowns": [
+        "Captured publication/signature dates do not authenticate historical first-availability or arrival.",
+        "BaoStock adjustment-date and factor-column production semantics are not described by this issuer notice; no provider documentation/source provenance establishes the date mechanism.",
+        "This notice does not support a second cash entitlement at the factor date.",
+        "Vendor AGM field differs from the primary meeting date; retain original vendor metadata and record the discrepancy without silently rewriting it."
+      ],
+      "formal_source_proof_projected": false,
+      "source_admitted_for_account_replay": false
+    },
+    "SH600482|2024-11-22": {
+      "case_id": "SH600482|2024-11-22",
+      "classification": "MISSING_VENDOR_CASH_EVENT_PRIMARY_NOTICE_SUPPORTS_SUPPLEMENT_REVIEW",
+      "source_pdf": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/SH600482-2024-11-15.pdf",
+        "sha256": "451aedacd31a99f8a6a0b36e8aafba4cee8f2a4931d22afe025272ebe46464c1",
+        "title": "中国船舶重工集团动力股份有限公司2024年特别分红权益分派实施公告",
+        "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+        "publication_day": "2024-11-15"
+      },
+      "complete_text_pages_read_one_based": [
+        1,
+        2,
+        3
+      ],
+      "complete_pages_rendered_one_based": [
+        1,
+        2,
+        3
+      ],
+      "visually_reviewed_full_pages_one_based": [
+        1,
+        2
+      ],
+      "field_pages_one_based": {
+        "cash": [
+          1,
+          2
+        ],
+        "dates": [
+          1,
+          2
+        ],
+        "cash_only_scheme": [
+          1,
+          2
+        ],
+        "signature": [
+          3
+        ]
+      },
+      "page_image_sha256": {
+        "1": "4a78ee909f5c26e5768b4fc0937f0f55a99c5e627e22eebc5f3c3427524dd5bd",
+        "2": "d09075434dd687b29ba56607dcc1caa5b37c6b6cb0b4a025574dc0f2905e4c94",
+        "3": "d5aa5520be3fee5138828bc66742f8e3fd490b7f0572eb3fcf0be3b57a3477fb"
+      },
+      "extracted_complete_text_sha256": "12899e6eba6b76a8f06efb6f614164cbf5cb9a696a64d6802142253052d861f0",
+      "primary_economic_facts": {
+        "issuer": "中国船舶重工集团动力股份有限公司",
+        "announcement_number": "2024-079",
+        "publication_day_from_capture_and_signature": "2024-11-15",
+        "signature_day": "2024-11-15",
+        "share_class": "A",
+        "currency": "CNY",
+        "cash_per_eligible_original_share_gross": "0.03138",
+        "cash_per10_eligible_original_shares_gross": "0.3138",
+        "per10_conversion_derived_only_for_display": true,
+        "shareholder_meeting_day": "2024-10-16",
+        "record_day": "2024-11-21",
+        "ex_day": "2024-11-22",
+        "cash_payment_day": "2024-11-22",
+        "operative_scheme": "CASH_ONLY",
+        "new_stock_distribution_supported": false,
+        "new_capital_transfer_supported": false,
+        "price_reference_deduction_per_total_share_if_explicit": null,
+        "price_reference_is_approximate": null,
+        "price_reference_is_not_holder_cash_entitlement": false,
+        "eligible_share_base_if_stated": "2251217044",
+        "excluded_buyback_shares_if_stated": null,
+        "declared_total_gross_cash_if_stated": "70643190.84",
+        "payment_scope": "Issuer stated delegated A-share cash payment date; actual individual receipt and separately self-paid holders are not independently authenticated.",
+        "tax_scope": "Gross source amount only. No new FIFO settlement, statutory tax-exemption, or actual investor tax certification."
+      },
+      "original_vendor_packet": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600482.json",
+        "sha256": "62cbfe8a56b1fb0a1e633f9cfe531ab2de341a453d6698c1df140b4e070b544e"
+      },
+      "original_vendor_adjustment_row": {
+        "code": "sh.600482",
+        "dividOperateDate": "2024-11-22",
+        "foreAdjustFactor": "0.976483",
+        "backAdjustFactor": "2.213885",
+        "adjustFactor": "2.213885"
+      },
+      "original_vendor_adjustment_row_sha256": "120ae5b7375b0b8496171fa4fdf93223f58d694ac3b1202fd8e19a6bedb3635f",
+      "related_existing_vendor_distribution": null,
+      "related_vendor_distribution_sha256": null,
+      "raw_source_bars_near_primary_ex_and_vendor_factor": [
+        {
+          "date": "2024-11-21",
+          "code": "sh.600482",
+          "open": "23.0000",
+          "high": "23.8500",
+          "low": "22.8500",
+          "close": "23.6900",
+          "preclose": "23.1200",
+          "volume": "38199173",
+          "amount": "889306932.5600",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-11-22",
+          "code": "sh.600482",
+          "open": "23.5600",
+          "high": "23.5700",
+          "low": "22.8600",
+          "close": "22.9800",
+          "preclose": "23.6600",
+          "volume": "28196369",
+          "amount": "655950661.9400",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "primary_exdate_matches_vendor_existing_distribution": false,
+      "existing_vendor_cash_numeric_value_matches_primary": null,
+      "factor_day_equals_primary_exdate": true,
+      "factor_day_is_next_explicit_session_after_primary_exdate": false,
+      "primary_notice_authenticates_vendor_factor_date_semantics": false,
+      "second_distribution_at_factor_day_supported": false,
+      "needs_new_primary_cash_event_because_vendor_row_missing": true,
+      "needs_real_cash_precision_completion": false,
+      "cash_precision_assessment": "No vendor row exists for this economic event; adding a separately reviewed primary cash event is not a precision correction.",
+      "notes": [
+        "Only a cash allocation is stated in the operative scheme; generic conditional boilerplate about delivering bonus/capital shares is not evidence of a noncash distribution.",
+        "The0.02824QFII/StockConnect amount is a stated after-tax amount, not the gross entitlement and not a basis for changing0.03138."
+      ],
+      "explicit_unknowns": [
+        "Source adjustment date agrees with the primary economic exdate, but vendor factor methodology itself is not authenticated.",
+        "Primary payment dates do not independently prove actual cash arrival or a simulation settlement convention.",
+        "Historical first-public availability and observed arrival are not authenticated."
+      ],
+      "formal_source_proof_projected": false,
+      "source_admitted_for_account_replay": false
+    },
+    "SH600754|2024-07-15": {
+      "case_id": "SH600754|2024-07-15",
+      "classification": "EXISTING_VENDOR_DIVIDEND_CONFIRMED_FACTOR_NEXT_EXPLICIT_SESSION_SEMANTICS_UNAUTHENTICATED",
+      "source_pdf": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/SH600754-2024-07-06.pdf",
+        "sha256": "b950dcbb25e32ba27e92872aacc98b891097a18c8961b9755045b50ad29f1ee6",
+        "title": "锦江酒店2023年年度权益分派实施公告",
+        "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP",
+        "publication_day": "2024-07-06"
+      },
+      "complete_text_pages_read_one_based": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete_pages_rendered_one_based": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "visually_reviewed_full_pages_one_based": [
+        1,
+        2
+      ],
+      "field_pages_one_based": {
+        "cash": [
+          1,
+          2
+        ],
+        "A_share_dates": [
+          1,
+          2
+        ],
+        "cash_only_scheme": [
+          2
+        ],
+        "signature": [
+          4
+        ]
+      },
+      "page_image_sha256": {
+        "1": "5c4f9a0621ab5ad5bfa528f4ec21b0fdf253451360e754d1e45d7ab6f6e12ec6",
+        "2": "aede3c02d9b9eaf41b9161faf8de197566b6dd3e2cb7ca2ab439a87315a82938",
+        "3": "2f7abce045d56db1246af9651c0fc07f268294108c927c2dab6fa65b01f9e56f",
+        "4": "95f17c7df08454db4954b8d38015b6a2e5f1c9623523480597375af7664b865e"
+      },
+      "extracted_complete_text_sha256": "06c1fcda7091026d1594cd182a28877130227cf6998993db6a5fcc006e6b0769",
+      "primary_economic_facts": {
+        "issuer": "上海锦江国际酒店股份有限公司",
+        "announcement_number": "2024-030",
+        "publication_day_from_capture_and_signature": "2024-07-06",
+        "signature_day": "2024-07-06",
+        "share_class": "A",
+        "currency": "CNY",
+        "cash_per_eligible_original_share_gross": "0.5",
+        "cash_per10_eligible_original_shares_gross": "5",
+        "per10_conversion_derived_only_for_display": true,
+        "shareholder_meeting_day": "2024-06-28",
+        "record_day": "2024-07-11",
+        "ex_day": "2024-07-12",
+        "cash_payment_day": "2024-07-12",
+        "operative_scheme": "CASH_ONLY",
+        "new_stock_distribution_supported": false,
+        "new_capital_transfer_supported": false,
+        "price_reference_deduction_per_total_share_if_explicit": null,
+        "price_reference_is_approximate": null,
+        "price_reference_is_not_holder_cash_entitlement": false,
+        "eligible_share_base_if_stated": "1070044063",
+        "excluded_buyback_shares_if_stated": null,
+        "declared_total_gross_cash_if_stated": "535022031.50",
+        "payment_scope": "Issuer stated delegated A-share cash payment date; actual individual receipt and separately self-paid holders are not independently authenticated.",
+        "tax_scope": "Gross source amount only. No new FIFO settlement, statutory tax-exemption, or actual investor tax certification."
+      },
+      "original_vendor_packet": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600754.json",
+        "sha256": "21506efc8f48caf6ceab837e9ec371b4e9f10adc180855f912e83c217884ed90"
+      },
+      "original_vendor_adjustment_row": {
+        "code": "sh.600754",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.955705",
+        "backAdjustFactor": "2.408435",
+        "adjustFactor": "2.408435"
+      },
+      "original_vendor_adjustment_row_sha256": "4f24d07f5211e118768b2b9e6e8ef162e9599e5560ea55698c347ccdeab4118d",
+      "related_existing_vendor_distribution": {
+        "code": "sh.600754",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-06-29",
+        "dividPlanAnnounceDate": "2024-04-02",
+        "dividPlanDate": "2024-07-06",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "0.45或0.5",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派5元（含税，扣税后4.5或5元）",
+        "dividReserveToStockPs": ""
+      },
+      "related_vendor_distribution_sha256": "10230b5e722e774c2cf86d903833e93c518dfc7935f6f8a42797fc980fc70aa7",
+      "raw_source_bars_near_primary_ex_and_vendor_factor": [
+        {
+          "date": "2024-07-11",
+          "code": "sh.600754",
+          "open": "22.5000",
+          "high": "23.1400",
+          "low": "22.3600",
+          "close": "23.1200",
+          "preclose": "22.1200",
+          "volume": "10511046",
+          "amount": "239937265.4500",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-12",
+          "code": "sh.600754",
+          "open": "22.8000",
+          "high": "23.0800",
+          "low": "22.6600",
+          "close": "22.9800",
+          "preclose": "22.6200",
+          "volume": "9176290",
+          "amount": "209890421.6800",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-15",
+          "code": "sh.600754",
+          "open": "23.3500",
+          "high": "24.2900",
+          "low": "23.0600",
+          "close": "23.9300",
+          "preclose": "22.9800",
+          "volume": "20136281",
+          "amount": "477888311.7900",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "primary_exdate_matches_vendor_existing_distribution": true,
+      "existing_vendor_cash_numeric_value_matches_primary": true,
+      "factor_day_equals_primary_exdate": false,
+      "factor_day_is_next_explicit_session_after_primary_exdate": true,
+      "primary_notice_authenticates_vendor_factor_date_semantics": false,
+      "second_distribution_at_factor_day_supported": false,
+      "needs_new_primary_cash_event_because_vendor_row_missing": false,
+      "needs_real_cash_precision_completion": false,
+      "cash_precision_assessment": "Vendor and primary gross cash are numerically identical; extra displayed zeros, tax-net examples and diluted price-reference amounts do not justify precision completion.",
+      "notes": [
+        "Use A-share CNY0.5, recordJul11/ex-and-payJul12. B-share USD0.070161, recordJul16/payJul25 belong to900934and must not enter600754A-share economics. B-share exdate is alsoJul12; it does not explain aJul15cash event."
+      ],
+      "explicit_unknowns": [
+        "Captured publication/signature dates do not authenticate historical first-availability or arrival.",
+        "BaoStock adjustment-date and factor-column production semantics are not described by this issuer notice; no provider documentation/source provenance establishes the date mechanism.",
+        "This notice does not support a second cash entitlement at the factor date.",
+        "Vendor AGM field differs from the primary meeting date; retain original vendor metadata and record the discrepancy without silently rewriting it."
+      ],
+      "formal_source_proof_projected": false,
+      "source_admitted_for_account_replay": false
+    },
+    "SH601098|2024-07-15": {
+      "case_id": "SH601098|2024-07-15",
+      "classification": "EXISTING_VENDOR_DIVIDEND_CONFIRMED_FACTOR_NEXT_EXPLICIT_SESSION_SEMANTICS_UNAUTHENTICATED",
+      "source_pdf": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/SH601098-2024-07-05.pdf",
+        "sha256": "86065bbe62101d50566a72a02934719b7e4cfe4b1ebd13f05589a02503b555d2",
+        "title": "中南传媒2023年年度权益分派实施公告",
+        "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+        "publication_day": "2024-07-05"
+      },
+      "complete_text_pages_read_one_based": [
+        1,
+        2,
+        3
+      ],
+      "complete_pages_rendered_one_based": [
+        1,
+        2,
+        3
+      ],
+      "visually_reviewed_full_pages_one_based": [
+        1,
+        2
+      ],
+      "field_pages_one_based": {
+        "cash": [
+          1
+        ],
+        "dates": [
+          1,
+          2
+        ],
+        "cash_only_scheme": [
+          1
+        ],
+        "signature": [
+          3
+        ]
+      },
+      "page_image_sha256": {
+        "1": "55b3ad9c0ba86b19cfb4a5b719ad2f460c15d49e7cd385876d64c8e1333f9839",
+        "2": "4c31b340aad2b25738fb87ce932e64d79cc2df7cb52c8e18a8e17d876b5350fb",
+        "3": "f9147a5c8007ce598d7c08ceb276f2650c367ede6f00fac9e7c383276d2bfd39"
+      },
+      "extracted_complete_text_sha256": "bb7786f8e5168b0fc02c1762662857fa89c4157c05e097a7ad28c1d41a92ea0b",
+      "primary_economic_facts": {
+        "issuer": "中南出版传媒集团股份有限公司",
+        "announcement_number": "临2024-019",
+        "publication_day_from_capture_and_signature": "2024-07-05",
+        "signature_day": "2024-07-05",
+        "share_class": "A",
+        "currency": "CNY",
+        "cash_per_eligible_original_share_gross": "0.55",
+        "cash_per10_eligible_original_shares_gross": "5.5",
+        "per10_conversion_derived_only_for_display": true,
+        "shareholder_meeting_day": "2024-05-23",
+        "record_day": "2024-07-11",
+        "ex_day": "2024-07-12",
+        "cash_payment_day": "2024-07-12",
+        "operative_scheme": "CASH_ONLY",
+        "new_stock_distribution_supported": false,
+        "new_capital_transfer_supported": false,
+        "price_reference_deduction_per_total_share_if_explicit": null,
+        "price_reference_is_approximate": null,
+        "price_reference_is_not_holder_cash_entitlement": false,
+        "eligible_share_base_if_stated": "1796000000",
+        "excluded_buyback_shares_if_stated": null,
+        "declared_total_gross_cash_if_stated": "987800000.00",
+        "payment_scope": "Issuer stated delegated A-share cash payment date; actual individual receipt and separately self-paid holders are not independently authenticated.",
+        "tax_scope": "Gross source amount only. No new FIFO settlement, statutory tax-exemption, or actual investor tax certification."
+      },
+      "original_vendor_packet": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH601098.json",
+        "sha256": "d2e9de86eca3e2767e686743be4ac4520544abe4f206a7855ec446320762adf0"
+      },
+      "original_vendor_adjustment_row": {
+        "code": "sh.601098",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.910296",
+        "backAdjustFactor": "1.634860",
+        "adjustFactor": "1.634860"
+      },
+      "original_vendor_adjustment_row_sha256": "7236b55550905e6c272a6a1507f7f2fee1c0adeb860201104f024ced75ad58dc",
+      "related_existing_vendor_distribution": {
+        "code": "sh.601098",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-24",
+        "dividPlanAnnounceDate": "2024-04-27",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.55",
+        "dividCashPsAfterTax": "0.495或0.55",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派5.5元（含税，扣税后4.95或5.5元）",
+        "dividReserveToStockPs": ""
+      },
+      "related_vendor_distribution_sha256": "88a8a5489227b4402bfa5f07c9acca0d3c561447b71b755b425d3f2d31269227",
+      "raw_source_bars_near_primary_ex_and_vendor_factor": [
+        {
+          "date": "2024-07-11",
+          "code": "sh.601098",
+          "open": "12.5000",
+          "high": "12.5500",
+          "low": "12.0000",
+          "close": "12.1300",
+          "preclose": "12.3800",
+          "volume": "13712054",
+          "amount": "166602393.9800",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-12",
+          "code": "sh.601098",
+          "open": "11.5800",
+          "high": "11.7300",
+          "low": "11.5500",
+          "close": "11.6600",
+          "preclose": "11.5800",
+          "volume": "7862798",
+          "amount": "91521017.8400",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-15",
+          "code": "sh.601098",
+          "open": "11.6700",
+          "high": "12.3200",
+          "low": "11.6000",
+          "close": "12.1200",
+          "preclose": "11.6600",
+          "volume": "12935700",
+          "amount": "155835954.1200",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "primary_exdate_matches_vendor_existing_distribution": true,
+      "existing_vendor_cash_numeric_value_matches_primary": true,
+      "factor_day_equals_primary_exdate": false,
+      "factor_day_is_next_explicit_session_after_primary_exdate": true,
+      "primary_notice_authenticates_vendor_factor_date_semantics": false,
+      "second_distribution_at_factor_day_supported": false,
+      "needs_new_primary_cash_event_because_vendor_row_missing": false,
+      "needs_real_cash_precision_completion": false,
+      "cash_precision_assessment": "Vendor and primary gross cash are numerically identical; extra displayed zeros, tax-net examples and diluted price-reference amounts do not justify precision completion.",
+      "notes": [],
+      "explicit_unknowns": [
+        "Captured publication/signature dates do not authenticate historical first-availability or arrival.",
+        "BaoStock adjustment-date and factor-column production semantics are not described by this issuer notice; no provider documentation/source provenance establishes the date mechanism.",
+        "This notice does not support a second cash entitlement at the factor date.",
+        "Vendor AGM field differs from the primary meeting date; retain original vendor metadata and record the discrepancy without silently rewriting it."
+      ],
+      "formal_source_proof_projected": false,
+      "source_admitted_for_account_replay": false
+    },
+    "SH601228|2024-07-15": {
+      "case_id": "SH601228|2024-07-15",
+      "classification": "EXISTING_VENDOR_DIVIDEND_CONFIRMED_FACTOR_NEXT_EXPLICIT_SESSION_SEMANTICS_UNAUTHENTICATED",
+      "source_pdf": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/SH601228-2024-07-05.pdf",
+        "sha256": "2f143ea8feea4a1b364fe38f5a81467b0fe07d591c269ebbc3d15cafa3c213a7",
+        "title": "广州港股份有限公司2023年年度权益分派实施公告",
+        "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+        "publication_day": "2024-07-05"
+      },
+      "complete_text_pages_read_one_based": [
+        1,
+        2,
+        3
+      ],
+      "complete_pages_rendered_one_based": [
+        1,
+        2,
+        3
+      ],
+      "visually_reviewed_full_pages_one_based": [
+        1,
+        2
+      ],
+      "field_pages_one_based": {
+        "cash": [
+          1
+        ],
+        "dates": [
+          1,
+          2
+        ],
+        "cash_only_scheme": [
+          1
+        ],
+        "signature": [
+          3
+        ]
+      },
+      "page_image_sha256": {
+        "1": "2c2c172fa106b25232398e72b61fc52fe6d3183d9c82ad139c02521f09cc8b87",
+        "2": "f77b0a004343db9c8447421c90e504aa45ceff67f557cb9265717474387ffb3a",
+        "3": "aaf0ea67f22b6cc3b2c2c76ae0be8aad0f782ab95fc3c5cecfb8b6948dd451b3"
+      },
+      "extracted_complete_text_sha256": "d66eb982f1cdd4faeba142956fb95fa3aa5856ff0903d43bc371958047f73cef",
+      "primary_economic_facts": {
+        "issuer": "广州港股份有限公司",
+        "announcement_number": "2024-034",
+        "publication_day_from_capture_and_signature": "2024-07-05",
+        "signature_day": "2024-07-05",
+        "share_class": "A",
+        "currency": "CNY",
+        "cash_per_eligible_original_share_gross": "0.043",
+        "cash_per10_eligible_original_shares_gross": "0.43",
+        "per10_conversion_derived_only_for_display": true,
+        "shareholder_meeting_day": "2024-05-21",
+        "record_day": "2024-07-11",
+        "ex_day": "2024-07-12",
+        "cash_payment_day": "2024-07-12",
+        "operative_scheme": "CASH_ONLY",
+        "new_stock_distribution_supported": false,
+        "new_capital_transfer_supported": false,
+        "price_reference_deduction_per_total_share_if_explicit": null,
+        "price_reference_is_approximate": null,
+        "price_reference_is_not_holder_cash_entitlement": false,
+        "eligible_share_base_if_stated": "7544531351",
+        "excluded_buyback_shares_if_stated": null,
+        "declared_total_gross_cash_if_stated": "324414848.09",
+        "payment_scope": "Issuer stated delegated A-share cash payment date; actual individual receipt and separately self-paid holders are not independently authenticated.",
+        "tax_scope": "Gross source amount only. No new FIFO settlement, statutory tax-exemption, or actual investor tax certification."
+      },
+      "original_vendor_packet": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH601228.json",
+        "sha256": "478fd24370817e597de4bdb537a02500265a8de69e618cf75244ca654a2a8838"
+      },
+      "original_vendor_adjustment_row": {
+        "code": "sh.601228",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.978449",
+        "backAdjustFactor": "1.087319",
+        "adjustFactor": "1.087319"
+      },
+      "original_vendor_adjustment_row_sha256": "c892d873c90ddb358a93128f4619d18ac783ae3864985c94e717f8721bf9f2b3",
+      "related_existing_vendor_distribution": {
+        "code": "sh.601228",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-22",
+        "dividPlanAnnounceDate": "2024-04-09",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.043",
+        "dividCashPsAfterTax": "0.0387或0.043",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派0.43元（含税，扣税后0.387或0.43元）",
+        "dividReserveToStockPs": ""
+      },
+      "related_vendor_distribution_sha256": "699649d3d8ca3f3b52322d1a5f39c1e300610657cbe49f2c12b71599aa0892ba",
+      "raw_source_bars_near_primary_ex_and_vendor_factor": [
+        {
+          "date": "2024-07-11",
+          "code": "sh.601228",
+          "open": "3.0900",
+          "high": "3.1100",
+          "low": "3.0800",
+          "close": "3.1000",
+          "preclose": "3.0600",
+          "volume": "17889900",
+          "amount": "55394319.0000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-12",
+          "code": "sh.601228",
+          "open": "3.0800",
+          "high": "3.0800",
+          "low": "3.0400",
+          "close": "3.0500",
+          "preclose": "3.0600",
+          "volume": "14641948",
+          "amount": "44778440.4000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-15",
+          "code": "sh.601228",
+          "open": "3.0500",
+          "high": "3.0700",
+          "low": "3.0200",
+          "close": "3.0500",
+          "preclose": "3.0500",
+          "volume": "17210692",
+          "amount": "52369290.0800",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "primary_exdate_matches_vendor_existing_distribution": true,
+      "existing_vendor_cash_numeric_value_matches_primary": true,
+      "factor_day_equals_primary_exdate": false,
+      "factor_day_is_next_explicit_session_after_primary_exdate": true,
+      "primary_notice_authenticates_vendor_factor_date_semantics": false,
+      "second_distribution_at_factor_day_supported": false,
+      "needs_new_primary_cash_event_because_vendor_row_missing": false,
+      "needs_real_cash_precision_completion": false,
+      "cash_precision_assessment": "Vendor and primary gross cash are numerically identical; extra displayed zeros, tax-net examples and diluted price-reference amounts do not justify precision completion.",
+      "notes": [],
+      "explicit_unknowns": [
+        "Captured publication/signature dates do not authenticate historical first-availability or arrival.",
+        "BaoStock adjustment-date and factor-column production semantics are not described by this issuer notice; no provider documentation/source provenance establishes the date mechanism.",
+        "This notice does not support a second cash entitlement at the factor date.",
+        "Vendor AGM field differs from the primary meeting date; retain original vendor metadata and record the discrepancy without silently rewriting it."
+      ],
+      "formal_source_proof_projected": false,
+      "source_admitted_for_account_replay": false
+    },
+    "SH601928|2024-07-15": {
+      "case_id": "SH601928|2024-07-15",
+      "classification": "EXISTING_VENDOR_DIVIDEND_CONFIRMED_FACTOR_NEXT_EXPLICIT_SESSION_SEMANTICS_UNAUTHENTICATED",
+      "source_pdf": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/SH601928-2024-07-05.pdf",
+        "sha256": "cca49ab308e431106399224f486ff6f6c5be5cdd191bcc1a0e6abf2800966dd5",
+        "title": "凤凰传媒2023年年度权益分派实施公告",
+        "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+        "publication_day": "2024-07-05"
+      },
+      "complete_text_pages_read_one_based": [
+        1,
+        2,
+        3
+      ],
+      "complete_pages_rendered_one_based": [
+        1,
+        2,
+        3
+      ],
+      "visually_reviewed_full_pages_one_based": [
+        1,
+        2
+      ],
+      "field_pages_one_based": {
+        "cash": [
+          1
+        ],
+        "dates": [
+          1,
+          2
+        ],
+        "cash_only_scheme": [
+          1
+        ],
+        "signature": [
+          3
+        ]
+      },
+      "page_image_sha256": {
+        "1": "acdf2dc0cd1a18b7cb14f268444238657133fa86393e51125bab66818ca6d569",
+        "2": "ee8dd02a40280f48e40d7ce89805ed1048f5c7898b84965f088f46d24fde63cd",
+        "3": "d24ef4c7690bfefe95d32943664eba87f3f6c8b5aeba110fcbd7384be3e6da45"
+      },
+      "extracted_complete_text_sha256": "a8526c3190562f63fb398a8b7bbcbcc8afb6bb1020415ad95f8d54922c6e53a5",
+      "primary_economic_facts": {
+        "issuer": "江苏凤凰出版传媒股份有限公司",
+        "announcement_number": "2024-023",
+        "publication_day_from_capture_and_signature": "2024-07-05",
+        "signature_day": "2024-07-05",
+        "share_class": "A",
+        "currency": "CNY",
+        "cash_per_eligible_original_share_gross": "0.5",
+        "cash_per10_eligible_original_shares_gross": "5",
+        "per10_conversion_derived_only_for_display": true,
+        "shareholder_meeting_day": "2024-05-16",
+        "record_day": "2024-07-11",
+        "ex_day": "2024-07-12",
+        "cash_payment_day": "2024-07-12",
+        "operative_scheme": "CASH_ONLY",
+        "new_stock_distribution_supported": false,
+        "new_capital_transfer_supported": false,
+        "price_reference_deduction_per_total_share_if_explicit": null,
+        "price_reference_is_approximate": null,
+        "price_reference_is_not_holder_cash_entitlement": false,
+        "eligible_share_base_if_stated": "2544900000",
+        "excluded_buyback_shares_if_stated": null,
+        "declared_total_gross_cash_if_stated": "1272450000.00",
+        "payment_scope": "Issuer stated delegated A-share cash payment date; actual individual receipt and separately self-paid holders are not independently authenticated.",
+        "tax_scope": "Gross source amount only. No new FIFO settlement, statutory tax-exemption, or actual investor tax certification."
+      },
+      "original_vendor_packet": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH601928.json",
+        "sha256": "ce3956a6ef810aa566700bc02c56fc523b06677cb2f8a81829d58dc55342e77b"
+      },
+      "original_vendor_adjustment_row": {
+        "code": "sh.601928",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.908267",
+        "backAdjustFactor": "1.539891",
+        "adjustFactor": "1.539891"
+      },
+      "original_vendor_adjustment_row_sha256": "03955c75591e608b5f15e22672cfaa69b7ba272a8d8f65e1d9069072ee1bea5e",
+      "related_existing_vendor_distribution": {
+        "code": "sh.601928",
+        "dividPreNoticeDate": "2024-03-07",
+        "dividAgmPumDate": "2024-05-17",
+        "dividPlanAnnounceDate": "2024-04-23",
+        "dividPlanDate": "2024-07-05",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "0.45或0.5",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派5元（含税，扣税后4.5或5元）",
+        "dividReserveToStockPs": ""
+      },
+      "related_vendor_distribution_sha256": "7ab4973b37a4c87f99870cdea2cd2ce425c89f29daa5ed400ca54c36cf2227ba",
+      "raw_source_bars_near_primary_ex_and_vendor_factor": [
+        {
+          "date": "2024-07-11",
+          "code": "sh.601928",
+          "open": "10.9600",
+          "high": "11.0300",
+          "low": "10.4800",
+          "close": "10.7500",
+          "preclose": "10.9100",
+          "volume": "19019129",
+          "amount": "203311843.4500",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-12",
+          "code": "sh.601928",
+          "open": "10.2400",
+          "high": "10.3600",
+          "low": "10.0100",
+          "close": "10.2000",
+          "preclose": "10.2500",
+          "volume": "17183820",
+          "amount": "175240676.2300",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-15",
+          "code": "sh.601928",
+          "open": "10.2500",
+          "high": "10.7900",
+          "low": "10.0700",
+          "close": "10.5000",
+          "preclose": "10.2000",
+          "volume": "18641739",
+          "amount": "195557319.9900",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "primary_exdate_matches_vendor_existing_distribution": true,
+      "existing_vendor_cash_numeric_value_matches_primary": true,
+      "factor_day_equals_primary_exdate": false,
+      "factor_day_is_next_explicit_session_after_primary_exdate": true,
+      "primary_notice_authenticates_vendor_factor_date_semantics": false,
+      "second_distribution_at_factor_day_supported": false,
+      "needs_new_primary_cash_event_because_vendor_row_missing": false,
+      "needs_real_cash_precision_completion": false,
+      "cash_precision_assessment": "Vendor and primary gross cash are numerically identical; extra displayed zeros, tax-net examples and diluted price-reference amounts do not justify precision completion.",
+      "notes": [],
+      "explicit_unknowns": [
+        "Captured publication/signature dates do not authenticate historical first-availability or arrival.",
+        "BaoStock adjustment-date and factor-column production semantics are not described by this issuer notice; no provider documentation/source provenance establishes the date mechanism.",
+        "This notice does not support a second cash entitlement at the factor date.",
+        "Vendor AGM field differs from the primary meeting date; retain original vendor metadata and record the discrepancy without silently rewriting it."
+      ],
+      "formal_source_proof_projected": false,
+      "source_admitted_for_account_replay": false
+    },
+    "SH603529|2024-07-15": {
+      "case_id": "SH603529|2024-07-15",
+      "classification": "EXISTING_VENDOR_DIVIDEND_CONFIRMED_FACTOR_NEXT_EXPLICIT_SESSION_SEMANTICS_UNAUTHENTICATED",
+      "source_pdf": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/SH603529-2024-07-06.pdf",
+        "sha256": "4c3d8c1d780fc300d844294cdfa37c78c540505ed5b09eb67da4d5281bfccfb5",
+        "title": "爱玛科技2023年年度权益分派实施公告",
+        "capture_route": "JOURNALED_ORIGINAL_PRIMARY_HTTP",
+        "publication_day": "2024-07-06"
+      },
+      "complete_text_pages_read_one_based": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "complete_pages_rendered_one_based": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "visually_reviewed_full_pages_one_based": [
+        1,
+        2,
+        3
+      ],
+      "field_pages_one_based": {
+        "cash": [
+          1,
+          2
+        ],
+        "dates": [
+          1,
+          3
+        ],
+        "no_capital_and_cash_only": [
+          2
+        ],
+        "reference": [
+          2
+        ],
+        "signature": [
+          5
+        ]
+      },
+      "page_image_sha256": {
+        "1": "45395df717751ff801deaacedada91d48a39e2e0beea633430c8bcb44d86c004",
+        "2": "84d1d1d1a4c5350c575c080a5b6b670fc5420a6d4069b1014ffb8eb91a860137",
+        "3": "d19df60d910393d37a1e12d191c26434247e19dffb068c07f9f363777ab71014",
+        "4": "8452b9a8623200c4e83ed65e7ecd4da958df2c2198a88054896c76135d28854c",
+        "5": "cb278bccff0ea97abcf6f096162ebbcf800469ff1b3986f0ff3e60f47d678248"
+      },
+      "extracted_complete_text_sha256": "51946ac0706eb939825fc1c35ba376a6df8c3344a6a4dd26fc8725be449fcbb4",
+      "primary_economic_facts": {
+        "issuer": "爱玛科技集团股份有限公司",
+        "announcement_number": "2024-062",
+        "publication_day_from_capture_and_signature": "2024-07-06",
+        "signature_day": "2024-07-06",
+        "share_class": "A",
+        "currency": "CNY",
+        "cash_per_eligible_original_share_gross": "0.534",
+        "cash_per10_eligible_original_shares_gross": "5.34",
+        "per10_conversion_derived_only_for_display": false,
+        "shareholder_meeting_day": "2024-05-30",
+        "record_day": "2024-07-11",
+        "ex_day": "2024-07-12",
+        "cash_payment_day": "2024-07-12",
+        "operative_scheme": "CASH_ONLY",
+        "new_stock_distribution_supported": false,
+        "new_capital_transfer_supported": false,
+        "price_reference_deduction_per_total_share_if_explicit": "0.5335",
+        "price_reference_is_approximate": true,
+        "price_reference_is_not_holder_cash_entitlement": true,
+        "eligible_share_base_if_stated": "861184824",
+        "excluded_buyback_shares_if_stated": "750524",
+        "declared_total_gross_cash_if_stated": "459872696.02",
+        "payment_scope": "Issuer stated delegated A-share cash payment date; actual individual receipt and separately self-paid holders are not independently authenticated.",
+        "tax_scope": "Gross source amount only. No new FIFO settlement, statutory tax-exemption, or actual investor tax certification."
+      },
+      "original_vendor_packet": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH603529.json",
+        "sha256": "66690103d0e880edf4002adfd7f22d790e2196cc4216c9e84dfa4d925258656f"
+      },
+      "original_vendor_adjustment_row": {
+        "code": "sh.603529",
+        "dividOperateDate": "2024-07-15",
+        "foreAdjustFactor": "0.915802",
+        "backAdjustFactor": "2.233399",
+        "adjustFactor": "2.233399"
+      },
+      "original_vendor_adjustment_row_sha256": "9eb6b6387bc68edb723ad34bb914f6aa6c0be8b31d5391518d54e655eaaccdbc",
+      "related_existing_vendor_distribution": {
+        "code": "sh.603529",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2024-05-31",
+        "dividPlanAnnounceDate": "2024-04-16",
+        "dividPlanDate": "2024-07-06",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.534",
+        "dividCashPsAfterTax": "0.4806或0.534",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派5.34元（含税，扣税后4.806或5.34元）",
+        "dividReserveToStockPs": ""
+      },
+      "related_vendor_distribution_sha256": "60ba281c8c210a93638cdb8dd12b495939990ff99eb706ddab2c4f9e20100c10",
+      "raw_source_bars_near_primary_ex_and_vendor_factor": [
+        {
+          "date": "2024-07-11",
+          "code": "sh.603529",
+          "open": "28.0100",
+          "high": "28.4600",
+          "low": "27.6600",
+          "close": "28.2900",
+          "preclose": "27.8600",
+          "volume": "4832319",
+          "amount": "136098305.3300",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-12",
+          "code": "sh.603529",
+          "open": "28.0600",
+          "high": "28.0600",
+          "low": "26.9800",
+          "close": "27.5900",
+          "preclose": "27.7600",
+          "volume": "3562182",
+          "amount": "97681925.3800",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-07-15",
+          "code": "sh.603529",
+          "open": "27.4700",
+          "high": "28.2000",
+          "low": "27.2600",
+          "close": "27.8800",
+          "preclose": "27.5900",
+          "volume": "4200782",
+          "amount": "116518234.9600",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "primary_exdate_matches_vendor_existing_distribution": true,
+      "existing_vendor_cash_numeric_value_matches_primary": true,
+      "factor_day_equals_primary_exdate": false,
+      "factor_day_is_next_explicit_session_after_primary_exdate": true,
+      "primary_notice_authenticates_vendor_factor_date_semantics": false,
+      "second_distribution_at_factor_day_supported": false,
+      "needs_new_primary_cash_event_because_vendor_row_missing": false,
+      "needs_real_cash_precision_completion": false,
+      "cash_precision_assessment": "Vendor and primary gross cash are numerically identical; extra displayed zeros, tax-net examples and diluted price-reference amounts do not justify precision completion.",
+      "notes": [
+        "0.534is actual gross per eligible original share;0.5335is the approximately diluted price-reference deduction, not a cash precision correction.",
+        "p4-5discuss convertible-bond conversion price39.64to39.11; that is not an extra ordinary-share dividend or stock award."
+      ],
+      "explicit_unknowns": [
+        "Captured publication/signature dates do not authenticate historical first-availability or arrival.",
+        "BaoStock adjustment-date and factor-column production semantics are not described by this issuer notice; no provider documentation/source provenance establishes the date mechanism.",
+        "This notice does not support a second cash entitlement at the factor date.",
+        "Vendor AGM field differs from the primary meeting date; retain original vendor metadata and record the discrepancy without silently rewriting it."
+      ],
+      "formal_source_proof_projected": false,
+      "source_admitted_for_account_replay": false
+    },
+    "SZ002244|2025-08-08": {
+      "case_id": "SZ002244|2025-08-08",
+      "classification": "EXISTING_VENDOR_DIVIDEND_CONFIRMED_FACTOR_NEXT_EXPLICIT_SESSION_SEMANTICS_UNAUTHENTICATED",
+      "source_pdf": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/SZ002244-2025-07-31.pdf",
+        "sha256": "16afce827ec2e1c0e1e38ac60642e8baa4099d0aa09faa98dbc08a9efa1f5ed4",
+        "title": "2024年年度利润分配实施公告",
+        "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+        "publication_day": "2025-07-31"
+      },
+      "complete_text_pages_read_one_based": [
+        1,
+        2,
+        3
+      ],
+      "complete_pages_rendered_one_based": [
+        1,
+        2,
+        3
+      ],
+      "visually_reviewed_full_pages_one_based": [
+        1,
+        2
+      ],
+      "field_pages_one_based": {
+        "cash": [
+          1,
+          2
+        ],
+        "dates": [
+          2
+        ],
+        "no_stock_no_capital": [
+          1
+        ],
+        "no_buyback": [
+          1
+        ],
+        "signature": [
+          3
+        ]
+      },
+      "page_image_sha256": {
+        "1": "08d2cc8a291a15217f85e6f75e0a8a651d21185a1549e887c6d4de87cd81c69d",
+        "2": "8aaa5ba284516a735a90aa057165c3845520754ef0cec19250aa5524043560b3",
+        "3": "7f558e19fceaeff1f71d34cb0f905d5a5d376185e0a6b596b250c64a1ac799e9"
+      },
+      "extracted_complete_text_sha256": "62db19d9d9f2b290d73c12382de81fed9192bea4033054a7ca857cda78c0feea",
+      "primary_economic_facts": {
+        "issuer": "杭州滨江房产集团股份有限公司",
+        "announcement_number": "2025-041",
+        "publication_day_from_capture_and_signature": "2025-07-31",
+        "signature_day": "2025-07-31",
+        "share_class": "A",
+        "currency": "CNY",
+        "cash_per_eligible_original_share_gross": "0.082",
+        "cash_per10_eligible_original_shares_gross": "0.820000",
+        "per10_conversion_derived_only_for_display": false,
+        "shareholder_meeting_day": "2025-06-09",
+        "record_day": "2025-08-06",
+        "ex_day": "2025-08-07",
+        "cash_payment_day": "2025-08-07",
+        "operative_scheme": "CASH_ONLY",
+        "new_stock_distribution_supported": false,
+        "new_capital_transfer_supported": false,
+        "price_reference_deduction_per_total_share_if_explicit": null,
+        "price_reference_is_approximate": null,
+        "price_reference_is_not_holder_cash_entitlement": false,
+        "eligible_share_base_if_stated": "3111443890",
+        "excluded_buyback_shares_if_stated": null,
+        "declared_total_gross_cash_if_stated": null,
+        "payment_scope": "Issuer stated delegated A-share cash payment date; actual individual receipt and separately self-paid holders are not independently authenticated.",
+        "tax_scope": "Gross source amount only. No new FIFO settlement, statutory tax-exemption, or actual investor tax certification."
+      },
+      "original_vendor_packet": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SZ002244.json",
+        "sha256": "1ea943d0e82fba7417a61cb659198713bdefe75ffa1e9a74dbb658dd86768b21"
+      },
+      "original_vendor_adjustment_row": {
+        "code": "sz.002244",
+        "dividOperateDate": "2025-08-08",
+        "foreAdjustFactor": "0.991637",
+        "backAdjustFactor": "6.697785",
+        "adjustFactor": "6.697785"
+      },
+      "original_vendor_adjustment_row_sha256": "2bd2163e1253b694d8595869c16488885f6eb47ace1e5ff0be39b2abd4ec6adf",
+      "related_existing_vendor_distribution": {
+        "code": "sz.002244",
+        "dividPreNoticeDate": "",
+        "dividAgmPumDate": "2025-06-10",
+        "dividPlanAnnounceDate": "2025-04-26",
+        "dividPlanDate": "2025-07-31",
+        "dividRegistDate": "2025-08-06",
+        "dividOperateDate": "2025-08-07",
+        "dividPayDate": "2025-08-07",
+        "dividStockMarketDate": "",
+        "dividCashPsBeforeTax": "0.082",
+        "dividCashPsAfterTax": "0.0738或0.082",
+        "dividStocksPs": "0.000000",
+        "dividCashStock": "10派0.82元（含税，扣税后0.738或0.82元）",
+        "dividReserveToStockPs": ""
+      },
+      "related_vendor_distribution_sha256": "b98c03b3fbdd98b9e016c06491a628d1ab7ebaa7c2e7303171c9a0e10a722a2e",
+      "raw_source_bars_near_primary_ex_and_vendor_factor": [
+        {
+          "date": "2025-08-06",
+          "code": "sz.002244",
+          "open": "9.6700",
+          "high": "9.6800",
+          "low": "9.5500",
+          "close": "9.6400",
+          "preclose": "9.6800",
+          "volume": "30088600",
+          "amount": "289089986.0000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2025-08-07",
+          "code": "sz.002244",
+          "open": "9.5600",
+          "high": "9.7900",
+          "low": "9.5300",
+          "close": "9.7600",
+          "preclose": "9.5600",
+          "volume": "48576776",
+          "amount": "469333812.6400",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2025-08-08",
+          "code": "sz.002244",
+          "open": "9.7300",
+          "high": "9.8200",
+          "low": "9.6800",
+          "close": "9.7300",
+          "preclose": "9.7600",
+          "volume": "30839245",
+          "amount": "300792386.2300",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "primary_exdate_matches_vendor_existing_distribution": true,
+      "existing_vendor_cash_numeric_value_matches_primary": true,
+      "factor_day_equals_primary_exdate": false,
+      "factor_day_is_next_explicit_session_after_primary_exdate": true,
+      "primary_notice_authenticates_vendor_factor_date_semantics": false,
+      "second_distribution_at_factor_day_supported": false,
+      "needs_new_primary_cash_event_because_vendor_row_missing": false,
+      "needs_real_cash_precision_completion": false,
+      "cash_precision_assessment": "Vendor and primary gross cash are numerically identical; extra displayed zeros, tax-net examples and diluted price-reference amounts do not justify precision completion.",
+      "notes": [
+        "The issuer says no repurchase account/shares, no stock bonus and no capital transfer.0.820000per10is exactly0.082per1; extra displayed zeros do not require a precision correction."
+      ],
+      "explicit_unknowns": [
+        "Captured publication/signature dates do not authenticate historical first-availability or arrival.",
+        "BaoStock adjustment-date and factor-column production semantics are not described by this issuer notice; no provider documentation/source provenance establishes the date mechanism.",
+        "This notice does not support a second cash entitlement at the factor date.",
+        "Vendor AGM field differs from the primary meeting date; retain original vendor metadata and record the discrepancy without silently rewriting it."
+      ],
+      "formal_source_proof_projected": false,
+      "source_admitted_for_account_replay": false
+    },
+    "SZ002508|2024-01-10": {
+      "case_id": "SZ002508|2024-01-10",
+      "classification": "MISSING_VENDOR_CASH_EVENT_PRIMARY_NOTICE_SUPPORTS_SUPPLEMENT_REVIEW",
+      "source_pdf": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-corporate-primary-20261021/SZ002508-1218790856.pdf",
+        "sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0",
+        "title": "特别分红权益分派实施公告",
+        "capture_route": "BYTE_IDENTICAL_REVIEWED_PRIMARY_REUSE",
+        "publication_day": "2024-01-03"
+      },
+      "complete_text_pages_read_one_based": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete_pages_rendered_one_based": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "visually_reviewed_full_pages_one_based": [
+        1,
+        2,
+        3
+      ],
+      "field_pages_one_based": {
+        "cash": [
+          1,
+          2,
+          3
+        ],
+        "record_ex": [
+          1,
+          2
+        ],
+        "payment": [
+          3
+        ],
+        "no_stock_no_capital": [
+          1
+        ],
+        "reference": [
+          1,
+          3
+        ],
+        "signature": [
+          4
+        ]
+      },
+      "page_image_sha256": {
+        "1": "53d469185c7a860c119418c6f5e9f71271bc8a09314b684ed85dd544c589c198",
+        "2": "a3c3b2e905e0c9624fa51deef99f8e04dbe7d787a2ebc0e262a7117ad92cfbfa",
+        "3": "9f860d57e483502db9c07c4bf1940436e1046737193a537d64af7b52b503a683",
+        "4": "6654f20f83e1c16e136b479ff8760ed838153be892ea9e72aeec3df10bd8f09f"
+      },
+      "extracted_complete_text_sha256": "6ab01585e8400f8132b4dccbaec1bae562609f348f85d87cf02c3439e9f0294e",
+      "primary_economic_facts": {
+        "issuer": "杭州老板电器股份有限公司",
+        "announcement_number": "2024-001",
+        "publication_day_from_capture_and_signature": "2024-01-03",
+        "signature_day": "2024-01-03",
+        "share_class": "A",
+        "currency": "CNY",
+        "cash_per_eligible_original_share_gross": "0.50",
+        "cash_per10_eligible_original_shares_gross": "5.00",
+        "per10_conversion_derived_only_for_display": false,
+        "shareholder_meeting_day": "2023-12-29",
+        "record_day": "2024-01-09",
+        "ex_day": "2024-01-10",
+        "cash_payment_day": "2024-01-10",
+        "operative_scheme": "CASH_ONLY",
+        "new_stock_distribution_supported": false,
+        "new_capital_transfer_supported": false,
+        "price_reference_deduction_per_total_share_if_explicit": "0.497403",
+        "price_reference_is_approximate": false,
+        "price_reference_is_not_holder_cash_entitlement": true,
+        "eligible_share_base_if_stated": "944094916",
+        "excluded_buyback_shares_if_stated": "4929134",
+        "declared_total_gross_cash_if_stated": "472047458.00",
+        "payment_scope": "Issuer stated delegated A-share cash payment date; actual individual receipt and separately self-paid holders are not independently authenticated.",
+        "tax_scope": "Gross source amount only. No new FIFO settlement, statutory tax-exemption, or actual investor tax certification."
+      },
+      "original_vendor_packet": {
+        "file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SZ002508.json",
+        "sha256": "d537ebc42a543e52ee7e3c4baaa2e220ead386faea25b7a27a1fbe30770889f6"
+      },
+      "original_vendor_adjustment_row": {
+        "code": "sz.002508",
+        "dividOperateDate": "2024-01-10",
+        "foreAdjustFactor": "0.854886",
+        "backAdjustFactor": "7.232775",
+        "adjustFactor": "7.232775"
+      },
+      "original_vendor_adjustment_row_sha256": "406d60d9928e0b096b6f62918fbead08008b567f138dd756df44089bbdcea46c",
+      "related_existing_vendor_distribution": null,
+      "related_vendor_distribution_sha256": null,
+      "raw_source_bars_near_primary_ex_and_vendor_factor": [
+        {
+          "date": "2024-01-09",
+          "code": "sz.002508",
+          "open": "21.0100",
+          "high": "21.4400",
+          "low": "20.8500",
+          "close": "21.3500",
+          "preclose": "20.9700",
+          "volume": "6281583",
+          "amount": "133526330.2000",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "date": "2024-01-10",
+          "code": "sz.002508",
+          "open": "20.8600",
+          "high": "21.5000",
+          "low": "20.7300",
+          "close": "21.2200",
+          "preclose": "20.8500",
+          "volume": "6841653",
+          "amount": "145199213.0500",
+          "adjustflag": "3",
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "primary_exdate_matches_vendor_existing_distribution": false,
+      "existing_vendor_cash_numeric_value_matches_primary": null,
+      "factor_day_equals_primary_exdate": true,
+      "factor_day_is_next_explicit_session_after_primary_exdate": false,
+      "primary_notice_authenticates_vendor_factor_date_semantics": false,
+      "second_distribution_at_factor_day_supported": false,
+      "needs_new_primary_cash_event_because_vendor_row_missing": true,
+      "needs_real_cash_precision_completion": false,
+      "cash_precision_assessment": "No vendor row exists for this economic event; adding a separately reviewed primary cash event is not a precision correction.",
+      "notes": [
+        "Eligible ordinary original shares receive0.50gross/share.0.497403is the declared whole-capital ex-price deduction and must not replace0.50cash.",
+        "The notice excludes4,929,134repurchased shares from949,024,050total, leaving944,094,916eligible. The gross total is472,047,458.00.",
+        "ChinaClear-delegated cash is stated forJan10; four named self-paying shareholders are listed separately. Their actual receipt is not independently verified."
+      ],
+      "explicit_unknowns": [
+        "Source adjustment date agrees with the primary economic exdate, but vendor factor methodology itself is not authenticated.",
+        "Primary payment dates do not independently prove actual cash arrival or a simulation settlement convention.",
+        "Historical first-public availability and observed arrival are not authenticated."
+      ],
+      "formal_source_proof_projected": false,
+      "source_admitted_for_account_replay": false
+    }
+  },
+  "all7_vendor_AGM_date_discrepancies_retained": [
+    {
+      "case_id": "SH600390|2024-07-15",
+      "vendor_dividAgmPumDate": "2024-05-18",
+      "primary_stated_meeting_day": "2024-05-17",
+      "primary_page": 1,
+      "raw_row_unchanged": true,
+      "field_semantics_or_vendor_date_offset_unresolved": true
+    },
+    {
+      "case_id": "SH600754|2024-07-15",
+      "vendor_dividAgmPumDate": "2024-06-29",
+      "primary_stated_meeting_day": "2024-06-28",
+      "primary_page": 1,
+      "raw_row_unchanged": true,
+      "field_semantics_or_vendor_date_offset_unresolved": true
+    },
+    {
+      "case_id": "SH601098|2024-07-15",
+      "vendor_dividAgmPumDate": "2024-05-24",
+      "primary_stated_meeting_day": "2024-05-23",
+      "primary_page": 1,
+      "raw_row_unchanged": true,
+      "field_semantics_or_vendor_date_offset_unresolved": true
+    },
+    {
+      "case_id": "SH601228|2024-07-15",
+      "vendor_dividAgmPumDate": "2024-05-22",
+      "primary_stated_meeting_day": "2024-05-21",
+      "primary_page": 1,
+      "raw_row_unchanged": true,
+      "field_semantics_or_vendor_date_offset_unresolved": true
+    },
+    {
+      "case_id": "SH601928|2024-07-15",
+      "vendor_dividAgmPumDate": "2024-05-17",
+      "primary_stated_meeting_day": "2024-05-16",
+      "primary_page": 1,
+      "raw_row_unchanged": true,
+      "field_semantics_or_vendor_date_offset_unresolved": true
+    },
+    {
+      "case_id": "SH603529|2024-07-15",
+      "vendor_dividAgmPumDate": "2024-05-31",
+      "primary_stated_meeting_day": "2024-05-30",
+      "primary_page": 1,
+      "raw_row_unchanged": true,
+      "field_semantics_or_vendor_date_offset_unresolved": true
+    },
+    {
+      "case_id": "SZ002244|2025-08-08",
+      "vendor_dividAgmPumDate": "2025-06-10",
+      "primary_stated_meeting_day": "2025-06-09",
+      "primary_page": 1,
+      "raw_row_unchanged": true,
+      "field_semantics_or_vendor_date_offset_unresolved": true
+    }
+  ],
+  "source_economic_dates_authenticated_from_notices": true,
+  "vendor_factor_recording_date_semantics_authenticated": false,
+  "vendor_records_modified": false,
+  "formal_evaluator_proof_projected": false,
+  "account_replay_performed": false,
+  "portfolio_returns_computed": false,
+  "network_calls": 0,
+  "new_2026_values_read": false,
+  "historical_arrival_verified": false,
+  "actual_FIFO_tax_liability_verified": false,
+  "source_admitted_for_account_replay": false,
+  "limitations": [
+    "Independent original-content review only. The10selected PDFs were read completely;22complete key pages were additionally visually inspected after rendering all35pages.",
+    "The7later factor dates are the next sessions after independently documented exdates. This calendar relationship does not prove a vendor factor-production rule or create a second distribution.",
+    "Only3missing vendor economic events have primary support for later separately frozen supplementation. No primary event record/proof projection is created here.",
+    "The7AGM metadata offsets and theSH600167zero-share-change numerator typo remain explicit. Primary economic cash/record/ex/payment fields are reported separately."
+  ]
+}
