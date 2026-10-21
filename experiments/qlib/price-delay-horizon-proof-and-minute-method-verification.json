@@ -1,0 +1,28 @@
+{
+  "status": "SOURCE_PROJECTION_AND_MINUTE_INVENTORY_METHODS_VERIFIED_BEFORE_EXECUTION",
+  "proof_projection_request_sha256": "4b2c8860037ee7b75c0d63f721726f9092a83137d8353f90a6eed0c0c2546998",
+  "minute_inventory_request_sha256": "110a70fa2c40a6429352842a0f152796721d6c5268845269c6ec93f23b13dc28",
+  "full_suite": {
+    "tests": 646,
+    "exit_code": 0,
+    "seconds": 12.465,
+    "log_sha256": "cdaecf5c3d363a6c4f5eb32218dbcef5fb1cf0c154b45c10273669050b7f3b2b"
+  },
+  "final_focused_suite": {
+    "tests": 39,
+    "exit_code": 0,
+    "log_sha256": "e95d2ef90aca5f5142bc7fdf31e3e85742894b9ce1f8450cc8158d672d48acbf"
+  },
+  "final_EOF_only_change_AST_identical": true,
+  "guarded_final_proof_preflight_exit_code": 0,
+  "independent_review_sha256": {
+    "experiments/qlib/price-delay-horizon-proof-projection-code-review.json": "492895eb79bb7fb2bd35d68bcca186123450bf8628d9c345e246aa9b190ec0b1",
+    "experiments/qlib/price-delay-horizon-proof-projection-code-review-final.json": "6597cc1581f7a94375d293b1a528f34674d576beba01e0cd1d07680d238780ea",
+    "experiments/qlib/price-delay-horizon-minute-inventory-code-review.json": "c17bfff44213df6c074768f665bd33f47f36e68100e8f5f020ea0ff800855084"
+  },
+  "actual_projection_or_minute_inventory_executed": false,
+  "events_compiled": false,
+  "portfolio_returns_computed": false,
+  "source_admitted_for_account_replay": false,
+  "objective_achieved": false
+}

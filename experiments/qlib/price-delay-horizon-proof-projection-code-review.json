@@ -1,0 +1,57 @@
+{
+  "status": "PROOF_PROJECTION_CODE_REVIEW_PASS_AFTER_CANONICAL_AND_FINANCIAL_RECHECK_FIXES",
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "resolved_findings": [
+    {
+      "severity": "Important",
+      "issue": "Old378 independent audit was only hash-listed, not used to authenticate current old summary/reviewed/raw identities.",
+      "fix": "Fixed prior audit SHA plus status, summary/reviewed/raw SHA,378paired counts and complete independent reconstruction flags are now checked; old summary artifact map binds all event/proof/receipt bytes."
+    },
+    {
+      "severity": "Important",
+      "issue": "Post-projection financial check compared summary metadata maps without recalculating48actual file hashes.",
+      "fix": "recheck now authenticates immutable_financial_sha256 actual file bytes before/after projection."
+    }
+  ],
+  "request_sha256": "a240460afb6bf8ea071176c62102950108d5e1f49ce04ef1eda1e8c36bc2d9a5",
+  "reviewed_file_sha256": {
+    "scripts/price_delay_horizon_proof_projection.py": "fd49f487bb067c8b2887e6ff6ca503283dabde39e70a29273115e6928e246b8e",
+    "scripts/prepare_price_delay_horizon_proofs.py": "c7a3642b374ae946864644905e38471dfa8dfffe58a62362c6be63df13349a9b",
+    "tests/test_price_delay_horizon_proof_projection.py": "9836e39f0e34c0ceed77e2fe28f39467eb903ddd30ea12b0e93088c95651deb7",
+    "tests/test_prepare_price_delay_horizon_proofs.py": "a075be61707f2a2ed155d41cc400ada49819bf1736c01ceab97b07303346260b",
+    "docs/research/price-delay-horizon-proof-projection-plan-2026-10-21.md": "9ea063b4ad62d634cf968080f4a1e0eb3c5477963b1c9b801b4a97dcd905ae9f"
+  },
+  "checks": {
+    "synthetic_tests_passed": 27,
+    "actual_final_preflight_exit_code": 0,
+    "preflight_project_sources_and_write_projection_mocked_to_raise_and_never_called": true,
+    "exact_method_public_local_counts": {
+      "method_code_sha256": 16,
+      "public_evidence_sha256": 21,
+      "local_source_sha256": 20
+    },
+    "primary_file_bindings": 66,
+    "primary_routes": {
+      "HTTP": 14,
+      "reviewed_byte_reuse": 3
+    },
+    "old378_and15PDF_and48financial_and5immutable_trees_authenticated": true,
+    "203raw_34targets_676calendar_and_old151_24_486_literal_prefixes_authenticated": true,
+    "fixed_dual_root_independent_review_reader_and_explicit_schema_mapping": true,
+    "six_cash_three_capital_975_precision_937_unknown_cached_objects_literal_in_synthetic_tests": true,
+    "two_new_cash_two_new_capital_one_new_unknown_and2831_precision_are_metadata_only": true,
+    "new17PDF_exclusive_bytecopy_writer_validates_hashes_before_creation": true,
+    "missing_original_HTTP_receipts_not_manufactured": true,
+    "unknown937_606_and_conditional2595_2831_and_old2024guard_retained": true
+  },
+  "limits": [
+    "No project_sources or write_projection invocation with real inputs; no actual projection output, event compilation, account or ROI.",
+    "Only request-bound preflight authenticated real saved sources; actual source metadata output remains unexecuted and requires independent output review after freeze/push.",
+    "Projection verified_exempt flags represent registered direct/conditional evidence categories, not statutory tax certification or registry/account admission.",
+    "Primary pages and content interpretations remain bound to original paired reviews; this code review does not re-review all17 economic notices."
+  ],
+  "ready_for_frozen_source_only_projection": true,
+  "actual_projection_executed": false
+}

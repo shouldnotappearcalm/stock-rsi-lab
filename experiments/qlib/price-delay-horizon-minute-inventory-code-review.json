@@ -1,0 +1,47 @@
+{
+  "status": "MINUTE_INVENTORY_STATIC_AND_SYNTHETIC_REVIEW_PASS_AFTER_ACTUAL_FINANCIAL_HASH_FIX",
+  "critical": [],
+  "important": [],
+  "minor": [],
+  "resolved_findings": [
+    {
+      "severity": "Important",
+      "issue": "verify_financial_prefix checked matching48metadata hash maps but did not read financial file bytes, allowing changed bytes with unchanged summaries.",
+      "fix": "Every original canonical financial path now passes safe-path and actualsha check; regression mutates a file while all metadata remain unchanged."
+    }
+  ],
+  "request_sha256": "110a70fa2c40a6429352842a0f152796721d6c5268845269c6ec93f23b13dc28",
+  "reviewed_file_sha256": {
+    "scripts/inventory_price_delay_horizon_minutes.py": "3f6f5586aadf4534bedeab9ce9775023f0ee0d4df40f373c47f6bdedd73032d0",
+    "tests/test_inventory_price_delay_horizon_minutes.py": "9e5b2e957e20b99079b3f80c0b632bd7ac78972de8927367a816e4109cbe9224",
+    "docs/research/price-delay-horizon-minute-inventory-plan-2026-10-21.md": "eba57a10b7f3cedc9c4d85302e253846efa750d6173db193e7583ad4f5325eca"
+  },
+  "checks": {
+    "synthetic_tests_passed": 12,
+    "current_method_public_local_hash_maps_verified": {
+      "method_code_sha256": 14,
+      "public_evidence_sha256": 8,
+      "local_source_sha256": 18
+    },
+    "fixed_cache_manifest_hashes_verified": 11,
+    "actual_pre2026_financial_file_hashes_verified": 48,
+    "prefix_AST_exact_one_date_cap_change_and_original_inspect_AST_unchanged": true,
+    "old_cap_still_rejects2026": true,
+    "old_prefix_generator_and_priorclose_contract_synthetic_parity": true,
+    "all_matching_references_hashchecked_before_any_reuse_and_signature_conflicts_not_selected": true,
+    "ST_unknown_retained_without_ordinary_or_zero_dependency_claim": true,
+    "halt_retained_without_synthetic_prices": true,
+    "only_absent_cache_pairs_count_as_proposed_queries_no_failed_retry_budget": true,
+    "old2502_2490_12_241_canonical_audit_checks_reviewed_statically": true,
+    "freeze_commit_plan_script_method_evidence_blob_checks_required_before_actual_new_packet_reads": true
+  },
+  "limits": [
+    "No real inventory main was run and no new2026minute packet opened. Actual counts, cache conflicts and ordinary-quality outcomes remain unknown.",
+    "Current source manifest metadata and old pre2026 financial file bytes were checked; commit/push readiness checks cannot be executed until a frozen committed plan exists.",
+    "ST/unknown cached packet retention is not ordinary tape admission; future full account dependency guards remain required.",
+    "The output is only source coverage/quality inventory. No capture, account, strategy change or portfolio ROI is authorized or performed."
+  ],
+  "ready_for_freeze_then_source_inventory": true,
+  "actual_minute_inventory_executed": false,
+  "new2026_minute_packets_read": false
+}
