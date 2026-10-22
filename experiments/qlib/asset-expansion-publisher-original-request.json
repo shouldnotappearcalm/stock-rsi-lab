@@ -1,0 +1,38 @@
+{
+  "status": "FROZEN_ONE_EXACT_COFC0_PUBLISHER_PDF_ROUTE",
+  "URL": "https://www.cofco.com/uploads/soft/250811/56-250Q1162034.pdf",
+  "maximum_new_requests": 1,
+  "method_sha256": {
+    "scripts/capture_asset_expansion_publisher_original.py": "ce09632f8771443a31e48f9e378405ef650b93c95332258d2093356609c52c71",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5"
+  },
+  "original_source_sha256": {
+    "asset-expansion-primary-pre2026-20261022/request.json": "1e8323e10a8fb27b00893a80bafeea346988485de218c6b67dd36c498b46d512",
+    "asset-expansion-primary-pre2026-20261022/SH603688-2024-05-16.pdf": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+    "asset-expansion-primary-pre2026-20261022/manifest.json": "ee9f74dee575af7d89fd1c8ff599f52a6a70be44080ddcc29075b2f1f5c938e0",
+    "asset-expansion-primary-pre2026-20261022/progress.json": "78eba51a2654bef6eacddc2df364ef58965b78e398d556daec419e1dcb1e8af2",
+    "asset-expansion-primary-pre2026-20261022/SH600737-error.json": "f2ab477a5832a54a00aff8f7fc8e7f6768aa2b19b736329786db9b55209123c3",
+    "asset-expansion-primary-pre2026-20261022/SH600535-2025-03-20.pdf": "300b95e96c03162b0f1152c8546af57f30ee1bad2eb401a6bbb6bdef26e44109",
+    "asset-expansion-primary-pre2026-20261022/queries/dd0b3d1e55ca28b05929a1ad221eb4dba5368cc1fab6ed45c20bd44f8ee74d1d/request.json": "5b293e074f6f0f7bdaad5daf594506b8659edd7c89222bdbfb8f0f1e6188aa1c",
+    "asset-expansion-primary-pre2026-20261022/queries/dd0b3d1e55ca28b05929a1ad221eb4dba5368cc1fab6ed45c20bd44f8ee74d1d/reserved-1.json": "681ff0c5645a89e008745b428aa2db54422442bf311a2afd5ae44cd8efb53b7c",
+    "asset-expansion-primary-pre2026-20261022/queries/dd0b3d1e55ca28b05929a1ad221eb4dba5368cc1fab6ed45c20bd44f8ee74d1d/response-1.json": "2d3d7be4a353876e6bdbed72858e4f3236e1b6c34a2988b2c4e8c5a907c9f668",
+    "asset-expansion-primary-pre2026-20261022/queries/8deb0616803673b4fea53bc2bdb848d8faa1780490501f4bdf7cc9a8feb850ea/request.json": "963925068319050cb137e372323c6448f9ffb134aa61ac379c0aef4d1206f01f",
+    "asset-expansion-primary-pre2026-20261022/queries/8deb0616803673b4fea53bc2bdb848d8faa1780490501f4bdf7cc9a8feb850ea/reserved-1.json": "c89196997112d2989f7b335e591ed41d3fd77dbc9594d84d51c4f54551a7f32f",
+    "asset-expansion-primary-pre2026-20261022/queries/8deb0616803673b4fea53bc2bdb848d8faa1780490501f4bdf7cc9a8feb850ea/response-1.json": "06a9754a825c217dd222b82a55e913403494cf77fe05d15e1da55eb5fe767cb0",
+    "asset-expansion-primary-pre2026-20261022/queries/09875c7b2826d1e7bbd67ba9259b5181d0b1b14d89c5b6797f2655e5eced2ee5/request.json": "0413e6fff278cab08250da7e9c9e0224d72c6d9e0211f41add03e30f47b317bd",
+    "asset-expansion-primary-pre2026-20261022/queries/09875c7b2826d1e7bbd67ba9259b5181d0b1b14d89c5b6797f2655e5eced2ee5/reserved-1.json": "c5da93722952eb4acd6c86714dd1ce3c0304049d0d7db47c5595bbe25e4dae6a",
+    "asset-expansion-primary-pre2026-20261022/queries/09875c7b2826d1e7bbd67ba9259b5181d0b1b14d89c5b6797f2655e5eced2ee5/response-1.json": "1378edaa5b7967aee9c10ec2911b06ce89c5553a813b79f78a85675af75ddebc",
+    "asset-expansion-primary-pre2026-20261022/queries/4e026bf3dc77743605e82ff2ebea265a1dce2b666e5ada46bec5743cbc27e7e8/request.json": "6381b9348e0d6613b7cce667849c11092edb95871f22e3951668baf87d046f7f",
+    "asset-expansion-primary-pre2026-20261022/queries/4e026bf3dc77743605e82ff2ebea265a1dce2b666e5ada46bec5743cbc27e7e8/reserved-1.json": "591a6dec855da5dd4603374c957a47c601c0af241011e3a215ce5d1fd5f56a3d",
+    "asset-expansion-primary-pre2026-20261022/queries/4e026bf3dc77743605e82ff2ebea265a1dce2b666e5ada46bec5743cbc27e7e8/response-1.json": "12c2cd3a0f921422a0a3bc1473115a6dd00a96ac706448ac254993ab4d2d591b",
+    "asset-expansion-primary-continuation-pre2026-20261022/request.json": "f7eed59643f2bb7a15e9cc5cf8b8df2f13d3edefbfdbae0ec2250a37b2047309",
+    "asset-expansion-primary-continuation-pre2026-20261022/error.json": "fa7e20c6e29f5c69ebe5bb863b84cff090081cb26285687901e2ac077e19cee9",
+    "asset-expansion-primary-continuation-pre2026-20261022/SH603688-2024-05-16.pdf": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+    "asset-expansion-primary-continuation-pre2026-20261022/manifest.json": "0ea6fcb092b98f95b87227d95eed61ef61887fd4b525ab3bad808953387b8afc",
+    "asset-expansion-primary-continuation-pre2026-20261022/SH600535-2025-03-20.pdf": "300b95e96c03162b0f1152c8546af57f30ee1bad2eb401a6bbb6bdef26e44109",
+    "asset-expansion-primary-continuation-pre2026-20261022/queries/a88e8594c1b63337b50cfb04163b2d88b3f26cca4c122bc83b0f075eff3dc7dd/request.json": "f20778444434ed029edb1a759085a52f61235afd7fdc2ae0aa53e508f6d4a37c",
+    "asset-expansion-primary-continuation-pre2026-20261022/queries/a88e8594c1b63337b50cfb04163b2d88b3f26cca4c122bc83b0f075eff3dc7dd/reserved-1.json": "8b4470f89d7568b550ae2bf38a13c93ca6fcea643b61b7659ba21616897873f9",
+    "asset-expansion-primary-continuation-pre2026-20261022/queries/a88e8594c1b63337b50cfb04163b2d88b3f26cca4c122bc83b0f075eff3dc7dd/response-1.json": "c5d408f585d9ad33eb4c6c5941596d58c4e8d2dedac09dd2fe9f269b9f42b48b"
+  },
+  "reason": "Both CNINFO PDF attempts terminated with SSL EOF; use the already discovered exact official-publisher URL once. Preserve failed requests/responses and successful originals. No rule/target/account change. Publisher page postdate2025Aug11 may differ from PDF signature; verify the original content before admission."
+}
