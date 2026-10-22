@@ -1,0 +1,825 @@
+{
+  "status": "FROZEN_ASSET_EXPANSION_PRE2026_RAW_SOURCE_CAPTURE",
+  "inventory": {
+    "status": "ASSET_EXPANSION_PRE2026_SOURCE_INVENTORY_NOT_ADMISSION",
+    "candidate": "low_asset_expansion_decile_conditional",
+    "window": [
+      "2023-12-29",
+      "2025-12-31"
+    ],
+    "codes": [
+      "SH600022",
+      "SH600062",
+      "SH600066",
+      "SH600166",
+      "SH600177",
+      "SH600208",
+      "SH600258",
+      "SH600271",
+      "SH600282",
+      "SH600315",
+      "SH600316",
+      "SH600325",
+      "SH600516",
+      "SH600535",
+      "SH600536",
+      "SH600546",
+      "SH600707",
+      "SH600737",
+      "SH600859",
+      "SH600873",
+      "SH600967",
+      "SH600977",
+      "SH601156",
+      "SH601568",
+      "SH601608",
+      "SH601828",
+      "SH601933",
+      "SH603056",
+      "SH603156",
+      "SH603160",
+      "SH603688",
+      "SH603707",
+      "SH603712",
+      "SH603858",
+      "SH603868",
+      "SH603882"
+    ],
+    "target_sha256": "f0099cc5fde4f260f34da1200cb68b3047881c0206cab368d872f96134824401",
+    "source_priority": [
+      "low-market-residual-vol1m-raw-pre2026-20261021",
+      "budgeted-residual-raw-dev-20261021",
+      "illiquidity-raw-source-continuation-20261020",
+      "return-families-raw-dev-20261017"
+    ],
+    "source_manifests_sha256": {
+      "low-market-residual-vol1m-raw-pre2026-20261021": "7c7e56f5ec3301a9b1d82748bd90603f255ef8a1c602b64cf34b3ebaedef62b3",
+      "budgeted-residual-raw-dev-20261021": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+      "illiquidity-raw-source-continuation-20261020": "15709f0416c96148894be6b662c624dbde63d0f5d37b7760078235abe73440c8",
+      "return-families-raw-dev-20261017": "53250d4b726f8b54f5e2eafa516b7587e5acd01a6605c4be6457fdc5073263d7"
+    },
+    "reference_calendar_sha256": "0095d19144308a1b0075ffd7f40f7af2dae76bdff3cfb1ba8bd80d4663ef9eaa",
+    "reuse_routes": {
+      "SH600022": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+        "fingerprint": "03beb27b97a187be26fd870527f57fa6871daa36fffeec1abae047ee833074aa",
+        "complete_calendar": true
+      },
+      "SH600062": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+        "fingerprint": "7e01a15b1c23f0ba4866aeb45b641e2192e085528b15ecaa9a6b86c392921ce3",
+        "complete_calendar": true
+      },
+      "SH600066": {
+        "directory": "budgeted-residual-raw-dev-20261021",
+        "packet_sha256": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+        "fingerprint": "041b10b0500283c6682ddc99bce7af9ae330cf3faecff1d2503cf2b8a0973d09",
+        "complete_calendar": true
+      },
+      "SH600166": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+        "fingerprint": "fccb225c41cfa8ae56876857f447d4ed6a9c0d956e7fbb42c6e127a9bbdc0171",
+        "complete_calendar": true
+      },
+      "SH600177": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+        "fingerprint": "9b3faaa2c27c758a84a147a2b3bf0adf571a7810597162e31ff6bc418ee9b3c5",
+        "complete_calendar": true
+      },
+      "SH600208": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+        "fingerprint": "4f17c8277dc9ff6a223a932f3651bd96e409648c9e9a889d0f7c24cc108b9784",
+        "complete_calendar": true
+      },
+      "SH600258": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+        "fingerprint": "cb46dfd240f1ffe82329cb28949663393354d878b3268e3465d0a194abdc00be",
+        "complete_calendar": true
+      },
+      "SH600271": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+        "fingerprint": "56b4a520454ddc93bdf2d6144e4285c10b934359e620cac6c0e581b1507bfed8",
+        "complete_calendar": true
+      },
+      "SH600282": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+        "fingerprint": "7cee78c703a105fbad5fe7fab7a9812fc1d0d68d13c5e47189443f9baee11655",
+        "complete_calendar": true
+      },
+      "SH600315": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+        "fingerprint": "30dbd1646382925be828fd49877cd817f57ccd7ac7e046fee781746e06936010",
+        "complete_calendar": true
+      },
+      "SH600316": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+        "fingerprint": "346076c0c70cf7b049843b20b761185eb6c20414db5da7d82c3530896adbff2b",
+        "complete_calendar": true
+      },
+      "SH600325": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+        "fingerprint": "7e1ffd14d6e96620bb31e6292d25e7b734cb03f7868012eea4496c85a165f8c9",
+        "complete_calendar": true
+      },
+      "SH600516": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+        "fingerprint": "2dcbe769de470e628aea48ea800c06d8e3af8abedaa32cacdc92a0bbc87e1705",
+        "complete_calendar": true
+      },
+      "SH600535": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+        "fingerprint": "d0598e66ebc03e1b41ae53e0713cb72058baf28078525195323040c07004641c",
+        "complete_calendar": true
+      },
+      "SH600536": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+        "fingerprint": "a45d1ddd6fb0b2f362760e2a742f8da5224cef63abdf04a18d81ff9afa66a239",
+        "complete_calendar": true
+      },
+      "SH600546": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+        "fingerprint": "3adcf2568ec4f4a916533583ae73933946d650b7423e6788cee8041bb59fa3af",
+        "complete_calendar": true
+      },
+      "SH600707": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+        "fingerprint": "9eb2861d06396e129c63fb1ad9f20a286459a74cd1ffbd408361d3a7c5d4c890",
+        "complete_calendar": true
+      },
+      "SH600737": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+        "fingerprint": "91f07c8db3e61a8c3cfa9c71da42c6ba4845c4acd1f55f2ddf6975941cf36ec0",
+        "complete_calendar": true
+      },
+      "SH600859": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "4f8b870c1162a074076a16fdfd53a36b29d9c841f31b0c9066248e5f6f0b0eb2",
+        "fingerprint": "e2f003036fc91504c733c0a54a54bd9d2c410727855c2de848dfae289097b5d5",
+        "complete_calendar": true
+      },
+      "SH600873": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+        "fingerprint": "f2ede8b8215cb9c42ecea59c18f6dbefe3642e99d208c6f31f97aff965081485",
+        "complete_calendar": true
+      },
+      "SH600967": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+        "fingerprint": "3723fe4071b3f6da4b058dd3fd3eaa6c0230f1172d18b8aa629bfa38bea5fde6",
+        "complete_calendar": true
+      },
+      "SH600977": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+        "fingerprint": "a91fac7e8088a59e54ec0fdf8395bfbe25e4945c81532f1002478bc6a24da053",
+        "complete_calendar": true
+      },
+      "SH601156": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+        "fingerprint": "65a735586f1d31b55ff17da1ffa6e547b3ea4d2e7db98efc14fc113682cef46c",
+        "complete_calendar": true
+      },
+      "SH601568": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+        "fingerprint": "823197c782b55e07b4ff9bbb7c7132d307ad47ee49764e0a2dd71aea5b32383a",
+        "complete_calendar": true
+      },
+      "SH601608": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+        "fingerprint": "a088e2266cc5d0e60d9835ab6a0e8926d40263df8a398067f580e7ccd6fd18b8",
+        "complete_calendar": true
+      },
+      "SH601828": {
+        "directory": "illiquidity-raw-source-continuation-20261020",
+        "packet_sha256": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+        "fingerprint": "977362196cdd60aa5d8818b7bc113de67358051720983e8e36ed7f80f93c52db",
+        "complete_calendar": true
+      },
+      "SH601933": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+        "fingerprint": "524b8f4623076b13f1b82b5e1ec4fe03666f81518b7393e11151ae9ccea3cc0c",
+        "complete_calendar": true
+      },
+      "SH603056": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+        "fingerprint": "9a30b8dc8d4452cd34560f12e3da5a18c8c3984638c6691d3a4483fe68054fd6",
+        "complete_calendar": true
+      },
+      "SH603156": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+        "fingerprint": "538218f74bc848e2b9dcdcf2153243d7e469728612c64c4e01ebf94df02d7b8d",
+        "complete_calendar": true
+      },
+      "SH603160": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+        "fingerprint": "18a1f3862b84093a8739512a05db87b93bd84020fa6c46e17cb88f2c7bdfdca7",
+        "complete_calendar": true
+      },
+      "SH603688": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2",
+        "fingerprint": "d04b34c496e70afbe0dd7ee49939d43965e7c1d080d4cbe48b520c74ae1c97c7",
+        "complete_calendar": true
+      },
+      "SH603707": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+        "fingerprint": "3470fa6cef049904f981d2745778fbec0ee0dea7b9d77fdf42c455296d576a47",
+        "complete_calendar": true
+      },
+      "SH603858": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+        "fingerprint": "6a0d9d6bfd4142ccc9f7427c929c2809c46afccc1434da1cf6b0dcc74896138e",
+        "complete_calendar": true
+      },
+      "SH603868": {
+        "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "packet_sha256": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+        "fingerprint": "fd6f1a43f620cf7805045d52f075d596349511a734377e0d754400ed1aa2c753",
+        "complete_calendar": true
+      },
+      "SH603882": {
+        "directory": "return-families-raw-dev-20261017",
+        "packet_sha256": "8e1cbae3c459487ea36c6e66f850dfb239c776f9bd8a57c9924a31840cbce22f",
+        "fingerprint": "5dd9a996febbe4e85ef3060cd14d50ee2d333b04a305002f30bacb9c1618861e",
+        "complete_calendar": true
+      }
+    },
+    "fresh_codes": [
+      "SH603712"
+    ],
+    "all_choices": {
+      "SH600022": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+          "fingerprint": "03beb27b97a187be26fd870527f57fa6871daa36fffeec1abae047ee833074aa",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+          "fingerprint": "03beb27b97a187be26fd870527f57fa6871daa36fffeec1abae047ee833074aa",
+          "complete_calendar": true
+        }
+      ],
+      "SH600062": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+          "fingerprint": "7e01a15b1c23f0ba4866aeb45b641e2192e085528b15ecaa9a6b86c392921ce3",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "efefecc77f9ae6f595bfed0c615793be86caccda73c95afdd5a951d5683225f1",
+          "fingerprint": "7e01a15b1c23f0ba4866aeb45b641e2192e085528b15ecaa9a6b86c392921ce3",
+          "complete_calendar": true
+        }
+      ],
+      "SH600066": [
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+          "fingerprint": "041b10b0500283c6682ddc99bce7af9ae330cf3faecff1d2503cf2b8a0973d09",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+          "fingerprint": "041b10b0500283c6682ddc99bce7af9ae330cf3faecff1d2503cf2b8a0973d09",
+          "complete_calendar": true
+        }
+      ],
+      "SH600166": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+          "fingerprint": "fccb225c41cfa8ae56876857f447d4ed6a9c0d956e7fbb42c6e127a9bbdc0171",
+          "complete_calendar": true
+        }
+      ],
+      "SH600177": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+          "fingerprint": "9b3faaa2c27c758a84a147a2b3bf0adf571a7810597162e31ff6bc418ee9b3c5",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "bf772823973a321d7b41d34c571aed02810c4dd2088c567e93f41c313f6d6a47",
+          "fingerprint": "9b3faaa2c27c758a84a147a2b3bf0adf571a7810597162e31ff6bc418ee9b3c5",
+          "complete_calendar": true
+        }
+      ],
+      "SH600208": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+          "fingerprint": "4f17c8277dc9ff6a223a932f3651bd96e409648c9e9a889d0f7c24cc108b9784",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+          "fingerprint": "4f17c8277dc9ff6a223a932f3651bd96e409648c9e9a889d0f7c24cc108b9784",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+          "fingerprint": "4f17c8277dc9ff6a223a932f3651bd96e409648c9e9a889d0f7c24cc108b9784",
+          "complete_calendar": true
+        }
+      ],
+      "SH600258": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+          "fingerprint": "cb46dfd240f1ffe82329cb28949663393354d878b3268e3465d0a194abdc00be",
+          "complete_calendar": true
+        }
+      ],
+      "SH600271": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+          "fingerprint": "56b4a520454ddc93bdf2d6144e4285c10b934359e620cac6c0e581b1507bfed8",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "93f67d3c9e23c83cff3713fa06c5ac2333e7ee1663cda0fa88bc469644852199",
+          "fingerprint": "56b4a520454ddc93bdf2d6144e4285c10b934359e620cac6c0e581b1507bfed8",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+          "fingerprint": "56b4a520454ddc93bdf2d6144e4285c10b934359e620cac6c0e581b1507bfed8",
+          "complete_calendar": true
+        }
+      ],
+      "SH600282": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+          "fingerprint": "7cee78c703a105fbad5fe7fab7a9812fc1d0d68d13c5e47189443f9baee11655",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "e695f23c85b6b3f825eff0863456cb50f89e18f7d8710c2d8b5c8fd0cc6b88d7",
+          "fingerprint": "7cee78c703a105fbad5fe7fab7a9812fc1d0d68d13c5e47189443f9baee11655",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "e695f23c85b6b3f825eff0863456cb50f89e18f7d8710c2d8b5c8fd0cc6b88d7",
+          "fingerprint": "7cee78c703a105fbad5fe7fab7a9812fc1d0d68d13c5e47189443f9baee11655",
+          "complete_calendar": true
+        }
+      ],
+      "SH600315": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+          "fingerprint": "30dbd1646382925be828fd49877cd817f57ccd7ac7e046fee781746e06936010",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+          "fingerprint": "30dbd1646382925be828fd49877cd817f57ccd7ac7e046fee781746e06936010",
+          "complete_calendar": true
+        }
+      ],
+      "SH600316": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+          "fingerprint": "346076c0c70cf7b049843b20b761185eb6c20414db5da7d82c3530896adbff2b",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "819cde9788fe7f77e3c76aa81cc0a1bf1b8d28bbea6f88a6466e2ae7929ecc3f",
+          "fingerprint": "346076c0c70cf7b049843b20b761185eb6c20414db5da7d82c3530896adbff2b",
+          "complete_calendar": true
+        }
+      ],
+      "SH600325": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+          "fingerprint": "7e1ffd14d6e96620bb31e6292d25e7b734cb03f7868012eea4496c85a165f8c9",
+          "complete_calendar": true
+        }
+      ],
+      "SH600516": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+          "fingerprint": "2dcbe769de470e628aea48ea800c06d8e3af8abedaa32cacdc92a0bbc87e1705",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "a12d5afd4ca7c48ea21d5afcd8cd2a9af4c519336d0cdaa73ffa81bbc3e44160",
+          "fingerprint": "2dcbe769de470e628aea48ea800c06d8e3af8abedaa32cacdc92a0bbc87e1705",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+          "fingerprint": "2dcbe769de470e628aea48ea800c06d8e3af8abedaa32cacdc92a0bbc87e1705",
+          "complete_calendar": true
+        }
+      ],
+      "SH600535": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+          "fingerprint": "d0598e66ebc03e1b41ae53e0713cb72058baf28078525195323040c07004641c",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+          "fingerprint": "d0598e66ebc03e1b41ae53e0713cb72058baf28078525195323040c07004641c",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+          "fingerprint": "d0598e66ebc03e1b41ae53e0713cb72058baf28078525195323040c07004641c",
+          "complete_calendar": true
+        }
+      ],
+      "SH600536": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+          "fingerprint": "a45d1ddd6fb0b2f362760e2a742f8da5224cef63abdf04a18d81ff9afa66a239",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+          "fingerprint": "a45d1ddd6fb0b2f362760e2a742f8da5224cef63abdf04a18d81ff9afa66a239",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+          "fingerprint": "a45d1ddd6fb0b2f362760e2a742f8da5224cef63abdf04a18d81ff9afa66a239",
+          "complete_calendar": true
+        }
+      ],
+      "SH600546": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+          "fingerprint": "3adcf2568ec4f4a916533583ae73933946d650b7423e6788cee8041bb59fa3af",
+          "complete_calendar": true
+        }
+      ],
+      "SH600707": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+          "fingerprint": "9eb2861d06396e129c63fb1ad9f20a286459a74cd1ffbd408361d3a7c5d4c890",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+          "fingerprint": "9eb2861d06396e129c63fb1ad9f20a286459a74cd1ffbd408361d3a7c5d4c890",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+          "fingerprint": "9eb2861d06396e129c63fb1ad9f20a286459a74cd1ffbd408361d3a7c5d4c890",
+          "complete_calendar": true
+        }
+      ],
+      "SH600737": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+          "fingerprint": "91f07c8db3e61a8c3cfa9c71da42c6ba4845c4acd1f55f2ddf6975941cf36ec0",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+          "fingerprint": "91f07c8db3e61a8c3cfa9c71da42c6ba4845c4acd1f55f2ddf6975941cf36ec0",
+          "complete_calendar": true
+        }
+      ],
+      "SH600859": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "4f8b870c1162a074076a16fdfd53a36b29d9c841f31b0c9066248e5f6f0b0eb2",
+          "fingerprint": "e2f003036fc91504c733c0a54a54bd9d2c410727855c2de848dfae289097b5d5",
+          "complete_calendar": true
+        }
+      ],
+      "SH600873": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+          "fingerprint": "f2ede8b8215cb9c42ecea59c18f6dbefe3642e99d208c6f31f97aff965081485",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "5eac144389dfee69dc73d4b424dcbc787adc2df0af0521efb5ca3af4101fec72",
+          "fingerprint": "f2ede8b8215cb9c42ecea59c18f6dbefe3642e99d208c6f31f97aff965081485",
+          "complete_calendar": true
+        }
+      ],
+      "SH600967": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+          "fingerprint": "3723fe4071b3f6da4b058dd3fd3eaa6c0230f1172d18b8aa629bfa38bea5fde6",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+          "fingerprint": "3723fe4071b3f6da4b058dd3fd3eaa6c0230f1172d18b8aa629bfa38bea5fde6",
+          "complete_calendar": true
+        }
+      ],
+      "SH600977": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+          "fingerprint": "a91fac7e8088a59e54ec0fdf8395bfbe25e4945c81532f1002478bc6a24da053",
+          "complete_calendar": true
+        }
+      ],
+      "SH601156": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+          "fingerprint": "65a735586f1d31b55ff17da1ffa6e547b3ea4d2e7db98efc14fc113682cef46c",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+          "fingerprint": "65a735586f1d31b55ff17da1ffa6e547b3ea4d2e7db98efc14fc113682cef46c",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+          "fingerprint": "65a735586f1d31b55ff17da1ffa6e547b3ea4d2e7db98efc14fc113682cef46c",
+          "complete_calendar": true
+        }
+      ],
+      "SH601568": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+          "fingerprint": "823197c782b55e07b4ff9bbb7c7132d307ad47ee49764e0a2dd71aea5b32383a",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "05993eae7f56950f33a9bc847ebcec4c44077ed774393e190cdd315dbced1eab",
+          "fingerprint": "823197c782b55e07b4ff9bbb7c7132d307ad47ee49764e0a2dd71aea5b32383a",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+          "fingerprint": "823197c782b55e07b4ff9bbb7c7132d307ad47ee49764e0a2dd71aea5b32383a",
+          "complete_calendar": true
+        }
+      ],
+      "SH601608": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+          "fingerprint": "a088e2266cc5d0e60d9835ab6a0e8926d40263df8a398067f580e7ccd6fd18b8",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+          "fingerprint": "a088e2266cc5d0e60d9835ab6a0e8926d40263df8a398067f580e7ccd6fd18b8",
+          "complete_calendar": true
+        }
+      ],
+      "SH601828": [
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+          "fingerprint": "977362196cdd60aa5d8818b7bc113de67358051720983e8e36ed7f80f93c52db",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "b13f9f64a4296e8e7fb996a78e8850c2beb367a07500aceab0143ede81930910",
+          "fingerprint": "977362196cdd60aa5d8818b7bc113de67358051720983e8e36ed7f80f93c52db",
+          "complete_calendar": true
+        }
+      ],
+      "SH601933": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+          "fingerprint": "524b8f4623076b13f1b82b5e1ec4fe03666f81518b7393e11151ae9ccea3cc0c",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+          "fingerprint": "524b8f4623076b13f1b82b5e1ec4fe03666f81518b7393e11151ae9ccea3cc0c",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+          "fingerprint": "524b8f4623076b13f1b82b5e1ec4fe03666f81518b7393e11151ae9ccea3cc0c",
+          "complete_calendar": true
+        }
+      ],
+      "SH603056": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+          "fingerprint": "9a30b8dc8d4452cd34560f12e3da5a18c8c3984638c6691d3a4483fe68054fd6",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+          "fingerprint": "9a30b8dc8d4452cd34560f12e3da5a18c8c3984638c6691d3a4483fe68054fd6",
+          "complete_calendar": true
+        }
+      ],
+      "SH603156": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+          "fingerprint": "538218f74bc848e2b9dcdcf2153243d7e469728612c64c4e01ebf94df02d7b8d",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "60924bb05bf5e8e6e685f2cb4c852efed3dbae30b37c824c0260aab5997bc564",
+          "fingerprint": "538218f74bc848e2b9dcdcf2153243d7e469728612c64c4e01ebf94df02d7b8d",
+          "complete_calendar": true
+        }
+      ],
+      "SH603160": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+          "fingerprint": "18a1f3862b84093a8739512a05db87b93bd84020fa6c46e17cb88f2c7bdfdca7",
+          "complete_calendar": true
+        },
+        {
+          "directory": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+          "fingerprint": "18a1f3862b84093a8739512a05db87b93bd84020fa6c46e17cb88f2c7bdfdca7",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+          "fingerprint": "18a1f3862b84093a8739512a05db87b93bd84020fa6c46e17cb88f2c7bdfdca7",
+          "complete_calendar": true
+        }
+      ],
+      "SH603688": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2",
+          "fingerprint": "d04b34c496e70afbe0dd7ee49939d43965e7c1d080d4cbe48b520c74ae1c97c7",
+          "complete_calendar": true
+        }
+      ],
+      "SH603707": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+          "fingerprint": "3470fa6cef049904f981d2745778fbec0ee0dea7b9d77fdf42c455296d576a47",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+          "fingerprint": "3470fa6cef049904f981d2745778fbec0ee0dea7b9d77fdf42c455296d576a47",
+          "complete_calendar": true
+        },
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+          "fingerprint": "3470fa6cef049904f981d2745778fbec0ee0dea7b9d77fdf42c455296d576a47",
+          "complete_calendar": true
+        }
+      ],
+      "SH603712": [],
+      "SH603858": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+          "fingerprint": "6a0d9d6bfd4142ccc9f7427c929c2809c46afccc1434da1cf6b0dcc74896138e",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+          "fingerprint": "6a0d9d6bfd4142ccc9f7427c929c2809c46afccc1434da1cf6b0dcc74896138e",
+          "complete_calendar": true
+        }
+      ],
+      "SH603868": [
+        {
+          "directory": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+          "fingerprint": "fd6f1a43f620cf7805045d52f075d596349511a734377e0d754400ed1aa2c753",
+          "complete_calendar": true
+        },
+        {
+          "directory": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "1e1a9e4a8a3dca069cc99544cde0e313496abaaa8a8fe3c8e5076a1f3f853628",
+          "fingerprint": "fd6f1a43f620cf7805045d52f075d596349511a734377e0d754400ed1aa2c753",
+          "complete_calendar": true
+        }
+      ],
+      "SH603882": [
+        {
+          "directory": "return-families-raw-dev-20261017",
+          "packet_sha256": "8e1cbae3c459487ea36c6e66f850dfb239c776f9bd8a57c9924a31840cbce22f",
+          "fingerprint": "5dd9a996febbe4e85ef3060cd14d50ee2d333b04a305002f30bacb9c1618861e",
+          "complete_calendar": true
+        }
+      ]
+    },
+    "public_evidence_sha256": {
+      "experiments/qlib/asset-expansion-pre2026-results.json": "2165c6b740f4bfef0f6a46af6daa27548b12d059e311818b1bef62364240dcf0",
+      "experiments/qlib/asset-expansion-pre2026-audit.json": "de3deb4162bf47851dcf58402fe4187e041eaa6b6eab21e9ca24c028f10e9629"
+    },
+    "new_network_queries": 0,
+    "2026_values_read": false,
+    "source_admitted_for_replay": false,
+    "corporate_action_completeness_verified": false,
+    "historical_arrival_verified": false,
+    "objective_achieved": false
+  },
+  "baostock_version": "0.9.4",
+  "max_attempts_per_query": 1,
+  "administrative_login_budget": 1,
+  "maximum_new_query_reservations": 4,
+  "socket_timeout_seconds": 20,
+  "method_code_sha256": {
+    "scripts/capture_asset_expansion_raw_pre2026.py": "08c3752d9dcf1e22ef4a62110f4a181d12d63767014ec474514adaa1b91583f1",
+    "scripts/capture_budgeted_residual_raw_pre2026.py": "fcaf4d0e61f20aaf90980bfc4210503dd8e10283d039638cc8a37608177d2432",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/capture_frozen_target_development_data.py": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d",
+    "scripts/capture_illiquidity_raw_development.py": "4a6c1b9597b4e0d797720687f43ba951b9aeabaca3bf8c83149a4657598ce8f1",
+    "scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "tests/test_asset_expansion_raw_sources.py": "1f3b3790320d4881c711b73528f4b3a907f903de7bf328a566136016d830e443"
+  },
+  "protocol_file": "docs/research/asset-expansion-raw-source-plan-2026-10-22.md",
+  "protocol_sha256": "d135f3bbf5b466be27927e89712b1e79a9812f1bb225d44d0e4967487cd57cb4",
+  "inventory_sha256": "8e8619c0efef99702daad6a0954029e8039b711ac768a523c52b5be206ae3e0c",
+  "2026_data_authorized": false,
+  "account_return_authorized": false
+}
