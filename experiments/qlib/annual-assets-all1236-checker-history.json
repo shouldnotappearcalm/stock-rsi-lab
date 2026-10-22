@@ -1,0 +1,20 @@
+{
+  "status": "SOURCE_CHECKER_BOUNDARY_UNIQUENESS_ASSUMPTION_CORRECTED_WITHOUT_SOURCE_REPLAY",
+  "actual_source_runs": 1,
+  "actual_full_QA_attempts": 2,
+  "failed_QA_attempts": 1,
+  "passed_QA_attempts": 1,
+  "original_failure": "SZ000987-2022-1216301033 physical117 repeats financial notes heading; original source correctly ends at the first following notes boundary.",
+  "correction": "Independently locate the unique primary financial section start and earliest following company/notes boundary; require metadata to match it. Repeated later notes headings do not create an ambiguous start or permit skipping the first boundary.",
+  "frozen_parser_runner_request_or_outputs_modified": false,
+  "source_rerun_to_pass_checker": false,
+  "full_unittest_tests": 1138,
+  "all_log_and_initial_checker_sha256": {
+    "initial_checker": "cc4196a89d3401f55271a9dc10722a1ede76c981ddd609fcff6941018a73fb4d",
+    "initial_failed_source_QA": "b969bb36f7ef723bcf0119c3959848d6a987c02a5e491b87cb7f34ef12dafc0d",
+    "successful_source_QA": "e610d9968ef49ca45b72d1f2579dfc619c7f56653b970f5863daf13029bb3064",
+    "boundary_regression_red": "5a404b44f201c7bd3e5a1319de16fb3667fd7de31efbbed6c9df2bc854209bef",
+    "boundary_regression_green": "4db0e516c2eaa1b7e97116e9d8410dc3cdeb0ac081ad72ff27ccd62779daf950",
+    "full_suite_final": "6008cb5d57e34f331df6e1d059c2790be1969a1976612e77a81e75321cb6c011"
+  }
+}
