@@ -1,0 +1,89 @@
+{
+  "status": "ASSET_EXPANSION_RAW_DAILY_DEVELOPMENT_COMPLETE",
+  "plan_sha256": "692b702ed3ae33bf1256e6254b12bd054a204a3f3daf63cc532791455dfc6bdf",
+  "results_by_extra_bps": {
+    "20": {
+      "status": "RAW_DAILY_PROXY_RECONCILED",
+      "2024_return_pct": 17.13673,
+      "2025_return_pct": 14.989888312572837,
+      "fills": 310,
+      "orders": 325,
+      "monthly_decisions": 24,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0023277960004232357,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "account_sessions": 485,
+      "average_exposure_pct": 94.17068553894627,
+      "max_drawdown_pct": -16.999543247852532,
+      "two_year_return_pct": 34.695395,
+      "unverified_noncash_zero_ownership_verified": true,
+      "zero_ownership_receipts": [
+        {
+          "event_id": "5a4a745cff294dc26917f810fa881e962e81b4a0c4de01127dd34253e28b4a82",
+          "instrument": "SH603688",
+          "recorded": "2024-05-21",
+          "actual_owned_shares": 0
+        }
+      ],
+      "artifact_sha256": {
+        "corporate_ledger.json": "a42761da000bf3e9cd6a7e97be4eea9bdbacc41b3bff4016529834945c875d2c",
+        "daily.csv": "3e5ade3ad9bc0a12e3ebfd8638d22701efd58de12cec15ac138a0694fba5e07f",
+        "fills.json": "db9cdf5a3a32111e3dd084e2dc49cdbfb3c2f7cfb79d66d9fb61234feeac0991",
+        "intents.json": "15c0c8041ff28c5491bb82c421cac85cc52d8ce6b39489085b9f6e7388234706",
+        "orders.json": "444aef12f5e8c9d5be1d74527a41a8b0a7cdd883fe3f5ed464e66eef01621dcc",
+        "ownership.json": "5e7a8c90e703d4b769aceba608d24a600bf2500e800adafd5f9cf295d78003af"
+      }
+    },
+    "40": {
+      "status": "RAW_DAILY_PROXY_RECONCILED",
+      "2024_return_pct": 16.271019,
+      "2025_return_pct": 14.486323543788671,
+      "fills": 310,
+      "orders": 324,
+      "monthly_decisions": 24,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0023277960004232357,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "account_sessions": 485,
+      "average_exposure_pct": 94.13251201650233,
+      "max_drawdown_pct": -17.060830285021066,
+      "two_year_return_pct": 33.114415,
+      "unverified_noncash_zero_ownership_verified": true,
+      "zero_ownership_receipts": [
+        {
+          "event_id": "5a4a745cff294dc26917f810fa881e962e81b4a0c4de01127dd34253e28b4a82",
+          "instrument": "SH603688",
+          "recorded": "2024-05-21",
+          "actual_owned_shares": 0
+        }
+      ],
+      "artifact_sha256": {
+        "corporate_ledger.json": "ce8f60d586de2fd3da774de825ff6864bf40fcb487fd615ddb365f877b27346f",
+        "daily.csv": "48fc88e7d842a1c5d0a1d06be3746b395a4b0e82c8386ee62bdae71e0a387b5d",
+        "fills.json": "f2640b7659fbc1b0d65ec8d6c569232051f5ee4ee990c7e0d003c176104e23b8",
+        "intents.json": "5c8b24f0df09abfe84768e073e7dff04d1ba251ad851c5f726457d84e5be6a98",
+        "orders.json": "d80c053bc9202c634e80ff3c93b59bf47e3ec649afa93e108d9d65c55519ac56",
+        "ownership.json": "336da05564b501bbc4be82eb4d76cd05bfa6c31f9095f19c15866cf6debcc4b8"
+      }
+    }
+  },
+  "changed_original_inputs": [],
+  "raw_daily_proxy_development_gate_passes": true,
+  "execution": "unchanged prior-close integer sizing,next daily open,9.5percent reference limit proxy",
+  "costs": "basebuy5bps/sell15bps,minCNY5 per fill,plus20/40bps extra separately rounded",
+  "tax_model": "flat20percent cash stress reserve; not actualFIFOsettlement",
+  "raw_account_independently_audited": false,
+  "minute_execution_admitted": false,
+  "historical_arrival_verified": false,
+  "all_corporate_actions_independently_verified": false,
+  "investment_factor_admitted": false,
+  "new_2026_provider_queries": false,
+  "2026_return_computed": false,
+  "objective_achieved": false
+}
