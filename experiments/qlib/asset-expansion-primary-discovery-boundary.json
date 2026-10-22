@@ -1,0 +1,32 @@
+{
+  "status": "PRE2026_PRIMARY_NOTICE_DISCOVERY_WITH_INCIDENTAL_2026_SEARCH_SNIPPETS_RECORDED",
+  "queries": [
+    "天士力 600535 2025年3月27日 特别分红 权益分派 实施公告",
+    "中粮糖业 600737 2025年8月14日 权益分派 实施公告",
+    "石英股份 603688 2024年5月22日 权益分派 实施公告"
+  ],
+  "development_method_frozen_commit": "249afcdb0ec5210d11d449270a7160e7646f4b34",
+  "raw_capture_frozen_commit": "1b69af735a8ff37a4f0b08bee160fb43892fed58",
+  "discovery_after_actual_source_capture": true,
+  "search_results_incidentally_included_2026_financial_distribution_values": true,
+  "2026_snippets_used_to_modify_method_or_targets": false,
+  "new_2026_provider_queries": false,
+  "current_candidate_method_or_targets_changed": false,
+  "2026_period_globally_unexposed": false,
+  "pre2026_original_document_leads": [
+    {
+      "instrument": "SH600737",
+      "day": "2025-08-11",
+      "page": "https://www.cofco.com/cn/InformationDisclosure/2025/0811/56183.html",
+      "linked_original": "https://www.cofco.com/uploads/soft/250811/56-250Q1162034.pdf",
+      "downloaded_or_verified": false
+    },
+    {
+      "instrument": "SH603688",
+      "day": "2024-05-16",
+      "url": "https://dataclouds.cninfo.com.cn/shgonggao/2024/2024-05-16/55a8cc79129b11efadcbfa163e26e5de.pdf",
+      "downloaded_or_verified": false
+    }
+  ],
+  "claim_limit": "Search leads only; no primary document hash or content admission. The pre2026 capture contains no2026 source rows, but this wider research session must not be described as having seen no2026financial values."
+}

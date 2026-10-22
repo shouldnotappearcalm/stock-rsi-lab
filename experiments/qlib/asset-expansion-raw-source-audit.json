@@ -1,0 +1,493 @@
+{
+  "status": "SEPARATE_36_PACKET_LINEAGE_AND_FOUR_SDK_RESPONSE_AUDIT_PASSED_NOT_CORPORATE_ADMISSION",
+  "audit_code_sha256": "ba8a4a14c0e281629637e0239b95fefc5bf4e2f1911e48354878e4a4716ca770",
+  "request_sha256": "3218aabe4316cacbb9fa384901dd30170c40301db06fe01c80713b2392c56961",
+  "capture_manifest_sha256": "3a7572556c6a074f2e3306ecd6c5ec8080d76406ee2b65b8ee763c8d358ca2ed",
+  "names": 36,
+  "byte_identical_original_packets": 35,
+  "fresh_response_envelopes_redecoded": 4,
+  "totals": {
+    "bar_rows": 17496,
+    "distributions": 79,
+    "adjustments": 81,
+    "quarantines": 0
+  },
+  "all_capture_sha256": {
+    "request.json": "3218aabe4316cacbb9fa384901dd30170c40301db06fe01c80713b2392c56961",
+    "login-reserved.json": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e",
+    "manifest.json": "3a7572556c6a074f2e3306ecd6c5ec8080d76406ee2b65b8ee763c8d358ca2ed",
+    "login-response.json": "094781fd57e4fdee1a3cea3d48712bdc92fa2f890849fcf6ac92a8d293e4e44f",
+    "progress.json": "d78653dd7700853ea6ee9c9a5cd3c619e6afa83450854b16914714bd41fb7b7f",
+    "calendar.json": "294f05bb13d9f55c16fe63511dafa70f57987b37127ea3c35cc6d4fa6fe7e29a",
+    "queries/1bbb29cfaf76e5777d4ac6da0d8274d39d716d59d72a33c60852aa8a97900838/request.json": "6e6636f7bb03739021e07b36403e96b73cbbb4e2fb373841b0e9a93bf7afa910",
+    "queries/1bbb29cfaf76e5777d4ac6da0d8274d39d716d59d72a33c60852aa8a97900838/reserved-1.json": "3085880159efcef1aec1790df6d5f175b280e97cb62256117e078989a0bf7c9b",
+    "queries/1bbb29cfaf76e5777d4ac6da0d8274d39d716d59d72a33c60852aa8a97900838/response-1.json": "6cb391755c914e0551fa5c9d24cf49d99a070ab8d2f3d215d592832ce58e5de3",
+    "queries/fd3b9162b110d997e10b4a52bb3a598f64f7f430cbc0a206be01fe019eb3bd2c/request.json": "bb06376f9dde9c8cbd8ea8fc4a23cdeee1a12ea07014d62c630600a6d3f02c2b",
+    "queries/fd3b9162b110d997e10b4a52bb3a598f64f7f430cbc0a206be01fe019eb3bd2c/reserved-1.json": "8331618628bcb2cd98f9f07d026ec74ed56c913e639e0e02d5065410d994e5f0",
+    "queries/fd3b9162b110d997e10b4a52bb3a598f64f7f430cbc0a206be01fe019eb3bd2c/response-1.json": "98d41d56c7c5a120b6c02b0386225fe223246122645e786f7fa0ef94c4c439ca",
+    "queries/f392d81cae11cbc569c0a4ad921871099d7d9f09c045e37ef0410edd5625e571/request.json": "d0aa41061cc17e9f06e52e9fe2b773e682bd30adfedc3aecc56f0d3875bbed11",
+    "queries/f392d81cae11cbc569c0a4ad921871099d7d9f09c045e37ef0410edd5625e571/reserved-1.json": "fb0cef5941b9afc51b1d2835b9d94ea9a45381c39789ecb1a00a30cd2905dd54",
+    "queries/f392d81cae11cbc569c0a4ad921871099d7d9f09c045e37ef0410edd5625e571/response-1.json": "931c856508e801dfb0e032868931ef75678930fc4be149458b7a02396652deed",
+    "queries/2e62ea0f7d74c393617316e683705beea3d766bdfda9a4824a222ce14712e89b/request.json": "ab4b85f2478aeabc5b0fa7a4d5e0694862ee4a0b33b86df1214478859d60eb66",
+    "queries/2e62ea0f7d74c393617316e683705beea3d766bdfda9a4824a222ce14712e89b/reserved-1.json": "db89b02afbd7624336cc6b8f4a1bcbbc6b533d408030b370124ba38dcc2eda92",
+    "queries/2e62ea0f7d74c393617316e683705beea3d766bdfda9a4824a222ce14712e89b/response-1.json": "73ce6d75e89a6ecdfe7bdf6c23ceb15ab8d845b621fdf38824356f88195ddc7e",
+    "codes/SH600325.json": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+    "codes/SH600535.json": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+    "codes/SH603712.json": "4ff91421800e4ce09912728ee063f3958f40f75307ff1f592edd9ff526a7b8be",
+    "codes/SH603882.json": "8e1cbae3c459487ea36c6e66f850dfb239c776f9bd8a57c9924a31840cbce22f",
+    "codes/SH600282.json": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+    "codes/SH600315.json": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+    "codes/SH603688.json": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2",
+    "codes/SH600066.json": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+    "codes/SH601933.json": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+    "codes/SH600271.json": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+    "codes/SH601568.json": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+    "codes/SH603056.json": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+    "codes/SH601156.json": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+    "codes/SH603868.json": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+    "codes/SH600546.json": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+    "codes/SH600177.json": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+    "codes/SH600859.json": "4f8b870c1162a074076a16fdfd53a36b29d9c841f31b0c9066248e5f6f0b0eb2",
+    "codes/SH600967.json": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+    "codes/SH600208.json": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+    "codes/SH600707.json": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+    "codes/SH600316.json": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+    "codes/SH600258.json": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+    "codes/SH600022.json": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+    "codes/SH603858.json": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+    "codes/SH601828.json": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+    "codes/SH603156.json": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+    "codes/SH600516.json": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+    "codes/SH603707.json": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+    "codes/SH601608.json": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+    "codes/SH600737.json": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+    "codes/SH600977.json": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+    "codes/SH600166.json": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+    "codes/SH600536.json": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+    "codes/SH600873.json": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+    "codes/SH603160.json": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+    "codes/SH600062.json": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7"
+  },
+  "all_original_inputs_sha256": {
+    "experiments/qlib/asset-expansion-raw-source-request.json": "3218aabe4316cacbb9fa384901dd30170c40301db06fe01c80713b2392c56961",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/docs/research/asset-expansion-raw-source-plan-2026-10-22.md": "d135f3bbf5b466be27927e89712b1e79a9812f1bb225d44d0e4967487cd57cb4",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/capture_asset_expansion_raw_pre2026.py": "08c3752d9dcf1e22ef4a62110f4a181d12d63767014ec474514adaa1b91583f1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/capture_budgeted_residual_raw_pre2026.py": "fcaf4d0e61f20aaf90980bfc4210503dd8e10283d039638cc8a37608177d2432",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/capture_frozen_target_development_data.py": "e71794618ba647e8cd0e250bafa444e6fd1cc30bf9b6d2fa01e92d08b70ad57d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/capture_illiquidity_raw_development.py": "4a6c1b9597b4e0d797720687f43ba951b9aeabaca3bf8c83149a4657598ce8f1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/capture_low_risk_raw_account_data.py": "0aac96af540bd4dc7f9cf684b3dec5740c1742f7dba4d8eab948477e144a846b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/tests/test_asset_expansion_raw_sources.py": "1f3b3790320d4881c711b73528f4b3a907f903de7bf328a566136016d830e443",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/asset-expansion-pre2026-results.json": "2165c6b740f4bfef0f6a46af6daa27548b12d059e311818b1bef62364240dcf0",
+    "/Users/calm/dev/git_repo/stock-rsi-lab-worktrees/pead/experiments/qlib/asset-expansion-pre2026-audit.json": "de3deb4162bf47851dcf58402fe4187e041eaa6b6eab21e9ca24c028f10e9629",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/manifest.json": "7c7e56f5ec3301a9b1d82748bd90603f255ef8a1c602b64cf34b3ebaedef62b3",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/manifest.json": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/manifest.json": "15709f0416c96148894be6b662c624dbde63d0f5d37b7760078235abe73440c8",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/manifest.json": "53250d4b726f8b54f5e2eafa516b7587e5acd01a6605c4be6457fdc5073263d7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/qlib-price-delay-pre2026-clock-v2-20261021/calendars/day.txt": "0095d19144308a1b0075ffd7f40f7af2dae76bdff3cfb1ba8bd80d4663ef9eaa",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-conditional-development-v1-20261022/targets.json": "f0099cc5fde4f260f34da1200cb68b3047881c0206cab368d872f96134824401",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600022.json": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600062.json": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600066.json": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600166.json": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600177.json": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600208.json": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600258.json": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600271.json": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600282.json": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600315.json": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600316.json": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600325.json": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600516.json": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600535.json": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600536.json": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600546.json": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600707.json": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600737.json": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600859.json": "4f8b870c1162a074076a16fdfd53a36b29d9c841f31b0c9066248e5f6f0b0eb2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600873.json": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600967.json": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600977.json": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601156.json": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601568.json": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601608.json": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH601828.json": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601933.json": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603056.json": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603156.json": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603160.json": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603688.json": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603707.json": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603858.json": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603868.json": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH603882.json": "8e1cbae3c459487ea36c6e66f850dfb239c776f9bd8a57c9924a31840cbce22f"
+  },
+  "source_risks": {
+    "SH600022": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600062": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600066": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600166": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600177": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600208": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": [
+        {
+          "date": "2025-07-30",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2025-07-31",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2025-08-01",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2025-08-04",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2025-08-05",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2025-08-06",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2025-08-07",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2025-08-08",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2025-08-11",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2025-08-12",
+          "tradestatus": "0",
+          "isST": "0"
+        }
+      ]
+    },
+    "SH600258": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600271": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600282": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": [
+        {
+          "date": "2024-01-12",
+          "tradestatus": "0",
+          "isST": "0"
+        }
+      ]
+    },
+    "SH600315": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600316": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600325": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600516": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600535": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [
+        "2025-03-27"
+      ],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": [
+        {
+          "date": "2024-08-01",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2024-08-02",
+          "tradestatus": "0",
+          "isST": "0"
+        }
+      ]
+    },
+    "SH600536": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600546": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600707": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600737": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [
+        "2025-08-14"
+      ],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600859": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600873": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600967": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH600977": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH601156": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH601568": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH601608": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH601828": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH601933": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH603056": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH603156": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH603160": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": [
+        {
+          "date": "2024-11-25",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2024-11-26",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2024-11-27",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2024-11-28",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2024-11-29",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2024-12-02",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2024-12-03",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2024-12-04",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2024-12-05",
+          "tradestatus": "0",
+          "isST": "0"
+        },
+        {
+          "date": "2024-12-06",
+          "tradestatus": "0",
+          "isST": "0"
+        }
+      ]
+    },
+    "SH603688": {
+      "noncash_distributions_requiring_primary_review": [
+        {
+          "code": "sh.603688",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2024-04-13",
+          "dividPlanAnnounceDate": "2024-03-23",
+          "dividPlanDate": "2024-05-16",
+          "dividRegistDate": "2024-05-21",
+          "dividOperateDate": "2024-05-22",
+          "dividPayDate": "2024-05-22",
+          "dividStockMarketDate": "2024-05-22",
+          "dividCashPsBeforeTax": "5.7",
+          "dividCashPsAfterTax": "5.13或5.7",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10转5派57元（含税，扣税后51.3或57元）",
+          "dividReserveToStockPs": "0.500000"
+        }
+      ],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH603707": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH603712": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH603858": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH603868": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    },
+    "SH603882": {
+      "noncash_distributions_requiring_primary_review": [],
+      "adjustment_dates_without_vendor_distribution": [],
+      "quarantines": [],
+      "nonordinary_or_suspended_source_rows": []
+    }
+  },
+  "no_production_imports": true,
+  "same_researcher_source_QA": true,
+  "all_raw_packets_and_original_inputs_unchanged": true,
+  "historical_arrival_verified": false,
+  "corporate_action_completeness_verified": false,
+  "physical_account_admitted": false,
+  "new_2026_provider_query": false,
+  "portfolio_return_computed": false,
+  "objective_achieved": false
+}
