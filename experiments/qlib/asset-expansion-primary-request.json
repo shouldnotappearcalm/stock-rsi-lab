@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_ASSET_EXPANSION_TWO_EXACT_DAY_PRIMARY_NOTICES",
+  "cases": [
+    {
+      "instrument": "SH600535",
+      "publication_day": "2025-03-20"
+    },
+    {
+      "instrument": "SH600737",
+      "publication_day": "2025-08-05"
+    }
+  ],
+  "maximum_HTTP_reservations": 6,
+  "max_attempts_per_identity": 1,
+  "protocol_file": "docs/research/asset-expansion-primary-and-raw-plan-2026-10-22.md",
+  "protocol_sha256": "047a8d996dccb1114b639b0da1e897e94d599a1ef5d48585f4ef279a2a8b7178",
+  "method_code_sha256": {
+    "scripts/capture_asset_expansion_primary_pre2026.py": "0e11741ae3631bab484821f0a58e12bc82685aa97057346954b87c754248e90e",
+    "scripts/capture_low_market_residual_vol_primary_pre2026.py": "13ef06302d89a23d07b657f5af3c2940b1f0ad4b064d124e80e49c7e8a5f7bcd",
+    "scripts/capture_budgeted_corporate_notices_pre2026.py": "19b53f2eda4f399090a444f2bb4aa2dad0e81362f6eec156fa0b6458baa1e8f0",
+    "scripts/audit_cninfo_report_admission.py": "eaab9ec8919ee26d7baf9e6ee3536a14b3ae4af786bace06127ab547bdf231c2",
+    "scripts/capture_cninfo_csi500_reports_pre2026.py": "484a52b630bf15fbc36003e39987ffee146c5273d49a5fd21c5f4e2d62fe57ab",
+    "scripts/fundamental_query_journal.py": "4d3be0a6ef3f09029d86a564c5591cb12406e3f10d958c822bad02f83ba210b5",
+    "tests/test_asset_expansion_primary_capture.py": "08a4e17c1a50491a7ea397466d67f8bc3cc822f0a484a529784059abc6bba9d9"
+  },
+  "public_inputs_sha256": {
+    "experiments/qlib/asset-expansion-raw-source-audit.json": "62eb084e8602e15c96b573a984debdb654fe45d17b483743d13adece32fe3be1",
+    "experiments/qlib/asset-expansion-noncash-primary-observation.json": "008b6bb16ccea4fdfac545ee2a725379d0f5a860caa92936ee610b830870efe9"
+  },
+  "local_inputs_sha256": {
+    "asset-expansion-raw-pre2026-20261022/manifest.json": "3a7572556c6a074f2e3306ecd6c5ec8080d76406ee2b65b8ee763c8d358ca2ed",
+    "cninfo-csi500-reports-20261017/plan.json": "3d187d95b9123046f2d9523f35240351f3da1e4a5c8dc1f93f02ab198f4f8be0",
+    "low-market-residual-vol1m-primary-pre2026-20261021/manifest.json": "338244552243fd043698fb8c388c245c9bb269ceb65276607d59cd96fde68ad2",
+    "low-market-residual-vol1m-primary-pre2026-20261021/SH603688-2024-05-16.pdf": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34"
+  }
+}
