@@ -1,0 +1,22 @@
+{
+  "status": "COFCO_PUBLISHER_ORIGINAL_BYTES_REVIEW_SEPARATE",
+  "request_sha256": "2beae444a0e74e39b5c69dcfe7e17359e758c21c2e1aaee39f837ee6691eb7b7",
+  "URL": "https://www.cofco.com/uploads/soft/250811/56-250Q1162034.pdf",
+  "capture_complete": true,
+  "original_inputs_unchanged": true,
+  "error": null,
+  "HTTP_receipt": {
+    "request_file": "queries/611bdd77939e0d66625cb27419044bcccbfee9a077347d6cd69f16c10a40df34/request.json",
+    "request_sha256": "a5e6000684341fac0421a4c2cc2468f9ae98154a464871effec128679679f7f3",
+    "reserved_file": "queries/611bdd77939e0d66625cb27419044bcccbfee9a077347d6cd69f16c10a40df34/reserved-1.json",
+    "reserved_sha256": "e1e959524af56f318acd174a400709d3a1c76f22e628ff15d2fc0815c71a21c4",
+    "response_file": "queries/611bdd77939e0d66625cb27419044bcccbfee9a077347d6cd69f16c10a40df34/response-1.json",
+    "response_sha256": "3d89df3df735074c820bca3f80ec429aa6590872f1377c5ea2b4830e5dd429eb"
+  },
+  "file": "SH600737-publisher-original.pdf",
+  "sha256": "bd7085e67a5003c33bf99be0338194487d7410e8fe8b9104da121830192e0b5f",
+  "original_title_date_or_entitlements_verified": false,
+  "new_2026_queries": false,
+  "portfolio_return_computed": false,
+  "objective_achieved": false
+}

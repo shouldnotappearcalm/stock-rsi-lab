@@ -1,0 +1,62 @@
+{
+  "status": "ASSET_EXPANSION_PRIMARY_BYTES_CAPTURED_REVIEW_SEPARATE",
+  "request_sha256": "1e8323e10a8fb27b00893a80bafeea346988485de218c6b67dd36c498b46d512",
+  "documents": {
+    "SH603688": {
+      "instrument": "SH603688",
+      "publication_day": "2024-05-16",
+      "file": "SH603688-2024-05-16.pdf",
+      "sha256": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-05-16/1220061278.PDF",
+      "route": "BYTE_IDENTICAL_ORIGINAL_REUSE",
+      "original_capture_manifest_sha256": "338244552243fd043698fb8c388c245c9bb269ceb65276607d59cd96fde68ad2"
+    },
+    "SH600535": {
+      "instrument": "SH600535",
+      "publication_day": "2025-03-20",
+      "file": "SH600535-2025-03-20.pdf",
+      "sha256": "300b95e96c03162b0f1152c8546af57f30ee1bad2eb401a6bbb6bdef26e44109",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-20/1222844270.PDF",
+      "listing_row": {
+        "code": "600535",
+        "title": "天士力2024年年度权益分派实施公告",
+        "day": "2025-03-20",
+        "timestamp_ms": 1742400000000,
+        "announcement_id": "1222844270",
+        "pdf_path": "finalpage/2025-03-20/1222844270.PDF"
+      },
+      "HTTP_listing_receipts": [
+        {
+          "request_file": "queries/dd0b3d1e55ca28b05929a1ad221eb4dba5368cc1fab6ed45c20bd44f8ee74d1d/request.json",
+          "request_sha256": "5b293e074f6f0f7bdaad5daf594506b8659edd7c89222bdbfb8f0f1e6188aa1c",
+          "reserved_file": "queries/dd0b3d1e55ca28b05929a1ad221eb4dba5368cc1fab6ed45c20bd44f8ee74d1d/reserved-1.json",
+          "reserved_sha256": "681ff0c5645a89e008745b428aa2db54422442bf311a2afd5ae44cd8efb53b7c",
+          "response_file": "queries/dd0b3d1e55ca28b05929a1ad221eb4dba5368cc1fab6ed45c20bd44f8ee74d1d/response-1.json",
+          "response_sha256": "2d3d7be4a353876e6bdbed72858e4f3236e1b6c34a2988b2c4e8c5a907c9f668"
+        }
+      ],
+      "HTTP_PDF_receipt": {
+        "request_file": "queries/09875c7b2826d1e7bbd67ba9259b5181d0b1b14d89c5b6797f2655e5eced2ee5/request.json",
+        "request_sha256": "0413e6fff278cab08250da7e9c9e0224d72c6d9e0211f41add03e30f47b317bd",
+        "reserved_file": "queries/09875c7b2826d1e7bbd67ba9259b5181d0b1b14d89c5b6797f2655e5eced2ee5/reserved-1.json",
+        "reserved_sha256": "c5da93722952eb4acd6c86714dd1ce3c0304049d0d7db47c5595bbe25e4dae6a",
+        "response_file": "queries/09875c7b2826d1e7bbd67ba9259b5181d0b1b14d89c5b6797f2655e5eced2ee5/response-1.json",
+        "response_sha256": "1378edaa5b7967aee9c10ec2911b06ce89c5553a813b79f78a85675af75ddebc"
+      },
+      "route": "JOURNALED_PRIMARY_ORIGINAL"
+    }
+  },
+  "errors": {
+    "SH600737": "f2ab477a5832a54a00aff8f7fc8e7f6768aa2b19b736329786db9b55209123c3"
+  },
+  "pending_codes": [],
+  "capture_complete": false,
+  "changed_original_inputs": [],
+  "HTTP_reservations_consumed": 4,
+  "documents_financially_reviewed": false,
+  "capital_tax_verified": false,
+  "raw_account_admitted": false,
+  "new_2026_queries": false,
+  "portfolio_return_computed": false,
+  "objective_achieved": false
+}

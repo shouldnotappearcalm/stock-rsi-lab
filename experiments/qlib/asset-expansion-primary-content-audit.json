@@ -1,0 +1,109 @@
+{
+  "status": "THREE_ORIGINALS_HTTP_AND_SECOND_PDF_EXTRACTOR_CHECKED_NOT_ACCOUNT_ADMISSION",
+  "audit_code_sha256": "b0cbcccc6842b81175d7546d28dd73c05b0c189302669f8dddbd4424b60a1971",
+  "documents": [
+    {
+      "instrument": "SH600535",
+      "source_relative": "asset-expansion-primary-pre2026-20261022/SH600535-2025-03-20.pdf",
+      "file": "SH600535-2025-03-20.pdf",
+      "sha256": "300b95e96c03162b0f1152c8546af57f30ee1bad2eb401a6bbb6bdef26e44109",
+      "pages_read": 3,
+      "pdfminer_text_sha256": "41ee2271ef85b0cb6db39e74426ded4dda5e81db947fb6c63d0612c2b7c8e570",
+      "checked_tokens": [
+        "600535",
+        "2024年年度权益分派实施公告",
+        "每股现金红利0.20元",
+        "2025/3/25",
+        "2025/3/26",
+        "2025年3月20日"
+      ],
+      "HTTP_bytes_authenticated": true,
+      "second_extractor_matches_reviewed_facts": true
+    },
+    {
+      "instrument": "SH600737",
+      "source_relative": "asset-expansion-publisher-original-20261022/SH600737-publisher-original.pdf",
+      "file": "SH600737-publisher-original.pdf",
+      "sha256": "bd7085e67a5003c33bf99be0338194487d7410e8fe8b9104da121830192e0b5f",
+      "pages_read": 3,
+      "pdfminer_text_sha256": "bdaa62722dc67c8af16d0894fae64e99a6b15d8efe0af5d8873155191fa15af0",
+      "checked_tokens": [
+        "600737",
+        "2024年末期权益分派实施公告",
+        "每股现金红利0.41元",
+        "2025/8/12",
+        "2025/8/13",
+        "2025年8月5日",
+        "不涉及派送红股及转增股本"
+      ],
+      "HTTP_bytes_authenticated": true,
+      "second_extractor_matches_reviewed_facts": true
+    },
+    {
+      "instrument": "SH603688",
+      "source_relative": "low-market-residual-vol1m-primary-pre2026-20261021/SH603688-2024-05-16.pdf",
+      "file": "SH603688-2024-05-16.pdf",
+      "sha256": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+      "pages_read": 5,
+      "pdfminer_text_sha256": "441f661f0e642aaed1039b9a11fe2f9301de534740c5cba370264a4c5078942f",
+      "checked_tokens": [
+        "603688",
+        "2023年年度权益分派实施公告",
+        "每股现金红利5.7元",
+        "每股转增股份0.5股",
+        "2024/5/21",
+        "2024/5/22",
+        "2024年5月16日",
+        "5.6925",
+        "0.4993"
+      ],
+      "HTTP_bytes_authenticated": true,
+      "second_extractor_matches_reviewed_facts": true
+    }
+  ],
+  "original_TLS_failures": [
+    {
+      "file": "asset-expansion-primary-pre2026-20261022/queries/8deb0616803673b4fea53bc2bdb848d8faa1780490501f4bdf7cc9a8feb850ea/response-1.json",
+      "sha256": "06a9754a825c217dd222b82a55e913403494cf77fe05d15e1da55eb5fe767cb0",
+      "error_type": "URLError",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+    },
+    {
+      "file": "asset-expansion-primary-continuation-pre2026-20261022/queries/a88e8594c1b63337b50cfb04163b2d88b3f26cca4c122bc83b0f075eff3dc7dd/response-1.json",
+      "sha256": "c5d408f585d9ad33eb4c6c5941596d58c4e8d2dedac09dd2fe9f269b9f42b48b",
+      "error_type": "URLError",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+    }
+  ],
+  "all_inputs_sha256": {
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-primary-pre2026-20261022/SH600535-2025-03-20.pdf": "300b95e96c03162b0f1152c8546af57f30ee1bad2eb401a6bbb6bdef26e44109",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-primary-pre2026-20261022/manifest.json": "ee9f74dee575af7d89fd1c8ff599f52a6a70be44080ddcc29075b2f1f5c938e0",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-primary-pre2026-20261022/queries/09875c7b2826d1e7bbd67ba9259b5181d0b1b14d89c5b6797f2655e5eced2ee5/request.json": "0413e6fff278cab08250da7e9c9e0224d72c6d9e0211f41add03e30f47b317bd",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-primary-pre2026-20261022/queries/09875c7b2826d1e7bbd67ba9259b5181d0b1b14d89c5b6797f2655e5eced2ee5/reserved-1.json": "c5da93722952eb4acd6c86714dd1ce3c0304049d0d7db47c5595bbe25e4dae6a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-primary-pre2026-20261022/queries/09875c7b2826d1e7bbd67ba9259b5181d0b1b14d89c5b6797f2655e5eced2ee5/response-1.json": "1378edaa5b7967aee9c10ec2911b06ce89c5553a813b79f78a85675af75ddebc",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-publisher-original-20261022/SH600737-publisher-original.pdf": "bd7085e67a5003c33bf99be0338194487d7410e8fe8b9104da121830192e0b5f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-publisher-original-20261022/manifest.json": "3d07f9578a17d5948d993e2b5da0a00ae71b2db469961106b3c1548080f0daa9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-publisher-original-20261022/queries/611bdd77939e0d66625cb27419044bcccbfee9a077347d6cd69f16c10a40df34/request.json": "a5e6000684341fac0421a4c2cc2468f9ae98154a464871effec128679679f7f3",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-publisher-original-20261022/queries/611bdd77939e0d66625cb27419044bcccbfee9a077347d6cd69f16c10a40df34/reserved-1.json": "e1e959524af56f318acd174a400709d3a1c76f22e628ff15d2fc0815c71a21c4",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-publisher-original-20261022/queries/611bdd77939e0d66625cb27419044bcccbfee9a077347d6cd69f16c10a40df34/response-1.json": "3d89df3df735074c820bca3f80ec429aa6590872f1377c5ea2b4830e5dd429eb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/SH603688-2024-05-16.pdf": "3d3bc4a9af3500ef9deb89ae80d8924978c2478d1f4940ec9b76c87f71087d34",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/manifest.json": "338244552243fd043698fb8c388c245c9bb269ceb65276607d59cd96fde68ad2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/queries/a6d352d6ea78a60af8392d2cd0384db32fd12e1e8877c0d43347f12f61dd8457/request.json": "13cdb0c06fcbcb98cf64fcf5d51a9fa78c7442873b85284a241d1600b57fef18",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/queries/a6d352d6ea78a60af8392d2cd0384db32fd12e1e8877c0d43347f12f61dd8457/reserved-1.json": "ebf1e55f221814ccf442b01d4628f8ef7cc2abb134d538eb78523291b2a98259",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-primary-pre2026-20261021/queries/a6d352d6ea78a60af8392d2cd0384db32fd12e1e8877c0d43347f12f61dd8457/response-1.json": "8603c23daf8d00b81b4c6e85e85d186fd9eb3384be5da608da54ed2c15e877ec",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-primary-pre2026-20261022/queries/8deb0616803673b4fea53bc2bdb848d8faa1780490501f4bdf7cc9a8feb850ea/response-1.json": "06a9754a825c217dd222b82a55e913403494cf77fe05d15e1da55eb5fe767cb0",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-primary-continuation-pre2026-20261022/queries/a88e8594c1b63337b50cfb04163b2d88b3f26cca4c122bc83b0f075eff3dc7dd/response-1.json": "c5d408f585d9ad33eb4c6c5941596d58c4e8d2dedac09dd2fe9f269b9f42b48b"
+  },
+  "pages_read": 11,
+  "no_production_imports": true,
+  "second_extractor": "pdfminer20251230",
+  "same_researcher_review": true,
+  "original_pypdf_review_also_completed": true,
+  "source_packets_modified": false,
+  "cash_amounts_match_vendor": true,
+  "capital_tax_exemption_verified": false,
+  "fractional_allocation_verified": false,
+  "physical_account_admitted": false,
+  "new_2026_provider_queries": false,
+  "objective_achieved": false
+}
