@@ -1,0 +1,545 @@
+{
+  "status": "EXISTING_PARSER_PAIRED_BALANCE_CAPACITY_DISCOVERY_ONLY",
+  "discovery_code_sha256": "78acc0e4868d0a2d9a60e37d303eb85430f2f83aa5f7ef6d33fac918fa15ab5a",
+  "parent_GP_request_sha256": "b8dded6ac3fbeeda528b43004cf9eb513171f61dd6d93b11fe738109e19da5b5",
+  "source_files_read": 26,
+  "input_sha256": {
+    "source/gross-profitability-all1236-header-v7-20261022/case_results.json": "dbe281076a1fb4a45446528cc1ce90990d5e065c9210609e30e43cd8b2d42a6c",
+    "source/qlib-price-delay-pre2026-clock-v2-20261021/instruments/csi500.txt": "3ada9b34652fe037e188ae977b67b66ae5906d3c6976168823869a6e172ce7b0",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-01-02-RECONSTRUCTED_PUBLICATION_DAY_END.json": "e35e4c3d47c9b47b9ebca395c1ab432aed2bec91556777fafccb0522325ef990",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-02-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "439a6900feaa33b006ed833155b5794e584f275ca939de1a997b72edbda93358",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-03-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "00f284b36022997b15535f757b01e33d2be5844b24c58beb0dd7a77d8a886756",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-04-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "c848466c3226a33ccd54ab14e3fca729b15cd60ff4537dccbb160b03cf42c191",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-05-06-RECONSTRUCTED_PUBLICATION_DAY_END.json": "242168ab695b0c93cc2342074423fb916727ea11e9ae2c42171171ceb19f5023",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-06-03-RECONSTRUCTED_PUBLICATION_DAY_END.json": "cf96fdc7f5f0977a7e15485aa9875cb82cde83312caaef806954e70975c478c4",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-07-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "74789996208ba712d4f3f56f35f542c13ac4817e7ab02ce02244d7a5425bbb94",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-08-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "f6092d6394e203a4507a5da43dcb588278b093f32a2fa3f0301de41449123767",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-09-02-RECONSTRUCTED_PUBLICATION_DAY_END.json": "14548ce7c7dc7e61673c74b6e22e38b76ccadf538a03b60ca0c0c30d7f2a2e83",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-10-08-RECONSTRUCTED_PUBLICATION_DAY_END.json": "c614609e3aeb190f724542710e1ecb0e1b51fae1e40fb1df432e6d646d6b2777",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-11-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "de538c66a70959f7d7d46e9107cd8dacac7516a33a2f0c75c1bc2637dd1fc13e",
+    "source/gross-profitability-monthly-availability-v1-20261022/2024-12-02-RECONSTRUCTED_PUBLICATION_DAY_END.json": "aeb71d886baff0f21c2e1eba991e53824584d39650d9097d81dc263fb843cade",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-01-02-RECONSTRUCTED_PUBLICATION_DAY_END.json": "897db723dc8a77d2cb4e3d75446543be631bc5fb00b89392f843b348d61567b8",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-02-05-RECONSTRUCTED_PUBLICATION_DAY_END.json": "1b65d78328040dd081e30930e173d4e8019ecdf9f750383023056ff6d7760ea4",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-03-03-RECONSTRUCTED_PUBLICATION_DAY_END.json": "2bc0f0189947638ca5ec4b31d09a984a5a8d59c7d7b0f0f44723d3dd15e0478e",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-04-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "ba36f6ae131704c014193b6aa72497c88a1de5581f5099419ae1794513c4d667",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-05-06-RECONSTRUCTED_PUBLICATION_DAY_END.json": "a932f1e355304c22d594c3526a06851d99525450e5acf811e76dd4669d69c1c3",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-06-03-RECONSTRUCTED_PUBLICATION_DAY_END.json": "df9c548890fd1f72943d6b40b7af144903fe6454728fd70bd8ade480cc3d8a6e",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-07-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "5a7a4a843fc3a24ecc698d0dfb5fa0a6e98a459df8bbefd38ebc1f3b69816315",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-08-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "936cbc9bfe8763ec7b80d97af5c059b78be1f211a6791c0a428d93ea15742e7f",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-09-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "f3c01e72b1594d1a91419b9af3ea93ad01852cf45febf7557fa56b933c38d73d",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-10-09-RECONSTRUCTED_PUBLICATION_DAY_END.json": "baf2bb486029ea2e2f77485463b3bd62c64eaa3a5aaab921fdec6b45f7c686d7",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-11-03-RECONSTRUCTED_PUBLICATION_DAY_END.json": "b834eaa132ad4e0f49887dc89c0fc813783f7cc8d869871e1bec2dfe3bd37af6",
+    "source/gross-profitability-monthly-availability-v1-20261022/2025-12-01-RECONSTRUCTED_PUBLICATION_DAY_END.json": "50599c0ce7776a6e76f6bfd0f6b37b61af141361bd88837b123b469d252c2096"
+  },
+  "all_read_source_inputs_unchanged": true,
+  "queries": [
+    {
+      "execution_session": "2024-01-02",
+      "as_of": "2023-12-29T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 137,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 5,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 85,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 107
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 137,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 5,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 85,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 107
+      }
+    },
+    {
+      "execution_session": "2024-02-01",
+      "as_of": "2024-01-31T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 137,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 5,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 85,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 107
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 137,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 5,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 85,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 107
+      }
+    },
+    {
+      "execution_session": "2024-03-01",
+      "as_of": "2024-02-29T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 137,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 5,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 85,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 107
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 137,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 5,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 85,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 107
+      }
+    },
+    {
+      "execution_session": "2024-04-01",
+      "as_of": "2024-03-29T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 134,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 5,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 88,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 107
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 134,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 5,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 88,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 107
+      }
+    },
+    {
+      "execution_session": "2024-05-06",
+      "as_of": "2024-04-30T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 133,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 84,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 114
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 133,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 84,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 114
+      }
+    },
+    {
+      "execution_session": "2024-06-03",
+      "as_of": "2024-05-31T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      }
+    },
+    {
+      "execution_session": "2024-07-01",
+      "as_of": "2024-06-28T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 123,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 73,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 43,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 99
+      }
+    },
+    {
+      "execution_session": "2024-08-01",
+      "as_of": "2024-07-31T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 123,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 73,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 43,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 99
+      }
+    },
+    {
+      "execution_session": "2024-09-02",
+      "as_of": "2024-08-30T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 123,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 73,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 43,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 99
+      }
+    },
+    {
+      "execution_session": "2024-10-08",
+      "as_of": "2024-09-30T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 123,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 73,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 43,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 99
+      }
+    },
+    {
+      "execution_session": "2024-11-01",
+      "as_of": "2024-10-31T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 123,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 73,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 43,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 99
+      }
+    },
+    {
+      "execution_session": "2024-12-02",
+      "as_of": "2024-11-29T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 123,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 73,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 43,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 99
+      }
+    },
+    {
+      "execution_session": "2025-01-02",
+      "as_of": "2024-12-31T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 111,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 65,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 42,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 91
+      }
+    },
+    {
+      "execution_session": "2025-02-05",
+      "as_of": "2025-01-27T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 111,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 65,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 42,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 91
+      }
+    },
+    {
+      "execution_session": "2025-03-03",
+      "as_of": "2025-02-28T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 132,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 83,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 16,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 115
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 111,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 65,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 42,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 91
+      }
+    },
+    {
+      "execution_session": "2025-04-01",
+      "as_of": "2025-03-31T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 134,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 81,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 15,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 87,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 29
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 113,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 3,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 63,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 42,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 14,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 71,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 21
+      }
+    },
+    {
+      "execution_session": "2025-05-06",
+      "as_of": "2025-04-30T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 140,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 86,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 12,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 5,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 104
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 118,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 70,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 42,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 11,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 2,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 82
+      }
+    },
+    {
+      "execution_session": "2025-06-03",
+      "as_of": "2025-05-30T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 140,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 87,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 12,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 4,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 104
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 118,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 71,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 42,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 11,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 1,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 82
+      }
+    },
+    {
+      "execution_session": "2025-07-01",
+      "as_of": "2025-06-30T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 140,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 87,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 12,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 4,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 104
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 110,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 59,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 41,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 11,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 1,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 70
+      }
+    },
+    {
+      "execution_session": "2025-08-01",
+      "as_of": "2025-07-31T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 140,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 87,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 12,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 4,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 104
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 110,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 59,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 41,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 11,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 1,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 70
+      }
+    },
+    {
+      "execution_session": "2025-09-01",
+      "as_of": "2025-08-29T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 140,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 87,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 12,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 4,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 104
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 110,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 59,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 41,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 11,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 1,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 70
+      }
+    },
+    {
+      "execution_session": "2025-10-09",
+      "as_of": "2025-09-30T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 140,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 87,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 12,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 4,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 104
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 110,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 59,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 41,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 11,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 1,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 70
+      }
+    },
+    {
+      "execution_session": "2025-11-03",
+      "as_of": "2025-10-31T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 140,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 87,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 12,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 4,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 104
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 110,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 59,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 41,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 11,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 1,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 70
+      }
+    },
+    {
+      "execution_session": "2025-12-01",
+      "as_of": "2025-11-28T15:05:00+08:00",
+      "full394_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 140,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 87,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 45,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 12,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 4,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 104
+      },
+      "active_initial_cohort_status_counts": {
+        "SAME_EDITION_EXPLICIT_PRIOR_DEC31_AVAILABLE_NOT_RANKED": 110,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 2,
+        "LATEST_SOURCE_SCHEMA_UNSUPPORTED": 59,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 41,
+        "LATEST_COVER_IDENTITY_UNVERIFIED": 11,
+        "EXPLICIT_JAN1_NOT_PRIOR_DEC31": 1,
+        "UNDATED_OPENING_COLUMN_NOT_ANNUAL_PRIOR": 70
+      }
+    }
+  ],
+  "cohort_count": 394,
+  "asset_growth_values_or_ranks_computed": false,
+  "price_features_read": false,
+  "portfolio_returns_computed": false,
+  "2026_financial_or_market_values_read": false,
+  "new_strategy_registered": false,
+  "scope_limit": "Counts only current GP-supported editions. GP parsing requires revenue and cost; missing paired observations do not prove absence of usable balance-only asset cells.",
+  "current_business_identity_verified": false,
+  "complete_financial_history_verified": false,
+  "objective_achieved": false
+}

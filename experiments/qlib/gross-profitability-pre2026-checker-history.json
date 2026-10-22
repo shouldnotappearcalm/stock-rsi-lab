@@ -1,0 +1,27 @@
+{
+  "status": "INITIAL_CHECKER_SEMANTIC_ASSUMPTIONS_CORRECTED_WITHOUT_MODIFYING_FROZEN_TRIAL",
+  "actual_strategy_runs": 1,
+  "actual_full_QA_attempts": 2,
+  "failed_QA_attempts": 1,
+  "passed_QA_attempts": 1,
+  "failure_reason": "Initial checker treated signed Qlib indicator amounts as unsigned and assumed no normalized overfill; installed0.9.8 uses signed amount_delta/deal_amount_delta and floor((amount*factor+0.1)/100)*100/factor.",
+  "source_backed_correction": true,
+  "all_direction_signs_checked_consistent": true,
+  "max_observed_extra_source_units": 0.09819904798276013,
+  "hard_rounding_bound_from_engine_source": 0.1,
+  "not_a_raw_share_execution_claim": true,
+  "frozen_signal_runner_request_or_outputs_modified": false,
+  "strategy_rerun_to_pass_checker": false,
+  "full_unittest_tests": 1124,
+  "all_log_and_source_sha256": {
+    "initial_checker": "05f862367f3d8cd5ce6805bacc039a752cc438b0ee9fbf5633c0665301073ddb",
+    "initial_failed_actual_QA": "ab051150c7c2299b9ccae88f0903d9100195a9a665d9bfe8113df372763437f1",
+    "qlib_exchange_source": "4affc13ab45af464cfb5b55663b80b2fc3dadb4769045d34d0fd218f760d7e08",
+    "qlib_report_source": "121815ffe0f35a51d8f93597ddc3c471419571b81238c9073036c172066eedb5",
+    "successful_second_actual_QA": "a995ad67e28df6e882938882505d132b12f33ce92465a0ea6b16199ea08ced85",
+    "fill_semantics_red": "06489ca1b84490ebcf0f3d5088f3239c6ad9e6824ca3b275851c7f33b0f7fc4f",
+    "fill_semantics_green": "4bd4a0a0c5b6c3bf7f2eda8c418972f68e1b32fa62a493e1e1658b1582178a6a",
+    "full_suite_final": "600d37d1388127cb12945898f869a50443dd3b69d886acf60dff287eb65e2baf",
+    "frozen_request": "b8dded6ac3fbeeda528b43004cf9eb513171f61dd6d93b11fe738109e19da5b5"
+  }
+}
