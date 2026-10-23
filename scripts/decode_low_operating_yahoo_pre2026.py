@@ -18,19 +18,20 @@ DESIGN='docs/research/low-operating-yahoo-decode-design-2026-10-23.md';PLAN='doc
 
 def context(base,root):
     need(sha(root/PROOF)==PROOF_SHA,'same original opaque acquisition proof')
-    p=read(root/PROOF);need(p['status']=='PASS_OPAQUE_CAPTURE_FULL_INPUT_OUTPUT_REHASH_NOT_SOURCE_ADMISSION'
+    p=json.loads(bound_body(root/PROOF,PROOF_SHA));need(p['status']=='PASS_OPAQUE_CAPTURE_FULL_INPUT_OUTPUT_REHASH_NOT_SOURCE_ADMISSION'
         and p['raw_body_values_decoded'] is False and p['accepted_rows']==0,'original opaque acquisition only')
     required={('repo/'+OLD_REQUEST if k=='frozen_request' else k):h for k,h in p['all_input_sha256'].items()}
     required.update({'source/'+OPAQUE+'/'+n:h for n,h in p['all_capture_sha256'].items()});required['repo/'+PROOF]=sha(root/PROOF)
     paths={k:legacy.resolve(k,root,base) for k in required}
     for k,f in paths.items():need(not f.is_symlink() and sha(f)==required[k],'unchanged complete opaque graph '+k)
-    sessions=read(base/RAW/'calendar.json')['sessions'];packet=read(base/RAW/'codes/SH600118.json')
+    sessions=json.loads(bound_body(base/RAW/'calendar.json',required['source/'+RAW+'/calendar.json']))['sessions']
+    packet=json.loads(bound_body(base/RAW/'codes/SH600118.json',required['source/'+RAW+'/codes/SH600118.json']))
     need(len(sessions)==486 and sessions==sorted(set(sessions)) and [sessions[0],sessions[-1]]==[START,END]
         and packet['instrument']=='SH600118' and packet['window']==[START,END] and [r['date'] for r in packet['bars']]==sessions,'same explicit sessions/raw control')
     return sessions,packet['bars'],paths
 
 def authenticate(base,root,request,expected):
-    need(sha(request)==expected,'exact frozen Yahoo decode request');r=read(request)
+    need(sha(request)==expected,'exact frozen Yahoo decode request');r=json.loads(bound_body(request,expected))
     need(r['status']=='FROZEN_SELECTIVE_PRE2026_YAHOO_COMPONENT_PROJECTION' and r['candidate']==CANDIDATE and r['window']==[START,END]
         and r['price_policy']=='EXACT_CENTS_OR_UNIQUE_NATIVE_F32_CELL_NO_GUARD' and r['volume_policy']=='EXACT_INTEGER_SHARES'
         and r['all_timestamps_before_quotes'] is True and r['shared_projector_audit'] is True
@@ -94,6 +95,23 @@ def run(base,root,request,expected):
 
 def verify_artifacts(out,sessions,original,terminal,loader,pre_target=None):
     error='error_type' in terminal;names={'terminal.json'};prefix={c:sorted((out/'rows'/c).glob('*.json')) for c in ('SH600118','SZ002326')}
+    invoked=terminal['target_decoder_invoked'];marker=(out/'target-started.json').exists()
+    need(type(invoked) is bool and all(type(terminal[k]) is int and terminal[k]>=0 for k in ('control_rows_completed','target_rows_completed')),'explicit invocation and durable counts')
+    need(len(prefix['SZ002326'])==terminal['target_rows_completed'],'target inventory count before target load')
+    allowed={'terminal.json','control-summary.json','control-rows.json','target-rows.json','target-started.json'}|set(terminal.get('rejected_terminal_sha256',{}))
+    for code,paths in prefix.items():
+        need(all(p.stem in sessions for p in paths),'only explicit historical durable row names')
+        allowed.update('rows/'+code+'/'+p.name for p in paths)
+    need({str(p.relative_to(out)) for p in out.rglob('*') if p.is_file()}<=allowed,'structural artifact closure before target')
+    if not error:
+        need((out/'control-rows.json').exists() and (not invoked or (out/'target-rows.json').exists()),'successful source requires durable aggregates before target')
+    else:
+        stage=terminal['failed_stage'];need(stage in ('CONTROL','TARGET','TERMINAL'),'reachable native failure stage')
+        need(terminal['complete'] is False and terminal['status']=='SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED'
+            and type(terminal['error_type']) is str and type(terminal['error']) is str,'native failure identity before target')
+        need(terminal['failed_row_index']==(None if stage=='TERMINAL' else terminal['control_rows_completed' if stage=='CONTROL' else 'target_rows_completed']),'native failure position before target')
+        if stage=='CONTROL':need(not invoked and not prefix['SZ002326'] and not (out/'target-rows.json').exists(),'control failure precedes target invocation/evidence')
+        if stage=='TARGET':need(marker,'target-stage failure requires preceding marker')
     report_exists=(out/'control-summary.json').exists();control=decode(loader('SH600118'),'SH600118',sessions,prefix_rows=None if report_exists else len(prefix['SH600118']))
     def check_rows(code,rows):
         need(len(prefix[code])==len(rows)==terminal['control_rows_completed' if code=='SH600118' else 'target_rows_completed'],'exact durable count '+code)
@@ -103,7 +121,6 @@ def verify_artifacts(out,sessions,original,terminal,loader,pre_target=None):
         report=comparator.control(control,original);need(read(out/'control-summary.json')==report,'exact control comparison');gate=report['price_volume_gate_passed'];names.add('control-summary.json')
     need(terminal['control_price_volume_gate_passed']==gate,'exact control gate')
     if (out/'control-rows.json').exists():need(report_exists and read(out/'control-rows.json')==control,'exact control aggregate before target');names.add('control-rows.json')
-    marker=(out/'target-started.json').exists();invoked=terminal['target_decoder_invoked'];need(type(invoked) is bool,'explicit target invocation')
     if marker:need(gate and read(out/'target-started.json')=={'only_after_control_price_volume_gate':True},'authorized target marker');names.add('target-started.json')
     target=[]
     if invoked:
@@ -123,9 +140,7 @@ def verify_artifacts(out,sessions,original,terminal,loader,pre_target=None):
             and terminal['complete']==complete and terminal['target_missing_sessions']==missing
             and terminal['status']=='SELECTIVE_COMPONENT_PROJECTION_FINISHED_NOT_ACCOUNT_ADMITTED','exact completed source outcome')
     else:
-        stage=terminal['failed_stage'];need(stage in ('CONTROL','TARGET','TERMINAL') and terminal['complete'] is False
-            and terminal['status']=='SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED' and type(terminal['error_type']) is str and type(terminal['error']) is str,'native failure retained')
-        need(terminal['failed_row_index']==(None if stage=='TERMINAL' else terminal['control_rows_completed' if stage=='CONTROL' else 'target_rows_completed']),'failure position matches durable prefix')
+        stage=terminal['failed_stage']
         for n,h in terminal.get('rejected_terminal_sha256',{}).items():
             need(stage=='TERMINAL' and n in ('terminal-rejected-published.json','terminal-rejected-staged.json') and sha(out/n)==h,'rejected publication retained');names.add(n)
     return {'control':report,'control_rows':control,'target_rows':target,'names':names,'error':error,'complete':complete}

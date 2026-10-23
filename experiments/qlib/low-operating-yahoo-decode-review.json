@@ -1,0 +1,28 @@
+{
+  "reviewed_range": "17591f3..a49dced",
+  "verdict": "WITH_FIXES_THREE_IMPORTANT_NO_CRITICAL",
+  "reviewer": "low_operating_yahoo_decode_review",
+  "synthetic_only": true,
+  "independent_targeted_tests": 11,
+  "important_findings": [
+    "Calendar/control parsed buffers unauthenticated",
+    "Missing successful control aggregate rejected after target reads",
+    "Impossible CONTROL native error could include target invocation"
+  ],
+  "one_correction_pass": [
+    "Authenticate actual proof/request/calendar/control buffers",
+    "Validate status-required aggregates and structural closure before target load",
+    "Validate reachable error stage/invocation/index before target reads"
+  ],
+  "postfix_targeted_tests": 15,
+  "rereview_performed": false,
+  "declined_to_judge": [
+    "Inherited ignored-string UTF-8/depth65-empty-container limitation",
+    "Independent Yahoo decoding; shared projector is explicit",
+    "Actual Yahoo capture, coverage and provider format: real sources not read by reviewer",
+    "Target splits/actions/arrival/state/tax/account/returns/2026 qualification",
+    "Uncatchable interruption or storage failure guarantees",
+    "Later freeze/exact remote/execution/publication",
+    "Numerically equivalent redundant decimal spelling: harmless value equality and tokens retained"
+  ]
+}

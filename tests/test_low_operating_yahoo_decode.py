@@ -108,3 +108,51 @@ class YahooDecodeTests(unittest.TestCase):
             with patch.object(history,'price',side_effect=checked),self.assertRaises(ValueError):
                 source.verify_artifacts(out,DAYS,raw(),terminal,lambda c:(b/source.OPAQUE/c/'body.bin').read_bytes())
             self.assertNotIn(b'"UNFINISHED_POISON"',seen)
+    def test_context_uses_authenticated_parsed_control_buffer(self):
+        from datetime import timedelta,date
+        with tempfile.TemporaryDirectory() as t:
+            root=Path(t)/'repo';base=Path(t)/'source';root.mkdir();base.mkdir()
+            days=[source.START]+[(date(2024,1,1)+timedelta(days=i)).isoformat() for i in range(484)]+[source.END]
+            old=root/source.OLD_REQUEST;old.parent.mkdir(parents=True);old.write_text('{}')
+            calendar=base/source.RAW/'calendar.json';calendar.parent.mkdir(parents=True);calendar.write_text(json.dumps({'sessions':days}))
+            packet=base/source.RAW/'codes/SH600118.json';packet.parent.mkdir();packet.write_text(json.dumps({'instrument':'SH600118','window':[source.START,source.END],'bars':[{'date':d,'open':'10'} for d in days]}))
+            proof=root/source.PROOF;proof.write_text(json.dumps({'status':'PASS_OPAQUE_CAPTURE_FULL_INPUT_OUTPUT_REHASH_NOT_SOURCE_ADMISSION','raw_body_values_decoded':False,'accepted_rows':0,
+                'all_input_sha256':{'frozen_request':source.sha(old),'source/'+source.RAW+'/calendar.json':source.sha(calendar),'source/'+source.RAW+'/codes/SH600118.json':source.sha(packet)},'all_capture_sha256':{}}))
+            real=source.read;original=packet.read_bytes()
+            def transient(p):
+                if p==packet:
+                    changed=json.loads(original);changed['bars'][0]['open']='123';packet.write_text(json.dumps(changed))
+                    try:return real(p)
+                    finally:packet.write_bytes(original)
+                return real(p)
+            with patch.object(source,'PROOF_SHA',source.sha(proof)),patch.object(source,'read',side_effect=transient):sessions,rows,paths=source.context(base,root)
+            self.assertEqual(rows[0]['open'],'10');self.assertEqual(packet.read_bytes(),original)
+    def test_missing_success_control_aggregate_stops_before_target_read(self):
+        with tempfile.TemporaryDirectory() as t:
+            b=Path(t);known=self.setup_run(b)
+            with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)):terminal=source.run(b,b,b/'unused','sha')
+            out=b/source.OUTPUT;(out/'control-rows.json').unlink();seen=[]
+            def load(c):seen.append(c);return (b/source.OPAQUE/c/'body.bin').read_bytes()
+            with self.assertRaises(ValueError):source.verify_artifacts(out,DAYS,raw(),terminal,load)
+            self.assertNotIn('SZ002326',seen)
+    def test_impossible_control_failure_cannot_have_target_invocation(self):
+        with tempfile.TemporaryDirectory() as t:
+            b=Path(t);known=self.setup_run(b)
+            with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)):terminal=source.run(b,b,b/'unused','sha')
+            out=b/source.OUTPUT;terminal.update(status='SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED',complete=False,error_type='ValueError',error='synthetic',failed_stage='CONTROL',failed_row_index=2)
+            seen=[]
+            def load(c):seen.append(c);return (b/source.OPAQUE/c/'body.bin').read_bytes()
+            with self.assertRaises(ValueError):source.verify_artifacts(out,DAYS,raw(),terminal,load)
+            self.assertNotIn('SZ002326',seen)
+    def test_invalid_error_position_or_extra_artifact_precedes_target_reads(self):
+        for mode in ('position','extra'):
+            with self.subTest(mode=mode),tempfile.TemporaryDirectory() as t:
+                b=Path(t);known=self.setup_run(b)
+                with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)):terminal=source.run(b,b,b/'unused','sha')
+                out=b/source.OUTPUT
+                if mode=='extra':(out/'unrecognized.json').write_text('{}')
+                else:terminal.update(status='SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED',complete=False,error_type='ValueError',error='synthetic',failed_stage='TARGET',failed_row_index=1)
+                seen=[]
+                def load(c):seen.append(c);return (b/source.OPAQUE/c/'body.bin').read_bytes()
+                with self.assertRaises(ValueError):source.verify_artifacts(out,DAYS,raw(),terminal,load)
+                self.assertNotIn('SZ002326',seen)
