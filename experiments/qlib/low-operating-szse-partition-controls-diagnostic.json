@@ -1,0 +1,85 @@
+{
+  "status": "SEPARATE_DATE_PARTITIONED_CONTROL_HYPOTHESIS_NOT_ACCOUNT_ADMISSION",
+  "request_sha256": "ce11db4677905b9464ac8cde798ca1f7d3f1001a2ad4542ae51ff0ee00b7cd0a",
+  "controls": {
+    "1815_stock-2025-09-30": {
+      "date": "2025-09-30",
+      "catalogue": "1815_stock",
+      "printed_name": "石基信息",
+      "prices": {
+        "preclose": "10.81",
+        "open": "10.83",
+        "high": "10.85",
+        "low": "10.60",
+        "close": "10.69"
+      },
+      "exact_original_prices": {
+        "preclose": true,
+        "open": true,
+        "high": true,
+        "low": true,
+        "close": true
+      },
+      "passed": true,
+      "literal_catalogue_footer": "<table>\n                        <tr><td class=\"link1\"><font color='#999'>1、仅含2025-09-30前的交易数据。</font></td></tr>\n                        <tr><td class=\"link1\"><font color='#999'>2、表中成交量、成交金额为所有交易方式汇总值。</font></td></tr>\n                    </table>",
+      "date_conditions": [
+        {
+          "name": "txtBeginDate",
+          "defaultValue": "2025-09-30"
+        },
+        {
+          "name": "txtHistoryMaxDate",
+          "defaultValue": "2025-09-30"
+        }
+      ]
+    },
+    "1815_stock_snapshot-2025-12-31": {
+      "date": "2025-12-31",
+      "catalogue": "1815_stock_snapshot",
+      "printed_name": "石基信息",
+      "prices": {
+        "preclose": "10.56",
+        "open": "10.55",
+        "high": "11.23",
+        "low": "10.51",
+        "close": "10.83"
+      },
+      "exact_original_prices": {
+        "preclose": true,
+        "open": true,
+        "high": true,
+        "low": true,
+        "close": true
+      },
+      "passed": true,
+      "literal_catalogue_footer": "<table>\n                        <tr><td class=\"link1\"><font color='#999'>表中成交量、成交金额为所有交易方式汇总值。</font></td></tr>\n                    </table>",
+      "date_conditions": [
+        {
+          "name": "txtBeginDate",
+          "defaultValue": "2025-12-31"
+        },
+        {
+          "name": "txtEndDate",
+          "defaultValue": "2025-12-31"
+        },
+        {
+          "name": "archiveDate",
+          "defaultValue": null
+        }
+      ]
+    }
+  },
+  "errors": {},
+  "previous_six_control_gate_remains_false": true,
+  "prior_in_range_passed_controls": 5,
+  "new_date_partitioned_control_gate_passed": true,
+  "historical_routing": {
+    "1815_stock_through": "2025-09-30",
+    "1815_stock_snapshot_from": "2025-10-01",
+    "single_exact_date_per_request": true
+  },
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_used_for_selection": false,
+  "objective_achieved": false
+}

@@ -1,0 +1,75 @@
+{
+  "status": "MANUAL_HISTORICAL_STATE_ACTION_RAW_CAPTURE_NOT_ADMITTED",
+  "request_sha256": "ce11db4677905b9464ac8cde798ca1f7d3f1001a2ad4542ae51ff0ee00b7cd0a",
+  "resources": {
+    "1815_stock-2025-09-30": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "3448",
+        "url_effective": "https://www.szse.cn/api/report/ShowReport/data?SHOWTYPE=JSON&CATALOGID=1815_stock&TABKEY=tab1&PAGENO=1&tab1PAGESIZE=1000&code=002153&txtDMorJC=002153&txtBeginDate=2025-09-30&txtEndDate=2025-09-30"
+      },
+      "body_bytes": 3448,
+      "error_type": null,
+      "error": null
+    },
+    "1815_stock_snapshot-2025-12-31": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "3552",
+        "url_effective": "https://www.szse.cn/api/report/ShowReport/data?SHOWTYPE=JSON&CATALOGID=1815_stock_snapshot&TABKEY=tab1&PAGENO=1&tab1PAGESIZE=1000&code=002153&txtDMorJC=002153&txtBeginDate=2025-12-31&txtEndDate=2025-12-31"
+      },
+      "body_bytes": 3552,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002092-ST-notice-20240518": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "279401",
+        "url_effective": "https://static.cninfo.com.cn/finalpage/2024-05-18/1220091680.PDF"
+      },
+      "body_bytes": 279401,
+      "error_type": null,
+      "error": null
+    }
+  },
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_decoded": false,
+  "objective_achieved": false,
+  "complete": true,
+  "capture_sha256": {
+    "1815_stock-2025-09-30/request.json": "be9796be3b2d1f3cf22818f6b3983ec6d0cb07463d1370622990d04016f83fd7",
+    "1815_stock-2025-09-30/reservation.json": "151c6388cb8ba32498a394710e05c59f63b4316147f4f2f77c74d8e930143a1c",
+    "1815_stock-2025-09-30/command.json": "5ad2e24464314c11b59767fabc4ad3a339dedaecabe61cadc45838251f56add1",
+    "1815_stock-2025-09-30/headers.raw": "0b2e9d41a5d977630b7d6b09a585017f39994b2c5b4a882f5e4e6b458f7c0da5",
+    "1815_stock-2025-09-30/body.bin": "35fec692b8caf424b5aab91e512343c8248b285b56ba6d67114e0960f67beaa0",
+    "1815_stock-2025-09-30/transport.raw": "6d8dcd2490aae3c6c6756f840f76ccc7d0dff31ae645d9072379240f3a062f95",
+    "1815_stock-2025-09-30/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1815_stock-2025-09-30/receipt.json": "3feefd6df418c67c58bda8a17d09b74d662fe49b010a385bee8a809ddd194a06",
+    "1815_stock_snapshot-2025-12-31/request.json": "048763dc6b1e9fefc836c2fe2fab5cd929a4ab87be6d43031031c1650986b8c7",
+    "1815_stock_snapshot-2025-12-31/reservation.json": "6f3f3ebd4196518ec0c5af516f7b60b9773f4060cb578b92205db4ad308c0d7a",
+    "1815_stock_snapshot-2025-12-31/command.json": "29199047b4c177986cac92e8f16b18efe62ddffa900ff851d7e959e1acce8ac7",
+    "1815_stock_snapshot-2025-12-31/headers.raw": "14b13261b6dc0032e3ddec03a9d88a4669832d62cf2e2a487bbbf1f0b14cda11",
+    "1815_stock_snapshot-2025-12-31/body.bin": "70aa4f3a9cd009a0fc36fd2c0b7a1ffeef8cd4a8d1a9899e532fffecf9e6583e",
+    "1815_stock_snapshot-2025-12-31/transport.raw": "39075f1ba15e5bb08796b58cb0505e85ab2ac1c4f5a3376ffac0c577c114cb81",
+    "1815_stock_snapshot-2025-12-31/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1815_stock_snapshot-2025-12-31/receipt.json": "f69ac55ea106c85988fbc5907dfd8d1c6be8bc033a7d58537b66798d89071e46",
+    "SZ002092-ST-notice-20240518/request.json": "ab830ce2b522d0a51de7cc641af7199d0002545614d71019f826859ca7cf0709",
+    "SZ002092-ST-notice-20240518/reservation.json": "dc63bc6a70a4122fb4038b5400fc0755cb7e9526fccad419d5bb6643b66edacd",
+    "SZ002092-ST-notice-20240518/command.json": "b3d06a7ad3bc825be28271c3915c5b6bf59529b889fb864ef8e145615a9f4381",
+    "SZ002092-ST-notice-20240518/headers.raw": "836924734e159e320011651476c19c76a8a279a93824f1660eb853421533dcd6",
+    "SZ002092-ST-notice-20240518/body.bin": "5d658096900ed72867b81022955705f8f718daa75d4c2260f82566e89db43e36",
+    "SZ002092-ST-notice-20240518/transport.raw": "3202fe41960fa7a2fe3782024f79d1fad36a5099d2cb76c8408b3573f68b1e26",
+    "SZ002092-ST-notice-20240518/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002092-ST-notice-20240518/receipt.json": "f1cfb564968e7511c23a215e491a61aba25095529fb4fe008fc4ebfde0278ab2"
+  },
+  "all_inputs_unchanged": true,
+  "all_outputs_unchanged": true
+}
