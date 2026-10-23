@@ -1,5 +1,9 @@
 #2026 annual source archive complete; financial extraction and returns pending
 
+Subsequent stage: [all 400 original-source extraction cases and source-cell
+QA](asset-expansion-2026-assets-results-2026-10-23.md) are complete. The archive
+stage below retains its original scope; 2026 portfolio returns remain pending.
+
 The fixed394 issuer metadata scope is complete through2026Oct21.392 issuers
 have400 full-report candidates;SH603056 andSZ002505 returned complete empty
 annual-category responses. The400 metadata-labelled editions consist of399
