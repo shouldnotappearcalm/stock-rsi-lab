@@ -1,0 +1,49 @@
+{
+  "status": "FRESH_SYNTHETIC_REVIEW_FOUR_IMPORTANT_CORRECTED_ONCE_NO_REREVIEW",
+  "reviewed_range": [
+    "5e70c2a317381f7f8b5f6eec484ca4cb9996978c",
+    "d28e0e1"
+  ],
+  "reviewer": "fresh gpt-6-astra/high read-only reviewer",
+  "direct_reviewer_evidence": "18 focused synthetic tests PASS;git diff --check PASS; no actual new financial data parsed",
+  "findings": [
+    {
+      "priority": "Important",
+      "problem": "Pre-header row could substitute for a missing table body row",
+      "correction": "Extract after validated fiscal header; retain source-row offsets and table witnesses; reject same-page pre-header substitutes"
+    },
+    {
+      "priority": "Important",
+      "problem": "Contradictory header,row,unit location and header occurrences survived report validation",
+      "correction": "Rebuild entire supported table metadata/cells from retained line witness; exact two-column row agreement; parent compares witnesses with authenticated original page buffers"
+    },
+    {
+      "priority": "Important",
+      "problem": "Invalid source metadata downgraded to unsupported or cover classification",
+      "correction": "Validate chronology/identity before both branches and for every worker status; metadata errors remain native"
+    },
+    {
+      "priority": "Important",
+      "problem": "Missing NI/CFO could hide protected prior-asset integrity disagreement",
+      "correction": "Authenticate protected observations and compare independently parseable dated assets before new-field syntax classification"
+    }
+  ],
+  "correction_pass": "New review regressions RED:10failures across subcases; GREEN23focused; full regression recorded separately",
+  "no_rereview": true,
+  "actual_source_or_2026_run_performed_before_review": false,
+  "declined_to_judge": [
+    "Actual corpus coverage/original financial values: prohibited and no real new fields parsed",
+    "Historical publication/arrival truth,amendment completeness and cross-issuer comparability: external facts not proven by synthetics",
+    "Investment efficacy,rankings,accounts or three-period objective: outside source-only scope",
+    "Push,exactremote,CI and forthcoming corpus reconciliation: execution evidence pending",
+    "Parent1550full-test result was not independently rerun; reviewer directly ran18focusedtests"
+  ],
+  "deferred_minor_findings": [],
+  "rulings_and_costs": [
+    "Chinese consolidated NI-CFO proxy is not original US continuing-ops accruals or Ball cash operating profitability; accounting compatibility conditional",
+    "Immutable shared grammar and same-author/root checks are not independent source/audit assurance",
+    "All original editions/cohort retained; unsupported syntax,known amendments and industry-vintage limits prevent universal source-admission claims",
+    "Three-file actual-buffer hashes per worker,fullgraphbefore/after/terminalSHA,earlystatchecks betweenbatches; statchecks alone are not cryptographic proof or OSisolation",
+    "Table line witnesses enlarge artifacts and add parent source checks; this is deliberate provenance coverage, not economic validation"
+  ]
+}

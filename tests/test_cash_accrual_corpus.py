@@ -85,3 +85,22 @@ class CashAccrualCorpusTests(TestCase):
     def test_unsupported_cash_row_stays_failed_source_not_zero_filled(self):
         prior=self.base/runner.parent.PARENT_OUTPUT/'SYNTHETIC-0.json';cache=self.base/runner.parent.INITIAL_CACHE/'SYNTHETIC-0.pages.json';v=runner.read(cache);v['pages'][4]=v['pages'][4].replace('经营活动产生的现金流量净额','经营现金流未知口径');self.update(cache,v);old=runner.read(prior);old['all_extracted_page_text_sha256']={str(i+1):hashlib.sha256(p.encode()).hexdigest() for i,p in enumerate(v['pages'])};self.update(prior,old)
         case=self.inspect();self.assertEqual(case['status'],runner.UNSUPPORTED);self.assertIsNone(case['report']);self.assertIn('unique consolidated',case['error'])
+
+    def test_invalid_metadata_is_native_for_supported_unsupported_and_cover_paths(self):
+        prior=self.base/runner.parent.PARENT_OUTPUT/'SYNTHETIC-0.json';cache=self.base/runner.parent.INITIAL_CACHE/'SYNTHETIC-0.pages.json';old_case=runner.read(prior);old_cache=runner.read(cache);self.docs[0]['day']='2023-04-27'
+        for kind in ('supported','unsupported','cover'):
+            c=deepcopy(old_case);p=deepcopy(old_cache)
+            if kind=='cover':c['cover_code_consistent']=False
+            if kind=='unsupported':p['pages'][4]=p['pages'][4].replace('经营活动产生的现金流量净额','缺失现金流字段');c['all_extracted_page_text_sha256']={str(i+1):hashlib.sha256(s.encode()).hexdigest() for i,s in enumerate(p['pages'])}
+            self.update(prior,c);self.update(cache,p)
+            with self.subTest(kind=kind),self.assertRaises(ValueError):self.inspect()
+    def test_missing_cfo_cannot_hide_protected_prior_asset_disagreement(self):
+        prior=self.base/runner.parent.PARENT_OUTPUT/'SYNTHETIC-0.json';cache=self.base/runner.parent.INITIAL_CACHE/'SYNTHETIC-0.pages.json';v=runner.read(prior);cells=old.parse_consolidated_tables(source(),2023);obs=old.make_observation('SH600001',2023,'2022-12-31','2024-04-27',DOC['captured_at_utc'],self.docs[0]['source_sha256'],DOC['announcement_id'],cells['2022-12-31']);obs['payload']['cells']['total_assets']['value_CNY']='999.00';obs['record_id']=runner.digest({k:x for k,x in obs.items() if k!='record_id'});v['source_observations']=[obs]
+        p=runner.read(cache);p['pages'][4]=p['pages'][4].replace('经营活动产生的现金流量净额','缺失现金流字段');v['all_extracted_page_text_sha256']={str(i+1):hashlib.sha256(s.encode()).hexdigest() for i,s in enumerate(p['pages'])};self.update(cache,p);self.update(prior,v)
+        with self.assertRaisesRegex(ValueError,'protected'):self.inspect()
+    def test_worker_provenance_and_invalid_metadata_cannot_be_reclassified(self):
+        def worker(*args):
+            case=runner.inspect_one(*args);report=case['report'];report['parsed']['income']['2022-12-31']['net_profit']['unit_evidence_page']=-999;report['record_id']=runner.digest({k:v for k,v in report.items() if k!='record_id'});return case
+        with self.assertRaises(ValueError):self.execute(worker)
+        case=self.inspect();doc={**self.docs[0],'day':'2023-04-27'};case.update(publication_day=doc['day'],status=runner.UNSUPPORTED,report=None)
+        with self.assertRaises(ValueError):runner.validate_case(case,doc,self.base,self.known)

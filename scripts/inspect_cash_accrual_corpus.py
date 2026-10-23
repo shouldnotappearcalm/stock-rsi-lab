@@ -29,19 +29,27 @@ def case_paths(base,document):
     return (base/raw,base/parent.PARENT_OUTPUT/(key+'.json'),base/(parent.INITIAL_CACHE if phase=='INITIAL_AUTHENTICATED_PAGE_CACHE' else parent.LATER_CACHE)/(key+'.pages.json'))
 
 def inspect_one(base,document,normative_basis,known):
-    base=Path(base);raw,case_path,cache_path=case_paths(base,document);expected=lambda p:known[str(p.resolve())]
+    cash.metadata(document);base=Path(base);raw,case_path,cache_path=case_paths(base,document);expected=lambda p:known[str(p.resolve())]
     need(not raw.is_symlink() and sha(raw)==expected(raw)==document['source_sha256'],'authenticated original PDF bytes')
     old=read_bound(case_path,expected(case_path));cache=read_bound(cache_path,expected(cache_path));pages=cache['pages'];year=document['effective_fiscal_year']
     need(old['capture_key']==document['capture_key'] and old['instrument']==document['instrument'] and old['fiscal_year']==year and old['source_sha256']==document['source_sha256'],'original source case identity')
     need(cache['source_sha256']==document['source_sha256'] and cache['extractor']=='pypdf6.10.0' and type(pages) is list and pages and all(type(p) is str for p in pages) and len(pages)==old['page_count'] and {str(i+1):hashlib.sha256(p.encode()).hexdigest() for i,p in enumerate(pages)}==old['all_extracted_page_text_sha256'],'authenticated cached physical page text')
     result={'capture_key':document['capture_key'],'instrument':document['instrument'],'fiscal_year':year,'publication_day':document['day'],'source_sha256':document['source_sha256'],'parent_case_sha256':expected(case_path),'source_page_cache_sha256':expected(cache_path),'report':None,'protected_asset_cells_compared':0,'historical_arrival_verified':False,'investment_factor_admitted':False}
-    if not(old['cover_code_consistent'] and old['cover_annual_year_consistent']):return {**result,'status':'COVER_IDENTITY_UNVERIFIED'}
+    protected=old['source_observations']
+    for observation in protected:
+        need(observation['record_id']==digest({k:v for k,v in observation.items() if k!='record_id'}),'protected old GP observation identity')
+    if not(old['cover_code_consistent'] and old['cover_annual_year_consistent']):
+        need(not protected,'protected observations contradict unverified cover identity');return {**result,'status':'COVER_IDENTITY_UNVERIFIED'}
+    try:assets=cash.parse_asset_cells(pages,year,normative_basis=normative_basis)
+    except ValueError:assets=None
+    controls=0
+    if assets is not None:
+        for observation in protected:
+            period=observation['fiscal_end'];need(period in assets,'protected fiscal asset column unavailable');before=observation['payload']['cells']['total_assets'];after=assets[period]
+            need(all(before[k]==after[k] for k in ('value_CNY','literal','fiscal_end','column_index')),'protected old asset source cell disagreement');controls+=1
+    result['protected_asset_cells_compared']=controls
     try:parsed=cash.parse_report(pages,year,normative_basis=normative_basis);report=cash.make_report(document,parsed)
     except (ValueError,KeyError,ArithmeticError) as exc:return {**result,'status':UNSUPPORTED,'error_type':type(exc).__name__,'error':str(exc)}
-    controls=0
-    for observation in old['source_observations']:
-        need(observation['record_id']==digest({k:v for k,v in observation.items() if k!='record_id'}),'protected old GP observation identity');period=observation['fiscal_end'];before=observation['payload']['cells']['total_assets'];after=parsed['balances'][period]
-        need(all(before[k]==after[k] for k in ('value_CNY','literal','fiscal_end','column_index')),'protected old asset source cell disagreement');controls+=1
     return {**result,'status':SUPPORTED,'report':report,'protected_asset_cells_compared':controls}
 
 def bindings(base,root,membership):
@@ -62,11 +70,14 @@ def verify(base,root,membership,request,expected):
     need(req['documents']==old['documents'] and req['cohort']==old['cohort'] and req['normative_basis']==old['normative_basis'] and len(req['documents'])==1236 and len({v['capture_key'] for v in req['documents']})==1236 and all(v['day']<='2025-12-31' for v in req['documents']),'complete original editions/cohort/units; no future source')
     known[str(request.resolve())]=expected;req['request_sha256']=expected;return req,known
 
-def validate_case(case,document,base,known):
+def validate_case(case,document,base,known,normative_basis=None):
+    cash.metadata(document)
     _,prior,cache=case_paths(base,document);need(case['parent_case_sha256']==known[str(prior.resolve())] and case['source_page_cache_sha256']==known[str(cache.resolve())],'worker authenticated source provenance')
     need(all(case[k]==document[d] for k,d in [('capture_key','capture_key'),('instrument','instrument'),('fiscal_year','effective_fiscal_year'),('publication_day','day'),('source_sha256','source_sha256')]),'worker original case identity')
     need(case['status'] in (SUPPORTED,UNSUPPORTED,'COVER_IDENTITY_UNVERIFIED'),'known source classification')
-    if case['status']==SUPPORTED:need(cash.make_report(document,case['report']['parsed'])==case['report'],'worker supported report identity/source evidence')
+    if case['status']==SUPPORTED:
+        need(cash.make_report(document,case['report']['parsed'])==case['report'],'worker supported report identity/source evidence')
+        original=read_bound(cache,known[str(cache.resolve())]);cash.verify_source_tables(case['report']['parsed'],original['pages'],document['effective_fiscal_year'],normative_basis=normative_basis)
     else:need(case['report'] is None,'failed source cannot supply monetary report')
 
 def execute(req,known,out,base,*,worker=inspect_one,executor_factory=ProcessPoolExecutor):
@@ -91,7 +102,7 @@ def execute(req,known,out,base,*,worker=inspect_one,executor_factory=ProcessPool
                 for i,doc,future in peers:
                     row_index=i
                     try:
-                        case=future.result();validate_case(case,doc,base,known);save('cases/'+doc['capture_key']+'.json',case);results[doc['capture_key']]={'status':case['status'],'sha256':outputs['cases/'+doc['capture_key']+'.json'],'instrument':case['instrument'],'fiscal_year':case['fiscal_year'],'protected_asset_cells_compared':case['protected_asset_cells_compared'],'error':case.get('error')}
+                        case=future.result();validate_case(case,doc,base,known,req['normative_basis']);save('cases/'+doc['capture_key']+'.json',case);results[doc['capture_key']]={'status':case['status'],'sha256':outputs['cases/'+doc['capture_key']+'.json'],'instrument':case['instrument'],'fiscal_year':case['fiscal_year'],'protected_asset_cells_compared':case['protected_asset_cells_compared'],'error':case.get('error')}
                     except BaseException as exc:
                         failed.append({'capture_key':doc['capture_key'],'type':type(exc).__name__,'error':str(exc)})
                         if batch_error is None:batch_error=exc;first_error_index=i
@@ -99,7 +110,7 @@ def execute(req,known,out,base,*,worker=inspect_one,executor_factory=ProcessPool
                 boundary()
                 if len(results)%100==0 or len(results)==len(req['documents']):print('cash-accrual source',len(results),'/',len(req['documents']),flush=True)
         stage='FINAL_SOURCE_CHECK';need(not changed(known),'all source bytes unchanged after processing');need(set(results)=={d['capture_key'] for d in req['documents']},'all original cases required')
-        supported=[c for c in results.values() if c['status']==SUPPORTED];terminal.update(status='CASH_ACCRUAL_ORIGINAL_CELLS_COMPLETE_NOT_FACTOR_ADMITTED',complete=True,summary={'document_count':len(results),'cohort_count':len(req['cohort']),'status_counts':dict(Counter(c['status'] for c in results.values())),'unsupported_error_counts':dict(Counter(c['error'] for c in results.values() if c['error'])),'supported_source_issuer_count':len({c['instrument'] for c in supported}),'raw_monetary_cells':len(supported)*6,'protected_asset_cells_compared':sum(c['protected_asset_cells_compared'] for c in supported),'original_PDF_text_decodings_performed':0,'manual_visual_QA_complete':False,'financial_version_history_complete':False,'financial_cross_issuer_comparability_verified':False})
+        supported=[c for c in results.values() if c['status']==SUPPORTED];terminal.update(status='CASH_ACCRUAL_ORIGINAL_CELLS_COMPLETE_NOT_FACTOR_ADMITTED',complete=True,summary={'document_count':len(results),'cohort_count':len(req['cohort']),'status_counts':dict(Counter(c['status'] for c in results.values())),'unsupported_error_counts':dict(Counter(c['error'] for c in results.values() if c['error'])),'supported_source_issuer_count':len({c['instrument'] for c in supported}),'raw_monetary_cells':len(supported)*6,'protected_asset_cells_compared':sum(c['protected_asset_cells_compared'] for c in results.values()),'original_PDF_text_decodings_performed':0,'manual_visual_QA_complete':False,'financial_version_history_complete':False,'financial_cross_issuer_comparability_verified':False})
     except BaseException as exc:primary=exc;terminal.update(error_type=type(exc).__name__,error=str(exc),failed_stage=stage,failed_row_index=row_index,complete=False)
     terminal.update(completed_documents=len(results),submitted_keys=submitted,failed_documents=failed,unsubmitted_keys=[d['capture_key'] for d in req['documents'] if d['capture_key'] not in submitted],pending=[d['capture_key'] for d in req['documents'] if d['capture_key'] not in results])
     try:save('case_index.json',results)

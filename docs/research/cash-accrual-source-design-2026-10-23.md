@@ -54,7 +54,7 @@ cash flows, explicit two annual fiscal columns, source-local CNY/unit evidence,
 same-edition priorDecember31assets, positive assets, finite signed net profit
 and CFO. Missing/blank/extra/ambiguous rows fail; never zero fill, take a parent
 or headline cell, infer a fiscal date or reclassify unsupported cases as success.
-Save both annual columns' literals, row/page/header/unit/hash evidence. Source
+Save both annual columns' literals, row/page/header/unit/hash evidence and one bounded source-table line witness per statement. Require rows after their fiscal header; both column cells must reproduce the same witnessed row and all retained provenance. Parent acceptance rechecks witnesses against authenticated original pages. Source
 reports have a separate contract/digest and explicit source/investment limits.
 A lazy visible_report(metadata,as_of,loader,mode) checks aware public-day-end
 and observed-arrival clocks before calling the monetary report loader.
@@ -64,8 +64,7 @@ publication2025-12-31. Authenticate original PDF bytes, cached page buffers,
 cover identity, document metadata and parent graph before parsing new fields.
 No newPDFextraction/network/install. Reuse original cover failures as failures,
 but old operating-income support is not necessary for cash-field support.
-Compare every previously supported old GP asset cell against the new asset
-cell; disagreement is fatal, not ordinary unsupported syntax. Known source
+Validate document chronology before all classifications. Authenticate protected old observations and compare independently parseable current/prior asset cells before NI/CFO unsupported classifications; disagreement is fatal, not ordinary unsupported syntax. Known source
 amendments remain unresolved vintage evidence; original edition extraction does
 not assert historical version completeness or grant later factor admission.
 

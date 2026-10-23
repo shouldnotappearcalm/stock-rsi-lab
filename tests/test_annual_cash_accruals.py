@@ -46,3 +46,17 @@ class AnnualCashAccrualTests(TestCase):
         for key,value in [('source_sha256','b'*64),('announcement_id','456'),('day','2024-04-26'),('instrument','SZ000001')]:
             d={**DOC,key:value}
             with self.subTest(key=key),self.assertRaises(ValueError):cash.visible_report(d,'2024-04-28T15:05:00+08:00',lambda:r,cash.RECONSTRUCTED)
+
+    def test_pre_header_summary_cannot_replace_missing_table_body_row(self):
+        p=source();row='四、净利润（净亏损以“－”号填列） 七、68 -5.00 3.00\n';p[2]=p[2].replace(row,'').replace('项目 附注 2023年度 2022年度',row+'项目 附注 2023年度 2022年度')
+        with self.assertRaises(ValueError):cash.parse_report(p,2023)
+    def test_complete_header_row_and_location_provenance_must_agree(self):
+        for kind in ('header','row','unit_location','header_occurrences'):
+            p=cash.parse_report(source(),2023);cells=p['income']
+            if kind=='header':
+                for cell in cells.values():cell['net_profit']['header_line']='WRONG 2021年度 附注 2023年度 2022年度'
+            cell=cells['2022-12-31']['net_profit']
+            if kind=='row':cell.update(row_text=cell['row_text'].replace('3.00','999.00'),literal='999.00',value_CNY='999.00');cell['row_text_sha256']=digest(cell['row_text'])
+            if kind=='unit_location':cell['unit_evidence_page']=-999
+            if kind=='header_occurrences':cell['header_occurrences']=[{'page':999,'literal':'garbage'}]
+            with self.subTest(kind=kind),self.assertRaises(ValueError):cash.make_report(DOC,p)

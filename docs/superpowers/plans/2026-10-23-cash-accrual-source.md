@@ -27,7 +27,7 @@
 ### Task 1: Source cells and lazy report contract
 
 **Files:** Create `src/stock_rsi/annual_cash_accruals.py`, `tests/test_annual_cash_accruals.py`.
-**Interfaces:** `parse_report(pages,report_year,normative_basis=None)->parsed`; `make_report(document,parsed)->report`; `visible_report(document,as_of,loader,mode)->report|None`.
+**Interfaces:** `parse_report(pages,report_year,normative_basis=None)->parsed`; `make_report(document,parsed)->report`; `visible_report(document,as_of,loader,mode)->report|None`; `metadata(document)->(year,public,observed)`; `parse_asset_cells(pages,year,normative_basis=None)->dated_cells`; `verify_source_tables(parsed,pages,year,normative_basis=None)->None`.
 - [ ] Write behavior tests for signed current/priorNI/CFO/assets, CNY/万元, missing/parent/duplicate/extra cells, wrong comparative dates/currency, source/hash/column tampering and lazy aware clocks.
 - [ ] Run `PYTHONPATH=src:. RP -m unittest tests.test_annual_cash_accruals -v`: missing feature RED.
 - [ ] Implement bounded grammar reuse, evidence validation/digest and visibility before loader. Run targeted/fullsuite GREEN, commit.
