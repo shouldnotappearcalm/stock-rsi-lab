@@ -1,0 +1,41 @@
+{
+  "raw_rows_counted": 486,
+  "trading_rows_checked": 486,
+  "nontrading_rows_excluded": 0,
+  "returned_rows": 486,
+  "missing_trading_dates": [],
+  "price_cells_checked": 1944,
+  "matched_price_cells": 1939,
+  "volume_rows_matched": 484,
+  "mismatches": [
+    {
+      "date": "2024-03-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-05",
+      "fields": [
+        "open",
+        "close",
+        "high",
+        "low",
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-23",
+      "fields": [
+        "open"
+      ]
+    }
+  ],
+  "amount_rows_compared": 0,
+  "amount_exact_matches": 0,
+  "amount_missing_rows": 486,
+  "amount_mismatches": [],
+  "price_volume_gate_passed": false,
+  "all_components_exactly_corroborated": false,
+  "account_admitted": false
+}
