@@ -1,0 +1,32 @@
+{
+  "status": "PASS_SEPARATE_TWO_REPORT_RAW_ARITHMETIC_AND_SOURCE_IDENTITIES",
+  "request_sha256": "f10d41236e80caf401ec538f70cb9803538f196e2d65d0e416339677cdf87a1d",
+  "source_freeze_commit": "2f528856c3058d777db20f3dc94a2a149a430549",
+  "all_frozen_inputs_unchanged": true,
+  "consumed_inputs_checked": 50,
+  "all_output_sha256": {
+    "input-before.json": "c83740763f43fddae21d203fe31e59c0c5f232c1eef4063774bad1b5fbf40415",
+    "input-postcheck.json": "583454281898f9422d1623323a02883fd88a37bef57106d9252468b59176aa5e",
+    "page-text-sha256.json": "541479473100457b001e9477c6120dbde53904bdac06314b026c7105a066ac91",
+    "reports.json": "efdcb300679520ef85424ac39f3b00423913ca85068b9caf22280d63e3aa09ae",
+    "snapshots.json": "603e71bc1288bb3e3073bf8ffc58111d0f8a3599df6739bc2808373db909da55",
+    "summary.json": "fa6cc6f135c50efef04f4fd9e13f37d1b228c07e9546d150105f2a69aa481ef7",
+    "terminal.json": "bf39ac262cb240801814b2136d4415427279f42cda0b577d7bb8b73bfd58d240"
+  },
+  "source_measure_checks": {
+    "2023": {
+      "operating_profit_CNY": "2709086959.90",
+      "lagged_assets_CNY": "48518057775.80",
+      "operating_profit_to_lagged_assets": "0.0558366736858796417691370846838209061482355117847957093037648"
+    },
+    "2024": {
+      "operating_profit_CNY": "2707160708.07",
+      "lagged_assets_CNY": "44885094665.28",
+      "operating_profit_to_lagged_assets": "0.0603131335303626305187274235963729880972284134834580290223976"
+    }
+  },
+  "observed_historical_views_empty": true,
+  "portfolio_returns_computed": false,
+  "investment_factor_admitted": false,
+  "objective_achieved": false
+}

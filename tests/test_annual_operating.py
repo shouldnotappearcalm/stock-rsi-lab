@@ -1,5 +1,7 @@
 import copy
 from decimal import Decimal
+import json
+from pathlib import Path
 import unittest
 
 try:
@@ -27,6 +29,28 @@ class AnnualOperatingTests(unittest.TestCase):
 
     def snapshot(self, reports, as_of='2024-12-31T15:05:00+08:00', **kwargs):
         return op.snapshot_reports(reports, as_of, mode=op.RECONSTRUCTED, **kwargs)
+
+    def test_original_report_row_fixture_reproduces_independently_checked_current_measures(self):
+        path=Path(__file__).parent/'fixtures/annual-operating-real-row-vintages.json'
+        self.assertTrue(path.exists(),'reviewed original operating source fixture missing')
+        fixture=json.loads(path.read_text());self.assertFalse(fixture['CI_fetches_or_authenticates_original_PDF'])
+        reports=[]
+        for document in fixture['documents']:
+            pages=['']*document['physical_page_count']
+            for page,text in document['page_excerpts'].items():pages[int(page)-1]=text
+            parsed=op.parse_report(pages,document['report_year'])
+            reports.append(op.make_report(document['instrument'],document['report_year'],document['publication_day'],
+                document['observed_at'],document['source_pdf_sha256'],document['announcement_id'],parsed))
+        current=self.snapshot(reports,'2025-12-31T15:05:00+08:00')['records']
+        self.assertEqual(len(current),2)
+        for row in current:
+            for key,value in fixture['independently_checked_current_measures'][row['fiscal_end'][:4]].items():
+                self.assertEqual(row[key],value)
+        self.assertEqual(op.snapshot_reports(reports,'2025-12-31T15:05:00+08:00')['records'],[])
+        before=self.snapshot(reports)
+        self.assertEqual(before,self.snapshot(reports[:1]))
+        self.assertEqual(before['records'][0]['source']['payload']['parsed']['income']['2023-12-31']['cost_of_sales']['value_CNY'],'49712583057.97')
+        self.assertEqual(reports[1]['payload']['parsed']['income']['2023-12-31']['cost_of_sales']['value_CNY'],'49997740569.45')
 
     def test_current_ratio_uses_same_edition_prior_assets_and_never_computes_comparative_ratio(self):
         record = self.report()

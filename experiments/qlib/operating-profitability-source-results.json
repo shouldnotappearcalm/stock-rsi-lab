@@ -1,0 +1,36 @@
+{
+  "status": "CN_OPERATING_SOURCE_FIXTURE_COMPLETE_NOT_STRATEGY_ADMITTED",
+  "contract": "CN_OP_EX_RND_SAME_EDITION_LAGGED_ASSETS_V1",
+  "request_sha256": "f10d41236e80caf401ec538f70cb9803538f196e2d65d0e416339677cdf87a1d",
+  "issuer_count": 1,
+  "original_documents": 2,
+  "filing_records": 2,
+  "raw_numeric_cells": 24,
+  "current_year_measures": 2,
+  "comparative_ratios_computed": false,
+  "snapshot_queries": 16,
+  "all_observed_historical_snapshots_empty": true,
+  "later_filing_does_not_backfill": true,
+  "source_document_sha256": {
+    "SH600166-2023-12-31-1219874919.pdf": "e7588a7d935897aed750034c6847b0f57ab923c4837484f18e3bf62387b67eef",
+    "SH600166-2024-12-31-1223327299.pdf": "bce69ed22306f3a0cc5b6a62eef9f2fab05d8a3c148f9715fd86faf937540410"
+  },
+  "artifacts_sha256": {
+    "reports.json": "efdcb300679520ef85424ac39f3b00423913ca85068b9caf22280d63e3aa09ae",
+    "snapshots.json": "603e71bc1288bb3e3073bf8ffc58111d0f8a3599df6739bc2808373db909da55",
+    "page-text-sha256.json": "541479473100457b001e9477c6120dbde53904bdac06314b026c7105a066ac91"
+  },
+  "source_measure_is_not_portfolio_return": true,
+  "historical_arrival_verified": false,
+  "historical_universe_coverage_complete": false,
+  "financial_cross_issuer_comparability_verified": false,
+  "full_cash_profitability_replication": false,
+  "investment_factor_admitted": false,
+  "security_ranking_computed": false,
+  "portfolio_returns_computed": false,
+  "2026_financial_or_market_values_read": false,
+  "original_accounts_strategies_and_failed_results_changed": false,
+  "objective_achieved": false,
+  "input_count": 50,
+  "all_inputs_unchanged": true
+}
