@@ -1,0 +1,34 @@
+{
+  "status": "SINA_STATIC_API_IMPLEMENTATION_LEADS_ONLY",
+  "upstream": [
+    {
+      "url": "https://api.github.com/repos/akfamily/akshare/contents/akshare/stock/stock_zh_a_sina.py",
+      "blob": "d0e9e94660a5a06b97d6f3acbb0223163c396c7c",
+      "sha256": "aa60721af3f7bdec29e1e5f59ff6770b54fc919fc6867706d16d36b3a7ee07a2",
+      "bytes": 18547,
+      "kind": "UPSTREAM_IMPLEMENTATION_METADATA_ONLY"
+    },
+    {
+      "url": "https://api.github.com/repos/akfamily/akshare/contents/akshare/stock/cons.py",
+      "blob": "bca431652a6d124e0a5489ef0bba367aea8fa817",
+      "sha256": "435bf1763531d0eb33d9a8ba25fbc9ab3c5bcc11bbd7834978cbdfdec4c0bbb9",
+      "bytes": 43453,
+      "kind": "UPSTREAM_STATIC_ENDPOINT_DECODER_METADATA_ONLY"
+    }
+  ],
+  "local_metadata": {
+    "path": "/Users/calm/dev/git_repo/ai-stock/stock-data/a-share-skill/a-share-data/scripts/fetch_history_fallback.py",
+    "sha256": "0ed1eaf50070420b980af341eb8609a153cb82bfb27646b6c92e415e264b4c74",
+    "copy": "low-operating-sina-source-metadata-v1-20261023/local-fetch-history-fallback.py"
+  },
+  "observed_contracts": [
+    "AKShare stock_zh_a_daily decompresses unbounded klc2 data before filtering and merges/forward-fills share history; do not call wrapper",
+    "AKShare minute route uses CN_MarketDataService JSONP; native raw alternate JSON route and scale240 daily mapping appear in existing source implementation",
+    "Compressed modern decoder may read quote deltas before materializing date; no unmodified full decompression",
+    "Native JSON list permits date-token selection without decoding out-of-window price/volume scalars"
+  ],
+  "new_market_queries": 0,
+  "quote_rows_accepted": 0,
+  "account_or_return_admitted": false,
+  "objective_achieved": false
+}

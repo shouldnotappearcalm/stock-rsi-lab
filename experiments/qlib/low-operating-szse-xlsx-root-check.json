@@ -1,0 +1,22 @@
+{
+  "status": "ROOT_XLSX_PRECISION_PROBE_INPUT_CAPTURE_PUBLIC_COPY_REHASH_PASS",
+  "input_bindings_verified": 1682,
+  "analysis_runtime_verified": true,
+  "capture_files_verified": 6,
+  "result_sha256": "6f9edf41761566ee2a09434265367986926b256d8a0641dfa073d7a90214e58e",
+  "original_workbook_sha256": "5857dfc5f70014ded646b983188d36a1b0e0a4a99aaee5f3cbd57a3375bb0377",
+  "byte_identical_named_source": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-operating-szse-xlsx-control-20231229.xlsx",
+  "sheet_names": [
+    "股票行情"
+  ],
+  "stored_volume_text": "714.18",
+  "stored_amount_text": "6,937.33",
+  "activity_cells_have_numeric_value_tokens": false,
+  "activity_cells_have_formulas": false,
+  "hidden_more_precision_found": false,
+  "more_activity_precision_than_JSON": false,
+  "source_or_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_quote_values_decoded": false,
+  "objective_achieved": false
+}
