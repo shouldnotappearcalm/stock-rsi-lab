@@ -1,0 +1,165 @@
+{
+  "status": "FOUR_REPORTS_TWENTY_PHYSICAL_PAGES_TWENTY_FOUR_MONETARY_CELLS_VISUALLY_MATCH",
+  "scope": "selected source row/header/unit/scope witnesses only; not full corpus/manual financial audit",
+  "physical_PDF_pages": 20,
+  "monetary_cells": 24,
+  "full_corpus_visual_QA_complete": false,
+  "all_selected_current_prior_literals_matched": true,
+  "all_selected_consolidated_headers_periods_units_matched": true,
+  "documents": [
+    {
+      "capture_key": "SH601108-2022-1216664368",
+      "source_path": "gross-profitability-fixed12-annual-pdfs-20261022/http/7be9440548752fccf65bbd268c771e5bf0e7775b05aa8bb3b6eb21323c2d3f06/body.bin",
+      "source_sha256": "fdc11b22678d08af13a142ac7f320584a2b96215432e47f0f3843c2aca45ffb3",
+      "fields": [
+        {
+          "kind": "income",
+          "field": "net_profit",
+          "page": 142,
+          "header_page": 141,
+          "unit": "元",
+          "current_literal": "1,516,369,141.72",
+          "prior_literal": "2,563,112,101.91",
+          "row_text": "五、净利润（净亏损以“－”号填列） 1,516,369,141.72 2,563,112,101.91"
+        },
+        {
+          "kind": "cashflows",
+          "field": "operating_cashflow",
+          "page": 144,
+          "header_page": 144,
+          "unit": "元",
+          "current_literal": "-5,030,557,170.22",
+          "prior_literal": "2,931,208,552.22",
+          "row_text": "经营活动产生的现金流量净额 -5,030,557,170.22 2,931,208,552.22"
+        },
+        {
+          "kind": "balances",
+          "field": "total_assets",
+          "page": 138,
+          "header_page": 138,
+          "unit": "元",
+          "current_literal": "125,691,921,185.36",
+          "prior_literal": "110,424,746,167.57",
+          "row_text": "资产总计 125,691,921,185.36 110,424,746,167.57"
+        }
+      ],
+      "contact_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cash-accrual-source-visual-witness-v1-20261023/SH601108-2022-1216664368-contact.png"
+    },
+    {
+      "capture_key": "SZ002372-2022-1216497085",
+      "source_path": "gross-profitability-fixed12-annual-pdfs-20261022/http/c7ab04ae6133e5a36dfd02424d7985183262e6ca269b7b39b155f92248942dca/body.bin",
+      "source_sha256": "362a4d6cb692266393f2e438b690b482937146275146fc992e82160e27a17c24",
+      "fields": [
+        {
+          "kind": "income",
+          "field": "net_profit",
+          "page": 85,
+          "header_page": 84,
+          "unit": "元",
+          "current_literal": "1,311,039,105.51",
+          "prior_literal": "1,228,417,775.36",
+          "row_text": "五、净利润（净亏损以“－”号填列） 1,311,039,105.51 1,228,417,775.36"
+        },
+        {
+          "kind": "cashflows",
+          "field": "operating_cashflow",
+          "page": 88,
+          "header_page": 87,
+          "unit": "元",
+          "current_literal": "1,530,820,672.91",
+          "prior_literal": "1,593,587,464.95",
+          "row_text": "经营活动产生的现金流量净额 1,530,820,672.91 1,593,587,464.95"
+        },
+        {
+          "kind": "balances",
+          "field": "total_assets",
+          "page": 81,
+          "header_page": 80,
+          "unit": "元",
+          "current_literal": "6,938,789,194.54",
+          "prior_literal": "6,436,195,980.04",
+          "row_text": "资产总计 6,938,789,194.54 6,436,195,980.04"
+        }
+      ],
+      "contact_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cash-accrual-source-visual-witness-v1-20261023/SZ002372-2022-1216497085-contact.png"
+    },
+    {
+      "capture_key": "SH600004-2024-1223412147",
+      "source_path": "gross-profitability-historical394-later-annual-pdfs-20261022/http/59f793775046c944c1824c65a8b55c4ccd366f3b5cf5759698aea9bc91995a98/body.bin",
+      "source_sha256": "78637a13635e4237f74fab253799cc9a28b0605b9c2837a40ef3c4c9f212de93",
+      "fields": [
+        {
+          "kind": "income",
+          "field": "net_profit",
+          "page": 67,
+          "header_page": 66,
+          "unit": "元",
+          "current_literal": "965,752,959.58",
+          "prior_literal": "481,003,664.14",
+          "row_text": "五、净利润（净亏损以“－”号填列） 965,752,959.58 481,003,664.14"
+        },
+        {
+          "kind": "cashflows",
+          "field": "operating_cashflow",
+          "page": 70,
+          "header_page": 70,
+          "unit": "元",
+          "current_literal": "3,410,126,652.46",
+          "prior_literal": "2,359,665,123.90",
+          "row_text": "经营活动产生的现金流量净额 3,410,126,652.46 2,359,665,123.90"
+        },
+        {
+          "kind": "balances",
+          "field": "total_assets",
+          "page": 61,
+          "header_page": 60,
+          "unit": "元",
+          "current_literal": "26,997,934,835.04",
+          "prior_literal": "26,190,045,631.21",
+          "row_text": "资产总计 26,997,934,835.04 26,190,045,631.21"
+        }
+      ],
+      "contact_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cash-accrual-source-visual-witness-v1-20261023/SH600004-2024-1223412147-contact.png"
+    },
+    {
+      "capture_key": "SZ000987-2024-1222992196",
+      "source_path": "gross-profitability-historical394-later-annual-pdfs-20261022/http/8d18a14b8ea6e69c5c94996bae7872e17949ea1f56029b6723accd78e66cd8e5/body.bin",
+      "source_sha256": "2922721b7866987afd183b140227870ab3b38ed06cad04f32744ae61897b2d48",
+      "fields": [
+        {
+          "kind": "income",
+          "field": "net_profit",
+          "page": 107,
+          "header_page": 106,
+          "unit": "元",
+          "current_literal": "2,733,840,633.80",
+          "prior_literal": "3,319,786,788.16",
+          "row_text": "五、净利润（净亏损以“-”号填列）  2,733,840,633.80  3,319,786,788.16"
+        },
+        {
+          "kind": "cashflows",
+          "field": "operating_cashflow",
+          "page": 110,
+          "header_page": 110,
+          "unit": "元",
+          "current_literal": "16,441,737,813.25",
+          "prior_literal": "13,386,392,287.63",
+          "row_text": "经营活动产生的现金流量净额 16,441,737,813.25    13,386,392,287.63"
+        },
+        {
+          "kind": "balances",
+          "field": "total_assets",
+          "page": 101,
+          "header_page": 100,
+          "unit": "元",
+          "current_literal": "219,811,594,858.43",
+          "prior_literal": "187,170,136,431.68",
+          "row_text": "资产总计  219,811,594,858.43   187,170,136,431.68"
+        }
+      ],
+      "contact_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/cash-accrual-source-visual-witness-v1-20261023/SZ000987-2024-1222992196-contact.png"
+    }
+  ],
+  "CI_authenticates_original_PDF": false,
+  "regression_fixture": "tests/fixtures/annual-cash-accrual-real-witnesses.json"
+}

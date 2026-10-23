@@ -1,0 +1,121 @@
+{
+  "document_count": 1236,
+  "cohort_count": 394,
+  "status_counts": {
+    "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED": 949,
+    "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA": 227,
+    "COVER_IDENTITY_UNVERIFIED": 60
+  },
+  "unsupported_error_counts": {
+    "bounded same-page row with two monetary cells required: net_profit": 467,
+    "explicit same-edition previousDecember31assets": 167,
+    "unique scoped consolidated/parent table boundaries required": 63,
+    "unique consolidated field required: operating_cashflow": 55,
+    "bounded same-page row with two monetary cells required: operating_cashflow": 7,
+    "explicit end of primary financial statements section required": 28,
+    "unique ordered primary consolidated/parent balance and income statements required": 21,
+    "bounded primary fiscal header required": 13,
+    "extra fiscal/header column unsupported": 9,
+    "one exact bounded source header at each project-column heading required": 26,
+    "one explicit local monetary unit required": 24,
+    "bounded contiguous annual table required": 15,
+    "one scoped explicit Chinese-CAS financial-statement compliance declaration required": 45,
+    "unique consolidated field required: net_profit": 2,
+    "generic balance needs one explicit same-page annual year-end date before its header": 6,
+    "primary statements section bounded to40physical pages": 1
+  },
+  "supported_source_issuer_count": 106,
+  "raw_monetary_cells": 1362,
+  "protected_asset_cells_compared": 1243,
+  "original_PDF_text_decodings_performed": 0,
+  "manual_visual_QA_complete": false,
+  "financial_version_history_complete": false,
+  "financial_cross_issuer_comparability_verified": false,
+  "status": "ROOT_SHARED_GRAMMAR_AND_SEPARATE_LITERAL_NORMALIZATION_CHECKED_NOT_FACTOR_ADMITTED",
+  "request_sha256": "19c36e97ffc5da71ed8c3e6933b257a561c6a815a44f5045d1892f5bd3286ec7",
+  "independent_literal_decimal_normalizations": 1362,
+  "source_units": {
+    "元": 1350,
+    "万元": 12
+  },
+  "negative_source_cells": {
+    "operating_cashflow": 64,
+    "net_profit": 28
+  },
+  "protected_asset_comparisons_on_unsupported_NI_CFO_cases": 903,
+  "status_counts_by_fiscal_year": {
+    "2022": {
+      "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED": 310,
+      "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA": 82,
+      "COVER_IDENTITY_UNVERIFIED": 20
+    },
+    "2023": {
+      "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA": 72,
+      "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED": 317,
+      "COVER_IDENTITY_UNVERIFIED": 22
+    },
+    "2024": {
+      "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA": 73,
+      "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED": 316,
+      "COVER_IDENTITY_UNVERIFIED": 18
+    },
+    "2021": {
+      "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED": 2
+    },
+    "2017": {
+      "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED": 1
+    },
+    "2018": {
+      "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED": 1
+    },
+    "2019": {
+      "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED": 1
+    },
+    "2020": {
+      "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED": 1
+    }
+  },
+  "visual_QA_candidates": [
+    {
+      "capture_key": "SH601108-2022-1216664368",
+      "instrument": "SH601108",
+      "fiscal_year": 2022,
+      "source_path": "gross-profitability-fixed12-annual-pdfs-20261022/http/7be9440548752fccf65bbd268c771e5bf0e7775b05aa8bb3b6eb21323c2d3f06/body.bin",
+      "source_sha256": "fdc11b22678d08af13a142ac7f320584a2b96215432e47f0f3843c2aca45ffb3"
+    },
+    {
+      "capture_key": "SZ002372-2022-1216497085",
+      "instrument": "SZ002372",
+      "fiscal_year": 2022,
+      "source_path": "gross-profitability-fixed12-annual-pdfs-20261022/http/c7ab04ae6133e5a36dfd02424d7985183262e6ca269b7b39b155f92248942dca/body.bin",
+      "source_sha256": "362a4d6cb692266393f2e438b690b482937146275146fc992e82160e27a17c24"
+    },
+    {
+      "capture_key": "SH600004-2024-1223412147",
+      "instrument": "SH600004",
+      "fiscal_year": 2024,
+      "source_path": "gross-profitability-historical394-later-annual-pdfs-20261022/http/59f793775046c944c1824c65a8b55c4ccd366f3b5cf5759698aea9bc91995a98/body.bin",
+      "source_sha256": "78637a13635e4237f74fab253799cc9a28b0605b9c2837a40ef3c4c9f212de93"
+    },
+    {
+      "capture_key": "SZ000987-2024-1222992196",
+      "instrument": "SZ000987",
+      "fiscal_year": 2024,
+      "source_path": "gross-profitability-historical394-later-annual-pdfs-20261022/http/8d18a14b8ea6e69c5c94996bae7872e17949ea1f56029b6723accd78e66cd8e5/body.bin",
+      "source_sha256": "2922721b7866987afd183b140227870ab3b38ed06cad04f32744ae61897b2d48"
+    }
+  ],
+  "all_inputs_unchanged": true,
+  "all_outputs_unchanged": true,
+  "input_count": 15752,
+  "local_artifact_count": 1238,
+  "ratios_rankings_or_returns_computed": false,
+  "2026_financial_or_market_values_read": false,
+  "objective_achieved": false,
+  "shared_source_grammar_and_same_author_root_check_not_independent_audit": true,
+  "selected_visual_QA_reports": 4,
+  "selected_visual_QA_physical_pages": 20,
+  "selected_visual_QA_monetary_cells": 24,
+  "selected_visual_QA_complete": true,
+  "full_corpus_visual_QA_complete": false
+}
