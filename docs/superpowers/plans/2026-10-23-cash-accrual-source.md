@@ -35,7 +35,7 @@
 ### Task 2: Whole-corpus authenticated inspection and actual source yield
 
 **Files:** Create `scripts/inspect_cash_accrual_corpus.py`, `tests/test_cash_accrual_corpus.py`, request/review/results/root evidence.
-**Interfaces:** `inspect_one(base,document,normative_basis)->case`; `verify(base,root,membership,request,expected)->(request,known)`; `execute(request,known,out,worker,executor_factory)->terminal`; CLI`--source-root/--membership-file/--request/--expected-request-sha256`.
+**Interfaces:** `inspect_one(base,document,normative_basis,known)->case`; `verify(base,root,membership,request,expected)->(request,known)`; `execute(request,known,out,worker,executor_factory)->terminal`; CLI`--source-root/--membership-file/--request/--expected-request-sha256`.
 - [ ] Write failing tests for authenticated actual page buffers/source/cover, old asset-cell parity, complete batches/draining, native errors and input/output/terminal mutations.
 - [ ] Implement source-bound runner with source-only output schema; targeted/fullsuite GREEN, commit synthetic only.
 - [ ] One fresh whole-change reviewer; one correction pass,RED→GREEN forImportant/Critical; fullsuite; everyruling/cost/deferredminor ledger. No rereview.
