@@ -1,0 +1,95 @@
+{
+  "status": "MANUAL_HISTORICAL_STATE_ACTION_RAW_CAPTURE_NOT_ADMITTED",
+  "request_sha256": "1c39f65f0b4041327053bbe6bfcf1e0c4f5e359dc267c977f3bbbb9e14e5e787",
+  "resources": {
+    "1223587687": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "389135",
+        "url_effective": "https://static.cninfo.com.cn/finalpage/2025-05-20/1223587687.PDF"
+      },
+      "body_bytes": 389135,
+      "error_type": null,
+      "error": null
+    },
+    "1223311885": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "246032",
+        "url_effective": "https://static.cninfo.com.cn/finalpage/2025-04-28/1223311885.PDF"
+      },
+      "body_bytes": 246032,
+      "error_type": null,
+      "error": null
+    },
+    "1220073565": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "410322",
+        "url_effective": "https://static.cninfo.com.cn/finalpage/2024-05-17/1220073565.PDF"
+      },
+      "body_bytes": 410322,
+      "error_type": null,
+      "error": null
+    },
+    "1219827718": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "212295",
+        "url_effective": "https://static.cninfo.com.cn/finalpage/2024-04-26/1219827718.PDF"
+      },
+      "body_bytes": 212295,
+      "error_type": null,
+      "error": null
+    }
+  },
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_decoded": false,
+  "objective_achieved": false,
+  "complete": true,
+  "capture_sha256": {
+    "1223587687/request.json": "b94641eec83d3bd2e4559f3a4f41a69771a44f824a72e9eed450d818025d6501",
+    "1223587687/reservation.json": "8b38aec132a9eb68697f467e7439e5a08b41ff476e6b823e279a618f149fd385",
+    "1223587687/command.json": "c6abea7445e9f797e0645fa91d77c7b77c02a43007eb7c2736433412bc76a219",
+    "1223587687/headers.raw": "f2f62f9ba7e4926586aab9ecc070a377286a88e5fb2c2efcf8821b8163ca59d8",
+    "1223587687/body.bin": "cd042735a0953470430eba4cf3719de3e94c7f5d8de7927cd6aa98455dc8bd2b",
+    "1223587687/transport.raw": "326e101364ccd238a49adc9fe4bf28cbd268f5a98b00f22d1cc95cfc0a9f827f",
+    "1223587687/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1223587687/receipt.json": "a5ab676acc9c43a58746bf68e63398e900734e888a7e9e30be2b410ddaaee76e",
+    "1223311885/request.json": "9c3e72317a14b28229063f558e727b578dc6e6a053d0e8fe9e71b44284e6cd52",
+    "1223311885/reservation.json": "785308864696f1d4d62d9116472d35541107af4d7745d5b05b4766e3ea2ebbde",
+    "1223311885/command.json": "e29b861e9a60b104fe466c730a95d43e01da9b69d3ef9be14c1e37b261a5e867",
+    "1223311885/headers.raw": "361c25643ee9907b233adfb26cb271b3fbc0643fdfd0e68d72e1216707b4a96f",
+    "1223311885/body.bin": "9367d3620770903e9e877ec9e6660eb7eac5b9d01ce102aaccea4463773ba9e3",
+    "1223311885/transport.raw": "3b6ec8fb160be3e1f58d04a2030fb8e46eee06e19b1859d8ee98d2cac6c578c1",
+    "1223311885/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1223311885/receipt.json": "7a498f4df3885a8c430206d2c95cb290aff1bcc348582d7cade90ad87ba62f62",
+    "1220073565/request.json": "b03ada2b4333d94b02b13f9210f09bcdabf8b19aad56aa69631e08aa4cda3d24",
+    "1220073565/reservation.json": "29f747a53e562e4002d12f9a8c33181d1c6030bfce339d75926be1b08566db38",
+    "1220073565/command.json": "8333cc34826bb29e507911bb6227d302402cba7c02869b0cb66fd0799cc40cd3",
+    "1220073565/headers.raw": "b515568ce070c9c1aceb164e5bdda2f15927ede1c9d8fcc44167f611957d144b",
+    "1220073565/body.bin": "1ef40f66a77e6a38e31919c9172be5b634f6c70b6a2593a37dd098936f4b8a2b",
+    "1220073565/transport.raw": "cdc930db8f7bcbdfe972fe02abfd1956c19a34f169948254e7838580c14889d4",
+    "1220073565/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1220073565/receipt.json": "cd22700419ad86f1a28204fd81f57ca854418921f82db389754a2562c4631b7e",
+    "1219827718/request.json": "e8e2020fbe80cc466b8fa5f73dd8e24f85b440a6cf93e1504a965cc96c59c919",
+    "1219827718/reservation.json": "208f5d9a81595297ae67cd3c69c45f351a5d1ceaa62bc7da8967052b832f3948",
+    "1219827718/command.json": "d1fbed96269827f262634e87c503566e7e61f4e22cc9b2a244fad162b96e536c",
+    "1219827718/headers.raw": "867bc62874316929116131c7ec5126147127827e8773be417da22e3001b3ef2f",
+    "1219827718/body.bin": "02fdbb754cf120c81cd6eee14dfbe914e23940a8ec04f05c2bc8da98df8edde7",
+    "1219827718/transport.raw": "1adf3709bb34e3a1c860e2ab0d4ac51eb5bf949a63cd739dc2d85425cfa8908e",
+    "1219827718/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1219827718/receipt.json": "dd60e8276f89c7f3d119599c3de8294a91bc4f264b8e8f84f4c1962d0bb594c1"
+  },
+  "all_inputs_unchanged": true,
+  "all_outputs_unchanged": true
+}

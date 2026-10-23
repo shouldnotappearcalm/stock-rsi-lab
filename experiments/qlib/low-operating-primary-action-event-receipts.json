@@ -1,0 +1,644 @@
+[
+  {
+    "event_id": "25d3e24131d66f5d64dea71ca836791d9754b878378b463b5dd346d2571c776a",
+    "instrument": "SH600004",
+    "ex_date": "2024-08-09",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "059b2e79f831c4bf53933139e04780da3a27814b7b9840a58752f7748934fa77",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "0f41a059a58f023c72ed4ce82cf111c3d58bd22dd713cabb7c2ed187c1b91c6f",
+    "instrument": "SH600004",
+    "ex_date": "2025-06-27",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "9c77583562c24eb695c312fa5c3368770d48dac8052429c5f0f1c48d662cfcb9",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "d14a8d03660ba7679e7d5703f99937a89302ca34e51b1baec49b766c8c80cead",
+    "instrument": "SH600118",
+    "ex_date": "2024-06-28",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "8e782600f388fb2d5c8210e37da5defaac53993bd9a65cf1c058a9159d73c0e4",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "34df52a431efd76bc4e5bdd98107da7af502c158b9a0f3ef7c165b5ec350e6dd",
+    "instrument": "SH600118",
+    "ex_date": "2025-06-27",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "d81e9638cce401e790a0974532fc9c64cf0e9ce23c7a3bd351b18a3ffafb8214",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "5ebc7feef82f69f2b38361bea6bb7077049425a49efbe6150465280948432cfb",
+    "instrument": "SH600126",
+    "ex_date": "2024-06-11",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "5d193a0d3ede722cbf868d86523bc80cf3da5e7b6ef123e3ba839c1826083310",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "c4283ee8132d67dfe60336d813e8c58f14ff8520eb889c408fdd9e9f1744ce39",
+    "instrument": "SH600258",
+    "ex_date": "2024-06-28",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "3abfda032c33d005c039b3f415f07966f801c2fae8ff5d69851e7f46916ddd66",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "17abee0b9936d9002ee33afeff932833e16912291d724de0af307bd9bafe0a8c",
+    "instrument": "SH600258",
+    "ex_date": "2025-06-24",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "9a78a339e5d4eb00192b793468eb30b417b79605ed423f55e2a26e6ef9830b32",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "55f0a78f015abeabd5cba4322633aec5fc8cff92ef860749cd0462b17472556a",
+    "instrument": "SH600316",
+    "ex_date": "2024-06-04",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "628db0e80b350830ab8ae706e831b4b7ae80587c5755a5446b62281eecd48394",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "988b2bb28d3507d32c1387279066a7baefda6088a3c782aff3b75035346f9139",
+    "instrument": "SH600316",
+    "ex_date": "2025-06-18",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "1a7357cffc42259c73fdafe981b445fa19fe666adfb346965c2d52e04c043ba8",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "eea927d3a6588076a0c23f26502c4e107d41468f72cf7f2683d2950d2002ff73",
+    "instrument": "SH600415",
+    "ex_date": "2024-06-26",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "f9f7d06bbed573ba29d7ebccba817bb0f789a2794b92e37989bea4ee84badc52",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "107ac3f19b93692202d8fd0978a990c8f74d5bc6725f9e08c1b973cb3c44d1cc",
+    "instrument": "SH600415",
+    "ex_date": "2025-06-12",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "cdabe0bb15e87088b1c2a67664b546133b4d8d04e0db4fdb734e6ef5f67180aa",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "efb58a37d7d64cec132363f700b4bb89d6913ffa340dc2f6ede8460d93cbf810",
+    "instrument": "SH600418",
+    "ex_date": "2024-07-19",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "3a1bbbb4306dd6cdaac4374996dc4614b5e28f8e8524dc08ef8789878a39f008",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "a33f86eafaddd1b21e0e24eba9be4b56e862a1fc0dbf1242d7c91362811927ab",
+    "instrument": "SH600482",
+    "ex_date": "2024-08-08",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "4da993402f8794f44717141c1d1b9192682dae4cb4b4b1d53c5d011f9fa77c2d",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "b7441828629c97b3d14f052581cf14258c14584abbbaf5cf058b1b91bec05aae",
+    "instrument": "SH600482",
+    "ex_date": "2025-06-13",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "adffabbd62922d39947955764275c37bb9eaa3eff2d9ec61d184889a20e19429",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "51f81ca74abf436d338ffb65aa23fc344a843e382b13c500239bf9de9e7402bd",
+    "instrument": "SH600482",
+    "ex_date": "2025-11-26",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "a6ac82fc19d15764158a53b50d1297f24bd961ad8e64b6cfaf7cf7b7a24fbe75",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "c521507af90d74b047e7c123b911252083a891bee2d92d57e66d91c8bfb7bd63",
+    "instrument": "SH600516",
+    "ex_date": "2024-07-24",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "1234fb8c22befb835de0b5728a5da9a933a057b17ed509457308fa930f76a1cc",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "097b1cf5db7a73425bb307eb5adf420befba0dfc28ca4abebe6ad8828b8dcc5d",
+    "instrument": "SH600516",
+    "ex_date": "2025-07-16",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "ad6e62a4eefe436c563ad28f01924ae8aec383e77191293af5afd9e5643df3a1",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "89ec77aba29ff4fd2c52706b8d6e703bab06a96f018ae446183c26f1afafd0d3",
+    "instrument": "SH600642",
+    "ex_date": "2024-06-26",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "d958d41fcffeb8aec67f18bb0dc1a17bb0b90f9be47c6d2701cca367ceceb248",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "a23c49d154f553581188d5423c15321b4842ad563661f01f135191502268835a",
+    "instrument": "SH600642",
+    "ex_date": "2025-07-11",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "4c743f829b03545e44fcb6bff360cb5f97b774277349b564eb1f8eadee3abbc9",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "fd119f2cb2392c0a10baa0c91d9017dbb3522ded3bc071ed0fe3e7889a87fd2c",
+    "instrument": "SH600655",
+    "ex_date": "2024-06-21",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "87b4c5b7264da37075a7c9d96fb91d625f3443b5821ba103e7304d53a815735d",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "d6a14df7c9895e470d30a6cfe3e49f594e4bd2c91e1ff18c8a38b5bea1789de2",
+    "instrument": "SH600655",
+    "ex_date": "2025-06-18",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "973ad69a7c3e85fab70b5c4930a2aef827b7d31c8bf80c186b0403b0aab30534",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "821a25eda1846062d7b3aa099848e923ce1b9ffdb5929ad835071677fa426ab6",
+    "instrument": "SH600739",
+    "ex_date": "2024-08-09",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "b9b790ce6bf077bea7509cca14365826f7e47d84733d229653642632fbaa9d63",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "4a4f460ec5f5bed5366f537614abc7d75ac4a0fbea6fbb5fe96e53ef757b964e",
+    "instrument": "SH600739",
+    "ex_date": "2025-07-30",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "38cfbfa264f27f4ceb45ae309e8b2bbf1e3792d60e105c29f941e600822e1ae0",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "80b3de24d9fd30d4f038d4b33a8145746f66fd95b0b331b57e131a8ed5082b01",
+    "instrument": "SH600959",
+    "ex_date": "2024-08-23",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "faec836800f74a5167ee6c85c45fcb1daf378a82999fc78e4f7b6dc075938f13",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "a41e29bff348d70ed3d5fad1bbf85751f519c69c99034ffcd8a490db0ba238c0",
+    "instrument": "SH600959",
+    "ex_date": "2025-08-01",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "da87be9f85a08b21d812d82de51e832ab7e30de43f6683235b9828cd25c5db1c",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "a8380c3d634d185abdb448e521be38ba963803c614dae0275ba784f8a9122b3a",
+    "instrument": "SH600977",
+    "ex_date": "2024-08-16",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "e53b48246d5bcee897423114100f2e4fdcbdcc9291eade7b9180ac4194671539",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "d69b7d8dac1d8bcaa498732857790ff2adb39fb4fc51449697f947609ed23684",
+    "instrument": "SH600977",
+    "ex_date": "2025-01-24",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "177fd0828ac15a3fb86e4e72fd1ac776b403bc34efcc2e0c708b092fda08e26b",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "3e95647e7e5d83c8b8287163fa8808f29498ecff71fd44a347a12f94089d7d91",
+    "instrument": "SH600977",
+    "ex_date": "2025-07-07",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "5faa0aaa403bb9266773ce19f6f4ad342545c99064bb454aa8982c7bd32ef983",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "4e7f162fcaf814c667314e3633fafa8e0549764a8433a87a0e20fda1201e6605",
+    "instrument": "SH601118",
+    "ex_date": "2024-07-17",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "da70672de97e7bd480829cb205cab9c9d221715a25384a05216bab9abfecf0b4",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "f5ac41d8b5f7f117505a1baccf240596556107f54b0c76fd43ede920a7c229a0",
+    "instrument": "SH601118",
+    "ex_date": "2025-07-15",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "c0af8e16680a6dd6e2cfab6bf6428bcd34f97eca831d79f5d30cabaae606d06b",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "453ddb9c65f6722742927772492a33b84e6956a02bcf3de3849ab0707625a680",
+    "instrument": "SH601158",
+    "ex_date": "2024-06-21",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "e177919800e65bb04564a8ef0efb4aaf970d9ce040f66ad5470b1945a2750bb4",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "788fe59e581a72be76871c81d36a5fde5d7cbcb0181c80528b95355fbab7b7ec",
+    "instrument": "SH601158",
+    "ex_date": "2025-05-30",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "c2d2f2d1a5e06bd0bba4d3a7fea1b91458a780491ac3f7f9ea58597923734653",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "94aaf82156c0b398e4e033deb107fb9141cc928c5a52aaa36549ab87f54add4b",
+    "instrument": "SH601158",
+    "ex_date": "2025-11-05",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "6a824620bcd556fc8c39b520544fdcb7c03b5b483515f55a8e9d659c1a582b6c",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "a531f187b41d38c144500cbb526176c5f2161faca1e0421477d1f5c0024b75f8",
+    "instrument": "SH601233",
+    "ex_date": "2024-07-17",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "7cc13b9d4e8e1433da99d91a397c1ceab160ad4ecde7286b5e701b6eca482f1c",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "7deaac5bf89b93fdf4015a977ba7b8bef4e224d6bca054973b92a7fe22dbeec0",
+    "instrument": "SH601233",
+    "ex_date": "2025-07-10",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "87190cb5466e1ba7e240211a01ce54363c9d253d180a4fb6fbecd388b47684ee",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "d2ec80813a4e62078e1b6b7dbd3d0dc92342882fdffa422df19c3d43114f0734",
+    "instrument": "SH601866",
+    "ex_date": "2024-07-30",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "185bede6bca3696435da213190772806fd5ecba31191319a1ea40de3cf1c638b",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "a28ab5e93c119765b068393f4150c45dc990ce42695dea4d5441a846da485602",
+    "instrument": "SH601866",
+    "ex_date": "2024-10-28",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "60308db84bd6f184ebb192c8701b43902de0ff0a7e8e69150efff9315e3da11f",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "1bb0d382bbf465e7a812bddde20a018206c58ac6ed6beac6bad802fd70a65e23",
+    "instrument": "SH601866",
+    "ex_date": "2025-07-31",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "1509d443938e1509f64e20d1e93520339bd1c732502cac98a22ce453af594782",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "b34aaa0b32aac87866222c595f5f6c5a74f32608474a32da8e3c66b2160dc2a0",
+    "instrument": "SH601866",
+    "ex_date": "2025-09-26",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "efa8a6dc5759d01557bf1ea701467dfec4a841d21482320e53a2ef0c61753049",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "e4774b913fcee22e0a02060081f182325364df68ea08a20870481d4fc1c3c098",
+    "instrument": "SH601880",
+    "ex_date": "2024-07-17",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "985cbc703bca9cd41fefe58f97e387a32f363fabdb437436ef1fa1a386f0bd76",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "cdb9011cb1a310a3d1298879abed21e1a8119b5460a8ad27a60a33bf50c13214",
+    "instrument": "SH601880",
+    "ex_date": "2025-07-22",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "18e9b6ab313e4d69de4d4ae4af7995ba9c6be3b20c14b0ab31a81cb0a27ec7fe",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "852706410dd2b6588c1b190007b7cc24d84d098a54af4fe213d5fd65b7ebe00d",
+    "instrument": "SH601992",
+    "ex_date": "2024-07-26",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "b24a78700644840af0ccec59324201bef8ebd6ac1d3ebaf90ee1496814422ae4",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "03aa167f1efc8cbe1f353c1d6a618bc1fbf57e3fffdda95b4200de779b62b852",
+    "instrument": "SH601992",
+    "ex_date": "2025-07-09",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "860a9108a7b30de8226298119afbce5896aa8171a21b4c888ebad0e00353c7bf",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "f53945e72cbadf3c7714b858a25d91d22293d4cd084de6f0dc1b6060a901b75b",
+    "instrument": "SH603026",
+    "ex_date": "2024-07-02",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "628b7713ea06637693562bc3172d9d8619ddda8f50bd10aa721f30dec3ef92d7",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "91f0fff7b0863ca44affe553e00662a3f9fc0cd5bfbab1d5246f8e459799bc51",
+    "instrument": "SH603077",
+    "ex_date": "2024-10-15",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "e9b885a575c75da79216f3cb8aad1d67546e716c966006ad21273367b9fec3fe",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "012f22826c43a382c317fca04c2595e34880a0e3bb6f84f80ebf549d9b22e044",
+    "instrument": "SH603185",
+    "ex_date": "2024-07-15",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "253501061c8d4946a8d48ba4a20666862b623787502179f8fa3f575e49d1ed74",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "a123b536791b3502b108ac678a90d5dd24499ba0cf92e437a891bb7c46646d4c",
+    "instrument": "SH603225",
+    "ex_date": "2024-05-30",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "f546a5e966ccfc6ada78b51eca6b174dc6f84907c92822fd9c2b6d0cca6f2aaf",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "cdfb4e670aa9aa56976dd57dd63d03d2c95137040eeaf918b526df957b3d2955",
+    "instrument": "SH603225",
+    "ex_date": "2025-07-11",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "db6de70307a69792cb712a22f73a12a89a71b122d3b3a867eadf077e2c913fe5",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "c7328a1112824bad99a8c92ba19e74c29fbc832e4e9ba5501d258eeb5348ce67",
+    "instrument": "SH605358",
+    "ex_date": "2024-05-31",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "63711dc97640e0093320eeb20db88a5cd034b3690d1a44fb69102533ee267f43",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "11e24805cfdec787de7d9fda268d159b7866fe38c494ac316e49708c8d48e615",
+    "instrument": "SZ000401",
+    "ex_date": "2025-06-26",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "7cca382572bea409168cc81c2cc0a6cd77598553d705fede63e56ed3be2ec40d",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "aa5a55bce73077a6846104eb9a58807292eea8c6281e81f8fdd3ce35d72faf6a",
+    "instrument": "SZ000519",
+    "ex_date": "2024-06-28",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "d7b0bfe79a492e52f797d22fe879e30d9f395cb92c482ec2ca1020ee5941cb24",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "7b21893a0f8250b5793838df4b864a5f852de59a0f89ecf329b86839ec6d3880",
+    "instrument": "SZ000623",
+    "ex_date": "2024-07-09",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "5fd1e52a96c0069bfa0228b12ad60ca5a6de00049a1a5425c254f5f897e2dd3d",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "87c85240401b82279dda65e053c37c5a86eb48ad63fa599e0ef80d94f1ddf262",
+    "instrument": "SZ000623",
+    "ex_date": "2024-11-08",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "28d6024f5978fb7086ca1fb3f4fdc5bcd28c20d5c4dc7c131fbe9a974720bac7",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "ae4918a0577c52f016b25cab7ba0430b0023f0fcb3ff9d466e9364b0ce99079a",
+    "instrument": "SZ000623",
+    "ex_date": "2025-07-09",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "f0cae07d1712da1c6266b8e543ecdd1366a5af9d36f53fb0db6caaa3fd24f630",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "b09eed8ea9fd7d712e9c2f1b2bc90fda44ea17c9ee5ca0150e83d933cecbfd10",
+    "instrument": "SZ000623",
+    "ex_date": "2025-10-22",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "58334d697a57e15940206fee0a5928003bf313b03a953242a507870ced4e1b1f",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "be8ff16146dd70d8e51a36945af3255b86a2eaf0526cc6261a85dc0ab5b9d588",
+    "instrument": "SZ000998",
+    "ex_date": "2024-07-16",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "4f064f67aac55c0d4ac453f98af002e10fbb9f91c8071f5ae2e321f3b1917974",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "2176cb97271437060aa2f1eeb7e06a22216560713811d7528fa915b6595cb504",
+    "instrument": "SZ000998",
+    "ex_date": "2025-07-09",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "d8d8558c2cbb5e2d0e8aaca35687243d7ff93e7eeebda372f31502d05e141e54",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "727dd8b8b15707224bc87dc101b470baa68d364156e97a411f4c07d6c30d97b6",
+    "instrument": "SZ002153",
+    "ex_date": "2024-06-13",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "b4ebe2268e5f529c29b39a7e54672650ee7e7b27e49383456bafacb358d87907",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "7c789468a6c433393bc1601c35d9a85a9813f3e1ae201519907a348a98b9b7d9",
+    "instrument": "SZ002153",
+    "ex_date": "2025-06-13",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "a534466a5630bcff41a26efb1a7dcf7650ca6c4487f4fcc69f2b16b4a8af35bc",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "6b4e2c66a298a5b2159edb58a93f9536679e2053d0673c3d44168c74a2c0252d",
+    "instrument": "SZ002195",
+    "ex_date": "2024-05-24",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "a7a51a0d08ba656de07ddb5559e26a544d7b4202d998c37ec3e6ebd6a57b9180",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "7ff649c85997812ec49ffb29976ac8549308082c7227c481ef3aabc14baaa70f",
+    "instrument": "SZ002373",
+    "ex_date": "2024-06-17",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "6aed98c80e29ec312b7c58fbcd04218235e649d21fb38592c750d8880137ed04",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "ded32ce2b479fa0402ea6926d6176dc063488655dc1d25387283a7c82f28c5c5",
+    "instrument": "SZ002407",
+    "ex_date": "2024-05-14",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "5b44866a8e14f9e194064e8c3813ae6bb555d0769c1e6fcdaa96067e4b8e74c2",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "f82d1f1ecb8b471c29fe5cc4ee8e6c0ccc9f2171b9793c9ad2f0a4ff7efc0f57",
+    "instrument": "SZ002407",
+    "ex_date": "2025-07-09",
+    "source_kind": "VENDOR_DISTRIBUTION",
+    "source_row_sha256": "3cf978a97149fa7b41ca03e6c61a2a01c856707695df610dc7b9537733efda2d",
+    "primary_source_sha256": [],
+    "blank_capital_resolved_as_zero": true,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  },
+  {
+    "event_id": "c91ad7e2da1681b465ccd3fba4921e5d74fa9ddc88e5889f2940b66f39c9e2a2",
+    "instrument": "SH600482",
+    "ex_date": "2024-11-22",
+    "source_kind": "PRIMARY_NOTICE_SUPPLEMENT",
+    "source_row_sha256": "a16283351513bb18d1aa3d957fc7d16304016605e12837c754c73fefed8f7740",
+    "primary_source_sha256": [
+      "451aedacd31a99f8a6a0b36e8aafba4cee8f2a4931d22afe025272ebe46464c1"
+    ],
+    "blank_capital_resolved_as_zero": false,
+    "requires_zero_record_ownership_if_tax_unverified": false
+  }
+]

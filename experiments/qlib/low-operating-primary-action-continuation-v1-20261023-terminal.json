@@ -1,0 +1,195 @@
+{
+  "status": "MANUAL_HISTORICAL_STATE_ACTION_RAW_CAPTURE_NOT_ADMITTED",
+  "request_sha256": "e8c8aef66728b5d960810192e4d4f56170ef47c0fffe01e922badfce7e8345ab",
+  "resources": {
+    "SZ002326-announcements-page2": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "20201",
+        "url_effective": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+      },
+      "body_bytes": 20201,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002326-announcements-page3": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "19850",
+        "url_effective": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+      },
+      "body_bytes": 19850,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002326-announcements-page4": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "20079",
+        "url_effective": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+      },
+      "body_bytes": 20079,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002326-announcements-page5": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "19885",
+        "url_effective": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+      },
+      "body_bytes": 19885,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002326-announcements-page6": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "20877",
+        "url_effective": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+      },
+      "body_bytes": 20877,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002326-announcements-page7": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "20593",
+        "url_effective": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+      },
+      "body_bytes": 20593,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002326-announcements-page8": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "19689",
+        "url_effective": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+      },
+      "body_bytes": 19689,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002326-announcements-page9": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "13730",
+        "url_effective": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+      },
+      "body_bytes": 13730,
+      "error_type": null,
+      "error": null
+    },
+    "SH600482-special-dividend-20241115": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "742578",
+        "url_effective": "https://static.cninfo.com.cn/finalpage/2024-11-15/1221725633.PDF"
+      },
+      "body_bytes": 742578,
+      "error_type": null,
+      "error": null
+    }
+  },
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_decoded": false,
+  "objective_achieved": false,
+  "complete": true,
+  "capture_sha256": {
+    "SZ002326-announcements-page2/request.json": "2cb24f673e89814be46e7a2a0f1d0ded9946110a4595f616005b08a67dc88d4b",
+    "SZ002326-announcements-page2/reservation.json": "7061ce4e27794706d81bf9241ce9a4471fa1c94564c110f4470f98d3671654f1",
+    "SZ002326-announcements-page2/command.json": "e54fe6ca1371cd244d929577fe7ce6f8d8547628af50a2304119e63fd3872c25",
+    "SZ002326-announcements-page2/headers.raw": "8a5fc527027501b8bcbcc72902c7c00bf0b5c1b186a4ecab559656012a06378f",
+    "SZ002326-announcements-page2/body.bin": "797fc455a9288092b130a16cc165ae49156c320a66b136754f9b1e91f342cfca",
+    "SZ002326-announcements-page2/transport.raw": "f30f889dfa0b75c7114cd206323510f2bcb0d5ed020db6923b69ce239d1790f1",
+    "SZ002326-announcements-page2/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002326-announcements-page2/receipt.json": "c78256627da130a52316b952f14107aa55f6abd04e871475f97e647bd6a8b5c5",
+    "SZ002326-announcements-page3/request.json": "1db61a604c1798a3875d5d91555148000459e587e27649bcbc8eb2f2d47a2422",
+    "SZ002326-announcements-page3/reservation.json": "82935f7a89586e15c2063b526fe6780d314db96e7c850b64d401ae034aeae19f",
+    "SZ002326-announcements-page3/command.json": "5a9d5c650e2383e13cc99b6d4055277822cb8a4cbde1fcecd1bc58ac373d9e5c",
+    "SZ002326-announcements-page3/headers.raw": "a25841ce325b2088a1a1ca229ee4d97c3662a4207a23fe4a7c7f23be2f4a35ac",
+    "SZ002326-announcements-page3/body.bin": "77e3e1a9b97426b89ea1eb525e8b0fa8bd4c789a29eef9245c64f63f2fda99ea",
+    "SZ002326-announcements-page3/transport.raw": "b8e20f4ecbc26141c5d0d381ab60e2514a154d948e91c22c98fa5924430e186c",
+    "SZ002326-announcements-page3/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002326-announcements-page3/receipt.json": "3e3cde3aa2de21ea7028bc504361b2d0efb904f3c948b4e9395113224af2e6ba",
+    "SZ002326-announcements-page4/request.json": "469f459114d32904d818364bc56bd65869c71047bdc682834bc7f2126e7a4cfc",
+    "SZ002326-announcements-page4/reservation.json": "c838eec1b1cd77866947fdcc885b1532dd2922f77de51fbf78c8970293548a74",
+    "SZ002326-announcements-page4/command.json": "4810e2eae9716d7ea032bb61a6a3ef2dd7f84638cfc94b764fdf675fcab7db69",
+    "SZ002326-announcements-page4/headers.raw": "fc9440bd5f83a1e541845c29840a398f0b8711c2b23f834dcefaafb1e5101be7",
+    "SZ002326-announcements-page4/body.bin": "b2a512218fdc35dd04eadc5c17d06e98a3b03297721a65cc01f3e731b3495942",
+    "SZ002326-announcements-page4/transport.raw": "84bf108e87c3d176bf96c3b9285ba92b8b4e6c39adac6e81ac1bd311749cdbda",
+    "SZ002326-announcements-page4/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002326-announcements-page4/receipt.json": "aa321fbd69552d63bf670d990dcd5b30fc33efc4884f037798c63435567481fb",
+    "SZ002326-announcements-page5/request.json": "e1c573d1df1afcf56cb17e187ae6c10c05eb7e5dd7d23f32865a40f06dde2a32",
+    "SZ002326-announcements-page5/reservation.json": "a4ee741b3ca8cf7b10893da1a11a9e79f17e6c85f3591c0e257993ada427ab9d",
+    "SZ002326-announcements-page5/command.json": "195dfb82405cdd2d7eceec82db4223eaf3967e06a227c67f042c3d711468ac2d",
+    "SZ002326-announcements-page5/headers.raw": "361b545f685c1a5d3cd86eee1dd6ef62db1e6ee18d76f6af8a7f6e036db61b3b",
+    "SZ002326-announcements-page5/body.bin": "7b376ebdbc78356cb6e81f13d620ae28ad0124cbf2b41b141cd9addbd9abef06",
+    "SZ002326-announcements-page5/transport.raw": "0a6e2c27530353d681ca37c473b8fd2d2a2bc9e587a1c0d3bb50f70d4b2b0264",
+    "SZ002326-announcements-page5/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002326-announcements-page5/receipt.json": "2ff031362d1a33115062a673cfba261fdb96bcc785f37297d055379f338cd7d9",
+    "SZ002326-announcements-page6/request.json": "e170d2f4d46783e5a51a266683b130645a444ecd36ec1f8a70766daea5e42dc9",
+    "SZ002326-announcements-page6/reservation.json": "2d04f65db27688b516fba5a1bf07f3fbbc9859845b068d7edbbbddc5365f9e16",
+    "SZ002326-announcements-page6/command.json": "38f6f5dada8bafc99246d1a3f08067c99a32da524330f2a1aed3d3bdd6f1103c",
+    "SZ002326-announcements-page6/headers.raw": "81d799deb7727d58e41e84115746912f0da22d4ed9bb85f03b534b948dab8bbc",
+    "SZ002326-announcements-page6/body.bin": "9f2fb07f4687e3b46895ab39efa792a64d1705616bb584df75ce321966fa5ea5",
+    "SZ002326-announcements-page6/transport.raw": "7b8a50aa05da346d4040f3b74115a11b02349f0d2b636e96484c008f597f5888",
+    "SZ002326-announcements-page6/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002326-announcements-page6/receipt.json": "4239e2395d4ffafd8093218bdfe56d97731f00856feadf5769ece54d591b85d6",
+    "SZ002326-announcements-page7/request.json": "d2f4fc23025d11fbf088d286a343d443bf306dccf55e7a024da8e123c398759f",
+    "SZ002326-announcements-page7/reservation.json": "bfd8716c9c176e2a09c7b34b1b567cda09f81093dc2d10532c77dc5489e29b40",
+    "SZ002326-announcements-page7/command.json": "435c88ec323dbf85447255c9d71ce3005164fd180c221995e71200e91664a871",
+    "SZ002326-announcements-page7/headers.raw": "c1da4cc7dfd3c3a518178fd45d9a50fe2bdef18881bda358b8e0db5c2dfbe3b1",
+    "SZ002326-announcements-page7/body.bin": "8e2e3818e12589a4a0903aeeaf51175df527bd6f3e35194334987b4c6e400a61",
+    "SZ002326-announcements-page7/transport.raw": "5ad388b4381763aae5778a33164551035ff87404d640c429c5e1a4a1632f2262",
+    "SZ002326-announcements-page7/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002326-announcements-page7/receipt.json": "ed82486cfec2bca8b0921fff4c7544edd707055d9692a2be7b9d3475e4e256ab",
+    "SZ002326-announcements-page8/request.json": "9e3a8f408fd0971aa05c1e65df7b1d8bccbbabcd87c0b45e05bd6d83d675258d",
+    "SZ002326-announcements-page8/reservation.json": "4416537da03d6b6c63f9313c76a1307973143bca8484e77ce8065c330c4ec607",
+    "SZ002326-announcements-page8/command.json": "edd3e032eb3ab33438f0b71f723baf420264ceb5eda51c3c291de39ff7d35bcf",
+    "SZ002326-announcements-page8/headers.raw": "900125c4081b7ed6115f6364313dcbecddae44bef5625df1b5aa37c55d0b3bd2",
+    "SZ002326-announcements-page8/body.bin": "14807c95e797a2d0af1f64254f17ef2c5023844c611c1e22dcdfb654fb456e24",
+    "SZ002326-announcements-page8/transport.raw": "ae4ee03c29e3f86bbeb553190cedb786511ab714c3ebfb6becfb692396de3d6e",
+    "SZ002326-announcements-page8/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002326-announcements-page8/receipt.json": "65b9c21729b61b505c9e4fb038f9e65ad28fed86ae0074b6a0d154dd7a6ac405",
+    "SZ002326-announcements-page9/request.json": "05d48c007bf49f4baa47bd5da3283e6daa0bd27b95b1694c5ad1aeead57c19a0",
+    "SZ002326-announcements-page9/reservation.json": "40ff57662a347c884ab401ca8e1abadcf30b97ebad9741abe0aa38927a882a27",
+    "SZ002326-announcements-page9/command.json": "7733aa3d66ebd9e06584f36fba956caaebb611b7ccf4eefe1117059609e4a2b2",
+    "SZ002326-announcements-page9/headers.raw": "dabd799a0cd96ffe201ea75734b94af98c07ce9d0c8ce9e12228e59a3b775515",
+    "SZ002326-announcements-page9/body.bin": "ba8b2b03b9bfbbbfe55c36129ff91db4c06f3bb94b1e6e44661ba1b7fc5e8def",
+    "SZ002326-announcements-page9/transport.raw": "035fd782a5afd7f42a7ebe0cb8eac6ae3e08b15276844b446ae0489b098883bf",
+    "SZ002326-announcements-page9/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002326-announcements-page9/receipt.json": "c801d70a0b5ef3a4ec591aedb4adcc439f57c4556341e5657fe190cef2050843",
+    "SH600482-special-dividend-20241115/request.json": "fb8b95d5167ff28feed3f26f83ac5fb2cad3ead24557f99736e8f69ca931167e",
+    "SH600482-special-dividend-20241115/reservation.json": "d305cac1789173e7bffdd965aaf0a270fa8f4257f640eef3686f2aea2b2a1bc2",
+    "SH600482-special-dividend-20241115/command.json": "4763acd64fe3b5a3c7869467bfefea028842048300a7f1af4d3e1c9e42c7c6fb",
+    "SH600482-special-dividend-20241115/headers.raw": "a30c3970813a5a83d1992677d2efeefa51f14fcc87dafef8c0aa06419bba594b",
+    "SH600482-special-dividend-20241115/body.bin": "451aedacd31a99f8a6a0b36e8aafba4cee8f2a4931d22afe025272ebe46464c1",
+    "SH600482-special-dividend-20241115/transport.raw": "dc9348e7030fbe9c42b91c6052c947dcd9197a0365b03e650e1ee82a86021e4e",
+    "SH600482-special-dividend-20241115/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SH600482-special-dividend-20241115/receipt.json": "66be8789347c5006fc4ec61c581cf6a5ef8793722a65abadbc6532aa2a36e4c1"
+  },
+  "all_inputs_unchanged": true,
+  "all_outputs_unchanged": true
+}
