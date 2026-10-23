@@ -1,0 +1,360 @@
+{
+  "status": "ALL47_SOURCE_RECONSTRUCTION_PENDING_SEPARATE_QA",
+  "request_sha256": "9e93d756de1d748a8f0315f32029e1e20f1697e2b101473c4d1bd14447107a12",
+  "window": [
+    "2023-12-29",
+    "2026-10-21"
+  ],
+  "names": 47,
+  "per_code_sha256": {
+    "SH600022": "9d0fd97c9d710f177749d7536d253d2c24714de635c2246cd972be7857115f87",
+    "SH600060": "f15af71183f4808e618b351a3bf50f0884248793d273f1bd76c3a76db1d3f21b",
+    "SH600062": "ade4dc894011bad6aca1f6b36ec7c777da63624b9046a7193ef3e7e178885cdc",
+    "SH600066": "d1356a40fa960ee515bf2fdf6228bce0ece2db1db300072b569332bd06d9d44b",
+    "SH600126": "fea83676d44e7dd871003738bc50bd5ee353c5784ae330eaf30cb24f0f03d06a",
+    "SH600131": "b49665cec36afbfd0bb21f49cc15a2a04db7b993f5a00fe7fd1e68fed304095a",
+    "SH600166": "9a2bd9a267bd04b3e0d4bc0a8d5396d0d2995f4a0855fb8fbab74877f37c3ab6",
+    "SH600170": "c25c7bd57ec8820851213b15c1a8433a40f6ce530ee3756fb27b5a2a864382df",
+    "SH600177": "b82b89b4e0f661ac64f73397d94c4e8b3e1aac4941f34403e1c082f7c78f7fd3",
+    "SH600208": "b215cdf32531341955930914edac7a59ddf6ed1ccab00b2a6d61cfbd26b593cc",
+    "SH600258": "bbf9adae1f1035593ae7f7233a5931c85ab11b05150a20f5cfa5a21f296c8ed4",
+    "SH600271": "52e5fa24745c268eb71964f4ef6b42fe8eb23133a738020e84644303b9153dfa",
+    "SH600282": "1d4c3b78703d200c047610295c87ab3a5bef6d4f16ab98a19a2f3555bc33ed20",
+    "SH600315": "ce282ae0ddc6952c9e9333fefc075d9767882e7a90787bcff2d3bcf4004c1f94",
+    "SH600316": "b04b1f55e128621b41bf65c0201f34b2d497c3ad7b6057632dbf2ad2a4aac27a",
+    "SH600325": "f5146b15e389d076b957f13c2cefc3d01ce44e82263533ef6f2182f79b5979dd",
+    "SH600516": "c4fcb9a0cbfa49ddcc6bbd8fdaeb60b4a0f8709e1a89460086732d9942b57c4a",
+    "SH600535": "d71b62541216a76095f369bbc71e9f9f8f492920fc60c196aaece6ad0c447e0a",
+    "SH600536": "2b3d602de06cb8e6662f26ca73912e21b52be3d6980fc3cd6ac7fe69f189b2fa",
+    "SH600546": "83d66d63fa3c4934c910d60f7ec06f2bd641493caddcebe199db01dc0e2b660d",
+    "SH600580": "d21892fce1f21144898cab10a6d267a00df99574746eeea7a51d7a56b69767f2",
+    "SH600655": "8e4d568da364c3d5a607a55c52cb8cbcda41be2ca6d807beced4ad026c65af71",
+    "SH600707": "54b7f127058bf2def267153dffbb143112b470cb94d9ff2342794f1e26dc6978",
+    "SH600737": "9911b3566d5dd1de9c1ee513ba32ecf54c713f39d372ac97910941cca93ce4de",
+    "SH600859": "4e801d67356d941cb92864ae0ecab4dd2092e711c9122824f436d8c16e8673e5",
+    "SH600873": "1e05b3ad0d056cfaea43aeae31f0d18ca8d69817470f2be785281b7bc64d1241",
+    "SH600967": "27e2422ce5349e4803b7c52f091d51499c2bb22d5cceaf9d59d8aae419fd5ac0",
+    "SH600977": "6c723613f97787302538fef0d711f66b6d3adf806d5e0e87fc9d74fa96073614",
+    "SH601118": "68954ecaf195a48bf195fcdebb83394034909d837402c6b75bc56e80653dc257",
+    "SH601156": "52a175625f5f9e97b57c1a66674f8503545ec9c5a6a126e9c1240cdc17e2749b",
+    "SH601568": "d96b1576c2f1892a2ce299e4e752cfbb0114779104cd0c166fffe08537e25a51",
+    "SH601608": "245d33e805eb1cf98d85115e7848abe384e86261e0fe162ee2c1fbaf37b86125",
+    "SH601828": "2a7a1127e4152dc47b9aac2923f6ae82d655f1d8e4f6291c47a25c0c34384324",
+    "SH601880": "bab33f7a09857212241a12840b3eb4cb5afe90d44bbe886d9f1b96406260842a",
+    "SH601933": "4483ff014b75a460a7d94bb61689dfce5f095b410269c544a9bb033a41a9a5d0",
+    "SH603056": "a1697a04d2e28cf6f6641043f88034a0538921cf461a9508a2959fea98cc7b5d",
+    "SH603077": "1cab6010298f297e771ef4f5e13b625f188d029c8b6147362ae33c36305ef87e",
+    "SH603156": "b34f5efd5c09c578ed8ea4299a0344bf43f874610059d1e62980f9ecf05f7464",
+    "SH603160": "b77774448f0b9c5de1b59ee28001e70c89c693c8eceb9fe89ff412208e096978",
+    "SH603589": "42ba79d77067265334f27d384196d0cb5406c988aa7d837dc5d172066e03f855",
+    "SH603688": "e42882cd7aa6e764297d39b4458cadb71fcf10cb101491e85fb748b8fb3f8fc7",
+    "SH603707": "eae4704f54b292422c76e46043d4de00a4d221e20c4daf19f215937fd4cdefcb",
+    "SH603712": "16da3a5a9c8c290337f196bde6a1bbc51b53e522ab308b19404fb4078fe7f35d",
+    "SH603737": "c7802f28b4226582dc33006a9c38225e93aef4deaf88e361028f4b402e3ffa03",
+    "SH603858": "5ad56eccff79adf3f7f1d4fa6f6b0e75f0d9ae81869a597e36f52bcb76475148",
+    "SH603868": "46b49aae75b4fea4a33e6c9904041f3c73af832b9ec98cd23f52d5dea4b09713",
+    "SH603882": "ba6bc9bd07a24797c1f3b49d8b27a379b5ab05bb1852067fe968c8be6cbb8b5c"
+  },
+  "coverage": {
+    "SH600022": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600060": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600062": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600066": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600126": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600131": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600166": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600170": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600177": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600208": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600258": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600271": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600282": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600315": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600316": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600325": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600516": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600535": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600536": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600546": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600580": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600655": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600707": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600737": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600859": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600873": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600967": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH600977": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH601118": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH601156": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH601568": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH601608": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH601828": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH601880": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH601933": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603056": {
+      "active_source_sessions": 541,
+      "active_end": "2026-03-30",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 136,
+      "effective_date": "2026-03-31",
+      "primary_document_sha256": "cc29deced35a496817c6ce6fa5c98bbea0063b72f2177e1023db9c3bc8afdc74"
+    },
+    "SH603077": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603156": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603160": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603589": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603688": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603707": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603712": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603737": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603858": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603868": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    },
+    "SH603882": {
+      "active_source_sessions": 677,
+      "active_end": "2026-10-21",
+      "global_session_count": 677,
+      "post_exit_sessions_not_synthesized": 0
+    }
+  },
+  "verified_query_chains": 142,
+  "global_sessions": 677,
+  "pending_codes": [],
+  "original_error": null,
+  "changed_inputs": [],
+  "persistence_errors": [],
+  "reconstruction_complete": true,
+  "original_46_packet_bytes_preserved": true,
+  "synthetic_prices_created": 0,
+  "network_queries": 0,
+  "original_failed_capture_modified": false,
+  "account_clearance_verified": false,
+  "admitted_for_account_replay": false,
+  "historical_observed_arrival_verified": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

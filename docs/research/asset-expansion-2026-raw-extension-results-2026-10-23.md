@@ -76,3 +76,7 @@ reproduced and fixed interrupted partial-response loss, final-artifact write
 failure precedence and logout-record masking before any real query. Final
 independent code review found no remaining blocking issue. No account return
 was generated in this stage.
+
+The subsequent [all47 local reconstruction and separate QA](asset-expansion-2026-source-reconstruction-results-2026-10-23.md)
+resolved active source coverage without modifying this failed original capture.
+Account clearance and continuous returns remain pending.
