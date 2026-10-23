@@ -115,7 +115,7 @@ def parse_summary_assets(pages,report_year,publication_day,source_sha256,primary
     need([y for y in sorted(anchors,key=lambda y:center(anchors[y]))]==sorted(anchors,reverse=True),'source year-end columns ordered current to prior')
     first=min(position(w) for w in anchors.values())
     adjustments=[w for w in header_words if compact(w['text']) in ('调整前','调整后') and position(w)>=first]
-    row=band(governed,label);amounts=[w for w in row if MONEY.fullmatch(compact(w['text']))]
+    row=band([w for w in page['words'] if inside(w,table)],label);amounts=[w for w in row if MONEY.fullmatch(compact(w['text']))]
     by_year={y:[] for y in anchors}
     for amount in amounts:
         distances=sorted((abs(center(amount)-center(anchor)),year) for year,anchor in anchors.items())

@@ -60,7 +60,7 @@ class OperatingAssetRecoveryAuditTests(unittest.TestCase):
         original={'classifications':[{'instrument':'SH600001','annual_status':'NO_VISIBLE_ANNUAL_REPORT'},
             {'instrument':'SH600002','annual_status':'LATEST_OPERATING_SOURCE_SCHEMA_UNSUPPORTED','selected_capture_key':'x','selected_source_sha256':'a'*64}]}
         cases={'x':{'capture_key':'x','instrument':'SH600002','source_sha256':'a'*64,'effective_source_status':'STILL_UNSUPPORTED','effective_record_id':None}}
-        new=copy.deepcopy(original)
+        new=copy.deepcopy(original);new.update(source_only_no_monetary_values_exposed=True,investment_factor_admitted=False,historical_arrival_verified=False,operating_ratios_or_portfolio_returns_computed=False)
         new['classifications'][0]['effective_source_status']='NO_VISIBLE_ANNUAL_REPORT';new['classifications'][1].update(effective_source_status='STILL_UNSUPPORTED',effective_record_id=None)
         self.assertEqual(audit.check_coverage(original,new,cases),2)
         new['classifications'][1]['selected_capture_key']='older'
@@ -73,6 +73,28 @@ class OperatingAssetRecoveryAuditTests(unittest.TestCase):
             else:case['source_record']['payload'][mode]='PARENT_OR_OTHER_SOURCE'
             rehash(case)
             with self.subTest(mode=mode),self.assertRaises(ValueError):self.check(case)
+
+    def test_recovered_record_requires_nonnull_validated_asset_evidence(self):
+        case=copy.deepcopy(self.case);case['asset_bridge']=case['source_record']['payload']['asset_bridge']=None
+        record=case['source_record'];record['record_id']=digest({k:v for k,v in record.items() if k!='record_id'});case['effective_record_id']=record['record_id']
+        with self.assertRaises(ValueError):self.check(case)
+
+    def test_rehashed_evidence_boundary_flags_remain_false(self):
+        for owner,flag in (('record','historical_arrival_verified'),('record','financial_cross_issuer_comparability_verified'),
+                           ('asset','historical_arrival_verified'),('case','historical_arrival_verified'),('case','investment_factor_admitted')):
+            case=copy.deepcopy(self.case)
+            target=case['source_record'] if owner=='record' else case['source_record']['payload']['asset_bridge'] if owner=='asset' else case
+            target[flag]=True;rehash(case)
+            with self.subTest(owner=owner,flag=flag),self.assertRaises(ValueError):self.check(case)
+
+    def test_coverage_cannot_claim_unproven_historical_arrival_or_investment(self):
+        old={'classifications':[]}
+        new={**old,'source_only_no_monetary_values_exposed':True,'investment_factor_admitted':False,
+             'historical_arrival_verified':False,'operating_ratios_or_portfolio_returns_computed':False}
+        self.assertEqual(audit.check_coverage(old,new,{}),0)
+        for flag in ('historical_arrival_verified','investment_factor_admitted','operating_ratios_or_portfolio_returns_computed'):
+            changed={**new,flag:True}
+            with self.subTest(flag=flag),self.assertRaises(ValueError):audit.check_coverage(old,changed,{})
 
     def test_independent_request_scope_rejects_supported_subset_or_changed_budget(self):
         root=Path(__file__).resolve().parents[1]

@@ -27,6 +27,14 @@ need,read,sha,digest,compact=original.need,original.read,original.sha,original.d
 MONEY=re.compile(r'(?:\d{1,3}(?:,\d{3})+|\d+)\.\d{2}')
 
 
+def check_unproven_flags(value,required=()):
+    flags=('historical_arrival_verified','financial_cross_issuer_comparability_verified','investment_factor_admitted',
+           'manual_all_source_visual_QA_complete','ratios_rankings_or_returns_computed','ratios_or_returns_computed',
+           'operating_ratios_or_portfolio_returns_computed','2026_financial_or_market_values_read','objective_achieved')
+    need(all(value.get(k) is False for k in required),'explicit source evidence boundary flags required')
+    need(all(value[k] is False for k in flags if k in value),'unproved source evidence and investment claims remain false')
+
+
 def regulatory_basis():
     return {'standard':'CSRC_ANNUAL_FORMAT_2021_ART10_19_20','body_sha256':RULE_SHA,
         'effective_from':'2021-06-28','effective_before':'2025-07-01','currency_default':'CNY_UNLESS_OTHERWISE_SPECIFIED',
@@ -68,6 +76,8 @@ def check_asset(texts,geometry,doc,gp,asset):
     need(len(pages)==len(geometry) and all(p['source_sha256']==doc['source_sha256'] for p in pages.values()),'unique same-PDF geometry pages')
     need(asset['record_id']==digest({k:v for k,v in asset.items() if k!='record_id'}) and asset['contract']==ASSET_CONTRACT
          and asset['source_sha256']==doc['source_sha256'] and asset['report_year']==year and asset['publication_day']==doc['day'],'asset source identity and contract')
+    check_unproven_flags(asset,('historical_arrival_verified','investment_factor_admitted'))
+    need(asset['same_edition_primary_reconciliation'] is True,'explicit same-edition reconciliation')
     rule=asset['normative_basis'];need(rule==regulatory_basis() and '2021-06-28'<=doc['day']<'2025-07-01','bound original regulatory inference')
     need(asset['currency_is_regulatory_inference'] is True and asset['consolidated_scope_is_regulatory_inference'] is True
         and asset['investment_factor_admitted'] is False,'source inference remains explicit')
@@ -145,6 +155,7 @@ def check_case(original_texts,geometry,document,original_case,new_case):
         and new_case['fiscal_year']==document['effective_fiscal_year']==old['fiscal_year'] and new_case['original_status']==old['status']
         and new_case['original_error']==old.get('error'),
         'same original source case and fiscal identity')
+    check_unproven_flags(new_case,('historical_arrival_verified','investment_factor_admitted'))
     if old['status']=='OPERATING_CELLS_SUPPORTED_PENDING_SOURCE_QA':
         need(new_case['effective_source_status']==OLD and new_case['effective_record_id']==old['operating_report']['record_id']
             and new_case['source_record'] is None,'legacy source unchanged');return 0
@@ -152,6 +163,8 @@ def check_case(original_texts,geometry,document,original_case,new_case):
     if asset is not None:count=check_asset(original_texts,geometry,document,gp,asset)
     if record is None:
         need(new_case['effective_source_status']==FAILED and new_case['effective_record_id'] is None,'failed source has no operating record');return count
+    need(type(asset) is dict,'recovered operating record requires validated nonnull asset bridge')
+    check_unproven_flags(record,('historical_arrival_verified','financial_cross_issuer_comparability_verified','investment_factor_admitted'))
     need(new_case['effective_source_status']==NEW and new_case['effective_record_id']==record['record_id']
         and record['record_id']==digest({k:v for k,v in record.items() if k!='record_id'}) and record['contract']==RECORD_CONTRACT
         and record['instrument']==document['instrument'] and record['report_year']==document['effective_fiscal_year']
@@ -181,6 +194,8 @@ def check_case(original_texts,geometry,document,original_case,new_case):
 
 
 def check_coverage(original_view,new_view,cases):
+    check_unproven_flags(new_view,('historical_arrival_verified','investment_factor_admitted','operating_ratios_or_portfolio_returns_computed'))
+    need(new_view['source_only_no_monetary_values_exposed'] is True,'source-only coverage')
     need(len(new_view['classifications'])==len(original_view['classifications']),'complete original cohort rows')
     for key,value in original_view.items():
         if key!='classifications':need(new_view[key]==value,'original metadata query identity and flags')
@@ -242,6 +257,7 @@ def audit(base,root,membership,request_file,expected_sha):
             need(case['recovery_state']=='NOT_TARGETED' and case['source_record'] is None and case['asset_bridge'] is None,'non-target source unchanged')
             if old['status']=='OPERATING_CELLS_SUPPORTED_PENDING_SOURCE_QA':need(case['effective_source_status']==OLD and case['effective_record_id']==old['operating_report']['record_id'],'all legacy positive IDs preserved')
             else:need(case['effective_source_status']==FAILED and case['effective_record_id'] is None,'all other original failures preserved')
+            check_unproven_flags(case,('historical_arrival_verified','investment_factor_admitted'))
             continue
         need(old.get('error')=='same-edition explicitly dated prior December31 assets required' and case['recovery_state']=='ATTEMPT_COMPLETE','every original date failure attempted')
         gp=read(base/GP/(key+'.json'));folder=INITIAL if doc['source_phase']=='INITIAL_AUTHENTICATED_PAGE_CACHE' else LATER
@@ -261,6 +277,7 @@ def audit(base,root,membership,request_file,expected_sha):
                         p=pdf.pages[number-1];regenerated.append({'physical_page':number,'width':p.width,'height':p.height,'source_sha256':doc['source_sha256'],
                             'tables':[{'bbox':list(t.bbox)} for t in p.find_tables(table_settings={})],
                             'words':p.extract_words(x_tolerance=3,y_tolerance=3,keep_blank_chars=False)})
+            except OSError:raise
             except Exception as exc:reader_error=exc
         need(regenerated==geometry,'original raw word/table positions independently re-extracted')
         if reader_error is not None:need(case.get('failure_stage')=='GEOMETRY_READ' and case['source_record'] is None,'source decoder failure never supplies operating record')
@@ -271,7 +288,7 @@ def audit(base,root,membership,request_file,expected_sha):
     for formation in req['formations']:
         for mode in req['modes']:
             name=formation['execution_session']+'-'+mode+'.json';rows+=check_coverage(read(base/LEGACY/name),read(out/name),cases)
-    summary=read(out/'summary.json');need(summary['document_count']==1236 and summary['target_documents_completed']==339
+    summary=read(out/'summary.json');check_unproven_flags(summary,('historical_arrival_verified','financial_cross_issuer_comparability_verified','investment_factor_admitted','objective_achieved'));need(summary['document_count']==1236 and summary['target_documents_completed']==339
         and summary['effective_source_status_counts']==dict(Counter(c['effective_source_status'] for c in cases.values()))
         and summary['observed_visible_annual_rows']==0,'complete source summary agrees')
     for key,p in paths.items():need(sha(p)==expected[key],'recovery audit source/request changed '+key)

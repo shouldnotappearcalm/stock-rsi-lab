@@ -1,0 +1,52 @@
+{
+  "status": "ONE_FRESH_REVIEW_WITH_FOUR_IMPORTANT_FINDINGS_RESOLVED_BEFORE_SOURCE_FREEZE",
+  "review_base": "cf54629a66ca76b56c23fa4d4cb67bc66d85935d",
+  "review_head": "a6bd77e7c91868bedefb0eacb9fc49b49e11f9f9",
+  "reviewer": "fresh read-only independent agent; gpt-6-astra",
+  "critical_count": 0,
+  "important_count": 4,
+  "minor_count": 0,
+  "rereview_performed": false,
+  "findings": [
+    {
+      "issue": "Checker accepted recovered income without a nonnull validated asset bridge",
+      "resolution": "Require asset dict for every recovered record before accepting the recovered status",
+      "red_green_test": "test_recovered_record_requires_nonnull_validated_asset_evidence"
+    },
+    {
+      "issue": "Preceding-page monetary row could replace missing current-page asset values",
+      "resolution": "Only asset-label physical page and enclosing table supply row amounts; preceding page supplies header context",
+      "red_green_test": "test_previous_page_supplies_headers_but_never_asset_row_money"
+    },
+    {
+      "issue": "Interrupted geometry read counted as completed unsupported attempt",
+      "resolution": "Propagate OSError including InterruptedError with partial geometry; drain submitted peers and emit failed terminal without completed summary",
+      "red_green_test": "test_geometry_interrupted_or_fatal_io_never_completes_source_run"
+    },
+    {
+      "issue": "Rehashed records could claim unverified historical arrival or financial comparability",
+      "resolution": "Require declared false case/asset/record/coverage flags; reject additional unsupported assurance flags and require false summary boundaries",
+      "red_green_tests": [
+        "test_rehashed_evidence_boundary_flags_remain_false",
+        "test_coverage_cannot_claim_unproven_historical_arrival_or_investment"
+      ]
+    }
+  ],
+  "validation": {
+    "reviewer_targeted_tests": 28,
+    "implementer_final_targeted_tests": 33,
+    "implementer_full_tests": 1389,
+    "implementer_full_seconds": 20.289,
+    "red_failures_including_subtests": 11,
+    "all_green": true
+  },
+  "declined_claims": [
+    "Actual339-case extraction yield and1236-case/48-view audit pending",
+    "Remote request freeze, exact-head CI and publication pending root verification",
+    "Investment admission, strategy returns and objective attainment not established",
+    "Reviewer reran28 targeted tests; full suite was run by implementer"
+  ],
+  "root_ruling": "One fresh review precedes source freeze; one bounded RED-to-GREEN correction pass; actual source and remote prerequisites remain separate",
+  "investment_factor_admitted": false,
+  "objective_achieved": false
+}

@@ -121,6 +121,20 @@ class OperatingAssetRecoveryTests(unittest.TestCase):
         self.assertFalse(terminal['postcheck']['all_inputs_unchanged']);self.assertEqual(terminal['original_error']['type'],'KeyboardInterrupt')
         self.assertTrue((out/'SYNTHETIC-0.partial-geometry.json').exists());self.assertFalse((out/'summary.json').exists())
 
+    def test_geometry_interrupted_or_fatal_io_never_completes_source_run(self):
+        reader=self.geometry_reader;original=InterruptedError('original source interrupted')
+        def interrupted(pdf,pages,source_sha256,expected_page_count):
+            if Path(pdf).name=='original-0.pdf':
+                yield next(iter(reader(pdf,pages,source_sha256,expected_page_count)))
+                raise original
+            yield from reader(pdf,pages,source_sha256,expected_page_count)
+        self.geometry_reader=interrupted
+        with self.assertRaises(InterruptedError) as caught:self.run_source()
+        self.assertIs(caught.exception,original);out=self.base/build.OUTPUT
+        terminal=build.read(out/'terminal.json');self.assertFalse(terminal['completed'])
+        self.assertEqual(terminal['original_error']['type'],'InterruptedError');self.assertFalse((out/'summary.json').exists())
+        self.assertEqual(len(build.read(out/'SYNTHETIC-0.partial-geometry.json')['pages']),1)
+
     def test_summary_failure_rehashes_request_and_keeps_no_completed_summary(self):
         writer=build.write_once;original=KeyboardInterrupt('summary interrupted')
         def interrupt(path,value):

@@ -105,6 +105,21 @@ class AssetGeometryTests(unittest.TestCase):
             else:pages.append(copy.deepcopy(pages[0]))
             with self.subTest(mode=mode),self.assertRaises(ValueError):parse(d,pages,primary)
 
+    def test_previous_page_supplies_headers_but_never_asset_row_money(self):
+        from tests.test_operating_source_bridge import synthetic_inputs
+        doc,texts,pages,cell=synthetic_inputs();summary=pages[0]
+        headers=[w for w in summary['words'] if '年末' in w['text']]
+        summary['words']=[w for w in summary['words'] if w not in headers]
+        prior=copy.deepcopy(summary);prior['physical_page']=4;prior['words']=headers
+        primary={'source_sha256':doc['source_sha256'],'report_year':2023,'cell':cell}
+        def run():return mapper.parse_summary_assets(pages+[prior],2023,doc['day'],doc['source_sha256'],primary,normative_basis=mapper.basis())
+        self.assertEqual(run()['prior']['amount_word']['page'],5)
+        amount=next(w for w in summary['words'] if w['text']=='100.00')
+        summary['words'].remove(amount);prior['words'].append(amount)
+        with self.assertRaises(ValueError):run()
+        summary['words'].append(copy.deepcopy(amount))
+        self.assertEqual(run()['prior']['amount_word']['page'],5,'preceding page monetary noise must not alter current row')
+
     def test_nonfinite_outside_and_boolean_geometry_fail(self):
         for value in (float('nan'),-100,True,10000):
             d,pages,primary=real_inputs();pages[0]['words'][0]['x0']=value

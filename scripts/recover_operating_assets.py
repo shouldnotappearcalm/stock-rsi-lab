@@ -142,6 +142,8 @@ def inspect_one(base,document,normative_basis):
     try:
         for page in extract_geometry(base/document['source_path'],selected,document['source_sha256'],len(texts)):result['geometry_pages'].append(page)
         need([p['physical_page'] for p in result['geometry_pages']]==selected,'exact complete bounded geometry pages')
+    except OSError as exc:
+        exc.partial_geometry=result['geometry_pages'];raise
     except Exception as exc:return {**result,'failure_stage':'GEOMETRY_READ','error_type':type(exc).__name__,'error':str(exc)}
     except BaseException as exc:
         exc.partial_geometry=result['geometry_pages'];raise
