@@ -1,0 +1,49 @@
+{
+  "candidate": "low_operating_profitability_followup_v1",
+  "request_sha256": "99ad8df946ddca9af2c529b4af9d28e0ff7124c449ec1541f9aefc1b9ebac056",
+  "status": "SOURCE_DIAGNOSTIC_FAILURE_RETAINED",
+  "complete": false,
+  "physical_account_admitted": false,
+  "tax_treatment_admitted": false,
+  "corporate_action_completeness_verified": false,
+  "historical_arrival_verified": false,
+  "actual_flat_inventory_proven": false,
+  "portfolio_return_computed": false,
+  "2026_values_read": false,
+  "objective_achieved": false,
+  "resources": {
+    "SZ002326": {
+      "status": "HTTP_FAILURE_RETAINED",
+      "resource": "SZ002326",
+      "request_sha256": "62eae0194af20d84c31ab5a59cb5c825c9b6f408582b984c0c4933bc9db93bae",
+      "reservation_sha256": "18496024f31a8d5c7ea665cd9d1270b04d93ffa507c4c4ee84f5af0c1995f64f",
+      "error_type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response"
+    },
+    "SH600118": {
+      "status": "HTTP_FAILURE_RETAINED",
+      "resource": "SH600118",
+      "request_sha256": "ff145ce529fa189af384ffa06f3e8b9d6a2324235324a6bbb2c69ad562f615f5",
+      "reservation_sha256": "0119dd01335f37f7a6e9eba4eae22df9cff47fb74357ff6bf66373ad4bea58e2",
+      "error_type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response"
+    }
+  },
+  "tax_risk_codes": 42,
+  "tax_errors": {},
+  "control_comparison": {
+    "corroborated": false,
+    "reason": "CONTROL_HTTP_UNAVAILABLE"
+  },
+  "capture_sha256": {
+    "SH600118/request.json": "ff145ce529fa189af384ffa06f3e8b9d6a2324235324a6bbb2c69ad562f615f5",
+    "SH600118/reservation.json": "0119dd01335f37f7a6e9eba4eae22df9cff47fb74357ff6bf66373ad4bea58e2",
+    "SH600118/response.json": "f3bbee720f2bb0429c657cc58b9c8b2e3f57fb0a3f6a987941e52b825a9e67c1",
+    "SZ002326/request.json": "62eae0194af20d84c31ab5a59cb5c825c9b6f408582b984c0c4933bc9db93bae",
+    "SZ002326/reservation.json": "18496024f31a8d5c7ea665cd9d1270b04d93ffa507c4c4ee84f5af0c1995f64f",
+    "SZ002326/response.json": "4eed82fc16babacb7ee86c505cb2178b6cfbf0c9850a140afbb8362a929dda15",
+    "tax-risk-views.json": "0ea690f57143f552c3a1abce9c22ffe67f8083044bbbd0fa11f3533f9dbdde93"
+  },
+  "all_capture_outputs_unchanged": true,
+  "all_inputs_unchanged": true
+}
