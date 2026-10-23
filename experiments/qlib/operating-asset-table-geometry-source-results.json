@@ -1,0 +1,76 @@
+{
+  "status": "ORIGINAL_ASSET_SOURCE_GEOMETRY_AND_FOUR_ROW_WITNESSES_VERIFIED_NOT_A_PARSER",
+  "request_sha256": "f5d3afcb00fa740d6708bc2fd8284af942ec2128e2e7e6b503ca52f662b28b1c",
+  "remote_freeze_commit": "510ae12842d3a6083d276b8d5c61a482e9e010cb",
+  "original_PDFs": 4,
+  "geometry_physical_pages": 12,
+  "new_asset_total_row_renders_visually_reviewed": 4,
+  "all_new_asset_row_render_sha256": {
+    "SZ000050-2022-1216116180/asset-total-page-102.png": "04e068f0e04baa0f9e4abe54a3fb0095bf5e388e84c84d3ba535713ee8309159",
+    "SZ000050-2023-1219308111/asset-total-page-106.png": "80d1f43b7ccb8aae9a2fb64fb55a2c7ec5ec9fe60527303910143d922e941547",
+    "SZ000050-2024-1222806950/asset-total-page-98.png": "ba79ee675a0824ee31b83e793e881c549004c197dcd57b742b75ef8644606fe2",
+    "SZ000089-2024-1223282164/asset-total-page-82.png": "a1f5a9f6bb233780f58cd28352abc5c5e477a78d505e9818f39800b7ea027016"
+  },
+  "all_25_request_inputs_unchanged": true,
+  "all_19_source_artifacts_unchanged": true,
+  "wrong_request_guard_pass": true,
+  "completed_output_immutability_guard_pass": true,
+  "word_band_literal_comparisons_to_preceding_authenticated_evidence": 16,
+  "raw_default_table_row_failure_cases": [
+    {
+      "capture_key": "SZ000050-2024-1222806950",
+      "page": 9,
+      "reason": "default grid row loses monetary cells; word bands retain them",
+      "default_row": [
+        "",
+        "总资产（元）",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "capture_key": "SZ000050-2024-1222806950",
+      "page": 98,
+      "reason": "default grid row loses monetary cells; word bands retain them",
+      "default_row": [
+        "",
+        "资产总计",
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "default_grid_shapes_are_not_semantic_columns": true,
+  "word_bounding_boxes_preserve_all_eight_current_prior_amounts": true,
+  "fixed_fixtures_documents": 4,
+  "fixed_fixtures_distinct_issuers": 2,
+  "fixed_fixtures_source_pages": 12,
+  "fixed_fixtures_words": 566,
+  "fixture_sha256": "cc69d1ba79678798d44ca0301bf2a173b1848cd66cd76eece6b158a0b3483c24",
+  "previous_source_pilot_and_original_corpus_unchanged": true,
+  "previously_missing_four_asset_total_row_visual_witnesses_completed_in_separately_frozen_run": true,
+  "broad_cohort_recovery_or_default_grid_parser_admitted": false,
+  "recovered_original_corpus_cases": 0,
+  "numeric_factor_or_return_computed": false,
+  "investment_factor_admitted": false,
+  "objective_achieved": false
+}

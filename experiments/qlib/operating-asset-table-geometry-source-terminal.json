@@ -1,0 +1,141 @@
+{
+  "completed": true,
+  "documents": [
+    {
+      "capture_key": "SZ000050-2022-1216116180",
+      "geometry_pages": [
+        {
+          "page": 9,
+          "tables": 3,
+          "sha256": "04a5b1cf66dcc2837b845da775717c1c69edd6b7a5f0010d5d2df51aeb63086e"
+        },
+        {
+          "page": 10,
+          "tables": 3,
+          "sha256": "e0ed6f3b4be30eda4f489e47bc73c3c267c8d4c02ba7eaad37a361b41a34a1d8"
+        },
+        {
+          "page": 102,
+          "tables": 1,
+          "sha256": "7e969d0ab4acfd5539457d272284d640111623ee1a51adaba774847836507c2d"
+        }
+      ],
+      "asset_total_row_rendered_page": 102
+    },
+    {
+      "capture_key": "SZ000050-2023-1219308111",
+      "geometry_pages": [
+        {
+          "page": 9,
+          "tables": 3,
+          "sha256": "535d061770a702d95b1835339aa630d6ea629e19df77ac8c66ecd6ca26e52107"
+        },
+        {
+          "page": 10,
+          "tables": 2,
+          "sha256": "7da9910b8a81ac01e3bea7cde4010b2b0c8ca3b9ce82d836fbfa065873b02280"
+        },
+        {
+          "page": 106,
+          "tables": 1,
+          "sha256": "991965da86f9e2d88170a874db0fe90f2ab44174d35162e04533f74d1a133833"
+        }
+      ],
+      "asset_total_row_rendered_page": 106
+    },
+    {
+      "capture_key": "SZ000050-2024-1222806950",
+      "geometry_pages": [
+        {
+          "page": 8,
+          "tables": 4,
+          "sha256": "e867460fd275d16a7a0021d5e07f905c90814778b0df6bd3173e75fc064632a3"
+        },
+        {
+          "page": 9,
+          "tables": 2,
+          "sha256": "1f40a8b1d2aff982f445d915d6a9707d3f938e1edc6ece95d23c8bf7ce485509"
+        },
+        {
+          "page": 98,
+          "tables": 1,
+          "sha256": "d526bc8815fcbdf380929ffae4d5ed061d8828274ad35d981aef2be70e0068c0"
+        }
+      ],
+      "asset_total_row_rendered_page": 98
+    },
+    {
+      "capture_key": "SZ000089-2024-1223282164",
+      "geometry_pages": [
+        {
+          "page": 6,
+          "tables": 3,
+          "sha256": "e420f46148b21ffed346037f521fbe8e9644262559dd01d989e49022ad81eb56"
+        },
+        {
+          "page": 7,
+          "tables": 3,
+          "sha256": "aaa74ccbcb039bc415a0b54574c0c6e1442d9a9a7e18041650a934b8fea19d14"
+        },
+        {
+          "page": 82,
+          "tables": 1,
+          "sha256": "2d6049075e48cd98efef02050acb72da03ed53aebcc6413144805b9ac6a37777"
+        }
+      ],
+      "asset_total_row_rendered_page": 82
+    }
+  ],
+  "all_input_sha256": {
+    "repo/experiments/qlib/operating-corpus-source-request.json": "f0302c00af7e312055aaf5a41f74a547de2bf2aaf9465a65d38aa9bf92da3710",
+    "repo/experiments/qlib/operating-corpus-source-independent-check.json": "292aceb7322fe8dd6b15b67a3be4d45ea285ddbbe60876bdde1358d603893581",
+    "repo/experiments/qlib/operating-lagged-asset-date-inventory.json": "35e1c1a632fd2e834466b085af813b3d22c0d4a6e3b1c5068ac9f62993520413",
+    "repo/docs/research/operating-lagged-asset-bridge-protocol-2026-10-23.md": "04fac7eb1bf8130b923ab1b7bc8eae15c6084c2c8abeac9e69241a65a308e9a6",
+    "source/operating-corpus-source-v1-20261023/case_results.json": "bf0bafc21d17656517d0542609732015e9075101e505ca0f3adbc1a8f4a7cd46",
+    "source/gross-profitability-all1236-header-v7-20261022/case_results.json": "dbe281076a1fb4a45446528cc1ce90990d5e065c9210609e30e43cd8b2d42a6c",
+    "source/gross-profitability-historical394-initial2022-pdfs-20261022/http/0971c9839161cd9d00ac37b54bdd4cda382247ccf24abb01fa1da0476139bc7f/body.bin": "07e8759e084928acdc7b9d777a4bd4f0e075f6e78eb7a9460cb57daba0ed9550",
+    "source/gross-profitability-historical394-initial2022-schema-20261022/SZ000050-2022-1216116180.pages.json": "d1039e7cef05e5eb5ae8912b681a4334e96c6d5e56f6569ef6d9e0539093ed0f",
+    "source/gross-profitability-all1236-header-v7-20261022/SZ000050-2022-1216116180.json": "3a943d87ff30664e10c42fac3a19a993c464b1285b011a01c268f91e93c97f5c",
+    "source/gross-profitability-historical394-later-annual-pdfs-20261022/http/3ff9c7acb395a5b1ff2fe4a554ba75b906d5deae5cf6643d01ef56232ae013ef/body.bin": "85f2463bee8f99bfec62fb54513298559587e363bf8924322e5ccf2f429fd83f",
+    "source/gross-profitability-all1236-source-v6-20261022/SZ000050-2023-1219308111.pages.json": "8127ac94468a9dddf539dd37efa62e5b507c41d2ab27e8019fc059e81e5def07",
+    "source/gross-profitability-all1236-header-v7-20261022/SZ000050-2023-1219308111.json": "03abda252b453b671a5f49cc9f0502761eb5e81fcba1396ab5100b3117887c5e",
+    "source/gross-profitability-historical394-later-annual-pdfs-20261022/http/827506af6e44f352160068a0f0b5d3b06df064e258297477e648bf7b9bcbeafe/body.bin": "ed11bc6640d6b23fdb21f712e098e9315219a223703bb740de4e655e0fe03083",
+    "source/gross-profitability-all1236-source-v6-20261022/SZ000050-2024-1222806950.pages.json": "d47c71a16f27ed8f5b3afdbe1d588e52b73f8e59ba4e4ab40b212508886f3c60",
+    "source/gross-profitability-all1236-header-v7-20261022/SZ000050-2024-1222806950.json": "28b5cbfe7a2bcffb6e6373307509a7708785086c8d5d2cb15831ab89385020cb",
+    "source/gross-profitability-historical394-later-annual-pdfs-20261022/http/d960d2c41da66932eb7225aecc5276b16623e54b59e1fe73f19c470482f4d51d/body.bin": "59a218d0c2daca7eeb1a7d07a45f58b6e8a7df936d8989f8db676c10a7547d3b",
+    "source/gross-profitability-all1236-source-v6-20261022/SZ000089-2024-1223282164.pages.json": "c715ff4ba925a934f8695c94d2ebb53880f31cb74625a340c3000783be3b5b69",
+    "source/gross-profitability-all1236-header-v7-20261022/SZ000089-2024-1223282164.json": "4fa102affd43237ebdc986a5b7823d36062add28c1cef5d6c3a291f59556eed0",
+    "repo/experiments/qlib/operating-lagged-asset-bridge-source-request.json": "eb56b2adc5d537ba5c5da8a67725bd944d4cfbd48fa42e6e04b3594f81a8a657",
+    "repo/experiments/qlib/operating-lagged-asset-bridge-source-results.json": "669948da24bf899c8b12a910573d003d13165fe1c19c87699025aa7810bd7b5d",
+    "repo/experiments/qlib/operating-lagged-asset-bridge-regulatory-proof.json": "579fe1f5d0310c244abdfef66e8044d1a56821ee838725488fb2df311331860c",
+    "repo/docs/research/operating-asset-table-geometry-protocol-2026-10-23.md": "ce1843e8a9469f72665fe1be513383e0172b5e151b4ee77844a5c7b00e15df27",
+    "source/regulatory-csrc-annual-format-2021-20261023/2021-standard/body.bin": "b727419bdab8b137224cea1c9c8b7d20e8a8f1e3714c6ef2e3a6242cd4767615",
+    "source/regulatory-csrc-annual-format-2021-20261023/2025-effective-date/body.bin": "a42967e775dff30fd754a92e6cf2af0244c8349d30dde89498ab9f4d87a5bc8f",
+    "frozen_request": "f5d3afcb00fa740d6708bc2fd8284af942ec2128e2e7e6b503ca52f662b28b1c"
+  },
+  "all_inputs_unchanged": true,
+  "mismatches": [],
+  "original_error": null,
+  "output_sha256": {
+    "SZ000050-2022-1216116180/asset-total-page-102.png": "04e068f0e04baa0f9e4abe54a3fb0095bf5e388e84c84d3ba535713ee8309159",
+    "SZ000050-2022-1216116180/geometry-page-10.json": "e0ed6f3b4be30eda4f489e47bc73c3c267c8d4c02ba7eaad37a361b41a34a1d8",
+    "SZ000050-2022-1216116180/geometry-page-102.json": "7e969d0ab4acfd5539457d272284d640111623ee1a51adaba774847836507c2d",
+    "SZ000050-2022-1216116180/geometry-page-9.json": "04a5b1cf66dcc2837b845da775717c1c69edd6b7a5f0010d5d2df51aeb63086e",
+    "SZ000050-2023-1219308111/asset-total-page-106.png": "80d1f43b7ccb8aae9a2fb64fb55a2c7ec5ec9fe60527303910143d922e941547",
+    "SZ000050-2023-1219308111/geometry-page-10.json": "7da9910b8a81ac01e3bea7cde4010b2b0c8ca3b9ce82d836fbfa065873b02280",
+    "SZ000050-2023-1219308111/geometry-page-106.json": "991965da86f9e2d88170a874db0fe90f2ab44174d35162e04533f74d1a133833",
+    "SZ000050-2023-1219308111/geometry-page-9.json": "535d061770a702d95b1835339aa630d6ea629e19df77ac8c66ecd6ca26e52107",
+    "SZ000050-2024-1222806950/asset-total-page-98.png": "ba79ee675a0824ee31b83e793e881c549004c197dcd57b742b75ef8644606fe2",
+    "SZ000050-2024-1222806950/geometry-page-8.json": "e867460fd275d16a7a0021d5e07f905c90814778b0df6bd3173e75fc064632a3",
+    "SZ000050-2024-1222806950/geometry-page-9.json": "1f40a8b1d2aff982f445d915d6a9707d3f938e1edc6ece95d23c8bf7ce485509",
+    "SZ000050-2024-1222806950/geometry-page-98.json": "d526bc8815fcbdf380929ffae4d5ed061d8828274ad35d981aef2be70e0068c0",
+    "SZ000089-2024-1223282164/asset-total-page-82.png": "a1f5a9f6bb233780f58cd28352abc5c5e477a78d505e9818f39800b7ea027016",
+    "SZ000089-2024-1223282164/geometry-page-6.json": "e420f46148b21ffed346037f521fbe8e9644262559dd01d989e49022ad81eb56",
+    "SZ000089-2024-1223282164/geometry-page-7.json": "aaa74ccbcb039bc415a0b54574c0c6e1442d9a9a7e18041650a934b8fea19d14",
+    "SZ000089-2024-1223282164/geometry-page-82.json": "2d6049075e48cd98efef02050acb72da03ed53aebcc6413144805b9ac6a37777",
+    "input-before.json": "fdebf172a8cc4fafb40c42c4fc9d92575914b0f572a74969c6eaefe8b6aed234",
+    "inspection.json": "8b61044258aa3499a432ff9a6d1c5397aca61cddc811397b6b2d2faa2dc430c3"
+  },
+  "denominator_admitted": false,
+  "investment_factor_admitted": false
+}
