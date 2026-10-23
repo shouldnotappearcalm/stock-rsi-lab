@@ -1,0 +1,210 @@
+{
+  "status": "MANUAL_HISTORICAL_NAME_STATE_CONTROLS_NOT_ACCOUNT_ADMISSION",
+  "request_sha256": "5204948023969c2e224ff3f4697f65870b3d421d86c14ec991161f7bccae138e",
+  "controls": {
+    "SZ002092-2024-05-17": {
+      "instrument": "SZ002092",
+      "day": "2024-05-17",
+      "printed_name": "中泰化学",
+      "detected_isST": "0",
+      "original_isST": "0",
+      "name_state_match": true,
+      "prices": {
+        "preclose": "4.69",
+        "open": "4.71",
+        "high": "4.93",
+        "low": "4.71",
+        "close": "4.93"
+      },
+      "exact_original_prices": {
+        "preclose": true,
+        "open": true,
+        "high": true,
+        "low": true,
+        "close": true
+      },
+      "all_prices_exact": true,
+      "control_passed": true
+    },
+    "SZ002092-2024-05-21": {
+      "instrument": "SZ002092",
+      "day": "2024-05-21",
+      "printed_name": "ST中泰",
+      "detected_isST": "1",
+      "original_isST": "1",
+      "name_state_match": true,
+      "prices": {
+        "preclose": "4.93",
+        "open": "4.68",
+        "high": "4.68",
+        "low": "4.68",
+        "close": "4.68"
+      },
+      "exact_original_prices": {
+        "preclose": true,
+        "open": true,
+        "high": true,
+        "low": true,
+        "close": true
+      },
+      "all_prices_exact": true,
+      "control_passed": true
+    },
+    "SZ002092-2024-05-31": {
+      "instrument": "SZ002092",
+      "day": "2024-05-31",
+      "printed_name": "ST中泰",
+      "detected_isST": "1",
+      "original_isST": "1",
+      "name_state_match": true,
+      "prices": {
+        "preclose": "4.16",
+        "open": "4.14",
+        "high": "4.19",
+        "low": "4.11",
+        "close": "4.16"
+      },
+      "exact_original_prices": {
+        "preclose": true,
+        "open": true,
+        "high": true,
+        "low": true,
+        "close": true
+      },
+      "all_prices_exact": true,
+      "control_passed": true
+    },
+    "SZ002092-2025-05-20": {
+      "instrument": "SZ002092",
+      "day": "2025-05-20",
+      "printed_name": "中泰化学",
+      "detected_isST": "0",
+      "original_isST": "0",
+      "name_state_match": true,
+      "prices": {
+        "preclose": "5.09",
+        "open": "5.08",
+        "high": "5.26",
+        "low": "4.91",
+        "close": "4.95"
+      },
+      "exact_original_prices": {
+        "preclose": true,
+        "open": true,
+        "high": true,
+        "low": true,
+        "close": true
+      },
+      "all_prices_exact": true,
+      "control_passed": true
+    },
+    "SZ002153-2024-07-01": {
+      "instrument": "SZ002153",
+      "day": "2024-07-01",
+      "printed_name": "石基信息",
+      "detected_isST": "0",
+      "original_isST": "0",
+      "name_state_match": true,
+      "prices": {
+        "preclose": "5.73",
+        "open": "5.74",
+        "high": "5.79",
+        "low": "5.60",
+        "close": "5.69"
+      },
+      "exact_original_prices": {
+        "preclose": true,
+        "open": true,
+        "high": true,
+        "low": true,
+        "close": true
+      },
+      "all_prices_exact": true,
+      "control_passed": true
+    }
+  },
+  "metadata": {
+    "SZ002092-warning-announcements": {
+      "declared_total": 8,
+      "records": [
+        {
+          "instrument": "SZ002092",
+          "publication_day": "2024-05-20",
+          "announcement_id": "1220111062",
+          "title": "关于控股股东及相关责任人收到中国证券监督管理委员会新疆监管局《行政处罚决定书》的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-05-20/1220111062.PDF"
+        },
+        {
+          "instrument": "SZ002092",
+          "publication_day": "2024-05-20",
+          "announcement_id": "1220111061",
+          "title": "关于公司及相关责任人收到中国证券监督管理委员会新疆监管局《行政处罚决定书》的公告（更正后）",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-05-20/1220111061.PDF"
+        },
+        {
+          "instrument": "SZ002092",
+          "publication_day": "2024-05-20",
+          "announcement_id": "1220102437",
+          "title": "关于公司及相关责任人收到中国证券监督管理委员会新疆监管局《行政处罚决定书》的公告（更正后）",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-05-20/1220102437.PDF"
+        },
+        {
+          "instrument": "SZ002092",
+          "publication_day": "2024-05-20",
+          "announcement_id": "1220102436",
+          "title": "关于公司及相关责任人收到中国证券监督管理委员会新疆监管局《行政处罚决定书》公告的更正公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-05-20/1220102436.PDF"
+        },
+        {
+          "instrument": "SZ002092",
+          "publication_day": "2024-05-18",
+          "announcement_id": "1220091681",
+          "title": "关于公司及相关责任人收到中国证券监督管理委员会新疆监管局《行政处罚决定书》的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-05-18/1220091681.PDF"
+        },
+        {
+          "instrument": "SZ002092",
+          "publication_day": "2024-05-18",
+          "announcement_id": "1220091680",
+          "title": "关于公司股票交易将被实施其他风险警示暨股票停牌的提示性公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-05-18/1220091680.PDF"
+        },
+        {
+          "instrument": "SZ002092",
+          "publication_day": "2024-05-18",
+          "announcement_id": "1220091679",
+          "title": "关于控股股东及相关责任人收到中国证券监督管理委员会新疆监管局《行政处罚决定书》的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-05-18/1220091679.PDF"
+        },
+        {
+          "instrument": "SZ002092",
+          "publication_day": "2024-05-18",
+          "announcement_id": "1220086608",
+          "title": "关于举行2023年度暨2024年第一季度业绩网上说明会的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-05-18/1220086608.PDF"
+        }
+      ],
+      "one_page_query_complete": true
+    },
+    "SZSE-mainboard-warning-label-20231228": {
+      "source_sha256": "1f00d2ff43bd6acc8897a9bf286c2197b7d09973e5f23635458f710d61b5f3ff",
+      "label_rule_snippets": [
+        "0000pt;\">上市公司股票交易被实施退市风险警示的，在股票简称前冠以“*ST”字样，被实施其他风险警示的，在股票简称前冠以“ST”字样，以区别于其他股票。公司同时存在退市风险警示和其他风险警示情形的，在公司股票简称前冠以“*ST”字样。<",
+        "冠以“*ST”字样，被实施其他风险警示的，在股票简称前冠以“ST”字样，以区别于其他股票。公司同时存在退市风险警示和其他风险警示情形的，在公司股票简称前冠以“*ST”字样。<span style=\"mso-spacerun: 'yes'; font-family: 宋体; line-height: 200%;",
+        ">“*ST”字样，被实施其他风险警示的，在股票简称前冠以“ST”字样，以区别于其他股票。公司同时存在退市风险警示和其他风险警示情形的，在公司股票简称前冠以“*ST”字样。<span style=\"mso-spacerun: 'yes'; font-family: 宋体; line-height: 200%; font-size: 12.0000pt; mso-font-kerning: 1.0000pt"
+      ],
+      "issuer_specific_or_legal_certification": false
+    }
+  },
+  "errors": {
+    "SZ002153-2025-12-31": {
+      "type": "KeyError",
+      "message": "'SZ002153-2025-12-31'"
+    }
+  },
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_used_for_selection": false,
+  "objective_achieved": false,
+  "historical_name_state_control_gate_passed": false
+}

@@ -1,0 +1,12 @@
+{
+  "status": "ORIGINAL_CONTROL_FAILURE_EXPLAINED_BY_DECLARED_ARCHIVE_BOUNDARY_NOT_AMENDED",
+  "instrument": "SZ002153",
+  "requested_date": "2025-12-31",
+  "returned_rows": 0,
+  "metadata_history_max_date": "2025-09-30",
+  "literal_footer": "<table>\n                        <tr><td class=\"link1\"><font color='#999'>1、仅含2025-09-30前的交易数据。</font></td></tr>\n                        <tr><td class=\"link1\"><font color='#999'>2、表中成交量、成交金额为所有交易方式汇总值。</font></td></tr>\n                    </table>",
+  "body_sha256": "22e8c787dd475c4d6fd991a4a377aa19e0c35441411e8efc96d0a8b7d98863f7",
+  "old_six_control_gate_remains_false": true,
+  "no_quote_value_decoded_for_empty_response": true,
+  "objective_achieved": false
+}

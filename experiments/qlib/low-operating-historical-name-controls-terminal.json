@@ -1,0 +1,175 @@
+{
+  "status": "MANUAL_HISTORICAL_STATE_ACTION_RAW_CAPTURE_NOT_ADMITTED",
+  "request_sha256": "5204948023969c2e224ff3f4697f65870b3d421d86c14ec991161f7bccae138e",
+  "resources": {
+    "SZ002092-2024-05-17": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "3442",
+        "url_effective": "https://www.szse.cn/api/report/ShowReport/data?SHOWTYPE=JSON&CATALOGID=1815_stock&TABKEY=tab1&PAGENO=1&tab1PAGESIZE=1000&code=002092&txtDMorJC=002092&txtBeginDate=2024-05-17&txtEndDate=2024-05-17"
+      },
+      "body_bytes": 3442,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002092-2024-05-21": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "3434",
+        "url_effective": "https://www.szse.cn/api/report/ShowReport/data?SHOWTYPE=JSON&CATALOGID=1815_stock&TABKEY=tab1&PAGENO=1&tab1PAGESIZE=1000&code=002092&txtDMorJC=002092&txtBeginDate=2024-05-21&txtEndDate=2024-05-21"
+      },
+      "body_bytes": 3434,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002092-2024-05-31": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "3438",
+        "url_effective": "https://www.szse.cn/api/report/ShowReport/data?SHOWTYPE=JSON&CATALOGID=1815_stock&TABKEY=tab1&PAGENO=1&tab1PAGESIZE=1000&code=002092&txtDMorJC=002092&txtBeginDate=2024-05-31&txtEndDate=2024-05-31"
+      },
+      "body_bytes": 3438,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002092-2025-05-20": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "3444",
+        "url_effective": "https://www.szse.cn/api/report/ShowReport/data?SHOWTYPE=JSON&CATALOGID=1815_stock&TABKEY=tab1&PAGENO=1&tab1PAGESIZE=1000&code=002092&txtDMorJC=002092&txtBeginDate=2025-05-20&txtEndDate=2025-05-20"
+      },
+      "body_bytes": 3444,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002153-2024-07-01": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "3442",
+        "url_effective": "https://www.szse.cn/api/report/ShowReport/data?SHOWTYPE=JSON&CATALOGID=1815_stock&TABKEY=tab1&PAGENO=1&tab1PAGESIZE=1000&code=002153&txtDMorJC=002153&txtBeginDate=2024-07-01&txtEndDate=2024-07-01"
+      },
+      "body_bytes": 3442,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002153-2025-12-31": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "3258",
+        "url_effective": "https://www.szse.cn/api/report/ShowReport/data?SHOWTYPE=JSON&CATALOGID=1815_stock&TABKEY=tab1&PAGENO=1&tab1PAGESIZE=1000&code=002153&txtDMorJC=002153&txtBeginDate=2025-12-31&txtEndDate=2025-12-31"
+      },
+      "body_bytes": 3258,
+      "error_type": null,
+      "error": null
+    },
+    "SZ002092-warning-announcements": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "6598",
+        "url_effective": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+      },
+      "body_bytes": 6598,
+      "error_type": null,
+      "error": null
+    },
+    "SZSE-mainboard-warning-label-20231228": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "23767",
+        "url_effective": "https://investor.szse.cn/institute/rules/t20231228_605142.html"
+      },
+      "body_bytes": 23767,
+      "error_type": null,
+      "error": null
+    }
+  },
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_decoded": false,
+  "objective_achieved": false,
+  "complete": true,
+  "capture_sha256": {
+    "SZ002092-2024-05-17/request.json": "bd51455d2e492e4ab7da6aa9b1b2858d0005dc9d1d555eaf0c48172f46862992",
+    "SZ002092-2024-05-17/reservation.json": "ef6c119d1b9759ebe78a40ed6bed73d41b26a15381f7b6680c29bca24b81f7b5",
+    "SZ002092-2024-05-17/command.json": "0d9a0797c7ad088f429be6853fb5d023f66159f3fc7f5ca9c854d62630ee760d",
+    "SZ002092-2024-05-17/headers.raw": "36ce8b205087c6c27476174f1cbd05df837a2005729dc2778fb36712e3fd24a7",
+    "SZ002092-2024-05-17/body.bin": "c935013281de52d0e80c31ca80d2faf78836edfb6bb09e29402e64f5993180a6",
+    "SZ002092-2024-05-17/transport.raw": "6b84853ad3a2f72a0b8fcb6c3b379ed4513034bc6852d71809ab902ad22053dd",
+    "SZ002092-2024-05-17/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002092-2024-05-17/receipt.json": "9fd6393a674ab21c96cb7191179844e4c432616af6bc28e0420b2a8c25bd177f",
+    "SZ002092-2024-05-21/request.json": "707b65df18b63edf0f26805309d5bd68a77c796acb4a8739a3fb3c7b223c9b42",
+    "SZ002092-2024-05-21/reservation.json": "06f5a9d779b4269afdb79078188da002c8c9f9e4388a5bfe3ca3577bffa9fd19",
+    "SZ002092-2024-05-21/command.json": "8f55b64b7f321502175c778419fd4c34677b659b63f7a48c3b74d38d4d57df3b",
+    "SZ002092-2024-05-21/headers.raw": "4b18296a0965cea0008aed43de5a01404739f9cf07ec6237fc95da641424673a",
+    "SZ002092-2024-05-21/body.bin": "cea0f1772997c671d4bc6e908727a5af5ae7b8b9b220e1a8aa0ee92f1c2ca30c",
+    "SZ002092-2024-05-21/transport.raw": "9a6a91b19e7c3ec0b00c68832f6de32efcaae10e6d92d931831f66180cce7059",
+    "SZ002092-2024-05-21/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002092-2024-05-21/receipt.json": "aa9a917bcb6093db8ad3ce5d94b931bf11b371ced89d5530a0e93727c9b61dcb",
+    "SZ002092-2024-05-31/request.json": "7c57bd95bb5290d7321f0cb7b9b918b0a75d95ee5abaa2667bd851f61bb9bb6d",
+    "SZ002092-2024-05-31/reservation.json": "31c8069c98b4b442e17f7a8470934a360236adb93e495823c4bfce89d4f7731c",
+    "SZ002092-2024-05-31/command.json": "5aeb93ea20bce95673e17cf87e0bfe9f9087df6b4c3cda3ddd51a0a43c38c197",
+    "SZ002092-2024-05-31/headers.raw": "6fce3569518e2ecd82ecb61e643502ca6aecd5451ee60f4b3a1fe30edf4513f9",
+    "SZ002092-2024-05-31/body.bin": "4446e3ea1f59e75877cf5d4701a3b8f4bdb75406577fc171120e0508f43c4364",
+    "SZ002092-2024-05-31/transport.raw": "c2b9631e76a86990ec14e17215327ab15fd3c4bbcc3b138417e7f51f55944f7c",
+    "SZ002092-2024-05-31/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002092-2024-05-31/receipt.json": "9c1b4788a38f9f6f7427531f163e3ef9f9ba8b89180453135ad519c4fbdfb038",
+    "SZ002092-2025-05-20/request.json": "fd71d5418c3f2157e3f9d89fe6d48574f1a884e343ba568f214407a6a64a51bd",
+    "SZ002092-2025-05-20/reservation.json": "10776d95f40b7797a10b44bfe9ca0d9b68f99d3f67c88243abe6e57725faf0ac",
+    "SZ002092-2025-05-20/command.json": "2c81e30a62e92a02d8edf872302222567c208c2327c1589ec8ae9cf8c85dfeb9",
+    "SZ002092-2025-05-20/headers.raw": "8d1b3168e91d0c8e3864233546f5d100c6bac6b3b48977e6ebed079b63fa42a6",
+    "SZ002092-2025-05-20/body.bin": "5a70cef9e5107a359d04a89267566b9852cb75ce15bc1c00aa7206bc21beabc6",
+    "SZ002092-2025-05-20/transport.raw": "b1bd4fed11282ba7fa03be44384fc04fe1bc8d053aa83fdb8b799c82b465643f",
+    "SZ002092-2025-05-20/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002092-2025-05-20/receipt.json": "ab6f909c2025eb3adc4686ecdf72495832dd67bb8a1c46d777f1601dd455f123",
+    "SZ002153-2024-07-01/request.json": "a00bd9547cd2bd867b1100214c5068dcb95648e3e12ae894d37d50b395aa5746",
+    "SZ002153-2024-07-01/reservation.json": "38f1141e828125a79d0e38d52a647e63edef351cd59139df780ab456573d8b30",
+    "SZ002153-2024-07-01/command.json": "656d05a160e693b3b7f61d1f0c810badf60ae901e4f54bc5e24ae36b390e4927",
+    "SZ002153-2024-07-01/headers.raw": "ba2e9400fd23052b1ad0ccf05a5cd07d2de5c96731fe0ae887b94ffd19aea712",
+    "SZ002153-2024-07-01/body.bin": "5c5162506ee041dccdbc71c62ac63915ae6d616507d26c76de018be4d75d1257",
+    "SZ002153-2024-07-01/transport.raw": "0b560682b9aa2b8dfaa849b2de0bbcb7fe751b6763c7a5b2026368fad54d12d8",
+    "SZ002153-2024-07-01/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002153-2024-07-01/receipt.json": "42e9e062896433fa461f9f4d38632c4461aa8d671308f425a82321ced58eddaa",
+    "SZ002153-2025-12-31/request.json": "bee9910b1957cb760de559132b62129ca149e7424327c1e3c7e7d95237c9b250",
+    "SZ002153-2025-12-31/reservation.json": "667c9cf9607a1a5b60e0b24a198ff10803ab78c345accb5e26868e22b6b74907",
+    "SZ002153-2025-12-31/command.json": "ccd6e8f173146f1913ad9498ddb8fa22ce01155a5b603423f79e8a3dc8f6573a",
+    "SZ002153-2025-12-31/headers.raw": "ae1f4305787a068111afa3ab678e04338d1bd6ee86a756b3aa1d4586e13d592b",
+    "SZ002153-2025-12-31/body.bin": "22e8c787dd475c4d6fd991a4a377aa19e0c35441411e8efc96d0a8b7d98863f7",
+    "SZ002153-2025-12-31/transport.raw": "096645b93027b593894907e2d399c25c8b2882f99c0d796a10716bb5449ff027",
+    "SZ002153-2025-12-31/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002153-2025-12-31/receipt.json": "9cfce345f93836cfac0f3711ddb1a14906bf14d78841dd444bdea8064b33493a",
+    "SZ002092-warning-announcements/request.json": "170d2a3ce0ca64053fb5a2ee338bd49c72c7ad7339955105907647f9f7dbdd12",
+    "SZ002092-warning-announcements/reservation.json": "5f9e5abb33bcd870574ba43a87064582045bc5dfc3e08e6ac08a1ae1b8edde19",
+    "SZ002092-warning-announcements/command.json": "9310576e7bbc2a2de2be6993ca5b7c5eb592a17e8d401f15813b8054e74c3287",
+    "SZ002092-warning-announcements/headers.raw": "ab7f5ca611f1b57a6e6414728f773070b943d7b3a7fcf054fcb325740e2c45ae",
+    "SZ002092-warning-announcements/body.bin": "7eab8c8f56900e7b35ea72930388d507ca2a08685e327e1c6b40c7cad1c5dda0",
+    "SZ002092-warning-announcements/transport.raw": "95c9d6677c3cb0e3a05e8fc458664ef5064421e09f4ac4b4c0e8c12dd7b9707b",
+    "SZ002092-warning-announcements/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002092-warning-announcements/receipt.json": "6e6cbf04b6f67bd220181f98aeb7b182cd5b0c1dd8fd470ef6354fe6866c4ee5",
+    "SZSE-mainboard-warning-label-20231228/request.json": "2ccdea688292da42a9f08e954bac6b00815e9212a63b479730d8ed95de5a5c24",
+    "SZSE-mainboard-warning-label-20231228/reservation.json": "dd5f58da511ce23ccc40f943581bfc5c4c8da95e6f5d2f9e5deb589521b357aa",
+    "SZSE-mainboard-warning-label-20231228/command.json": "ad641f0584e40b04fb480bcb2856e0953a2e9fd2d538442665ec02153020dd1d",
+    "SZSE-mainboard-warning-label-20231228/headers.raw": "287dedbc0945978903a08b674f5035203cade984d7d388fab0f8d1e3fd95b98e",
+    "SZSE-mainboard-warning-label-20231228/body.bin": "1f00d2ff43bd6acc8897a9bf286c2197b7d09973e5f23635458f710d61b5f3ff",
+    "SZSE-mainboard-warning-label-20231228/transport.raw": "dd93ced9b023545b8ebb392d3e4ace3ab19f43007e95f96d022cec91f61159c1",
+    "SZSE-mainboard-warning-label-20231228/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZSE-mainboard-warning-label-20231228/receipt.json": "1e159743c0b3addacaec48b22fd11c741511101d0ef35655ea2bc2af57d678a8"
+  },
+  "all_inputs_unchanged": true,
+  "all_outputs_unchanged": true
+}
