@@ -1,0 +1,124 @@
+{
+  "status": "FOUR_ORIGINAL_FAILURE_LAYOUTS_REPRODUCED",
+  "results": [
+    {
+      "capture_key": "SH600166-2022-1216699842",
+      "source_sha256": "1fe7f6aa317fd0595cee9dcac28c09678b57777edef3cd0b6715fa0cf5b6f492",
+      "source_cache_sha256": "acd2966ac5d58d149b8b9b2ab5bb77f74c1e62e21259095467061af3865cc420",
+      "header": "项目 附注 2022 年度 2021 年度",
+      "unit": "元",
+      "old_error_reproduced": "bounded same-page row with two monetary cells required: net_profit",
+      "candidate_row_blocks": [
+        {
+          "physical_page": 125,
+          "before": [
+            [
+              125,
+              "减：所得税费用 七、76 93,533,060.54 111,622,113.63"
+            ]
+          ],
+          "lines": [
+            "五、净利润（净亏损以“－”号填",
+            "列）  42,605,999.93 -5,060,838,150.71",
+            "（一）按经营持续性分类",
+            "1.持续经营净利润（净亏损以",
+            "“－”号填列）",
+            "42,605,999.93 -5,060,838,150.71",
+            "2.终止经营净利润（净亏损以",
+            "“－”号填列）"
+          ]
+        }
+      ]
+    },
+    {
+      "capture_key": "SZ000155-2022-1216280861",
+      "source_sha256": "400fd4644324e7505a579b0a10e23d34a57c7b1701e18ffbdf4048dff9cdfdb6",
+      "source_cache_sha256": "5b10ad1c49cba76af1a383d9385c2b86e3e0546b3cc0dbc1229c56d0cd87be12",
+      "header": "项目 2022 年度 2021 年度",
+      "unit": "元",
+      "old_error_reproduced": "bounded same-page row with two monetary cells required: net_profit",
+      "candidate_row_blocks": [
+        {
+          "physical_page": 140,
+          "before": [
+            [
+              140,
+              "减：所得税费用 145,644,265.94 184,795,292.65"
+            ]
+          ],
+          "lines": [
+            "五、净利润（净亏损以“－”号填",
+            "列） 1,284,271,865.92 686,140,383.06",
+            "（一）按经营持续性分类",
+            "1.持续经营净利润（净亏损以",
+            "“－”号填列） 1,284,271,865.92 686,140,383.06",
+            "2.终止经营净利润（净亏损以",
+            "“－”号填列）",
+            "（二）按所有权归属分类"
+          ]
+        }
+      ]
+    },
+    {
+      "capture_key": "SH600008-2024-1223071773",
+      "source_sha256": "6c2038572096c25ae268c48b137117661cea5d3171ba7fa95e2e6d0311d72a1d",
+      "source_cache_sha256": "b7d6b05822172d3c7af746c8a12ade3230f23ad146dd55d9ee00b81e90595c98",
+      "header": "项目 附注 2024 年度 2023 年度",
+      "unit": "元",
+      "old_error_reproduced": "bounded same-page row with two monetary cells required: net_profit",
+      "candidate_row_blocks": [
+        {
+          "physical_page": 111,
+          "before": [
+            [
+              111,
+              "减：所得税费用 七、76 737,930,098.21 583,621,513.17"
+            ]
+          ],
+          "lines": [
+            "五、净利润（净亏损以“－”号填",
+            "列）  4,144,467,318.33 2,090,261,450.31",
+            "（一）按经营持续性分类",
+            "1.持续经营净利润（净亏损以",
+            "“－”号填列）  2,287,939,421.84 2,090,261,450.31",
+            "2.终止经营净利润（净亏损以",
+            "“－”号填列）  1,856,527,896.49",
+            "（二）按所有权归属分类"
+          ]
+        }
+      ]
+    },
+    {
+      "capture_key": "SZ000089-2024-1223282164",
+      "source_sha256": "59a218d0c2daca7eeb1a7d07a45f58b6e8a7df936d8989f8db676c10a7547d3b",
+      "source_cache_sha256": "c715ff4ba925a934f8695c94d2ebb53880f31cb74625a340c3000783be3b5b69",
+      "header": "项目\n2024\n年度\n2023\n年度",
+      "unit": "元",
+      "old_error_reproduced": "bounded same-page row with two monetary cells required: net_profit",
+      "candidate_row_blocks": [
+        {
+          "physical_page": 86,
+          "before": [
+            [
+              86,
+              "133,823,957.08"
+            ]
+          ],
+          "lines": [
+            "五、净利润（净亏损以",
+            "“",
+            "－",
+            "”",
+            "号填",
+            "列）",
+            "441,991,891.29",
+            "399,438,819.73"
+          ]
+        }
+      ]
+    }
+  ],
+  "all_inputs_unchanged": true,
+  "ratios_rankings_or_returns_computed": false,
+  "2026_values_read": false
+}
