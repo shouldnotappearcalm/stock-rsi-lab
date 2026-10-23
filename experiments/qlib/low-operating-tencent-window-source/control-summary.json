@@ -1,0 +1,5162 @@
+{
+  "raw_rows_counted": 486,
+  "trading_rows_checked": 486,
+  "nontrading_rows_excluded": 0,
+  "returned_rows": 486,
+  "missing_trading_dates": [],
+  "price_cells_checked": 1944,
+  "matched_price_cells": 1944,
+  "volume_rows_matched": 34,
+  "mismatches": [
+    {
+      "date": "2023-12-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-02",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-01-31",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-01",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-02",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-02-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-01",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-03-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-01",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-02",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-04-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-05-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-06-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-02",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-07-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-01",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-02",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-08-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-09-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-10-31",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-01",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-11-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-02",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2024-12-31",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-02",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-01-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-02-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-03-31",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-01",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-02",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-04-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-05-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-06-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-01",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-07-31",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-01",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-08-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-01",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-02",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-09-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-10-31",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-06",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-07",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-12",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-13",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-14",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-20",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-21",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-27",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-11-28",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-01",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-02",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-03",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-04",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-05",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-08",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-09",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-10",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-11",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-15",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-16",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-17",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-18",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-19",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-24",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-25",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-29",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-30",
+      "fields": [
+        "volume_shares"
+      ]
+    },
+    {
+      "date": "2025-12-31",
+      "fields": [
+        "volume_shares"
+      ]
+    }
+  ],
+  "amount_rows_compared": 486,
+  "amount_exact_matches": 0,
+  "amount_missing_rows": 0,
+  "amount_mismatches": [
+    {
+      "date": "2023-12-29",
+      "source_cny": "160014800",
+      "original_cny": "160014777.2800"
+    },
+    {
+      "date": "2024-01-02",
+      "source_cny": "160359600",
+      "original_cny": "160359619.8400"
+    },
+    {
+      "date": "2024-01-03",
+      "source_cny": "115485800",
+      "original_cny": "115485826.1400"
+    },
+    {
+      "date": "2024-01-04",
+      "source_cny": "121235900",
+      "original_cny": "121235857.4200"
+    },
+    {
+      "date": "2024-01-05",
+      "source_cny": "153322500",
+      "original_cny": "153322496.5100"
+    },
+    {
+      "date": "2024-01-08",
+      "source_cny": "184696300",
+      "original_cny": "184696340.5200"
+    },
+    {
+      "date": "2024-01-09",
+      "source_cny": "244899600",
+      "original_cny": "244899600.2000"
+    },
+    {
+      "date": "2024-01-10",
+      "source_cny": "164406600",
+      "original_cny": "164406597.9800"
+    },
+    {
+      "date": "2024-01-11",
+      "source_cny": "139501300",
+      "original_cny": "139501321.3800"
+    },
+    {
+      "date": "2024-01-12",
+      "source_cny": "403342700",
+      "original_cny": "403342747.6800"
+    },
+    {
+      "date": "2024-01-15",
+      "source_cny": "235474300",
+      "original_cny": "235474282.3200"
+    },
+    {
+      "date": "2024-01-16",
+      "source_cny": "152161100",
+      "original_cny": "152161131.0500"
+    },
+    {
+      "date": "2024-01-17",
+      "source_cny": "129207900",
+      "original_cny": "129207857.0000"
+    },
+    {
+      "date": "2024-01-18",
+      "source_cny": "225300000",
+      "original_cny": "225300003.1300"
+    },
+    {
+      "date": "2024-01-19",
+      "source_cny": "127477400",
+      "original_cny": "127477444.9200"
+    },
+    {
+      "date": "2024-01-22",
+      "source_cny": "186477700",
+      "original_cny": "186477690.9300"
+    },
+    {
+      "date": "2024-01-23",
+      "source_cny": "140558400",
+      "original_cny": "140558388.8700"
+    },
+    {
+      "date": "2024-01-24",
+      "source_cny": "200244800",
+      "original_cny": "200244760.0100"
+    },
+    {
+      "date": "2024-01-25",
+      "source_cny": "493916100",
+      "original_cny": "493916071.3900"
+    },
+    {
+      "date": "2024-01-26",
+      "source_cny": "267886400",
+      "original_cny": "267886435.5200"
+    },
+    {
+      "date": "2024-01-29",
+      "source_cny": "409281900",
+      "original_cny": "409281856.0500"
+    },
+    {
+      "date": "2024-01-30",
+      "source_cny": "245892200",
+      "original_cny": "245892174.8200"
+    },
+    {
+      "date": "2024-01-31",
+      "source_cny": "201459600",
+      "original_cny": "201459561.3600"
+    },
+    {
+      "date": "2024-02-01",
+      "source_cny": "177246100",
+      "original_cny": "177246115.0900"
+    },
+    {
+      "date": "2024-02-02",
+      "source_cny": "296487000",
+      "original_cny": "296486955.5900"
+    },
+    {
+      "date": "2024-02-05",
+      "source_cny": "341322500",
+      "original_cny": "341322535.8600"
+    },
+    {
+      "date": "2024-02-06",
+      "source_cny": "262383600",
+      "original_cny": "262383604.2700"
+    },
+    {
+      "date": "2024-02-07",
+      "source_cny": "454632000",
+      "original_cny": "454632003.4600"
+    },
+    {
+      "date": "2024-02-08",
+      "source_cny": "375212200",
+      "original_cny": "375212229.0500"
+    },
+    {
+      "date": "2024-02-19",
+      "source_cny": "307451000",
+      "original_cny": "307451045.3500"
+    },
+    {
+      "date": "2024-02-20",
+      "source_cny": "229311300",
+      "original_cny": "229311344.9600"
+    },
+    {
+      "date": "2024-02-21",
+      "source_cny": "290361900",
+      "original_cny": "290361860.2400"
+    },
+    {
+      "date": "2024-02-22",
+      "source_cny": "237190600",
+      "original_cny": "237190618.6200"
+    },
+    {
+      "date": "2024-02-23",
+      "source_cny": "265627800",
+      "original_cny": "265627839.2400"
+    },
+    {
+      "date": "2024-02-26",
+      "source_cny": "374139400",
+      "original_cny": "374139364.5900"
+    },
+    {
+      "date": "2024-02-27",
+      "source_cny": "672746500",
+      "original_cny": "672746527.2800"
+    },
+    {
+      "date": "2024-02-28",
+      "source_cny": "570516400",
+      "original_cny": "570516397.5100"
+    },
+    {
+      "date": "2024-02-29",
+      "source_cny": "336551600",
+      "original_cny": "336551611.6200"
+    },
+    {
+      "date": "2024-03-01",
+      "source_cny": "328130500",
+      "original_cny": "328130547.2400"
+    },
+    {
+      "date": "2024-03-04",
+      "source_cny": "278056100",
+      "original_cny": "278056088.7700"
+    },
+    {
+      "date": "2024-03-05",
+      "source_cny": "549191500",
+      "original_cny": "549191548.0400"
+    },
+    {
+      "date": "2024-03-06",
+      "source_cny": "271555000",
+      "original_cny": "271554991.6200"
+    },
+    {
+      "date": "2024-03-07",
+      "source_cny": "357210300",
+      "original_cny": "357210300.7000"
+    },
+    {
+      "date": "2024-03-08",
+      "source_cny": "277755700",
+      "original_cny": "277755713.6500"
+    },
+    {
+      "date": "2024-03-11",
+      "source_cny": "256053400",
+      "original_cny": "256053439.0600"
+    },
+    {
+      "date": "2024-03-12",
+      "source_cny": "253346500",
+      "original_cny": "253346529.9700"
+    },
+    {
+      "date": "2024-03-13",
+      "source_cny": "360285300",
+      "original_cny": "360285339.4200"
+    },
+    {
+      "date": "2024-03-14",
+      "source_cny": "270797500",
+      "original_cny": "270797487.7200"
+    },
+    {
+      "date": "2024-03-15",
+      "source_cny": "262540900",
+      "original_cny": "262540896.7400"
+    },
+    {
+      "date": "2024-03-18",
+      "source_cny": "337058800",
+      "original_cny": "337058840.1900"
+    },
+    {
+      "date": "2024-03-19",
+      "source_cny": "371123600",
+      "original_cny": "371123550.0100"
+    },
+    {
+      "date": "2024-03-20",
+      "source_cny": "255730300",
+      "original_cny": "255730331.2900"
+    },
+    {
+      "date": "2024-03-21",
+      "source_cny": "312469000",
+      "original_cny": "312468957.5100"
+    },
+    {
+      "date": "2024-03-22",
+      "source_cny": "335550300",
+      "original_cny": "335550273.7800"
+    },
+    {
+      "date": "2024-03-25",
+      "source_cny": "541009500",
+      "original_cny": "541009475.8400"
+    },
+    {
+      "date": "2024-03-26",
+      "source_cny": "580209800",
+      "original_cny": "580209765.9100"
+    },
+    {
+      "date": "2024-03-27",
+      "source_cny": "448813400",
+      "original_cny": "448813381.9500"
+    },
+    {
+      "date": "2024-03-28",
+      "source_cny": "420394000",
+      "original_cny": "420394041.1900"
+    },
+    {
+      "date": "2024-03-29",
+      "source_cny": "242746800",
+      "original_cny": "242746774.7100"
+    },
+    {
+      "date": "2024-04-01",
+      "source_cny": "272782800",
+      "original_cny": "272782779.3200"
+    },
+    {
+      "date": "2024-04-02",
+      "source_cny": "224960400",
+      "original_cny": "224960363.4700"
+    },
+    {
+      "date": "2024-04-03",
+      "source_cny": "227024000",
+      "original_cny": "227023954.8400"
+    },
+    {
+      "date": "2024-04-08",
+      "source_cny": "237884500",
+      "original_cny": "237884537.9000"
+    },
+    {
+      "date": "2024-04-09",
+      "source_cny": "174720700",
+      "original_cny": "174720735.4600"
+    },
+    {
+      "date": "2024-04-10",
+      "source_cny": "185371100",
+      "original_cny": "185371129.5700"
+    },
+    {
+      "date": "2024-04-11",
+      "source_cny": "150125900",
+      "original_cny": "150125939.5200"
+    },
+    {
+      "date": "2024-04-12",
+      "source_cny": "131728300",
+      "original_cny": "131728322.9400"
+    },
+    {
+      "date": "2024-04-15",
+      "source_cny": "344904200",
+      "original_cny": "344904151.8600"
+    },
+    {
+      "date": "2024-04-16",
+      "source_cny": "296633600",
+      "original_cny": "296633594.9400"
+    },
+    {
+      "date": "2024-04-17",
+      "source_cny": "254642100",
+      "original_cny": "254642080.2900"
+    },
+    {
+      "date": "2024-04-18",
+      "source_cny": "262974700",
+      "original_cny": "262974728.8400"
+    },
+    {
+      "date": "2024-04-19",
+      "source_cny": "269629400",
+      "original_cny": "269629399.6300"
+    },
+    {
+      "date": "2024-04-22",
+      "source_cny": "325014000",
+      "original_cny": "325013982.8300"
+    },
+    {
+      "date": "2024-04-23",
+      "source_cny": "228706100",
+      "original_cny": "228706118.5400"
+    },
+    {
+      "date": "2024-04-24",
+      "source_cny": "185663500",
+      "original_cny": "185663465.2400"
+    },
+    {
+      "date": "2024-04-25",
+      "source_cny": "234218300",
+      "original_cny": "234218268.0000"
+    },
+    {
+      "date": "2024-04-26",
+      "source_cny": "233117300",
+      "original_cny": "233117318.6400"
+    },
+    {
+      "date": "2024-04-29",
+      "source_cny": "306459200",
+      "original_cny": "306459219.2100"
+    },
+    {
+      "date": "2024-04-30",
+      "source_cny": "276393500",
+      "original_cny": "276393493.9000"
+    },
+    {
+      "date": "2024-05-06",
+      "source_cny": "264328000",
+      "original_cny": "264328011.4500"
+    },
+    {
+      "date": "2024-05-07",
+      "source_cny": "615955300",
+      "original_cny": "615955260.9000"
+    },
+    {
+      "date": "2024-05-08",
+      "source_cny": "414259600",
+      "original_cny": "414259630.9100"
+    },
+    {
+      "date": "2024-05-09",
+      "source_cny": "379267700",
+      "original_cny": "379267691.6100"
+    },
+    {
+      "date": "2024-05-10",
+      "source_cny": "415085600",
+      "original_cny": "415085643.0900"
+    },
+    {
+      "date": "2024-05-13",
+      "source_cny": "260222900",
+      "original_cny": "260222880.7900"
+    },
+    {
+      "date": "2024-05-14",
+      "source_cny": "179230300",
+      "original_cny": "179230252.4600"
+    },
+    {
+      "date": "2024-05-15",
+      "source_cny": "196879700",
+      "original_cny": "196879705.2200"
+    },
+    {
+      "date": "2024-05-16",
+      "source_cny": "159486000",
+      "original_cny": "159486016.3400"
+    },
+    {
+      "date": "2024-05-17",
+      "source_cny": "146039800",
+      "original_cny": "146039780.2800"
+    },
+    {
+      "date": "2024-05-20",
+      "source_cny": "212462800",
+      "original_cny": "212462841.8700"
+    },
+    {
+      "date": "2024-05-21",
+      "source_cny": "210791300",
+      "original_cny": "210791340.8900"
+    },
+    {
+      "date": "2024-05-22",
+      "source_cny": "184040500",
+      "original_cny": "184040467.6100"
+    },
+    {
+      "date": "2024-05-23",
+      "source_cny": "177477000",
+      "original_cny": "177476988.5000"
+    },
+    {
+      "date": "2024-05-24",
+      "source_cny": "197354500",
+      "original_cny": "197354541.2000"
+    },
+    {
+      "date": "2024-05-27",
+      "source_cny": "143802400",
+      "original_cny": "143802414.9200"
+    },
+    {
+      "date": "2024-05-28",
+      "source_cny": "172419200",
+      "original_cny": "172419171.6100"
+    },
+    {
+      "date": "2024-05-29",
+      "source_cny": "223845200",
+      "original_cny": "223845169.4800"
+    },
+    {
+      "date": "2024-05-30",
+      "source_cny": "275901200",
+      "original_cny": "275901165.3400"
+    },
+    {
+      "date": "2024-05-31",
+      "source_cny": "549473600",
+      "original_cny": "549473580.4400"
+    },
+    {
+      "date": "2024-06-03",
+      "source_cny": "337048500",
+      "original_cny": "337048475.3500"
+    },
+    {
+      "date": "2024-06-04",
+      "source_cny": "208851100",
+      "original_cny": "208851147.3300"
+    },
+    {
+      "date": "2024-06-05",
+      "source_cny": "309693300",
+      "original_cny": "309693338.1500"
+    },
+    {
+      "date": "2024-06-06",
+      "source_cny": "304385900",
+      "original_cny": "304385875.6500"
+    },
+    {
+      "date": "2024-06-07",
+      "source_cny": "203242900",
+      "original_cny": "203242903.2500"
+    },
+    {
+      "date": "2024-06-11",
+      "source_cny": "157784800",
+      "original_cny": "157784788.8400"
+    },
+    {
+      "date": "2024-06-12",
+      "source_cny": "197044400",
+      "original_cny": "197044386.6500"
+    },
+    {
+      "date": "2024-06-13",
+      "source_cny": "168795100",
+      "original_cny": "168795094.2300"
+    },
+    {
+      "date": "2024-06-14",
+      "source_cny": "272101500",
+      "original_cny": "272101503.8600"
+    },
+    {
+      "date": "2024-06-17",
+      "source_cny": "137565400",
+      "original_cny": "137565353.0800"
+    },
+    {
+      "date": "2024-06-18",
+      "source_cny": "139481600",
+      "original_cny": "139481579.0600"
+    },
+    {
+      "date": "2024-06-19",
+      "source_cny": "111031200",
+      "original_cny": "111031241.8000"
+    },
+    {
+      "date": "2024-06-20",
+      "source_cny": "202076400",
+      "original_cny": "202076359.8900"
+    },
+    {
+      "date": "2024-06-21",
+      "source_cny": "84204200",
+      "original_cny": "84204162.3000"
+    },
+    {
+      "date": "2024-06-24",
+      "source_cny": "141105700",
+      "original_cny": "141105680.0000"
+    },
+    {
+      "date": "2024-06-25",
+      "source_cny": "172615600",
+      "original_cny": "172615604.5000"
+    },
+    {
+      "date": "2024-06-26",
+      "source_cny": "126629400",
+      "original_cny": "126629363.5800"
+    },
+    {
+      "date": "2024-06-27",
+      "source_cny": "89692400",
+      "original_cny": "89692362.1000"
+    },
+    {
+      "date": "2024-06-28",
+      "source_cny": "124585200",
+      "original_cny": "124585184.0000"
+    },
+    {
+      "date": "2024-07-01",
+      "source_cny": "88880800",
+      "original_cny": "88880781.5200"
+    },
+    {
+      "date": "2024-07-02",
+      "source_cny": "98491500",
+      "original_cny": "98491545.7500"
+    },
+    {
+      "date": "2024-07-03",
+      "source_cny": "85665300",
+      "original_cny": "85665291.5600"
+    },
+    {
+      "date": "2024-07-04",
+      "source_cny": "126351600",
+      "original_cny": "126351591.4000"
+    },
+    {
+      "date": "2024-07-05",
+      "source_cny": "112939500",
+      "original_cny": "112939518.8900"
+    },
+    {
+      "date": "2024-07-08",
+      "source_cny": "98532700",
+      "original_cny": "98532728.9200"
+    },
+    {
+      "date": "2024-07-09",
+      "source_cny": "418225700",
+      "original_cny": "418225736.3200"
+    },
+    {
+      "date": "2024-07-10",
+      "source_cny": "150244800",
+      "original_cny": "150244808.9700"
+    },
+    {
+      "date": "2024-07-11",
+      "source_cny": "162537200",
+      "original_cny": "162537155.1000"
+    },
+    {
+      "date": "2024-07-12",
+      "source_cny": "80021400",
+      "original_cny": "80021403.6500"
+    },
+    {
+      "date": "2024-07-15",
+      "source_cny": "126410900",
+      "original_cny": "126410925.3000"
+    },
+    {
+      "date": "2024-07-16",
+      "source_cny": "81621900",
+      "original_cny": "81621887.0900"
+    },
+    {
+      "date": "2024-07-17",
+      "source_cny": "88118600",
+      "original_cny": "88118554.2000"
+    },
+    {
+      "date": "2024-07-18",
+      "source_cny": "120849000",
+      "original_cny": "120849005.0000"
+    },
+    {
+      "date": "2024-07-19",
+      "source_cny": "154019200",
+      "original_cny": "154019201.2600"
+    },
+    {
+      "date": "2024-07-22",
+      "source_cny": "129338100",
+      "original_cny": "129338121.0600"
+    },
+    {
+      "date": "2024-07-23",
+      "source_cny": "106000500",
+      "original_cny": "106000520.0000"
+    },
+    {
+      "date": "2024-07-24",
+      "source_cny": "122680900",
+      "original_cny": "122680877.8400"
+    },
+    {
+      "date": "2024-07-25",
+      "source_cny": "83220400",
+      "original_cny": "83220400.4600"
+    },
+    {
+      "date": "2024-07-26",
+      "source_cny": "228994300",
+      "original_cny": "228994327.6600"
+    },
+    {
+      "date": "2024-07-29",
+      "source_cny": "250263900",
+      "original_cny": "250263946.1800"
+    },
+    {
+      "date": "2024-07-30",
+      "source_cny": "621973100",
+      "original_cny": "621973134.4600"
+    },
+    {
+      "date": "2024-07-31",
+      "source_cny": "611086300",
+      "original_cny": "611086291.6300"
+    },
+    {
+      "date": "2024-08-01",
+      "source_cny": "540872000",
+      "original_cny": "540871991.6700"
+    },
+    {
+      "date": "2024-08-02",
+      "source_cny": "1550761700",
+      "original_cny": "1550761693.5800"
+    },
+    {
+      "date": "2024-08-05",
+      "source_cny": "1092752300",
+      "original_cny": "1092752303.0000"
+    },
+    {
+      "date": "2024-08-06",
+      "source_cny": "611700500",
+      "original_cny": "611700503.8700"
+    },
+    {
+      "date": "2024-08-07",
+      "source_cny": "778588800",
+      "original_cny": "778588779.8300"
+    },
+    {
+      "date": "2024-08-08",
+      "source_cny": "560451400",
+      "original_cny": "560451416.1800"
+    },
+    {
+      "date": "2024-08-09",
+      "source_cny": "363934900",
+      "original_cny": "363934896.3600"
+    },
+    {
+      "date": "2024-08-12",
+      "source_cny": "225373000",
+      "original_cny": "225372953.6600"
+    },
+    {
+      "date": "2024-08-13",
+      "source_cny": "153120600",
+      "original_cny": "153120618.2100"
+    },
+    {
+      "date": "2024-08-14",
+      "source_cny": "123070800",
+      "original_cny": "123070832.1600"
+    },
+    {
+      "date": "2024-08-15",
+      "source_cny": "151591600",
+      "original_cny": "151591589.1600"
+    },
+    {
+      "date": "2024-08-16",
+      "source_cny": "152925000",
+      "original_cny": "152924963.3600"
+    },
+    {
+      "date": "2024-08-19",
+      "source_cny": "122969800",
+      "original_cny": "122969787.5400"
+    },
+    {
+      "date": "2024-08-20",
+      "source_cny": "111921100",
+      "original_cny": "111921105.0000"
+    },
+    {
+      "date": "2024-08-21",
+      "source_cny": "88040000",
+      "original_cny": "88039989.1300"
+    },
+    {
+      "date": "2024-08-22",
+      "source_cny": "122232000",
+      "original_cny": "122232001.2500"
+    },
+    {
+      "date": "2024-08-23",
+      "source_cny": "101110400",
+      "original_cny": "101110350.7000"
+    },
+    {
+      "date": "2024-08-26",
+      "source_cny": "94858300",
+      "original_cny": "94858341.5600"
+    },
+    {
+      "date": "2024-08-27",
+      "source_cny": "132528200",
+      "original_cny": "132528209.6500"
+    },
+    {
+      "date": "2024-08-28",
+      "source_cny": "88554500",
+      "original_cny": "88554526.3500"
+    },
+    {
+      "date": "2024-08-29",
+      "source_cny": "99832200",
+      "original_cny": "99832192.1100"
+    },
+    {
+      "date": "2024-08-30",
+      "source_cny": "152330900",
+      "original_cny": "152330909.6000"
+    },
+    {
+      "date": "2024-09-02",
+      "source_cny": "104695300",
+      "original_cny": "104695332.0000"
+    },
+    {
+      "date": "2024-09-03",
+      "source_cny": "87227100",
+      "original_cny": "87227091.2100"
+    },
+    {
+      "date": "2024-09-04",
+      "source_cny": "91434600",
+      "original_cny": "91434607.6400"
+    },
+    {
+      "date": "2024-09-05",
+      "source_cny": "80887700",
+      "original_cny": "80887711.4600"
+    },
+    {
+      "date": "2024-09-06",
+      "source_cny": "80884000",
+      "original_cny": "80883951.0000"
+    },
+    {
+      "date": "2024-09-09",
+      "source_cny": "78999300",
+      "original_cny": "78999274.0000"
+    },
+    {
+      "date": "2024-09-10",
+      "source_cny": "95582100",
+      "original_cny": "95582100.7600"
+    },
+    {
+      "date": "2024-09-11",
+      "source_cny": "69507400",
+      "original_cny": "69507411.2800"
+    },
+    {
+      "date": "2024-09-12",
+      "source_cny": "58903900",
+      "original_cny": "58903898.0000"
+    },
+    {
+      "date": "2024-09-13",
+      "source_cny": "61117500",
+      "original_cny": "61117519.3700"
+    },
+    {
+      "date": "2024-09-18",
+      "source_cny": "80038500",
+      "original_cny": "80038536.3000"
+    },
+    {
+      "date": "2024-09-19",
+      "source_cny": "110796900",
+      "original_cny": "110796921.3400"
+    },
+    {
+      "date": "2024-09-20",
+      "source_cny": "78715400",
+      "original_cny": "78715427.5300"
+    },
+    {
+      "date": "2024-09-23",
+      "source_cny": "171143800",
+      "original_cny": "171143823.3100"
+    },
+    {
+      "date": "2024-09-24",
+      "source_cny": "226985400",
+      "original_cny": "226985404.3500"
+    },
+    {
+      "date": "2024-09-25",
+      "source_cny": "296067000",
+      "original_cny": "296066954.0000"
+    },
+    {
+      "date": "2024-09-26",
+      "source_cny": "230752000",
+      "original_cny": "230751961.2800"
+    },
+    {
+      "date": "2024-09-27",
+      "source_cny": "291711100",
+      "original_cny": "291711084.3400"
+    },
+    {
+      "date": "2024-09-30",
+      "source_cny": "885385900",
+      "original_cny": "885385864.7900"
+    },
+    {
+      "date": "2024-10-08",
+      "source_cny": "1312674400",
+      "original_cny": "1312674365.0200"
+    },
+    {
+      "date": "2024-10-09",
+      "source_cny": "776741000",
+      "original_cny": "776740969.9100"
+    },
+    {
+      "date": "2024-10-10",
+      "source_cny": "988237500",
+      "original_cny": "988237455.7300"
+    },
+    {
+      "date": "2024-10-11",
+      "source_cny": "593038900",
+      "original_cny": "593038926.7000"
+    },
+    {
+      "date": "2024-10-14",
+      "source_cny": "502531000",
+      "original_cny": "502531002.0900"
+    },
+    {
+      "date": "2024-10-15",
+      "source_cny": "506828000",
+      "original_cny": "506827964.5600"
+    },
+    {
+      "date": "2024-10-16",
+      "source_cny": "332302400",
+      "original_cny": "332302425.2500"
+    },
+    {
+      "date": "2024-10-17",
+      "source_cny": "323988700",
+      "original_cny": "323988686.0400"
+    },
+    {
+      "date": "2024-10-18",
+      "source_cny": "603751300",
+      "original_cny": "603751331.4600"
+    },
+    {
+      "date": "2024-10-21",
+      "source_cny": "2021077100",
+      "original_cny": "2021077139.8200"
+    },
+    {
+      "date": "2024-10-22",
+      "source_cny": "1899213200",
+      "original_cny": "1899213235.7600"
+    },
+    {
+      "date": "2024-10-23",
+      "source_cny": "1247924200",
+      "original_cny": "1247924230.6200"
+    },
+    {
+      "date": "2024-10-24",
+      "source_cny": "625834900",
+      "original_cny": "625834883.1500"
+    },
+    {
+      "date": "2024-10-25",
+      "source_cny": "657519800",
+      "original_cny": "657519757.4700"
+    },
+    {
+      "date": "2024-10-28",
+      "source_cny": "599289000",
+      "original_cny": "599288986.1700"
+    },
+    {
+      "date": "2024-10-29",
+      "source_cny": "1003759400",
+      "original_cny": "1003759430.1600"
+    },
+    {
+      "date": "2024-10-30",
+      "source_cny": "571259400",
+      "original_cny": "571259353.9500"
+    },
+    {
+      "date": "2024-10-31",
+      "source_cny": "680297800",
+      "original_cny": "680297843.3400"
+    },
+    {
+      "date": "2024-11-01",
+      "source_cny": "655908500",
+      "original_cny": "655908537.2300"
+    },
+    {
+      "date": "2024-11-04",
+      "source_cny": "316452900",
+      "original_cny": "316452921.0600"
+    },
+    {
+      "date": "2024-11-05",
+      "source_cny": "1051592700",
+      "original_cny": "1051592742.3100"
+    },
+    {
+      "date": "2024-11-06",
+      "source_cny": "2096999200",
+      "original_cny": "2096999247.5000"
+    },
+    {
+      "date": "2024-11-07",
+      "source_cny": "2072097600",
+      "original_cny": "2072097589.7300"
+    },
+    {
+      "date": "2024-11-08",
+      "source_cny": "3348812200",
+      "original_cny": "3348812190.5800"
+    },
+    {
+      "date": "2024-11-11",
+      "source_cny": "3492315000",
+      "original_cny": "3492314953.2100"
+    },
+    {
+      "date": "2024-11-12",
+      "source_cny": "2168872500",
+      "original_cny": "2168872522.9800"
+    },
+    {
+      "date": "2024-11-13",
+      "source_cny": "1946544900",
+      "original_cny": "1946544935.5900"
+    },
+    {
+      "date": "2024-11-14",
+      "source_cny": "1318690900",
+      "original_cny": "1318690892.0300"
+    },
+    {
+      "date": "2024-11-15",
+      "source_cny": "998997300",
+      "original_cny": "998997251.6300"
+    },
+    {
+      "date": "2024-11-18",
+      "source_cny": "719408200",
+      "original_cny": "719408185.5000"
+    },
+    {
+      "date": "2024-11-19",
+      "source_cny": "632327700",
+      "original_cny": "632327657.3400"
+    },
+    {
+      "date": "2024-11-20",
+      "source_cny": "669504700",
+      "original_cny": "669504707.5500"
+    },
+    {
+      "date": "2024-11-21",
+      "source_cny": "730108700",
+      "original_cny": "730108731.0000"
+    },
+    {
+      "date": "2024-11-22",
+      "source_cny": "751842200",
+      "original_cny": "751842167.8600"
+    },
+    {
+      "date": "2024-11-25",
+      "source_cny": "504203500",
+      "original_cny": "504203535.3300"
+    },
+    {
+      "date": "2024-11-26",
+      "source_cny": "479974500",
+      "original_cny": "479974450.7000"
+    },
+    {
+      "date": "2024-11-27",
+      "source_cny": "2039139700",
+      "original_cny": "2039139686.4600"
+    },
+    {
+      "date": "2024-11-28",
+      "source_cny": "2263975300",
+      "original_cny": "2263975280.8800"
+    },
+    {
+      "date": "2024-11-29",
+      "source_cny": "1765652000",
+      "original_cny": "1765652016.8200"
+    },
+    {
+      "date": "2024-12-02",
+      "source_cny": "1350143100",
+      "original_cny": "1350143071.2100"
+    },
+    {
+      "date": "2024-12-03",
+      "source_cny": "1015036700",
+      "original_cny": "1015036721.9600"
+    },
+    {
+      "date": "2024-12-04",
+      "source_cny": "725598800",
+      "original_cny": "725598768.4300"
+    },
+    {
+      "date": "2024-12-05",
+      "source_cny": "720025400",
+      "original_cny": "720025390.5200"
+    },
+    {
+      "date": "2024-12-06",
+      "source_cny": "645194500",
+      "original_cny": "645194449.9200"
+    },
+    {
+      "date": "2024-12-09",
+      "source_cny": "490363000",
+      "original_cny": "490362981.9200"
+    },
+    {
+      "date": "2024-12-10",
+      "source_cny": "2094001300",
+      "original_cny": "2094001297.1200"
+    },
+    {
+      "date": "2024-12-11",
+      "source_cny": "1897891500",
+      "original_cny": "1897891514.9900"
+    },
+    {
+      "date": "2024-12-12",
+      "source_cny": "1445997500",
+      "original_cny": "1445997542.2900"
+    },
+    {
+      "date": "2024-12-13",
+      "source_cny": "1345052900",
+      "original_cny": "1345052901.8100"
+    },
+    {
+      "date": "2024-12-16",
+      "source_cny": "1273788300",
+      "original_cny": "1273788345.0400"
+    },
+    {
+      "date": "2024-12-17",
+      "source_cny": "1254807800",
+      "original_cny": "1254807840.9200"
+    },
+    {
+      "date": "2024-12-18",
+      "source_cny": "914111400",
+      "original_cny": "914111353.0500"
+    },
+    {
+      "date": "2024-12-19",
+      "source_cny": "551464200",
+      "original_cny": "551464152.4800"
+    },
+    {
+      "date": "2024-12-20",
+      "source_cny": "516196600",
+      "original_cny": "516196641.0800"
+    },
+    {
+      "date": "2024-12-23",
+      "source_cny": "643443700",
+      "original_cny": "643443660.8100"
+    },
+    {
+      "date": "2024-12-24",
+      "source_cny": "548505300",
+      "original_cny": "548505310.3700"
+    },
+    {
+      "date": "2024-12-25",
+      "source_cny": "495412400",
+      "original_cny": "495412377.8900"
+    },
+    {
+      "date": "2024-12-26",
+      "source_cny": "606604300",
+      "original_cny": "606604272.8500"
+    },
+    {
+      "date": "2024-12-27",
+      "source_cny": "559292400",
+      "original_cny": "559292442.0500"
+    },
+    {
+      "date": "2024-12-30",
+      "source_cny": "525612100",
+      "original_cny": "525612138.2500"
+    },
+    {
+      "date": "2024-12-31",
+      "source_cny": "529142800",
+      "original_cny": "529142829.7800"
+    },
+    {
+      "date": "2025-01-02",
+      "source_cny": "427948200",
+      "original_cny": "427948220.2300"
+    },
+    {
+      "date": "2025-01-03",
+      "source_cny": "390301300",
+      "original_cny": "390301325.3200"
+    },
+    {
+      "date": "2025-01-06",
+      "source_cny": "242074700",
+      "original_cny": "242074680.7000"
+    },
+    {
+      "date": "2025-01-07",
+      "source_cny": "233579100",
+      "original_cny": "233579065.5600"
+    },
+    {
+      "date": "2025-01-08",
+      "source_cny": "321395600",
+      "original_cny": "321395613.0100"
+    },
+    {
+      "date": "2025-01-09",
+      "source_cny": "345169700",
+      "original_cny": "345169749.2800"
+    },
+    {
+      "date": "2025-01-10",
+      "source_cny": "259651100",
+      "original_cny": "259651097.4500"
+    },
+    {
+      "date": "2025-01-13",
+      "source_cny": "259024300",
+      "original_cny": "259024250.5600"
+    },
+    {
+      "date": "2025-01-14",
+      "source_cny": "405149600",
+      "original_cny": "405149581.0600"
+    },
+    {
+      "date": "2025-01-15",
+      "source_cny": "728505300",
+      "original_cny": "728505266.5900"
+    },
+    {
+      "date": "2025-01-16",
+      "source_cny": "365940800",
+      "original_cny": "365940793.3600"
+    },
+    {
+      "date": "2025-01-17",
+      "source_cny": "280739300",
+      "original_cny": "280739275.2200"
+    },
+    {
+      "date": "2025-01-20",
+      "source_cny": "251123300",
+      "original_cny": "251123304.6300"
+    },
+    {
+      "date": "2025-01-21",
+      "source_cny": "265326100",
+      "original_cny": "265326054.4600"
+    },
+    {
+      "date": "2025-01-22",
+      "source_cny": "233445500",
+      "original_cny": "233445467.9700"
+    },
+    {
+      "date": "2025-01-23",
+      "source_cny": "341749100",
+      "original_cny": "341749102.0000"
+    },
+    {
+      "date": "2025-01-24",
+      "source_cny": "287462700",
+      "original_cny": "287462732.4000"
+    },
+    {
+      "date": "2025-01-27",
+      "source_cny": "231498400",
+      "original_cny": "231498414.0000"
+    },
+    {
+      "date": "2025-02-05",
+      "source_cny": "379997500",
+      "original_cny": "379997522.5200"
+    },
+    {
+      "date": "2025-02-06",
+      "source_cny": "634780400",
+      "original_cny": "634780427.7300"
+    },
+    {
+      "date": "2025-02-07",
+      "source_cny": "603411200",
+      "original_cny": "603411183.8200"
+    },
+    {
+      "date": "2025-02-10",
+      "source_cny": "500180300",
+      "original_cny": "500180344.3200"
+    },
+    {
+      "date": "2025-02-11",
+      "source_cny": "681305400",
+      "original_cny": "681305426.2400"
+    },
+    {
+      "date": "2025-02-12",
+      "source_cny": "372978400",
+      "original_cny": "372978363.5200"
+    },
+    {
+      "date": "2025-02-13",
+      "source_cny": "418419400",
+      "original_cny": "418419434.5800"
+    },
+    {
+      "date": "2025-02-14",
+      "source_cny": "362589700",
+      "original_cny": "362589739.1700"
+    },
+    {
+      "date": "2025-02-17",
+      "source_cny": "322736700",
+      "original_cny": "322736739.4600"
+    },
+    {
+      "date": "2025-02-18",
+      "source_cny": "316128000",
+      "original_cny": "316128041.4500"
+    },
+    {
+      "date": "2025-02-19",
+      "source_cny": "338628600",
+      "original_cny": "338628622.3000"
+    },
+    {
+      "date": "2025-02-20",
+      "source_cny": "516696200",
+      "original_cny": "516696175.3100"
+    },
+    {
+      "date": "2025-02-21",
+      "source_cny": "466745500",
+      "original_cny": "466745449.6600"
+    },
+    {
+      "date": "2025-02-24",
+      "source_cny": "777113400",
+      "original_cny": "777113371.7600"
+    },
+    {
+      "date": "2025-02-25",
+      "source_cny": "467722200",
+      "original_cny": "467722189.6400"
+    },
+    {
+      "date": "2025-02-26",
+      "source_cny": "364546000",
+      "original_cny": "364545959.9000"
+    },
+    {
+      "date": "2025-02-27",
+      "source_cny": "374936700",
+      "original_cny": "374936710.4000"
+    },
+    {
+      "date": "2025-02-28",
+      "source_cny": "384064400",
+      "original_cny": "384064427.9700"
+    },
+    {
+      "date": "2025-03-03",
+      "source_cny": "254076700",
+      "original_cny": "254076696.9900"
+    },
+    {
+      "date": "2025-03-04",
+      "source_cny": "443053300",
+      "original_cny": "443053260.5600"
+    },
+    {
+      "date": "2025-03-05",
+      "source_cny": "1072555200",
+      "original_cny": "1072555186.0200"
+    },
+    {
+      "date": "2025-03-06",
+      "source_cny": "1013175700",
+      "original_cny": "1013175654.0000"
+    },
+    {
+      "date": "2025-03-07",
+      "source_cny": "798745800",
+      "original_cny": "798745756.3700"
+    },
+    {
+      "date": "2025-03-10",
+      "source_cny": "476761400",
+      "original_cny": "476761350.4600"
+    },
+    {
+      "date": "2025-03-11",
+      "source_cny": "532370300",
+      "original_cny": "532370277.6100"
+    },
+    {
+      "date": "2025-03-12",
+      "source_cny": "505567600",
+      "original_cny": "505567585.6500"
+    },
+    {
+      "date": "2025-03-13",
+      "source_cny": "428388400",
+      "original_cny": "428388374.6400"
+    },
+    {
+      "date": "2025-03-14",
+      "source_cny": "416853300",
+      "original_cny": "416853282.2700"
+    },
+    {
+      "date": "2025-03-17",
+      "source_cny": "361791100",
+      "original_cny": "361791111.4000"
+    },
+    {
+      "date": "2025-03-18",
+      "source_cny": "379120500",
+      "original_cny": "379120506.0000"
+    },
+    {
+      "date": "2025-03-19",
+      "source_cny": "326210800",
+      "original_cny": "326210807.8300"
+    },
+    {
+      "date": "2025-03-20",
+      "source_cny": "286962800",
+      "original_cny": "286962811.9100"
+    },
+    {
+      "date": "2025-03-21",
+      "source_cny": "439785900",
+      "original_cny": "439785915.0900"
+    },
+    {
+      "date": "2025-03-24",
+      "source_cny": "512255400",
+      "original_cny": "512255375.9100"
+    },
+    {
+      "date": "2025-03-25",
+      "source_cny": "343039700",
+      "original_cny": "343039737.8600"
+    },
+    {
+      "date": "2025-03-26",
+      "source_cny": "240298400",
+      "original_cny": "240298442.0000"
+    },
+    {
+      "date": "2025-03-27",
+      "source_cny": "252103300",
+      "original_cny": "252103304.5100"
+    },
+    {
+      "date": "2025-03-28",
+      "source_cny": "220563700",
+      "original_cny": "220563721.4500"
+    },
+    {
+      "date": "2025-03-31",
+      "source_cny": "257102500",
+      "original_cny": "257102450.5900"
+    },
+    {
+      "date": "2025-04-01",
+      "source_cny": "265193400",
+      "original_cny": "265193352.5600"
+    },
+    {
+      "date": "2025-04-02",
+      "source_cny": "254146300",
+      "original_cny": "254146299.3400"
+    },
+    {
+      "date": "2025-04-03",
+      "source_cny": "189076000",
+      "original_cny": "189075972.5600"
+    },
+    {
+      "date": "2025-04-07",
+      "source_cny": "490669800",
+      "original_cny": "490669837.9000"
+    },
+    {
+      "date": "2025-04-08",
+      "source_cny": "361321600",
+      "original_cny": "361321574.4300"
+    },
+    {
+      "date": "2025-04-09",
+      "source_cny": "543664700",
+      "original_cny": "543664709.9000"
+    },
+    {
+      "date": "2025-04-10",
+      "source_cny": "432396800",
+      "original_cny": "432396772.9800"
+    },
+    {
+      "date": "2025-04-11",
+      "source_cny": "649264300",
+      "original_cny": "649264345.6800"
+    },
+    {
+      "date": "2025-04-14",
+      "source_cny": "352804000",
+      "original_cny": "352804047.0200"
+    },
+    {
+      "date": "2025-04-15",
+      "source_cny": "290294200",
+      "original_cny": "290294218.8700"
+    },
+    {
+      "date": "2025-04-16",
+      "source_cny": "223730900",
+      "original_cny": "223730852.4800"
+    },
+    {
+      "date": "2025-04-17",
+      "source_cny": "193415400",
+      "original_cny": "193415387.3300"
+    },
+    {
+      "date": "2025-04-18",
+      "source_cny": "138635100",
+      "original_cny": "138635093.4100"
+    },
+    {
+      "date": "2025-04-21",
+      "source_cny": "193503800",
+      "original_cny": "193503787.6800"
+    },
+    {
+      "date": "2025-04-22",
+      "source_cny": "140641800",
+      "original_cny": "140641787.2000"
+    },
+    {
+      "date": "2025-04-23",
+      "source_cny": "197790000",
+      "original_cny": "197790028.5300"
+    },
+    {
+      "date": "2025-04-24",
+      "source_cny": "214874300",
+      "original_cny": "214874292.8400"
+    },
+    {
+      "date": "2025-04-25",
+      "source_cny": "138613900",
+      "original_cny": "138613878.0500"
+    },
+    {
+      "date": "2025-04-28",
+      "source_cny": "143995000",
+      "original_cny": "143994985.0000"
+    },
+    {
+      "date": "2025-04-29",
+      "source_cny": "115096100",
+      "original_cny": "115096113.8700"
+    },
+    {
+      "date": "2025-04-30",
+      "source_cny": "144898400",
+      "original_cny": "144898400.9500"
+    },
+    {
+      "date": "2025-05-06",
+      "source_cny": "244124700",
+      "original_cny": "244124713.3500"
+    },
+    {
+      "date": "2025-05-07",
+      "source_cny": "525272600",
+      "original_cny": "525272554.5000"
+    },
+    {
+      "date": "2025-05-08",
+      "source_cny": "487829300",
+      "original_cny": "487829296.5000"
+    },
+    {
+      "date": "2025-05-09",
+      "source_cny": "292676900",
+      "original_cny": "292676865.1400"
+    },
+    {
+      "date": "2025-05-12",
+      "source_cny": "747926400",
+      "original_cny": "747926370.7100"
+    },
+    {
+      "date": "2025-05-13",
+      "source_cny": "426551900",
+      "original_cny": "426551897.8500"
+    },
+    {
+      "date": "2025-05-14",
+      "source_cny": "308911600",
+      "original_cny": "308911606.5200"
+    },
+    {
+      "date": "2025-05-15",
+      "source_cny": "344869200",
+      "original_cny": "344869239.9400"
+    },
+    {
+      "date": "2025-05-16",
+      "source_cny": "233933200",
+      "original_cny": "233933158.3600"
+    },
+    {
+      "date": "2025-05-19",
+      "source_cny": "293942300",
+      "original_cny": "293942267.6800"
+    },
+    {
+      "date": "2025-05-20",
+      "source_cny": "281880500",
+      "original_cny": "281880501.1100"
+    },
+    {
+      "date": "2025-05-21",
+      "source_cny": "240221000",
+      "original_cny": "240221038.0000"
+    },
+    {
+      "date": "2025-05-22",
+      "source_cny": "262443500",
+      "original_cny": "262443547.0000"
+    },
+    {
+      "date": "2025-05-23",
+      "source_cny": "226242200",
+      "original_cny": "226242221.1600"
+    },
+    {
+      "date": "2025-05-26",
+      "source_cny": "160729400",
+      "original_cny": "160729371.9200"
+    },
+    {
+      "date": "2025-05-27",
+      "source_cny": "592341100",
+      "original_cny": "592341084.9500"
+    },
+    {
+      "date": "2025-05-28",
+      "source_cny": "303931800",
+      "original_cny": "303931769.2100"
+    },
+    {
+      "date": "2025-05-29",
+      "source_cny": "331509300",
+      "original_cny": "331509257.6300"
+    },
+    {
+      "date": "2025-05-30",
+      "source_cny": "619993700",
+      "original_cny": "619993726.4200"
+    },
+    {
+      "date": "2025-06-03",
+      "source_cny": "508825700",
+      "original_cny": "508825733.6500"
+    },
+    {
+      "date": "2025-06-04",
+      "source_cny": "470411500",
+      "original_cny": "470411538.6000"
+    },
+    {
+      "date": "2025-06-05",
+      "source_cny": "343759100",
+      "original_cny": "343759091.8200"
+    },
+    {
+      "date": "2025-06-06",
+      "source_cny": "376668300",
+      "original_cny": "376668329.6200"
+    },
+    {
+      "date": "2025-06-09",
+      "source_cny": "311864700",
+      "original_cny": "311864688.0000"
+    },
+    {
+      "date": "2025-06-10",
+      "source_cny": "584147500",
+      "original_cny": "584147520.7300"
+    },
+    {
+      "date": "2025-06-11",
+      "source_cny": "294305100",
+      "original_cny": "294305128.2600"
+    },
+    {
+      "date": "2025-06-12",
+      "source_cny": "315711600",
+      "original_cny": "315711628.4300"
+    },
+    {
+      "date": "2025-06-13",
+      "source_cny": "400667500",
+      "original_cny": "400667499.6900"
+    },
+    {
+      "date": "2025-06-16",
+      "source_cny": "215556800",
+      "original_cny": "215556752.3400"
+    },
+    {
+      "date": "2025-06-17",
+      "source_cny": "315281600",
+      "original_cny": "315281624.1500"
+    },
+    {
+      "date": "2025-06-18",
+      "source_cny": "245683900",
+      "original_cny": "245683901.4000"
+    },
+    {
+      "date": "2025-06-19",
+      "source_cny": "306912600",
+      "original_cny": "306912572.3000"
+    },
+    {
+      "date": "2025-06-20",
+      "source_cny": "151331600",
+      "original_cny": "151331624.6600"
+    },
+    {
+      "date": "2025-06-23",
+      "source_cny": "250200700",
+      "original_cny": "250200688.6600"
+    },
+    {
+      "date": "2025-06-24",
+      "source_cny": "273807600",
+      "original_cny": "273807556.4400"
+    },
+    {
+      "date": "2025-06-25",
+      "source_cny": "477673600",
+      "original_cny": "477673593.4600"
+    },
+    {
+      "date": "2025-06-26",
+      "source_cny": "965353200",
+      "original_cny": "965353238.3900"
+    },
+    {
+      "date": "2025-06-27",
+      "source_cny": "434363900",
+      "original_cny": "434363852.7900"
+    },
+    {
+      "date": "2025-06-30",
+      "source_cny": "764304300",
+      "original_cny": "764304299.5100"
+    },
+    {
+      "date": "2025-07-01",
+      "source_cny": "525595700",
+      "original_cny": "525595668.0500"
+    },
+    {
+      "date": "2025-07-02",
+      "source_cny": "380224500",
+      "original_cny": "380224458.8400"
+    },
+    {
+      "date": "2025-07-03",
+      "source_cny": "994737800",
+      "original_cny": "994737823.0500"
+    },
+    {
+      "date": "2025-07-04",
+      "source_cny": "442109100",
+      "original_cny": "442109058.7800"
+    },
+    {
+      "date": "2025-07-07",
+      "source_cny": "231349000",
+      "original_cny": "231349011.0000"
+    },
+    {
+      "date": "2025-07-08",
+      "source_cny": "353168400",
+      "original_cny": "353168352.2400"
+    },
+    {
+      "date": "2025-07-09",
+      "source_cny": "364725400",
+      "original_cny": "364725377.0300"
+    },
+    {
+      "date": "2025-07-10",
+      "source_cny": "290068500",
+      "original_cny": "290068541.0000"
+    },
+    {
+      "date": "2025-07-11",
+      "source_cny": "446791000",
+      "original_cny": "446790980.1900"
+    },
+    {
+      "date": "2025-07-14",
+      "source_cny": "225636900",
+      "original_cny": "225636919.8500"
+    },
+    {
+      "date": "2025-07-15",
+      "source_cny": "280133400",
+      "original_cny": "280133353.0100"
+    },
+    {
+      "date": "2025-07-16",
+      "source_cny": "383576100",
+      "original_cny": "383576105.6400"
+    },
+    {
+      "date": "2025-07-17",
+      "source_cny": "366842800",
+      "original_cny": "366842829.1000"
+    },
+    {
+      "date": "2025-07-18",
+      "source_cny": "430431500",
+      "original_cny": "430431549.1700"
+    },
+    {
+      "date": "2025-07-21",
+      "source_cny": "388946200",
+      "original_cny": "388946198.0000"
+    },
+    {
+      "date": "2025-07-22",
+      "source_cny": "629087400",
+      "original_cny": "629087370.5100"
+    },
+    {
+      "date": "2025-07-23",
+      "source_cny": "529695900",
+      "original_cny": "529695864.9400"
+    },
+    {
+      "date": "2025-07-24",
+      "source_cny": "584088200",
+      "original_cny": "584088164.3300"
+    },
+    {
+      "date": "2025-07-25",
+      "source_cny": "661327800",
+      "original_cny": "661327768.6200"
+    },
+    {
+      "date": "2025-07-28",
+      "source_cny": "693619000",
+      "original_cny": "693619000.3200"
+    },
+    {
+      "date": "2025-07-29",
+      "source_cny": "584644900",
+      "original_cny": "584644932.7400"
+    },
+    {
+      "date": "2025-07-30",
+      "source_cny": "1179013000",
+      "original_cny": "1179013017.0300"
+    },
+    {
+      "date": "2025-07-31",
+      "source_cny": "682844700",
+      "original_cny": "682844710.2600"
+    },
+    {
+      "date": "2025-08-01",
+      "source_cny": "458886500",
+      "original_cny": "458886541.8200"
+    },
+    {
+      "date": "2025-08-04",
+      "source_cny": "913465400",
+      "original_cny": "913465431.9400"
+    },
+    {
+      "date": "2025-08-05",
+      "source_cny": "623664400",
+      "original_cny": "623664421.1600"
+    },
+    {
+      "date": "2025-08-06",
+      "source_cny": "1014502400",
+      "original_cny": "1014502415.3600"
+    },
+    {
+      "date": "2025-08-07",
+      "source_cny": "783490300",
+      "original_cny": "783490336.3900"
+    },
+    {
+      "date": "2025-08-08",
+      "source_cny": "1203661400",
+      "original_cny": "1203661440.3300"
+    },
+    {
+      "date": "2025-08-11",
+      "source_cny": "879672300",
+      "original_cny": "879672347.5900"
+    },
+    {
+      "date": "2025-08-12",
+      "source_cny": "825064600",
+      "original_cny": "825064624.6300"
+    },
+    {
+      "date": "2025-08-13",
+      "source_cny": "743140500",
+      "original_cny": "743140493.4800"
+    },
+    {
+      "date": "2025-08-14",
+      "source_cny": "801913100",
+      "original_cny": "801913071.5900"
+    },
+    {
+      "date": "2025-08-15",
+      "source_cny": "462381500",
+      "original_cny": "462381457.6600"
+    },
+    {
+      "date": "2025-08-18",
+      "source_cny": "737205800",
+      "original_cny": "737205757.0100"
+    },
+    {
+      "date": "2025-08-19",
+      "source_cny": "513017700",
+      "original_cny": "513017701.1400"
+    },
+    {
+      "date": "2025-08-20",
+      "source_cny": "922298300",
+      "original_cny": "922298290.8700"
+    },
+    {
+      "date": "2025-08-21",
+      "source_cny": "684154200",
+      "original_cny": "684154154.1000"
+    },
+    {
+      "date": "2025-08-22",
+      "source_cny": "1088460500",
+      "original_cny": "1088460541.3600"
+    },
+    {
+      "date": "2025-08-25",
+      "source_cny": "2640122900",
+      "original_cny": "2640122939.3800"
+    },
+    {
+      "date": "2025-08-26",
+      "source_cny": "4239702200",
+      "original_cny": "4239702246.9000"
+    },
+    {
+      "date": "2025-08-27",
+      "source_cny": "5474866600",
+      "original_cny": "5474866594.8700"
+    },
+    {
+      "date": "2025-08-28",
+      "source_cny": "5922026900",
+      "original_cny": "5922026857.4700"
+    },
+    {
+      "date": "2025-08-29",
+      "source_cny": "5427244700",
+      "original_cny": "5427244708.8900"
+    },
+    {
+      "date": "2025-09-01",
+      "source_cny": "3867472500",
+      "original_cny": "3867472531.1700"
+    },
+    {
+      "date": "2025-09-02",
+      "source_cny": "2694891700",
+      "original_cny": "2694891741.3600"
+    },
+    {
+      "date": "2025-09-03",
+      "source_cny": "2149080800",
+      "original_cny": "2149080767.9200"
+    },
+    {
+      "date": "2025-09-04",
+      "source_cny": "1596536100",
+      "original_cny": "1596536049.5100"
+    },
+    {
+      "date": "2025-09-05",
+      "source_cny": "1387472400",
+      "original_cny": "1387472411.1600"
+    },
+    {
+      "date": "2025-09-08",
+      "source_cny": "3173922600",
+      "original_cny": "3173922577.0000"
+    },
+    {
+      "date": "2025-09-09",
+      "source_cny": "4347641500",
+      "original_cny": "4347641470.3000"
+    },
+    {
+      "date": "2025-09-10",
+      "source_cny": "3587260700",
+      "original_cny": "3587260742.9700"
+    },
+    {
+      "date": "2025-09-11",
+      "source_cny": "3066322700",
+      "original_cny": "3066322742.6300"
+    },
+    {
+      "date": "2025-09-12",
+      "source_cny": "3044864900",
+      "original_cny": "3044864916.2300"
+    },
+    {
+      "date": "2025-09-15",
+      "source_cny": "2404079100",
+      "original_cny": "2404079078.3000"
+    },
+    {
+      "date": "2025-09-16",
+      "source_cny": "1799763200",
+      "original_cny": "1799763196.0000"
+    },
+    {
+      "date": "2025-09-17",
+      "source_cny": "1181080300",
+      "original_cny": "1181080315.0000"
+    },
+    {
+      "date": "2025-09-18",
+      "source_cny": "1938184500",
+      "original_cny": "1938184450.7500"
+    },
+    {
+      "date": "2025-09-19",
+      "source_cny": "1277355700",
+      "original_cny": "1277355721.9900"
+    },
+    {
+      "date": "2025-09-22",
+      "source_cny": "828462700",
+      "original_cny": "828462747.3500"
+    },
+    {
+      "date": "2025-09-23",
+      "source_cny": "1040072800",
+      "original_cny": "1040072819.2400"
+    },
+    {
+      "date": "2025-09-24",
+      "source_cny": "706891800",
+      "original_cny": "706891801.6400"
+    },
+    {
+      "date": "2025-09-25",
+      "source_cny": "1044283200",
+      "original_cny": "1044283150.2700"
+    },
+    {
+      "date": "2025-09-26",
+      "source_cny": "765953800",
+      "original_cny": "765953769.5200"
+    },
+    {
+      "date": "2025-09-29",
+      "source_cny": "1291663800",
+      "original_cny": "1291663756.2000"
+    },
+    {
+      "date": "2025-09-30",
+      "source_cny": "2062500400",
+      "original_cny": "2062500399.2900"
+    },
+    {
+      "date": "2025-10-09",
+      "source_cny": "1798831100",
+      "original_cny": "1798831110.7400"
+    },
+    {
+      "date": "2025-10-10",
+      "source_cny": "1054686000",
+      "original_cny": "1054686032.4700"
+    },
+    {
+      "date": "2025-10-13",
+      "source_cny": "2092033100",
+      "original_cny": "2092033135.1700"
+    },
+    {
+      "date": "2025-10-14",
+      "source_cny": "2007223400",
+      "original_cny": "2007223411.2300"
+    },
+    {
+      "date": "2025-10-15",
+      "source_cny": "2356917200",
+      "original_cny": "2356917202.8300"
+    },
+    {
+      "date": "2025-10-16",
+      "source_cny": "1570297900",
+      "original_cny": "1570297856.1300"
+    },
+    {
+      "date": "2025-10-17",
+      "source_cny": "1679846900",
+      "original_cny": "1679846921.5600"
+    },
+    {
+      "date": "2025-10-20",
+      "source_cny": "2272540500",
+      "original_cny": "2272540460.3700"
+    },
+    {
+      "date": "2025-10-21",
+      "source_cny": "2227820600",
+      "original_cny": "2227820590.9800"
+    },
+    {
+      "date": "2025-10-22",
+      "source_cny": "2024527300",
+      "original_cny": "2024527295.6900"
+    },
+    {
+      "date": "2025-10-23",
+      "source_cny": "1057113700",
+      "original_cny": "1057113708.1500"
+    },
+    {
+      "date": "2025-10-24",
+      "source_cny": "2105746800",
+      "original_cny": "2105746790.1700"
+    },
+    {
+      "date": "2025-10-27",
+      "source_cny": "5035383400",
+      "original_cny": "5035383419.1800"
+    },
+    {
+      "date": "2025-10-28",
+      "source_cny": "3112283500",
+      "original_cny": "3112283480.1000"
+    },
+    {
+      "date": "2025-10-29",
+      "source_cny": "3933532900",
+      "original_cny": "3933532925.1700"
+    },
+    {
+      "date": "2025-10-30",
+      "source_cny": "4876310500",
+      "original_cny": "4876310454.8700"
+    },
+    {
+      "date": "2025-10-31",
+      "source_cny": "3726357100",
+      "original_cny": "3726357136.0400"
+    },
+    {
+      "date": "2025-11-03",
+      "source_cny": "3698494900",
+      "original_cny": "3698494893.3500"
+    },
+    {
+      "date": "2025-11-04",
+      "source_cny": "2777215900",
+      "original_cny": "2777215911.1700"
+    },
+    {
+      "date": "2025-11-05",
+      "source_cny": "1977234100",
+      "original_cny": "1977234083.9200"
+    },
+    {
+      "date": "2025-11-06",
+      "source_cny": "1797003900",
+      "original_cny": "1797003928.6100"
+    },
+    {
+      "date": "2025-11-07",
+      "source_cny": "3065063300",
+      "original_cny": "3065063259.0600"
+    },
+    {
+      "date": "2025-11-10",
+      "source_cny": "3742981800",
+      "original_cny": "3742981787.4500"
+    },
+    {
+      "date": "2025-11-11",
+      "source_cny": "3232093600",
+      "original_cny": "3232093627.1600"
+    },
+    {
+      "date": "2025-11-12",
+      "source_cny": "2994036000",
+      "original_cny": "2994035972.2700"
+    },
+    {
+      "date": "2025-11-13",
+      "source_cny": "3022194800",
+      "original_cny": "3022194840.1500"
+    },
+    {
+      "date": "2025-11-14",
+      "source_cny": "1711961200",
+      "original_cny": "1711961196.3700"
+    },
+    {
+      "date": "2025-11-17",
+      "source_cny": "1445762500",
+      "original_cny": "1445762487.9100"
+    },
+    {
+      "date": "2025-11-18",
+      "source_cny": "1684554500",
+      "original_cny": "1684554499.4800"
+    },
+    {
+      "date": "2025-11-19",
+      "source_cny": "991961400",
+      "original_cny": "991961432.5900"
+    },
+    {
+      "date": "2025-11-20",
+      "source_cny": "1116604900",
+      "original_cny": "1116604886.1900"
+    },
+    {
+      "date": "2025-11-21",
+      "source_cny": "1268236200",
+      "original_cny": "1268236164.1000"
+    },
+    {
+      "date": "2025-11-24",
+      "source_cny": "2204819700",
+      "original_cny": "2204819662.4200"
+    },
+    {
+      "date": "2025-11-25",
+      "source_cny": "2611110000",
+      "original_cny": "2611110004.6100"
+    },
+    {
+      "date": "2025-11-26",
+      "source_cny": "1647865000",
+      "original_cny": "1647864953.9300"
+    },
+    {
+      "date": "2025-11-27",
+      "source_cny": "1490833100",
+      "original_cny": "1490833071.5900"
+    },
+    {
+      "date": "2025-11-28",
+      "source_cny": "2402865600",
+      "original_cny": "2402865560.7800"
+    },
+    {
+      "date": "2025-12-01",
+      "source_cny": "2405219100",
+      "original_cny": "2405219145.3100"
+    },
+    {
+      "date": "2025-12-02",
+      "source_cny": "1366780600",
+      "original_cny": "1366780595.5900"
+    },
+    {
+      "date": "2025-12-03",
+      "source_cny": "2518546100",
+      "original_cny": "2518546070.4300"
+    },
+    {
+      "date": "2025-12-04",
+      "source_cny": "4409017100",
+      "original_cny": "4409017067.0700"
+    },
+    {
+      "date": "2025-12-05",
+      "source_cny": "5802351700",
+      "original_cny": "5802351709.9300"
+    },
+    {
+      "date": "2025-12-08",
+      "source_cny": "6983762100",
+      "original_cny": "6983762137.9400"
+    },
+    {
+      "date": "2025-12-09",
+      "source_cny": "4697569000",
+      "original_cny": "4697569035.4300"
+    },
+    {
+      "date": "2025-12-10",
+      "source_cny": "4611426400",
+      "original_cny": "4611426417.9600"
+    },
+    {
+      "date": "2025-12-11",
+      "source_cny": "5525787400",
+      "original_cny": "5525787360.6700"
+    },
+    {
+      "date": "2025-12-12",
+      "source_cny": "5448532000",
+      "original_cny": "5448531954.9900"
+    },
+    {
+      "date": "2025-12-15",
+      "source_cny": "6053840100",
+      "original_cny": "6053840098.8500"
+    },
+    {
+      "date": "2025-12-16",
+      "source_cny": "6368278900",
+      "original_cny": "6368278932.5000"
+    },
+    {
+      "date": "2025-12-17",
+      "source_cny": "3879790500",
+      "original_cny": "3879790482.0900"
+    },
+    {
+      "date": "2025-12-18",
+      "source_cny": "8303816900",
+      "original_cny": "8303816923.0000"
+    },
+    {
+      "date": "2025-12-19",
+      "source_cny": "8146760200",
+      "original_cny": "8146760209.1000"
+    },
+    {
+      "date": "2025-12-22",
+      "source_cny": "8871400300",
+      "original_cny": "8871400337.7600"
+    },
+    {
+      "date": "2025-12-23",
+      "source_cny": "12571360300",
+      "original_cny": "12571360334.2400"
+    },
+    {
+      "date": "2025-12-24",
+      "source_cny": "9792549100",
+      "original_cny": "9792549107.7100"
+    },
+    {
+      "date": "2025-12-25",
+      "source_cny": "10241486400",
+      "original_cny": "10241486371.8400"
+    },
+    {
+      "date": "2025-12-26",
+      "source_cny": "12856866600",
+      "original_cny": "12856866646.6200"
+    },
+    {
+      "date": "2025-12-29",
+      "source_cny": "13355947500",
+      "original_cny": "13355947463.5000"
+    },
+    {
+      "date": "2025-12-30",
+      "source_cny": "19870767600",
+      "original_cny": "19870767630.1200"
+    },
+    {
+      "date": "2025-12-31",
+      "source_cny": "13579108200",
+      "original_cny": "13579108243.0200"
+    }
+  ],
+  "price_volume_gate_passed": false,
+  "all_components_exactly_corroborated": false,
+  "account_admitted": false
+}
