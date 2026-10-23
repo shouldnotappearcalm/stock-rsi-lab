@@ -1,0 +1,20 @@
+{
+  "raw_rows": 486,
+  "trading_rows": 486,
+  "matched_price_cells": 1943,
+  "failures": [
+    {
+      "date": "2024-09-26",
+      "field": "open",
+      "original": "2.3800",
+      "reconstruction": {
+        "status": "NO_CENT_PRICE",
+        "lower": "6333670394596345075/2661205991944617984",
+        "upper": "19001013382846853417/7983617426078040064",
+        "first_cent": 239,
+        "last_cent": 238,
+        "value": null
+      }
+    }
+  ]
+}

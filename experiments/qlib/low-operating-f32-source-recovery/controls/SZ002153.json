@@ -1,0 +1,33 @@
+{
+  "raw_rows": 486,
+  "trading_rows": 483,
+  "matched_price_cells": 1930,
+  "failures": [
+    {
+      "date": "2024-09-26",
+      "field": "high",
+      "original": "6.2600",
+      "reconstruction": {
+        "status": "NO_CENT_PRICE",
+        "lower": "750056662941733125/119817355491540992",
+        "upper": "30752325379690251829/4912511025397366784",
+        "first_cent": 627,
+        "last_cent": 626,
+        "value": null
+      }
+    },
+    {
+      "date": "2024-09-26",
+      "field": "close",
+      "original": "6.2600",
+      "reconstruction": {
+        "status": "NO_CENT_PRICE",
+        "lower": "750056662941733125/119817355491540992",
+        "upper": "30752325379690251829/4912511025397366784",
+        "first_cent": 627,
+        "last_cent": 626,
+        "value": null
+      }
+    }
+  ]
+}

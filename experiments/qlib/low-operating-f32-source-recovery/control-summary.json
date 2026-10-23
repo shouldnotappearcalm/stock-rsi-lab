@@ -1,0 +1,366 @@
+{
+  "control_codes": 42,
+  "raw_rows_counted": 20089,
+  "trading_rows_checked": 20031,
+  "nontrading_rows_excluded": 58,
+  "price_cells_checked": 80124,
+  "unique_cent_price_cells": 80117,
+  "matched_price_cells": 80117,
+  "price_gate_passed": false,
+  "volume_rows_checked": 20031,
+  "volume_scale_mismatch_rows": {
+    "1": 20031,
+    "100": 38
+  },
+  "volume_scale_candidates": [],
+  "identified_volume_scale": null,
+  "by_code": {
+    "SH600004": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600118": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1942,
+      "failures": [
+        {
+          "date": "2024-09-26",
+          "field": "high",
+          "original": "22.2900",
+          "reconstruction": {
+            "status": "NO_CENT_PRICE",
+            "lower": "958301745244042749/42992450834268160",
+            "upper": "7985848610055967599/358270400712409088",
+            "first_cent": 2230,
+            "last_cent": 2229,
+            "value": null
+          }
+        },
+        {
+          "date": "2024-09-26",
+          "field": "close",
+          "original": "22.2900",
+          "reconstruction": {
+            "status": "NO_CENT_PRICE",
+            "lower": "958301745244042749/42992450834268160",
+            "upper": "7985848610055967599/358270400712409088",
+            "first_cent": 2230,
+            "last_cent": 2229,
+            "value": null
+          }
+        }
+      ]
+    },
+    "SH600126": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600258": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600316": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600415": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600418": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600482": {
+      "raw_rows": 486,
+      "trading_rows": 476,
+      "matched_price_cells": 1904,
+      "failures": []
+    },
+    "SH600516": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600642": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600655": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600707": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600739": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600959": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH600977": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH601106": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH601118": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH601158": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1942,
+      "failures": [
+        {
+          "date": "2024-09-26",
+          "field": "high",
+          "original": "4.5700",
+          "reconstruction": {
+            "status": "NO_CENT_PRICE",
+            "lower": "8313739103614487125/1819198887882129408",
+            "upper": "24941219509912084739/5457596113890574336",
+            "first_cent": 458,
+            "last_cent": 457,
+            "value": null
+          }
+        },
+        {
+          "date": "2024-09-26",
+          "field": "close",
+          "original": "4.5700",
+          "reconstruction": {
+            "status": "NO_CENT_PRICE",
+            "lower": "8313739103614487125/1819198887882129408",
+            "upper": "24941219509912084739/5457596113890574336",
+            "first_cent": 458,
+            "last_cent": 457,
+            "value": null
+          }
+        }
+      ]
+    },
+    "SH601233": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH601828": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH601866": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH601880": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH601933": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH601992": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH603026": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH603077": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH603185": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH603225": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SH605358": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SZ000050": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SZ000401": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SZ000519": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SZ000623": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SZ000825": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SZ000998": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SZ002092": {
+      "raw_rows": 486,
+      "trading_rows": 484,
+      "matched_price_cells": 1936,
+      "failures": []
+    },
+    "SZ002153": {
+      "raw_rows": 486,
+      "trading_rows": 483,
+      "matched_price_cells": 1930,
+      "failures": [
+        {
+          "date": "2024-09-26",
+          "field": "high",
+          "original": "6.2600",
+          "reconstruction": {
+            "status": "NO_CENT_PRICE",
+            "lower": "750056662941733125/119817355491540992",
+            "upper": "30752325379690251829/4912511025397366784",
+            "first_cent": 627,
+            "last_cent": 626,
+            "value": null
+          }
+        },
+        {
+          "date": "2024-09-26",
+          "field": "close",
+          "original": "6.2600",
+          "reconstruction": {
+            "status": "NO_CENT_PRICE",
+            "lower": "750056662941733125/119817355491540992",
+            "upper": "30752325379690251829/4912511025397366784",
+            "first_cent": 627,
+            "last_cent": 626,
+            "value": null
+          }
+        }
+      ]
+    },
+    "SZ002195": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1943,
+      "failures": [
+        {
+          "date": "2024-09-26",
+          "field": "open",
+          "original": "2.3800",
+          "reconstruction": {
+            "status": "NO_CENT_PRICE",
+            "lower": "6333670394596345075/2661205991944617984",
+            "upper": "19001013382846853417/7983617426078040064",
+            "first_cent": 239,
+            "last_cent": 238,
+            "value": null
+          }
+        }
+      ]
+    },
+    "SZ002373": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SZ002407": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    },
+    "SZ002505": {
+      "raw_rows": 163,
+      "trading_rows": 120,
+      "matched_price_cells": 480,
+      "failures": []
+    },
+    "SZ002506": {
+      "raw_rows": 486,
+      "trading_rows": 486,
+      "matched_price_cells": 1944,
+      "failures": []
+    }
+  }
+}
