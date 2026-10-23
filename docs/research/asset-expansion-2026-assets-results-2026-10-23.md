@@ -1,5 +1,9 @@
 # 400 annual sources inspected; 2026 portfolio result remains pending
 
+Subsequent stage: [all 68 monthly full-cohort visibility queries and their
+separate reconstruction](asset-expansion-2026-availability-results-2026-10-23.md)
+are complete. The extraction evidence below retains its original scope.
+
 The unchanged total-assets parser completed all 400 original annual-report
 candidates once. It produced 290 supported reports and 472 source cells,
 including 182 reports with explicit same-edition current/prior December 31
