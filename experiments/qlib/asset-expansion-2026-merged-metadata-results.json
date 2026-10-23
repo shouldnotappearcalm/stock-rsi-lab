@@ -1,0 +1,45 @@
+{
+  "status": "ALL394_2026_METADATA_MERGED_AFTER_SEPARATE_CURL_STAGE_NOT_FINANCIAL_ADMISSION",
+  "request_sha256": "bc42b2603e63ca4f746404e34dc10213622d152ff06c170618ad53d268ab4fc3",
+  "parent_request_sha256": "7c02a4bb656458615f4cc8355d08530cd4ff67e1fe710dc37c025969c8acffc6",
+  "window": [
+    "2026-01-01",
+    "2026-10-21"
+  ],
+  "resource_count": 394,
+  "reused_successful_cases": 14,
+  "new_logical_attempts": 380,
+  "global_logical_attempts_including_parent": 397,
+  "original_three_TLS_failures_retained": true,
+  "status_counts": {
+    "METADATA_CAPTURED_WITH_CANDIDATES": 390,
+    "METADATA_SOURCE_REJECTED": 1,
+    "METADATA_CAPTURED_NO_FULL_CANDIDATE": 3
+  },
+  "full_report_candidates": 398,
+  "candidate_fiscal_year_counts": {
+    "2025": 397,
+    "2024": 1
+  },
+  "multiple_candidate_issuers": [
+    "SH600038",
+    "SH600177",
+    "SH600839",
+    "SH600871",
+    "SH601992",
+    "SH603218",
+    "SZ002195"
+  ],
+  "no_candidate_issuers": [
+    "SH600704",
+    "SH603056",
+    "SZ002505"
+  ],
+  "all_original_inputs_unchanged": true,
+  "PDFs_downloaded": 0,
+  "financial_numeric_values_decoded": false,
+  "financial_version_history_complete": false,
+  "historical_arrival_verified": false,
+  "2026_portfolio_returns_computed": false,
+  "objective_achieved": false
+}

@@ -1,0 +1,44 @@
+{
+  "status": "FROZEN_ONE_FINAL_TLS_RETRY_AND_CODED_TITLE_METADATA_COMPLETION",
+  "maximum_new_logical_attempts": 1,
+  "maximum_global_logical_attempts": 398,
+  "global_attempts_for_SH600118": 3,
+  "method_sha256": {
+    "scripts/complete_asset_expansion_2026_metadata.py": "4416d41e9ddbab7931215e64c5fb514ba245ce1a19d01b68903f1e9bc74b03e5",
+    "scripts/frozen_curl_http.py": "35dd5a853dd32b669fb06f1909f0d4dff948983daa05919c7dc8d01fc2250759",
+    "scripts/immutable_http_capture.py": "730ca7fdd87e7e8f2f69d65f43a772f0ba22e3a94697db20a46d41df7b149553",
+    "scripts/capture_asset_expansion_2026_annual_metadata.py": "054413c40a72892ada3f0d8fdbb088f6494fc2678c26cb76191a0ae4e3f1c3a6",
+    "tests/test_asset_expansion_2026_metadata_completion.py": "2194997ec10f071dc054e02ebb03c2feaf5d84196306a20fd30c42892a592351"
+  },
+  "public_sha256": {
+    "experiments/qlib/asset-expansion-2026-metadata-request.json": "7c02a4bb656458615f4cc8355d08530cd4ff67e1fe710dc37c025969c8acffc6",
+    "experiments/qlib/asset-expansion-2026-metadata-curl-request.json": "bc42b2603e63ca4f746404e34dc10213622d152ff06c170618ad53d268ab4fc3",
+    "experiments/qlib/asset-expansion-2026-merged-metadata-results.json": "cffae0f884be37a1cc506ffeb532f940e8202c095c0e3981cfc6e707078a6773",
+    "experiments/qlib/asset-expansion-2026-merged-metadata-audit.json": "ea67bfc40efc13ba6689cb16a4464c19a9e85d9103fc400ab6f32fcfe0fe1fb3",
+    "experiments/qlib/audit_sources/2026-10-22-asset-expansion-2026-merged-metadata-audit.py": "ac7440287c80f21b91d7cceb9b4da7d3dec0d7a363bb2dc4edd611ab3104ddc0",
+    "docs/research/asset-expansion-2026-metadata-completion-2026-10-23.md": "b4ca71e522973b07ce2eaeeb4c87ee2d6bf49418f5c6260d90f6b75637b926f8"
+  },
+  "parent_all_output_sha256_digest": "05ad954f5c0180c499f37be14d8e6a3c77c39ee32e75cc6b998fc64f103e2476",
+  "resources": {
+    "SH600118": {
+      "method": "POST",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "payload": {
+        "pageNum": "1",
+        "pageSize": "30",
+        "column": "szse",
+        "tabName": "fulltext",
+        "plate": "",
+        "stock": "600118,gssh0600118",
+        "searchkey": "",
+        "secid": "",
+        "category": "category_ndbg_szsh",
+        "trade": "",
+        "seDate": "2026-01-01~2026-10-21",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      }
+    }
+  }
+}
