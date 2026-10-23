@@ -151,6 +151,7 @@ def audit_intents(targets,intents,days,holdings,orders,quotes):
     for order in orders:
         key=(order['session'],order['instrument'],order['side']);need(key in planned and key not in represented,'indicator order belongs to unique frozen intention');represented.add(key)
         near(float(order['requested_normalized_units']),planned[key]*(1 if key[2]=='BUY' else -1),'submitted amount equals intended prior-close amount')
+    need(represented==set(planned),'every planned order requires an explicit submitted or zero-fill indicator row')
     return {'intents_checked':len(intents),'intended_orders_checked':len(planned),'indicator_orders_linked':len(represented),
             'intentions_without_indicator_row':len(set(planned)-represented)}
 

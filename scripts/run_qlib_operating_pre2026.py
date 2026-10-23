@@ -124,12 +124,16 @@ def run(base,root,membership,request,expected_sha,*,form_targets=form_targets,si
         write_once(out/'.summary-pending.json',summary)
     except BaseException as exc:primary=exc
     finally:
+        try:write_once(out/'case_results.json',results)
+        except BaseException as exc:
+            persistence.append('case_results.json:'+type(exc).__name__)
+            if primary is None:primary=exc
         for k,p in paths.items():
             try:
                 if sha(p)!=expected[k]:mismatches.append({'input':k,'reason':'SHA256_CHANGED'})
             except BaseException as exc:mismatches.append({'input':k,'reason':type(exc).__name__})
         post={'all_inputs_unchanged':not mismatches,'count':len(paths),'mismatches':mismatches}
-        for filename,value in (('case_results.json',results),('input-postcheck.json',post)):
+        for filename,value in (('input-postcheck.json',post),):
             try:write_once(out/filename,value)
             except BaseException as exc:
                 persistence.append(filename+':'+type(exc).__name__)
@@ -150,6 +154,26 @@ def run(base,root,membership,request,expected_sha,*,form_targets=form_targets,si
             terminal.update(completed=False,original_error={'type':type(primary).__name__,'message':str(primary)})
             try:write_once(out/'.terminal-failure.json',terminal);os.replace(out/'.terminal-failure.json',out/'terminal.json')
             except BaseException as failure:persistence.append('terminal-failure:'+type(failure).__name__)
+        # Validate again after all output/terminal persistence, including its failures.
+        final_mismatches=[]
+        for k,p in paths.items():
+            try:
+                if sha(p)!=expected[k]:final_mismatches.append({'input':k,'reason':'SHA256_CHANGED'})
+            except BaseException as exc:final_mismatches.append({'input':k,'reason':type(exc).__name__})
+        final_post={'all_inputs_unchanged':not final_mismatches,'count':len(paths),'mismatches':final_mismatches}
+        if final_post!=post:
+            post=final_post;mismatches=final_mismatches
+            if primary is None:primary=ValueError('operating inputs changed during final persistence')
+            terminal.update(completed=False,postcheck=post,original_error={'type':type(primary).__name__,'message':str(primary)})
+            if (out/'summary.json').exists():
+                try:os.replace(out/'summary.json',out/'uncommitted-summary.json')
+                except BaseException as failure:persistence.append('late-summary-demotion:'+type(failure).__name__)
+            for filename,value in (('input-postcheck-after-persistence.json',post),('.terminal-input-failure.json',terminal)):
+                try:write_once(out/filename,value)
+                except BaseException as failure:persistence.append(filename+':'+type(failure).__name__)
+            if (out/'.terminal-input-failure.json').exists():
+                try:os.replace(out/'.terminal-input-failure.json',out/'terminal.json')
+                except BaseException as failure:persistence.append('late-terminal:'+type(failure).__name__)
     if primary is not None:
         if persistence:primary.add_note('operating persistence failures: '+str(persistence))
         raise primary

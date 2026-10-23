@@ -83,3 +83,21 @@ class OperatingDevelopmentTests(unittest.TestCase):
         for k,v in [('candidate_budget',2),('minimum_eligible',99),('target_exposure',.5),('2026_financial_or_market_values_permitted',True),('candidate','eligible_equal_weight')]:
             d=protocol();d[k]=v
             with self.subTest(key=k),self.assertRaises(ValueError):run.validate_request(d)
+
+    def test_final_artifact_input_mutation_prevents_completed_summary(self):
+        writer=run.write_once
+        def write(path,value):
+            if path.name=='case_results.json':self.paths['source/input'].write_text('changed during final persistence')
+            writer(path,value)
+        with patch.object(run,'write_once',side_effect=write),self.assertRaises(ValueError):self.execute()
+        out=self.base/run.OUTPUT;t=run.read(out/'terminal.json')
+        self.assertFalse(t['completed']);self.assertFalse(t['postcheck']['all_inputs_unchanged']);self.assertFalse((out/'summary.json').exists())
+
+    def test_terminal_persistence_failure_refreshes_inputs_and_preserves_original(self):
+        writer=run.write_once;original=OSError('terminal write failed')
+        def write(path,value):
+            if path.name=='.terminal-pending.json':self.request.write_text('{}');raise original
+            writer(path,value)
+        with patch.object(run,'write_once',side_effect=write),self.assertRaises(OSError) as got:self.execute()
+        self.assertIs(got.exception,original);out=self.base/run.OUTPUT;t=run.read(out/'terminal.json')
+        self.assertFalse(t['postcheck']['all_inputs_unchanged']);self.assertFalse(t['completed']);self.assertEqual(t['original_error']['type'],'OSError');self.assertFalse((out/'summary.json').exists())

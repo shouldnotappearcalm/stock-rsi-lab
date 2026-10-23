@@ -1,0 +1,46 @@
+{
+  "status": "ONE_FRESH_REVIEW_TWO_IMPORTANT_FINDINGS_RESOLVED_BEFORE_ACTUAL_RATIOS_AND_RETURNS",
+  "review_base": "df294430338be7b866c4eed59ab5fd55731e0d91",
+  "review_head": "e6b93244340442b7435978cedfa8570428a02a84",
+  "reviewer": "fresh read-only independent agent; gpt-6-astra",
+  "critical_count": 0,
+  "important_count": 2,
+  "minor_count": 0,
+  "rereview_performed": false,
+  "findings": [
+    {
+      "issue": "Missing planned orders were counted but not rejected by intent audit",
+      "resolution": "Require exact planned/submitted indicator coverage. Explicit zero-fill rows are permitted; unexplained engine omissions reject this version rather than silently passing.",
+      "red_green_tests": [
+        "test_dropped_otherwise_tradable_buy_or_sell_cannot_pass_submission_link"
+      ],
+      "zero_fill_regression": "test_explicit_zero_fill_row_accounts_for_an_unfilled_planned_order"
+    },
+    {
+      "issue": "Final output persistence could change source/request after the sole postcheck",
+      "resolution": "Persist case aggregate before commit validation; refresh all inputs after final persistence and its failures, demote summary and emit failed terminal plus retained new postcheck on detected changes, preserve original failure.",
+      "red_green_tests": [
+        "test_final_artifact_input_mutation_prevents_completed_summary",
+        "test_terminal_persistence_failure_refreshes_inputs_and_preserves_original"
+      ]
+    }
+  ],
+  "validation": {
+    "reviewer_targeted_tests": 20,
+    "implementer_final_targeted_tests": 24,
+    "implementer_full_tests": 1413,
+    "implementer_full_seconds": 21.504,
+    "all_green": true
+  },
+  "declined_claims": [
+    "Actual ratios/ranks/24formations/sixaccounts/investment returns pending and excluded from reviewer reads",
+    "Prospective request/review freeze, remote publication and exact-head CI pending root verification",
+    "Raw-share execution, actual historical arrival and2026 qualification outside normalized development evidence",
+    "Reviewer reran20 targeted tests; full suite was rerun by implementer",
+    "One whole-change review only; post-fix correctness verified by root RED-to-GREEN/full suite, no rereview"
+  ],
+  "execution_ruling": "Review precedes actual ratio/request freeze; frozen separate realized source/intent/account checker and exact remote CI are subsequent root-owned prerequisites.",
+  "investment_factor_admitted": false,
+  "2026_financial_or_market_values_read": false,
+  "objective_achieved": false
+}

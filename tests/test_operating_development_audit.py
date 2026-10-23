@@ -53,3 +53,23 @@ class OperatingDevelopmentAuditTests(unittest.TestCase):
             elif mode=='future':i['latest_decision_price_read']='2024-01-02'
             else:f[4][0]['requested_normalized_units']='949900'
             with self.subTest(mode=mode),self.assertRaises(ValueError):audit.audit_intents(*f)
+
+    def test_dropped_otherwise_tradable_buy_or_sell_cannot_pass_submission_link(self):
+        f=self.intents_fixture();f[4].clear()
+        with self.subTest(side='BUY'),self.assertRaises(ValueError):audit.audit_intents(*f)
+        f=self.intents_fixture();target=f[0].pop('2024-01-02');target['as_of']='2024-01-31';f[0]['2024-02-01']=target
+        i=f[1][0];i.update(execution_session='2024-02-01',as_of_close_convention='2024-01-31T15:05:00+08:00',latest_decision_price_read='2024-01-31',holdings_at_decision={'SH600002':100.})
+        i['orders'][0]['as_of']='2024-01-31';i['orders'].insert(0,{'instrument':'SH600002','side':'SELL','normalized_units':100.,'known_normalized_close':None,'known_factor':None,'as_of':'2024-01-31','quantity_basis':'KNOWN_INVENTORY_FULL_EXIT'})
+        f[2].append({'session':'2024-01-31','account_value':'1000000'})
+        f[3].append({'session':'2024-01-31','instrument':'SH600002','normalized_units':'100'})
+        f[4][0]['session']='2024-02-01'
+        class Quotes:
+            def value(self,code,field,day,*,as_of):
+                if day!=as_of or day!='2024-01-31':raise AssertionError('future decision quote')
+                return 1.
+        f=(*f[:5],Quotes())
+        with self.subTest(side='SELL'),self.assertRaises(ValueError):audit.audit_intents(*f)
+
+    def test_explicit_zero_fill_row_accounts_for_an_unfilled_planned_order(self):
+        f=self.intents_fixture();f[4][0].update(filled_normalized_units='0',fill_status='UNFILLED',cost='0')
+        self.assertEqual(audit.audit_intents(*f)['intentions_without_indicator_row'],0)
