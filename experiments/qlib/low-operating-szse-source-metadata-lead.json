@@ -1,0 +1,111 @@
+{
+  "status": "PRIMARY_SZSE_STATIC_IMPLEMENTATION_METADATA_LEAD_NOT_DATA_ADMISSION",
+  "sources": [
+    {
+      "url": "https://www.szse.cn/market/trend/index.html",
+      "file": "body.bin",
+      "http_status": 200,
+      "sha256": "d12209740871e566a9f4f34c0214d225098313d8f3a96b5c15c18a52ad3edb0c",
+      "bytes": 31539
+    },
+    {
+      "url": "https://res.szse.cn/modules/marketdata/trend/js/trend.js",
+      "file": "trend.js",
+      "http_status": 404,
+      "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+      "bytes": 146
+    },
+    {
+      "url": "https://res.szse.cn/common/js/concatversion.js",
+      "file": "concatversion.js",
+      "http_status": 200,
+      "sha256": "c50cd25200a62e43d49137bcf0728134cb465d535fd424329eb4417574dd5eee",
+      "bytes": 23797
+    },
+    {
+      "url": "https://www.szse.cn/szsePath.js",
+      "file": "szsePath.js",
+      "http_status": 200,
+      "sha256": "83fd11aea1932b7e705760071eb04d978495bca96a7c573014f4b5fb181d5882",
+      "bytes": 5267
+    },
+    {
+      "url": "https://res.static.szse.cn/modules/marketdata/trend/js/trend.min.js?version=1.2.222",
+      "file": "trend.min.js",
+      "http_status": 200,
+      "sha256": "d2f26350ab8bef9940ddd915f0aa801ab35bfd5152b58227b38641c35614f2e4",
+      "bytes": 20287
+    },
+    {
+      "url": "https://res.static.szse.cn/modules/report/js/report_new.min.js?version=1.2.222",
+      "file": "report_new.min.js",
+      "http_status": 200,
+      "sha256": "e5466cb1981aee69592030da07ba279d0e3c05ebc273014670a30fce3e4381d9",
+      "bytes": 47948
+    },
+    {
+      "url": "https://www.szse.cn/market/stock/situation/daily/index.html",
+      "file": "daily.bin",
+      "http_status": 200,
+      "sha256": "928f89af3d5b401af596d4fb61de863daf63044c90fb94e17cdeca79a07583bd",
+      "bytes": 27664
+    },
+    {
+      "url": "https://www.szse.cn/market/stock/deal/index.html",
+      "file": "deal.bin",
+      "http_status": 200,
+      "sha256": "929feecf9f0da35cef70320f1fb8910719e74b0580bbe53fb2fbd8df8ef71d66",
+      "bytes": 27415
+    }
+  ],
+  "local_artifact_sha256": {
+    "low-operating-szse-metadata-discovery-v1-20261023/daily.bin": "928f89af3d5b401af596d4fb61de863daf63044c90fb94e17cdeca79a07583bd",
+    "low-operating-szse-metadata-discovery-v1-20261023/request.json": "9ef32f9f095fde23ef8779c762bfd626e9fdc3dfc107b5964cee938cb72c9cea",
+    "low-operating-szse-metadata-discovery-v1-20261023/concatversion.js": "c50cd25200a62e43d49137bcf0728134cb465d535fd424329eb4417574dd5eee",
+    "low-operating-szse-metadata-discovery-v1-20261023/body.bin": "d12209740871e566a9f4f34c0214d225098313d8f3a96b5c15c18a52ad3edb0c",
+    "low-operating-szse-metadata-discovery-v1-20261023/trend.js": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+    "low-operating-szse-metadata-discovery-v1-20261023/deal.bin": "929feecf9f0da35cef70320f1fb8910719e74b0580bbe53fb2fbd8df8ef71d66",
+    "low-operating-szse-metadata-discovery-v1-20261023/trend-metadata.json": "ed5057148a641a39578784c6aa6908aafa8d6b002b8e1a2421f3cae35c9a9bb8",
+    "low-operating-szse-metadata-discovery-v1-20261023/metadata.json": "12d4dc616bbd2ae0945834d9d1eb2413e98819df325adeecc9da8b20a8aef9a0",
+    "low-operating-szse-metadata-discovery-v1-20261023/szsePath.js": "83fd11aea1932b7e705760071eb04d978495bca96a7c573014f4b5fb181d5882",
+    "low-operating-szse-metadata-discovery-v1-20261023/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "low-operating-szse-metadata-discovery-v1-20261023/headers.raw": "bcd66fadc6f8b38f46ffbf8d9b388efdfd351f24c0d5dbbbd2189c830c6bc2f4",
+    "low-operating-szse-metadata-discovery-v1-20261023/trend.min.js": "d2f26350ab8bef9940ddd915f0aa801ab35bfd5152b58227b38641c35614f2e4",
+    "low-operating-szse-metadata-discovery-v1-20261023/szsePath-metadata.json": "5e5ba62516f8b92907ecbacc114193d6b87fab8231a0077a1961a85b30b00a55",
+    "low-operating-szse-metadata-discovery-v1-20261023/concatversion-metadata.json": "d301bdd2d1054989bb699d7bab5ced43794e776a3f9302ef83162e7f05f06563",
+    "low-operating-szse-metadata-discovery-v1-20261023/report_new.min.js": "e5466cb1981aee69592030da07ba279d0e3c05ebc273014670a30fce3e4381d9"
+  },
+  "confirmed_metadata": {
+    "trend_security_catalog": "1815_stock_snapshot",
+    "report_route": "/api/report/ShowReport/data",
+    "report_get_keys": [
+      "SHOWTYPE",
+      "CATALOGID",
+      "TABKEY",
+      "PAGENO",
+      "tab1PAGESIZE"
+    ],
+    "native_kline_route": "/api/market/ssjjhq/getHistoryData",
+    "native_kline_caller_keys": [
+      "cycleType",
+      "marketId",
+      "code"
+    ],
+    "daily_overview_catalog": "scsj_gprdgk_after",
+    "deal_catalog": "1804_gptj_merge_after",
+    "production_js_suffix": ".min.js",
+    "js_version": "1.2.222"
+  },
+  "not_verified": [
+    "Snapshot report historical date filters/security selector/schema/units/coverage",
+    "Exact daily price/volume availability",
+    "Historical endpoint ability to bound dates",
+    "ST/suspension/actions/arrival/account validity"
+  ],
+  "next_safe_action": "Freeze a bounded historical-catalog metadata probe; inspect only query condition/header definitions, reject unavailable or unbounded quote routes. No current native kline call.",
+  "market_API_queries": 0,
+  "page_text_or_market_values_decoded": false,
+  "source_or_account_admitted": false,
+  "portfolio_return_computed": false,
+  "objective_achieved": false
+}
