@@ -1,0 +1,28 @@
+{
+  "reviewed_range": "9af9965..4d0efd3",
+  "verdict": "WITH_FIXES_TWO_IMPORTANT_NO_CRITICAL",
+  "reviewer": "low_operating_sina_decode_review",
+  "synthetic_only": true,
+  "independent_targeted_tests": 8,
+  "important_findings": [
+    "Control aggregate persisted after target decoding",
+    "Native failure artifact prerequisites and rejected receipts checked after target reads"
+  ],
+  "one_correction_pass": [
+    "Persist complete control aggregate before summary and target marker/load",
+    "Require reachable control/target artifact prerequisites and validate rejected publication receipts before target read",
+    "Retain legitimate interruption after control aggregate before summary without completing failed numeric prefixes"
+  ],
+  "postfix_targeted_tests": 11,
+  "postfix_full_suite_tests": 1516,
+  "rereview_performed": false,
+  "declined_to_judge": [
+    "Actual Sina response dates/shape/numbers/coverage: reviewer used synthetic fixtures only",
+    "Later request/review/freeze/remote/CI/execution/publication: root verification required",
+    "Independent parser assurance: production and audit share projector",
+    "Issuer identity: response has no issuer field; request/body-hash binding only",
+    "Inherited ignored-string UTF-8 and depth65-empty-container limitations deferred",
+    "Uncatchable interruption/storage failures/all concurrent mutation timings not guaranteed",
+    "Data/account/actions/arrival/tax/returns/2026/full objective not admitted"
+  ]
+}

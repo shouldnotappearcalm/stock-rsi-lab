@@ -85,3 +85,35 @@ class SinaDecodeTests(unittest.TestCase):
                 def load(c):seen.append(c);return (b/source.OPAQUE/c/'body.bin').read_bytes()
                 with self.assertRaises(ValueError):source.verify_artifacts(out,DAYS,raw(),terminal,load)
                 self.assertNotIn('SZ002326',seen)
+    def test_control_aggregate_persistence_failure_precedes_any_target_decode(self):
+        with tempfile.TemporaryDirectory() as t:
+            b=Path(t);known=self.setup_run(b);real=source.persist
+            def interrupted(out,n,v,outputs):
+                real(out,n,v,outputs)
+                if n=='control-rows.json':raise KeyboardInterrupt('durable aggregate interruption')
+            with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)),patch.object(source,'persist',side_effect=interrupted),self.assertRaises(KeyboardInterrupt):source.run(b,b,b/'unused','sha')
+            out=b/source.OUTPUT;terminal=source.read(out/'terminal.json')
+            self.assertFalse(terminal['target_decoder_invoked']);self.assertEqual(terminal['target_rows_completed'],0)
+            facts=source.verify_artifacts(out,DAYS,raw(),terminal,lambda c:(b/source.OPAQUE/c/'body.bin').read_bytes())
+            self.assertFalse(facts['complete']);self.assertEqual(len(facts['control_rows']),2)
+    def test_error_trace_with_target_evidence_requires_control_aggregate(self):
+        with tempfile.TemporaryDirectory() as t:
+            b=Path(t);known=self.setup_run(b)
+            with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)):terminal=source.run(b,b,b/'unused','sha')
+            out=b/source.OUTPUT;(out/'control-rows.json').unlink()
+            terminal.update(status='SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED',complete=False,error_type='ValueError',error='synthetic',failed_stage='TARGET',failed_row_index=2)
+            seen=[]
+            def load(c):seen.append(c);return (b/source.OPAQUE/c/'body.bin').read_bytes()
+            with self.assertRaises(ValueError):source.verify_artifacts(out,DAYS,raw(),terminal,load)
+            self.assertNotIn('SZ002326',seen)
+    def test_invalid_rejected_publication_receipt_blocks_target_reads(self):
+        with tempfile.TemporaryDirectory() as t:
+            b=Path(t);known=self.setup_run(b)
+            with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)):terminal=source.run(b,b,b/'unused','sha')
+            out=b/source.OUTPUT
+            terminal.update(status='SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED',complete=False,error_type='ValueError',error='synthetic',failed_stage='TARGET',failed_row_index=2,
+                rejected_terminal_sha256={'unexpected.txt':'bad'})
+            seen=[]
+            def load(c):seen.append(c);return (b/source.OPAQUE/c/'body.bin').read_bytes()
+            with self.assertRaises(ValueError):source.verify_artifacts(out,DAYS,raw(),terminal,load)
+            self.assertNotIn('SZ002326',seen)

@@ -63,15 +63,19 @@ def run(base,root,request,expected):
     def current():need(not changed(known) and tree(out)==outputs,'whole context and output before target')
     def load(c):
         p=base/OPAQUE/c/'body.bin';return bound_body(p,known[str(p.resolve())])
-    def row(c,v):save('rows/'+c+'/'+v['date']+'.json',v);terminal['control_rows_completed' if c=='SH600118' else 'target_rows_completed']+=1
-    def report(v):save('control-summary.json',v);terminal['control_price_volume_gate_passed']=v['price_volume_gate_passed']
+    controls=[]
+    def row(c,v):
+        save('rows/'+c+'/'+v['date']+'.json',v);terminal['control_rows_completed' if c=='SH600118' else 'target_rows_completed']+=1
+        if c=='SH600118':controls.append(v)
+    def report(v):
+        save('control-rows.json',controls)
+        save('control-summary.json',v);terminal['control_price_volume_gate_passed']=v['price_volume_gate_passed']
     def before():current();save('target-started.json',{'only_after_control_price_volume_gate':True});current()
     def target():
         nonlocal stage
         stage='TARGET';v=load('SZ002326');current();terminal['target_decoder_invoked']=True;return v
     try:
         result=evaluate(load('SH600118'),target,sessions,original,row,report,before)
-        save('control-rows.json',result['control_rows'])
         if terminal['target_decoder_invoked']:save('target-rows.json',result['target_rows'])
         missing=[d for d in sessions if d not in {r['date'] for r in result['target_rows']}]
         terminal.update(status='SELECTIVE_COMPONENT_PROJECTION_FINISHED_NOT_ACCOUNT_ADMITTED',target_missing_sessions=missing,
@@ -112,7 +116,16 @@ def verify_artifacts(out,sessions,original,terminal,loader,pre_target=None):
         need(terminal['failed_row_index']==(None if stage=='TERMINAL' else terminal['control_rows_completed' if stage=='CONTROL' else 'target_rows_completed']),'native failure position before target')
         if stage=='CONTROL':need(not invoked and not prefix['SZ002326'] and not (out/'target-rows.json').exists(),'control failure precedes target invocation/evidence')
         if stage=='TARGET':need(marker,'target-stage failure requires preceding marker')
-    report_exists=(out/'control-summary.json').exists();control=decode(loader('SH600118'),'SH600118',sessions,prefix_rows=None if report_exists else len(prefix['SH600118']))
+    report_exists=(out/'control-summary.json').exists();aggregate_exists=(out/'control-rows.json').exists()
+    target_evidence=invoked or marker or bool(prefix['SZ002326']) or (out/'target-rows.json').exists() or (error and terminal['failed_stage']=='TARGET')
+    need(not report_exists or aggregate_exists,'control summary follows durable aggregate')
+    need(not target_evidence or (aggregate_exists and report_exists),'all target evidence follows complete control artifacts')
+    rejected=terminal.get('rejected_terminal_sha256',{})
+    need(type(rejected) is dict,'explicit rejected publication receipts')
+    for n,h in rejected.items():
+        need(error and terminal['failed_stage']=='TERMINAL' and n in ('terminal-rejected-published.json','terminal-rejected-staged.json')
+            and sha(out/n)==h,'rejected publication retained before target read');names.add(n)
+    control_body=loader('SH600118');control=decode(control_body,'SH600118',sessions,prefix_rows=None if report_exists else len(prefix['SH600118']))
     def check_rows(code,rows):
         need(len(prefix[code])==len(rows)==terminal['control_rows_completed' if code=='SH600118' else 'target_rows_completed'],'exact durable count '+code)
         for p,v in zip(prefix[code],rows):need(read(p)==v and p.stem==v['date'],'exact durable prefix '+code);names.add('rows/'+code+'/'+p.name)
@@ -120,7 +133,9 @@ def verify_artifacts(out,sessions,original,terminal,loader,pre_target=None):
     if report_exists:
         report=comparator.control(control,original);need(read(out/'control-summary.json')==report,'exact control comparison');gate=report['price_volume_gate_passed'];names.add('control-summary.json')
     need(terminal['control_price_volume_gate_passed']==gate,'exact control gate')
-    if (out/'control-rows.json').exists():need(report_exists and read(out/'control-rows.json')==control,'exact control aggregate before target');names.add('control-rows.json')
+    if aggregate_exists:
+        need(read(out/'control-rows.json')==control and len(control)==len(select(control_body,'SH600118',sessions)),
+            'exact complete control aggregate before target');names.add('control-rows.json')
     if marker:need(gate and read(out/'target-started.json')=={'only_after_control_price_volume_gate':True},'authorized target marker');names.add('target-started.json')
     target=[]
     if invoked:
@@ -138,10 +153,6 @@ def verify_artifacts(out,sessions,original,terminal,loader,pre_target=None):
         need(report_exists and invoked==gate and 'control-rows.json' in names and (not invoked or 'target-rows.json' in names)
             and terminal['complete']==complete and terminal['target_missing_sessions']==missing
             and terminal['status']=='SELECTIVE_COMPONENT_PROJECTION_FINISHED_NOT_ACCOUNT_ADMITTED','exact completed source outcome')
-    else:
-        stage=terminal['failed_stage']
-        for n,h in terminal.get('rejected_terminal_sha256',{}).items():
-            need(stage=='TERMINAL' and n in ('terminal-rejected-published.json','terminal-rejected-staged.json') and sha(out/n)==h,'rejected publication retained');names.add(n)
     return {'control':report,'control_rows':control,'target_rows':target,'names':names,'error':error,'complete':complete}
 
 def audit(base,root,out,request,expected):
