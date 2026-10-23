@@ -1,0 +1,118 @@
+{
+  "schema": "CASH_PROFITABILITY_SOURCE_MAPPING_REVIEW_V1",
+  "status": "SOURCE_INSPECTION_COMPLETE_CASH_FACTOR_NOT_ADMITTED",
+  "source_freeze_commit": "4eeae056d77e0e979992c57fb091ab0cdc8d9141",
+  "notes_freeze_commit": "02f36d00021068c992fa154bbfbc04a9b3d251b1",
+  "source_request_sha256": "5e1f5a44354793076d33992d32e151a019ccb4da0ab1c059e0b599878fb679c9",
+  "notes_request_sha256": "3effee86b99b3709c24361aedd0b6bf5f68c58ca4c87a9198cd9e75f110a1068",
+  "source_manifest_sha256": "7e94dd97f2f7118db643fd67c1b65094d98c4451e98fd45e971771e840688f4b",
+  "notes_manifest_sha256": "7f4ad372419d0f26013b66bbdb45056c14f0bc9ea885b0cf1a243f9361d42d51",
+  "source_documents": 2,
+  "total_original_physical_pages": 572,
+  "independent_reader_statement_pages": 21,
+  "independent_reader_note_pages": 24,
+  "new_note_renders": 8,
+  "parent_output_files": 595,
+  "notes_output_files": 41,
+  "checked_non_manifest_output_files": 634,
+  "all_frozen_inputs_unchanged": true,
+  "manual_review_anchors": [
+    {
+      "report": "SH600166-2023-12-31-1219874919",
+      "physical_page": 200,
+      "both_readers_contain_manual_review_anchors": [
+        "企业所得税",
+        "37,616,344.75",
+        "33,400,109.76"
+      ],
+      "render_visually_reviewed": true,
+      "complete_numeric_table_admitted": false
+    },
+    {
+      "report": "SH600166-2023-12-31-1219874919",
+      "physical_page": 201,
+      "both_readers_contain_manual_review_anchors": [
+        "预提费用",
+        "647,672,189.14",
+        "773,088,856.10",
+        "押金及工程设备款"
+      ],
+      "render_visually_reviewed": true,
+      "complete_numeric_table_admitted": false
+    },
+    {
+      "report": "SH600166-2023-12-31-1219874919",
+      "physical_page": 204,
+      "both_readers_contain_manual_review_anchors": [
+        "政府补助",
+        "716,659,120.19",
+        "735,284,859.81"
+      ],
+      "render_visually_reviewed": true,
+      "complete_numeric_table_admitted": false
+    },
+    {
+      "report": "SH600166-2023-12-31-1219874919",
+      "physical_page": 217,
+      "both_readers_contain_manual_review_anchors": [
+        "固定资产折旧",
+        "980,982,919.53",
+        "882,228,462.57"
+      ],
+      "render_visually_reviewed": true,
+      "complete_numeric_table_admitted": false
+    },
+    {
+      "report": "SH600166-2024-12-31-1223327299",
+      "physical_page": 199,
+      "both_readers_contain_manual_review_anchors": [
+        "企业所得税",
+        "1,716,789.35",
+        "37,616,344.75"
+      ],
+      "render_visually_reviewed": true,
+      "complete_numeric_table_admitted": false
+    },
+    {
+      "report": "SH600166-2024-12-31-1223327299",
+      "physical_page": 200,
+      "both_readers_contain_manual_review_anchors": [
+        "预提费用",
+        "547,841,354.97",
+        "647,672,189.14",
+        "应付股权收购款"
+      ],
+      "render_visually_reviewed": true,
+      "complete_numeric_table_admitted": false
+    },
+    {
+      "report": "SH600166-2024-12-31-1223327299",
+      "physical_page": 203,
+      "both_readers_contain_manual_review_anchors": [
+        "政府补助",
+        "825,713,161.71",
+        "716,659,120.19",
+        "延保义务"
+      ],
+      "render_visually_reviewed": true,
+      "complete_numeric_table_admitted": false
+    }
+  ],
+  "mapping_findings": {
+    "income_tax": "Use enterprise-income-tax note row; all taxes payable is not equivalent.",
+    "deferred_revenue": "Government grants reported as deferred income are not automatically customer deferred revenue; contract and other liabilities need their own scope.",
+    "accrued_expenses": "Other-payables total mixes operating and nonoperating items; disclosed accrued-expense row is only a component, not proven complete.",
+    "R_and_D": "Research expense is separately reported; a Compustat-specific addback must not be applied mechanically.",
+    "current_debt_and_depreciation": "Current noncurrent liabilities include loans and leases; D&A has separately reported categories. Definitions remain to be frozen.",
+    "edition_consistency": "Warranty reclassification offsets COGS and selling costs in2023 comparative; preserve both editions and never mix them."
+  },
+  "full_BGLN_cash_profitability_replication_admitted": false,
+  "accrual_factor_admitted": false,
+  "cn_operating_profitability_source_fixture_supported_for_next_proposal": true,
+  "numeric_factor_computed": false,
+  "ranking_computed": false,
+  "portfolio_return_computed": false,
+  "historical_arrival_verified": false,
+  "strategy_registered": false,
+  "objective_achieved": false
+}
