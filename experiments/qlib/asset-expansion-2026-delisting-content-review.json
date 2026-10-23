@@ -1,0 +1,24 @@
+{
+  "status": "TWO_LOCAL_PDF_EXTRACTORS_CONFIRM_EXIT_DATE_NOT_ACCOUNT_ADMISSION",
+  "source_sha256": "cc29deced35a496817c6ce6fa5c98bbea0063b72f2177e1023db9c3bc8afdc74",
+  "pages": 4,
+  "instrument": "SH603056",
+  "issuer": "德邦物流股份有限公司",
+  "notice_number": "2026-037",
+  "publication_day": "2026-03-26",
+  "delisting_effective_date": "2026-03-31",
+  "pypdf_pages_checked": [
+    0,
+    1
+  ],
+  "pdfminer_pages_checked": [
+    0,
+    1
+  ],
+  "source_literal_exit_date_agrees_between_extractors": true,
+  "new_bars_synthesized": false,
+  "account_owned_pending_and_claims_verified": false,
+  "lifecycle_admitted_for_account": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

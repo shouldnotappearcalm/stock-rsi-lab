@@ -1,0 +1,21 @@
+{
+  "status": "ONE_ISSUER_ORIGINAL_CAPTURED_REVIEW_SEPARATE",
+  "request_sha256": "650737d692d10099b91b7124e66eb0bccab0a2c555175ebb328589203e6ff03e",
+  "URL": "https://static.cninfo.com.cn/finalpage/2026-03-26/1225030503.PDF",
+  "capture_complete": true,
+  "error": null,
+  "HTTP_receipt": {
+    "request_file": "queries/5564d85a6a612bb92d8335b9d1b400e27f669f10b93fbfed3be7f0e5c3b3978e/request.json",
+    "request_sha256": "b6d84cf7a02a86719f01b4a5b516dc5e61930856d854a776e191454a2654d093",
+    "reserved_file": "queries/5564d85a6a612bb92d8335b9d1b400e27f669f10b93fbfed3be7f0e5c3b3978e/reserved-1.json",
+    "reserved_sha256": "174d0ad5e080e0e1400b66415146629df91154fbab675ab9547193ddc2924e15",
+    "response_file": "queries/5564d85a6a612bb92d8335b9d1b400e27f669f10b93fbfed3be7f0e5c3b3978e/response-1.json",
+    "response_sha256": "60508c7eebb8442527c98975eec0e202cf5c36194e1ec74492b9933d114d9503"
+  },
+  "changed_inputs": [],
+  "consumed_input_files": 533,
+  "PDF_sha256": "cc29deced35a496817c6ce6fa5c98bbea0063b72f2177e1023db9c3bc8afdc74",
+  "lifecycle_boundary_or_account_admitted": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}
