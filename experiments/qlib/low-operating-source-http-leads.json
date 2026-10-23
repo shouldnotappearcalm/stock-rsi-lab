@@ -1,0 +1,44 @@
+{
+  "status": "HTTP_SOURCE_CODE_LEADS_ONLY_NO_MARKET_DATA_REQUEST_OR_ACCEPTANCE",
+  "window": [
+    "2023-12-29",
+    "2025-12-31"
+  ],
+  "candidate": "low_operating_profitability_followup_v1",
+  "pending_code": "SZ002326",
+  "sources": [
+    {
+      "repository": "https://github.com/akfamily/akshare",
+      "path": "akshare/stock_feature/stock_hist_em.py",
+      "blob_sha": "eee3667df6fea86e76bef4b0874502d11bc4946d",
+      "sha256": "d2a4c09d55d9362c8c7e58ec82f78d198cf6d2c2daf004033eef42ded915050d",
+      "observed_contract": "stock_zh_a_hist supports explicit beg/end, daily klt101 and adjust-empty fqt0 raw Eastmoney HTTP.",
+      "limitations": [
+        "Actual response/coverage/schema not yet checked",
+        "Missing calendar rows, ST/suspension state, preclose and volume units require independent evidence",
+        "Does not establish dividends/actions/tax/PIT or equivalent provenance to BaoStock"
+      ]
+    },
+    {
+      "repository": "https://github.com/akfamily/akshare",
+      "path": "akshare/stock/stock_dividend_cninfo.py",
+      "blob_sha": "3f17e211b2dcde6c6f0f5cfe17be92415c89f0e5",
+      "sha256": "a3d548dd1296cb5c565ae9ad1a2f60a49209bcf49f3153193425cce6ad8b2914",
+      "observed_contract": "Historical dividend route uses CNInfo p_sysapi1139 with only scode.",
+      "decision": "Do not call this unbounded full-history route under the pre2026 restriction; use separately frozen date-bounded primary disclosure queries instead."
+    },
+    {
+      "repository": "https://github.com/extratimber/a-share-market-data",
+      "path": "references/sources.md",
+      "blob_sha": "97cda23d0038e280724db1556e6b2b806b69f741",
+      "sha256": "c2b31dd833ae8f506422d029cf35de39d0d7ca6c4f215677c8f1ddbba8b327d6",
+      "observed_contract": "Documents aggregator routes and provenance/failure retention; repository policy is not empirical data availability."
+    }
+  ],
+  "next_protocol": "Preserve frozen failed SDK capture. Separately freeze date-bounded raw HTTP capture and schema/unit/state cross-checks. Preserve all alternative after-tax literals; do not choose one to compute ROI. Keep original targets and account holding-period/gross-cash tax requirements.",
+  "market_data_requests": 0,
+  "strategy_or_targets_changed": false,
+  "portfolio_return_computed": false,
+  "2026_market_or_financial_records_accepted": false,
+  "objective_achieved": false
+}

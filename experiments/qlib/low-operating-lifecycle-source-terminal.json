@@ -1,0 +1,3381 @@
+{
+  "status": "LOW_OPERATING_LIFECYCLE_SOURCE_FAILURE_RETAINED",
+  "candidate": "low_operating_profitability_followup_v1",
+  "original_target_family": "operating_profit_prior_assets_bottom_decile_control",
+  "request_sha256": "76ad2e1e15d10cf0c2d53197dafa12e364e662743630fe921c5cb8bf913317bf",
+  "complete": false,
+  "historical_arrival_verified": false,
+  "corporate_action_completeness_verified": false,
+  "actual_flat_inventory_proven": false,
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_read": false,
+  "objective_achieved": false,
+  "all_capture_outputs_unchanged": true,
+  "changed_capture_outputs": [],
+  "capture_output_sha256": {
+    "calendar.json": "8675b1a13704262b666f552e5fee1cbe084fe1392aa9ce32d53a40b482698c2a",
+    "cleanup.json": "b0b7f9da7d929da04a41737352a395d457fa9c6366c9822f281245b6a32128fd",
+    "codes/SH600004.json": "2ed44a4c855a8c1d73490fe5062f069ef67fd867c46fdaf4d4afb49f179d80d2",
+    "codes/SH600118.json": "190df66f101be30a05db7a2ba35cdd79e2da9c0464caa69d79a16999f361199c",
+    "codes/SH600126.json": "18465760edf6570d0daaa31e0698ff50dd581c8d221a8691bf0f56a575589f81",
+    "codes/SH600258.json": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+    "codes/SH600316.json": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+    "codes/SH600415.json": "c4ff76a873b649aa7d088303f1a8b228217ecf083aee8912202210d25da059f1",
+    "codes/SH600418.json": "35e42457878951da2e3de553aa8cc498091013c45eefa958fd024f783c46574d",
+    "codes/SH600482.json": "8bc58386007ff5e4e8ed722307726a880ee9762d9f75ff68d97b5dbb2bfc6e66",
+    "codes/SH600516.json": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+    "codes/SH600642.json": "c0e283669a9dc82628e41f498b7fa421c0c8b12670240e421c9c671d0cc04a24",
+    "codes/SH600655.json": "d6f0df1e60911f028f245a6cf4edc33972afc2cdecb6750c0e28c210db734eaf",
+    "codes/SH600707.json": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+    "codes/SH600739.json": "8f9599fe78838990725604851e3239dfcc29a190c78a8f0aca069c2065c4c5e6",
+    "codes/SH600959.json": "19b7e03237ae7a4a2d294e44b3a0b88d1405c497c308438d03def5f804c109ad",
+    "codes/SH600977.json": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+    "codes/SH601106.json": "e8ebc8a30e5caba02675a63749717e87ac4310d901d8b43b18679e105965b143",
+    "codes/SH601118.json": "df981d773959658183d9164ace25817f43e79967525399a9ef0ced7603a811d2",
+    "codes/SH601158.json": "1fed273cd931f98962ed8206901880569bffaaf2db5c8c27a8c39063232049eb",
+    "codes/SH601233.json": "868e65fa81706e6c074d380d30020c5bb689382b98a38b97168f55d6e5a25435",
+    "codes/SH601828.json": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+    "codes/SH601866.json": "7bf44690155b3b8769783ac2811bbceec1cf5f20906ac9f99ffea36febcce6ea",
+    "codes/SH601880.json": "b781959756b43463e8f8eeca17cf73fa647d3a5af8e6b69ab9dfcd9858452b29",
+    "codes/SH601933.json": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+    "codes/SH601992.json": "c045f0f49359cf9ca6918e55ebd1db26ef51a54bb92f8c07adb9e9649bbb77ef",
+    "codes/SH603026.json": "5f96433838a8acde86555876a423189fe2dbca7a89054e9125889e3b52494f87",
+    "codes/SH603077.json": "267b651f06cda7094313bd6a61a4349c49550a50daa2290d7fd2256aa004d0a0",
+    "codes/SH603185.json": "10f2bb68d48b2b45fb4375e2dd67b116ba4fbf9d12d204b474ccb7aaf2bb3b90",
+    "codes/SH603225.json": "29113ed212ac239a9443cb4baa7f794506128c80b9655084ea746158f569accf",
+    "codes/SH605358.json": "eaaec4831f3895f51a2116307eebc45c67550c7009c782c46409b71d236dd838",
+    "codes/SZ000050.json": "2799f46729043d164cf0da9568c718b9ea7506e5e2fc4df076eeefd49f704178",
+    "codes/SZ000401.json": "ee50e525915a2c5c9854a25314df706f715c06d8982880a38402b775307140af",
+    "codes/SZ000519.json": "b68691bea40a975608a3120ccdde937a4b69a7a66c69f467176a4c9d4f80744b",
+    "codes/SZ000623.json": "78853b817444f68791da8558666f8d9f554636ac092a9e6de8b8b983c88ee902",
+    "codes/SZ000825.json": "0744dd216247e77512d9372697838d8b915ebfa7967e967c5e0bdc652b873ce9",
+    "codes/SZ000998.json": "f84c3fe65568167f9a48f2334328307ca3fe7a9569dc2e0435dbb189299f0915",
+    "codes/SZ002092.json": "c2fcfa7968890627d7bb7e5d21987c62e1d6e214f3592ebba1b6ae85174624ac",
+    "codes/SZ002153.json": "46910d1c2de8a203973288cd5ecd8b6b20f4f84f92d78540e8e959aeb9969c2b",
+    "codes/SZ002195.json": "2820f97f6bb63e633435f60e86793d3d1cc55b99b8e05ea662264836c04997f0",
+    "codes/SZ002373.json": "4c04840175518875eed7d5c3f1eea01e48b9595c516e2d9d047e8280519febe3",
+    "codes/SZ002407.json": "66bafc96b7c042c474f7e025dd274ad956cb478bd380c4b7fd201fe87a9eb925",
+    "codes/SZ002505.json": "48210620142e647c5b69dcd3eb60a745accc9da341b347c4bba632df15a74fe8",
+    "codes/SZ002506.json": "67f6e93740d09197a73b7edb4b98ba13d12a1df4ded5cee1658177e9714155f8",
+    "errors.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "input-before.json": "2580f8f1a48fc1a91f7faeb8f9eec64045cd6c8513d84e65b672e1d24ee7481e",
+    "input-postcheck.json": "5a2228e30d9f82aa80295d23cf2eac6cdcf68a0183400672208d56288de17c9b",
+    "login-reserved-1.json": "c31dfdd7b7eedfde0166e833b27a013cb948a11d1fad236ac021c97ac57e7ea2",
+    "login-response-1.json": "2d6ada9e6a40c4310afe4b28b7228217adcc9f77f2837e693127abcf00df8d2e",
+    "logout-response-1.json": "b0b7f9da7d929da04a41737352a395d457fa9c6366c9822f281245b6a32128fd",
+    "manifest.json": "abe5424dc5bb970a6efa0e9735f655172234274c384cb05f89c9da5e740067b9",
+    "progress.json": "6f265bab7e9935358ac2e82cda4ef0f404458fd0e51509a4d4e2356d29de131d",
+    "request.json": "76ad2e1e15d10cf0c2d53197dafa12e364e662743630fe921c5cb8bf913317bf",
+    "reuse-routes.json": "0b4568bf377e2066bf3baff53d8757d3b74756a9455d137bb4f5b6e1843554fd",
+    "terminal-error.json": "fca263fec571229d2a01938860ae23c87ede6c2b6fcb3b597d6843761afe1021"
+  },
+  "shared_adapter_origin_status": "LOW_MARKET_RESIDUAL_VOL1M_RAW_SOURCES_CAPTURED_ADMISSION_SEPARATE",
+  "adapter_return_code": 2,
+  "adapter_abnormal_exit": {
+    "error_type": "RuntimeError",
+    "error": "source login failed; one attempt retained"
+  },
+  "adapter_errors_sha256": {},
+  "original_error": null,
+  "all_source_calendars_complete": false,
+  "source_coverage": {
+    "SH600004": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600118": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600126": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600258": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600316": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600415": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600418": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600482": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600516": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600642": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600655": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600707": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600739": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600959": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH600977": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601106": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601118": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601158": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601233": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601828": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601866": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601880": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601933": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH601992": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH603026": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH603077": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH603185": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH603225": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SH605358": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000050": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000401": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000519": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000623": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000825": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ000998": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002092": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002153": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002195": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002373": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002407": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002505": {
+      "full_explicit_calendar_covered": false,
+      "source_coverage_explained": true,
+      "observed_rows": 163,
+      "missing_sessions": [
+        "2024-09-02",
+        "2024-09-03",
+        "2024-09-04",
+        "2024-09-05",
+        "2024-09-06",
+        "2024-09-09",
+        "2024-09-10",
+        "2024-09-11",
+        "2024-09-12",
+        "2024-09-13",
+        "2024-09-18",
+        "2024-09-19",
+        "2024-09-20",
+        "2024-09-23",
+        "2024-09-24",
+        "2024-09-25",
+        "2024-09-26",
+        "2024-09-27",
+        "2024-09-30",
+        "2024-10-08",
+        "2024-10-09",
+        "2024-10-10",
+        "2024-10-11",
+        "2024-10-14",
+        "2024-10-15",
+        "2024-10-16",
+        "2024-10-17",
+        "2024-10-18",
+        "2024-10-21",
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24",
+        "2024-10-25",
+        "2024-10-28",
+        "2024-10-29",
+        "2024-10-30",
+        "2024-10-31",
+        "2024-11-01",
+        "2024-11-04",
+        "2024-11-05",
+        "2024-11-06",
+        "2024-11-07",
+        "2024-11-08",
+        "2024-11-11",
+        "2024-11-12",
+        "2024-11-13",
+        "2024-11-14",
+        "2024-11-15",
+        "2024-11-18",
+        "2024-11-19",
+        "2024-11-20",
+        "2024-11-21",
+        "2024-11-22",
+        "2024-11-25",
+        "2024-11-26",
+        "2024-11-27",
+        "2024-11-28",
+        "2024-11-29",
+        "2024-12-02",
+        "2024-12-03",
+        "2024-12-04",
+        "2024-12-05",
+        "2024-12-06",
+        "2024-12-09",
+        "2024-12-10",
+        "2024-12-11",
+        "2024-12-12",
+        "2024-12-13",
+        "2024-12-16",
+        "2024-12-17",
+        "2024-12-18",
+        "2024-12-19",
+        "2024-12-20",
+        "2024-12-23",
+        "2024-12-24",
+        "2024-12-25",
+        "2024-12-26",
+        "2024-12-27",
+        "2024-12-30",
+        "2024-12-31",
+        "2025-01-02",
+        "2025-01-03",
+        "2025-01-06",
+        "2025-01-07",
+        "2025-01-08",
+        "2025-01-09",
+        "2025-01-10",
+        "2025-01-13",
+        "2025-01-14",
+        "2025-01-15",
+        "2025-01-16",
+        "2025-01-17",
+        "2025-01-20",
+        "2025-01-21",
+        "2025-01-22",
+        "2025-01-23",
+        "2025-01-24",
+        "2025-01-27",
+        "2025-02-05",
+        "2025-02-06",
+        "2025-02-07",
+        "2025-02-10",
+        "2025-02-11",
+        "2025-02-12",
+        "2025-02-13",
+        "2025-02-14",
+        "2025-02-17",
+        "2025-02-18",
+        "2025-02-19",
+        "2025-02-20",
+        "2025-02-21",
+        "2025-02-24",
+        "2025-02-25",
+        "2025-02-26",
+        "2025-02-27",
+        "2025-02-28",
+        "2025-03-03",
+        "2025-03-04",
+        "2025-03-05",
+        "2025-03-06",
+        "2025-03-07",
+        "2025-03-10",
+        "2025-03-11",
+        "2025-03-12",
+        "2025-03-13",
+        "2025-03-14",
+        "2025-03-17",
+        "2025-03-18",
+        "2025-03-19",
+        "2025-03-20",
+        "2025-03-21",
+        "2025-03-24",
+        "2025-03-25",
+        "2025-03-26",
+        "2025-03-27",
+        "2025-03-28",
+        "2025-03-31",
+        "2025-04-01",
+        "2025-04-02",
+        "2025-04-03",
+        "2025-04-07",
+        "2025-04-08",
+        "2025-04-09",
+        "2025-04-10",
+        "2025-04-11",
+        "2025-04-14",
+        "2025-04-15",
+        "2025-04-16",
+        "2025-04-17",
+        "2025-04-18",
+        "2025-04-21",
+        "2025-04-22",
+        "2025-04-23",
+        "2025-04-24",
+        "2025-04-25",
+        "2025-04-28",
+        "2025-04-29",
+        "2025-04-30",
+        "2025-05-06",
+        "2025-05-07",
+        "2025-05-08",
+        "2025-05-09",
+        "2025-05-12",
+        "2025-05-13",
+        "2025-05-14",
+        "2025-05-15",
+        "2025-05-16",
+        "2025-05-19",
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05",
+        "2025-06-06",
+        "2025-06-09",
+        "2025-06-10",
+        "2025-06-11",
+        "2025-06-12",
+        "2025-06-13",
+        "2025-06-16",
+        "2025-06-17",
+        "2025-06-18",
+        "2025-06-19",
+        "2025-06-20",
+        "2025-06-23",
+        "2025-06-24",
+        "2025-06-25",
+        "2025-06-26",
+        "2025-06-27",
+        "2025-06-30",
+        "2025-07-01",
+        "2025-07-02",
+        "2025-07-03",
+        "2025-07-04",
+        "2025-07-07",
+        "2025-07-08",
+        "2025-07-09",
+        "2025-07-10",
+        "2025-07-11",
+        "2025-07-14",
+        "2025-07-15",
+        "2025-07-16",
+        "2025-07-17",
+        "2025-07-18",
+        "2025-07-21",
+        "2025-07-22",
+        "2025-07-23",
+        "2025-07-24",
+        "2025-07-25",
+        "2025-07-28",
+        "2025-07-29",
+        "2025-07-30",
+        "2025-07-31",
+        "2025-08-01",
+        "2025-08-04",
+        "2025-08-05",
+        "2025-08-06",
+        "2025-08-07",
+        "2025-08-08",
+        "2025-08-11",
+        "2025-08-12",
+        "2025-08-13",
+        "2025-08-14",
+        "2025-08-15",
+        "2025-08-18",
+        "2025-08-19",
+        "2025-08-20",
+        "2025-08-21",
+        "2025-08-22",
+        "2025-08-25",
+        "2025-08-26",
+        "2025-08-27",
+        "2025-08-28",
+        "2025-08-29",
+        "2025-09-01",
+        "2025-09-02",
+        "2025-09-03",
+        "2025-09-04",
+        "2025-09-05",
+        "2025-09-08",
+        "2025-09-09",
+        "2025-09-10",
+        "2025-09-11",
+        "2025-09-12",
+        "2025-09-15",
+        "2025-09-16",
+        "2025-09-17",
+        "2025-09-18",
+        "2025-09-19",
+        "2025-09-22",
+        "2025-09-23",
+        "2025-09-24",
+        "2025-09-25",
+        "2025-09-26",
+        "2025-09-29",
+        "2025-09-30",
+        "2025-10-09",
+        "2025-10-10",
+        "2025-10-13",
+        "2025-10-14",
+        "2025-10-15",
+        "2025-10-16",
+        "2025-10-17",
+        "2025-10-20",
+        "2025-10-21",
+        "2025-10-22",
+        "2025-10-23",
+        "2025-10-24",
+        "2025-10-27",
+        "2025-10-28",
+        "2025-10-29",
+        "2025-10-30",
+        "2025-10-31",
+        "2025-11-03",
+        "2025-11-04",
+        "2025-11-05",
+        "2025-11-06",
+        "2025-11-07",
+        "2025-11-10",
+        "2025-11-11",
+        "2025-11-12",
+        "2025-11-13",
+        "2025-11-14",
+        "2025-11-17",
+        "2025-11-18",
+        "2025-11-19",
+        "2025-11-20",
+        "2025-11-21",
+        "2025-11-24",
+        "2025-11-25",
+        "2025-11-26",
+        "2025-11-27",
+        "2025-11-28",
+        "2025-12-01",
+        "2025-12-02",
+        "2025-12-03",
+        "2025-12-04",
+        "2025-12-05",
+        "2025-12-08",
+        "2025-12-09",
+        "2025-12-10",
+        "2025-12-11",
+        "2025-12-12",
+        "2025-12-15",
+        "2025-12-16",
+        "2025-12-17",
+        "2025-12-18",
+        "2025-12-19",
+        "2025-12-22",
+        "2025-12-23",
+        "2025-12-24",
+        "2025-12-25",
+        "2025-12-26",
+        "2025-12-29",
+        "2025-12-30",
+        "2025-12-31"
+      ],
+      "lifecycle_intervals": [
+        {
+          "instrument": "SZ002505",
+          "session": "2024-08-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": true,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-02",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-03",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-04",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-05",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-06",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-09-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-08",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-15",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-16",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-22",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-28",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-29",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-10-31",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-01",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-04",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-05",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-06",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-07",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-08",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-15",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-22",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-28",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-11-29",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-02",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-03",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-04",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-05",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-06",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-16",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2024-12-31",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-02",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-03",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-06",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-07",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-08",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-15",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-16",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-22",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-01-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-05",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-06",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-07",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-02-28",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-03",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-04",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-05",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-06",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-07",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-28",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-03-31",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-01",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-02",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-03",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-07",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-08",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-15",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-16",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-22",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-28",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-29",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-04-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-06",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-07",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-08",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-15",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-16",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-22",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-28",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-29",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-05-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-03",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-04",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-05",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-06",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-16",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-06-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-01",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-02",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-03",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-04",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-07",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-08",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-15",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-16",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-22",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-28",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-29",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-07-31",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-01",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-04",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-05",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-06",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-07",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-08",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-15",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-22",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-28",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-08-29",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-01",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-02",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-03",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-04",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-05",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-08",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-15",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-16",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-22",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-29",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-09-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-15",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-16",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-22",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-28",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-29",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-10-31",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-03",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-04",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-05",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-06",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-07",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-13",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-14",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-20",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-21",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-27",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-11-28",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-01",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-02",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-03",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-04",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-05",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-08",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-09",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-10",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-11",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-12",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-15",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-16",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-17",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-18",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-19",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-22",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-23",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-24",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-25",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-26",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-29",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-30",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        },
+        {
+          "instrument": "SZ002505",
+          "session": "2025-12-31",
+          "reason": "AT_OR_AFTER_PRIMARY_DELISTING_BOUNDARY",
+          "original_row_present": false,
+          "primary_document_sha256": "ef704fd9e654757548c8c36725edd22d726a6d7cf71de850b3096f315fe63e9b",
+          "synthetic_price_created": false
+        }
+      ],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    },
+    "SZ002506": {
+      "full_explicit_calendar_covered": true,
+      "source_coverage_explained": true,
+      "observed_rows": 486,
+      "missing_sessions": [],
+      "lifecycle_intervals": [],
+      "actual_flat_inventory_proven": false,
+      "synthetic_source_rows_created": 0
+    }
+  },
+  "all_inputs_unchanged": true,
+  "changed_inputs": []
+}
