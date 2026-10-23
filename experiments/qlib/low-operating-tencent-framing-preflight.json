@@ -1,0 +1,23 @@
+{
+  "status": "OPAQUE_BYTE_PREFIX_FRAMING_CHECK_ONLY",
+  "resources": {
+    "SH600118": {
+      "body_sha256": "c2c1400f4c16d4baba3874fb1c19048963dd75deee48e133dc4015607ef01e50",
+      "raw_json_object_framing": false,
+      "expected_jsonp_assignment_framing": true,
+      "html_document_framing": false,
+      "body_values_decoded": false,
+      "accepted_bar_rows": 0
+    },
+    "SZ002326": {
+      "body_sha256": "59063522cb5e470d0ca42634f000ec4050c4f869ebb4eeb24e3c860418758798",
+      "raw_json_object_framing": false,
+      "expected_jsonp_assignment_framing": true,
+      "html_document_framing": false,
+      "body_values_decoded": false,
+      "accepted_bar_rows": 0
+    }
+  },
+  "quote_or_other_response_values_decoded": false,
+  "objective_achieved": false
+}

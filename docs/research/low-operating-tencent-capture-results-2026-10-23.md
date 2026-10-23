@@ -35,6 +35,13 @@ effective URLs, response lengths and preserved hashes. The receipt check passed
 only identity/transport verification. Terminal/check public copies are byte
 identical to local originals; body values were not parsed or printed.
 
+Additional byte-prefix inspection found both responses use the expected
+`kline_day2023={` assignment, not HTML-document framing, despite text/html
+response headers. This check decoded no body values and admitted no bars.
+Its separate receipt is `low-operating-tencent-framing-preflight.json`.
+No user/system curlrc or CURL_HOME/XDG_CONFIG_HOME override was present at the
+read-only postflight check. These checks do not replace historical-row validation.
+
 - Terminal SHA256: `1c103c6e9bfcfc1a3a366719f6606db0f62599ae4cf3e943de2e92d1ca99ae13`.
 - Check SHA256: `a326865a8f0a02b092d06839d06565f31803f7f19b06c9875296cea696d4f701`.
 
