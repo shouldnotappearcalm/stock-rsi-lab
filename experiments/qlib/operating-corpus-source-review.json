@@ -1,0 +1,38 @@
+{
+  "status": "TWO_IMPORTANT_FINDINGS_REPRODUCED_AND_FIXED_BEFORE_SOURCE_FREEZE",
+  "reviewed_base": "8ae4668893c42f68c331fce81477ac6e6d490457",
+  "reviewed_head": "f2213a4",
+  "reviewer": "independent fresh-context gpt-6-astra; read-only",
+  "critical_findings": 0,
+  "important_findings": [
+    {
+      "issue": "Parent-table monetary unit can coherently replace a consolidated-table unit in independent checker",
+      "resolution": "Require literal unit inside independent consolidated boundaries; reject conflicting or non-CNY local declarations",
+      "regression": "test_rehashed_parent_unit_substitution_and_conflicting_local_declarations_fail",
+      "red": "Rehashed parent-unit substitution accepted before fix",
+      "green": true
+    },
+    {
+      "issue": "First failed future discards completed submitted peers",
+      "resolution": "Drain every submitted future, persist successful peers in original request order, stop further submissions, preserve original exception and separate failed/unsubmitted keys",
+      "regression": "test_first_worker_failure_drains_completed_peers_without_submitting_next_batch",
+      "red": "Expected 3 completed peer results; recorded 0 before fix",
+      "green": true
+    }
+  ],
+  "targeted_tests_passed": 20,
+  "full_suite_tests_passed": 1356,
+  "full_suite_seconds": 19.878,
+  "old_two_report_independent_raw_cell_checks": 24,
+  "one_fix_pass_complete": true,
+  "second_independent_review_performed": false,
+  "minor_findings": [],
+  "declined_to_judge": [
+    "Actual 1236-report extraction and corpus-wide checker results pending execution",
+    "Remote freeze and CI status",
+    "Physical PDF visual QA and investment admission"
+  ],
+  "root_verification_plan": "Verify remote freeze before parsing; execute all cases and separate checker; verify exact final CI; retain manual visual QA and investment nonadmission limitations",
+  "ratios_rankings_or_returns_computed": false,
+  "investment_factor_admitted": false
+}

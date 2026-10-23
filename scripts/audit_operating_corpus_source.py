@@ -65,12 +65,20 @@ def original_block(lines,page,text,start,end):
     return found[0]
 
 
-def unit_quote(pages,cell):
+def unit_quote(pages,cell,lines,start,end):
     quoted=cell['unit_evidence_literal'];page=cell['unit_evidence_page'];unit=cell['unit']
     need(type(page) is int and 1<=page<=len(pages) and compact(quoted) in compact(pages[page-1]),'original monetary unit quote')
     plain=compact(quoted);prefix=r'(?:编制单位[：:][^：:]{1,100}?)?'
     patterns=(prefix+r'单位[：:](元|万元)币种[：:]人民币',prefix+r'单位[：:]人民币(元|万元)',
               r'[（(](?:除特别(?:注明|说明)外[，,])?金额单位(?:[：:]|(?:均)?为)人民币(元|万元)[）)]',r'单位[：:](元|万元)')
+    original_block(lines,page,quoted,start,end)
+    # Establish the governing declaration from original consolidated scope,
+    # independently of the producer's claimed unit pointer or report hash.
+    for _,line in lines[start:end]:
+        text=compact(line)
+        if re.search(r'(?<!编制)单位[：:]|金额单位',text):
+            declarations=[m.group(1) for pattern in patterns if (m:=re.fullmatch(pattern,text))]
+            need(len(declarations)==1 and declarations[0]==unit,'consistent original consolidated monetary declarations')
     matched=[m.group(1) for pattern in patterns if (m:=re.fullmatch(pattern,plain))]
     need(len(matched)==1 and matched[0]==unit,'unit agrees with original declaration')
     if re.fullmatch(patterns[-1],plain):
@@ -118,7 +126,7 @@ def check_case(pages,document,case):
                 label=LABELS.get(field,'资产总计');plain=compact(cell['row_text'])
                 need(re.match(r'^(?:其中[：:])?'+label,plain) and cell['row_text_sha256']==digest(cell['row_text']),'literal field label and row identity')
                 tokens=re.findall(MONEY,cell['row_text']);need(len(tokens)==2 and tokens[column]==cell['literal'],'two literal original amount columns')
-                multiplier=unit_quote(pages,cell)
+                multiplier=unit_quote(pages,cell,lines,start,end)
                 with localcontext() as context:
                     context.prec=60;value=Decimal(tokens[column].replace(',',''))*multiplier
                 need(value.is_finite() and (field!='total_assets' or value>0) and format(value,'f')==cell['value_CNY']

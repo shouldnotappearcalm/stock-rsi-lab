@@ -1,4 +1,5 @@
 import copy
+from decimal import Decimal
 import unittest
 
 try:
@@ -44,6 +45,17 @@ class OperatingCorpusAuditTests(unittest.TestCase):
         with self.assertRaises(ValueError):audit.check_case(bad,doc,current)
         bad=copy.deepcopy(pages);bad[2]=bad[2].replace('合并利润表','母公司利润表')
         with self.assertRaises(ValueError):audit.check_case(bad,doc,current)
+
+    def test_rehashed_parent_unit_substitution_and_conflicting_local_declarations_fail(self):
+        pages,doc,current=self.source_case();pages[3]+='单位：万元 币种：人民币\n'
+        cell=current['operating_report']['payload']['parsed']['income']['2023-12-31']['administrative_expenses']
+        cell.update(unit='万元',unit_evidence_page=4,unit_evidence_literal='单位：万元 币种：人民币',
+                    multiplier_CNY='10000',value_CNY=format(Decimal(cell['value_CNY'])*10000,'f'))
+        report=current['operating_report'];report['record_id']=digest({k:v for k,v in report.items() if k!='record_id'})
+        with self.assertRaises(ValueError):audit.check_case(pages,doc,current)
+        for declaration in ('单位：万元 币种：人民币','单位：元 币种：美元'):
+            pages,doc,current=self.source_case();pages[2]+=declaration+'\n'
+            with self.subTest(declaration=declaration),self.assertRaises(ValueError):audit.check_case(pages,doc,current)
 
     def test_original_split_numbered_statement_title_is_counted_once(self):
         for title in ('1、\n合并资产负债表','1\n、合并资产负债表'):

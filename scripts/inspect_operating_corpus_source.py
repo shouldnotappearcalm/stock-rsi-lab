@@ -29,6 +29,7 @@ METHODS=tuple(dict.fromkeys((*parent.METHODS,'src/stock_rsi/annual_operating.py'
     *(f'src/stock_rsi/annual_profitability_v{i}.py' for i in range(2,8)),
     'src/stock_rsi/models.py','src/stock_rsi/time.py','scripts/inspect_operating_corpus_source.py','scripts/audit_operating_corpus_source.py')))
 PUBLIC=(PARENT_REQUEST,'experiments/qlib/operating-profitability-source-request.json',
+    'experiments/qlib/operating-corpus-source-review.json',
     'experiments/qlib/operating-profitability-source-review.json','experiments/qlib/operating-profitability-source-results.json',
     'experiments/qlib/operating-profitability-source-independent-check.json',
     'tests/fixtures/annual-operating-real-row-vintages.json','tests/test_operating_availability.py',
@@ -128,18 +129,29 @@ def run(base,root,membership,request_file,expected_sha,*,executor_factory=Proces
     req,paths=verify(base,root,membership,request_file,expected_sha)
     paths={**paths,'frozen_request':Path(request_file)};expected={**req['input_sha256'],'frozen_request':expected_sha}
     for key,path in paths.items():need(sha(path)==expected[key],'input before '+key)
-    out.mkdir(parents=True);results={};submitted=[];queries=[];primary=None;mismatches=[];persistence=[];summary=None
+    out.mkdir(parents=True);results={};submitted=[];failed=[];queries=[];primary=None;mismatches=[];persistence=[];summary=None
     try:
         write_once(out/'input-before.json',expected)
         with executor_factory(max_workers=WORKERS) as pool:
             for start in range(0,len(req['documents']),WORKERS):
-                batch=req['documents'][start:start+WORKERS];futures=[]
+                batch=req['documents'][start:start+WORKERS];futures=[];batch_error=None
                 for doc in batch:
-                    submitted.append(doc['capture_key']);futures.append(pool.submit(worker,str(base),doc,req['normative_basis']))
-                for doc,future in zip(batch,futures):
-                    case=future.result();key=doc['capture_key']
-                    need(case['capture_key']==key and case['source_sha256']==doc['source_sha256'],'source worker identity')
-                    write_once(out/(key+'.json'),case);results[key]=case
+                    try:future=pool.submit(worker,str(base),doc,req['normative_basis'])
+                    except BaseException as exc:
+                        batch_error=exc;break
+                    submitted.append(doc['capture_key']);futures.append((doc,future))
+                # Drain every submitted peer even on failure. No later batch is
+                # submitted; aggregate order remains the original request order.
+                for doc,future in futures:
+                    key=doc['capture_key']
+                    try:
+                        case=future.result()
+                        need(case['capture_key']==key and case['source_sha256']==doc['source_sha256'],'source worker identity')
+                        write_once(out/(key+'.json'),case);results[key]=case
+                    except BaseException as exc:
+                        failed.append({'capture_key':key,'type':type(exc).__name__,'message':str(exc)})
+                        if batch_error is None:batch_error=exc
+                if batch_error is not None:raise batch_error
                 if len(results)%100==0 or len(results)==len(req['documents']):
                     print('operating source',len(results),'/',len(req['documents']),flush=True)
         need(set(results)=={d['capture_key'] for d in req['documents']},'complete original source cases required')
@@ -188,6 +200,7 @@ def run(base,root,membership,request_file,expected_sha,*,executor_factory=Proces
             except BaseException as exc:primary=exc
         terminal={'completed':summary is not None and primary is None and not mismatches and not persistence,
             'completed_documents':len(results),'submitted_keys':submitted,
+            'failed_documents':failed,'unsubmitted_keys':[d['capture_key'] for d in req['documents'] if d['capture_key'] not in submitted],
             'pending':[d['capture_key'] for d in req['documents'] if d['capture_key'] not in results],
             'completed_queries':queries,'pending_query_count':len(req['formations'])*len(req['modes'])-len(queries),
             'original_error':None if primary is None else {'type':type(primary).__name__,'message':str(primary)},

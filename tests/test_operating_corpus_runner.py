@@ -2,6 +2,7 @@ from concurrent.futures import ThreadPoolExecutor
 import json
 from pathlib import Path
 import tempfile
+import threading
 import unittest
 from unittest.mock import patch
 
@@ -87,10 +88,27 @@ class OperatingCorpusRunnerTests(unittest.TestCase):
             return build.inspect_one(base,doc,basis)
         with self.assertRaises(KeyboardInterrupt) as caught:self.run_source(worker)
         self.assertIs(caught.exception,original);out=self.base/build.OUTPUT;terminal=build.read(out/'terminal.json')
-        self.assertFalse(terminal['completed']);self.assertEqual(terminal['completed_documents'],1)
-        self.assertEqual(len(terminal['pending']),4)
+        self.assertFalse(terminal['completed']);self.assertEqual(terminal['completed_documents'],3)
+        self.assertEqual(len(terminal['pending']),2)
         self.assertEqual({x['input'] for x in terminal['postcheck']['mismatches']},{'source/original-1.pdf','frozen_request'})
         self.assertFalse((out/'summary.json').exists())
+
+    def test_first_worker_failure_drains_completed_peers_without_submitting_next_batch(self):
+        barrier=threading.Barrier(4);original=RuntimeError('first worker failed after successful peers')
+        def worker(base,doc,basis):
+            if doc['capture_key']=='SYNTHETIC-0':
+                barrier.wait(timeout=10);raise original
+            result=build.inspect_one(base,doc,basis);barrier.wait(timeout=10);return result
+        with self.assertRaises(RuntimeError) as caught:self.run_source(worker)
+        self.assertIs(caught.exception,original);out=self.base/build.OUTPUT;terminal=build.read(out/'terminal.json')
+        self.assertFalse(terminal['completed']);self.assertEqual(terminal['completed_documents'],3)
+        self.assertEqual(terminal['submitted_keys'],['SYNTHETIC-'+str(i) for i in range(4)])
+        self.assertEqual(terminal['unsubmitted_keys'],['SYNTHETIC-4'])
+        self.assertEqual(terminal['failed_documents'],[{'capture_key':'SYNTHETIC-0','type':'RuntimeError','message':str(original)}])
+        self.assertEqual(terminal['pending'],['SYNTHETIC-0','SYNTHETIC-4'])
+        cases=build.read(out/'case_results.json');self.assertEqual(list(cases),['SYNTHETIC-1','SYNTHETIC-2','SYNTHETIC-3'])
+        for key in cases:self.assertEqual(cases[key],build.read(out/(key+'.json')))
+        self.assertTrue(terminal['postcheck']['all_inputs_unchanged']);self.assertFalse((out/'summary.json').exists())
 
     def test_summary_write_interrupt_rechecks_inputs_and_never_publishes_completion(self):
         writer=build.write_once;original=KeyboardInterrupt('summary write interrupted')
