@@ -1,0 +1,76 @@
+{
+  "status": "MANUAL_RAW_CELLS_REVIEWED_BEFORE_METRIC",
+  "contract": "CN_OP_EX_RND_SAME_EDITION_LAGGED_ASSETS_V1",
+  "instrument": "SH600166",
+  "expected_cells_CNY": {
+    "2023": {
+      "income": {
+        "2023-12-31": {
+          "revenue": "56096761370.79",
+          "cost_of_sales": "49712583057.97",
+          "selling_expenses": "2137415406.44",
+          "administrative_expenses": "1537675946.48",
+          "research_expenses": "2080066731.86"
+        },
+        "2022-12-31": {
+          "revenue": "46446743956.22",
+          "cost_of_sales": "41161578185.99",
+          "selling_expenses": "1788330767.74",
+          "administrative_expenses": "1485819506.69",
+          "research_expenses": "1592404586.76"
+        }
+      },
+      "balances": {
+        "2023-12-31": "44885094665.28",
+        "2022-12-31": "48518057775.80"
+      }
+    },
+    "2024": {
+      "income": {
+        "2024-12-31": {
+          "revenue": "47697540240.43",
+          "cost_of_sales": "41666949302.89",
+          "selling_expenses": "1922536798.93",
+          "administrative_expenses": "1400893430.54",
+          "research_expenses": "1899532571.91"
+        },
+        "2023-12-31": {
+          "revenue": "56096761370.79",
+          "cost_of_sales": "49997740569.45",
+          "selling_expenses": "1852257894.96",
+          "administrative_expenses": "1537675946.48",
+          "research_expenses": "2080066731.86"
+        }
+      },
+      "balances": {
+        "2024-12-31": "51848813097.04",
+        "2023-12-31": "44885094665.28"
+      }
+    }
+  },
+  "source_pdf_sha256": {
+    "SH600166-2023-12-31-1219874919.pdf": "e7588a7d935897aed750034c6847b0f57ab923c4837484f18e3bf62387b67eef",
+    "SH600166-2024-12-31-1223327299.pdf": "bce69ed22306f3a0cc5b6a62eef9f2fab05d8a3c148f9715fd86faf937540410"
+  },
+  "source_mapping_review_sha256": "7c8491c56432888997edc6c93e15c9e449678414d5afa8dc6105c75180951b18",
+  "manually_reviewed_physical_pages": {
+    "2023": [
+      104,
+      105,
+      108
+    ],
+    "2024": [
+      98,
+      99,
+      102,
+      156
+    ]
+  },
+  "numeric_cell_count": 24,
+  "expected_current_measure_is_not_precomputed": true,
+  "full_cash_profitability_replication": false,
+  "review_note": "Original consolidated statement images and both fiscal columns; source-only raw amounts, no ratio/rank/return precomputed. Preserve2023 original and2024-edition comparative reclassification.",
+  "historical_arrival_verified": false,
+  "investment_factor_admitted": false,
+  "2026_financial_or_market_values_read": false
+}
