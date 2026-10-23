@@ -122,6 +122,27 @@ class LowOperatingLifecycleSourceTests(unittest.TestCase):
             with self.assertRaises(ValueError):self.fixture(root,FullSDK(),write)
             r=source.read(root/'capture/followup-terminal.json');self.assertFalse(r['complete']);self.assertFalse(r['all_inputs_unchanged'])
 
+    def test_terminal_stage_changed_added_or_deleted_capture_output_fails_with_evidence(self):
+        for mode in ('change','add','delete'):
+            with self.subTest(mode=mode),tempfile.TemporaryDirectory() as t:
+                root=Path(t);real=source.write_once
+                def write(p,v):
+                    real(p,v)
+                    if p.name!='.followup-terminal-pending.json':return
+                    out=root/'capture'
+                    if mode=='change':
+                        target=out/'codes/SZ002326.json';packet=source.read(target)
+                        packet['bars'][0]['open']='9.5';target.write_text(__import__('json').dumps(packet))
+                    elif mode=='add':(out/'unexpected-source.json').write_text('{"not_registered":true}')
+                    else:next(out.rglob('response-*.json')).unlink()
+                with self.assertRaisesRegex(ValueError,'capture outputs changed'):
+                    self.fixture(root,FullSDK(),write)
+                out=root/'capture';r=source.read(out/'followup-terminal.json')
+                self.assertFalse(r['complete']);self.assertTrue(r['all_inputs_unchanged'])
+                self.assertFalse(r['all_capture_outputs_unchanged']);self.assertTrue(r['changed_capture_outputs'])
+                self.assertTrue((out/'codes/SZ002505.json').exists())
+                self.assertEqual(len(list(out.rglob('reserved-*.json'))),4)
+
     def test_checker_independently_preserves_ST_noncash_and_lifecycle_limit(self):
         p=packet('SZ002505',SESSIONS[:2]);p['bars'][0]['isST']='1'
         row=dict.fromkeys(DIVIDEND_FIELDS,'');row.update(code='sz.002505',dividOperateDate='2024-06-10',

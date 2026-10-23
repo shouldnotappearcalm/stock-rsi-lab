@@ -1,0 +1,57 @@
+{
+  "status": "ONE_FRESH_REVIEW_ONE_RED_GREEN_CORRECTION_PASS_COMPLETE_NOT_SOURCE_OR_ACCOUNT_ACCEPTANCE",
+  "reviewed_range": "1176611a42cd0af58d2261f3d9afeb33663b928b..5db9267",
+  "critical": 0,
+  "important": 1,
+  "minor": 0,
+  "fixed_important": "Changed/added/deleted captured artifacts during terminal persistence now invalidate completion; whole raw output tree hashes/membership are checked and failure evidence retained. Separate checker verifies that tree proof.",
+  "red_evidence": "Three changed/added/deleted output cases reproduced false completion before fix.",
+  "green_evidence": {
+    "target_tests": 11,
+    "full_tests": 1436,
+    "full_seconds": 21.736
+  },
+  "independently_reviewed_pre_correction_target_tests": 10,
+  "rulings": [
+    {
+      "deferred": "Actual181input/87overlap/42copy/4fresh-envelope authentication and realized486-session163/323split",
+      "cost": "Root must run frozen actual inventory/source checker; review validates logic and synthetic data only."
+    },
+    {
+      "deferred": "Original PDF content and delisting interpretation",
+      "cost": "Root re-read issuer notice2024-078page1 and authenticated PDF SHA; reviewer did not independently reopen it."
+    },
+    {
+      "deferred": "Live BaoStock availability/version/socket/cleanup",
+      "cost": "Root must verify installed0.9.4and actual single-session artifacts; synthetic tests do not prove live service behavior."
+    },
+    {
+      "deferred": "Actual account-flatness and later required-dependency population",
+      "cost": "Unchanged guard is tested, but no current account has run; later frozen replay must cover shares/orders/price dependencies."
+    },
+    {
+      "deferred": "Corporate completeness/tax/fractional branches/tradability",
+      "cost": "Source-only work admits none of these; retain failures and require all lawful allocation branches in later accounts."
+    },
+    {
+      "deferred": "Performance/PIT/2026/full goal",
+      "cost": "No account or new2026values are permitted here, so no qualifying-return claim follows."
+    },
+    {
+      "deferred": "Full1436suite and remoteCI",
+      "cost": "Root supplies full-suite/live exact-head evidence; reviewer independently reran only10pre-correction targettests."
+    },
+    {
+      "deferred": "Final freeze/publication/results/cleanup",
+      "cost": "Root executes these after review; prospective/live evidence remains separate from code-review verdict."
+    },
+    {
+      "deferred": "Arbitrary mutations after final verification",
+      "cost": "No filesystem locking/isolation is claimed; final persistence interval and later audit hashes are protected, later arbitrary changes invalidate reuse."
+    }
+  ],
+  "rereview_performed": false,
+  "portfolio_return_computed": false,
+  "2026_values_read": false,
+  "objective_achieved": false
+}

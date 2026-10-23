@@ -67,6 +67,8 @@ def audit(base,root,raw,request,expected):
         and terminal['request_sha256']==expected and terminal['all_source_calendars_complete'] is False
         and terminal['shared_adapter_origin_status']==m['status']=='LOW_MARKET_RESIDUAL_VOL1M_RAW_SOURCES_CAPTURED_ADMISSION_SEPARATE','honest partial-calendar source terminal and original adapter identity')
     need(not any('failure' in Path(n).name or n.startswith('.followup') for n in before),'no incomplete/failure outer terminal')
+    need(terminal['all_capture_outputs_unchanged'] is True and not terminal['changed_capture_outputs']
+        and terminal['capture_output_sha256']=={k:h for k,h in before.items() if k!='followup-terminal.json'},'complete capture output tree protected through persistence')
     sessions=read(raw/'calendar.json')['sessions'];need(sha(raw/'calendar.json')==m['calendar_sha256'] and len(sessions)==486
         and sessions==sorted(set(sessions)) and [sessions[0],sessions[-1]]==[START,END]
         and sessions==[d for d in (base/legacy.CALENDAR).read_text().splitlines() if START<=d<=END],'exact original486source sessions')

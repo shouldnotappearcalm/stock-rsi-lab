@@ -133,14 +133,25 @@ def execute(req,auth,out,sdk,*,request_bytes,request_sha):
                 if sha(p)!=h:result.append(p)
             except BaseException:result.append(p)
         return result
+    managed_terminal_names={'.followup-terminal-pending.json','.followup-finalization-failure.json','followup-terminal.json'}
+    def captured_outputs():
+        return {str(p.relative_to(out)):sha(p) for p in sorted(out.rglob('*'))
+            if p.is_file() and str(p.relative_to(out)) not in managed_terminal_names}
+    original_outputs=None
+    def changed_outputs():
+        if original_outputs is None:return []
+        current=captured_outputs()
+        return sorted(k for k in set(current)|set(original_outputs) if current.get(k)!=original_outputs.get(k))
     result={'status':'LOW_OPERATING_LIFECYCLE_SOURCE_FAILURE_RETAINED','candidate':CANDIDATE,'original_target_family':FAMILY,
         'request_sha256':request_sha,'complete':False,'historical_arrival_verified':False,'corporate_action_completeness_verified':False,
-        'actual_flat_inventory_proven':False,'physical_account_admitted':False,'portfolio_return_computed':False,'2026_values_read':False,'objective_achieved':False}
+        'actual_flat_inventory_proven':False,'physical_account_admitted':False,'portfolio_return_computed':False,'2026_values_read':False,'objective_achieved':False,
+        'all_capture_outputs_unchanged':False,'changed_capture_outputs':[]}
     primary_error=None;rc=None
     try:rc=old.core.capture(req,auth,out,sdk,request_bytes=request_bytes,request_sha=request_sha)
     except BaseException as exc:primary_error=exc
     try:
-        out.mkdir(exist_ok=True);m=read(out/'manifest.json') if (out/'manifest.json').exists() else {};checked={}
+        out.mkdir(exist_ok=True);original_outputs=captured_outputs();result['capture_output_sha256']=original_outputs
+        m=read(out/'manifest.json') if (out/'manifest.json').exists() else {};checked={}
         result.update(shared_adapter_origin_status=m.get('status'),adapter_return_code=rc,adapter_abnormal_exit=m.get('abnormal_exit'),
             adapter_errors_sha256=m.get('errors_sha256',{}),original_error=None if primary_error is None else {'type':type(primary_error).__name__,'message':str(primary_error)})
         for code,h in m.get('per_code_sha256',{}).items():
@@ -148,17 +159,21 @@ def execute(req,auth,out,sdk,*,request_bytes,request_sha):
             old.source_fingerprint(packet);checked[code]=coverage(packet,auth['sessions'],auth['boundaries'])
         changes=changed();complete=(rc==0 and m.get('capture_complete') is True and set(checked)==set(req['codes']) and not changes and primary_error is None)
         result.update(status='LOW_OPERATING_PRIMARY_BOUNDARY_SOURCES_COMPLETE_NOT_ADMITTED' if complete else result['status'],complete=complete,
-            all_source_calendars_complete=m.get('all_source_calendars_complete'),source_coverage=checked,all_inputs_unchanged=not changes,changed_inputs=changes)
+            all_source_calendars_complete=m.get('all_source_calendars_complete'),source_coverage=checked,all_inputs_unchanged=not changes,changed_inputs=changes,
+            all_capture_outputs_unchanged=True)
         write_once(out/'.followup-terminal-pending.json',result)
-        late=changed()
+        late=changed();late_outputs=changed_outputs()
+        result.update(all_capture_outputs_unchanged=not late_outputs,changed_capture_outputs=late_outputs)
+        if late_outputs:raise ValueError('capture outputs changed during final persistence')
         if late:
             result.update(complete=False,status='LOW_OPERATING_LIFECYCLE_SOURCE_FAILURE_RETAINED',all_inputs_unchanged=False,changed_inputs=late)
             raise ValueError('continuation inputs changed during final persistence')
         os.replace(out/'.followup-terminal-pending.json',out/'followup-terminal.json')
     except BaseException as exc:
         if primary_error is None:primary_error=exc
-        late=changed();result.update(status='LOW_OPERATING_LIFECYCLE_SOURCE_FAILURE_RETAINED',complete=False,all_inputs_unchanged=not late,
-            changed_inputs=late,original_error={'type':type(primary_error).__name__,'message':str(primary_error)})
+        late=changed();late_outputs=changed_outputs();result.update(status='LOW_OPERATING_LIFECYCLE_SOURCE_FAILURE_RETAINED',complete=False,all_inputs_unchanged=not late,
+            changed_inputs=late,all_capture_outputs_unchanged=not late_outputs,changed_capture_outputs=late_outputs,
+            original_error={'type':type(primary_error).__name__,'message':str(primary_error)})
         try:write_once(out/'.followup-finalization-failure.json',result);os.replace(out/'.followup-finalization-failure.json',out/'followup-terminal.json')
         except BaseException as secondary:primary_error.add_note('terminal persistence failed: '+type(secondary).__name__)
     if primary_error is not None:raise primary_error
