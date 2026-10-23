@@ -1,0 +1,46 @@
+{
+  "status": "CONTINUOUS_ACCOUNT_DIAGNOSTIC_RETAINED",
+  "request_sha256": "a2c41c728f7bacae1a323bdacfdc10d01af86299aaccfc74eb45406e6187d189",
+  "window": [
+    "2023-12-29",
+    "2026-10-21"
+  ],
+  "results_by_extra_bps": {
+    "20": {
+      "status": "STRICT_ACCOUNT_FAILURE_RETAINED",
+      "error_type": "ValueError",
+      "error": "applicable capital transfer tax treatment is unverified"
+    },
+    "40": {
+      "status": "STRICT_ACCOUNT_FAILURE_RETAINED",
+      "error_type": "ValueError",
+      "error": "applicable capital transfer tax treatment is unverified"
+    }
+  },
+  "pending_cost_cases": [],
+  "original_error": null,
+  "persistence_errors": [],
+  "changed_inputs": [],
+  "complete": false,
+  "historical_observed_arrival_verified": false,
+  "opening_liquidity_verified": false,
+  "full_october_complete": false,
+  "sealed_2026_evidence": false,
+  "separate_ledger_QA_passed": false,
+  "objective_achieved": false,
+  "freeze_commit": "eced020f766122a703f6c78dca72b4450ae1d592",
+  "all_private_output_sha256": {
+    "20/error.json": "49ea6edd52602cac8aaa72104b911a2f978985da6d4125609af5fdf01a80bc5a",
+    "20/failed_account_state.json": "3e662c4fc1656d9004252c1785640c8ff061535f9a3c06ea23893374e866ab25",
+    "40/error.json": "49ea6edd52602cac8aaa72104b911a2f978985da6d4125609af5fdf01a80bc5a",
+    "40/failed_account_state.json": "f506e756d02d784f7bfef4a5c8c3dafb34f002e5a19c09b2e96debcda2516436",
+    "case_results.json": "b4b6e67ddfb690b46db662a7fd98acc35d032b299d7f0068de6d61171d393801",
+    "inputs-after.json": "d8e82701f07e79112e5ee6ab7f7dbef56add932181889832711f701fdaf41839",
+    "inputs-before.json": "9bb0bc4bebc2f9c1039daffd1a62a5843dc4c7348b810949e3ca59a41fa1c68a",
+    "request.json": "a2c41c728f7bacae1a323bdacfdc10d01af86299aaccfc74eb45406e6187d189",
+    "source_projection.json": "a59b99336d077b52068e8bf87e0e248bdbd982fb44728c38727fdf29835b11ca",
+    "summary.json": "dde50fccb9839399418a17e11232a232eb7078cc316f713cbfd018324f49b9b5"
+  },
+  "actual_exit_code": 2,
+  "portfolio_return_computed": false
+}
