@@ -1,0 +1,2064 @@
+{
+  "status": "RAW_OVERLAP_CHECK_COMPLETE_NOT_SOURCE_ADMISSION",
+  "items": {
+    "SH600022": {
+      "choices": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "packet_sha256": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "packet_sha256": "39de5c527d7a98749efcfd6e3e1427459687d4274d55a464e87f8e3d24fba1ba",
+          "window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "bar_rows": 674,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "errors": [],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": {
+        "cache": "low-risk-raw-account-data-20261017",
+        "packet_sha256": "39de5c527d7a98749efcfd6e3e1427459687d4274d55a464e87f8e3d24fba1ba",
+        "window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "bar_rows": 674,
+        "distribution_rows": 0,
+        "adjustment_rows": 0,
+        "quarantine_rows": 0,
+        "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "source_admitted_for_replay": false
+    },
+    "SH600060": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600062": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-extension-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600066": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600126": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600131": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600166": {
+      "choices": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "packet_sha256": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "errors": [],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "packet_sha256": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+        "window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "bar_rows": 486,
+        "distribution_rows": 0,
+        "adjustment_rows": 0,
+        "quarantine_rows": 0,
+        "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "source_admitted_for_replay": false
+    },
+    "SH600170": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "low-beta60-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-extension-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600177": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-extension-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600208": {
+      "choices": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "packet_sha256": "4fa6708ca796566a0f5a93a81b2eba588d02de146aee0499b53f97f31a825d15",
+          "window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "bar_rows": 674,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "packet_sha256": "6b61173fbd548053589db3f51d6692aa6b86d5e516744feeebebc27eb9fce411",
+          "window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "bar_rows": 674,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "errors": [],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": {
+        "cache": "low-risk-raw-account-data-20261017",
+        "packet_sha256": "4fa6708ca796566a0f5a93a81b2eba588d02de146aee0499b53f97f31a825d15",
+        "window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "bar_rows": 674,
+        "distribution_rows": 0,
+        "adjustment_rows": 0,
+        "quarantine_rows": 0,
+        "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "source_admitted_for_replay": false
+    },
+    "SH600258": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600271": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600282": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600315": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600316": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600325": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-extension-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600516": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600535": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600536": {
+      "choices": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "packet_sha256": "dfac19db51c0cf92c8691007b482536e7fa939008bafa4e5cc97ce319092378e",
+          "window": [
+            "2023-12-29",
+            "2026-10-20"
+          ],
+          "bar_rows": 676,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "packet_sha256": "dfac19db51c0cf92c8691007b482536e7fa939008bafa4e5cc97ce319092378e",
+          "window": [
+            "2023-12-29",
+            "2026-10-20"
+          ],
+          "bar_rows": 676,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "packet_sha256": "c2a83779439ea0581c08e7797849588093caac09f3b1e14e68488adfe31f201b",
+          "window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "bar_rows": 674,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "errors": [],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": {
+        "cache": "price-delay-raw-horizon-20261021",
+        "packet_sha256": "dfac19db51c0cf92c8691007b482536e7fa939008bafa4e5cc97ce319092378e",
+        "window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "bar_rows": 676,
+        "distribution_rows": 0,
+        "adjustment_rows": 0,
+        "quarantine_rows": 0,
+        "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "source_admitted_for_replay": false
+    },
+    "SH600546": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600580": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600655": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600707": {
+      "choices": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "errors": [],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+        "window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "bar_rows": 486,
+        "distribution_rows": 0,
+        "adjustment_rows": 0,
+        "quarantine_rows": 0,
+        "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "source_admitted_for_replay": false
+    },
+    "SH600737": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600859": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600873": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-extension-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600967": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH600977": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH601118": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "low-beta60-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-extension-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-beta60-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH601156": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH601568": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH601608": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH601828": {
+      "choices": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "packet_sha256": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "packet_sha256": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "packet_sha256": "b13f9f64a4296e8e7fb996a78e8850c2beb367a07500aceab0143ede81930910",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "packet_sha256": "23ed571122b83e3d520710b583700579ce2fd522a38d54e8004163ca3678d389",
+          "window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "bar_rows": 674,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "errors": [],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": {
+        "cache": "reversal-raw-full-20261017",
+        "packet_sha256": "23ed571122b83e3d520710b583700579ce2fd522a38d54e8004163ca3678d389",
+        "window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "bar_rows": 674,
+        "distribution_rows": 0,
+        "adjustment_rows": 0,
+        "quarantine_rows": 0,
+        "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "source_admitted_for_replay": false
+    },
+    "SH601880": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH601933": {
+      "choices": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "packet_sha256": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-beta60-raw-dev-20261021",
+          "packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-beta60-raw-extension-20261021",
+          "packet_sha256": "14effd20962d4b586c1cfaf9d581569d56ebe925fadca2a86e8429dd63b2d2e0",
+          "window": [
+            "2023-12-29",
+            "2026-10-13"
+          ],
+          "bar_rows": 671,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-beta60-raw-horizon-20261021",
+          "packet_sha256": "7cdf0561266893194da6f3e0ed9f378280bd298cb3a128c67b91625d3b3180d5",
+          "window": [
+            "2023-12-29",
+            "2026-10-20"
+          ],
+          "bar_rows": 676,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "packet_sha256": "c2c2668b6a23a08a15896036b74f0c09bf34f3955ca389f2c48e0703b22b4c73",
+          "window": [
+            "2023-12-29",
+            "2026-10-20"
+          ],
+          "bar_rows": 676,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "packet_sha256": "c2c2668b6a23a08a15896036b74f0c09bf34f3955ca389f2c48e0703b22b4c73",
+          "window": [
+            "2023-12-29",
+            "2026-10-20"
+          ],
+          "bar_rows": 676,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "packet_sha256": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+          "window": [
+            "2023-12-29",
+            "2025-12-31"
+          ],
+          "bar_rows": 486,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "packet_sha256": "4c7259e76e077ab9364ea11479fa8c0affb2b04a6bac868f12efa0d1b662e6ee",
+          "window": [
+            "2023-12-29",
+            "2026-10-16"
+          ],
+          "bar_rows": 674,
+          "distribution_rows": 0,
+          "adjustment_rows": 0,
+          "quarantine_rows": 0,
+          "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "errors": [],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": {
+        "cache": "low-beta60-raw-horizon-20261021",
+        "packet_sha256": "7cdf0561266893194da6f3e0ed9f378280bd298cb3a128c67b91625d3b3180d5",
+        "window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "bar_rows": 676,
+        "distribution_rows": 0,
+        "adjustment_rows": 0,
+        "quarantine_rows": 0,
+        "quarantine_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "source_admitted_for_replay": false
+    },
+    "SH603056": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603077": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603156": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603160": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603589": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603688": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603707": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603712": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603737": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "budgeted-residual-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603858": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-risk-raw-account-data-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603868": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "illiquidity-raw-source-continuation-20261020",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-dev-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "price-delay-raw-horizon-v2-20261021",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    },
+    "SH603882": {
+      "choices": [],
+      "errors": [
+        {
+          "cache": "asset-expansion-raw-pre2026-20261022",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "return-families-raw-dev-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        },
+        {
+          "cache": "reversal-raw-full-20261017",
+          "error_type": "ValueError",
+          "error": "numeric source field required"
+        }
+      ],
+      "conflicts": [],
+      "unresolved_quarantine": false,
+      "route": null,
+      "source_admitted_for_replay": false
+    }
+  },
+  "calendar_errors": [],
+  "unresolved_codes": [
+    "SH600060",
+    "SH600062",
+    "SH600066",
+    "SH600126",
+    "SH600131",
+    "SH600170",
+    "SH600177",
+    "SH600258",
+    "SH600271",
+    "SH600282",
+    "SH600315",
+    "SH600316",
+    "SH600325",
+    "SH600516",
+    "SH600535",
+    "SH600546",
+    "SH600580",
+    "SH600655",
+    "SH600737",
+    "SH600859",
+    "SH600873",
+    "SH600967",
+    "SH600977",
+    "SH601118",
+    "SH601156",
+    "SH601568",
+    "SH601608",
+    "SH601880",
+    "SH603056",
+    "SH603077",
+    "SH603156",
+    "SH603160",
+    "SH603589",
+    "SH603688",
+    "SH603707",
+    "SH603712",
+    "SH603737",
+    "SH603858",
+    "SH603868",
+    "SH603882"
+  ],
+  "source_admitted_for_replay": false,
+  "corporate_action_completeness_verified": false,
+  "historical_arrival_verified": false,
+  "network_queries": 0,
+  "strategy_or_targets_changed": false,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false,
+  "request_sha256": "803abe2800dcfcf80ed0829e80e11ea2afe2ab6559ca972efc5b25115c9a4831",
+  "completed_codes": [
+    "SH600022",
+    "SH600060",
+    "SH600062",
+    "SH600066",
+    "SH600126",
+    "SH600131",
+    "SH600166",
+    "SH600170",
+    "SH600177",
+    "SH600208",
+    "SH600258",
+    "SH600271",
+    "SH600282",
+    "SH600315",
+    "SH600316",
+    "SH600325",
+    "SH600516",
+    "SH600535",
+    "SH600536",
+    "SH600546",
+    "SH600580",
+    "SH600655",
+    "SH600707",
+    "SH600737",
+    "SH600859",
+    "SH600873",
+    "SH600967",
+    "SH600977",
+    "SH601118",
+    "SH601156",
+    "SH601568",
+    "SH601608",
+    "SH601828",
+    "SH601880",
+    "SH601933",
+    "SH603056",
+    "SH603077",
+    "SH603156",
+    "SH603160",
+    "SH603589",
+    "SH603688",
+    "SH603707",
+    "SH603712",
+    "SH603737",
+    "SH603858",
+    "SH603868",
+    "SH603882"
+  ],
+  "pending_codes": [],
+  "original_error": null,
+  "input_postcheck": {
+    "all_inputs_unchanged": true,
+    "changed_or_missing": [],
+    "consumed_file_count": 262
+  },
+  "persistence_errors": []
+}
