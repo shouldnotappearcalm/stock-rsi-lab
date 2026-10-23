@@ -1,0 +1,4520 @@
+{
+  "last_account_clock": [
+    "2024-08-29",
+    1
+  ],
+  "cash": "25284.0900",
+  "positions": {
+    "SH600126": [
+      {
+        "quantity": 8000,
+        "bought_on": "2024-01-02",
+        "price": "5.3100"
+      },
+      {
+        "quantity": 600,
+        "bought_on": "2024-02-01",
+        "price": "4.4400"
+      },
+      {
+        "quantity": 200,
+        "bought_on": "2024-04-01",
+        "price": "5.4200"
+      },
+      {
+        "quantity": 1600,
+        "bought_on": "2024-05-06",
+        "price": "5.1600"
+      },
+      {
+        "quantity": 500,
+        "bought_on": "2024-06-03",
+        "price": "4.7400"
+      },
+      {
+        "quantity": 700,
+        "bought_on": "2024-07-01",
+        "price": "4.1100"
+      },
+      {
+        "quantity": 2400,
+        "bought_on": "2024-08-01",
+        "price": "3.6900"
+      }
+    ],
+    "SH600316": [
+      {
+        "quantity": 1400,
+        "bought_on": "2024-01-02",
+        "price": "21.1000"
+      },
+      {
+        "quantity": 500,
+        "bought_on": "2024-02-01",
+        "price": "15.5500"
+      },
+      {
+        "quantity": 300,
+        "bought_on": "2024-05-06",
+        "price": "18.1500"
+      },
+      {
+        "quantity": 200,
+        "bought_on": "2024-07-01",
+        "price": "16.5200"
+      }
+    ],
+    "SH600655": [
+      {
+        "quantity": 6600,
+        "bought_on": "2024-01-02",
+        "price": "6.2200"
+      },
+      {
+        "quantity": 300,
+        "bought_on": "2024-03-01",
+        "price": "6.6100"
+      },
+      {
+        "quantity": 900,
+        "bought_on": "2024-04-01",
+        "price": "6.1400"
+      },
+      {
+        "quantity": 1100,
+        "bought_on": "2024-05-06",
+        "price": "5.9700"
+      },
+      {
+        "quantity": 400,
+        "bought_on": "2024-07-01",
+        "price": "5.1500"
+      },
+      {
+        "quantity": 100,
+        "bought_on": "2024-08-01",
+        "price": "5.4700"
+      }
+    ],
+    "SH600959": [
+      {
+        "quantity": 14000,
+        "bought_on": "2024-01-02",
+        "price": "3.1500"
+      },
+      {
+        "quantity": 300,
+        "bought_on": "2024-03-01",
+        "price": "3.1800"
+      },
+      {
+        "quantity": 1000,
+        "bought_on": "2024-04-01",
+        "price": "3.1200"
+      },
+      {
+        "quantity": 1900,
+        "bought_on": "2024-05-06",
+        "price": "3.1000"
+      },
+      {
+        "quantity": 700,
+        "bought_on": "2024-06-03",
+        "price": "2.9000"
+      },
+      {
+        "quantity": 200,
+        "bought_on": "2024-07-01",
+        "price": "2.6300"
+      },
+      {
+        "quantity": 300,
+        "bought_on": "2024-08-01",
+        "price": "2.7900"
+      }
+    ],
+    "SH601118": [
+      {
+        "quantity": 8000,
+        "bought_on": "2024-01-02",
+        "price": "4.2900"
+      },
+      {
+        "quantity": 200,
+        "bought_on": "2024-03-01",
+        "price": "4.4600"
+      },
+      {
+        "quantity": 2000,
+        "bought_on": "2024-05-06",
+        "price": "4.6300"
+      },
+      {
+        "quantity": 300,
+        "bought_on": "2024-07-01",
+        "price": "4.5200"
+      },
+      {
+        "quantity": 1300,
+        "bought_on": "2024-08-01",
+        "price": "4.3900"
+      }
+    ],
+    "SH601933": [
+      {
+        "quantity": 13600,
+        "bought_on": "2024-01-02",
+        "price": "2.8200"
+      },
+      {
+        "quantity": 700,
+        "bought_on": "2024-02-01",
+        "price": "2.4300"
+      },
+      {
+        "quantity": 500,
+        "bought_on": "2024-03-01",
+        "price": "2.6300"
+      },
+      {
+        "quantity": 3700,
+        "bought_on": "2024-04-01",
+        "price": "2.2800"
+      },
+      {
+        "quantity": 800,
+        "bought_on": "2024-05-06",
+        "price": "2.4500"
+      },
+      {
+        "quantity": 3500,
+        "bought_on": "2024-08-01",
+        "price": "2.2600"
+      }
+    ],
+    "SZ002195": [
+      {
+        "quantity": 14100,
+        "bought_on": "2024-01-02",
+        "price": "3.0700"
+      },
+      {
+        "quantity": 1800,
+        "bought_on": "2024-02-01",
+        "price": "2.4500"
+      },
+      {
+        "quantity": 200,
+        "bought_on": "2024-04-01",
+        "price": "2.9600"
+      },
+      {
+        "quantity": 1600,
+        "bought_on": "2024-05-06",
+        "price": "3.0000"
+      },
+      {
+        "quantity": 1100,
+        "bought_on": "2024-06-03",
+        "price": "2.7500"
+      },
+      {
+        "quantity": 300,
+        "bought_on": "2024-07-01",
+        "price": "2.5200"
+      },
+      {
+        "quantity": 2000,
+        "bought_on": "2024-08-01",
+        "price": "2.4600"
+      }
+    ],
+    "SZ000050": [
+      {
+        "quantity": 5500,
+        "bought_on": "2024-04-01",
+        "price": "8.3000"
+      },
+      {
+        "quantity": 700,
+        "bought_on": "2024-05-06",
+        "price": "8.2000"
+      },
+      {
+        "quantity": 400,
+        "bought_on": "2024-06-03",
+        "price": "7.5300"
+      },
+      {
+        "quantity": 600,
+        "bought_on": "2024-08-01",
+        "price": "7.1400"
+      }
+    ],
+    "SH600118": [
+      {
+        "quantity": 2100,
+        "bought_on": "2024-05-06",
+        "price": "24.8000"
+      },
+      {
+        "quantity": 100,
+        "bought_on": "2024-07-01",
+        "price": "22.2300"
+      }
+    ],
+    "SH600516": [
+      {
+        "quantity": 10400,
+        "bought_on": "2024-05-06",
+        "price": "5.2900"
+      },
+      {
+        "quantity": 300,
+        "bought_on": "2024-06-03",
+        "price": "4.8500"
+      },
+      {
+        "quantity": 400,
+        "bought_on": "2024-07-01",
+        "price": "4.3100"
+      },
+      {
+        "quantity": 500,
+        "bought_on": "2024-08-01",
+        "price": "4.4600"
+      }
+    ],
+    "SH600739": [
+      {
+        "quantity": 5100,
+        "bought_on": "2024-05-06",
+        "price": "10.5200"
+      },
+      {
+        "quantity": 100,
+        "bought_on": "2024-06-03",
+        "price": "9.8500"
+      },
+      {
+        "quantity": 500,
+        "bought_on": "2024-07-01",
+        "price": "8.3600"
+      },
+      {
+        "quantity": 300,
+        "bought_on": "2024-08-01",
+        "price": "8.5800"
+      }
+    ],
+    "SZ000825": [
+      {
+        "quantity": 13700,
+        "bought_on": "2024-05-06",
+        "price": "3.9000"
+      },
+      {
+        "quantity": 400,
+        "bought_on": "2024-07-01",
+        "price": "3.3800"
+      },
+      {
+        "quantity": 300,
+        "bought_on": "2024-08-01",
+        "price": "3.5900"
+      }
+    ],
+    "SZ002505": [
+      {
+        "quantity": 48800,
+        "bought_on": "2024-05-06",
+        "price": "1.0700"
+      },
+      {
+        "quantity": 5600,
+        "bought_on": "2024-06-03",
+        "price": "0.9600"
+      }
+    ],
+    "SH601106": [
+      {
+        "quantity": 20300,
+        "bought_on": "2024-06-03",
+        "price": "2.5300"
+      },
+      {
+        "quantity": 400,
+        "bought_on": "2024-07-01",
+        "price": "2.3000"
+      },
+      {
+        "quantity": 600,
+        "bought_on": "2024-08-01",
+        "price": "2.4200"
+      }
+    ],
+    "SZ002153": [
+      {
+        "quantity": 7800,
+        "bought_on": "2024-06-03",
+        "price": "6.5700"
+      },
+      {
+        "quantity": 600,
+        "bought_on": "2024-07-01",
+        "price": "5.7400"
+      },
+      {
+        "quantity": 800,
+        "bought_on": "2024-08-01",
+        "price": "5.6000"
+      }
+    ],
+    "SH601158": [
+      {
+        "quantity": 10000,
+        "bought_on": "2024-07-01",
+        "price": "4.8200"
+      },
+      {
+        "quantity": 200,
+        "bought_on": "2024-08-01",
+        "price": "5.0600"
+      }
+    ],
+    "SH601866": [
+      {
+        "quantity": 18500,
+        "bought_on": "2024-07-01",
+        "price": "2.5900"
+      },
+      {
+        "quantity": 2600,
+        "bought_on": "2024-08-01",
+        "price": "2.4400"
+      }
+    ]
+  },
+  "orders": [
+    {
+      "order_id": "8dcc228a365e2b22c9a6d1711bb099f48b010eb7f2a47a44be443a95c4eef43d",
+      "decision_id": "38b817e6b2b6051624f64b486696877c980e6a9306b645274aab737d449d3059",
+      "security_id": "SH600004",
+      "action": "BUY",
+      "quantity": 4600,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "1c2dc9e31fc514d32fde71b3021304d0cd4980105a25e3dedb53bd6524d11132",
+      "decision_id": "c7e52d108fc01d79db799d2e8216f159d174ea4d0a1ea93e5d11429d85f89d4f",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 8500,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "0138cdef479308bfa61a68fe36c199c849a4b9017df0087a44b41146944cafd3",
+      "decision_id": "54b4adc4ce779eae92cb0508431ae841b1a275dff44c57ea806dd3336e922755",
+      "security_id": "SH600258",
+      "action": "BUY",
+      "quantity": 2900,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "fc5d8891cc0b485a4d018a3ca423e1a466cb5539f027312d5b4bdf842106fe6b",
+      "decision_id": "d7ae8fad72563613973bc010fee1d6f17a8835b55866160797170b6b6560df6c",
+      "security_id": "SH600316",
+      "action": "BUY",
+      "quantity": 2100,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "6e58d1be499b3f161c257e289ca97cac778987793e6877940733c40122bad466",
+      "decision_id": "edda3453acb94bfc12a893343bb3a61fbad8eaed50392edaead670bf98164fe0",
+      "security_id": "SH600415",
+      "action": "BUY",
+      "quantity": 6200,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "499428514676b74d0da8d511b49317e0320bf32c52d7ac2b7738f7bbf198b9f1",
+      "decision_id": "d5e73d908934300e5b451bb707a51754a384ed4e1f5e855456fb19178a2c70ed",
+      "security_id": "SH600418",
+      "action": "BUY",
+      "quantity": 2800,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "557974b067badc9a3e17b5f0309da1b05c4f540e11978b5562a9899fb1a4d5f2",
+      "decision_id": "f46a4cb5c1fb0f45e3c3dcd921862430bcabfb62fc38fc41f28f4b0c5bcc1bd8",
+      "security_id": "SH600482",
+      "action": "BUY",
+      "quantity": 2500,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "87b1663c17ec80c50fcf866e83ae9f75c3eb5fc56aec65c696bbcd74ae8f0395",
+      "decision_id": "4dbee7138e12cd4f97038e3d0d845753407a1175ace3d9eb97b89c700f9454ad",
+      "security_id": "SH600642",
+      "action": "BUY",
+      "quantity": 7000,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "febba159f051812d3c69858ea2926597af155653f596192bf69059b8aec670f9",
+      "decision_id": "a54463cfceaf69c70020bd29954c19b461ffa7568f030e7d79e90d5c57747e65",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 7300,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "d3e96ed9de7d8a99a853635e2de69ea86c25cc5c4eb72fc5a837ffb85b27b2ce",
+      "decision_id": "da44a6556d1edc6bace8bb680455098b0a36ebdc9f95eaf293d7db198f8bf686",
+      "security_id": "SH600707",
+      "action": "BUY",
+      "quantity": 6700,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "4bdd06bae17e081185398071e5ea106ab49d1becd10ce20991f3ca978ee51d18",
+      "decision_id": "5207060216710639693c5d4ae1516a0eff3202fa148a378270775aa5060ca1e4",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 14400,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "27a9246a6e8bf8526874262f27fffa92d936348da6a4bdd368cd34a063f26784",
+      "decision_id": "e23274eb9438b03520831659bcb874a720bcac769aba0bfb9089d430afa75146",
+      "security_id": "SH600977",
+      "action": "BUY",
+      "quantity": 3700,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "50b37d50606b08b302b43d5f08282f7e4d3e896341e6009a84339b0222affe32",
+      "decision_id": "1905765ff7a911f47b521de5a16eba3abb6021fce2b5873d5592842003d1618f",
+      "security_id": "SH601118",
+      "action": "BUY",
+      "quantity": 10700,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "a481cc0c5546cf558e8f660b8147b58800cacba4871d534158776172c4794e63",
+      "decision_id": "bd4b37419c0ed559b1e08a5cf45ef405ffc70e864bddedd157118547cbd7f7a6",
+      "security_id": "SH601233",
+      "action": "BUY",
+      "quantity": 3000,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "7f2f6329b71497d04d1af283c63d39c86d215b1ed237d8fdabe35c06f8f9ac85",
+      "decision_id": "f24cd3f0c35c8696489559d0bb6131d7d992abe952bee09725bc0fb57fd933d6",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 16000,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "f533415216fc2fb90c56ad3d7c390214f9b3b24478e4c6bdf038bb1c52d46d22",
+      "decision_id": "08a37729c7e569ffe70cf11b2e9d368adc9e0ea10170302bc12eca300031d3cf",
+      "security_id": "SH603225",
+      "action": "BUY",
+      "quantity": 3200,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "5bbe594a68cbb590c8404795d2827830b9f1f698f701870b98fdcdc9377d68b2",
+      "decision_id": "267b4d64541905894a896790ef6725378bd6ed3488e5e4d6a4abe33334e61f7e",
+      "security_id": "SZ000825",
+      "action": "BUY",
+      "quantity": 12100,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "5cac7b7e7e73053d20e0e978bedabf3ecb63fbc816ae201853ef4f8ea370f855",
+      "decision_id": "7870351b2c87e3aa012fedf79bc1d0c1021f776543e4433a1599378e9a26f156",
+      "security_id": "SZ000998",
+      "action": "BUY",
+      "quantity": 3200,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "da9995207a75d6ea504ec5290a5d7d62d2fe2c4e2af794bbdecc296d24562e36",
+      "decision_id": "efb3fbca5a0d5ed394fd9c2739c552e2a6b45015c983bf06567eb0785e263a91",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 14700,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "7fcc74d97317003ec322dba0e37787eb333afbd0550f8da1b0041ef9a3d92aa4",
+      "decision_id": "0195c4192b14e2b7ecb113812233256d58b9d2ad5c64b43da294e657a25cc42f",
+      "security_id": "SZ002373",
+      "action": "BUY",
+      "quantity": 4000,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "3e9cb4bd693d037caafb89a5890be5ff9736f2b987df0094cd7b0cc92b9f7817",
+      "decision_id": "6a8197c15aa24a1e2b0a71dbcce0bc14dc9ba1d579677eb51ba17a9226af5f58",
+      "security_id": "SZ002506",
+      "action": "BUY",
+      "quantity": 16500,
+      "submitted_at": "2023-12-29T07:05:00+00:00",
+      "eligible_at": "2024-01-02T01:30:00+00:00",
+      "expires_at": "2024-01-02T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "7f736204b298ec8d63cb662b607204dd53c2affb5919988c164470a028a9dccf",
+      "decision_id": "42d65245d82d0ef97533c951cd82b37ea4e9899ca50920990416dceb7cf69a8c",
+      "security_id": "SH600004",
+      "action": "SELL",
+      "quantity": 300,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "8ff7c6c73769c017a7b1fe9f61b5758db0ca1418189cc4df25149dc745b50b0e",
+      "decision_id": "5325ca39bcc979d4f8f5c5e54727b9c1ef6efeb7af893ea4883f28f5dfadb79f",
+      "security_id": "SH600415",
+      "action": "SELL",
+      "quantity": 700,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "046f1dbbf1e67db3ae2e5e1b458d4f65ab011c0deddf40d8d14bf86985d5da05",
+      "decision_id": "7b50e99c551c6e74468b484cce1b6dd4f7f947bf3aee1518eedc45c64c41340d",
+      "security_id": "SH600482",
+      "action": "SELL",
+      "quantity": 400,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "3595423fc54f2c6ff531dd8d6e9881f4c4772de4b572db9cdae564355a04d3ed",
+      "decision_id": "f537063eb7421a082158642a31bfde184ef25113260dfdd1afbd6db7b408f1f1",
+      "security_id": "SH600642",
+      "action": "SELL",
+      "quantity": 1400,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "43f88d008a83fd5e040ab9dcc394922046a1f1c061ea62c7c2cc9d51ab20356d",
+      "decision_id": "d10facc4967053af2e8a744d303ba09d900b348d0e06d8d3ff4c9066bed0855a",
+      "security_id": "SH600655",
+      "action": "SELL",
+      "quantity": 700,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "49c4e35c47264af5309e65e2fa2a2c2ecb227e63b963989a1c5101c2e2b118e3",
+      "decision_id": "592757f23f9e6913d9b7ea0d2f0aa5c3b5507e073b1e9b2b7f9544475a591915",
+      "security_id": "SH600959",
+      "action": "SELL",
+      "quantity": 400,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "cd48dc7337c9f9f2bb6695ce0a3c844d9b578c811c81405924ed47369734b68b",
+      "decision_id": "9fadc4bad40df516347dd6e0ca9f52191bc3b8bfea6beec351fccdfb7cc0a4e6",
+      "security_id": "SH600977",
+      "action": "SELL",
+      "quantity": 200,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "48d7fbecce528e80ec7688bc1febf6cbf1fcfd6accd30b4e950e4ddf6fc75043",
+      "decision_id": "4bb4ff755d4476bc39f8676ca9c1868062f463e28cf41a85701508206c2816f4",
+      "security_id": "SH601118",
+      "action": "SELL",
+      "quantity": 800,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "0dca7e6eaa83cff6014df136dbe7354613099de1fcd1fd11b1f14f3b100629ca",
+      "decision_id": "1338e9f3bf216855c5d17bcb7e33618a4a2bd828c0246f071e63ed2a69cc9618",
+      "security_id": "SZ000825",
+      "action": "SELL",
+      "quantity": 700,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "fe628e150e6182422f5afa176473628320058f267fd56ce3567a453f31939f10",
+      "decision_id": "26b6694f2d913a824ab2c525c49b5bf1c9b4dcc3ea34889b452b1fcc438c1045",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 600,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "02c0dd4b75151ff791e28090e836d9e28d1a88b58ccd21168f240f94f2872281",
+      "decision_id": "ddfffd41713dca8dc16e59c867e3ea65ab84e307b5a9725acfe3be8e0140602f",
+      "security_id": "SH600316",
+      "action": "BUY",
+      "quantity": 500,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "0892a4e3f749bc2e0138ef892eec92e062507ed46ac0c8925d73089522ddaec5",
+      "decision_id": "9e5892b68b3af8c8f88ded44802bd46161380f68a53f4e9a2eb750abc1b12a96",
+      "security_id": "SH600418",
+      "action": "BUY",
+      "quantity": 600,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "5545f3559a174acfd1faffd1a3b6fe1d94407e88710ff7f561fd9e13b044df6b",
+      "decision_id": "aabcb36c32f84028dfef3cc354e25c20bdc85894faf4bf381764fee306c19075",
+      "security_id": "SH600707",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "311d5024381461f069980fcb4fdfcc5f61c0b301de2745e0ffb905f6bdeca89d",
+      "decision_id": "a8bc2f6aa21b6c996bde1b42179c05c38c77ff84f04c7d2d5e698c6372ae9595",
+      "security_id": "SH601233",
+      "action": "BUY",
+      "quantity": 400,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "12ad5d3381c833aab1db5a2ffa5b2fe65500614b7edd0a1bb8e1d0e0c8c09de3",
+      "decision_id": "713ed5851e5df0a5d867e0fb2e1f45d6fed39d0e9dd996190f5ef86646c2df00",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 700,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "a85b6765aa993657f27b881459365674e5208c972d8563470716d226e3ab49d3",
+      "decision_id": "59eaf8fc072a715c231e62a3bc6c201797deb1493fe3b4da8741f02685f3d954",
+      "security_id": "SH603225",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "da1f758964def02c42d7fb34c620a31562a37ec91de06b4c2450d05f036ac2cb",
+      "decision_id": "19111733a41b4a7fcf004956f0576f908efefba38faee51be4a62d64a8d83a81",
+      "security_id": "SZ000998",
+      "action": "BUY",
+      "quantity": 100,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "72f53c97202fb2da9f2ef5ed350075ebdcaa012dc184d7adf14cc0933c917485",
+      "decision_id": "2827c6963c33495cd89085f5b39d2cce72f9a4e115a28984fd1e5dea3925c17d",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 1800,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "2df77f1519457e3c864d15f26c1234f99202cf4b65aca366647d7c595672ce3e",
+      "decision_id": "5a2c21f087900de72edf8159c85764d31461921aa38846b4818043fb10387307",
+      "security_id": "SZ002373",
+      "action": "BUY",
+      "quantity": 600,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "9e44c17d2dc5016520d863bf7ada0f9447c5327acca00994b8cb88f2083a6c97",
+      "decision_id": "7085bb92a0c40931b51c185329ce4ca4a22ca87445c0275dc1e337dfa7b9ce39",
+      "security_id": "SZ002506",
+      "action": "BUY",
+      "quantity": 400,
+      "submitted_at": "2024-01-31T07:05:00+00:00",
+      "eligible_at": "2024-02-01T01:30:00+00:00",
+      "expires_at": "2024-02-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "3546fbcab02d3c9e3b8119c6ddbd905357db74aeb1faf8b510c21dd294bd4040",
+      "decision_id": "de6a8f34af50d4581615237ed43d903fe16d2aea9db5d008f562159f904679e1",
+      "security_id": "SH600126",
+      "action": "SELL",
+      "quantity": 500,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "5e56fb1fd69d629692b93e6ab3c29ae95b48bb20679ee0f911e61443f8f46f6c",
+      "decision_id": "5d54db09264ed19b4e28296a0cfc8dde8c07f24f7e53c7978afaa276267e5668",
+      "security_id": "SH600418",
+      "action": "SELL",
+      "quantity": 500,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "4a021d223193a8483adb36283bd2ab0a2b75eb60fbdf1aec83b8e5c5eef16850",
+      "decision_id": "728ba484670eb2d5434142df7304581d431650d01dd09b2717eb60a9923ae94b",
+      "security_id": "SH600707",
+      "action": "SELL",
+      "quantity": 400,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "02538410fe18007149ace3232c98422178ced2f332990c1c767163a8259ee5b0",
+      "decision_id": "bf652a5dfd3835db45f8fbb72896b830aef2b027734e9021899c2b26f573bf6d",
+      "security_id": "SH601233",
+      "action": "SELL",
+      "quantity": 100,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "8d84c05fd257994619160b2bf32b93118d550724b96e0a50442d31ce651381fe",
+      "decision_id": "0044ce11eee5792aaf3919a5b6fa7480f26da3b13a6fd4c755de8d0c2abc62c0",
+      "security_id": "SH603225",
+      "action": "SELL",
+      "quantity": 200,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "204a4c69d7c19cf57cdcb271983f44903d1c9d93dff351e993f0532f44144235",
+      "decision_id": "8e67c736a68a5933b98b4e9f0f20acffe78f7e40ed20f6f4b329fe6e5a53c059",
+      "security_id": "SZ002195",
+      "action": "SELL",
+      "quantity": 600,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "f1888d2b0d85ab40e7cbde4597e6d6f412cb049a329e7b1cc8fb944f7a5bc69b",
+      "decision_id": "184256e1934318d63219a64421ec3adaf1d3173c757189ea456efcdf15602e0f",
+      "security_id": "SZ002373",
+      "action": "SELL",
+      "quantity": 200,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "7b61c391e6514e9126652678362d12afcaaf7ff77ff4836c1bd9bd087f513efa",
+      "decision_id": "d0a1252752088fa12f1481397520c91e74b64ca49cacc6d2842128f1acb4991c",
+      "security_id": "SH600004",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "7f4ca82a9ef4fdc616bd0eb32e08369703ed192e90f70f0a9a771eddfa8998fc",
+      "decision_id": "63591e00965258701a34a79a0938e1739fb011d69c396aefaa61e5996dc32ebf",
+      "security_id": "SH600258",
+      "action": "BUY",
+      "quantity": 100,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "4417a8851abaf2e85dee7981a582d65e446cd6cd28ee4f37ba9a33ea5dce5701",
+      "decision_id": "e6d70e1099b04f136a8204cff17dc2df6f8d238ed5136b7958c4265049ced44d",
+      "security_id": "SH600642",
+      "action": "BUY",
+      "quantity": 400,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "47959e899ddfea7b81bf48f1839484f1499c564bd3328358b9d7a2b7c0d6a610",
+      "decision_id": "1c0c22d327071992896968b376f0fb59bfce73c56f5b55b18ba23b29d955510b",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "7cb005a81397f59a11de786a2f5d2d5fdb23f455634f732a4c7d3029ef8ff889",
+      "decision_id": "a3d81678063cae0d88ba0c2709a737b9c4e3796d999eb9ec09305c93b33d0efd",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "90466cb55893d49534a4bd622b29787975a49890f00914de5535a7769f05de96",
+      "decision_id": "1719318ed58849a75e4429708bd8465a147cc1fa34622a9f52ed9f735d8c317f",
+      "security_id": "SH600977",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "fff839bd674df0d787aa28d252088992de73d83e55ad4dc24b1a0ae552964781",
+      "decision_id": "18c209e9476c037c76753db7ceca0fc2d299bc3e658ee56f5fcfd5974c431475",
+      "security_id": "SH601118",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "3332844ce6313bb99c035e1eb0759105d05694ecd3edf45a002968abe7059e0c",
+      "decision_id": "4c90c9151152aee1aa9ef662ac28f3b6cba5b3997e13bced37171876234624cb",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 500,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "ad745068b6c23210c3a3bc87a036f515a6cd4cb05cfa2611bfd552647d23a855",
+      "decision_id": "d223c4a632f219969e60e52b0a91f2e29f4923a7954c2d5359333be27470aad4",
+      "security_id": "SZ000825",
+      "action": "BUY",
+      "quantity": 600,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "049cf3eb87ba475b89ff06b547aa9e76824f66a3e4fd85c9eb5536674cb27872",
+      "decision_id": "feffa1fc943e28485c1b81794a10a803db977b2155137d6e36cf9d4d012c5f05",
+      "security_id": "SZ002506",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-02-29T07:05:00+00:00",
+      "eligible_at": "2024-03-01T01:30:00+00:00",
+      "expires_at": "2024-03-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "3ba00a16e5f5dbfbcd15e2d20949b66888dd351f1428f00215361d33e7b612d4",
+      "decision_id": "59e599d3f22ef3f3bc1cc9e739fed686ba0e7958bc92218adccb1111296fc0c1",
+      "security_id": "SH600707",
+      "action": "SELL",
+      "quantity": 100,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "1be87e1b080a8f2ad89a58a2c3c1b88228df8cd1bb96342bebd40973774d2940",
+      "decision_id": "1bd463f67dcfb749072d6611be18247063b5074fc9711d8e264d3a7d02fce1b6",
+      "security_id": "SH601118",
+      "action": "SELL",
+      "quantity": 700,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "859af23d5273443c452dd9bd02eb4228d846dd4b793d5141d3c9dafe83c95c9d",
+      "decision_id": "0553a744bae09aa2ed5fd4a8b68f98fc0f6da0f2a3368ade6e6f7479e578b8ef",
+      "security_id": "SH603225",
+      "action": "SELL",
+      "quantity": 3300,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "135b1b6bbe56fd5e5e3325ffc9cc7b35f24b142aba77185e493f6c56955cb042",
+      "decision_id": "59a789e11219c066b8419dfc5b3d8b99f2970b8b9b7ad3ccc534ab0d17fff36c",
+      "security_id": "SZ000825",
+      "action": "SELL",
+      "quantity": 12000,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "f9341f0d05cb618f2eec57544244679f7d26ec0294b48eafe3426c52391f4c77",
+      "decision_id": "0ba8b3df9ffddfc0b0be893c9af5253456ad3c0b36ecc50542313b30cf2acdd0",
+      "security_id": "SH600004",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "506ad1d2b8c85dfb7e567cbd68dfa3385b3fd390b60a84666cf13e6d7d828dff",
+      "decision_id": "2d8955494cfb4a5aa74308e0ccbcd6d366bdc88fa60ea6eacf36ebc5a4c0d44d",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "0109667221537a8de056588623a03d4e70e61059e48d38b0332287542a17bd28",
+      "decision_id": "4a6ea5c4198c2fb591fe55f1aac84aa6f9cc92d23872fbb5fc2cdb5689df8723",
+      "security_id": "SH600258",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "a4c152b5aa9eef31ab54fd6f56233c15cfc23b86f98af0afbe7397b075e2c799",
+      "decision_id": "773da0aace3f9d22c4cc575f7643fe44e7db0df903b07a52cb02d03c29ef9c02",
+      "security_id": "SH600482",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "1d530280fdc07dc2d7eecc5c481e401cc929cf1fb78a42f9f4416df37649b459",
+      "decision_id": "2521413a99ec1ab68c34d079c66eab440d2052666fbc037c8ce55c39c44030fa",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 900,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "cbf9665da4399961c78e99eeefe2209794317052f8e3c601b3860352d5e1bc85",
+      "decision_id": "ffd9d7c0c008688284ba558665597d3e7b97e4cc83e50e05507414db3f0ccd52",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 1000,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "cb7706e3c06562c8a57b6b579aea15e923540c6a0d0e2255a64395f4a3c3b1fb",
+      "decision_id": "e52973f9ef55cc150cdaace2c65bf268b1960d0b509a9bc8a3a910a8395d6c7f",
+      "security_id": "SH600977",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "a330b642fafc55283bd42d4e41e5289f974975aa77ad2d677762d1b2a800c9ad",
+      "decision_id": "42fa6ea66bcd336435315418e64234ea43f733c4938068c37b8f887fcbd5a090",
+      "security_id": "SH601233",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "385b6f17e5bb1139b7d143944c5aa09d57a681ee8c7b9c4813e04c940371b870",
+      "decision_id": "4b748ddd2f1dbd18b510c53f073fdd8b3f6a237d6f781b9bbf3cd6b09e690051",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 3700,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "fa129ecd71b433d9605bda2944f8b52d715223b098bffd364d1f02f1c88e559a",
+      "decision_id": "2bc30978e0fd5860fa7383ef35c98fca972d03dd9347347fe53adb4f2c921d20",
+      "security_id": "SZ000050",
+      "action": "BUY",
+      "quantity": 5800,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "23f9ff7d5577c4c8c063720af950146dae9dabcd979075f1e3ef301e1460ca4b",
+      "decision_id": "9e65b2ac1ec04cbae617cc209b63a441cff05a86566214beedc5be90497a2ea8",
+      "security_id": "SZ000998",
+      "action": "BUY",
+      "quantity": 400,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "39b34f267cc26246bcaeaa9074020217ac7762d93cdf00a89563e2c924b75661",
+      "decision_id": "a3f97bf9b3878d01072d5856809391566df35fcb4a65ef543d51fb7cdde253f2",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "c12252ec02c126323146a74e6d184869f1831f2c6e9cac4f7af7287b1ce31ff2",
+      "decision_id": "e27bdd1dee5f6feb88d41a0da4de1b7105a9a423415826bfb197b6fbaa2d88dd",
+      "security_id": "SZ002373",
+      "action": "BUY",
+      "quantity": 100,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "790bdab364b05f2cf0603c7aeabca41d4fe8b1c66f97569d9b021cd0d0fdc705",
+      "decision_id": "5eab36a581efac97467f28b7419fcbb295a27349e84904f3b0a759dbed32c80d",
+      "security_id": "SZ002506",
+      "action": "BUY",
+      "quantity": 1700,
+      "submitted_at": "2024-03-29T07:05:00+00:00",
+      "eligible_at": "2024-04-01T01:30:00+00:00",
+      "expires_at": "2024-04-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "32bb3dfd17e10e4214f03984a6bb8909010c9f876ea57e8501d3169a7e41179f",
+      "decision_id": "5a39860d2d862d3aaca46832fc8ed982b3816abf19696d30b79c326faa071983",
+      "security_id": "SH600004",
+      "action": "SELL",
+      "quantity": 4700,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "33ef25a14b6942497c04591dd8a764134c74d4cf0af40dbbb0dc32636e014e7b",
+      "decision_id": "b36ca95e66e8419cfb16397446631225d4755209712d0b38d3879625d5e38f46",
+      "security_id": "SH600258",
+      "action": "SELL",
+      "quantity": 3300,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "13345966f0d91cca09a6c5d139b44055e769a368806c10a87ffa4ba6bbefcd34",
+      "decision_id": "9b7c9ae5e1fbb1b5add903794d40a1e73816d14a02606be6937a9fcad4a5269f",
+      "security_id": "SH600415",
+      "action": "SELL",
+      "quantity": 5500,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "8461968b035fe458aff669bfd7bb918c6b1f595addce73ed88a3f9a01a68ea70",
+      "decision_id": "0f5fdca102d04b32877d6fc3f957631dc8882d6e5ca8e0202ead536a7e82f67e",
+      "security_id": "SH600482",
+      "action": "SELL",
+      "quantity": 2400,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "e048be82891ff2d845e4d2e5e2ab2061d218f2e02b307430042743b4d7ba0f34",
+      "decision_id": "d8fd51eab962999e93b49616f8b2389f470e844722d5dc5f5232c825c187f5a9",
+      "security_id": "SH600707",
+      "action": "SELL",
+      "quantity": 6500,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "b9ca7374888251dc0a443602428a2e2641d7ada596700e64499cbf2f4eba4c6c",
+      "decision_id": "6bd63cfec4ee2b8707567c26904f1e5444bdb2257c7398a063d21b855e46923b",
+      "security_id": "SH600977",
+      "action": "SELL",
+      "quantity": 3900,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "70564598b9a3c8edb82bd00339e1a580aed178c8255081818a85e7c505a987b9",
+      "decision_id": "f114a519aed4d5be138250c2a1c0e8a6729c3af766dd4228e2a3f67ec0eed670",
+      "security_id": "SH601233",
+      "action": "SELL",
+      "quantity": 3500,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "0e123e26346b02adb5fa71a8c2bacc1006ac5dd5410e78fe4f84aebf08485945",
+      "decision_id": "1415af1063663c0933e851f1ace448bd15939e4699966f9e532199771d3e16b8",
+      "security_id": "SZ000998",
+      "action": "SELL",
+      "quantity": 3700,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "0678ebd75a0cac5db4f6bbb21f6f02d7b92fe53b2176a103d3db4b49a6da67aa",
+      "decision_id": "5a49e886e0bbd60c23c8931e3528ac0110dae07381b6a6e294e04476dc2b7967",
+      "security_id": "SZ002373",
+      "action": "SELL",
+      "quantity": 4500,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "bb3c9b306791107cdc9efc85885431f4b8dcf09d7211da0358a6abaf18daac68",
+      "decision_id": "fb274edf901bc2b962c2693f002b99d71564799756230a90fe629c233672c124",
+      "security_id": "SZ002506",
+      "action": "SELL",
+      "quantity": 18900,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "a944f9ea32569301bfe22abb05ebfdb9cbf174030437969d9a51eafe99596dfa",
+      "decision_id": "1143e3c6d15e0b0599ac6ece4cbb9cd5fc8a19f16abf8e7e2adc028425353bf2",
+      "security_id": "SH600118",
+      "action": "BUY",
+      "quantity": 2100,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "05449387a64070af3f7b5b6ed691b273b34a6cad71eae728a76aaa8bd896f0b9",
+      "decision_id": "18a68f6f6625625b13ea461f049c4fe0fd3ae1c3e5749a5f488b3e98a0952359",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 1600,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "939f2d9cba7c5c357e15fb8b033c15baaf10c8ef745d22b1233aec0edb1b2fb7",
+      "decision_id": "ebce03d1f9f656fd4fc08d6824e407a6576eb6bd38b13eeecf3ae38f8bad87e2",
+      "security_id": "SH600316",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "3629ed048a6ed8f0891ab57bbcfd9567a0449a03b8384937a5ad4a08bfc629e8",
+      "decision_id": "393d245846fcb0b4911cee8c31be5ff50704a28654b9622159de087173564d7e",
+      "security_id": "SH600418",
+      "action": "BUY",
+      "quantity": 500,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "92dc340136867c3117542c12ca755bfe8a6977d7219daf2bff8a1fdd5c7688cc",
+      "decision_id": "70c10b974410433c718d17ec16b526b0bd9d200139accb2ca7ad15f15ab876ac",
+      "security_id": "SH600516",
+      "action": "BUY",
+      "quantity": 10400,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "836929ae5764d7a9dbd82b6768c0b52060dfed4411a20f13efc5536b1c6622b9",
+      "decision_id": "42f8bbe1f96881353e4c2b09c44462ff4345f26681319328a23de4ade01b71d3",
+      "security_id": "SH600642",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "75456a9d1e3817ef7d5a64d1fcb76accc253e78d46a7eea0606d9eaf28b4f0dd",
+      "decision_id": "c4438dccce2e01e8d5be385e62c3ba5baf54f580ed88bc0e56d3e91bcfdd16b8",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 1100,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "2b1deee3c82c24cdfeb3d1c70e80ec03f763ed0c0f7e6afec4ee12e5ed1f1404",
+      "decision_id": "70a22dab4dc0498c020899271193006d36e196e067026116962f9f20ba68dd57",
+      "security_id": "SH600739",
+      "action": "BUY",
+      "quantity": 5100,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "aebb68906a8b8acf49880d02fa8353ebf900b12c360c32331b0f3abf53d1e582",
+      "decision_id": "2a7acc7560fc3af080809a350ae5233b84f3224d7e173bd718bb10aee5fe6d9e",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 1900,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "03e06e02485ed075b92892710abbf44b6f6e9a6d0875d5b56f6287db62c902d5",
+      "decision_id": "2a7809ed1c15c6a69e61a39f66b966c261bcb8b2931f9027cdfd7c130206de9e",
+      "security_id": "SH601118",
+      "action": "BUY",
+      "quantity": 2000,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "2b2c546ffd96029fb8bcf224a6b980c95c691a058b21ee777ba793431d684b37",
+      "decision_id": "405498fb6a7232ff3e270a001c39dfde33b2548e1bd580c47db6dbb7206e7a8d",
+      "security_id": "SH601158",
+      "action": "BUY",
+      "quantity": 10400,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "5c00d074a2f95ae91fc63db7ff70957982a8ad79ac61ed79f18193b662304a22",
+      "decision_id": "261410b8eea63a726f99f41b40b60cd4b3cee78153472fbb4161a175d18b64c2",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 800,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "6bf0891b612b9fee78b49941b19db3fcf5765168dc5436ffd89208be9732d2de",
+      "decision_id": "3c6b6f821c3a9f1fd5c3e8db071d874a1afc0744c82e26e9a6325200ff1b1c15",
+      "security_id": "SH603026",
+      "action": "BUY",
+      "quantity": 1200,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "2f48a786e7c12b4f44a31af5a6d61281fa944c8c788ddf5c5af4080a6144022d",
+      "decision_id": "cb613d77c097d43507978ce1836499a17a310ce6d1d2b87ea785ee466c08a913",
+      "security_id": "SZ000050",
+      "action": "BUY",
+      "quantity": 700,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "239b999ada1d5697e36c8dd693c41ab8bc30aa1889cbd590dda74583fe18e72e",
+      "decision_id": "99a355d19460d14f9f9cf4f1fe9692dc371ca4381599094d4b478e1c26b557c4",
+      "security_id": "SZ000825",
+      "action": "BUY",
+      "quantity": 13700,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "65108a9b382e7db9a746180b06cb5da3664f86c3d52846aa955ba32f62d269a2",
+      "decision_id": "81fad90f6e98d172bcb2da813457a8fd9134e3b73a62e453e833dd176c606ea8",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 1600,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "bdc75e4fa159cdd352dee2be1eb9462d0aad4679d3d079693e2965e940c48608",
+      "decision_id": "8a731f23c1ba81e0f3d5309785d697908db00c18447fed70269ab225e3aa4711",
+      "security_id": "SZ002326",
+      "action": "BUY",
+      "quantity": 5300,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "7f449d3156b9bfe727838051cf6b14971e6545fd36c85d1dba1d4dbb093ebd21",
+      "decision_id": "b92e4cf5dd3ea958c3f984d83d63a0bb4a3f77503d0287ec6ea236f580681e1c",
+      "security_id": "SZ002505",
+      "action": "BUY",
+      "quantity": 48800,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "f958de6803dd4a06cd08123e6f38b5333f1dbfa7ae75b7b0dc6a2bce5f0770c9",
+      "decision_id": "d757310be5c94a6ff6df361155e8ab214b0b9d56cace38ef7c1e544980238314",
+      "security_id": "SH600316",
+      "action": "SELL",
+      "quantity": 200,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "865e3666b8d45fcf298c4c6c6964e57ce11bac0f043212a0b38ce1e4be456aba",
+      "decision_id": "8328fafa9c28642c4cefbfc4ff530f9f5930cbd4edc68833c643237d7dff462f",
+      "security_id": "SH600418",
+      "action": "SELL",
+      "quantity": 3400,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "ce9bd629d85cde0b160b4f3261fcd039a1fb1eb48939c4a2718eb85dcc943055",
+      "decision_id": "bc4d9c8b0f170416fb72dd5fed30e3dd64ddc7cb4025c7f88791ca6bcd554841",
+      "security_id": "SH600642",
+      "action": "SELL",
+      "quantity": 6200,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "ef4e1bfd435455698cd07dfd7152761af8d7d13d16263ea55a61a4c6b60730c9",
+      "decision_id": "5ac3a681eeec0644d5c0f2ea83d015e378a78d1d77c1ec474dfbd773c6ca32ed",
+      "security_id": "SH601118",
+      "action": "SELL",
+      "quantity": 1200,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "1528f87bd887a3fffb08c6cc4f31e07353bf55426ec16a4826b5f543aad5f3ef",
+      "decision_id": "ce84907aa1a4cddfff59265bd3e8ece6be095aeb072354fca84d0cafb0ed304b",
+      "security_id": "SH601158",
+      "action": "SELL",
+      "quantity": 10400,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "69ad10f591da10c5117a47dcf40650dc7cf0db600464ce08396655800d52a36d",
+      "decision_id": "ffc5ca193de6a32465346a05aac37959660f226ced3bd71f839ac1b08bbfe77d",
+      "security_id": "SH601933",
+      "action": "SELL",
+      "quantity": 2100,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "e4940bda227ec12880c75cbe018483fab717cbe8a90f39d0b52396d1dece3471",
+      "decision_id": "2a566163fb8c102b78b41d6b3bceb9b7fb8d6a201ef24829557f8ebfcd390918",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 500,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "0bfb0ddfa2f7b9477404de31d39f96523b7fa2755a61afa3db65e9d090d970b1",
+      "decision_id": "a8456d9038f15de6a47acd1575ddb1a6f769ff6abd20b19540852077b964eead",
+      "security_id": "SH600516",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "0c56bf02ff6f8babad455eefe914403ffa09944e45cac219530d7f9859e147d2",
+      "decision_id": "78f995436f4968b9ec8bbe9b9691429ba37e984eaf81a0beeab852571948fee1",
+      "security_id": "SH600739",
+      "action": "BUY",
+      "quantity": 100,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "0c6c4dbf4e84a4adaee8b7e18d5d1a89fdae555a62009a10b86768a3a737c19b",
+      "decision_id": "0318720291f66974d05677db9cc308641f8572f53470fdca80488a432e2af3ea",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 700,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "ec41ece08b4660f84d9dc599e77df1a64539d7335199975c411ff233d3d6bfd2",
+      "decision_id": "e69cb97fce74580c43967eb42194ee47fc93b5ebb8b7b389d74d0daad71160ec",
+      "security_id": "SH601106",
+      "action": "BUY",
+      "quantity": 20300,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "d8f7b55371fedd620b6eea68d947c42b06043549e70b90b6e42922afea3ec85b",
+      "decision_id": "7a4200252d600ebac1946c123a41795ec0d08022327a5fa47cd3090c5832db01",
+      "security_id": "SH603026",
+      "action": "BUY",
+      "quantity": 100,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "db0da7df420a88537d5937e91346077a9b6cd0cd574b4ac93f5d0a0a865ff85b",
+      "decision_id": "4ac95c1c8a4106064b5c08349e96e6449b6da596d06bfb6d6f55c4856adee50a",
+      "security_id": "SZ000050",
+      "action": "BUY",
+      "quantity": 400,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "4980980f6ba113be486235faa339889559a7087ebb4738175d3fdcaf3c2a5800",
+      "decision_id": "1ee9a4fc5e5272484e633e8a671e0ae9b47ffe1fb270810bf061617c1d1b5a18",
+      "security_id": "SZ002092",
+      "action": "BUY",
+      "quantity": 12400,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "c204b13f71499061a5e3008097e0f6e493423cb9509c9a7a9b6a67defe0d9a4f",
+      "decision_id": "1261c5d1a49628018f5d03e04de08e9bd09d3eac7c05a0dd0f743da15c1a9f75",
+      "security_id": "SZ002153",
+      "action": "BUY",
+      "quantity": 7800,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "8261f026ad1513fa48c064fd444e34208106b2309be10de0a5b88726d0575ae8",
+      "decision_id": "950734a79a364115efb8a86b42ea883cde40637f8ef7ce7facf75dafcadbc80a",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 1100,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "35b7899eb948117aa38e55dccc162c41a1d7daf9aed53e7d82d420b4a2128956",
+      "decision_id": "e1a049e977f3494b8178dfafd75e8f69434d06f19eac3f04f81bcf8abd5ec71f",
+      "security_id": "SZ002326",
+      "action": "BUY",
+      "quantity": 100,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "3f5bf181c1d6e469b8817e8c80c0b4781518705cd67a65514c694d87b93a5aad",
+      "decision_id": "2189b972afa48c45ca9c4600a0d2a1e48aa422da78107f8b38148f6a97a49d01",
+      "security_id": "SZ002505",
+      "action": "BUY",
+      "quantity": 5600,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "7a13bc44ab92db3fa3d83eb982260f0b09b1d7ee784c2082354344f4ddc49a28",
+      "decision_id": "d4c26d35e739abcadff7c9a3d79e021278b47af6a91d1351565421a3846222a6",
+      "security_id": "SH601933",
+      "action": "SELL",
+      "quantity": 300,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "f860c1fef5ce28dbc7987eb632929cca67d5469c0ef60213d89dbc10debec43a",
+      "decision_id": "d3bb4632b68e168b970c52f096d50673d90258eb88603201519d70a847e4769d",
+      "security_id": "SH603026",
+      "action": "SELL",
+      "quantity": 1300,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "c5c011bd653b00b5041795fa116f2184ad3c57a399c0544a274a8b5e658a1675",
+      "decision_id": "bf25ba790b14995575266aa45f6e9a92f57305f1a64ef367e4e502b3d17a2372",
+      "security_id": "SZ000050",
+      "action": "SELL",
+      "quantity": 300,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "c60b3aa63c91432a765850a2471eb89ac729f2c7985e69fbb55e147232e6453e",
+      "decision_id": "33ac0034498b055526bf98b3eb3f57547b204d6421735d56b32539bc750a82ef",
+      "security_id": "SZ002092",
+      "action": "SELL",
+      "quantity": 12400,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "abc48801f8c06b838722efb3b9228a6e6dca86fdeab804fed9155f24f8f51fab",
+      "decision_id": "95f6f3970775cafe14932fd0ae5d6fe4f0e85737dc8771a3e819adc992f6d94f",
+      "security_id": "SZ002326",
+      "action": "SELL",
+      "quantity": 5400,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "8b93db0d5db62eda16d79860de4c5da09df8b55f21841e33600cbc86510259a1",
+      "decision_id": "85664b34798be8e9d6be1ee91d84657663375e0486010e364d1022db86745550",
+      "security_id": "SZ002505",
+      "action": "SELL",
+      "quantity": 54400,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "UNFILLED_MARKET_CONSTRAINT"
+    },
+    {
+      "order_id": "56464b946fa97182056a2418aa811477e94cd07eeb231662293bc455e0a62e05",
+      "decision_id": "4b54262e3415c7464416564f981d036b3c8581fc8b869d694cceedab3eacc1de",
+      "security_id": "SH600118",
+      "action": "BUY",
+      "quantity": 100,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "653743319a2da22ee44b41e630ce4f589f79ea3d4082005912966f0400ff5edf",
+      "decision_id": "a36a4f98381847e8b344304d22af22a0b0cc3df5c8f542282c236f251a68796d",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 700,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "1da0564a75778baac7ba3c7e814a884a34b984315e57af1d4a571e4473de6840",
+      "decision_id": "3d8798d3b9b8fe31910089b5e21c2264782604e49741de9d15a10986ffc6576f",
+      "security_id": "SH600316",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "8f2df960ef0b97b3d016bb78ccbd5bb781e19c21afb2856dbfb8efdc24de418a",
+      "decision_id": "7ebf7f1c778f8688aafc53d4cddec7230ff5fadb5bde8e80062a57bafc07e6cb",
+      "security_id": "SH600516",
+      "action": "BUY",
+      "quantity": 400,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "05fdcd2e4563b5ba9bcb1cd92aa7b687d1cd848c948976a37719e3c12eb293a6",
+      "decision_id": "e277086dbc298418378c92308bf9d1e8da7ee5446f4fc281886d9ebaade0000c",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 400,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "2f1f95bab5df32362f41d7017f4a2788f4a0d8c52a92d008ce3e7d3f1d5c823f",
+      "decision_id": "d17c03acc05149add325ea51937866e0aeb15587e8729534a8814103ed0ef39c",
+      "security_id": "SH600739",
+      "action": "BUY",
+      "quantity": 500,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "5d4a5b65a365691244b0dd2a1c400dd2db70270e58ca9cb73b4f6fecc1dcae05",
+      "decision_id": "a8c9946a431d5d8f4570b9e14179d64e6de4532d95070afa532bbe4f6719f586",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "aad8692310a8fbe803a0e544669eeb93a9669a821a8adfa56743155c0f9b1b22",
+      "decision_id": "4c49454a3c6ff82980ba7130934ffb5bc3271d3ee04e208b5f798851e5a8336a",
+      "security_id": "SH601106",
+      "action": "BUY",
+      "quantity": 400,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "4f9b720e234d0d285a95b6c20ce691c410ba15b28a5ce67500d09d9c6e795bda",
+      "decision_id": "634dc84e4aadee4715f3d3433200463758f251bf9088cf2c1d2dc40f86144dd2",
+      "security_id": "SH601118",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "392493be11722ad72cdce81b941fb88a20267ee4446a4792bf3f1b040074a663",
+      "decision_id": "d867d265b3618c5b189c0aa8c4a322bd0665aeb1542114bdc3891b4591c23c18",
+      "security_id": "SH601158",
+      "action": "BUY",
+      "quantity": 10000,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "b07e0f794711e2a3040e6a5957f1e82798e323c4ec64d51c3c62c780b4c1144d",
+      "decision_id": "620fd5a271d924a8d25fa644b030c092396bff24980b7b14a1b90b0670c468f4",
+      "security_id": "SH601828",
+      "action": "BUY",
+      "quantity": 18800,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "5142073ec9693281e5414ce0bcd00f242154de651767fcb8c347aa9f73b975d1",
+      "decision_id": "432e2329d1de54de6227b822b8a48fb7438254d06135d40602b4779297261b31",
+      "security_id": "SH601866",
+      "action": "BUY",
+      "quantity": 18500,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "9261501293ec5e5a0581ad73ac1df1491f30545423e2e47078860ea3fd2544a4",
+      "decision_id": "4411fcbd84d8ddcb6e87d9ef172a628a53d33c041e623a2ea0a6d8e71aae0e14",
+      "security_id": "SZ000825",
+      "action": "BUY",
+      "quantity": 400,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "e45e4a20af6c79eb9c61ba6e5f287cf8e1d3c286c4464324d9d15ae480c52c52",
+      "decision_id": "5abd2cf61d3244928b3d8c7dd125a7181d5344c816450044ce87381ffb0569f4",
+      "security_id": "SZ002153",
+      "action": "BUY",
+      "quantity": 600,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "f5aabfa2f280b5f65cb2233df81639308083a93750275c70a9a36f497845a0d9",
+      "decision_id": "4f93423becd0e74c11f878665e5490bb9f6a5d166c3c829a8ffdec2225a22105",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "c3a3712a44b2e1abcbcb6fdfd5b6a401d644d2c4d2d328cb65504e5ab4c61d6f",
+      "decision_id": "d20a193a3b1b178816d0bbf4dbbb33ecb232a8cb035df0a85c706b0b9991b70e",
+      "security_id": "SH600316",
+      "action": "SELL",
+      "quantity": 500,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "40912279be2bfd0e0511e629679ddf242df8a27a756a6aad9757a0eb709a148a",
+      "decision_id": "ef8becf4ce5da19ee5a82e1c91ada898b57dddbbb13d9e1891135d603d446029",
+      "security_id": "SH601828",
+      "action": "SELL",
+      "quantity": 18800,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "c1df4cf44449310ace2afd158f70e3ab714b360be6f955195bb370dfb7ec3fb9",
+      "decision_id": "21015e36bd720b31011705b4e7169c90ea2ca000dd61cb8f5e64f4aa745876f2",
+      "security_id": "SZ002505",
+      "action": "SELL",
+      "quantity": 54400,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "UNFILLED_MARKET_CONSTRAINT"
+    },
+    {
+      "order_id": "36186af6ea9a03e9caece0a3a562770bd2116bca8ccd1e8e7bfc06a14003bc23",
+      "decision_id": "f3bf1c92b821c3d84f27aafa6cb321cf6eb925b3fa1d60c11f3b58a5d51d8237",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 2400,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "54e6007d38d1aa92c3e20b5dd0330b1f7a06c50d37a0e4ea89ea67055ca79db6",
+      "decision_id": "92e766361c60c5aecb66fa1ab98c6fc4c5c0b75343ad1231014d5f7106ee9fdd",
+      "security_id": "SH600516",
+      "action": "BUY",
+      "quantity": 500,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "c5609e908a60590cbcebdbbc49504b860b89581f8afa5497be99e7208fa9dced",
+      "decision_id": "f19445786a829ef837b4bdc3441d508fca4bdc53783cb4e1e577d85c3302be2e",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 100,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "7109351435282c058778f2f9feea2cf00f03026fbc4a9e6218172d5cfb1d66f7",
+      "decision_id": "2d1ff53472e78cbfe7cd13a7d3c4ca2e4da6fc7c2f0fc97d39126de9c0fb89fc",
+      "security_id": "SH600739",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "e8b111444a18ba84b58d1eb0c11532389ad33b41e850a84bb766835d8a6aa9ac",
+      "decision_id": "bd6d67c984eac7b92e551437fec6ca14c7439e0dcddede89c26cc6dc5e8c7a2a",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "1802743b65e054be237906b2f2d51037051324d05c4d9c04e6cd314e64895348",
+      "decision_id": "efd461edee100553d7865d3862362ff4219c28e70be481707fcf049611a8bb41",
+      "security_id": "SH601106",
+      "action": "BUY",
+      "quantity": 600,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "d599fdaaa75915fdc39c11838bd3ded7ac7d0f87d65f766b5733aff9ca1a2155",
+      "decision_id": "a99a417c9fb57d0a5c99802b10f49e688289e7b3dcec21ac86d52a40d523cdc9",
+      "security_id": "SH601118",
+      "action": "BUY",
+      "quantity": 1300,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "ee7e2a91d83cd2735d84561b75ac86b79cd1bce09134b78e940294583fe1b4db",
+      "decision_id": "4b2735d048e4c01abf076b5b66fbe5e2f746bc168b561a874b166a0f837a4f95",
+      "security_id": "SH601158",
+      "action": "BUY",
+      "quantity": 200,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "a0ab04b398f4c8d738927d8929d770734f9e05918bef4c3c85efd40d52c454dd",
+      "decision_id": "76e827c95f023172b560c6b58e1246e501d5f3783be6c01b8a3ea39e0301dfba",
+      "security_id": "SH601866",
+      "action": "BUY",
+      "quantity": 2600,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "f458e79ac200158bd14af872688e38290fc9060bca16badc698cce48495264ca",
+      "decision_id": "e1f7fc4688962048972c56d631877514069a37a0abc455a335b968d7faecbe85",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 3500,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "a7175b3f4b532e7a32a289761376b98a99b6f26ea0856de64013cb8af6b4539f",
+      "decision_id": "f100f444affa260df1351c018f2795b3a4d83905f06fb51e1fefd9fa9910c82a",
+      "security_id": "SZ000050",
+      "action": "BUY",
+      "quantity": 600,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "683207e64b96017ea5bdac2fa973b4f583093fb6aeefd9a4735041fc97f42192",
+      "decision_id": "099593c8f0f2cd52f412bb98ddf0318d38096f17655fecaf3bbb01992d14e101",
+      "security_id": "SZ000825",
+      "action": "BUY",
+      "quantity": 300,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "638988d91bcb7dd274c504e3b7b5d6e7a77c99e60b8b3f4efeaafde6cdec8b31",
+      "decision_id": "6d3b26461a51d108c263fb143b1eaad12eee81ffc8db236c092118af7850795e",
+      "security_id": "SZ002153",
+      "action": "BUY",
+      "quantity": 800,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "a979e2528f2271be0440d15b5c23f7f360edb0370adac39588f6a74bbc403561",
+      "decision_id": "27ef91bde74e4cefe13fb82375571dbd7a609b7cb1de72604abfe9173d970923",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 2000,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "FILLED"
+    }
+  ],
+  "fills": [
+    {
+      "order_id": "8dcc228a365e2b22c9a6d1711bb099f48b010eb7f2a47a44be443a95c4eef43d",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600004",
+      "action": "BUY",
+      "quantity": 4600,
+      "price": "9.7800",
+      "cost": "112.47",
+      "cash_after": "954899.5300"
+    },
+    {
+      "order_id": "1c2dc9e31fc514d32fde71b3021304d0cd4980105a25e3dedb53bd6524d11132",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 8500,
+      "price": "5.3100",
+      "cost": "112.84",
+      "cash_after": "909651.6900"
+    },
+    {
+      "order_id": "0138cdef479308bfa61a68fe36c199c849a4b9017df0087a44b41146944cafd3",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600258",
+      "action": "BUY",
+      "quantity": 2900,
+      "price": "15.6500",
+      "cost": "113.46",
+      "cash_after": "864153.2300"
+    },
+    {
+      "order_id": "fc5d8891cc0b485a4d018a3ca423e1a466cb5539f027312d5b4bdf842106fe6b",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600316",
+      "action": "BUY",
+      "quantity": 2100,
+      "price": "21.1000",
+      "cost": "110.78",
+      "cash_after": "819732.4500"
+    },
+    {
+      "order_id": "6e58d1be499b3f161c257e289ca97cac778987793e6877940733c40122bad466",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600415",
+      "action": "BUY",
+      "quantity": 6200,
+      "price": "7.3300",
+      "cost": "113.61",
+      "cash_after": "774172.8400"
+    },
+    {
+      "order_id": "499428514676b74d0da8d511b49317e0320bf32c52d7ac2b7738f7bbf198b9f1",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600418",
+      "action": "BUY",
+      "quantity": 2800,
+      "price": "16.1500",
+      "cost": "113.05",
+      "cash_after": "728839.7900"
+    },
+    {
+      "order_id": "557974b067badc9a3e17b5f0309da1b05c4f540e11978b5562a9899fb1a4d5f2",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600482",
+      "action": "BUY",
+      "quantity": 2500,
+      "price": "18.0000",
+      "cost": "112.50",
+      "cash_after": "683727.2900"
+    },
+    {
+      "order_id": "87b1663c17ec80c50fcf866e83ae9f75c3eb5fc56aec65c696bbcd74ae8f0395",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600642",
+      "action": "BUY",
+      "quantity": 7000,
+      "price": "6.3800",
+      "cost": "111.65",
+      "cash_after": "638955.6400"
+    },
+    {
+      "order_id": "febba159f051812d3c69858ea2926597af155653f596192bf69059b8aec670f9",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 7300,
+      "price": "6.2200",
+      "cost": "113.51",
+      "cash_after": "593436.1300"
+    },
+    {
+      "order_id": "d3e96ed9de7d8a99a853635e2de69ea86c25cc5c4eb72fc5a837ffb85b27b2ce",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600707",
+      "action": "BUY",
+      "quantity": 6700,
+      "price": "6.7500",
+      "cost": "113.06",
+      "cash_after": "548098.0700"
+    },
+    {
+      "order_id": "4bdd06bae17e081185398071e5ea106ab49d1becd10ce20991f3ca978ee51d18",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 14400,
+      "price": "3.1500",
+      "cost": "113.40",
+      "cash_after": "502624.6700"
+    },
+    {
+      "order_id": "27a9246a6e8bf8526874262f27fffa92d936348da6a4bdd368cd34a063f26784",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH600977",
+      "action": "BUY",
+      "quantity": 3700,
+      "price": "12.3000",
+      "cost": "113.78",
+      "cash_after": "457000.8900"
+    },
+    {
+      "order_id": "50b37d50606b08b302b43d5f08282f7e4d3e896341e6009a84339b0222affe32",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH601118",
+      "action": "BUY",
+      "quantity": 10700,
+      "price": "4.2900",
+      "cost": "114.76",
+      "cash_after": "410983.1300"
+    },
+    {
+      "order_id": "a481cc0c5546cf558e8f660b8147b58800cacba4871d534158776172c4794e63",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH601233",
+      "action": "BUY",
+      "quantity": 3000,
+      "price": "15.0500",
+      "cost": "112.88",
+      "cash_after": "365720.2500"
+    },
+    {
+      "order_id": "7f2f6329b71497d04d1af283c63d39c86d215b1ed237d8fdabe35c06f8f9ac85",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 16000,
+      "price": "2.8200",
+      "cost": "112.80",
+      "cash_after": "320487.4500"
+    },
+    {
+      "order_id": "f533415216fc2fb90c56ad3d7c390214f9b3b24478e4c6bdf038bb1c52d46d22",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SH603225",
+      "action": "BUY",
+      "quantity": 3200,
+      "price": "14.1700",
+      "cost": "113.36",
+      "cash_after": "275030.0900"
+    },
+    {
+      "order_id": "5bbe594a68cbb590c8404795d2827830b9f1f698f701870b98fdcdc9377d68b2",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SZ000825",
+      "action": "BUY",
+      "quantity": 12100,
+      "price": "3.7300",
+      "cost": "112.84",
+      "cash_after": "229784.2500"
+    },
+    {
+      "order_id": "5cac7b7e7e73053d20e0e978bedabf3ecb63fbc816ae201853ef4f8ea370f855",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SZ000998",
+      "action": "BUY",
+      "quantity": 3200,
+      "price": "14.1000",
+      "cost": "112.80",
+      "cash_after": "184551.4500"
+    },
+    {
+      "order_id": "da9995207a75d6ea504ec5290a5d7d62d2fe2c4e2af794bbdecc296d24562e36",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 14700,
+      "price": "3.0700",
+      "cost": "112.82",
+      "cash_after": "139309.6300"
+    },
+    {
+      "order_id": "7fcc74d97317003ec322dba0e37787eb333afbd0550f8da1b0041ef9a3d92aa4",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SZ002373",
+      "action": "BUY",
+      "quantity": 4000,
+      "price": "11.2400",
+      "cost": "112.40",
+      "cash_after": "94237.2300"
+    },
+    {
+      "order_id": "3e9cb4bd693d037caafb89a5890be5ff9736f2b987df0094cd7b0cc92b9f7817",
+      "execution_at": "2024-01-02T01:30:00+00:00",
+      "security_id": "SZ002506",
+      "action": "BUY",
+      "quantity": 16500,
+      "price": "2.7300",
+      "cost": "112.61",
+      "cash_after": "49079.6200"
+    },
+    {
+      "order_id": "7f736204b298ec8d63cb662b607204dd53c2affb5919988c164470a028a9dccf",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600004",
+      "action": "SELL",
+      "quantity": 300,
+      "price": "9.3800",
+      "cost": "10.63",
+      "cash_after": "51882.9900"
+    },
+    {
+      "order_id": "8ff7c6c73769c017a7b1fe9f61b5758db0ca1418189cc4df25149dc745b50b0e",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600415",
+      "action": "SELL",
+      "quantity": 700,
+      "price": "7.3500",
+      "cost": "18.01",
+      "cash_after": "57009.9800"
+    },
+    {
+      "order_id": "046f1dbbf1e67db3ae2e5e1b458d4f65ab011c0deddf40d8d14bf86985d5da05",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600482",
+      "action": "SELL",
+      "quantity": 400,
+      "price": "18.5800",
+      "cost": "26.01",
+      "cash_after": "64415.9700"
+    },
+    {
+      "order_id": "3595423fc54f2c6ff531dd8d6e9881f4c4772de4b572db9cdae564355a04d3ed",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600642",
+      "action": "SELL",
+      "quantity": 1400,
+      "price": "7.2300",
+      "cost": "35.42",
+      "cash_after": "74502.5500"
+    },
+    {
+      "order_id": "43f88d008a83fd5e040ab9dcc394922046a1f1c061ea62c7c2cc9d51ab20356d",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600655",
+      "action": "SELL",
+      "quantity": 700,
+      "price": "6.2100",
+      "cost": "15.21",
+      "cash_after": "78834.3400"
+    },
+    {
+      "order_id": "49c4e35c47264af5309e65e2fa2a2c2ecb227e63b963989a1c5101c2e2b118e3",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600959",
+      "action": "SELL",
+      "quantity": 400,
+      "price": "2.9100",
+      "cost": "7.33",
+      "cash_after": "79991.0100"
+    },
+    {
+      "order_id": "cd48dc7337c9f9f2bb6695ce0a3c844d9b578c811c81405924ed47369734b68b",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600977",
+      "action": "SELL",
+      "quantity": 200,
+      "price": "11.4200",
+      "cost": "9.57",
+      "cash_after": "82265.4400"
+    },
+    {
+      "order_id": "48d7fbecce528e80ec7688bc1febf6cbf1fcfd6accd30b4e950e4ddf6fc75043",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH601118",
+      "action": "SELL",
+      "quantity": 800,
+      "price": "4.1200",
+      "cost": "11.59",
+      "cash_after": "85549.8500"
+    },
+    {
+      "order_id": "0dca7e6eaa83cff6014df136dbe7354613099de1fcd1fd11b1f14f3b100629ca",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SZ000825",
+      "action": "SELL",
+      "quantity": 700,
+      "price": "3.5500",
+      "cost": "9.97",
+      "cash_after": "88024.8800"
+    },
+    {
+      "order_id": "fe628e150e6182422f5afa176473628320058f267fd56ce3567a453f31939f10",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 600,
+      "price": "4.4400",
+      "cost": "10.33",
+      "cash_after": "85350.5500"
+    },
+    {
+      "order_id": "02c0dd4b75151ff791e28090e836d9e28d1a88b58ccd21168f240f94f2872281",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600316",
+      "action": "BUY",
+      "quantity": 500,
+      "price": "15.5500",
+      "cost": "20.55",
+      "cash_after": "77555.0000"
+    },
+    {
+      "order_id": "0892a4e3f749bc2e0138ef892eec92e062507ed46ac0c8925d73089522ddaec5",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600418",
+      "action": "BUY",
+      "quantity": 600,
+      "price": "12.2900",
+      "cost": "19.75",
+      "cash_after": "70161.2500"
+    },
+    {
+      "order_id": "5545f3559a174acfd1faffd1a3b6fe1d94407e88710ff7f561fd9e13b044df6b",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH600707",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "5.7600",
+      "cost": "8.46",
+      "cash_after": "68424.7900"
+    },
+    {
+      "order_id": "311d5024381461f069980fcb4fdfcc5f61c0b301de2745e0ffb905f6bdeca89d",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH601233",
+      "action": "BUY",
+      "quantity": 400,
+      "price": "11.7800",
+      "cost": "14.42",
+      "cash_after": "63698.3700"
+    },
+    {
+      "order_id": "12ad5d3381c833aab1db5a2ffa5b2fe65500614b7edd0a1bb8e1d0e0c8c09de3",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 700,
+      "price": "2.4300",
+      "cost": "8.40",
+      "cash_after": "61988.9700"
+    },
+    {
+      "order_id": "a85b6765aa993657f27b881459365674e5208c972d8563470716d226e3ab49d3",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SH603225",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "11.7900",
+      "cost": "12.07",
+      "cash_after": "58439.9000"
+    },
+    {
+      "order_id": "da1f758964def02c42d7fb34c620a31562a37ec91de06b4c2450d05f036ac2cb",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SZ000998",
+      "action": "BUY",
+      "quantity": 100,
+      "price": "12.5100",
+      "cost": "7.50",
+      "cash_after": "57181.4000"
+    },
+    {
+      "order_id": "72f53c97202fb2da9f2ef5ed350075ebdcaa012dc184d7adf14cc0933c917485",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 1800,
+      "price": "2.4500",
+      "cost": "13.82",
+      "cash_after": "52757.5800"
+    },
+    {
+      "order_id": "2df77f1519457e3c864d15f26c1234f99202cf4b65aca366647d7c595672ce3e",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SZ002373",
+      "action": "BUY",
+      "quantity": 600,
+      "price": "8.8000",
+      "cost": "15.56",
+      "cash_after": "47462.0200"
+    },
+    {
+      "order_id": "9e44c17d2dc5016520d863bf7ada0f9447c5327acca00994b8cb88f2083a6c97",
+      "execution_at": "2024-02-01T01:30:00+00:00",
+      "security_id": "SZ002506",
+      "action": "BUY",
+      "quantity": 400,
+      "price": "2.3800",
+      "cost": "6.90",
+      "cash_after": "46503.1200"
+    },
+    {
+      "order_id": "3546fbcab02d3c9e3b8119c6ddbd905357db74aeb1faf8b510c21dd294bd4040",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH600126",
+      "action": "SELL",
+      "quantity": 500,
+      "price": "5.2700",
+      "cost": "10.27",
+      "cash_after": "49127.8500"
+    },
+    {
+      "order_id": "5e56fb1fd69d629692b93e6ab3c29ae95b48bb20679ee0f911e61443f8f46f6c",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH600418",
+      "action": "SELL",
+      "quantity": 500,
+      "price": "15.4900",
+      "cost": "27.11",
+      "cash_after": "56845.7400"
+    },
+    {
+      "order_id": "4a021d223193a8483adb36283bd2ab0a2b75eb60fbdf1aec83b8e5c5eef16850",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH600707",
+      "action": "SELL",
+      "quantity": 400,
+      "price": "6.9100",
+      "cost": "10.53",
+      "cash_after": "59599.2100"
+    },
+    {
+      "order_id": "02538410fe18007149ace3232c98422178ced2f332990c1c767163a8259ee5b0",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH601233",
+      "action": "SELL",
+      "quantity": 100,
+      "price": "13.5200",
+      "cost": "7.70",
+      "cash_after": "60943.5100"
+    },
+    {
+      "order_id": "8d84c05fd257994619160b2bf32b93118d550724b96e0a50442d31ce651381fe",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH603225",
+      "action": "SELL",
+      "quantity": 200,
+      "price": "13.7100",
+      "cost": "10.48",
+      "cash_after": "63675.0300"
+    },
+    {
+      "order_id": "204a4c69d7c19cf57cdcb271983f44903d1c9d93dff351e993f0532f44144235",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SZ002195",
+      "action": "SELL",
+      "quantity": 600,
+      "price": "2.8500",
+      "cost": "8.42",
+      "cash_after": "65376.6100"
+    },
+    {
+      "order_id": "f1888d2b0d85ab40e7cbde4597e6d6f412cb049a329e7b1cc8fb944f7a5bc69b",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SZ002373",
+      "action": "SELL",
+      "quantity": 200,
+      "price": "10.4400",
+      "cost": "9.18",
+      "cash_after": "67455.4300"
+    },
+    {
+      "order_id": "7b61c391e6514e9126652678362d12afcaaf7ff77ff4836c1bd9bd087f513efa",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH600004",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "10.1200",
+      "cost": "9.05",
+      "cash_after": "65422.3800"
+    },
+    {
+      "order_id": "7f4ca82a9ef4fdc616bd0eb32e08369703ed192e90f70f0a9a771eddfa8998fc",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH600258",
+      "action": "BUY",
+      "quantity": 100,
+      "price": "15.3000",
+      "cost": "8.06",
+      "cash_after": "63884.3200"
+    },
+    {
+      "order_id": "4417a8851abaf2e85dee7981a582d65e446cd6cd28ee4f37ba9a33ea5dce5701",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH600642",
+      "action": "BUY",
+      "quantity": 400,
+      "price": "7.5100",
+      "cost": "11.01",
+      "cash_after": "60869.3100"
+    },
+    {
+      "order_id": "47959e899ddfea7b81bf48f1839484f1499c564bd3328358b9d7a2b7c0d6a610",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "6.6100",
+      "cost": "8.97",
+      "cash_after": "58877.3400"
+    },
+    {
+      "order_id": "7cb005a81397f59a11de786a2f5d2d5fdb23f455634f732a4c7d3029ef8ff889",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "3.1800",
+      "cost": "6.91",
+      "cash_after": "57916.4300"
+    },
+    {
+      "order_id": "90466cb55893d49534a4bd622b29787975a49890f00914de5535a7769f05de96",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH600977",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "12.1200",
+      "cost": "9.85",
+      "cash_after": "55482.5800"
+    },
+    {
+      "order_id": "fff839bd674df0d787aa28d252088992de73d83e55ad4dc24b1a0ae552964781",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH601118",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "4.4600",
+      "cost": "6.78",
+      "cash_after": "54583.8000"
+    },
+    {
+      "order_id": "3332844ce6313bb99c035e1eb0759105d05694ecd3edf45a002968abe7059e0c",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 500,
+      "price": "2.6300",
+      "cost": "7.63",
+      "cash_after": "53261.1700"
+    },
+    {
+      "order_id": "ad745068b6c23210c3a3bc87a036f515a6cd4cb05cfa2611bfd552647d23a855",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SZ000825",
+      "action": "BUY",
+      "quantity": 600,
+      "price": "3.7800",
+      "cost": "9.54",
+      "cash_after": "50983.6300"
+    },
+    {
+      "order_id": "049cf3eb87ba475b89ff06b547aa9e76824f66a3e4fd85c9eb5536674cb27872",
+      "execution_at": "2024-03-01T01:30:00+00:00",
+      "security_id": "SZ002506",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "2.6800",
+      "cost": "6.61",
+      "cash_after": "50173.0200"
+    },
+    {
+      "order_id": "3ba00a16e5f5dbfbcd15e2d20949b66888dd351f1428f00215361d33e7b612d4",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH600707",
+      "action": "SELL",
+      "quantity": 100,
+      "price": "7.6400",
+      "cost": "6.53",
+      "cash_after": "50930.4900"
+    },
+    {
+      "order_id": "1be87e1b080a8f2ad89a58a2c3c1b88228df8cd1bb96342bebd40973774d2940",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH601118",
+      "action": "SELL",
+      "quantity": 700,
+      "price": "5.0800",
+      "cost": "12.44",
+      "cash_after": "54474.0500"
+    },
+    {
+      "order_id": "859af23d5273443c452dd9bd02eb4228d846dd4b793d5141d3c9dafe83c95c9d",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH603225",
+      "action": "SELL",
+      "quantity": 3300,
+      "price": "14.5900",
+      "cost": "168.51",
+      "cash_after": "102452.5400"
+    },
+    {
+      "order_id": "135b1b6bbe56fd5e5e3325ffc9cc7b35f24b142aba77185e493f6c56955cb042",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SZ000825",
+      "action": "SELL",
+      "quantity": 12000,
+      "price": "3.5900",
+      "cost": "150.78",
+      "cash_after": "145381.7600"
+    },
+    {
+      "order_id": "f9341f0d05cb618f2eec57544244679f7d26ec0294b48eafe3426c52391f4c77",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH600004",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "10.0900",
+      "cost": "9.04",
+      "cash_after": "143354.7200"
+    },
+    {
+      "order_id": "506ad1d2b8c85dfb7e567cbd68dfa3385b3fd390b60a84666cf13e6d7d828dff",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "5.4200",
+      "cost": "7.17",
+      "cash_after": "142263.5500"
+    },
+    {
+      "order_id": "0109667221537a8de056588623a03d4e70e61059e48d38b0332287542a17bd28",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH600258",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "14.2000",
+      "cost": "13.52",
+      "cash_after": "137990.0300"
+    },
+    {
+      "order_id": "a4c152b5aa9eef31ab54fd6f56233c15cfc23b86f98af0afbe7397b075e2c799",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH600482",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "20.2900",
+      "cost": "17.17",
+      "cash_after": "131885.8600"
+    },
+    {
+      "order_id": "1d530280fdc07dc2d7eecc5c481e401cc929cf1fb78a42f9f4416df37649b459",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 900,
+      "price": "6.1400",
+      "cost": "16.05",
+      "cash_after": "126343.8100"
+    },
+    {
+      "order_id": "cbf9665da4399961c78e99eeefe2209794317052f8e3c601b3860352d5e1bc85",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 1000,
+      "price": "3.1200",
+      "cost": "11.24",
+      "cash_after": "123212.5700"
+    },
+    {
+      "order_id": "cb7706e3c06562c8a57b6b579aea15e923540c6a0d0e2255a64395f4a3c3b1fb",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH600977",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "12.2000",
+      "cost": "9.88",
+      "cash_after": "120762.6900"
+    },
+    {
+      "order_id": "a330b642fafc55283bd42d4e41e5289f974975aa77ad2d677762d1b2a800c9ad",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH601233",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "13.7200",
+      "cost": "10.49",
+      "cash_after": "118008.2000"
+    },
+    {
+      "order_id": "385b6f17e5bb1139b7d143944c5aa09d57a681ee8c7b9c4813e04c940371b870",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 3700,
+      "price": "2.2800",
+      "cost": "21.87",
+      "cash_after": "109550.3300"
+    },
+    {
+      "order_id": "fa129ecd71b433d9605bda2944f8b52d715223b098bffd364d1f02f1c88e559a",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SZ000050",
+      "action": "BUY",
+      "quantity": 5800,
+      "price": "8.3000",
+      "cost": "120.35",
+      "cash_after": "61289.9800"
+    },
+    {
+      "order_id": "23f9ff7d5577c4c8c063720af950146dae9dabcd979075f1e3ef301e1460ca4b",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SZ000998",
+      "action": "BUY",
+      "quantity": 400,
+      "price": "12.8800",
+      "cost": "15.30",
+      "cash_after": "56122.6800"
+    },
+    {
+      "order_id": "39b34f267cc26246bcaeaa9074020217ac7762d93cdf00a89563e2c924b75661",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "2.9600",
+      "cost": "6.18",
+      "cash_after": "55524.5000"
+    },
+    {
+      "order_id": "c12252ec02c126323146a74e6d184869f1831f2c6e9cac4f7af7287b1ce31ff2",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SZ002373",
+      "action": "BUY",
+      "quantity": 100,
+      "price": "10.4600",
+      "cost": "7.09",
+      "cash_after": "54471.4100"
+    },
+    {
+      "order_id": "790bdab364b05f2cf0603c7aeabca41d4fe8b1c66f97569d9b021cd0d0fdc705",
+      "execution_at": "2024-04-01T01:30:00+00:00",
+      "security_id": "SZ002506",
+      "action": "BUY",
+      "quantity": 1700,
+      "price": "2.5300",
+      "cost": "13.60",
+      "cash_after": "50156.8100"
+    },
+    {
+      "order_id": "32bb3dfd17e10e4214f03984a6bb8909010c9f876ea57e8501d3169a7e41179f",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600004",
+      "action": "SELL",
+      "quantity": 4700,
+      "price": "10.4300",
+      "cost": "171.57",
+      "cash_after": "99006.2400"
+    },
+    {
+      "order_id": "33ef25a14b6942497c04591dd8a764134c74d4cf0af40dbbb0dc32636e014e7b",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600258",
+      "action": "SELL",
+      "quantity": 3300,
+      "price": "15.4300",
+      "cost": "178.22",
+      "cash_after": "149747.0200"
+    },
+    {
+      "order_id": "13345966f0d91cca09a6c5d139b44055e769a368806c10a87ffa4ba6bbefcd34",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600415",
+      "action": "SELL",
+      "quantity": 5500,
+      "price": "8.8800",
+      "cost": "170.94",
+      "cash_after": "198416.0800"
+    },
+    {
+      "order_id": "8461968b035fe458aff669bfd7bb918c6b1f595addce73ed88a3f9a01a68ea70",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600482",
+      "action": "SELL",
+      "quantity": 2400,
+      "price": "20.4900",
+      "cost": "172.11",
+      "cash_after": "247419.9700"
+    },
+    {
+      "order_id": "e048be82891ff2d845e4d2e5e2ab2061d218f2e02b307430042743b4d7ba0f34",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600707",
+      "action": "SELL",
+      "quantity": 6500,
+      "price": "8.1800",
+      "cost": "186.10",
+      "cash_after": "300403.8700"
+    },
+    {
+      "order_id": "b9ca7374888251dc0a443602428a2e2641d7ada596700e64499cbf2f4eba4c6c",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600977",
+      "action": "SELL",
+      "quantity": 3900,
+      "price": "12.0000",
+      "cost": "163.80",
+      "cash_after": "347040.0700"
+    },
+    {
+      "order_id": "70564598b9a3c8edb82bd00339e1a580aed178c8255081818a85e7c505a987b9",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH601233",
+      "action": "SELL",
+      "quantity": 3500,
+      "price": "14.1000",
+      "cost": "172.73",
+      "cash_after": "396217.3400"
+    },
+    {
+      "order_id": "0e123e26346b02adb5fa71a8c2bacc1006ac5dd5410e78fe4f84aebf08485945",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SZ000998",
+      "action": "SELL",
+      "quantity": 3700,
+      "price": "12.2000",
+      "cost": "157.99",
+      "cash_after": "441199.3500"
+    },
+    {
+      "order_id": "0678ebd75a0cac5db4f6bbb21f6f02d7b92fe53b2176a103d3db4b49a6da67aa",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SZ002373",
+      "action": "SELL",
+      "quantity": 4500,
+      "price": "10.2500",
+      "cost": "161.44",
+      "cash_after": "487162.9100"
+    },
+    {
+      "order_id": "bb3c9b306791107cdc9efc85885431f4b8dcf09d7211da0358a6abaf18daac68",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SZ002506",
+      "action": "SELL",
+      "quantity": 18900,
+      "price": "2.4500",
+      "cost": "162.07",
+      "cash_after": "533305.8400"
+    },
+    {
+      "order_id": "a944f9ea32569301bfe22abb05ebfdb9cbf174030437969d9a51eafe99596dfa",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600118",
+      "action": "BUY",
+      "quantity": 2100,
+      "price": "24.8000",
+      "cost": "130.20",
+      "cash_after": "481095.6400"
+    },
+    {
+      "order_id": "05449387a64070af3f7b5b6ed691b273b34a6cad71eae728a76aaa8bd896f0b9",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 1600,
+      "price": "5.1600",
+      "cost": "21.51",
+      "cash_after": "472818.1300"
+    },
+    {
+      "order_id": "939f2d9cba7c5c357e15fb8b033c15baaf10c8ef745d22b1233aec0edb1b2fb7",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600316",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "18.1500",
+      "cost": "15.89",
+      "cash_after": "467357.2400"
+    },
+    {
+      "order_id": "3629ed048a6ed8f0891ab57bbcfd9567a0449a03b8384937a5ad4a08bfc629e8",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600418",
+      "action": "BUY",
+      "quantity": 500,
+      "price": "15.9700",
+      "cost": "20.97",
+      "cash_after": "459351.2700"
+    },
+    {
+      "order_id": "92dc340136867c3117542c12ca755bfe8a6977d7219daf2bff8a1fdd5c7688cc",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600516",
+      "action": "BUY",
+      "quantity": 10400,
+      "price": "5.2900",
+      "cost": "137.54",
+      "cash_after": "404197.7300"
+    },
+    {
+      "order_id": "836929ae5764d7a9dbd82b6768c0b52060dfed4411a20f13efc5536b1c6622b9",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600642",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "8.6200",
+      "cost": "8.45",
+      "cash_after": "402465.2800"
+    },
+    {
+      "order_id": "75456a9d1e3817ef7d5a64d1fcb76accc253e78d46a7eea0606d9eaf28b4f0dd",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 1100,
+      "price": "5.9700",
+      "cost": "18.13",
+      "cash_after": "395880.1500"
+    },
+    {
+      "order_id": "2b1deee3c82c24cdfeb3d1c70e80ec03f763ed0c0f7e6afec4ee12e5ed1f1404",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600739",
+      "action": "BUY",
+      "quantity": 5100,
+      "price": "10.5200",
+      "cost": "134.13",
+      "cash_after": "342094.0200"
+    },
+    {
+      "order_id": "aebb68906a8b8acf49880d02fa8353ebf900b12c360c32331b0f3abf53d1e582",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 1900,
+      "price": "3.1000",
+      "cost": "16.78",
+      "cash_after": "336187.2400"
+    },
+    {
+      "order_id": "03e06e02485ed075b92892710abbf44b6f6e9a6d0875d5b56f6287db62c902d5",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH601118",
+      "action": "BUY",
+      "quantity": 2000,
+      "price": "4.6300",
+      "cost": "23.52",
+      "cash_after": "326903.7200"
+    },
+    {
+      "order_id": "2b2c546ffd96029fb8bcf224a6b980c95c691a058b21ee777ba793431d684b37",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH601158",
+      "action": "BUY",
+      "quantity": 10400,
+      "price": "5.1000",
+      "cost": "132.60",
+      "cash_after": "273731.1200"
+    },
+    {
+      "order_id": "5c00d074a2f95ae91fc63db7ff70957982a8ad79ac61ed79f18193b662304a22",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 800,
+      "price": "2.4500",
+      "cost": "8.92",
+      "cash_after": "271762.2000"
+    },
+    {
+      "order_id": "6bf0891b612b9fee78b49941b19db3fcf5765168dc5436ffd89208be9732d2de",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SH603026",
+      "action": "BUY",
+      "quantity": 1200,
+      "price": "43.0300",
+      "cost": "129.09",
+      "cash_after": "219997.1100"
+    },
+    {
+      "order_id": "2f48a786e7c12b4f44a31af5a6d61281fa944c8c788ddf5c5af4080a6144022d",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SZ000050",
+      "action": "BUY",
+      "quantity": 700,
+      "price": "8.2000",
+      "cost": "16.48",
+      "cash_after": "214240.6300"
+    },
+    {
+      "order_id": "239b999ada1d5697e36c8dd693c41ab8bc30aa1889cbd590dda74583fe18e72e",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SZ000825",
+      "action": "BUY",
+      "quantity": 13700,
+      "price": "3.9000",
+      "cost": "133.58",
+      "cash_after": "160677.0500"
+    },
+    {
+      "order_id": "65108a9b382e7db9a746180b06cb5da3664f86c3d52846aa955ba32f62d269a2",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 1600,
+      "price": "3.0000",
+      "cost": "14.60",
+      "cash_after": "155862.4500"
+    },
+    {
+      "order_id": "bdc75e4fa159cdd352dee2be1eb9462d0aad4679d3d079693e2965e940c48608",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SZ002326",
+      "action": "BUY",
+      "quantity": 5300,
+      "price": "10.10",
+      "cost": "133.83",
+      "cash_after": "102198.6200"
+    },
+    {
+      "order_id": "7f449d3156b9bfe727838051cf6b14971e6545fd36c85d1dba1d4dbb093ebd21",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SZ002505",
+      "action": "BUY",
+      "quantity": 48800,
+      "price": "1.0700",
+      "cost": "130.54",
+      "cash_after": "49852.0800"
+    },
+    {
+      "order_id": "f958de6803dd4a06cd08123e6f38b5333f1dbfa7ae75b7b0dc6a2bce5f0770c9",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH600316",
+      "action": "SELL",
+      "quantity": 200,
+      "price": "18.8100",
+      "cost": "13.16",
+      "cash_after": "53742.5200"
+    },
+    {
+      "order_id": "865e3666b8d45fcf298c4c6c6964e57ce11bac0f043212a0b38ce1e4be456aba",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH600418",
+      "action": "SELL",
+      "quantity": 3400,
+      "price": "16.3000",
+      "cost": "193.97",
+      "cash_after": "108968.5500"
+    },
+    {
+      "order_id": "ce9bd629d85cde0b160b4f3261fcd039a1fb1eb48939c4a2718eb85dcc943055",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH600642",
+      "action": "SELL",
+      "quantity": 6200,
+      "price": "8.7000",
+      "cost": "188.79",
+      "cash_after": "162719.7600"
+    },
+    {
+      "order_id": "ef4e1bfd435455698cd07dfd7152761af8d7d13d16263ea55a61a4c6b60730c9",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH601118",
+      "action": "SELL",
+      "quantity": 1200,
+      "price": "5.0100",
+      "cost": "21.04",
+      "cash_after": "168710.7200"
+    },
+    {
+      "order_id": "1528f87bd887a3fffb08c6cc4f31e07353bf55426ec16a4826b5f543aad5f3ef",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH601158",
+      "action": "SELL",
+      "quantity": 10400,
+      "price": "5.1000",
+      "cost": "185.64",
+      "cash_after": "221565.0800"
+    },
+    {
+      "order_id": "69ad10f591da10c5117a47dcf40650dc7cf0db600464ce08396655800d52a36d",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH601933",
+      "action": "SELL",
+      "quantity": 2100,
+      "price": "2.6300",
+      "cost": "19.33",
+      "cash_after": "227068.7500"
+    },
+    {
+      "order_id": "e4940bda227ec12880c75cbe018483fab717cbe8a90f39d0b52396d1dece3471",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 500,
+      "price": "4.7400",
+      "cost": "9.74",
+      "cash_after": "224689.0100"
+    },
+    {
+      "order_id": "0bfb0ddfa2f7b9477404de31d39f96523b7fa2755a61afa3db65e9d090d970b1",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH600516",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "4.8500",
+      "cost": "7.91",
+      "cash_after": "223226.1000"
+    },
+    {
+      "order_id": "0c56bf02ff6f8babad455eefe914403ffa09944e45cac219530d7f9859e147d2",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH600739",
+      "action": "BUY",
+      "quantity": 100,
+      "price": "9.8500",
+      "cost": "6.97",
+      "cash_after": "222234.1300"
+    },
+    {
+      "order_id": "0c6c4dbf4e84a4adaee8b7e18d5d1a89fdae555a62009a10b86768a3a737c19b",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 700,
+      "price": "2.9000",
+      "cost": "9.06",
+      "cash_after": "220195.0700"
+    },
+    {
+      "order_id": "ec41ece08b4660f84d9dc599e77df1a64539d7335199975c411ff233d3d6bfd2",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH601106",
+      "action": "BUY",
+      "quantity": 20300,
+      "price": "2.5300",
+      "cost": "128.40",
+      "cash_after": "168707.6700"
+    },
+    {
+      "order_id": "d8f7b55371fedd620b6eea68d947c42b06043549e70b90b6e42922afea3ec85b",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SH603026",
+      "action": "BUY",
+      "quantity": 100,
+      "price": "39.2300",
+      "cost": "12.85",
+      "cash_after": "164771.8200"
+    },
+    {
+      "order_id": "db0da7df420a88537d5937e91346077a9b6cd0cd574b4ac93f5d0a0a865ff85b",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SZ000050",
+      "action": "BUY",
+      "quantity": 400,
+      "price": "7.5300",
+      "cost": "11.02",
+      "cash_after": "161748.8000"
+    },
+    {
+      "order_id": "4980980f6ba113be486235faa339889559a7087ebb4738175d3fdcaf3c2a5800",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SZ002092",
+      "action": "BUY",
+      "quantity": 12400,
+      "price": "4.1500",
+      "cost": "128.65",
+      "cash_after": "110160.1500"
+    },
+    {
+      "order_id": "c204b13f71499061a5e3008097e0f6e493423cb9509c9a7a9b6a67defe0d9a4f",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SZ002153",
+      "action": "BUY",
+      "quantity": 7800,
+      "price": "6.5700",
+      "cost": "128.11",
+      "cash_after": "58786.0400"
+    },
+    {
+      "order_id": "8261f026ad1513fa48c064fd444e34208106b2309be10de0a5b88726d0575ae8",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 1100,
+      "price": "2.7500",
+      "cost": "11.05",
+      "cash_after": "55749.9900"
+    },
+    {
+      "order_id": "35b7899eb948117aa38e55dccc162c41a1d7daf9aed53e7d82d420b4a2128956",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SZ002326",
+      "action": "BUY",
+      "quantity": 100,
+      "price": "9.50",
+      "cost": "6.90",
+      "cash_after": "54793.0900"
+    },
+    {
+      "order_id": "3f5bf181c1d6e469b8817e8c80c0b4781518705cd67a65514c694d87b93a5aad",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SZ002505",
+      "action": "BUY",
+      "quantity": 5600,
+      "price": "0.9600",
+      "cost": "15.75",
+      "cash_after": "49401.3400"
+    },
+    {
+      "order_id": "7a13bc44ab92db3fa3d83eb982260f0b09b1d7ee784c2082354344f4ddc49a28",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH601933",
+      "action": "SELL",
+      "quantity": 300,
+      "price": "2.4900",
+      "cost": "6.49",
+      "cash_after": "52092.6500"
+    },
+    {
+      "order_id": "f860c1fef5ce28dbc7987eb632929cca67d5469c0ef60213d89dbc10debec43a",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH603026",
+      "action": "SELL",
+      "quantity": 1300,
+      "price": "33.7000",
+      "cost": "153.34",
+      "cash_after": "95749.3100"
+    },
+    {
+      "order_id": "c5c011bd653b00b5041795fa116f2184ad3c57a399c0544a274a8b5e658a1675",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SZ000050",
+      "action": "SELL",
+      "quantity": 300,
+      "price": "7.3900",
+      "cost": "9.43",
+      "cash_after": "97956.8800"
+    },
+    {
+      "order_id": "c60b3aa63c91432a765850a2471eb89ac729f2c7985e69fbb55e147232e6453e",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SZ002092",
+      "action": "SELL",
+      "quantity": 12400,
+      "price": "3.8100",
+      "cost": "165.36",
+      "cash_after": "145035.5200"
+    },
+    {
+      "order_id": "abc48801f8c06b838722efb3b9228a6e6dca86fdeab804fed9155f24f8f51fab",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SZ002326",
+      "action": "SELL",
+      "quantity": 5400,
+      "price": "7.77",
+      "cost": "146.86",
+      "cash_after": "186846.6600"
+    },
+    {
+      "order_id": "56464b946fa97182056a2418aa811477e94cd07eeb231662293bc455e0a62e05",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH600118",
+      "action": "BUY",
+      "quantity": 100,
+      "price": "22.2300",
+      "cost": "9.45",
+      "cash_after": "184614.2100"
+    },
+    {
+      "order_id": "653743319a2da22ee44b41e630ce4f589f79ea3d4082005912966f0400ff5edf",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 700,
+      "price": "4.1100",
+      "cost": "10.75",
+      "cash_after": "181726.4600"
+    },
+    {
+      "order_id": "1da0564a75778baac7ba3c7e814a884a34b984315e57af1d4a571e4473de6840",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH600316",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "16.5200",
+      "cost": "11.61",
+      "cash_after": "178410.8500"
+    },
+    {
+      "order_id": "8f2df960ef0b97b3d016bb78ccbd5bb781e19c21afb2856dbfb8efdc24de418a",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH600516",
+      "action": "BUY",
+      "quantity": 400,
+      "price": "4.3100",
+      "cost": "8.45",
+      "cash_after": "176678.4000"
+    },
+    {
+      "order_id": "05fdcd2e4563b5ba9bcb1cd92aa7b687d1cd848c948976a37719e3c12eb293a6",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 400,
+      "price": "5.1500",
+      "cost": "9.12",
+      "cash_after": "174609.2800"
+    },
+    {
+      "order_id": "2f1f95bab5df32362f41d7017f4a2788f4a0d8c52a92d008ce3e7d3f1d5c823f",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH600739",
+      "action": "BUY",
+      "quantity": 500,
+      "price": "8.3600",
+      "cost": "13.36",
+      "cash_after": "170415.9200"
+    },
+    {
+      "order_id": "5d4a5b65a365691244b0dd2a1c400dd2db70270e58ca9cb73b4f6fecc1dcae05",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "2.6300",
+      "cost": "6.05",
+      "cash_after": "169883.8700"
+    },
+    {
+      "order_id": "aad8692310a8fbe803a0e544669eeb93a9669a821a8adfa56743155c0f9b1b22",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH601106",
+      "action": "BUY",
+      "quantity": 400,
+      "price": "2.3000",
+      "cost": "6.84",
+      "cash_after": "168957.0300"
+    },
+    {
+      "order_id": "4f9b720e234d0d285a95b6c20ce691c410ba15b28a5ce67500d09d9c6e795bda",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH601118",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "4.5200",
+      "cost": "7.71",
+      "cash_after": "167593.3200"
+    },
+    {
+      "order_id": "392493be11722ad72cdce81b941fb88a20267ee4446a4792bf3f1b040074a663",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH601158",
+      "action": "BUY",
+      "quantity": 10000,
+      "price": "4.8200",
+      "cost": "120.50",
+      "cash_after": "119272.8200"
+    },
+    {
+      "order_id": "b07e0f794711e2a3040e6a5957f1e82798e323c4ec64d51c3c62c780b4c1144d",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH601828",
+      "action": "BUY",
+      "quantity": 18800,
+      "price": "2.5500",
+      "cost": "119.85",
+      "cash_after": "71212.9700"
+    },
+    {
+      "order_id": "5142073ec9693281e5414ce0bcd00f242154de651767fcb8c347aa9f73b975d1",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SH601866",
+      "action": "BUY",
+      "quantity": 18500,
+      "price": "2.5900",
+      "cost": "119.79",
+      "cash_after": "23178.1800"
+    },
+    {
+      "order_id": "9261501293ec5e5a0581ad73ac1df1491f30545423e2e47078860ea3fd2544a4",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SZ000825",
+      "action": "BUY",
+      "quantity": 400,
+      "price": "3.3800",
+      "cost": "7.70",
+      "cash_after": "21818.4800"
+    },
+    {
+      "order_id": "e45e4a20af6c79eb9c61ba6e5f287cf8e1d3c286c4464324d9d15ae480c52c52",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SZ002153",
+      "action": "BUY",
+      "quantity": 600,
+      "price": "5.7400",
+      "cost": "11.89",
+      "cash_after": "18362.5900"
+    },
+    {
+      "order_id": "f5aabfa2f280b5f65cb2233df81639308083a93750275c70a9a36f497845a0d9",
+      "execution_at": "2024-07-01T01:30:00+00:00",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "2.5200",
+      "cost": "6.51",
+      "cash_after": "17600.0800"
+    },
+    {
+      "order_id": "c3a3712a44b2e1abcbcb6fdfd5b6a401d644d2c4d2d328cb65504e5ab4c61d6f",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH600316",
+      "action": "SELL",
+      "quantity": 500,
+      "price": "20.5100",
+      "cost": "35.89",
+      "cash_after": "28752.5100"
+    },
+    {
+      "order_id": "40912279be2bfd0e0511e629679ddf242df8a27a756a6aad9757a0eb709a148a",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH601828",
+      "action": "SELL",
+      "quantity": 18800,
+      "price": "2.5700",
+      "cost": "169.10",
+      "cash_after": "76899.4100"
+    },
+    {
+      "order_id": "36186af6ea9a03e9caece0a3a562770bd2116bca8ccd1e8e7bfc06a14003bc23",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH600126",
+      "action": "BUY",
+      "quantity": 2400,
+      "price": "3.6900",
+      "cost": "22.71",
+      "cash_after": "68020.7000"
+    },
+    {
+      "order_id": "54e6007d38d1aa92c3e20b5dd0330b1f7a06c50d37a0e4ea89ea67055ca79db6",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH600516",
+      "action": "BUY",
+      "quantity": 500,
+      "price": "4.4600",
+      "cost": "9.46",
+      "cash_after": "65781.2400"
+    },
+    {
+      "order_id": "c5609e908a60590cbcebdbbc49504b860b89581f8afa5497be99e7208fa9dced",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH600655",
+      "action": "BUY",
+      "quantity": 100,
+      "price": "5.4700",
+      "cost": "6.09",
+      "cash_after": "65228.1500"
+    },
+    {
+      "order_id": "7109351435282c058778f2f9feea2cf00f03026fbc4a9e6218172d5cfb1d66f7",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH600739",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "8.5800",
+      "cost": "10.15",
+      "cash_after": "62644.0000"
+    },
+    {
+      "order_id": "e8b111444a18ba84b58d1eb0c11532389ad33b41e850a84bb766835d8a6aa9ac",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH600959",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "2.7900",
+      "cost": "6.67",
+      "cash_after": "61800.3300"
+    },
+    {
+      "order_id": "1802743b65e054be237906b2f2d51037051324d05c4d9c04e6cd314e64895348",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH601106",
+      "action": "BUY",
+      "quantity": 600,
+      "price": "2.4200",
+      "cost": "7.90",
+      "cash_after": "60340.4300"
+    },
+    {
+      "order_id": "d599fdaaa75915fdc39c11838bd3ded7ac7d0f87d65f766b5733aff9ca1a2155",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH601118",
+      "action": "BUY",
+      "quantity": 1300,
+      "price": "4.3900",
+      "cost": "16.41",
+      "cash_after": "54617.0200"
+    },
+    {
+      "order_id": "ee7e2a91d83cd2735d84561b75ac86b79cd1bce09134b78e940294583fe1b4db",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH601158",
+      "action": "BUY",
+      "quantity": 200,
+      "price": "5.0600",
+      "cost": "7.02",
+      "cash_after": "53598.0000"
+    },
+    {
+      "order_id": "a0ab04b398f4c8d738927d8929d770734f9e05918bef4c3c85efd40d52c454dd",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH601866",
+      "action": "BUY",
+      "quantity": 2600,
+      "price": "2.4400",
+      "cost": "17.69",
+      "cash_after": "47236.3100"
+    },
+    {
+      "order_id": "f458e79ac200158bd14af872688e38290fc9060bca16badc698cce48495264ca",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SH601933",
+      "action": "BUY",
+      "quantity": 3500,
+      "price": "2.2600",
+      "cost": "20.82",
+      "cash_after": "39305.4900"
+    },
+    {
+      "order_id": "a7175b3f4b532e7a32a289761376b98a99b6f26ea0856de64013cb8af6b4539f",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SZ000050",
+      "action": "BUY",
+      "quantity": 600,
+      "price": "7.1400",
+      "cost": "13.57",
+      "cash_after": "35007.9200"
+    },
+    {
+      "order_id": "683207e64b96017ea5bdac2fa973b4f583093fb6aeefd9a4735041fc97f42192",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SZ000825",
+      "action": "BUY",
+      "quantity": 300,
+      "price": "3.5900",
+      "cost": "7.15",
+      "cash_after": "33923.7700"
+    },
+    {
+      "order_id": "638988d91bcb7dd274c504e3b7b5d6e7a77c99e60b8b3f4efeaafde6cdec8b31",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SZ002153",
+      "action": "BUY",
+      "quantity": 800,
+      "price": "5.6000",
+      "cost": "13.96",
+      "cash_after": "29429.8100"
+    },
+    {
+      "order_id": "a979e2528f2271be0440d15b5c23f7f360edb0370adac39588f6a74bbc403561",
+      "execution_at": "2024-08-01T01:30:00+00:00",
+      "security_id": "SZ002195",
+      "action": "BUY",
+      "quantity": 2000,
+      "price": "2.4600",
+      "cost": "14.84",
+      "cash_after": "24494.9700"
+    }
+  ],
+  "owned_shares": {
+    "SH600126": 14000,
+    "SH600316": 2400,
+    "SH600655": 9400,
+    "SH600959": 18400,
+    "SH601118": 11800,
+    "SH601933": 22800,
+    "SZ002195": 21100,
+    "SZ000050": 7200,
+    "SH600118": 2200,
+    "SH600516": 11600,
+    "SH600739": 6000,
+    "SZ000825": 14400,
+    "SZ002505": 54400,
+    "SH601106": 21300,
+    "SZ002153": 9200,
+    "SH601158": 10200,
+    "SH601866": 21100
+  },
+  "corporate_ledger": [
+    {
+      "day": "2024-05-13",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "ded32ce2b479fa0402ea6926d6176dc063488655dc1d25387283a7c82f28c5c5",
+      "instrument": "SZ002407",
+      "quantity": 0
+    },
+    {
+      "day": "2024-05-14",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "ded32ce2b479fa0402ea6926d6176dc063488655dc1d25387283a7c82f28c5c5",
+      "instrument": "SZ002407",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-05-23",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "6b4e2c66a298a5b2159edb58a93f9536679e2053d0673c3d44168c74a2c0252d",
+      "instrument": "SZ002195",
+      "quantity": 17700
+    },
+    {
+      "day": "2024-05-24",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "6b4e2c66a298a5b2159edb58a93f9536679e2053d0673c3d44168c74a2c0252d",
+      "instrument": "SZ002195",
+      "registered_quantity": 17700,
+      "cash_gross": "177.00",
+      "stress_tax_reserve": "35.40",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-05-27",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "6b4e2c66a298a5b2159edb58a93f9536679e2053d0673c3d44168c74a2c0252d",
+      "cash_delta": "141.60"
+    },
+    {
+      "day": "2024-05-29",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "a123b536791b3502b108ac678a90d5dd24499ba0cf92e437a891bb7c46646d4c",
+      "instrument": "SH603225",
+      "quantity": 0
+    },
+    {
+      "day": "2024-05-30",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "a123b536791b3502b108ac678a90d5dd24499ba0cf92e437a891bb7c46646d4c",
+      "instrument": "SH603225",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-05-30",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "c7328a1112824bad99a8c92ba19e74c29fbc832e4e9ba5501d258eeb5348ce67",
+      "instrument": "SH605358",
+      "quantity": 0
+    },
+    {
+      "day": "2024-05-31",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "c7328a1112824bad99a8c92ba19e74c29fbc832e4e9ba5501d258eeb5348ce67",
+      "instrument": "SH605358",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-03",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "55f0a78f015abeabd5cba4322633aec5fc8cff92ef860749cd0462b17472556a",
+      "instrument": "SH600316",
+      "quantity": 2700
+    },
+    {
+      "day": "2024-06-04",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "55f0a78f015abeabd5cba4322633aec5fc8cff92ef860749cd0462b17472556a",
+      "instrument": "SH600316",
+      "registered_quantity": 2700,
+      "cash_gross": "40.50",
+      "stress_tax_reserve": "8.10",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-05",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "55f0a78f015abeabd5cba4322633aec5fc8cff92ef860749cd0462b17472556a",
+      "cash_delta": "32.40"
+    },
+    {
+      "day": "2024-06-07",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "5ebc7feef82f69f2b38361bea6bb7077049425a49efbe6150465280948432cfb",
+      "instrument": "SH600126",
+      "quantity": 10900
+    },
+    {
+      "day": "2024-06-11",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "5ebc7feef82f69f2b38361bea6bb7077049425a49efbe6150465280948432cfb",
+      "instrument": "SH600126",
+      "registered_quantity": 10900,
+      "cash_gross": "545.00",
+      "stress_tax_reserve": "109.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-12",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "5ebc7feef82f69f2b38361bea6bb7077049425a49efbe6150465280948432cfb",
+      "cash_delta": "436.00"
+    },
+    {
+      "day": "2024-06-12",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "727dd8b8b15707224bc87dc101b470baa68d364156e97a411f4c07d6c30d97b6",
+      "instrument": "SZ002153",
+      "quantity": 7800
+    },
+    {
+      "day": "2024-06-13",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "727dd8b8b15707224bc87dc101b470baa68d364156e97a411f4c07d6c30d97b6",
+      "instrument": "SZ002153",
+      "registered_quantity": 7800,
+      "cash_gross": "78.00",
+      "stress_tax_reserve": "15.60",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-14",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "727dd8b8b15707224bc87dc101b470baa68d364156e97a411f4c07d6c30d97b6",
+      "cash_delta": "62.40"
+    },
+    {
+      "day": "2024-06-14",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "7ff649c85997812ec49ffb29976ac8549308082c7227c481ef3aabc14baaa70f",
+      "instrument": "SZ002373",
+      "quantity": 0
+    },
+    {
+      "day": "2024-06-17",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "7ff649c85997812ec49ffb29976ac8549308082c7227c481ef3aabc14baaa70f",
+      "instrument": "SZ002373",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-20",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "fd119f2cb2392c0a10baa0c91d9017dbb3522ded3bc071ed0fe3e7889a87fd2c",
+      "instrument": "SH600655",
+      "quantity": 8900
+    },
+    {
+      "day": "2024-06-20",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "453ddb9c65f6722742927772492a33b84e6956a02bcf3de3849ab0707625a680",
+      "instrument": "SH601158",
+      "quantity": 0
+    },
+    {
+      "day": "2024-06-21",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "fd119f2cb2392c0a10baa0c91d9017dbb3522ded3bc071ed0fe3e7889a87fd2c",
+      "instrument": "SH600655",
+      "registered_quantity": 8900,
+      "cash_gross": "1691.00",
+      "stress_tax_reserve": "338.20",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-21",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "453ddb9c65f6722742927772492a33b84e6956a02bcf3de3849ab0707625a680",
+      "instrument": "SH601158",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-24",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "fd119f2cb2392c0a10baa0c91d9017dbb3522ded3bc071ed0fe3e7889a87fd2c",
+      "cash_delta": "1352.80"
+    },
+    {
+      "day": "2024-06-25",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "eea927d3a6588076a0c23f26502c4e107d41468f72cf7f2683d2950d2002ff73",
+      "instrument": "SH600415",
+      "quantity": 0
+    },
+    {
+      "day": "2024-06-25",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "89ec77aba29ff4fd2c52706b8d6e703bab06a96f018ae446183c26f1afafd0d3",
+      "instrument": "SH600642",
+      "quantity": 0
+    },
+    {
+      "day": "2024-06-26",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "eea927d3a6588076a0c23f26502c4e107d41468f72cf7f2683d2950d2002ff73",
+      "instrument": "SH600415",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-26",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "89ec77aba29ff4fd2c52706b8d6e703bab06a96f018ae446183c26f1afafd0d3",
+      "instrument": "SH600642",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-27",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "d14a8d03660ba7679e7d5703f99937a89302ca34e51b1baec49b766c8c80cead",
+      "instrument": "SH600118",
+      "quantity": 2100
+    },
+    {
+      "day": "2024-06-27",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "c4283ee8132d67dfe60336d813e8c58f14ff8520eb889c408fdd9e9f1744ce39",
+      "instrument": "SH600258",
+      "quantity": 0
+    },
+    {
+      "day": "2024-06-27",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "aa5a55bce73077a6846104eb9a58807292eea8c6281e81f8fdd3ce35d72faf6a",
+      "instrument": "SZ000519",
+      "quantity": 0
+    },
+    {
+      "day": "2024-06-28",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "d14a8d03660ba7679e7d5703f99937a89302ca34e51b1baec49b766c8c80cead",
+      "instrument": "SH600118",
+      "registered_quantity": 2100,
+      "cash_gross": "84.00",
+      "stress_tax_reserve": "16.80",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-28",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "c4283ee8132d67dfe60336d813e8c58f14ff8520eb889c408fdd9e9f1744ce39",
+      "instrument": "SH600258",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-06-28",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "aa5a55bce73077a6846104eb9a58807292eea8c6281e81f8fdd3ce35d72faf6a",
+      "instrument": "SZ000519",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-01",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "d14a8d03660ba7679e7d5703f99937a89302ca34e51b1baec49b766c8c80cead",
+      "cash_delta": "67.20"
+    },
+    {
+      "day": "2024-07-01",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "f53945e72cbadf3c7714b858a25d91d22293d4cd084de6f0dc1b6060a901b75b",
+      "instrument": "SH603026",
+      "quantity": 0
+    },
+    {
+      "day": "2024-07-02",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "f53945e72cbadf3c7714b858a25d91d22293d4cd084de6f0dc1b6060a901b75b",
+      "instrument": "SH603026",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-08",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "7b21893a0f8250b5793838df4b864a5f852de59a0f89ecf329b86839ec6d3880",
+      "instrument": "SZ000623",
+      "quantity": 0
+    },
+    {
+      "day": "2024-07-09",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "7b21893a0f8250b5793838df4b864a5f852de59a0f89ecf329b86839ec6d3880",
+      "instrument": "SZ000623",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-12",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "012f22826c43a382c317fca04c2595e34880a0e3bb6f84f80ebf549d9b22e044",
+      "instrument": "SH603185",
+      "quantity": 0
+    },
+    {
+      "day": "2024-07-15",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "012f22826c43a382c317fca04c2595e34880a0e3bb6f84f80ebf549d9b22e044",
+      "instrument": "SH603185",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-15",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "be8ff16146dd70d8e51a36945af3255b86a2eaf0526cc6261a85dc0ab5b9d588",
+      "instrument": "SZ000998",
+      "quantity": 0
+    },
+    {
+      "day": "2024-07-16",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "be8ff16146dd70d8e51a36945af3255b86a2eaf0526cc6261a85dc0ab5b9d588",
+      "instrument": "SZ000998",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-16",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "4e7f162fcaf814c667314e3633fafa8e0549764a8433a87a0e20fda1201e6605",
+      "instrument": "SH601118",
+      "quantity": 10500
+    },
+    {
+      "day": "2024-07-16",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "a531f187b41d38c144500cbb526176c5f2161faca1e0421477d1f5c0024b75f8",
+      "instrument": "SH601233",
+      "quantity": 0
+    },
+    {
+      "day": "2024-07-16",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "e4774b913fcee22e0a02060081f182325364df68ea08a20870481d4fc1c3c098",
+      "instrument": "SH601880",
+      "quantity": 0
+    },
+    {
+      "day": "2024-07-17",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "4e7f162fcaf814c667314e3633fafa8e0549764a8433a87a0e20fda1201e6605",
+      "instrument": "SH601118",
+      "registered_quantity": 10500,
+      "cash_gross": "219.45",
+      "stress_tax_reserve": "43.89",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-17",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "a531f187b41d38c144500cbb526176c5f2161faca1e0421477d1f5c0024b75f8",
+      "instrument": "SH601233",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-17",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "e4774b913fcee22e0a02060081f182325364df68ea08a20870481d4fc1c3c098",
+      "instrument": "SH601880",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-18",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "4e7f162fcaf814c667314e3633fafa8e0549764a8433a87a0e20fda1201e6605",
+      "cash_delta": "175.56"
+    },
+    {
+      "day": "2024-07-18",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "efb58a37d7d64cec132363f700b4bb89d6913ffa340dc2f6ede8460d93cbf810",
+      "instrument": "SH600418",
+      "quantity": 0
+    },
+    {
+      "day": "2024-07-19",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "efb58a37d7d64cec132363f700b4bb89d6913ffa340dc2f6ede8460d93cbf810",
+      "instrument": "SH600418",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-23",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "c521507af90d74b047e7c123b911252083a891bee2d92d57e66d91c8bfb7bd63",
+      "instrument": "SH600516",
+      "quantity": 11100
+    },
+    {
+      "day": "2024-07-24",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "c521507af90d74b047e7c123b911252083a891bee2d92d57e66d91c8bfb7bd63",
+      "instrument": "SH600516",
+      "registered_quantity": 11100,
+      "cash_gross": "355.20",
+      "stress_tax_reserve": "71.04",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-25",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "c521507af90d74b047e7c123b911252083a891bee2d92d57e66d91c8bfb7bd63",
+      "cash_delta": "284.16"
+    },
+    {
+      "day": "2024-07-25",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "852706410dd2b6588c1b190007b7cc24d84d098a54af4fe213d5fd65b7ebe00d",
+      "instrument": "SH601992",
+      "quantity": 0
+    },
+    {
+      "day": "2024-07-26",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "852706410dd2b6588c1b190007b7cc24d84d098a54af4fe213d5fd65b7ebe00d",
+      "instrument": "SH601992",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-29",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "d2ec80813a4e62078e1b6b7dbd3d0dc92342882fdffa422df19c3d43114f0734",
+      "instrument": "SH601866",
+      "quantity": 18500
+    },
+    {
+      "day": "2024-07-30",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "d2ec80813a4e62078e1b6b7dbd3d0dc92342882fdffa422df19c3d43114f0734",
+      "instrument": "SH601866",
+      "registered_quantity": 18500,
+      "cash_gross": "592.00",
+      "stress_tax_reserve": "118.40",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-07-31",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "d2ec80813a4e62078e1b6b7dbd3d0dc92342882fdffa422df19c3d43114f0734",
+      "cash_delta": "473.60"
+    },
+    {
+      "day": "2024-08-07",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "a33f86eafaddd1b21e0e24eba9be4b56e862a1fc0dbf1242d7c91362811927ab",
+      "instrument": "SH600482",
+      "quantity": 0
+    },
+    {
+      "day": "2024-08-08",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "a33f86eafaddd1b21e0e24eba9be4b56e862a1fc0dbf1242d7c91362811927ab",
+      "instrument": "SH600482",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-08-08",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "25d3e24131d66f5d64dea71ca836791d9754b878378b463b5dd346d2571c776a",
+      "instrument": "SH600004",
+      "quantity": 0
+    },
+    {
+      "day": "2024-08-08",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "821a25eda1846062d7b3aa099848e923ce1b9ffdb5929ad835071677fa426ab6",
+      "instrument": "SH600739",
+      "quantity": 6000
+    },
+    {
+      "day": "2024-08-09",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "25d3e24131d66f5d64dea71ca836791d9754b878378b463b5dd346d2571c776a",
+      "instrument": "SH600004",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-08-09",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "821a25eda1846062d7b3aa099848e923ce1b9ffdb5929ad835071677fa426ab6",
+      "instrument": "SH600739",
+      "registered_quantity": 6000,
+      "cash_gross": "600.00",
+      "stress_tax_reserve": "120.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-08-12",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "821a25eda1846062d7b3aa099848e923ce1b9ffdb5929ad835071677fa426ab6",
+      "cash_delta": "480.00"
+    },
+    {
+      "day": "2024-08-15",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "a8380c3d634d185abdb448e521be38ba963803c614dae0275ba784f8a9122b3a",
+      "instrument": "SH600977",
+      "quantity": 0
+    },
+    {
+      "day": "2024-08-16",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "a8380c3d634d185abdb448e521be38ba963803c614dae0275ba784f8a9122b3a",
+      "instrument": "SH600977",
+      "registered_quantity": 0,
+      "cash_gross": "0.00",
+      "stress_tax_reserve": "0.00",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-08-22",
+      "kind": "RECORD_DATE_OWNERSHIP",
+      "event_id": "80b3de24d9fd30d4f038d4b33a8145746f66fd95b0b331b57e131a8ed5082b01",
+      "instrument": "SH600959",
+      "quantity": 18400
+    },
+    {
+      "day": "2024-08-23",
+      "kind": "EX_DATE_ENTITLEMENT",
+      "event_id": "80b3de24d9fd30d4f038d4b33a8145746f66fd95b0b331b57e131a8ed5082b01",
+      "instrument": "SH600959",
+      "registered_quantity": 18400,
+      "cash_gross": "386.40",
+      "stress_tax_reserve": "77.28",
+      "capital_shares": 0,
+      "stock_shares": 0,
+      "taxable_stock_income": "0.00"
+    },
+    {
+      "day": "2024-08-26",
+      "kind": "NET_DIVIDEND_CASH_AVAILABLE",
+      "event_id": "80b3de24d9fd30d4f038d4b33a8145746f66fd95b0b331b57e131a8ed5082b01",
+      "cash_delta": "309.12"
+    }
+  ],
+  "cash_claims": [
+    {
+      "event_id": "6b4e2c66a298a5b2159edb58a93f9536679e2053d0673c3d44168c74a2c0252d",
+      "instrument": "SZ002195",
+      "gross": "177.00",
+      "reserve": "35.40",
+      "net": "141.60",
+      "available_on": "2024-05-27",
+      "paid": true
+    },
+    {
+      "event_id": "55f0a78f015abeabd5cba4322633aec5fc8cff92ef860749cd0462b17472556a",
+      "instrument": "SH600316",
+      "gross": "40.50",
+      "reserve": "8.10",
+      "net": "32.40",
+      "available_on": "2024-06-05",
+      "paid": true
+    },
+    {
+      "event_id": "5ebc7feef82f69f2b38361bea6bb7077049425a49efbe6150465280948432cfb",
+      "instrument": "SH600126",
+      "gross": "545.00",
+      "reserve": "109.00",
+      "net": "436.00",
+      "available_on": "2024-06-12",
+      "paid": true
+    },
+    {
+      "event_id": "727dd8b8b15707224bc87dc101b470baa68d364156e97a411f4c07d6c30d97b6",
+      "instrument": "SZ002153",
+      "gross": "78.00",
+      "reserve": "15.60",
+      "net": "62.40",
+      "available_on": "2024-06-14",
+      "paid": true
+    },
+    {
+      "event_id": "fd119f2cb2392c0a10baa0c91d9017dbb3522ded3bc071ed0fe3e7889a87fd2c",
+      "instrument": "SH600655",
+      "gross": "1691.00",
+      "reserve": "338.20",
+      "net": "1352.80",
+      "available_on": "2024-06-24",
+      "paid": true
+    },
+    {
+      "event_id": "d14a8d03660ba7679e7d5703f99937a89302ca34e51b1baec49b766c8c80cead",
+      "instrument": "SH600118",
+      "gross": "84.00",
+      "reserve": "16.80",
+      "net": "67.20",
+      "available_on": "2024-07-01",
+      "paid": true
+    },
+    {
+      "event_id": "4e7f162fcaf814c667314e3633fafa8e0549764a8433a87a0e20fda1201e6605",
+      "instrument": "SH601118",
+      "gross": "219.45",
+      "reserve": "43.89",
+      "net": "175.56",
+      "available_on": "2024-07-18",
+      "paid": true
+    },
+    {
+      "event_id": "c521507af90d74b047e7c123b911252083a891bee2d92d57e66d91c8bfb7bd63",
+      "instrument": "SH600516",
+      "gross": "355.20",
+      "reserve": "71.04",
+      "net": "284.16",
+      "available_on": "2024-07-25",
+      "paid": true
+    },
+    {
+      "event_id": "d2ec80813a4e62078e1b6b7dbd3d0dc92342882fdffa422df19c3d43114f0734",
+      "instrument": "SH601866",
+      "gross": "592.00",
+      "reserve": "118.40",
+      "net": "473.60",
+      "available_on": "2024-07-31",
+      "paid": true
+    },
+    {
+      "event_id": "821a25eda1846062d7b3aa099848e923ce1b9ffdb5929ad835071677fa426ab6",
+      "instrument": "SH600739",
+      "gross": "600.00",
+      "reserve": "120.00",
+      "net": "480.00",
+      "available_on": "2024-08-12",
+      "paid": true
+    },
+    {
+      "event_id": "80b3de24d9fd30d4f038d4b33a8145746f66fd95b0b331b57e131a8ed5082b01",
+      "instrument": "SH600959",
+      "gross": "386.40",
+      "reserve": "77.28",
+      "net": "309.12",
+      "available_on": "2024-08-26",
+      "paid": true
+    }
+  ],
+  "stock_claims": []
+}

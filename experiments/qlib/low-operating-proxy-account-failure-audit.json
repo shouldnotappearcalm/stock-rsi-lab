@@ -1,0 +1,103 @@
+{
+  "status": "NATIVE_CONTINUOUS_ACCOUNT_PREFIX_RECONCILED_NOT_ANNUAL_RETURN",
+  "last_account_clock": [
+    "2024-08-29",
+    1
+  ],
+  "frozen_candidate": "low_operating_profitability_followup_v1",
+  "failed_cost_extra_bps": 20,
+  "unrun_cost_extra_bps": 40,
+  "failure_day": "2024-08-30",
+  "blocking_instrument": "SZ002505",
+  "owned_shares_at_failure": 54400,
+  "blocking_orders": [
+    {
+      "order_id": "7f449d3156b9bfe727838051cf6b14971e6545fd36c85d1dba1d4dbb093ebd21",
+      "decision_id": "b92e4cf5dd3ea958c3f984d83d63a0bb4a3f77503d0287ec6ea236f580681e1c",
+      "security_id": "SZ002505",
+      "action": "BUY",
+      "quantity": 48800,
+      "submitted_at": "2024-04-30T07:05:00+00:00",
+      "eligible_at": "2024-05-06T01:30:00+00:00",
+      "expires_at": "2024-05-06T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "3f5bf181c1d6e469b8817e8c80c0b4781518705cd67a65514c694d87b93a5aad",
+      "decision_id": "2189b972afa48c45ca9c4600a0d2a1e48aa422da78107f8b38148f6a97a49d01",
+      "security_id": "SZ002505",
+      "action": "BUY",
+      "quantity": 5600,
+      "submitted_at": "2024-05-31T07:05:00+00:00",
+      "eligible_at": "2024-06-03T01:30:00+00:00",
+      "expires_at": "2024-06-03T01:30:00+00:00",
+      "status": "FILLED"
+    },
+    {
+      "order_id": "8b93db0d5db62eda16d79860de4c5da09df8b55f21841e33600cbc86510259a1",
+      "decision_id": "85664b34798be8e9d6be1ee91d84657663375e0486010e364d1022db86745550",
+      "security_id": "SZ002505",
+      "action": "SELL",
+      "quantity": 54400,
+      "submitted_at": "2024-06-28T07:05:00+00:00",
+      "eligible_at": "2024-07-01T01:30:00+00:00",
+      "expires_at": "2024-07-01T01:30:00+00:00",
+      "status": "UNFILLED_MARKET_CONSTRAINT"
+    },
+    {
+      "order_id": "c1df4cf44449310ace2afd158f70e3ab714b360be6f955195bb370dfb7ec3fb9",
+      "decision_id": "21015e36bd720b31011705b4e7169c90ea2ca000dd61cb8f5e64f4aa745876f2",
+      "security_id": "SZ002505",
+      "action": "SELL",
+      "quantity": 54400,
+      "submitted_at": "2024-07-31T07:05:00+00:00",
+      "eligible_at": "2024-08-01T01:30:00+00:00",
+      "expires_at": "2024-08-01T01:30:00+00:00",
+      "status": "UNFILLED_MARKET_CONSTRAINT"
+    }
+  ],
+  "blocking_fills": [
+    {
+      "order_id": "7f449d3156b9bfe727838051cf6b14971e6545fd36c85d1dba1d4dbb093ebd21",
+      "execution_at": "2024-05-06T01:30:00+00:00",
+      "security_id": "SZ002505",
+      "action": "BUY",
+      "quantity": 48800,
+      "price": "1.0700",
+      "cost": "130.54",
+      "cash_after": "49852.0800"
+    },
+    {
+      "order_id": "3f5bf181c1d6e469b8817e8c80c0b4781518705cd67a65514c694d87b93a5aad",
+      "execution_at": "2024-06-03T01:30:00+00:00",
+      "security_id": "SZ002505",
+      "action": "BUY",
+      "quantity": 5600,
+      "price": "0.9600",
+      "cost": "15.75",
+      "cash_after": "49401.3400"
+    }
+  ],
+  "prefix_fills": 158,
+  "prefix_orders": 160,
+  "cash_CNY": "25284.0900",
+  "reconstructed_cash_CNY": "25284.0900",
+  "net_dividends_received_CNY": "3814.84",
+  "execution_fees_CNY": "8790.75",
+  "cash_and_integer_share_prefix_reconciled": true,
+  "record_date_entitlements_reconciled_with_saved_record_receipts": true,
+  "corporate_events": 64,
+  "noncash_events": 0,
+  "fractional_share_allocation_branches_required_in_current_event_set": 0,
+  "strict_original_failure_retained": true,
+  "annual_return_computed": false,
+  "2026_values_used_for_selection": false,
+  "objective_achieved": false,
+  "prohibited_shortcuts_used": [],
+  "limitations": [
+    "Native prefix conservation shares producer accounting conventions; not independent financial audit",
+    "No delisting sale,recovery value,zero-writeoff or fabricated price assumed",
+    "No completed2024/2025return or2026qualification",
+    "Reconstructed source visibility,conditional joined state,daily-open proxy,flat20percent reserve and simulated permission remain conditional"
+  ]
+}
