@@ -1,0 +1,35 @@
+{
+  "status": "MANUAL_HISTORICAL_STATE_ACTION_RAW_CAPTURE_NOT_ADMITTED",
+  "request_sha256": "6d131efa26549813f9e19e017d47a8071ca6b2f31d29d1d8f20ec06e262976b3",
+  "resources": {
+    "SZ002092-20240423-20240429": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "5576",
+        "url_effective": "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+      },
+      "body_bytes": 5576,
+      "error_type": null,
+      "error": null
+    }
+  },
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_decoded": false,
+  "objective_achieved": false,
+  "complete": true,
+  "capture_sha256": {
+    "SZ002092-20240423-20240429/request.json": "a2dc5c9e21f26593e1370f175a04b2f16aad66079e53167f0b84263fe4c26463",
+    "SZ002092-20240423-20240429/reservation.json": "2a613ea67bbdf3fb45a9e56a994f934a2cd5351788371c316801fd51e8df6428",
+    "SZ002092-20240423-20240429/command.json": "04414cc71de75e684cf7449a07a95370f18784935008229cead8c60e72e37c5c",
+    "SZ002092-20240423-20240429/headers.raw": "5b2870dde6a0d9cab77e292cf9b323de728d79d7301f0307e8e8a5aec0c6b412",
+    "SZ002092-20240423-20240429/body.bin": "1a774855c4dcf48d66f94cff0b5341cb41ad742487d8a8524d499c2f6245cc49",
+    "SZ002092-20240423-20240429/transport.raw": "c5996f4e3245b858780b388e660e1aa3420b9507a37d9b73ab57cd5e28d414bf",
+    "SZ002092-20240423-20240429/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002092-20240423-20240429/receipt.json": "589c21f4339306fd777dd90c84ddc15f08fbfb427dc279377a49ebd29f4460f4"
+  },
+  "all_inputs_unchanged": true,
+  "all_outputs_unchanged": true
+}
