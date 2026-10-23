@@ -1,0 +1,18 @@
+{
+  "status": "ALL400_PDF_RESOURCES_PROCESSED_NOT_FINANCIAL_ADMISSION",
+  "request_sha256": "b8089caec3da7f7733030051d17ee59cd0afe5c6a9399c06fbba4628383a6398",
+  "resource_count": 400,
+  "logical_attempts": 400,
+  "status_counts": {
+    "ORIGINAL_PDF_BYTES_CAPTURED_NOT_FISCAL_ADMISSION": 400
+  },
+  "successful_original_PDFs": 400,
+  "original_PDF_bytes": 1466451107,
+  "all_original_inputs_unchanged": true,
+  "cover_fiscal_identity_verified": false,
+  "financial_numeric_values_decoded": false,
+  "historical_arrival_verified": false,
+  "financial_version_history_complete": false,
+  "2026_portfolio_returns_computed": false,
+  "objective_achieved": false
+}
