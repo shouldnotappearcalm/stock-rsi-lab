@@ -1,0 +1,3248 @@
+{
+  "status": "METADATA_ONLY_RAW_CACHE_INVENTORY_NOT_SOURCE_ADMISSION",
+  "inventory_code_sha256": "55874b0bb9f8a0d0aeebc81f281b419f264c0a5576bb0fc2bf3ccecd474cbe12",
+  "target_summary_sha256": "dae37f057a3cb8c8d393c5f6205b075c6611f3aa36df41fa5e34dbbd67db06bb",
+  "primary_target_names": 47,
+  "manifest_cache_count": 13,
+  "cache_manifests": {
+    "asset-expansion-raw-pre2026-20261022": {
+      "manifest_sha256": "3a7572556c6a074f2e3306ecd6c5ec8080d76406ee2b65b8ee763c8d358ca2ed",
+      "status": "ASSET_EXPANSION_RAW_CAPTURE_COMPLETE_NOT_ADMITTED",
+      "window": [
+        "2023-12-29",
+        "2025-12-31"
+      ]
+    },
+    "budgeted-residual-raw-dev-20261021": {
+      "manifest_sha256": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+      "status": "BUDGETED_RESIDUAL_RAW_SOURCES_CAPTURED_ADMISSION_SEPARATE",
+      "window": [
+        "2023-12-29",
+        "2025-12-31"
+      ]
+    },
+    "illiquidity-raw-source-continuation-20261020": {
+      "manifest_sha256": "15709f0416c96148894be6b662c624dbde63d0f5d37b7760078235abe73440c8",
+      "status": "ILLIQUIDITY_RAW_SOURCES_CAPTURED_ADMISSION_SEPARATE",
+      "window": [
+        "2023-12-29",
+        "2025-12-31"
+      ]
+    },
+    "low-beta60-raw-dev-20261021": {
+      "manifest_sha256": "411e2abe02ebf914c809d6b5acb9b7e2fabacafe7dc88081b980787fb0cd8613",
+      "status": "LOW_BETA60_RAW_SOURCES_CAPTURED_ADMISSION_SEPARATE",
+      "window": [
+        "2023-12-29",
+        "2025-12-31"
+      ]
+    },
+    "low-beta60-raw-extension-20261021": {
+      "manifest_sha256": "10f645719228d50c439e166bbfe65959b5ff517668c2ecc8ffc4fca4e1680ea7",
+      "status": "LOW_BETA60_RAW_EXTENSION_CAPTURED_ADMISSION_SEPARATE",
+      "window": [
+        "2023-12-29",
+        "2026-10-13"
+      ]
+    },
+    "low-beta60-raw-horizon-20261021": {
+      "manifest_sha256": "9e2a7639ae40f1e8913a5306d430ed14003074acc24b741d7e7e3d4e5a64f891",
+      "status": "LOW_BETA60_OCT20_SOURCE_CAPTURE_ADMISSION_SEPARATE",
+      "window": [
+        "2023-12-29",
+        "2026-10-20"
+      ]
+    },
+    "low-market-residual-vol1m-raw-pre2026-20261021": {
+      "manifest_sha256": "7c7e56f5ec3301a9b1d82748bd90603f255ef8a1c602b64cf34b3ebaedef62b3",
+      "status": "LOW_MARKET_RESIDUAL_VOL1M_RAW_SOURCES_CAPTURED_ADMISSION_SEPARATE",
+      "window": [
+        "2023-12-29",
+        "2025-12-31"
+      ]
+    },
+    "low-risk-raw-account-data-20261017": {
+      "manifest_sha256": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+      "status": "RAW_ACCOUNT_VALIDATION_DATA_CAPTURED",
+      "window": [
+        "2023-12-29",
+        "2026-10-16"
+      ]
+    },
+    "price-delay-raw-dev-20261021": {
+      "manifest_sha256": "b179d4e987ad2ee93d0b152d817486c29737c6d605abdad1a15c3fd4713d6b67",
+      "status": "PRICE_DELAY_RAW_SOURCES_CAPTURED_ADMISSION_SEPARATE",
+      "window": [
+        "2023-12-29",
+        "2025-12-31"
+      ]
+    },
+    "price-delay-raw-horizon-20261021": {
+      "manifest_sha256": "223983d5707627f18c18e5528446e6fdb8e04e61c4ea3bf6ea61a44db4793bef",
+      "status": "COMPOSITE_RAW_EXTENSION_CAPTURED_ADMISSION_SEPARATE",
+      "window": [
+        "2023-12-29",
+        "2026-10-20"
+      ]
+    },
+    "price-delay-raw-horizon-v2-20261021": {
+      "manifest_sha256": "9fe3990c0b4b1c076b78c97971ceecf593687b2f15699154c3bdbbce666f6490",
+      "status": "PRICE_DELAY_203_LOCAL_RAW_REASSEMBLY_INDEPENDENT_ADMISSION_PENDING",
+      "window": [
+        "2023-12-29",
+        "2026-10-20"
+      ]
+    },
+    "return-families-raw-dev-20261017": {
+      "manifest_sha256": "53250d4b726f8b54f5e2eafa516b7587e5acd01a6605c4be6457fdc5073263d7",
+      "status": "FROZEN_TARGET_DEVELOPMENT_INPUTS_CAPTURED",
+      "window": [
+        "2023-12-29",
+        "2025-12-31"
+      ]
+    },
+    "reversal-raw-full-20261017": {
+      "manifest_sha256": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc",
+      "status": "REVERSAL_RAW_EXTENSION_CAPTURED",
+      "window": [
+        "2023-12-29",
+        "2026-10-16"
+      ]
+    }
+  },
+  "all47_dependency_candidates": {
+    "SH600022": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+        "actual_opaque_packet_sha256": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+        "actual_opaque_packet_sha256": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+        "actual_opaque_packet_sha256": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "39de5c527d7a98749efcfd6e3e1427459687d4274d55a464e87f8e3d24fba1ba",
+        "actual_opaque_packet_sha256": "39de5c527d7a98749efcfd6e3e1427459687d4274d55a464e87f8e3d24fba1ba",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600060": [
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "48d8bf912c1f19fc3759be97335e504526a8042eb065f83a310c26a1023ccada",
+        "actual_opaque_packet_sha256": "48d8bf912c1f19fc3759be97335e504526a8042eb065f83a310c26a1023ccada",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "ac2ac9dc44c99bca46849321a2b617b9630b21f660bf554d8590a51e5628e14d",
+        "actual_opaque_packet_sha256": "ac2ac9dc44c99bca46849321a2b617b9630b21f660bf554d8590a51e5628e14d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "ac2ac9dc44c99bca46849321a2b617b9630b21f660bf554d8590a51e5628e14d",
+        "actual_opaque_packet_sha256": "ac2ac9dc44c99bca46849321a2b617b9630b21f660bf554d8590a51e5628e14d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600062": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+        "actual_opaque_packet_sha256": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "efefecc77f9ae6f595bfed0c615793be86caccda73c95afdd5a951d5683225f1",
+        "actual_opaque_packet_sha256": "efefecc77f9ae6f595bfed0c615793be86caccda73c95afdd5a951d5683225f1",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+        "actual_opaque_packet_sha256": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-extension-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-13"
+        ],
+        "packet_sha256_in_manifest": "7df14faf348e574c86bf077d5d6b09d78def934d411dd714e2fe7d762a361706",
+        "actual_opaque_packet_sha256": "7df14faf348e574c86bf077d5d6b09d78def934d411dd714e2fe7d762a361706",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "94c0e0c2a4c347f4156c6789ca13b1041402e888c0985a007e2ca3c08b9e9117",
+        "actual_opaque_packet_sha256": "94c0e0c2a4c347f4156c6789ca13b1041402e888c0985a007e2ca3c08b9e9117",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+        "actual_opaque_packet_sha256": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "aa1dca7405efe36c859cd67f494fbbfb783fd145896959da5a1b74a3d6702f02",
+        "actual_opaque_packet_sha256": "aa1dca7405efe36c859cd67f494fbbfb783fd145896959da5a1b74a3d6702f02",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "0335d9b547806ec6e4153f558acf1b61e1a22f854a3be5c0ab55444815f1de8d",
+        "actual_opaque_packet_sha256": "0335d9b547806ec6e4153f558acf1b61e1a22f854a3be5c0ab55444815f1de8d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "0335d9b547806ec6e4153f558acf1b61e1a22f854a3be5c0ab55444815f1de8d",
+        "actual_opaque_packet_sha256": "0335d9b547806ec6e4153f558acf1b61e1a22f854a3be5c0ab55444815f1de8d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600066": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+        "actual_opaque_packet_sha256": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+        "actual_opaque_packet_sha256": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "6b44dd7658bd8d2b2d0442540fd4464e95910b9b4d9d27c43f0a2e6150288a6c",
+        "actual_opaque_packet_sha256": "6b44dd7658bd8d2b2d0442540fd4464e95910b9b4d9d27c43f0a2e6150288a6c",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "cf580c48233ede9152df2dd43c92667bba753c4d3d1287f04690d99c0685b15d",
+        "actual_opaque_packet_sha256": "cf580c48233ede9152df2dd43c92667bba753c4d3d1287f04690d99c0685b15d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "cf580c48233ede9152df2dd43c92667bba753c4d3d1287f04690d99c0685b15d",
+        "actual_opaque_packet_sha256": "cf580c48233ede9152df2dd43c92667bba753c4d3d1287f04690d99c0685b15d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+        "actual_opaque_packet_sha256": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "40726aa0510af0058175c6e4f9d6dec82b4f2bebc446e37ef8a19aa6f62f57a1",
+        "actual_opaque_packet_sha256": "40726aa0510af0058175c6e4f9d6dec82b4f2bebc446e37ef8a19aa6f62f57a1",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600126": [
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "18465760edf6570d0daaa31e0698ff50dd581c8d221a8691bf0f56a575589f81",
+        "actual_opaque_packet_sha256": "18465760edf6570d0daaa31e0698ff50dd581c8d221a8691bf0f56a575589f81",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "18465760edf6570d0daaa31e0698ff50dd581c8d221a8691bf0f56a575589f81",
+        "actual_opaque_packet_sha256": "18465760edf6570d0daaa31e0698ff50dd581c8d221a8691bf0f56a575589f81",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "8a3b8da282a35bfa052511c0298bdc82112ea0b026eef16de05ab6ada68af655",
+        "actual_opaque_packet_sha256": "8a3b8da282a35bfa052511c0298bdc82112ea0b026eef16de05ab6ada68af655",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "8442a70e1008f685d537b6d750227163dbb598e5e8b4bb39baf17ce5fe9ae0d7",
+        "actual_opaque_packet_sha256": "8442a70e1008f685d537b6d750227163dbb598e5e8b4bb39baf17ce5fe9ae0d7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "8442a70e1008f685d537b6d750227163dbb598e5e8b4bb39baf17ce5fe9ae0d7",
+        "actual_opaque_packet_sha256": "8442a70e1008f685d537b6d750227163dbb598e5e8b4bb39baf17ce5fe9ae0d7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "4e987f520df35241fc9e73cb66ecec860aaaa53844b46eeacab7d2d44f5167e5",
+        "actual_opaque_packet_sha256": "4e987f520df35241fc9e73cb66ecec860aaaa53844b46eeacab7d2d44f5167e5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "4315c8772978fe7aeab86aaa73b25747d250bed0ac9221a1dc971884325c3f94",
+        "actual_opaque_packet_sha256": "4315c8772978fe7aeab86aaa73b25747d250bed0ac9221a1dc971884325c3f94",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600131": [
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "310e52c3690967931df39323afb189fe16a5257bbc96d223b9bd550679773129",
+        "actual_opaque_packet_sha256": "310e52c3690967931df39323afb189fe16a5257bbc96d223b9bd550679773129",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "310e52c3690967931df39323afb189fe16a5257bbc96d223b9bd550679773129",
+        "actual_opaque_packet_sha256": "310e52c3690967931df39323afb189fe16a5257bbc96d223b9bd550679773129",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "310e52c3690967931df39323afb189fe16a5257bbc96d223b9bd550679773129",
+        "actual_opaque_packet_sha256": "310e52c3690967931df39323afb189fe16a5257bbc96d223b9bd550679773129",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "3777aa756771c36602ce19c2573e0aaa80567986e7c68dbed575091b19b0d933",
+        "actual_opaque_packet_sha256": "3777aa756771c36602ce19c2573e0aaa80567986e7c68dbed575091b19b0d933",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600166": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+        "actual_opaque_packet_sha256": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+        "actual_opaque_packet_sha256": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600170": [
+      {
+        "cache": "low-beta60-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "c603a2c960696edf096951b7a43b11df7f8ad2a87ddce4031c5999bf24783d8d",
+        "actual_opaque_packet_sha256": "c603a2c960696edf096951b7a43b11df7f8ad2a87ddce4031c5999bf24783d8d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-extension-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-13"
+        ],
+        "packet_sha256_in_manifest": "c2a9731468dc1233fcc9054ef113770a5e89dfad639713e885bac5b7e93668d5",
+        "actual_opaque_packet_sha256": "c2a9731468dc1233fcc9054ef113770a5e89dfad639713e885bac5b7e93668d5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "75ce0e1c379971d0f4f08e9800c7897d29b8a24e17dbaae0076aef7b2379f797",
+        "actual_opaque_packet_sha256": "75ce0e1c379971d0f4f08e9800c7897d29b8a24e17dbaae0076aef7b2379f797",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "c603a2c960696edf096951b7a43b11df7f8ad2a87ddce4031c5999bf24783d8d",
+        "actual_opaque_packet_sha256": "c603a2c960696edf096951b7a43b11df7f8ad2a87ddce4031c5999bf24783d8d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "de92416b838ecefd58d0aa4e05651f383064a80dc9a39fa08df05b4f06d5bfc5",
+        "actual_opaque_packet_sha256": "de92416b838ecefd58d0aa4e05651f383064a80dc9a39fa08df05b4f06d5bfc5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600177": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+        "actual_opaque_packet_sha256": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "bf772823973a321d7b41d34c571aed02810c4dd2088c567e93f41c313f6d6a47",
+        "actual_opaque_packet_sha256": "bf772823973a321d7b41d34c571aed02810c4dd2088c567e93f41c313f6d6a47",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+        "actual_opaque_packet_sha256": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-extension-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-13"
+        ],
+        "packet_sha256_in_manifest": "2f8f111ff821fb0b62539d6c505e16cad12591a019dfe2cabd2f9579c58f0397",
+        "actual_opaque_packet_sha256": "2f8f111ff821fb0b62539d6c505e16cad12591a019dfe2cabd2f9579c58f0397",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "bd0789c27a1163888e04e2001b1e42de3119eb42a840d47810a4d98fea384569",
+        "actual_opaque_packet_sha256": "bd0789c27a1163888e04e2001b1e42de3119eb42a840d47810a4d98fea384569",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+        "actual_opaque_packet_sha256": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "e4c78a1a7313b535803860bcac82ceae6ff63de14f5ef415159a896a14624e40",
+        "actual_opaque_packet_sha256": "e4c78a1a7313b535803860bcac82ceae6ff63de14f5ef415159a896a14624e40",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "9b1199296675602c5091e13d546fb0a33ea3e5593e4d3ac02ded3b2530129855",
+        "actual_opaque_packet_sha256": "9b1199296675602c5091e13d546fb0a33ea3e5593e4d3ac02ded3b2530129855",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "9b1199296675602c5091e13d546fb0a33ea3e5593e4d3ac02ded3b2530129855",
+        "actual_opaque_packet_sha256": "9b1199296675602c5091e13d546fb0a33ea3e5593e4d3ac02ded3b2530129855",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600208": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+        "actual_opaque_packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+        "actual_opaque_packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+        "actual_opaque_packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "4fa6708ca796566a0f5a93a81b2eba588d02de146aee0499b53f97f31a825d15",
+        "actual_opaque_packet_sha256": "4fa6708ca796566a0f5a93a81b2eba588d02de146aee0499b53f97f31a825d15",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+        "actual_opaque_packet_sha256": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "6b61173fbd548053589db3f51d6692aa6b86d5e516744feeebebc27eb9fce411",
+        "actual_opaque_packet_sha256": "6b61173fbd548053589db3f51d6692aa6b86d5e516744feeebebc27eb9fce411",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600258": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+        "actual_opaque_packet_sha256": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+        "actual_opaque_packet_sha256": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+        "actual_opaque_packet_sha256": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "e42c01dcde9da76fd07527de9850b3642f504aff832d434df23001eccbbf23a5",
+        "actual_opaque_packet_sha256": "e42c01dcde9da76fd07527de9850b3642f504aff832d434df23001eccbbf23a5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "e42c01dcde9da76fd07527de9850b3642f504aff832d434df23001eccbbf23a5",
+        "actual_opaque_packet_sha256": "e42c01dcde9da76fd07527de9850b3642f504aff832d434df23001eccbbf23a5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600271": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+        "actual_opaque_packet_sha256": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "93f67d3c9e23c83cff3713fa06c5ac2333e7ee1663cda0fa88bc469644852199",
+        "actual_opaque_packet_sha256": "93f67d3c9e23c83cff3713fa06c5ac2333e7ee1663cda0fa88bc469644852199",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+        "actual_opaque_packet_sha256": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+        "actual_opaque_packet_sha256": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "5cb2ed75b3d04262e6887c28a79940780831db8a2d37172e204152ee18206714",
+        "actual_opaque_packet_sha256": "5cb2ed75b3d04262e6887c28a79940780831db8a2d37172e204152ee18206714",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600282": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+        "actual_opaque_packet_sha256": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "e695f23c85b6b3f825eff0863456cb50f89e18f7d8710c2d8b5c8fd0cc6b88d7",
+        "actual_opaque_packet_sha256": "e695f23c85b6b3f825eff0863456cb50f89e18f7d8710c2d8b5c8fd0cc6b88d7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "e695f23c85b6b3f825eff0863456cb50f89e18f7d8710c2d8b5c8fd0cc6b88d7",
+        "actual_opaque_packet_sha256": "e695f23c85b6b3f825eff0863456cb50f89e18f7d8710c2d8b5c8fd0cc6b88d7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+        "actual_opaque_packet_sha256": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+        "actual_opaque_packet_sha256": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "cfe1b17e77d17e35222badefcd46b578a521af594d8efade9233018699cee321",
+        "actual_opaque_packet_sha256": "cfe1b17e77d17e35222badefcd46b578a521af594d8efade9233018699cee321",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "cfe1b17e77d17e35222badefcd46b578a521af594d8efade9233018699cee321",
+        "actual_opaque_packet_sha256": "cfe1b17e77d17e35222badefcd46b578a521af594d8efade9233018699cee321",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600315": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+        "actual_opaque_packet_sha256": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+        "actual_opaque_packet_sha256": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+        "actual_opaque_packet_sha256": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600316": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+        "actual_opaque_packet_sha256": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "819cde9788fe7f77e3c76aa81cc0a1bf1b8d28bbea6f88a6466e2ae7929ecc3f",
+        "actual_opaque_packet_sha256": "819cde9788fe7f77e3c76aa81cc0a1bf1b8d28bbea6f88a6466e2ae7929ecc3f",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+        "actual_opaque_packet_sha256": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+        "actual_opaque_packet_sha256": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "8d0308c71f5280432ee9e6dace09541731ce02271e94c16613e07920853f5161",
+        "actual_opaque_packet_sha256": "8d0308c71f5280432ee9e6dace09541731ce02271e94c16613e07920853f5161",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "8d0308c71f5280432ee9e6dace09541731ce02271e94c16613e07920853f5161",
+        "actual_opaque_packet_sha256": "8d0308c71f5280432ee9e6dace09541731ce02271e94c16613e07920853f5161",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600325": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+        "actual_opaque_packet_sha256": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "74478565fa33e1c5ae5721134c10915a31860f4b92d0a25d0f3a9c2a9a94e247",
+        "actual_opaque_packet_sha256": "74478565fa33e1c5ae5721134c10915a31860f4b92d0a25d0f3a9c2a9a94e247",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-extension-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-13"
+        ],
+        "packet_sha256_in_manifest": "065de295ad9307fb1ae9c3a89b38c7bc2e1bfd1314f44531e898cef7f03e4744",
+        "actual_opaque_packet_sha256": "065de295ad9307fb1ae9c3a89b38c7bc2e1bfd1314f44531e898cef7f03e4744",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "08d857632aba8299f88815d856e2d7f0365055be77f885f53fb860bf389ee48a",
+        "actual_opaque_packet_sha256": "08d857632aba8299f88815d856e2d7f0365055be77f885f53fb860bf389ee48a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+        "actual_opaque_packet_sha256": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+        "actual_opaque_packet_sha256": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "7fda6727ec98d2ea6457b31b991c7e8e03fac5da3bc2a4d437fbc48ad9540d3c",
+        "actual_opaque_packet_sha256": "7fda6727ec98d2ea6457b31b991c7e8e03fac5da3bc2a4d437fbc48ad9540d3c",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "7fda6727ec98d2ea6457b31b991c7e8e03fac5da3bc2a4d437fbc48ad9540d3c",
+        "actual_opaque_packet_sha256": "7fda6727ec98d2ea6457b31b991c7e8e03fac5da3bc2a4d437fbc48ad9540d3c",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600516": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+        "actual_opaque_packet_sha256": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "a12d5afd4ca7c48ea21d5afcd8cd2a9af4c519336d0cdaa73ffa81bbc3e44160",
+        "actual_opaque_packet_sha256": "a12d5afd4ca7c48ea21d5afcd8cd2a9af4c519336d0cdaa73ffa81bbc3e44160",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+        "actual_opaque_packet_sha256": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+        "actual_opaque_packet_sha256": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "fb0fd686a192c34dbaf9936c048bf5529fc5ea89db7f2aba2fd3b372e18e2b59",
+        "actual_opaque_packet_sha256": "fb0fd686a192c34dbaf9936c048bf5529fc5ea89db7f2aba2fd3b372e18e2b59",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600535": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+        "actual_opaque_packet_sha256": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+        "actual_opaque_packet_sha256": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+        "actual_opaque_packet_sha256": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+        "actual_opaque_packet_sha256": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "c1657c999a13f0465b3652d12887f9717b1ea4276ffa1d0d40d0347372246ead",
+        "actual_opaque_packet_sha256": "c1657c999a13f0465b3652d12887f9717b1ea4276ffa1d0d40d0347372246ead",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600536": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+        "actual_opaque_packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+        "actual_opaque_packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+        "actual_opaque_packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "dfac19db51c0cf92c8691007b482536e7fa939008bafa4e5cc97ce319092378e",
+        "actual_opaque_packet_sha256": "dfac19db51c0cf92c8691007b482536e7fa939008bafa4e5cc97ce319092378e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "dfac19db51c0cf92c8691007b482536e7fa939008bafa4e5cc97ce319092378e",
+        "actual_opaque_packet_sha256": "dfac19db51c0cf92c8691007b482536e7fa939008bafa4e5cc97ce319092378e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+        "actual_opaque_packet_sha256": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "c2a83779439ea0581c08e7797849588093caac09f3b1e14e68488adfe31f201b",
+        "actual_opaque_packet_sha256": "c2a83779439ea0581c08e7797849588093caac09f3b1e14e68488adfe31f201b",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600546": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+        "actual_opaque_packet_sha256": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+        "actual_opaque_packet_sha256": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+        "actual_opaque_packet_sha256": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "9253c1b7933f9390303997582395fa2fa26d2cc5cc43a4562ad3a6f196009f2d",
+        "actual_opaque_packet_sha256": "9253c1b7933f9390303997582395fa2fa26d2cc5cc43a4562ad3a6f196009f2d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "9253c1b7933f9390303997582395fa2fa26d2cc5cc43a4562ad3a6f196009f2d",
+        "actual_opaque_packet_sha256": "9253c1b7933f9390303997582395fa2fa26d2cc5cc43a4562ad3a6f196009f2d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600580": [
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "ae06375f4e9b499ebe5f2497b2bcee7a8d8e291169834375babf305931f28b88",
+        "actual_opaque_packet_sha256": "ae06375f4e9b499ebe5f2497b2bcee7a8d8e291169834375babf305931f28b88",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "ae06375f4e9b499ebe5f2497b2bcee7a8d8e291169834375babf305931f28b88",
+        "actual_opaque_packet_sha256": "ae06375f4e9b499ebe5f2497b2bcee7a8d8e291169834375babf305931f28b88",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600655": [
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "d6f0df1e60911f028f245a6cf4edc33972afc2cdecb6750c0e28c210db734eaf",
+        "actual_opaque_packet_sha256": "d6f0df1e60911f028f245a6cf4edc33972afc2cdecb6750c0e28c210db734eaf",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "d6f0df1e60911f028f245a6cf4edc33972afc2cdecb6750c0e28c210db734eaf",
+        "actual_opaque_packet_sha256": "d6f0df1e60911f028f245a6cf4edc33972afc2cdecb6750c0e28c210db734eaf",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "344ed873e33a210e8059c00fd22eef1c6acb63c5321d3388badd75baece7022e",
+        "actual_opaque_packet_sha256": "344ed873e33a210e8059c00fd22eef1c6acb63c5321d3388badd75baece7022e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600707": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+        "actual_opaque_packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+        "actual_opaque_packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+        "actual_opaque_packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+        "actual_opaque_packet_sha256": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600737": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+        "actual_opaque_packet_sha256": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+        "actual_opaque_packet_sha256": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+        "actual_opaque_packet_sha256": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "fdb2d5c6e8d28c6c8ee458deb1dba3f45ddad248fb1cadcab6bd7b57ed57fc6f",
+        "actual_opaque_packet_sha256": "fdb2d5c6e8d28c6c8ee458deb1dba3f45ddad248fb1cadcab6bd7b57ed57fc6f",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600859": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "4f8b870c1162a074076a16fdfd53a36b29d9c841f31b0c9066248e5f6f0b0eb2",
+        "actual_opaque_packet_sha256": "4f8b870c1162a074076a16fdfd53a36b29d9c841f31b0c9066248e5f6f0b0eb2",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "4f8b870c1162a074076a16fdfd53a36b29d9c841f31b0c9066248e5f6f0b0eb2",
+        "actual_opaque_packet_sha256": "4f8b870c1162a074076a16fdfd53a36b29d9c841f31b0c9066248e5f6f0b0eb2",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600873": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+        "actual_opaque_packet_sha256": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "5eac144389dfee69dc73d4b424dcbc787adc2df0af0521efb5ca3af4101fec72",
+        "actual_opaque_packet_sha256": "5eac144389dfee69dc73d4b424dcbc787adc2df0af0521efb5ca3af4101fec72",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-extension-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-13"
+        ],
+        "packet_sha256_in_manifest": "119041a566de7d7dcc74341f3e84d4f9dbd36fd8da1ef3c0cbd1c1761a1d9c4e",
+        "actual_opaque_packet_sha256": "119041a566de7d7dcc74341f3e84d4f9dbd36fd8da1ef3c0cbd1c1761a1d9c4e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "1cbdab2bdeefd6ed08b9d59c4bb275ce2c5bc2ab6690b15cbcf6b6dfe07eb514",
+        "actual_opaque_packet_sha256": "1cbdab2bdeefd6ed08b9d59c4bb275ce2c5bc2ab6690b15cbcf6b6dfe07eb514",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+        "actual_opaque_packet_sha256": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "784f5d3987064d9ab3dc911cd8f07d1e842ff2ea1180802f9e639787cc78f453",
+        "actual_opaque_packet_sha256": "784f5d3987064d9ab3dc911cd8f07d1e842ff2ea1180802f9e639787cc78f453",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+        "actual_opaque_packet_sha256": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "ccdc36d076f06532dc784add933833c82029450b93d6922b74e8801221701854",
+        "actual_opaque_packet_sha256": "ccdc36d076f06532dc784add933833c82029450b93d6922b74e8801221701854",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "ccdc36d076f06532dc784add933833c82029450b93d6922b74e8801221701854",
+        "actual_opaque_packet_sha256": "ccdc36d076f06532dc784add933833c82029450b93d6922b74e8801221701854",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600967": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+        "actual_opaque_packet_sha256": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+        "actual_opaque_packet_sha256": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+        "actual_opaque_packet_sha256": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH600977": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+        "actual_opaque_packet_sha256": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+        "actual_opaque_packet_sha256": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+        "actual_opaque_packet_sha256": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "619c9cca4559de463a17cd58a79280dab7ef91d6c4b4634893d3c122829b993e",
+        "actual_opaque_packet_sha256": "619c9cca4559de463a17cd58a79280dab7ef91d6c4b4634893d3c122829b993e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "619c9cca4559de463a17cd58a79280dab7ef91d6c4b4634893d3c122829b993e",
+        "actual_opaque_packet_sha256": "619c9cca4559de463a17cd58a79280dab7ef91d6c4b4634893d3c122829b993e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH601118": [
+      {
+        "cache": "low-beta60-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "df981d773959658183d9164ace25817f43e79967525399a9ef0ced7603a811d2",
+        "actual_opaque_packet_sha256": "df981d773959658183d9164ace25817f43e79967525399a9ef0ced7603a811d2",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-extension-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-13"
+        ],
+        "packet_sha256_in_manifest": "f430ca29284c6e1625b3c45197b4f0ed3020b04b7654b6e819ebb950a075b685",
+        "actual_opaque_packet_sha256": "f430ca29284c6e1625b3c45197b4f0ed3020b04b7654b6e819ebb950a075b685",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "0ae41f0d67f9bbcaba0ac96661780ca3eb892b74b05305127c757efc433fbabf",
+        "actual_opaque_packet_sha256": "0ae41f0d67f9bbcaba0ac96661780ca3eb892b74b05305127c757efc433fbabf",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "df981d773959658183d9164ace25817f43e79967525399a9ef0ced7603a811d2",
+        "actual_opaque_packet_sha256": "df981d773959658183d9164ace25817f43e79967525399a9ef0ced7603a811d2",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "6874eb05e923220146c482c191e1c1fbb6ce76cce1b45803730978ed563484d9",
+        "actual_opaque_packet_sha256": "6874eb05e923220146c482c191e1c1fbb6ce76cce1b45803730978ed563484d9",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH601156": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+        "actual_opaque_packet_sha256": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+        "actual_opaque_packet_sha256": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+        "actual_opaque_packet_sha256": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+        "actual_opaque_packet_sha256": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH601568": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+        "actual_opaque_packet_sha256": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "05993eae7f56950f33a9bc847ebcec4c44077ed774393e190cdd315dbced1eab",
+        "actual_opaque_packet_sha256": "05993eae7f56950f33a9bc847ebcec4c44077ed774393e190cdd315dbced1eab",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+        "actual_opaque_packet_sha256": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "49422cc30452c0325dfd9d6be13bc9d5045ae8e017921125c21719130d41b9a2",
+        "actual_opaque_packet_sha256": "49422cc30452c0325dfd9d6be13bc9d5045ae8e017921125c21719130d41b9a2",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+        "actual_opaque_packet_sha256": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "ff3ed34cbe00f298d5d8b8733929f13b71a630cf25d25754b0b85829f5dff478",
+        "actual_opaque_packet_sha256": "ff3ed34cbe00f298d5d8b8733929f13b71a630cf25d25754b0b85829f5dff478",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH601608": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+        "actual_opaque_packet_sha256": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+        "actual_opaque_packet_sha256": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+        "actual_opaque_packet_sha256": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH601828": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+        "actual_opaque_packet_sha256": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+        "actual_opaque_packet_sha256": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b13f9f64a4296e8e7fb996a78e8850c2beb367a07500aceab0143ede81930910",
+        "actual_opaque_packet_sha256": "b13f9f64a4296e8e7fb996a78e8850c2beb367a07500aceab0143ede81930910",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "23ed571122b83e3d520710b583700579ce2fd522a38d54e8004163ca3678d389",
+        "actual_opaque_packet_sha256": "23ed571122b83e3d520710b583700579ce2fd522a38d54e8004163ca3678d389",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH601880": [
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b781959756b43463e8f8eeca17cf73fa647d3a5af8e6b69ab9dfcd9858452b29",
+        "actual_opaque_packet_sha256": "b781959756b43463e8f8eeca17cf73fa647d3a5af8e6b69ab9dfcd9858452b29",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "02b918e3d59426f6f19d7a543f8060e5b0a65f329f35426f05f6474a0eea6f2d",
+        "actual_opaque_packet_sha256": "02b918e3d59426f6f19d7a543f8060e5b0a65f329f35426f05f6474a0eea6f2d",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH601933": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+        "actual_opaque_packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+        "actual_opaque_packet_sha256": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+        "actual_opaque_packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-extension-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-13"
+        ],
+        "packet_sha256_in_manifest": "14effd20962d4b586c1cfaf9d581569d56ebe925fadca2a86e8429dd63b2d2e0",
+        "actual_opaque_packet_sha256": "14effd20962d4b586c1cfaf9d581569d56ebe925fadca2a86e8429dd63b2d2e0",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-beta60-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "7cdf0561266893194da6f3e0ed9f378280bd298cb3a128c67b91625d3b3180d5",
+        "actual_opaque_packet_sha256": "7cdf0561266893194da6f3e0ed9f378280bd298cb3a128c67b91625d3b3180d5",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+        "actual_opaque_packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+        "actual_opaque_packet_sha256": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "c2c2668b6a23a08a15896036b74f0c09bf34f3955ca389f2c48e0703b22b4c73",
+        "actual_opaque_packet_sha256": "c2c2668b6a23a08a15896036b74f0c09bf34f3955ca389f2c48e0703b22b4c73",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "c2c2668b6a23a08a15896036b74f0c09bf34f3955ca389f2c48e0703b22b4c73",
+        "actual_opaque_packet_sha256": "c2c2668b6a23a08a15896036b74f0c09bf34f3955ca389f2c48e0703b22b4c73",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+        "actual_opaque_packet_sha256": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "4c7259e76e077ab9364ea11479fa8c0affb2b04a6bac868f12efa0d1b662e6ee",
+        "actual_opaque_packet_sha256": "4c7259e76e077ab9364ea11479fa8c0affb2b04a6bac868f12efa0d1b662e6ee",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603056": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+        "actual_opaque_packet_sha256": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+        "actual_opaque_packet_sha256": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+        "actual_opaque_packet_sha256": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603077": [
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "267b651f06cda7094313bd6a61a4349c49550a50daa2290d7fd2256aa004d0a0",
+        "actual_opaque_packet_sha256": "267b651f06cda7094313bd6a61a4349c49550a50daa2290d7fd2256aa004d0a0",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603156": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+        "actual_opaque_packet_sha256": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "60924bb05bf5e8e6e685f2cb4c852efed3dbae30b37c824c0260aab5997bc564",
+        "actual_opaque_packet_sha256": "60924bb05bf5e8e6e685f2cb4c852efed3dbae30b37c824c0260aab5997bc564",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+        "actual_opaque_packet_sha256": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+        "actual_opaque_packet_sha256": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "2e4f2d491614b267f7080f735ece170a2b54b0f7a27279987bf8b8b1ccd02f48",
+        "actual_opaque_packet_sha256": "2e4f2d491614b267f7080f735ece170a2b54b0f7a27279987bf8b8b1ccd02f48",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "2e4f2d491614b267f7080f735ece170a2b54b0f7a27279987bf8b8b1ccd02f48",
+        "actual_opaque_packet_sha256": "2e4f2d491614b267f7080f735ece170a2b54b0f7a27279987bf8b8b1ccd02f48",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603160": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+        "actual_opaque_packet_sha256": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+        "actual_opaque_packet_sha256": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+        "actual_opaque_packet_sha256": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+        "actual_opaque_packet_sha256": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "278c186b169f5b17a079c951a77df7897f8ca0e096201b7fa884460d8857d2f4",
+        "actual_opaque_packet_sha256": "278c186b169f5b17a079c951a77df7897f8ca0e096201b7fa884460d8857d2f4",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603589": [
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "434f232c962052b6a3c9388532f54c04cf82819cac5af938f9daea45a03e1dca",
+        "actual_opaque_packet_sha256": "434f232c962052b6a3c9388532f54c04cf82819cac5af938f9daea45a03e1dca",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "434f232c962052b6a3c9388532f54c04cf82819cac5af938f9daea45a03e1dca",
+        "actual_opaque_packet_sha256": "434f232c962052b6a3c9388532f54c04cf82819cac5af938f9daea45a03e1dca",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "828a132aa143c29d98b416ae6fc708d0c7641890e5e9f223bdc63cd198630289",
+        "actual_opaque_packet_sha256": "828a132aa143c29d98b416ae6fc708d0c7641890e5e9f223bdc63cd198630289",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "828a132aa143c29d98b416ae6fc708d0c7641890e5e9f223bdc63cd198630289",
+        "actual_opaque_packet_sha256": "828a132aa143c29d98b416ae6fc708d0c7641890e5e9f223bdc63cd198630289",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603688": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2",
+        "actual_opaque_packet_sha256": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2",
+        "actual_opaque_packet_sha256": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "524d7064958cb7714409aaff74b6e278a81a2dbee82763415eb237f59a8d01db",
+        "actual_opaque_packet_sha256": "524d7064958cb7714409aaff74b6e278a81a2dbee82763415eb237f59a8d01db",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "524d7064958cb7714409aaff74b6e278a81a2dbee82763415eb237f59a8d01db",
+        "actual_opaque_packet_sha256": "524d7064958cb7714409aaff74b6e278a81a2dbee82763415eb237f59a8d01db",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603707": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+        "actual_opaque_packet_sha256": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+        "actual_opaque_packet_sha256": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+        "actual_opaque_packet_sha256": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+        "actual_opaque_packet_sha256": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "ae37ca716738b8fbcd536a390be7e7cbcd4e968efc525ab3f979c96e42d04fa1",
+        "actual_opaque_packet_sha256": "ae37ca716738b8fbcd536a390be7e7cbcd4e968efc525ab3f979c96e42d04fa1",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603712": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "4ff91421800e4ce09912728ee063f3958f40f75307ff1f592edd9ff526a7b8be",
+        "actual_opaque_packet_sha256": "4ff91421800e4ce09912728ee063f3958f40f75307ff1f592edd9ff526a7b8be",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603737": [
+      {
+        "cache": "budgeted-residual-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+        "actual_opaque_packet_sha256": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+        "actual_opaque_packet_sha256": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "0bd7c311495ce9163846702cf6155a0259f1fb3b904a48f66a0381581a742673",
+        "actual_opaque_packet_sha256": "0bd7c311495ce9163846702cf6155a0259f1fb3b904a48f66a0381581a742673",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "40d2e0da754a0fd790f4c6549eaeed662a68e5ad8721fbb4b3d5ca3c5833da23",
+        "actual_opaque_packet_sha256": "40d2e0da754a0fd790f4c6549eaeed662a68e5ad8721fbb4b3d5ca3c5833da23",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "40d2e0da754a0fd790f4c6549eaeed662a68e5ad8721fbb4b3d5ca3c5833da23",
+        "actual_opaque_packet_sha256": "40d2e0da754a0fd790f4c6549eaeed662a68e5ad8721fbb4b3d5ca3c5833da23",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+        "actual_opaque_packet_sha256": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "5e56a870e15a9d4d04e244218d4804d7c4fe43223e3814a11d58facd13717ec3",
+        "actual_opaque_packet_sha256": "5e56a870e15a9d4d04e244218d4804d7c4fe43223e3814a11d58facd13717ec3",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603858": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+        "actual_opaque_packet_sha256": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+        "actual_opaque_packet_sha256": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+        "actual_opaque_packet_sha256": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-risk-raw-account-data-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "38e47cc90b846b28153d89893a557ec67f3fe000c3ac40696835000660d9215a",
+        "actual_opaque_packet_sha256": "38e47cc90b846b28153d89893a557ec67f3fe000c3ac40696835000660d9215a",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603868": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+        "actual_opaque_packet_sha256": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "illiquidity-raw-source-continuation-20261020",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "1e1a9e4a8a3dca069cc99544cde0e313496abaaa8a8fe3c8e5076a1f3f853628",
+        "actual_opaque_packet_sha256": "1e1a9e4a8a3dca069cc99544cde0e313496abaaa8a8fe3c8e5076a1f3f853628",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "low-market-residual-vol1m-raw-pre2026-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+        "actual_opaque_packet_sha256": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-dev-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+        "actual_opaque_packet_sha256": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "0dd1a9e00304cf7218a938cd14fd5bde05cbadf4a5539913a0f94817639c176e",
+        "actual_opaque_packet_sha256": "0dd1a9e00304cf7218a938cd14fd5bde05cbadf4a5539913a0f94817639c176e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "price-delay-raw-horizon-v2-20261021",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-20"
+        ],
+        "packet_sha256_in_manifest": "0dd1a9e00304cf7218a938cd14fd5bde05cbadf4a5539913a0f94817639c176e",
+        "actual_opaque_packet_sha256": "0dd1a9e00304cf7218a938cd14fd5bde05cbadf4a5539913a0f94817639c176e",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ],
+    "SH603882": [
+      {
+        "cache": "asset-expansion-raw-pre2026-20261022",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "8e1cbae3c459487ea36c6e66f850dfb239c776f9bd8a57c9924a31840cbce22f",
+        "actual_opaque_packet_sha256": "8e1cbae3c459487ea36c6e66f850dfb239c776f9bd8a57c9924a31840cbce22f",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "return-families-raw-dev-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2025-12-31"
+        ],
+        "packet_sha256_in_manifest": "8e1cbae3c459487ea36c6e66f850dfb239c776f9bd8a57c9924a31840cbce22f",
+        "actual_opaque_packet_sha256": "8e1cbae3c459487ea36c6e66f850dfb239c776f9bd8a57c9924a31840cbce22f",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      },
+      {
+        "cache": "reversal-raw-full-20261017",
+        "manifest_window": [
+          "2023-12-29",
+          "2026-10-16"
+        ],
+        "packet_sha256_in_manifest": "aca5ae6e300fb286dd1d15940846a97556607c41f15557c8e037967e57005c93",
+        "actual_opaque_packet_sha256": "aca5ae6e300fb286dd1d15940846a97556607c41f15557c8e037967e57005c93",
+        "packet_present_and_byte_matched": true,
+        "bar_action_schema_and_actual_coverage_verified": false,
+        "source_admitted_for_replay": false
+      }
+    ]
+  },
+  "latest_advertised_byte_matched_window_end": {
+    "SH600022": "2026-10-16",
+    "SH600060": "2026-10-20",
+    "SH600062": "2026-10-20",
+    "SH600066": "2026-10-20",
+    "SH600126": "2026-10-20",
+    "SH600131": "2026-10-16",
+    "SH600166": "2025-12-31",
+    "SH600170": "2026-10-20",
+    "SH600177": "2026-10-20",
+    "SH600208": "2026-10-16",
+    "SH600258": "2026-10-20",
+    "SH600271": "2026-10-16",
+    "SH600282": "2026-10-20",
+    "SH600315": "2025-12-31",
+    "SH600316": "2026-10-20",
+    "SH600325": "2026-10-20",
+    "SH600516": "2026-10-16",
+    "SH600535": "2026-10-16",
+    "SH600536": "2026-10-20",
+    "SH600546": "2026-10-20",
+    "SH600580": "2025-12-31",
+    "SH600655": "2026-10-16",
+    "SH600707": "2025-12-31",
+    "SH600737": "2026-10-16",
+    "SH600859": "2025-12-31",
+    "SH600873": "2026-10-20",
+    "SH600967": "2025-12-31",
+    "SH600977": "2026-10-20",
+    "SH601118": "2026-10-20",
+    "SH601156": "2025-12-31",
+    "SH601568": "2026-10-16",
+    "SH601608": "2025-12-31",
+    "SH601828": "2026-10-16",
+    "SH601880": "2026-10-16",
+    "SH601933": "2026-10-20",
+    "SH603056": "2025-12-31",
+    "SH603077": "2025-12-31",
+    "SH603156": "2026-10-20",
+    "SH603160": "2026-10-16",
+    "SH603589": "2026-10-20",
+    "SH603688": "2026-10-20",
+    "SH603707": "2026-10-16",
+    "SH603712": "2025-12-31",
+    "SH603737": "2026-10-20",
+    "SH603858": "2026-10-16",
+    "SH603868": "2026-10-20",
+    "SH603882": "2026-10-16"
+  },
+  "names_with_advertised_prefix_through_2026_10_20": 21,
+  "names_with_advertised_prefix_through_2026_10_16": 36,
+  "names_with_advertised_prefix_through_2026_10_21": 0,
+  "names_with_any_byte_matched_prefix": 47,
+  "all_consumed_original_file_sha256": {
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-targets-through2026-v1-20261023/summary.json": "dae37f057a3cb8c8d393c5f6205b075c6611f3aa36df41fa5e34dbbd67db06bb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/manifest.json": "3a7572556c6a074f2e3306ecd6c5ec8080d76406ee2b65b8ee763c8d358ca2ed",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600022.json": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600062.json": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600066.json": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600166.json": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600177.json": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600208.json": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600258.json": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600271.json": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600282.json": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600315.json": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600316.json": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600325.json": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600516.json": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600535.json": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600536.json": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600546.json": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600707.json": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600737.json": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600859.json": "4f8b870c1162a074076a16fdfd53a36b29d9c841f31b0c9066248e5f6f0b0eb2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600873.json": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600967.json": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH600977.json": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH601156.json": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH601568.json": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH601608.json": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH601828.json": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH601933.json": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH603056.json": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH603156.json": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH603160.json": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH603688.json": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH603707.json": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH603712.json": "4ff91421800e4ce09912728ee063f3958f40f75307ff1f592edd9ff526a7b8be",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH603858.json": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH603868.json": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/asset-expansion-raw-pre2026-20261022/codes/SH603882.json": "8e1cbae3c459487ea36c6e66f850dfb239c776f9bd8a57c9924a31840cbce22f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/manifest.json": "b7007542616409427c264099f9b4be1291485a2797790536132f0eff67234ea7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600060.json": "48d8bf912c1f19fc3759be97335e504526a8042eb065f83a310c26a1023ccada",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600062.json": "efefecc77f9ae6f595bfed0c615793be86caccda73c95afdd5a951d5683225f1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600066.json": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600126.json": "18465760edf6570d0daaa31e0698ff50dd581c8d221a8691bf0f56a575589f81",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600131.json": "310e52c3690967931df39323afb189fe16a5257bbc96d223b9bd550679773129",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600177.json": "bf772823973a321d7b41d34c571aed02810c4dd2088c567e93f41c313f6d6a47",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600208.json": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600282.json": "e695f23c85b6b3f825eff0863456cb50f89e18f7d8710c2d8b5c8fd0cc6b88d7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600316.json": "819cde9788fe7f77e3c76aa81cc0a1bf1b8d28bbea6f88a6466e2ae7929ecc3f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600535.json": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600536.json": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600580.json": "ae06375f4e9b499ebe5f2497b2bcee7a8d8e291169834375babf305931f28b88",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600707.json": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600737.json": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH600873.json": "5eac144389dfee69dc73d4b424dcbc787adc2df0af0521efb5ca3af4101fec72",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH601156.json": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH601608.json": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH601933.json": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH603160.json": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-raw-dev-20261021/codes/SH603737.json": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/manifest.json": "15709f0416c96148894be6b662c624dbde63d0f5d37b7760078235abe73440c8",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH600022.json": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH600126.json": "18465760edf6570d0daaa31e0698ff50dd581c8d221a8691bf0f56a575589f81",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH600271.json": "93f67d3c9e23c83cff3713fa06c5ac2333e7ee1663cda0fa88bc469644852199",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH600282.json": "e695f23c85b6b3f825eff0863456cb50f89e18f7d8710c2d8b5c8fd0cc6b88d7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH600315.json": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH600516.json": "a12d5afd4ca7c48ea21d5afcd8cd2a9af4c519336d0cdaa73ffa81bbc3e44160",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH600655.json": "d6f0df1e60911f028f245a6cf4edc33972afc2cdecb6750c0e28c210db734eaf",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH600707.json": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH600967.json": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH601156.json": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH601568.json": "05993eae7f56950f33a9bc847ebcec4c44077ed774393e190cdd315dbced1eab",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH601828.json": "6d478225bab019a7a7eeca54e83a4d94376c7d9a73c7c7688c5e34e40f8519ce",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH603056.json": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH603156.json": "60924bb05bf5e8e6e685f2cb4c852efed3dbae30b37c824c0260aab5997bc564",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH603707.json": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH603737.json": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH603858.json": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/illiquidity-raw-source-continuation-20261020/codes/SH603868.json": "1e1a9e4a8a3dca069cc99544cde0e313496abaaa8a8fe3c8e5076a1f3f853628",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-dev-20261021/manifest.json": "411e2abe02ebf914c809d6b5acb9b7e2fabacafe7dc88081b980787fb0cd8613",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-dev-20261021/codes/SH600062.json": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-dev-20261021/codes/SH600170.json": "c603a2c960696edf096951b7a43b11df7f8ad2a87ddce4031c5999bf24783d8d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-dev-20261021/codes/SH600177.json": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-dev-20261021/codes/SH600325.json": "74478565fa33e1c5ae5721134c10915a31860f4b92d0a25d0f3a9c2a9a94e247",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-dev-20261021/codes/SH601118.json": "df981d773959658183d9164ace25817f43e79967525399a9ef0ced7603a811d2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-dev-20261021/codes/SH601933.json": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-extension-20261021/manifest.json": "10f645719228d50c439e166bbfe65959b5ff517668c2ecc8ffc4fca4e1680ea7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-extension-20261021/codes/SH600062.json": "7df14faf348e574c86bf077d5d6b09d78def934d411dd714e2fe7d762a361706",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-extension-20261021/codes/SH600170.json": "c2a9731468dc1233fcc9054ef113770a5e89dfad639713e885bac5b7e93668d5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-extension-20261021/codes/SH600177.json": "2f8f111ff821fb0b62539d6c505e16cad12591a019dfe2cabd2f9579c58f0397",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-extension-20261021/codes/SH600325.json": "065de295ad9307fb1ae9c3a89b38c7bc2e1bfd1314f44531e898cef7f03e4744",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-extension-20261021/codes/SH600873.json": "119041a566de7d7dcc74341f3e84d4f9dbd36fd8da1ef3c0cbd1c1761a1d9c4e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-extension-20261021/codes/SH601118.json": "f430ca29284c6e1625b3c45197b4f0ed3020b04b7654b6e819ebb950a075b685",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-extension-20261021/codes/SH601933.json": "14effd20962d4b586c1cfaf9d581569d56ebe925fadca2a86e8429dd63b2d2e0",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-horizon-20261021/manifest.json": "9e2a7639ae40f1e8913a5306d430ed14003074acc24b741d7e7e3d4e5a64f891",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-horizon-20261021/codes/SH600062.json": "94c0e0c2a4c347f4156c6789ca13b1041402e888c0985a007e2ca3c08b9e9117",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-horizon-20261021/codes/SH600170.json": "75ce0e1c379971d0f4f08e9800c7897d29b8a24e17dbaae0076aef7b2379f797",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-horizon-20261021/codes/SH600177.json": "bd0789c27a1163888e04e2001b1e42de3119eb42a840d47810a4d98fea384569",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-horizon-20261021/codes/SH600325.json": "08d857632aba8299f88815d856e2d7f0365055be77f885f53fb860bf389ee48a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-horizon-20261021/codes/SH600873.json": "1cbdab2bdeefd6ed08b9d59c4bb275ce2c5bc2ab6690b15cbcf6b6dfe07eb514",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-horizon-20261021/codes/SH601118.json": "0ae41f0d67f9bbcaba0ac96661780ca3eb892b74b05305127c757efc433fbabf",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-beta60-raw-horizon-20261021/codes/SH601933.json": "7cdf0561266893194da6f3e0ed9f378280bd298cb3a128c67b91625d3b3180d5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/manifest.json": "7c7e56f5ec3301a9b1d82748bd90603f255ef8a1c602b64cf34b3ebaedef62b3",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600022.json": "cc136b711a06398ea135c7a83941fef50f16038c8bace6dfbec69dc4d279526e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600062.json": "6b77b3bdff808c1a5e60e96102905e145d937a81d171428e707ec0117502ffa7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600131.json": "310e52c3690967931df39323afb189fe16a5257bbc96d223b9bd550679773129",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600166.json": "a427526f3168753927ab0b8de40565aadabd0e479cbecbd8233ad560fcf708fc",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600170.json": "c603a2c960696edf096951b7a43b11df7f8ad2a87ddce4031c5999bf24783d8d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600177.json": "841f6402426125d67bf9513d58afc323d5627a4534a60222325a945c5b311a8e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600208.json": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600258.json": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600271.json": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600282.json": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600315.json": "7c6373fe52df0f1aa88866f6045f6365de6ce956d56ab3435c96806af76c7633",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600316.json": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600325.json": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600516.json": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600535.json": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600536.json": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600546.json": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600580.json": "ae06375f4e9b499ebe5f2497b2bcee7a8d8e291169834375babf305931f28b88",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600655.json": "d6f0df1e60911f028f245a6cf4edc33972afc2cdecb6750c0e28c210db734eaf",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600707.json": "024ff8f2d445c1448dca4b1205d9c53413fb9fa623cc0e76c00ebc3cea099725",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600737.json": "0e2e2957fed5b5e037aa35bf197bef30406cdc46816780a02ec5b8aa9b3165d9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600859.json": "4f8b870c1162a074076a16fdfd53a36b29d9c841f31b0c9066248e5f6f0b0eb2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600873.json": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600967.json": "348024d1a7d26e6cba3e181293ff2db7b5c9f73aea38a20dbaa688e151549d6c",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH600977.json": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601118.json": "df981d773959658183d9164ace25817f43e79967525399a9ef0ced7603a811d2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601156.json": "42c7f009b3a221c020a1aaff29e841db64159d609b3189007cf1551fa9367e45",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601568.json": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601608.json": "6fc020ef19484c19cde1c0bbf58eedb4e5e469c98230e1923fcee4c0080edda9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601880.json": "b781959756b43463e8f8eeca17cf73fa647d3a5af8e6b69ab9dfcd9858452b29",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH601933.json": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603056.json": "68ca751e9deea7ffdf9258f4d62bb96073e701ecfc8869dc7abf84c71231ff67",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603077.json": "267b651f06cda7094313bd6a61a4349c49550a50daa2290d7fd2256aa004d0a0",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603156.json": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603160.json": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603589.json": "434f232c962052b6a3c9388532f54c04cf82819cac5af938f9daea45a03e1dca",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603688.json": "fe02642331bdab0ec2ea4d28ba738ad5fc1766dac3a97ec9112ebeed796678e2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603707.json": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603858.json": "137b9c9712f5a980c1d9f997947c94b7a4c30f3589851199293353199d00ff74",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-market-residual-vol1m-raw-pre2026-20261021/codes/SH603868.json": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/manifest.json": "4177efc8615eca4a53fec13161087ca9329b8f1448bc75a41e94179cb368f19a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH600022.json": "39de5c527d7a98749efcfd6e3e1427459687d4274d55a464e87f8e3d24fba1ba",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH600062.json": "aa1dca7405efe36c859cd67f494fbbfb783fd145896959da5a1b74a3d6702f02",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH600170.json": "de92416b838ecefd58d0aa4e05651f383064a80dc9a39fa08df05b4f06d5bfc5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH600177.json": "e4c78a1a7313b535803860bcac82ceae6ff63de14f5ef415159a896a14624e40",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH600208.json": "4fa6708ca796566a0f5a93a81b2eba588d02de146aee0499b53f97f31a825d15",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH600737.json": "fdb2d5c6e8d28c6c8ee458deb1dba3f45ddad248fb1cadcab6bd7b57ed57fc6f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH600873.json": "784f5d3987064d9ab3dc911cd8f07d1e842ff2ea1180802f9e639787cc78f453",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH601118.json": "6874eb05e923220146c482c191e1c1fbb6ce76cce1b45803730978ed563484d9",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH601568.json": "49422cc30452c0325dfd9d6be13bc9d5045ae8e017921125c21719130d41b9a2",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH601880.json": "02b918e3d59426f6f19d7a543f8060e5b0a65f329f35426f05f6474a0eea6f2d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/low-risk-raw-account-data-20261017/codes/SH603858.json": "38e47cc90b846b28153d89893a557ec67f3fe000c3ac40696835000660d9215a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/manifest.json": "b179d4e987ad2ee93d0b152d817486c29737c6d605abdad1a15c3fd4713d6b67",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600066.json": "6b44dd7658bd8d2b2d0442540fd4464e95910b9b4d9d27c43f0a2e6150288a6c",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600126.json": "8a3b8da282a35bfa052511c0298bdc82112ea0b026eef16de05ab6ada68af655",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600258.json": "a885729fd6803d093cd1e007cda0fb9187c52b823ce99c264871f1ae7bce788b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600282.json": "464c4fd6aa4f7060f99d8197c44bece6d16c49034593228c23216d6be71636bb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600316.json": "145f14aa0b679b6c3bf4925acd3c1ce2ff0a14592d6706a28e15b62906414fee",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600325.json": "96ea2d575a85bb6d09a7389f0e3e7c7c6a6208d283caf3bbd415c57e3fd7b3c5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600546.json": "8983cce57d08d5967b052ea0a25924b121876d8200ab545b6beadb81c0f746eb",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600873.json": "928c1c3599d8ea6fff540ab41aba25a0386d057086e3396cac31447ece332bd5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH600977.json": "9dbc28a6ff839742c1d2575e10023d37a89285a5dfea8f8a48a6f89734e459c7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH601933.json": "54ad95fe616606e42402d69e5cd7783105505b31cf72d883867123f73079c131",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH603156.json": "b83f8cf517454af49e9658dd07b15e25eb276ccfd76d41bbcdb205d5509b1132",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH603589.json": "434f232c962052b6a3c9388532f54c04cf82819cac5af938f9daea45a03e1dca",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH603737.json": "0bd7c311495ce9163846702cf6155a0259f1fb3b904a48f66a0381581a742673",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-dev-20261021/codes/SH603868.json": "b3969c42a6cc77d40358eacac702d2185fd6669ed9464ad385b587aa345b1361",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/manifest.json": "223983d5707627f18c18e5528446e6fdb8e04e61c4ea3bf6ea61a44db4793bef",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600060.json": "ac2ac9dc44c99bca46849321a2b617b9630b21f660bf554d8590a51e5628e14d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600062.json": "0335d9b547806ec6e4153f558acf1b61e1a22f854a3be5c0ab55444815f1de8d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600066.json": "cf580c48233ede9152df2dd43c92667bba753c4d3d1287f04690d99c0685b15d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600126.json": "8442a70e1008f685d537b6d750227163dbb598e5e8b4bb39baf17ce5fe9ae0d7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600177.json": "9b1199296675602c5091e13d546fb0a33ea3e5593e4d3ac02ded3b2530129855",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600258.json": "e42c01dcde9da76fd07527de9850b3642f504aff832d434df23001eccbbf23a5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600282.json": "cfe1b17e77d17e35222badefcd46b578a521af594d8efade9233018699cee321",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600316.json": "8d0308c71f5280432ee9e6dace09541731ce02271e94c16613e07920853f5161",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600325.json": "7fda6727ec98d2ea6457b31b991c7e8e03fac5da3bc2a4d437fbc48ad9540d3c",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600536.json": "dfac19db51c0cf92c8691007b482536e7fa939008bafa4e5cc97ce319092378e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600546.json": "9253c1b7933f9390303997582395fa2fa26d2cc5cc43a4562ad3a6f196009f2d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600873.json": "ccdc36d076f06532dc784add933833c82029450b93d6922b74e8801221701854",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH600977.json": "619c9cca4559de463a17cd58a79280dab7ef91d6c4b4634893d3c122829b993e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH601933.json": "c2c2668b6a23a08a15896036b74f0c09bf34f3955ca389f2c48e0703b22b4c73",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH603156.json": "2e4f2d491614b267f7080f735ece170a2b54b0f7a27279987bf8b8b1ccd02f48",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH603589.json": "828a132aa143c29d98b416ae6fc708d0c7641890e5e9f223bdc63cd198630289",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH603688.json": "524d7064958cb7714409aaff74b6e278a81a2dbee82763415eb237f59a8d01db",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH603737.json": "40d2e0da754a0fd790f4c6549eaeed662a68e5ad8721fbb4b3d5ca3c5833da23",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-20261021/codes/SH603868.json": "0dd1a9e00304cf7218a938cd14fd5bde05cbadf4a5539913a0f94817639c176e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/manifest.json": "9fe3990c0b4b1c076b78c97971ceecf593687b2f15699154c3bdbbce666f6490",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600060.json": "ac2ac9dc44c99bca46849321a2b617b9630b21f660bf554d8590a51e5628e14d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600062.json": "0335d9b547806ec6e4153f558acf1b61e1a22f854a3be5c0ab55444815f1de8d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600066.json": "cf580c48233ede9152df2dd43c92667bba753c4d3d1287f04690d99c0685b15d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600126.json": "8442a70e1008f685d537b6d750227163dbb598e5e8b4bb39baf17ce5fe9ae0d7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600177.json": "9b1199296675602c5091e13d546fb0a33ea3e5593e4d3ac02ded3b2530129855",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600258.json": "e42c01dcde9da76fd07527de9850b3642f504aff832d434df23001eccbbf23a5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600282.json": "cfe1b17e77d17e35222badefcd46b578a521af594d8efade9233018699cee321",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600316.json": "8d0308c71f5280432ee9e6dace09541731ce02271e94c16613e07920853f5161",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600325.json": "7fda6727ec98d2ea6457b31b991c7e8e03fac5da3bc2a4d437fbc48ad9540d3c",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600536.json": "dfac19db51c0cf92c8691007b482536e7fa939008bafa4e5cc97ce319092378e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600546.json": "9253c1b7933f9390303997582395fa2fa26d2cc5cc43a4562ad3a6f196009f2d",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600873.json": "ccdc36d076f06532dc784add933833c82029450b93d6922b74e8801221701854",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH600977.json": "619c9cca4559de463a17cd58a79280dab7ef91d6c4b4634893d3c122829b993e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH601933.json": "c2c2668b6a23a08a15896036b74f0c09bf34f3955ca389f2c48e0703b22b4c73",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH603156.json": "2e4f2d491614b267f7080f735ece170a2b54b0f7a27279987bf8b8b1ccd02f48",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH603589.json": "828a132aa143c29d98b416ae6fc708d0c7641890e5e9f223bdc63cd198630289",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH603688.json": "524d7064958cb7714409aaff74b6e278a81a2dbee82763415eb237f59a8d01db",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH603737.json": "40d2e0da754a0fd790f4c6549eaeed662a68e5ad8721fbb4b3d5ca3c5833da23",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/price-delay-raw-horizon-v2-20261021/codes/SH603868.json": "0dd1a9e00304cf7218a938cd14fd5bde05cbadf4a5539913a0f94817639c176e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/manifest.json": "53250d4b726f8b54f5e2eafa516b7587e5acd01a6605c4be6457fdc5073263d7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH600066.json": "998871445e1099355917d297e25ff1246642c7bfe68e5b2f8922144e07ca842a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH600126.json": "4e987f520df35241fc9e73cb66ecec860aaaa53844b46eeacab7d2d44f5167e5",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH600131.json": "310e52c3690967931df39323afb189fe16a5257bbc96d223b9bd550679773129",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH600208.json": "299d268704f33a73f7faecf0ca6821a3f3c7fa80c67f3cba7eb839e7ea0e6b0f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH600271.json": "384f459de9af8c9f45135b7d47b8460d13fcedd810f3491467619952e392fe5b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH600516.json": "b150a41ecec6cc5f0ac480b00d08d1727b32e90e29f64ed040259b7780bc7dd0",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH600535.json": "a2eb73f94fbd355f566dedf951eb249d156ec38377867592039cd430ff1f9ad6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH600536.json": "125e1db40aeda392ea64bd35434a9aa8b1622173fdf7e52168ee8cea8f82268a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH601568.json": "3d8066be0ae09f69fd18643e8d5f36508554585a0dcddc28efe388fe9d08091a",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH601828.json": "b13f9f64a4296e8e7fb996a78e8850c2beb367a07500aceab0143ede81930910",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH601933.json": "84e95dd844718cff2cea0c90e96b0fd649f91750130ca661c2d3dd8c0dfceaa1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH603160.json": "98b2063370031d99e7e04252dc3b65da94fe1ec26835d38047cae393c0fc75f6",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH603707.json": "0e2125a40abf7719eee86848bbf5363e4a7182d87fd01a3b2c6ff65cc8f85862",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH603737.json": "31c6ae392f0f411f2f161b841d4d88753f4735dd6f0d7a0a3782bc5a1f5da7a7",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/return-families-raw-dev-20261017/codes/SH603882.json": "8e1cbae3c459487ea36c6e66f850dfb239c776f9bd8a57c9924a31840cbce22f",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/manifest.json": "fe26b73776eecab9bf10a36c0f9565d0a4b439a14f30146d84403103a1fb06fc",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH600066.json": "40726aa0510af0058175c6e4f9d6dec82b4f2bebc446e37ef8a19aa6f62f57a1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH600126.json": "4315c8772978fe7aeab86aaa73b25747d250bed0ac9221a1dc971884325c3f94",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH600131.json": "3777aa756771c36602ce19c2573e0aaa80567986e7c68dbed575091b19b0d933",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH600208.json": "6b61173fbd548053589db3f51d6692aa6b86d5e516744feeebebc27eb9fce411",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH600271.json": "5cb2ed75b3d04262e6887c28a79940780831db8a2d37172e204152ee18206714",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH600516.json": "fb0fd686a192c34dbaf9936c048bf5529fc5ea89db7f2aba2fd3b372e18e2b59",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH600535.json": "c1657c999a13f0465b3652d12887f9717b1ea4276ffa1d0d40d0347372246ead",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH600536.json": "c2a83779439ea0581c08e7797849588093caac09f3b1e14e68488adfe31f201b",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH600655.json": "344ed873e33a210e8059c00fd22eef1c6acb63c5321d3388badd75baece7022e",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH601568.json": "ff3ed34cbe00f298d5d8b8733929f13b71a630cf25d25754b0b85829f5dff478",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH601828.json": "23ed571122b83e3d520710b583700579ce2fd522a38d54e8004163ca3678d389",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH601933.json": "4c7259e76e077ab9364ea11479fa8c0affb2b04a6bac868f12efa0d1b662e6ee",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH603160.json": "278c186b169f5b17a079c951a77df7897f8ca0e096201b7fa884460d8857d2f4",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH603707.json": "ae37ca716738b8fbcd536a390be7e7cbcd4e968efc525ab3f979c96e42d04fa1",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH603737.json": "5e56a870e15a9d4d04e244218d4804d7c4fe43223e3814a11d58facd13717ec3",
+    "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/reversal-raw-full-20261017/codes/SH603882.json": "aca5ae6e300fb286dd1d15940846a97556607c41f15557c8e037967e57005c93"
+  },
+  "original_files_unchanged": true,
+  "source_admitted_for_replay": false,
+  "raw_bar_or_distribution_values_decoded": false,
+  "source_queries": 0,
+  "portfolio_returns_computed": false,
+  "objective_achieved": false
+}

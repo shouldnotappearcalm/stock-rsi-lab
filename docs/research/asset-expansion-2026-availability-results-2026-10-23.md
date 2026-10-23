@@ -1,5 +1,9 @@
 # Monthly asset-source views complete through October 2026
 
+Subsequent stage: [all 34 frozen-policy target formations and their separate
+reconstruction](asset-expansion-2026-targets-results-2026-10-23.md) are complete.
+Physical 2026 account returns remain pending.
+
 All 1,636 original annual editions now participate in 34 monthly source views
 under both visibility modes: 68 queries, each retaining the full initial
 394-issuer cohort. The separate checker reconstructed all 26,792 issuer/query

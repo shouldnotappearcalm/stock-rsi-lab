@@ -1,0 +1,141 @@
+{
+  "status": "UNCHANGED_FULL_HORIZON_TARGETS_COMPLETE_PENDING_SEPARATE_QA",
+  "request_sha256": "11a6c7dc188694fc975339e93d5e2588c2ae541ae073ba3483be64a6ae3ee586",
+  "candidate": "low_asset_expansion_decile_conditional",
+  "completed_formations": 34,
+  "pre2026_target_parity_formations": 24,
+  "primary_target_union": [
+    "SH600022",
+    "SH600060",
+    "SH600062",
+    "SH600066",
+    "SH600126",
+    "SH600131",
+    "SH600166",
+    "SH600170",
+    "SH600177",
+    "SH600208",
+    "SH600258",
+    "SH600271",
+    "SH600282",
+    "SH600315",
+    "SH600316",
+    "SH600325",
+    "SH600516",
+    "SH600535",
+    "SH600536",
+    "SH600546",
+    "SH600580",
+    "SH600655",
+    "SH600707",
+    "SH600737",
+    "SH600859",
+    "SH600873",
+    "SH600967",
+    "SH600977",
+    "SH601118",
+    "SH601156",
+    "SH601568",
+    "SH601608",
+    "SH601828",
+    "SH601880",
+    "SH601933",
+    "SH603056",
+    "SH603077",
+    "SH603156",
+    "SH603160",
+    "SH603589",
+    "SH603688",
+    "SH603707",
+    "SH603712",
+    "SH603737",
+    "SH603858",
+    "SH603868",
+    "SH603882"
+  ],
+  "primary_2026_target_union": [
+    "SH600060",
+    "SH600062",
+    "SH600126",
+    "SH600131",
+    "SH600170",
+    "SH600208",
+    "SH600516",
+    "SH600535",
+    "SH600536",
+    "SH600580",
+    "SH600655",
+    "SH600737",
+    "SH600967",
+    "SH601118",
+    "SH601156",
+    "SH601880",
+    "SH603077",
+    "SH603156",
+    "SH603589",
+    "SH603688",
+    "SH603737",
+    "SH603858"
+  ],
+  "2026_formation_counts": [
+    {
+      "execution_session": "2026-01-05",
+      "eligible": 113,
+      "primary_names": 11
+    },
+    {
+      "execution_session": "2026-02-02",
+      "eligible": 113,
+      "primary_names": 11
+    },
+    {
+      "execution_session": "2026-03-02",
+      "eligible": 112,
+      "primary_names": 11
+    },
+    {
+      "execution_session": "2026-04-01",
+      "eligible": 113,
+      "primary_names": 11
+    },
+    {
+      "execution_session": "2026-05-06",
+      "eligible": 116,
+      "primary_names": 11
+    },
+    {
+      "execution_session": "2026-06-01",
+      "eligible": 115,
+      "primary_names": 11
+    },
+    {
+      "execution_session": "2026-07-01",
+      "eligible": 104,
+      "primary_names": 10
+    },
+    {
+      "execution_session": "2026-08-03",
+      "eligible": 104,
+      "primary_names": 10
+    },
+    {
+      "execution_session": "2026-09-01",
+      "eligible": 104,
+      "primary_names": 10
+    },
+    {
+      "execution_session": "2026-10-08",
+      "eligible": 104,
+      "primary_names": 10
+    }
+  ],
+  "targets_sha256": "ca7794893b4cab78b6b6461afac2ac7f26b09454bce846e55fda3fa3bd9c3fbf",
+  "formation_receipts_sha256": "27dd00bb53946b906c802b28f8293f3fcafbc96dc7ca8d286c1de5bd2516fbee",
+  "all_inputs_unchanged": true,
+  "investment_rule_changed": false,
+  "portfolio_returns_computed": false,
+  "historical_arrival_verified": false,
+  "investment_factor_admitted": false,
+  "sealed_2026_evidence": false,
+  "objective_achieved": false
+}
