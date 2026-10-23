@@ -2,7 +2,7 @@
 
 No strategy search, network, broker access, FIFO tax or2026admission.
 """
-import argparse,json,hashlib
+import argparse,json,hashlib,os
 from dataclasses import asdict
 from datetime import date
 from functools import partial
@@ -73,9 +73,13 @@ def load_data(base,root,known):
         need(v['instrument']=='SZ002326' and v['printed_name']=='永太科技' and v['inferred_warning_label']=='0' and v['native_exchange_state_flag_provided'] is False and v['positive_observed_trading_activity'] is True and int(v['observed_volume_shares'])>0,'explicit joined inference provenance')
         bars['SZ002326'][v['date']]={k:v[k] for k in ('date','open','high','low','close','preclose')}
         bars['SZ002326'][v['date']].update(volume=v['observed_volume_shares'],tradestatus='1',isST='0',source_kind=v['source_kind'],state_evidence='CONDITIONAL_PRIMARY_HISTORICAL_NAME_AND_POSITIVE_SINA_VOLUME',official_body_sha256=v['official_body_sha256'])
-    meta=load(root/META);payload=load(root/PAYLOAD);primary=load(root/PREFIX/'low-operating-restatement-primary-review.json')
-    need(payload['before_assets_CNY']==primary['consolidated_total_assets_2021_12_31']['before_CNY'] and payload['after_assets_CNY']==primary['consolidated_total_assets_2021_12_31']['after_CNY'] and {v['sha256'] for v in payload['documents']}=={v['source_sha256'] for v in primary['documents'] if v['role']=='issuer_correction'},'actual known correction literals/PDFs')
-    formations=load(root/FORM);targets,amended=reform_receipts(formations,meta,lambda k:payload,RECONSTRUCTED);original=load(root/TARGET)[FAMILY]
+    meta=load(root/META)
+    def amendment_payload(key):
+        need(any(v['key']==key for v in meta),'registered amendment payload key')
+        payload=load(root/PAYLOAD);primary=load(root/PREFIX/'low-operating-restatement-primary-review.json')
+        need(payload['before_assets_CNY']==primary['consolidated_total_assets_2021_12_31']['before_CNY'] and payload['after_assets_CNY']==primary['consolidated_total_assets_2021_12_31']['after_CNY'] and {v['sha256'] for v in payload['documents']}=={v['source_sha256'] for v in primary['documents'] if v['role']=='issuer_correction'},'actual known correction literals/PDFs')
+        return payload
+    formations=load(root/FORM);targets,amended=reform_receipts(formations,meta,amendment_payload,RECONSTRUCTED);original=load(root/TARGET)[FAMILY]
     need(len(formations)==len(original)==24 and targets[FAMILY]==original and len({c for v in original.values() for c in v['weights']})==43 and set(bars)=={c for v in original.values() for c in v['weights']},'amended source must preserve exact frozen24targets/43names')
     need(sum(len(v['known_amendment_receipts']) for v in amended)==1,'exactly one known source correction is applicable')
     st=load(root/PREFIX/'low-operating-SZ002092-ST-primary-review.json');policy={'simulated_warning_buy_agreement':True,'warning_daily_buy_cap':500000,'warnings':{'SZ002092':{'start':'2024-05-21','end':'2025-05-19','published_on':'2024-05-18','rate':'0.05','source_sha256':st['source_sha256']}}}
@@ -89,26 +93,63 @@ def authenticate(base,root,request,expected):
     known=bindings(base,root);need(known==req['input_sha256'],'complete exact frozen source/method closure');known[str(request.resolve())]=expected
     data=load_data(base,root,known);return {**data,'known':known,'request_sha256':expected}
 
+def finish_account(out,state,known,outputs):
+    """Publish authenticated account evidence; quarantine every rejected ROI candidate.
+
+    The immutable source-only finalizer does not know account return fields.
+    Failure receipts retain actual artifact hashes and the intended hashes separately.
+    """
+    expected=dict(outputs)
+    terminal={**state,'capture_sha256':expected,'all_inputs_unchanged':not changed(known),'all_outputs_unchanged':tree(out)==expected}
+    try:
+        need(terminal['all_inputs_unchanged'] and terminal['all_outputs_unchanged'],'account context before terminal persistence')
+        encoded=(json.dumps(terminal,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode();terminal_sha=hashlib.sha256(encoded).hexdigest()
+        pending=out/'.terminal-pending.json';source.legacy.write_once(pending,terminal)
+        need(not changed(known) and tree(out)=={**expected,'.terminal-pending.json':terminal_sha},'account context during terminal persistence')
+        os.replace(pending,out/'terminal.json')
+        need(not changed(known) and tree(out)=={**expected,'terminal.json':terminal_sha},'account context after terminal publication')
+        return terminal
+    except BaseException as primary:
+        try:
+            archives={}
+            for original,name in ((out/'terminal.json','terminal-rejected-published.json'),(out/'.terminal-pending.json','terminal-rejected-staged.json')):
+                if original.exists():os.replace(original,out/name);archives[name]=sha(out/name)
+            data={k:h for k,h in tree(out).items() if k not in archives};outputs_unchanged=data==expected
+            if (out/'results.json').exists():
+                os.replace(out/'results.json',out/'results-rejected.json');archives['results-rejected.json']=sha(out/'results-rejected.json')
+            failure={k:v for k,v in state.items() if k!='results_by_extra_bps'}
+            failure.update(status='LOW_OPERATING_PROXY_PUBLICATION_FAILURE_RETAINED',complete=False,portfolio_return_computed=False,
+                physical_investment_admitted=False,source_and_investment_admitted=False,objective_achieved=False,
+                capture_sha256=tree(out),intended_capture_sha256=expected,rejected_artifact_sha256=archives,
+                all_inputs_unchanged=not changed(known),all_outputs_unchanged=outputs_unchanged,
+                error_type=type(primary).__name__,error=str(primary),failed_stage='TERMINAL',failed_row_index=None)
+            if 'error_type' in state:failure['prior_failure']={k:state.get(k) for k in ('error_type','error','failed_stage','failed_row_index')}
+            source.legacy.write_once(out/'.terminal-failure-pending.json',failure);os.replace(out/'.terminal-failure-pending.json',out/'terminal.json')
+        except BaseException as secondary:primary.add_note('account failure receipt persistence: '+type(secondary).__name__)
+        raise primary
+
 def execute(auth,out):
     out=Path(out);need(not out.exists() and not out.is_symlink(),'fresh conditional account output');need(not changed(auth['known']),'inputs before account creation');out.mkdir();outputs={};primary=None;cases={};terminal={'status':'LOW_OPERATING_PROXY_INCOMPLETE','complete':False,'request_sha256':auth['request_sha256'],'portfolio_return_computed':False,'physical_investment_admitted':False,'2026_values_used_for_selection':False,'objective_achieved':False}
     def save(n,v):persist(out,n,clean(v),outputs)
     def boundary():need(not changed(auth['known']) and tree(out)==outputs,'all account inputs/outputs unchanged')
+    stage='SETUP'
     try:
         save('formation_receipts.json',auth['formation_receipts']);save('event_source_receipts.json',auth['event_receipts'])
         for bps in auth['extra_bps']:
-            boundary();factory=partial(StockDistributionAccount,broker_factory=partial(ExecutionCostBroker,extra_cost_bps=bps))
+            stage='CASE_'+str(bps);boundary();factory=partial(StockDistributionAccount,broker_factory=partial(ExecutionCostBroker,extra_cost_bps=bps))
             case=simulate_low_operating_proxy(auth['calendar'],auth['bars'],auth['events'],auth['targets'],auth['initial_CNY'],lifecycles=auth['lifecycles'],policy=auth['policy'],account_factory=factory)
             need(len(case['intents'])==len(auth['targets']) and case['whole_day_volume_violations']==0,'all target decisions and observed daily capacity required');cases[bps]=case;save(str(bps)+'/case.json',case);boundary()
-        need(set(cases)=={20,40},'both frozen costs complete before any annual ROI');result={}
+        need(set(cases)=={20,40},'both frozen costs complete before any annual ROI');stage='SUMMARY';result={}
         for bps,case in cases.items():
             boundary();metrics=summarize_case(case,auth['initial_CNY']);days=[v for v in case['days'] if v['day']>='2024-01-02'];metrics.update(average_exposure_pct=float(sum(v['exposure'] for v in days)/len(days)*100),max_daily_volume_fraction=str(case['max_daily_volume_fraction']),execution_status=case['execution_status']);result[str(bps)]=metrics
         save('results.json',result);terminal.update(status='LOW_OPERATING_CONDITIONAL_DAILY_PROXY_COMPLETE',complete=True,portfolio_return_computed=True,results_by_extra_bps=result,source_evidence_level='RECONSTRUCTED_JOINED_DAILY_OPEN_PROXY_FLAT20PCT_DIVIDEND_RESERVE_NOT_FIFO',source_and_investment_admitted=False)
     except BaseException as exc:
-        primary=exc;terminal.update(status='LOW_OPERATING_PROXY_NATIVE_FAILURE_RETAINED',error_type=type(exc).__name__,error=str(exc),complete=False,portfolio_return_computed=False)
+        primary=exc;terminal.update(status='LOW_OPERATING_PROXY_NATIVE_FAILURE_RETAINED',error_type=type(exc).__name__,error=str(exc),complete=False,portfolio_return_computed=False,failed_stage=stage,failed_row_index=None)
+        terminal.pop('results_by_extra_bps',None)
         if hasattr(exc,'account_failure_state'):
             try:save('failed_account_state.json',exc.account_failure_state)
             except BaseException as secondary:primary.add_note('failed state persistence: '+type(secondary).__name__)
-    try:value=source.legacy.finish_source(out,terminal,auth['known'],outputs)
+    try:value=finish_account(out,terminal,auth['known'],outputs)
     except BaseException as exc:
         if primary is None:primary=exc
         else:primary.add_note('terminal persistence: '+type(exc).__name__)

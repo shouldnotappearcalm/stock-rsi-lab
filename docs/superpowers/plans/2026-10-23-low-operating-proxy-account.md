@@ -3,7 +3,7 @@
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
 **Goal:** Run the frozen low-OP43-name continuous2024/2025account with correct known amendment visibility and verified ordinary/STdaily bands.
-**Architecture:** Pure lazy amendment adapter; separately versioned replay/helper/runner; existing source compiler, broker, allocator, account and finalizer unchanged.
+**Architecture:** Pure lazy amendment adapter; separately versioned replay/helper/runner; existing source compiler, broker, allocator and account unchanged; account-specific finalizer preserves immutable legacy source finalizer.
 **Tech Stack:** InstalledPython3.11+/stdlib; existing numerical/PDFtest runtime only.
 **Spec:** `docs/research/low-operating-proxy-account-design-2026-10-23.md`
 

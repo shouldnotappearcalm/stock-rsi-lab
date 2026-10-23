@@ -1,0 +1,45 @@
+{
+  "status": "SYNTHETIC_REVIEW_WITH_THREE_IMPORTANT_FINDINGS_CORRECTED_ONCE_NO_REREVIEW",
+  "reviewed_range": [
+    "63afea003fbee4610f38aab35be1f1c2cd1b526d99aba",
+    "2272858c71f51ecff9edc452aac19aed52d99aba"
+  ],
+  "reviewer": "fresh gpt-6-astra/high read-only synthetic review",
+  "findings": [
+    {
+      "priority": "P1",
+      "problem": "Publication failure retained annual returns",
+      "correction": "Account-specific finalizer clears canonical return fields and quarantines rejected results; immutable legacy finalizer untouched"
+    },
+    {
+      "priority": "P2",
+      "problem": "Missing native stage fields prevented durable failure terminal under mutation",
+      "correction": "Explicit setup/case/summary stage, complete native schema, safe prior failure copying and mutation regression"
+    },
+    {
+      "priority": "P2",
+      "problem": "Production caller eagerly decoded future monetary amendment payload",
+      "correction": "Authenticated monetary payload and primary literal/PDF comparison moved into identity/visibility-gated loader"
+    }
+  ],
+  "correction_regressions": "RED: 2 failures +3 errors across lazy decode and mutation subcases; GREEN:16 focused tests;1532 full tests",
+  "no_actual_account_or_2026_outcome_review": true,
+  "declined_to_judge": [
+    "Actual financial PDF accuracy or cohort-wide amendment completeness",
+    "Real returns,2026,outcome/investment admission,remote/CI completion",
+    "Accepted joined-name/positive-volume inferred state,daily-open proxy,flat20percent dividend reserve,simulated warning permission",
+    "Independent accounting assurance: shared helpers/same author",
+    "Malformed future original_record_id: metadata-only fail-closed validation invokes zero monetary loader",
+    "Multiple correction chains/additional warning issuers outside registered one-correction/one-warning profile",
+    "Repeated daily independent helper calls: replay invokes one complete pending batch per session",
+    "Transactional rollback of valid corporate transitions preceding later execution failure: native prefix retained",
+    "PENDING placeholder/request/publication were explicitly unfinished follow-through"
+  ],
+  "deferred_minor_findings": [],
+  "limitations": [
+    "Known correction observation is current registration time; reconstructed publication end-of-day is not historical arrival",
+    "Shared accounting/conservation helpers do not constitute independent audit",
+    "Conditional joined source and annual-zero economic-action coverage do not establish universal corporate completeness",
+    "No FIFO tax,actual auction depth,minute replay,broker permission or investment qualification"
+  ]
+}

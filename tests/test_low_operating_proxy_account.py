@@ -78,3 +78,54 @@ class LowOperatingProxyTests(unittest.TestCase):
                 seen.append(True);v=real(*a,**kw);p.write_text('changed');return v
             with patch.object(runner,'simulate_low_operating_proxy',side_effect=simulate),patch.object(runner,'summarize_case',side_effect=AssertionError('ROI on changed input')),self.assertRaises(ValueError):runner.execute(auth,root/'out')
             self.assertEqual(len(seen),1)
+
+    def test_mutations_retain_failure_terminal_and_quarantine_roi(self):
+        for trigger,kind in [('20/case.json','input'),('20/case.json','output'),('results.json','input'),('terminal','input')]:
+            with self.subTest(trigger=trigger,kind=kind),TemporaryDirectory() as t:
+                root=Path(t);p=root/'input';p.write_text('fixed');auth=self.auth(p);persist=runner.persist;replace=runner.source.legacy.os.replace
+                def altered(out,name,value,outputs):
+                    persist(out,name,value,outputs)
+                    if name==trigger:
+                        (p if kind=='input' else out/name).write_text('changed')
+                def published(src,dst):
+                    replace(src,dst)
+                    if trigger=='terminal' and Path(src).name=='.terminal-pending.json':p.write_text('changed')
+                with patch.object(runner,'persist',side_effect=altered),patch.object(runner.source.legacy.os,'replace',side_effect=published),self.assertRaises(ValueError):runner.execute(auth,root/'out')
+                terminal=runner.read(root/'out/terminal.json');self.assertFalse(terminal['complete']);self.assertFalse(terminal['portfolio_return_computed']);self.assertNotIn('results_by_extra_bps',terminal);self.assertIn('failed_stage',terminal);self.assertIn('failed_row_index',terminal)
+                self.assertFalse((root/'out/results.json').exists())
+                if trigger in ('results.json','terminal'):self.assertTrue((root/'out/results-rejected.json').exists())
+                else:self.assertIn('prior_failure',terminal)
+
+    def test_integrated_source_loading_defers_monetary_decode_until_formation_gate(self):
+        from collections import defaultdict
+        from datetime import timedelta
+        from types import SimpleNamespace
+        sessions=['2023-12-29'];d=date(2024,1,1)
+        while len(sessions)<485:
+            if d.weekday()<5:sessions.append(d.isoformat())
+            d+=timedelta(days=1)
+        sessions.append('2025-12-31');codes=['SZ'+str(1000+i).zfill(6) for i in range(42)];seen=[]
+        def read(path,expected=None):
+            name=Path(path).name
+            if name in (Path(runner.PAYLOAD).name,'low-operating-restatement-primary-review.json'):
+                seen.append('monetary');raise RuntimeError('future monetary payload poison')
+            if name=='manifest.json':return {'per_code_sha256':dict.fromkeys(codes,'h')}
+            if name=='calendar.json':return {'sessions':sessions}
+            if name[:-5] in codes:return {'bars':[]}
+            if name=='low-operating-primary-action-reviewed-manifest.json':return {'annual_zero_distribution_reviews':[{'fiscal_year':y,'instrument':'SZ002326','cash':0,'bonus_stock':0,'capital_transfer':0} for y in (2023,2024)]}
+            if name=='low-operating-primary-action-events.json':return [{}]*64
+            if name=='low-operating-primary-action-event-receipts.json':return []
+            if name=='low-operating-full-historical-state-source-summary.json':return {'source_component_projection_complete':True,'preclose_previous_observed_close_changes':[],'printed_name_counts':{'永太科技':486}}
+            if name=='low-operating-full-historical-state-components.json':return [dict(date=s,instrument='SZ002326',printed_name='永太科技',inferred_warning_label='0',native_exchange_state_flag_provided=False,positive_observed_trading_activity=True,observed_volume_shares='100',open='1',high='1',low='1',close='1',preclose='1',source_kind='fixture',official_body_sha256='a'*64) for s in sessions]
+            if name==Path(runner.META).name:return [{'key':'known'}]
+            if name==Path(runner.FORM).name:return []
+            raise AssertionError(name)
+        for visible in (False,True):
+            seen.clear()
+            def gate(*args):
+                self.assertEqual(seen,[],'monetary payload was parsed before formation gate');seen.append('gate')
+                if visible:args[2]('known')
+                raise LookupError('formation gate reached without monetary decode')
+            with self.subTest(visible=visible),patch.object(runner,'read',side_effect=read),patch.object(runner,'compile_distribution_events',return_value=([SimpleNamespace(stock_per_share=0,capital_per_share=0)]*64,())),patch.object(runner,'asdict',return_value={}),patch.object(runner,'reform_receipts',side_effect=gate),self.assertRaisesRegex(RuntimeError if visible else LookupError,'future monetary payload poison' if visible else 'formation gate reached'):
+                runner.load_data(Path('/synthetic'),Path('/synthetic-root'),defaultdict(lambda:'synthetic'))
+            self.assertEqual(seen,['gate','monetary'] if visible else ['gate'])
