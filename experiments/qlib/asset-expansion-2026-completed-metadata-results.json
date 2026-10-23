@@ -1,0 +1,29 @@
+{
+  "status": "ALL394_METADATA_WITH_EXPLICIT_TITLE_COMPLETION_NOT_FINANCIAL_ADMISSION",
+  "request_sha256": "43901ae0f41d4b76eb704de191c2fa5363451f2519cc7dc39d02f8bec4288890",
+  "resource_count": 394,
+  "window": [
+    "2026-01-01",
+    "2026-10-21"
+  ],
+  "new_logical_attempts": 1,
+  "global_logical_attempts": 398,
+  "old_source_failures_retained": true,
+  "title_schema_completions": 1,
+  "status_counts": {
+    "METADATA_CAPTURED_WITH_CANDIDATES": 392,
+    "METADATA_CAPTURED_NO_FULL_CANDIDATE": 2
+  },
+  "full_report_candidates": 400,
+  "candidate_fiscal_year_counts": {
+    "2025": 399,
+    "2024": 1
+  },
+  "all_original_inputs_unchanged": true,
+  "PDFs_downloaded": 0,
+  "financial_numeric_values_decoded": false,
+  "historical_arrival_verified": false,
+  "financial_version_history_complete": false,
+  "2026_portfolio_returns_computed": false,
+  "objective_achieved": false
+}
