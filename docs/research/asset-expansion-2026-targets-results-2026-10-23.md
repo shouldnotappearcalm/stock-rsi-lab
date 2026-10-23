@@ -106,3 +106,7 @@ No 2026 portfolio return was computed in this stage. Publication visibility
 is reconstructed; actual historical arrival, complete revisions and current
 business/reporting compatibility remain unverified. Previously exposed 2026
 evidence is not sealed, and October is not finished on this run date.
+
+The subsequent [all47 raw overlap check](asset-expansion-2026-raw-overlap-results-2026-10-23.md)
+resolved existing-prefix compatibility; October21 source extension and account
+replay remain pending.
