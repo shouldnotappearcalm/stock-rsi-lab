@@ -1,0 +1,102 @@
+{
+  "status": "FROZEN_SOURCE_INSPECTION_ONLY",
+  "instrument": "SH600166",
+  "source_selection": "reuse preexisting first-issuer fixed pilot, no selection by returns",
+  "max_publication_day": "2025-12-31",
+  "documents": [
+    {
+      "input_key": "source/fundamental-primary-documents-20261017/SH600166-2023-12-31-1219874919.pdf",
+      "published_day": "2024-04-27",
+      "independent_reader_physical_pages": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ]
+    },
+    {
+      "input_key": "source/fundamental-primary-documents-20261017/SH600166-2024-12-31-1223327299.pdf",
+      "published_day": "2025-04-26",
+      "independent_reader_physical_pages": [
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        156
+      ]
+    }
+  ],
+  "reader_versions": {
+    "pypdf": "6.10.0",
+    "pdfminer": "20251230"
+  },
+  "labels": [
+    "合并资产负债表",
+    "合并利润表",
+    "合并现金流量表",
+    "现金流量表补充资料",
+    "营业收入",
+    "营业成本",
+    "销售费用",
+    "管理费用",
+    "研发费用",
+    "资产总计",
+    "流动资产合计",
+    "货币资金",
+    "流动负债合计",
+    "短期借款",
+    "一年内到期的非流动负债",
+    "应交税费",
+    "所得税",
+    "折旧",
+    "摊销",
+    "应收账款",
+    "存货",
+    "预付款项",
+    "合同负债",
+    "预收款项",
+    "递延收益",
+    "应付账款",
+    "其他应付款"
+  ],
+  "input_sha256": {
+    "repo/experiments/qlib/audit_sources/2026-10-23-cash-profitability-two-report-source-inspection.py": "f886693c86cb83e414eae99105e66033e3bb23cb841bdb0bc6716c753844b396",
+    "repo/docs/research/cash-profitability-two-report-source-plan-2026-10-23.md": "329e3e539dfb43833d08c156457584a4350e6ca6cf8ae026aa23b27f13dc82a4",
+    "repo/experiments/qlib/fundamental-first-issuer-primary-doc-request.json": "9fc6bba9b13b406e1d89c2c952d5cebd056b3d58b3bc89be6bd690ef7f18b09c",
+    "repo/experiments/qlib/fundamental-primary-documents-capture-manifest.json": "7edf73e0346f1580e242adc2c60d913c3568074e0397ae5e2eb76b80f502e647",
+    "repo/experiments/qlib/gross-profitability-source-review-2026-10-22.json": "5bf71a60c316b1bd997b99e926d62858473cd00b4f6151dea3da24a8fb747993",
+    "source/fundamental-primary-documents-20261017/SH600166-2023-12-31-1219874919.pdf": "e7588a7d935897aed750034c6847b0f57ab923c4837484f18e3bf62387b67eef",
+    "source/fundamental-primary-documents-20261017/SH600166-2024-12-31-1223327299.pdf": "bce69ed22306f3a0cc5b6a62eef9f2fab05d8a3c148f9715fd86faf937540410",
+    "source/cash-profitability-literature-originals-20261023/Ball2016/body.bin": "f1ffde6a8cc4db51fcd66193bde67a15997324de13744c00b4410e134079f3e2",
+    "source/cash-profitability-literature-originals-20261023/Ball2016/reserved.json": "d497c2f87192d740e8481037cae23f1d81b81ffaaaa7945bad223dd7dc5d9de1",
+    "source/cash-profitability-literature-originals-20261023/Ball2016/response.json": "d29266a066620fd8f2cd3d26845cdc0374ea7a4e9a81d1dda60d25453e1f9da9",
+    "source/cash-profitability-literature-originals-20261023/Ball2016-UCLA/body.bin": "17ef06c9dcf658fa2ad1f22c784356883fd58f6de313e57d87cc0fe5f2d1e4c2",
+    "source/cash-profitability-literature-originals-20261023/Ball2016-UCLA/original.pdf": "17ef06c9dcf658fa2ad1f22c784356883fd58f6de313e57d87cc0fe5f2d1e4c2",
+    "source/cash-profitability-literature-originals-20261023/Ball2016-UCLA/request.json": "eefa90e24534f32c2b4c5e0378bac28d5f2d2daf3a737c02bfd9a1a6fa8e03fd",
+    "source/cash-profitability-literature-originals-20261023/Ball2016-UCLA/response.json": "65ba8eb547bef125d8f3d06b460238e59af8866647a93232faeaef45d3f3b8ce",
+    "source/cash-profitability-literature-originals-20261023/Du2020/body.bin": "bf7dbeb65c2820d670a1d5cccc0809c13787f7547ad684b53e4f9313199a75c3",
+    "source/cash-profitability-literature-originals-20261023/Du2020/original.pdf": "bf7dbeb65c2820d670a1d5cccc0809c13787f7547ad684b53e4f9313199a75c3",
+    "source/cash-profitability-literature-originals-20261023/Du2020/reserved.json": "71798ef4f8e6cc40e9a77725a42ac2362c0cecc3b9af2fbc2cc2d3feedf67775",
+    "source/cash-profitability-literature-originals-20261023/Du2020/response.json": "a26a6e7e3877d06eda8623ba65eee8c98dcb5e659c71fa66a3c9e2093979bfec",
+    "source/cash-profitability-literature-originals-20261023/manifest.json": "5fc6bda84491925607badb3942f4ff3fb5ba473076c3a390a67baac8bef2a5f7",
+    "source/cash-profitability-literature-originals-20261023/request.json": "371b1247d132889be0d37b6e46c3b4c901f4aad0516823beafce643f40fc97c6"
+  },
+  "2026_financial_or_market_values_permitted": false,
+  "factor_values_permitted": false,
+  "ranking_permitted": false,
+  "portfolio_returns_permitted": false,
+  "strategy_registered": false,
+  "objective_achieved": false
+}
