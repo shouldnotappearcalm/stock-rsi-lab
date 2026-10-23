@@ -1,0 +1,103 @@
+{
+  "status": "FROZEN_MANUAL_NOTES_SOURCE_REVIEW_ONLY",
+  "parent_freeze_commit": "4eeae056d77e0e979992c57fb091ab0cdc8d9141",
+  "parent_request_sha256": "5e1f5a44354793076d33992d32e151a019ccb4da0ab1c059e0b599878fb679c9",
+  "reason": "parent source inspection label index located consolidated note tables; establish economic mapping independently of any return",
+  "documents": [
+    {
+      "original_input_key": "source/fundamental-primary-documents-20261017/SH600166-2023-12-31-1219874919.pdf",
+      "physical_pages": [
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        217,
+        218
+      ],
+      "render_physical_pages": [
+        200,
+        201,
+        204,
+        217
+      ]
+    },
+    {
+      "original_input_key": "source/fundamental-primary-documents-20261017/SH600166-2024-12-31-1223327299.pdf",
+      "physical_pages": [
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        218,
+        219
+      ],
+      "render_physical_pages": [
+        199,
+        200,
+        203,
+        218
+      ]
+    }
+  ],
+  "input_sha256": {
+    "repo/experiments/qlib/cash-profitability-two-report-source-request.json": "5e1f5a44354793076d33992d32e151a019ccb4da0ab1c059e0b599878fb679c9",
+    "source/cash-profitability-two-report-source-inspection-20261023/manifest.json": "7e94dd97f2f7118db643fd67c1b65094d98c4451e98fd45e971771e840688f4b",
+    "source/fundamental-primary-documents-20261017/SH600166-2023-12-31-1219874919.pdf": "e7588a7d935897aed750034c6847b0f57ab923c4837484f18e3bf62387b67eef",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-196.txt": "b34a3285ec2ba28300d179f947040278925f44b19520168675a2f8ec9f9865f3",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-197.txt": "3e1522a2694c952b77b2bf4f20f5be4cbcb198e07279a59994268d2e7e7f27ee",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-198.txt": "3c165753c6d52d48a14fa7ede58be1308b6e722d7a728f2447ba41f2253aad6f",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-199.txt": "404d8d48a4ed4aa73bdd8d21c104ddeb4ac3efcf77982e3849892e052e5a96d4",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-200.txt": "b097b6e6f014b775f616e36b6c1715c8c298beeb9b5c2576f530f4a44da8496f",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-201.txt": "0a5ca6efeaf81eb6367f42c5e8f4d5704475043fbb900458c3f32ec948f6c9b7",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-202.txt": "3fd8d523ea004da56c0127a38aa6b860eba67a4d341c55b5e870cdfa5b5a861a",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-203.txt": "852579091197191c28bb620d508f1ccc8681c6ccb73e1a93b3acebbb29001a42",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-204.txt": "ac0ea464e593d983a10b1d673b91d584f7bed2b185b5895535911f7b480619e9",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-205.txt": "2499972b45424713e1d53c4395d02af1f746f56bb984e8006906441ab5adca17",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-217.txt": "d3dc6c7e63f6b1910a339db3cd8ba1a55159c8cc8b7c9e1bb82cd706b93a8b8c",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2023-12-31-1219874919/pypdf-page-218.txt": "c62c4938e53041a13412440e6f3b6c2ef020433a843804668c704bbd968c4350",
+    "source/fundamental-primary-documents-20261017/SH600166-2024-12-31-1223327299.pdf": "bce69ed22306f3a0cc5b6a62eef9f2fab05d8a3c148f9715fd86faf937540410",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-195.txt": "846f6af1be32734d4999a0ff296cc68442003e3c3b42c49a4f89f27b26c22cab",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-196.txt": "a16d3cfb515a9271e6bc8362f8034e9219fb4f0dc6031cbec4a4cede599a3edb",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-197.txt": "a82f80e05f22abd0cae07efeea25664594a0de66b41c84b3486fc88e17edbaf7",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-198.txt": "b2d7a2a806e179e2040d860231558a2577d997a2c9bc100cafd616d13cd39b92",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-199.txt": "6505d1517a42bf6590e4e447b06df13ab64c9817c78944259275bc77efb75daf",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-200.txt": "74dc6d5d0ba341210ef81978ad339fe19ae4e1cae39ca7f4eb7fa13e0e6e9eb5",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-201.txt": "cef55b1f1a79b91debc75059113ecae66a83fdc5cde9c5bf517f4eb4a5e49af4",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-202.txt": "198377e7383d222bafb651deb29fd21dd65a933591c97a4f335234e6c6c7d6db",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-203.txt": "20e3b0a8c200df92b05fd5ed4de399df614239559b95925266b37b76dbde1c39",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-204.txt": "434f32b69da68b5416a3d7b80dd9858b44e230cd8ce252125b683b63e1df2db6",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-218.txt": "6fb398e16c0fcc7858c265150b9564142aa5d0618d2d2a90707b25f95daac8e4",
+    "source/cash-profitability-two-report-source-inspection-20261023/SH600166-2024-12-31-1223327299/pypdf-page-219.txt": "1e6ee6bb11a798c5ef1bc272520ab782468cb1182ac74cda7402b4756a579e73"
+  },
+  "procedure": [
+    "Verify all bound original and parent output bytes before any note read.",
+    "Read only bound pypdf page texts; independently extract the same physical pages with pdfminer20251230.",
+    "Render the listed physical pages from bound originals with existing pdftoppm, scale-to1800, PNG singlefile; visually inspect complete tables and headings.",
+    "Write all new notes/render outputs in a fresh directory; never replace parent outputs.",
+    "Record source excerpts and mapping limitations, no factor score/rank/portfolio return.",
+    "Recheck all input hashes and retain errors."
+  ],
+  "required_reader_version": "20251230",
+  "financial_periods_allowed": [
+    2022,
+    2023,
+    2024
+  ],
+  "publication_cutoff": "2025-12-31",
+  "2026_financial_or_market_values_permitted": false,
+  "strategy_registered": false,
+  "portfolio_returns_permitted": false,
+  "objective_achieved": false
+}
