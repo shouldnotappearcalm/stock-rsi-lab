@@ -150,6 +150,10 @@ def execute(req,auth,out,sdk,*,request_bytes,request_sha):
             'original_error':None if primary is None else {'type':type(primary).__name__,'message':str(primary)},
             'historical_arrival_verified':False,'corporate_action_completeness_verified':False,'physical_account_admitted':False,
             'portfolio_return_computed':False,'2026_values_read':False,'objective_achieved':False}
+        for code,h in m.get('per_code_sha256',{}).items():
+            packet,diagnostic=load_reuse_packet(out/'codes'/(code+'.json'),code,h,auth['sessions'])
+            need(diagnostic['full_explicit_calendar_covered'],'captured packet must cover the full explicit source calendar')
+            source_fingerprint(packet)
         write_once(out/'.followup-terminal-pending.json',result)
         late=unchanged()
         if late:

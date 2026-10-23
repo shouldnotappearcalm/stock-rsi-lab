@@ -1,0 +1,34 @@
+{
+  "status": "ONE_FRESH_CODE_REVIEW_ONE_CORRECTION_PASS_COMPLETE_NOT_SOURCE_OR_ACCOUNT_ACCEPTANCE",
+  "reviewed_range": "87da796439f13391fc675a52b93135962087a94f..f77c08a1e1cb39c722794f3cf987580cec2b129c",
+  "reviewer": "low_operating_sources_review",
+  "critical": 0,
+  "important": 1,
+  "minor": 0,
+  "important_resolution": "Every newly captured packet now passes full calendar and strict corporate/quarantine date bounds before wrapper completion. Rejected evidence remains retained with a failure terminal and no retry.",
+  "red_evidence": "Two end-to-end SDK cases (missing operation date quarantine and accepted 2025 operation date with future notice metadata) failed before correction.",
+  "green_evidence": {
+    "target_tests": 12,
+    "full_tests": 1425,
+    "full_seconds": 21.559
+  },
+  "reviewer_verification": "Reviewer independently ran 10 synthetic tests. Root ran real selection regression and full suite; not independently repeated by reviewer.",
+  "rulings": [
+    {
+      "deferred": "Actual 42+1 inventory, overlap equivalence, realized risks, prospective freeze, remote HEAD, SDK yield and CI",
+      "cost": "These were pending at code review and require root-owned frozen separate source QA and live remote verification."
+    },
+    {
+      "deferred": "Performance, physical account, corporate completeness, tax, historical arrival and full return goal",
+      "cost": "Source review and source completion cannot admit these claims; require separately frozen physical replay and later 2026 work."
+    },
+    {
+      "deferred": "Selection regression and full-suite independent reproduction",
+      "cost": "Root evidence only; reviewer synthetic evidence is narrower."
+    }
+  ],
+  "rereview_performed": false,
+  "portfolio_return_computed": false,
+  "2026_values_read": false,
+  "objective_achieved": false
+}

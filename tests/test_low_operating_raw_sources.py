@@ -8,8 +8,8 @@ try:
     from scripts import capture_low_operating_raw_pre2026 as source
 except ImportError:
     source=None
-from tests.test_low_market_residual_vol_raw_capture import SDK
-from scripts.capture_low_risk_raw_account_data import BAR_FIELDS
+from tests.test_low_market_residual_vol_raw_capture import SDK,Response
+from scripts.capture_low_risk_raw_account_data import BAR_FIELDS,DIVIDEND_FIELDS
 
 
 class LowOperatingRawSourceTests(unittest.TestCase):
@@ -59,6 +59,31 @@ class LowOperatingRawSourceTests(unittest.TestCase):
                 self.assertFalse(result['complete']);self.assertLessEqual(len(list(out.rglob('reserved-*.json'))),4)
                 self.assertEqual(sum(c[0]=='login' for c in sdk.calls),1)
                 self.assertTrue((out/'manifest.json').exists())
+
+    def test_new_sdk_future_corporate_metadata_fails_with_all_evidence_retained(self):
+        for operate_date in ('','2025-05-10'):
+            class FutureSDK(SDK):
+                def query_dividend_data(self,code,**kw):
+                    original=super().query_dividend_data(code,**kw)
+                    if str(kw['year'])!='2025':return original
+                    row=dict.fromkeys(DIVIDEND_FIELDS,'')
+                    row.update(code=code,dividOperateDate=operate_date,dividPlanDate='2026-01-05',
+                               dividCashPsBeforeTax='.2',dividStocksPs='0',dividReserveToStockPs='0')
+                    return Response(DIVIDEND_FIELDS,[[row[k] for k in DIVIDEND_FIELDS]])
+            with self.subTest(operate_date=operate_date),tempfile.TemporaryDirectory() as t:
+                root=Path(t);sdk=FutureSDK()
+                with self.assertRaisesRegex(ValueError,'corporate/quarantine dates'):
+                    self.execute_fixture(root,sdk)
+                out=root/'capture';terminal=source.read(out/'followup-terminal.json')
+                self.assertFalse(terminal['complete']);self.assertTrue(terminal['all_inputs_unchanged'])
+                self.assertEqual(terminal['candidate'],source.CANDIDATE)
+                self.assertFalse(terminal['portfolio_return_computed'])
+                self.assertEqual(terminal['original_error']['type'],'ValueError')
+                packet=source.read(out/'codes/SZ002326.json')
+                self.assertEqual(len(packet['quarantine'] if not operate_date else packet['distributions']),1)
+                self.assertEqual(len(list(out.rglob('reserved-*.json'))),4)
+                self.assertEqual(len(list(out.rglob('response-*.json'))),4)
+                self.assertEqual(sum(c[0]=='login' for c in sdk.calls),1)
 
     def test_outer_terminal_stage_input_mutation_fails_closed(self):
         with tempfile.TemporaryDirectory() as t:
