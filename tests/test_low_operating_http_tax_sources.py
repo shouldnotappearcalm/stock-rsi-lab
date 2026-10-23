@@ -1,6 +1,9 @@
 from io import BytesIO
 import copy
 import json
+from datetime import date,timedelta
+from http.client import IncompleteRead
+import shutil
 from pathlib import Path
 import tempfile
 import unittest
@@ -99,3 +102,78 @@ class LowOperatingHttpTaxTests(unittest.TestCase):
                         target.write_bytes(b'changed')
                 with patch.object(source,'write_once',side_effect=write),self.assertRaises(ValueError):self.execute(root,Opener())
                 self.assertFalse(source.read(root/'capture/terminal.json')['complete'])
+
+    def test_incomplete_read_preserves_each_available_raw_prefix_without_retry(self):
+        class Partial(Response):
+            def read(self,size=-1):raise IncompleteRead(b'captured-prefix',expected=100)
+        calls=[]
+        def opener(req,timeout):calls.append(req.full_url);return Partial(b'',req.full_url)
+        with tempfile.TemporaryDirectory() as t:
+            root=Path(t);result=self.execute(root,opener);self.assertFalse(result['complete']);self.assertEqual(len(calls),2)
+            for code in source.RESOURCES:
+                self.assertEqual((root/'capture'/code/'body.bin').read_bytes(),b'captured-prefix')
+
+    def test_cancellation_with_metadata_persistence_failure_stops_and_preserves_primary(self):
+        with tempfile.TemporaryDirectory() as t:
+            root=Path(t);calls=[];real=source.write_once
+            def opener(req,timeout):calls.append(req.full_url);raise KeyboardInterrupt('synthetic cancellation')
+            def write(p,v):
+                if p.name=='response.json':raise OSError('synthetic metadata persistence failure')
+                return real(p,v)
+            with patch.object(source,'write_once',side_effect=write),self.assertRaises(KeyboardInterrupt):self.execute(root,opener)
+            self.assertEqual(len(calls),1)
+            terminal=source.read(root/'capture/terminal.json');self.assertFalse(terminal['complete']);self.assertEqual(terminal['error_type'],'KeyboardInterrupt')
+
+    def full_checker_fixture(self,root,*,net='0.027或0.03',gross='.03',omit_original=False):
+        repo=root/'repo';base=root/'source';repo.mkdir();base.mkdir();old=base/audit.RAW;(old/'codes').mkdir(parents=True)
+        # Synthetic explicit labels, not a claim about real exchange sessions.
+        sessions=[(date(2023,12,29)+timedelta(days=i)).isoformat() for i in range(485)]+['2025-12-31']
+        packets={};manifest={'names':42,'requested_names':43,'pending_codes':['SZ002326'],'capture_complete':False,'per_code_sha256':{}}
+        for code in [f'SH600{i:03d}' for i in range(41)]+['SH600118']:
+            with patch.dict(globals(),{'SESSIONS':sessions}):p=packet()
+            p['instrument']=code
+            for row in p['bars']:row['code']='sh.'+code[2:]
+            if code!='SH600118':p['distributions']=[]
+            else:p['distributions'][0].update(dividCashPsAfterTax=net,dividCashPsBeforeTax=gross)
+            packets[code]=p;path=old/'codes'/(code+'.json');source.write_once(path,p);manifest['per_code_sha256'][code]=source.sha(path)
+        source.write_once(old/'manifest.json',manifest);source.write_once(old/'calendar.json',{'sessions':sessions})
+        original=base/'context/original.json';original.parent.mkdir();original.write_text('{"immutable":true}')
+        old_req=repo/'experiments/qlib/low-operating-lifecycle-source-request.json';old_req.parent.mkdir(parents=True);old_req.write_text('{}')
+        proof={'all_input_sha256':{'source/context/original.json':source.sha(original),'frozen_request':source.sha(old_req)},
+               'all_capture_sha256':source.tree(old),'reused_packets_checked':42}
+        proofpath=repo/audit.PROOF;source.write_once(proofpath,proof)
+        frozen_proof='ccd6d169151e07322863ebd491bef50d72ac0ecae24f6dbeae6d59e4584d6f4f'
+        hashes={'source/context/original.json':source.sha(original),'repo/experiments/qlib/low-operating-lifecycle-source-request.json':source.sha(old_req),
+                'repo/'+audit.PROOF:frozen_proof,**{'source/'+audit.RAW+'/'+k:h for k,h in proof['all_capture_sha256'].items()}}
+        actualrepo=Path(__file__).resolve().parents[1]
+        for name in (*source.METHODS,source.DESIGN,source.PLAN,source.REVIEW):
+            dest=repo/name;dest.parent.mkdir(parents=True,exist_ok=True)
+            if (actualrepo/name).exists():shutil.copy2(actualrepo/name,dest)
+            else:dest.write_text('{}')
+            hashes['repo/'+name]=source.sha(dest)
+        if omit_original:hashes.pop('source/context/original.json')
+        req={'status':'FROZEN_LOW_OPERATING_TWO_HTTP_AND_LITERAL_TAX_SOURCE_DIAGNOSTIC','candidate':source.CANDIDATE,
+          'window':[source.START,source.END],'resources':source.RESOURCES,'maximum_http_attempts':2,'max_attempts_per_resource':1,
+          'timeout_seconds':20,'max_body_bytes':source.MAX_BYTES,'account_or_returns_permitted':False,'2026_values_permitted':False,
+          'input_sha256':hashes,'method_sha256':{name:source.sha(repo/name) for name in source.METHODS}}
+        request=repo/'request.json';source.write_once(request,req);expected=source.sha(request)
+        def opener(req,timeout):
+            code=parse_qs(urlparse(req.full_url).query)['secid'][0].split('.')[1];code=('SH' if code.startswith('6') else 'SZ')+code
+            return Response(body(code,sessions),req.full_url)
+        out=root/'capture';source.execute(req,{'sessions':sessions,'packets':packets,'known_hashes':{str(original):source.sha(original)},'request_sha256':expected},out,opener)
+        original_sha=audit.sha
+        def test_sha(p):return frozen_proof if Path(p)==proofpath else original_sha(p)
+        return repo,base,out,request,expected,original,test_sha
+
+    def test_full_checker_rejects_omitted_changed_original_context(self):
+        with tempfile.TemporaryDirectory() as t:
+            repo,base,out,request,h,original,test_sha=self.full_checker_fixture(Path(t),omit_original=True)
+            original.write_text('changed omitted source')
+            with patch.object(audit,'sha',side_effect=test_sha),self.assertRaises(ValueError):audit.audit(base,repo,out,request,h)
+
+    def test_full_checker_reconstructs_invalid_literal_and_gross_as_preserved_failures(self):
+        for net,gross in [('NaN','.03'),('0.01','bad')]:
+            with self.subTest(net=net,gross=gross),tempfile.TemporaryDirectory() as t:
+                repo,base,out,request,h,_,test_sha=self.full_checker_fixture(Path(t),net=net,gross=gross)
+                with patch.object(audit,'sha',side_effect=test_sha):result=audit.audit(base,repo,out,request,h)
+                self.assertFalse(result['source_diagnostic_complete']);self.assertIn('SH600118',result['tax_errors'])

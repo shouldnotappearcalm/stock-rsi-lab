@@ -3,6 +3,7 @@ import argparse
 import copy
 from datetime import date
 from decimal import Decimal
+from http.client import IncompleteRead
 import json
 import os
 from pathlib import Path
@@ -119,15 +120,17 @@ class NoRedirect(HTTPRedirectHandler):
 
 def execute(req,auth,out,opener):
     need(req['resources']==RESOURCES and not out.exists() and not out.is_symlink(),'fixed fresh two-resource capture')
-    need(not unchanged(auth['known_hashes']),'original HTTP inputs before capture');out.mkdir();results={};risks={};tax_errors={};primary=None;baseline=None
+    need(not unchanged(auth['known_hashes']),'original HTTP inputs before capture');out.mkdir();results={};risks={};tax_errors={};tax_error_details={};primary=None;baseline=None
     result={'candidate':CANDIDATE,'request_sha256':auth['request_sha256'],'status':'SOURCE_DIAGNOSTIC_FAILURE_RETAINED','complete':False,'physical_account_admitted':False,
         'tax_treatment_admitted':False,'corporate_action_completeness_verified':False,'historical_arrival_verified':False,
         'actual_flat_inventory_proven':False,'portfolio_return_computed':False,'2026_values_read':False,'objective_achieved':False}
     try:
         for code,p in auth['packets'].items():
             try:risks[code]=tax_risk(p,auth['sessions'])
-            except Exception as exc:tax_errors[code]={'type':type(exc).__name__,'message':str(exc)}
-        write_once(out/'tax-risk-views.json',{'risks':risks,'errors':tax_errors})
+            except Exception as exc:
+                tax_errors[code]={'category':'SOURCE_TAX_OR_OTHER_FIELD_REJECTED','packet_value_sha256':digest(p)}
+                tax_error_details[code]={'type':type(exc).__name__,'message':str(exc)}
+        write_once(out/'tax-risk-views.json',{'risks':risks,'errors':tax_errors,'error_details':tax_error_details})
         for code,resource in req['resources'].items():
             folder=out/code;folder.mkdir();write_once(folder/'request.json',resource)
             write_once(folder/'reservation.json',{'resource':code,'identity_sha256':digest(resource),'attempt':1,'reserved_at':now()})
@@ -137,9 +140,22 @@ def execute(req,auth,out,opener):
                 except HTTPError as exc:response=exc
                 with response:
                     meta.update(http_status=response.status,final_url=response.url,content_type=response.headers.get('Content-Type'))
-                    body=response.read(MAX_BYTES+1)
-                    with (folder/'body.bin').open('xb') as f:f.write(body);f.flush();os.fsync(f.fileno())
-                    meta.update(body_sha256=sha(folder/'body.bin'),body_bytes=len(body))
+                    try:
+                        with (folder/'body.bin').open('xb') as f:
+                            received=0
+                            try:
+                                while received<MAX_BYTES+1:
+                                    remaining=min(65536,MAX_BYTES+1-received)
+                                    try:chunk=response.read(remaining)
+                                    except IncompleteRead as exc:
+                                        partial=exc.partial[:remaining];f.write(partial);received+=len(partial);raise
+                                    if not chunk:break
+                                    f.write(chunk[:remaining]);received+=len(chunk[:remaining])
+                            finally:f.flush();os.fsync(f.fileno())
+                    finally:
+                        bodyfile=folder/'body.bin'
+                        if bodyfile.exists():meta.update(body_sha256=sha(bodyfile),body_bytes=bodyfile.stat().st_size)
+                    body=(folder/'body.bin').read_bytes()
                     need(len(body)<=MAX_BYTES,'HTTP body cap; raw prefix retained')
                     length=response.headers.get('Content-Length')
                     need(length is None or str(length).isdigit() and int(length)==len(body),'HTTP Content-Length completeness')
@@ -156,7 +172,9 @@ def execute(req,auth,out,opener):
             complete=len(results)==2 and all(x['status']=='RAW_HTTP_BARS_CAPTURED_NOT_ACCOUNT_ADMITTED' for x in results.values()) and comparison['corroborated'] and not tax_errors)
         if result['complete']:result['status']='HTTP_AND_LITERAL_TAX_SOURCE_DIAGNOSTIC_COMPLETE_NOT_ACCOUNT_ADMITTED'
     except BaseException as exc:
-        primary=exc;result.update(error_type=type(exc).__name__,error=str(exc),complete=False)
+        if primary is None:primary=exc
+        elif exc is not primary:primary.add_note('secondary capture persistence failure: '+type(exc).__name__+': '+str(exc))
+        result.update(error_type=type(primary).__name__,error=str(primary),complete=False)
     try:
         baseline=tree(out);result.update(capture_sha256=baseline,all_capture_outputs_unchanged=True,all_inputs_unchanged=not unchanged(auth['known_hashes']))
         write_once(out/'.terminal-pending.json',result)

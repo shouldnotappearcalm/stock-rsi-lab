@@ -1,0 +1,51 @@
+{
+  "status": "ONE_FRESH_REVIEW_ONE_CORRECTION_PASS_COMPLETE_NOT_LIVE_SOURCE_OR_ACCOUNT_ACCEPTANCE",
+  "reviewed_range": "5b0275536084135134c96b247dd234bbec936fc1..2432906",
+  "reviewer_critical": 0,
+  "reviewer_important": 3,
+  "reviewer_minor": 0,
+  "root_additional_primary_exception_fix": 1,
+  "fixed_findings": [
+    "Independent checker derives full original/capture/method/public closure from immutable failed proof and authenticates every read.",
+    "Tax failures use independently derived stable categories and packet-value hashes while native exception diagnostics remain retained.",
+    "Bounded streaming body capture preserves available IncompleteRead partial bytes.",
+    "Cancellation remains primary if response metadata persistence also fails; remaining resources are not fetched."
+  ],
+  "red_evidence": "Full checker accepted changed omitted original; failed to reconstruct NaN net/bad gross errors; IncompleteRead prefix absent; metadata write masked cancellation. All reproduced before correction.",
+  "green_evidence": {
+    "target_tests": 14,
+    "full_tests": 1450,
+    "full_seconds": 23.121
+  },
+  "independently_reviewed_pre_correction_target_tests": 10,
+  "rulings": [
+    {
+      "deferred": "Actual42packet/209original context and realized tax texts",
+      "cost": "Root must verify frozen context and actual42risk views; code review excluded real financial/market values."
+    },
+    {
+      "deferred": "Live HTTP availability/semantics/control agreement",
+      "cost": "Root executes two frozen attempts and separate byte/projection audit; a transport or comparison failure remains a failure."
+    },
+    {
+      "deferred": "Freeze/publication/remoteHEAD/CI",
+      "cost": "Root owns prospective and live verification; code verdict cannot attest remote state."
+    },
+    {
+      "deferred": "Full-suite independent reproduction",
+      "cost": "Reviewer ran10pre-correction tests only; root14target/1450full suite are attributed evidence, not independent full reproduction."
+    },
+    {
+      "deferred": "Account/legal dividends/corporate completeness/physical replay/PIT/returns",
+      "cost": "Source-only support admits none; later frozen account must establish actual dependencies, correct ST/tax and all lawful fractional branches."
+    },
+    {
+      "deferred": "Cancellation/unrecoverable persistence behavior",
+      "cost": "Root reproduced primary cancellation being masked by metadata write failure, fixed preservation in the same pass, verified one request only. Catastrophic inability to persist still aborts without claiming complete evidence."
+    }
+  ],
+  "rereview_performed": false,
+  "portfolio_return_computed": false,
+  "2026_values_read": false,
+  "objective_achieved": false
+}

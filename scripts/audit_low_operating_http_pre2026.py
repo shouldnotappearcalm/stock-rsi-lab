@@ -12,6 +12,13 @@ from scripts.immutable_http_capture import need,digest,file_sha as sha
 
 RAW='low-operating-lifecycle-raw-pre2026-v1-20261023'
 PROOF='experiments/qlib/low-operating-lifecycle-source-failure-verification.json'
+PROOF_SHA='ccd6d169151e07322863ebd491bef50d72ac0ecae24f6dbeae6d59e4584d6f4f'
+OLD_REQUEST='experiments/qlib/low-operating-lifecycle-source-request.json'
+METHODS=('src/stock_rsi/vendor_dividend_tax_text.py','scripts/capture_low_operating_http_pre2026.py',
+    'scripts/audit_low_operating_http_pre2026.py','tests/test_low_operating_http_tax_sources.py',
+    'scripts/immutable_http_capture.py','scripts/audit_low_operating_lifecycle_sources_pre2026.py','scripts/audit_low_operating_raw_pre2026.py')
+PUBLIC=('docs/research/low-operating-http-tax-source-design-2026-10-23.md',
+    'docs/superpowers/plans/2026-10-23-low-operating-http-tax-sources.md','experiments/qlib/low-operating-http-tax-source-review.json')
 CONTROL='SH600118'
 FIELDS=('date','open','close','high','low','volume_lots','amount','amplitude','change_pct','change_abs','turnover')
 def read(p):return json.loads(Path(p).read_text())
@@ -69,19 +76,28 @@ def audit(base,root,raw,request,expected):
             and q=={'fields1':['f1,f2,f3,f4,f5,f6'],'fields2':[','.join('f'+str(n) for n in range(51,62))],
                 'ut':['7eea3edcaed734bea9cbfc24409ed989'],'klt':['101'],'fqt':['0'],'beg':['20231229'],'end':['20251231'],
                 'secid':[('1.' if code.startswith('SH') else '0.')+code[2:]]},'independent exact HTTP identity')
+    need(sha(root/PROOF)==PROOF_SHA,'retained original failed context');original=read(root/PROOF)
+    required={('repo/'+OLD_REQUEST if k=='frozen_request' else k):h for k,h in original['all_input_sha256'].items()}
+    required.update({'source/'+RAW+'/'+k:h for k,h in original['all_capture_sha256'].items()});required['repo/'+PROOF]=PROOF_SHA
+    need(set(r['input_sha256'])==set(required)|{'repo/'+p for p in (*METHODS,*PUBLIC)}
+        and all(r['input_sha256'][k]==h for k,h in required.items()),'independently derived complete original/method/public context closure')
+    need(set(r['method_sha256'])==set(METHODS) and all(r['input_sha256']['repo/'+p]==h for p,h in r['method_sha256'].items()),'independent exact method bindings')
     paths={k:legacy.resolve(k,root,base) for k in r['input_sha256']};paths['frozen_request']=request;want={**r['input_sha256'],'frozen_request':expected}
     for k,p in paths.items():need(sha(p)==want[k],'original input before '+k)
-    need(sha(root/PROOF)=='ccd6d169151e07322863ebd491bef50d72ac0ecae24f6dbeae6d59e4584d6f4f','retained original failed context')
     before=tree(raw);terminal=read(raw/'terminal.json');need(terminal['request_sha256']==expected and not any(n.startswith('.') for n in before),'exact request/no pending persistence staging')
     need(terminal['all_inputs_unchanged'] is True and terminal['all_capture_outputs_unchanged'] is True
         and terminal['capture_sha256']=={k:h for k,h in before.items() if k!='terminal.json'},'full output tree retained through persistence')
     sessions=read(base/RAW/'calendar.json')['sessions'];need(len(sessions)==486 and sessions==sorted(set(sessions)),'486explicit original sessions')
-    manifest=read(base/RAW/'manifest.json');views=read(raw/'tax-risk-views.json');risks={};tax_errors={}
+    manifest=read(base/RAW/'manifest.json');need(manifest['names']==len(manifest['per_code_sha256'])==42
+        and manifest['requested_names']==43 and manifest['pending_codes']==['SZ002326'] and manifest['capture_complete'] is False,'all42retained source packets required')
+    views=read(raw/'tax-risk-views.json');risks={};tax_errors={}
     for code,h in manifest['per_code_sha256'].items():
         p=base/RAW/'codes'/(code+'.json');need(sha(p)==h,'original raw tax packet')
-        try:risks[code]=reconstruct_tax_risk(read(p),sessions)
-        except Exception as exc:tax_errors[code]={'type':type(exc).__name__,'message':str(exc)}
-    need(views=={'risks':risks,'errors':tax_errors},'independent literal receipts/all source risks')
+        packet=read(p)
+        try:risks[code]=reconstruct_tax_risk(packet,sessions)
+        except Exception:tax_errors[code]={'category':'SOURCE_TAX_OR_OTHER_FIELD_REJECTED','packet_value_sha256':digest(packet)}
+    need(views['risks']==risks and views['errors']==tax_errors and set(views['error_details'])==set(tax_errors)
+        and all(type(d.get('type')) is str and type(d.get('message')) is str for d in views['error_details'].values()),'independent stable failures/native diagnostics preserved')
     projected={};resource_records={}
     for code,res in r['resources'].items():
         folder=raw/code;reservation=read(folder/'reservation.json');meta=read(folder/'response.json')
