@@ -121,9 +121,26 @@ def verify_artifacts(out,sessions,original,terminal,raw_loader,pre_target=None):
     names=set();prepared={};counts={};partial={};error='error_type' in terminal
     for code in ('SH600118','SZ002326'):
         full=out/('window-'+code+'.json');binary=out/('prepared-'+code+'.bin');part=out/('window-partial-'+code+'.json')
-        if code=='SZ002326' and any(p.exists() for p in (full,binary,part)):
-            need(terminal['control_price_volume_gate_passed'] and terminal['target_preparation_attempted'],'target window only after control gate')
-            if pre_target:pre_target()
+        if code=='SZ002326':
+            attempted=terminal['target_preparation_attempted'];invoked=terminal['target_decoder_invoked']
+            target_prefix=list((out/'rows/SZ002326').glob('*.json'))
+            artifacts=any(p.exists() for p in (full,binary,part))
+            need(type(attempted) is bool and type(invoked) is bool,'explicit target lifecycle flags')
+            need(not(artifacts or invoked or target_prefix or terminal['target_rows_completed']) or attempted,'target evidence requires preparation attempt')
+            need(not(invoked or target_prefix or terminal['target_rows_completed']) or (full.exists() and binary.exists() and not part.exists()),'numeric target requires completed durable preparation')
+            if attempted:
+                # Independently establish all control evidence BEFORE reading any target date.
+                need('SH600118' in prepared and (out/'prepared-SH600118.bin').exists(),'complete durable control preparation before target')
+                prefix=sorted((out/'rows/SH600118').glob('*.json'))
+                rows=checker.project(prepared['SH600118'],'SH600118',sessions)
+                need(len(prefix)==len(rows)==terminal['control_rows_completed'],'full independent control count before target')
+                for p,w in zip(prefix,rows):need(read(p)==w and p.stem==w['date'],'independent control prefix before target')
+                report=checker.control(rows,original)
+                need((out/'control-summary.json').exists() and read(out/'control-summary.json')==report
+                    and report['price_volume_gate_passed'] is True and terminal['control_price_volume_gate_passed'] is True,'independent control agreement before target')
+                if (out/'control-rows.json').exists():need(read(out/'control-rows.json')==rows,'independent control aggregate before target')
+                need((out/'target-started.json').exists() and read(out/'target-started.json')=={'only_after_control_price_volume_gate':True},'valid marker before target preparation')
+                if pre_target:pre_target()
         need(not(full.exists() and part.exists()),'one completed or partial preparation per resource')
         if full.exists():
             b,r=prepare(raw_loader(code),code,sessions);need(read(full)==r,'reconstructed exact window receipt');prepared[code]=b;names.add(full.name)

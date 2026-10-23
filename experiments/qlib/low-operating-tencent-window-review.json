@@ -1,0 +1,33 @@
+{
+  "reviewed_range": "fcc0007..8ec78c0",
+  "verdict": "REQUEST_CHANGES_TWO_IMPORTANT",
+  "reviewer": "low_operating_tencent_window_review",
+  "actual_market_values_read": false,
+  "important_findings": [
+    "Target preparation preceded independent validation of persisted control evidence",
+    "Impossible target lifecycle accepted without durable preparation/marker"
+  ],
+  "correction": "One RED-to-GREEN pass; control row/agreement/aggregate corruption and two impossible target states now rejected before any target read",
+  "targeted_tests_passed": 27,
+  "independent_review_targeted_tests_passed": 25,
+  "rereview_performed": false,
+  "shared_boundaries": [
+    "window selector",
+    "byte slice walker",
+    "authentication",
+    "orchestration"
+  ],
+  "inherited_deferred_minors": [
+    "Ignored strings not fully UTF-8 validated",
+    "65 empty nested containers can pass intended depth64"
+  ],
+  "declined_to_judge": [
+    "Actual Tencent values, coverage and control agreement",
+    "Real previous input graph integrity",
+    "Remote freeze/publication/CI",
+    "Full suite independently",
+    "Source arrival/state/actions/tax/account/returns/objective",
+    "Independent shared parser/window correctness",
+    "Uncatchable termination/storage failure"
+  ]
+}

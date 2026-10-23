@@ -85,3 +85,34 @@ class TencentWindowTests(unittest.TestCase):
             out=base/source.OUTPUT;terminal=source.read(out/'terminal.json');self.assertEqual(terminal['control_rows_completed'],1)
             facts=source.verify_artifacts(out,DAYS,raw(),terminal,lambda c:(base/source.OPAQUE/c/'body.bin').read_bytes())
             self.assertFalse(facts['complete']);self.assertEqual(len(facts['control_rows']),1)
+    def test_audit_rejects_control_corruption_before_any_target_read(self):
+        for corruption in ('row','agreement','aggregate'):
+            with self.subTest(corruption=corruption),tempfile.TemporaryDirectory() as t:
+                base=Path(t);known=self.fixture(base)
+                with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)):terminal=source.run(base,base,base/'unused','sha')
+                out=base/source.OUTPUT;original=raw()
+                if corruption=='row':(out/'rows/SH600118'/ (DAYS[0]+'.json')).write_text('{}')
+                elif corruption=='aggregate':(out/'control-rows.json').write_text('[]')
+                else:original[0]['close']='10.01'
+                reads=[]
+                def load(c):reads.append(c);return (base/source.OPAQUE/c/'body.bin').read_bytes()
+                with self.assertRaises(ValueError):source.verify_artifacts(out,DAYS,original,terminal,load)
+                self.assertNotIn('SZ002326',reads)
+    def test_audit_rejects_impossible_target_lifecycle_before_target_read(self):
+        for missing in ('preparation','marker'):
+            with self.subTest(missing=missing),tempfile.TemporaryDirectory() as t:
+                base=Path(t);known=self.fixture(base)
+                with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)):terminal=source.run(base,base,base/'unused','sha')
+                out=base/source.OUTPUT
+                terminal.update(error_type='ValueError',error='synthetic',status='SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED',
+                    complete=False,failed_stage='TARGET',failed_row_index=0,target_rows_completed=0)
+                for p in (out/'rows/SZ002326').glob('*.json'):p.unlink()
+                (out/'target-rows.json').unlink()
+                if missing=='preparation':
+                    for n in ('window-SZ002326.json','prepared-SZ002326.bin'):(out/n).unlink()
+                else:
+                    (out/'target-started.json').unlink();terminal['target_decoder_invoked']=False
+                reads=[]
+                def load(c):reads.append(c);return (base/source.OPAQUE/c/'body.bin').read_bytes()
+                with self.assertRaises(ValueError):source.verify_artifacts(out,DAYS,raw(),terminal,load)
+                self.assertNotIn('SZ002326',reads)
