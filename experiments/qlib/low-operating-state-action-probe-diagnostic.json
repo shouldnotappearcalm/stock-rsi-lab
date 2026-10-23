@@ -1,0 +1,430 @@
+{
+  "status": "MANUAL_HISTORICAL_STATE_ACTION_DIAGNOSTIC_NOT_ACCOUNT_ADMISSION",
+  "request_sha256": "b4d1533b7a7910aba57d1635da958c57f836aa1545deac6d1061dfa913f44086",
+  "controls": {
+    "SZ002153-2024-04-30": {
+      "instrument": "SZ002153",
+      "day": "2024-04-30",
+      "printed_name": "石基信息",
+      "preclose": "7.19",
+      "open": "7.14",
+      "high": "7.24",
+      "low": "7.06",
+      "close": "7.20",
+      "exact_original_prices": {
+        "preclose": true,
+        "open": true,
+        "high": true,
+        "low": true,
+        "close": true
+      },
+      "all_prices_exact": true
+    },
+    "SZ002153-2024-05-31": {
+      "instrument": "SZ002153",
+      "day": "2024-05-31",
+      "printed_name": "石基信息",
+      "preclose": "6.53",
+      "open": "6.51",
+      "high": "6.68",
+      "low": "6.48",
+      "close": "6.60",
+      "exact_original_prices": {
+        "preclose": true,
+        "open": true,
+        "high": true,
+        "low": true,
+        "close": true
+      },
+      "all_prices_exact": true
+    }
+  },
+  "targets": {
+    "SZ002326-2024-04-30": {
+      "instrument": "SZ002326",
+      "day": "2024-04-30",
+      "printed_name": "永太科技",
+      "preclose": "10.20",
+      "open": "10.12",
+      "high": "10.25",
+      "low": "10.02",
+      "close": "10.03"
+    },
+    "SZ002326-2024-05-06": {
+      "instrument": "SZ002326",
+      "day": "2024-05-06",
+      "printed_name": "永太科技",
+      "preclose": "10.03",
+      "open": "10.10",
+      "high": "10.33",
+      "low": "10.10",
+      "close": "10.28"
+    },
+    "SZ002326-2024-05-31": {
+      "instrument": "SZ002326",
+      "day": "2024-05-31",
+      "printed_name": "永太科技",
+      "preclose": "9.41",
+      "open": "9.51",
+      "high": "9.58",
+      "low": "9.42",
+      "close": "9.48"
+    },
+    "SZ002326-2024-06-03": {
+      "instrument": "SZ002326",
+      "day": "2024-06-03",
+      "printed_name": "永太科技",
+      "preclose": "9.48",
+      "open": "9.50",
+      "high": "9.54",
+      "low": "9.07",
+      "close": "9.19"
+    }
+  },
+  "announcements": {
+    "SZ002326-dividend": {
+      "declared_total": 260,
+      "returned_rows": 30,
+      "one_page_query_complete": false,
+      "records": [
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-12-31",
+          "timestamp_ms": 1767110400000,
+          "title": "关于为子公司提供担保的进展公告",
+          "announcement_id": "1224908028",
+          "pdf_path": "finalpage/2025-12-31/1224908028.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-12-31/1224908028.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-12-30",
+          "timestamp_ms": 1767024000000,
+          "title": "关于公司及子公司为子公司提供担保的公告",
+          "announcement_id": "1224903893",
+          "pdf_path": "finalpage/2025-12-30/1224903893.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-12-30/1224903893.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-12-23",
+          "timestamp_ms": 1766419200000,
+          "title": "关于部分董事、高级管理人员增持公司股份计划的公告",
+          "announcement_id": "1224891523",
+          "pdf_path": "finalpage/2025-12-23/1224891523.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-12-23/1224891523.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-12-17",
+          "timestamp_ms": 1765900800000,
+          "title": "关于为子公司提供担保的进展公告",
+          "announcement_id": "1224880635",
+          "pdf_path": "finalpage/2025-12-17/1224880635.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-12-17/1224880635.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-12-13",
+          "timestamp_ms": 1765555200000,
+          "title": "关于全资子公司获得药品注册证书的公告",
+          "announcement_id": "1224872993",
+          "pdf_path": "finalpage/2025-12-13/1224872993.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-12-13/1224872993.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-12-09",
+          "timestamp_ms": 1765209600000,
+          "title": "关于为子公司提供担保的进展公告",
+          "announcement_id": "1224857511",
+          "pdf_path": "finalpage/2025-12-09/1224857511.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-12-09/1224857511.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-11-21",
+          "timestamp_ms": 1763654400000,
+          "title": "关于控股股东部分股权解除质押的公告",
+          "announcement_id": "1224816695",
+          "pdf_path": "finalpage/2025-11-21/1224816695.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-11-21/1224816695.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-11-18",
+          "timestamp_ms": 1763395200000,
+          "title": "关于全资子公司锂电添加剂项目的进展公告",
+          "announcement_id": "1224809300",
+          "pdf_path": "finalpage/2025-11-18/1224809300.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-11-18/1224809300.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-11-18",
+          "timestamp_ms": 1763395200000,
+          "title": "关于为子公司提供担保的进展公告",
+          "announcement_id": "1224809299",
+          "pdf_path": "finalpage/2025-11-18/1224809299.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-11-18/1224809299.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-11-13",
+          "timestamp_ms": 1762963200000,
+          "title": "关于股价异常波动的公告",
+          "announcement_id": "1224801079",
+          "pdf_path": "finalpage/2025-11-13/1224801079.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-11-13/1224801079.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-11-11",
+          "timestamp_ms": 1762790400000,
+          "title": "关于股价异常波动的公告",
+          "announcement_id": "1224796969",
+          "pdf_path": "finalpage/2025-11-11/1224796969.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-11-11/1224796969.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-11-07",
+          "timestamp_ms": 1762444800000,
+          "title": "关于完成减少注册资本工商变更登记的公告",
+          "announcement_id": "1224790817",
+          "pdf_path": "finalpage/2025-11-07/1224790817.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-11-07/1224790817.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-11-01",
+          "timestamp_ms": 1761926400000,
+          "title": "关于为子公司提供担保的进展公告",
+          "announcement_id": "1224779560",
+          "pdf_path": "finalpage/2025-11-01/1224779560.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-11-01/1224779560.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-10-31",
+          "timestamp_ms": 1761840000000,
+          "title": "关于部分限制性股票回购注销完成的公告",
+          "announcement_id": "1224777431",
+          "pdf_path": "finalpage/2025-10-31/1224777431.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-10-31/1224777431.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-10-29",
+          "timestamp_ms": 1761667200000,
+          "title": "关于为子公司提供担保的进展公告",
+          "announcement_id": "1224750764",
+          "pdf_path": "finalpage/2025-10-29/1224750764.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-10-29/1224750764.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-10-29",
+          "timestamp_ms": 1761667200000,
+          "title": "第七届董事会第四次会议决议公告",
+          "announcement_id": "1224750763",
+          "pdf_path": "finalpage/2025-10-29/1224750763.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-10-29/1224750763.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-10-29",
+          "timestamp_ms": 1761667200000,
+          "title": "2025年三季度报告",
+          "announcement_id": "1224750761",
+          "pdf_path": "finalpage/2025-10-29/1224750761.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-10-29/1224750761.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-09-10",
+          "timestamp_ms": 1757433600000,
+          "title": "关于设立合资公司并完成工商注册登记的公告",
+          "announcement_id": "1224647528",
+          "pdf_path": "finalpage/2025-09-10/1224647528.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-09-10/1224647528.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-28",
+          "timestamp_ms": 1756310400000,
+          "title": "半年报董事会决议公告",
+          "announcement_id": "1224594146",
+          "pdf_path": "finalpage/2025-08-28/1224594146.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224594146.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-28",
+          "timestamp_ms": 1756310400000,
+          "title": "2025年半年度报告摘要",
+          "announcement_id": "1224594145",
+          "pdf_path": "finalpage/2025-08-28/1224594145.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224594145.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-28",
+          "timestamp_ms": 1756310400000,
+          "title": "2025年半年度募集资金存放与使用情况专项报告",
+          "announcement_id": "1224594144",
+          "pdf_path": "finalpage/2025-08-28/1224594144.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224594144.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-28",
+          "timestamp_ms": 1756310400000,
+          "title": "2025年半年度财务报告",
+          "announcement_id": "1224594143",
+          "pdf_path": "finalpage/2025-08-28/1224594143.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224594143.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-28",
+          "timestamp_ms": 1756310400000,
+          "title": "2025年半年度报告",
+          "announcement_id": "1224594142",
+          "pdf_path": "finalpage/2025-08-28/1224594142.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224594142.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-28",
+          "timestamp_ms": 1756310400000,
+          "title": "半年度非经营性资金占用及其他关联资金往来情况汇总表",
+          "announcement_id": "1224594141",
+          "pdf_path": "finalpage/2025-08-28/1224594141.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224594141.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-26",
+          "timestamp_ms": 1756137600000,
+          "title": "关于为子公司提供担保的公告",
+          "announcement_id": "1224568399",
+          "pdf_path": "finalpage/2025-08-26/1224568399.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-26/1224568399.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-22",
+          "timestamp_ms": 1755792000000,
+          "title": "上海市锦天城律师事务所关于永太科技2025年第二次临时股东大会法律意见书",
+          "announcement_id": "1224533695",
+          "pdf_path": "finalpage/2025-08-22/1224533695.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-22/1224533695.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-22",
+          "timestamp_ms": 1755792000000,
+          "title": "关于回购注销部分限制性股票减资暨通知债权人的公告",
+          "announcement_id": "1224533694",
+          "pdf_path": "finalpage/2025-08-22/1224533694.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-22/1224533694.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-22",
+          "timestamp_ms": 1755792000000,
+          "title": "2025年第二次临时股东会决议公告",
+          "announcement_id": "1224533693",
+          "pdf_path": "finalpage/2025-08-22/1224533693.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-22/1224533693.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-08",
+          "timestamp_ms": 1754582400000,
+          "title": "关于公司2024年限制性股票激励计划第一个解除限售期解除限售股份上市流通的提示性公告",
+          "announcement_id": "1224425040",
+          "pdf_path": "finalpage/2025-08-08/1224425040.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-08/1224425040.PDF"
+        },
+        {
+          "instrument": "SZ002326",
+          "publication_day": "2025-08-01",
+          "timestamp_ms": 1753977600000,
+          "title": "第七届董事会第二次会议决议公告",
+          "announcement_id": "1224354468",
+          "pdf_path": "finalpage/2025-08-01/1224354468.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-01/1224354468.PDF"
+        }
+      ]
+    },
+    "SZ002326-risk-warning": {
+      "declared_total": 0,
+      "returned_rows": 0,
+      "one_page_query_complete": true,
+      "records": []
+    },
+    "SZ002326-suspend": {
+      "declared_total": 0,
+      "returned_rows": 0,
+      "one_page_query_complete": true,
+      "records": []
+    },
+    "SZ002326-resume": {
+      "declared_total": 0,
+      "returned_rows": 0,
+      "one_page_query_complete": true,
+      "records": []
+    },
+    "SH600482-adjustment-week": {
+      "declared_total": 4,
+      "returned_rows": 4,
+      "one_page_query_complete": true,
+      "records": [
+        {
+          "instrument": "SH600482",
+          "publication_day": "2024-11-20",
+          "timestamp_ms": 1732032000000,
+          "title": "中国船舶重工集团动力股份有限公司2024年第三次临时股东大会决议公告",
+          "announcement_id": "1221777585",
+          "pdf_path": "finalpage/2024-11-20/1221777585.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-11-20/1221777585.PDF"
+        },
+        {
+          "instrument": "SH600482",
+          "publication_day": "2024-11-20",
+          "timestamp_ms": 1732032000000,
+          "title": "北京市金杜律师事务所关于中国动力2024年第三次临时股东大会的法律意见书",
+          "announcement_id": "1221777584",
+          "pdf_path": "finalpage/2024-11-20/1221777584.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-11-20/1221777584.PDF"
+        },
+        {
+          "instrument": "SH600482",
+          "publication_day": "2024-11-15",
+          "timestamp_ms": 1731600000000,
+          "title": "中国船舶重工集团动力股份有限公司关于可转债转股价格调整暨转股复牌的公告",
+          "announcement_id": "1221725634",
+          "pdf_path": "finalpage/2024-11-15/1221725634.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-11-15/1221725634.PDF"
+        },
+        {
+          "instrument": "SH600482",
+          "publication_day": "2024-11-15",
+          "timestamp_ms": 1731600000000,
+          "title": "中国船舶重工集团动力股份有限公司2024年特别分红权益分派实施公告",
+          "announcement_id": "1221725633",
+          "pdf_path": "finalpage/2024-11-15/1221725633.PDF",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-11-15/1221725633.PDF"
+        }
+      ]
+    }
+  },
+  "errors": {},
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_decoded": false,
+  "objective_achieved": false,
+  "control_price_gate_passed": true
+}
