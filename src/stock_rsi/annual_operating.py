@@ -82,6 +82,35 @@ def parse_report(pages, report_year, *, normative_basis=None):
             'balances': extract_signed_row(balance, bmeta, r'^资产总计\s*', 'total_assets', report_year)}
 
 
+def validate_unit_evidence(cell, year):
+    literal, unit = cell['unit_evidence_literal'], cell['unit']
+    explicit = grammar.forms.explicit_local_unit(literal)
+    declarations = cell['currency_scope_evidence']
+    if explicit is not None:
+        need(explicit == unit and declarations == [], 'normalization unit must match explicit local CNY quote')
+        return
+    bare = re.fullmatch(r'单位[：:](元|万元)', compact(literal))
+    need(bare is not None and bare.group(1) == unit and type(declarations) is list and declarations,
+         'bare local unit must match literal and carry scoped CNY evidence')
+    for evidence in declarations:
+        scope = evidence['scope']; text = compact(evidence['literal'])
+        if scope == 'EXPLICIT_PRIMARY_FINANCIAL_SECTION_RMB':
+            match = re.fullmatch(r'财务附注中报表的单位为[：:]人民币(元|万元)', text)
+            need(match is not None and match.group(1) == evidence['unit'] == unit, 'section currency/unit quote must agree')
+        elif scope == 'INFERRED_FROM_EXPLICIT_CAS_COMPLIANCE_AND_CAS19_ART4':
+            need(year >= 2007 and evidence['currency'] == 'CNY'
+                 and evidence['currency_is_regulatory_inference_not_literal_quote'] is True
+                 and evidence['normative_reference'] == CAS19_REFERENCE and grammar.prior.CLAIM.match(text)
+                 and not re.search(r'不符合|未遵循|不完全符合|IFRS|香港财务报告准则|国际财务报告准则|但是|但[，,]', text, re.I),
+                 'pinned unqualified CAS currency inference required')
+        else:
+            parsed = grammar.forms.reporting_currency([evidence['literal']])
+            need(len(parsed) == 1 and parsed[0]['scope'] == scope
+                 and parsed[0].get('unit', unit) == evidence.get('unit', unit) == unit
+                 and parsed[0].get('currency', 'CNY') == evidence.get('currency', 'CNY') == 'CNY',
+                 'report-preparation currency evidence must match original quote')
+
+
 def validate_parsed(parsed, year):
     periods = {f'{year}-12-31', f'{year-1}-12-31'}
     need(type(parsed) is dict and set(parsed) == {'income', 'balances'}
@@ -103,6 +132,7 @@ def validate_parsed(parsed, year):
                      'coherent source scope, fiscal column, header and row evidence required')
                 values = row_values(cell['row_text'], LABELS.get(field, r'^资产总计\s*'), cell['header_line'])
                 need(cell['literal'] == values[column], 'source literal must occupy claimed fiscal column')
+                validate_unit_evidence(cell, year)
                 amount = amount_CNY(cell['literal'], cell['unit'])
                 need(type(cell['value_CNY']) is str and cell['value_CNY'] == format(amount, 'f')
                      and cell['multiplier_CNY'] == str(grammar.original.CNY_UNITS[cell['unit']])

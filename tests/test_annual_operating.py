@@ -100,6 +100,38 @@ class AnnualOperatingTests(unittest.TestCase):
             with self.subTest(name=name), self.assertRaises(ValueError):
                 op.make_report('SH600001',2023,'2024-04-27','2026-10-23T00:00:00+00:00','a'*64,'123456',bad)
 
+    def test_consistently_rescaled_money_cannot_override_original_unit_quote(self):
+        bad = op.parse_report(source(), 2023)
+        for fields in bad['income'].values():
+            for cell in fields.values():
+                cell.update(unit='万元',multiplier_CNY='10000',
+                            value_CNY=format(Decimal(cell['value_CNY'])*10000,'f'))
+        with self.assertRaises(ValueError):
+            op.make_report('SH600001',2023,'2024-04-27','2026-10-23T00:00:00+00:00','a'*64,'123456',bad)
+
+    def test_bare_units_need_consistent_currency_evidence_from_original_declaration(self):
+        data = [p.replace('单位:元 币种:人民币','单位:元') for p in source()]
+        data.append('本财务报表以人民币列示。')
+        parsed = op.parse_report(data,2023)
+        record = op.make_report('SH600001',2023,'2024-04-27','2026-10-23T00:00:00+00:00','a'*64,'123456',parsed)
+        self.assertEqual(self.snapshot([record])['records'][0]['operating_profit_CNY'],'25.00')
+        for fields in parsed['income'].values():
+            for cell in fields.values():
+                cell['currency_scope_evidence'][0].update(currency='USD',literal='本财务报表以美元列示。')
+        with self.assertRaises(ValueError):
+            op.make_report('SH600001',2023,'2024-04-27','2026-10-23T00:00:00+00:00','a'*64,'123456',parsed)
+
+    def test_bare_units_keep_explicit_section_and_pinned_CAS_currency_routes(self):
+        bare=[p.replace('单位:元 币种:人民币','单位:元') for p in source()]
+        section=copy.deepcopy(bare)
+        section[0]='二、财务报表\n财务附注中报表的单位为：人民币元\n'+section[0]
+        section.append('三、财务报表附注\n')
+        cas=[*bare,'五、重要会计政策及会计估计\n1、遵循企业会计准则的声明\n本公司所编制的财务报表符合企业会计准则的要求，真实、完整地反映了公司的财务状况。\n']
+        for pages in (section,cas):
+            parsed=op.parse_report(pages,2023,normative_basis=op.CAS19_REFERENCE)
+            record=op.make_report('SH600001',2023,'2024-04-27','2026-10-23T00:00:00+00:00','a'*64,'123456',parsed)
+            self.assertEqual(self.snapshot([record])['records'][0]['operating_profit_CNY'],'25.00')
+
     def test_default_observed_mode_and_explicit_publication_end_boundary(self):
         record = self.report()
         self.assertEqual(op.snapshot_reports([record], '2025-12-31T15:05:00+08:00')['records'], [])

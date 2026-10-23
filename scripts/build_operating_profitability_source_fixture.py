@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 
 from stock_rsi import annual_operating as op
@@ -149,6 +150,10 @@ def generate(base, root, request_file, expected_sha, out):
             'security_ranking_computed': False, 'portfolio_returns_computed': False,
             '2026_financial_or_market_values_read': False, 'original_accounts_strategies_and_failed_results_changed': False,
             'objective_achieved': False}
+        result.update(input_count=len(paths), all_inputs_unchanged=True)
+        # Staged evidence is never the completed summary. Interruptions here are
+        # caught before the source/request postcheck, even after a partial write.
+        write(out/'.summary-pending.json', result)
     except BaseException as exc:
         primary = exc
     finally:
@@ -159,18 +164,38 @@ def generate(base, root, request_file, expected_sha, out):
                 mismatches.append({'input': key, 'reason': type(exc).__name__})
         post = {'count': len(paths), 'all_inputs_unchanged': not mismatches, 'mismatches': mismatches,
                 'source_request_rehashed_after_processing': True}
-        terminal = {'status': 'CN_OPERATING_SOURCE_TERMINAL', 'completed': result is not None and primary is None and not mismatches,
+        try:
+            write(out/'input-postcheck.json', post)
+        except BaseException as exc:
+            persistence_errors.append('input-postcheck.json:'+type(exc).__name__)
+            if primary is None:primary = exc
+        if result is not None and primary is None and not mismatches and not persistence_errors:
+            try:
+                os.replace(out/'.summary-pending.json', out/'summary.json')
+            except BaseException as exc:
+                primary = exc
+        terminal = {'status': 'CN_OPERATING_SOURCE_TERMINAL',
+                    'completed': result is not None and primary is None and not mismatches and not persistence_errors,
                     'original_error': None if primary is None else {'type': type(primary).__name__, 'message': str(primary)},
                     'postcheck': post, 'persistence_errors': persistence_errors, 'portfolio_returns_computed': False}
-        for name, value in (('input-postcheck.json', post), ('terminal.json', terminal)):
-            try:write(out/name, value)
-            except BaseException as exc:persistence_errors.append(name+':'+type(exc).__name__)
+        try:
+            write(out/'.terminal-pending.json', terminal)
+            os.replace(out/'.terminal-pending.json', out/'terminal.json')
+        except BaseException as exc:
+            persistence_errors.append('terminal.json:'+type(exc).__name__)
+            if primary is None:primary = exc
+            if (out/'summary.json').exists():
+                try:os.replace(out/'summary.json', out/'uncommitted-summary.json')
+                except BaseException as cleanup:persistence_errors.append('summary-demotion:'+type(cleanup).__name__)
+            terminal.update(completed=False,original_error={'type':type(primary).__name__,'message':str(primary)})
+            try:
+                write(out/'.terminal-failure.json', terminal)
+                os.replace(out/'.terminal-failure.json', out/'terminal.json')
+            except BaseException as failure:persistence_errors.append('terminal-failure:'+type(failure).__name__)
     if primary is not None:
         if persistence_errors:primary.add_note('terminal persistence errors: '+str(persistence_errors))
         raise primary
     op.need(not mismatches and not persistence_errors, 'source changed or terminal evidence persistence failed')
-    result.update(input_count=len(paths), all_inputs_unchanged=True)
-    write(out/'summary.json', result)
     return result
 
 

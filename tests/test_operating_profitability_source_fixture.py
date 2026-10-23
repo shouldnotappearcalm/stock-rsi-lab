@@ -3,6 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
+from tests.test_annual_operating import source
 
 try:
     from scripts import build_operating_profitability_source_fixture as build
@@ -43,6 +44,29 @@ class OperatingSourceFreezeTests(unittest.TestCase):
     def verify(self, changed=None):
         if changed is not None:build.write(self.request_file,changed)
         return build.verify(self.base,self.root,self.request_file,build.sha(self.request_file))
+
+    def successful_sources(self):
+        """Replace only slow PDF decoding with synthetic complete source pages."""
+        documents = {}
+        expected = {}
+        for stem,selected in build.CASES:
+            year=int(stem.split('-')[1]);parts=source(year);pages=['']*(max(selected)+3)
+            pages[0]=f'证券代码：600166\n{year}年年度报告\n'
+            for page,text in zip((selected[0],selected[0]+2,selected[2],selected[2]+2),parts):pages[page-1]=text
+            documents[stem+'.pdf']=pages
+            for page in selected:
+                (self.base/build.PRIMARY/f'{stem}-page-{page}.txt').write_text(pages[page-1])
+                for reader in ('pypdf','pdfminer'):
+                    (self.base/build.INSPECTION/stem/f'{reader}-page-{page}.txt').write_text(pages[page-1])
+            expected[str(year)]={'income':{
+                f'{year}-12-31':{'revenue':'100.00','cost_of_sales':'60.00','selling_expenses':'10.00',
+                                 'administrative_expenses':'5.00','research_expenses':'7.00'},
+                f'{year-1}-12-31':{'revenue':'80.00','cost_of_sales':'60.00','selling_expenses':'8.00',
+                                   'administrative_expenses':'2.00','research_expenses':'6.00'}},
+                'balances':{f'{year}-12-31':'200.00',f'{year-1}-12-31':'100.00'}}
+        review=build.read(self.root/build.REVIEW);review['expected_cells_CNY']=expected;build.write(self.root/build.REVIEW,review)
+        self.request['input_sha256']={k:build.sha(p) for k,p in self.paths.items()};build.write(self.request_file,self.request)
+        return documents
 
     def test_exact_synthetic_source_request_is_admitted_for_source_inspection_only(self):
         request,paths,capture,review = self.verify()
@@ -85,6 +109,51 @@ class OperatingSourceFreezeTests(unittest.TestCase):
         self.assertEqual(terminal['original_error']['type'],'KeyboardInterrupt')
         self.assertEqual({r['input'] for r in terminal['postcheck']['mismatches']},
             {'source/'+build.OLD+'/'+build.CASES[0][0]+'.pdf','frozen_source_request'})
+        self.assertFalse((out/'summary.json').exists())
+
+    def test_complete_synthetic_run_publishes_two_reports_and_empty_observed_history(self):
+        documents=self.successful_sources();out=self.base/'complete'
+        with patch.object(build,'pdf_pages',side_effect=lambda path:documents[path.name]):
+            result=build.generate(self.base,self.root,self.request_file,build.sha(self.request_file),out)
+        self.assertEqual(result['filing_records'],2)
+        self.assertTrue(build.read(out/'terminal.json')['completed'])
+        self.assertEqual(build.read(out/'summary.json'),result)
+        snapshots=build.read(out/'snapshots.json')
+        self.assertEqual(snapshots['OBSERVED']['2024-12-31']['records'],[])
+        self.assertEqual(snapshots['RECONSTRUCTED_PUBLICATION_DAY_END']['2024-12-31']['records'][0]['operating_profit_CNY'],'25.00')
+
+    def test_summary_interruption_is_guarded_and_rechecks_mutated_source_and_request(self):
+        documents=self.successful_sources();out=self.base/'summary-interrupted';original=KeyboardInterrupt('summary interrupted')
+        writer=build.write
+        def interrupted(path,value):
+            if path.name in ('summary.json','.summary-pending.json'):
+                path.write_text('{partial')
+                (self.base/build.OLD/(build.CASES[0][0]+'.pdf')).unlink()
+                writer(self.request_file,{})
+                raise original
+            writer(path,value)
+        with patch.object(build,'pdf_pages',side_effect=lambda path:documents[path.name]),patch.object(build,'write',side_effect=interrupted):
+            with self.assertRaises(KeyboardInterrupt) as caught:
+                build.generate(self.base,self.root,self.request_file,build.sha(self.request_file),out)
+        self.assertIs(caught.exception,original)
+        terminal=build.read(out/'terminal.json');self.assertFalse(terminal['completed'])
+        self.assertEqual(terminal['original_error']['type'],'KeyboardInterrupt')
+        self.assertEqual({r['input'] for r in terminal['postcheck']['mismatches']},
+            {'source/'+build.OLD+'/'+build.CASES[0][0]+'.pdf','frozen_source_request'})
+        self.assertFalse((out/'summary.json').exists())
+
+    def test_postcheck_persistence_failure_cannot_claim_completed_or_publish_summary(self):
+        documents=self.successful_sources();out=self.base/'postcheck-interrupted';original=OSError('postcheck disk failure')
+        writer=build.write
+        def failed(path,value):
+            if path.name=='input-postcheck.json':raise original
+            writer(path,value)
+        with patch.object(build,'pdf_pages',side_effect=lambda path:documents[path.name]),patch.object(build,'write',side_effect=failed):
+            with self.assertRaises(Exception) as caught:
+                build.generate(self.base,self.root,self.request_file,build.sha(self.request_file),out)
+        self.assertIs(caught.exception,original)
+        terminal=build.read(out/'terminal.json');self.assertFalse(terminal['completed'])
+        self.assertEqual(terminal['original_error']['type'],'OSError')
         self.assertFalse((out/'summary.json').exists())
 
 
