@@ -1,0 +1,88 @@
+{
+  "status": "OPAQUE_YAHOO_ATTEMPTS_FINISHED_NO_SOURCE_ADMISSION",
+  "request_sha256": "8e28cb7c23daddb4b59cf4e3b11602aefdf183714321e4dda2b9b527c20a618e",
+  "freeze_commit": "d6efd882d6e5908c5d020cf7c6265a4d71af5c4c",
+  "resource_count": 2,
+  "results": {
+    "SH600118": {
+      "instrument": "SH600118",
+      "request_sha256": "8e28cb7c23daddb4b59cf4e3b11602aefdf183714321e4dda2b9b527c20a618e",
+      "finished_at_utc": "2026-10-23T11:08:12.918548+00:00",
+      "returncode": 0,
+      "exception": null,
+      "artifacts": {
+        "headers.raw": {
+          "sha256": "7553b320b9a247506429574f09914c8b75836e9aa186ee81bf032483111a0b65",
+          "bytes": 579
+        },
+        "body.bin": {
+          "sha256": "ce9d0dece8bc580fad26cd29d528f69853f99b8f02df4611cbb3cfecc90439c0",
+          "bytes": 44844
+        }
+      },
+      "raw_body_values_decoded": false,
+      "accepted_rows": 0,
+      "source_or_account_admitted": false,
+      "objective_achieved": false,
+      "transport": {
+        "http_code": 200,
+        "exitcode": 0,
+        "size_download": 44844,
+        "url_effective": "https://query2.finance.yahoo.com/v8/finance/chart/600118.SS?period1=1703779200&period2=1767196800&interval=1d&includePrePost=false&events=div%2Csplits&includeAdjustedClose=false",
+        "time_total": 0.384701
+      }
+    },
+    "SZ002326": {
+      "instrument": "SZ002326",
+      "request_sha256": "8e28cb7c23daddb4b59cf4e3b11602aefdf183714321e4dda2b9b527c20a618e",
+      "finished_at_utc": "2026-10-23T11:08:13.402025+00:00",
+      "returncode": 0,
+      "exception": null,
+      "artifacts": {
+        "headers.raw": {
+          "sha256": "d6540a41ab6a3521206bc38b45debd14884c2e32be522cfdb05a59520f75ade5",
+          "bytes": 579
+        },
+        "body.bin": {
+          "sha256": "7483e724f28dc98e593f740bc477c202d34122ce2a1aef41dc922927dc3de187",
+          "bytes": 44989
+        }
+      },
+      "raw_body_values_decoded": false,
+      "accepted_rows": 0,
+      "source_or_account_admitted": false,
+      "objective_achieved": false,
+      "transport": {
+        "http_code": 200,
+        "exitcode": 0,
+        "size_download": 44989,
+        "url_effective": "https://query2.finance.yahoo.com/v8/finance/chart/002326.SZ?period1=1703779200&period2=1767196800&interval=1d&includePrePost=false&events=div%2Csplits&includeAdjustedClose=false",
+        "time_total": 0.313732
+      }
+    }
+  },
+  "accepted_rows": 0,
+  "source_or_account_admitted": false,
+  "raw_body_values_decoded": false,
+  "2026_values_decoded": false,
+  "portfolio_return_computed": false,
+  "objective_achieved": false,
+  "capture_sha256": {
+    "SH600118/request.json": "f1d8809d6f85e748a53aca06007fe7b1aa508cd705c059da57b1508b4a574bc8",
+    "SH600118/reservation.json": "92631c840953c968bcd33f2985b0c96fb8776363ff4555b8403e5da0fadf7dca",
+    "SH600118/transport.json": "0e949154659fe78699d126e22848348d315dceb42eaf6bc1575f2c0548bcba53",
+    "SH600118/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SH600118/headers.raw": "7553b320b9a247506429574f09914c8b75836e9aa186ee81bf032483111a0b65",
+    "SH600118/body.bin": "ce9d0dece8bc580fad26cd29d528f69853f99b8f02df4611cbb3cfecc90439c0",
+    "SH600118/receipt.json": "04ef6ab8d451bad8f1b46412460257a43df43fe64c09525b94556992ad17fe58",
+    "SZ002326/request.json": "09ef1110dae5729af09e8c57d2b3a42c045855823a22c92353f15fce74b853dc",
+    "SZ002326/reservation.json": "a88a7f0db90fe0775d83170f7a019f30d2c1bbc08a0497d8a42b7a036e403564",
+    "SZ002326/transport.json": "a2086fcbc6326465971da1f6aa6499836a18df55a77351cb117d48f6c021065b",
+    "SZ002326/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002326/headers.raw": "d6540a41ab6a3521206bc38b45debd14884c2e32be522cfdb05a59520f75ade5",
+    "SZ002326/body.bin": "7483e724f28dc98e593f740bc477c202d34122ce2a1aef41dc922927dc3de187",
+    "SZ002326/receipt.json": "63625f85a1b48fa2605a72b9a12a77fcf8649e200357d96e220b9dd512453e64"
+  },
+  "all_inputs_unchanged": true,
+  "all_outputs_unchanged": true
+}
