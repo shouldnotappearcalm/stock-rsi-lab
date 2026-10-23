@@ -1,0 +1,38 @@
+{
+  "contract": "KNOWN_PRIMARY_OPERATING_ASSET_AMENDMENT_V1",
+  "instrument": "SZ002092",
+  "capture_key": "SZ002092-2022-1216279646",
+  "original_record_id": "c30b5ddea02010f748479f076efff26fb3e80a1fbc14b3b686db12144a86f09b",
+  "original_source_sha256": "bff0f0b2d113bc00447eea678860e6017c4cce5306ed49b29958e5e8a15ce71c",
+  "current_fiscal_end": "2022-12-31",
+  "prior_asset_fiscal_end": "2021-12-31",
+  "publication_day": "2024-04-24",
+  "documents": [
+    {
+      "sha256": "4f89fae3d4b3dfe0ff76c1ea70d0c4415fec30fde9b2faef11171fe6e0ffead1",
+      "pages": [
+        1,
+        2,
+        3,
+        7,
+        19
+      ]
+    },
+    {
+      "sha256": "03d9a313c1f6b42eeed531d354177c3233a0d4ddbf5db9ea19ea7cccdd47ea4e",
+      "pages": [
+        1,
+        2,
+        3,
+        7,
+        19
+      ]
+    }
+  ],
+  "before_assets_CNY": "73108580519.58",
+  "after_assets_CNY": "73115417841.25",
+  "unchanged_numerator_CNY": "3239363418.22",
+  "revenue_delta_CNY": "-4248474643.06",
+  "cost_delta_CNY": "-4248474643.06",
+  "selling_admin_unchanged": true
+}
