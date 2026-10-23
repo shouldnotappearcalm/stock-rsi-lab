@@ -1,0 +1,95 @@
+{
+  "status": "MANUAL_HISTORICAL_STATE_ACTION_RAW_CAPTURE_NOT_ADMITTED",
+  "request_sha256": "574dcbf8d8702415fa13cca97746bb26ef357fc096c2c6b2640764515d74f3a6",
+  "resources": {
+    "1219792129": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "3836288",
+        "url_effective": "https://static.cninfo.com.cn/finalpage/2024-04-24/1219792129.PDF"
+      },
+      "body_bytes": 3836288,
+      "error_type": null,
+      "error": null
+    },
+    "1219767737": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "457577",
+        "url_effective": "https://static.cninfo.com.cn/finalpage/2024-04-24/1219767737.PDF"
+      },
+      "body_bytes": 457577,
+      "error_type": null,
+      "error": null
+    },
+    "1219766245": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "3836288",
+        "url_effective": "https://static.cninfo.com.cn/finalpage/2024-04-24/1219766245.PDF"
+      },
+      "body_bytes": 3836288,
+      "error_type": null,
+      "error": null
+    },
+    "1219766244": {
+      "returncode": 0,
+      "transport": {
+        "http_code": "200",
+        "exitcode": "0",
+        "size_download": "587191",
+        "url_effective": "https://static.cninfo.com.cn/finalpage/2024-04-24/1219766244.PDF"
+      },
+      "body_bytes": 587191,
+      "error_type": null,
+      "error": null
+    }
+  },
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_decoded": false,
+  "objective_achieved": false,
+  "complete": true,
+  "capture_sha256": {
+    "1219792129/request.json": "db7b26d89f74007ee2b198014117883cc0bbf4cf0a8d20c51d37fd35b8d4f8e0",
+    "1219792129/reservation.json": "5513199c3c0149cb5c0b19d2adf750e210e71ec3c26584c714a4f60966819beb",
+    "1219792129/command.json": "0a2e84c404ac0d0c4b32d968a224b8cc44204bf65f6616c529b3f603b897b11d",
+    "1219792129/headers.raw": "deb91561f06e0f6f1310348c57f3d6071283a5de5b3b9e3c81e099f9a8cde07b",
+    "1219792129/body.bin": "ccd10bc80997b120b78a67fdb4ab5e8b4a97e98de5a4d14271e1adbde90d5c95",
+    "1219792129/transport.raw": "95dceeec1068dfa8f997a05f0d80d0ae3584aa660bd18cc4bd28e360a156aeee",
+    "1219792129/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1219792129/receipt.json": "90d87a96a2c92535adea1a30a7dfc0fc0c1a4b9b896c1685eb61159b359c4f59",
+    "1219767737/request.json": "58a61747be4f0953c17cc642eb22cc8046161b6e09c9c24cdb18b4eeb5c17885",
+    "1219767737/reservation.json": "9c36d38d58402261d10c820bd7b3974263a3213efc6aebb3667ab319fb33d684",
+    "1219767737/command.json": "b4a6b04f0e40c1993d119ba84c16335fc8234acc1cb1d20d6ef88a822b3ba2c5",
+    "1219767737/headers.raw": "a8852ffb0b64df81fea6a66f960c3cd6bc0a1d31b3bb36895c410a13562baf84",
+    "1219767737/body.bin": "4f89fae3d4b3dfe0ff76c1ea70d0c4415fec30fde9b2faef11171fe6e0ffead1",
+    "1219767737/transport.raw": "9b90d6731030e43f16d1b22a72d7837505c1f01c1fb2ce1bf2173127f620ddf6",
+    "1219767737/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1219767737/receipt.json": "3932fd2b3e4a31a007d9cf72886a6e4724b0f8a204b82946ee9824a87a01a3a9",
+    "1219766245/request.json": "ceb0733c27575bb03e784a60592eadda81e42254a17b31345ca746c49b25fa07",
+    "1219766245/reservation.json": "bc33beaeae41a6f8f0980ee11816cec75dd4952bd3bca33aa5ee5bb3c9d6642e",
+    "1219766245/command.json": "821651dce24904213dd6fdc7d0e59d68da9e25be491084ce45128f382a95da80",
+    "1219766245/headers.raw": "9c060d30e5a0f1429b4b2c7dfc2de66515bfad3178f84e2d92bac88718a94718",
+    "1219766245/body.bin": "ccd10bc80997b120b78a67fdb4ab5e8b4a97e98de5a4d14271e1adbde90d5c95",
+    "1219766245/transport.raw": "1faff2650e44598cf5d176f8fa5b6bc5de26fe5c203f0acb037e25ec9db6a9ba",
+    "1219766245/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1219766245/receipt.json": "787522f6c810f07e8053c66d8d614347af40cba406c4385619f278322271415a",
+    "1219766244/request.json": "1a4ab117dbd973cc7a1227fc577b129fb67f55b6c6d0bb04ffa35dda660a32c3",
+    "1219766244/reservation.json": "03afc2ee9a678f801ecce60bd4835511f5b41e8af8c0c7619411667d25a451bc",
+    "1219766244/command.json": "43da150f6571a8aeaf1dff3276e47d1085b489a4b5181ff9c591b777bb7d95d2",
+    "1219766244/headers.raw": "9d43f47dd885da78510c614cf1b7f2898071316b1659b4dc93aa28be0a58ecec",
+    "1219766244/body.bin": "03d9a313c1f6b42eeed531d354177c3233a0d4ddbf5db9ea19ea7cccdd47ea4e",
+    "1219766244/transport.raw": "eeeb28bcae4d40ec280a7a2870f7bdbaed8fdc97c582a5dc19ccf1d237a86f87",
+    "1219766244/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1219766244/receipt.json": "e9caeb7bfb880bcaef8972fead544d8e093542a6e80a516d97c75542ed3a2695"
+  },
+  "all_inputs_unchanged": true,
+  "all_outputs_unchanged": true
+}

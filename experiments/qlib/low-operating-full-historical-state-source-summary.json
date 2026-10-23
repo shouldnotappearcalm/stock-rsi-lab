@@ -1,0 +1,28 @@
+{
+  "status": "MANUAL_FULL_HISTORICAL_COMPONENT_PROJECTION_NOT_ACCOUNT_ADMISSION",
+  "request_sha256": "6f7180535fdf48857cb907e2a67bea3487ec334f6435764f2663dbab879e55d7",
+  "date_identity_rows_passed": 486,
+  "projected_rows": 486,
+  "matched_Sina_OHLC_cells": 1944,
+  "mismatches": [],
+  "errors": {},
+  "source_component_projection_complete": true,
+  "reuse_raw_response_count": 4,
+  "new_raw_response_count": 482,
+  "catalogue_rows": {
+    "1815_stock": 426,
+    "1815_stock_snapshot": 60
+  },
+  "printed_name_counts": {
+    "永太科技": 486
+  },
+  "preclose_previous_observed_close_changes": [],
+  "historical_name_inference_is_native_state_flag": false,
+  "positive_volume_is_minute_execution_certificate": false,
+  "distribution_completeness_verified": false,
+  "historical_arrival_verified": false,
+  "physical_account_admitted": false,
+  "portfolio_return_computed": false,
+  "2026_values_used_for_selection": false,
+  "objective_achieved": false
+}
