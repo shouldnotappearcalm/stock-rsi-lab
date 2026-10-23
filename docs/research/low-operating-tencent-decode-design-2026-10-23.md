@@ -57,9 +57,18 @@ arrival or account record is manufactured. Missing target sessions remain unknow
 Bind complete prior opaque-check input/capture closure, fixed proof SHA256
 a326865a8f0a02b092d06839d06565f31803f7f19b06c9875296cea696d4f701,
 all new methods/spec/plan/review, and a new request before first body-value decode.
-Shared frozen helpers from the prior f32 probe provide per-write expected hashes
-and final before/after input/output checks. Decode only authenticated buffers.
+The frozen per-write helper from the prior f32 probe supplies expected hashes;
+a new selective-run finalizer checks the terminal's intended bytes and the whole
+context before, during and after atomic publication, preserving rejected terminal
+bytes on failure. Keep the inherited helper/source bindings unchanged. Reconcile
+completed prefixes from durable matching files on interruption, and validate any
+durable marker/aggregate independently of overall success. Decode authenticated buffers only.
 One fresh whole-change reviewer before actual freeze; one tested fix pass, no
 rereview. Full suite/targeted tests, exact remote freeze and final threeCIjobs.
 Source-only output never satisfies the overall return goal. Raw bodies remain
 local; publish only bounded historical projections/receipts and verification.
+
+Two reviewed minor limits remain explicitly deferred: ignored string contents
+are not fully UTF-8 validated, and65empty nested containers pass the intended64
+container bound. Selected strings are decoded/validated and response size remains
+1MiB; no full malformed-JSON or exact-depth guarantee is claimed for those cases.

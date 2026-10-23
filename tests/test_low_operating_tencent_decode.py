@@ -74,6 +74,7 @@ class TencentDecodeTests(unittest.TestCase):
         later=row('2026-01-02');later[1]='FUTURE_POISON';completed=[]
         with self.assertRaises(ValueError):history.decode(body([row(),later]),'SH600118',DAYS,completed.append)
         self.assertEqual(checker.project(body([row(),later]),'SH600118',DAYS,prefix_rows=1),completed)
+        self.assertEqual(checker.project(b'malformed unopened body','SH600118',DAYS,prefix_rows=0),[])
     def test_large_literal_volume_is_scaled_without_decimal_context_rounding(self):
         r=row();r[5]='12345678901234567890123456789'
         result=history.decode(body([r]),'SH600118',DAYS)
@@ -81,3 +82,81 @@ class TencentDecodeTests(unittest.TestCase):
     def test_subcent_tail_cannot_disappear_under_default_decimal_precision(self):
         r=row();r[1:5]=['10.00000000000000000000000000001']*4
         with self.assertRaises(ValueError):history.decode(body([r]),'SH600118',DAYS)
+    def test_tiny_positive_prices_or_volume_cannot_underflow_into_legal_zero(self):
+        for field in ('prices','volume','amount'):
+            with self.subTest(field=field):
+                r=row()
+                if field=='prices':r[1:5]=['1e-1000100']*4
+                elif field=='volume':r[5]='1e-1000100'
+                else:r[8]='1e-1000100'
+                with self.assertRaises(ValueError):history.decode(body([r]),'SH600118',DAYS)
+    def test_target_marker_persistence_mutation_prevents_any_target_decoder_call(self):
+        for mode in ('input','output'):
+            with self.subTest(mode=mode),tempfile.TemporaryDirectory() as t:
+                base=Path(t);known={}
+                for code in ('SH600118','SZ002326'):
+                    p=base/source.OPAQUE/code/'body.bin';p.parent.mkdir(parents=True);p.write_bytes(body(code=code));known[str(p.resolve())]=source.sha(p)
+                real=source.persist;calls=[];real_decode=source.decode
+                def persist(out,name,value,outputs):
+                    real(out,name,value,outputs)
+                    if name=='target-started.json':
+                        p=base/source.OPAQUE/'SH600118/body.bin' if mode=='input' else out/'rows/SH600118'/f'{DAYS[0]}.json'
+                        p.write_bytes(b'changed')
+                def decode(b,code,*args,**kwargs):calls.append(code);return real_decode(b,code,*args,**kwargs)
+                with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)),patch.object(source,'persist',side_effect=persist),patch.object(source,'decode',side_effect=decode),self.assertRaises(ValueError):
+                    source.run(base,base,base/'unused','sha')
+                self.assertNotIn('SZ002326',calls)
+    def fixture(self,base):
+        known={}
+        for code in ('SH600118','SZ002326'):
+            p=base/source.OPAQUE/code/'body.bin';p.parent.mkdir(parents=True);p.write_bytes(body(code=code));known[str(p.resolve())]=source.sha(p)
+        return known
+    def test_mutation_during_target_buffer_loading_prevents_target_decoder(self):
+        for mode in ('input','output'):
+            with self.subTest(mode=mode),tempfile.TemporaryDirectory() as t:
+                base=Path(t);known=self.fixture(base);real=source.bound_body;real_decode=source.decode;calls=[]
+                def bound(p,h):
+                    data=real(p,h)
+                    if p.parent.name=='SZ002326':
+                        changed=base/source.OPAQUE/'SH600118/body.bin' if mode=='input' else base/source.OUTPUT/'rows/SH600118'/f'{DAYS[0]}.json'
+                        changed.write_bytes(b'changed')
+                    return data
+                def decode(b,code,*args,**kw):calls.append(code);return real_decode(b,code,*args,**kw)
+                with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)),patch.object(source,'bound_body',side_effect=bound),patch.object(source,'decode',side_effect=decode),self.assertRaises(ValueError):
+                    source.run(base,base,base/'unused','sha')
+                self.assertNotIn('SZ002326',calls)
+    def test_durable_native_failures_reconcile_and_audit_the_actual_prefix(self):
+        for mode in ('control_row','target_row','target_load','aggregate'):
+            with self.subTest(mode=mode),tempfile.TemporaryDirectory() as t:
+                base=Path(t);known=self.fixture(base);real=source.persist;bound=source.bound_body
+                def persist(out,name,value,outputs):
+                    real(out,name,value,outputs)
+                    fail=mode=='control_row' and name=='rows/SH600118/'+DAYS[0]+'.json' or mode=='target_row' and name=='rows/SZ002326/'+DAYS[0]+'.json' or mode=='aggregate' and name=='control-rows.json'
+                    if fail:raise KeyboardInterrupt('synthetic durable interruption')
+                def load(p,h):
+                    if mode=='target_load' and p.parent.name=='SZ002326':raise OSError('synthetic buffer failure')
+                    return bound(p,h)
+                with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)),patch.object(source,'persist',side_effect=persist),patch.object(source,'bound_body',side_effect=load),self.assertRaises(OSError if mode=='target_load' else KeyboardInterrupt):
+                    source.run(base,base,base/'unused','sha')
+                out=base/source.OUTPUT;terminal=source.read(out/'terminal.json')
+                if mode=='control_row':self.assertEqual(terminal['control_rows_completed'],1)
+                if mode=='target_row':self.assertEqual(terminal['target_rows_completed'],1)
+                called=[]
+                def body_loader(code):called.append(code);return (base/source.OPAQUE/code/'body.bin').read_bytes()
+                facts=checker.verify_projection_artifacts(out,DAYS,raw(),terminal,body_loader)
+                self.assertFalse(facts['complete'])
+                if mode in ('target_load','control_row'):self.assertNotIn('SZ002326',called)
+    def test_post_publication_input_row_or_terminal_mutation_never_returns_success(self):
+        from scripts import recover_low_operating_quotes_pre2026 as inherited
+        for mode in ('input','row','terminal'):
+            with self.subTest(mode=mode),tempfile.TemporaryDirectory() as t:
+                base=Path(t);known=self.fixture(base);real=inherited.os.replace;mutated=[]
+                def replace(a,b):
+                    real(a,b)
+                    if Path(b).name=='terminal.json' and not mutated:
+                        mutated.append(True)
+                        p=base/source.OPAQUE/'SH600118/body.bin' if mode=='input' else Path(b) if mode=='terminal' else base/source.OUTPUT/'rows/SH600118'/f'{DAYS[0]}.json'
+                        p.write_bytes(b'changed')
+                with patch.object(source,'authenticate',return_value=({},DAYS,raw(),known)),patch.object(inherited.os,'replace',side_effect=replace),self.assertRaises(ValueError):
+                    source.run(base,base,base/'unused','sha')
+                self.assertFalse(source.read(base/source.OUTPUT/'terminal.json')['complete'])

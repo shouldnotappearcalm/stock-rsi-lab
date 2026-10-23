@@ -1,6 +1,6 @@
 """Selected historical tokens only; current quote branches remain opaque bytes."""
 from datetime import date
-from decimal import Decimal,localcontext
+from decimal import Decimal,localcontext,Inexact,Underflow,DecimalException
 import json
 import re
 
@@ -80,9 +80,12 @@ def numeric(token,optional=False):
 
 
 def scale(number,multiplier):
-    with localcontext() as context:
-        context.prec=len(number.as_tuple().digits)+8
-        return number*multiplier
+    try:
+        with localcontext() as context:
+            context.prec=len(number.as_tuple().digits)+8
+            context.traps[Inexact]=True;context.traps[Underflow]=True
+            return number*multiplier
+    except DecimalException as exc:raise ValueError('exact scaling exceeds supported decimal exponent') from exc
 
 
 def canonical(number):

@@ -32,6 +32,7 @@ def canonical(n):
 
 
 def project(body,code,sessions,prefix_rows=None):
+    if prefix_rows==0:return []  # Do not continue a row that the producer never completed.
     slices=JsonSlices(body);need(slices.path(('code',))==b'0','separate source success');result=[]
     tokens=JsonSlices.items(slices.path(('data',code.lower(),'day')));previous=None
     def number(token,optional=False):
@@ -83,6 +84,52 @@ def control(rows,original):
         'price_volume_gate_passed':gate,'all_components_exactly_corroborated':gate and amount_checked==amount_match==trade,'account_admitted':False}
 
 
+def verify_projection_artifacts(out,sessions,original,terminal,body_loader,pre_target=None):
+    """Verify actual durable prefixes, markers and aggregates even on native failure."""
+    prefix={c:sorted((out/'rows'/c).glob('*.json')) for c in ('SH600118','SZ002326')}
+    report_exists=(out/'control-summary.json').exists();error='error_type' in terminal;names={'terminal.json'}
+    control_rows=project(body_loader('SH600118'),'SH600118',sessions,None if report_exists else len(prefix['SH600118']))
+    for p,w in zip(prefix['SH600118'],control_rows):
+        need(read(p)==w and p.stem==w['date'],'separate persisted control prefix');names.add('rows/SH600118/'+p.name)
+    need(len(prefix['SH600118'])==len(control_rows)==terminal['control_rows_completed'],'separate full control count')
+    gate=False;report=None
+    if report_exists:
+        report=control(control_rows,original);need(report==read(out/'control-summary.json'),'separate complete control comparison')
+        gate=report['price_volume_gate_passed'];names.add('control-summary.json')
+    need(terminal['control_price_volume_gate_passed']==gate,'separate exact gate')
+    marker=(out/'target-started.json').exists();invoked=terminal['target_decoder_invoked'];target_rows=[];target_body=None
+    if marker:
+        need(gate and read(out/'target-started.json')=={'only_after_control_price_volume_gate':True},'separate authorized target marker');names.add('target-started.json')
+    if invoked:
+        need(gate and marker,'separate target invocation after control gate')
+        if pre_target:pre_target()
+        target_body=body_loader('SZ002326');target_rows=project(target_body,'SZ002326',sessions,len(prefix['SZ002326']) if error else None)
+        for p,w in zip(prefix['SZ002326'],target_rows):
+            need(read(p)==w and p.stem==w['date'],'separate target prefix');names.add('rows/SZ002326/'+p.name)
+    need(len(prefix['SZ002326'])==len(target_rows)==terminal['target_rows_completed'],'separate target count')
+    if (out/'control-rows.json').exists():
+        need(report_exists and read(out/'control-rows.json')==control_rows,'separate durable control aggregate');names.add('control-rows.json')
+    if (out/'target-rows.json').exists():
+        need(invoked and read(out/'target-rows.json')==target_rows and len(target_rows)==len(JsonSlices.items(JsonSlices(target_body).path(('data','sz002326','day')))),
+            'separate durable full target aggregate');names.add('target-rows.json')
+    if not error:
+        need(report_exists and invoked==gate and 'control-rows.json' in names and (not invoked or 'target-rows.json' in names),'separate all successful method stages')
+        missing=[d for d in sessions if d not in {v['date'] for v in target_rows}];complete=gate and not missing
+        need(terminal['target_missing_sessions']==missing and terminal['complete']==complete
+            and terminal['status']=='SELECTIVE_COMPONENT_PROJECTION_FINISHED_NOT_ACCOUNT_ADMITTED','separate completed component outcome')
+    else:
+        complete=False;need(terminal['complete'] is False and terminal['status']=='SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED'
+            and type(terminal['error_type']) is str and type(terminal['error']) is str,'separate retained native failure')
+        stage=terminal['failed_stage'];need(stage in ('CONTROL','TARGET','TERMINAL'),'separate failure stage')
+        need(terminal['failed_row_index']==(None if stage=='TERMINAL' else terminal['control_rows_completed' if stage=='CONTROL' else 'target_rows_completed']),
+            'separate reconciled completed prefix/failure position')
+        archives=terminal.get('rejected_terminal_sha256',{})
+        for name,h in archives.items():
+            need(stage=='TERMINAL' and name in ('terminal-rejected-published.json','terminal-rejected-staged.json') and sha(out/name)==h,'separate rejected terminal retained')
+            names.add(name)
+    return {'control':report,'control_rows':control_rows,'target_rows':target_rows,'complete':complete,'error':error,'names':names}
+
+
 def audit(base,root,out,request,expected):
     need(sha(request)==expected,'separate frozen decode request');r=read(request)
     need(r['status']=='FROZEN_SELECTIVE_PRE2026_TENCENT_COMPONENT_DECODE' and r['candidate']=='low_operating_profitability_followup_v1'
@@ -104,34 +151,12 @@ def audit(base,root,out,request,expected):
     sessions=json.loads(bound('source/'+RAW+'/calendar.json'))['sessions'];need(len(sessions)==486 and sessions==sorted(set(sessions))
         and [sessions[0],sessions[-1]]==[START,END],'separate exact sessions')
     original=json.loads(bound('source/'+RAW+'/codes/SH600118.json'))['bars'];need([v['date'] for v in original]==sessions,'separate original control calendar')
-    prefix={c:sorted((out/'rows'/c).glob('*.json')) for c in ('SH600118','SZ002326')};report_exists=(out/'control-summary.json').exists();error='error_type' in terminal
-    control_rows=project(bound('source/'+OPAQUE+'/SH600118/body.bin'),'SH600118',sessions,None if report_exists else len(prefix['SH600118']))
-    names={'terminal.json'}
-    for p,w in zip(prefix['SH600118'],control_rows):need(read(p)==w and p.stem==w['date'],'separate persisted control prefix');names.add('rows/SH600118/'+p.name)
-    need(len(prefix['SH600118'])==len(control_rows)==terminal['control_rows_completed'],'separate full control count')
-    gate=False;report=None
-    if report_exists:
-        report=control(control_rows,original);need(report==read(out/'control-summary.json'),'separate complete control comparison');gate=report['price_volume_gate_passed'];names.add('control-summary.json')
-    need(terminal['control_price_volume_gate_passed']==gate,'separate exact gate')
-    target_rows=[]
-    if terminal['target_decoder_invoked']:
-        need(gate and read(out/'target-started.json')=={'only_after_control_price_volume_gate':True},'separate no target before control gate');names.add('target-started.json')
+    def pre_target():
         for k,p in paths.items():need(sha(p)==want[k],'separate full context at target boundary '+k)
         need(tree(out)==before,'separate control evidence at target boundary')
-        target_rows=project(bound('source/'+OPAQUE+'/SZ002326/body.bin'),'SZ002326',sessions,len(prefix['SZ002326']) if error else None)
-        for p,w in zip(prefix['SZ002326'],target_rows):need(read(p)==w and p.stem==w['date'],'separate target prefix');names.add('rows/SZ002326/'+p.name)
-    need(len(prefix['SZ002326'])==len(target_rows)==terminal['target_rows_completed'],'separate target count')
-    if not error:
-        need(report_exists and read(out/'control-rows.json')==control_rows,'separate complete control projection');names.add('control-rows.json')
-        if terminal['target_decoder_invoked']:need(read(out/'target-rows.json')==target_rows,'separate complete target projection');names.add('target-rows.json')
-        missing=[d for d in sessions if d not in {v['date'] for v in target_rows}];complete=gate and not missing
-        need(terminal['target_missing_sessions']==missing and terminal['complete']==complete
-            and terminal['status']=='SELECTIVE_COMPONENT_PROJECTION_FINISHED_NOT_ACCOUNT_ADMITTED','separate completed component outcome')
-    else:
-        complete=False;need(terminal['complete'] is False and terminal['status']=='SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED'
-            and terminal['failed_stage'] in ('CONTROL','TARGET') and terminal['failed_row_index']==terminal['control_rows_completed' if terminal['failed_stage']=='CONTROL' else 'target_rows_completed'],
-            'separate retained failure/read prefix; unfinished row not continued')
-    need(set(before)==names,'separate exact artifact closure')
+    facts=verify_projection_artifacts(out,sessions,original,terminal,lambda c:bound('source/'+OPAQUE+'/'+c+'/body.bin'),pre_target)
+    control_rows=facts['control_rows'];target_rows=facts['target_rows'];report=facts['control'];error=facts['error'];complete=facts['complete']
+    need(set(before)==facts['names'],'separate exact artifact closure')
     for k in ('physical_account_admitted','historical_arrival_verified','corporate_action_completeness_verified','tax_treatment_admitted','portfolio_return_computed','2026_project_values_decoded','objective_achieved'):
         need(terminal[k] is False,'component projection cannot admit source/account/goal')
     for k,p in paths.items():need(sha(p)==want[k],'separate input after '+k)

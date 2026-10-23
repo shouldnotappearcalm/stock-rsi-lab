@@ -2,10 +2,11 @@
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 from stock_rsi.tencent_history import decode,compare
-from scripts.recover_low_operating_quotes_pre2026 import persist,finish,changed,tree,sha
-from scripts.immutable_http_capture import need
+from scripts.recover_low_operating_quotes_pre2026 import persist,changed,tree,sha
+from scripts.immutable_http_capture import need,write_once
 
 START,END='2023-12-29','2025-12-31'
 CANDIDATE='low_operating_profitability_followup_v1'
@@ -70,6 +71,35 @@ def authenticate(base,root,request,expected):
     return r,sessions,original,{**{str(p.resolve()):r['input_sha256'][k] for k,p in paths.items()},str(request.resolve()):expected}
 
 
+def finish_source(out,state,known,outputs):
+    """Verify intended terminal bytes and all evidence after its atomic publication."""
+    expected=dict(outputs)
+    terminal={**state,'capture_sha256':expected,'all_inputs_unchanged':not changed(known),'all_outputs_unchanged':tree(out)==expected}
+    try:
+        need(terminal['all_inputs_unchanged'] and terminal['all_outputs_unchanged'],'source context before terminal persistence')
+        encoded=(json.dumps(terminal,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode();terminal_sha=hashlib.sha256(encoded).hexdigest()
+        pending=out/'.terminal-pending.json';write_once(pending,terminal)
+        need(not changed(known) and tree(out)=={**expected,'.terminal-pending.json':terminal_sha},'source context during terminal persistence')
+        os.replace(pending,out/'terminal.json')
+        need(not changed(known) and tree(out)=={**expected,'terminal.json':terminal_sha},'source context after terminal publication')
+        return terminal
+    except BaseException as primary:
+        archives={}
+        try:
+            for source,name in ((out/'terminal.json','terminal-rejected-published.json'),(out/'.terminal-pending.json','terminal-rejected-staged.json')):
+                if source.exists():
+                    os.replace(source,out/name);archives[name]=sha(out/name)
+            current=tree(out);data={k:h for k,h in current.items() if k not in archives}
+            failure={**state,'status':'SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED','complete':False,
+                'capture_sha256':{**expected,**archives},'rejected_terminal_sha256':archives,
+                'all_inputs_unchanged':not changed(known),'all_outputs_unchanged':data==expected,
+                'error_type':type(primary).__name__,'error':str(primary),'failed_stage':'TERMINAL','failed_row_index':None}
+            if 'error_type' in state:failure['prior_failure']={k:state[k] for k in ('error_type','error','failed_stage','failed_row_index')}
+            write_once(out/'.terminal-failure-pending.json',failure);os.replace(out/'.terminal-failure-pending.json',out/'terminal.json')
+        except BaseException as secondary:primary.add_note('failure receipt persistence error: '+type(secondary).__name__)
+        raise primary
+
+
 def run(base,root,request,expected):
     r,sessions,original,known=authenticate(base,root,request,expected);out=base/OUTPUT;need(not out.exists(),'fresh selective output');out.mkdir();outputs={};primary=None;stage='CONTROL'
     terminal={'status':'SELECTIVE_HISTORY_INCOMPLETE','candidate':CANDIDATE,'request_sha256':expected,'complete':False,
@@ -80,14 +110,16 @@ def run(base,root,request,expected):
     def row_done(code,row):
         save('rows/'+code+'/'+row['date']+'.json',row);terminal['control_rows_completed' if code=='SH600118' else 'target_rows_completed']+=1
     def summary(report):save('control-summary.json',report);terminal['control_price_volume_gate_passed']=report['price_volume_gate_passed']
+    def require_current():need(not changed(known) and tree(out)==outputs,'complete context/control evidence before target decode')
     def boundary():
-        need(not changed(known) and tree(out)==outputs,'complete context/control evidence before target decode')
+        require_current()
         save('target-started.json',{'only_after_control_price_volume_gate':True})
+        require_current()
     def load(code):
         path=base/OPAQUE/code/'body.bin';return bound_body(path,known[str(path.resolve())])
     def target():
         nonlocal stage
-        stage='TARGET';body=load('SZ002326');terminal['target_decoder_invoked']=True;return body
+        stage='TARGET';body=load('SZ002326');require_current();terminal['target_decoder_invoked']=True;return body
     try:
         data=evaluate(load('SH600118'),target,sessions,original,row_done,summary,boundary)
         save('control-rows.json',data['control_rows'])
@@ -96,9 +128,14 @@ def run(base,root,request,expected):
             complete=terminal['control_price_volume_gate_passed'] and len(target_days)==len(sessions),
             status='SELECTIVE_COMPONENT_PROJECTION_FINISHED_NOT_ACCOUNT_ADMITTED')
     except BaseException as exc:
+        for code,key in (('SH600118','control_rows_completed'),('SZ002326','target_rows_completed')):
+            terminal[key]=sum(name.startswith('rows/'+code+'/') and (out/name).is_file() and sha(out/name)==h for name,h in outputs.items())
+        report=out/'control-summary.json'
+        if 'control-summary.json' in outputs and report.is_file() and sha(report)==outputs['control-summary.json']:
+            terminal['control_price_volume_gate_passed']=read(report)['price_volume_gate_passed']
         primary=exc;terminal.update(status='SELECTIVE_DECODE_FAILURE_PREFIX_RETAINED',error_type=type(exc).__name__,error=str(exc),
             failed_stage=stage,failed_row_index=terminal['control_rows_completed' if stage=='CONTROL' else 'target_rows_completed'])
-    try:result=finish(out,terminal,known,outputs)
+    try:result=finish_source(out,terminal,known,outputs)
     except BaseException as exc:
         if primary is None:primary=exc
         else:primary.add_note('terminal error: '+type(exc).__name__)

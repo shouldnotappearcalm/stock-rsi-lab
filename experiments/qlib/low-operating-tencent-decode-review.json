@@ -1,0 +1,97 @@
+{
+  "status": "ONE_FRESH_REVIEW_FIVE_IMPORTANT_FIXED_BEFORE_ACTUAL_DECODE",
+  "base": "482a46131f1949bee4040c7904210b531f5fc4ae",
+  "reviewed_head": "fde3d19b03cedd9f71cc6314ada729e279cd93c9",
+  "reviewer": "low_operating_tencent_decode_review",
+  "read_only": true,
+  "real_source_values_inspected_by_reviewer": false,
+  "correction_passes": 1,
+  "rereview_performed": false,
+  "reviewer_committed_tests_passed": 11,
+  "root_corrected_targeted_tests_passed": 16,
+  "critical": [],
+  "important_fixed": [
+    {
+      "finding": "Input/control evidence changes during marker persistence or target loading could unlock target decoder",
+      "tests": [
+        "test_target_marker_persistence_mutation_prevents_any_target_decoder_call",
+        "test_mutation_during_target_buffer_loading_prevents_target_decoder"
+      ]
+    },
+    {
+      "finding": "Decimal scaling underflow could turn positive source values into zero",
+      "tests": [
+        "test_tiny_positive_prices_or_volume_cannot_underflow_into_legal_zero"
+      ]
+    },
+    {
+      "finding": "Native interruption after durable row write contradicted prefix counters",
+      "tests": [
+        "test_durable_native_failures_reconcile_and_audit_the_actual_prefix"
+      ]
+    },
+    {
+      "finding": "Checker rejected durable markers/aggregates on legitimate native failure",
+      "tests": [
+        "test_durable_native_failures_reconcile_and_audit_the_actual_prefix",
+        "test_separate_projector_agrees_and_failure_prefix_never_continues"
+      ]
+    },
+    {
+      "finding": "Terminal publication lacked intended-byte and context check after rename",
+      "tests": [
+        "test_post_publication_input_row_or_terminal_mutation_never_returns_success"
+      ]
+    }
+  ],
+  "minor_deferred": [
+    {
+      "finding": "Ignored string UTF-8 bytes are not fully validated",
+      "effect": "Selected scalar strings still validated; malformed ignored content can pass structural scan"
+    },
+    {
+      "finding": "65empty nested containers pass intended64container cap",
+      "effect": "One extra empty nesting level;1MiB total input cap still enforced"
+    }
+  ],
+  "declined_to_judge_and_root_rulings": [
+    {
+      "scope": "Actual quote contents/coverage/control agreement/units",
+      "ruling": "Root runs only after public method freeze; any source failure remains incomplete",
+      "cost": "No target recovery or source admission on failed evidence"
+    },
+    {
+      "scope": "Provider identity and historical capture provenance beyond binding",
+      "ruling": "Cross-provider component corroboration remains conditional; no historical arrival or full provenance claim",
+      "cost": "Historical revisions/arrival remain unresolved"
+    },
+    {
+      "scope": "Future freeze/remote/public receipts/CI",
+      "ruling": "Root verifies exact head, complete hashes and final three jobs",
+      "cost": "Pending/failed/unverified publication cannot count as success"
+    },
+    {
+      "scope": "Full reported test suite",
+      "ruling": "Root reruns full suite; reviewer independently ran only11committedtests",
+      "cost": "Fresh review did not independently rerun the whole suite"
+    },
+    {
+      "scope": "Accounts/actions/tax/arrival/returns/2026goal",
+      "ruling": "Keep all full admission/goal flags false; separately frozen account work remains required",
+      "cost": "Valid quote components alone produce no qualifying return result"
+    },
+    {
+      "scope": "Power loss/SIGKILL/exhaustive hostile filesystem mutation",
+      "ruling": "No destructive tests or OS locking guarantee; deterministic catchable windows are tested",
+      "cost": "Cannot promise durability after uncatchable termination or arbitrary later mutation"
+    },
+    {
+      "scope": "Unrelated inherited workflows/helpers",
+      "ruling": "Keep frozen dependencies unchanged and test only exercised paths; new terminal finalizer handles publication checks",
+      "cost": "Unrelated legacy behaviors are not audited or retroactively repaired"
+    }
+  ],
+  "shared_selector_boundary_in_checker": true,
+  "full_source_or_account_admitted": false,
+  "objective_achieved": false
+}
