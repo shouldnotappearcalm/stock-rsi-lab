@@ -1,0 +1,18 @@
+{
+  "raw_rows_counted": 486,
+  "trading_rows_checked": 486,
+  "nontrading_rows_excluded": 0,
+  "returned_rows": 486,
+  "missing_trading_dates": [],
+  "price_cells_checked": 1944,
+  "matched_price_cells": 1944,
+  "volume_rows_matched": 486,
+  "mismatches": [],
+  "amount_rows_compared": 0,
+  "amount_exact_matches": 0,
+  "amount_missing_rows": 486,
+  "amount_mismatches": [],
+  "price_volume_gate_passed": true,
+  "all_components_exactly_corroborated": false,
+  "account_admitted": false
+}
