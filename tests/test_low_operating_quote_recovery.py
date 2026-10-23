@@ -72,5 +72,67 @@ class QuoteRecoveryTests(unittest.TestCase):
                     real(p,v)
                     if p.name=='.terminal-pending.json':(original if mode=='input' else out/'facts.json').write_text('changed')
                 with patch.object(source,'write_once',side_effect=write),self.assertRaises(ValueError):
-                    source.finish(out,{'complete':True},{str(original):source.sha(original)})
+                    source.finish(out,{'complete':True},{str(original):source.sha(original)},source.tree(out))
                 self.assertFalse(source.read(out/'terminal.json')['complete'])
+
+    def fixture(self,root):
+        provider=root/source.PROVIDER;(provider/'calendars').mkdir(parents=True)
+        calendar=provider/'calendars/day.txt';calendar.write_text('\n'.join(DAYS)+'\n')
+        for code in ('SH600118','SZ002326'):
+            folder=provider/'features'/code.lower();folder.mkdir(parents=True)
+            for field in source.FIELDS:
+                value=getter(code,field,DAYS[0]);(folder/(field+'.day.bin')).write_bytes(struct.pack('<3f',0,value,value))
+        known={str(p.resolve()):source.sha(p) for p in provider.rglob('*') if p.is_file()}
+        return calendar,known
+
+    def test_changed_context_after_controls_prevents_target_marker_and_reads(self):
+        from unittest.mock import patch
+        with tempfile.TemporaryDirectory() as t:
+            base=Path(t);calendar,known=self.fixture(base);real=source.write_once
+            def write(p,v):
+                real(p,v)
+                if p.name=='control-summary.json':calendar.write_text('changed after controls')
+            with patch.object(source,'authenticate',return_value=({},packets(),DAYS,known)),patch.object(source,'write_once',side_effect=write),self.assertRaises(ValueError):
+                source.run(base,base,base/'unused','sha')
+            out=base/source.OUTPUT
+            self.assertFalse((out/'target-projection-started.json').exists());self.assertFalse((out/'projection.json').exists())
+
+    def test_actual_feature_buffer_is_authenticated_before_decode(self):
+        with tempfile.TemporaryDirectory() as t:
+            p=Path(t)/'x.bin';p.write_bytes(struct.pack('<2f',0,1));h=source.sha(p)
+            p.write_bytes(struct.pack('<2f',0,2))
+            with self.assertRaises(ValueError):source.Feature(p,1,h)
+            with self.assertRaises(ValueError):audit.BitFeature(p,1,h)
+
+    def test_earlier_control_artifact_mutation_is_not_adopted_at_finish(self):
+        from unittest.mock import patch
+        with tempfile.TemporaryDirectory() as t:
+            base=Path(t);_,known=self.fixture(base);real=source.write_once
+            def write(p,v):
+                real(p,v)
+                if p.name=='control-summary.json':(p.parent/'controls/SH600118.json').write_text('changed earlier evidence')
+            with patch.object(source,'authenticate',return_value=({},packets(),DAYS,known)),patch.object(source,'write_once',side_effect=write),self.assertRaises(ValueError):
+                source.run(base,base,base/'unused','sha')
+            terminal=source.read(base/source.OUTPUT/'terminal.json')
+            self.assertFalse(terminal['complete']);self.assertFalse(terminal['all_outputs_unchanged'])
+
+    def test_target_failure_preserves_gate_completed_prefix_and_read_state(self):
+        from unittest.mock import patch
+        with tempfile.TemporaryDirectory() as t:
+            base=Path(t);_,known=self.fixture(base);real=source.Feature.value
+            def value(feature,index):
+                # First target session is persisted before opening the next one.
+                if (base/source.OUTPUT/'projection-rows'/f'{DAYS[0]}.json').exists() and index==1:raise OSError('synthetic target failure')
+                return real(feature,index)
+            with patch.object(source,'authenticate',return_value=({},packets(),DAYS,known)),patch.object(source.Feature,'value',value),self.assertRaises(OSError):
+                source.run(base,base,base/'unused','sha')
+            out=base/source.OUTPUT;self.assertTrue((out/'control-summary.json').exists())
+            self.assertTrue((out/'projection-rows'/f'{DAYS[0]}.json').exists())
+            terminal=source.read(out/'terminal.json');self.assertTrue(terminal['target_read_started'])
+            self.assertEqual(terminal['completed_projection_rows'],1);self.assertEqual(terminal['last_target_session'],DAYS[1])
+            self.assertEqual(terminal['error_type'],'OSError');self.assertFalse(terminal['complete'])
+            calls=[]
+            def bits(code,field,day):
+                calls.append(day);return struct.unpack('<I',struct.pack('<f',getter(code,field,day)))[0]
+            facts=audit.projection_evidence(out,DAYS,bits,source.read(out/'control-summary.json'),terminal)
+            self.assertFalse(facts['complete']);self.assertEqual(len(facts['projection']),1);self.assertNotIn(DAYS[1],calls)

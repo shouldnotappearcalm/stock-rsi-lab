@@ -40,6 +40,8 @@ must match original operating request7fedda231ca66593d9b1bfcf1c05f11f670fcc9ca18
 Also bind the complete preceding HTTP request/proof/capture context. Binary
 extent and header must fit the capped calendar before decoding requested cells.
 No2026feature float is decoded; hash bytes only for identity when authenticating.
+Authenticate the actual calendar/feature byte buffers used for decoding and
+recheck the complete frozen context immediately before the target boundary.
 
 Controls are every original42packet/all20089source rows. Compare all four OHLC
 for every explicitly trading raw row, including ST rows. Nontrading rows remain
@@ -69,6 +71,11 @@ or bounds imports). Checker independently derives binary fractions from bit
 sign/exponent/mantissa, every original/provider/method binding, all42control
 results, unit hypotheses and permitted target projection. Hash inputs/output
 tree through terminal persistence. Failures and partial outcomes remain immutable.
+Bind intended artifact hashes at each write, rather than adopting a later tree.
+Persist the complete control summary before target access; reserve each target
+session before reading and persist each completed row separately. A failed read
+retains its completed prefix, native error and explicit last session. The checker
+reconstructs only that prefix and never continues the failed target projection.
 One fresh code reviewer before actual request/run; one RED/GREEN correction pass,
 full tests, no rereview. Push/verify remote freeze before first actual comparison.
 Publish exact control/projection/check outcomes and all limitations. Only later

@@ -2,6 +2,7 @@
 import argparse
 from datetime import date
 from fractions import Fraction
+import hashlib
 import json
 from pathlib import Path
 import struct
@@ -70,8 +71,10 @@ def volume_from_bits(volume,factor,scale):
 
 
 class BitFeature:
-    def __init__(self,path,length):
-        self.raw=Path(path).read_bytes();need(len(self.raw)>=8 and len(self.raw)%4==0,'separate valid binary extent')
+    def __init__(self,path,length,expected_sha256=None):
+        self.raw=Path(path).read_bytes()
+        if expected_sha256 is not None:need(hashlib.sha256(self.raw).hexdigest()==expected_sha256,'separate authenticated exact bit buffer')
+        need(len(self.raw)>=8 and len(self.raw)%4==0,'separate valid binary extent')
         header=rational(struct.unpack_from('<I',self.raw)[0])
         need(header.denominator==1 and 0<=header<length,'separate bounded integer header');self.start=int(header)
         self.count=len(self.raw)//4-1;need(self.start+self.count<=length,'separate capped feature extent')
@@ -130,6 +133,38 @@ def rebuild_projection(sessions,get,scale):
     return rows
 
 
+def projection_evidence(out,sessions,get,report,terminal):
+    """Validate completed rows only; never continue a failed target read."""
+    gate=report['price_gate_passed'];projection=[];names=set()
+    if gate:
+        need(read(out/'target-projection-started.json')=={'only_after_complete_price_gate':True},'separate target gate marker')
+        names.add('target-projection-started.json')
+        rows=sorted((out/'projection-rows').glob('*.json'));started=sorted((out/'projection-progress').glob('*.json'))
+        days=[p.stem for p in rows];attempts=[p.stem for p in started]
+        need(days==sessions[:len(days)] and attempts==sessions[:len(attempts)] and len(days)<=len(attempts)<=len(days)+1,'separate exact completed/started prefixes')
+        need(terminal['target_read_started']==bool(attempts) and terminal['target_quote_values_decoded']==bool(attempts)
+            and terminal['completed_projection_rows']==len(rows) and terminal['last_target_session']==(attempts[-1] if attempts else None),'separate target read progress')
+        for path in started:
+            need(read(path)=={'date':path.stem,'stage':'TARGET_READ_STARTED'},'separate one reserved session read')
+            names.add('projection-progress/'+path.name)
+        projection=rebuild_projection(days,get,report['identified_volume_scale'])
+        for path,want in zip(rows,projection):
+            need(read(path)==want,'separate persisted projection prefix');names.add('projection-rows/'+path.name)
+        if (out/'projection.json').exists():
+            need(len(days)==len(sessions) and read(out/'projection.json')==projection,'separate full aggregate projection')
+            names.add('projection.json')
+        if 'error_type' in terminal:
+            need(terminal['status']=='LOCAL_SOURCE_RECOVERY_FAILURE_RETAINED' and type(terminal['error_type']) is str
+                and type(terminal['error']) is str,'separate retained native target failure')
+        else:need(len(days)==len(sessions) and 'projection.json' in names,'separate all target sessions finished')
+    else:
+        need(terminal['target_read_started'] is False and terminal['target_quote_values_decoded'] is False
+            and terminal['completed_projection_rows']==0 and terminal['last_target_session'] is None,'separate forbidden target read state')
+    complete=gate and len(projection)==len(sessions) and 'error_type' not in terminal and all(v['volume_lower_shares'] is not None
+        and all(p['status']=='UNIQUE_POSITIVE_CENT' for p in v['prices'].values()) for v in projection)
+    return {'projection':projection,'complete':complete,'names':names}
+
+
 def audit(base,root,out,request,expected):
     need(sha(request)==expected,'separate frozen exact request');r=read(request)
     need(r['status']=='FROZEN_LOW_OPERATING_EXACT_F32_SOURCE_HYPOTHESIS' and r['candidate']=='low_operating_profitability_followup_v1'
@@ -154,7 +189,9 @@ def audit(base,root,out,request,expected):
     before=tree(out);terminal=read(out/'terminal.json');need(not any(n.startswith('.') for n in before),'no incomplete staging')
     need(terminal['request_sha256']==expected and terminal['candidate']==r['candidate'] and terminal['all_inputs_unchanged'] is True
         and terminal['all_outputs_unchanged'] is True and terminal['capture_sha256']=={k:h for k,h in before.items() if k!='terminal.json'},'separate terminal snapshot')
-    calendar=(base/PROVIDER/'calendars/day.txt').read_text().splitlines()
+    cp=base/PROVIDER/'calendars/day.txt';calendar_bytes=cp.read_bytes()
+    need(hashlib.sha256(calendar_bytes).hexdigest()==want['source/'+PROVIDER+'/calendars/day.txt'],'separate exact calendar buffer')
+    calendar=calendar_bytes.decode().splitlines()
     need(calendar==sorted(set(calendar)) and calendar[-1]==END and all(date.fromisoformat(d).isoformat()==d for d in calendar),'separate physically capped calendar')
     sessions=[d for d in calendar if START<=d<=END];need(len(sessions)==486 and sessions==read(base/RAW/'calendar.json')['sessions'],'separate486sessions')
     packets={c:read(base/RAW/'codes'/(c+'.json')) for c in sorted(manifest['per_code_sha256'])}
@@ -163,31 +200,33 @@ def audit(base,root,out,request,expected):
     def get(code,field,at):
         need(at in sessions and field in FIELDS and code in set(packets)|{'SZ002326'},'separate only registered cells')
         key=(code,field)
-        if key not in cache:cache[key]=BitFeature(base/PROVIDER/'features'/code.lower()/(field+'.day.bin'),len(calendar))
+        if key not in cache:
+            name='features/'+code.lower()+'/'+field+'.day.bin'
+            cache[key]=BitFeature(base/PROVIDER/name,len(calendar),want['source/'+PROVIDER+'/'+name])
         return cache[key].at(indices[at])
     report=rebuild_controls(packets,sessions,get);need(report==read(out/'control-summary.json'),'separate all controls/counters/units')
     for code,v in report['by_code'].items():need(read(out/'controls'/(code+'.json'))==v,'separate per-issuer result')
     need(report['raw_rows_counted']==20089 and report['control_codes']==42,'all original controls counted')
-    projection=[];gate=report['price_gate_passed'];names={'terminal.json','control-summary.json'}|{'controls/'+c+'.json' for c in packets}
+    gate=report['price_gate_passed'];names={'terminal.json','control-summary.json'}|{'controls/'+c+'.json' for c in packets}
+    # Recheck the entire frozen context immediately before any target getter.
     if gate:
-        need(read(out/'target-projection-started.json')=={'only_after_complete_price_gate':True},'separate target gate marker')
-        projection=rebuild_projection(sessions,get,report['identified_volume_scale']);need(projection==read(out/'projection.json'),'separate exact target reconstruction')
-        names|={'target-projection-started.json','projection.json'}
+        for k,p in paths.items():need(sha(p)==want[k],'separate full context at target boundary '+k)
+        need(tree(out)==before,'separate control evidence at target boundary')
+    facts=projection_evidence(out,sessions,get,report,terminal);projection=facts['projection'];complete=facts['complete'];names|=facts['names']
     need(set(before)==names,'separate exact output closure and no forbidden target artifact')
-    complete=gate and len(projection)==len(sessions) and all(v['volume_lower_shares'] is not None and all(p['status']=='UNIQUE_POSITIVE_CENT' for p in v['prices'].values()) for v in projection)
-    status='CONDITIONAL_F32_SOURCE_PROJECTION_COMPLETE_NOT_ACCOUNT_ADMITTED' if complete else 'F32_SOURCE_HYPOTHESIS_NOT_FULLY_VERIFIED'
+    status='LOCAL_SOURCE_RECOVERY_FAILURE_RETAINED' if 'error_type' in terminal else 'CONDITIONAL_F32_SOURCE_PROJECTION_COMPLETE_NOT_ACCOUNT_ADMITTED' if complete else 'F32_SOURCE_HYPOTHESIS_NOT_FULLY_VERIFIED'
     need(terminal['complete']==complete and terminal['source_projection_complete']==complete and terminal['status']==status
-        and terminal['control_price_gate_passed']==gate and terminal['target_quote_values_decoded']==gate,'separate source outcomes')
+        and terminal['control_price_gate_passed']==gate,'separate source outcomes')
     for key in ('historical_arrival_verified','physical_account_admitted','tax_treatment_admitted','corporate_action_completeness_verified','portfolio_return_computed','2026_values_read','objective_achieved'):
         need(terminal[key] is False,'conditional sources cannot admit accounts or goal')
     for k,p in paths.items():need(sha(p)==want[k],'separate input after '+k)
     need(tree(out)==before,'separate unchanged source outputs')
-    return {'status':'PASS_INDEPENDENT_BIT_SOURCE_RECONSTRUCTION_NOT_ACCOUNT_ADMISSION','request_sha256':expected,
+    return {'status':'PASS_RETAINED_F32_SOURCE_FAILURE_PREFIX_NOT_ACCOUNT_ADMISSION' if 'error_type' in terminal else 'PASS_INDEPENDENT_BIT_SOURCE_RECONSTRUCTION_NOT_ACCOUNT_ADMISSION','request_sha256':expected,
         'all_input_sha256':want,'all_capture_sha256':before,'all_inputs_outputs_unchanged':True,'no_new_producer_or_bounds_imports':True,
         'control_codes':report['control_codes'],'raw_rows_counted':report['raw_rows_counted'],'trading_rows_checked':report['trading_rows_checked'],
         'price_cells_checked':report['price_cells_checked'],'matched_price_cells':report['matched_price_cells'],'control_price_gate_passed':gate,
         'identified_volume_scale':report['identified_volume_scale'],'volume_scale_mismatch_rows':report['volume_scale_mismatch_rows'],
-        'target_quote_values_decoded':gate,'target_projection_rows':len(projection),'source_projection_complete':complete,
+        'target_quote_values_decoded':terminal['target_quote_values_decoded'],'target_projection_rows':len(projection),'source_projection_complete':complete,
         'physical_account_admitted':False,'portfolio_return_computed':False,'2026_values_read':False,'objective_achieved':False}
 
 

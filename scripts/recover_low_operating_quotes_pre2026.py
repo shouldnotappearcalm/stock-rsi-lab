@@ -2,6 +2,7 @@
 import argparse
 from datetime import date
 from fractions import Fraction
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -44,8 +45,10 @@ def changed(paths):
 
 
 class Feature:
-    def __init__(self,path,calendar_length):
-        self.raw=Path(path).read_bytes();need(len(self.raw)>=8 and len(self.raw)%4==0,'valid f32 file size')
+    def __init__(self,path,calendar_length,expected_sha256=None):
+        self.raw=Path(path).read_bytes()
+        if expected_sha256 is not None:need(hashlib.sha256(self.raw).hexdigest()==expected_sha256,'authenticated exact feature buffer')
+        need(len(self.raw)>=8 and len(self.raw)%4==0,'valid f32 file size')
         start=struct.unpack_from('<f',self.raw)[0]
         need(start==int(start) and 0<=start<calendar_length,'integer bounded f32 header');self.start=int(start)
         self.count=len(self.raw)//4-1;need(self.start+self.count<=calendar_length,'feature extends beyond capped calendar')
@@ -93,9 +96,10 @@ def controls(packets,sessions,get,on_control=None):
         'volume_scale_candidates':candidates,'identified_volume_scale':candidates[0] if len(candidates)==1 else None,'by_code':reports}
 
 
-def project(sessions,get,scale):
+def project(sessions,get,scale,on_row=None,on_read=None):
     result=[]
     for day in sessions:
+        if on_read:on_read(day)
         factor=get('SZ002326','factor',day);prices={}
         for field in ('open','high','low','close'):
             try:prices[field]=cent_price(get('SZ002326',field,day),factor)
@@ -107,15 +111,17 @@ def project(sessions,get,scale):
                 lo,hi=volume_interval(get('SZ002326','volume',day),factor,scale)
                 row.update(volume_lower_shares=floor(lo),volume_upper_shares=-((-hi.numerator)//hi.denominator))
             except (ValueError,TypeError) as exc:row['volume_error']=str(exc)
+        if on_row:on_row(row)
         result.append(row)
     return result
 
 
-def recover(packets,sessions,get,on_control=None,before_target=None):
+def recover(packets,sessions,get,on_control=None,before_target=None,on_summary=None,on_row=None,on_read=None):
     report=controls(packets,sessions,get,on_control);projection=[];decoded=report['price_gate_passed']
+    if on_summary:on_summary(report)
     if decoded:
         if before_target:before_target()
-        projection=project(sessions,get,report['identified_volume_scale'])
+        projection=project(sessions,get,report['identified_volume_scale'],on_row,on_read)
     complete=decoded and len(projection)==len(sessions) and all(r['volume_lower_shares'] is not None
         and all(p['status']=='UNIQUE_POSITIVE_CENT' for p in r['prices'].values()) for r in projection)
     return {'controls':report,'projection':projection,'target_quote_values_decoded':decoded,'source_projection_complete':complete}
@@ -158,10 +164,19 @@ def authenticate(base,root,request,expected):
     return r,packets,sessions,{**{str(p.resolve()):r['input_sha256'][k] for k,p in paths.items()},str(request.resolve()):expected}
 
 
-def finish(out,result,known):
-    base=tree(out);primary=None
+def persist(out,name,value,outputs):
+    # Bind the intended bytes before the write, rather than adopting later bytes.
+    encoded=(json.dumps(value,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode()
+    need(name not in outputs,'one immutable artifact write');outputs[name]=hashlib.sha256(encoded).hexdigest()
+    path=out/name;path.parent.mkdir(parents=True,exist_ok=True);write_once(path,value)
+    need(sha(path)==outputs[name],'original bytes persisted '+name)
+
+
+def finish(out,result,known,outputs):
+    base=dict(outputs);primary=None
     result={**result,'capture_sha256':base,'all_inputs_unchanged':not changed(known),'all_outputs_unchanged':True}
     try:
+        need(tree(out)==base,'source outputs changed before terminal persistence')
         write_once(out/'.terminal-pending.json',result)
         after={k:h for k,h in tree(out).items() if k!='.terminal-pending.json'}
         need(not changed(known) and after==base,'source recovery inputs/outputs changed during persistence')
@@ -170,33 +185,51 @@ def finish(out,result,known):
         primary=exc;after={k:h for k,h in tree(out).items() if k not in ('.terminal-pending.json','terminal.json')}
         result.update(complete=False,status='LOCAL_SOURCE_RECOVERY_FAILURE_RETAINED',all_inputs_unchanged=not changed(known),
             all_outputs_unchanged=after==base,error_type=type(exc).__name__,error=str(exc))
-        write_once(out/'.terminal-failure.json',result);os.replace(out/'.terminal-failure.json',out/'terminal.json')
+        result['observed_capture_sha256']=after
+        try:write_once(out/'.terminal-failure.json',result);os.replace(out/'.terminal-failure.json',out/'terminal.json')
+        except BaseException as secondary:primary.add_note('failure terminal persistence error: '+type(secondary).__name__)
     if primary is not None:raise primary
     return result
 
 
 def run(base,root,request,expected):
     r,packets,sessions,known=authenticate(base,root,request,expected);out=base/OUTPUT;need(not out.exists() and not out.is_symlink(),'fresh local recovery output')
-    calendar=(base/PROVIDER/'calendars/day.txt').read_text().splitlines();indices={d:i for i,d in enumerate(calendar)};cache={}
+    cp=base/PROVIDER/'calendars/day.txt';calendar_bytes=cp.read_bytes()
+    need(hashlib.sha256(calendar_bytes).hexdigest()==known[str(cp.resolve())],'authenticated actual calendar buffer')
+    calendar=calendar_bytes.decode().splitlines();indices={d:i for i,d in enumerate(calendar)};cache={}
     def get(code,field,day):
         need(day in sessions and field in FIELDS and code in set(packets)|{'SZ002326'},'only frozen quote cells')
         key=(code,field)
-        if key not in cache:cache[key]=Feature(base/PROVIDER/'features'/code.lower()/(field+'.day.bin'),len(calendar))
+        if key not in cache:
+            path=base/PROVIDER/'features'/code.lower()/(field+'.day.bin')
+            cache[key]=Feature(path,len(calendar),known[str(path.resolve())])
         return cache[key].value(indices[day])
-    out.mkdir();(out/'controls').mkdir();primary=None
+    out.mkdir();(out/'controls').mkdir();primary=None;outputs={}
     result={'candidate':CANDIDATE,'request_sha256':expected,'complete':False,'status':'LOCAL_SOURCE_RECOVERY_INCOMPLETE',
         'historical_arrival_verified':False,'physical_account_admitted':False,'tax_treatment_admitted':False,
-        'corporate_action_completeness_verified':False,'portfolio_return_computed':False,'2026_values_read':False,'objective_achieved':False}
+        'corporate_action_completeness_verified':False,'portfolio_return_computed':False,'2026_values_read':False,'objective_achieved':False,
+        'source_projection_complete':False,'control_price_gate_passed':False,'target_quote_values_decoded':False,
+        'target_read_started':False,'completed_projection_rows':0,'last_target_session':None}
+    def save(name,value):persist(out,name,value,outputs)
+    def summary(report):
+        save('control-summary.json',report);result['control_price_gate_passed']=report['price_gate_passed']
+    def boundary():
+        need(not changed(known),'complete frozen context unchanged before target access')
+        need(tree(out)==outputs,'all control evidence unchanged before target access')
+        save('target-projection-started.json',{'only_after_complete_price_gate':True})
+    def reading(day):
+        save('projection-progress/'+day+'.json',{'date':day,'stage':'TARGET_READ_STARTED'})
+        result.update(target_read_started=True,target_quote_values_decoded=True,last_target_session=day)
+    def row_done(row):
+        save('projection-rows/'+row['date']+'.json',row);result['completed_projection_rows']+=1
     try:
-        data=recover(packets,sessions,get,lambda c,v:write_once(out/'controls'/(c+'.json'),v),
-            lambda:write_once(out/'target-projection-started.json',{'only_after_complete_price_gate':True}))
-        write_once(out/'control-summary.json',data['controls'])
-        if data['target_quote_values_decoded']:write_once(out/'projection.json',data['projection'])
+        data=recover(packets,sessions,get,lambda c,v:save('controls/'+c+'.json',v),boundary,summary,row_done,reading)
+        if data['target_quote_values_decoded']:save('projection.json',data['projection'])
         result.update(complete=data['source_projection_complete'],source_projection_complete=data['source_projection_complete'],
             target_quote_values_decoded=data['target_quote_values_decoded'],control_price_gate_passed=data['controls']['price_gate_passed'],
             status='CONDITIONAL_F32_SOURCE_PROJECTION_COMPLETE_NOT_ACCOUNT_ADMITTED' if data['source_projection_complete'] else 'F32_SOURCE_HYPOTHESIS_NOT_FULLY_VERIFIED')
-    except BaseException as exc:primary=exc;result.update(error_type=type(exc).__name__,error=str(exc))
-    try:final=finish(out,result,known)
+    except BaseException as exc:primary=exc;result.update(status='LOCAL_SOURCE_RECOVERY_FAILURE_RETAINED',error_type=type(exc).__name__,error=str(exc))
+    try:final=finish(out,result,known,outputs)
     except BaseException as exc:
         if primary is None:primary=exc
         else:primary.add_note('terminal persistence error: '+type(exc).__name__)
