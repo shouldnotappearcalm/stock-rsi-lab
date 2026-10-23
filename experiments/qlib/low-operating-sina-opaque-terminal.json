@@ -1,0 +1,79 @@
+{
+  "status": "SINA_NATIVE_JSON_OPAQUE_ATTEMPTS_FINISHED_NOT_SOURCE_ADMISSION",
+  "request_sha256": "16a28e70547324a13753ce9d0652dbcf900a77d1a7045851c0a2013e03dbf5e7",
+  "freeze_commit": "76cf20cfcf94edb6454e3b4911d7b84cf8e30f97",
+  "results": {
+    "SH600118": {
+      "resource": "SH600118",
+      "returncode": 0,
+      "exception": null,
+      "artifacts": {
+        "body.bin": {
+          "sha256": "e4a10e49ce465950d42607daa4439079d4f992eb520cbfd130f2f341aa768124",
+          "bytes": 107277
+        },
+        "headers.raw": {
+          "sha256": "631d2e387dd36f6c11744c9dbe5b68c21e12398a9334556c59fe410ce3e0635a",
+          "bytes": 322
+        }
+      },
+      "date_or_quote_values_decoded": false,
+      "source_or_account_admitted": false,
+      "transport": {
+        "http_code": 200,
+        "exitcode": 0,
+        "size_download": 107277,
+        "url_effective": "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=sh600118&scale=240&ma=no&datalen=1023",
+        "time_total": 0.248362
+      }
+    },
+    "SZ002326": {
+      "resource": "SZ002326",
+      "returncode": 0,
+      "exception": null,
+      "artifacts": {
+        "body.bin": {
+          "sha256": "cce9c584af778bc6e8e5091a30630ed7f0849995d2cc43af389f2e799b868cfa",
+          "bytes": 106429
+        },
+        "headers.raw": {
+          "sha256": "49606ce2f7e4b43b47435a67467d81029c3b7050f313c40eb906c5c93ef451cb",
+          "bytes": 323
+        }
+      },
+      "date_or_quote_values_decoded": false,
+      "source_or_account_admitted": false,
+      "transport": {
+        "http_code": 200,
+        "exitcode": 0,
+        "size_download": 106429,
+        "url_effective": "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=sz002326&scale=240&ma=no&datalen=1023",
+        "time_total": 0.29259
+      }
+    }
+  },
+  "raw_dates_or_quote_values_decoded": false,
+  "accepted_rows": 0,
+  "source_or_account_admitted": false,
+  "2026_values_decoded": false,
+  "portfolio_return_computed": false,
+  "objective_achieved": false,
+  "capture_sha256": {
+    "SH600118/request.json": "89dbaccaef60a89f823457e67409a2d03a15d27c123073ec05f7195ddb5436a1",
+    "SH600118/reservation.json": "05ea60c71791ac6883b39e64a7e8e40f9c16309488f4f28a8aacd3e4693ce508",
+    "SH600118/transport.json": "39618fbe496a7227954814bc60f6413445c7dcb747e2e274ddd85d83d5265ca8",
+    "SH600118/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SH600118/body.bin": "e4a10e49ce465950d42607daa4439079d4f992eb520cbfd130f2f341aa768124",
+    "SH600118/headers.raw": "631d2e387dd36f6c11744c9dbe5b68c21e12398a9334556c59fe410ce3e0635a",
+    "SH600118/receipt.json": "10db6364ef819242289f47db31a29e13b80f520ea8f83fc400e0d231ec6b9433",
+    "SZ002326/request.json": "545b8c6f6e62679d53020c83a4e6ba410b55ca052addb379ba02f55f3a99af97",
+    "SZ002326/reservation.json": "f92721df1f7d37f75649bdd156f53626faa48f6f9a84fa42beca4942b700c958",
+    "SZ002326/transport.json": "57854352bdaea48bee9fe71c96886913edec3bb27682524d5f5e4d005093a604",
+    "SZ002326/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "SZ002326/body.bin": "cce9c584af778bc6e8e5091a30630ed7f0849995d2cc43af389f2e799b868cfa",
+    "SZ002326/headers.raw": "49606ce2f7e4b43b47435a67467d81029c3b7050f313c40eb906c5c93ef451cb",
+    "SZ002326/receipt.json": "dc11b80e996aa6342a38e33507d516b6db6ffda4731cb2c7f681cdbcfdf7e1a8"
+  },
+  "all_inputs_unchanged": true,
+  "all_outputs_unchanged": true
+}
