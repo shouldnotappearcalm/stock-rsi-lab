@@ -1,0 +1,146 @@
+{
+  "completed": true,
+  "documents": [
+    {
+      "capture_key": "SZ000050-2022-1216116180",
+      "independently_extracted_physical_pages": [
+        9,
+        10,
+        100,
+        101
+      ],
+      "original_render_physical_pages": [
+        9,
+        10,
+        100
+      ]
+    },
+    {
+      "capture_key": "SZ000050-2023-1219308111",
+      "independently_extracted_physical_pages": [
+        9,
+        10,
+        104,
+        105
+      ],
+      "original_render_physical_pages": [
+        9,
+        10,
+        104
+      ]
+    },
+    {
+      "capture_key": "SZ000050-2024-1222806950",
+      "independently_extracted_physical_pages": [
+        8,
+        9,
+        96,
+        97
+      ],
+      "original_render_physical_pages": [
+        8,
+        9,
+        96
+      ]
+    },
+    {
+      "capture_key": "SZ000089-2024-1223282164",
+      "independently_extracted_physical_pages": [
+        6,
+        7,
+        81,
+        82
+      ],
+      "original_render_physical_pages": [
+        6,
+        7,
+        81
+      ]
+    }
+  ],
+  "all_inputs_outputs_unchanged": true,
+  "mismatches": [],
+  "request_sha256": "eb56b2adc5d537ba5c5da8a67725bd944d4cfbd48fa42e6e04b3594f81a8a657",
+  "all_input_sha256": {
+    "repo/experiments/qlib/operating-corpus-source-request.json": "f0302c00af7e312055aaf5a41f74a547de2bf2aaf9465a65d38aa9bf92da3710",
+    "repo/experiments/qlib/operating-corpus-source-independent-check.json": "292aceb7322fe8dd6b15b67a3be4d45ea285ddbbe60876bdde1358d603893581",
+    "repo/experiments/qlib/operating-lagged-asset-date-inventory.json": "35e1c1a632fd2e834466b085af813b3d22c0d4a6e3b1c5068ac9f62993520413",
+    "repo/docs/research/operating-lagged-asset-bridge-protocol-2026-10-23.md": "04fac7eb1bf8130b923ab1b7bc8eae15c6084c2c8abeac9e69241a65a308e9a6",
+    "source/operating-corpus-source-v1-20261023/case_results.json": "bf0bafc21d17656517d0542609732015e9075101e505ca0f3adbc1a8f4a7cd46",
+    "source/gross-profitability-all1236-header-v7-20261022/case_results.json": "dbe281076a1fb4a45446528cc1ce90990d5e065c9210609e30e43cd8b2d42a6c",
+    "source/gross-profitability-historical394-initial2022-pdfs-20261022/http/0971c9839161cd9d00ac37b54bdd4cda382247ccf24abb01fa1da0476139bc7f/body.bin": "07e8759e084928acdc7b9d777a4bd4f0e075f6e78eb7a9460cb57daba0ed9550",
+    "source/gross-profitability-historical394-initial2022-schema-20261022/SZ000050-2022-1216116180.pages.json": "d1039e7cef05e5eb5ae8912b681a4334e96c6d5e56f6569ef6d9e0539093ed0f",
+    "source/gross-profitability-all1236-header-v7-20261022/SZ000050-2022-1216116180.json": "3a943d87ff30664e10c42fac3a19a993c464b1285b011a01c268f91e93c97f5c",
+    "source/gross-profitability-historical394-later-annual-pdfs-20261022/http/3ff9c7acb395a5b1ff2fe4a554ba75b906d5deae5cf6643d01ef56232ae013ef/body.bin": "85f2463bee8f99bfec62fb54513298559587e363bf8924322e5ccf2f429fd83f",
+    "source/gross-profitability-all1236-source-v6-20261022/SZ000050-2023-1219308111.pages.json": "8127ac94468a9dddf539dd37efa62e5b507c41d2ab27e8019fc059e81e5def07",
+    "source/gross-profitability-all1236-header-v7-20261022/SZ000050-2023-1219308111.json": "03abda252b453b671a5f49cc9f0502761eb5e81fcba1396ab5100b3117887c5e",
+    "source/gross-profitability-historical394-later-annual-pdfs-20261022/http/827506af6e44f352160068a0f0b5d3b06df064e258297477e648bf7b9bcbeafe/body.bin": "ed11bc6640d6b23fdb21f712e098e9315219a223703bb740de4e655e0fe03083",
+    "source/gross-profitability-all1236-source-v6-20261022/SZ000050-2024-1222806950.pages.json": "d47c71a16f27ed8f5b3afdbe1d588e52b73f8e59ba4e4ab40b212508886f3c60",
+    "source/gross-profitability-all1236-header-v7-20261022/SZ000050-2024-1222806950.json": "28b5cbfe7a2bcffb6e6373307509a7708785086c8d5d2cb15831ab89385020cb",
+    "source/gross-profitability-historical394-later-annual-pdfs-20261022/http/d960d2c41da66932eb7225aecc5276b16623e54b59e1fe73f19c470482f4d51d/body.bin": "59a218d0c2daca7eeb1a7d07a45f58b6e8a7df936d8989f8db676c10a7547d3b",
+    "source/gross-profitability-all1236-source-v6-20261022/SZ000089-2024-1223282164.pages.json": "c715ff4ba925a934f8695c94d2ebb53880f31cb74625a340c3000783be3b5b69",
+    "source/gross-profitability-all1236-header-v7-20261022/SZ000089-2024-1223282164.json": "4fa102affd43237ebdc986a5b7823d36062add28c1cef5d6c3a291f59556eed0",
+    "frozen_request": "eb56b2adc5d537ba5c5da8a67725bd944d4cfbd48fa42e6e04b3594f81a8a657"
+  },
+  "source_inspection_sha256": {
+    "SZ000050-2022-1216116180/cached-page-10.txt": "b380c22e8e93427fa3f7ec958aab83fad04c8b073c2b12315f339377d954cd43",
+    "SZ000050-2022-1216116180/cached-page-100.txt": "e907b566c2641579768e95c91e49bc9256e3ccd175135d71fe243da023c0e222",
+    "SZ000050-2022-1216116180/cached-page-101.txt": "11b2d8e2f1510b25957e4ecbf36aa36610d4dd21bfa19d5eac2fd5a8ed07ea75",
+    "SZ000050-2022-1216116180/cached-page-9.txt": "ab5e6cae9299dd189c559eb2fd6f5b641e2012090bbcc0464ba037f1307d128a",
+    "SZ000050-2022-1216116180/source-index.json": "cca26f0f463fff495ca879c678f373b8d34c005c27a9b3a84a9b3bfdeb893d2e",
+    "SZ000050-2023-1219308111/cached-page-10.txt": "f3dc898797eb8e6449c57a3fb4e31bce4321c851db48b98fffa349f1ce8e5092",
+    "SZ000050-2023-1219308111/cached-page-104.txt": "9bbd09c4a7ea765ebe706f3f4180644c31de0a23a7347bedaa5ff621ac12a5d2",
+    "SZ000050-2023-1219308111/cached-page-105.txt": "4182108b6db25b733bc2d0ac89db72c40ffba51a63cda20e67b7e374b3c87506",
+    "SZ000050-2023-1219308111/cached-page-9.txt": "a4c85236eeac91f127e1faf52d1d890777341895873b4cbe90d50dab3b6b2716",
+    "SZ000050-2023-1219308111/source-index.json": "31c1bc0dc8d0e73c3512703844f8149d79eecac8b13be42b060e612f6242e943",
+    "SZ000050-2024-1222806950/cached-page-8.txt": "19fa3d5bd772d31aeb95d3feb760afb47347b3bd94879cbc8c791e3eed1b7585",
+    "SZ000050-2024-1222806950/cached-page-9.txt": "bdd9ca70d57d5c2e4fe51f8ba8f231cb0ef52de87bd577449a055fe992b19d31",
+    "SZ000050-2024-1222806950/cached-page-96.txt": "a0f3eeb43c43d63c931ee99f26a2eb4671176fd501ea4adf6d8d51980e209b8e",
+    "SZ000050-2024-1222806950/cached-page-97.txt": "3ffd8e600c66cbf4d4b2bafdbfb9bb4353ab8168810ec1b4b7741f96882ec008",
+    "SZ000050-2024-1222806950/source-index.json": "8af9cded4062cb3e4f6900c9abde3f16a5c93561111bb08877b45b655ee667e0",
+    "SZ000089-2024-1223282164/cached-page-6.txt": "15c3626fe32a5f4ad60e633e2f64dd292225aaf73f77a3a3a3a889e61644d380",
+    "SZ000089-2024-1223282164/cached-page-7.txt": "3cedbfe0a716904206561099e321a5c7705a889c4da4b4f132cddeb9a8ffd53f",
+    "SZ000089-2024-1223282164/cached-page-81.txt": "6763bf38289db9c9b85a1218a61b1089f4e9e34d50434a50592d5bd55a22071b",
+    "SZ000089-2024-1223282164/cached-page-82.txt": "28bdde2e4b11e5fc1f9bd7d5113dd664bdeb963a4e8fa3ce1ebf57533d30ca16",
+    "SZ000089-2024-1223282164/source-index.json": "9d2539cccbf44db6468ba005eb5b35611cc3aec5fb62a19e1de8e70c1442f300",
+    "input-before.json": "7916315d4200471c1379fb945f52efa53286026d399d3a8f3f5ac5d6b7d0d2f2",
+    "input-postcheck.json": "752d2b660eb1472d4ce4ace4c07994bc7a7c4a6e218114c52c04ca9228b73562",
+    "inspection.json": "926c63a6fa1e96b33aecf1f5c87a507fa943e26ff788dc77ec32f5698f47338d",
+    "terminal.json": "8af9802a0ff857719b30e6d407a215abcacf2df96a4b12fcea3604dac5fc4972"
+  },
+  "output_sha256": {
+    "SZ000050-2022-1216116180/original-page-10.png": "fd0b1aab7c2503870240733907648203ed1a62f27abe80ac4c5038920485e54b",
+    "SZ000050-2022-1216116180/original-page-100.png": "50b5b6316eb53379e6decae3a2da59fe2abe4bd39e3006a04b7cc8dc893e8af9",
+    "SZ000050-2022-1216116180/original-page-9.png": "cbba2e03726dba6fa8196594f8b019ffb1ee9455accd2fec306e0772677a34b5",
+    "SZ000050-2022-1216116180/pdfminer-page-10.txt": "46d58ff02e50f13e01cb4298177131dcbf975b257090160dfeaedd52d1eb0f23",
+    "SZ000050-2022-1216116180/pdfminer-page-100.txt": "ebf47e37a34dd4db818b2c24f60e85ad754930042e690873696715dd063ea23c",
+    "SZ000050-2022-1216116180/pdfminer-page-101.txt": "5de1b65dee94b3d480fcb8cbbc59b79abb784ff0e17e0b850df44ecd865f6bee",
+    "SZ000050-2022-1216116180/pdfminer-page-9.txt": "8fd80066f709189461c2d6d9e93be075e6a3743f06cd7e1080e202cffedc1b48",
+    "SZ000050-2023-1219308111/original-page-10.png": "3663d9c4f8134b49635bc676bee89b864731956ab19a3548d75ca66aa6f75d7b",
+    "SZ000050-2023-1219308111/original-page-104.png": "af9a336d6ff6aea215d34c7d823476f0d2efe9c8173a359d0ce011e72cb47315",
+    "SZ000050-2023-1219308111/original-page-9.png": "ae6e92139a4afba3720a1c74a2590795ebf01ae1228a7c201f7026f08b2b2c15",
+    "SZ000050-2023-1219308111/pdfminer-page-10.txt": "ca506b1a7b6a1d9e5eca7e51717d4b32bb9bd939a508c71645f2ec4878bc7f11",
+    "SZ000050-2023-1219308111/pdfminer-page-104.txt": "90d4e9883ea36549c1537e00423075c3ab87461f1912bc2545fe40d6b6a3d783",
+    "SZ000050-2023-1219308111/pdfminer-page-105.txt": "e307a1f74fb05e694ec4ff24acbc0ae255575a4a2971efdb01db2a4040e28886",
+    "SZ000050-2023-1219308111/pdfminer-page-9.txt": "9b4fdd94a05b3e5be9e0b6fcd41403ee5594ab1d1c746f7d324835198d0529c4",
+    "SZ000050-2024-1222806950/original-page-8.png": "7537e0856228f6a83237899518ab76bc83b59337ca5f160eefcb27f60cb12bcd",
+    "SZ000050-2024-1222806950/original-page-9.png": "a4ee96cc6d8117d31bc82bec24282011a76948739648cafdfc11f390e3f1ff41",
+    "SZ000050-2024-1222806950/original-page-96.png": "789ba17a3bded0feca819a8ccc2d6f00138a17ffd21ecb02d392682d077bbea6",
+    "SZ000050-2024-1222806950/pdfminer-page-8.txt": "938b074e75ffe4467192b66fa5e82150c9f6459e4719c83e3675d15c347549da",
+    "SZ000050-2024-1222806950/pdfminer-page-9.txt": "23c9aae3065b82d5129ba58d00dbad0f939d6ca6dff0cec6f3851a6a6b5e6b7a",
+    "SZ000050-2024-1222806950/pdfminer-page-96.txt": "bb1347e897f8571997720c22cbe8c9699d0f9f3446e4d6b4bee9cbcf1cde754e",
+    "SZ000050-2024-1222806950/pdfminer-page-97.txt": "9c5f72585ed5084362cbfa752c5fe7aec3c2d2e0064f4424ab939ae84ef543ca",
+    "SZ000089-2024-1223282164/original-page-6.png": "2c8e9ef8deafe7fb458b2c572ad345e28dcffdba18685eab32015fccbf429d31",
+    "SZ000089-2024-1223282164/original-page-7.png": "e9547c56657a0f60e9c4b35e75c4aad3275d5b115ece779ec9b620b04f13e3a6",
+    "SZ000089-2024-1223282164/original-page-81.png": "1f1820c8f3d0dcdbed2bfa5b171f33e145f038f797ff888c78010502de5971aa",
+    "SZ000089-2024-1223282164/pdfminer-page-6.txt": "7f8b70159f811fb86896119850d15752dbaa4f3bd892fa8d3afa4fbb4deb074f",
+    "SZ000089-2024-1223282164/pdfminer-page-7.txt": "2df8ce403ac895bd2f528808bc39b1ed15a41b3e03577bf240fae8fe1162525d",
+    "SZ000089-2024-1223282164/pdfminer-page-81.txt": "a6f10ea029097dcdd8825927c2085a395a8f1d2be26000a90adabc169f1a0039",
+    "SZ000089-2024-1223282164/pdfminer-page-82.txt": "941f29bcb729d4d2388eb94525ef7b39960db2baa26045598cc3b68540741236",
+    "input-before.json": "7916315d4200471c1379fb945f52efa53286026d399d3a8f3f5ac5d6b7d0d2f2"
+  },
+  "original_error": null,
+  "manual_visual_QA_complete": false,
+  "denominator_admitted": false,
+  "investment_factor_admitted": false
+}

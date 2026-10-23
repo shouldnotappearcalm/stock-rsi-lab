@@ -1,0 +1,220 @@
+{
+  "status": "CANDIDATE_TEXT_INSPECTION_NOT_DENOMINATOR_ADMISSION",
+  "documents": [
+    {
+      "capture_key": "SZ000050-2022-1216116180",
+      "source_sha256": "07e8759e084928acdc7b9d777a4bd4f0e075f6e78eb7a9460cb57daba0ed9550",
+      "fiscal_year": 2022,
+      "date_kind": "EXPLICIT_JAN1",
+      "primary_pages": [
+        100,
+        101
+      ],
+      "candidate_window_count": 2,
+      "all_candidate_windows": [
+        {
+          "kind": "POSSIBLE_PRIOR_END_TO_OPENING_BRIDGE_NOT_VERIFIED",
+          "pages": [
+            9,
+            10
+          ]
+        },
+        {
+          "kind": "POSSIBLE_PRIOR_END_TO_OPENING_BRIDGE_NOT_VERIFIED",
+          "pages": [
+            10,
+            11
+          ]
+        }
+      ],
+      "retained_candidate_windows": [
+        {
+          "kind": "POSSIBLE_PRIOR_END_TO_OPENING_BRIDGE_NOT_VERIFIED",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "retained_physical_pages": [
+        9,
+        10,
+        100,
+        101
+      ],
+      "render_physical_pages": [
+        9,
+        10,
+        100
+      ],
+      "retained_page_text_sha256": {
+        "9": "ab5e6cae9299dd189c559eb2fd6f5b641e2012090bbcc0464ba037f1307d128a",
+        "10": "b380c22e8e93427fa3f7ec958aab83fad04c8b073c2b12315f339377d954cd43",
+        "100": "e907b566c2641579768e95c91e49bc9256e3ccd175135d71fe243da023c0e222",
+        "101": "11b2d8e2f1510b25957e4ecbf36aa36610d4dd21bfa19d5eac2fd5a8ed07ea75"
+      },
+      "denominator_verified": false,
+      "candidate_keywords_do_not_establish_dates_units_or_consolidated_scope": true
+    },
+    {
+      "capture_key": "SZ000050-2023-1219308111",
+      "source_sha256": "85f2463bee8f99bfec62fb54513298559587e363bf8924322e5ccf2f429fd83f",
+      "fiscal_year": 2023,
+      "date_kind": "EXPLICIT_JAN1",
+      "primary_pages": [
+        104,
+        105
+      ],
+      "candidate_window_count": 1,
+      "all_candidate_windows": [
+        {
+          "kind": "POSSIBLE_ANNUAL_METRICS_NOT_AUDITED_SCOPE_VERIFIED",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "retained_candidate_windows": [
+        {
+          "kind": "POSSIBLE_ANNUAL_METRICS_NOT_AUDITED_SCOPE_VERIFIED",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "retained_physical_pages": [
+        9,
+        10,
+        104,
+        105
+      ],
+      "render_physical_pages": [
+        9,
+        10,
+        104
+      ],
+      "retained_page_text_sha256": {
+        "9": "a4c85236eeac91f127e1faf52d1d890777341895873b4cbe90d50dab3b6b2716",
+        "10": "f3dc898797eb8e6449c57a3fb4e31bce4321c851db48b98fffa349f1ce8e5092",
+        "104": "9bbd09c4a7ea765ebe706f3f4180644c31de0a23a7347bedaa5ff621ac12a5d2",
+        "105": "4182108b6db25b733bc2d0ac89db72c40ffba51a63cda20e67b7e374b3c87506"
+      },
+      "denominator_verified": false,
+      "candidate_keywords_do_not_establish_dates_units_or_consolidated_scope": true
+    },
+    {
+      "capture_key": "SZ000050-2024-1222806950",
+      "source_sha256": "ed11bc6640d6b23fdb21f712e098e9315219a223703bb740de4e655e0fe03083",
+      "fiscal_year": 2024,
+      "date_kind": "EXPLICIT_JAN1",
+      "primary_pages": [
+        96,
+        97
+      ],
+      "candidate_window_count": 2,
+      "all_candidate_windows": [
+        {
+          "kind": "POSSIBLE_ANNUAL_METRICS_NOT_AUDITED_SCOPE_VERIFIED",
+          "pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "kind": "POSSIBLE_ANNUAL_METRICS_NOT_AUDITED_SCOPE_VERIFIED",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "retained_candidate_windows": [
+        {
+          "kind": "POSSIBLE_ANNUAL_METRICS_NOT_AUDITED_SCOPE_VERIFIED",
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "retained_physical_pages": [
+        8,
+        9,
+        96,
+        97
+      ],
+      "render_physical_pages": [
+        8,
+        9,
+        96
+      ],
+      "retained_page_text_sha256": {
+        "8": "19fa3d5bd772d31aeb95d3feb760afb47347b3bd94879cbc8c791e3eed1b7585",
+        "9": "bdd9ca70d57d5c2e4fe51f8ba8f231cb0ef52de87bd577449a055fe992b19d31",
+        "96": "a0f3eeb43c43d63c931ee99f26a2eb4671176fd501ea4adf6d8d51980e209b8e",
+        "97": "3ffd8e600c66cbf4d4b2bafdbfb9bb4353ab8168810ec1b4b7741f96882ec008"
+      },
+      "denominator_verified": false,
+      "candidate_keywords_do_not_establish_dates_units_or_consolidated_scope": true
+    },
+    {
+      "capture_key": "SZ000089-2024-1223282164",
+      "source_sha256": "59a218d0c2daca7eeb1a7d07a45f58b6e8a7df936d8989f8db676c10a7547d3b",
+      "fiscal_year": 2024,
+      "date_kind": "UNDATED_OPENING",
+      "primary_pages": [
+        81,
+        82
+      ],
+      "candidate_window_count": 2,
+      "all_candidate_windows": [
+        {
+          "kind": "POSSIBLE_ANNUAL_METRICS_NOT_AUDITED_SCOPE_VERIFIED",
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "kind": "POSSIBLE_ANNUAL_METRICS_NOT_AUDITED_SCOPE_VERIFIED",
+          "pages": [
+            7,
+            8
+          ]
+        }
+      ],
+      "retained_candidate_windows": [
+        {
+          "kind": "POSSIBLE_ANNUAL_METRICS_NOT_AUDITED_SCOPE_VERIFIED",
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ],
+      "retained_physical_pages": [
+        6,
+        7,
+        81,
+        82
+      ],
+      "render_physical_pages": [
+        6,
+        7,
+        81
+      ],
+      "retained_page_text_sha256": {
+        "6": "15c3626fe32a5f4ad60e633e2f64dd292225aaf73f77a3a3a3a889e61644d380",
+        "7": "3cedbfe0a716904206561099e321a5c7705a889c4da4b4f132cddeb9a8ffd53f",
+        "81": "6763bf38289db9c9b85a1218a61b1089f4e9e34d50434a50592d5bd55a22071b",
+        "82": "28bdde2e4b11e5fc1f9bd7d5113dd664bdeb963a4e8fa3ce1ebf57533d30ca16"
+      },
+      "denominator_verified": false,
+      "candidate_keywords_do_not_establish_dates_units_or_consolidated_scope": true
+    }
+  ],
+  "factor_computed": false,
+  "investment_factor_admitted": false
+}
