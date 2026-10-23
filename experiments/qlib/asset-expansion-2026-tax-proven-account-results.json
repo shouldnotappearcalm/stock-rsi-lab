@@ -1,0 +1,89 @@
+{
+  "status": "CONTINUOUS_ACCOUNT_DIAGNOSTIC_RETAINED",
+  "request_sha256": "12a0394d146922707a99edecb739b5482c068e939b535f9a9a19e2974f4c3377",
+  "window": [
+    "2023-12-29",
+    "2026-10-21"
+  ],
+  "results_by_extra_bps": {
+    "20": {
+      "status": "RAW_DAILY_PROXY_COMPLETE_PENDING_SEPARATE_LEDGER_QA",
+      "artifact_sha256": {
+        "corporate_ledger.json": "092828463b742f75802d7cf88474c0e0709d776b571747ec140c83efde87e010",
+        "daily.csv": "d653beccbc7448538ada518bd8c46be995bbb62c58f1e03c8007b0d77cdab454",
+        "fills.json": "e84f2c642846a1faf4116f2763f88260c0dde91d74ac91c1e8204b8be971b5c8",
+        "intents.json": "9cc74ce8ebfc831e8c964e5f286aead86e234463a9505af20ce20556dd4ae406",
+        "orders.json": "652d475fd9927f1016456142eedfbff6aa98c744fbdc157d83bd3ccf6508a1e0",
+        "ownership.json": "aac805fc0c5a680cc5332aec6d9cfd575445fa1ad631059fe9abddb720be3913"
+      },
+      "prefix": {
+        "all_old_daily_rows": 486,
+        "old_intents": 24,
+        "old_events": 79,
+        "extra_zero_ledger_entries": 42,
+        "passed": true
+      },
+      "2024_return_pct": 17.13673,
+      "2025_return_pct": 14.989888312572837,
+      "2026_through_2026-10-21": {
+        "return_pct": -17.320859410227055,
+        "starting_equity_CNY": "1346953.9500",
+        "ending_equity_CNY": "1113649.9500",
+        "sessions": 191,
+        "max_drawdown_pct": -25.600446958530526,
+        "average_exposure_pct": 94.2786789810212,
+        "fees_CNY": "12453.44"
+      },
+      "three_return_conditions_met": false,
+      "whole_day_volume_violations": 0,
+      "fills": 426,
+      "orders": 441,
+      "monthly_intents": 34
+    },
+    "40": {
+      "status": "RAW_DAILY_PROXY_COMPLETE_PENDING_SEPARATE_LEDGER_QA",
+      "artifact_sha256": {
+        "corporate_ledger.json": "ec83f0b427e247487ef2abdd859d9289ec94a513ce8a38b90ae9ddb18db6f3d1",
+        "daily.csv": "523b82c28e452b3a5751c4247bff78579495e3a429a5b92fdd0baa23d534e2e1",
+        "fills.json": "68d0d8af19324ffb7ecd25e0c881590e61ad8c013273c049718df93c0e67d078",
+        "intents.json": "6a3aeccf39336ff727141b56fab1db33cb00731427571efa7e9e2876d98ef20a",
+        "orders.json": "0287576422e0c8659eb5df3bd8248c0f40b2e18a8fd3f35e567254e2e687bff4",
+        "ownership.json": "d07e0453e4d53fcd05fbfb36204bebff8ed8b77d4d8355965ef8730c9db793fb"
+      },
+      "prefix": {
+        "all_old_daily_rows": 486,
+        "old_intents": 24,
+        "old_events": 79,
+        "extra_zero_ledger_entries": 42,
+        "passed": true
+      },
+      "2024_return_pct": 16.271019,
+      "2025_return_pct": 14.486323543788671,
+      "2026_through_2026-10-21": {
+        "return_pct": -17.912954806584995,
+        "starting_equity_CNY": "1331144.1500",
+        "ending_equity_CNY": "1092696.9000",
+        "sessions": 191,
+        "max_drawdown_pct": -26.006333104268123,
+        "average_exposure_pct": 94.30756186916607,
+        "fees_CNY": "20368.87"
+      },
+      "three_return_conditions_met": false,
+      "whole_day_volume_violations": 0,
+      "fills": 426,
+      "orders": 440,
+      "monthly_intents": 34
+    }
+  },
+  "pending_cost_cases": [],
+  "original_error": null,
+  "persistence_errors": [],
+  "changed_inputs": [],
+  "complete": true,
+  "historical_observed_arrival_verified": false,
+  "opening_liquidity_verified": false,
+  "full_october_complete": false,
+  "sealed_2026_evidence": false,
+  "separate_ledger_QA_passed": false,
+  "objective_achieved": false
+}
