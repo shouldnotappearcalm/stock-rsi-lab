@@ -60,3 +60,8 @@ class AnnualCashAccrualV2Tests(TestCase):
         for r in (self.report(),self.report(source())):self.assertEqual(v2.visible_report(DOC,'2024-04-28T15:05:00+08:00',lambda:r,v2.RECONSTRUCTED),r)
         with self.assertRaises(ValueError):v2.visible_report(DOC,'2024-04-28T15:05:00',poison,v2.RECONSTRUCTED)
         self.assertEqual(calls,[])
+
+    def test_numeric_only_multi_cell_continuation_is_not_silently_truncated(self):
+        for tail in ['-5.00 3.00\n9.00 10.00','-5.00 3.00\n— —']:
+            with self.subTest(tail=tail),self.assertRaises(ValueError):
+                self.report(wrapped('四、净利润（净亏损以“－”号填\n列） 七、68 '+tail))

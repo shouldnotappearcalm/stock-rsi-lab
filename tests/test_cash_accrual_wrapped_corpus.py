@@ -83,3 +83,9 @@ class CashAccrualWrappedCorpusTests(TestCase):
             if Path(src).name=='.terminal-pending.json':raw.write_bytes(b'changed')
         with patch.object(r.os,'replace',side_effect=altered),self.assertRaises(ValueError):self.execute()
         t=v1.read(self.base/'out/terminal.json');self.assertFalse(t['complete']);self.assertFalse(t['all_inputs_unchanged']);self.assertFalse(t['ratios_rankings_or_returns_computed'])
+
+    def test_worker_cannot_escalate_source_only_case_to_investment_admission(self):
+        for name in ('investment_factor_admitted','historical_arrival_verified'):
+            c=self.inspect();c[name]=True
+            with self.subTest(name=name),self.assertRaises(ValueError):
+                r.validate_case(c,self.docs[0],self.base,self.known)

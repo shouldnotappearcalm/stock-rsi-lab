@@ -44,3 +44,7 @@
 ## Self-review
 
 Only source formatting changes. Task1defines dual report contracts;Task2reproduces oldcases before extending failures and never promotes incomplete monetary data. Review focus owns tail/scope/lineage/failure boundaries. Source coverage cannot substitute for investment admission or returns.
+
+## 2026-10-27 continuation ruling
+
+The original fresh reviewer was interrupted without a final verdict. Complete the source audit inline, disclose its same-author limitation, correct the two reproduced Important defects in one pass, and retain all failures. Do not claim a completed independent review or spawn a replacement reviewer. All source freeze/preservation and investment restrictions remain unchanged.

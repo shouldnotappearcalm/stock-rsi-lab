@@ -33,7 +33,7 @@ def net_profit_cells(table,year):
             if match is None:continue
             try:values=v1.op.row_values(raw,'^'+re.escape(raw[:end]),meta['header_line'])
             except ValueError:continue
-            after=start+width;need(after==len(rows) or not re.fullmatch(v1.grammar.original.MONEY,rows[after][1]),'extra monetary continuation unsupported')
+            after=start+width;need(after==len(rows) or not re.fullmatch(r'(?:'+v1.grammar.original.MONEY+r'|[—–－-])(?:\s+(?:'+v1.grammar.original.MONEY+r'|[—–－-]))*',rows[after][1]),'extra monetary continuation unsupported')
             on_page=[h for h in headers if h['page']==page];need(not on_page or start>=on_page[0]['start_index']+len(on_page[0]['literal'].splitlines()),'source row cannot precede its same-page fiscal header')
             preceding=max(h['start_index'] for h in headers if h['start_index']<start);parsed={}
             for column,literal in enumerate(values):

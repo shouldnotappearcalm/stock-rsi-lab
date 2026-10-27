@@ -1,0 +1,41 @@
+{
+  "status": "INTERRUPTED_FRESH_REVIEW_COMPLETED_BY_NATIVE_AUDIT_TWO_IMPORTANT_CORRECTED",
+  "reviewed_range": [
+    "640ea339b9f10825dc302b43271617dcb105f8d8",
+    "212a935462f98e77eb48e39b3ff3ae837d50ba1b"
+  ],
+  "prior_reviewer": {
+    "status": "INTERRUPTED_WITHOUT_FINAL_VERDICT",
+    "session": "01a16943-4623-7b92-9576-c221f6dff40f",
+    "observed_evidence": "19 focused tests passed before deliberate turn interruption; no final assurance inferred"
+  },
+  "completion": "Native source/code review on 2026-10-27; not independent assurance. No replacement agent or rereview.",
+  "findings": [
+    {
+      "priority": "Important",
+      "problem": "A wrapped row could silently discard a following numeric-only multi-cell or unknown-value line",
+      "correction": "Reject numeric/unknown-only continuation with one or more cells; retain raw tail unchanged"
+    },
+    {
+      "priority": "Important",
+      "problem": "Parent accepted worker case flags falsely asserting investment admission or historical arrival",
+      "correction": "Require exact False source-only flags for every status before acceptance"
+    }
+  ],
+  "correction_evidence": "Two new tests reproduced four failing subcases; correction/full-suite results recorded separately before source freeze",
+  "actual_corpus_or_returns_before_review": false,
+  "deferred_minor_findings": [],
+  "limits": [
+    "Native audit is same-author checking, not independent review",
+    "Stored witnesses and whole-source SHA checks do not prove historical arrival, complete amendments or accounting comparability",
+    "No investment efficacy or 2026 outcomes judged",
+    "V1 reports remain immutable; new guard applies only to the new caption fallback"
+  ],
+  "verification": {
+    "focused_tests": 21,
+    "full_tests": 1577,
+    "full_seconds": 36.551,
+    "result": "PASS",
+    "actual_V2_corpus_yet_run": false
+  }
+}

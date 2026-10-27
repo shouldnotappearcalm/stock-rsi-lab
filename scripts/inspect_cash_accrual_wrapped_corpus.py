@@ -34,6 +34,7 @@ def inspect_one(base,document,normative_basis,known):
     return {**result,'status':SUPPORTED,'report':report,'source_parser_variant':'V2_RECOVERED_LABEL'}
 
 def validate_case(case,document,base,known,normative_basis=None):
+    need(case.get('investment_factor_admitted') is False and case.get('historical_arrival_verified') is False,'source-only flags cannot claim investment admission or historical arrival')
     cash.metadata(document);raw,old,cache,previous=case_paths(base,document);frozen=read_bound(previous,known[str(previous.resolve())])
     need(case['v1_source_case_sha256']==known[str(previous.resolve())] and case['v1_source_status']==frozen['status'] and case['v1_original_error']==frozen.get('error'),'frozen V1 source lineage required')
     need(case['parent_case_sha256']==known[str(old.resolve())] and case['source_page_cache_sha256']==known[str(cache.resolve())] and case['protected_asset_cells_compared']==frozen['protected_asset_cells_compared'],'same original source buffers and protected assets')
