@@ -1,0 +1,60 @@
+{
+  "status": "CASH_ACCRUAL_INTEGER_PRE2026_COMPLETE",
+  "complete": true,
+  "request_sha256": "4a2b575bf42b25ffb4b97bd657ff0960929f4a5c122af8d83f3dd1d2e9198916",
+  "portfolio_return_computed": true,
+  "objective_achieved": false,
+  "2026_values_used_for_selection": false,
+  "physical_investment_admitted": false,
+  "results_by_extra_bps": {
+    "20": {
+      "2024_return_pct": 25.813066,
+      "2025_return_pct": 14.306332857352034,
+      "fills": 282,
+      "orders": 290,
+      "monthly_decisions": 24,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0016296809986130374,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "average_exposure_pct": 94.99074270993086,
+      "max_drawdown_pct": -17.490929841252807,
+      "account_sessions": 485,
+      "unverified_noncash_zero_ownership_verified": true
+    },
+    "40": {
+      "2024_return_pct": 24.929257,
+      "2025_return_pct": 13.249310367706741,
+      "fills": 276,
+      "orders": 284,
+      "monthly_decisions": 24,
+      "all_fills_integer": true,
+      "daily_cash_and_share_conservation": true,
+      "record_date_entitlements_verified": true,
+      "max_order_fraction_of_whole_day_volume": 0.0016296809986130374,
+      "whole_day_volume_violations": 0,
+      "opening_auction_liquidity_verified": false,
+      "average_exposure_pct": 95.09139283962293,
+      "max_drawdown_pct": -17.574001304789792,
+      "account_sessions": 485,
+      "unverified_noncash_zero_ownership_verified": true
+    }
+  },
+  "development_gate_passes": true,
+  "next_step": "SEPARATE_LEDGER_QA_THEN_FROZEN2026_EXTENSION",
+  "all_fills_integer": true,
+  "source_level": "RAW_DAILY_OPEN_PROXY_FLAT20PCT_CASH_RESERVE_NOT_FIFO_NOT_AUCTION_LIQUIDITY",
+  "capture_sha256": {
+    "events.json": "39ed331980cb0656d1e81f7a61de93e99a3930fb6a19f94812c80046d02cd61e",
+    "event_receipts.json": "1ab3fd6613a129326718557689767333d5813d3efe0096cbaa249b63910d7e37",
+    "20/case.json": "ca71cbc6d641208a4787b56bc779fbd309bb790dc9eb8503de02e6a06e0575eb",
+    "20/zero_ownership.json": "4a6157a47e87b2d0edef27f9b45c2e48a19d3f38dbdd35c44ff34510dd957b50",
+    "40/case.json": "fc3b713eb313d6b9f819962ad2458a61e15049eae374d93c64d9ba006232a8bb",
+    "40/zero_ownership.json": "4a6157a47e87b2d0edef27f9b45c2e48a19d3f38dbdd35c44ff34510dd957b50",
+    "results.json": "90b1a1048f7e4a9f9434cfa4dec2672d980628cbe27813ca91efdb76f5680ce7"
+  },
+  "all_inputs_unchanged": true,
+  "all_outputs_unchanged": true
+}

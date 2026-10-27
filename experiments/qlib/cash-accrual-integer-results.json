@@ -1,0 +1,36 @@
+{
+  "20": {
+    "2024_return_pct": 25.813066,
+    "2025_return_pct": 14.306332857352034,
+    "fills": 282,
+    "orders": 290,
+    "monthly_decisions": 24,
+    "all_fills_integer": true,
+    "daily_cash_and_share_conservation": true,
+    "record_date_entitlements_verified": true,
+    "max_order_fraction_of_whole_day_volume": 0.0016296809986130374,
+    "whole_day_volume_violations": 0,
+    "opening_auction_liquidity_verified": false,
+    "average_exposure_pct": 94.99074270993086,
+    "max_drawdown_pct": -17.490929841252807,
+    "account_sessions": 485,
+    "unverified_noncash_zero_ownership_verified": true
+  },
+  "40": {
+    "2024_return_pct": 24.929257,
+    "2025_return_pct": 13.249310367706741,
+    "fills": 276,
+    "orders": 284,
+    "monthly_decisions": 24,
+    "all_fills_integer": true,
+    "daily_cash_and_share_conservation": true,
+    "record_date_entitlements_verified": true,
+    "max_order_fraction_of_whole_day_volume": 0.0016296809986130374,
+    "whole_day_volume_violations": 0,
+    "opening_auction_liquidity_verified": false,
+    "average_exposure_pct": 95.09139283962293,
+    "max_drawdown_pct": -17.574001304789792,
+    "account_sessions": 485,
+    "unverified_noncash_zero_ownership_verified": true
+  }
+}
