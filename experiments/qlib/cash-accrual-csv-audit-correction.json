@@ -1,0 +1,9 @@
+{
+  "status": "AUDITOR_ASSUMPTION_CORRECTED_NOT_PORTFOLIO_RERUN",
+  "initial_failure": "finite nonnegative fills/fees",
+  "cause": "Qlib saved order-indicator CSV uses signed normalized units: SELL requested/deal amounts negative, BUY positive",
+  "correction": "Enforce explicit side-consistent sign, use magnitude for price-value equality, add signed units to inventory",
+  "original_account_artifacts_modified": false,
+  "original_strategy_or_targets_modified": false,
+  "rejected_auditor": "experiments/qlib/audit_sources/2026-10-28-cash-accrual-csv-audit-v1-rejected.py"
+}
