@@ -1,0 +1,58 @@
+{
+  "status": "PASS_ALL_CFO_SOURCE_CASE_REPLAY_AND_SEPARATE_LITERAL_CHECKS_NOT_FACTOR_ADMISSION",
+  "producer_summary": {
+    "V2_supported_reports_preserved_identically": 257,
+    "V3_CFO_reports_recovered": 225,
+    "source_parser_variant_counts": {
+      "V3_RECOVERED_CFO_LABEL": 225,
+      "V2_PRESERVED": 257,
+      "V2_COVER_FAILURE_RETAINED": 60,
+      "V3_STILL_UNSUPPORTED": 694
+    },
+    "document_count": 1236,
+    "cohort_count": 394,
+    "status_counts": {
+      "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA": 482,
+      "COVER_IDENTITY_UNVERIFIED": 60,
+      "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED": 694
+    },
+    "unsupported_error_counts": {
+      "unique wrapped consolidated caption row required: income": 11,
+      "explicit same-edition previousDecember31assets": 330,
+      "unique scoped consolidated/parent table boundaries required": 64,
+      "unique wrapped consolidated caption row required: cashflows": 8,
+      "bounded12same-page caption and unchanged two-cell tail required: cashflows": 19,
+      "bounded12same-page caption and unchanged two-cell tail required: income": 58,
+      "explicit end of primary financial statements section required": 28,
+      "unique ordered primary consolidated/parent balance and income statements required": 21,
+      "bounded primary fiscal header required": 13,
+      "extra fiscal/header column unsupported": 13,
+      "one exact bounded source header at each project-column heading required": 26,
+      "one explicit local monetary unit required": 25,
+      "bounded contiguous annual table required": 15,
+      "one scoped explicit Chinese-CAS financial-statement compliance declaration required": 45,
+      "exact two monetary cells in bounded same-page row block required: total_assets": 1,
+      "one literal consolidated row required: total_assets": 1,
+      "generic balance needs one explicit same-page annual year-end date before its header": 15,
+      "primary statements section bounded to40physical pages": 1
+    },
+    "supported_source_issuer_count": 178,
+    "raw_monetary_cells": 2892,
+    "protected_asset_cells_compared": 1243,
+    "original_PDF_text_decodings_performed": 0,
+    "manual_visual_QA_complete": false,
+    "financial_version_history_complete": false,
+    "financial_cross_issuer_comparability_verified": false
+  },
+  "source_units": {
+    "元": 2874,
+    "万元": 18
+  },
+  "negative_cells": {
+    "net_profit": 68,
+    "operating_cashflow": 107
+  },
+  "root_proof_sha256": "ea61a92b99b5cee42db68ecf5c2ba44e4ebc5428228fee84acf08622b5565b94",
+  "ratios_rankings_or_returns_computed": false,
+  "2026_values_read": false
+}
