@@ -1,0 +1,35 @@
+{
+  "status": "ONE_ORIGINAL_FOUR_PAGES_TWO_EXTRACTORS_AND_VISUAL_CHECKED_NOT_STATUTORY_TAX_CERTIFICATION",
+  "documents": [
+    {
+      "instrument": "SH603737",
+      "day": "2025-05-24",
+      "file": "SH603737-2025-05-24.pdf",
+      "sha256": "68eb5de9a7efacd6de0fbbd7a3c8d2f19610bce7031314664e5ba09ab31ea334",
+      "source_path": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-pre2026-research-20261015/budgeted-residual-corporate-reviewed-20261021/SH603737-2025-05-24.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-24/1223645265.PDF"
+    }
+  ],
+  "cash_overrides": {},
+  "capital_tax": {
+    "SH603737|2025-05-30": {
+      "verified_exempt": true,
+      "source_file": "SH603737-2025-05-24.pdf",
+      "source_sha256": "68eb5de9a7efacd6de0fbbd7a3c8d2f19610bce7031314664e5ba09ab31ea334",
+      "expected_capital_per_share": "0.400000",
+      "pages_one_based": [
+        3
+      ],
+      "scope": "Only this capital-transfer event; issuer explicitly identifies share-premium source and says no withholding"
+    }
+  },
+  "stock_dividend_tax_bases": {},
+  "supplementary_distributions": [],
+  "manual_review_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "known_2026_proof_encounter": "A metadata lookup also reached an already-exposed2026proof; it is unused, not an input, and did not change any strategy or target."
+}
