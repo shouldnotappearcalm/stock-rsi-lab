@@ -1,0 +1,3602 @@
+{
+  "SH600004-1225257389": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "97a1d0bafdc3d922eb7ceb372fbd2e3a477b2f1437b52e89dc11624f13b8285a",
+    "instrument": "SH600004",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600008-1225095393": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "baa326dd6a3a03ec356297b131b359ff55b3cee6d47da8877bbfd54e77a379e3",
+    "instrument": "SH600008",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600021-1225098781": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "2927b4c332c676f345a890bd452b333fc542bb54944eb0af8a312ce1a7994d62",
+    "instrument": "SH600021",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600022-1225149024": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "4f405c67c757223e82bc341a8d36d9225bb9671011f50ccf15d4a6838285ba86",
+    "instrument": "SH600022",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600032-1225209556": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "735170c851dd5e8269997ccfec0b9fa93dfdd44aca9c76cfd1a6d774f4640756",
+    "instrument": "SH600032",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600038-1225309475": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "16e36d76555815cd4c5a4433fdbdc9bad4cb8d57251518a2402b827ff9dc0762",
+    "instrument": "SH600038",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600038-1225046726": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "b60e636fbca822b4cd946375c16bbe2a7383485e61135b33ad9c8d6a5468d025",
+    "instrument": "SH600038",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600056-1225186128": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "a2f28dca3da06d594edd5a81d710c6d6242c3d8d7d946bce6fd5c5102374a4b1",
+    "instrument": "SH600056",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600060-1225051157": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "e65248ad040b5d5d3f98a49d098d2cd24a61ed6a45c7dc8c284e41a0261acf0d",
+    "instrument": "SH600060",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600062-1225018795": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "e56cfda7919e36770747b54a6ce9051bba66323de1c7886194a5d37be6b24b0a",
+    "instrument": "SH600062",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600066-1225050742": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "507d1efc2d3be6a4bd77f16d371d16804138070172fc59e8b2d7fe65eac89efe",
+    "instrument": "SH600066",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600079-1225050708": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "33aff1c47b7a51dbe32f828019d2ba53f93f820a6bf01db39c6f8a3e0c2a75a9",
+    "instrument": "SH600079",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600095-1225022911": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "f1bc2d7599b81e4688990c3a34ba31e16ed2f2f55e66e78355fdbdb6feab6525",
+    "instrument": "SH600095",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "unique wrapped consolidated caption row required: cashflows",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600096-1225025863": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "28eda74c580093b9cf80f42a21d11e085a5385055e4fa474f36b1b19b396bd55",
+    "instrument": "SH600096",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600109-1225171783": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "568f7f0d20fa3eab97245d603041dcbe5249aa667f554bf6cacc42e569084770",
+    "instrument": "SH600109",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600118-1225054766": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "44fd73512c5acd0fbb7bdbd958ffe34d3a2522401328f488ba90b138cdb59b82",
+    "instrument": "SH600118",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600126-1225115359": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "fa3c6f37083d1b0ef11ed3e3b3dde836eb46c25d7a8b46ad0925f2270b6c02a3",
+    "instrument": "SH600126",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600129-1225048925": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "14a28a7a99b6e3f61b0b7e624e43d9d5c1d9732467a8160ca4c28c791e4cd1ab",
+    "instrument": "SH600129",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600131-1225188888": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "9e89d698a105c4e7a2d534640c91ba9cdb3c7cc446f28cb310bdd43a50ac929a",
+    "instrument": "SH600131",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600141-1225080143": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "f3100e91de02174d51ecc7b037a7e8bf0c226744c66c1e2b7e9a2b1d9c8c705a",
+    "instrument": "SH600141",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600143-1225132815": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "2f698ae6a5fd19a340784b48a7af5993457ebe7de6a194ab7646a6dc63ffdc3f",
+    "instrument": "SH600143",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600153-1225218423": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "a1bb5694a4a196c930841d63fac70939459679f57fc51fcbefc5b95f0fbd51d2",
+    "instrument": "SH600153",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600155-1225214023": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "d49bbd60586e5c99502016f18ca29c7fc2676bb493084ab7eaf6ec740f3ca3b0",
+    "instrument": "SH600155",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600157-1225148413": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "4869c31fd1f2220eb15a6bc706dd81371c62237aef9eea5cf782c74e07f286c0",
+    "instrument": "SH600157",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600160-1225147997": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "a5622fe056b3742242990956589081cd77d2113326c3f239e126375df2229306",
+    "instrument": "SH600160",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600161-1225042495": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "f611c79707115dc6e94599ed0c2e59fefcc039edd2cfc6228368a213f0cce829",
+    "instrument": "SH600161",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600166-1225194454": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "2090e364b1e1ecf9672a4ede9222b860280ba3478273fbbd90196dedb853ebca",
+    "instrument": "SH600166",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600167-1225230585": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "78eabb4e83eb6f40d3cd73a64b127a6e93b9bf19b9c1ee76b06efc4b966198ce",
+    "instrument": "SH600167",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600170-1225104758": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "66642b936a8dc78fd89799f4ed467007824968075fd87e3748a65a6191825aa2",
+    "instrument": "SH600170",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600177-1225310476": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "fcd140a5fe64638fd70af16806c6a321afd12babc44fed30c9bb088611a0fa46",
+    "instrument": "SH600177",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600177-1225220816": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "e8a13c9774409cf8593b01d6704dcee30825321156569509b187cca5c7cd6651",
+    "instrument": "SH600177",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600208-1225260353": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "ca747cf168676e1646aebaf81b8c8115da8476444cb439bf9e1cd70dc87ab384",
+    "instrument": "SH600208",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600258-1225063930": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c509082e6ce93c0abef9e6b7f62d4a980dc70c63c47b1a1675013d17099829ca",
+    "instrument": "SH600258",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: cashflows",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600271-1225122576": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "96524c6f637ae58f245d59bdadbab61f3a6089a16f85d5594c71e3d13cb88dcf",
+    "instrument": "SH600271",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600282-1225011770": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "406f0eb3a1972125c777c6ea3b5e2d9be3594ca487d688568a7040c4081e0427",
+    "instrument": "SH600282",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600298-1225056953": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "668ad21d0518f05a1e0c0818ebcef7c37869c1fb99bbadeed0c0e5b061d23621",
+    "instrument": "SH600298",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600299-1225000473": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d6a5e9497c6d26ba481b4da35f41af8af88c302d16bbf8d6deb822eaf9527a32",
+    "instrument": "SH600299",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600315-1225030438": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "b9d6e80efa03da43cbee1e14f31e1ef3b491adcd23846868b2e06c7cc7a004ba",
+    "instrument": "SH600315",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: cashflows",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600316-1225046514": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "643902a6d30c869992fa63d3fce699b79d7c31a30e5ff3479adf18769767cf87",
+    "instrument": "SH600316",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique ordered primary consolidated/parent balance and income statements required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600325-1225196269": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "8b63bc4d672506d05b64d73bad45ee25a79f2393fbac7bb8ad9890bc0637d0d1",
+    "instrument": "SH600325",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600329-1225056113": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "03bb0e46ef5cd44c7c0b16313ebbc6234a2cb54306778e33cdf71dad73d64dfd",
+    "instrument": "SH600329",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600339-1225095407": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d8ad69cd4168391fc6fb6c27dea78acc16d669e54a7a6c772bf4f91ff9194233",
+    "instrument": "SH600339",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique ordered primary consolidated/parent balance and income statements required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600348-1225197392": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "08c1d7888356b3739111ae65b2f1696c741d2fb14380f77671ee07bbd0fc18b1",
+    "instrument": "SH600348",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600350-1225079916": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "4ce15e660a8cc077b8c7a440636c8bbac6838d604e5a6bfc0cd91d47e9c9b275",
+    "instrument": "SH600350",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600352-1225092743": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "05052c14241c9e0269d6459857dc8491ab0a120f565cdcf6022c62f3efb32ebf",
+    "instrument": "SH600352",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600369-1225052616": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "49282082bf9af1f7c7bd8de362dcb328c236b4eebd3129fe43221dcb06b6213d",
+    "instrument": "SH600369",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600373-1225122309": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "c8975ce6903ed979fd02476b6c4a5e91d3219dcc5c2cddef461087c1b3617226",
+    "instrument": "SH600373",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600377-1225049417": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "6f10ea1a623b4a1f020d4416b72cb737149522b822cf3c3d6ca166cc36b0fe8f",
+    "instrument": "SH600377",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded primary fiscal header required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600378-1225170257": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "7b445e8db502220a43a114b78fe1be8c1b23d3376ead0a324b96bd3b2444acaa",
+    "instrument": "SH600378",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600380-1225067200": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "a1300ed7f4f9a104ae2a01c89f50441697d9f3103a982c697d6baaa480211195",
+    "instrument": "SH600380",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600390-1225121499": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "3d2c4f50493b16cffc80736a31dbcb390b4d22717d93ca2d052fd534bc5eb4f8",
+    "instrument": "SH600390",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600392-1225258047": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d75a0b6095ac4c7de360734c13722255427c72bd2b1776db09f4182442887178",
+    "instrument": "SH600392",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600398-1225042739": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "78a9c2569d347a064fb7a5c38edab7b752652ef03b54dbf1588f76547fa6aa5a",
+    "instrument": "SH600398",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique ordered primary consolidated/parent balance and income statements required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600399-1225054363": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "b938a3b1a67634af2128846cf079511c9fe7e24514934bee0e56bc28aa899bdc",
+    "instrument": "SH600399",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600415-1225085392": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "ad7aca1c3c7b88a7abe013f5015952c8281271606e0fa13cf4ef22cf5dd74b15",
+    "instrument": "SH600415",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600416-1225088903": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "043894ce622c02ea5940d0ae5fee18c6d27c2b17935a370a9c35289be94ad5b2",
+    "instrument": "SH600416",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600418-1225079663": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "69525f8a4a81f04c6888ade522ba3ff530d9cdb8fdf026ef546246633c20dfa0",
+    "instrument": "SH600418",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600435-1225040522": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "400ca1674c8096632fe1c730b2dc92bb465d7cd79e9fc8c423b8141f51b3586d",
+    "instrument": "SH600435",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600481-1225210885": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "e630eab1ec13ecc60ca1cfb4c45ed230c2f271d99b24b91065702f5cd5093a9f",
+    "instrument": "SH600481",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600482-1225265585": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "3c603f1c7c4f95f02ec7376f369e20b3b40832ccf776bebb748ad020de0a3b48",
+    "instrument": "SH600482",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: cashflows",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600486-1225056792": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "a019b5d6709a77625b5634bdd432ef7a28eca9714d96e40130b49564d3e259bf",
+    "instrument": "SH600486",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600497-1225035088": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "f7403320c0b9997d4064a50c5e557aeaa9a5ab8936c12c94e2c76aa44e7c66ed",
+    "instrument": "SH600497",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "explicit end of primary financial statements section required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600498-1225178004": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "fd42563ab7095a28a4ba47d5c35330b60c8daa00435b174a67c5516187e1177a",
+    "instrument": "SH600498",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600499-1225046387": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "08fb8a19b975a7fcfc3899534781d3fd58e36650bed05b224ad8b55bd58ab07a",
+    "instrument": "SH600499",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600500-1225119943": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "96cf168282a4d2f1d10b14a594a587f816f0288ef7cf04b949de1d3d7d09df11",
+    "instrument": "SH600500",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded primary fiscal header required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600511-1225018998": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "c918f09045432ef179ebee7fd1e177af76eaab479f367417d0515c44ed6c6055",
+    "instrument": "SH600511",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600516-1225239445": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "751a68695dd82c6849600e004904c46e1bcf327380e192362065fadca6cb82d5",
+    "instrument": "SH600516",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600517-1225258897": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "051a1ad24f4e372a563eb101199784bfe390f867468a09286d0f0bdc225baac6",
+    "instrument": "SH600517",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: cashflows",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600521-1225259952": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "41fd5b1e3a6285dbc4ba20d4b73f5217ae4b40caedd8e567574067e8354669a4",
+    "instrument": "SH600521",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600528-1225043258": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "a5ae59d9173186a128b9cc4890e2a084e467543ffe7956682a4c0fe87a57cb84",
+    "instrument": "SH600528",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600529-1225000244": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "e17a7c302fe7d039dbd4fb260f5a83813ba21a3e414b1cc9c1dd9fac1438521f",
+    "instrument": "SH600529",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600535-1225018338": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "99fa03e1da8cde85c8d24246f7dbeb6d5959ed350361281a2d43d0991f1095e0",
+    "instrument": "SH600535",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600536-1225168280": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "9859fa766707a170319c7d6e0ed2276c077651ca82692260c1c0f9eeddc59f11",
+    "instrument": "SH600536",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600546-1225169637": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "80bb7086b9fca01c8510bd212cc7aef4f05dc2aa13f865aaa82ee6c7f35b8021",
+    "instrument": "SH600546",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600549-1225166560": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "a29402dca8a00ba5973060abf30dc6cd00aab4b6ad78b2689a5f44161e7020f3",
+    "instrument": "SH600549",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600563-1225040778": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "4a2e080e542aa7d945eba080b34127602cf84ce8217f045477baddbadb95ce34",
+    "instrument": "SH600563",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600566-1225166604": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "ed4420db3368dc238f62ee9680ea315021a7660588a18dc6031c862b79901b64",
+    "instrument": "SH600566",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600580-1225022163": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "e142d56be3d17ae66e4036d8be71820849c1613756637db4a085696baad61a66",
+    "instrument": "SH600580",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600582-1225036750": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "41ac2abde1fdf0f6b67b02bd62f8442b324c40d6aeb828056ff58423bfc2e4f1",
+    "instrument": "SH600582",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600583-1225023892": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "1c0c4c35bd9c611482d8dc0c7878f88931a1dbc977a340736618d8af9e2b2236",
+    "instrument": "SH600583",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique ordered primary consolidated/parent balance and income statements required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600597-1225052071": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "1c3a252e0455d3cb2c5fc4a73e743bc5ccff8dfeeb5661c5ccc40125f7f66958",
+    "instrument": "SH600597",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600598-1225023732": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "837fd581fbb778f434c3b7733f10332354e6d554f54bc4a8bc519d14afdff260",
+    "instrument": "SH600598",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600637-1225129800": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "4081b87467584b949f442b347befe6e0767d3fe45bea8b4706634f3f7c2ee5cf",
+    "instrument": "SH600637",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600642-1225197325": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "57c1862b5fe336e3ed0f1c0baca35050e793d46e57cfbcbaa6c9e1f3119a98f0",
+    "instrument": "SH600642",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600655-1225026779": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "d5a5815c170347ae8717b497667c987c9684fc09667cf64739f2047b20592cee",
+    "instrument": "SH600655",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600663-1225141185": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "e1283c93df46998ea6dbf832db6d02df07d9728ea589afc316a201eec8bf0a2e",
+    "instrument": "SH600663",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600673-1225090784": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "0c8b7f37bf1f7a60c4b9f56ac9acb9e4a42c0afeb46eefb8fa5d47a892384f4f",
+    "instrument": "SH600673",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600699-1225056227": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "ef5db41ef18d4317d6fe347f0f4ae3a8694e011314eb08cda2c6f5eadcb0b8f3",
+    "instrument": "SH600699",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600704-1225202697": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "f6d1cf4ef00c201abb015571267ecdca4382ea2b57c518a69c769034016a1c1a",
+    "instrument": "SH600704",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600707-1225106608": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "77111934a32edcea9d334b78844a4ca30de1d59618ae00ee20c47a29e5d1bae5",
+    "instrument": "SH600707",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600737-1225220574": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "bca1ee185d75ee0daa3a2eb408041f87169c6384aee79342cae765aa8b42eda4",
+    "instrument": "SH600737",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600739-1225179691": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "d563dfd0f5c6b329e5bbc84a9b1d61bf3aee80c64b160fdb85c523ceb5bbf7d3",
+    "instrument": "SH600739",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600755-1225150576": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "75770de52b4a4d6c471401c8c6d725515164b9086ec279499668127760a4b8e9",
+    "instrument": "SH600755",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "explicit end of primary financial statements section required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600764-1225256098": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "5ec6584f0827e8860966f36fc42b7ecf7d97949120d993f1ea21ce1ea837e0d2",
+    "instrument": "SH600764",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600765-1225007287": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "7bea731cce1ae2eb68abcd138dd899ad65fa6cfee80756bdc5edb107e37ee1ea",
+    "instrument": "SH600765",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600801-1225038214": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "53e9c67e4670d2ac55bbd007fec4b3245d9677eb3763f647b957c863c2dce02e",
+    "instrument": "SH600801",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600808-1225032595": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "fc6cad39c9914ba7851cf693774d7cd88ce977706768a7fad86e0a2ee9de616f",
+    "instrument": "SH600808",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600820-1225144064": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "df2816f9def64453a4b8bbb165e7d8803be7c34ec82bb38c1c11161fa1bbd551",
+    "instrument": "SH600820",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600827-1225104222": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "f424852ae8e4dd436f19b27a7c7cfea9f04a40481a5aba0be5fc1690217bbd61",
+    "instrument": "SH600827",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: cashflows",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600839-1225280429": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "f134cc69ccfa9ab58a686d1649ae82f3ab3eec2527c89a06d9c1ac483fd33681",
+    "instrument": "SH600839",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600839-1225186694": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "924e33772475b10669afd5efc5f872440bebf5396aea1f690a47855f58d30286",
+    "instrument": "SH600839",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600848-1225099846": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "6c5a0bd8c52ff260b36da43457aa9584996540b372b419af5f7d7d6e44278646",
+    "instrument": "SH600848",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: cashflows",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600859-1225156521": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "8f9b5374a16f0d7cab62798b7bcedb405147b85a8d17569b1a3239bb5ec6daf4",
+    "instrument": "SH600859",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600862-1225009637": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "3e8767fb97435959041e40bae5915c6fa84e7b847fc4629d41914927af4f9314",
+    "instrument": "SH600862",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600863-1225151146": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "2bdb1a145a57dcafa432587f2026c761b6d6717f252d9b015049a189f433d35b",
+    "instrument": "SH600863",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600867-1225123926": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "3eb6da378688c07a47a609cd7d5897fe047d6272d46f84cf13f6022cf0047973",
+    "instrument": "SH600867",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600871-1225050459": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "05898913d6ef5f9951af0a56f21a55a9f9dc5e830c9fa606fd709996fbf33d3d",
+    "instrument": "SH600871",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600871-1225012953": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "2e17d0f3a704eadca71c8eb474ee5c87f92fa6d20cc3457f73c5de58ed528016",
+    "instrument": "SH600871",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600873-1225140873": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "3a21e034bd60c55cacea4e325608fd7456022737d9e2311bbd484c809e70a93b",
+    "instrument": "SH600873",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600879-1225040519": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "086e904bf2b038554c598b320f31e5fbfde65e5e2c6351ad4e59d98674cf3692",
+    "instrument": "SH600879",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600884-1225263241": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "7bde62d8cbbef1e39879dfcc4146dc349c7d92dc0377dcc294259f0a8ff38f36",
+    "instrument": "SH600884",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one exact bounded source header at each project-column heading required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600885-1225071093": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "6cd3f0a678a4e421c971fab6cc23bb23fe437fc34e8e427eec45875108ac038b",
+    "instrument": "SH600885",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600895-1225060598": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "eca643ef9bad0189d110b0f31bfe16dd2e137887ca491ccea578c1b91f8c23fb",
+    "instrument": "SH600895",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600901-1225163304": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "ed9178173fdd5e9be8e8e6748db6f97b07955ecdb3ee8101a9f4d0109d6c6d65",
+    "instrument": "SH600901",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600906-1225183088": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "3ddc2bc425621f569e006a93c632f9f5792359454b094a4c237905af89cb9321",
+    "instrument": "SH600906",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600909-1225036248": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "205b62fb97dfee3c314838de613c65bc2d8bf6fefaf889543d85a08fa76ed34a",
+    "instrument": "SH600909",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600925-1225142546": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "ecf74b88e5abc1475cc122f0d276cdec1e0377fb44a3e07769b991670e752eec",
+    "instrument": "SH600925",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600927-1225167216": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "4075543cb7f09b624c74bd50121b72f84f8f6e09be5b78ed907cdfe8b90bc468",
+    "instrument": "SH600927",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600928-1225151740": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "69a6533e9e98fec4140235009194e5826e19ebdb414d826eb5608a7e7e28b3c7",
+    "instrument": "SH600928",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600956-1225032266": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "6498121a490f041914f312941fe8cfbfb0cd8b420abee563caf867b0a1cfdf05",
+    "instrument": "SH600956",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600959-1225090334": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "2dc627b37e16be75b69183b40fbf4a219b3973afece88845ec92ef53bb8f66d3",
+    "instrument": "SH600959",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600967-1225205290": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "01703e5fa8bffaa94d22d84572aade2a9264f15b9593d9e2fb467de487da3a80",
+    "instrument": "SH600967",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600968-1225027794": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "b5a12ad5523035438253ce7eb259e07aa4d3ea3f2f6da0b9ad9260edd10ebb90",
+    "instrument": "SH600968",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600970-1225031732": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "fb055d73549795842e75c7df06a264555ed926699d791d5bac867e71912a7f9d",
+    "instrument": "SH600970",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600977-1225121079": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "cf31788c8c78c22f362498e07d691364933a2de692ff75d2234a0d8bdb68099c",
+    "instrument": "SH600977",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600985-1225047309": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "46bcad0f4912e4e05fad0a8badb70e4676057e1fc79926bbadea23e78d09700f",
+    "instrument": "SH600985",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600988-1225021883": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "20cef15ca87d33be80f433bb0aea4a3c46accd585e1ff96576f4490af91cb4d7",
+    "instrument": "SH600988",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600995-1225060596": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "207f21e7b9dd75493e0709c4da04264f3eb1a6d4dfb6778d9f9ae4f86800f06c",
+    "instrument": "SH600995",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH600998-1225212712": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "16c17364d3e0d309473e33c68d695bea0de7c5dce026e39ac8b8643544d0d124",
+    "instrument": "SH600998",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601000-1225040947": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "8035835470ea0cf5c35147de91ca5c5b66523ae52e98c48e31a379862859ab45",
+    "instrument": "SH601000",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601016-1225138190": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "601ccb364da604fad2fddf4ac2ff43dc62134179a7e0fbe8a7167d8acf911cba",
+    "instrument": "SH601016",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601058-1225201460": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "a2836da1937995b658b874819dea5893648c3fb66900508ffbf3e68b27cfce45",
+    "instrument": "SH601058",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601061-1225031793": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "fda3cab1e7d95e1f1550f453dcd0b113a6fa23ed4eb538cd465172c16247bd12",
+    "instrument": "SH601061",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "one exact bounded source header at each project-column heading required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601077-1225032224": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8353db25a8f0ea7441a4f388d10924a06026c4af787bc1f267fa7be2cb512555",
+    "instrument": "SH601077",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601098-1225086508": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "21917e03d2bcb6b25edeee1daffec1d34307827ae58aad1f2b4b79a83a94e0e3",
+    "instrument": "SH601098",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601106-1225261665": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "59c5c4441d88736430f3ceaf4aa3d70c794767752faa3b930e785284c1715238",
+    "instrument": "SH601106",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601108-1225190278": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "5032165538658111bb37204edb5160f7b1d1e6461a27c128c57f46fd32acbe59",
+    "instrument": "SH601108",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601118-1225245540": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "e4471ebe782d82560b6930b1ca266912b86db935f56e716228d78b60f83b3f87",
+    "instrument": "SH601118",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601128-1225168827": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "fdc808194739593a64850c6cbe201cff003aa02d16db892dbab040fa3e331ab0",
+    "instrument": "SH601128",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601139-1225055705": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "3f7e89cd1fd5c4220ece32fcb5e4940d546d71edf2155853dbf779d30356a062",
+    "instrument": "SH601139",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601156-1225048375": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "7f3d820541900156371e73988af0a65964e976e05f23b5bd92faf9379458a68d",
+    "instrument": "SH601156",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601158-1225073467": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "3163fd81bb2c7de0cd9022ca4b2f9fe239827ac0501347917db20d8fd939083c",
+    "instrument": "SH601158",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601162-1225263059": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c173d42aa2a357c3d9f84505f5ef1b2313a5ab1e46072e46fba610f7e74a5027",
+    "instrument": "SH601162",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601168-1225030831": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "2283d97929620fd60b9a57e25a75724019eb071cf5946f83ea9cf650eacda9d6",
+    "instrument": "SH601168",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601179-1225094842": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "2f9870522bd17ba17effa8c89c47c63a1dcf7995be67b58a16c87477e6e7b9db",
+    "instrument": "SH601179",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601187-1225266446": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "61851aa0d9727914b5b858826cd3f0459bc1cf64646c82178041bc5e17338d65",
+    "instrument": "SH601187",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601198-1225055968": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "da7325f2daca73ba9adb17e12b58f6011b5704414200492db0f6cff305769147",
+    "instrument": "SH601198",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601216-1225178905": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "3574cfd4cfb1ac1998441a9d9696048f2e95bafcbe965db2cb25c3539a056e58",
+    "instrument": "SH601216",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601228-1225095091": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "8178475039066c8b8899d23fb9bad11cdf0983f4714f474e94374d0103adbbcf",
+    "instrument": "SH601228",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601231-1225080391": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "7e016b9ee92fec0f2b6a34ced3e5305d5f9a07a45d6d6d9beef2acc4b3b171c6",
+    "instrument": "SH601231",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601233-1225228955": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "a812f7d00fe752e5327cc7b502ded7c5af2807c692c83b4375b50d3e3d36e2b4",
+    "instrument": "SH601233",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601298-1225041511": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "360465ac24aea64226cedf186fef17541aac956b1a8bb67b9a620be609b31b54",
+    "instrument": "SH601298",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601456-1225046913": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "2cd117009786e8d540735e6ef6d8c55b1407f2a49d982cb07eff1323f50e495a",
+    "instrument": "SH601456",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "explicit end of primary financial statements section required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601555-1225227241": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "7e2baf74067eac21e8e88cd41c190b7b9ebb12f778fab35b7990cc667212183f",
+    "instrument": "SH601555",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601568-1225144565": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "6fd2556fb784aefb1399d882a4b098ba2ed2662a35a1338a218cd5cbeb820ee2",
+    "instrument": "SH601568",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601577-1225235609": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "496e0cb43bbce48c0f7dd7d8028fc9726df48bc90bbf3ed3cee729c306d5b4fd",
+    "instrument": "SH601577",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601598-1225062693": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "cb62ed4258122f826f743c5bb96670fe5167659ed25d26495493052e1d28a6da",
+    "instrument": "SH601598",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601608-1225009909": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "4d1b2fda218ea31966ce2f9851ae7f5ebde71178552ed04f99229182f8d011e5",
+    "instrument": "SH601608",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601611-1225187216": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "dd91178dc8e886bef8b55b63e8a72e97f3ae30656cbe1cfc97ac5c13857a8b6d",
+    "instrument": "SH601611",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601636-1225157326": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "34d8d043e71f26186985dfc4c9ca65e2491589f84ebd3b13b977e06ee75ae40c",
+    "instrument": "SH601636",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601665-1225153207": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "289445f03710b10db5be097776b0b971b89125a3b368318b846fb42d4f5ae516",
+    "instrument": "SH601665",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601666-1225268361": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "dc71b73023cf1552fc5739a3f89a477b91a9098577e83871afff44fb28a283b3",
+    "instrument": "SH601666",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601696-1225263166": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8b07439a688752f53f8e2230aa84ebd7a8164a0ab3f8ec027216ade42de9fe20",
+    "instrument": "SH601696",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: cashflows",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601717-1225060498": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "009a1dac009ad64751fd03a4e070e8539c227113f5a038a88b3f58d02ebe26a9",
+    "instrument": "SH601717",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601778-1225246612": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "042f2d189fa79088355b5babbbaad8448d71c03a5e5ace6753c1ee8991024995",
+    "instrument": "SH601778",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601828-1225063155": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "8d5424dc4763c0c66aa361e5b9c692218ba5101c6a384f1ce3ddd859179b4949",
+    "instrument": "SH601828",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601866-1225060271": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "67520c2f0af2ec0e011d2c18f03a5fbe7660b2e86618a7c5f761b33c4961cb42",
+    "instrument": "SH601866",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601880-1225035316": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "7fb24775a617e746e7e489cadbf583cc130e67f255cdfffd76589046c659d586",
+    "instrument": "SH601880",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601928-1225132651": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "7a9c106b72be579f7a0e281ac0e3908b4046be85329ccbf1b0239b9a36da0234",
+    "instrument": "SH601928",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601933-1225113031": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "f8b784a9875e7b9ff4a4fd5def1f1cd5c684df2c762ae76ea3e83d6315533216",
+    "instrument": "SH601933",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: cashflows",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601958-1225079049": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "e45c934723caf73d0ff071176ffd7bf868ba0a7f6a341cdc447b5b1c5fdd9636",
+    "instrument": "SH601958",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601966-1225207707": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "0fe18d1cb4d4dfa16ffd9b8f3c3844a5e5f2627b4fb4807f308a62ce2e3067ec",
+    "instrument": "SH601966",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601990-1225182727": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "29435a94729b99402c0b5bd2c854f0b1de5edc7233051328ae61973e0e685e0b",
+    "instrument": "SH601990",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601991-1225046476": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "ae1072d11a1b80f2a03845bdf9354361b645b3cb692def981a4392d9493d390d",
+    "instrument": "SH601991",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601992-1225059795": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "fdd77e0f657fda57e516514da251976529520e270561a8b3f8e122f4ff0b47a5",
+    "instrument": "SH601992",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601992-1225040616": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "8c24a28ac7df960d1a937f4c4c6ab9da9b6dc886d01f03c673568767055562d4",
+    "instrument": "SH601992",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH601997-1225151180": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "adfd981fd36a9899ffc3ee80ba5998fed1e3c638aecee29b1d54acc7e3514f0e",
+    "instrument": "SH601997",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603000-1225179292": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "006e483de1fa942b30e21109290b853264cd8bd21a821a0e674fa1b98d1e0678",
+    "instrument": "SH603000",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603026-1225062219": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "fae9fa9f1c7a40ab29175148591a61025c36605d016c73dab6491709414c7a1d",
+    "instrument": "SH603026",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603077-1225126516": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "96d409cf64e7477f961a416e947a3636fefae2ff90712ac576f86de331f6dc3f",
+    "instrument": "SH603077",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603127-1225054470": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "4a5646a82b556b8518bdcef9eb266b4ac1338badaa662e52aa4af2afb7a4d0f4",
+    "instrument": "SH603127",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: cashflows",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603156-1225192154": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "39f3babf5bc1852a79cb65e917adb2536dc72460b22635d9dd77a6cb71834b3b",
+    "instrument": "SH603156",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603160-1225035507": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "d1e79969f839725083454116d8500f5f68811709594b58bff7c2552ffa5fdb8d",
+    "instrument": "SH603160",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603185-1225235563": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "939d6e3ee12725c37acba1e4afb6ef696783bf8311728091d67af575f31a4f36",
+    "instrument": "SH603185",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603218-1225326019": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "d03a92283632e4c3af49a3d7cd160b12cc1d56f167eec25e38831e637057db99",
+    "instrument": "SH603218",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603218-1225217977": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "4eb1da7dd21b410badf557f49b2e8cf177743624ad3f34e3e340b45b1fae7345",
+    "instrument": "SH603218",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603225-1225109967": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "227e2a384383f7d99865934e8263d5caceec8f624badbe66ce859418a78ecf62",
+    "instrument": "SH603225",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603228-1225046569": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "ee7401bd32bb990221fbf9898f443daebbe8f5ec91c560ded35e3d7c272a46d6",
+    "instrument": "SH603228",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603233-1225163379": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "5e8371513b2a57a26ec1be4623ee42be517c724800d59c72fe609cfc70dc7799",
+    "instrument": "SH603233",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603267-1225046338": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "d8df837b808726f4078257076373ba75028220e2f3a64a9cf9a92a4ca4e4a646",
+    "instrument": "SH603267",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603305-1225146565": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "948026e9e573c518fbdc385264180ecd2d2e737ac4f4fa597dbc0bd239da2fcf",
+    "instrument": "SH603305",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603317-1225005744": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "3065c3052e9e5a34da8fa55b0fc5903af484df05d1aa5f946ed136f378114b4f",
+    "instrument": "SH603317",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603338-1225110692": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "ca2f7e00a01ca94561b6916041d06fffea3c360944eea3f82148da3a46aa4992",
+    "instrument": "SH603338",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603355-1225106543": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "8a82751e814ec4cd5ea4dbdceb3fe394549976643f58f8845a8ee2d0727d926e",
+    "instrument": "SH603355",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603379-1225200454": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "79b2bd977dbba15f337bb0eb309722506b43d251b35b7e66279865bd7dc44ccc",
+    "instrument": "SH603379",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603444-1225034641": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "7e930ec6afe064e911538e7eb07e09890317294b46543f2e650c7a6236db883a",
+    "instrument": "SH603444",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603456-1225161686": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "52593a9851eba59684916fe8cf5171ab3f5bd1c0f30c2fddb9047abe0a52338e",
+    "instrument": "SH603456",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603517-1225156279": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "86dacc032ff67c9dfa8587889349164040f28da810070453cc541b2b09185eaa",
+    "instrument": "SH603517",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603529-1225150933": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "4a336114ae05703e0d514e2db0a33696d920ef148eddd2f6139121f44d7669d7",
+    "instrument": "SH603529",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603568-1225119800": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "8f4ae65b834c6dae9622e5b18830fd737f39a666b6f5901e106048a666e746c7",
+    "instrument": "SH603568",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603589-1225145285": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "45b9b520f625c06c1d4a80f4d88f90eb898be63007547ef0b9bacbb3498d226d",
+    "instrument": "SH603589",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603596-1225048434": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "4394feeb1f3274cb8b657925d2e88defd237071a31f04bed4e53b72081a7a569",
+    "instrument": "SH603596",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603606-1225047125": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "aa740d3674273b3d79f7b5f80567ab63b65753926c4eff4b6657c17efe5f6f98",
+    "instrument": "SH603606",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603650-1225115153": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "ac9392afcc495759a1744fa3eb8abdfb71a698c570eaca6989c9914de2d81412",
+    "instrument": "SH603650",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603658-1225149309": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "22561e6db44e83cce3fc8f13a59f2c7be8668d9f955b2207c624caa2d94f9127",
+    "instrument": "SH603658",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603688-1225041817": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "e00d8d2145376d2facad1871dadc6f3dfa3f2954feef6b5a342f87ee48a0cfea",
+    "instrument": "SH603688",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603707-1225260266": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "5e2033eb0fd388af943d8f71309b10311de66acbf288cc77bcb5c3c58fb77e51",
+    "instrument": "SH603707",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded primary fiscal header required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603712-1225152127": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "b2aa4acedf98784c9ff59625eb61a0422d3bfa8957a30137146f38f674de47c1",
+    "instrument": "SH603712",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603737-1225148788": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "f61b2061215eb55b3b408202ccfc1199fcbda44885864c4f8e9d5042c58e9473",
+    "instrument": "SH603737",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603786-1225156346": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "d8289b61e8cea39ed72608994e31090800c0da000ebfab4638be778bc3363eca",
+    "instrument": "SH603786",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603816-1225148669": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "e5d3c957bef70d3032cd5dfd3ff348f4b802f2166aae1909b79d86292ece2c9d",
+    "instrument": "SH603816",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603826-1225156585": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "49588390043885c4074ce418d9f0ba3342026e8ec2b4c36f850288bcf086e80b",
+    "instrument": "SH603826",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603858-1225209439": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "405e74cdfcc41cbba77f563cd21c8d502d5e90fbb5fb41e42086b3a4512c26ae",
+    "instrument": "SH603858",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603866-1225229517": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "6fa19eac78a98116bfdb2bb83b126efce5cbc057f6f69d23060df6fd6e135077",
+    "instrument": "SH603866",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603868-1225231218": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "a792770998b4aee34d803c4afe7de800781922c8af4aed7a80d2d52bdb9321de",
+    "instrument": "SH603868",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603882-1225196146": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "72e6cc18ae01c20d85508903c5d831a77b1182b7b05c8b725af2f7aa7c14aedb",
+    "instrument": "SH603882",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603883-1225148953": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "312be7608be2fc520f1b76eabaac0003e9e9d1f2fbb656aa891cb1567b9736ad",
+    "instrument": "SH603883",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603885-1225151299": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "90ff4afc25531ab4306ac2fd0c2dedd71c6852915aaef28e6f9ca4978d8ce148",
+    "instrument": "SH603885",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603893-1225103780": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "dc375549254d93f2f2a57abcaa326d9d8865bf092ab558b53c23fcd85f9570f5",
+    "instrument": "SH603893",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603927-1225262795": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "2e3394c0c46a226a4ca3b044fbf56ca0202cd344111704e8d08f745e041e5e96",
+    "instrument": "SH603927",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH603939-1225151847": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "652d87aa5f85c88b0e3f5dd5d1093bff6c7bec4c28477ae45ef4653cafd8aaca",
+    "instrument": "SH603939",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SH605358-1225214695": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "69f60add9c696b5ff76030204bbbeb49b397b35781754f5a40124afcff765413",
+    "instrument": "SH605358",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000009-1225191885": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "37457f7b7f5a2f22ac20704c54b29137b73b8449674fc760f0e9c3dfae84a9b4",
+    "instrument": "SZ000009",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded contiguous annual table required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000021-1225227167": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "93ddb389eec98ff1369a58a277b63d2867dd5590051d6150e10146484c8c5b28",
+    "instrument": "SZ000021",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000027-1225111758": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "a8dde7c6cdf4e18012ae1fe3243f25367cc0f185ea4184d7bf72f216933c60e6",
+    "instrument": "SZ000027",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded primary fiscal header required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000031-1225184895": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "cbfbeaaaf99d6cee4d8489cc0bb87cf5cd5619e9dcef58a84d4b2ff7c6b57a1b",
+    "instrument": "SZ000031",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000039-1225037930": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "706dcc1febcc5d0b0720b61be420fb8405cbc24dd3fd2822e10ca9a6e91e9526",
+    "instrument": "SZ000039",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000050-1225009341": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "edb21e7592e9a0e3e3a0c30a58e39e1a9931df3deba93571a6bfdb0df7ca06ab",
+    "instrument": "SZ000050",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000060-1225140762": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d1aec17e3b4b06d8894c9f0daa9a4e80b76f1bf74ccc9a1309aa32dad9ea1be8",
+    "instrument": "SZ000060",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000066-1225240982": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "aa1fdff5aeb9ef82bf5a7cbf19d2b50817768b36171e5648e817fb673a34296d",
+    "instrument": "SZ000066",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one exact bounded source header at each project-column heading required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000089-1225169129": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "feaa923e853d7caf49a7e0fc1822da40a90d047a6a692d9ffd96aa8e86ec395f",
+    "instrument": "SZ000089",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000155-1225089876": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "1695cd9d7bb32065997f34af78bf6c68c0a32f3efb4689131f591284e1dcc9c5",
+    "instrument": "SZ000155",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000156-1225023169": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "a3ad3b90658262e78ee7a7ceca945ae7c75e50f2fcf65293ee4ab8ae27bb8baf",
+    "instrument": "SZ000156",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000400-1225096177": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "f7ced2e13a55f2fd01be0309429cf78d5ffc6677034a75aba68e4c40bd8e33d3",
+    "instrument": "SZ000400",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000401-1225038530": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "eb12b3418cbc606dfbe5bdb5834418e420e23590bffeb5b6f1792c72e25a38ed",
+    "instrument": "SZ000401",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000402-1225240594": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "79a1a9e50af95c2ca974dde552afeaef99f15911c9dab310c06106ea6f5449ab",
+    "instrument": "SZ000402",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded contiguous annual table required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000423-1225019488": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d9272d3d78df762dcfb79149d4fcec4490a6838025be6493afbcd6a62130f4ae",
+    "instrument": "SZ000423",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000513-1225029104": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c451024c0a1f6dfa02692c844f24b48b19b90214f15e58a9daa561aa6b5bb186",
+    "instrument": "SZ000513",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000519-1225160985": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d2b3b784ae71c5c549275f703380d9fef5cfadc7eb0c33e45c1818f3adff513c",
+    "instrument": "SZ000519",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000537-1225208723": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "08c8d9cc76ee1fed9d93403cc7998a4dc3adf108c1a3acaa0b009d9938a3ce99",
+    "instrument": "SZ000537",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000539-1225058371": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "6d8436152d5143ff7948ca1e6fb3b470dafd560c8c00ffc73479308bacc77164",
+    "instrument": "SZ000539",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000547-1225247825": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "3f93a5e8afa2900506eb9e0492f4f1f94c496ea0461d905c883d546fb5839cc8",
+    "instrument": "SZ000547",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000553-1225045238": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d8e62eb3aabd1887739537dc3ba260721b7f00e15a00dd58569f3c309d99da8e",
+    "instrument": "SZ000553",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000559-1225080420": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c3aee4825f713cf4dadc3fdc9a359358c31425caca9ad4bcbcdb08af8f5afe4e",
+    "instrument": "SZ000559",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000563-1224973751": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "ef0e0c16f4a9c7296df5afcc791714b66738d194320c7f65cc23d7af6def4c56",
+    "instrument": "SZ000563",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "explicit end of primary financial statements section required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000581-1225111397": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "64532291e9cb95824709408720f0ac322f36f8ced0423d89cba1b0c16b5735b7",
+    "instrument": "SZ000581",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000591-1225161470": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "669a8f71d1009eb206a4d2ba04ca5e03d8daacc7009fb7d46a18f1df2545cdcc",
+    "instrument": "SZ000591",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000598-1225212058": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "dcfad6d09f70663e552afe9737fe62c58e524f87c68fef28e5fb0af096a1d60d",
+    "instrument": "SZ000598",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000623-1225117576": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "b71c5dab2c479d610e1fc8b5005596880759a701e440ee2b5c47d3f103aeba66",
+    "instrument": "SZ000623",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000629-1225061907": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "63a08eba82104004d43dc9df8b0e4bf87663f68b746164a0b31a839a55bdae3d",
+    "instrument": "SZ000629",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000630-1225119697": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "41a8b8fa2ba0b9ea09012e9de1dbdb4c1ce61f4335a9c4002795f91fa4f15ce6",
+    "instrument": "SZ000630",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000636-1225129320": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "08ca5ff4ffdb4c5a11c969ce35b8cce68a792cd32ccc65cfd00240875b871197",
+    "instrument": "SZ000636",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000683-1225131777": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "fa5733f9fbcd47f57af33d9dc962fc24837a0bc0dbd7915415f812aef3bfb1d3",
+    "instrument": "SZ000683",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000703-1225104872": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "fe43359213adc1bcd8a0b102df71e2f60a0193b33fa36fdfb0ddb45cd5fd5d98",
+    "instrument": "SZ000703",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "explicit end of primary financial statements section required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000709-1225233674": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "2bfd1199eaaa887184ef48e43ca1e3c31b9b667b356c8d2a4db357650af8d3fe",
+    "instrument": "SZ000709",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000723-1225191406": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "5412472ae47c72aaa91b08ea5a332043dc615f2330af8609dfe42f944a0f5d42",
+    "instrument": "SZ000723",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000728-1225131651": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "b1844f2b513c0e0effa46e8166fb3ab298fad8a8ad927ef040d8d710f60e86fe",
+    "instrument": "SZ000728",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded contiguous annual table required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000729-1225102552": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "57685c16a166cb9f92221c0b6b5d9c1f203942802e7c14f802d8752ee6b4569a",
+    "instrument": "SZ000729",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "explicit end of primary financial statements section required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000738-1225036461": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "7b7f2bcb9ee3cf9744229466e00f9db5ebc094422e4aa60dfbdf0c8bfaf480f1",
+    "instrument": "SZ000738",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000739-1225019234": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "cf6b1832ea61270d847aa91781de9237dc8ce3a65d92029ff37b536b78c1e427",
+    "instrument": "SZ000739",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000750-1225045328": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "7e1f8e3de947e466b67988f9101cfca54c3a10849a2f5bfff872d7f5ed4f770c",
+    "instrument": "SZ000750",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000778-1225090852": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "945d25d76a34b69b787140ddf7bc01d878463f767d35c5043e5547c779a2f806",
+    "instrument": "SZ000778",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one exact bounded source header at each project-column heading required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000783-1225212469": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "2de5c9eb61f31009d661254b1a2d0f98bab4a9c15c7d8a180bb2d6d4df0200d7",
+    "instrument": "SZ000783",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000785-1225242095": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "1c6c2468168532208e49e8806a75a468900fb64df762165d7dad7f4b91028a4c",
+    "instrument": "SZ000785",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000825-1225221652": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "20cac132f7be2048be2065ba6a81c9e4530de326527ef19f66d0ffdbda8172a0",
+    "instrument": "SZ000825",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000830-1225240339": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "0d1e36fb8f77b0583d69dd84168e2919e7741df466a04e0b0dc49207d3a94feb",
+    "instrument": "SZ000830",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000831-1225218157": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "55c5b56f45ae37def9a5caaca0d7c5ef1d1329b77e3a280cbc25b74835359ceb",
+    "instrument": "SZ000831",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000878-1225037769": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "a49b49c7d423594d47fba9e95ca31ae8a855d4aec200e535bd7483e19798c4ce",
+    "instrument": "SZ000878",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000883-1225232694": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "1ecda93c43d1967e648189e68dca8014bd4e5e1b9ca6335991e0899b187ad28b",
+    "instrument": "SZ000883",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "generic balance needs one explicit same-page annual year-end date before its header",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000887-1225244206": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "bde58ff51b4b4af7d18c0a9189039f859a02f80b2cf42b4598f043226840c60e",
+    "instrument": "SZ000887",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000893-1225213241": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "121a322f49c8a87f691350710d59f4883a4710edf106f139e4ad9683747c13da",
+    "instrument": "SZ000893",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000898-1225061438": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "e16901583aa521a99c3bb52fbc0ff30c2f588566db730568132a49b415acfa61",
+    "instrument": "SZ000898",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000930-1225174162": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "3272d2049f7a01c3bdd553a5fa16e20672c8ccc1349189935d82e465e3177976",
+    "instrument": "SZ000930",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000932-1225061884": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "615ace3040638139c31e55392cba6f5df550adfe0be53f59038597c21a7bb4e3",
+    "instrument": "SZ000932",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000933-1225026188": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8fff892f7da46149a7db9e977a158d2984d3e4b35c3007a2336b35f2cdad841d",
+    "instrument": "SZ000933",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000937-1225238106": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "032d70d683167149205fbc8a42843bee5fd18364c941533473a2da63bf95161c",
+    "instrument": "SZ000937",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000958-1225172564": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "5b212c5853df26200e820149bdaedcd55613490bf9635bdb759af47ab84994d9",
+    "instrument": "SZ000958",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "generic balance needs one explicit same-page annual year-end date before its header",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000959-1225115503": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c6e04f0b9bf7251926d28b7266a31890b1d80386f9465f14f7cc209bf2638424",
+    "instrument": "SZ000959",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000960-1225043582": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "497907f44c57b860e9e26b53caadc0b1ada9ee024b466a8d7a05aef0537b5fea",
+    "instrument": "SZ000960",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000967-1225202620": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "01908b9aa50de3c44a7fef0b59ae6fc968360e97f4870900dff3a680048a415a",
+    "instrument": "SZ000967",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000970-1225043199": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "f39e5b13437efe30481d6ac046ff4685764f92074d9225d5e370d736a4c742c0",
+    "instrument": "SZ000970",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000975-1224998205": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "ec0d5c1ea6cc1c44cbf24abb43914dd14c0e7c5e21b5dd59b3c6aaa1889d9e28",
+    "instrument": "SZ000975",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000987-1225086073": {
+    "status": "CASH_ACCRUAL_CELLS_SUPPORTED_PENDING_SOURCE_QA",
+    "sha256": "6524fa9f985553681adbf62f5f2f519204799d2d41505aa07936f8e5382c2697",
+    "instrument": "SZ000987",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 2,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000988-1225031509": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c2b3d77740f712c9b68d486596a7eec646756302cbca317efd5022f6c3fe5682",
+    "instrument": "SZ000988",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000997-1225184535": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "94aeda1cecd4bc678d1f10678e1f95fabcb9cde522cb4e0781f73397cf488768",
+    "instrument": "SZ000997",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ000998-1225122138": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "b880f788a116d93592752e30c70d08afb78da541deedab8b62be175cdceb51d2",
+    "instrument": "SZ000998",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ001203-1225170843": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "5c8c476c0db8f1ed3c30d4570ad2c6dae16abbf45a77917c441b3526995f3cd6",
+    "instrument": "SZ001203",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ001227-1225219120": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "20f497945095f325f8bb3de90da65a0395f95e907bdf194a98c8948d66266d11",
+    "instrument": "SZ001227",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ001286-1225127565": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "2583affc00d034da58ee263a72f812e860aa864a58d15ce6d7fbe185a128739d",
+    "instrument": "SZ001286",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ001872-1225077416": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "4a78eed2881a77775af9587f09547f7b1e07d407f31ed803c28ff211ac588a6f",
+    "instrument": "SZ001872",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one exact bounded source header at each project-column heading required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ001914-1225009475": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8a6fb57021cdfb1bbcf2196995fb8007fb98ed1d1de706cdc985f763df09d47a",
+    "instrument": "SZ001914",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002008-1225114033": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "636191fbda680d298ff869819bc65d84ae0d2a6eddbdf81d75c8c63641aa3529",
+    "instrument": "SZ002008",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002010-1225131880": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "140d20a18398b79fc443a50105ce867aeabf87e3edbcc10788f7cd8df8b986d0",
+    "instrument": "SZ002010",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002019-1225163434": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "e1c62371d4a73cdb99d52071579e5116efe31e7bb7a219facbb35c57e62c822f",
+    "instrument": "SZ002019",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002025-1225054265": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "7a4eb91502d4b80ab981b990c13391842495a57a85711e66e296c579a9b1a15c",
+    "instrument": "SZ002025",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002028-1225117829": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "b12e6de24a94e23eb483bf6e7730e86b1e2367935b2e94d4cec7e027989b27eb",
+    "instrument": "SZ002028",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique ordered primary consolidated/parent balance and income statements required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002030-1225220189": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "6590c1d0bae48884261eeea955b9e59181c5aa0f096ed65172b513537cd9bddd",
+    "instrument": "SZ002030",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002032-1225076804": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "a4a324b0f59b0857d6ed549a8f62adc7e05087c978a91fe8e32b385003bc6de4",
+    "instrument": "SZ002032",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002044-1225216618": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c69f5ea0909ced521a203da59a7062a703abd37ed4db65342b5a957d5f463e96",
+    "instrument": "SZ002044",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002056-1225044458": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8a3a6e551a42f56b08d53be57cf8a1c464adc67e8c71c66e153f563e5a6727df",
+    "instrument": "SZ002056",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002064-1225042070": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "cc2be1d0eabe6c85688db3ff321ea9b7751aea3c15ed1a1366b7caad0f6a1c5a",
+    "instrument": "SZ002064",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002065-1225090051": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "12903310129eff955531edd48cc0a00a16a64a4718e88ae2ab869cbe3c07841a",
+    "instrument": "SZ002065",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002078-1225093922": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "666b0a6383f6b5f05c3bccf8c46da6291b699bb88ad51202b3c93503b791fb34",
+    "instrument": "SZ002078",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002080-1225018612": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "aca9c713d9a8122ba781313f5c93ea5e539705eac6951d248303942049db49d4",
+    "instrument": "SZ002080",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002092-1225032750": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "2c9f094df16ddabe443189ac19f8cf9ab1ed6148febef791f2d8c7c3373a4637",
+    "instrument": "SZ002092",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002120-1225187119": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "e7265ef3ca736b4f6d3cf74b56a2d64a7b8cef87c42459d1747c8a79ab0f00a5",
+    "instrument": "SZ002120",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002128-1225102909": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "9c979e0408add04ad61f46bfa42848ac1ef7147a52a97c0d0c94364848d273ec",
+    "instrument": "SZ002128",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002131-1225229135": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "7c607ddc8feb6b270ab164359187c31d3de450fe3687b55d85ebbc2d21905b9e",
+    "instrument": "SZ002131",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002138-1224988769": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d1adecd11bee3e7affc7d146aafe1b2afee0b1b83232eba8ee320c1a3f8e65c5",
+    "instrument": "SZ002138",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002152-1225043413": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "1dc5852d6c053a3f7c05a627ca25528ffd85678a92ab4e3f96758dfb29824f34",
+    "instrument": "SZ002152",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002153-1225032378": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "1d5b9c34e7e1136a68f24f67938b5dac9a111d5b9bd57d25e35a8695116345a6",
+    "instrument": "SZ002153",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002155-1225089229": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "fd40ec7812e295d657f0871c93a4ce1ef02e577c2063a3963bf45ed3f8b2e5e7",
+    "instrument": "SZ002155",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002156-1225112762": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "87fffba031c382c68b9c13d2499579088106805ebeeeffc746cfaf1bf0673cc2",
+    "instrument": "SZ002156",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002185-1225059982": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "19d3e3f4b16b831b2a36dc8b05ce3c3f635aa48f17211c6bac55828aad325989",
+    "instrument": "SZ002185",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002192-1225025147": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "19d04c63d7892c5381595bb0e4d68da21e69862f8d964fd6bc605ac5f102e753",
+    "instrument": "SZ002192",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002195-1225561079": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "723580478b9c3667bb40517ff58a4a8017f01c41c51c688f13e33bf551beb46b",
+    "instrument": "SZ002195",
+    "fiscal_year": 2024,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002195-1225561078": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "6751e64a0374ccb80bad3aa813234ca117638a36d69ab221fea6ade458b1bfed",
+    "instrument": "SZ002195",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002195-1225216850": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "2877a4e86de3d8c90b81bc9e65162a8ce6828890191f251eee506f2d0047adf9",
+    "instrument": "SZ002195",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002203-1225249266": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "52fe6caad58036fc73bcee9412a82b6adc6565d01fe4b6b3a778d11e44423a78",
+    "instrument": "SZ002203",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002223-1225185114": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "504cef77f3964ea71484a30e1aa523e155f9be1be58f187bdc853eccd91824cd",
+    "instrument": "SZ002223",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002240-1225044105": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "79157d3428a41515a2f0ed0da493e1021c0f5c787b6dc86a696b38a475b55c3a",
+    "instrument": "SZ002240",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002244-1225163873": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d38ecaf467d9399707035fc823f8b8e1a4dde7d8d915e37381e338220b876e00",
+    "instrument": "SZ002244",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002262-1225119427": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "1bf07b0757a04dc7b9aeb2016936097d975dcd51d36810118a389239ff3c6d67",
+    "instrument": "SZ002262",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002266-1225226528": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "10622e1b951b4df7d3ad3230b2a2e1ea8a53a91ee1ad65e39f61c1683bcbed23",
+    "instrument": "SZ002266",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002268-1225122886": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8fe5b98c153ec7295334ed0c503d053288d8dc73921184dbfff5d54db0acae2d",
+    "instrument": "SZ002268",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002273-1225122418": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "4dd76842e1907acbbee0c58dcfd775e702522918b4a8d7f0119740a951698523",
+    "instrument": "SZ002273",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002281-1225148212": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "4910ba7607841d75781ec2ddb6a8791dc0450453777c3667620ee8b9a00dab0b",
+    "instrument": "SZ002281",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002294-1225130579": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "757d98af555f420cf592a484b24500c9bfbf21435e74813d2f7ece618eff7339",
+    "instrument": "SZ002294",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002299-1225093953": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "7eab2bcecfcbacb04cfd9f280ecfcaae310f4c23e25fcd216ce2084f417cffb1",
+    "instrument": "SZ002299",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002326-1225205608": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c4d3786f8089047dba57ce98acb2e774953cd15e7c2b314d662766bfc925ea5e",
+    "instrument": "SZ002326",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002340-1225142250": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c6d8ab72c848de39542d2a2d7e596ed9c2db78a3a84a36a75f1ad63fe9408fdd",
+    "instrument": "SZ002340",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002353-1225113312": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "b1e6f48ec9cef9dd109ee9a596a1710c40bc1387eacafbf84e641e0ecb501ff2",
+    "instrument": "SZ002353",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002368-1225266598": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "a39ebee36934bcfefe5f942162eec5730085d26e26bb3e65e449635addb1b87a",
+    "instrument": "SZ002368",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002372-1225076292": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "ecfd31d6b0981c4d9edf899216609cfb6909cb76e88879acfbf0f104b1fe5af5",
+    "instrument": "SZ002372",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002373-1225121431": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d274a5f20621b6261d38f1c9ae9960cc0231767e6dbc152aaf440f111b957863",
+    "instrument": "SZ002373",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "generic balance needs one explicit same-page annual year-end date before its header",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002384-1225139318": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "e1af3758cdafb3beff944b7425e62b1d23e41e6a614481efb06fbb1f56cd432c",
+    "instrument": "SZ002384",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002385-1225171415": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "550e8db2e520827f326d6dcdfe93653b84b20b7601740958fb359f20d4bd53c7",
+    "instrument": "SZ002385",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "explicit end of primary financial statements section required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002399-1225062147": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "61439e593cf3a2ed72f60e09424bbaef33394f2a84d64f77ccd927e6e088f213",
+    "instrument": "SZ002399",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002407-1225107815": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "ca46ba5c2dd323b8a272ac2baf014219285861f0b96744faeb95e108377e7f1d",
+    "instrument": "SZ002407",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "generic balance needs one explicit same-page annual year-end date before its header",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002408-1225090353": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "f91ec69a980cbd311bf59b95ee76346e4629f812f510089fb311f8ca72139fff",
+    "instrument": "SZ002408",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded12same-page caption and unchanged two-cell tail required: income",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002409-1225216877": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8da3b8f487cfb6d175e645c56d1b74d0466095e5c058eba890572917e866b333",
+    "instrument": "SZ002409",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002414-1225101748": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "72e575232f8d24df621c0d0c4e3d0054ff075884ba9eca2caf308b8628988b79",
+    "instrument": "SZ002414",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002422-1225077697": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "552dd6091e3c2179e03d5051de1bcf4aeaea14e4615f69184f0ad1bc887f3d78",
+    "instrument": "SZ002422",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002423-1225160821": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "1f40ab35b00dd71b1a0d4d9bd65669de457086492fb130bea3ef3e19bf8fcfc2",
+    "instrument": "SZ002423",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "explicit end of primary financial statements section required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002429-1225172227": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8ed6261507d34979936f80028d687067135626857b58918ae28edd5448be009b",
+    "instrument": "SZ002429",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002430-1225092125": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "fd58ceb27f0379384cd210284fcc8cc647d26a1dae9bf20365f50b0338d500db",
+    "instrument": "SZ002430",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002432-1225246455": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "28336acbc6c41850bdaaca24006f11bde8004defcb533505b9f925d258a4f60c",
+    "instrument": "SZ002432",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002439-1225094655": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "aa44da92f4c9719bcd5e8cedaf6ef3ecf98eacafcebc9feec489bb70ebd768e8",
+    "instrument": "SZ002439",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002444-1225224529": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "ad66ed380e057533cae1e833965b1d29cd5e88351855266755f7ea5345cea29b",
+    "instrument": "SZ002444",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002463-1225027832": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "046aea254b78e10af2fa3ffaf6b2d04e28b881e291029999ccbe1345fc727801",
+    "instrument": "SZ002463",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one exact bounded source header at each project-column heading required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002465-1225044009": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "6093edb4b4c0cd7f4d565d4188e28561efcb8dae07ab07154e538b601e7fcf6f",
+    "instrument": "SZ002465",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002468-1225215186": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "8961dda8ccd30bae61bbe2320f29e9d976bab6bae386b6215c2be27a6e57b8c8",
+    "instrument": "SZ002468",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002472-1225170753": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "6f4241eadf3d1b3d0649cd894110e9741aacb22c5c20c11b89edff5a13e64100",
+    "instrument": "SZ002472",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002487-1224997956": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "769764d70ab6c9d40788cce87a39f723deb7d585350fd4c6d4c1fc442f5ffe05",
+    "instrument": "SZ002487",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002497-1225181781": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "cd4957bc04c8a0150a8947629bb2c9c93bab177788835f99ea73c2766bae4397",
+    "instrument": "SZ002497",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002500-1225215361": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "83fcab0b5ea3409479be95a6766f38b43a7d029478a5e18ac914e2701f6e3233",
+    "instrument": "SZ002500",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002506-1225233357": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "37b290bb2c4bd67b5c55ae0a6912618a6f7a7cf1a144d4c39135fe6387928794",
+    "instrument": "SZ002506",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "primary statements section bounded to40physical pages",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002507-1225042838": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "96a99ba3aa9ab29f54dcaa1e7185735ed135fca44118eda2646dff7bd96ecf4e",
+    "instrument": "SZ002507",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002508-1225237757": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "4cf0bdf322cee8cda088d833558fb7fcd40db55ee999de3996eb4df381ae0a93",
+    "instrument": "SZ002508",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002511-1225101484": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "f2440924067af6f11742f94aef4addc007836c610171fe6cbde58981680161e1",
+    "instrument": "SZ002511",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002517-1225225838": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8baddc0ab4c4ad4e4b0e7f6b0d83255dac07ea077b320c4cac4abea2e280a866",
+    "instrument": "SZ002517",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002518-1225189515": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "32fc6ebf184c38d777b88e46ae4ca81b9fc98fb72021b9d8c4d464b00130df5c",
+    "instrument": "SZ002518",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002531-1225053622": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "a59be025ac045052fb0e7a62a3b41c38bceb7c037262da5013d1554a21fd90e0",
+    "instrument": "SZ002531",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002532-1225041399": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "3ad7cd513fa28bacf847320eb72ff3ae6379f560ed78ecf61f221ec8d77da466",
+    "instrument": "SZ002532",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002557-1225132043": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "ba872c0459f557fd43fe8c55db9e7cbbf0ebdac194146f5a2bd0f7401e21ad8d",
+    "instrument": "SZ002557",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "generic balance needs one explicit same-page annual year-end date before its header",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002558-1225190389": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "08b9267a7924870fb141f57ad5ecbe00bd51b6ef73810d6f0f66fb9005f39753",
+    "instrument": "SZ002558",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002563-1225053655": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "02a692cec047e1309c9ba75dcb8f6340dcee27d5071b721c976ca23a1f243530",
+    "instrument": "SZ002563",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002568-1225244103": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "3c23172325ba751f012b0da54230af895f85c6e56c87f30dbbc6dda44a0249ab",
+    "instrument": "SZ002568",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002572-1225117188": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "ad7625a8b6fa843624174740826f3b34ed4f618e77cabc10d141ac2cbf18241b",
+    "instrument": "SZ002572",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002595-1225056602": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "3a0724cff1051adf03173f952a69a37a2a48a5a25b090a457285efb9e5984767",
+    "instrument": "SZ002595",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002600-1225043467": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "e964959c49b00dfa18140fe4392fea96b9a9b5a84f59edfb55e73ffcb78eb853",
+    "instrument": "SZ002600",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "generic balance needs one explicit same-page annual year-end date before its header",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002607-1225251198": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "538506f43567fe3432680616b7bfa70168d65f0658a648c4932e2de33a97e97f",
+    "instrument": "SZ002607",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002608-1225127358": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "375fa7299f70b52d73cff8d7b08608063ce0643b156ab026ad7275a35af57743",
+    "instrument": "SZ002608",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002624-1225207318": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c5c622c4d0d317aecb8141fae2cd63641afbf053d00587f5d5dcf617ef91debf",
+    "instrument": "SZ002624",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "generic balance needs one explicit same-page annual year-end date before its header",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002625-1225220969": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "9fe1d41ece001107e45492fdc41696476ca76d38e249d545803ae54689f06603",
+    "instrument": "SZ002625",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002653-1225290942": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "53e62dc36c5bbd5a8a61799b385a7a505ed3094ddd173bc0e665ec233254a8a9",
+    "instrument": "SZ002653",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002670-1225125124": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "2f8b70e44f90ceffbe687932654b4ebe16442649dcb686524164ec0a8419fa8e",
+    "instrument": "SZ002670",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "one exact bounded source header at each project-column heading required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002673-1225073049": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "51adf7210c6203d2986606a7113628d6eb504351aef7363d67b7f7586b6ec957",
+    "instrument": "SZ002673",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique scoped consolidated/parent table boundaries required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002683-1225034262": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8378401ea2bdc783a464358b3e48de8bab0fe8368f956a01254241d693508054",
+    "instrument": "SZ002683",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002690-1225055340": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "6f037859db49cb5d345dbca82cf34cab4d00a8055cf43e1522d1e497aa22dc1b",
+    "instrument": "SZ002690",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002738-1225089391": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "24e30d73ae82bcd2c38beadcc6388a5f6ab16c3b43fed9d6b0f315f6fa087728",
+    "instrument": "SZ002738",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "generic balance needs one explicit same-page annual year-end date before its header",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002739-1225188328": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "03d8ff55889dfbedb299ae282217fb5574961fe89a982be60af99f8fb929dcb9",
+    "instrument": "SZ002739",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one scoped explicit Chinese-CAS financial-statement compliance declaration required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002756-1225207010": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "79fc705aac318bb8b13c87b7ab323b4242115fb183daaea1ed7e66b321c655e6",
+    "instrument": "SZ002756",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002761-1225240555": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "86d8c17fdb51e48307c4688bd23a9c9f45a2390caeebc949793f17bacf5faf70",
+    "instrument": "SZ002761",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002791-1225093625": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "7cec8e29001a4cc61b9f1ad8d2700cec950a7b6617a1285dc28e3887ecc302d6",
+    "instrument": "SZ002791",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002797-1225243464": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "58c0bea9caaa098ffc9562e93e6b70ef98580606d329232461f54edec18c9eae",
+    "instrument": "SZ002797",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded primary fiscal header required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002831-1225239696": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "a6feb85d8eec4bdf8641593f6a967d05937acb390023827219b690bc2edbfc9e",
+    "instrument": "SZ002831",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002850-1225041059": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8af17726de9a542f176dfcb9fb900aa067c358574da3fcbd7d51337d937575e4",
+    "instrument": "SZ002850",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002865-1225058399": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "8d95518d83c64daba80db87201b697b4a30c09d99e071659678956ea3f50165f",
+    "instrument": "SZ002865",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002867-1225232114": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "203f61b7159b3a58ad8f4d370b1f6edd1f2f2baa8316c64053082104728bed82",
+    "instrument": "SZ002867",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002925-1225095877": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "14c71d0c351da7fb6a43406549cc390b975d7366381fe8afeb7c76a85726dc07",
+    "instrument": "SZ002925",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002926-1225154334": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "c13669bd0b6bb23efc2479186d0bead2fe2927f82af356d411a94776d1ab0ae1",
+    "instrument": "SZ002926",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002936-1225059563": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "f2ebbab331ac99ad32174538122b9f2649d3c5ea951adbdd26f6c03f1029f0d7",
+    "instrument": "SZ002936",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002939-1225132496": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "17c8afb66668858d794bd36717b37d991702ef993bbf6f02d377a605fdbbd142",
+    "instrument": "SZ002939",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "bounded contiguous annual table required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002945-1225068294": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "e7722dff15baf15ff51343cd0500cab00a73a845e1bba54e6edb2c461c3d564a",
+    "instrument": "SZ002945",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one exact bounded source header at each project-column heading required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002958-1225245638": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "3bb8da4282428d9f586468b8b5c2d013fa023d08f96ef38ee0280679f2254b50",
+    "instrument": "SZ002958",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "one explicit local monetary unit required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ002966-1225240273": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "ea93d23b84be94f58ca8c10c8e901d7c164771db278427a124a31a75fc4658f5",
+    "instrument": "SZ002966",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": "unique ordered primary consolidated/parent balance and income statements required",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ003022-1225044693": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "d6647fb9063d24d396559f5946bbfd47fcafaec53de4c3cdd6075741e6aadc91",
+    "instrument": "SZ003022",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ003031-1225224991": {
+    "status": "CASH_ACCRUAL_SOURCE_SCHEMA_UNSUPPORTED",
+    "sha256": "5080c7da68bfcbaa1dc775e1ccf5a43bb2923468ebac6f102593386a356e3851",
+    "instrument": "SZ003031",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 1,
+    "error": "explicit same-edition previousDecember31assets",
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  },
+  "SZ003035-1225044849": {
+    "status": "COVER_IDENTITY_UNVERIFIED",
+    "sha256": "8612bae47d43347f89c4fba43df873ae970399c08df5392d853a1e60b8cfec32",
+    "instrument": "SZ003035",
+    "fiscal_year": 2025,
+    "protected_asset_cells_compared": 0,
+    "error": null,
+    "source_parser_variant": "UNCHANGED_V3_EXPOSED2026_SOURCE"
+  }
+}

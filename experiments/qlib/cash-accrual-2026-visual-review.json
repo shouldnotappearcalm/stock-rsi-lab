@@ -1,0 +1,83 @@
+{
+  "status": "FIVE_ORIGINAL_PAGES_EIGHT_NI_CFO_CELLS_VISUALLY_MATCHED",
+  "manual_QA_full_corpus": false,
+  "fixture_sha256": "a187c8287a3250f13d705d2d663f873321998d430526fcbe203ffb930e597dfc",
+  "artifacts": {
+    "0-page74.png": "6c71727029f9812cce564e5e4b5d99f528a5082f1cbc01236163b5b458495787",
+    "0-page75.png": "5f62e207df369db8d36bf1b3475272b901d39a48cb0453e925c4ecbd3938beba",
+    "0-page78.png": "74d01e9aa66125369fb4a78c6ba6ab6c5a723b4159016eafc5efb81d10bf352e",
+    "1-page129.png": "fcb8c9231575715c773cc9f065877b386422136e8e9e7b738c2c285d648ead82",
+    "1-page131.png": "0415f1dc595b1c305623cd00d1790d4460ec33cb1059178ff6c232db9d732e09",
+    "review.json": "dd0fe30a65829faa08e56c0b611ab27854e03c413b3146f392992acbeeabd303"
+  },
+  "source_cases": [
+    {
+      "capture_key": "SH600004-1225257389",
+      "group": "SH",
+      "source_sha256": "9e0985f918abc4ac54ab33597cb56723545f242dff5a8bd859504b699f441099",
+      "pages": [
+        74,
+        75,
+        78
+      ],
+      "fields": {
+        "income": {
+          "row_page": 75,
+          "header_page": 74,
+          "unit_page": 74
+        },
+        "cashflows": {
+          "row_page": 78,
+          "header_page": 78,
+          "unit_page": 78
+        }
+      },
+      "report_contract": "CN_CONSOLIDATED_TOTAL_NI_CFO_AND_SAME_EDITION_ASSETS_SOURCE_V1",
+      "case_sha256": "97a1d0bafdc3d922eb7ceb372fbd2e3a477b2f1437b52e89dc11624f13b8285a",
+      "hand_checked_literals": {
+        "income": [
+          "1,513,673,711.49",
+          "965,752,959.58"
+        ],
+        "cashflows": [
+          "3,074,788,371.68",
+          "3,410,126,652.46"
+        ]
+      }
+    },
+    {
+      "capture_key": "SZ000031-1225184895",
+      "group": "SZ",
+      "source_sha256": "d7a38dbb0ff0121fca86338e698d59475f6df76a90caaaa8e26127fd92aaaacc",
+      "pages": [
+        129,
+        131
+      ],
+      "fields": {
+        "income": {
+          "row_page": 129,
+          "header_page": 129,
+          "unit_page": 129
+        },
+        "cashflows": {
+          "row_page": 131,
+          "header_page": 131,
+          "unit_page": 131
+        }
+      },
+      "report_contract": "CN_CONSOLIDATED_TOTAL_NI_CFO_AND_SAME_EDITION_ASSETS_SOURCE_V1",
+      "case_sha256": "cbfbeaaaf99d6cee4d8489cc0bb87cf5cd5619e9dcef58a84d4b2ff7c6b57a1b",
+      "hand_checked_literals": {
+        "income": [
+          "-2,223,310,273.32",
+          "-2,559,335,778.34"
+        ],
+        "cashflows": [
+          "3,022,719,556.75",
+          "6,617,322,861.11"
+        ]
+      }
+    }
+  ],
+  "scope": "NI/CFO rows,headers,units and consolidated scope; old472assets checked in original separate source QA; no ratio/ranking/return evaluated"
+}
