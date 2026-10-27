@@ -1,0 +1,249 @@
+{
+  "status": "FROZEN2026DATA_ADMISSION_FAILED_NO_VALID2026ACCOUNT_RETURN",
+  "request_sha256": "f8dfd4f7551ec31edd95eaf037094b6f2415d4400e6fdd866b23715e1b74477e",
+  "all_inputs_outputs_unchanged": true,
+  "old24targets_preserved_identically": true,
+  "forward_months": [
+    {
+      "execution_session": "2026-01-05",
+      "formation_asof": "2025-12-31",
+      "eligible": 96,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 96,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 1,
+        "NOT_IN_FORMATION_MEMBERSHIP": 123,
+        "LATEST_SOURCE_UNSUPPORTED": 136,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 37,
+        "STALE_ANNUAL_SOURCE": 1
+      }
+    },
+    {
+      "execution_session": "2026-02-02",
+      "formation_asof": "2026-01-30",
+      "eligible": 96,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 96,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 1,
+        "NOT_IN_FORMATION_MEMBERSHIP": 123,
+        "LATEST_SOURCE_UNSUPPORTED": 136,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 37,
+        "STALE_ANNUAL_SOURCE": 1
+      }
+    },
+    {
+      "execution_session": "2026-03-02",
+      "formation_asof": "2026-02-27",
+      "eligible": 95,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 95,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 1,
+        "NOT_IN_FORMATION_MEMBERSHIP": 123,
+        "LATEST_SOURCE_UNSUPPORTED": 136,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 37,
+        "NO_POSITIVE_FORMATION_QUOTE": 1,
+        "STALE_ANNUAL_SOURCE": 1
+      }
+    },
+    {
+      "execution_session": "2026-04-01",
+      "formation_asof": "2026-03-31",
+      "eligible": 95,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 95,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 1,
+        "NOT_IN_FORMATION_MEMBERSHIP": 123,
+        "LATEST_SOURCE_UNSUPPORTED": 137,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 37,
+        "STALE_ANNUAL_SOURCE": 1
+      }
+    },
+    {
+      "execution_session": "2026-05-06",
+      "formation_asof": "2026-04-30",
+      "eligible": 103,
+      "coverage_pass": true,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 103,
+        "NOT_IN_FORMATION_MEMBERSHIP": 123,
+        "LATEST_SOURCE_UNSUPPORTED": 131,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 37
+      }
+    },
+    {
+      "execution_session": "2026-06-01",
+      "formation_asof": "2026-05-29",
+      "eligible": 102,
+      "coverage_pass": true,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 102,
+        "NOT_IN_FORMATION_MEMBERSHIP": 123,
+        "LATEST_SOURCE_UNSUPPORTED": 132,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 37
+      }
+    },
+    {
+      "execution_session": "2026-07-01",
+      "formation_asof": "2026-06-30",
+      "eligible": 92,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 92,
+        "NOT_IN_FORMATION_MEMBERSHIP": 147,
+        "LATEST_SOURCE_UNSUPPORTED": 122,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 33
+      }
+    },
+    {
+      "execution_session": "2026-08-03",
+      "formation_asof": "2026-07-31",
+      "eligible": 92,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 92,
+        "NOT_IN_FORMATION_MEMBERSHIP": 147,
+        "LATEST_SOURCE_UNSUPPORTED": 122,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 33
+      }
+    },
+    {
+      "execution_session": "2026-09-01",
+      "formation_asof": "2026-08-31",
+      "eligible": 92,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 92,
+        "NOT_IN_FORMATION_MEMBERSHIP": 147,
+        "LATEST_SOURCE_UNSUPPORTED": 122,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 33
+      }
+    },
+    {
+      "execution_session": "2026-10-08",
+      "formation_asof": "2026-09-30",
+      "eligible": 92,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 92,
+        "NOT_IN_FORMATION_MEMBERSHIP": 147,
+        "LATEST_SOURCE_UNSUPPORTED": 122,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 33
+      }
+    }
+  ],
+  "failed_forward_months": [
+    {
+      "execution_session": "2026-01-05",
+      "formation_asof": "2025-12-31",
+      "eligible": 96,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 96,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 1,
+        "NOT_IN_FORMATION_MEMBERSHIP": 123,
+        "LATEST_SOURCE_UNSUPPORTED": 136,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 37,
+        "STALE_ANNUAL_SOURCE": 1
+      }
+    },
+    {
+      "execution_session": "2026-02-02",
+      "formation_asof": "2026-01-30",
+      "eligible": 96,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 96,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 1,
+        "NOT_IN_FORMATION_MEMBERSHIP": 123,
+        "LATEST_SOURCE_UNSUPPORTED": 136,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 37,
+        "STALE_ANNUAL_SOURCE": 1
+      }
+    },
+    {
+      "execution_session": "2026-03-02",
+      "formation_asof": "2026-02-27",
+      "eligible": 95,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 95,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 1,
+        "NOT_IN_FORMATION_MEMBERSHIP": 123,
+        "LATEST_SOURCE_UNSUPPORTED": 136,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 37,
+        "NO_POSITIVE_FORMATION_QUOTE": 1,
+        "STALE_ANNUAL_SOURCE": 1
+      }
+    },
+    {
+      "execution_session": "2026-04-01",
+      "formation_asof": "2026-03-31",
+      "eligible": 95,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 95,
+        "AMBIGUOUS_LATEST_SAME_DAY_EDITIONS": 1,
+        "NOT_IN_FORMATION_MEMBERSHIP": 123,
+        "LATEST_SOURCE_UNSUPPORTED": 137,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 37,
+        "STALE_ANNUAL_SOURCE": 1
+      }
+    },
+    {
+      "execution_session": "2026-07-01",
+      "formation_asof": "2026-06-30",
+      "eligible": 92,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 92,
+        "NOT_IN_FORMATION_MEMBERSHIP": 147,
+        "LATEST_SOURCE_UNSUPPORTED": 122,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 33
+      }
+    },
+    {
+      "execution_session": "2026-08-03",
+      "formation_asof": "2026-07-31",
+      "eligible": 92,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 92,
+        "NOT_IN_FORMATION_MEMBERSHIP": 147,
+        "LATEST_SOURCE_UNSUPPORTED": 122,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 33
+      }
+    },
+    {
+      "execution_session": "2026-09-01",
+      "formation_asof": "2026-08-31",
+      "eligible": 92,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 92,
+        "NOT_IN_FORMATION_MEMBERSHIP": 147,
+        "LATEST_SOURCE_UNSUPPORTED": 122,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 33
+      }
+    },
+    {
+      "execution_session": "2026-10-08",
+      "formation_asof": "2026-09-30",
+      "eligible": 92,
+      "coverage_pass": false,
+      "admission_counts": {
+        "CONDITIONALLY_RANKABLE_NOT_INVESTMENT_ADMITTED": 92,
+        "NOT_IN_FORMATION_MEMBERSHIP": 147,
+        "LATEST_SOURCE_UNSUPPORTED": 122,
+        "NOT_NONFINANCIAL_IN_2021_SOURCE": 33
+      }
+    }
+  ],
+  "2026_account_return": null,
+  "2026_portfolio_returns_computed": false,
+  "coverage_guard_changed": false,
+  "investment_rule_changed": false,
+  "objective_achieved": false
+}
