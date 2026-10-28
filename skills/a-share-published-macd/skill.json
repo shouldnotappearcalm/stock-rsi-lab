@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "macd",
+  "symbols": [
+    "SZ000001"
+  ],
+  "history": 100,
+  "fast": 12,
+  "slow": 26,
+  "signal": 9,
+  "entry": "hist_now > 0 AND hist_prev < 0",
+  "exit": "hist_now < 0 AND hist_prev > 0",
+  "buy": "TARGET_95_PERCENT_EQUITY",
+  "max_target_exposure": 0.95,
+  "wake": "EACH_EXCHANGE_SESSION_15:05_ASIA_SHANGHAI",
+  "execution": "NEXT_EXCHANGE_SESSION_09:30_DAILY_OPEN_PROXY",
+  "source_snapshot": "64937228246d658892fc28d0cb17f1aeeabe1c1b",
+  "source_blob_sha256": "f6f35f24d699c6001d51e931009382255a9db19c6b2d88962fac0cc900eae88a"
+}

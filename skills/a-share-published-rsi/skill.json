@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "rsi",
+  "symbols": [
+    "SZ000001",
+    "SH601988",
+    "SZ000068"
+  ],
+  "history": 15,
+  "period": 14,
+  "low": 30,
+  "high": 85,
+  "cash_fraction": 0.3,
+  "entry": "RSI < 30; repeated buys allowed",
+  "exit": "RSI > 85; sell entire position",
+  "buy": "30_PERCENT_PRIOR_CASH_SEQUENTIAL_RESERVATION_WITH_95_PERCENT_CAP",
+  "max_target_exposure": 0.95,
+  "wake": "EACH_EXCHANGE_SESSION_15:05_ASIA_SHANGHAI",
+  "execution": "NEXT_EXCHANGE_SESSION_09:30_DAILY_OPEN_PROXY",
+  "source_snapshot": "64937228246d658892fc28d0cb17f1aeeabe1c1b",
+  "source_blob_sha256": "c1b7256dc878c4291ff27b385b2fbafda30348d4f218dd40c7f3821dd0283428"
+}

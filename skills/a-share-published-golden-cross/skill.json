@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "golden_cross",
+  "symbols": [
+    "SZ000001"
+  ],
+  "history": 121,
+  "short": 20,
+  "long": 120,
+  "entry": "short_now > long_now AND short_prev < long_prev",
+  "exit": "short_now < long_now AND short_prev > long_prev",
+  "buy": "ADD_AVAILABLE_CASH_UP_TO_95_PERCENT_EQUITY",
+  "max_target_exposure": 0.95,
+  "wake": "EACH_EXCHANGE_SESSION_15:05_ASIA_SHANGHAI",
+  "execution": "NEXT_EXCHANGE_SESSION_09:30_DAILY_OPEN_PROXY",
+  "source_snapshot": "64937228246d658892fc28d0cb17f1aeeabe1c1b",
+  "source_blob_sha256": "2ffe9e60b4294769af1d887aaad234f7eef91809959143e8ad5fc5bf8643c55f"
+}

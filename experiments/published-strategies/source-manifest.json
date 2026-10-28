@@ -1,0 +1,64 @@
+{
+  "repository": "https://github.com/ricequant/rqalpha",
+  "snapshot_commit": "64937228246d658892fc28d0cb17f1aeeabe1c1b",
+  "snapshot_author_at": "2017-04-07T22:32:40+08:00",
+  "snapshot_committer_at": "2017-04-07T22:32:40+08:00",
+  "timestamp_evidence": "Git commit metadata read from cloned upstream; not a trusted timestamp authority or proof of live trading",
+  "source_class": "ORIGINAL_PUBLISHER_A_SHARE_EDUCATIONAL_RECIPES_NOT_PERSONAL_LIVE_TRADE_RECORDS",
+  "captured_at": "2026-10-28",
+  "license_at_selected_revision": "Apache-2.0",
+  "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "commit_object_sha256": "5057d645aac36a534ca92bdfad333edd330ea85a3bafbee1d335eda10343ffec",
+  "strategies": [
+    {
+      "strategy": "golden_cross",
+      "path": "rqalpha/examples/golden_cross.py",
+      "blob_sha1": "37ad04e38aac3478a0a31f491222320394bd8e87",
+      "sha256": "2ffe9e60b4294769af1d887aaad234f7eef91809959143e8ad5fc5bf8643c55f",
+      "source_url": "https://github.com/ricequant/rqalpha/blob/64937228246d658892fc28d0cb17f1aeeabe1c1b/rqalpha/examples/golden_cross.py",
+      "file_last_commit": [
+        "5631fcbbb64cca5e6cc7afaf9ef477ef62b1b40d",
+        "2017-04-06T23:52:37+08:00",
+        "2017-04-06T23:52:37+08:00"
+      ]
+    },
+    {
+      "strategy": "macd",
+      "path": "rqalpha/examples/macd.py",
+      "blob_sha1": "9a0e23f6585a202b2167cf9b04562cb85898d19a",
+      "sha256": "f6f35f24d699c6001d51e931009382255a9db19c6b2d88962fac0cc900eae88a",
+      "source_url": "https://github.com/ricequant/rqalpha/blob/64937228246d658892fc28d0cb17f1aeeabe1c1b/rqalpha/examples/macd.py",
+      "file_last_commit": [
+        "64937228246d658892fc28d0cb17f1aeeabe1c1b",
+        "2017-04-07T22:32:40+08:00",
+        "2017-04-07T22:32:40+08:00"
+      ]
+    },
+    {
+      "strategy": "rsi",
+      "path": "rqalpha/examples/rsi.py",
+      "blob_sha1": "d521208fe23aca684d7283b3e96c0f7efde16354",
+      "sha256": "c1b7256dc878c4291ff27b385b2fbafda30348d4f218dd40c7f3821dd0283428",
+      "source_url": "https://github.com/ricequant/rqalpha/blob/64937228246d658892fc28d0cb17f1aeeabe1c1b/rqalpha/examples/rsi.py",
+      "file_last_commit": [
+        "d88d03b5bc6a3ff814a163a768aeaeedc5a05d8f",
+        "2017-02-16T16:21:09+08:00",
+        "2017-02-16T17:25:47+08:00"
+      ]
+    }
+  ],
+  "not_selected": [
+    {
+      "url": "https://www.youquant.com/strategy/157270",
+      "reason": "2019 timestamp but cryptocurrency implementation, not A-share"
+    },
+    {
+      "url": "https://fudan.bigquant.com/wiki/doc/ZANCDncjJE",
+      "reason": "2024 update already overlaps development period"
+    },
+    {
+      "url": "https://bigquant.com/wiki/doc/HBpQsdc6ym",
+      "reason": "visible current article alone does not establish pre2024 rule version"
+    }
+  ]
+}
