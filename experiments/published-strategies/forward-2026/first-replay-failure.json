@@ -1,0 +1,36 @@
+{
+  "status": "FORWARD_APPLICATION_INCOMPLETE",
+  "complete": false,
+  "request_sha256": "e49001377b08af08c338e592c6cef2924cdd9d00a2ff5d165f80c54a0d18cd38",
+  "candidates": [
+    "macd",
+    "rsi"
+  ],
+  "average_exposure_is_hard_gate": false,
+  "2026_results_used_to_change_rules": false,
+  "2026_portfolio_attempted": false,
+  "raw_share_or_investment_qualified": false,
+  "objective_achieved": false,
+  "error_type": "ValueError",
+  "error": "historical account prefix changed: days.csv",
+  "failed_stage": "baseline/20/rsi",
+  "all_inputs_unchanged": true,
+  "artifact_sha256": {
+    "baseline/20/macd/days.csv": "603d933e24a429386bc9613727f80f278e7dce1f8f869870c4a18a674acd8dc3",
+    "baseline/20/macd/decision_intents.json": "0f5e06e17a1ecf1f1dfc8e9145919bce6f980328ff7c9a5fdcdbf0fbaffb19ca",
+    "baseline/20/macd/holdings.csv": "08650082bc0393bca66cd36f55a08cb439b808101d3414d0dbd4417aa337e4bb",
+    "baseline/20/macd/metrics.json": "0e94a24c3f103d56827d33efc5110852b9741b3deff3452956a62f86a5818ef8",
+    "baseline/20/macd/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/20/macd/orders.csv": "81c75f3a6d548bc2331cefe825963238c47ed18f6beded017527e02272e073f3",
+    "baseline/20/macd/positions.pkl": "03bdacfe61fda06e212f0311e5eca31b2aac9fa5470cb9b3ed6a4629014e53b3",
+    "baseline/20/macd/report.pkl": "396c186ebc5f32a2a5a6f2b298fc880792f0fac95a98d51bbc772249a7c4d488",
+    "baseline/20/rsi/days.csv": "df0eb86348870539fe5cb1b6bbee1bb0a0e42384cc02cfe9df233234ece5dd2c",
+    "baseline/20/rsi/decision_intents.json": "3d189fadff1f3478bf49389423f8419497c8081371538693e6a103afa3be0c15",
+    "baseline/20/rsi/holdings.csv": "852c1dfd6661a28a6a938fba4c1b0917866b8d0062d061784d21848b9f737baf",
+    "baseline/20/rsi/metrics.json": "2cc4b1f1148a17ebd57f4ca032ecf196af9d1bbed6f83a5306330649a89c9cac",
+    "baseline/20/rsi/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/20/rsi/orders.csv": "9d011d20ebd5816bfff527061d240eb58d0205d78831fce0ac13dee102324e2e",
+    "baseline/20/rsi/positions.pkl": "ced398987c7275b9e53e19ba7306f5aec6f4a6c8225a74232869666bb251d173",
+    "baseline/20/rsi/report.pkl": "8fd82465e86a0885e24f87a8778da63ab72c10ed8bd16181fb5f9840e31557d4"
+  }
+}
