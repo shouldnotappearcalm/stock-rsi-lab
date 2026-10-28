@@ -1,0 +1,61 @@
+{
+  "status": "USER_AUTHORIZED_TWO_PROFITABLE_RECIPES_FORWARD_APPLICATION",
+  "candidates": [
+    "macd",
+    "rsi"
+  ],
+  "development_basis": "2024_AND2025_EACH_POSITIVE_USER_EXPLICIT_SELECTION",
+  "average_exposure_is_hard_gate": false,
+  "window": [
+    "2024-01-02",
+    "2026-10-27"
+  ],
+  "initial_CNY": 1000000,
+  "year2026_baseline": "2025_FINAL_NAV_NO_ACCOUNT_RESET",
+  "extra_bps": [
+    20,
+    40
+  ],
+  "frozen_original_method_source_skill_sha256": {
+    "docs/research/published-strategies-clock-fix-2026-10-28.md": "698de51413090656f9cd6f57e7d2ed0daa66f9363c7e8b749072c6f19d5b4923",
+    "docs/research/published-strategies-execution-fix-2026-10-28.md": "95c7f6742febcd785cc1fe3b60b7e787dcadd5bc64b939fcda9abaef5863d7f5",
+    "docs/research/published-strategies-protocol-2026-10-28.md": "0a6af9d9f5641d43142329368590c378daf0744138ab5ad1dd9842145ead7343",
+    "experiments/published-strategies/indicator-reference.json": "587dc8d57f7aab90ebd1a19227c6dea4ee36456308422297740cb66e9deceb5f",
+    "experiments/published-strategies/source-manifest.json": "7a691ecd9fc16024061af3f0ce15ea7ce9c33977e1fb9809c444ddacb710896b",
+    "experiments/published-strategies/upstream/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "experiments/published-strategies/upstream/commit.txt": "5057d645aac36a534ca92bdfad333edd330ea85a3bafbee1d335eda10343ffec",
+    "experiments/published-strategies/upstream/golden_cross.py": "2ffe9e60b4294769af1d887aaad234f7eef91809959143e8ad5fc5bf8643c55f",
+    "experiments/published-strategies/upstream/macd.py": "f6f35f24d699c6001d51e931009382255a9db19c6b2d88962fac0cc900eae88a",
+    "experiments/published-strategies/upstream/rsi.py": "c1b7256dc878c4291ff27b385b2fbafda30348d4f218dd40c7f3821dd0283428",
+    "scripts/audit_published_strategies.py": "b2022ebc66fc2f8e1b50b50b629e935dc4b00cbfba809169c68291e638405d02",
+    "scripts/audit_published_strategy_execution.py": "652ec2583c1f163a393c47640cea63cca08a9446ae6004c34c9fa6a9ebbcc066",
+    "scripts/prepare_price_delay_clock_pre2026.py": "d7b3cbd2442b86b7bfc5eb3852a395cf91f8f020bc09c08d27f675cdedaea75a",
+    "scripts/prepare_published_strategy_clock.py": "8145619279215266830f91d11807af7e7f0116633813bb1cfcddb624dd7588f8",
+    "scripts/prepare_published_strategy_data.py": "456ef3c689ee3267befb1c097ece89b09883da74134178dd8e09834772c0872d",
+    "scripts/run_published_strategies.py": "bcf1c5b6820a53a255def37cc50522e62a22565934dd5da30d412c24477f55ef",
+    "scripts/run_published_strategies_clock.py": "16b66e93bff145c9069a139c201ea4efc8571bfeca09d978d9b932cc9fc98b74",
+    "scripts/run_published_strategies_strict.py": "c5046f61a04108c3d38c38d3533c5e8f30141d47e6e14e7b381b1e87c8242572",
+    "scripts/run_qlib_low_risk_pre2026.py": "b4386f7db451213d295db118ca20e38cb60931a7a6a9fc71e2bacb585c9854e0",
+    "scripts/run_qlib_profitability_pre2026.py": "7d94538939f197380d23b64f5eee3d434bf7011ed67125c54a001b87fee2ad9c",
+    "skills/a-share-published-golden-cross/SKILL.md": "d2a63adf03fcd315c0530ac5d66031213aa9a7fb8cd6ebd95d728db6f147839d",
+    "skills/a-share-published-golden-cross/skill.json": "ff3c9d32dc08f299d24a5cb4952955bc86619fff6983ff011541de8a63bd0aea",
+    "skills/a-share-published-macd/SKILL.md": "d6b20d7e225a2a9b52af31d43c040dc70ddd8391b7b5816b4906774ba1ab5142",
+    "skills/a-share-published-macd/skill.json": "6c8e4c8d21ea584461be10e74aace5be57c366a013c4013e66c3b0d1ac82a592",
+    "skills/a-share-published-rsi/SKILL.md": "696c939c7ae971701285c4814252d62131b9900811a7c394e640591dd666f2ce",
+    "skills/a-share-published-rsi/skill.json": "6b3d95f6c9f2fb00f03413b58ec054f8ce78663a148230ff27f313eab0c641e1",
+    "src/stock_rsi/prior_close_orders.py": "d3c47501963bd42cc9c110328c8be86daa296cbbd5c3b16e689ccfc3972de7ac",
+    "src/stock_rsi/published_qlib_strategy.py": "2c3a33b95d7e62c8ff47e078f191b7a1623d056ef7c7745850854e1f77c96024",
+    "src/stock_rsi/published_signals.py": "85bd6f8e0307967a04194b36f74da5bccaeddf92472cf06d979e088c2c44f3f0",
+    "src/stock_rsi/qlib_daily_evidence.py": "24736af3bab74c11da00294ec55b9527ae04298ed406552e3c36060fcf133181",
+    "src/stock_rsi/qlib_snapshot.py": "b06bf89aaa78a07bcbeb0f9ad731c4713f1a95a3136b4fbdddaab860ec260bde",
+    "src/stock_rsi/strict_qlib_exchange.py": "49bf8cc987f7bbad46ca5eae6dd1204481ef2ee20c803ec61b25b7be6666b51c",
+    "tests/test_published_strategies.py": "6f7f45a957bb8458cbc133db7f578fee809122bdf7a94fce1bdd31bfcf5682bf",
+    "tests/test_published_strategy_clock.py": "10784af512f58d5a8c858d0d2a84bb8417a89bf108381ad5cf2d4bb0a24e80d5",
+    "tests/test_published_strategy_execution.py": "b6033fe5c5ad53446913798712ba3618f577e9acf6fb4723d43c15779d080e84",
+    "tests/test_strict_qlib_exchange.py": "b06cebf220c6a64a8b14f0c98329bb32eb1342ec209377375072bd514c6b0846"
+  },
+  "old_results_sha256": "0811e3bc5517d9815042e3d4cb21f9d0db7fd0a67180a1a9651a22c8d4672846",
+  "vendor_manifest_sha256": "c86bf4b9ca6dc40b64400c1e15043a831c0ada0ceb229df60943904fd2f364bf",
+  "2026_returns_seen_before_selection": false,
+  "old_2026_exposure_in_other_experiments_acknowledged": true
+}
