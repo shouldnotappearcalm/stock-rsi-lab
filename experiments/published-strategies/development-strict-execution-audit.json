@@ -1,0 +1,60 @@
+{
+  "status": "PASS_LITERAL_SOURCE_OPENS_CLOSES_PRIOR_INTENTS_AND_CAPACITY_NOT_RAW_ACCOUNT_QUALIFICATION",
+  "strict_execution_qualification_passes": true,
+  "size_overshoot_count": 0,
+  "max_excess_raw_share_equivalent": 0,
+  "cases": {
+    "20/golden_cross": {
+      "orders_checked": 5,
+      "source_close_marks_checked": 211,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.1432649722652658,
+      "strict_request_size_bound_passes": true,
+      "size_overshoot_anomalies": []
+    },
+    "20/macd": {
+      "orders_checked": 26,
+      "source_close_marks_checked": 212,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.15448857677126368,
+      "strict_request_size_bound_passes": true,
+      "size_overshoot_anomalies": []
+    },
+    "20/rsi": {
+      "orders_checked": 84,
+      "source_close_marks_checked": 1035,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.5590608693620743,
+      "strict_request_size_bound_passes": true,
+      "size_overshoot_anomalies": []
+    },
+    "40/golden_cross": {
+      "orders_checked": 5,
+      "source_close_marks_checked": 211,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.1432649722652658,
+      "strict_request_size_bound_passes": true,
+      "size_overshoot_anomalies": []
+    },
+    "40/macd": {
+      "orders_checked": 25,
+      "source_close_marks_checked": 212,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.14771816105618837,
+      "strict_request_size_bound_passes": true,
+      "size_overshoot_anomalies": []
+    },
+    "40/rsi": {
+      "orders_checked": 80,
+      "source_close_marks_checked": 1034,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.5531021789708721,
+      "strict_request_size_bound_passes": true,
+      "size_overshoot_anomalies": []
+    }
+  },
+  "terminal_sha256": "4fd674192c0440bc63d00c558c9404d2c27a4210b3c1ce019710663bec0eb2ec",
+  "2026_values_read": false,
+  "same_researcher_not_independent_assurance": true,
+  "portfolio_rerun": false
+}
