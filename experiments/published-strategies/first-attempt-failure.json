@@ -1,0 +1,14 @@
+{
+  "status": "PUBLISHED_RECIPE_SCREEN_INCOMPLETE",
+  "request_sha256": "076be09b09bf5943edfd1f685eecd19d1cf201b55d4e2ac2c53df4c8c79a41ea",
+  "complete": false,
+  "2026_values_read": false,
+  "2026_return_pct": null,
+  "investment_admitted": false,
+  "objective_achieved": false,
+  "error_type": "IndexError",
+  "error": "index 6301 is out of bounds for axis 0 with size 6301",
+  "failed_case": "20/golden_cross",
+  "all_inputs_unchanged": true,
+  "artifact_sha256": {}
+}
