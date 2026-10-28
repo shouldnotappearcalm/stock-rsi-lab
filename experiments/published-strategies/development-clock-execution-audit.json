@@ -1,0 +1,295 @@
+{
+  "status": "SOURCE_PRICES_MATCH_BUT_REQUEST_SIZE_BOUND_FAILS",
+  "strict_execution_qualification_passes": false,
+  "size_overshoot_count": 33,
+  "max_excess_raw_share_equivalent": 0.08061557109944928,
+  "cases": {
+    "20/golden_cross": {
+      "orders_checked": 5,
+      "source_close_marks_checked": 211,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.1432649722652658,
+      "strict_request_size_bound_passes": true,
+      "size_overshoot_anomalies": []
+    },
+    "20/macd": {
+      "orders_checked": 26,
+      "source_close_marks_checked": 212,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.15448857677126368,
+      "strict_request_size_bound_passes": false,
+      "size_overshoot_anomalies": [
+        {
+          "case": "20/macd",
+          "session": "2024-07-15",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.2187519408762455,
+          "excess_raw_share_equivalent": 0.06904288637999378
+        },
+        {
+          "case": "20/macd",
+          "session": "2025-02-07",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.001203302482053914,
+          "excess_raw_share_equivalent": 0.00038809340520272413
+        },
+        {
+          "case": "20/macd",
+          "session": "2025-03-07",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.24810937425354496,
+          "excess_raw_share_equivalent": 0.08002126016141559
+        }
+      ]
+    },
+    "20/rsi": {
+      "orders_checked": 74,
+      "source_close_marks_checked": 1006,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.5601444830318464,
+      "strict_request_size_bound_passes": false,
+      "size_overshoot_anomalies": [
+        {
+          "case": "20/rsi",
+          "session": "2024-04-26",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.11190069760937149,
+          "excess_raw_share_equivalent": 0.033191389245468474
+        },
+        {
+          "case": "20/rsi",
+          "session": "2024-05-27",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.10636108968515146,
+          "excess_raw_share_equivalent": 0.031516045478440974
+        },
+        {
+          "case": "20/rsi",
+          "session": "2024-06-14",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.058522605198959354,
+          "excess_raw_share_equivalent": 0.0173387528669573
+        },
+        {
+          "case": "20/rsi",
+          "session": "2024-06-24",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.2719185629037497,
+          "excess_raw_share_equivalent": 0.08061557109944928
+        },
+        {
+          "case": "20/rsi",
+          "session": "2024-09-11",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.06414202794803714,
+          "excess_raw_share_equivalent": 0.020244516747964313
+        },
+        {
+          "case": "20/rsi",
+          "session": "2024-09-18",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.0017950135065802897,
+          "excess_raw_share_equivalent": 0.0005665443654750883
+        },
+        {
+          "case": "20/rsi",
+          "session": "2025-04-03",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.0756359743027133,
+          "excess_raw_share_equivalent": 0.02439440654758409
+        },
+        {
+          "case": "20/rsi",
+          "session": "2025-04-08",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.026587323631247273,
+          "excess_raw_share_equivalent": 0.008575031246161172
+        },
+        {
+          "case": "20/rsi",
+          "session": "2025-04-10",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.10846737768872572,
+          "excess_raw_share_equivalent": 0.032147265436794956
+        },
+        {
+          "case": "20/rsi",
+          "session": "2025-07-31",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.14157454657834023,
+          "excess_raw_share_equivalent": 0.04709172744418108
+        },
+        {
+          "case": "20/rsi",
+          "session": "2025-09-19",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.000296292779637497,
+          "excess_raw_share_equivalent": 9.855569319292947e-05
+        },
+        {
+          "case": "20/rsi",
+          "session": "2025-09-23",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 5.3871110424097424e-05,
+          "excess_raw_share_equivalent": 1.7919173603815367e-05
+        },
+        {
+          "case": "20/rsi",
+          "session": "2025-12-12",
+          "instrument": "SH601988",
+          "excess_normalized_units": 0.046883043527486734,
+          "excess_raw_share_equivalent": 0.03195449483917238
+        },
+        {
+          "case": "20/rsi",
+          "session": "2025-12-24",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.24327452749827216,
+          "excess_raw_share_equivalent": 0.07208367656499629
+        }
+      ]
+    },
+    "40/golden_cross": {
+      "orders_checked": 5,
+      "source_close_marks_checked": 211,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.1432649722652658,
+      "strict_request_size_bound_passes": true,
+      "size_overshoot_anomalies": []
+    },
+    "40/macd": {
+      "orders_checked": 25,
+      "source_close_marks_checked": 212,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.14771816105618837,
+      "strict_request_size_bound_passes": false,
+      "size_overshoot_anomalies": [
+        {
+          "case": "40/macd",
+          "session": "2024-07-15",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.21707659773528576,
+          "excess_raw_share_equivalent": 0.06851411152357217
+        },
+        {
+          "case": "40/macd",
+          "session": "2025-03-07",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.24066036299336702,
+          "excess_raw_share_equivalent": 0.07761877428280112
+        }
+      ]
+    },
+    "40/rsi": {
+      "orders_checked": 73,
+      "source_close_marks_checked": 1035,
+      "prior_close_budgets_checked": 485,
+      "max_whole_day_normalized_volume_fraction": 0.5531027079980505,
+      "strict_request_size_bound_passes": false,
+      "size_overshoot_anomalies": [
+        {
+          "case": "40/rsi",
+          "session": "2024-04-26",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.11190069760937149,
+          "excess_raw_share_equivalent": 0.033191389245468474
+        },
+        {
+          "case": "40/rsi",
+          "session": "2024-05-27",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.10636108968515146,
+          "excess_raw_share_equivalent": 0.031516045478440974
+        },
+        {
+          "case": "40/rsi",
+          "session": "2024-06-24",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.2719185629037497,
+          "excess_raw_share_equivalent": 0.08061557109944928
+        },
+        {
+          "case": "40/rsi",
+          "session": "2024-09-11",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.062137589575286256,
+          "excess_raw_share_equivalent": 0.01961187559978778
+        },
+        {
+          "case": "40/rsi",
+          "session": "2024-09-18",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.0017950135065802897,
+          "excess_raw_share_equivalent": 0.0005665443654750883
+        },
+        {
+          "case": "40/rsi",
+          "session": "2025-01-09",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.25692366736069516,
+          "excess_raw_share_equivalent": 0.07612951323643614
+        },
+        {
+          "case": "40/rsi",
+          "session": "2025-01-13",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.2669037253390343,
+          "excess_raw_share_equivalent": 0.07912507801719333
+        },
+        {
+          "case": "40/rsi",
+          "session": "2025-04-03",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.07426077477066428,
+          "excess_raw_share_equivalent": 0.023950871883317227
+        },
+        {
+          "case": "40/rsi",
+          "session": "2025-04-08",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.02567051936784992,
+          "excess_raw_share_equivalent": 0.008279340513454005
+        },
+        {
+          "case": "40/rsi",
+          "session": "2025-07-31",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.1396351692310418,
+          "excess_raw_share_equivalent": 0.04644663528843923
+        },
+        {
+          "case": "40/rsi",
+          "session": "2025-09-19",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 0.000296292779637497,
+          "excess_raw_share_equivalent": 9.855569319292947e-05
+        },
+        {
+          "case": "40/rsi",
+          "session": "2025-09-23",
+          "instrument": "SZ000001",
+          "excess_normalized_units": 5.3871110424097424e-05,
+          "excess_raw_share_equivalent": 1.7919173603815367e-05
+        },
+        {
+          "case": "40/rsi",
+          "session": "2025-12-12",
+          "instrument": "SH601988",
+          "excess_normalized_units": 0.046344157970452216,
+          "excess_raw_share_equivalent": 0.03158720179555697
+        },
+        {
+          "case": "40/rsi",
+          "session": "2025-12-24",
+          "instrument": "SZ000068",
+          "excess_normalized_units": 0.24327452749827216,
+          "excess_raw_share_equivalent": 0.07208367656499629
+        }
+      ]
+    }
+  },
+  "terminal_sha256": "b5a88cc686641e250caf489df4be8c9cfc3d89fe59aa270d82a1baa2d51461df",
+  "2026_values_read": false,
+  "same_researcher_not_independent_assurance": true,
+  "portfolio_rerun": false
+}

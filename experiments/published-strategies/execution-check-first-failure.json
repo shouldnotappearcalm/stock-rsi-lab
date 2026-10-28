@@ -1,0 +1,8 @@
+{
+  "status": "STRICT_REQUEST_BOUND_CHECK_REJECTED",
+  "checker_before_diagnostic_extension_sha256": "7f28d07168070bbdb080978feb715dc7977b98a294ba307edcfddba8d3cc2dac",
+  "error": "execution cannot exceed prior requested size",
+  "portfolio_rerun": false,
+  "rules_changed": false,
+  "2026_values_read": false
+}
