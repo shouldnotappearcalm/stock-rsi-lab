@@ -1,0 +1,141 @@
+{
+  "frozen_commit_pushed_before_run": "0474defd1b72f979ed2ed33678148412d91c1c05",
+  "request_sha256": "d3da21d9aedd5edc46d8e8a2f82aee755c2de739f7e28716eedc5387154a672d",
+  "local_full_output_root": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-forward-2026-20261101-v1",
+  "local_full_terminal_sha256": "420d3eeeebef6e008e2d867bcea0a846f24cbd34b40881c2d76545c7d6d236e2",
+  "all_twelve_accounts_published": true,
+  "compressed_decision_receipts": {
+    "baseline/20/fengji20/decision_intents.json.gz": {
+      "decompressed_sha256": "11adc7258e3dd2c2c717147f180aa9e44d57c1a14673fbfeb73b67dbe921e701",
+      "snapshots": 485
+    },
+    "baseline/20/fengji_mean/decision_intents.json.gz": {
+      "decompressed_sha256": "603b9c939dd1939454fee1043c7d64fa65ca063f0b8f4e1d1fd7b76cf7626fef",
+      "snapshots": 485
+    },
+    "baseline/20/plus2047/decision_intents.json.gz": {
+      "decompressed_sha256": "982be8040cd8415ea8e70a2478d93c97aab1ad7c30a4822254c68d4104d0236d",
+      "snapshots": 485
+    },
+    "baseline/40/fengji20/decision_intents.json.gz": {
+      "decompressed_sha256": "e56ebe7ec395fc2ad5009a520d19bac3e0dd51c902968a93af6490f08c513e9b",
+      "snapshots": 485
+    },
+    "baseline/40/fengji_mean/decision_intents.json.gz": {
+      "decompressed_sha256": "2c8531c32eff51cd89e3215acf47d0d3401c6012fafbb9b5a71db19f04a0be88",
+      "snapshots": 485
+    },
+    "baseline/40/plus2047/decision_intents.json.gz": {
+      "decompressed_sha256": "7a3634720b67222c1e579c873130bcd71c2f09d2842ae765cae80f80253d0c2b",
+      "snapshots": 485
+    },
+    "forward/20/fengji20/decision_intents.json.gz": {
+      "decompressed_sha256": "1cd1414c8963e7519aef53823124466fb4ee8ea71527d8275ae489570d2b390a",
+      "snapshots": 683
+    },
+    "forward/20/fengji_mean/decision_intents.json.gz": {
+      "decompressed_sha256": "0b2422ad98d11a48f2227f1e5adf89baf22a10f709be3f0f1f289e82b6f1d24f",
+      "snapshots": 683
+    },
+    "forward/20/plus2047/decision_intents.json.gz": {
+      "decompressed_sha256": "72f8b863b3174b0e2d1a4db472510335c26768a3d2ef5a6224afd1b8e75d70e9",
+      "snapshots": 683
+    },
+    "forward/40/fengji20/decision_intents.json.gz": {
+      "decompressed_sha256": "4f9a30e51c5b40105a1e6c794e37354f586c8ecb83decd5b59d3d7df7b0ba448",
+      "snapshots": 683
+    },
+    "forward/40/fengji_mean/decision_intents.json.gz": {
+      "decompressed_sha256": "404ef05151f2ff89a64db47cf016890745ea9ab0e37157492ac67d460cdcad42",
+      "snapshots": 683
+    },
+    "forward/40/plus2047/decision_intents.json.gz": {
+      "decompressed_sha256": "d4653553b66f9444a5c06f687932ff2724f19e698b6e5d1f08daa5547162139b",
+      "snapshots": 683
+    }
+  },
+  "public_artifact_sha256": {
+    "audit.json": "e586e747f473396ab94b8a22129a8dd96c62768c660a6028b8b0c8610c34eb59",
+    "baseline/20/fengji20/days.csv": "80b11fb29134ebf35b70e42de38cb1becb6431275d43a7e203355db9dd47c978",
+    "baseline/20/fengji20/decision_intents.json.gz": "f5dabdb329f8dfcc6afbca9b46b647b9838a562f2affffc337b704c79664a383",
+    "baseline/20/fengji20/holdings.csv": "56ba97af032c6645409fa87fb4a8ebfff576b4762a43a91949c50fde497ceaf7",
+    "baseline/20/fengji20/metrics.json": "f94c5e38b214b58216e2d393a19ef2fd44f6c804ec29c11f1b131fd56245a6e4",
+    "baseline/20/fengji20/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/20/fengji20/orders.csv": "bce7054331971c3119022157ec0ecc1ec8eca8ec12053101dda0e628091a85fc",
+    "baseline/20/fengji_mean/days.csv": "ece8bed51f5833b572fde88ed79596e7f1e84a291a5227e5e1a2e3bb46990ccf",
+    "baseline/20/fengji_mean/decision_intents.json.gz": "382aa507141e154a41a3c8e4fd29f5d1c12ba904c93f3d08624c64eef128a8db",
+    "baseline/20/fengji_mean/holdings.csv": "a667f8b23bfc205a3262d3331b34f33f78e6425f027c417939e0f3a60bad4228",
+    "baseline/20/fengji_mean/metrics.json": "a7afc28fa00dbe523e7ce840c4b42952634394c3ec770b32cf1d2dbd534aab55",
+    "baseline/20/fengji_mean/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/20/fengji_mean/orders.csv": "e87163a263f7fb090a7dba79e1401fb0fa2d55c6fc089f9781f6e888365a93aa",
+    "baseline/20/plus2047/days.csv": "c2d1d40cb557fce14cb445bfb758103e53f19a2efc20529008ae66927dbe6843",
+    "baseline/20/plus2047/decision_intents.json.gz": "e7b2bdc5feca8627c1e375589bdee7c9604f6504ba5a137efec7f1b10faeca16",
+    "baseline/20/plus2047/holdings.csv": "bdd9f3276bb4d9c1e669209b9b234e532d8f2e148d1800aa0f03ebd2e3ef07a2",
+    "baseline/20/plus2047/metrics.json": "c5205b77bfc0fcb17595a9f0e9ee30db5c7816b1cd3e0d5ae64a3e5db2c29cc3",
+    "baseline/20/plus2047/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/20/plus2047/orders.csv": "11d4741310959e320161f1c85c7335017cbc4d1e09a85a5705b36a3ac86e5a3f",
+    "baseline/40/fengji20/days.csv": "0605d111a321508b1271289c81b4c17f3042255e441ffc4cf79c1fe143312bc4",
+    "baseline/40/fengji20/decision_intents.json.gz": "117ef78dcd66aaee2a7e9e7bac5962682c15776418f1fecbae3d5522bfca0545",
+    "baseline/40/fengji20/holdings.csv": "aa317ece749908f0ca5118032d237e48ba14dc3d322437aa7d200408dab180fc",
+    "baseline/40/fengji20/metrics.json": "2f75dd2b789dad814dd801a9531821a8d2b6d966302a7a8812fa7d9ca5230c32",
+    "baseline/40/fengji20/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/40/fengji20/orders.csv": "55ecb40910524821d09e9006be0905ac0895d4356761c5b91952e2918f732b0c",
+    "baseline/40/fengji_mean/days.csv": "4ccc98ac9ed474241b6c64b4f97ee48ee2f635ca65271235dab45aa3809a3712",
+    "baseline/40/fengji_mean/decision_intents.json.gz": "3f0c6ace886fe79947dbdf44343f2bfd305ebb7237de07081d206b1c192636a0",
+    "baseline/40/fengji_mean/holdings.csv": "20dc10adc0f98e24841b0d1689e28b7c88990fa1a93b0551acb7e867aff197e6",
+    "baseline/40/fengji_mean/metrics.json": "09ab48ce12e1a8fd7d8b5a56d5d8338b883d90b320d6a74bb286bfba88526feb",
+    "baseline/40/fengji_mean/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/40/fengji_mean/orders.csv": "109515b6f34867ace989d75ef2fea4c9adad9d1326465f60cc1d000f7947276a",
+    "baseline/40/plus2047/days.csv": "819afd497f8a4f2cdbe171af5f97a8a7558a606f2d8663d41c09c7bbd3bfb0b4",
+    "baseline/40/plus2047/decision_intents.json.gz": "c7ea66fe387c89d2a2d8486c6aeccee0d34970b0e30f6ee049a10f45eb53673f",
+    "baseline/40/plus2047/holdings.csv": "97261e8b5394d82aab88306d0c14b319c8bc9d09b7f956b5653229fbb280c45a",
+    "baseline/40/plus2047/metrics.json": "825fbec8484e5eb30aab8426f59400df7bcb6d7a84ff70308b631c515fb3b7fa",
+    "baseline/40/plus2047/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/40/plus2047/orders.csv": "01c11bf443660b8be2548b72c246188254a68322fb5b038dc6a07867be622fff",
+    "forward/20/fengji20/days.csv": "cbfe07f040289edb37bad80da922dcc70e88404dcd691f5b52133d9035641f3e",
+    "forward/20/fengji20/decision_intents.json.gz": "e3187266e68cf0a3004cab68c095460d3b592c605323e8530e706ee74b730e1a",
+    "forward/20/fengji20/holdings.csv": "b43387c9b7c0a37ec321ad10e9322d20a864a29c47ab1becde829d9f90f7145a",
+    "forward/20/fengji20/metrics.json": "1034f23253a83daa7da371accabec9de81e80c2d3810b2af820e98734a224472",
+    "forward/20/fengji20/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/20/fengji20/orders.csv": "25841be5587e55f65872e1f7c56294c24224147f365c55db7b2a30efdf92aa69",
+    "forward/20/fengji_mean/days.csv": "4750fbd593b70dd6adbbd57fa9c0dba0eabebe43ccc49203f32f6a14b9b1a6f3",
+    "forward/20/fengji_mean/decision_intents.json.gz": "ff48c41ef80cb0e623d46e6ba902d02738773a36e47cfa746549cb781ed4e21b",
+    "forward/20/fengji_mean/holdings.csv": "46d6754d92b9d86626ba33f66eb1b6c58980150b1f6e2f207e6d206426357c2e",
+    "forward/20/fengji_mean/metrics.json": "96a34c28a09832601670fa8b3033d1c8365ba988c14e99188df708e808d501c9",
+    "forward/20/fengji_mean/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/20/fengji_mean/orders.csv": "1c237709b862131b279d760932f1df419fd650d43f93f75dbedc30d393a01cb7",
+    "forward/20/plus2047/days.csv": "9481f2670f25253f27474732306c9cf813d1d05957d65cc2a1d363b77a256a98",
+    "forward/20/plus2047/decision_intents.json.gz": "265711f9eb5c0a1d85691a87a1503b9645884b9653def77badfe7a54bd270aa1",
+    "forward/20/plus2047/holdings.csv": "df627e85b968f93fce516934ba3d1c12197d8d0450744344beea86ad78c72e65",
+    "forward/20/plus2047/metrics.json": "b49a7a564fdf861cb2e9dbfca234dbf1911aa31ccae1166db8a41df9deed5f0a",
+    "forward/20/plus2047/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/20/plus2047/orders.csv": "b0eb7b99ce7d22bd362b2f24bc7ed8cad627b571f25c4a9ad8bd7d8a9cfad016",
+    "forward/40/fengji20/days.csv": "b3bc0bad863f84fcd0a2da63dbea21fec0368e3db3a76f280da26c032691a2b9",
+    "forward/40/fengji20/decision_intents.json.gz": "97cffe7107349517bede5817e0662b7ab19a3527685d2ff0c5a4a561bef415c7",
+    "forward/40/fengji20/holdings.csv": "12fb00327dd5ec82778bd5efe45f515a8c706402e7dcfd4a587be78d41a1d19b",
+    "forward/40/fengji20/metrics.json": "1c789473202f5e8a6ead86521ff15fb04bb366deb0241402eecb9259c4c045bc",
+    "forward/40/fengji20/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/40/fengji20/orders.csv": "ab65fd884da8e5e280f91b8987e30e07cd7e59dacb33cf25e31c366a17b647e9",
+    "forward/40/fengji_mean/days.csv": "d2538db4a66eee8aa67e6a8c949f6ad1b9676edf778281e63350cb8586bb9728",
+    "forward/40/fengji_mean/decision_intents.json.gz": "cca0f758a8d8150634668ac8f0e4161690e34f751bbca91e6ec017ec7dc22b04",
+    "forward/40/fengji_mean/holdings.csv": "209371bc4a30f984a6f7d8f6bdab1ef1d50b435ea20d8dfe3c64517adc768869",
+    "forward/40/fengji_mean/metrics.json": "7022bc6bbbcce9511e3945f932536efb9a31dc282234573787325d73fbe81dff",
+    "forward/40/fengji_mean/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/40/fengji_mean/orders.csv": "d407adc8f5a262471a86dd8c4f25f3dbad7f915da06245f200ffe27313d11914",
+    "forward/40/plus2047/days.csv": "211deec1294f13aaa85a633c0b1dfac9cce702ee9b48809d5d9df5d7ddd41b26",
+    "forward/40/plus2047/decision_intents.json.gz": "a7ed7f1456660fb1e39f1b0252f79406aa9ae5a5764d704d36e91f99dfcb1d3f",
+    "forward/40/plus2047/holdings.csv": "69d46ff0290f1af8cf81f80545b8e6be3be0a9f164f8b4f7a497f74ccc0afda2",
+    "forward/40/plus2047/metrics.json": "a2bf386622f3fdfb0db15804580518506149ea772c900f94cbb9a85084ba2d7c",
+    "forward/40/plus2047/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/40/plus2047/orders.csv": "c6f36f5a62ea3f52038423484447cf056bc1f916ec029121da618cc76ae10e44",
+    "terminal.json": "420d3eeeebef6e008e2d867bcea0a846f24cbd34b40881c2d76545c7d6d236e2"
+  },
+  "investment_qualified": false,
+  "objective_achieved": false,
+  "not_redistributed": [
+    "copyrighted full articles",
+    "raw HTTP side quotes",
+    "Qlib pickle objects"
+  ],
+  "raw_data_provenance": "../run-request.json binds full old/new input trees; original prices and reference sources retained locally"
+}
