@@ -1,0 +1,16 @@
+{
+  "status": "BOTH_BOND_MODES_CAPTURED",
+  "receipts": {
+    "raw": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh511010%2Cday%2C2023-07-03%2C2025-12-31%2C640%2C",
+      "wire_sha256": "b4bc87c50cb99122381ddc6a8e59ef37cd0dbe21b7e9ac33df4ce0291f53fdc5",
+      "rows": 609
+    },
+    "hfq": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh511010%2Cday%2C2023-07-03%2C2025-12-31%2C640%2Chfq",
+      "wire_sha256": "0713c401625550377f98d44038cd051a769811e7b66c87b1f8708b640d70d35b",
+      "rows": 609
+    }
+  },
+  "errors": {}
+}

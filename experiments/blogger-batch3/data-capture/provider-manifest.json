@@ -1,0 +1,29 @@
+{
+  "end": "2025-12-31",
+  "source": "TENCENT_PRICES",
+  "inactive_bond_rows": 0,
+  "original_development_prefixes_identical": false,
+  "all_output_sha256": {
+    "calendars/day.txt": "17fcf0186eb48d3bb71b6572ff0a8adf727326c529e0c3a84e5ca67cea001aef",
+    "calendars/day_future.txt": "b0850b7a8641ec59ebddaecaedd5bbd77ce4e9764bcca637cbd38f0f38048618",
+    "features/sh510050/buyblock.day.bin": "c81ca5eda5947c7826ad046fdbdc2a25a846b835a6c34c237cc8b3afbe9ec6cc",
+    "features/sh510050/change.day.bin": "041d15d0310c0809757021dd147be18f1abbff6b862e3eddf4c404e0539953a7",
+    "features/sh510050/close.day.bin": "0a796675050e33a3b382ae1798eab606c3890fdb157e6e44258dcef22a9e859c",
+    "features/sh510050/factor.day.bin": "8a9b20652b7105a4730f9705711c42147a8d18608238a98c9a20d47b10fe7cc1",
+    "features/sh510050/high.day.bin": "888907b46a535431893958385ab98e3fb50f95f935b30a152bd12005b53c54ab",
+    "features/sh510050/low.day.bin": "d0faf3943ef8046b765db5bd1dea560660abf910c20a57097a91ce0e96cc7d3a",
+    "features/sh510050/open.day.bin": "c18cd2dc27d08f4f5f6b7e52ee5970848b00ca253b6a3dd1aa04ebbb37612eb3",
+    "features/sh510050/sellblock.day.bin": "c81ca5eda5947c7826ad046fdbdc2a25a846b835a6c34c237cc8b3afbe9ec6cc",
+    "features/sh510050/volume.day.bin": "a37e70afaa5ae979b9b06c939fde901c7f5de88a5efe6bb6f2a19ec44c150c8d",
+    "features/sh511010/buyblock.day.bin": "9163818adb4c5c206501e82fb3f6c5170c8133f28b5c2241935e9ccfc7a412ad",
+    "features/sh511010/change.day.bin": "93bbe19618858beda6de7616266b37248566fd3776aaad8120d117edc1326beb",
+    "features/sh511010/close.day.bin": "fbe8bfe6ad5da3c0d800ac235795beb5eb126ea9981f4947b6d79f26d309deb0",
+    "features/sh511010/factor.day.bin": "1330517ab08ed3949f0db042c744a782521c901bf28f91c4c20491acb97edc54",
+    "features/sh511010/high.day.bin": "64b599e466f38e169a0ccd7a4ed55cac93d3c07ff6aa5bc612ada00bccf4904c",
+    "features/sh511010/low.day.bin": "66e46347c25225ead26508f302101ebc6770a0c0bbcd526d0a8e1654f2ca3178",
+    "features/sh511010/open.day.bin": "8e21bcd5ab475eb3fb150cb1245f791aec027f56ee938a338abf2df7941092cf",
+    "features/sh511010/sellblock.day.bin": "9163818adb4c5c206501e82fb3f6c5170c8133f28b5c2241935e9ccfc7a412ad",
+    "features/sh511010/volume.day.bin": "e5f8a67b06f36cff6c1e68d4fd3c3138391da2cc4c1fda5adbf82cfcd37495a6",
+    "instruments/all.txt": "5bf941c329c5da4e754e68c6267a4fe922169ff6b370007ae9f62463431ac5d3"
+  }
+}

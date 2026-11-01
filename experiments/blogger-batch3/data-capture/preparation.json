@@ -1,0 +1,28 @@
+{
+  "phase": "development",
+  "stock_data_root": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch2-data-20261101-v1",
+  "stock_data_sha256": {
+    "capture/hfq-wire.json": "da4014f2e56f45e852498265563d70cc47b13ec27348b147d64e54992faa6553",
+    "capture/hfq.json": "043224436187a0b4ae051a08fd981e5a4e248ce50f4e0b0cbae8788acc5a472a",
+    "capture/manifest.json": "c948db7a8b5b8386cd55730fd60bb1ec0af98bd6dc2c7fc0459c736faca9beca",
+    "capture/raw-wire.json": "54e484ca2f98872851d376b4c508c0fb14a6d448e39f60af65bf44076a706f8b",
+    "capture/raw.json": "2e5d5fc81ca1c2a9597c2935018e3648db65403c3ab837fb6131dfad2513eb69",
+    "combined/hfq.json": "837cd7097a4cba9141638544ea3d1adf349debbb254a9e30b049b6777e388145",
+    "combined/raw.json": "84e5d94e1798e68fbe817eab168656708ce6bcd3b6dc633fdb7abf84b1a1c95f",
+    "preparation.json": "fc0110cd80b77a877a2ec19b8140fca562c1575a9d8053d1c375eab2118643b3",
+    "provider/calendars/day.txt": "17fcf0186eb48d3bb71b6572ff0a8adf727326c529e0c3a84e5ca67cea001aef",
+    "provider/calendars/day_future.txt": "b0850b7a8641ec59ebddaecaedd5bbd77ce4e9764bcca637cbd38f0f38048618",
+    "provider/features/sh510050/buyblock.day.bin": "c81ca5eda5947c7826ad046fdbdc2a25a846b835a6c34c237cc8b3afbe9ec6cc",
+    "provider/features/sh510050/change.day.bin": "041d15d0310c0809757021dd147be18f1abbff6b862e3eddf4c404e0539953a7",
+    "provider/features/sh510050/close.day.bin": "0a796675050e33a3b382ae1798eab606c3890fdb157e6e44258dcef22a9e859c",
+    "provider/features/sh510050/factor.day.bin": "8a9b20652b7105a4730f9705711c42147a8d18608238a98c9a20d47b10fe7cc1",
+    "provider/features/sh510050/high.day.bin": "888907b46a535431893958385ab98e3fb50f95f935b30a152bd12005b53c54ab",
+    "provider/features/sh510050/low.day.bin": "d0faf3943ef8046b765db5bd1dea560660abf910c20a57097a91ce0e96cc7d3a",
+    "provider/features/sh510050/open.day.bin": "c18cd2dc27d08f4f5f6b7e52ee5970848b00ca253b6a3dd1aa04ebbb37612eb3",
+    "provider/features/sh510050/sellblock.day.bin": "c81ca5eda5947c7826ad046fdbdc2a25a846b835a6c34c237cc8b3afbe9ec6cc",
+    "provider/features/sh510050/volume.day.bin": "a37e70afaa5ae979b9b06c939fde901c7f5de88a5efe6bb6f2a19ec44c150c8d",
+    "provider/instruments/all.txt": "2dfc1b7daf8059aa8361c480cc4e79e0df63ac1401f93de4badab29010a8272c",
+    "provider/manifest.json": "2e13f1a047730847945645ad30dc393e8ff5ed6841d928e8ec5940e656f635d9"
+  },
+  "new_candidate_returns_computed": false
+}
