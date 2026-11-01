@@ -1,0 +1,16 @@
+{
+  "id": "marwood10",
+  "source_id": "marwood2018",
+  "entry": "flat and C>SMA200 and C<SMA10",
+  "exit": "held and (C>SMA10 or completed_low<=0.90*actual_entry_open); next actual open, latch until flat",
+  "symbols": [
+    "SH510050"
+  ],
+  "history": "ALL_COMPLETED_CLOSES_SINCE2022_12_01",
+  "rsi_seed": "mean first2 gains/losses then Wilder recursion; allzero0",
+  "target_cap": 0.95,
+  "wake": "15:05 actual session; next actual open proxy",
+  "cash_proxy": "ZERO_YIELD_CNY",
+  "average_exposure_is_hard_gate": false,
+  "source_class": "CURRENT_VINTAGE_HFQ_ENGINEERING_ONLY"
+}

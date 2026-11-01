@@ -1,0 +1,16 @@
+{
+  "id": "alvarez2",
+  "source_id": "alvarez2015",
+  "entry": "flat and WilderRSI2<5 and C[t]<C[t-1]<C[t-2]",
+  "exit": "held and WilderRSI2>50; latch until actual flat",
+  "symbols": [
+    "SH510050"
+  ],
+  "history": "ALL_COMPLETED_CLOSES_SINCE2022_12_01",
+  "rsi_seed": "mean first2 gains/losses then Wilder recursion; allzero0",
+  "target_cap": 0.95,
+  "wake": "15:05 actual session; next actual open proxy",
+  "cash_proxy": "ZERO_YIELD_CNY",
+  "average_exposure_is_hard_gate": false,
+  "source_class": "CURRENT_VINTAGE_HFQ_ENGINEERING_ONLY"
+}

@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "id": "alvarez2015",
+      "url": "https://alvarezquanttrading.com/blog/developing-leveraged-etf-strategies/",
+      "author": "Cesar Alvarez",
+      "visible_publication_date": "2015-03-04",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch4-sources-20261101/primary-web-extraction.json",
+      "sha256": "dbbbda589eaa2afae8be2d3d989f8c9138cc3d0f83867e26b54df9762c3deb24",
+      "bytes": 16153,
+      "transport": "WEB_TOOL_PRIMARY_PAGE_EXTRACT",
+      "retrieved_at": "2026-11-01T14:25:01.982231+00:00",
+      "immutable_contemporary_archive_verified": false
+    },
+    {
+      "id": "marwood2018",
+      "url": "https://stocksoftresearch.com/a-simple-pullback-strategy/",
+      "author": "Joe Marwood",
+      "visible_publication_date": "2018-07-09",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch4-sources-20261101/marwood2018.html",
+      "sha256": "21abed9ca3ef75be733a8b9b56726f711e328c33db32cb363678b4d42887543f",
+      "bytes": 130975,
+      "transport": "HTTP200_HTML",
+      "retrieved_at": "2026-11-01T14:25:01.982424+00:00",
+      "immutable_contemporary_archive_verified": false
+    }
+  ],
+  "transport_failures": [
+    {
+      "source": "alvarez2015",
+      "route": "direct urllib",
+      "error": "HTTP406"
+    },
+    {
+      "source": "alvarez2015",
+      "route": "Jina Reader",
+      "error": "HTTP401"
+    },
+    {
+      "source": "marwood2018",
+      "route": "web.open",
+      "error": "timeout; direct HTTP succeeded"
+    }
+  ],
+  "no_original_fulltext_published": true
+}
