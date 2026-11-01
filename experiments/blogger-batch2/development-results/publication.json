@@ -1,0 +1,57 @@
+{
+  "frozen_commit_pushed_before_run": "dccbed70678135ff2757728f5f6d10ff534d34c8",
+  "request_sha256": "15bd3dda733ffc34157a36e62a8defec88e9258beb5a44f65b3a6538abad0a25",
+  "all_four_cases_published": true,
+  "local_full_output_root": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch2-development-20261101-v1",
+  "compressed_decision_receipts": {
+    "20/bigquant20/decision_intents.json.gz": {
+      "decompressed_sha256": "7c067a0dc92c4a156a8986ea895d7cd52eaf45940914a0471e04fb32c6d7ebba",
+      "snapshots": 485
+    },
+    "20/rayner10/decision_intents.json.gz": {
+      "decompressed_sha256": "fe0f562accf29b73032533945e47c8bb1135bfe0d1d5c1872c0229f5b9fcb72e",
+      "snapshots": 485
+    },
+    "40/bigquant20/decision_intents.json.gz": {
+      "decompressed_sha256": "14e51107f922573be074aece15967d18ebdbe1c52b6b585d63b7bfd3e112b798",
+      "snapshots": 485
+    },
+    "40/rayner10/decision_intents.json.gz": {
+      "decompressed_sha256": "2d31ce87c0901968359c61620940c17fd0cf9b268fb2fcb85445d040a244d2ea",
+      "snapshots": 485
+    }
+  },
+  "public_artifact_sha256": {
+    "20/bigquant20/days.csv": "81e00464366e98a0678a9fe4d2e52f1e484f6884dc495df43bee38157bb17d53",
+    "20/bigquant20/decision_intents.json.gz": "9e0f31c5fbb3127000223d8cf9185ead706a0cd555a446b2939764df63267391",
+    "20/bigquant20/holdings.csv": "0fdfdcb5cc28705950b7295c1d2fbe69467f72fbfa51017a5c71e0ec107a9030",
+    "20/bigquant20/metrics.json": "53b82260c102605cebd41f7d5f7088e45503fd5ef52db3d09c4b2b91cc59f7d5",
+    "20/bigquant20/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/bigquant20/orders.csv": "19e5b186797310c9395a6196f156ba8f53b1e63a6dae9c91c47a79bb689ef6bc",
+    "20/rayner10/days.csv": "d5c02d2aa8ea92ef264caf345a4ddcd828c5638d02562df01878fcd9cde1342f",
+    "20/rayner10/decision_intents.json.gz": "c1e5dbb3744bab9cb2babb23d5349b9e404e51d888260ac3ca35bce203f7dd61",
+    "20/rayner10/holdings.csv": "2b9caad508b078eedfb51d099ca2afecf32f3d2d66e81c0433a76d047b5c0bec",
+    "20/rayner10/metrics.json": "680ec04e00dcfcbe9b5774f10eacd48b7544aa51a4e4b9e2a042186ddf5d4dfb",
+    "20/rayner10/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/rayner10/orders.csv": "56458d821506c9b594ed7e5b292ac0d8a3033f41ac6fc127155845b60ecbafb3",
+    "40/bigquant20/days.csv": "0922b3bde66ffa359eca812d4af581fbe575bb87d2c1450e89b5f54d6f322fe8",
+    "40/bigquant20/decision_intents.json.gz": "2b22cff2f29d998d8015d8d3d9082e8bbd2f9daac26b9caedf0c6d99289ebbb3",
+    "40/bigquant20/holdings.csv": "58b957af39f21959d043f4ef8eee4cf7177eae23db355d58798f19b2d6b2d070",
+    "40/bigquant20/metrics.json": "9993aa9ad485e1230b1e76fa5bb4c1ae1b07be03f93a031849b51947399f2604",
+    "40/bigquant20/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/bigquant20/orders.csv": "314dd634bf9342beb7dbd6edba3c9a2dd2fbdd5ab195a6e5f36f0c04c0da59f6",
+    "40/rayner10/days.csv": "cac5a36b6ae48a4c469b83b89b94af84ab459c4067757fd98bd7f485c7fb0efa",
+    "40/rayner10/decision_intents.json.gz": "213b8070cff78103e8cf02cab1791747c1ceae10ad8e79e30324bdcc2afce28c",
+    "40/rayner10/holdings.csv": "0a31c540449bd86ab9bf302fff7a5adff5152e808e1809318fa9d89dc4ebc935",
+    "40/rayner10/metrics.json": "da417e69c1c0ad6bc9cfa1619758a4792aee89e3769cdbef32c110b3309c2bb3",
+    "40/rayner10/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/rayner10/orders.csv": "764f1d4306f11e56b3106d24d2aae071a1d49dad47d1d12a9c65a2a55370277b",
+    "audit.json": "43801df7567c6f4c845eeeb1dc69c38e8edb079ed993caa6d9ba18f6fc5d5c11",
+    "terminal.json": "16d8d47a0711c1ada5c73dbde1449c31151ec6fb6421ad1ceaab5122549421ee"
+  },
+  "2026_candidate_returns_computed": false,
+  "passed_two_year_screen": [],
+  "all_prior_171_strategy_files_preserved": true,
+  "investment_qualified": false,
+  "objective_achieved": false
+}
