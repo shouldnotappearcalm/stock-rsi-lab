@@ -1,0 +1,21 @@
+{
+  "id": "fengji20",
+  "source_id": "fengji2016",
+  "symbols": [
+    "SH518880",
+    "SZ159915"
+  ],
+  "signal_symbols": [
+    "SH518880",
+    "SZ159915"
+  ],
+  "history": 21,
+  "rule": "positive return over20sessions; strongest fund or cash",
+  "target_cap": 0.95,
+  "signal_basis": "CURRENT_VINTAGE_HFQ_CLOSED_PRICES_FOR_FUNDS_RAW_INDEX_CLOSES",
+  "cash_proxy": "ZERO_YIELD_CNY_NO_REPO_OR_BOND_RETURN",
+  "wake": "15:05 each actual session; next actual session open proxy",
+  "same_open_sale_proceeds_may_fund_new_buy": false,
+  "holding_ties": "retain existing eligible leader else source symbol order",
+  "average_exposure_is_hard_gate": false
+}

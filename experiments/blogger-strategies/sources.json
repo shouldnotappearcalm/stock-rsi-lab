@@ -1,0 +1,75 @@
+{
+  "status": "BLOGGER_SOURCE_COHORT_SELECTED_BEFORE_NEW_BACKTEST_RESULTS",
+  "captured_at": "2026-11-01",
+  "sources": [
+    {
+      "id": "fengji2016",
+      "author": "持有封基",
+      "url": "https://www.jisilu.cn/question/62818",
+      "published_at": "2016-04-17T13:22:00+08:00",
+      "evidence": "platform original post timestamp and 2016 replies; current page is not an immutable 2016 snapshot",
+      "raw_html_sha256": "4318442a797dd29ecd3565027f817284e663c6c54292fe3fa9879329f5ae1f4f",
+      "local_capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-sources-20261101/fengji.html",
+      "supplement_date_bound": "2016-07-21 reply explicitly discusses the 19-21 mean; supplement itself has no separate edit timestamp",
+      "reproduction": "independent implementation of disclosed decision rules; full article not redistributed",
+      "admission": "CANDIDATE_WITH_EXPLICIT_EXECUTION_AND_CASH_PROXY_ASSUMPTIONS"
+    },
+    {
+      "id": "plus2047_2022",
+      "author": "plus2047",
+      "url": "https://plus2047.github.io/posts/2022-10-22-danjuan28.html",
+      "published_at": "2022-10-22",
+      "snapshot_commit": "7cdf8020e9a989b288f85f611d662738e5762728",
+      "snapshot_at": "2023-11-18T15:49:57+08:00",
+      "source_path": "_posts/2022-invest/2022-10-22-danjuan28.md",
+      "blob_sha1": "a9b6cd9590a88db3db1ec6ce10764d9fd72b87e4",
+      "source_sha256": "71e0de3a8fe6f6b2dbe58aa8a3405b0086fd1859981e436fbd03261c5849fc69",
+      "file_last_commit": [
+        "d62462c6f1fa3d2abeae62cac239b662e9991ca9",
+        "2023-05-17T22:39:16+08:00",
+        "2023-05-19T17:09:11+08:00"
+      ],
+      "local_capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-sources-20261101/plus2047-pre2024.md",
+      "reproduction": "blogger repaired a book/JoinQuant strategy; not claimed as his invention or live returns",
+      "admission": "CANDIDATE_RULES_FROM_PRE2024_GIT_VERSION"
+    },
+    {
+      "id": "luosiding_2018",
+      "author": "银行螺丝钉",
+      "url": "https://xqdoc.imedao.com/160da48b51723fa1af723115.pdf",
+      "published_at": "2018-01-09 printed interview date",
+      "admission": "NOT_RUNNABLE_YET",
+      "missing": [
+        "historical as-published valuation/version series",
+        "complete investment amount and exit schedule"
+      ],
+      "do_not_use": "current 2026 valuation table as historical 2024/25 decision input"
+    },
+    {
+      "id": "earletf_2025_revision",
+      "author": "张翼轸/EarlETF",
+      "url": "https://xueqiu.com/3559889031/367388114",
+      "published_at": "2025-12-24T08:10:00+08:00",
+      "admission": "EXCLUDED_FROM_PRE2024_RULE_COHORT",
+      "reason": "changes pool to CSI2000 and overlaps development years; not substituted for original 2013/2014 version"
+    },
+    {
+      "id": "yu7788_2021",
+      "author": "yu7788",
+      "url": "https://www.jisilu.cn/question/421011",
+      "published_at": "2021-04-29T19:52:00+08:00",
+      "admission": "NOT_RUNNABLE_YET",
+      "missing": [
+        "complete versioned model rules",
+        "precise intraday discretionary entry and allocation criteria"
+      ],
+      "reason": "dated live journal alone is not a deterministic strategy definition"
+    }
+  ],
+  "candidate_budget": 3,
+  "selection_basis": "pre2024 original rules, source traceability and available daily inputs; not2026 profits",
+  "2026_is_already_exposed": true,
+  "new_2026_candidate_returns_computed": false,
+  "sources_are_not_independent_alpha_claims": true,
+  "public_content_policy": "links, metadata and own rule abstractions only; full copyrighted pages stay local"
+}

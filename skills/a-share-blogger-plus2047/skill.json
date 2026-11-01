@@ -1,0 +1,24 @@
+{
+  "id": "plus2047",
+  "source_id": "plus2047_2022",
+  "symbols": [
+    "SH510050",
+    "SH510300",
+    "SH510500"
+  ],
+  "signal_symbols": [
+    "SH000016",
+    "SH000300",
+    "SH000905"
+  ],
+  "history": 20,
+  "relative_entry_margin": 0.01,
+  "rule": "source code20observations span19return intervals; flat-only strict1percentage-point lead; held own momentum<=0 exits; otherwise hold",
+  "target_cap": 0.95,
+  "signal_basis": "CURRENT_VINTAGE_HFQ_CLOSED_PRICES_FOR_FUNDS_RAW_INDEX_CLOSES",
+  "cash_proxy": "ZERO_YIELD_CNY_NO_REPO_OR_BOND_RETURN",
+  "wake": "15:05 each actual session; next actual session open proxy",
+  "same_open_sale_proceeds_may_fund_new_buy": false,
+  "holding_ties": "retain existing eligible leader else source symbol order",
+  "average_exposure_is_hard_gate": false
+}
