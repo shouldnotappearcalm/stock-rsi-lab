@@ -1,0 +1,22 @@
+{
+  "id": "rayner10",
+  "source_id": "rayner2022",
+  "mechanism": "SMA200_RSI10_MEAN_REVERSION",
+  "history": "ALL_COMPLETED_CLOSES_SINCE2022_12_01",
+  "ma": 200,
+  "period": 10,
+  "entry": "flat and last>SMA200 and WilderRSI10<30",
+  "exit": "held and (WilderRSI10>40 or actual_holding_sessions>=10); latch until actually flat",
+  "rsi_seed": "mean first10 gains/losses from2022-12-01 then Wilder recursion; all-zero=0",
+  "symbols": [
+    "SH510050"
+  ],
+  "signal_symbols": [
+    "SH510050"
+  ],
+  "target_cap": 0.95,
+  "cash_proxy": "ZERO_YIELD_CNY",
+  "wake": "15:05 actual session; next actual open proxy",
+  "average_exposure_is_hard_gate": false,
+  "source_class": "CURRENT_VINTAGE_HFQ_ENGINEERING_ONLY"
+}

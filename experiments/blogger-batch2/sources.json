@@ -1,0 +1,59 @@
+{
+  "candidate_budget": 2,
+  "sources": [
+    {
+      "id": "bigquant2018",
+      "author": "BigQuant量化",
+      "url": "https://www.cnblogs.com/bigquant/p/17869068.html",
+      "published_at": "2018-11-22T19:21:00+08:00",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch2-sources-20261101/bigquant-rendered.txt",
+      "sha256": "3202c5d98fde9245211ad9a117938e937570049559fa2cf66febeaa5549e9eb5",
+      "evidence": "current primary URL rendered excerpt with platform timestamp; direct HTTP TLS timeout, not raw HTTP or historical archive",
+      "ambiguities": [
+        "prose strict versus code inclusive comparisons",
+        "history inclusion timing and open/close comment conflict"
+      ],
+      "fixed_adaptation": "inclusive20/10 completed close windows; next-session open; SH510050 instead of600519;95% known-close budget"
+    },
+    {
+      "id": "rayner2022",
+      "author": "Rayner Teo",
+      "url": "https://www.tradingwithrayner.com/mean-reversion-trading-strategy/",
+      "published_at": "2022-04-20T14:45:58+08:00",
+      "modified_at": "2023-10-05T17:29:43+08:00",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch2-sources-20261101/rayner-primary.html",
+      "sha256": "83de9eac5ab34c849665cf39f085c87941c6b16dba7001cd783f7f7aa18a9121",
+      "evidence": "original HTML datePublished/dateModified;2022comments; current page not immutable archive",
+      "fixed_adaptation": "SPY to SH510050;Wilder10 seed2022-12-01;200SMA;RSI<30 entry;RSI>40 or ten filled holding days exits and latches until filled;95% budget"
+    },
+    {
+      "id": "cn_application2022",
+      "author": "世事如木其",
+      "url": "https://xueqiu.com/7175027765/223373116",
+      "published_at": "2022-06-23T00:38:00+08:00",
+      "evidence": "search-indexed original URL text; direct HTTP200 was challenge not article; corroboration only, not primary source authentication",
+      "admission": "CORROBORATION_ONLY_NOT_LIVE_PERFORMANCE_PROOF"
+    },
+    {
+      "id": "fdyang2022",
+      "author": "fdyang",
+      "url": "https://www.cnblogs.com/fdyang/p/16098433.html",
+      "published_at": "2022-04-04T10:46:00+08:00",
+      "admission": "NOT_RUNNABLE_YET",
+      "missing": [
+        "unambiguous complete variable sizing and buy/sell price ranges",
+        "initial funding and continued contributions accounting"
+      ]
+    },
+    {
+      "id": "xing_emv2020",
+      "author": "邢不行",
+      "url": "https://www.quantclass.cn/blog/5e1480148c29b3298f574143",
+      "published_at": "2020-02-01",
+      "admission": "NOT_IN_THIS_FIXED_BATCH",
+      "reason": "article searches many parameter pairs on full stock history; do not silently pick best full-sample setting or count it as preregistered rule"
+    }
+  ],
+  "all_versions_current_not_historical_snapshots": true,
+  "full_articles_stay_local": true
+}

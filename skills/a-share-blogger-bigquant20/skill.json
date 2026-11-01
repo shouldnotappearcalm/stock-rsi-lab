@@ -1,0 +1,19 @@
+{
+  "id": "bigquant20",
+  "source_id": "bigquant2018",
+  "mechanism": "INCLUSIVE_CLOSE_CHANNEL20_10",
+  "history": "LAST20_COMPLETED_CLOSES",
+  "entry": "flat and last>=max(last20 including last)",
+  "exit": "held and last<=min(last10 including last)",
+  "symbols": [
+    "SH510050"
+  ],
+  "signal_symbols": [
+    "SH510050"
+  ],
+  "target_cap": 0.95,
+  "cash_proxy": "ZERO_YIELD_CNY",
+  "wake": "15:05 actual session; next actual open proxy",
+  "average_exposure_is_hard_gate": false,
+  "source_class": "CURRENT_VINTAGE_HFQ_ENGINEERING_ONLY"
+}
