@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "extra_bps": 20,
+      "session": "2025-01-03",
+      "side": "BUY",
+      "instrument": "SH511010",
+      "requested_normalized_units": 13167.710871534957,
+      "prior_factor": 0.007594334427267313,
+      "execution_factor": 0.007594153750687838,
+      "prior_raw_equivalent": 100.0,
+      "execution_raw_equivalent": 99.9976209030402,
+      "filled_normalized_units": 0.0,
+      "classification": "NORMALIZED_QUANTITY_LOT_BOUNDARY_ARTIFACT_NOT_PROOF_OF_REAL_LIQUIDITY_SHORTAGE"
+    },
+    {
+      "extra_bps": 20,
+      "session": "2025-01-06",
+      "side": "BUY",
+      "instrument": "SH511010",
+      "requested_normalized_units": 13168.024151597212,
+      "prior_factor": 0.007594153750687838,
+      "execution_factor": 0.007594152819365263,
+      "prior_raw_equivalent": 100.0,
+      "execution_raw_equivalent": 99.99998773632184,
+      "filled_normalized_units": 0.0,
+      "classification": "NORMALIZED_QUANTITY_LOT_BOUNDARY_ARTIFACT_NOT_PROOF_OF_REAL_LIQUIDITY_SHORTAGE"
+    },
+    {
+      "extra_bps": 20,
+      "session": "2026-01-06",
+      "side": "SELL",
+      "instrument": "SH510050",
+      "requested_normalized_units": 256.02654572110254,
+      "prior_factor": 0.3905844986438751,
+      "execution_factor": 0.38908886909484863,
+      "prior_raw_equivalent": 100.0,
+      "execution_raw_equivalent": 99.61707913288434,
+      "filled_normalized_units": 0.0,
+      "classification": "NORMALIZED_QUANTITY_LOT_BOUNDARY_ARTIFACT_NOT_PROOF_OF_REAL_LIQUIDITY_SHORTAGE"
+    },
+    {
+      "extra_bps": 40,
+      "session": "2025-01-03",
+      "side": "BUY",
+      "instrument": "SH511010",
+      "requested_normalized_units": 13167.710871534957,
+      "prior_factor": 0.007594334427267313,
+      "execution_factor": 0.007594153750687838,
+      "prior_raw_equivalent": 100.0,
+      "execution_raw_equivalent": 99.9976209030402,
+      "filled_normalized_units": 0.0,
+      "classification": "NORMALIZED_QUANTITY_LOT_BOUNDARY_ARTIFACT_NOT_PROOF_OF_REAL_LIQUIDITY_SHORTAGE"
+    },
+    {
+      "extra_bps": 40,
+      "session": "2025-01-06",
+      "side": "BUY",
+      "instrument": "SH511010",
+      "requested_normalized_units": 13168.024151597212,
+      "prior_factor": 0.007594153750687838,
+      "execution_factor": 0.007594152819365263,
+      "prior_raw_equivalent": 100.0,
+      "execution_raw_equivalent": 99.99998773632184,
+      "filled_normalized_units": 0.0,
+      "classification": "NORMALIZED_QUANTITY_LOT_BOUNDARY_ARTIFACT_NOT_PROOF_OF_REAL_LIQUIDITY_SHORTAGE"
+    },
+    {
+      "extra_bps": 40,
+      "session": "2026-01-06",
+      "side": "SELL",
+      "instrument": "SH510050",
+      "requested_normalized_units": 256.02654572110254,
+      "prior_factor": 0.3905844986438751,
+      "execution_factor": 0.38908886909484863,
+      "prior_raw_equivalent": 100.0,
+      "execution_raw_equivalent": 99.61707913288434,
+      "filled_normalized_units": 0.0,
+      "classification": "NORMALIZED_QUANTITY_LOT_BOUNDARY_ARTIFACT_NOT_PROOF_OF_REAL_LIQUIDITY_SHORTAGE"
+    }
+  ],
+  "actual_raw_integer_share_account_qualified": false,
+  "no_strategy_or_execution_rules_changed_after_2026": true
+}

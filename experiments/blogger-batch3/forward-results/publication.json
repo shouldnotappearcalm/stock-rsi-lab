@@ -1,0 +1,95 @@
+{
+  "frozen_commit_pushed_before_2026_run": "4df93d028081a5d5825e9d3966d92f574d5bfd37",
+  "request_sha256": "54aaf968992a9712f09c17c98137e61b3927a0e044a16c1e8b7398aee623ab5c",
+  "local_full_output_root": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch3-forward-20261101-v1",
+  "all_eight_baseline_and_forward_accounts_published": true,
+  "compressed_decision_receipts": {
+    "baseline/20/faber10/decision_intents.json.gz": {
+      "decompressed_sha256": "20598592db882e756a4f23264f505315611b0e65939e81992da0ea8635591b21",
+      "snapshots": 485
+    },
+    "baseline/20/glaozi50/decision_intents.json.gz": {
+      "decompressed_sha256": "ccaa0577d6114c9e8867a05a4072446b3446b231abccae9dd73b20aba571d3ef",
+      "snapshots": 485
+    },
+    "baseline/40/faber10/decision_intents.json.gz": {
+      "decompressed_sha256": "dbda88f833fec26e0fa941dddea070c32badeb5c00f5bffd08b5ec39ec04ed9a",
+      "snapshots": 485
+    },
+    "baseline/40/glaozi50/decision_intents.json.gz": {
+      "decompressed_sha256": "c34d5120977ad4915a10ca000818c0fc79fd407f861f8ff3ff180d5b90d8224d",
+      "snapshots": 485
+    },
+    "forward/20/faber10/decision_intents.json.gz": {
+      "decompressed_sha256": "941cce3689830bc0ff1708fb7aff809916ca871c0bad9bd7ab8406b881bd5eea",
+      "snapshots": 683
+    },
+    "forward/20/glaozi50/decision_intents.json.gz": {
+      "decompressed_sha256": "248b08356e13f4e928f5e522dec4893207a686ab57f56c84d2eff9dd78a963de",
+      "snapshots": 683
+    },
+    "forward/40/faber10/decision_intents.json.gz": {
+      "decompressed_sha256": "9563368befba12169b9e26089890815c03607d5985bbfaa8211f4ce5467f996a",
+      "snapshots": 683
+    },
+    "forward/40/glaozi50/decision_intents.json.gz": {
+      "decompressed_sha256": "15f0c15f4bd8f54b94a49b230f5d6c50cc0a88afd5838802f89f6f9627246a12",
+      "snapshots": 683
+    }
+  },
+  "public_artifact_sha256": {
+    "audit.json": "4ada6e17c517aebed2d7cf6fff6d262ce86c303bcd704f9682d474d4d12426e1",
+    "baseline/20/faber10/days.csv": "0a45c49f8b900347c6b5023c80b867b40605db27dbb523335008ec949a057627",
+    "baseline/20/faber10/decision_intents.json.gz": "23efd0f8eb3914f64cf0f1e50b35ff9fb8c876e5f01f6313e5ceb6b665846e03",
+    "baseline/20/faber10/holdings.csv": "6ee7a2e12c12a4dbd78f42ec3a95ef4da68df1d2b4eb31799c4c87136110e003",
+    "baseline/20/faber10/metrics.json": "6fd9ebd821bf3c5a356cb6598d3cc3ffb99534fa16aa47d1a3ba544e32f28979",
+    "baseline/20/faber10/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/20/faber10/orders.csv": "7c4693b0c9e2ba2a8b4f67f35f9ff5bd69f80390e98eaca42323e821c9d8cda8",
+    "baseline/20/glaozi50/days.csv": "57a0d706b0e46849f7fc4914986584bc270ca9fe9501c5a5a9f2664749b265f3",
+    "baseline/20/glaozi50/decision_intents.json.gz": "b872fa08a6f446220ae572d5c30ed851ef4b642f9c90bb28495440032209a238",
+    "baseline/20/glaozi50/holdings.csv": "32aa66f9050b0084de5b3c8fcfe8b6a6eaa00e7fd25e6e764c520d64d2a46570",
+    "baseline/20/glaozi50/metrics.json": "94ad7b535ea499c8298ddc0c3959099b241991c017126dbcecdcddf9f1556ac4",
+    "baseline/20/glaozi50/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/20/glaozi50/orders.csv": "ddfaa685d8aa5234cd7d523931583264205f3b2b90097e587490c15f9a3ec7c1",
+    "baseline/40/faber10/days.csv": "3320b230c82ab9264c651a6c6ed2a722d5c746c14de06ff8b2d19f1e88e617ef",
+    "baseline/40/faber10/decision_intents.json.gz": "592b18f4fac7ed9617318e0f1b6a7eef93ac344b0d97efd0220c2579dbfcb117",
+    "baseline/40/faber10/holdings.csv": "5d35ae9578745668ecb75c549512de9038898a346ed23fdb4b1ba1daa6eb9f11",
+    "baseline/40/faber10/metrics.json": "36ddd6fd1f28dce15da1a22d01b08ccfcff8e184bf083f80161656d6cb1566ec",
+    "baseline/40/faber10/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/40/faber10/orders.csv": "747fd30d3b607803ab57bbfafc68af7e4d50c003803edcde8a7975b17842d421",
+    "baseline/40/glaozi50/days.csv": "b855101a01c0f0a14aca948ed95304aad0702ce1f4f045ca45e2092207059639",
+    "baseline/40/glaozi50/decision_intents.json.gz": "912fbf2ac8b77d88af90b9c96ce9ae31a240b90d4982110965dd3315c4e55e27",
+    "baseline/40/glaozi50/holdings.csv": "bcedc3521271a4be6d69e2cfa6f18b8ac29859a5a737e9da80f0728ffad44764",
+    "baseline/40/glaozi50/metrics.json": "7f62e8087319d91c00a76f26a7b9e243c36922c7f63fa07c1fc414dc2aa0c20a",
+    "baseline/40/glaozi50/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/40/glaozi50/orders.csv": "77832cf2f7274c8e980d1ff409e392958787a2cd7bb5f134f0eaccdca40a0d1f",
+    "forward/20/faber10/days.csv": "8acb1e781ce5c64eb9c3085543654b0f6e1f41ab207393355567715742900bc8",
+    "forward/20/faber10/decision_intents.json.gz": "ab4bff0c64fc9042d68c435f607ace0e910f16bfd7a702be6bed6bdb2321b57a",
+    "forward/20/faber10/holdings.csv": "7450bcacf027dedd9733038ae9aaf2349347b2322148fc2c569b686e4f67befe",
+    "forward/20/faber10/metrics.json": "15453a25a36323a2a8c0e268a016b982697218ac56a48504b61f372470d56c25",
+    "forward/20/faber10/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/20/faber10/orders.csv": "f0a94acec2eccef8c030cbf4835d95174618c1a123a405ca23974f8786408dad",
+    "forward/20/glaozi50/days.csv": "ae3ee4cb8a9e785fdcad9e5555f0a84a0f2efe8c7d979323039bcca6e02bcc90",
+    "forward/20/glaozi50/decision_intents.json.gz": "d76671cec44fbb83c5df6fec4df95fc6221e375c5b1cbaef602c414238eea0a5",
+    "forward/20/glaozi50/holdings.csv": "c7a1620bdd98c69c71179ee727b0683331b8193d8655ac74476980b95912dcb4",
+    "forward/20/glaozi50/metrics.json": "4affc06c85996b9418e92440131667bd5e038ea48c468fe395e03ed5f7779b41",
+    "forward/20/glaozi50/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/20/glaozi50/orders.csv": "43087b57aa403f262960dfa59730c1cc55e9fd89a33c2fcbaeec37d368907a4d",
+    "forward/40/faber10/days.csv": "d22018b01bd9b2c1d1f2ff5b3a1806aa2a9d521d24660a9997b14aace0bb2e35",
+    "forward/40/faber10/decision_intents.json.gz": "40ce4e4b50bfe1e7ef595dfedafa8c814794918b562be2b840816b77bd6f9bc9",
+    "forward/40/faber10/holdings.csv": "6a92332b5fd27220241dc61c2879003e535acfa4fc767325d29a0dfe72bfcf88",
+    "forward/40/faber10/metrics.json": "5ff01ff8cf152cf85eb35e6aafbb49dc47cf4b353bfc118840d367c943dc9cb2",
+    "forward/40/faber10/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/40/faber10/orders.csv": "a084653cf562baf1608ab54282764829972253f8e2494f73f06bc59c715f7b3d",
+    "forward/40/glaozi50/days.csv": "72e44989c8603296e19c3124604d7c69c0a7c8243b94b72c4657716c9359f4d6",
+    "forward/40/glaozi50/decision_intents.json.gz": "152233df6bf9cd0e7443bc8d86cd14e79733dba5f4e8a591c0f22f1b4545bf27",
+    "forward/40/glaozi50/holdings.csv": "2302802cf76516122f5ca37c1ec7c2a40d6a867cc64084896be208419698f5a9",
+    "forward/40/glaozi50/metrics.json": "f64be7bfddcbcaf346802a300d9cbe4520df25578f9a91ae1549e555d5522e1e",
+    "forward/40/glaozi50/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/40/glaozi50/orders.csv": "7919e12de4c383bbec56913e42544d232d6c921d72054b83b5affb4671ba3f71",
+    "lot-rounding-diagnostic.json": "c0d4e8c7d9076eb181c8991b1f1267208785bbbdc5da133d71fcaff74fd96186",
+    "terminal.json": "12a1fbf45699cdaa53c5da7b50efb3eb5b585022275b376da1088b4aff7b8b90"
+  },
+  "investment_qualified": false,
+  "objective_achieved": false
+}
