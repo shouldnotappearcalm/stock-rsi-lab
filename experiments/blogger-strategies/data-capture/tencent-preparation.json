@@ -1,0 +1,10 @@
+{
+  "source": "Tencent all13 independent captures; rejected Eastmoney captures retained separately",
+  "warmup_start": "2023-07-03",
+  "last_quote": "2025-12-31",
+  "calendar_file": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/qlib-investment-data-2026-10-13/qlib_bin/calendars/day.txt",
+  "calendar_sha256": "cfd6b5517b418f3979790136389f6fdcf27be60000b04bad9d65814e961e8867",
+  "all_strategy_windows_covered_before2024": true,
+  "provider_mix": false,
+  "2026_prices_captured": false
+}

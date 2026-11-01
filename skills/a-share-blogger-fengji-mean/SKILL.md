@@ -1,5 +1,5 @@
 ---
-name: a-share-blogger-fengji_mean
+name: a-share-blogger-fengji-mean
 description: 回放持有封基公开ETF规则的明确适配版本，保留来源、原规则及补充假设，用于stock-rsi-lab研究。
 ---
 

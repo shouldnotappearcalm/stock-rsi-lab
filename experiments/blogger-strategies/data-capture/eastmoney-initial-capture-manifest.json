@@ -1,0 +1,92 @@
+{
+  "status": "SOURCE_CAPTURE_INCOMPLETE",
+  "receipts": {
+    "SZ159915-hfq": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=2&beg=20221201&end=20251231&secid=0.159915",
+      "status": 200,
+      "sha256": "e1cf442b2e31c8e89c03268d494bb8fb274f8976af812a32396cbb5c58b567a7",
+      "rows": 749
+    },
+    "SH510300-raw": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20221201&end=20251231&secid=1.510300",
+      "status": 200,
+      "sha256": "fbcae9af0ff3c5a6fa5e4db4b9d289c5fb56670e14d42ce9f164dd443f1e101e",
+      "rows": 749
+    },
+    "SH000016-raw": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20221201&end=20251231&secid=1.000016",
+      "status": 200,
+      "sha256": "96a8630b6cc32671caa39d710dae3d654e939c22bb567eeaf11f5209ba8e2c54",
+      "rows": 749
+    },
+    "SH000300-raw": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20221201&end=20251231&secid=1.000300",
+      "status": 200,
+      "sha256": "0fdeab1436169b0c81dd0a061bbd1dc55a05d5ccec57b9190ded1da249325d04",
+      "rows": 749
+    },
+    "SH000905-raw": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20221201&end=20251231&secid=1.000905",
+      "status": 200,
+      "sha256": "77247353284f05ee7065dcf3d8f4f4aba3653207b54b150c181d8e40a11bd823",
+      "rows": 749
+    }
+  },
+  "errors": {
+    "SH518880-raw": {
+      "type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20221201&end=20251231&secid=1.518880"
+    },
+    "SH518880-hfq": {
+      "type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=2&beg=20221201&end=20251231&secid=1.518880"
+    },
+    "SZ159915-raw": {
+      "type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20221201&end=20251231&secid=0.159915"
+    },
+    "SH510050-raw": {
+      "type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20221201&end=20251231&secid=1.510050"
+    },
+    "SH510050-hfq": {
+      "type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=2&beg=20221201&end=20251231&secid=1.510050"
+    },
+    "SH510300-hfq": {
+      "type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=2&beg=20221201&end=20251231&secid=1.510300"
+    },
+    "SH510500-raw": {
+      "type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20221201&end=20251231&secid=1.510500"
+    },
+    "SH510500-hfq": {
+      "type": "RemoteDisconnected",
+      "error": "Remote end closed connection without response",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=2&beg=20221201&end=20251231&secid=1.510500"
+    }
+  },
+  "maximum_queries": 13,
+  "queries_attempted": 13,
+  "2026_price_queries": false,
+  "artifact_sha256": {
+    "SH000016-raw-wire.json": "96a8630b6cc32671caa39d710dae3d654e939c22bb567eeaf11f5209ba8e2c54",
+    "SH000016-raw.json": "adea1858caddab3344c84a091464236bab92668ac680196f7895d29f877951c3",
+    "SH000300-raw-wire.json": "0fdeab1436169b0c81dd0a061bbd1dc55a05d5ccec57b9190ded1da249325d04",
+    "SH000300-raw.json": "2034f70989c439f8516a6382d49b27f5a1d209f9356b3490e97039f528808b11",
+    "SH000905-raw-wire.json": "77247353284f05ee7065dcf3d8f4f4aba3653207b54b150c181d8e40a11bd823",
+    "SH000905-raw.json": "a598f90c888b6f0b791dc0b22b0af27d1e0a6fcea8b19f4674ac1d1d3427bba9",
+    "SH510300-raw-wire.json": "fbcae9af0ff3c5a6fa5e4db4b9d289c5fb56670e14d42ce9f164dd443f1e101e",
+    "SH510300-raw.json": "471751b4534e26a9b201e56c8feb58091173feeb45d3f4e30c2f3b2f2fb6b319",
+    "SZ159915-hfq-wire.json": "e1cf442b2e31c8e89c03268d494bb8fb274f8976af812a32396cbb5c58b567a7",
+    "SZ159915-hfq.json": "dc2a88f5136de7ba317b45c3d675fa517fbe9c9418d56e852c049349aa578912"
+  }
+}
