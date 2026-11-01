@@ -1,0 +1,446 @@
+{
+  "status": "FROZEN_OLD_PREFIX_PLUS_TENCENT_2026_TAIL",
+  "end": "2026-10-30",
+  "next_clock_session": "2026-11-02",
+  "sessions": 807,
+  "old_feature_prefixes": {
+    "features/sh518880/open.day.bin": {
+      "original_sha256": "7f3fd5ec10ed532e7f06843b590644a03266e54181bcb5db50b0308fadbcce44",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh518880/high.day.bin": {
+      "original_sha256": "dbe46cbef23186ae4e45bff528c5ef1e605a4c24fe49122b58e7e1ce34be9a51",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh518880/low.day.bin": {
+      "original_sha256": "56560aa97d9514d77ace9606ac8dc2ec62de54b25b76203a41d1f6d91c471eff",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh518880/close.day.bin": {
+      "original_sha256": "c12d70b1b865ca378d2511ed64352149e2dd75c5f68936d8d5758b910e673fa5",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh518880/factor.day.bin": {
+      "original_sha256": "0f7a8a70931d6ca7a3822a86567cc12805f1bf4652231dcd838848a435629f2d",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh518880/volume.day.bin": {
+      "original_sha256": "2412c2a7c1e7aa157cf306f54a865aa5811ffaf77e8ba2615d12ed88ea15ef05",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh518880/change.day.bin": {
+      "original_sha256": "07d04cecee10c658378b5b72b2231f1b5a79f9790951a940b3234cbba8501dd5",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh518880/buyblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh518880/sellblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sz159915/open.day.bin": {
+      "original_sha256": "781b98e927164d9225fada3b408ce3e741c0f9f401061984de48d6ad13ba38bb",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sz159915/high.day.bin": {
+      "original_sha256": "12e22b4ccbcf7bfac095b4fdd93cc68a21e74c203896645a9d86502c0fd3208e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sz159915/low.day.bin": {
+      "original_sha256": "730220d5d87f741d8ca312ffa9e4f49e217d9a8fbbfbd1d09d9f47b0ae39179c",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sz159915/close.day.bin": {
+      "original_sha256": "a25f386076fb06e9c661eb2a30da49f2212d8d6dff2e6ed70dfe8cec5f48c7b3",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sz159915/factor.day.bin": {
+      "original_sha256": "67ade5f9846a51a231c5b5442f64384d5458e0d6ab9291c275f40a4ab0a0bfb5",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sz159915/volume.day.bin": {
+      "original_sha256": "af2bc903f8bfd961433c820f0dbf50cda621699bb69dd47c35945e9e9e9bf72e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sz159915/change.day.bin": {
+      "original_sha256": "20fcfe9c93b425428998faf34a3b6699fbc7ed768964c7340ebb23776d24d404",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sz159915/buyblock.day.bin": {
+      "original_sha256": "552e92c217825bce318e38d426051ee178f2a0d7a97c9b1eca5b10313a83d974",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sz159915/sellblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510050/open.day.bin": {
+      "original_sha256": "a3d53dc6348b9fb0a2350ad0eecba8cbbf6f3cbce68ba0064d600277add0d850",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510050/high.day.bin": {
+      "original_sha256": "c5b839cef67c83b3f9db0dbf4b3673b480ecf3655db8f54c1dad763458f3ace4",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510050/low.day.bin": {
+      "original_sha256": "56708c4406703d5984e9c9ae043c8dabc5e4431db11fb8b3d95efe4fc19aa91f",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510050/close.day.bin": {
+      "original_sha256": "c8373d9459eaba9fc48b3cbffb56ce2f5ddfd04e90526fe8587c1d50dab5e89a",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510050/factor.day.bin": {
+      "original_sha256": "e355cd84b2390126e12bfbcad37381cf98c12ecd145cc5dac697403105117bec",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510050/volume.day.bin": {
+      "original_sha256": "6dd8b3eb834351c5a89e85feb1f650b4f0299555e4605a12ce91cfb20598ea9a",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510050/change.day.bin": {
+      "original_sha256": "600fd0c845afb6d86723bf957eacf5d15f806a894b66bbe7956291999326f6dd",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510050/buyblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510050/sellblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510300/open.day.bin": {
+      "original_sha256": "4e4f8d56ad279e1e929190e9d4c798ab4754a1b721d4110a917b92d4ca3dd46e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510300/high.day.bin": {
+      "original_sha256": "c45e90d33034d20a3054450c24064a906f980967cd315a54b7c33ad1e9cb94df",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510300/low.day.bin": {
+      "original_sha256": "2c4f3c223a2974d89505d1bfe894498f07503c82c2a11be285f7e41feef7e059",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510300/close.day.bin": {
+      "original_sha256": "be59805391546caf59ab715f77d56081d4f14c6a311c42028a0a834426f6be2e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510300/factor.day.bin": {
+      "original_sha256": "4be610ee2b8501077747e6975f52819813a3a3d8895a2742792ddf556d00040e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510300/volume.day.bin": {
+      "original_sha256": "aca914d079b388fc0ea037c0da4ab9a0343b921900359f81ad2d12a1661afd9e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510300/change.day.bin": {
+      "original_sha256": "04d98825d8f3adba402c2129d9e8a1ee2ed57248753c0d23004911ff34a095ab",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510300/buyblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510300/sellblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510500/open.day.bin": {
+      "original_sha256": "2455c3f4391143b9557d903224caa1f5a9e0cc210e2bba8927d233bc6560f990",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510500/high.day.bin": {
+      "original_sha256": "d2018fe6a7882203cd93d308dab83499639109ef14a84313a5fb913ce866e804",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510500/low.day.bin": {
+      "original_sha256": "cec32684114cc586b657f20381c63276002d73fc842cbcec1905b3f918ea7d49",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510500/close.day.bin": {
+      "original_sha256": "2bf4b5076fd6a1dc45059376d6ff914ce2b932e12406df2cee82169f560d44dc",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510500/factor.day.bin": {
+      "original_sha256": "5d1ba9a2f3ab82d3f24595cb9606d2c4f37a867e4bf20aef8815fbc5759ff645",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510500/volume.day.bin": {
+      "original_sha256": "f9ddbb5bcfa2777799573bb458a2d06e32d372ae78ffb2eec16b9c4768233e25",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510500/change.day.bin": {
+      "original_sha256": "6e8396fa3f7b851d2e86bf2cd58ea5c79ec0a3c23c5e53140ca1b54fa208f200",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510500/buyblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh510500/sellblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000016/open.day.bin": {
+      "original_sha256": "6218cea6038f784930b5528a1750f0bf315098b96bce6ad12121972dfe1e894e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000016/high.day.bin": {
+      "original_sha256": "a5cdad57a77d6a5c7b151722550d58cf918a8b3f80b11d06b06a65a8ad66eeb0",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000016/low.day.bin": {
+      "original_sha256": "08b63f6b2ed1acdedad9af6b07903ab8dbca2e3781f31012b5eba0d98dcfe89e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000016/close.day.bin": {
+      "original_sha256": "f637a4cf52661239d4eb8d9631e85f15705147b6deb4988c0c28f9b8aa8c824c",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000016/factor.day.bin": {
+      "original_sha256": "039b0e58a58b633ca961cafe3479cd2bf7a856cd3dcbb19f1d2aafc5c861b3c5",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000016/volume.day.bin": {
+      "original_sha256": "faa32b7e16f1ddcd07a1406d7cf9a71938c778301837c713443d752480c79133",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000016/change.day.bin": {
+      "original_sha256": "6b32654576487bb4790de1a934baae7bf4eadf98d166c989afd49ae5f9084ae5",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000016/buyblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000016/sellblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000300/open.day.bin": {
+      "original_sha256": "b5bc17c4ed2342118f8873f9ebd93621a7f11b8c5696d44d104ee24e7e714bc9",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000300/high.day.bin": {
+      "original_sha256": "12e31c142c5797b4c81730ed8da2ce5630a76ccc6623a44160fd5f1dbfc145ff",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000300/low.day.bin": {
+      "original_sha256": "81af19b76ca25683de96afc2bf95d77d70733ef3fcff2b6fd195220b80306e2e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000300/close.day.bin": {
+      "original_sha256": "7fb6cf0bfbf0c8d553daa87d9777799e23eb310c0d8fb7ffbeb57e5baace6805",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000300/factor.day.bin": {
+      "original_sha256": "ecd90bd104a0fd3e6d5654217d19a8489cc7528eb02481de0dd2bbf2db0924d8",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000300/volume.day.bin": {
+      "original_sha256": "17a8ee3b70623572fac5e3c2505f993f20a7e5e0eac82fb605e9640bf3e47ca6",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000300/change.day.bin": {
+      "original_sha256": "1f7f35dcd77345a652dae54cf9ee347ed8cad2508088f5b6999dba9f6f1641ed",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000300/buyblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000300/sellblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000905/open.day.bin": {
+      "original_sha256": "e11d01bcd99c9c2415ce16d02185a2dff98a8885800bfce224816fae58628366",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000905/high.day.bin": {
+      "original_sha256": "e59e1345f998372455a4ca4a5ff66736e57e51b8916824cebdeefd33eaa0ed56",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000905/low.day.bin": {
+      "original_sha256": "37da2892128c95a6d57eb7261febca68cc43570624cc2991126eea4b8d46fc56",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000905/close.day.bin": {
+      "original_sha256": "60a0fd870fadff84294f6c77a387cac78b64ef72c1849f8f6d6e744e2c2cd80e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000905/factor.day.bin": {
+      "original_sha256": "1349c3620f08cfb14543f1d64c56b68a662564c88e9654e54c7e5fc9d734da7e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000905/volume.day.bin": {
+      "original_sha256": "6d3adf5e9d51b53a1fab4077774b1de158120c44c70ce30960c44a9fe7854a63",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000905/change.day.bin": {
+      "original_sha256": "e2f95a27a1a0677e66a7d42ede35524d766659e3bb49d81f60f528785913e49e",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000905/buyblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    },
+    "features/sh000905/sellblock.day.bin": {
+      "original_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "original_bytes": 2440,
+      "identical": true
+    }
+  },
+  "all_output_sha256": {
+    "calendars/day.txt": "bd366a84644a7716a1a19f8b403afee6f2e2b9d80c8096556cadbaf03b4ca596",
+    "calendars/day_future.txt": "01ba45942575d79ae5efdec3b8c210961d11c52ba035792b6080a18376300171",
+    "features/sh000016/buyblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh000016/change.day.bin": "24a31b2f6c73f0e713c09d31f73c74e3ef18d0c65c56a5ce324744eb26bb1875",
+    "features/sh000016/close.day.bin": "69d3cbf82a337a533153f2dcffd59b7642daf3cab112d26c97d75d18c7c97e26",
+    "features/sh000016/factor.day.bin": "4a91ab7965130824a5ab1815841c3e9201d9015695faf6dd1719bffe35e272c4",
+    "features/sh000016/high.day.bin": "ba4026447475c8899300ec197bab7d38cc8630db0e74f69a5594d422b66f9dfa",
+    "features/sh000016/low.day.bin": "2d82926ad9d3daae1a48cd212022e1244d45c289dda75584df305138a3283e77",
+    "features/sh000016/open.day.bin": "e13ee14386fd336757332bf76cb3fc62566c2c4ad0c051f57e6dd9a5e52fb7cc",
+    "features/sh000016/sellblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh000016/volume.day.bin": "00db5962112afadfa002293a7836a8915cdb5a938e638c750e9d8ac4b5c5c3fa",
+    "features/sh000300/buyblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh000300/change.day.bin": "e57e2b4041cb5b07b544d3b9376687a3866720815a1d55c0a2719631fe275fa3",
+    "features/sh000300/close.day.bin": "096d26c070ee27648a1a98951df9c98e681efc4ebca1677e7a8a22ea9549c324",
+    "features/sh000300/factor.day.bin": "334e0dd798105c47080a64c011cfb14604418bc775b36805291d044f99f29b2e",
+    "features/sh000300/high.day.bin": "48194635a9edebf269537474568ad3c0f89cf728c205266b3c6e2e15cf1a38ef",
+    "features/sh000300/low.day.bin": "b401ec1c4528e83640415b6d6bd709147c8ac8264c4ce61fc541af2bd6898ea5",
+    "features/sh000300/open.day.bin": "23a1e8f3f91e8172d16d8e4e81c23fcd2b0f5bf40bcb0a4560f1bef1f20f0de3",
+    "features/sh000300/sellblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh000300/volume.day.bin": "c7b63a3f5bfe6b08f761d8a7c732e83cc3a47c2ab2c6772c640a60111efc55af",
+    "features/sh000905/buyblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh000905/change.day.bin": "910252aee4fdcc6472777173ccdecc35e1069218fcc0d6ae0e0b0a4d19603b16",
+    "features/sh000905/close.day.bin": "468e18b5af08d7532235e6aecda4d9b0411c3e02c9c26f19df7ae565f7233397",
+    "features/sh000905/factor.day.bin": "f93d91005935e23a059d3b27842ae5f1fbd6746b1e39beb18d0f9e7f881cb60c",
+    "features/sh000905/high.day.bin": "fce2d8e6d4b4bd7b9ffd7f1983d775f7494ebebf597b3cb9278cc78fc8e1ce68",
+    "features/sh000905/low.day.bin": "0472b00cb74f2d3f85d71bb9e9843c987912c82c16a75c33f5f208f9f26aaef8",
+    "features/sh000905/open.day.bin": "9ffb7c7773d3b902f98c8ea5be68db2252a28c7dcc0d3212366363a3b864f8f4",
+    "features/sh000905/sellblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh000905/volume.day.bin": "73eaad504d926d67e4118046f9817cb0d73b52638d706263f248774e6f7f7246",
+    "features/sh510050/buyblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh510050/change.day.bin": "479e7ba8546da0dc342822bcbde895b51e405ba252e9a578693dba0ee9016a45",
+    "features/sh510050/close.day.bin": "278d2522aa80107fb3862e1f7bb1bd8758510ca32739030cd5ca71be13aa9c5f",
+    "features/sh510050/factor.day.bin": "deeafd86f44cb740920b92cb01451e9d0be3db32c94e3bb7d922acb2ee2c507a",
+    "features/sh510050/high.day.bin": "728067f1be26eb5d0c6c65e7f5348eb817f18d9a45fe32b6dc30a3136380222f",
+    "features/sh510050/low.day.bin": "0373232cf6ecdc2951ba840fde682786fb609b119e99651202fe1febbcdb2504",
+    "features/sh510050/open.day.bin": "f69b5b0ed4d316ad9a05cc97a6a869fc5d4e243002b1ce470d32a7a08dbce932",
+    "features/sh510050/sellblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh510050/volume.day.bin": "85ed1eba8e366b0d007c48ef551115594ee0604fa7c27438c8c9235254b655e9",
+    "features/sh510300/buyblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh510300/change.day.bin": "b4d008ba62dc0e3b7cc58037561a3356bb222539b180bc57559e60b4c67a9572",
+    "features/sh510300/close.day.bin": "927e8ec6d57090dd10dce350cb3823321a5ebfd6d59b6b4c1071d09d2e10edd2",
+    "features/sh510300/factor.day.bin": "ff1b321927710e016f39ca140ed0420437a55c8a70c1ac54092cff499bc4d031",
+    "features/sh510300/high.day.bin": "eb445c38478134a89a7e372c354ceb1f7275d3a793aa6fa4156f61fb35cecf29",
+    "features/sh510300/low.day.bin": "de274a172895620f70bcf47a08a6d779146972dae882d011ef8c3aed286c6190",
+    "features/sh510300/open.day.bin": "e0f08b433e02a0c0af56169334d196e7dbc2ff3576629a72139048fc4f9fc05c",
+    "features/sh510300/sellblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh510300/volume.day.bin": "1353058eba20dd65c40af23fbd559b32d938390d53fb082e971e4251c1b6bb23",
+    "features/sh510500/buyblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh510500/change.day.bin": "f837206e58dfcdb476431348eefbf68e0015a68cf1fb2708529545407f49ecb1",
+    "features/sh510500/close.day.bin": "cb0be97e84b9db825b70cde044731e50bf848a1d7f65628682bbefcb29aa4117",
+    "features/sh510500/factor.day.bin": "dbd691f1a1734a79bae454ecdb0ce11aca655ba1df88c131e8e5e5b3cf230e91",
+    "features/sh510500/high.day.bin": "9ccb928599af01e772d9acc18dcef1a436dc575f343865b8f5e19c6b553bd268",
+    "features/sh510500/low.day.bin": "322413c2b2e44cfe1c683724e0bda5971109a71fe917c86abf49a3fd63f9f9b5",
+    "features/sh510500/open.day.bin": "9512ff008dc34f3290d9c9eb6d05992feeadfdee4cad4d9c68b55f49def4de39",
+    "features/sh510500/sellblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh510500/volume.day.bin": "f4f2d305f8c01401b376683b1d878160a739f9915e9621838130da8f8d979828",
+    "features/sh518880/buyblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sh518880/change.day.bin": "a9137129f366e866dc2b042644b79acc2663f4895021f9870792974eaec6d169",
+    "features/sh518880/close.day.bin": "ef891eeaa6c5a5236867a60f089c7231a48ee082e46c662afd21167e354bee71",
+    "features/sh518880/factor.day.bin": "566999c0f8e841bd935945cfaee5a5d695f5d4829cd88c6ccae68c277e9eaa9c",
+    "features/sh518880/high.day.bin": "868497c0f5ad50450363c9544cc3c819fcd3f3e26fb81e9b453036637c1679ac",
+    "features/sh518880/low.day.bin": "3e4c5a7a9491f06584f8d799e846ff87e1c18323ca444b4eb1f68ca9434522fa",
+    "features/sh518880/open.day.bin": "b1ce9a5bf2017087cd8f6fec9984d8937c64e7bf9130b55303e63cd6c74c9a4c",
+    "features/sh518880/sellblock.day.bin": "99cb743b8420800605c7074935427d31d490abaa745dd849856ab63ad7dae65d",
+    "features/sh518880/volume.day.bin": "76757d26a14b4b069fe7df3b08532815f437a50d52b94cc27478451ea9990edd",
+    "features/sz159915/buyblock.day.bin": "d60176e0ae6897118c090ebc5393c86d7db6857fbc72371be6daaab2964c2999",
+    "features/sz159915/change.day.bin": "59a71544dfdeabd4990d157b3d40d4337a9cf1ada59170777d168095d6394180",
+    "features/sz159915/close.day.bin": "be4ffd0148f0f65757039f66cc2325f9aa19e66fcefb19201a826e87a7b351a9",
+    "features/sz159915/factor.day.bin": "603d04e3911506c1d978d6c1b4ff3fc2e095f37df0f5af8a3a9b1ff9344dd636",
+    "features/sz159915/high.day.bin": "eb17cfd6d1e6875da239bbd2968551f1b5c23784d53867c6177ff568e5b5680c",
+    "features/sz159915/low.day.bin": "e07998d9883f0063efaae875d2d0bd6451ffd919b93cb071e05f673126942f1d",
+    "features/sz159915/open.day.bin": "2918ec9a72e5ac200704e08ce129abeccaad2cce2cd90a04699b3c1d942e7daa",
+    "features/sz159915/sellblock.day.bin": "df66d6e43afb0468eda3149e5eaaffda44271cf157a9d9ea4ff6b6dafccb030c",
+    "features/sz159915/volume.day.bin": "2c171fd46e8918504db94718fcfc8e3361df3be92d4d0435c431cc51209b1fdf",
+    "instruments/all.txt": "49df652878d890eacda31c4f1e73ae9636329d9a912df29c0e94a8e9687c17e7"
+  },
+  "investment_qualified": false
+}

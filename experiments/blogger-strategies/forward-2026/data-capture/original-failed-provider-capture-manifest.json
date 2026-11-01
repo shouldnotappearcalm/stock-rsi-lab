@@ -1,0 +1,100 @@
+{
+  "status": "ALL13_CAPTURED_AND_OVERLAPS_EXACT",
+  "receipts": {
+    "SH518880-raw": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh518880%2Cday%2C2025-12-01%2C2026-10-30%2C640%2C",
+      "sha256": "8a63b0c8a0e5f88aa86f6e9e8b5cfcc094b8c24e954e64d1ccf1a932f7026698",
+      "rows": 221
+    },
+    "SH518880-hfq": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh518880%2Cday%2C2025-12-01%2C2026-10-30%2C640%2Chfq",
+      "sha256": "dc090c63872c464b1610b6db488a02c881340dd113d237052ab2ebd7fa6d634f",
+      "rows": 221
+    },
+    "SZ159915-raw": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159915%2Cday%2C2025-12-01%2C2026-10-30%2C640%2C",
+      "sha256": "90afc3f9428a3cbd3d9235b521e6e1344ada563bbdabf5da74baef3343e9342e",
+      "rows": 221
+    },
+    "SZ159915-hfq": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz159915%2Cday%2C2025-12-01%2C2026-10-30%2C640%2Chfq",
+      "sha256": "4d2719e9811d86fbd02ab769df1154ff5bc4efa93e76a35d0af881e13b06edb9",
+      "rows": 221
+    },
+    "SH510050-raw": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510050%2Cday%2C2025-12-01%2C2026-10-30%2C640%2C",
+      "sha256": "11543032fbdaa767cf83d4e81fe72b1cedb1acd8fd6802bd5dc5b650b44c3ce4",
+      "rows": 221
+    },
+    "SH510050-hfq": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510050%2Cday%2C2025-12-01%2C2026-10-30%2C640%2Chfq",
+      "sha256": "a9bafecb2fb0ef104508f8076b0d626aef3239502201dfd4e433730581c0069c",
+      "rows": 221
+    },
+    "SH510300-raw": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510300%2Cday%2C2025-12-01%2C2026-10-30%2C640%2C",
+      "sha256": "cd6de2ba5e2219fc8d90a0524723509570f70b340c3f87c452ed62fa083f613d",
+      "rows": 221
+    },
+    "SH510300-hfq": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510300%2Cday%2C2025-12-01%2C2026-10-30%2C640%2Chfq",
+      "sha256": "e5dea948fb3d4cff2a867677263088030f53d1a2cc9f57a17d6ca7cae29edb31",
+      "rows": 221
+    },
+    "SH510500-raw": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510500%2Cday%2C2025-12-01%2C2026-10-30%2C640%2C",
+      "sha256": "3d0d25f876d3d48b3d937620a52e4fb495469fa467523aa5ae815e337d58134d",
+      "rows": 221
+    },
+    "SH510500-hfq": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510500%2Cday%2C2025-12-01%2C2026-10-30%2C640%2Chfq",
+      "sha256": "dba76f9a1e7a3036a692f15372cb50a517e7e3363330cd62fb32f5bcf60b0b59",
+      "rows": 221
+    },
+    "SH000016-raw": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000016%2Cday%2C2025-12-01%2C2026-10-30%2C640%2C",
+      "sha256": "a4ef1b8e8ee652edc6165f4904487387ca9590e57a44f425515da848961be651",
+      "rows": 221
+    },
+    "SH000300-raw": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300%2Cday%2C2025-12-01%2C2026-10-30%2C640%2C",
+      "sha256": "610159866ccccbc489472d12a5a40accbc1d38898c54740fa37cb959d5cb5e4b",
+      "rows": 221
+    },
+    "SH000905-raw": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905%2Cday%2C2025-12-01%2C2026-10-30%2C640%2C",
+      "sha256": "62d991b8fc8c3b24584946503b1b31c156aa577730efa4ef3110932f0e4f13ba",
+      "rows": 221
+    }
+  },
+  "errors": {},
+  "maximum_queries": 13,
+  "all_output_sha256": {
+    "SH000016-raw-wire.json": "a4ef1b8e8ee652edc6165f4904487387ca9590e57a44f425515da848961be651",
+    "SH000016-raw.json": "d47c416310698e99d61db0ced13154aa9d28e3694bf8f04c75c4ee7157af10f5",
+    "SH000300-raw-wire.json": "610159866ccccbc489472d12a5a40accbc1d38898c54740fa37cb959d5cb5e4b",
+    "SH000300-raw.json": "a991fa6ab1fa043a834be1aea5724cd6b6a24d176474284369253b54a5809499",
+    "SH000905-raw-wire.json": "62d991b8fc8c3b24584946503b1b31c156aa577730efa4ef3110932f0e4f13ba",
+    "SH000905-raw.json": "a8ff4f0f47f572b1cdaba896ab5f4c1a4a129d43bb436c0c4707df52e118cd13",
+    "SH510050-hfq-wire.json": "a9bafecb2fb0ef104508f8076b0d626aef3239502201dfd4e433730581c0069c",
+    "SH510050-hfq.json": "be10f5735f004822024355afababdcb4c4abd7e09af096c7a7d0a455591974c3",
+    "SH510050-raw-wire.json": "11543032fbdaa767cf83d4e81fe72b1cedb1acd8fd6802bd5dc5b650b44c3ce4",
+    "SH510050-raw.json": "a14ca7a60a3a36287d316a404b9417e3f65ec9da991e41212651e62f216595e5",
+    "SH510300-hfq-wire.json": "e5dea948fb3d4cff2a867677263088030f53d1a2cc9f57a17d6ca7cae29edb31",
+    "SH510300-hfq.json": "17257f907bc39c384cdd174cd636e1aec89954af8926d92585830ea8b19d9cc1",
+    "SH510300-raw-wire.json": "cd6de2ba5e2219fc8d90a0524723509570f70b340c3f87c452ed62fa083f613d",
+    "SH510300-raw.json": "690ee996349180cd29563f3b7b42da3471d59d8bd9a9ddecca0be230bf3c00b8",
+    "SH510500-hfq-wire.json": "dba76f9a1e7a3036a692f15372cb50a517e7e3363330cd62fb32f5bcf60b0b59",
+    "SH510500-hfq.json": "b7ed98b4e3994901ab3c6559bd9c10f1c65163f7c5f50f1e172d52846741d91f",
+    "SH510500-raw-wire.json": "3d0d25f876d3d48b3d937620a52e4fb495469fa467523aa5ae815e337d58134d",
+    "SH510500-raw.json": "81698a467caec2534856ab9edfe9e1f98ed7650b0fd2e519d1e8b6176354611a",
+    "SH518880-hfq-wire.json": "dc090c63872c464b1610b6db488a02c881340dd113d237052ab2ebd7fa6d634f",
+    "SH518880-hfq.json": "63d812b533b3de6f8ec370073a661370a2c17f6934fa256183d4d6cf902fd333",
+    "SH518880-raw-wire.json": "8a63b0c8a0e5f88aa86f6e9e8b5cfcc094b8c24e954e64d1ccf1a932f7026698",
+    "SH518880-raw.json": "9c1f432f584d37400bf76c1318fe4c64b5beb5bd58a5994dcf6e6d363fba3bcc",
+    "SZ159915-hfq-wire.json": "4d2719e9811d86fbd02ab769df1154ff5bc4efa93e76a35d0af881e13b06edb9",
+    "SZ159915-hfq.json": "47e9d5d4156376efa1f960e69f13fd0cf5596be67dcc705e558d9c8c2d9f2082",
+    "SZ159915-raw-wire.json": "90afc3f9428a3cbd3d9235b521e6e1344ada563bbdabf5da74baef3343e9342e",
+    "SZ159915-raw.json": "c5eaf7a8046f6d327a8d79482076db95fef9efdc7e6bbb08cbf2862d5f7b76ec"
+  }
+}

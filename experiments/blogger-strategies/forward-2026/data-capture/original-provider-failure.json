@@ -1,0 +1,9 @@
+{
+  "source_data_root": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-etf-tencent-2026-20261101-v1",
+  "failed_stage": "provider build before strategy ROI",
+  "error_type": "ValueError",
+  "error": "source open contradicts declared provider reference band",
+  "instrument": "SH518880",
+  "date": "2026-02-02",
+  "2026_candidate_returns_computed": false
+}
