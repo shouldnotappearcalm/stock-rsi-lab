@@ -1,0 +1,82 @@
+{
+  "frozen_commit_pushed_before_run": "cf111d0221815512c63752ac7a8027b2afb35904",
+  "request_sha256": "994e17940bd02d4132895a2c688504933f2b1b2d1d807b998ddd3f123eed4266",
+  "local_output_root": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-pre2026-replay-20261101-v1",
+  "local_full_terminal_sha256": "9ae1b1875e8cf69021faaec5c5d19603eb7733d92e03c76f72602db3bd763cb7",
+  "run_is_2024_2025_only": true,
+  "all_six_accounts_published": true,
+  "investment_qualified": false,
+  "objective_achieved": false,
+  "compressed_decision_receipts": {
+    "20/fengji20/decision_intents.json.gz": {
+      "decompressed_sha256": "11adc7258e3dd2c2c717147f180aa9e44d57c1a14673fbfeb73b67dbe921e701",
+      "snapshots": 485
+    },
+    "20/fengji_mean/decision_intents.json.gz": {
+      "decompressed_sha256": "603b9c939dd1939454fee1043c7d64fa65ca063f0b8f4e1d1fd7b76cf7626fef",
+      "snapshots": 485
+    },
+    "20/plus2047/decision_intents.json.gz": {
+      "decompressed_sha256": "982be8040cd8415ea8e70a2478d93c97aab1ad7c30a4822254c68d4104d0236d",
+      "snapshots": 485
+    },
+    "40/fengji20/decision_intents.json.gz": {
+      "decompressed_sha256": "e56ebe7ec395fc2ad5009a520d19bac3e0dd51c902968a93af6490f08c513e9b",
+      "snapshots": 485
+    },
+    "40/fengji_mean/decision_intents.json.gz": {
+      "decompressed_sha256": "2c8531c32eff51cd89e3215acf47d0d3401c6012fafbb9b5a71db19f04a0be88",
+      "snapshots": 485
+    },
+    "40/plus2047/decision_intents.json.gz": {
+      "decompressed_sha256": "7a3634720b67222c1e579c873130bcd71c2f09d2842ae765cae80f80253d0c2b",
+      "snapshots": 485
+    }
+  },
+  "public_artifact_sha256": {
+    "20/fengji20/days.csv": "80b11fb29134ebf35b70e42de38cb1becb6431275d43a7e203355db9dd47c978",
+    "20/fengji20/decision_intents.json.gz": "f5dabdb329f8dfcc6afbca9b46b647b9838a562f2affffc337b704c79664a383",
+    "20/fengji20/holdings.csv": "56ba97af032c6645409fa87fb4a8ebfff576b4762a43a91949c50fde497ceaf7",
+    "20/fengji20/metrics.json": "128fec44ee0fd7e6304c236c0022d11657e9b329d1fbd732a925b1deef3263aa",
+    "20/fengji20/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/fengji20/orders.csv": "bce7054331971c3119022157ec0ecc1ec8eca8ec12053101dda0e628091a85fc",
+    "20/fengji_mean/days.csv": "ece8bed51f5833b572fde88ed79596e7f1e84a291a5227e5e1a2e3bb46990ccf",
+    "20/fengji_mean/decision_intents.json.gz": "382aa507141e154a41a3c8e4fd29f5d1c12ba904c93f3d08624c64eef128a8db",
+    "20/fengji_mean/holdings.csv": "a667f8b23bfc205a3262d3331b34f33f78e6425f027c417939e0f3a60bad4228",
+    "20/fengji_mean/metrics.json": "66cc3ca8b4aea0e15a76c92a55fc8e68c1f0fd7c39bbf4f25c1ff95763d93db8",
+    "20/fengji_mean/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/fengji_mean/orders.csv": "e87163a263f7fb090a7dba79e1401fb0fa2d55c6fc089f9781f6e888365a93aa",
+    "20/plus2047/days.csv": "c2d1d40cb557fce14cb445bfb758103e53f19a2efc20529008ae66927dbe6843",
+    "20/plus2047/decision_intents.json.gz": "e7b2bdc5feca8627c1e375589bdee7c9604f6504ba5a137efec7f1b10faeca16",
+    "20/plus2047/holdings.csv": "bdd9f3276bb4d9c1e669209b9b234e532d8f2e148d1800aa0f03ebd2e3ef07a2",
+    "20/plus2047/metrics.json": "b9a312a5bfa03791ddab819f963d29f5a788758330daaead3761e19998ceecab",
+    "20/plus2047/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/plus2047/orders.csv": "11d4741310959e320161f1c85c7335017cbc4d1e09a85a5705b36a3ac86e5a3f",
+    "40/fengji20/days.csv": "0605d111a321508b1271289c81b4c17f3042255e441ffc4cf79c1fe143312bc4",
+    "40/fengji20/decision_intents.json.gz": "117ef78dcd66aaee2a7e9e7bac5962682c15776418f1fecbae3d5522bfca0545",
+    "40/fengji20/holdings.csv": "aa317ece749908f0ca5118032d237e48ba14dc3d322437aa7d200408dab180fc",
+    "40/fengji20/metrics.json": "f9a59f5dc82b2cb44bc6a2b4a3de06cfc107101cca9d6117ccad8d8df1dbad25",
+    "40/fengji20/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/fengji20/orders.csv": "55ecb40910524821d09e9006be0905ac0895d4356761c5b91952e2918f732b0c",
+    "40/fengji_mean/days.csv": "4ccc98ac9ed474241b6c64b4f97ee48ee2f635ca65271235dab45aa3809a3712",
+    "40/fengji_mean/decision_intents.json.gz": "3f0c6ace886fe79947dbdf44343f2bfd305ebb7237de07081d206b1c192636a0",
+    "40/fengji_mean/holdings.csv": "20dc10adc0f98e24841b0d1689e28b7c88990fa1a93b0551acb7e867aff197e6",
+    "40/fengji_mean/metrics.json": "68510bc4395d16f89a2ade790b03d5d697ac0b8d99e218428c35270940a7b788",
+    "40/fengji_mean/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/fengji_mean/orders.csv": "109515b6f34867ace989d75ef2fea4c9adad9d1326465f60cc1d000f7947276a",
+    "40/plus2047/days.csv": "819afd497f8a4f2cdbe171af5f97a8a7558a606f2d8663d41c09c7bbd3bfb0b4",
+    "40/plus2047/decision_intents.json.gz": "c7ea66fe387c89d2a2d8486c6aeccee0d34970b0e30f6ee049a10f45eb53673f",
+    "40/plus2047/holdings.csv": "97261e8b5394d82aab88306d0c14b319c8bc9d09b7f956b5653229fbb280c45a",
+    "40/plus2047/metrics.json": "4393724dc2136c4a102464e3dca917bc83f0eeac387f85e92d727ae3c299c6a1",
+    "40/plus2047/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/plus2047/orders.csv": "01c11bf443660b8be2548b72c246188254a68322fb5b038dc6a07867be622fff",
+    "audit.json": "bf0821e03ad27704b7237e72d005c3a42c313db7881a33c94b0980ac90b80534",
+    "terminal.json": "9ae1b1875e8cf69021faaec5c5d19603eb7733d92e03c76f72602db3bd763cb7"
+  },
+  "not_redistributed": [
+    "copyrighted full articles",
+    "raw HTTP side quote payloads",
+    "Qlib pickle objects"
+  ],
+  "raw_and_derived_price_input_hashes": "../development-request.json data_sha256; original inputs retained locally"
+}
