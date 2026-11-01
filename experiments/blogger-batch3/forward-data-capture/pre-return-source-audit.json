@@ -1,0 +1,35 @@
+{
+  "stock": {
+    "development": {
+      "stock": {
+        "new_warmup_rows": 322,
+        "overlap_rows_identical": 42,
+        "derived_provider_values_checked": 6741,
+        "historical_arrival_verified": false
+      },
+      "bond_rows_per_mode": 609,
+      "bond_provider_values_checked": 5481,
+      "inactive_bond_rows_preserved": 0,
+      "overlap_rows_identical": 0,
+      "raw_reference_rows": 0,
+      "opening_capacity_verified": false
+    },
+    "prior2026": {
+      "identities": 13,
+      "wire_rows_checked_including_overlap": 10790,
+      "overlap_rows_identical": 299,
+      "reported_reference_rows": 990,
+      "cross_provider_raw_OHLC_values_checked": 3960,
+      "derived_provider_values_checked": 58104,
+      "primary_quote_provider": "TENCENT",
+      "execution_reference_provider_2026": "BAOSTOCK",
+      "exchange_official_reference_or_open_capacity_certified": false
+    }
+  },
+  "bond_rows_per_mode": 807,
+  "bond_provider_values_checked": 7263,
+  "inactive_bond_rows_preserved": 0,
+  "overlap_rows_identical": 46,
+  "raw_reference_rows": 198,
+  "opening_capacity_verified": false
+}

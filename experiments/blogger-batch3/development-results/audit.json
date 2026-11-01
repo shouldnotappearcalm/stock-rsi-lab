@@ -1,0 +1,187 @@
+{
+  "status": "PASS_BATCH3_PERIODS_SOURCES_TARGETS_AND_ALL_LEDGERS",
+  "phase": "development",
+  "request_sha256": "058872008bf8c5aa806fbc1a5d5605e22d1da13bc38ea16c179372c7d8925f78",
+  "terminal_sha256": "9e7c1d6c60edbef9ea351cb2275cdb99305ace04375daf73d60e6070253be95d",
+  "cases": {
+    "20/faber10": {
+      "2024_return_pct": 7.727471904199046,
+      "2025_return_pct": 12.459836751381136,
+      "average_exposure_pct": 80.83297916416178,
+      "max_drawdown_pct": -9.317648772831665,
+      "final_account_CNY": 1211501.3903985221,
+      "cost_pct_initial": 0.23952800871715718,
+      "turnover_x_initial": 0.9581120348686287,
+      "days": 485,
+      "orders": 1,
+      "holding_rows": 407,
+      "unverified_held_marks": 0,
+      "periods": {
+        "2024": {
+          "baseline_CNY": 1000000.0,
+          "ending_nav_CNY": 1077274.7190419903,
+          "net_return_pct": 7.72747190419903,
+          "average_exposure_pct": 65.1215492818637,
+          "max_drawdown_pct": -8.19375055141165,
+          "sessions": 242,
+          "orders": 1,
+          "cost_CNY": 2395.2800871715717,
+          "cost_pct_start_nav": 0.23952800871715718
+        },
+        "2025": {
+          "baseline_CNY": 1077274.7190419903,
+          "ending_nav_CNY": 1211501.3903985221,
+          "net_return_pct": 12.459836751381138,
+          "average_exposure_pct": 96.47975295640926,
+          "max_drawdown_pct": -6.490138410062357,
+          "sessions": 243,
+          "orders": 0,
+          "cost_CNY": 0.0,
+          "cost_pct_start_nav": 0.0
+        }
+      },
+      "snapshots_checked": 485,
+      "formations_checked": 24,
+      "period_rules_and_cash_reservations_recomputed": true
+    },
+    "20/glaozi50": {
+      "2024_return_pct": 9.221922588254516,
+      "2025_return_pct": 6.458205810502804,
+      "average_exposure_pct": 94.41662031393905,
+      "max_drawdown_pct": -3.8100432078222335,
+      "final_account_CNY": 1162756.9913919205,
+      "cost_pct_initial": 0.24549280174535953,
+      "turnover_x_initial": 0.981971206981438,
+      "days": 485,
+      "orders": 6,
+      "holding_rows": 970,
+      "unverified_held_marks": 0,
+      "periods": {
+        "2024": {
+          "baseline_CNY": 1000000.0,
+          "ending_nav_CNY": 1092219.225882545,
+          "net_return_pct": 9.2219225882545,
+          "average_exposure_pct": 94.7058415850099,
+          "max_drawdown_pct": -3.601656643982757,
+          "sessions": 242,
+          "orders": 2,
+          "cost_CNY": 2357.304016922194,
+          "cost_pct_start_nav": 0.2357304016922194
+        },
+        "2025": {
+          "baseline_CNY": 1092219.225882545,
+          "ending_nav_CNY": 1162756.9913919205,
+          "net_return_pct": 6.458205810502825,
+          "average_exposure_pct": 94.12858925386031,
+          "max_drawdown_pct": -2.791605266823901,
+          "sessions": 243,
+          "orders": 4,
+          "cost_CNY": 97.6240005314012,
+          "cost_pct_start_nav": 0.008938132402175777
+        }
+      },
+      "snapshots_checked": 485,
+      "formations_checked": 2,
+      "period_rules_and_cash_reservations_recomputed": true
+    },
+    "40/faber10": {
+      "2024_return_pct": 7.535849497225322,
+      "2025_return_pct": 12.482039430022374,
+      "average_exposure_pct": 80.97737306327093,
+      "max_drawdown_pct": -9.333436445911513,
+      "final_account_CNY": 1209585.166328785,
+      "cost_pct_initial": 0.43115041569088286,
+      "turnover_x_initial": 0.9581120348686287,
+      "days": 485,
+      "orders": 1,
+      "holding_rows": 407,
+      "unverified_held_marks": 0,
+      "periods": {
+        "2024": {
+          "baseline_CNY": 1000000.0,
+          "ending_nav_CNY": 1075358.4949722532,
+          "net_return_pct": 7.53584949722532,
+          "average_exposure_pct": 65.24519176408975,
+          "max_drawdown_pct": -8.209333016408685,
+          "sessions": 242,
+          "orders": 1,
+          "cost_CNY": 4311.504156908829,
+          "cost_pct_start_nav": 0.4311504156908829
+        },
+        "2025": {
+          "baseline_CNY": 1075358.4949722532,
+          "ending_nav_CNY": 1209585.166328785,
+          "net_return_pct": 12.482039430022374,
+          "average_exposure_pct": 96.64481287562415,
+          "max_drawdown_pct": -6.5014786784987715,
+          "sessions": 243,
+          "orders": 0,
+          "cost_CNY": 0.0,
+          "cost_pct_start_nav": 0.0
+        }
+      },
+      "snapshots_checked": 485,
+      "formations_checked": 24,
+      "period_rules_and_cash_reservations_recomputed": true
+    },
+    "40/glaozi50": {
+      "2024_return_pct": 9.033338266900737,
+      "2025_return_pct": 6.452461800944587,
+      "average_exposure_pct": 94.54933306402576,
+      "max_drawdown_pct": -3.8200897413046664,
+      "final_account_CNY": 1160686.727688672,
+      "cost_pct_initial": 0.4422559981381328,
+      "turnover_x_initial": 0.9827911069736284,
+      "days": 485,
+      "orders": 6,
+      "holding_rows": 970,
+      "unverified_held_marks": 0,
+      "periods": {
+        "2024": {
+          "baseline_CNY": 1000000.0,
+          "ending_nav_CNY": 1090333.3826690074,
+          "net_return_pct": 9.03333826690074,
+          "average_exposure_pct": 94.87894077377885,
+          "max_drawdown_pct": -3.607789194280315,
+          "sessions": 242,
+          "orders": 2,
+          "cost_CNY": 4243.147230459948,
+          "cost_pct_start_nav": 0.4243147230459948
+        },
+        "2025": {
+          "baseline_CNY": 1090333.3826690074,
+          "ending_nav_CNY": 1160686.727688672,
+          "net_return_pct": 6.45246180094458,
+          "average_exposure_pct": 94.22108176460058,
+          "max_drawdown_pct": -2.7916553350815105,
+          "sessions": 243,
+          "orders": 4,
+          "cost_CNY": 179.412750921379,
+          "cost_pct_start_nav": 0.016454852595836126
+        }
+      },
+      "snapshots_checked": 485,
+      "formations_checked": 2,
+      "period_rules_and_cash_reservations_recomputed": true
+    }
+  },
+  "source_checks": {
+    "stock": {
+      "new_warmup_rows": 322,
+      "overlap_rows_identical": 42,
+      "derived_provider_values_checked": 6741,
+      "historical_arrival_verified": false
+    },
+    "bond_rows_per_mode": 609,
+    "bond_provider_values_checked": 5481,
+    "inactive_bond_rows_preserved": 0,
+    "overlap_rows_identical": 0,
+    "raw_reference_rows": 0,
+    "opening_capacity_verified": false
+  },
+  "original_replay_comparisons": {},
+  "all_prior_210_files_unchanged": true,
+  "same_researcher_not_independent_assurance": true,
+  "investment_qualified": false,
+  "objective_achieved": false
+}

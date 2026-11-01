@@ -1,0 +1,45 @@
+{
+  "sessions": 485,
+  "net_compound_return_pct": 16.068672768867653,
+  "2024_return_pct": 9.03333826690098,
+  "2025_return_pct": 6.452461800944653,
+  "average_exposure_pct": 94.54933306402562,
+  "max_drawdown_pct": -3.8200897413046664,
+  "cost_pct_initial": 0.4422559981381328,
+  "turnover_x_initial": 0.9827911069736284,
+  "final_account_CNY": 1160686.727688672,
+  "per_year": {
+    "2024": {
+      "baseline_CNY": 1000000.0,
+      "first_session": "2024-01-02",
+      "max_drawdown_pct": -3.6077891942803086,
+      "sessions": 242,
+      "cost_CNY": 4243.147230459948,
+      "orders": 2,
+      "last_session": "2024-12-31",
+      "ending_nav_CNY": 1090333.3826690074,
+      "net_return_pct": 9.033338266900737,
+      "average_exposure_pct": 94.87894077377881,
+      "cost_pct_start_nav": 0.4243147230459948
+    },
+    "2025": {
+      "baseline_CNY": 1090333.3826690074,
+      "first_session": "2025-01-02",
+      "max_drawdown_pct": -2.791655335081522,
+      "sessions": 243,
+      "cost_CNY": 179.412750921379,
+      "orders": 4,
+      "last_session": "2025-12-31",
+      "ending_nav_CNY": 1160686.727688672,
+      "net_return_pct": 6.452461800944587,
+      "average_exposure_pct": 94.22108176460051,
+      "cost_pct_start_nav": 0.016454852595836126
+    }
+  },
+  "orders": 6,
+  "unfilled_orders": 2,
+  "unverified_held_marks": 0,
+  "decision_snapshots": 485,
+  "investment_qualified": false,
+  "opening_capacity_verified": false
+}
