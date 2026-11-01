@@ -1,0 +1,74 @@
+{
+  "end": "2025-12-31",
+  "old_values_unchanged": {
+    "open": {
+      "old_sha256": "a3d53dc6348b9fb0a2350ad0eecba8cbbf6f3cbce68ba0064d600277add0d850",
+      "old_value_bytes": 2436,
+      "prewarm_rows": 140,
+      "all_original_value_bytes_identical": true
+    },
+    "high": {
+      "old_sha256": "c5b839cef67c83b3f9db0dbf4b3673b480ecf3655db8f54c1dad763458f3ace4",
+      "old_value_bytes": 2436,
+      "prewarm_rows": 140,
+      "all_original_value_bytes_identical": true
+    },
+    "low": {
+      "old_sha256": "56708c4406703d5984e9c9ae043c8dabc5e4431db11fb8b3d95efe4fc19aa91f",
+      "old_value_bytes": 2436,
+      "prewarm_rows": 140,
+      "all_original_value_bytes_identical": true
+    },
+    "close": {
+      "old_sha256": "c8373d9459eaba9fc48b3cbffb56ce2f5ddfd04e90526fe8587c1d50dab5e89a",
+      "old_value_bytes": 2436,
+      "prewarm_rows": 140,
+      "all_original_value_bytes_identical": true
+    },
+    "factor": {
+      "old_sha256": "e355cd84b2390126e12bfbcad37381cf98c12ecd145cc5dac697403105117bec",
+      "old_value_bytes": 2436,
+      "prewarm_rows": 140,
+      "all_original_value_bytes_identical": true
+    },
+    "volume": {
+      "old_sha256": "6dd8b3eb834351c5a89e85feb1f650b4f0299555e4605a12ce91cfb20598ea9a",
+      "old_value_bytes": 2436,
+      "prewarm_rows": 140,
+      "all_original_value_bytes_identical": true
+    },
+    "change": {
+      "old_sha256": "600fd0c845afb6d86723bf957eacf5d15f806a894b66bbe7956291999326f6dd",
+      "old_value_bytes": 2436,
+      "prewarm_rows": 140,
+      "all_original_value_bytes_identical": true
+    },
+    "buyblock": {
+      "old_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "old_value_bytes": 2436,
+      "prewarm_rows": 140,
+      "all_original_value_bytes_identical": true
+    },
+    "sellblock": {
+      "old_sha256": "e3341c3186e13ce5b81511d3aa442c73c704a38f108b73cb41e1ae3490ceb346",
+      "old_value_bytes": 2436,
+      "prewarm_rows": 140,
+      "all_original_value_bytes_identical": true
+    }
+  },
+  "initial_old_join_change_and_flags_retained_as_warmup_sentinels": true,
+  "all_output_sha256": {
+    "calendars/day.txt": "17fcf0186eb48d3bb71b6572ff0a8adf727326c529e0c3a84e5ca67cea001aef",
+    "calendars/day_future.txt": "b0850b7a8641ec59ebddaecaedd5bbd77ce4e9764bcca637cbd38f0f38048618",
+    "features/sh510050/buyblock.day.bin": "c81ca5eda5947c7826ad046fdbdc2a25a846b835a6c34c237cc8b3afbe9ec6cc",
+    "features/sh510050/change.day.bin": "041d15d0310c0809757021dd147be18f1abbff6b862e3eddf4c404e0539953a7",
+    "features/sh510050/close.day.bin": "0a796675050e33a3b382ae1798eab606c3890fdb157e6e44258dcef22a9e859c",
+    "features/sh510050/factor.day.bin": "8a9b20652b7105a4730f9705711c42147a8d18608238a98c9a20d47b10fe7cc1",
+    "features/sh510050/high.day.bin": "888907b46a535431893958385ab98e3fb50f95f935b30a152bd12005b53c54ab",
+    "features/sh510050/low.day.bin": "d0faf3943ef8046b765db5bd1dea560660abf910c20a57097a91ce0e96cc7d3a",
+    "features/sh510050/open.day.bin": "c18cd2dc27d08f4f5f6b7e52ee5970848b00ca253b6a3dd1aa04ebbb37612eb3",
+    "features/sh510050/sellblock.day.bin": "c81ca5eda5947c7826ad046fdbdc2a25a846b835a6c34c237cc8b3afbe9ec6cc",
+    "features/sh510050/volume.day.bin": "a37e70afaa5ae979b9b06c939fde901c7f5de88a5efe6bb6f2a19ec44c150c8d",
+    "instruments/all.txt": "2dfc1b7daf8059aa8361c480cc4e79e0df63ac1401f93de4badab29010a8272c"
+  }
+}

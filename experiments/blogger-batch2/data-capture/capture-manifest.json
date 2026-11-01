@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_TWO_WARMUP_SOURCES",
+  "receipts": {
+    "raw": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510050%2Cday%2C2022-12-01%2C2023-07-31%2C640%2C",
+      "wire_sha256": "54e484ca2f98872851d376b4c508c0fb14a6d448e39f60af65bf44076a706f8b",
+      "overlap_rows": 21
+    },
+    "hfq": {
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh510050%2Cday%2C2022-12-01%2C2023-07-31%2C640%2Chfq",
+      "wire_sha256": "da4014f2e56f45e852498265563d70cc47b13ec27348b147d64e54992faa6553",
+      "overlap_rows": 21
+    }
+  },
+  "errors": {}
+}
