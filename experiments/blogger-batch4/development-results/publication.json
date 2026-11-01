@@ -1,0 +1,56 @@
+{
+  "frozen_commit_pushed_before_run": "7c49294ae7aeb29267f4e3ca86f5dad7e8a962cf",
+  "request_sha256": "b408a8b2e9746962c665687f56947625bf971bc0ef89235417af6e25a187052f",
+  "all_four_accounts_published": true,
+  "compressed_decision_receipts": {
+    "20/alvarez2/decision_intents.json.gz": {
+      "decompressed_sha256": "2fd5fd9d589d1e257c8c9b50518f4bcbb3735af90a0f00915173703eaa88cab6",
+      "snapshots": 485
+    },
+    "20/marwood10/decision_intents.json.gz": {
+      "decompressed_sha256": "fe8182880fb3f71875e3cb29811f6d96cad52edbd80450add1b6e0a19569d999",
+      "snapshots": 485
+    },
+    "40/alvarez2/decision_intents.json.gz": {
+      "decompressed_sha256": "cba755a7c11b4872e3c531ef794fdd7a84b1047e41ee71b902d2af92c93a5737",
+      "snapshots": 485
+    },
+    "40/marwood10/decision_intents.json.gz": {
+      "decompressed_sha256": "89edc12f17726034d2c2fdc64bfc37d9df6fc11557d000147e684a0cddbef8d4",
+      "snapshots": 485
+    }
+  },
+  "public_artifact_sha256": {
+    "20/alvarez2/days.csv": "75dcb92f566e06fa315fcf870d00e761862bd7438f717100f907442191456db3",
+    "20/alvarez2/decision_intents.json.gz": "4872686fdcfe40b1593f977eb9873d102acb94dfcdd62b213f57ff5e2366a19f",
+    "20/alvarez2/holdings.csv": "7a1a7a090cef9cc91a010d39360b0c77112115de24e70a61d5b5ef6440a5a2b9",
+    "20/alvarez2/metrics.json": "419ff98641dc9ce8548d616687dee7fbc089f350d2fce2b590206133b19d18d0",
+    "20/alvarez2/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/alvarez2/orders.csv": "c1263295ace12e7b7a6678642913a678269313c504214fd94a3e58636ecb5045",
+    "20/marwood10/days.csv": "b45b30344bb1f5bc87e8271e028cc14f87237d3a819492f453565fadd70686f2",
+    "20/marwood10/decision_intents.json.gz": "5bb5d79244916c25d1100de57f7c98c410bbafbc81f29ead90ad095a3262dfec",
+    "20/marwood10/holdings.csv": "7e15c368fbe3a060901192dba101b0abd76831d61b5e1f757242813d47e3ebf3",
+    "20/marwood10/metrics.json": "4528496755893fab4ceb3062570c6f39b0d5a9d4e8bb2fc64419871529aa9ccc",
+    "20/marwood10/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/marwood10/orders.csv": "0a218abf40209958e7dcd26c8c45d69158ae89dd3480f2f5656b1d0cf3f723ca",
+    "40/alvarez2/days.csv": "90b1becdf28e452c8041fb074e2f24f225673ff38b30778034f91987d30cf468",
+    "40/alvarez2/decision_intents.json.gz": "ec991e22947751362d521d53686e20788cb994d19b0a6e17374f4dc997f6f6ce",
+    "40/alvarez2/holdings.csv": "caaf725990b4dea6f0fed427554ea0ff1c7a030d68f481afdfdf1b10dfd0a947",
+    "40/alvarez2/metrics.json": "9deba6577205e2a763e951951e3b4aa1bdf664d68d44556521e0460a42d78f2d",
+    "40/alvarez2/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/alvarez2/orders.csv": "52d1075784df0f4e099313d1b7b18d753d0b9404ab13dd6813c9218f03eb90d2",
+    "40/marwood10/days.csv": "789bb3410bd94e7e576821c64cf9a13f159ed4173ea36d87cf8e9c1fcdb52753",
+    "40/marwood10/decision_intents.json.gz": "1113d8210bb2773a638576b2cce60adf678b4774b66792d9e82d5e97ea9c1370",
+    "40/marwood10/holdings.csv": "4a7680c5dbd8dacf18751cfbe93b6b1c60ffc8cdc80b5c6b77fbfff672440812",
+    "40/marwood10/metrics.json": "4b3aad2fc7c1b367b567d34e30a848eb08446191c4f5bf4eda17c9d5f851d4a0",
+    "40/marwood10/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/marwood10/orders.csv": "7d566431a51f27f204768f8f0493e2f3935086e03e5ca4e28bfd5ace86671605",
+    "audit.json": "91d93b35829fa63b4ab77c772645b832fe9e899e7717d743ce6293ee95ef5903",
+    "terminal.json": "34a5f4311ffaa5e1d50af9278bbc4b1fd37f925738ee185b5f0d233c7b1690ba"
+  },
+  "local_full_output_root": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch4-development-20261101-v1",
+  "passed_two_year_screen": [],
+  "year2026_candidate_returns_computed": false,
+  "investment_qualified": false,
+  "objective_achieved": false
+}
