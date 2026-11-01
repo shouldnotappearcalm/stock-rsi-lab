@@ -1,0 +1,14 @@
+{
+  "id": "faber10",
+  "source_id": "faber2013",
+  "symbols": [
+    "SH510050"
+  ],
+  "schedule": "MONTH_END_COMPLETED_SESSIONS",
+  "rule": "latest monthly close>mean(last10 month-end closes) hold, < cash, equal retain; cash0",
+  "target_cap": 0.95,
+  "average_exposure_is_hard_gate": false,
+  "cash_proxy": "ZERO_YIELD_CNY",
+  "wake": "15:05 prior actual session; next actual session open proxy",
+  "source_class": "CURRENT_VINTAGE_ADJUSTED_DAILY_ENGINEERING_ONLY"
+}

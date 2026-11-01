@@ -1,0 +1,19 @@
+{
+  "id": "glaozi50",
+  "source_id": "glaozi2023",
+  "symbols": [
+    "SH510050",
+    "SH511010"
+  ],
+  "schedule": "YEAR_END_COMPLETED_SESSIONS",
+  "weights": {
+    "SH510050": 0.475,
+    "SH511010": 0.475
+  },
+  "rule": "annual formed targets frozen; sell first, then actual-cash-funded buys; no daily top-up",
+  "target_cap": 0.95,
+  "average_exposure_is_hard_gate": false,
+  "cash_proxy": "ZERO_YIELD_CNY",
+  "wake": "15:05 prior actual session; next actual session open proxy",
+  "source_class": "CURRENT_VINTAGE_ADJUSTED_DAILY_ENGINEERING_ONLY"
+}

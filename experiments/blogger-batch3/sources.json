@@ -1,0 +1,36 @@
+{
+  "candidate_budget": 2,
+  "sources": [
+    {
+      "id": "faber2013",
+      "author": "Meb Faber",
+      "url": "https://mebfaber.com/2013/06/07/qtaa-paper-update-manage-your-risk-4/",
+      "published_at": "2013-06-07",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch3-sources-20261101/faber2013.html",
+      "sha256": "a27f56316f573b6ca91d350381a9b0b05eca9a7323607c881e018fe0d94d71bd",
+      "rules": "monthly price>10month SMA hold, < cash, monthly only; original total return series, same-close execution, Tbill cash returns, no fees",
+      "evidence": "current primary HTML visible date; not immutable2013 archive; footer has unrelated spam links ignored",
+      "adaptation": "single SH510050, equal holds state, next actual open, zero cash proxy,95% known-close budget and declared fees"
+    },
+    {
+      "id": "glaozi2023",
+      "author": "怪老子",
+      "url": "https://wealth.businessweekly.com.tw/m/GArticle.aspx?id=ARTL006001826&p=2",
+      "published_at": "2023-03-15",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch3-sources-20261101/glaozi2023.html",
+      "sha256": "bdcb1c44ee4dd271359fd8dcee15447cf82df3c3094d7224acb7d8861b7c206a",
+      "rules": "stock/bond50/50, annual or semiannual rebalance; choose predeclared annual version",
+      "evidence": "primary byline and visible date; article HTML publicly returned200, no historical archive",
+      "adaptation": "SH510050 plus SH511010; different equity market/currency and shorter domestic government bond duration than EWT/TLT;47.5% each plus5% cash; next-open sells first before funded buys"
+    },
+    {
+      "id": "gary2015",
+      "author": "Gary Antonacci",
+      "url": "https://www.optimalmomentum.com/dual-relative-absolute-momentum/",
+      "admission": "NOT_IN_FIXED_BATCH",
+      "reason": "article is contextual; full original excess-return/riskfree and asset-mapping conventions not recovered; no invented zero-threshold original"
+    }
+  ],
+  "full_articles_stay_local": true,
+  "selection_basis": "traceable original rules and lower-frequency mechanisms; not2026 outcomes"
+}
