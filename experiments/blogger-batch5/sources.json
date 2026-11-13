@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "id": "hill",
+      "author": "Arthur Hill",
+      "published": "2022-12-03",
+      "url": "https://articles.stockcharts.com/article/articles-arthurhill-2022-12-sp-500-crosses-above-200day-sm-360/",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch5-sources-20261113/hill.html",
+      "sha256": "a0f51937faff51e3f77d91404adb912bb2bb2cb1fc41350bfb7d8a904dd9d7eb",
+      "capture_layer": "HTTP_HTML",
+      "archival_publication_verified": false
+    },
+    {
+      "id": "swanson",
+      "author": "Jeff Swanson",
+      "published": "2021-09-27",
+      "url": "https://easylanguagemastery.com/indicators/price-pattern-or-indicator/",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch5-sources-20261113/swanson.html",
+      "sha256": "333542dbd9d90b5dc0e9fd18edb77a6c91ab429b00231e57afb5e0b8c24e8a13",
+      "capture_layer": "HTTP_HTML",
+      "archival_publication_verified": false
+    }
+  ]
+}

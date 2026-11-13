@@ -1,0 +1,13 @@
+{
+  "id": "swanson32",
+  "source_id": "swanson",
+  "entry": "flat and C < O in each of last three completed sessions",
+  "exit": "held and C > O in each of last two completed sessions; latch until flat",
+  "symbols": [
+    "SH510050"
+  ],
+  "target_cap": 0.95,
+  "wake": "15:05 completed session; next actual open proxy",
+  "average_exposure_is_hard_gate": false,
+  "source_class": "CURRENT_VINTAGE_HFQ_ENGINEERING_ONLY"
+}

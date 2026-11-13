@@ -1,0 +1,13 @@
+{
+  "id": "hill5200",
+  "source_id": "hill",
+  "entry": "SMA5 >= 1.01*SMA200 switches to long; between thresholds hold previous target",
+  "exit": "SMA5 <= 0.99*SMA200 switches to flat",
+  "symbols": [
+    "SH510050"
+  ],
+  "target_cap": 0.95,
+  "wake": "15:05 completed session; next actual open proxy",
+  "average_exposure_is_hard_gate": false,
+  "source_class": "CURRENT_VINTAGE_HFQ_ENGINEERING_ONLY"
+}
