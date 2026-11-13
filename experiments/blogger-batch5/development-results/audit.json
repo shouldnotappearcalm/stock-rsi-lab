@@ -1,0 +1,179 @@
+{
+  "status": "PASS_BATCH5_SOURCES_DAILY_RULES_STATES_AND_ALL_LEDGERS",
+  "phase": "development",
+  "request_sha256": "94174c4e45e478e0e79aa7befe89c7b5966c92967be42071d4c1668cb3805945",
+  "terminal_sha256": "5f698f304c9615c71f0c87f0d189790309b8ec9c1f47a0a26aea535ddb46d874",
+  "cases": {
+    "20/hill5200": {
+      "2024_return_pct": -5.022515557832142,
+      "2025_return_pct": 12.504350120969354,
+      "average_exposure_pct": 77.90823550858099,
+      "max_drawdown_pct": -10.291037490923415,
+      "final_account_CNY": 1068538.0163290573,
+      "cost_pct_initial": 0.6910385774930372,
+      "turnover_x_initial": 2.764154309972149,
+      "days": 485,
+      "orders": 3,
+      "holding_rows": 392,
+      "unverified_held_marks": 0,
+      "periods": {
+        "2024": {
+          "baseline_CNY": 1000000.0,
+          "ending_nav_CNY": 949774.8444216786,
+          "net_return_pct": -5.02251555783214,
+          "average_exposure_pct": 58.92770817133395,
+          "max_drawdown_pct": -8.689703409424965,
+          "sessions": 242,
+          "orders": 3,
+          "cost_CNY": 6910.3857749303725,
+          "cost_pct_start_nav": 0.6910385774930372
+        },
+        "2025": {
+          "baseline_CNY": 949774.8444216786,
+          "ending_nav_CNY": 1068538.0163290573,
+          "net_return_pct": 12.504350120969358,
+          "average_exposure_pct": 96.81065367983098,
+          "max_drawdown_pct": -6.512873325656519,
+          "sessions": 243,
+          "orders": 0,
+          "cost_CNY": 0.0,
+          "cost_pct_start_nav": 0.0
+        }
+      },
+      "snapshots_checked": 485,
+      "source_history_values_checked": 98455,
+      "rule_and_state_recomputed": true
+    },
+    "20/swanson32": {
+      "2024_return_pct": -3.6858542814744655,
+      "2025_return_pct": -3.867140704121663,
+      "average_exposure_pct": 17.26852343580849,
+      "max_drawdown_pct": -8.687233911290871,
+      "final_account_CNY": 925895.4218561738,
+      "cost_pct_initial": 9.201524060021043,
+      "turnover_x_initial": 36.80609624008418,
+      "days": 485,
+      "orders": 40,
+      "holding_rows": 88,
+      "unverified_held_marks": 0,
+      "periods": {
+        "2024": {
+          "baseline_CNY": 1000000.0,
+          "ending_nav_CNY": 963141.4571852554,
+          "net_return_pct": -3.68585428147446,
+          "average_exposure_pct": 19.65063056092394,
+          "max_drawdown_pct": -5.633113463234253,
+          "sessions": 242,
+          "orders": 18,
+          "cost_CNY": 42352.1417401097,
+          "cost_pct_start_nav": 4.23521417401097
+        },
+        "2025": {
+          "baseline_CNY": 963141.4571852554,
+          "ending_nav_CNY": 925895.4218561738,
+          "net_return_pct": -3.8671407041216703,
+          "average_exposure_pct": 14.896219220672936,
+          "max_drawdown_pct": -4.568730082644585,
+          "sessions": 243,
+          "orders": 22,
+          "cost_CNY": 49663.09886010075,
+          "cost_pct_start_nav": 5.156366023869357
+        }
+      },
+      "snapshots_checked": 485,
+      "source_history_values_checked": 98455,
+      "rule_and_state_recomputed": true
+    },
+    "40/hill5200": {
+      "2024_return_pct": -5.575400072968484,
+      "2025_return_pct": 12.531311636809095,
+      "average_exposure_pct": 78.06842782711114,
+      "max_drawdown_pct": -10.654672447952818,
+      "final_account_CNY": 1062572.4080569805,
+      "cost_pct_initial": 1.242356899543856,
+      "turnover_x_initial": 2.7607931100974588,
+      "days": 485,
+      "orders": 3,
+      "holding_rows": 392,
+      "unverified_held_marks": 0,
+      "periods": {
+        "2024": {
+          "baseline_CNY": 1000000.0,
+          "ending_nav_CNY": 944245.9992703152,
+          "net_return_pct": -5.57540007296848,
+          "average_exposure_pct": 59.047544766126116,
+          "max_drawdown_pct": -9.05622228376178,
+          "sessions": 242,
+          "orders": 3,
+          "cost_CNY": 12423.568995438563,
+          "cost_pct_start_nav": 1.2423568995438563
+        },
+        "2025": {
+          "baseline_CNY": 944245.9992703152,
+          "ending_nav_CNY": 1062572.4080569805,
+          "net_return_pct": 12.531311636809091,
+          "average_exposure_pct": 97.01103564916204,
+          "max_drawdown_pct": -6.526642213092958,
+          "sessions": 243,
+          "orders": 0,
+          "cost_CNY": 0.0,
+          "cost_pct_start_nav": 0.0
+        }
+      },
+      "snapshots_checked": 485,
+      "source_history_values_checked": 98455,
+      "rule_and_state_recomputed": true
+    },
+    "40/swanson32": {
+      "2024_return_pct": -6.941637966817094,
+      "2025_return_pct": -7.82968541799619,
+      "average_exposure_pct": 17.30166485276115,
+      "max_drawdown_pct": -14.472469173172852,
+      "final_account_CNY": 857721.8503084468,
+      "cost_pct_initial": 15.984356491706642,
+      "turnover_x_initial": 35.52079220379253,
+      "days": 485,
+      "orders": 40,
+      "holding_rows": 88,
+      "unverified_held_marks": 0,
+      "periods": {
+        "2024": {
+          "baseline_CNY": 1000000.0,
+          "ending_nav_CNY": 930583.6203318291,
+          "net_return_pct": -6.94163796681709,
+          "average_exposure_pct": 19.68855438440437,
+          "max_drawdown_pct": -7.528625863327417,
+          "sessions": 242,
+          "orders": 18,
+          "cost_CNY": 75091.1872837043,
+          "cost_pct_start_nav": 7.509118728370431
+        },
+        "2025": {
+          "baseline_CNY": 930583.6203318291,
+          "ending_nav_CNY": 857721.8503084468,
+          "net_return_pct": -7.829685417996195,
+          "average_exposure_pct": 14.924597911783131,
+          "max_drawdown_pct": -7.829685417996195,
+          "sessions": 243,
+          "orders": 22,
+          "cost_CNY": 84752.3776333621,
+          "cost_pct_start_nav": 9.107443520566262
+        }
+      },
+      "snapshots_checked": 485,
+      "source_history_values_checked": 98455,
+      "rule_and_state_recomputed": true
+    }
+  },
+  "source_checks": {
+    "new_warmup_rows": 322,
+    "overlap_rows_identical": 42,
+    "derived_provider_values_checked": 6741,
+    "historical_arrival_verified": false
+  },
+  "original_replay_comparisons": {},
+  "all_prior_files_unchanged": true,
+  "same_researcher_not_independent_assurance": true,
+  "investment_qualified": false,
+  "objective_achieved": false
+}

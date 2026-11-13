@@ -1,0 +1,53 @@
+{
+  "frozen_commit_pushed_before_run": "81ab1d2",
+  "request_sha256": "94174c4e45e478e0e79aa7befe89c7b5966c92967be42071d4c1668cb3805945",
+  "passed_two_year_screen": [],
+  "year2026_candidate_returns_computed": false,
+  "investment_qualified": false,
+  "compressed_decision_receipts": {
+    "20/hill5200/decision_intents.json.gz": {
+      "decompressed_sha256": "417dd7e51ff583c75651dc10a673957f5bf9bff7c82b9bbc8512a731261d6e68",
+      "snapshots": 485
+    },
+    "20/swanson32/decision_intents.json.gz": {
+      "decompressed_sha256": "acccd5c6b1a549aefb1d259d1f5b87bbe1715147c2fcfb555a90318727ec5c4e",
+      "snapshots": 485
+    },
+    "40/hill5200/decision_intents.json.gz": {
+      "decompressed_sha256": "a6522d115bba673d8a45261e1500c4949d56c13889e8b99dd6d77cc5f81f731a",
+      "snapshots": 485
+    },
+    "40/swanson32/decision_intents.json.gz": {
+      "decompressed_sha256": "6811fa939d5cf5fbfce37e2ae9678d1e957c21d229705aad88fa728801f23ce3",
+      "snapshots": 485
+    }
+  },
+  "public_artifact_sha256": {
+    "20/hill5200/days.csv": "64e2a1b196afdfa25bf574223b648ab819c60dad1c0195c1eee362831c35a9cf",
+    "20/hill5200/decision_intents.json.gz": "9ff226657d376abc9a955667d534c8aa64026aa2e15e11b02e9ef8daa138a90d",
+    "20/hill5200/holdings.csv": "713530d7092adff069381dc68d400177eae6ae1adede847213595f213d9b1930",
+    "20/hill5200/metrics.json": "986c49d17cdb36005739e6e206313dd3eb60a1971761fc822a4b2db6f742bb96",
+    "20/hill5200/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/hill5200/orders.csv": "0f08bc9e0457542e33ec6e5ceb35996b8debde95fcf659096ee02da8027c9fbc",
+    "20/swanson32/days.csv": "5f18c18be327cf2dea77460219e758eca87a9d3963e4908dfa2d9216d528322b",
+    "20/swanson32/decision_intents.json.gz": "8e96ebffec3ee2c07b650b0f1a346d1dcdb88c18b6ef78704aa7e931950bce5b",
+    "20/swanson32/holdings.csv": "f6653dd98f7fd6e2f8e35e37f3658a5e3402b3be5bdc3e62c7a98c96950bcf1b",
+    "20/swanson32/metrics.json": "851edc01506d9a831f586f5f74f2e8465aa45e7ee17f7bf51464de1a6f67a10c",
+    "20/swanson32/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/swanson32/orders.csv": "db0ec9c32801534f3b5dcf758040467b99f9da3f16abf1776e507a4ffcae0163",
+    "40/hill5200/days.csv": "a1647e965ef4c092c116740974d355d5b466dc357d4755560bfd772812a0a05a",
+    "40/hill5200/decision_intents.json.gz": "5be274c853bebb0816addc2cd82a8bb49a514c0dd6157c8aa8b639dde30ad2fd",
+    "40/hill5200/holdings.csv": "424d0da7c5eaef2a7f36c2f80dea8f8537b0a8890d1ec0e88ebe4ca4723eaedd",
+    "40/hill5200/metrics.json": "4393a80847588098975de447b8305f7096e54168477ca8a259d6e4f65373a5a8",
+    "40/hill5200/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/hill5200/orders.csv": "ba2eff08512a5670407a0fbcb36ac374b3370d7ddeb5bcd97d2d0afa050c1a67",
+    "40/swanson32/days.csv": "94c1862dbc0da8818089d9d3e0fcc327864ab2ffcf7412ab838151eede426a63",
+    "40/swanson32/decision_intents.json.gz": "61bc1320dcdde115a8e973756398f5e19a098ac18f6789111db9b962cd5881aa",
+    "40/swanson32/holdings.csv": "e8883cef1307063774dc765a3a7ad9e489b31c461fa6ffd0b731904624518a60",
+    "40/swanson32/metrics.json": "bca399790aa78ee11f57ba15fe5dbb4d5630476bfba8d6009dae79fb516b0a0c",
+    "40/swanson32/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/swanson32/orders.csv": "536685af3764815dd771befb9ba9639ac32b29d8ec719a7c007c4042367531cd",
+    "audit.json": "6d9e48684b1e8ac685f387d4e9df450a27ceb3e67fe0694bdd14b1b00a4d7e13",
+    "terminal.json": "5f698f304c9615c71f0c87f0d189790309b8ec9c1f47a0a26aea535ddb46d874"
+  }
+}
