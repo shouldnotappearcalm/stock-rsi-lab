@@ -1,0 +1,92 @@
+{
+  "frozen_commit_pushed_before_run": "707ad6cb7931f7bee02ec5b9db39715564feab1d",
+  "request_sha256": "d799cbb0a5d325e550fe99978d92fb46e3cbccebb17229ebb7f36f674618a8d6",
+  "year2026_candidate_returns_computed": true,
+  "investment_qualified": false,
+  "compressed_decision_receipts": {
+    "baseline/20/equal4/decision_intents.json.gz": {
+      "decompressed_sha256": "e2ca700fd859114e1c129c49e98119dfe1b4f84a46557cfd50f15006bea334e8",
+      "snapshots": 485
+    },
+    "baseline/20/invvol60/decision_intents.json.gz": {
+      "decompressed_sha256": "d79981543ea5e3e3c9776cb1ade2ad7884345801f0ccf42023c6ff797febae52",
+      "snapshots": 485
+    },
+    "baseline/40/equal4/decision_intents.json.gz": {
+      "decompressed_sha256": "506936bfc6daa31f0b6f2d756e4eb4e0515888af243a99d54ba039b9bf12b92c",
+      "snapshots": 485
+    },
+    "baseline/40/invvol60/decision_intents.json.gz": {
+      "decompressed_sha256": "8ccddf696eda4ddb5dfdcf9e1027ebcf8e6a2cbee582189ac858e1c45ff34229",
+      "snapshots": 485
+    },
+    "forward/20/equal4/decision_intents.json.gz": {
+      "decompressed_sha256": "1427fdb454cd6efa9623efa3de04563abd1854cd0c13635d3517a7e1a2dde08e",
+      "snapshots": 683
+    },
+    "forward/20/invvol60/decision_intents.json.gz": {
+      "decompressed_sha256": "c6c34ea2b127f2523da1df505a1ce412060b4aeb24a1c3510e475c66ab28bdb3",
+      "snapshots": 683
+    },
+    "forward/40/equal4/decision_intents.json.gz": {
+      "decompressed_sha256": "6429f4f6d33d053e0c0f399e3510a02eca145143f7f8c45ce5f2de0c8517bee2",
+      "snapshots": 683
+    },
+    "forward/40/invvol60/decision_intents.json.gz": {
+      "decompressed_sha256": "3dcfb70857f3ad9dcc298a3dd463249853ac3f9f2798a1dedec91bd4c9ec0882",
+      "snapshots": 683
+    }
+  },
+  "public_artifact_sha256": {
+    "audit.json": "cdd529ecee8f20e31acc3e08002bfc13ad70d2de2cd1151da923c4043d325eee",
+    "baseline/20/equal4/days.csv": "6e9389fbf109da25750722368fc50683f54ff6e2194811846ae9d93e04176b96",
+    "baseline/20/equal4/decision_intents.json.gz": "fcc31a27b07461438955ef18a65e8be498ea65b7f94594e63be5902d616b5f50",
+    "baseline/20/equal4/holdings.csv": "03b6361cd6a65b4b3d93fab5b3cdc5bdda7afb2ef6531fc6e1daba6361a26171",
+    "baseline/20/equal4/metrics.json": "584c09a7cfce778afdf53b1bd81a5041c7934ceb875d30841924022753c1f658",
+    "baseline/20/equal4/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/20/equal4/orders.csv": "7c27576998debf77ca7b74527e34c1dd9ad94d38b533ae0248708c9c16222e42",
+    "baseline/20/invvol60/days.csv": "6707aea17172616ad81c225f22fdf06da1e46e7df7c9f16193b423b8b6a57248",
+    "baseline/20/invvol60/decision_intents.json.gz": "c47ce9315708859b11708e48f6df7634755873ac34554300016ac06d3c817bf3",
+    "baseline/20/invvol60/holdings.csv": "2c3aedb1bdd527bac06f61a13d3182e9274f8137aaa283975476495357cef803",
+    "baseline/20/invvol60/metrics.json": "24f33acf027b6692f2eeebb5d2f4c1cfb72e55b4d2ae54c2dde963e8d0996c06",
+    "baseline/20/invvol60/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/20/invvol60/orders.csv": "db4e028ab7f9de5de1d3c77092d18ddf48f6bd5e199604c410174524ac09207f",
+    "baseline/40/equal4/days.csv": "e443af5bd08024c0e6ec5da841888da44d4f0017dca77ed0a3f022e895d16880",
+    "baseline/40/equal4/decision_intents.json.gz": "d512a4dadbbf3ea774c32f6389d012649b8ca359a8617a33f1ad85de558f8926",
+    "baseline/40/equal4/holdings.csv": "f6b877e837f9dfbe02a719cfc6ac4697026b270bbed350fc6711b7009d500aff",
+    "baseline/40/equal4/metrics.json": "dd46e1833793cc4da7652e019d5bccfd5a1468c08dbf74fa727831a9bcaeec2e",
+    "baseline/40/equal4/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/40/equal4/orders.csv": "28a3d4b1fc09ac02ff98456720d9470afc071efe493f32b380d0fb32215aa67d",
+    "baseline/40/invvol60/days.csv": "06f26e6c59bfc73a0f9f9c44e7e80b3e9aaecfc1a0ef49ed501ecec1f125283e",
+    "baseline/40/invvol60/decision_intents.json.gz": "fd3fd8892b2d6a66da73c152297b0211145f657b48d37587e79216a5384da1f8",
+    "baseline/40/invvol60/holdings.csv": "0fdc3400c4fb82dfbb5e21cb8d758ddcbe9c5fc41ff57a4a372a6bd6deca2a51",
+    "baseline/40/invvol60/metrics.json": "7f974b087aede31847035ea9462b1ef593b085dcfc5fd5dc706b02a8a435ff1c",
+    "baseline/40/invvol60/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "baseline/40/invvol60/orders.csv": "4bd00326c5c05bb4a7f39fe820ecad7d292005af5597c6bb4a5b565c2691bd8b",
+    "forward/20/equal4/days.csv": "b8452d22dd39508f7b01c50cddbcbbd16bbaf6f0eef6619e398604be837860be",
+    "forward/20/equal4/decision_intents.json.gz": "73cafa23d130951b4c59178079a45d3b584da37fdb36e58940ca63c61c5adcc3",
+    "forward/20/equal4/holdings.csv": "46e61bd5ad51daf0784b4a5882a903e738df3f37adad960733efb82e37c48dfc",
+    "forward/20/equal4/metrics.json": "881c515de70a2c2470f9215a02c9022ace9dbc27b5124eecf896bfacbbd55530",
+    "forward/20/equal4/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/20/equal4/orders.csv": "b4cef5e0ee6ddbed10721a2faf233d0ecd28b6c7ab297e3e5dccd6af83619c40",
+    "forward/20/invvol60/days.csv": "01ae882cb79fb058e4b5e4bd84610962cba20ec80426f4a758fe02c4a4837525",
+    "forward/20/invvol60/decision_intents.json.gz": "1a184f81eded86a9cc6bf9b0df131c655940dd5d74f69f6683943e8c49f5fd42",
+    "forward/20/invvol60/holdings.csv": "128a9d51a93101e43cf6329cde085e82e6554b17d1cba930bf1a551041b1dd18",
+    "forward/20/invvol60/metrics.json": "b10ce82f68bc331dc296da316af676498b58bccc8d6589991d2e3d6112d5f58c",
+    "forward/20/invvol60/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/20/invvol60/orders.csv": "f6feeae7da41c57eb7bc648e65738b96e8c065852f477b28c7218d104333039b",
+    "forward/40/equal4/days.csv": "8b03750c12b23feffdc15135755adbef2aae1c836483b656e54e037e798bc7ac",
+    "forward/40/equal4/decision_intents.json.gz": "e51ff4e01ccf430744fce80e89e3ff8477be9c545b777bc8a95a80f3521d5657",
+    "forward/40/equal4/holdings.csv": "3704687577ed732ed7ddaa4b829cb82dd9d5384f3b3488d0784fc1c947eff220",
+    "forward/40/equal4/metrics.json": "f513d9b07ef9aebde162ade371cbcd7108558859c01fefd5281f44f6cc3ebd1d",
+    "forward/40/equal4/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/40/equal4/orders.csv": "1d6e2eff4d3b5ad2a7c8b12ff8f34e505cf1785023869a5c0d5707ebf7683c2a",
+    "forward/40/invvol60/days.csv": "04ec8acc6cc1226b3ac9cb048d59b8f7af6e756e492e1030318bc8543f909959",
+    "forward/40/invvol60/decision_intents.json.gz": "c727d664d92578f9f7f2bb46d450e76d8e8115ba1b07e879aa63acd82820110a",
+    "forward/40/invvol60/holdings.csv": "47c87b2eefb0781c2a6b2bd771908b1d3583cb3d20b1b840fd71a6f64da17cf0",
+    "forward/40/invvol60/metrics.json": "1c4ba82268f96340806589344a971c1e9f7e5a96867737c2e7a2f9d622facdfe",
+    "forward/40/invvol60/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "forward/40/invvol60/orders.csv": "9f698b11327408877bf16308685d2a80c9f9b1175d8cc3255c6d2cf8feb3ad40",
+    "terminal.json": "1e49f7e079df8cebed6802dd5c7ac058c0dfa13e59bef72d888da67c48603d07"
+  }
+}

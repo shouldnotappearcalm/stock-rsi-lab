@@ -19,6 +19,8 @@
 | Jeff Swanson 三阴入、两阳出适配 | [配置](../skills/a-share-blogger-swanson32/skill.json) | [2024/25在40bp为-6.94%/-7.83%，未入2026](research/blogger-batch5-results-2026-11-13.md) |
 | McConnell / Xu 月末四交易日适配 | [配置](../skills/a-share-blogger-monthturn4/skill.json) | [2024/25在40bp为-5.07%/-15.69%，未入2026](research/blogger-batch6-results-2026-11-14.md) |
 | Bouman / Jacobsen Halloween适配 | [配置](../skills/a-share-blogger-halloween6/skill.json) | [2024/25在40bp为+5.66%/-0.80%，未入2026](research/blogger-batch6-results-2026-11-14.md) |
+| 四ETF月度等权 | [配置](../skills/a-share-blogger-equal4/skill.json) | [2024/25通过，2026年1–10月40bp为-13.25%](research/blogger-batch7-results-2026-11-14.md) |
+| 四ETF月度逆波动60日 | [配置](../skills/a-share-blogger-invvol60/skill.json) | [2024/25通过，2026年1–10月40bp为-8.17%](research/blogger-batch7-results-2026-11-14.md) |
 
 表内40bp均指基础费用之外的额外单边压力成本；不同市场/个股/ETF适配及截止日期按各原报告，不能混为同一标准。平均仓位只报告，不设助手自行添加的硬门槛。2026已曝光，后续研究不得用其反调规则。
 
@@ -31,3 +33,5 @@
 第五批加入Hill、Swanson，共十三套。[保留清单](../experiments/strategy-library/retained-before-batch5-2026-11-13.json)绑定此前340份文件；本批四个账户及审核完整公开。
 
 第六批加入两套日历规则，共十五套。[保留清单](../experiments/strategy-library/retained-before-batch6-2026-11-14.json)绑定此前374份文件；两个成本档的全部账户与复算一并公开。
+
+第七批新增两套四ETF月度配置，现共十七套。[保留清单](../experiments/strategy-library/retained-before-batch7-2026-11-14.json)绑定此前408份文件；两套均通过开发筛选，2026两个成本档全部公开。
