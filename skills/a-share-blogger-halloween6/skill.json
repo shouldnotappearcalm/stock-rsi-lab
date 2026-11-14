@@ -1,0 +1,12 @@
+{
+  "id": "halloween6",
+  "source_id": "halloween",
+  "rule": "Hold on exchange sessions in November through April; otherwise cash",
+  "symbols": [
+    "SH510050"
+  ],
+  "target_cap": 0.95,
+  "wake": "15:05 completed session; next actual open proxy",
+  "average_exposure_is_hard_gate": false,
+  "source_class": "CURRENT_VINTAGE_HFQ_ENGINEERING_ONLY"
+}

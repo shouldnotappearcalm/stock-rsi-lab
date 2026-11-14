@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "id": "monthturn",
+      "author": "John J. McConnell and Wei Xu",
+      "published": "2008-03",
+      "url": "https://business.purdue.edu/faculty/mcconnell/publications/Equity-Returns-at-the-Turn-of-the-Month.pdf",
+      "citation": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1135217",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch6-sources-20261114/monthturn.pdf",
+      "sha256": "ff96e65274af4f3651a37a05e42944bda89b8e5ee58a9b1397e18fd1051237ca",
+      "capture_layer": "HTTP_PDF"
+    },
+    {
+      "id": "halloween",
+      "author": "Sven Bouman and Ben Jacobsen",
+      "published": "2002-12",
+      "url": "https://www.thomas-renault.com/python/Bouman2002.pdf",
+      "citation": "https://doi.org/10.1257/000282802762024683",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch6-sources-20261114/halloween.pdf",
+      "sha256": "32e6f39d6ac948bccec446b51f3c002f62636db08ff1b2ffe7ff8d146f9251a4",
+      "capture_layer": "HTTP_PDF"
+    }
+  ]
+}
