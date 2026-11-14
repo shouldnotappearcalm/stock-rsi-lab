@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "equal4",
+      "authors": "DeMiguel, Garlappi and Uppal",
+      "published": "2009-05",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1376199",
+      "doi": "10.1093/rfs/hhm075",
+      "capture_layer": "PRIMARY_ABSTRACT_VERIFIED_VIA_SEARCH",
+      "direct_capture_attempts": [
+        "Nova mirror HTTP404",
+        "SSRN HTTP403",
+        "OUP HTTP403"
+      ],
+      "rule_summary": "Allocate 1/N of investable wealth to each asset."
+    },
+    {
+      "id": "invvol60",
+      "authors": "Asness, Frazzini and Pedersen",
+      "published": "2011-05-18 draft",
+      "url": "https://w4.stern.nyu.edu/facdir/lpederse/papers/LeverageAversionRP.pdf",
+      "capture": "/Users/calm/dev/git_repo/stock-rsi-lab/data/local/blogger-batch7-sources-20261114/invvol.pdf",
+      "sha256": "72c3ee8bcc392db5a324af7b49a0be1446161f6f796d5c67cae7061d13277c2e",
+      "capture_layer": "HTTP_AUTHOR_PDF",
+      "rule_summary": "Normalize inverse asset volatilities at month-end; original volatility input uses monthly excess returns."
+    }
+  ]
+}

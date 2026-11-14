@@ -1,0 +1,13 @@
+{
+  "id": "invvol60",
+  "rule": "Monthly 95% allocation in proportion to inverse 60-day sample volatility",
+  "symbols": [
+    "SH510300",
+    "SH510500",
+    "SH518880",
+    "SZ159915"
+  ],
+  "target_cap": 0.95,
+  "average_exposure_is_hard_gate": false,
+  "source_class": "CURRENT_VINTAGE_HFQ_ENGINEERING_ONLY"
+}
