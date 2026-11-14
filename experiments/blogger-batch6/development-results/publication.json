@@ -1,0 +1,53 @@
+{
+  "frozen_commit_pushed_before_run": "6c6cd8a3d84949b52287cbd9cf813a2b65d93dfe",
+  "request_sha256": "69ee47097a18818aec8df0776829a03310eb1f3fb67137d8f58e3be664de9a4a",
+  "passed_two_year_screen": [],
+  "year2026_candidate_returns_computed": false,
+  "investment_qualified": false,
+  "compressed_decision_receipts": {
+    "20/monthturn4/decision_intents.json.gz": {
+      "decompressed_sha256": "2a5c786ce113e1216d64817ba708d21e5eb36cf5a6db851c6c6380b0da5e0334",
+      "snapshots": 485
+    },
+    "20/halloween6/decision_intents.json.gz": {
+      "decompressed_sha256": "956d621ec2baa555b91cd7068d8861172b546476e688ed74ffe6d5ee3e80bd32",
+      "snapshots": 485
+    },
+    "40/monthturn4/decision_intents.json.gz": {
+      "decompressed_sha256": "dd12d6ef5e4a4d15e66f44cb1d3d84ea45b37926c11119d46d0454f802e2e4bd",
+      "snapshots": 485
+    },
+    "40/halloween6/decision_intents.json.gz": {
+      "decompressed_sha256": "846dabfbcb3f29fc67794c99f942a4adee095e700689b66fdb5145a7aed4372d",
+      "snapshots": 485
+    }
+  },
+  "public_artifact_sha256": {
+    "20/halloween6/days.csv": "1a4200cd5f1833121dacea8d7bd6294f7c99254bbed7b3d20dcd778bc3f7fc5f",
+    "20/halloween6/decision_intents.json.gz": "da17d3fdc17d68c2d18a0b506a0a91f4fcaaf1a67bce98e31cc21cbe5867bc4c",
+    "20/halloween6/holdings.csv": "c33853d6bc563112749b729229438e69f245c254ec6be972de07848a5dd80804",
+    "20/halloween6/metrics.json": "b5f849fd975d8e2d70925fb9384be3d5828d4bee2402c8900664d2e67847d537",
+    "20/halloween6/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/halloween6/orders.csv": "afd65e304296609e7d5e3e5bb3fbcf618054c39287e37ba3fd715dcd1ad95bbd",
+    "20/monthturn4/days.csv": "f8bb70912b657fd19d8e3ce7cbfddae4e261f7d84c73fce7486b39d59d7551aa",
+    "20/monthturn4/decision_intents.json.gz": "b3eeb0dd81c31a42f7572be197cc8ca2dd41f044fd97be94192e90308bb18df7",
+    "20/monthturn4/holdings.csv": "fae1b73dbffaaf672870e6b7163b2f55b0e577513201ec14d3a5c4e32674b2ba",
+    "20/monthturn4/metrics.json": "86f8b55db9c9695ca968025dc012a254500d4fffcf14403f91054a15a602cd76",
+    "20/monthturn4/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "20/monthturn4/orders.csv": "428edee419d5ab2ea87d742c73829a5bc954defb49bf990d3996f4782d80e2ef",
+    "40/halloween6/days.csv": "6d8aa158a345f92a7660646f1fd3cfb629b86e023f1f3c1a84dfdd88f1422444",
+    "40/halloween6/decision_intents.json.gz": "213714968ba351a9e8be50254b89b33afaa78c5faaf05f59a179be3bdfb0dea6",
+    "40/halloween6/holdings.csv": "7f6c8725cb272f75bf9fa99739b4be2213e731390a03733ff0e1ec8a4a8cde9e",
+    "40/halloween6/metrics.json": "d86ce3c6f99ff79bf9c30e0c37482181953bbb98b85bab19314a02534830f8dd",
+    "40/halloween6/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/halloween6/orders.csv": "72e0a684cdb89d072926280334feb7d2d6b0d6fd20b2c4ee4804b9f332660d4a",
+    "40/monthturn4/days.csv": "532d939af43583f34430928a8f3e81fd5eb0627cf53fe1a3f942d55a79b04980",
+    "40/monthturn4/decision_intents.json.gz": "d335b971bbd1aead99e8489c702c38cc18d141377513a6b2b56a1f9b530cd778",
+    "40/monthturn4/holdings.csv": "8d82de3a474a61ee5951b8c8748858aa1eb5388060cf3e91c3fcbccb91598e73",
+    "40/monthturn4/metrics.json": "6883feac2b005499729781dec01255f32be9a86a3f02703432088405781d18c0",
+    "40/monthturn4/missing-held-marks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "40/monthturn4/orders.csv": "91f32f8df16e0489cb6b312003acbae60b6fb8b9c266240c217bab24f1431556",
+    "audit.json": "ba181bbe78d38964f39af8315f007f1ab08661662523364fbe55d6f0f897ac79",
+    "terminal.json": "54d3dd5018d8e2a3526e0032b0310e625bec5cc4b00a6d5421c6ac0caec43755"
+  }
+}
